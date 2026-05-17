@@ -21,3 +21,8 @@ Each volume directory has its own `README.md` with status, contents, and transla
     `(I, N.M.K)` for cross-chapter references.
 - Mark original page transitions inline as HTML comments (`<!-- original page n -->`).
 - Revise prose for English mathematical idiom while preserving Grothendieck's architectural voice.
+
+## Source
+
+The French source text was drawn from the Grothendieck Circle's archive of Grothendieck's published writings:
+<https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php>.
