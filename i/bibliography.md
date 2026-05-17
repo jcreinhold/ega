@@ -54,4 +54,3 @@ fields_, Mem. Amer. Math. Soc., no. 5, 1951.
 [21] O. **Zariski**, _A new proof of Hilbert's Nullstellensatz_, Bull. Amer. Math. Soc. **53** (1947), 362–368.
 
 [22] E. **Kähler**, _Geometria Arithmetica_, Ann. di Mat. (4) **45** (1958), 1–368.
-

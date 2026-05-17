@@ -6,8 +6,8 @@ English markdown translation of
 > des faisceaux cohérents_, Publications mathématiques de l'IHÉS, **Première partie**: tome **11** (1961), pp. 5–167;
 > **Seconde partie**: tome **17** (1963), pp. 5–91.
 
-Source PDFs live at  and  (numdam scans). Citation
-identifiers: [numdam.org/item?id=PMIHES_1961\_\_11\_\_5_0](http://www.numdam.org/item?id=PMIHES_1961__11__5_0) and
+Source PDFs live at and (numdam scans). Citation identifiers:
+[numdam.org/item?id=PMIHES_1961\_\_11\_\_5_0](http://www.numdam.org/item?id=PMIHES_1961__11__5_0) and
 [numdam.org/item?id=PMIHES_1963\_\_17\_\_5_0](http://www.numdam.org/item?id=PMIHES_1963__17__5_0).
 
 ## Contents

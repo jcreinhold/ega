@@ -4,8 +4,7 @@
 
 <!-- label: I.8 -->
 
-> **Translation status.** Skeleton with definitions and principal statements; full proofs reference
-> .
+> **Translation status.** Skeleton with definitions and principal statements; full proofs reference .
 
 ### 8.1. Allied local rings
 
@@ -65,4 +64,3 @@ over a field.
 
 A _Chevalley scheme_ over a field `K` is an integral algebraic `K`-scheme (in the EGA sense) — i.e., a finite-type,
 separated, integral `K`-scheme. The terminology is preserved historically; see (8.2.7).
-

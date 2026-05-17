@@ -1591,4 +1591,3 @@ that `f(x'') = y''`, and as `x'' ∈ f⁻¹(Y')`, one has necessarily `x'' = x'`
 proof.
 
 *(To be continued.)*
-

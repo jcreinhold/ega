@@ -8,7 +8,7 @@ than scan OCR; English-source rather than French-source) are recorded here.
 ## 1. Inherited from EGA IV
 
 The full EGA IV conventions transfer unchanged: the terminology table, math glyphs and Unicode policy, block label
-format (`<!-- label: V.N.M.K -->`), numbered display blocks in fenced ` ```text ` blocks, page-break comments
+format (`<!-- label: V.N.M.K -->`), numbered display blocks in fenced ```` ```text ```` blocks, page-break comments
 (`<!-- original page N -->`), source-trace footer format, translator-note guidance, modality preservation, cohomology
 and spectral-sequence rendering, differential and formal-smoothness notation, regular-immersion and divisor vocabulary,
 and the citation forms for `(I, …)`, `(II, …)`, `(III, …)`, `(IV, …)`, `(0_III, …)`, `(0_IV, …)`, `(M, …)`, `(G, …)`,
@@ -41,12 +41,12 @@ EGA V is the never-published fifth volume; we cite it as Chapter V. The §V.N.M.
 Grothendieck's prenotes were drafted under the EGA IV numbering and renumbered into EGA V only after EGA IV's Part 1
 appeared in 1964. The mapping from prenote section to EGA V section is:
 
-| EGA V (this edition) | Originally drafted as              | Topic                                                    |
-| -------------------- | ---------------------------------- | -------------------------------------------------------- |
-| §V.1                 | EGA IV §16                         | Singular and supersingular zeros; differential criteria  |
-| §§V.2.15, V.2.16     | EGA IV §§17.15, 17.16              | Jacobian and regularity supplements                      |
-| §V.5                 | EGA IV §20                         | Hyperplane sections and conic projections                |
-| §V.6                 | EGA IV §21                         | Invertible sheaves; divisors; linear systems             |
+| EGA V (this edition) | Originally drafted as | Topic                                                   |
+| -------------------- | --------------------- | ------------------------------------------------------- |
+| §V.1                 | EGA IV §16            | Singular and supersingular zeros; differential criteria |
+| §§V.2.15, V.2.16     | EGA IV §§17.15, 17.16 | Jacobian and regularity supplements                     |
+| §V.5                 | EGA IV §20            | Hyperplane sections and conic projections               |
+| §V.6                 | EGA IV §21            | Invertible sheaves; divisors; linear systems            |
 
 The section opening of each translated file states this correspondence inline. Inside-the-section cross-references to
 "old §N" are normalized to `(formerly IV, N)` at first occurrence and to plain `(V, M)` afterwards.
@@ -59,8 +59,8 @@ structural sketches, "would be better as Proposition" remarks, and untrimmed Fre
 
 ### Grothendieck marginal notes
 
-Render Grothendieck's author-to-self comments as italicized translator-marked inserts. For short inline asides
-("It would be a good thing to summarize the above construction into a Proposition 6"):
+Render Grothendieck's author-to-self comments as italicized translator-marked inserts. For short inline asides ("It
+would be a good thing to summarize the above construction into a Proposition 6"):
 
 ```markdown
 … defined by the vanishing of this section, whose underlying set is the right one.
@@ -79,8 +79,8 @@ that is the prenote character the reader needs.
 ### `[Tr.]` translator queries
 
 Blass occasionally inserts `[Tr]` or `[Tr.]` queries (typically uncertainties about a French phrase, an ambiguous
-notation, or a notational guess). Render these as numbered footnotes at the section foot, with key `[^v-N-k]` where
-`N` is the §V section number and `k` is a per-section running index. The footnote body begins "Translator's note:".
+notation, or a notational guess). Render these as numbered footnotes at the section foot, with key `[^v-N-k]` where `N`
+is the §V section number and `k` is a per-section running index. The footnote body begins "Translator's note:".
 
 ```markdown
 … the elongated `G` is the tangent sheaf.[^v-1-1]
@@ -123,26 +123,26 @@ preserve the French in a translator footnote with the literal English gloss.
 All math notation inherits EGA IV. The Blass files render OCR fragments in non-standard forms (e.g. `Ω1X/k`, `mX /m2X`,
 `d2X/Y φ`, `PX/Y2`); these are normalized:
 
-| Blass OCR form         | Normalized rendering          | Notes                                              |
-| ---------------------- | ----------------------------- | -------------------------------------------------- |
-| `Ω1X/k`                | `Ω^1_{X/k}`                   | Subscripts via underscores; superscripts via `^`.  |
-| `mX /m2X`              | `𝔪_X / 𝔪_X²`                  | Fraktur for local maximal ideals; Unicode `²`.    |
-| `m2X /m3X`             | `𝔪_X² / 𝔪_X³`                 |                                                    |
-| `Sym(mX /m2X )`        | `Sym(𝔪_X / 𝔪_X²)`             |                                                    |
-| `Sym2 (Ω1X/Y )`        | `Sym²(Ω^1_{X/Y})`             |                                                    |
-| `OX`, `OY`             | `𝒪_X`, `𝒪_Y`                  | Script 𝒪.                                          |
-| `d2X/Y φ`              | `d²_{X/Y} φ`                  |                                                    |
-| `PX/Y2`                | `𝒫^2_{X/Y}`                   | Script 𝒫 for principal parts (cf. EGA IV §0_IV.20). |
-| `d0φ`, `d1φ`, `d2φ`    | `d⁰φ`, `d¹φ`, `d²φ`           | Unicode superscripts.                              |
-| `V (φ)sing`            | `V(φ)_sing`                   |                                                    |
-| `V (φ)sup sing`        | `V(φ)_{sup sing}`             | Or `V(φ)_supsing` for compactness; both acceptable. |
-| `Λ1`, `Λ`              | `Λ¹`, `Λ`                     | Use Unicode superscripts; reserve `^` for arbitrary exponents. |
-| `det`, `Sym`           | `det`, `Sym`                  | Unaltered.                                         |
-| `≃ (≈)`                | `≅`                           | Blass uses both `≃` and `≈` inconsistently; standardize to `≅` for isomorphism. |
-| `→`, `↦`               | `→`, `↦`                      | Unaltered.                                         |
-| `i.e.`                 | "that is", "i.e."             | Modernize when verbose; preserve as `i.e.` in technical asides. |
-| `e.g.`                 | "for example", "e.g."         | Modernize when verbose.                            |
-| `(K)`, `(Tr)`          | Strip from prose; footnote if `Tr`. | The `(K)`-style "key" markings in the Blass margins are editorial; they are not part of the mathematics. |
+| Blass OCR form      | Normalized rendering                | Notes                                                                                                    |
+| ------------------- | ----------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `Ω1X/k`             | `Ω^1_{X/k}`                         | Subscripts via underscores; superscripts via `^`.                                                        |
+| `mX /m2X`           | `𝔪_X / 𝔪_X²`                        | Fraktur for local maximal ideals; Unicode `²`.                                                           |
+| `m2X /m3X`          | `𝔪_X² / 𝔪_X³`                       |                                                                                                          |
+| `Sym(mX /m2X )`     | `Sym(𝔪_X / 𝔪_X²)`                   |                                                                                                          |
+| `Sym2 (Ω1X/Y )`     | `Sym²(Ω^1_{X/Y})`                   |                                                                                                          |
+| `OX`, `OY`          | `𝒪_X`, `𝒪_Y`                        | Script 𝒪.                                                                                                |
+| `d2X/Y φ`           | `d²_{X/Y} φ`                        |                                                                                                          |
+| `PX/Y2`             | `𝒫^2_{X/Y}`                         | Script 𝒫 for principal parts (cf. EGA IV §0_IV.20).                                                      |
+| `d0φ`, `d1φ`, `d2φ` | `d⁰φ`, `d¹φ`, `d²φ`                 | Unicode superscripts.                                                                                    |
+| `V (φ)sing`         | `V(φ)_sing`                         |                                                                                                          |
+| `V (φ)sup sing`     | `V(φ)_{sup sing}`                   | Or `V(φ)_supsing` for compactness; both acceptable.                                                      |
+| `Λ1`, `Λ`           | `Λ¹`, `Λ`                           | Use Unicode superscripts; reserve `^` for arbitrary exponents.                                           |
+| `det`, `Sym`        | `det`, `Sym`                        | Unaltered.                                                                                               |
+| `≃ (≈)`             | `≅`                                 | Blass uses both `≃` and `≈` inconsistently; standardize to `≅` for isomorphism.                          |
+| `→`, `↦`            | `→`, `↦`                            | Unaltered.                                                                                               |
+| `i.e.`              | "that is", "i.e."                   | Modernize when verbose; preserve as `i.e.` in technical asides.                                          |
+| `e.g.`              | "for example", "e.g."               | Modernize when verbose.                                                                                  |
+| `(K)`, `(Tr)`       | Strip from prose; footnote if `Tr`. | The `(K)`-style "key" markings in the Blass margins are editorial; they are not part of the mathematics. |
 
 For the OCR's `Λr R` and similar Greek-Roman ambiguities, consult the PDF; in our experience the PDF resolves them as
 `Λ^r M` (capital lambda with rank `r` of the module `M`).
@@ -162,10 +162,10 @@ ambiguities. The PDF entry is narrowed to the relevant fragment (e.g. `EGA-V-1-2
 ## 7. Prescheme / scheme reconciliation
 
 Inherit the EGA II-IV convention: `préschéma` → "prescheme", `schéma` → "scheme". The Blass translation is inconsistent
-("prescheme" in some passages, "scheme" in others). We normalize: when the prenote semantically uses the 1961-1967
-sense (separated/quasi-compact-versus-not distinction not yet collapsed), render "prescheme"; when the prenote uses
-"scheme" in a sense that survives into post-1970s terminology, render "scheme". The default for these prenotes — which
-were drafted in the 1962-1966 window — is "prescheme".
+("prescheme" in some passages, "scheme" in others). We normalize: when the prenote semantically uses the 1961-1967 sense
+(separated/quasi-compact-versus-not distinction not yet collapsed), render "prescheme"; when the prenote uses "scheme"
+in a sense that survives into post-1970s terminology, render "scheme". The default for these prenotes — which were
+drafted in the 1962-1966 window — is "prescheme".
 
 ## 8. EGA-V-specific terminology
 

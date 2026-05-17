@@ -933,4 +933,3 @@ condition `(ML)`, and the image of `(R^n T(𝐀))_f` in each of the `(R^n T(A_k)
 `lim_← ((R^n T(A_k))_f)`, and since this latter group is separated and complete, the corollary is demonstrated.
 
 (_To be continued._)
-

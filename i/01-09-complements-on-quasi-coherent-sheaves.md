@@ -4,8 +4,7 @@
 
 <!-- label: I.9 -->
 
-> **Translation status.** Skeleton with definitions and principal statements; full proofs reference
-> .
+> **Translation status.** Skeleton with definitions and principal statements; full proofs reference .
 
 ### 9.1. Tensor product of quasi-coherent sheaves
 
@@ -115,4 +114,3 @@ among `X`-preschemes whose direct image yields `𝒜`.
 
 **Proposition (9.6.6).** Properties of `Spec(𝒜)`: it is separated; coherent if `𝒜` is locally finitely presented;
 functorial in `𝒜`.
-

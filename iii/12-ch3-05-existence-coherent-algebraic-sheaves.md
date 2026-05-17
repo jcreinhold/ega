@@ -566,4 +566,3 @@ were not empty, `f(P ∩ Z')` would be closed non-empty in `Y`, hence would meet
 definition of `Z`.
 
 *(To be continued.)*
-

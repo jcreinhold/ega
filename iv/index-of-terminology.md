@@ -771,4 +771,3 @@ Chapter 0 (continued) entries from Chapter IV proper.
 - `Z`-closure of an `𝒪_X`-Module: IV.5.9.11.
 - Zariski's "Main theorem" for morphisms of finite presentation: IV.8.12.6.
 - Zeros, cycle of, see Cycle of zeros.
-

@@ -24,9 +24,9 @@ finite type. Let `ξ` (resp. `η`) be the generic point of `X` (resp. `Y`) and l
 `x ∈ X`, every irreducible component of `f⁻¹(f(x))` is of dimension `≥ e`.*
 
 The proposition is immediate when, for every `y ∈ f(X)`, `𝒪_y` is a universally catenary ring: indeed, if `x` is the
-generic point of an irreducible component `Z` of `f⁻¹(y)`, it follows from `(5.6.5)`, joined with `(5.2.1)`, that one has
-`e + dim(𝒪_y) = dim(Z) + dim(𝒪_x)`; but by virtue of `(0, 16.3.9)` one has `dim(𝒪_x) ≤ dim(𝒪_y)`, whence the conclusion
-in this case.
+generic point of an irreducible component `Z` of `f⁻¹(y)`, it follows from `(5.6.5)`, joined with `(5.2.1)`, that one
+has `e + dim(𝒪_y) = dim(Z) + dim(𝒪_x)`; but by virtue of `(0, 16.3.9)` one has `dim(𝒪_x) ≤ dim(𝒪_y)`, whence the
+conclusion in this case.
 
 We shall reduce the general case to this particular case. The question is evidently local on `Y`, and, in view of
 `(4.1.1.3)`, it is also local on `X`; one may therefore restrict to the case where `Y = Spec(A)` and `X = Spec(B)` are
@@ -88,18 +88,18 @@ where `Z_0` ranges over the set of irreducible components of `f_0⁻¹(y_0)`, an
 proving the theorem when `Y` is Noetherian, which we shall suppose henceforth.
 
 One may evidently suppose `X` and `Y` reduced `(1.5.4)`. Considering the set of closed subsets `Y'` of `Y` such that the
-theorem is true for the closed sub-prescheme of `Y` having `Y'` as underlying space and for `X' = f⁻¹(Y')`, one may argue
-by Noetherian induction `(0_I, 2.2.2)` and suppose that the theorem is true for every closed subset `Y' ≠ Y` of `Y`. If
-`X_i` (`1 ≤ i ≤ m`) are the reduced closed sub-preschemes of `X` having as underlying spaces the irreducible components
-of `X`, one has `F_n(X) = ⋃_i F_n(X_i)` by virtue of `(0, 14.1.5)`, and one may therefore restrict to proving the theorem
-for each of the `X_i`; in other words, one may suppose `X` irreducible. If `Z` is the closed sub-prescheme of `Y` having
-`‾{f(X)}` as underlying space, `f` factors as `X ─g→ Z ─j→ Y`, where `j` is the canonical injection `(I, 5.2.2)`, and
-`g` is of finite type `(1.5.4)`, hence it suffices to prove the theorem for `Z` and `g`; by virtue of the inductive
-hypothesis, one is therefore reduced to considering only the case where `Z = Y`, in other words where `Y` is irreducible
-and `f` dominant. Let then `η` be the generic point of `Y` and set `e = dim(f⁻¹(η))`; it follows from `(13.1.1)` that
-for `n ≤ e` one has `F_n(X) = X`, and consequently one may restrict to the case where `n > e`. But then `(9.5.6)`, there
-is an open neighbourhood `U` of `η` in `Y` such that `F_n(X) ⊂ f⁻¹(Y − U)`; since `Y − U ≠ Y`, the inductive hypothesis
-entails that `F_n(X)` is closed.
+theorem is true for the closed sub-prescheme of `Y` having `Y'` as underlying space and for `X' = f⁻¹(Y')`, one may
+argue by Noetherian induction `(0_I, 2.2.2)` and suppose that the theorem is true for every closed subset `Y' ≠ Y` of
+`Y`. If `X_i` (`1 ≤ i ≤ m`) are the reduced closed sub-preschemes of `X` having as underlying spaces the irreducible
+components of `X`, one has `F_n(X) = ⋃_i F_n(X_i)` by virtue of `(0, 14.1.5)`, and one may therefore restrict to proving
+the theorem for each of the `X_i`; in other words, one may suppose `X` irreducible. If `Z` is the closed sub-prescheme
+of `Y` having `‾{f(X)}` as underlying space, `f` factors as `X ─g→ Z ─j→ Y`, where `j` is the canonical injection
+`(I, 5.2.2)`, and `g` is of finite type `(1.5.4)`, hence it suffices to prove the theorem for `Z` and `g`; by virtue of
+the inductive hypothesis, one is therefore reduced to considering only the case where `Z = Y`, in other words where `Y`
+is irreducible and `f` dominant. Let then `η` be the generic point of `Y` and set `e = dim(f⁻¹(η))`; it follows from
+`(13.1.1)` that for `n ≤ e` one has `F_n(X) = X`, and consequently one may restrict to the case where `n > e`. But then
+`(9.5.6)`, there is an open neighbourhood `U` of `η` in `Y` such that `F_n(X) ⊂ f⁻¹(Y − U)`; since `Y − U ≠ Y`, the
+inductive hypothesis entails that `F_n(X)` is closed.
 
 II) We now pass to the general case, still supposing that `S = Spec(A)` and `X = Spec(B)` are affine, `B` being an
 `A`-algebra of finite type, hence of the form
@@ -111,9 +111,9 @@ II) We now pass to the general case, still supposing that `S = Spec(A)` and `X =
 sub-preschemes of `Z = Spec(A[T_1, …, T_n])`, one therefore has, for the underlying spaces, `X = ⋂_λ X_λ`. If
 `f_λ : X_λ → S` is the structure morphism, one deduces that `f⁻¹(s) = ⋂_λ f_λ⁻¹(s)` for every `s ∈ S`, and since the
 sets `f_λ⁻¹(s)` are closed in the Noetherian space `Z_s`, there exists a `λ` (depending on `s`) such that
-`f⁻¹(s) = f_λ⁻¹(s)`. If then, for every `x ∈ X`, one sets `d(x) = dim_x(f⁻¹(f(x)))`,
-`d_λ(x) = dim_x(f_λ⁻¹(f_λ(x)))`, what precedes proves that one has `d(x) = inf_λ d_λ(x)`; the functions `d_λ` being
-upper semi-continuous by the first part of the proof, so is `d`. Q.E.D.
+`f⁻¹(s) = f_λ⁻¹(s)`. If then, for every `x ∈ X`, one sets `d(x) = dim_x(f⁻¹(f(x)))`, `d_λ(x) = dim_x(f_λ⁻¹(f_λ(x)))`,
+what precedes proves that one has `d(x) = inf_λ d_λ(x)`; the functions `d_λ` being upper semi-continuous by the first
+part of the proof, so is `d`. Q.E.D.
 
 **Corollary (13.1.4).**
 
@@ -131,8 +131,8 @@ One notes that one recovers in this way, under more general hypotheses, the cons
 <!-- label: IV.13.1.5 -->
 
 *Under the hypotheses of `(13.1.3)`, suppose moreover that `f` is a closed morphism. Then, for every integer `n`, the
-set of `y ∈ Y` such that `dim(f⁻¹(y)) ≥ n` is closed; in other words, the map `y ↦ dim(f⁻¹(y))` is upper semi-continuous;
-in particular, if `y` is a specialization of `y'`, one has `dim(f⁻¹(y)) ≥ dim(f⁻¹(y'))`.*
+set of `y ∈ Y` such that `dim(f⁻¹(y)) ≥ n` is closed; in other words, the map `y ↦ dim(f⁻¹(y))` is upper
+semi-continuous; in particular, if `y` is a specialization of `y'`, one has `dim(f⁻¹(y)) ≥ dim(f⁻¹(y'))`.*
 
 Indeed, to say that `dim(f⁻¹(y)) ≥ n` means that `y ∈ f(F_n(X))` `(0, 14.1.6)`.
 
@@ -153,8 +153,8 @@ Let us finally note the following easier result:
 
 <!-- label: IV.13.1.7 -->
 
-*Let `Y` be a quasi-compact prescheme, `f : X → Y` a morphism of finite type. There exists an integer `n` such that,
-for every `y ∈ Y`, one has `dim(f⁻¹(y)) ≤ n`.*
+*Let `Y` be a quasi-compact prescheme, `f : X → Y` a morphism of finite type. There exists an integer `n` such that, for
+every `y ∈ Y`, one has `dim(f⁻¹(y)) ≤ n`.*
 
 Since there is a finite affine open cover `(V_i)` of `Y` such that each `f⁻¹(V_i)` is a finite union of affine open
 sets, one is immediately reduced to the case where `Y = Spec(A)` and `X = Spec(B)` are affine, `B` being an `A`-algebra
@@ -280,8 +280,8 @@ The comparison of these inequalities therefore shows that:
 
 *(ii) `dim(B) = dim(A) + dim(B ⊗_A 𝒌(y))`.*
 
-**(13.2.6)** Let us now recall that the irreducible components `X_i` of `X` containing `x` are in finite number and
-that one has (`(5.1.2.1)` and `(0, 14.2.1.1)`)
+**(13.2.6)** Let us now recall that the irreducible components `X_i` of `X` containing `x` are in finite number and that
+one has (`(5.1.2.1)` and `(0, 14.2.1.1)`)
 
 ```text
   (13.2.6.1)            dim(𝒪_{X, x}) = sup_i dim(𝒪_{X_i, x}).
@@ -370,21 +370,21 @@ the generic point `z` of `Z`, one has*
 
 Let us show that a) entails b). Set `dim_x(f⁻¹(y)) = n`; by virtue of `(13.2.7)`, there exists an irreducible component
 `X'` of `X` satisfying conditions (i) to (iv) of `(13.2.7)`; let `Z` be an irreducible component of dimension `n` of
-`f⁻¹(y)`, containing `x` and contained in `X'`. Since `f⁻¹(y)` is locally Noetherian, there exists an open
-neighbourhood `U` of `x` in `Z` such that `U` meets no irreducible component of `f⁻¹(y)` other than those that contain
-`x`, hence `(4.1.1.3)` `dim_{x'}(f⁻¹(y)) = n` for every `x' ∈ U`; it is then clear that conditions (i) to (iii) of
-`(13.2.7)` are satisfied when one replaces `x` by an arbitrary point `x' ∈ U`, and so is condition (iv) since
-`𝒪_{Y, y}` is universally catenary; whence the conclusion by `(13.2.7)`. Condition b) trivially entails c) by virtue
-of `(5.1.2)`. Finally, if c) is satisfied and if `X''` is an irreducible component of `X` containing `Z` and such that
-conditions (i) to (iv) of `(13.2.7)` are satisfied when one replaces `X'` by `X''` and `x` by `z`, it is clear that
-these conditions are also satisfied for `X''` and `x` since `𝒪_{Y, y}` is universally catenary, hence c) implies a).
+`f⁻¹(y)`, containing `x` and contained in `X'`. Since `f⁻¹(y)` is locally Noetherian, there exists an open neighbourhood
+`U` of `x` in `Z` such that `U` meets no irreducible component of `f⁻¹(y)` other than those that contain `x`, hence
+`(4.1.1.3)` `dim_{x'}(f⁻¹(y)) = n` for every `x' ∈ U`; it is then clear that conditions (i) to (iii) of `(13.2.7)` are
+satisfied when one replaces `x` by an arbitrary point `x' ∈ U`, and so is condition (iv) since `𝒪_{Y, y}` is universally
+catenary; whence the conclusion by `(13.2.7)`. Condition b) trivially entails c) by virtue of `(5.1.2)`. Finally, if c)
+is satisfied and if `X''` is an irreducible component of `X` containing `Z` and such that conditions (i) to (iv) of
+`(13.2.7)` are satisfied when one replaces `X'` by `X''` and `x` by `z`, it is clear that these conditions are also
+satisfied for `X''` and `x` since `𝒪_{Y, y}` is universally catenary, hence c) implies a).
 
 **Proposition (13.2.10).**
 
 <!-- label: IV.13.2.10 -->
 
-*Let `Y` be a locally Noetherian irreducible prescheme, `η` its generic point, `f : X → Y` a morphism of finite type, `y`
-a point of `f(X)`. Let `Z_i` be the*
+*Let `Y` be a locally Noetherian irreducible prescheme, `η` its generic point, `f : X → Y` a morphism of finite type,
+`y` a point of `f(X)`. Let `Z_i` be the*
 
 <!-- original page 194 -->
 
@@ -406,8 +406,8 @@ a point of `f(X)`. Let `Z_i` be the*
 `dim(X_i ∩ f⁻¹(η)) = dim(Z_i)` (in other words, such that the reduced closed sub-prescheme `X_i` of `X` is
 equidimensional over `Y` at the point `z_i`).*
 
-*Then a) entails b) and b) entails c); moreover, if `𝒪_{Y, y}` is universally catenary, the three conditions a), b),
-c) are equivalent.*
+*Then a) entails b) and b) entails c); moreover, if `𝒪_{Y, y}` is universally catenary, the three conditions a), b), c)
+are equivalent.*
 
 The ring `𝒪_{X, z_i} ⊗_{𝒪_{Y, y}} 𝒌(y)` being of dimension `0` `(5.1.2)`, a) evidently entails b); b) entails c) by
 virtue of `(13.2.7)` applied at the point `z_i`. Conversely, suppose that `𝒪_{Y, y}` is universally catenary; since
@@ -420,9 +420,9 @@ satisfied on replacing `X'` by `X_i` and `x` by `z_i`, hence c) implies b); fina
 <!-- label: IV.13.2.11 -->
 
 *The notations being those of `(13.2.10)`, suppose that `𝒪_{Y, y}` is universally catenary. For every `y' ∈ Y`, let
-`E(y')` be the set of dimensions of the irreducible components of `f⁻¹(y')` and set
-`d(y') = dim(f⁻¹(y')) = sup(E(y'))`. Then, if the equivalent conditions a), b), c) of `(13.2.10)` are satisfied, one
-has `E(y) ⊂ E(η)`, whence `d(y) ≤ d(η)`.*
+`E(y')` be the set of dimensions of the irreducible components of `f⁻¹(y')` and set `d(y') = dim(f⁻¹(y')) = sup(E(y'))`.
+Then, if the equivalent conditions a), b), c) of `(13.2.10)` are satisfied, one has `E(y) ⊂ E(η)`, whence
+`d(y) ≤ d(η)`.*
 
 Indeed, with the notations of `(13.2.10)`, `X_i ∩ f⁻¹(η)` is non-empty and is consequently an irreducible component of
 `f⁻¹(η)` `(0_I, 2.1.8)`.
@@ -453,8 +453,8 @@ the irreducible components of `Y` containing `y`. Then the following conditions 
 <!-- original page 195 -->
 
 *a) There exist an integer `e` and an open neighbourhood `U` of `x` such that the image under `f` of every irreducible
-component of `U` is dense in some `Y_α`, and that, for every `x' ∈ U`, the space `U ∩ f⁻¹(f(x'))` is equidimensional
-and of dimension `e`.*
+component of `U` is dense in some `Y_α`, and that, for every `x' ∈ U`, the space `U ∩ f⁻¹(f(x'))` is equidimensional and
+of dimension `e`.*
 
 *a') There exist an integer `e` and an open neighbourhood `U` of `x` such that the image under `f` of every irreducible
 component of `U` is dense in some `Y_α` and such that, if one denotes by `y_α` the generic point of `Y_α`, every
@@ -476,9 +476,9 @@ then the restriction of `f` to `U_λ` factors as `U_λ ─f_α→ Y_α ─→ Y`
 `(I, 5.2.2)`. Let `x_λ` be the generic point of `U_λ`; by virtue of `(0_I, 2.1.8)`, `U_λ ∩ f_α⁻¹(y_α)` is the unique
 irreducible component of `U ∩ f⁻¹(y_α)` containing `x_λ` and is by hypothesis of dimension `e`, equal to the dimensions
 of all the irreducible components of `U_λ ∩ f⁻¹(y)`, by virtue of the hypothesis and of `(13.1.1)`. But by virtue of
-Chevalley's theorem `(13.1.3)` and of `(13.1.1)`, the set `V_λ` of `x' ∈ U_λ` such that
-`dim_{x'}(f_α⁻¹(f_α(x'))) = e` is open and contains `x`, and it suffices to take the union of the `V_λ` to obtain an
-open set satisfying the conditions of a'').
+Chevalley's theorem `(13.1.3)` and of `(13.1.1)`, the set `V_λ` of `x' ∈ U_λ` such that `dim_{x'}(f_α⁻¹(f_α(x'))) = e`
+is open and contains `x`, and it suffices to take the union of the `V_λ` to obtain an open set satisfying the conditions
+of a'').
 
 Let us now prove that a) entails b); one may restrict to the case where `Y = Spec(A)` and `X = Spec(B)` are affine and
 where `U = X`. Let us first prove the following lemma:
@@ -493,33 +493,32 @@ and set `e = dim(f⁻¹(y))`. Then there exists a `Y`-morphism `g : X → Y[T_1,
 `g`, `g_y` is necessarily surjective and there exists an open neighbourhood `U` of `f⁻¹(y)` in `X` such that `g|U` is
 quasi-finite.*
 
-Set `𝔭 = j_y`; the ring `B ⊗_A 𝒌(𝔭)` is a `𝒌(𝔭)`-algebra of finite type, hence the normalization lemma
-(Bourbaki, *Alg. comm.*, chap. V, §3, n° 1, th. 1) proves that there is in `B ⊗_A 𝒌(𝔭)` a finite sequence `(t_i)_{1 ≤ i ≤ r}`
-of elements algebraically independent over `𝒌(𝔭)` and such that, if one sets `C' = 𝒌(𝔭)[t_1, …, t_r]`,
-`B ⊗_A 𝒌(𝔭)` is a *finite* `C'`-algebra; one therefore has `dim(B ⊗_A 𝒌(𝔭)) = dim(C')` `(0, 16.1.5)`, and since
-`dim(C') = r` `(5.2.1)`, one has `r = e`. Since `B ⊗_A 𝒌(𝔭) = (B/𝔭B) ⊗_{A/𝔭} 𝒌(𝔭)`, one can, by multiplying the `t_i`
-by a suitable non-zero element
+Set `𝔭 = j_y`; the ring `B ⊗_A 𝒌(𝔭)` is a `𝒌(𝔭)`-algebra of finite type, hence the normalization lemma (Bourbaki, *Alg.
+comm.*, chap. V, §3, n° 1, th. 1) proves that there is in `B ⊗_A 𝒌(𝔭)` a finite sequence `(t_i)_{1 ≤ i ≤ r}` of elements
+algebraically independent over `𝒌(𝔭)` and such that, if one sets `C' = 𝒌(𝔭)[t_1, …, t_r]`, `B ⊗_A 𝒌(𝔭)` is a *finite*
+`C'`-algebra; one therefore has `dim(B ⊗_A 𝒌(𝔭)) = dim(C')` `(0, 16.1.5)`, and since `dim(C') = r` `(5.2.1)`, one has
+`r = e`. Since `B ⊗_A 𝒌(𝔭) = (B/𝔭B) ⊗_{A/𝔭} 𝒌(𝔭)`, one can, by multiplying the `t_i` by a suitable non-zero element
 
 <!-- original page 196 -->
 
 of `A/𝔭`, suppose that each `t_i` is the canonical image in `B ⊗_A 𝒌(𝔭)` of an element `s_i ∈ B`. Let then
-`u : A[T_1, …, T_e] → B` be the homomorphism such that `u(T_i) = s_i` for every `i`, and let `g : X → Y[T_1, …, T_e]`
-be the corresponding morphism. It is clear that, by reason of the choice of the `s_i`, `g_y` is a finite morphism. For
+`u : A[T_1, …, T_e] → B` be the homomorphism such that `u(T_i) = s_i` for every `i`, and let `g : X → Y[T_1, …, T_e]` be
+the corresponding morphism. It is clear that, by reason of the choice of the `s_i`, `g_y` is a finite morphism. For
 every morphism `g : X → Y[T_1, …, T_e]` such that `g_y` is finite, it follows from `(5.4.2)` and `(4.1.2.1)` that `g_y`
-is necessarily surjective. On the other hand, by virtue of `(13.1.4)`, the set `U` of `x ∈ X` that are isolated in
-their fibre `g⁻¹(g(x))` is open in `X` and contains `f⁻¹(y)`, and by definition the restriction `g|U` is a quasi-finite
+is necessarily surjective. On the other hand, by virtue of `(13.1.4)`, the set `U` of `x ∈ X` that are isolated in their
+fibre `g⁻¹(g(x))` is open in `X` and contains `f⁻¹(y)`, and by definition the restriction `g|U` is a quasi-finite
 morphism.
 
 This lemma being established, to prove that a) implies b), it remains to see that if `x_λ` is a maximal point of `U`,
 `g(x_λ) = z_λ` is a maximal point of `Z = Y[T_1, …, T_e]`. By virtue of hypothesis a), one may (on restricting `U` if
-necessary) suppose that `f(x_λ)` is one of the generic points `y_α` of the irreducible components of `Y` containing
-`y`; if `p : Z → Y` is the structure morphism, one therefore has `p(z_λ) = y_α`, and one consequently deduces from `g`
-a `𝒌(y_α)`-morphism quasi-finite `h : U ∩ f⁻¹(y_α) → p⁻¹(y_α)`. Now `p⁻¹(y_α) = Spec(𝒌(y_α)[T_1, …, T_e])` is integral
-and of dimension `e`; if `z_λ` were not a maximal point of `Z`, it would not be a maximal point of `p⁻¹(y_α)`
-`(0_I, 2.1.8)` and its closure `Z'_λ` in `p⁻¹(y_α)` would therefore be of dimension `< e` `(4.1.2.1)`. But since `h` is
-quasi-finite, it follows from `(4.1.2)` and from hypothesis a) that one has `dim(Z'_λ) ≥ e` (the restriction of `h` to
-`‾{x_λ}` factoring as `‾{x_λ} → Z'_λ → p⁻¹(y_α)` by virtue of `(I, 5.2.2)`); one thus arrives at a contradiction, which
-shows that a) entails b).
+necessary) suppose that `f(x_λ)` is one of the generic points `y_α` of the irreducible components of `Y` containing `y`;
+if `p : Z → Y` is the structure morphism, one therefore has `p(z_λ) = y_α`, and one consequently deduces from `g` a
+`𝒌(y_α)`-morphism quasi-finite `h : U ∩ f⁻¹(y_α) → p⁻¹(y_α)`. Now `p⁻¹(y_α) = Spec(𝒌(y_α)[T_1, …, T_e])` is integral and
+of dimension `e`; if `z_λ` were not a maximal point of `Z`, it would not be a maximal point of `p⁻¹(y_α)` `(0_I, 2.1.8)`
+and its closure `Z'_λ` in `p⁻¹(y_α)` would therefore be of dimension `< e` `(4.1.2.1)`. But since `h` is quasi-finite,
+it follows from `(4.1.2)` and from hypothesis a) that one has `dim(Z'_λ) ≥ e` (the restriction of `h` to `‾{x_λ}`
+factoring as `‾{x_λ} → Z'_λ → p⁻¹(y_α)` by virtue of `(I, 5.2.2)`); one thus arrives at a contradiction, which shows
+that a) entails b).
 
 Let us finally prove that b) implies a). Note that the structure morphism `p : Z = Y[T_1, …, T_e] → Y` is faithfully
 flat; hence `(2.3.4)` the maximal points of `Z` have as their images under `p` the maximal points of `Y`; this already
@@ -547,17 +546,17 @@ One notes that when `X` and `Y` are irreducible, to say that `f` is equidimensio
 
 <!-- original page 197 -->
 
-at the point `x` means, by virtue of `(13.3.1, a'')`, that `f` is dominant and that
-`dim_x(f⁻¹(f(x))) = dim(f⁻¹(η))` (where `η` is the generic point of `Y`); definition `(13.3.2)` therefore coincides in
-this case with definition `(13.2.2)`.
+at the point `x` means, by virtue of `(13.3.1, a'')`, that `f` is dominant and that `dim_x(f⁻¹(f(x))) = dim(f⁻¹(η))`
+(where `η` is the generic point of `Y`); definition `(13.3.2)` therefore coincides in this case with definition
+`(13.2.2)`.
 
 **Proposition (13.3.3).**
 
 <!-- label: IV.13.3.3 -->
 
-*Let `Y` be a locally Noetherian prescheme, `f : X → Y` a morphism locally of finite type, `x` a point of `X`, `X_j`
-the irreducible components of `X` (in finite number) containing `x`. For `f` to be equidimensional at the point `x`, it
-is necessary and sufficient that, for every `j`, `Y_j = ‾{f(X_j)}` be an irreducible component of `Y` and, denoting by
+*Let `Y` be a locally Noetherian prescheme, `f : X → Y` a morphism locally of finite type, `x` a point of `X`, `X_j` the
+irreducible components of `X` (in finite number) containing `x`. For `f` to be equidimensional at the point `x`, it is
+necessary and sufficient that, for every `j`, `Y_j = ‾{f(X_j)}` be an irreducible component of `Y` and, denoting by
 `X_j` and `Y_j` the reduced closed sub-preschemes of `X` and `Y` with `X_j` and `Y_j` as underlying spaces, by
 `f_j : X_j → Y_j` the morphism deduced from `f` `(I, 5.2.2)`, by `y_j` the generic point of `Y_j`, that `f_j` be
 equidimensional at the point `x` and that all the numbers `dim(f_j⁻¹(y_j))` be equal.*
@@ -611,8 +610,8 @@ equality*
 catenary ring.*
 
 Let us keep the notations of `(13.3.3)`; it follows from `(13.2.8)` and from the hypothesis that `𝒪_x` is
-equidimensional, that each of the `Y_j` is an irreducible component of `Y` and that each of the `f_j` is
-equidimensional at the point `x`; moreover `(13.2.8)`, one has (taking `(5.6.5)` into account)
+equidimensional, that each of the `Y_j` is an irreducible component of `Y` and that each of the `f_j` is equidimensional
+at the point `x`; moreover `(13.2.8)`, one has (taking `(5.6.5)` into account)
 
 ```text
   dim(𝒪_{X_j, x}) = dim(𝒪_{Y_j, y}) + dim_x(X_j ∩ f⁻¹(y)) − deg.tr_{𝒌(y)} 𝒌(x).
@@ -626,9 +625,9 @@ Now, since `𝒪_y` is supposed equidimensional, this equality is written
   (13.3.6.2)        dim_x(X_j ∩ f⁻¹(y)) = dim(𝒪_{X, x}) − dim(𝒪_{Y, y}) + deg.tr_{𝒌(y)} 𝒌(x).
 ```
 
-The left-hand side of `(13.3.6.2)` is therefore independent of `j`; but since `f_j` is equidimensional at the point
-`x`, one has `dim_x(X_j ∩ f⁻¹(y)) = dim(f_j⁻¹(y_j))`, hence the criterion `(13.3.3)` shows that `f` is equidimensional
-at the point `x`.
+The left-hand side of `(13.3.6.2)` is therefore independent of `j`; but since `f_j` is equidimensional at the point `x`,
+one has `dim_x(X_j ∩ f⁻¹(y)) = dim(f_j⁻¹(y_j))`, hence the criterion `(13.3.3)` shows that `f` is equidimensional at the
+point `x`.
 
 Conversely, suppose that `𝒪_{Y, y}` is a universally catenary ring and that `f` is equidimensional at the point `x`;
 then `(13.3.5)` `𝒪_{X, x}` is equidimensional, and it then follows from `(13.3.4)` that one has the relation
@@ -653,8 +652,8 @@ Then the function*
 
 *is lower semi-continuous in `X`.*
 
-Since all the irreducible components of `f⁻¹(f(x))` containing `x` have by hypothesis the same dimension `(13.3.1)`,
-one has, by virtue of `(5.2.1)`,
+Since all the irreducible components of `f⁻¹(f(x))` containing `x` have by hypothesis the same dimension `(13.3.1)`, one
+has, by virtue of `(5.2.1)`,
 
 ```text
   codim_x(Z ∩ f⁻¹(f(x)), f⁻¹(f(x))) = dim_x(f⁻¹(f(x))) − dim_x(Z ∩ f⁻¹(f(x))).
@@ -673,11 +672,11 @@ then `f'` is equidimensional at every point `x' ∈ X'` above `x`.*
 
 The question being local on `X` and `Y`, one may restrict to the case where every irreducible component of `X` (resp.
 `Y`) contains `x` (resp. `y`); since the image under `f` of every irreducible component of `X` is then dense in an
-irreducible component of `Y` `(13.3.1)`, one knows `(2.3.5)` that the image under `f'` of every irreducible component
-of `X'` is dense in an irreducible component of `Y'`. On the other hand, by transitivity of fibres `(I, 3.6.4)`, it
-follows from `(4.2.8)` and from `(13.3.1)` that, for every `z' ∈ X'`, the set of dimensions of the irreducible
-components of `f'⁻¹(f'(z'))` is the same as the set of dimensions of the irreducible components of `f⁻¹(f(z))`, where
-`z` is the projection of `z'` in `X`; whence the conclusion by virtue of `(13.3.1, a)`.
+irreducible component of `Y` `(13.3.1)`, one knows `(2.3.5)` that the image under `f'` of every irreducible component of
+`X'` is dense in an irreducible component of `Y'`. On the other hand, by transitivity of fibres `(I, 3.6.4)`, it follows
+from `(4.2.8)` and from `(13.3.1)` that, for every `z' ∈ X'`, the set of dimensions of the irreducible components of
+`f'⁻¹(f'(z'))` is the same as the set of dimensions of the irreducible components of `f⁻¹(f(z))`, where `z` is the
+projection of `z'` in `X`; whence the conclusion by virtue of `(13.3.1, a)`.
 
 **Remark (13.3.9).**
 
@@ -693,21 +692,20 @@ ring in two indeterminates, `𝔞 = 𝔭_1 𝔭_2`, where `𝔭_1` and `𝔭_2` 
 `A = A_0/𝔞` and `Y = Spec(A)`, which has two irreducible components `Y_1 = Spec(A/𝔭_1)`, `Y_2 = Spec(A/𝔭_2)`; take
 `X = Y_1`, `f : X → Y` being the canonical injection, which is evidently an equidimensional morphism. Take on the other
 hand `Y' = Y_2`, `g : Y' → Y` being the canonical injection; then one has
-`X' = X ×_Y Y' = Spec((A/𝔭_1) ⊗_A (A/𝔭_2)) = Spec(A/(𝔭_1 + 𝔭_2))`, and `𝔭_1 + 𝔭_2` is a maximal ideal of `A`, hence
-`X'` is reduced to a point, and the morphism `f' : X' → Y'` is *not dominant*, the image under `f'` of the unique point
-of `X'` being a closed point of `Y'`; hence `f'` is not equidimensional.
+`X' = X ×_Y Y' = Spec((A/𝔭_1) ⊗_A (A/𝔭_2)) = Spec(A/(𝔭_1 + 𝔭_2))`, and `𝔭_1 + 𝔭_2` is a maximal ideal of `A`, hence `X'`
+is reduced to a point, and the morphism `f' : X' → Y'` is *not dominant*, the image under `f'` of the unique point of
+`X'` being a closed point of `Y'`; hence `f'` is not equidimensional.
 
 One can also give a counterexample where `X` and `Y` are integral, `f` finite and birational (and a fortiori
 equidimensional by `(13.3.1, b)`), `g : Y' → Y` finite and dominant. Let `A` and `Ā` be the local rings defined in
 `(11.7.5)`, and take `Y = Spec(A)`, `X = Spec(Ā)`; on the other hand, with the notations of `(11.7.5)`, take
 `Y' = Spec(B)`; then `X' = Spec(Ā ⊗_A B) = Spec(B̄ ⊗_B B)`; but one verifies at once that `B̄ ⊗_B B` is the direct
-composite of the rings `B̄/𝔭'`, `B̄/𝔭''` and of two rings isomorphic to `B̄/𝔫`, whose spectra are therefore reduced to
-a point; since the projections of these points are closed points of `Y'`, here again one sees that `f'` does not
-transform an irreducible component of `X'` into an everywhere dense part of an irreducible component of `Y'`, hence
-`f'` is not equidimensional.
+composite of the rings `B̄/𝔭'`, `B̄/𝔭''` and of two rings isomorphic to `B̄/𝔫`, whose spectra are therefore reduced to a
+point; since the projections of these points are closed points of `Y'`, here again one sees that `f'` does not transform
+an irreducible component of `X'` into an everywhere dense part of an irreducible component of `Y'`, hence `f'` is not
+equidimensional.
 
-In this example, the ring `A` is not geometrically unibranch; we shall see in the following section `(14.4.6)` that
-such phenomena cannot occur when the points of `Y` are geometrically unibranch. The lack of stability of the notion
-of equidimensional morphism greatly restricts its interest, in favour of the notion of universally open morphism,
-which will be studied in detail in the following section.
-
+In this example, the ring `A` is not geometrically unibranch; we shall see in the following section `(14.4.6)` that such
+phenomena cannot occur when the points of `Y` are geometrically unibranch. The lack of stability of the notion of
+equidimensional morphism greatly restricts its interest, in favour of the notion of universally open morphism, which
+will be studied in detail in the following section.

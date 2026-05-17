@@ -426,4 +426,3 @@ integrally closed `(IV, 5.6.11)`; the intersection of these rings `A_𝔭` canno
 Krull ring (Bourbaki, _Alg. comm._, chap. VII, §1, n° 5, prop. 9).*
 
 (_To be continued._)
-

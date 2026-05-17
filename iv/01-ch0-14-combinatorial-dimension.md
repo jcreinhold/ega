@@ -427,4 +427,3 @@ definitions of `dim(Y)` and `codim(Y, X)`.
 with irreducible closed subsets of a topological space not intervening in that proof. The same holds for the proof of
 `(14.3.3)` in an ordered set `E` such that for every `x ∈ E`, there exists `z ≤ x` which is minimal in `E`, and in which
 the length of chains of elements of `E` is bounded.*
-

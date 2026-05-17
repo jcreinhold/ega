@@ -2621,4 +2621,3 @@ The fact that the application `(8.14.2.1)` is injective when `f` is locally of f
 leads one to ask whether this result also admits a converse. There is nothing of the sort, even when `S` and `X` are
 affine, since there exist monomorphisms `X → S` which are not of finite type `(I, 2.4.2)`, and which therefore put this
 conjecture in default.
-

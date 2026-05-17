@@ -1,8 +1,7 @@
 # Index of terminology
 
-Alphabetized by the English head term. Section numbers refer to the defining
-occurrence in EGA II (without volume prefix); for cross-volume references, see the
-prose of each section.
+Alphabetized by the English head term. Section numbers refer to the defining occurrence in EGA II (without volume
+prefix); for cross-volume references, see the prose of each section.
 
 <!-- original page 209 -->
 
@@ -32,41 +31,32 @@ prose of each section.
 - Canonical morphism `X → Spec(Γ(X, 𝒪_X))`: 5.1.1.
 - Canonical retraction of a punctured projective cone onto its locus at infinity: 8.3.5.
 - Canonical section of `𝒪_X(−1)` (`X` a blow-up prescheme): 8.1.9.
-- Characteristic polynomial of an endomorphism of a finite-type module over an
-    integral ring: 6.4.2.
-- Characteristic polynomial of an endomorphism of a finite-type module over a
-    reduced Noetherian ring: 6.4.7.
+- Characteristic polynomial of an endomorphism of a finite-type module over an integral ring: 6.4.2.
+- Characteristic polynomial of an endomorphism of a finite-type module over a reduced Noetherian ring: 6.4.7.
 - Chow's lemma: 5.6.1.
 - Complete algebraic curve: 7.4.7.
 - Condition (TF), condition (TN): 2.7.2; 3.4.2.
 - Cone, affine; cone, projective, defined by a graded `𝒪_Y`-algebra: 8.3.1.
-- Cone, punctured affine; cone, punctured projective, defined by a graded
-    `𝒪_Y`-algebra: 8.3.4.
+- Cone, punctured affine; cone, punctured projective, defined by a graded `𝒪_Y`-algebra: 8.3.4.
 
 ## D
 
 - Determinant of an endomorphism of a finite-type module over an integral ring: 6.4.2.
-- Determinant of an endomorphism of a finite-type module over a reduced Noetherian
-    ring: 6.4.7.
+- Determinant of an endomorphism of a finite-type module over a reduced Noetherian ring: 6.4.7.
 - Determinant of an endomorphism of a locally free `𝒜`-module: 6.4.8.
-- Determinant of an endomorphism of a finite-type `𝒪_X`-module over a locally
-    integral prescheme `X`: 6.4.9.
-- Determinant of an endomorphism of a finite-type `𝒪_X`-module over a locally
-    Noetherian, reduced prescheme `X`: 6.4.10.
+- Determinant of an endomorphism of a finite-type `𝒪_X`-module over a locally integral prescheme `X`: 6.4.9.
+- Determinant of an endomorphism of a finite-type `𝒪_X`-module over a locally Noetherian, reduced prescheme `X`: 6.4.10.
 
 ## E
 
 - Elementary symmetric functions of an endomorphism of a locally free module: 6.4.1.
-- Elementary symmetric functions of an endomorphism of a finite-type module over an
-    integral ring: 6.4.2.
-- Elementary symmetric functions of an endomorphism of a finite-type module over a
-    reduced Noetherian ring: 6.4.7.
-- Elementary symmetric functions of an endomorphism of a locally free `𝒜`-module of
-    constant rank: 6.4.8.
-- Elementary symmetric functions of an endomorphism of a finite-type `𝒪_X`-module
-    over a locally integral prescheme `X`: 6.4.9.
-- Elementary symmetric functions of an endomorphism of a finite-type `𝒪_X`-module
-    over a locally Noetherian, reduced prescheme `X`: 6.4.10.
+- Elementary symmetric functions of an endomorphism of a finite-type module over an integral ring: 6.4.2.
+- Elementary symmetric functions of an endomorphism of a finite-type module over a reduced Noetherian ring: 6.4.7.
+- Elementary symmetric functions of an endomorphism of a locally free `𝒜`-module of constant rank: 6.4.8.
+- Elementary symmetric functions of an endomorphism of a finite-type `𝒪_X`-module over a locally integral prescheme `X`:
+    6.4.9.
+- Elementary symmetric functions of an endomorphism of a finite-type `𝒪_X`-module over a locally Noetherian, reduced
+    prescheme `X`: 6.4.10.
 - Elementary symmetric functions of a section of an `𝒜`-algebra: 6.5.1.
 - Essentially integral graded ring: 2.1.11.
 - Essentially integral graded `𝒪_Y`-algebra: 3.1.12.
@@ -226,4 +216,3 @@ prose of each section.
 
 - Zero section of an affine cone: 8.3.3.
 - Zero section of a vector bundle: 1.7.9.
-

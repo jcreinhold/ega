@@ -27,4 +27,3 @@ III, and later volumes, will use. It picks up the numbering of Chapter 0 from EG
 - **§11.** Complements on homological algebra (spectral sequences, hypercohomology).
 - **§12.** Complements on the cohomology of sheaves.
 - **§13.** Projective limits in homological algebra.
-

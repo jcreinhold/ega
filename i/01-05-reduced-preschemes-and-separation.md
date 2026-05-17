@@ -4,8 +4,7 @@
 
 <!-- label: I.5 -->
 
-> **Translation status.** Skeleton: principal definitions and statements translated; full proofs reference
-> .
+> **Translation status.** Skeleton: principal definitions and statements translated; full proofs reference .
 
 ### 5.1. Reduced preschemes
 
@@ -124,4 +123,3 @@ admits _at most one_ lift `Spec(V) → X`.
 
 **Corollaries (5.5.7)–(5.5.9).** Immersions are separated; locally closed subpreschemes of separated preschemes are
 separated; if `f : X → Y` is separated and `g ∘ f` is separated, then `g` is separated.
-

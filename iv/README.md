@@ -7,8 +7,7 @@ English markdown translation of
 > pp. 5–259; **Seconde partie**: tome **24** (1965), pp. 5–231; **Troisième partie**: tome **28** (1966), pp. 5–255;
 > **Quatrième partie**: tome **32** (1967), pp. 5–361.
 
-Source PDFs live at , , , and
- (numdam scans). Citation identifiers
+Source PDFs live at , , , and (numdam scans). Citation identifiers
 [numdam.org/item?id=PMIHES_1964\_\_20\_\_5_0](http://www.numdam.org/item?id=PMIHES_1964__20__5_0),
 [numdam.org/item?id=PMIHES_1965\_\_24\_\_5_0](http://www.numdam.org/item?id=PMIHES_1965__24__5_0),
 [numdam.org/item?id=PMIHES_1966\_\_28\_\_5_0](http://www.numdam.org/item?id=PMIHES_1966__28__5_0),
@@ -116,9 +115,9 @@ The 1961-1967 prescheme/scheme distinction is preserved throughout, matching the
 ## A note on §IV.11
 
 §11 of Chapter IV — _Topological properties of flat morphisms of finite presentation; local criteria of flatness_ — was
-announced in the Chap IV sommaire of Part 1 (1964) with the footnote "the order and content of §§11 through 21 are
-given only for information and may be modified before publication." It *was* in fact published in Part 3 (1966) of EGA
-IV, alongside §§8-10, 12-15. (Earlier secondary literature sometimes treated §11 as unpublished; this is incorrect.)
+announced in the Chap IV sommaire of Part 1 (1964) with the footnote "the order and content of §§11 through 21 are given
+only for information and may be modified before publication." It *was* in fact published in Part 3 (1966) of EGA IV,
+alongside §§8-10, 12-15. (Earlier secondary literature sometimes treated §11 as unpublished; this is incorrect.)
 Subsequent flatness-descent developments that build on §11 include Raynaud-Gruson, _Critères de platitude et de
 projectivité_ (Inventiones math. 13, 1971), and the étale-cohomology projects of SGA 4½. The translated §11 lives at
 [23a-ch4-11-flatness-loci-and-descent.md](23a-ch4-11-flatness-loci-and-descent.md).

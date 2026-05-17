@@ -499,4 +499,3 @@ conclusion.
 In particular, if `M` is an `A`-module of finite type and `𝔞` is an ideal of `A`, then `Supp(M/𝔞M)` is the set of prime
 ideals containing both `𝔞` and the annihilator `𝔫` of `M` (1.7.4) — equivalently, the set of prime ideals containing
 `𝔞 + 𝔫`.
-

@@ -451,4 +451,3 @@ ______________________________________________________________________
 
 > _Translator's footnote (from p. 5)._ To facilitate reference lookup, we shall henceforth refer to the paragraphs of
 > Chapter 0 published with Chapter I by the sign `0_I`.
-

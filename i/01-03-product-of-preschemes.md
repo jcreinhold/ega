@@ -5,8 +5,8 @@
 <!-- label: I.3 -->
 
 > **Translation status.** This section is a translation skeleton: subsection headings and the principal definitions and
-> statements are translated; longer proofs are summarized or referenced. Proofs in full follow the structure of
->  and the source PDF.
+> statements are translated; longer proofs are summarized or referenced. Proofs in full follow the structure of and the
+> source PDF.
 
 ### 3.1. Sums of preschemes
 
@@ -133,4 +133,3 @@ the _fiber_ `X_s = X ×_S Spec(K)` is a `K`-prescheme. Set-theoretically, the un
 
 For an ideal `𝔍 ⊂ A` and an `A`-prescheme `X`, the _reduction_ `X mod 𝔍` is `X ×_{Spec(A)} Spec(A/𝔍)`. This is a functor
 from `A`-preschemes to `(A/𝔍)`-preschemes.
-

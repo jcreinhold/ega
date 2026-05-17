@@ -1327,4 +1327,3 @@ the *category of `(k, K)`-pre-algebraic spaces*. One can show that one may still
 the results of `(10.10.3)` and `(10.10.4)` (`𝒜(X')` being here replaced by the sheaf `𝒜_K(X')` of germs of maps from
 `X'` to `K`). However, this viewpoint gives an artificial role to an arbitrarily chosen overfield of `k`, and we signal
 it only to reject it.
-

@@ -72,4 +72,3 @@ single index here; each entry is tagged with its home chapter prefix.
 - `𝓗^•(𝒢, ℱ)`, `𝓗^•(𝒢|U, ℱ|U)`: III.7.7.2.
 - `E^p(f, ℱ_•; y)`, `E^p(Y, ℱ_•; y)`, `E^p(ℱ_•; y)`: III.7.9.5.
 - `PH(f, ℱ_•; y)`, `PH(ℱ_•; y)`: III.7.9.12.
-

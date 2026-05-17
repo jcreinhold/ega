@@ -98,4 +98,3 @@ of a topological space is Noetherian.
 quasi-compact is Noetherian.
 
 **(2.2.5)** A Noetherian space has only _finitely many_ irreducible components, as one sees by Noetherian induction.
-

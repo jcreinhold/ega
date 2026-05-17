@@ -42,4 +42,3 @@ We mention finally that the results of n° 3.4 (and the preliminary propositions
 > the volume in print stops at §7. The unpublished sections, sketched here for the reader's orientation, were absorbed
 > into later work on duality (Hartshorne, _Residues and Duality_) and on Picard schemes (Grothendieck's Bourbaki
 > seminars 232, 236).
-

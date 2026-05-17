@@ -3070,4 +3070,3 @@ is necessary and sufficient that, for every `s ∈ S`, the family `((f_λ)_s)` b
 *Let `f : X → S` be a flat morphism locally of finite presentation, `U` an open set of `X`. For `U` to be universally
 schematically dense in `X` relative to `S`, it is necessary and sufficient that, for every `s ∈ S`, `U_s = U ∩ X_s` be
 schematically dense in `X_s` (or, equivalently, that one have `Ass(𝒪_{X_s}) ⊂ U_s`).*
-

@@ -39,4 +39,3 @@ of *finite presentation* on the morphisms — hypotheses that, unlike Noetherian
 > source.) §11 develops the topological properties of flat morphisms of finite presentation, including the opens of
 > flatness, the local criteria of flatness, the descent of flatness by arbitrary morphisms, and Raynaud-style
 > separating-family criteria.
-

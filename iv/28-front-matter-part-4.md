@@ -30,6 +30,5 @@ functions and pseudo-morphisms (§20); and divisors (§21).
 - **§21.** Divisors.
 
 > _Translator's note._ The 1964 sommaire announced §§20 and 21 as "Hyperplane sections; generic projections" and
-> "Infinitesimal extensions" respectively. In Part 4 (1967) the program was revised: §20 became *Meromorphic
-> functions; pseudo-morphisms* and §21 became *Divisors*. The translation files use the published §20 and §21 titles.
-
+> "Infinitesimal extensions" respectively. In Part 4 (1967) the program was revised: §20 became *Meromorphic functions;
+> pseudo-morphisms* and §21 became *Divisors*. The translation files use the published §20 and §21 titles.

@@ -4,8 +4,7 @@
 
 <!-- label: I.4 -->
 
-> **Translation status.** Translation skeleton with key definitions and theorem statements; full proofs reference
-> .
+> **Translation status.** Translation skeleton with key definitions and theorem statements; full proofs reference .
 
 ### 4.1. Subpreschemes
 
@@ -84,4 +83,3 @@ an immersion).
 **Proposition (4.5.4).** A local immersion is radicial (and so injective on geometric points stalkwise).
 
 **Proposition (4.5.5).** A local isomorphism is open. A radicial local isomorphism is a local immersion.
-

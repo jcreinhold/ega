@@ -9,4 +9,3 @@
 - [§5. Quasi-coherent sheaves and coherent sheaves](00-05-quasi-coherent-and-coherent-sheaves.md)
 - [§6. Flatness](00-06-flatness.md)
 - [§7. Adic rings](00-07-adic-rings.md)
-

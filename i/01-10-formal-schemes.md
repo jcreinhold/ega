@@ -4,8 +4,7 @@
 
 <!-- label: I.10 -->
 
-> **Translation status.** Skeleton with definitions and principal statements; full proofs reference
-> .
+> **Translation status.** Skeleton with definitions and principal statements; full proofs reference .
 
 > **Note.** The results of §10 are not used before §3 of Chapter III. Readers are encouraged to skip this section on
 > first reading.
@@ -209,4 +208,3 @@ products.
 is a closed immersion of formal preschemes. _Formal `S`-schemes_ are separated formal `S`-preschemes.
 
 Composition, base change, and standard valuative criteria carry over from the prescheme setting.
-

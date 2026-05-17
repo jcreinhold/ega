@@ -32,9 +32,8 @@ To say that `p(v(f)) = p(v_0(f))` for `f ∈ B` means that `D(f) = v(f) − v_0(
 `v(fg) = v(f) v(g)`, one obtains the relation `(20.1.1.1)`, `𝔍` being of square zero, and condition (i) results from the
 fact that `v` and `v_0` are `A`-homomorphisms.
 
-If `ρ : A → B` is the structural homomorphism, one derives from `(20.1.1.1)` that
-`D(ρ(a) f) = ρ(a) D(f) + D(ρ(a)) f` for every `a ∈ A`; but one must have `D(ρ(a) f) = ρ(a) D(f)` by (i), so, taking
-`f = 1`, it follows that
+If `ρ : A → B` is the structural homomorphism, one derives from `(20.1.1.1)` that `D(ρ(a) f) = ρ(a) D(f) + D(ρ(a)) f`
+for every `a ∈ A`; but one must have `D(ρ(a) f) = ρ(a) D(f)` by (i), so, taking `f = 1`, it follows that
 
 ```text
                                 D(ρ(a)) = 0     for     a ∈ A;
@@ -90,10 +89,10 @@ In particular:
 augmentation. The map which, to every derivation `D ∈ Der_A(C, L)`, associates the map `x ↦ x + D(p(x))` is an
 isomorphism of the group `Der_A(C, L)` onto the group of `A`-equivalences of `E` with itself.*
 
-Apply `(20.1.1)` for `B = E`, `v_0 = 1_E`: the set of `A`-homomorphisms `v : E → E` such that `p ∘ v = p` is identical to
-the set of maps `v = 1_E + D'`, where `D' ∈ Der_A(E, L)`. To say that such an `A`-homomorphism `v` is an `A`-equivalence
-amounts to saying that `v` reduces to the canonical injection on `L`, or again that `D'(x) = 0` on `L`; but this also
-means that `D'` factors as `E → C →^{D} L`, where `D` is an `A`-derivation. Whence the corollary.
+Apply `(20.1.1)` for `B = E`, `v_0 = 1_E`: the set of `A`-homomorphisms `v : E → E` such that `p ∘ v = p` is identical
+to the set of maps `v = 1_E + D'`, where `D' ∈ Der_A(E, L)`. To say that such an `A`-homomorphism `v` is an
+`A`-equivalence amounts to saying that `v` reduces to the canonical injection on `L`, or again that `D'(x) = 0` on `L`;
+but this also means that `D'` factors as `E → C →^{D} L`, where `D` is an `A`-derivation. Whence the corollary.
 
 For trivial extensions, `(20.1.3)` gives:
 
@@ -102,8 +101,8 @@ For trivial extensions, `(20.1.3)` gives:
 <!-- label: 0_IV.20.1.5 -->
 
 *Let `A` be a ring, `B`, `C` two `A`-rings, `L` a `C`-bimodule, `u : B → C` an `A`-homomorphism; the map which, to every
-derivation `D ∈ Der_A(B, L)`, associates the map `σ : x ↦ (u(x), D(x))` is a bijection onto the set of
-`A`-homomorphisms `v : B → D_C(L)` (cf. `(18.2.3)`) such that `u` factors as `B → D_C(L) → C`.*
+derivation `D ∈ Der_A(B, L)`, associates the map `σ : x ↦ (u(x), D(x))` is a bijection onto the set of `A`-homomorphisms
+`v : B → D_C(L)` (cf. `(18.2.3)`) such that `u` factors as `B → D_C(L) → C`.*
 
 More particularly:
 
@@ -111,10 +110,10 @@ More particularly:
 
 <!-- label: 0_IV.20.1.6 -->
 
-*Let `A` be a ring, `B` an `A`-ring, `L` a `B`-bimodule. If, to every derivation `D ∈ Der_A(B, L)`, one associates: 1° the
-`A`-equivalence `(x, y) ↦ (x, y + D(x))` of the extension `D_B(L)` with itself; 2° the `A`-homomorphism
-`x ↦ (x, D(x))` of `B` into `D_B(L)`, a right inverse of the augmentation homomorphism `D_B(L) → B`, one defines canonical
-bijective correspondences between:*
+*Let `A` be a ring, `B` an `A`-ring, `L` a `B`-bimodule. If, to every derivation `D ∈ Der_A(B, L)`, one associates: 1°
+the `A`-equivalence `(x, y) ↦ (x, y + D(x))` of the extension `D_B(L)` with itself; 2° the `A`-homomorphism
+`x ↦ (x, D(x))` of `B` into `D_B(L)`, a right inverse of the augmentation homomorphism `D_B(L) → B`, one defines
+canonical bijective correspondences between:*
 
 *(i) the set `Der_A(B, L)`;*
 
@@ -134,16 +133,16 @@ in `(18.3.8)`.
 augmentation. The set of `A`-derivations `D` of `E` into `L` such that `D(x) = x` on `L` is identical to the set of maps
 `x ↦ x − w(p(x))`, where `w` ranges over the set of `A`-homomorphisms right inverse to `p`.*
 
-It again suffices to apply `(20.1.1)` for `B = E`, `v_0 = 1_E`; if `v = 1_E − D`, the condition `D(x) = x` for `x ∈ L` is
-equivalent to `v(x) = 0` for `x ∈ L`, that is, to `v = w ∘ p`, where `w : C → E` is an `A`-homomorphism; in addition the
-condition `p ∘ v = p` is equivalent to `p ∘ w = 1_C`, in other words to the fact that `w` is a right inverse of `p`.
+It again suffices to apply `(20.1.1)` for `B = E`, `v_0 = 1_E`; if `v = 1_E − D`, the condition `D(x) = x` for `x ∈ L`
+is equivalent to `v(x) = 0` for `x ∈ L`, that is, to `v = w ∘ p`, where `w : C → E` is an `A`-homomorphism; in addition
+the condition `p ∘ v = p` is equivalent to `p ∘ w = 1_C`, in other words to the fact that `w` is a right inverse of `p`.
 
 <!-- original page 214 -->
 
 ### 20.2. Functorial properties of derivations
 
-**(20.2.1)** Let `A` be a ring, `B` an `A`-ring, `L` a `B`-bimodule; if `L'` is a second `B`-bimodule and
-`w : L → L'` a homomorphism of `B`-bimodules, it is clear that the map `D ↦ w ∘ D` is a homomorphism of additive groups
+**(20.2.1)** Let `A` be a ring, `B` an `A`-ring, `L` a `B`-bimodule; if `L'` is a second `B`-bimodule and `w : L → L'` a
+homomorphism of `B`-bimodules, it is clear that the map `D ↦ w ∘ D` is a homomorphism of additive groups
 
 ```text
 (20.2.1.1)                  w_0 : Der_A(B, L) → Der_A(B, L')
@@ -152,8 +151,8 @@ condition `p ∘ v = p` is equivalent to `p ∘ w = 1_C`, in other words to the 
 and that if `w' : L' → L''` is a second homomorphism of `B`-bimodules, one has `(w' ∘ w)_0 = w'_0 ∘ w_0`. When `A` is
 commutative, `B` a commutative `A`-algebra and `L` a `B`-module, `(20.2.1.1)` is a homomorphism of `A`-modules.
 
-In the second place, let `B'` be an `A`-ring, `v : B' → B` an `A`-homomorphism which makes `L` into a `B'`-bimodule; then
-the map `D ↦ D ∘ v` is a homomorphism of additive groups,
+In the second place, let `B'` be an `A`-ring, `v : B' → B` an `A`-homomorphism which makes `L` into a `B'`-bimodule;
+then the map `D ↦ D ∘ v` is a homomorphism of additive groups,
 
 ```text
 (20.2.1.2)                  v^0 : Der_A(B, L) → Der_A(B', L)
@@ -217,16 +216,16 @@ Since `D` is an `A`-derivation (and *a fortiori* a `ℤ`-derivation) of `B` into
 `σ : x ↦ (v(x), D(x))` does define on `D_C(L)` a structure of `B`-extension, hence `∂(D)` is well defined `(20.1.5)`.
 Exactness must be verified at five places:
 
-1) Exactness at `Der_A(C, L)` is trivial (cf. `(20.2.1)`).
+1. Exactness at `Der_A(C, L)` is trivial (cf. `(20.2.1)`).
 
-2) By definition `(20.2.1)`, the kernel of `v^0` is the set of `A`-derivations of `C` into `L` which vanish on `v(B)`,
-that is, those `A`-derivations which are also `B`-derivations `(20.1.1)`; whence exactness at `Der_A(C, L)`.
+1. By definition `(20.2.1)`, the kernel of `v^0` is the set of `A`-derivations of `C` into `L` which vanish on `v(B)`,
+    that is, those `A`-derivations which are also `B`-derivations `(20.1.1)`; whence exactness at `Der_A(C, L)`.
 
-3) The kernel of `∂` is formed by the derivations `D ∈ Der_A(B, L)` for which the `B`-extension defined by
-`σ : x ↦ (v(x), D(x))` is `B`-trivial; this means `(18.2.3)` that there exists a `B`-homomorphism `z ↦ (z, w(z))` from
-`C` into `D_C(L)` (the `B`-ring structure on `D_C(L)` being defined by `σ`); but such a homomorphism, being *a fortiori*
-an `A`-homomorphism, is of the form `z ↦ (z, D'(z))` where `D' ∈ Der_A(C, L)` `(20.1.6)`; and writing that it is a
-`B`-homomorphism gives
+1. The kernel of `∂` is formed by the derivations `D ∈ Der_A(B, L)` for which the `B`-extension defined by
+    `σ : x ↦ (v(x), D(x))` is `B`-trivial; this means `(18.2.3)` that there exists a `B`-homomorphism `z ↦ (z, w(z))`
+    from `C` into `D_C(L)` (the `B`-ring structure on `D_C(L)` being defined by `σ`); but such a homomorphism, being *a
+    fortiori* an `A`-homomorphism, is of the form `z ↦ (z, D'(z))` where `D' ∈ Der_A(C, L)` `(20.1.6)`; and writing
+    that it is a `B`-homomorphism gives
 
 ```text
             D'(v(x) z) + v(x) D'(z) = D'(v(x)) z + v(x) D'(z) = (D(x) + D'(v(x))) z,
@@ -234,17 +233,18 @@ an `A`-homomorphism, is of the form `z ↦ (z, D'(z))` where `D' ∈ Der_A(C, L)
 
 for `x ∈ B`, `z ∈ C`, which yields `D'(v(x)) = D(x)`; the kernel of `∂` is therefore the image of `v^0`.
 
-4) The kernel of `u^1` is the set of classes of `B`-extensions of `C` by `L` which are `A`-trivial `(18.3.7)`, so (up to
-equivalence) of the form `D_C(L)`, where the `A`-ring structure is defined by the homomorphism `t ↦ (u(t), 0)`. Now
-every `B`-extension structure on `D_C(L)` is defined by a homomorphism `σ : x ↦ (v(x), D(x))`, where `D` is a
-`ℤ`-derivation of `B` into `L` `(20.1.5)`; to say that the `A`-ring structure of this `B`-extension is deduced from its
-`B`-ring structure by means of `u : A → B` means that `D(u(t)) = 0` for `t ∈ A`, hence that `D` is an `A`-derivation,
-or again that the class of the `B`-extension considered is of the form `∂(D)`; whence exactness at `Exan_B(C, L)`.
+1. The kernel of `u^1` is the set of classes of `B`-extensions of `C` by `L` which are `A`-trivial `(18.3.7)`, so (up to
+    equivalence) of the form `D_C(L)`, where the `A`-ring structure is defined by the homomorphism `t ↦ (u(t), 0)`. Now
+    every `B`-extension structure on `D_C(L)` is defined by a homomorphism `σ : x ↦ (v(x), D(x))`, where `D` is a
+    `ℤ`-derivation of `B` into `L` `(20.1.5)`; to say that the `A`-ring structure of this `B`-extension is deduced from
+    its `B`-ring structure by means of `u : A → B` means that `D(u(t)) = 0` for `t ∈ A`, hence that `D` is an
+    `A`-derivation, or again that the class of the `B`-extension considered is of the form `∂(D)`; whence exactness at
+    `Exan_B(C, L)`.
 
-5) The kernel of `v^1` is the set of classes of `A`-extensions `E` of `C` by `L` which become trivial on `v(B)`, that is,
-those for which there exists an `A`-homomorphism `w : B → E` such that `v` factors as `B →^{w} E →^{p} C`; but such an
-`A`-homomorphism defines on `E` a structure of `B`-extension whose class has as image under `u^1` the class of the given
-`A`-extension; the converse being trivial, exactness at `Exan_A(C, L)` is proved.
+1. The kernel of `v^1` is the set of classes of `A`-extensions `E` of `C` by `L` which become trivial on `v(B)`, that
+    is, those for which there exists an `A`-homomorphism `w : B → E` such that `v` factors as `B →^{w} E →^{p} C`; but
+    such an `A`-homomorphism defines on `E` a structure of `B`-extension whose class has as image under `u^1` the class
+    of the given `A`-extension; the converse being trivial, exactness at `Exan_A(C, L)` is proved.
 
 Finally, functoriality in `L` follows trivially from the definitions.
 
@@ -361,15 +361,15 @@ open two-sided ideal of `B`. One has then a canonical isomorphism*
 *where in the left-hand side the inductive limit is taken over the filtered ordered set of pairs `(𝔍, 𝔎)` of two-sided
 ideals such that `𝔎 · L = L · 𝔎 = 0`, `𝔍 · B ⊂ 𝔎`, `B · 𝔍 ⊂ 𝔎`.*
 
-Since `A/𝔍` and `B/𝔎` are discrete, one has canonical homomorphisms
-`w_{𝔎,𝔍} : Der_{A/𝔍}(B/𝔎, L) → Der.cont_A(B, L)` forming an inductive system `(20.3.4)`, whence the homomorphism
-`(20.3.5.1)` by passage to the inductive limit. Since the homomorphism `B/𝔎' → B/𝔎` is surjective for `𝔎 ⊃ 𝔎'`, it
-follows at once from the definition that the homomorphism `Der_A(B/𝔎, L) → Der_A(B/𝔎', L)` (with `𝔎 · L = L · 𝔎 = 0`,
-`𝔍 · B ⊂ 𝔎'`, `B · 𝔍 ⊂ 𝔎'`) is injective, and it is evidently the same for the homomorphism
-`Der_{A/𝔍}(B/𝔎, L) → Der_{A/𝔍'}(B/𝔎, L)` for `𝔍' ⊂ 𝔍` `(20.2.1)`; one concludes that the homomorphism `(20.3.5.1)` is
-injective. On the other hand, if `D` is a continuous `A`-derivation of `B` into `L`, its kernel contains an open
-two-sided ideal `𝔎` of `B`, and if `𝔍_0` is an open two-sided ideal of `A` such that `𝔍_0 · B ⊂ 𝔎` and `B · 𝔍_0 ⊂ 𝔎`, it
-is clear that `D` is the canonical image of an `(A/𝔍_0)`-derivation of `B/𝔎` into `L`, hence `(20.3.5.1)` is surjective.
+Since `A/𝔍` and `B/𝔎` are discrete, one has canonical homomorphisms `w_{𝔎,𝔍} : Der_{A/𝔍}(B/𝔎, L) → Der.cont_A(B, L)`
+forming an inductive system `(20.3.4)`, whence the homomorphism `(20.3.5.1)` by passage to the inductive limit. Since
+the homomorphism `B/𝔎' → B/𝔎` is surjective for `𝔎 ⊃ 𝔎'`, it follows at once from the definition that the homomorphism
+`Der_A(B/𝔎, L) → Der_A(B/𝔎', L)` (with `𝔎 · L = L · 𝔎 = 0`, `𝔍 · B ⊂ 𝔎'`, `B · 𝔍 ⊂ 𝔎'`) is injective, and it is
+evidently the same for the homomorphism `Der_{A/𝔍}(B/𝔎, L) → Der_{A/𝔍'}(B/𝔎, L)` for `𝔍' ⊂ 𝔍` `(20.2.1)`; one concludes
+that the homomorphism `(20.3.5.1)` is injective. On the other hand, if `D` is a continuous `A`-derivation of `B` into
+`L`, its kernel contains an open two-sided ideal `𝔎` of `B`, and if `𝔍_0` is an open two-sided ideal of `A` such that
+`𝔍_0 · B ⊂ 𝔎` and `B · 𝔍_0 ⊂ 𝔎`, it is clear that `D` is the canonical image of an `(A/𝔍_0)`-derivation of `B/𝔎` into
+`L`, hence `(20.3.5.1)` is surjective.
 
 <!-- original page 218 -->
 
@@ -435,9 +435,9 @@ canonical surjective `A`-homomorphism
 (20.4.1.1)                             p : B ⊗_A B → B
 ```
 
-such that `p(b ⊗ b') = bb'`; it is immediate that `p` is continuous. The kernel of `p` will be denoted `𝔍_{B/A}`
-(or simply `𝔍` if there is no risk of confusion). We denote by `j_1 : B → B ⊗_A B` and `j_2 : B → B ⊗_A B` the two
-canonical `A`-homomorphisms, such that
+such that `p(b ⊗ b') = bb'`; it is immediate that `p` is continuous. The kernel of `p` will be denoted `𝔍_{B/A}` (or
+simply `𝔍` if there is no risk of confusion). We denote by `j_1 : B → B ⊗_A B` and `j_2 : B → B ⊗_A B` the two canonical
+`A`-homomorphisms, such that
 
 ```text
                               j_1(b) = b ⊗ 1,        j_2(b) = 1 ⊗ b
@@ -478,8 +478,8 @@ Since `p(b ⊗ 1) = b` by definition, it is clear that `ε` is indeed an augment
 `B`-module of `1`-differentials (or simply of differentials) of `B` relative to `A`.*
 
 It is to be noted that the topology of `Ω_{B/A}` is also the quotient topology of the topology induced on `𝔍_{B/A}` by
-that of `B ⊗_A B` (Bourbaki, _Top. gén._, chap. III, 3rd ed., §2, n° 7, prop. 20). If `B` is discrete the same holds
-for `Ω_{B/A}`. We denote by `Ω̂_{B/A}` the separated completion of the topological `B`-module `Ω_{B/A}`.
+that of `B ⊗_A B` (Bourbaki, _Top. gén._, chap. III, 3rd ed., §2, n° 7, prop. 20). If `B` is discrete the same holds for
+`Ω_{B/A}`. We denote by `Ω̂_{B/A}` the separated completion of the topological `B`-module `Ω_{B/A}`.
 
 Any topological ring `B` may be regarded as a topological `ℤ`-algebra (`ℤ` being equipped with the discrete topology),
 so that one can define the topological `B`-module `Ω_{B/ℤ}`, which is sometimes also called the *`B`-module of absolute
@@ -563,7 +563,8 @@ continuous `A`-homomorphisms such that `ε ∘ p_1 = ε ∘ p_2 = 1_B`. The cont
 *is called the exterior differential of `B` relative to `A`; for every `x ∈ B`, `d_{B/A}(x)` (also denoted `d(x)` or
 `dx`) is called the differential of `x` (relative to `A`).*
 
-When `A = ℤ`, one writes `d_B` instead of `d_{B/ℤ}`; if `B` is an algebra over a prime field `P`, one has `d_B = d_{B/P}`.
+When `A = ℤ`, one writes `d_B` instead of `d_{B/ℤ}`; if `B` is an algebra over a prime field `P`, one has
+`d_B = d_{B/P}`.
 
 **Proposition (20.4.7).**
 
@@ -598,10 +599,10 @@ for every topological `B`-module `L`, the map `u ↦ u ∘ d_{B/A}` is an isomor
 
 <!-- original page 221 -->
 
-(i) It is immediate that `φ` (with the notations of `(20.4.6)`) is necessarily the map
-`z ↦ (ε(z), z − p_1(ε(z)))`, and the inverse isomorphism is the map `(b, x) ↦ p_1(b) + x`, these two maps being
-continuous, which proves the first assertion. It is to be noted that this implies that the topology of `B` is identified
-(by `p_1`) with the quotient of the topology of `B ⊗_A B` by `𝔍_{B/A}`.
+(i) It is immediate that `φ` (with the notations of `(20.4.6)`) is necessarily the map `z ↦ (ε(z), z − p_1(ε(z)))`, and
+the inverse isomorphism is the map `(b, x) ↦ p_1(b) + x`, these two maps being continuous, which proves the first
+assertion. It is to be noted that this implies that the topology of `B` is identified (by `p_1`) with the quotient of
+the topology of `B ⊗_A B` by `𝔍_{B/A}`.
 
 (ii) The fact that `d_{B/A}` is an `A`-derivation of `B` results from definition `(20.4.6)` and from `(20.1.1)`.
 
@@ -674,8 +675,8 @@ In fact, the topology of `Ω_{B/A}` is then deduced from that of `B` `(20.4.5)`,
 <!-- label: 0_IV.20.4.11 -->
 
 *Let `A`, `B` be two Noetherian local rings, `ρ : A → B` a local homomorphism making `B` into a formally smooth
-topological `A`-algebra (for the preadic topologies). Then, for every ideal of definition `𝔟` of `B`, `Ω_{B/A} / 𝔟 · Ω_{B/A}`
-is a free `(B/𝔟)`-module.*
+topological `A`-algebra (for the preadic topologies). Then, for every ideal of definition `𝔟` of `B`,
+`Ω_{B/A} / 𝔟 · Ω_{B/A}` is a free `(B/𝔟)`-module.*
 
 In fact, it follows from `(20.4.10)` that this module is projective, and since `B/𝔟` is an Artinian ring, every
 projective `(B/𝔟)`-module is free `(0_III, 10.1.3)`.
@@ -694,15 +695,15 @@ follows at once from `(20.4.8)`.
 
 <!-- label: 0_IV.20.4.13 -->
 
-*(i) Let `A` be a ring, `B = A[X_α]_{α ∈ I}` a polynomial algebra over `A`. Then `Ω_{B/A}` is a free `B`-module, of which
-the `dX_α` form a basis.*
+*(i) Let `A` be a ring, `B = A[X_α]_{α ∈ I}` a polynomial algebra over `A`. Then `Ω_{B/A}` is a free `B`-module, of
+which the `dX_α` form a basis.*
 
 Indeed, the `dX_α` generate this `B`-module `(20.4.7)`. On the other hand, if `L` is a free `B`-module having a basis
 `(e_α)_{α ∈ I}` indexed by `I`, there exists an `A`-homomorphism `u` of `B` into `D_B(L)` such that
 `u(X_α) = (X_α, e_α)` for every `α ∈ I`, hence `(20.1.5)` an `A`-derivation `D` of `B` into `L` such that `D(X_α) = e_α`
 for every `α`; by virtue of `(20.4.8.1)`, this proves that the `dX_α` are linearly independent.
 
-*(ii) Let `A` be a ring, `L` an `A`-module, `B` the `A`-algebra `D_A(L)`; then the canonical homomorphism
+\*(ii) Let `A` be a ring, `L` an `A`-module, `B` the `A`-algebra `D_A(L)`; then the canonical homomorphism
 `x ↦ d_{B/A} x` of `L` into `Ω_{B/A}` is bijective, for it is immediate that the `B`-derivations of `B = D_A(L)` into a
 `B`-module `M` are the maps of the form `(b, x) ↦ u(x)`, where `u ∈ Hom_A(L, M)`; one then concludes by
 `(20.4.8, (ii))`.
@@ -737,7 +738,8 @@ and of `B`.*
 **(20.5.1)** In the whole of this number and the following one, unless expressly stated otherwise, the rings and modules
 considered are assumed to be equipped with the discrete topology.
 
-**(20.5.2)** Let `A` be a ring, `B`, `C` two `A`-algebras, `u : B → C` an `A`-homomorphism; one has a commutative diagram
+**(20.5.2)** Let `A` be a ring, `B`, `C` two `A`-algebras, `u : B → C` an `A`-homomorphism; one has a commutative
+diagram
 
 ```text
                                   u ⊗ u
@@ -773,8 +775,8 @@ is commutative; since `u ⊗ u` maps `𝔍_{B/A}` into `𝔍_{C/A}`, one obtains
 (20.5.2.3)                          u'' : Ω_{B/A} → Ω_{C/A}
 ```
 
-such that the pair `(u'', u)` is a di-homomorphism for the `B`-module structure of `Ω_{B/A}` and the `C`-module structure
-of `Ω_{C/A}`; this last fact allows one to deduce canonically a homomorphism of `C`-modules
+such that the pair `(u'', u)` is a di-homomorphism for the `B`-module structure of `Ω_{B/A}` and the `C`-module
+structure of `Ω_{C/A}`; this last fact allows one to deduce canonically a homomorphism of `C`-modules
 
 ```text
 (20.5.2.4)                          u_{C/B/A} : Ω_{B/A} ⊗_B C → Ω_{C/A}.
@@ -817,8 +819,8 @@ Finally, if `w : C → D` is a second homomorphism of `A`-algebras, one has the 
 as follows from the definition.
 
 **(20.5.3)** Let now `A`, `B` be two rings, `v : A → B` a ring homomorphism, `C` a `B`-algebra which becomes an
-`A`-algebra by means of `v`; then the canonical map `v_0 : C ⊗_A C → C ⊗_B C` is a surjective di-homomorphism of algebras
-(relative to `v : A → B`) such that the diagram
+`A`-algebra by means of `v`; then the canonical map `v_0 : C ⊗_A C → C ⊗_B C` is a surjective di-homomorphism of
+algebras (relative to `v : A → B`) such that the diagram
 
 ```text
                                           v_0
@@ -989,8 +991,8 @@ formally smooth `B`-algebra (for the discrete topologies).*
                   0 → Hom_C(Ω_{C/B}, L) → Hom_C(Ω_{C/A}, L) → Hom_B(Ω_{B/A}, L)
 ```
 
-is exact for every `C`-module `L`. One knows that this implies the exactness of the sequence `(20.5.7.1)`
-(Bourbaki, _Alg._, chap. II, 3rd ed., §2, n° 1, th. 1).
+is exact for every `C`-module `L`. One knows that this implies the exactness of the sequence `(20.5.7.1)` (Bourbaki,
+_Alg._, chap. II, 3rd ed., §2, n° 1, th. 1).
 
 (ii) By virtue of the exactness of `(20.5.7.1)`, to say that `v_{C/B/A}` is left-invertible means that the sequence
 
@@ -1005,8 +1007,8 @@ is exact *and split*; one knows (Bourbaki, _loc. cit._, n° 1, prop. 1) that thi
               0 → Hom_C(Ω_{C/B}, L) → Hom_C(Ω_{C/A}, L) → Hom_B(Ω_{B/A}, L) → 0
 ```
 
-is exact; taking `(20.5.6)` and `(20.2.4.2)` into account, this condition is equivalent to
-`Exalcom_{B/A}(C, L) = 0` for every `C`-module `L`, and the conclusion therefore follows from `(19.9.8.1)`.
+is exact; taking `(20.5.6)` and `(20.2.4.2)` into account, this condition is equivalent to `Exalcom_{B/A}(C, L) = 0` for
+every `C`-module `L`, and the conclusion therefore follows from `(19.9.8.1)`.
 
 <!-- original page 227 -->
 
@@ -1045,8 +1047,8 @@ where the vertical arrows come from the di-homomorphisms `(20.5.4.3)`.
 *is bijective.*
 
 Indeed, if `C` is a formally unramified `B`-algebra for the discrete topologies, it follows from `(19.10.4)`,
-`(20.4.8)`, and `(20.1.1)` that one has `Hom_C(Ω_{C/B}, L) = 0` for every `C`-module `L`, hence `Ω_{C/B} = 0`
-(cf. `(20.7.4)`); on the other hand, if `C` is a formally smooth `B`-algebra for the discrete topologies, the sequence
+`(20.4.8)`, and `(20.1.1)` that one has `Hom_C(Ω_{C/B}, L) = 0` for every `C`-module `L`, hence `Ω_{C/B} = 0` (cf.
+`(20.7.4)`); on the other hand, if `C` is a formally smooth `B`-algebra for the discrete topologies, the sequence
 `(20.5.7.2)` is exact; whence the corollary.
 
 **Corollary (20.5.9).**
@@ -1079,8 +1081,8 @@ up to canonical isomorphisms.
 *If `k` is a field and `K = k(X_α)_{α ∈ I}` a purely transcendental extension of `k`, the `dX_α` form a basis of the
 `K`-vector space `Ω_{K/k}`.*
 
-Since `K` is the field of fractions of the polynomial ring `k[X_α]_{α ∈ I}`, this follows from `(20.4.13, (i))` and
-from `(20.5.9)`.
+Since `K` is the field of fractions of the polynomial ring `k[X_α]_{α ∈ I}`, this follows from `(20.4.13, (i))` and from
+`(20.5.9)`.
 
 <!-- original page 228 -->
 
@@ -1091,16 +1093,16 @@ consider the composite homomorphism of `A`-modules
 (20.5.11.1)                         𝔎 → B →^{d} Ω_{B/A}
 ```
 
-where the first arrow is the canonical injection; since `d(xy) = x dy + y dx`, one sees that
-`d(𝔎^2) ⊂ 𝔎 · Ω_{B/A}`, whence, by passage to the quotients, a homomorphism of `A`-modules
+where the first arrow is the canonical injection; since `d(xy) = x dy + y dx`, one sees that `d(𝔎^2) ⊂ 𝔎 · Ω_{B/A}`,
+whence, by passage to the quotients, a homomorphism of `A`-modules
 
 ```text
 (20.5.11.2)                 δ_{C/B/A} : 𝔎/𝔎^2 → Ω_{B/A} ⊗_B C = Ω_{B/A} / 𝔎 · Ω_{B/A}.
 ```
 
-But in fact, `δ_{C/B/A}` is a homomorphism of `C`-modules, for `x ∈ B` and `y ∈ 𝔎`, one has
-`y dx ∈ 𝔎 · Ω_{B/A}`, so `d(xy) ≡ x dy` (mod `𝔎 · Ω_{B/A}`), which first proves that `(20.5.11.2)` is a homomorphism of
-`B`-modules, and since `𝔎` annihilates both sides, this establishes our assertion.
+But in fact, `δ_{C/B/A}` is a homomorphism of `C`-modules, for `x ∈ B` and `y ∈ 𝔎`, one has `y dx ∈ 𝔎 · Ω_{B/A}`, so
+`d(xy) ≡ x dy` (mod `𝔎 · Ω_{B/A}`), which first proves that `(20.5.11.2)` is a homomorphism of `B`-modules, and since
+`𝔎` annihilates both sides, this establishes our assertion.
 
 If `B'` is a second `A`-algebra, `u : B → B'` an `A`-homomorphism, `𝔎'` an ideal of `B'` such that `u(𝔎) ⊂ 𝔎'`, and
 `C' = B'/𝔎'` the quotient algebra, one has a commutative diagram
@@ -1223,9 +1225,9 @@ then follows from the commutativity of the diagram `(18.3.6.5)`
                               𝔎/𝔎^2 →^{d ⊗ 1} Ω_{E/A} ⊗_E C →^{h ⊗ 1} 𝔎/𝔎^2
 ```
 
-is the identity; now, since `𝔎/𝔎^2` is a `C`-module, `h ↦ h ⊗ 1` is an isomorphism from the set
-`Hom_E(Ω_{E/A}, 𝔎/𝔎^2)` onto `Hom_C(Ω_{E/A} ⊗_E C, 𝔎/𝔎^2)`; and on the other hand (ii) proves that one can canonically
-identify `Ω_{E/A} ⊗_E C` and `Ω_{B/A} ⊗_B C`, `δ_{C/E/A}` being then identified with `δ_{C/B/A}`. *Q.E.D.*
+is the identity; now, since `𝔎/𝔎^2` is a `C`-module, `h ↦ h ⊗ 1` is an isomorphism from the set `Hom_E(Ω_{E/A}, 𝔎/𝔎^2)`
+onto `Hom_C(Ω_{E/A} ⊗_E C, 𝔎/𝔎^2)`; and on the other hand (ii) proves that one can canonically identify `Ω_{E/A} ⊗_E C`
+and `Ω_{B/A} ⊗_B C`, `δ_{C/E/A}` being then identified with `δ_{C/B/A}`. *Q.E.D.*
 
 **Example (20.5.13).**
 
@@ -1282,8 +1284,8 @@ homomorphism*
 
 <!-- label: 0_IV.20.6.1 -->
 
-*Given two ring homomorphisms `u : A → B`, `v : B → C`, the **imperfection module** of the `B`-algebra `C` relative to `A`,
-denoted `Υ_{C/B/A}`, is the `C`-module kernel of the homomorphism `v_{C/B/A} : Ω^1_{B/A} ⊗_B C → Ω^1_{C/A}`.*
+*Given two ring homomorphisms `u : A → B`, `v : B → C`, the **imperfection module** of the `B`-algebra `C` relative to
+`A`, denoted `Υ_{C/B/A}`, is the `C`-module kernel of the homomorphism `v_{C/B/A} : Ω^1_{B/A} ⊗_B C → Ω^1_{C/A}`.*
 
 One thus has by definition (cf. `(20.5.7)`) the exact sequence
 
@@ -1457,10 +1459,10 @@ one therefore obtains a canonical `C`-homomorphism
   (20.6.7.1)   Exalcom_{B/A}(C, L) → Hom_C(Υ_{C/B/A}, L)
 ```
 
-which is made explicit as follows: by virtue of `(20.2.4.2)`, every `B`-extension of `C` by `L` that is `A`-trivial comes
-from the datum of an `A`-derivation `D` of `B` into `L`, hence `(20.4.8)` from a `C`-homomorphism `f` of `Ω^1_{B/A} ⊗_B C`
-into `L`; one associates to the class of this extension the *restriction* of `f` to `Υ_{C/B/A}`, which depends only on
-the class of the extension and not on the choice of `D`.
+which is made explicit as follows: by virtue of `(20.2.4.2)`, every `B`-extension of `C` by `L` that is `A`-trivial
+comes from the datum of an `A`-derivation `D` of `B` into `L`, hence `(20.4.8)` from a `C`-homomorphism `f` of
+`Ω^1_{B/A} ⊗_B C` into `L`; one associates to the class of this extension the *restriction* of `f` to `Υ_{C/B/A}`, which
+depends only on the class of the extension and not on the choice of `D`.
 
 **Definition (20.6.8).**
 
@@ -1499,8 +1501,8 @@ The lower row of the diagram is the sequence `(20.5.12.5)` relative to the two h
 virtue of `(20.5.12, (iii))`. The commutativity of the right-hand square of `(20.6.9.1)` follows from the relation
 `v = p ∘ q` `(20.5.2.7)`; the image under `q_{E/B/A} ⊗ 1_C` of the kernel `Υ_{C/B/A}` of `v_{C/B/A}` is therefore
 contained in the kernel `L` of `p_{C/E/A}`. On the other hand, let `h : C → E` be an `A`-homomorphism right inverse to
-`p`, and let `j : L → E` be the canonical injection, so that one has `q(b) = h(v(b)) + j(D(b))` for `b ∈ B`, where `D` is
-the `A`-derivation of `B` into `L` defining the `B`-extension `E`; one can write `D = f ∘ d_{B/A}`, where
+`p`, and let `j : L → E` be the canonical injection, so that one has `q(b) = h(v(b)) + j(D(b))` for `b ∈ B`, where `D`
+is the `A`-derivation of `B` into `L` defining the `B`-extension `E`; one can write `D = f ∘ d_{B/A}`, where
 `f : Ω^1_{B/A} → L` is a `B`-homomorphism. By virtue of `(20.5.2.6)`, one has
 
 ```text
@@ -1541,12 +1543,13 @@ Indeed, in the diagram `(20.6.9.1)`, the two right-hand vertical arrows are bije
 
 <!-- label: 0_IV.20.6.11 -->
 
-*Let `u : A → B`, `v : B → C` be two ring homomorphisms, `L` a `C`-module. Suppose one of the following conditions holds:*
+*Let `u : A → B`, `v : B → C` be two ring homomorphisms, `L` a `C`-module. Suppose one of the following conditions
+holds:*
 
 *(i) `L` is an injective `C`-module.*
 
-*(ii) `Υ_{C/B/A}` is a direct factor of the `C`-module `Ω^1_{B/A} ⊗_B C`, and
-`u_{C/B/A} : Ω^1_{C/A} → Ω^1_{C/B}` is right-invertible.*
+*(ii) `Υ_{C/B/A}` is a direct factor of the `C`-module `Ω^1_{B/A} ⊗_B C`, and `u_{C/B/A} : Ω^1_{C/A} → Ω^1_{C/B}` is
+right-invertible.*
 
 *Then the canonical homomorphism `(20.6.7.1)`*
 
@@ -1664,8 +1667,8 @@ When `Λ = ℤ`, we shall write `Υ^C_{B/A}` in place of `Υ^C_{B/A/ℤ}`. If `�
 `Υ^C_{B/A/Λ} = Υ^C_{B/A}`.
 
 **(20.6.15)** To study the relations between the preceding modules, we shall introduce on the one hand the complex of
-`B`-modules `K_•(B/A/Λ)`, on the other hand the complexes of `C`-modules `K_•(C/A/Λ)` and `K_•(C/B/A)` `(20.6.5)`, and in
-addition the following complexes of `C`-modules. We set first of all
+`B`-modules `K_•(B/A/Λ)`, on the other hand the complexes of `C`-modules `K_•(C/A/Λ)` and `K_•(C/B/A)` `(20.6.5)`, and
+in addition the following complexes of `C`-modules. We set first of all
 
 <!-- original page 142 -->
 
@@ -1707,11 +1710,11 @@ as follows: let us denote for a moment by
   g : Ω^1_{B/Λ} ⊗_B C → Ω^1_{C/Λ}
 ```
 
-the canonical homomorphisms `u_{B/A/Λ} ⊗ 1_C` and `v_{C/B/Λ}` respectively, whose composite is
-`g ∘ f = (v ∘ u)_{C/A/Λ}` (cf. `(20.6.14.4)`). One takes `j_1(x) = (x, f(x))`, `p_1(y, z) = z − f(y)`,
-`j_0(x) = (g(x), x)`, `p_0(y, z) = g(z) − y`, so that `Im(j_1) = Ker(p_1)` is the graph of `f`, complementary to
-`{0} ⊕ T_1`, and `Im(j_0) = Ker(p_0)` is the graph of `g`, complementary to `K_1(C/A/Λ) ⊕ {0}`; the verification of the
-commutativity of the diagram
+the canonical homomorphisms `u_{B/A/Λ} ⊗ 1_C` and `v_{C/B/Λ}` respectively, whose composite is `g ∘ f = (v ∘ u)_{C/A/Λ}`
+(cf. `(20.6.14.4)`). One takes `j_1(x) = (x, f(x))`, `p_1(y, z) = z − f(y)`, `j_0(x) = (g(x), x)`,
+`p_0(y, z) = g(z) − y`, so that `Im(j_1) = Ker(p_1)` is the graph of `f`, complementary to `{0} ⊕ T_1`, and
+`Im(j_0) = Ker(p_0)` is the graph of `g`, complementary to `K_1(C/A/Λ) ⊕ {0}`; the verification of the commutativity of
+the diagram
 
 ```text
    0 → K^C_1(B/A/Λ) ──j_1──▸ K'_1(C/A/Λ) ──p_1──▸ K_1(C/B/A) → 0
@@ -1743,12 +1746,12 @@ where the vertical arrows are the differentials, is immediate.
 
 *the second arrow being the canonical injection.*
 
-By writing the exact sequence of homology for the exact sequence of complexes `(20.6.16.1)`, one obtains
-`(20.6.17.1)`, the homology being zero in degrees other than `0` and `1`; the fact that the homomorphisms of this exact
-sequence that come by functoriality from `j` and `p` are indeed those of the statement is immediate. It remains to
-verify that `∂` is equal to `(20.6.17.2)`; now an element `z ∈ Υ_{C/B/A}` is the image under `p_1` of `(0, z)`, whence
-one deduces at once that `∂(z)` is the image of `z` under the canonical homomorphism
-`s_{B/A/Λ} ⊗ 1_C : Ω^1_{B/A} ⊗_B C → Ω^1_{B/Λ} ⊗_B C`. Our assertion follows from the commutativity of the diagram
+By writing the exact sequence of homology for the exact sequence of complexes `(20.6.16.1)`, one obtains `(20.6.17.1)`,
+the homology being zero in degrees other than `0` and `1`; the fact that the homomorphisms of this exact sequence that
+come by functoriality from `j` and `p` are indeed those of the statement is immediate. It remains to verify that `∂` is
+equal to `(20.6.17.2)`; now an element `z ∈ Υ_{C/B/A}` is the image under `p_1` of `(0, z)`, whence one deduces at once
+that `∂(z)` is the image of `z` under the canonical homomorphism `s_{B/A/Λ} ⊗ 1_C : Ω^1_{B/A} ⊗_B C → Ω^1_{B/Λ} ⊗_B C`.
+Our assertion follows from the commutativity of the diagram
 
 ```text
                 Υ_{C/B/A} ──s'──▸ Υ_{C/B/Λ}
@@ -1808,8 +1811,8 @@ If `P` is the prime field of `K`, one has by `(20.6.18)` the exact sequence
   Υ_{F/K/P} → Υ_{F/E/P} → Υ_{F/E/K} → 0.
 ```
 
-If `Υ_{F/E/P} = Υ_{F/E} = 0`, then `Υ_{F/E/K} = 0`, whence (i) by virtue of `(20.6.3)`; conversely, if
-`Υ_{F/E/K} = 0` and `Υ_{F/K/P} = Υ_{F/K} = 0`, one has `Υ_{F/E/P} = 0`, whence (ii) by virtue of `(20.6.3)`.
+If `Υ_{F/E/P} = Υ_{F/E} = 0`, then `Υ_{F/E/K} = 0`, whence (i) by virtue of `(20.6.3)`; conversely, if `Υ_{F/E/K} = 0`
+and `Υ_{F/K/P} = Υ_{F/K} = 0`, one has `Υ_{F/E/P} = 0`, whence (ii) by virtue of `(20.6.3)`.
 
 <!-- original page 144 -->
 
@@ -1834,8 +1837,8 @@ Since `K` is separable over `L`, it follows from `(20.6.19, (i))` that the seque
   0 → Ω^1_{L/k} ⊗_L K → Ω^1_{K/k} → Ω^1_{K/L} → 0
 ```
 
-is exact, and from (i) that `Ω^1_{K/L} = 0`. The relation `Ω^1_{K/k} = 0` is therefore equivalent to `Ω^1_{L/k} = 0`, and
-since `L` is a pure extension of `k`, it follows from `(20.5.10)` that the relation `Ω^1_{L/k} = 0` is equivalent to
+is exact, and from (i) that `Ω^1_{K/L} = 0`. The relation `Ω^1_{K/k} = 0` is therefore equivalent to `Ω^1_{L/k} = 0`,
+and since `L` is a pure extension of `k`, it follows from `(20.5.10)` that the relation `Ω^1_{L/k} = 0` is equivalent to
 `L = k`.
 
 **Remarks (20.6.21).**
@@ -1859,8 +1862,8 @@ since `L` is a pure extension of `k`, it follows from `(20.5.10)` that the relat
 
 *1° `C` is a flat `B`-module.*
 
-*2° The `B`-modules `Ω^1_{B/A}` and `Ω^1_{B/Λ}` are flat; for then so is `Ker(Ω^1_{B/A} → Ω^1_{B/Λ})` `(0_I, 6.1.2)`, and
-the sequence `(20.6.21.2)` is then exact by virtue of `(0_I, 6.1.2)`.*
+*2° The `B`-modules `Ω^1_{B/A}` and `Ω^1_{B/Λ}` are flat; for then so is `Ker(Ω^1_{B/A} → Ω^1_{B/Λ})` `(0_I, 6.1.2)`,
+and the sequence `(20.6.21.2)` is then exact by virtue of `(0_I, 6.1.2)`.*
 
 *(ii) Consider a commutative diagram of ring homomorphisms*
 
@@ -1938,8 +1941,8 @@ Suppose in addition that one has a commutative diagram of ring homomorphisms
 
 <!-- original page 146 -->
 
-such that `𝔍'` is an ideal of `B'` with `f(𝔍) ⊂ 𝔍'`, and `E' = B'/𝔍'²` is an `A'`-trivial `B'`-extension of
-`C' = B'/𝔍'` by `𝔍'/𝔍'²`. One then has a commutative diagram
+such that `𝔍'` is an ideal of `B'` with `f(𝔍) ⊂ 𝔍'`, and `E' = B'/𝔍'²` is an `A'`-trivial `B'`-extension of `C' = B'/𝔍'`
+by `𝔍'/𝔍'²`. One then has a commutative diagram
 
 ```text
   (20.6.22.2)
@@ -1973,7 +1976,8 @@ these last specifications when there is no risk of confusion); it will sometimes
 
 <!-- label: 0_IV.20.6.25 -->
 
-*Let `s : Λ → A`, `u : A → B`, `v : B → C` be three ring homomorphisms, `L` a `C`-module. One then has an exact sequence*
+*Let `s : Λ → A`, `u : A → B`, `v : B → C` be three ring homomorphisms, `L` a `C`-module. One then has an exact
+sequence*
 
 ```text
                                   u⁰              v⁰              ∂
@@ -2002,15 +2006,17 @@ by definition; the identification of `u¹` and `v¹` with the homomorphisms of `
 
 <!-- label: 0_IV.20.6.26 -->
 
-*In this number, the complexes `K_•(C/B/A)` have appeared as a technical artifice destined to simplify the exposition of
-certain functorial behaviours. In reality, these complexes, considered as objects of the category of complexes of
+\*In this number, the complexes `K_•(C/B/A)` have appeared as a technical artifice destined to simplify the exposition
+of certain functorial behaviours. In reality, these complexes, considered as objects of the category of complexes of
+
 <!-- original page 147 -->
+
 `C`-modules "up to homotopy" (that is, where the morphisms are the classes of homotopic homomorphisms), are remarkable
 invariants, finer than the pair formed of `Ω^1_{C/B}` and `Υ_{C/B/A}`. When `k` is a prime field, and `C` is a formally
 smooth `k`-algebra (for example a regular ring of finite type over an extension of `k` (cf. `(IV, 6.8.6)`)), one can
 show that the complex `K_•(C/A/k)` can be described uniquely in terms of `C` and `A` (to the exclusion of `k`): one
 expresses `C` as the quotient of a polynomial algebra `B` over `A` by an ideal `𝔏`, and one considers the complex
-`F_•(C/A)` with two non-zero terms*
+`F_•(C/A)` with two non-zero terms\*
 
 ```text
   … → 0 → 𝔏/𝔏² → Ω^1_{B/A} ⊗_B C → 0 → …
@@ -2041,9 +2047,9 @@ the fact that `P^1_{B/A}` is the topological direct sum of `B` and `Ω^1_{B/A}` 
 <!-- label: 0_IV.20.7.2 -->
 
 *Let `u : A → B`, `v : B → C` be two continuous homomorphisms of topological rings. For the continuous homomorphism
-`v_{C/B/A} : Ω^1_{B/A} ⊗_B C → Ω^1_{C/A}` to be formally left-invertible (cf. `(19.1.5)`), it is necessary and sufficient
-that `C` be a `B`-algebra formally smooth relative to `A` `(19.9.1)` (and a fortiori it suffices that `C` be a formally
-smooth `B`-algebra).*
+`v_{C/B/A} : Ω^1_{B/A} ⊗_B C → Ω^1_{C/A}` to be formally left-invertible (cf. `(19.1.5)`), it is necessary and
+sufficient that `C` be a `B`-algebra formally smooth relative to `A` `(19.9.1)` (and a fortiori it suffices that `C` be
+a formally smooth `B`-algebra).*
 
 To say that `v_{C/B/A}` is formally left-invertible signifies indeed, since the topologies of `Ω^1_{C/A}` and
 `Ω^1_{B/A} ⊗_B C` are coarser than those deduced from the topology of `C` `(20.4.5)`, that for every discrete `C`-module
@@ -2063,7 +2069,8 @@ product topology, it amounts to the same, by virtue of `(20.4.8)`, to say that t
 ```
 
 is surjective. But the exact sequence `(20.3.8.2)` shows that this condition is equivalent to
-`Exalcotop_{B/A}(C, L) = 0`, that is to say precisely to the fact that `C` is formally smooth relative to `A` `(19.9.8)`.
+`Exalcotop_{B/A}(C, L) = 0`, that is to say precisely to the fact that `C` is formally smooth relative to `A`
+`(19.9.8)`.
 
 **Corollary (20.7.3).**
 
@@ -2079,9 +2086,9 @@ of `0` formed of ideals of `C`, then, for every `λ`, the homomorphism*
 
 *be left-invertible.*
 
-One knows indeed in that case that the topology of `Ω^1_{B/A}` (resp. `Ω^1_{C/A}`) is deduced from that of `B`
-(resp. of `C`) `(20.4.5)`; one concludes at once that the topology of `Ω^1_{B/A} ⊗_B C` is also deduced from that of
-`C`; the corollary then follows from `(20.7.2)` and `(19.1.7)`.
+One knows indeed in that case that the topology of `Ω^1_{B/A}` (resp. `Ω^1_{C/A}`) is deduced from that of `B` (resp. of
+`C`) `(20.4.5)`; one concludes at once that the topology of `Ω^1_{B/A} ⊗_B C` is also deduced from that of `C`; the
+corollary then follows from `(20.7.2)` and `(19.1.7)`.
 
 **Proposition (20.7.4).**
 
@@ -2092,9 +2099,9 @@ necessary and sufficient that the separated completion `Ω̂^1_{B/A}` be zero.*
 
 Indeed, it follows at once from `(19.10.4)` and `(20.1.1)` that, for `B` to be formally unramified, it is necessary and
 sufficient that for every open ideal `𝔎` of `B`, every open ideal `𝔍` of `A` such that `𝔍·B ⊂ 𝔎`, and every
-`(B/𝔎)`-module `L`, one have `Der_A(B/𝔎, L) = 0`, that is to say `Der.cont_A(B, L) = 0` for every discrete `B`-module `L`
-annihilated by an open ideal of `B`; by virtue of `(20.4.8)`, this is equivalent to
-`Hom.cont_B(Ω^1_{B/A}, L) = 0` for such a `B`-module, whence at once the proposition.
+`(B/𝔎)`-module `L`, one have `Der_A(B/𝔎, L) = 0`, that is to say `Der.cont_A(B, L) = 0` for every discrete `B`-module
+`L` annihilated by an open ideal of `B`; by virtue of `(20.4.8)`, this is equivalent to `Hom.cont_B(Ω^1_{B/A}, L) = 0`
+for such a `B`-module, whence at once the proposition.
 
 When `B` is discrete, the condition in the statement of `(20.7.4)` is therefore equivalent to `Ω^1_{B/A} = 0`.
 
@@ -2164,9 +2171,9 @@ ring `B/𝔍`, `v : B → C` the canonical homomorphism. Then:*
 
 *be injective.*
 
-(i) The first assertion is evident. On the other hand, the canonical homomorphism
-`v ⊗ v : B ⊗_A B → C ⊗_A C` is a strict morphism by definition of the tensor product topology, and one deduces at once
-(cf. `(20.5.2)`) that the same holds of `v_{C/B/A}`.
+(i) The first assertion is evident. On the other hand, the canonical homomorphism `v ⊗ v : B ⊗_A B → C ⊗_A C` is a
+strict morphism by definition of the tensor product topology, and one deduces at once (cf. `(20.5.2)`) that the same
+holds of `v_{C/B/A}`.
 
 (ii) To say that `δ_{C/B/A}` is formally left-invertible signifies that for every discrete `C`-module `L` annihilated by
 an open ideal of `C`, the canonical homomorphism
@@ -2188,7 +2195,9 @@ The fact that `(20.7.8.1)` be injective is also expressed in the following manne
 the two members `(18.4.1)`: for every open ideal `𝔐` of `A`, every open ideal `𝔑` of `B` such that `𝔐B ⊂ 𝔑`, and every
 `(A/𝔐)`-extension `E` of `B/(𝔍 + 𝔑)` by a `(B/(𝔍 + 𝔑))`-module `L`, such that the inverse image of `E` under the
 canonical homomorphism `B/𝔑 → B/(𝔍 + 𝔑)` be `(A/𝔐)`-trivial, there exists an open ideal `𝔐' ⊂ 𝔐` of `A`,
+
 <!-- original page 150 -->
+
 an open ideal `𝔑' ⊂ 𝔑` of `B` such that `𝔐'B ⊂ 𝔑'` and such that the inverse image of `E` under the canonical
 homomorphism `B/(𝔍 + 𝔑') → B/(𝔍 + 𝔑)` be `(A/𝔐')`-trivial. In particular:
 
@@ -2199,18 +2208,18 @@ homomorphism `B/(𝔍 + 𝔑') → B/(𝔍 + 𝔑)` be `(A/𝔐')`-trivial. In p
 *If the topological `A`-algebra `C = B/𝔍` is formally smooth, the canonical homomorphism `δ_{C/B/A}` is formally
 left-invertible.*
 
-**(20.7.10)** In `(20.6.1)`, when `A`, `B`, `C` are topological rings and `u`, `v` continuous homomorphisms, one
-equips `Υ_{C/B/A}` with the topology induced by that of `Ω^1_{B/A} ⊗_B C`; the homomorphisms `(20.6.4.2)` and
-`(20.6.4.4)` are then continuous, provided the same holds for those of the diagram `(20.6.4.1)`. Moreover, if, in
-`(20.6.7)`, one assumes that `L` is a discrete `C`-module annihilated by an open ideal of `C`, one deduces, by passage
-to the inductive limit, a canonical `C`-homomorphism
+**(20.7.10)** In `(20.6.1)`, when `A`, `B`, `C` are topological rings and `u`, `v` continuous homomorphisms, one equips
+`Υ_{C/B/A}` with the topology induced by that of `Ω^1_{B/A} ⊗_B C`; the homomorphisms `(20.6.4.2)` and `(20.6.4.4)` are
+then continuous, provided the same holds for those of the diagram `(20.6.4.1)`. Moreover, if, in `(20.6.7)`, one assumes
+that `L` is a discrete `C`-module annihilated by an open ideal of `C`, one deduces, by passage to the inductive limit, a
+canonical `C`-homomorphism
 
 ```text
   (20.7.10.1)   Exalcotop_{B/A}(C, L) → Hom.cont_C(Υ_{C/B/A}, L)
 ```
 
-taking into account `(18.5.3.1)`: for every open ideal `𝔐` of `A`, every open ideal `𝔑` of `B` such that `𝔐B ⊂ 𝔑`,
-every open ideal `𝔓` of `C` such that `𝔑C ⊂ 𝔓` and `𝔓·L = 0`, every `(B/𝔑)`-extension `E` of `C/𝔓` by `L` that is
+taking into account `(18.5.3.1)`: for every open ideal `𝔐` of `A`, every open ideal `𝔑` of `B` such that `𝔐B ⊂ 𝔑`, every
+open ideal `𝔓` of `C` such that `𝔑C ⊂ 𝔓` and `𝔓·L = 0`, every `(B/𝔑)`-extension `E` of `C/𝔓` by `L` that is
 `(A/𝔐)`-trivial comes from the datum of a continuous `C`-homomorphism `f` of `Ω^1_{B/A} ⊗_B C` into `L`, and the
 homomorphism `(20.7.10.1)` associates to the image in `Exalcotop_{B/A}(C, L)` of the class of `E`, the restriction of
 `f` to `Υ_{C/B/A}`, the **characteristic homomorphism** of `E`, again denoted `χ_E`.
@@ -2229,16 +2238,16 @@ that is formally smooth and if `Ω^1_{C/B}` is a formally projective `C`-module,
 *for every discrete `C`-module `L` annihilated by an open ideal of `C`.*
 
 Indeed, in the exact sequence `(20.3.7.1)`, one has `Exalcotop_A(C, L) = 0` `(19.4.4)`, hence
-`Exalcotop_B(C, L) = Exalcotop_{B/A}(C, L)` and the homomorphism `(20.7.8.1)` is none other than `(20.7.10.1)`; the
-fact that it is bijective is deduced from `(20.6.13)` by passage to the inductive limit, taking into account that the
+`Exalcotop_B(C, L) = Exalcotop_{B/A}(C, L)` and the homomorphism `(20.7.8.1)` is none other than `(20.7.10.1)`; the fact
+that it is bijective is deduced from `(20.6.13)` by passage to the inductive limit, taking into account that the
 topology of `Ω^1_{C/B}` is then deduced from that of `C` `(20.4.5)` and `(19.2.4)`.
 
-**(20.7.12)** In `(20.6.14)` one again equips `Υ^C_{B/A/Λ}` with the topology induced by that of `Ω^1_{A/Λ} ⊗_A C`,
-and then the homomorphism `(20.6.14.6)` is continuous, when the rings considered are topological and the ring
-homomorphisms continuous.
+**(20.7.12)** In `(20.6.14)` one again equips `Υ^C_{B/A/Λ}` with the topology induced by that of `Ω^1_{A/Λ} ⊗_A C`, and
+then the homomorphism `(20.6.14.6)` is continuous, when the rings considered are topological and the ring homomorphisms
+continuous.
 
-**(20.7.13)** If, in `(20.6.23)`, one supposes that the rings `Λ`, `A`, `B`, `C` are topological, the homomorphisms
-`s`, `u`, `v` continuous and `L` a discrete `C`-module annihilated by an open ideal of `C`, then one may pass to the
+**(20.7.13)** If, in `(20.6.23)`, one supposes that the rings `Λ`, `A`, `B`, `C` are topological, the homomorphisms `s`,
+`u`, `v` continuous and `L` a discrete `C`-module annihilated by an open ideal of `C`, then one may pass to the
 inductive limit as in `(20.3.6)`, and one has an exact sequence
 
 ```text
@@ -2248,7 +2257,9 @@ inductive limit as in `(20.3.6)`, and one has an exact sequence
 
 **(20.7.14)** Let `A` be a topological ring, `B` a topological `A`-algebra, `𝔐'` an open ideal of `A`, `𝔑'` an open
 ideal of `B` such that `𝔐'B ⊂ 𝔑'`; set `A' = A/𝔐'`,
+
 <!-- original page 151 -->
+
 `B' = B/𝔑'`; the kernel of the homomorphism `B ⊗_A B → B' ⊗_{A'} B'` is `𝔘' = Im(𝔑' ⊗ B + B ⊗ 𝔑')`, from which it
 follows at once that the kernel of the homomorphism
 
@@ -2257,8 +2268,8 @@ follows at once that the kernel of the homomorphism
 ```
 
 is `((𝔍 ∩ 𝔘') + 𝔍²)/𝔍²`; on the other hand, the homomorphism `(20.7.14.1)` is *surjective*, as follows from `(20.4.7)`.
-If `𝔐''` (resp. `𝔑''`) is a second open ideal of `A` (resp. `B`) such that `𝔐'' ⊂ 𝔐'`, `𝔑'' ⊂ 𝔑'` and `𝔐''B ⊂ 𝔑''`,
-and if one sets `A'' = A/𝔐''`, `B'' = B/𝔑''`, one has likewise a surjective homomorphism
+If `𝔐''` (resp. `𝔑''`) is a second open ideal of `A` (resp. `B`) such that `𝔐'' ⊂ 𝔐'`, `𝔑'' ⊂ 𝔑'` and `𝔐''B ⊂ 𝔑''`, and
+if one sets `A'' = A/𝔐''`, `B'' = B/𝔑''`, one has likewise a surjective homomorphism
 
 ```text
   φ_{(𝔐', 𝔑'), (𝔐'', 𝔑'')} : Ω^1_{B''/A''} → Ω^1_{B'/A'}
@@ -2308,8 +2319,8 @@ isomorphism `(20.4.8.2)` may also be written
 `B_0 = B/𝔫`. Suppose that `Ω^1_{B_0/A}` and `𝔫/𝔫²` are `B_0`-modules of finite type. Then `Ω̂^1_{B/A}` is a `B̂`-module
 of finite type.*
 
-Since the square of every open ideal of `B` is open, the topology of `Ω^1_{B/A}` is the `𝔫`-preadic topology
-`(20.4.5)`. Taking into account the hypothesis that `B` is an adic ring, it therefore suffices, by virtue of
+Since the square of every open ideal of `B` is open, the topology of `Ω^1_{B/A}` is the `𝔫`-preadic topology `(20.4.5)`.
+Taking into account the hypothesis that `B` is an adic ring, it therefore suffices, by virtue of
 `(0_I, 7.2.7 and 7.2.9)`, to prove
 
 <!-- original page 152 -->
@@ -2321,19 +2332,19 @@ hypothesis and from the exact sequence `(20.5.12.1)`
   𝔫/𝔫² → Ω^1_{B/A} ⊗_B B_0 → Ω^1_{B_0/A} → 0.
 ```
 
-**(20.7.16)** The proposition `(20.7.15)` applies for example when `A` is a field `k`, `B = k'[[T_1, …, T_n]]` a
-formal power series algebra equipped with its usual topology, `k'` a finite extension of `k` (cf. `(21.9.2)`). One will
-note that the field of fractions `K` of `B` has infinite transcendence degree over `k`; when `k` is of characteristic
-`0`, one deduces at once (with the help of `(20.4.13, (i))` and of `(20.5.9)` in particular, also using the fact that
-every derivation of a field of characteristic `0` extends to every extension) that `Ω^1_{K/k}` is *not* a `K`-module of
-finite type.
+**(20.7.16)** The proposition `(20.7.15)` applies for example when `A` is a field `k`, `B = k'[[T_1, …, T_n]]` a formal
+power series algebra equipped with its usual topology, `k'` a finite extension of `k` (cf. `(21.9.2)`). One will note
+that the field of fractions `K` of `B` has infinite transcendence degree over `k`; when `k` is of characteristic `0`,
+one deduces at once (with the help of `(20.4.13, (i))` and of `(20.5.9)` in particular, also using the fact that every
+derivation of a field of characteristic `0` extends to every extension) that `Ω^1_{K/k}` is *not* a `K`-module of finite
+type.
 
 **(20.7.17)** Let `A`, `B`, `C` be three topological rings, `u : A → B`, `v : B → C` two continuous homomorphisms;
 replacing `A`, `B`, `C` by quotients by open ideals `A' = A/𝔐'`, `B' = B/𝔑'`, `C' = C/𝔓'` with `u(𝔐') ⊂ 𝔑'`,
 `v(𝔑') ⊂ 𝔓'`, so that one has homomorphisms `u' : A' → B'`, `v' : B' → C'`, one deduces canonical homomorphisms
 `u_{C'/B'/A'}`, `v_{C'/B'/A'}` which, by virtue of `(20.5.4)`, form projective systems, and give in consequence, by
-passage to the limit, canonical homomorphisms, extensions to the separated completions of the homomorphisms of the
-exact sequence `(20.5.7.1)`
+passage to the limit, canonical homomorphisms, extensions to the separated completions of the homomorphisms of the exact
+sequence `(20.5.7.1)`
 
 ```text
                               v_{C/B/A}             u_{C/B/A}
@@ -2355,8 +2366,8 @@ the composite of two consecutive homomorphisms is `0`, but the sequence *is not 
 `C` are metrizable, the homomorphism `û_{C/B/A}` is *surjective*, and `Im(v̂_{C/B/A})` is *dense* in `Ker(û_{C/B/A})`:
 this follows at once (cf. `(0_I, 7.3.1)`) from the fact that, if `(𝔐_k)` (resp. `(𝔑_k)`) is a decreasing sequence of
 ideals of `B` (resp. `C`) forming a fundamental system of neighbourhoods of `0`, and if one sets `B_k = B/𝔐_k`,
-`C_k = C/𝔑_k`, the transition homomorphisms `Ω^1_{C_{k+1}/B_{k+1}} → Ω^1_{C_k/B_k}`,
-`Ω^1_{C_{k+1}/A} → Ω^1_{C_k/A}` and `Ω^1_{B_{k+1}/A} → Ω^1_{B_k/A}` are surjective `(20.7.14)`.
+`C_k = C/𝔑_k`, the transition homomorphisms `Ω^1_{C_{k+1}/B_{k+1}} → Ω^1_{C_k/B_k}`, `Ω^1_{C_{k+1}/A} → Ω^1_{C_k/A}` and
+`Ω^1_{B_{k+1}/A} → Ω^1_{B_k/A}` are surjective `(20.7.14)`.
 
 **Proposition (20.7.18).**
 
@@ -2409,9 +2420,8 @@ every `C`-homomorphism of one into the other is necessarily continuous.
 **(20.7.20)** Let `A` be a topological ring, `B` a topological `A`-algebra, metrizable and complete, `𝔍` a closed ideal
 of `B`, `C = B/𝔍` the quotient topological ring, which is metrizable and complete. Let `(𝔐_k)` be a decreasing
 fundamental system of neighbourhoods of `0` in `B` formed of ideals, and set `B_k = B/𝔐_k`, `𝔍_k = (𝔍 + 𝔐_k)/𝔐_k`,
-`C_k = B_k/𝔍_k`. One has a projective system of homomorphisms
-`δ_{C_k/B_k/A} : 𝔍_k/𝔍_k² → Ω^1_{B_k/A} ⊗_{B_k} C_k` `(20.5.11.3)`, from which one deduces by passing to the limit a
-canonical homomorphism
+`C_k = B_k/𝔍_k`. One has a projective system of homomorphisms `δ_{C_k/B_k/A} : 𝔍_k/𝔍_k² → Ω^1_{B_k/A} ⊗_{B_k} C_k`
+`(20.5.11.3)`, from which one deduces by passing to the limit a canonical homomorphism
 
 ```text
   δ̂_{C/B/A} : 𝔍/𝔍² → Ω̂^1_{B/A} ⊗̂_{B̂} Ĉ
@@ -2420,4 +2430,3 @@ canonical homomorphism
 and reasoning as in `(20.7.17)`, one sees that the canonical homomorphism
 `û_{C/B/A} : Ω̂^1_{B/A} ⊗̂_{B̂} Ĉ → Ω̂^1_{C/A}` is *surjective* and that `Im(δ̂_{C/B/A})` is *dense* in
 `Ker(û_{C/B/A})`.
-

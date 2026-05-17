@@ -15,10 +15,10 @@ A. Grothendieck (with the collaboration of J. Dieudonné).
 
 ## Local study of schemes and morphisms of schemes
 
-This second part of Chapter IV develops the "Noetherian" half of the chapter: base change and flatness (§2),
-associated prime cycles and primary decompositions (§3), base field change in preschemes (§4), the dimension and
-depth machinery for preschemes (§5), flat morphisms of locally Noetherian preschemes (§6), and the fine theory of
-Noetherian local rings and their completion, including the notion of *excellent ring* (§7).
+This second part of Chapter IV develops the "Noetherian" half of the chapter: base change and flatness (§2), associated
+prime cycles and primary decompositions (§3), base field change in preschemes (§4), the dimension and depth machinery
+for preschemes (§5), flat morphisms of locally Noetherian preschemes (§6), and the fine theory of Noetherian local rings
+and their completion, including the notion of *excellent ring* (§7).
 
 ### Sommaire (Chapter IV, continued)
 
@@ -30,6 +30,5 @@ Noetherian local rings and their completion, including the notion of *excellent 
 - **§7.** Application to the relations between a Noetherian local ring and its completion. Excellent rings.
 
 The decimal numbering continues that of Part 1: cross-references like `(IV, 2.3.7)` and `(IV, 7.8.1)` point at this
-part, while `(IV, 1.4.2)` continues to point at §IV.1 in Part 1, and `(0_IV, 17.1.1)` continues to point at the
-Chap 0_IV preliminaries.
-
+part, while `(IV, 1.4.2)` continues to point at §IV.1 in Part 1, and `(0_IV, 17.1.1)` continues to point at the Chap
+0_IV preliminaries.

@@ -7,10 +7,10 @@ Originally published as _Publications mathématiques de l'IHÉS_, tome 4 (1960),
 
 ## About this translation
 
-This is an idiomatic English translation in Markdown with Unicode mathematics. The French source is at
-; the original scanned text is at . A LaTeX hand-translation by
-the EGA community lives at ; passages have been cross-referenced against it but the prose here has been
-revised for English mathematical idiom while preserving Grothendieck's architectural voice.
+This is an idiomatic English translation in Markdown with Unicode mathematics. The French source is at ; the original
+scanned text is at . A LaTeX hand-translation by the EGA community lives at ; passages have been cross-referenced
+against it but the prose here has been revised for English mathematical idiom while preserving Grothendieck's
+architectural voice.
 
 The translation preserves EGA's historical terminology (notably `prescheme` for what current authors usually call a
 scheme, and `scheme` for what current authors call a separated scheme). On its first occurrence in each section, a

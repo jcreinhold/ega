@@ -2063,4 +2063,3 @@ of `ℋ_n(ℒ_•)`, the support of `ℋ_n((ℒ_•)_s)` is `Z_s = Z ∩ X_s` `(
 (resp. `≠ ∅`). Since `Z ∩ ‾{x}` is closed in the Noetherian space `X`, one concludes from `(9.5.1)` that there is a
 neighbourhood `U` of `η` in `S` such that, for every `s ∈ U`, one has `Z_s ∩ ‾{x} = ∅` (resp. `≠ ∅`). The set
 `V = f^{-1}(U) ∩ ‾{x}` therefore answers the question.
-

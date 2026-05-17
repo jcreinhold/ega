@@ -24,4 +24,3 @@ the introduction to Part 1, were never published.
 The numbering, citations, and terminology continue Part 1 directly; cross-references inside this part read `(6.N.M)` or
 `(7.N.M)`, while references back into Part 1 keep the short form `(1.4.10)` and so on, since both parts share a single
 chapter.
-

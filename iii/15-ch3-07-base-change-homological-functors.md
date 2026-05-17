@@ -2293,4 +2293,3 @@ is a direct factor of `M_g` `(0_I, 6.1.2)`. One concludes `(1.4.14.5)` that `ℱ
 since the `X_g` cover `X`, the proposition is proved.
 
 (*To be continued.*)
-

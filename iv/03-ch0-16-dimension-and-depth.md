@@ -1121,4 +1121,3 @@ nothing other than `(16.5.11.1)` applied to `A_𝔮` and to the prime ideal `�
 definition coincides with `(16.5.1)` when `A` is local. We say that `A` is a *Cohen-Macaulay ring* if all the `A_𝔭` are.
 It is clear that if `M` (resp. `A`) is a Cohen-Macaulay `A`-module (resp. a Cohen-Macaulay ring), `S⁻¹M` is a
 Cohen-Macaulay `S⁻¹A`-module (resp. `S⁻¹A` is a Cohen-Macaulay ring) for every multiplicative subset `S` of `A`.
-

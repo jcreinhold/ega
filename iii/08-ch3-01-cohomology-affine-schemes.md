@@ -835,4 +835,3 @@ with `v(τ) = t''`. We see that `v(f^m t' − τ ∣ D(f)) = 0`; writing `t'''` 
 `f^m t' − t''' = u(s')` for some `s' ∈ Γ(D(f), ℱ')`. Since `ℱ'` is quasi-coherent, there exists `n > 0` such that
 `f^n s'` extends to a section `s ∈ Γ(X, ℱ')`; then `f^{m+n} t' − f^n t''' = u(f^n s')`, so `f^{m+n} t'` is the
 restriction to `D(f)` of the section `f^n τ + u(f^n s) ∈ Γ(X, ℱ)`, completing the proof.
-

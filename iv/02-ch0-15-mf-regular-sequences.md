@@ -595,4 +595,3 @@ since by hypothesis `θ_x^♯ : ψ_x^*(𝒪_y) → 𝒪_x` makes `𝒪_x` a flat
 exact, the first assertion follows from the corresponding assertion of `(15.1.14)`; the same holds for the second,
 taking into account that the hypothesis that `u` is faithfully flat means that `ψ` is surjective and that `θ_x^♯` makes
 `𝒪_x` a faithfully flat `ψ_x^*(𝒪_y)`-module.
-

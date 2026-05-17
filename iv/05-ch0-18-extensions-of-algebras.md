@@ -1024,4 +1024,3 @@ isomorphism
 ```
 
 and it suffices to pass to the inductive limit, taking account of `(18.5.3.1)`.
-

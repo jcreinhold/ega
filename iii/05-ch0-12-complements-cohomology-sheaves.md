@@ -817,4 +817,3 @@ Starting from `(12.4.8.1)` and `(12.4.3)`, one can then, reasoning as in `(12.2.
 ```
 
 We leave the details of the definitions to the reader.
-

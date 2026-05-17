@@ -373,4 +373,3 @@ We have moreover proved the
 <!-- label: 0_III.10.3.2 -->
 
 *If `K` is an extension of finite degree, one may suppose that `B` is a finite `A`-algebra.*
-

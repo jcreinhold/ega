@@ -171,4 +171,3 @@ For `φ : X → S` and `x ∈ X`, `s ∈ S`, `x` is _over_ `s` if `φ(x) = s`. `
 
 **(2.5.5)** An _`S`-section_ of an `S`-prescheme `X` is an `S`-morphism `S → X` — i.e., `ψ : S → X` with `φ ∘ ψ = 1_S`.
 Write `Γ(X/S)` for the set of `S`-sections.
-

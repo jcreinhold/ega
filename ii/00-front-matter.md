@@ -29,4 +29,3 @@ deeper study, drawing on those methods, will be carried out in Chapter III, whic
 Chapter II. Section §8 may be omitted on first reading: it presents some complements to the formalism developed in
 §§1–3, reducing to easy applications of that formalism, and we shall make less constant use of its results than of those
 of the other sections of this chapter.
-

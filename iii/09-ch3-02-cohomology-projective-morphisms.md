@@ -1194,4 +1194,3 @@ that `t(x) ≠ 0`, so `x ∈ X_t`, and by definition of `𝒥`, `t(y) = 0` in `X
 
 When `X` is proper over `Y`, one can prove `(2.6.2)` more simply, by reasoning as in Chevalley's theorem `(II, 6.7.1)`,
 using `(2.6.1)` and Lemma `(II, 6.7.1.1)`.
-

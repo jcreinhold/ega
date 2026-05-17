@@ -866,4 +866,3 @@ quasi-coherent `𝒪_Y`-module of finite type.
 **Proof.** The quasi-coherent `𝒪_Y`-algebra `𝒜(X)` is of finite type (1.3.7). The hypotheses imply `𝒜(X)` is generated
 by a quasi-coherent `𝒪_Y`-submodule `ℰ` of finite type `(I, 9.6.5)`; by definition, the canonical homomorphism
 `𝕊(ℰ) → 𝒜(X)` extending the injection `ℰ → 𝒜(X)` is _surjective_. The conclusion follows from (1.4.10).
-

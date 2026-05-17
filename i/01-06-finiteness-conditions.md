@@ -4,8 +4,7 @@
 
 <!-- label: I.6 -->
 
-> **Translation status.** Skeleton with definitions and principal statements; full proofs reference
-> .
+> **Translation status.** Skeleton with definitions and principal statements; full proofs reference .
 
 ### 6.1. Noetherian and locally Noetherian preschemes
 
@@ -116,4 +115,3 @@ open `U ⊂ Y`. Equivalently, `f⁻¹(V)` is quasi-compact for every affine open
 "quasi-compact" yields "of finite type."
 
 Composition and base change preserve quasi-compactness.
-

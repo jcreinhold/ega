@@ -172,9 +172,9 @@ original Part 1, 2, 3, or 4 OCR file.
 ## 12. §IV.11
 
 EGA IV Part 3 (1966) prints §§8, 9, 10, 11, 12, 13, 14, 15 — including §11. The 1964 sommaire announced §11 as
-"Topological properties of flat morphisms of finite presentation; local criteria of flatness" with the footnote that
-the order and content of §§11-21 are tentative; the published §11 followed that announcement. (Older secondary
-literature occasionally treats §11 as unpublished; this is incorrect.) The §11 file lives at
+"Topological properties of flat morphisms of finite presentation; local criteria of flatness" with the footnote that the
+order and content of §§11-21 are tentative; the published §11 followed that announcement. (Older secondary literature
+occasionally treats §11 as unpublished; this is incorrect.) The §11 file lives at
 `23a-ch4-11-flatness-loci-and-descent.md` in the translation tree, ordered between §10 and §12. Subsequent
 flatness-descent developments that build on §11 include Raynaud-Gruson, _Critères de platitude et de projectivité_
 (Inventiones math. 13, 1971), and the étale-cohomology projects of SGA 4½.

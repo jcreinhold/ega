@@ -174,4 +174,3 @@ Alphabetized by the English head term. Section numbers refer to the defining occ
 
 - Unibranch (ring, point): III.4.3.6.
 - Universally open morphism: III.4.3.9.
-

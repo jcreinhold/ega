@@ -322,4 +322,3 @@ of `X` into an ordered set. For `h` to be upper semi-continuous in `X`, it is ne
 that for every `x ∈ X`, the set `E` of `y ∈ X` such that `h(y) ≤ h(x)` is a neighborhood of `x`. By hypothesis, `E` is a
 constructible subset of `X`; on the other hand, to say that a closed irreducible subset `Y` of `X` contains `x` means
 that its generic point `y` is a generization of `x`; the conclusion then follows from (9.2.5).
-

@@ -4,8 +4,7 @@
 
 <!-- label: I.7 -->
 
-> **Translation status.** Skeleton with definitions and principal statements; full proofs reference
-> .
+> **Translation status.** Skeleton with definitions and principal statements; full proofs reference .
 
 ### 7.1. Rational maps and rational functions
 
@@ -86,4 +85,3 @@ _torsion-free_ if `t(ℱ) = 0`, _torsion_ if `t(ℱ) = ℱ`.
 **Corollary (7.4.3).** On an integral prescheme, the rank of a torsion-free coherent sheaf is well-defined (constant).
 
 **Proposition (7.4.5)–(7.4.6).** Torsion behavior under direct sums, tensor products, and pullback.
-

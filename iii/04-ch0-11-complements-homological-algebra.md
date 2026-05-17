@@ -1650,4 +1650,3 @@ complexes with trivial derivation). The hypothesis that the `E_2^{p,q}` are of f
 `E` is weakly convergent and that `E_2^{p,q} = 0` except for finitely many pairs `(p, q)` entails therefore that there
 exists an integer `r ≥ 2` such that `E_∞^{p,q} = E_r^{p,q}` for every pair `(p, q)`; whence the assertion concerning
 `χ(E_∞^{(•)})`.
-

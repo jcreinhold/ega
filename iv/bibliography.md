@@ -71,4 +71,3 @@ in Part 4.)*
 > _Translator's note._ EGA IV Part 4 prints the author as "G. S. SESHADRI"; the paper is in fact by C. S. Seshadri
 > (Conjeevaram Srirangachari Seshadri). We correct the initials silently in the body of the entry and flag the source
 > misprint here.
-

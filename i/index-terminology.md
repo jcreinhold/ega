@@ -429,4 +429,3 @@ References are by `(N.M.K)` for items in Chapter 0 and `(I, N.M.K)` for Chapter 
 > "préschéma" for what modern usage calls "scheme," and "schéma" for what modern usage calls "separated scheme." We have
 > preserved this historical vocabulary with bracketed glosses on first occurrence per section. The list above retains
 > EGA's term as the primary entry.
-

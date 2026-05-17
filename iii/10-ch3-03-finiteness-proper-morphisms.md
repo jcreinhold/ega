@@ -450,4 +450,3 @@ We have moreover proved along the way:
 ```
 
 *is bijective.*
-

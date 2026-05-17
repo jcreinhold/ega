@@ -21,10 +21,10 @@ The Blass & Blass English translations sit at
 
 Source PDFs (digital-LaTeX, not scans):
 
--  — §V.1 and §§V.2.15-2.16.
--  — §V.5.
--  — §V.6.
--  — Vaiello unified edition.
+- — §V.1 and §§V.2.15-2.16.
+- — §V.5.
+- — §V.6.
+- — Vaiello unified edition.
 
 Unlike EGA I-IV, the PDFs are digital LaTeX output rather than scans of typeset journal pages, so OCR pathology is
 limited to shifted Unicode subscripts/superscripts and the occasional ambiguous glyph. Math symbols are largely intact;
@@ -81,4 +81,3 @@ for the running Blass→idiomatic-English term map.
     inherited classical citations (see EGA IV conventions).
 - `(Mumford, …)` cites D. Mumford, _Lectures on curves on an algebraic surface_ (Princeton, 1966).
 - `(Bourbaki Sém. 232/236/261)` cites Grothendieck's Séminaire Bourbaki exposés.
-

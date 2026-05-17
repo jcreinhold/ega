@@ -2782,4 +2782,3 @@ One verifies easily that the integral closure of `A` is the ring `A[t]`, where `
 `t² = −1`, so that `A[t]` is isomorphic to the local ring `ℂ[[U]]`; as the residue field of `ℂ[[U]]` is `ℂ`, one sees
 that `A` is unibranch but not geometrically unibranch. But `A ⊗_ℝ ℂ` is not an integral ring, being isomorphic to
 `ℂ[[U, V]]/(U − iV)(U + iV)`.
-

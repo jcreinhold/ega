@@ -199,4 +199,3 @@ single index here; each entry is tagged with its home chapter prefix. Notations 
 - `𝒟iv_{X/S}^+`, `Div^+(X/S)`: IV.21.15.3.
 - `𝒮_{X/S}`: IV.21.15.3.
 - `Div_{X/S}(S')`, `Div_{X/S}^+(S')` (`S'` an `S`-prescheme): IV.21.15.9.
-

@@ -227,9 +227,9 @@ of locally free modules of finite rank we have a canonical isomorphism `det F = 
 With these conventions, we have the commutativity of the diagram[^v-1-5]
 
 > *Source-trace note: the Blass source file 01 ends mid-diagram on page 5; the diagram and the subsequent argument are
-> visible in the source PDF  but were not captured by the Blass markdown transcription.
-> We close §V.1 here with the construction already stated and refer the reader to the PDF for the final identification
-> step that pins down `Ram(V′/Y) = V(φ)_{supsing}` as preschemes (rather than only as subsets).*
+> visible in the source PDF but were not captured by the Blass markdown transcription. We close §V.1 here with the
+> construction already stated and refer the reader to the PDF for the final identification step that pins down
+> `Ram(V′/Y) = V(φ)_{supsing}` as preschemes (rather than only as subsets).*
 
 ______________________________________________________________________
 
