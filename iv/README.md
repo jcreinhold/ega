@@ -1,17 +1,16 @@
-# EGA IV — Local study of schemes and morphisms of schemes
+# EGA IV — Local Study of Schemes and of Morphisms of Schemes
 
-English markdown translation of
+English translation of
 
 > A. Grothendieck (with the collaboration of J. Dieudonné), _Éléments de géométrie algébrique : IV. Étude locale des
 > schémas et des morphismes de schémas_, Publications mathématiques de l'IHÉS, **Première partie**: tome **20** (1964),
 > pp. 5–259; **Seconde partie**: tome **24** (1965), pp. 5–231; **Troisième partie**: tome **28** (1966), pp. 5–255;
 > **Quatrième partie**: tome **32** (1967), pp. 5–361.
 
-Source PDFs live at , , , and (numdam scans). Citation identifiers
-[numdam.org/item?id=PMIHES_1964\_\_20\_\_5_0](http://www.numdam.org/item?id=PMIHES_1964__20__5_0),
-[numdam.org/item?id=PMIHES_1965\_\_24\_\_5_0](http://www.numdam.org/item?id=PMIHES_1965__24__5_0),
-[numdam.org/item?id=PMIHES_1966\_\_28\_\_5_0](http://www.numdam.org/item?id=PMIHES_1966__28__5_0),
-[numdam.org/item?id=PMIHES_1967\_\_32\_\_5_0](http://www.numdam.org/item?id=PMIHES_1967__32__5_0).
+Citation identifiers: [PMIHES_1964\_\_20\_\_5_0](http://www.numdam.org/item?id=PMIHES_1964__20__5_0),
+[PMIHES_1965\_\_24\_\_5_0](http://www.numdam.org/item?id=PMIHES_1965__24__5_0),
+[PMIHES_1966\_\_28\_\_5_0](http://www.numdam.org/item?id=PMIHES_1966__28__5_0),
+[PMIHES_1967\_\_32\_\_5_0](http://www.numdam.org/item?id=PMIHES_1967__32__5_0).
 
 ## Contents
 
@@ -69,55 +68,34 @@ Source PDFs live at , , , and (numdam scans). Citation identifiers
 - [§20. Meromorphic functions; pseudo-morphisms](33-ch4-20-meromorphic-functions.md)
 - [§21. Divisors](34-ch4-21-divisors.md)
 
-### Back matter (merged)
+### Back matter
 
 - [Bibliography](bibliography.md)
 - [Index of notations](index-of-notations.md)
 - [Index of terminology](index-of-terminology.md)
 
-The four parts share a single alphabetical terminology index and a single source-ordered notation index. The
-bibliography is one merged list.
+The four parts share a single alphabetical terminology index, a single source-ordered notation index, and a merged
+bibliography.
 
-## House style and conventions
+## Conventions
 
-See [conventions.md](conventions.md) for the locked translation conventions (terminology, Unicode, block labels,
-page-break comments, source-trace footers, differential and formal-smoothness notation, Bourbaki citation form). The EGA
-IV conventions inherit `docs/books/ega/iii/conventions.md` verbatim and add the commutative-algebra,
-differential-geometry, and étale-morphism layers needed here. See [translation-ledger.md](translation-ledger.md) for the
-running French↔English term map (extending the EGA III ledger).
-
-## Citation form
-
-Within a chapter, decimal labels `(N.M.K)` cite the local volume. Cross-volume and cross-chapter references appear
-verbatim as in EGA. Specifically:
-
-- `(I, 4.2.3)` cites EGA I.
-- `(II, 5.5.4)` cites EGA II.
-- `(III, 2.3.8)` cites EGA III.
-- `(IV, 17.6.2)` cites EGA IV itself (used by later volumes; also by cross-section references inside EGA IV).
-- `(0, 4.2.4)` cites Chapter 0 (preliminaries) embedded in EGA I.
-- `(0_III, 13.4.2)` cites the running Chapter 0 (preliminaries) housed in EGA III.
-- `(0_IV, 19.3.5)` cites the running Chapter 0 (preliminaries, suite) housed in EGA IV, Part 1.
-- `(M, …)` cites Cartan–Eilenberg, _Homological Algebra_.
-- `(G, …)` cites Godement, _Topologie algébrique et théorie des faisceaux_.
-- `(T, …)` cites Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku).
-- `(FAC, …)` cites Serre, _Faisceaux algébriques cohérents_.
-- `(Bourbaki, Alg. comm., …)` cites Bourbaki, _Éléments de mathématique : Algèbre commutative_.
-
-## Status
-
-Initial translation pass. Math symbols and structure verified against the source PDFs where the OCR was unsalvageable.
-Mathematical content has been preserved exactly; prose has been rewritten for English mathematical idiom, not
-transliterated.
-
-The 1961-1967 prescheme/scheme distinction is preserved throughout, matching the SGA I and EGA II/III precedents.
+- The 1961–1967 prescheme/scheme distinction is preserved throughout.
+- Decimal labels `(N.M.K)` cite the local volume. Cross-volume and cross-chapter references appear verbatim:
+    - `(I, 4.2.3)`, `(II, 5.5.4)`, `(III, 2.3.8)` cite earlier volumes.
+    - `(IV, 17.6.2)` cites EGA IV itself, including cross-section references inside EGA IV.
+    - `(0, 4.2.4)` cites Chapter 0 embedded in EGA I.
+    - `(0_III, 13.4.2)`, `(0_IV, 19.3.5)` cite Chapter 0 (suite) housed in EGA III and EGA IV Part 1 respectively.
+    - `(M, …)`, `(G, …)`, `(T, …)`, `(FAC, …)` cite Cartan–Eilenberg, Godement, Grothendieck (Tôhoku), and Serre (FAC).
+    - `(Bourbaki, Alg. comm., …)` cites Bourbaki, _Éléments de mathématique : Algèbre commutative_.
+- House style is recorded in [conventions.md](conventions.md); the running term map is in
+    [translation-ledger.md](translation-ledger.md).
 
 ## A note on §IV.11
 
 §11 of Chapter IV — _Topological properties of flat morphisms of finite presentation; local criteria of flatness_ — was
 announced in the Chap IV sommaire of Part 1 (1964) with the footnote "the order and content of §§11 through 21 are given
 only for information and may be modified before publication." It *was* in fact published in Part 3 (1966) of EGA IV,
-alongside §§8-10, 12-15. (Earlier secondary literature sometimes treated §11 as unpublished; this is incorrect.)
-Subsequent flatness-descent developments that build on §11 include Raynaud-Gruson, _Critères de platitude et de
+alongside §§8–10 and §§12–15. (Earlier secondary literature sometimes treated §11 as unpublished; this is incorrect.)
+Subsequent flatness-descent developments that build on §11 include Raynaud–Gruson, _Critères de platitude et de
 projectivité_ (Inventiones math. 13, 1971), and the étale-cohomology projects of SGA 4½. The translated §11 lives at
 [23a-ch4-11-flatness-loci-and-descent.md](23a-ch4-11-flatness-loci-and-descent.md).

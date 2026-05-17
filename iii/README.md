@@ -1,14 +1,16 @@
 # EGA III — Cohomological Study of Coherent Sheaves
 
-English markdown translation of
+English translation of
 
 > A. Grothendieck (with the collaboration of J. Dieudonné), _Éléments de géométrie algébrique : III. Étude cohomologique
 > des faisceaux cohérents_, Publications mathématiques de l'IHÉS, **Première partie**: tome **11** (1961), pp. 5–167;
 > **Seconde partie**: tome **17** (1963), pp. 5–91.
 
-Source PDFs live at and (numdam scans). Citation identifiers:
-[numdam.org/item?id=PMIHES_1961\_\_11\_\_5_0](http://www.numdam.org/item?id=PMIHES_1961__11__5_0) and
-[numdam.org/item?id=PMIHES_1963\_\_17\_\_5_0](http://www.numdam.org/item?id=PMIHES_1963__17__5_0).
+Citation identifiers: [PMIHES_1961\_\_11\_\_5_0](http://www.numdam.org/item?id=PMIHES_1961__11__5_0) and
+[PMIHES_1963\_\_17\_\_5_0](http://www.numdam.org/item?id=PMIHES_1963__17__5_0).
+
+§§8–11 of Chapter III (duality on projective fibres; relative and local cohomology; projective vs. local cohomology and
+formal completion; Picard groups) were never published.
 
 ## Contents
 
@@ -40,44 +42,27 @@ Source PDFs live at and (numdam scans). Citation identifiers:
 - [§6. Local and global Tor functors; the Künneth formula](14-ch3-06-tor-functors-kunneth-formula.md)
 - [§7. Study of base change in homological functors](15-ch3-07-base-change-homological-functors.md)
 
-§§8–11 of Chapter III (duality on projective fibres; relative and local cohomology; projective vs. local cohomology and
-formal completion; Picard groups) were never published.
+### Back matter
 
-### Back matter (merged)
-
-- [Bibliography (continued)](bibliography.md)
+- [Bibliography](bibliography.md)
 - [Index of notations](index-of-notations.md)
 - [Index of terminology](index-of-terminology.md)
 
-The two parts share a single alphabetical terminology index and a single source-ordered notation index. The bibliography
-is one merged list.
+The two parts share a single alphabetical terminology index, a single source-ordered notation index, and a merged
+bibliography.
 
-## House style and conventions
+## Conventions
 
-See [conventions.md](conventions.md) for the locked translation conventions (terminology, Unicode, block labels,
-page-break comments, source-trace footers, cohomology and spectral-sequence rendering). The EGA III conventions inherit
-`docs/books/ega/ii/conventions.md` verbatim and add the cohomology layer needed here. See
-[translation-ledger.md](translation-ledger.md) for the running French↔English term map (extending the EGA II ledger).
-
-## Citation form
-
-Within a chapter, decimal labels `(N.M.K)` cite the local volume. Cross-volume and cross-chapter references appear
-verbatim as in EGA. Specifically:
-
-- `(I, 4.2.3)` cites EGA I.
-- `(II, 5.5.4)` cites EGA II.
-- `(0, 4.2.4)` cites Chapter 0 (preliminaries) embedded in EGA I.
-- `(0_III, 13.4.2)` cites the running Chapter 0 (preliminaries, suite) housed in EGA III, Part 1.
-- `(III, 2.3.8)` cites EGA III itself (used by later volumes).
-- `(M, …)` cites Cartan–Eilenberg, _Homological Algebra_.
-- `(G, …)` cites Godement, _Topologie algébrique et théorie des faisceaux_.
-- `(T, …)` cites Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku).
-- `(FAC, …)` cites Serre, _Faisceaux algébriques cohérents_.
-
-## Status
-
-Initial translation pass. Math symbols and structure verified against the source PDFs where the OCR was unsalvageable.
-Mathematical content has been preserved exactly; prose has been rewritten for English mathematical idiom, not
-transliterated.
-
-The 1961/1963 prescheme/scheme distinction is preserved throughout, matching the SGA I and EGA II precedents.
+- The 1961/1963 prescheme/scheme distinction is preserved throughout.
+- Decimal labels `(N.M.K)` cite the local volume. Cross-volume and cross-chapter references appear verbatim:
+    - `(I, 4.2.3)` cites EGA I.
+    - `(II, 5.5.4)` cites EGA II.
+    - `(0, 4.2.4)` cites Chapter 0 embedded in EGA I.
+    - `(0_III, 13.4.2)` cites Chapter 0 (suite) housed in EGA III, Part 1.
+    - `(III, 2.3.8)` cites EGA III itself.
+    - `(M, …)` cites Cartan–Eilenberg, _Homological Algebra_.
+    - `(G, …)` cites Godement, _Topologie algébrique et théorie des faisceaux_.
+    - `(T, …)` cites Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku).
+    - `(FAC, …)` cites Serre, _Faisceaux algébriques cohérents_.
+- House style is recorded in [conventions.md](conventions.md); the running term map is in
+    [translation-ledger.md](translation-ledger.md).
