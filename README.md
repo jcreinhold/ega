@@ -37,3 +37,14 @@ The French source text was drawn from the Grothendieck Circle's archive of Groth
     are complete; EGA III and IV are partial. Cross-referenced here for technical accuracy.
 - [The Stacks Project](https://stacks.math.columbia.edu/) — an open-source modernized reference covering much of the
     same material in contemporary scheme-theoretic language, with permanently linkable tags.
+
+## License and citation
+
+The translation is © 2026 Jacob Reinhold and licensed under
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); see
+[LICENSE](LICENSE). The underlying French text remains © the original authors and publishers.
+
+Please cite as:
+
+> Reinhold, Jacob (trans.). *Éléments de Géométrie Algébrique* (English translation). <https://github.com/jcreinhold/ega>.
+> CC BY 4.0.
