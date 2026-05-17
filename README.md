@@ -26,3 +26,10 @@ Each volume directory has its own `README.md` with status, contents, and transla
 
 The French source text was drawn from the Grothendieck Circle's archive of Grothendieck's published writings:
 <https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php>.
+
+## Related projects
+
+- [ryankeleti/ega](https://github.com/ryankeleti/ega) — a community LaTeX English translation of EGA. EGA I and II
+    are complete; EGA III and IV are partial. Cross-referenced here for technical accuracy.
+- [The Stacks Project](https://stacks.math.columbia.edu/) — an open-source modernized reference covering much of the
+    same material in contemporary scheme-theoretic language, with permanently linkable tags.
