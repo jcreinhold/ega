@@ -1,11 +1,7 @@
 # EGA — English translation
 
-An idiomatic English translation, in Markdown with Unicode mathematics, of Grothendieck and Dieudonné's *Éléments de
-Géométrie Algébrique* (originally published in *Publications mathématiques de l'IHÉS*, 1960–1967).
-
-> **Note.** This translation was produced with substantial assistance from large language models, then curated and
-> edited by the maintainer. It has not been audited line-by-line by a working algebraic geometer. Treat it as a
-> reading aid: verify against the French source for anything that matters mathematically.
+An idiomatic, LLM-generated English translation (Markdown, Unicode mathematics) of Grothendieck and Dieudonné's
+*Éléments de Géométrie Algébrique* (*Publications mathématiques de l'IHÉS*, 1960–1967).
 
 ## Volumes
 
@@ -43,8 +39,3 @@ The French source text was drawn from the Grothendieck Circle's archive of Groth
 The translation is © 2026 Jacob Reinhold and licensed under
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); see
 [LICENSE](LICENSE). The underlying French text remains © the original authors and publishers.
-
-Please cite as:
-
-> Reinhold, Jacob (trans.). *Éléments de Géométrie Algébrique* (English translation). <https://github.com/jcreinhold/ega>.
-> CC BY 4.0.
