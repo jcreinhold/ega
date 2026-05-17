@@ -3,6 +3,10 @@
 An idiomatic English translation, in Markdown with Unicode mathematics, of Grothendieck and Dieudonné's *Éléments de
 Géométrie Algébrique* (originally published in *Publications mathématiques de l'IHÉS*, 1960–1967).
 
+> **Note.** This translation was produced with substantial assistance from large language models, then curated and
+> edited by the maintainer. It has not been audited line-by-line by a working algebraic geometer. Treat it as a
+> reading aid: verify against the French source for anything that matters mathematically.
+
 ## Volumes
 
 - [`i/`](i) — Chapter I: The Language of Schemes
