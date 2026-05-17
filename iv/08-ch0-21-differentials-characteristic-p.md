@@ -1804,5 +1804,3 @@ fractions `k((T_1^p, …, T_r^p))`, it follows from `(20.5.9)` that `Ω̂^1_{A/B
 the inequality `(21.9.8.1)` is then nothing but `(21.9.6.2)`, and the last assertion of the corollary follows from
 `(21.9.6, (ii))`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/08-c0-s21-differentielles-anneaux-caracteristique-p.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf -->

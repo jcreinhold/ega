@@ -1074,6 +1074,3 @@ saying that `K` is a "regular extension" of `k`). But even in this
 case, it can happen that `X ⊗_k k'` is not normal. The reader will
 find details on these questions in chapter IV.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/02-07-criteres-valuatifs.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega2/ega2-7.tex;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, pp. 138–152 -->

@@ -427,5 +427,3 @@ Krull ring (Bourbaki, _Alg. comm._, chap. VII, §1, n° 5, prop. 9).*
 
 (_To be continued._)
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/10-c0-s23-anneaux-japonais.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 213-221 -->

@@ -149,9 +149,7 @@ mathematical work. Split only when an English reader genuinely loses the anteced
 Each translated section ends with:
 
 ```html
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/<file>.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega2/<file>.tex;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf -->
+
 ```
 
 ## 8. Translator notes

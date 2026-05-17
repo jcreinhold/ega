@@ -73,6 +73,3 @@ single index here; each entry is tagged with its home chapter prefix.
 - `E^p(f, ℱ_•; y)`, `E^p(Y, ℱ_•; y)`, `E^p(ℱ_•; y)`: III.7.9.5.
 - `PH(f, ℱ_•; y)`, `PH(ℱ_•; y)`: III.7.9.12.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/zz-index-notations-part-1.md
-     and zz-index-notations-part-2.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 506; EGA-III-2.pdf, p. 214 -->

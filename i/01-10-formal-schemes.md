@@ -5,7 +5,7 @@
 <!-- label: I.10 -->
 
 > **Translation status.** Skeleton with definitions and principal statements; full proofs reference
-> `~/Code/ega/ega1/ega1-10.tex`.
+> .
 
 > **Note.** The results of §10 are not used before §3 of Chapter III. Readers are encouraged to skip this section on
 > first reading.
@@ -210,4 +210,3 @@ is a closed immersion of formal preschemes. _Formal `S`-schemes_ are separated f
 
 Composition, base change, and standard valuative criteria carry over from the prescheme setting.
 
-<!-- source: ~/Code/papers/books/ega/i/01-10-schemas-formels.md and ~/Code/ega/ega1/ega1-10.tex -->

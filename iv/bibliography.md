@@ -72,5 +72,3 @@ in Part 4.)*
 > (Conjeevaram Srirangachari Seshadri). We correct the initials silently in the body of the entry and flag the source
 > misprint here.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/zz-bibliographie-part-{1,2,3,4}.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-{1,2,3,4}.pdf -->

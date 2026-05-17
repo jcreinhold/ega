@@ -33,5 +33,3 @@ The decimal numbering continues that of Part 1: cross-references like `(IV, 2.3.
 part, while `(IV, 1.4.2)` continues to point at §IV.1 in Part 1, and `(0_IV, 17.1.1)` continues to point at the
 Chap 0_IV preliminaries.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/13-part-2-front-matter.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-2.pdf, pp. 1–6 -->

@@ -934,5 +934,3 @@ condition `(ML)`, and the image of `(R^n T(𝐀))_f` in each of the `(R^n T(A_k)
 
 (_To be continued._)
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/05-c0-s13-limites-projectives-algebre-homologique.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 64-79 -->

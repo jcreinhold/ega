@@ -430,4 +430,3 @@ References are by `(N.M.K)` for items in Chapter 0 and `(I, N.M.K)` for Chapter 
 > preserved this historical vocabulary with bracketed glosses on first occurrence per section. The list above retains
 > EGA's term as the primary entry.
 
-<!-- source: ~/Code/papers/books/ega/i/index-terminologique.md -->

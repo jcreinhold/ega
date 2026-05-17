@@ -451,6 +451,3 @@ We have moreover proved along the way:
 
 *is bijective.*
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/09-c3-s03-theoreme-finitude-morphismes-propres.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega3/ega3-3.tex;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 115–122 -->

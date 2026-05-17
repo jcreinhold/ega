@@ -79,7 +79,4 @@ particular Noetherian rings, for example finitely generated `k`-algebras (`k` a 
 of "excellent" rings (studied in §7) play a decisive role. Independently of the question of eliminating Noetherian
 hypotheses, the techniques of §§8 through 10, of very elementary nature, are in constant use in almost all applications.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/11-chapter-iv-banner.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 222–224 -->
-
 [^1]: The order and content of §§11 through 21 are given for information only and may be modified before publication.

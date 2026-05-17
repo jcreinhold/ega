@@ -1592,5 +1592,3 @@ proof.
 
 *(To be continued.)*
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/12-c4-s01-conditions-finitude-relatives.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 224-250 -->

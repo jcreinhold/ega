@@ -471,4 +471,3 @@ be injective and set `M′ = v(M)`. By Artin–Rees (7.3.2.1), there is `k ≥ 0
 For `w ∈ 𝔍^{k+1} Hom_A(M, N)`, `u = v + w` is injective: if `u(x) = 0` and `x ∈ 𝔍ⁱ M`, then `w(x) ∈ 𝔍^{i+k+1} N`, so
 `v(x) = −w(x) ∈ M′ ∩ 𝔍^{i+k+1} N ⊂ 𝔍^{i+1} M′`, hence `x ∈ 𝔍^{i+1} M`. By induction, `x ∈ ⋂ 𝔍ⁱ M = 0`.
 
-<!-- source: ~/Code/papers/books/ega/i/00-07-anneaux-adiques.md and ~/Code/ega/ega0/ega0-7.tex -->

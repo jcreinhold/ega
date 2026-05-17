@@ -1651,5 +1651,3 @@ complexes with trivial derivation). The hypothesis that the `E_2^{p,q}` are of f
 exists an integer `r ≥ 2` such that `E_∞^{p,q} = E_r^{p,q}` for every pair `(p, q)`; whence the assertion concerning
 `χ(E_∞^{(•)})`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/03-c0-s10-complements-modules-plats.md (§11 portion, lines 266–1485);
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 367–392 -->

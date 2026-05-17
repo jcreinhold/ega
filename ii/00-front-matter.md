@@ -30,5 +30,3 @@ Chapter II. Section §8 may be omitted on first reading: it presents some comple
 §§1–3, reducing to easy applications of that formalism, and we shall make less constant use of its results than of those
 of the other sections of this chapter.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/00-front-matter.md;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, pp. 1–5 -->

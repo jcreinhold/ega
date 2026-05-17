@@ -200,5 +200,3 @@ single index here; each entry is tagged with its home chapter prefix. Notations 
 - `𝒮_{X/S}`: IV.21.15.3.
 - `Div_{X/S}(S')`, `Div_{X/S}^+(S')` (`S'` an `S`-prescheme): IV.21.15.9.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/zz-index-notations-part-{1,2,3,4}.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-{1,2,3,4}.pdf -->

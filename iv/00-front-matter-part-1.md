@@ -43,8 +43,5 @@ systematically attaching these properties to a few general conceptions.[^1]
 > the list of errata) attached to Chapter IV. So `(0_IV, 14.3.2)` means §14, paragraph 3.2 of the running Chapter 0,
 > housed in EGA IV.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/00-front-matter.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 1–6 -->
-
 [^1]: Most of the properties in question were discovered by Chevalley, Zariski, Nagata, and Serre. The method used here
     was first developed in autumn 1961, in a course taught at Harvard University by A. Grothendieck.

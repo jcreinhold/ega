@@ -2634,8 +2634,5 @@ When `Λ`, `A` and `B` are discrete rings, the criterion `(19.9.8)` reduces to
 
 in other words, every commutative `A`-extension of `B` by a `B`-module, which is `Λ`-trivial, is also `A`-trivial.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/06-c0-s19-algebres-formellement-lisses-anneaux-cohen.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 186-210 -->
-
 [^1]: Also called *simple morphisms* in certain recent works (inspired by the classical terminology "simple point");
     this terminology however leads to confusion, in particular in the theory of algebraic groups.

@@ -1356,5 +1356,3 @@ being local on `Y_1`, one may again suppose that `g'` admits a section `s`; if `
 may then write, by virtue of lemma `(14.5.11.1)`, `ℒ_1 = ℒ'_1 ⊗_{𝒪_{X'_1}} 𝒪_{X_1}` for the base change
 `s : Y_1 → Y'_1`; the conclusion therefore results from two applications of `(II, 4.6.13, (iii))`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/26-c4-s14-morphismes-universellement-ouverts.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-3.pdf, pp. 199-223 -->

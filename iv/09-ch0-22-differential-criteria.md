@@ -488,7 +488,6 @@ We know `(0_IV, 21.8.3)` that there exists then an index `α` such that the cano
 
 <!-- original page 191 -->
 
-
 ### 22.3. Application to the relations between certain local rings and their completions
 
 **Lemma (22.3.1).**
@@ -1135,7 +1134,6 @@ valid supposing only that `K` is of characteristic `p > 0` (in other words, that
 suffices to take up again the reasoning of `(22.4.7)`, replacing therein `(22.4.6.2)` by `(22.4.8.4)` and `V″` by
 `V″/p A″`.*
 
-
 ### 22.5. Geometrically regular algebras and formally smooth algebras
 
 **Proposition (22.5.1).**
@@ -1605,7 +1603,6 @@ restrict to derivations `D_j` of `B` which are `k_α`-derivations for a suitable
 `(22.7)`, we shall give, for complete local rings, a variant (also due to Nagata) of Zariski's criterion, which is
 proved essentially by the same method (with somewhat greater technical difficulties).*
 
-
 ### 22.7. Nagata's Jacobian criterion
 
 (22.7.1) Nagata's Jacobian criterion is the analogue of Zariski's Jacobian criterion, but for quotient rings of
@@ -1897,5 +1894,3 @@ which is separable over `k` (*loc. cit.*), hence a `k`-algebra formally smooth. 
 of `(22.7.3)`, `k = K_0 = K`, and the `k`-derivations of `A` into itself are the linear combinations of `∂/∂T` and
 `∂/∂U`; since one has `∂f/∂T = ∂f/∂U = 0`, the criteria b) and b′) of `(22.7.3)` are not satisfied.*
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/09-c0-s22-criteres-differentiels-lissite-regularite.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf -->

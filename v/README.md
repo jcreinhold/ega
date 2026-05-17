@@ -23,15 +23,15 @@ were drafted under the original EGA IV numbering and reference it throughout; we
 
 ## Source
 
-The Blass & Blass translations sit at `/Users/jcreinhold/Code/papers/books/ega/v/`, distributed as
+The Blass & Blass translations sit at , distributed as
 
 - `01-section-1-and-2-supplements.md` — §V.1 + §§V.2.15-2.16 (237 lines),
 - `02-section-5-hyperplane-sections.md` — §V.5 (2,563 lines),
 - `03-section-6-invertible-sheaves-divisors.md` — §V.6 (975 lines),
 - `04-vaiello-unified-translation.md` — Vaiello unified edition (4,625 lines; consulted only for reconciliation).
 
-Source PDFs live at `~/Code/pdfs/ega/EGA-V-1-2.pdf`, `~/Code/pdfs/ega/EGA-V-5.pdf`, `~/Code/pdfs/ega/EGA-V-6.pdf`, and
-`~/Code/pdfs/ega/EGA-V-Vaiello.pdf`. Unlike EGA I-IV, these PDFs are digital-LaTeX output rather than scans of
+Source PDFs live at , , , and
+. Unlike EGA I-IV, these PDFs are digital-LaTeX output rather than scans of
 typeset journal pages, so the math symbols are largely intact in the OCR; Unicode subscripts/superscripts and arrows
 shifted in places.
 

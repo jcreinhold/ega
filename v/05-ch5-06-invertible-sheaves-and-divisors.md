@@ -1195,6 +1195,3 @@ By abuse of language, a set `Δ` of divisors of the form `Ens(D)` is often calle
 [^v-6-23]: Translator's note: Blass writes "an element of `k^8`" (an OCR slip). The PDF resolves this as `k^*`, i.e.
     `k^×`; we correct silently.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/v/03-section-6-invertible-sheaves-divisors.md;
-     reconciliation: /Users/jcreinhold/Code/papers/books/ega/v/04-vaiello-unified-translation.md;
-     PDF: ~/Code/pdfs/ega/EGA-V-6.pdf -->

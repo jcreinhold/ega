@@ -3299,8 +3299,4 @@ that `Ω^1_{X/S}` is of rank `1`, and that the morphism `X → S` is differentia
 `(16.11.3, (iii))`, but not up to order `p`. However, the proof of `(16.12.2)` shows that if `Ω^1_{X/S}` is locally
 free, and if `n! · 1_{𝒪_X}` is invertible in `Γ(X, 𝒪_X)`, then `X` is differentially smooth over `S` up to order `n`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/29-c4-s16-invariants-differentiels.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega4/ega4-16.tex;
-     PDF: ~/Code/pdfs/ega/EGA-IV-4.pdf, pp. 34-56 -->
-
 [^16.8-gabriel]: For a more general formalism, see Exposé VII of `[42]` (due to P. Gabriel).

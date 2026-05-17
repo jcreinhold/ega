@@ -1627,6 +1627,3 @@ solves the problem (each section `f_{ij}` is such that, for every `x ∈ X_{f_{i
 there is an affine neighbourhood `V ⊂ X_{f_{ij}}` of `x` such that `f|V` is a
 basis for `Γ(V, ℒ^{⊗ n})`).
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/02-03-spectre-homogene-faisceau-algebres-graduees.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega2/ega2-3.tex;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, pp. 49–71 -->

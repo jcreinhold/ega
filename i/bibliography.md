@@ -55,4 +55,3 @@ fields_, Mem. Amer. Math. Soc., no. 5, 1951.
 
 [22] E. **Kähler**, _Geometria Arithmetica_, Ann. di Mat. (4) **45** (1958), 1–368.
 
-<!-- source: ~/Code/papers/books/ega/i/bibliographie.md -->

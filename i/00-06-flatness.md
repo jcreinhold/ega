@@ -261,6 +261,4 @@ left exact in `ℱ` (using flatness of `f`), so one reduces to `ℱ = 𝒪_Y`, w
 being surjective and flat (6.6.2). When `f` is faithfully flat, `f*` is exact and faithful on `𝒪_Y`-Modules (6.6.1,
 _a)_), and an `𝒪_Y`-Module `𝒢` is `Y`-flat iff `f*(𝒢)` is (6.6.3).
 
-<!-- source: ~/Code/papers/books/ega/i/00-06-platitude.md -->
-
 [^6-1]: See the cited exposé of N. Bourbaki for the generalization of most results to the noncommutative case.

@@ -4382,5 +4382,3 @@ The elements of `Div(X'/S')` are often called, by abuse of language, *"families 
 parametrized by the `S`-prescheme `S'`"*; this terminology is used especially when one is dealing with positive
 divisors.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/34-c4-s21-diviseurs.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-4.pdf, pp. 304-332 -->

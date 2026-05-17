@@ -6,7 +6,7 @@ English markdown translation of
 > des faisceaux cohérents_, Publications mathématiques de l'IHÉS, **Première partie**: tome **11** (1961), pp. 5–167;
 > **Seconde partie**: tome **17** (1963), pp. 5–91.
 
-Source PDFs live at `~/Code/pdfs/ega/EGA-III-1.pdf` and `~/Code/pdfs/ega/EGA-III-2.pdf` (numdam scans). Citation
+Source PDFs live at  and  (numdam scans). Citation
 identifiers: [numdam.org/item?id=PMIHES_1961\_\_11\_\_5_0](http://www.numdam.org/item?id=PMIHES_1961__11__5_0) and
 [numdam.org/item?id=PMIHES_1963\_\_17\_\_5_0](http://www.numdam.org/item?id=PMIHES_1963__17__5_0).
 
@@ -73,15 +73,6 @@ verbatim as in EGA. Specifically:
 - `(G, …)` cites Godement, _Topologie algébrique et théorie des faisceaux_.
 - `(T, …)` cites Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku).
 - `(FAC, …)` cites Serre, _Faisceaux algébriques cohérents_.
-
-## Sources used during translation
-
-- French source (pdftotext OCR, math heavily corrupted): `/Users/jcreinhold/Code/papers/books/ega/iii/`
-- Authoritative PDFs: `~/Code/pdfs/ega/EGA-III-1.pdf`, `~/Code/pdfs/ega/EGA-III-2.pdf`
-- Cross-reference English LaTeX translation (partial, somewhat literal):
-    `/Users/jcreinhold/Code/ega/ega3/ega3-{1..7}.tex` (Chap 0_III and Chap III §§1–5 only; §§6–7 essentially absent)
-- Output style anchor: `/Users/jcreinhold/Code/kan/docs/books/ega/ii/`
-- Original style anchor: `/Users/jcreinhold/Code/kan/docs/books/sga/i/`
 
 ## Status
 

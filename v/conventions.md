@@ -152,9 +152,7 @@ For the OCR's `Λr R` and similar Greek-Roman ambiguities, consult the PDF; in o
 Each translated section ends with:
 
 ```html
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/v/<file>.md;
-     reconciliation: /Users/jcreinhold/Code/papers/books/ega/v/04-vaiello-unified-translation.md;
-     PDF: ~/Code/pdfs/ega/EGA-V-{1-2,5,6}.pdf -->
+
 ```
 
 The reconciliation line is included whenever the Vaiello unified file was consulted to resolve `[illegible]` markers or

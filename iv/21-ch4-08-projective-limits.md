@@ -2622,5 +2622,3 @@ leads one to ask whether this result also admits a converse. There is nothing of
 affine, since there exist monomorphisms `X → S` which are not of finite type `(I, 2.4.2)`, and which therefore put this
 conjecture in default.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/21-c4-s08-limites-projectives-preschemas.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-3.pdf, pp. 34-54 -->

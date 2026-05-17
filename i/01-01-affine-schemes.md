@@ -405,7 +405,5 @@ quasi-coherent if and only if for every pair `(X, ℱ)`, the canonical map (1.8.
 **Remark (1.8.11).** Theorem (1.7.3), Corollary (1.7.4), and Proposition (2.2.4) are special cases of (1.8.1); the
 definition in (1.6.1) likewise. Corollary (1.8.7) implies (1.6.3) and (1.6.4); (1.6.5) and (1.6.6) follow from (1.8.6).
 
-<!-- source: ~/Code/papers/books/ega/i/01-01-schemas-affines.md and ~/Code/ega/ega1/ega1-1.tex -->
-
 [^I-1-1]: This topology was introduced in algebraic geometry by Zariski, so it is usually called the _Zariski topology_
     on `X`.

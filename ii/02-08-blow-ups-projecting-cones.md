@@ -3733,6 +3733,3 @@ are `(𝒮_X)^{(d)}`-modules of finite type.
 follows from (3.2.7). Furthermore, taking (8.14.13.1) into account, the second
 claim is a consequence of (2.1.6, iii) and (3.4.3).
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/02-08-schemas-eclates-cones-projetants.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega2/ega2-8.tex;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, pp. 152–204 -->

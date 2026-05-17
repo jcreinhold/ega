@@ -16,5 +16,3 @@ Coll. Sci. Kyoto, sér. A, t. **XXIX** (1955), pp. 293–303.
 [26] M. Nagata, _Existence theorems for non projective complete algebraic varieties_.
 Ill. J. Math., t. **II** (1958), pp. 490–498.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/bibliographie.md;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, p. 205 -->

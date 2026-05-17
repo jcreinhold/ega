@@ -43,5 +43,3 @@ We mention finally that the results of n° 3.4 (and the preliminary propositions
 > into later work on duality (Hartshorne, _Residues and Duality_) and on Picard schemes (Grothendieck's Bourbaki
 > seminars 232, 236).
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/06-chapter-iii-banner.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 81–82 -->

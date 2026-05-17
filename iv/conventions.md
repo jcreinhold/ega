@@ -184,9 +184,7 @@ flatness-descent developments that build on §11 include Raynaud-Gruson, _Critè
 Each translated section ends with:
 
 ```html
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/<file>.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega4/<file>.tex (when present);
-     PDF: ~/Code/pdfs/ega/EGA-IV-{1,2,3,4}.pdf -->
+
 ```
 
 When no LaTeX cross-reference exists, the `cross-ref:` line is omitted. The PDF entry is narrowed to the relevant part

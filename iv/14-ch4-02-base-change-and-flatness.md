@@ -1975,5 +1975,3 @@ which justifies the notation adopted. One also says that `Z̄` is the **closure 
 
 This results from `(2.8.4)` and `(2.8.5)`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/14-c4-s02-changement-base-platitude.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-2.pdf, pp. 22-35 -->

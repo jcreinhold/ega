@@ -227,5 +227,3 @@ prose of each section.
 - Zero section of an affine cone: 8.3.3.
 - Zero section of a vector bundle: 1.7.9.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/index-terminologique.md;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, pp. 209–211 -->

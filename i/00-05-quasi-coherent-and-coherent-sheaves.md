@@ -393,8 +393,6 @@ linearly independent, so if `ℱ` has rank `n`, there are `n − m` sections `s_
 (`1 ≤ i ≤ n`) a basis of `ℱ_y / 𝔪_y ℱ_y` for every `y ∈ U`. By (5.5.4), there is an isomorphism `ℱ|U ⥲ 𝒪_X^n|U` sending
 `s_i|U` (`1 ≤ i ≤ m`) to `e_i|U`, finishing the proof.
 
-<!-- source: ~/Code/papers/books/ega/i/00-05-faisceaux-quasi-coherents-et-coherents.md -->
-
 [^5-1]: See the book in preparation cited in the Introduction.
 
 [^5-2]: For a general form of this result, see the book cited in the footnote on p. 51.

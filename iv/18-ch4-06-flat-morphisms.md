@@ -2783,5 +2783,3 @@ One verifies easily that the integral closure of `A` is the ring `A[t]`, where `
 that `A` is unibranch but not geometrically unibranch. But `A ⊗_ℝ ℂ` is not an integral ring, being isomorphic to
 `ℂ[[U, V]]/(U − iV)(U + iV)`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/18-c4-s06-morphismes-plats-preschemas.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-2.pdf, pp. 163-182 -->

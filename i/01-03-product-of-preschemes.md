@@ -6,7 +6,7 @@
 
 > **Translation status.** This section is a translation skeleton: subsection headings and the principal definitions and
 > statements are translated; longer proofs are summarized or referenced. Proofs in full follow the structure of
-> `~/Code/ega/ega1/ega1-3.tex` and the source PDF.
+>  and the source PDF.
 
 ### 3.1. Sums of preschemes
 
@@ -134,4 +134,3 @@ the _fiber_ `X_s = X ×_S Spec(K)` is a `K`-prescheme. Set-theoretically, the un
 For an ideal `𝔍 ⊂ A` and an `A`-prescheme `X`, the _reduction_ `X mod 𝔍` is `X ×_{Spec(A)} Spec(A/𝔍)`. This is a functor
 from `A`-preschemes to `(A/𝔍)`-preschemes.
 
-<!-- source: ~/Code/papers/books/ega/i/01-03-produit-de-preschemas.md and ~/Code/ega/ega1/ega1-3.tex -->

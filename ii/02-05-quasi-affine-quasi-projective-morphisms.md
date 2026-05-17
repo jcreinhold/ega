@@ -1191,6 +1191,3 @@ indeterminates). In the commutative diagram
 `j` and `1_X × j` are closed immersions `(I, 4.3.1)` and `(f_0)_{(S')}` is
 closed by hypothesis; so it is also for `(f_0)_{(S'')}`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/02-05-morphismes-quasi-affines-quasi-projectifs.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega2/ega2-5.tex;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, pp. 94–110 -->

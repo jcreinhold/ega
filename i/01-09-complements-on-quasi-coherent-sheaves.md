@@ -5,7 +5,7 @@
 <!-- label: I.9 -->
 
 > **Translation status.** Skeleton with definitions and principal statements; full proofs reference
-> `~/Code/ega/ega1/ega1-9.tex`.
+> .
 
 ### 9.1. Tensor product of quasi-coherent sheaves
 
@@ -116,4 +116,3 @@ among `X`-preschemes whose direct image yields `𝒜`.
 **Proposition (9.6.6).** Properties of `Spec(𝒜)`: it is separated; coherent if `𝒜` is locally finitely presented;
 functorial in `𝒜`.
 
-<!-- source: ~/Code/papers/books/ega/i/01-09-complements-faisceaux-quasi-coherents.md and ~/Code/ega/ega1/ega1-9.tex -->

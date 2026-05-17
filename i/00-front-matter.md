@@ -175,8 +175,6 @@ References will be given following the decimal system; for instance, in `III, 4.
 chapter, the `4` the paragraph, and the `9.3` the item within the paragraph. _Within the same chapter_, the chapter
 prefix is omitted.
 
-<!-- source: ~/Code/papers/books/ega/i/00-front-matter.md -->
-
 [^intro-1]: As J.-P. Serre has pointed out to us, the idea of defining the structure of a variety by giving a sheaf of
     rings is due to H. Cartan, who took it as the starting point of his theory of analytic spaces. Of course,
     just as in algebraic geometry, it would be important, in "analytic geometry", to admit nilpotent elements in

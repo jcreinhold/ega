@@ -711,5 +711,3 @@ such phenomena cannot occur when the points of `Y` are geometrically unibranch. 
 of equidimensional morphism greatly restricts its interest, in favour of the notion of universally open morphism,
 which will be studied in detail in the following section.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/25-c4-s13-morphismes-equidimensionnels.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-3.pdf -->

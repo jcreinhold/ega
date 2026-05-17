@@ -32,4 +32,3 @@ not be used before §3 of Chapter III, and we recommend omitting that section un
 - [§9. Complements on quasi-coherent sheaves](01-09-complements-on-quasi-coherent-sheaves.md)
 - [§10. Formal schemes](01-10-formal-schemes.md)
 
-<!-- source: ~/Code/papers/books/ega/i/01-00-chapter-langage-des-schemas.md -->

@@ -3216,7 +3216,6 @@ Noetherian and `dim(h⁻¹(y')) = r`, it results from `(5.4.1)` that the restric
 component of dimension `≥ r` of `f⁻¹(y')` is a dominant morphism. Now, there exists by hypothesis such a component
 containing a generization of `x`; a fortiori its generic point is a generization of `x`, whence the conclusion.
 
-
 ### 18.11. Application to complete Noetherian local algebras over a field
 
 The following lemma generalizes `(0, 21.9.1)` and `(0, 21.9.2)`:
@@ -3824,7 +3823,6 @@ to `K ⊗_k k_1^{p⁻∞} = (K ⊗_k k^{p⁻∞}) ⊗_{k^{p⁻∞}} k_1^{p⁻∞
 Alg. comm., chap. I, §3, n° 5, cor. of prop. 8); one has thus proved that b) implies a), which finishes the proof of
 `(18.11.12.1)` and of `(18.11.12)`.
 
-
 ### 18.12. Applications of étale localization to quasi-finite morphisms (generalizations of earlier results)
 
 The results of this number have been communicated to us by P. Deligne.
@@ -4161,5 +4159,3 @@ saying that it is ample `(II, 4.6.6)`), and consequently the same is true of `�
 We leave to the reader the task of stating similarly conditions equivalent to those of `(II, 4.6.3)` for
 `𝒪_X`-Modules relatively ample.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/31-c4-s18-complements-morphismes-etales.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-4.pdf, pp. 157-184 -->

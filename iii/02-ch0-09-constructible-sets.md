@@ -323,5 +323,3 @@ that for every `x ∈ X`, the set `E` of `y ∈ X` such that `h(y) ≤ h(x)` is 
 constructible subset of `X`; on the other hand, to say that a closed irreducible subset `Y` of `X` contains `x` means
 that its generic point `y` is a generization of `x`; the conclusion then follows from (9.2.5).
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/02-c0-s09-ensembles-constructibles.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 356–361 (IHÉS print) / pp. 12–17 (PDF) -->

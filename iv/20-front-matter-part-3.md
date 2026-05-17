@@ -40,5 +40,3 @@ of *finite presentation* on the morphisms — hypotheses that, unlike Noetherian
 > flatness, the local criteria of flatness, the descent of flatness by arbitrary morphisms, and Raynaud-style
 > separating-family criteria.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/20-part-3-front-matter.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-3.pdf, pp. 1–6 -->

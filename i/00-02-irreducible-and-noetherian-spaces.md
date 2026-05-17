@@ -99,4 +99,3 @@ quasi-compact is Noetherian.
 
 **(2.2.5)** A Noetherian space has only _finitely many_ irreducible components, as one sees by Noetherian induction.
 
-<!-- source: ~/Code/papers/books/ega/i/00-02-espaces-irreductibles-et-noetheriens.md -->

@@ -1401,5 +1401,3 @@ remarking that the set of `y ∈ Y` such that `f` be proper at `y` is by definit
 
 (To be continued.)
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/27-c4-s15-etude-fibres-morphisme-universellement-ouvert.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-3.pdf, pp. 223-248 -->

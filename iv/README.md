@@ -7,8 +7,8 @@ English markdown translation of
 > pp. 5–259; **Seconde partie**: tome **24** (1965), pp. 5–231; **Troisième partie**: tome **28** (1966), pp. 5–255;
 > **Quatrième partie**: tome **32** (1967), pp. 5–361.
 
-Source PDFs live at `~/Code/pdfs/ega/EGA-IV-1.pdf`, `~/Code/pdfs/ega/EGA-IV-2.pdf`, `~/Code/pdfs/ega/EGA-IV-3.pdf`, and
-`~/Code/pdfs/ega/EGA-IV-4.pdf` (numdam scans). Citation identifiers:
+Source PDFs live at , , , and
+ (numdam scans). Citation identifiers
 [numdam.org/item?id=PMIHES_1964\_\_20\_\_5_0](http://www.numdam.org/item?id=PMIHES_1964__20__5_0),
 [numdam.org/item?id=PMIHES_1965\_\_24\_\_5_0](http://www.numdam.org/item?id=PMIHES_1965__24__5_0),
 [numdam.org/item?id=PMIHES_1966\_\_28\_\_5_0](http://www.numdam.org/item?id=PMIHES_1966__28__5_0),
@@ -104,16 +104,6 @@ verbatim as in EGA. Specifically:
 - `(T, …)` cites Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku).
 - `(FAC, …)` cites Serre, _Faisceaux algébriques cohérents_.
 - `(Bourbaki, Alg. comm., …)` cites Bourbaki, _Éléments de mathématique : Algèbre commutative_.
-
-## Sources used during translation
-
-- French source (pdftotext OCR, math heavily corrupted): `/Users/jcreinhold/Code/papers/books/ega/iv/`
-- Authoritative PDFs: `~/Code/pdfs/ega/EGA-IV-{1,2,3,4}.pdf`
-- Cross-reference English LaTeX translation (essentially blank except §16 and partial §17, §20):
-    `/Users/jcreinhold/Code/ega/ega4/ega4-{1..21}.tex`
-- Output style anchor: `/Users/jcreinhold/Code/kan/docs/books/ega/iii/`
-- Upstream style anchors: `/Users/jcreinhold/Code/kan/docs/books/ega/ii/`,
-    `/Users/jcreinhold/Code/kan/docs/books/sga/i/`
 
 ## Status
 

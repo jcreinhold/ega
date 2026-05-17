@@ -25,5 +25,3 @@ The numbering, citations, and terminology continue Part 1 directly; cross-refere
 `(7.N.M)`, while references back into Part 1 keep the short form `(1.4.10)` and so on, since both parts share a single
 chapter.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/12-part-2-front-matter.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-2.pdf, pp. 1–5 -->

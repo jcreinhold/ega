@@ -2421,5 +2421,3 @@ and reasoning as in `(20.7.17)`, one sees that the canonical homomorphism
 `û_{C/B/A} : Ω̂^1_{B/A} ⊗̂_{B̂} Ĉ → Ω̂^1_{C/A}` is *surjective* and that `Im(δ̂_{C/B/A})` is *dense* in
 `Ker(û_{C/B/A})`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/07-c0-s20-derivations-differentielles.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 136-153 -->

@@ -28,5 +28,3 @@ III, and later volumes, will use. It picks up the numbering of Chapter 0 from EG
 - **§12.** Complements on the cohomology of sheaves.
 - **§13.** Projective limits in homological algebra.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/00-front-matter.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 1–5 -->

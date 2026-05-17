@@ -763,8 +763,5 @@ catenary rings `(16.5.12)`.
 
 All the rings of importance in applications to algebraic geometry are quotients of regular rings.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/04-c0-s17-anneaux-reguliers.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 135-147 -->
-
 [^1]: Translator's note. EGA's citation reads `(17.1.10)` but no such item exists in §17.1; the intended reference is to
     `(17.3.3, (i))` — flatness plus regularity of the special fibre implies regularity of the base.

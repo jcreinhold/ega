@@ -514,8 +514,6 @@ For every open `U ⊂ X`, `Γ(U, ℋ′)` is _closed_ in `Γ(U, ℱ′)`: indeed
 `Γ(V, ℋ)` (for `V ∈ 𝔅`, `V ⊂ U`) under the continuous maps `Γ(U, ℱ) → Γ(V, ℱ)`, and `Γ(V, ℋ)` is closed in the discrete
 space `Γ(V, ℱ)`.
 
-<!-- source: ~/Code/papers/books/ega/i/00-03-complements-sur-les-faisceaux.md -->
-
 [^3-1]: This is a special case of the general notion of (non-filtered) _projective limit_; see (T, I, 1.8) and the book
     in preparation announced in the Introduction.
 

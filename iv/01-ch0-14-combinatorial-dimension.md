@@ -428,5 +428,3 @@ with irreducible closed subsets of a topological space not intervening in that p
 `(14.3.3)` in an ordered set `E` such that for every `x ∈ E`, there exists `z ≤ x` which is minimal in `E`, and in which
 the length of chains of elements of `E` is bounded.*
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/01-c0-s14-dimension-combinatoire.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 102-107 -->

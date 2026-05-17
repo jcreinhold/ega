@@ -772,5 +772,3 @@ Chapter 0 (continued) entries from Chapter IV proper.
 - Zariski's "Main theorem" for morphisms of finite presentation: IV.8.12.6.
 - Zeros, cycle of, see Cycle of zeros.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/zz-index-terminologique-part-{1,2,3,4}.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-{1,2,3,4}.pdf -->

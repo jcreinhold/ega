@@ -3065,10 +3065,6 @@ canonically isomorphic to the residue field of `A_j` `(0, 19.6.2)`. One then tak
 `Spec(K_j)` and it is clear that one answers thus the question since for every `j` one has two homomorphisms
 `K_j → A_j → k(A_j)` whose composite is an isomorphism.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/30-c4-s17-morphismes-lisses-non-ramifies-etales.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega4/ega4-17.tex (partial);
-     PDF: ~/Code/pdfs/ega/EGA-IV-4.pdf, pp. 81-109 -->
-
 [^17.3.1.note]: The words "net" and "formally net" appear distinctly preferable to the established terminology "non
     ramifié" (resp. "formellement non ramifié") and will be employed almost exclusively from chap. V
     onwards. In this chapter, we have kept the older terminology so as not to come into conflict with

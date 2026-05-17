@@ -1561,10 +1561,6 @@ Returning to the conditions of (5.8.18), we see that condition (a), relative to 
 
 ______________________________________________________________________
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/v/02-section-5-hyperplane-sections.md (lines 1-1478);
-     reconciliation: /Users/jcreinhold/Code/papers/books/ega/v/04-vaiello-unified-translation.md;
-     PDF: ~/Code/pdfs/ega/EGA-V-5.pdf -->
-
 [^v-5p1-1]: Translator's note: Blass renders this as "pêle mêle Fr". The French *pêle mêle* ("pell-mell", "jumbled
     together") is preserved here as "pell-mell" to keep Grothendieck's deliberately informal tone in his
     covering letter. The original Blass text retains the French.

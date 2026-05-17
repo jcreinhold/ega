@@ -2043,5 +2043,3 @@ components of `X_{(‾k)}` `(1 ≤ i ≤ m)`; if `p : X_{(K)} → X_{(‾k)}` is
 `p⁻¹(W_i)` are the connected components of `X_{(K)}` `(4.4.6)`, hence `U` is a union of a certain number of these
 components, and is consequently defined over `‾k`; the conclusion follows accordingly from `(4.9.5, b)`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/16-c4-s04-changement-corps-base.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-2.pdf -->

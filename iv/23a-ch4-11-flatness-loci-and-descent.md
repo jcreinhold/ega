@@ -3071,5 +3071,3 @@ is necessary and sufficient that, for every `s ∈ S`, the family `((f_λ)_s)` b
 schematically dense in `X` relative to `S`, it is necessary and sufficient that, for every `s ∈ S`, `U_s = U ∩ X_s` be
 schematically dense in `X_s` (or, equivalently, that one have `Ass(𝒪_{X_s}) ⊂ U_s`).*
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/23-c4-s10-preschemas-jacobson.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-3.pdf, pp. 143-172 -->

@@ -10,4 +10,3 @@
 - [§6. Flatness](00-06-flatness.md)
 - [§7. Adic rings](00-07-adic-rings.md)
 
-<!-- source: ~/Code/papers/books/ega/i/00-00-chapter-preliminaires.md -->

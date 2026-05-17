@@ -572,15 +572,6 @@ assume in addition that `S′ → S` is finite.
 
 ______________________________________________________________________
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/v/01-section-1-and-2-supplements.md (does not capture §§V.2.15-V.2.16);
-     reconciliation: /Users/jcreinhold/Code/papers/books/ega/v/04-vaiello-unified-translation.md (lines 3074-3570, the
-     "EGA V – Section 17" subtree containing IV.17.15 and Appendix 17.16);
-     PDF: ~/Code/pdfs/ega/EGA-V-1-2.pdf (only §V.1 is present in the 6-page PDF; the §§V.2.15-V.2.16 content is not in
-     this PDF — the title page advertises "§1 and §§2.15, 2.16" but the body stops mid-diagram at the end of §V.1).
-     Translator's note: this file works directly from the Vaiello unified transcription, since neither the Blass
-     piecemeal markdown nor the EGA-V-1-2.pdf captured §§V.2.15-V.2.16; the Vaiello edition is the only surviving
-     witness for these two sections. -->
-
 [^v-2-1]: Translator's note: *canular* is École Normale Supérieure slang for a hoax or prank; Grothendieck uses it for
     the terminological inconsistency he is correcting. The Blass-Vaiello rendering parenthesizes "(The hoax (École
     Normale Supérieure lingo) Tr)"; we retain the French *canular* with this gloss.

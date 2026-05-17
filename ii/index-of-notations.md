@@ -94,5 +94,3 @@ sections.
 - `ℳ_{X'}, Γ'_*(ℱ), 𝒫𝓻𝓸𝓳'(ℳ), α', β'` (`X' ⊂ X = Proj(𝒮)` open, `ℳ` a graded
     `𝒮`-module, `ℱ` an `𝒪_{X'}`-module): 8.14.6.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/index-notations.md;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, pp. 207–208 -->

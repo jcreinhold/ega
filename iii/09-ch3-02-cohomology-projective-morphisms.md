@@ -1195,5 +1195,3 @@ that `t(x) ≠ 0`, so `x ∈ X_t`, and by definition of `𝒥`, `t(y) = 0` in `X
 When `X` is proper over `Y`, one can prove `(2.6.2)` more simply, by reasoning as in Chevalley's theorem `(II, 6.7.1)`,
 using `(2.6.1)` and Lemma `(II, 6.7.1.1)`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/08-c3-s02-etude-cohomologique-morphismes-projectifs.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 95–113 -->

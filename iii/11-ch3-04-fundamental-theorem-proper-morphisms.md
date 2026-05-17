@@ -1550,6 +1550,3 @@ and sufficient that `f_0` be a closed immersion (of usual preschemes).*
 **Proof.** Thanks to the definitions (3.4.1 and 4.8.2), we are at once reduced to the same proposition for `f_0`
 (notation of (4.8.1)), which is none other than (4.4.2).
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/10-c3-s04-theoreme-fondamental-morphismes-propres.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega3/ega3-4.tex;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 122–149 -->

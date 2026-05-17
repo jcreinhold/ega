@@ -33,5 +33,3 @@ functions and pseudo-morphisms (§20); and divisors (§21).
 > "Infinitesimal extensions" respectively. In Part 4 (1967) the program was revised: §20 became *Meromorphic
 > functions; pseudo-morphisms* and §21 became *Divisors*. The translation files use the published §20 and §21 titles.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/28-part-4-front-matter.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-4.pdf, pp. 1–6 -->

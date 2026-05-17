@@ -596,5 +596,3 @@ exact, the first assertion follows from the corresponding assertion of `(15.1.14
 taking into account that the hypothesis that `u` is faithfully flat means that `ψ` is surjective and that `θ_x^♯` makes
 `𝒪_x` a faithfully flat `ψ_x^*(𝒪_y)`-module.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/02-c0-s15-suites-regulieres.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 108-117 -->

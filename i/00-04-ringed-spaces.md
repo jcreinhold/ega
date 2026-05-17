@@ -420,4 +420,3 @@ one checks that `v″^♯` is
 Ψ*(Ψ′*(ℋ)) ──Ψ*(v′^♯)──→ Ψ*(𝒢) ──v^♯──→ ℱ.
 ```
 
-<!-- source: ~/Code/papers/books/ega/i/00-04-espaces-anneles.md -->

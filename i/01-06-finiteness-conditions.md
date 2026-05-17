@@ -5,7 +5,7 @@
 <!-- label: I.6 -->
 
 > **Translation status.** Skeleton with definitions and principal statements; full proofs reference
-> `~/Code/ega/ega1/ega1-6.tex`.
+> .
 
 ### 6.1. Noetherian and locally Noetherian preschemes
 
@@ -117,4 +117,3 @@ open `U ⊂ Y`. Equivalently, `f⁻¹(V)` is quasi-compact for every affine open
 
 Composition and base change preserve quasi-compactness.
 
-<!-- source: ~/Code/papers/books/ega/i/01-06-conditions-de-finitude.md and ~/Code/ega/ega1/ega1-6.tex -->

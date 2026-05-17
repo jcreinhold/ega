@@ -227,15 +227,11 @@ of locally free modules of finite rank we have a canonical isomorphism `det F = 
 With these conventions, we have the commutativity of the diagram[^v-1-5]
 
 > *Source-trace note: the Blass source file 01 ends mid-diagram on page 5; the diagram and the subsequent argument are
-> visible in the source PDF `~/Code/pdfs/ega/EGA-V-1-2.pdf` but were not captured by the Blass markdown transcription.
+> visible in the source PDF  but were not captured by the Blass markdown transcription.
 > We close §V.1 here with the construction already stated and refer the reader to the PDF for the final identification
 > step that pins down `Ram(V′/Y) = V(φ)_{supsing}` as preschemes (rather than only as subsets).*
 
 ______________________________________________________________________
-
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/v/01-section-1-and-2-supplements.md;
-     reconciliation: /Users/jcreinhold/Code/papers/books/ega/v/04-vaiello-unified-translation.md;
-     PDF: ~/Code/pdfs/ega/EGA-V-1-2.pdf -->
 
 [^v-1-1]: Translator's note: in the source, this appears as Grothendieck's marginal aside ("It would be a good thing to
     summarize the above construction into a Proposition 6"). No Proposition (1.6) was ever written; we preserve

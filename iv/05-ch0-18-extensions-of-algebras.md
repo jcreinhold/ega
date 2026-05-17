@@ -1025,5 +1025,3 @@ isomorphism
 
 and it suffices to pass to the inductive limit, taking account of `(18.5.3.1)`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/05-c0-s18-complements-extensions-algebres.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 147-164 -->

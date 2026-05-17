@@ -12,7 +12,7 @@ handwritten *prenotes* — draft notes intended for later expansion — covering
 
 ## Source attribution
 
-The Blass & Blass English translations sit at `/Users/jcreinhold/Code/papers/books/ega/v/`:
+The Blass & Blass English translations sit at
 
 - `01-section-1-and-2-supplements.md` (237 lines) — §V.1 + §§V.2.15-2.16 prenotes.
 - `02-section-5-hyperplane-sections.md` (2,563 lines) — §V.5 prenotes.
@@ -21,10 +21,10 @@ The Blass & Blass English translations sit at `/Users/jcreinhold/Code/papers/boo
 
 Source PDFs (digital-LaTeX, not scans):
 
-- `~/Code/pdfs/ega/EGA-V-1-2.pdf` — §V.1 and §§V.2.15-2.16.
-- `~/Code/pdfs/ega/EGA-V-5.pdf` — §V.5.
-- `~/Code/pdfs/ega/EGA-V-6.pdf` — §V.6.
-- `~/Code/pdfs/ega/EGA-V-Vaiello.pdf` — Vaiello unified edition.
+-  — §V.1 and §§V.2.15-2.16.
+-  — §V.5.
+-  — §V.6.
+-  — Vaiello unified edition.
 
 Unlike EGA I-IV, the PDFs are digital LaTeX output rather than scans of typeset journal pages, so OCR pathology is
 limited to shifted Unicode subscripts/superscripts and the occasional ambiguous glyph. Math symbols are largely intact;
@@ -82,5 +82,3 @@ for the running Blass→idiomatic-English term map.
 - `(Mumford, …)` cites D. Mumford, _Lectures on curves on an algebraic surface_ (Princeton, 1966).
 - `(Bourbaki Sém. 232/236/261)` cites Grothendieck's Séminaire Bourbaki exposés.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/v/README.md;
-     PDF: ~/Code/pdfs/ega/EGA-V-{1-2,5,6}.pdf -->

@@ -5,7 +5,7 @@
 <!-- label: I.7 -->
 
 > **Translation status.** Skeleton with definitions and principal statements; full proofs reference
-> `~/Code/ega/ega1/ega1-7.tex`.
+> .
 
 ### 7.1. Rational maps and rational functions
 
@@ -87,4 +87,3 @@ _torsion-free_ if `t(ℱ) = 0`, _torsion_ if `t(ℱ) = ℱ`.
 
 **Proposition (7.4.5)–(7.4.6).** Torsion behavior under direct sums, tensor products, and pullback.
 
-<!-- source: ~/Code/papers/books/ega/i/01-07-applications-rationnelles.md and ~/Code/ega/ega1/ega1-7.tex -->

@@ -5,7 +5,7 @@
 <!-- label: I.4 -->
 
 > **Translation status.** Translation skeleton with key definitions and theorem statements; full proofs reference
-> `~/Code/ega/ega1/ega1-4.tex`.
+> .
 
 ### 4.1. Subpreschemes
 
@@ -85,4 +85,3 @@ an immersion).
 
 **Proposition (4.5.5).** A local isomorphism is open. A radicial local isomorphism is a local immersion.
 
-<!-- source: ~/Code/papers/books/ega/i/01-04-sous-preschemas-et-immersions.md and ~/Code/ega/ega1/ega1-4.tex -->

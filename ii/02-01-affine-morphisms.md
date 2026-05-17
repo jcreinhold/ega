@@ -867,6 +867,3 @@ quasi-coherent `𝒪_Y`-module of finite type.
 by a quasi-coherent `𝒪_Y`-submodule `ℰ` of finite type `(I, 9.6.5)`; by definition, the canonical homomorphism
 `𝕊(ℰ) → 𝒜(X)` extending the injection `ℰ → 𝒜(X)` is _surjective_. The conclusion follows from (1.4.10).
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/02-01-morphismes-affines.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega2/ega2-1.tex;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, pp. 5–19 -->

@@ -2068,6 +2068,3 @@ For a Noetherian prescheme `X` to be affine, it is necessary and sufficient
 that the closed reduced subpreschemes having as their underlying spaces the
 irreducible components of `X` be affine.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/02-06-morphismes-entiers-et-finis.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega2/ega2-6.tex;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, pp. 110–138 -->

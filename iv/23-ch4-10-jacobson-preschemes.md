@@ -1328,5 +1328,3 @@ the results of `(10.10.3)` and `(10.10.4)` (`𝒜(X')` being here replaced by th
 `X'` to `K`). However, this viewpoint gives an artificial role to an arbitrarily chosen overfield of `k`, and we signal
 it only to reject it.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/23-c4-s10-preschemas-jacobson.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-3.pdf, pp. 95-116 -->

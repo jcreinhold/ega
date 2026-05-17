@@ -8,8 +8,8 @@ Originally published as _Publications mathématiques de l'IHÉS_, tome 4 (1960),
 ## About this translation
 
 This is an idiomatic English translation in Markdown with Unicode mathematics. The French source is at
-`~/Code/papers/books/ega/i/`; the original scanned text is at `~/Code/pdfs/ega/EGA-I.pdf`. A LaTeX hand-translation by
-the EGA community lives at `~/Code/ega/`; passages have been cross-referenced against it but the prose here has been
+; the original scanned text is at . A LaTeX hand-translation by
+the EGA community lives at ; passages have been cross-referenced against it but the prose here has been
 revised for English mathematical idiom while preserving Grothendieck's architectural voice.
 
 The translation preserves EGA's historical terminology (notably `prescheme` for what current authors usually call a
@@ -89,9 +89,9 @@ subsection structure, definitions, and statements of theorems and propositions, 
 pass. All files are first passes and have not yet been audited end-to-end.
 
 Chapter 0 §1–§6 derive from clean Unicode hand-transcriptions of the source PDF. Chapter 0 §7, Chapter I, the
-bibliography, and the indices are translated against the OCR-corrupted French source, the community LaTeX translation at
-`~/Code/ega/`, and the source PDF at `~/Code/pdfs/ega/EGA-I.pdf`. Math fidelity in the skeleton sections has been
-preserved by cross-referencing the LaTeX; the prose is original and idiomatic English.
+bibliography, and the indices are translated against the OCR-corrupted French source, cross-referenced against the
+community LaTeX translation and the source PDF. Math fidelity in the skeleton sections has been preserved by
+cross-referencing the LaTeX; the prose is original and idiomatic English.
 
 ## Next steps
 

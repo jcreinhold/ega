@@ -1524,6 +1524,3 @@ of `𝒪_{X'}`-Algebras
 By means of the identification permitted by `(20.6.3)`, this notion of base change for relative meromorphic functions
 is a particular case of the analogous notion for relative pseudo-morphisms `(20.5.8)`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/33-c4-s20-fonctions-meromorphes-pseudo-morphismes.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega4/ega4-20.tex (partial);
-     PDF: ~/Code/pdfs/ega/EGA-IV-4.pdf, pp. 225-255 -->

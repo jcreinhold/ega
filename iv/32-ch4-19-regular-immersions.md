@@ -2332,5 +2332,3 @@ the canonical homomorphism
 is bijective for `i ≤ k − 2` and injective for `i = k − 1` (which, expressed by means of the general cohomological
 notion of depth introduced in Chap. III, is also written `prof_Z(ℋ) ≥ k`).
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/32-c4-s19-immersions-regulieres-platitude-normale.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-4.pdf, pp. 209-225 -->

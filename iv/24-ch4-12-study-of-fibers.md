@@ -836,5 +836,3 @@ particular, one has, for every `s ∈ S`, `ℰxt^n_{𝒪_{X_s}}(ℱ_s, 𝒢_s) =
 `𝒯or_n^{𝒪_{X_s}}(ℱ_s, 𝒢_s) = ℋ_n((𝒩_•)_s)`). Applying `(12.3.3)` to the complexes of `f`-flat Modules `ℳ^•` and
 `𝒩_•`, one deduces the corollary at once.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/24-c4-s12-etude-fibres-morphismes-plats.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-3.pdf -->

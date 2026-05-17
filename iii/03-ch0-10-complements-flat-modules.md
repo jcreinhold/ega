@@ -374,5 +374,3 @@ We have moreover proved the
 
 *If `K` is an extension of finite degree, one may suppose that `B` is a finite `A`-algebra.*
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/03-c0-s10-complements-modules-plats.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 361–367 (IHÉS print) / pp. 17–23 (PDF) -->

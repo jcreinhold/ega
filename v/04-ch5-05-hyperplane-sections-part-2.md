@@ -1016,6 +1016,3 @@ phrasing without speculating.
 [^v-5p2-42]: Translator's note: Blass writes "[(Moyennant)]" — the French *moyennant* ("by means of", "using") is a
 Grothendieckian connective; we render "using".
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/v/02-section-5-hyperplane-sections.md (lines 1479-2563);
-     reconciliation: /Users/jcreinhold/Code/papers/books/ega/v/04-vaiello-unified-translation.md;
-     PDF: ~/Code/pdfs/ega/EGA-V-5.pdf -->

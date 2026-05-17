@@ -836,6 +836,3 @@ with `v(τ) = t''`. We see that `v(f^m t' − τ ∣ D(f)) = 0`; writing `t'''` 
 `f^n s'` extends to a section `s ∈ Γ(X, ℱ')`; then `f^{m+n} t' − f^n t''' = u(f^n s')`, so `f^{m+n} t'` is the
 restriction to `D(f)` of the section `f^n τ + u(f^n s) ∈ Γ(X, ℱ)`, completing the proof.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/07-c3-s01-cohomologie-schemas-affines.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega3/ega3-1.tex;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 82–95 -->

@@ -818,5 +818,3 @@ Starting from `(12.4.8.1)` and `(12.4.3)`, one can then, reasoning as in `(12.2.
 
 We leave the details of the definitions to the reader.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/04-c0-s12-complements-cohomologie-faisceaux.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 49–64 -->

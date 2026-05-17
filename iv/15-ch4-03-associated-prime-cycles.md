@@ -941,5 +941,3 @@ of `f^n M` for the `𝔭_i` are the submodules of the reduced primary decomposit
 by `(3.1.7)`, and since `f` is `M`-regular, `f^{n-1} M/f^n M` is isomorphic to `M/fM`; it then suffices to reason by
 induction on `n`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/15-c4-s03-cycles-premiers-associes.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-2.pdf -->

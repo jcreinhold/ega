@@ -2193,6 +2193,3 @@ corresponding to `ū` is a closed immersion of `Proj(S)` into `Proj(𝕊(M))`.
 **Proof.** Indeed, `ū` is surjective by hypothesis, and it suffices to apply
 (2.9.2).
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/ii/02-02-spectres-premiers-homogenes.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega2/ega2-2.tex;
-     PDF: ~/Code/pdfs/ega/EGA-II.pdf, pp. 19–49 -->

@@ -202,9 +202,7 @@ original Part 1 or Part 2 OCR file.
 Each translated section ends with:
 
 ```html
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/<file>.md;
-     cross-ref: /Users/jcreinhold/Code/ega/ega3/<file>.tex (when present);
-     PDF: ~/Code/pdfs/ega/EGA-III-{1,2}.pdf -->
+
 ````
 
 When no LaTeX cross-reference exists (e.g. for §III.6 and §III.7), the `cross-ref:` line is omitted.

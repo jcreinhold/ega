@@ -2294,5 +2294,3 @@ since the `X_g` cover `X`, the proposition is proved.
 
 (*To be continued.*)
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/14-c3-s07-etude-changement-base.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-2.pdf, pp. 43–80 -->

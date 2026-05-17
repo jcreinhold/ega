@@ -567,5 +567,3 @@ definition of `Z`.
 
 *(To be continued.)*
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/11-c3-s05-theoreme-existence-faisceaux-algebriques-coherents.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf, pp. 149-159 -->

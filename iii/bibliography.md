@@ -25,5 +25,3 @@ This continues the EGA bibliography. The list inherits the numbering from EGA II
 
 The Second Part of EGA III (IHÉS 17, 1963) reuses the EGA I–II–III(1) bibliography without further additions.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iii/zz-bibliographie-part-1.md;
-     PDF: ~/Code/pdfs/ega/EGA-III-1.pdf (final page) -->

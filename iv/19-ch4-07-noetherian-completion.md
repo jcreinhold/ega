@@ -1546,7 +1546,6 @@ It is immediate that this homomorphism is bijective when `M` is free of finite t
 ```text
    L' ⊗̂_k B  ──────→  L ⊗̂_k B  ──────→  M ⊗̂_k B  ────→  0
 
-
    L' ⊗_A (A ⊗̂_k B) → L ⊗_A (A ⊗̂_k B) → M ⊗_A (A ⊗̂_k B) → 0
 ```
 
@@ -2344,8 +2343,5 @@ a ring of polynomials in one indeterminate `k[T]` over a field `k`, and where co
 "resolvability" imposed on `Y` is trivially satisfied.*
 
 *(To be continued.)*
-
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/19-c4-s07-relations-anneau-local-noetherien-complete.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-2.pdf, pp. 203-223 -->
 
 [^1]: Cor. `(7.2.8)` is not used to prove `(7.4.4)`.

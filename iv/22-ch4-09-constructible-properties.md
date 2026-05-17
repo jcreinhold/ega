@@ -2064,5 +2064,3 @@ of `ℋ_n(ℒ_•)`, the support of `ℋ_n((ℒ_•)_s)` is `Z_s = Z ∩ X_s` `(
 neighbourhood `U` of `η` in `S` such that, for every `s ∈ U`, one has `Z_s ∩ ‾{x} = ∅` (resp. `≠ ∅`). The set
 `V = f^{-1}(U) ∩ ‾{x}` therefore answers the question.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/22-c4-s09-proprietes-constructibles.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-3.pdf, pp. 76-94 -->

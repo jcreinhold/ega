@@ -105,4 +105,3 @@ References are by `(N.M.K)` for items in Chapter 0 and `(I, N.M.K)` for Chapter 
 | `M^∧`, `u^∧`                                                                   | Completion of a module/homomorphism (adic)                     | (I, 10.10.1) |
 | `X ∩ Y`, `X_Y`                                                                 | Intersection of formal subpreschemes / restriction             | (I, 10.15.1) |
 
-<!-- source: ~/Code/papers/books/ega/i/index-notations.md -->

@@ -1122,5 +1122,3 @@ definition coincides with `(16.5.1)` when `A` is local. We say that `A` is a *Co
 It is clear that if `M` (resp. `A`) is a Cohen-Macaulay `A`-module (resp. a Cohen-Macaulay ring), `S⁻¹M` is a
 Cohen-Macaulay `S⁻¹A`-module (resp. `S⁻¹A` is a Cohen-Macaulay ring) for every multiplicative subset `S` of `A`.
 
-<!-- source: /Users/jcreinhold/Code/papers/books/ega/iv/03-c0-s16-dimension-profondeur.md;
-     PDF: ~/Code/pdfs/ega/EGA-IV-1.pdf, pp. 118-135 -->

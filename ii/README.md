@@ -6,7 +6,7 @@ English markdown translation of
 > _Éléments de géométrie algébrique : II. Étude globale élémentaire de quelques classes de morphismes_,
 > Publications mathématiques de l'IHÉS, tome **8** (1961), pp. 5–222.
 
-The French source PDF lives at `~/Code/pdfs/ega/EGA-II.pdf` (numdam scan). Citation
+The French source PDF lives at  (numdam scan). Citation
 identifier: `<http://www.numdam.org/item?id=PMIHES_1961__8__5_0>`.
 
 ## Contents
@@ -36,15 +36,6 @@ Within this chapter, decimal labels `(N.M.K)` cite the local volume. Cross-volum
 references appear verbatim as in EGA: `(I, 4.2.3)` cites EGA I; `(0, 4.2.4)` cites
 Chapter 0 (preliminaries) of EGA I; `(III, 2.3.8)` cites EGA III. The numbering matches
 the IHÉS print exactly, so a reader can follow a reference back into the French.
-
-## Sources used during translation
-
-- French source (pdftotext OCR, math heavily corrupted):
-    `/Users/jcreinhold/Code/papers/books/ega/ii/`
-- Authoritative PDF: `~/Code/pdfs/ega/EGA-II.pdf`
-- Cross-reference English LaTeX translation (somewhat literal, has gaps):
-    `/Users/jcreinhold/Code/ega/ega2/ega2-{1..8}.tex`
-- Output model (SGA I English markdown): `/Users/jcreinhold/Code/kan/docs/books/sga/i/`
 
 ## Status
 
