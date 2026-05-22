@@ -198,7 +198,7 @@ $f \in \mathfrak{p}_{m}$ or $g \in \mathfrak{p}_{n}$.
 
 Moreover, _the graded prime ideal $\mathfrak{p}$ is then unique_.
 
-**Proof.** It is evident that conditions 1° and 2° are necessary. Moreover, if $\mathfrak{p} \nsupset S_{+}$, there
+**Proof.** It is evident that conditions 1° and 2° are necessary. Moreover, if $\mathfrak{p} \not\supset S_{+}$, there
 exists at least one $k > 0$ such that $\mathfrak{p} \cap S_{k} \neq S_{k}$; if $f \in S_{k}$ is not in $\mathfrak{p}$,
 the relation $\mathfrak{p} \cap S_{n} = S_{n}$ implies $\mathfrak{p} \cap S_{n - mk} = S_{n - mk}$ by (2.1.8); hence, if
 $\mathfrak{p} \cap S_{n} = S_{n}$ from some value of $n$ onwards, we would have $\mathfrak{p} \supset S_{+}$ contrary to

@@ -420,7 +420,7 @@ that, for every $x \in Ass(\mathcal{G})$, one has $codim(\overline{x} \cap T, \o
 $i_{*}(\mathcal{G})$ (where $i : U \to X$ is the canonical injection) is a coherent $\mathcal{O}_{X}$-Module.*
 
 *d) For every integral quotient ring $B$ of $A$ and every ideal $\mathfrak{J}$ of height $\geq 2$ in $B$, the ring
-$\bigcap_{p \nsupseteq \mathfrak{J}} B_{p}$ is a finite $B$-algebra.*
+$\bigcap_{p \not\supseteq \mathfrak{J}} B_{p}$ is a finite $B$-algebra.*
 
 *e) For every integral quotient ring $B$ of $A$ and every local ring $C = B_{q}$ at a prime ideal $q$ of $B$, such that
 $\dim(C) \geq 2$, the ring $C^{(\omega)}$ is a finite $C$-algebra (or, what comes to the same, if $Y =

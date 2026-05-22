@@ -257,7 +257,7 @@ finite, or that $Z \subset Z'$. In order that $Z_{\eta} = Z'_{\eta}$, it is nece
 and $f(Z')$ be finite, or that $Z = Z'$.*
 
 This is an immediate consequence of (5.2.3), since we see that $f(Z - Z \cap Z')$ can be finite only if $Z \subset Z'$
-or if $f(Z)$ is finite: if $Z \nsubset Z'$, then $Z - Z \cap Z'$ is dense in $Z$, so $f(Z - Z \cap Z')$ is dense in
+or if $f(Z)$ is finite: if $Z \not\subset Z'$, then $Z - Z \cap Z'$ is dense in $Z$, so $f(Z - Z \cap Z')$ is dense in
 $f(Z)$; if the former is finite and hence (being constructible) closed, then so is the latter.[^v-5p1-6]
 
 <!-- original page 7 -->
@@ -1048,7 +1048,7 @@ that for every irreducible component $X_{j}$ of $X$ containing $T_{i}$ with*
   dim 𝒪_{X_j, T_i} = dim 𝒪_{X, T_i}  ( = k),
 ```
 
-*we have $X_{j} \nsubset Y$.*
+*we have $X_{j} \not\subset Y$.*
 
 The verification of this lemma is immediate, given the general facts in §0_IV (Chapter IV) about dimension.
 
@@ -1057,7 +1057,7 @@ exclude the set `Z_0` of $\xi \in P^{\vee}$ such that there is an irreducible co
 f(R) > 0$ and such that $R_{\xi}$ is of "dimension too large" (a set which is of codimension $\geq 2$ and in what
 follows does not count), the exceptional $H_{\xi}$ are those for which there exists a $T_{i}$ with $codim(T_{i}, X) = k$
 and $\dim f(T_{i}) = 0$, $f(T_{i}) \subset H_{\xi}$, and such that for every irreducible component $X_{j} \supset T_{i}$
-of $X$ with $codim(T_{i}, X_{j}) = k$, we have $f(X_{j}) \nsubset H_{\xi}$. For a given $T_{i}$ with $codim(T_{i}, X) =
+of $X$ with $codim(T_{i}, X_{j}) = k$, we have $f(X_{j}) \not\subset H_{\xi}$. For a given $T_{i}$ with $codim(T_{i}, X) =
 k$, if there exists an $X_{j}$ with $codim(T_{i}, X_{j}) = k$ and such that $\dim f(X_{j}) = 0$, then we will have
 $f(X_{j}) = f(T_{i}) \subset H_{\xi}$, and consequently $\xi$ would not be exceptional relative to the $T_{i}$. If, on
 the other hand, for every $X_{j} \supset T_{i}$ such that $codim(T_{i}, X_{j}) = k$ we have $\dim f(X_{j}) > 0$, then
@@ -1543,7 +1543,7 @@ the question whether for the generic point of $L$ (and hence for all points of a
 geometrically irreducible of dimension $\dim X - 1$.
 
 This is a variant of Bertini's theorem, which must appear in §V.5.3, and is treated by exactly the same method (or, if
-one likes, reduces to it).[^v-5p1-51] The dimension question is settled simply by $f(X) \nsubset L_{0}$, i.e. by $X' =
+one likes, reduces to it).[^v-5p1-51] The dimension question is settled simply by $f(X) \not\subset L_{0}$, i.e. by $X' =
 f^{-1}(P - L_{0})$ being a dense open subset of $X$. Let $Q$ be the projective space of hyperplanes passing through
 `L_0`. (N.B. If `L_0` is defined by a vector subspace `F_0` of $E$, we have $Q = \mathbb{P}(F_{0})$, and we consider the
 canonical morphism (deduced from $F_{0} \to E$, cf. Chapter II)

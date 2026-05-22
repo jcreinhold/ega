@@ -2376,7 +2376,7 @@ and is identified with a sub-ring of the product of the fields $L'_{j}$ for the 
 \subset \mathfrak{p}'$.*
 
 *(iii) If $\hat{A}'_{\mathfrak{p}'}$ denotes the sub-ring of $L'$ product of $A'_{\mathfrak{p}'}$ and of the $L'_{j}$
-such that $\mathfrak{q}'_{j} \nsubset \mathfrak{p}'$, one has*
+such that $\mathfrak{q}'_{j} \not\subset \mathfrak{p}'$, one has*
 
 $$ (6.14.1.3) A' = K' \cap \hat{A}'_{\mathfrak{p}'}. $$
 
@@ -2408,7 +2408,7 @@ B'_{\mathfrak{p}'} = B \otimes_{A} A'_{\mathfrak{p}'}$. We shall first show that
 and normal ring. Now, since $B$ contains $A$ and is contained in $K$ and $A'_{\mathfrak{p}'}$ is a flat $A$-module,
 $B'_{\mathfrak{p}'}$ contains $A'_{\mathfrak{p}'}$ and is contained in $K'_{\mathfrak{p}'}$, hence in the product `L''`
 of the $L'_{j}$ such that $\mathfrak{q}'_{j} \subset \mathfrak{p}'$. For every index $j$ such that $\mathfrak{q}'_{j}
-\nsubset \mathfrak{p}'$, let $\mathfrak{d}'_{j}$ be the product of the $L'_{h}$ such that $h \neq j$, so that
+\not\subset \mathfrak{p}'$, let $\mathfrak{d}'_{j}$ be the product of the $L'_{h}$ such that $h \neq j$, so that
 $\mathfrak{d}'_{j} \cap A' = \mathfrak{q}'_{j}$; as every element of $A - \mathfrak{p}'$ is regular in `L''`, one has
 also
 
@@ -2458,7 +2458,7 @@ This being so, $B$ is the union of the increasing filtered family of its finite 
 flatness, $B'$ is the union of the increasing filtered family of the $A'_{\alpha} = A_{\alpha} \otimes_{A} A'$; if one
 sets $\mathfrak{p}'_{\alpha} = \mathfrak{q}' \cap A'_{\alpha}$, $B'_{\mathfrak{q}'}$ is also the union of the increasing
 filtered family of the $(A'_{\alpha})_{\mathfrak{p}'_{\alpha}}$ (5.13.3). Denote by `L''` the direct composition of the
-fields $L'_{j}$ such that $\mathfrak{q}'_{j} \nsubset \mathfrak{p}'$; then for every $\alpha$,
+fields $L'_{j}$ such that $\mathfrak{q}'_{j} \not\subset \mathfrak{p}'$; then for every $\alpha$,
 $(A'_{\alpha})_{\mathfrak{p}'_{\alpha}}$ is contained in $K'_{\mathfrak{p}'}$, and the ring $B'_{\mathfrak{q}'} \cong
 L'' \times B'_{\mathfrak{p}'}$ is therefore the union of the rings $L'' \times (A'_{\alpha})_{\mathfrak{p}'_{\alpha}} =
 (\hat{A}'_{\alpha})_{\mathfrak{p}'_{\alpha}}$. But each of the $A_{\alpha}$ is local, Noetherian, integral and of

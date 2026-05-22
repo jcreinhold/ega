@@ -1142,7 +1142,7 @@ Locked piecewise as each section lands. §IV.1 establishes the relative-finitene
   principal at $\mathfrak{m}B$ is principal. Proof reduces to $B = A[[T_{1}, \cdots, T_{n}]]$ via Cohen-structure plus
   the $D_{0} = \hat{B} \otimes_{\hat{A}} C$ complete-formal-power-series construction, and then to $n = 1$ via a
   Weierstrass-preparation / Bourbaki series-reduction trick. `(21.14.2)`: parafactorial reformulation — $B_{q}$
-  parafactorial for every $q \nsubset \mathfrak{m}B$ of height $\geqslant 2$.
+  parafactorial for every $q \not\subset \mathfrak{m}B$ of height $\geqslant 2$.
 - **`(21.14.3)` is the parafactoriality of smooth morphisms over a normal base.** For $f : X \to S$ smooth with $S$
   normal: every $x \in X$ with $\dim(\mathcal{O}_{X,x}) \geqslant 2$ not maximal in its fibre has parafactorial local
   ring; every `1`-codim. cycle on $X$ not supporting a fibre component is locally principal; and for $Y \subset X$

@@ -165,7 +165,7 @@ $\mathfrak{J} m = 0$.
 Let us first show that c) implies a): indeed, if $Ass(\mathcal{F})$ then met $X - U$, there would be a prime ideal
 $\mathfrak{p} \in Ass(M)$ containing $\mathfrak{J}$, hence an element $m \neq 0$ of $M$ such that $\mathfrak{p} m = 0$.
 Secondly, b) implies c): indeed, if one then had $\mathfrak{J} m = 0$ for some $m \neq 0$ in $M$, then for every prime
-ideal $\mathfrak{q} \nsupseteq \mathfrak{J}$, there exists $a \in \mathfrak{J}$ not in $\mathfrak{q}$, hence the
+ideal $\mathfrak{q} \not\supseteq \mathfrak{J}$, there exists $a \in \mathfrak{J}$ not in $\mathfrak{q}$, hence the
 relation $a m = 0$ entails that the canonical image of $m$ in $M_{\mathfrak{q}}$ is `0`; in other words $m$ would be a
 section $\neq 0$ of $\mathcal{F}$ over $X$ whose restriction to $U$ would be zero. Finally, a) entails b). To see this,
 let us note that the canonical homomorphism $M \to \prod_{\mathfrak{p} \in Ass(M)} M_{\mathfrak{p}}$ is injective:

@@ -337,7 +337,7 @@ set $L$ is filtered.
 
 <!-- label: IV.8.2.12 -->
 
-*With the notations of `(8.2.8)`, the inductive limit of the inductive system of homomorphisms $\theta^{#}_{\lambda} :
+*With the notations of `(8.2.8)`, the inductive limit of the inductive system of homomorphisms $\theta^{\sharp}_{\lambda} :
 \psi^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) \to \mathcal{O}_{S}$ of sheaves of rings on $S$ is an isomorphism*
 
 $$ (8.2.12.1) \lim \psi^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) \xrightarrow{\sim} \mathcal{O}_{S}. $$
@@ -377,12 +377,12 @@ u_{\mu \lambda})$ in the category of all ringed spaces (or of all ringed spaces 
 ringed space, and consider a projective system of morphisms of ringed spaces $w_{\lambda} : Y \to S_{\lambda}$. If one
 sets $w_{\lambda} = (p_{\lambda}, \omega_{\lambda})$, the $p_{\lambda}$ form a projective system of continuous maps and,
 by virtue of `(8.2.9)`, their projective limit $p$ is identified with a continuous map $Y \to S$ such that $p_{\lambda}
-= \psi_{\lambda} \circ p$. On the other hand, the $\omega^{#}_{\lambda} : p^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) \to
+= \psi_{\lambda} \circ p$. On the other hand, the $\omega^{\sharp}_{\lambda} : p^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) \to
 \mathcal{O}_{Y}$ form an inductive system of homomorphisms of sheaves of rings; since one may write
 $p^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) = p^{*}(\psi^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}))$ and the functor
 $p^{*}$ is exact, the inductive limit of the $p^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}})$ is $p^{*}(\mathcal{O}_{S})$ by
-virtue of `(8.2.12)`, and there is therefore a unique homomorphism $\omega^{#} : p^{*}(\mathcal{O}_{S}) \to
-\mathcal{O}_{Y}$ such that $\omega^{#}_{\lambda} = \omega^{#} \circ p^{*}(\theta^{#}_{\lambda})$, which proves our
+virtue of `(8.2.12)`, and there is therefore a unique homomorphism $\omega^{\sharp} : p^{*}(\mathcal{O}_{S}) \to
+\mathcal{O}_{Y}$ such that $\omega^{\sharp}_{\lambda} = \omega^{\sharp} \circ p^{*}(\theta^{\sharp}_{\lambda})$, which proves our
 assertion.
 
 ### 8.3. Constructible parts in a projective limit of preschemes

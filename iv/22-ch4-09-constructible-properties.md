@@ -1958,7 +1958,7 @@ non-empty for every $s \in S$. This being so, it follows again from `(9.7.1)` th
 that the pairs $(i, j)$ such that $(Z_{j})_{s} \subset (X_{i})_{s}$ are the same for every $s \in S$. The conclusion
 then follows from `(9.5.6)`: for every $s$ sufficiently near $\eta$, all the irreducible components of $(X_{i})_{s}$
 (resp. $(Z_{j})_{s}$) have the same dimension, equal to that of $(X_{i})_{\eta}$ (resp. $(Z_{j})_{\eta}$). Moreover, if
-$(i, j)$ is a pair such that $Z_{j} \nsubset X_{i}$, $(X_{i})_{\eta}$ does not contain the
+$(i, j)$ is a pair such that $Z_{j} \not\subset X_{i}$, $(X_{i})_{\eta}$ does not contain the
 
 <!-- original page 90 -->
 

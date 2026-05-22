@@ -1506,15 +1506,15 @@ $X' = X_{(k')}$, $x'_{\alpha}$ the generic point of $X'_{\alpha}$.*
 
 *(i) Suppose that $X'$ is locally Noetherian (which is the case if $X$ is locally of finite type over $k$, or if $k'$ is
 an extension of finite type of $k$). Let then `k''` be any extension of $k'$, $X'' = X \otimes_{k} k''$,
-$(X''_{\alpha}')$ the family of irreducible components of `X''`, $x''_{\alpha}'$ the generic point of $X''_{\alpha}'$.
-If $X''_{\alpha}'$ is above $x'_{\alpha}$, one has*
+$({X''_{\alpha}}')$ the family of irreducible components of `X''`, ${x''_{\alpha}}'$ the generic point of ${X''_{\alpha}}'$.
+If ${X''_{\alpha}}'$ is above $x'_{\alpha}$, one has*
 
 ```text
   long(𝒪_{x''_α'}) = long(𝒪_{x'_α}) · long(𝒪_{Z'', z''})            (4.7.3.1)
 ```
 
 *where one has set $Z'' = \operatorname{Spec}(k(x'_{\alpha})) \otimes_{k'} k''$. In particular, if `k''` is a separable
-extension of $k'$ such that `X''` is locally Noetherian, one has $long(\mathcal{O}_{x''_{\alpha}'}) =
+extension of $k'$ such that `X''` is locally Noetherian, one has $long(\mathcal{O}_{{x''_{\alpha}}'}) =
 long(\mathcal{O}_{x'_{\alpha}})$.*
 
 <!-- original page 76 -->
@@ -1534,8 +1534,8 @@ Artinian ring, isomorphic to $(K \otimes_{k} k')_{\mathfrak{p}_{\alpha}}$; these
 extensions $K$ and $k'$ of $k$ (and are consequently the same ($k'$ being fixed) for all integral $k$-preschemes having
 the same field $K$ of rational functions). Formula `(4.7.3.1)` follows from `(4.7.2.1)` applied to the Noetherian ring
 $A$ of an affine neighbourhood of $x'_{\alpha}$ in $X'$, and to the ring $B$ of a sufficiently small affine
-neighbourhood of $x''_{\alpha}'$ in `X''`, $\mathfrak{p}$ and $\mathfrak{q}$ being the minimal prime ideals
-corresponding to $x'_{\alpha}$ and $x''_{\alpha}'$ respectively, and taking $M = A$: one notes that $A/\mathfrak{p}$ is
+neighbourhood of ${x''_{\alpha}}'$ in `X''`, $\mathfrak{p}$ and $\mathfrak{q}$ being the minimal prime ideals
+corresponding to $x'_{\alpha}$ and ${x''_{\alpha}}'$ respectively, and taking $M = A$: one notes that $A/\mathfrak{p}$ is
 the ring of an affine neighbourhood of $x'_{\alpha}$ in $X'_{\alpha}$, and that $B = A \otimes_{k'} k''$; if
 $\mathfrak{q}' = \mathfrak{q}/\mathfrak{p}B$, minimal prime ideal of $B/\mathfrak{p}B$, one has $\mathcal{O}_{Z'', z''}
 = (B/\mathfrak{p}B)_{\mathfrak{q}'} = B_{\mathfrak{q}}/\mathfrak{p}B_{\mathfrak{q}}$, whence `(4.7.3.1)`. The last

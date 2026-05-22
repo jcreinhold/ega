@@ -79,8 +79,8 @@ We shall prove the implications
 The first three are trivial. To see that c) implies b), note first that c) entails that $X_{0}$ is dense in $X$.
 Replacing $X$ and $X_{0}$ by a suitable open set $U$ of $X$ and by $U \cap X_{0}$ respectively, we may then assume $Z$
 is locally closed in $X$, hence $Z = V \cap \complement W$, where $V$ and $W$ are open in $X$; the hypothesis $Z \neq
-\emptyset$ means $V \nsubset W$, or equivalently $V \cup W \neq W$. By c), one then has $(V \cup W) \cap X_{0} \neq W
-\cap X_{0}$, hence $V \cap X_{0} \nsubset W$, and consequently $(V \cap \complement W) \cap X_{0} \neq \emptyset$.
+\emptyset$ means $V \not\subset W$, or equivalently $V \cup W \neq W$. By c), one then has $(V \cup W) \cap X_{0} \neq W
+\cap X_{0}$, hence $V \cap X_{0} \not\subset W$, and consequently $(V \cap \complement W) \cap X_{0} \neq \emptyset$.
 
 To see that b) entails b'), it suffices to apply b) to $Z \cap U$, where $U$ is an arbitrary open neighbourhood of a
 point of $Z$. Since $Z \cap X_{0} \subset Z$, it is trivial that b') implies a'). To show that a') entails a), note that

@@ -59,7 +59,7 @@ situation is the same except that $L$ is the image of the tangent space to $X$ a
 $P$, $Q$, $R$ of degree `3` — i.e. one notch higher. The hypothesis that $\dim f(X) \geq 2$ says that the transcendence
 degree of $K(t_{1}, t_{2}, \cdots, t_{r})$ over $k$ is $\geq 2$, i.e. we can find $t_{1}, t_{2}$ algebraically
 independent. In (a) we therefore take $P = T_{1}$, $Q = T^{2}_{1}$, $R = T_{1} T_{2}$. In (b) we proceed analogously,
-noting that we may choose $t_{1}$ so that `T_1` vanishes on $L$, due to the fact that $f(x) \nsubset L^{\ast}$; this
+noting that we may choose $t_{1}$ so that `T_1` vanishes on $L$, due to the fact that $f(x) \not\subset L^{\ast}$; this
 implies that there exists an index $i$ between `1` and $s$ such that $t_{i} \neq 0$, so that $t_{i}$ is not constant
 (since $t_{i}$ vanishes at $x$), and hence $t_{i}$ is not algebraic over $k$.[^v-5p2-2] (We may assume $k$ algebraically
 closed.) Case (c) follows from (b) except when $f(X)$ is contained in the image $L$ (under $f$) of the tangent space to

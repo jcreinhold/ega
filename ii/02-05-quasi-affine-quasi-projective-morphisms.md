@@ -681,7 +681,7 @@ $\operatorname{Proj}(S \otimes_{A} \kappa(y))$ (2.8.10); consequently $f^{-1}(y)
 \kappa(y)$ satisfies condition (TN) (2.7.4), in other words $S_{n} \otimes_{A} \kappa(y) = 0$ for $n$ sufficiently
 large. But since $(S_{n})_{y}$ is an $\mathcal{O}_{y}$-module of finite type, the preceding condition means that
 $(S_{n})_{y} = 0$ for $n$ sufficiently large, by Nakayama's lemma. If $\mathfrak{a}_{n}$ is the annihilator in $A$ of
-the $A$-module $S_{n}$, the preceding condition also means that $\mathfrak{a}_{n} \nsubset \mathfrak{j}_{y}$ for $n$
+the $A$-module $S_{n}$, the preceding condition also means that $\mathfrak{a}_{n} \not\subset \mathfrak{j}_{y}$ for $n$
 sufficiently large `(0, 1.7.4)`. Now, since $S_{n} S_{1} = S_{n+1}$ by hypothesis, we have $\mathfrak{a}_{n} \subset
 \mathfrak{a}_{n+1}$, and if $\mathfrak{a}$ is the union of the $\mathfrak{a}_{n}$, we see that $f(X) = V(\mathfrak{a})$,
 which proves that $f(X)$ is closed in $Y$. If now $X'$ is an arbitrary closed subset of $X$, there exists a closed
