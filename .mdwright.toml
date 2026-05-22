@@ -13,8 +13,10 @@ preset = "default"
 select = []
 
 # Type: array of string.
-# Lint rule names to add on top of `lint.preset`.
-extend-select = []
+# Lint rule names to add on top of `lint.preset`. EGA renders through
+# mdbook-katex, so the math/render-compat family with the katex profile
+# catches commands that wouldn't render (configured under [lint.render]).
+extend-select = ["math/render-compat"]
 
 # Type: array of string.
 # Lint rule names to remove after applying `lint.preset`, `lint.select`, and `lint.extend-select`.
@@ -28,6 +30,19 @@ exclude = []
 # Type: array of string.
 # Project-specific additions to the `info-string-typo` allowlist. The stdlib default allowlist still applies.
 extra = []
+
+[lint.render]
+# Type: "mathjax-v3" | "katex".
+# EGA's book.toml configures mdbook-katex (`[preprocessor.katex]`), so the
+# rule checks against KaTeX's command surface. Switch to "mathjax-v3" only
+# if the renderer changes.
+renderer = "katex"
+
+# Type: array of string.
+# Extra KaTeX extensions loaded on top of core. EGA's current chapters use
+# no chemistry / physics commands; add e.g. "mhchem" the first time \ce{}
+# is introduced.
+packages = []
 
 [fmt]
 # Type: "preserve" | "mdformat".
