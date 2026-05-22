@@ -180,8 +180,8 @@ $\rho^{f}_{x} : M_{f} \to M_{x}$ for the canonical map ($f \in A \setminus \math
 
 **Definition (1.3.4).** The _structure sheaf_ of $X = \operatorname{Spec}(A)$, written $\tilde{A}$ or $\mathcal{O}_{X}$,
 and the _sheaf associated to_ $M$, written $\tilde{M}$, are the sheaf of rings (resp. $\tilde{A}$-module) associated
-with the presheaf $D(f) \mapsto A_{f}$ (resp. $D(f) \mapsto M_{f}$) on the basis
-$\mathfrak{B} = \{D(f) : f \in A\}$ (using (1.1.10), (0.3.2.1), and (0.3.5.6)).
+with the presheaf $D(f) \mapsto A_{f}$ (resp. $D(f) \mapsto M_{f}$) on the basis $\mathfrak{B} = \{D(f) : f \in A\}$
+(using (1.1.10), (0.3.2.1), and (0.3.5.6)).
 
 By (0.3.2.4), the stalk $\tilde{A}_{x}$ (resp. $\tilde{M}_{x}$) is identified with $A_{x}$ (resp. $M_{x}$). Write
 $\theta_{f} : A_{f} \to \Gamma(D(f), \tilde{A})$ (resp. $\theta_{f} : M_{f} \to \Gamma(D(f), \tilde{M})$) for the
@@ -238,9 +238,9 @@ So $\tilde{N} = \tilde{P} \Longrightarrow N = P$.
 > canonically.
 
 **(1.3.13)** An $A$-algebra structure on $B$ is the same as $A$-module structure plus $A$-homomorphism
-$\phi : B \otimes_{A} B \to B$ and unit $e \in B$ satisfying associativity, commutativity, and unit axioms. By
-(1.3.12), $\tilde{\phi} : \tilde{B} \otimes_{\tilde{A}} \tilde{B} \to \tilde{B}$ makes $\tilde{B}$ an
-$\tilde{A}$-algebra. Similarly, $B$-module structure on $N$ corresponds to $\tilde{A}$-module homomorphism
+$\phi : B \otimes_{A} B \to B$ and unit $e \in B$ satisfying associativity, commutativity, and unit axioms. By (1.3.12),
+$\tilde{\phi} : \tilde{B} \otimes_{\tilde{A}} \tilde{B} \to \tilde{B}$ makes $\tilde{B}$ an $\tilde{A}$-algebra.
+Similarly, $B$-module structure on $N$ corresponds to $\tilde{A}$-module homomorphism
 $\tilde{\psi} : \tilde{B} \otimes_{\tilde{A}} \tilde{N} \to \tilde{N}$; $\tilde{N}$ is thus a $\tilde{B}$-module.
 
 For $B$-modules $M$, $N$, $\tilde{M} \otimes_{\tilde{B}} \tilde{N} \cong \widetilde{M \otimes_{B} N}$, and
@@ -397,8 +397,8 @@ that for every $x \in X$, $\theta^{\sharp}_{x} : \mathcal{O}_{\psi(x)} \to \math
 **Proof sketch.** A morphism of ringed spaces always gives $\rho : \operatorname{Hom}((X, \mathcal{O}_{X}), (S,
 \mathcal{O}_{S})) \to \operatorname{Hom}(\Gamma(S, \mathcal{O}_{S}), \Gamma(X, \mathcal{O}_{X}))$ via $(\psi, \theta)
 \mapsto \Gamma(\theta)$. Conversely, set $A = \Gamma(S, \mathcal{O}_{S})$ and let $\phi : A \to \Gamma(X,
-\mathcal{O}_{X})$ be a ring homomorphism. For $x \in X$, $\{f \in A : \phi(f)(x) = 0\}$ is prime (since $\kappa(x)$ is
-a field), giving ${}^{a}\phi(x) \in S = \operatorname{Spec}(A)$. ${}^{a}\phi^{-1}(D(f)) = X_{\phi(f)}$ (by (0.5.5.2)), so
+\mathcal{O}_{X})$ be a ring homomorphism. For $x \in X$, $\{f \in A : \phi(f)(x) = 0\}$ is prime (since $\kappa(x)$ is a
+field), giving ${}^{a}\phi(x) \in S = \operatorname{Spec}(A)$. ${}^{a}\phi^{-1}(D(f)) = X_{\phi(f)}$ (by (0.5.5.2)), so
 ${}^{a}\phi$ is continuous. Define $\tilde{\phi} : \mathcal{O}_{S} \to {}^{a}\phi_{*}(\mathcal{O}_{X})$ by sending $s/f
 \in A_{f} = \Gamma(D(f), \mathcal{O}_{S})$ to $(\phi(s) | X_{\phi(f)}) (\phi(f) | X_{\phi(f)})^{-1}$. Then
 $\tilde{\phi}^{\sharp}_{x}(s_{y} / f_{y}) = (\phi(s)_{x})(\phi(f)_{x})^{-1}$ where $y = {}^{a}\phi(x)$; $s_{y} \in
