@@ -9,10 +9,11 @@ src = "."
 build-dir = "book"
 create-missing = false
 
+[preprocessor.katex]
+
 [output.html]
 default-theme = "rust"
 preferred-dark-theme = "ayu"
-mathjax-support = true
 git-repository-url = "https://github.com/jcreinhold/ega"
 edit-url-template = "https://github.com/jcreinhold/ega/edit/main/{path}"
 
