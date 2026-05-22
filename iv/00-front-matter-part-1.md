@@ -21,13 +21,13 @@ EGA, will use. It picks up the numbering of Chapter 0 from EGA III at §14, and 
 ### Sommaire (Chapter 0, continued)
 
 - **§14.** Combinatorial dimension of a topological space.
-- **§15.** `M`-regular sequences and `ℱ`-regular sequences.
+- **§15.** $M$-regular sequences and $\mathcal{F}$-regular sequences.
 - **§16.** Dimension and depth in Noetherian local rings.
 - **§17.** Regular rings.
 - **§18.** Complements on extensions of algebras.
 - **§19.** Formally smooth algebras and Cohen rings.
 - **§20.** Derivations and differentials.
-- **§21.** Differentials in characteristic-`p` rings.
+- **§21.** Differentials in characteristic-$p$ rings.
 - **§22.** Differential criteria for formal smoothness and regularity.
 - **§23.** Japanese rings.
 
@@ -39,8 +39,8 @@ Combined with §§5, 6, 7 of Chapter IV (where the language of schemes is used),
 form the properties of rings that "behave well" with respect to operations such as completion and integral closure, by
 systematically attaching these properties to a few general conceptions.[^1]
 
-> _Translator's note._ As elsewhere in EGA, the symbol `0_IV` (resp. `Err_IV`) refers to the part of Chapter 0 (resp.
-> the list of errata) attached to Chapter IV. So `(0_IV, 14.3.2)` means §14, paragraph 3.2 of the running Chapter 0,
+> _Translator's note._ As elsewhere in EGA, the symbol `0_IV` (resp. $Err_{IV}$) refers to the part of Chapter 0 (resp.
+> the list of errata) attached to Chapter IV. So $(0_{IV}, 14.3.2)$ means §14, paragraph 3.2 of the running Chapter 0,
 > housed in EGA IV.
 
 [^1]: Most of the properties in question were discovered by Chevalley, Zariski, Nagata, and Serre. The method used here

@@ -30,5 +30,5 @@ and their completion, including the notion of *excellent ring* (§7).
 - **§7.** Application to the relations between a Noetherian local ring and its completion. Excellent rings.
 
 The decimal numbering continues that of Part 1: cross-references like `(IV, 2.3.7)` and `(IV, 7.8.1)` point at this
-part, while `(IV, 1.4.2)` continues to point at §IV.1 in Part 1, and `(0_IV, 17.1.1)` continues to point at the Chap
+part, while `(IV, 1.4.2)` continues to point at §IV.1 in Part 1, and $(0_{IV}, 17.1.1)$ continues to point at the Chap
 0_IV preliminaries.

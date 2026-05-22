@@ -26,7 +26,7 @@ Citation identifier: <http://www.numdam.org/item?id=PMIHES_1961__8__5_0>.
 
 - The 1961 prescheme/scheme distinction is preserved throughout.
 - Decimal labels `(N.M.K)` cite the local volume. Cross-volume references appear verbatim as in EGA: `(I, 4.2.3)` cites
-    EGA I; `(0, 4.2.4)` cites Chapter 0 of EGA I; `(III, 2.3.8)` cites EGA III. The numbering matches the IHÉS print
-    exactly, so a reader can follow a reference back into the French.
+  EGA I; `(0, 4.2.4)` cites Chapter 0 of EGA I; `(III, 2.3.8)` cites EGA III. The numbering matches the IHÉS print
+  exactly, so a reader can follow a reference back into the French.
 - House style (terminology, Unicode, block labels, page-break comments) is recorded in [conventions.md](conventions.md);
-    the running French↔English term map is in [translation-ledger.md](translation-ledger.md).
+  the running French↔English term map is in [translation-ledger.md](translation-ledger.md).

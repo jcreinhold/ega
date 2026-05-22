@@ -36,19 +36,21 @@ were drafted under the original EGA IV numbering and reference it throughout; we
 - Decimal labels `(V, N.M.K)` cite the local volume. Cross-volume references:
     - `(V, 5.3.2)` cites EGA V itself.
     - `(formerly IV, 20.3.2)` is attached parenthetically at the first occurrence in each section where a §V passage was
-        originally drafted under EGA IV numbering, then dropped.
+      originally drafted under EGA IV numbering, then dropped.
     - `(IV, 17.6.2)`, `(III, 2.3.8)`, `(II, 5.5.4)`, `(I, 4.2.3)` cite earlier volumes.
-    - `(0_IV, 19.3.5)`, `(0_III, 13.4.2)` cite Chapter 0 (suite) housed in EGA IV and EGA III respectively.
-    - `(M, …)`, `(G, …)`, `(T, …)`, `(FAC, …)`, `(Bourbaki, Alg. comm., …)` — external classics, inherited from EGA IV.
-    - `(Mumford, …)` — D. Mumford, _Lectures on curves on an algebraic surface_ (Princeton, 1966), cited in §V.5 and §V.6.
+    - $(0_{IV}, 19.3.5)$, $(0_{III}, 13.4.2)$ cite Chapter 0 (suite) housed in EGA IV and EGA III respectively.
+    - $(M, \cdots)$, $(G, \cdots)$, $(T, \cdots)$, $(FAC, \cdots)$, `(Bourbaki, Alg. comm., …)` — external classics,
+      inherited from EGA IV.
+    - $(Mumford, \cdots)$ — D. Mumford, _Lectures on curves on an algebraic surface_ (Princeton, 1966), cited in §V.5
+      and §V.6.
 - House style is recorded in [conventions.md](conventions.md); the term map is in
-    [translation-ledger.md](translation-ledger.md).
+  [translation-ledger.md](translation-ledger.md).
 
 ## Prenote character
 
 The Blass translations preserve Grothendieck's *prenote* style: marginal author-to-self comments, structural sketches,
 and occasional "this would be better as a Proposition" remarks. We render these as italicized translator-marked inserts
-— either inline `*Grothendieck note: …*` or, for longer asides, as
+— either inline $*Grothendieck note: \cdots*$ or, for longer asides, as
 
 > *Grothendieck note.* … (italicized blockquote)
 
@@ -63,11 +65,11 @@ descent techniques, the method of the generic fibre, and algebraic and formal sc
 the four fragments above survive as prenotes. The relevant published substitutes are:
 
 - Bourbaki Séminaire 232 (Grothendieck, _Techniques de construction en géométrie analytique_), Sém. 236 (_Techniques de
-    descente_), and Sém. 261 (_Techniques de construction de schémas_) develop the descent and generic-fibre material
-    that EGA V would have covered.
+  descente_), and Sém. 261 (_Techniques de construction de schémas_) develop the descent and generic-fibre material that
+  EGA V would have covered.
 - Mumford, _Lectures on curves on an algebraic surface_, covers the projective and Picard-scheme material related to
-    §V.5 and §V.6.
+  §V.5 and §V.6.
 - Raynaud–Gruson, _Critères de platitude et de projectivité_ (Inv. math. 13, 1971), continues the flatness/descent
-    program started in EGA IV §11.
+  program started in EGA IV §11.
 
 None of these are translated here.

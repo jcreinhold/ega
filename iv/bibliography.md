@@ -39,12 +39,12 @@ New York, 1962. *(Cited in Parts 1, 2.)*
 [35] H. Hironaka, _Resolution of singularities of an algebraic variety over a field of characteristic zero_, Ann. of
 Math. (2) **79** (1964), pp. 109–326. *(Cited in Part 2.)*
 
-[36] S. Abhyankar, _Local uniformization of algebraic surfaces over ground fields of characteristic_ `p ≠ 0`, Amer. J.
-of Math. **63** (1956), pp. 491–526. *(Cited in Part 2.)*
+[36] S. Abhyankar, _Local uniformization of algebraic surfaces over ground fields of characteristic_ $p \neq 0$, Amer.
+J. of Math. **63** (1956), pp. 491–526. *(Cited in Part 2.)*
 
 > _Translator's note._ The journal name as printed in EGA IV Part 2 is "Amer. J. of Math."; the volume number and page
 > range identify the paper unambiguously as Abhyankar, _Local Uniformization on Algebraic Surfaces over Ground Fields of
-> Characteristic_ `p ≠ 0`, Annals of Math. (2) **63** (1956), pp. 491–526. We preserve the EGA spelling and flag the
+> Characteristic_ $p \neq 0$, Annals of Math. (2) **63** (1956), pp. 491–526. We preserve the EGA spelling and flag the
 > journal-name discrepancy here. The author surname is printed "ABHYANKHAR" in EGA; we correct to "Abhyankar" silently.
 
 [37] H. Cartan, _Séminaire de l'École Normale Supérieure_, 13ᵉ année (1960–1961). *(Cited in Part 2.)*

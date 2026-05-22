@@ -58,11 +58,11 @@ bibliography.
     - `(I, 4.2.3)` cites EGA I.
     - `(II, 5.5.4)` cites EGA II.
     - `(0, 4.2.4)` cites Chapter 0 embedded in EGA I.
-    - `(0_III, 13.4.2)` cites Chapter 0 (suite) housed in EGA III, Part 1.
+    - $(0_{III}, 13.4.2)$ cites Chapter 0 (suite) housed in EGA III, Part 1.
     - `(III, 2.3.8)` cites EGA III itself.
-    - `(M, …)` cites Cartan–Eilenberg, _Homological Algebra_.
-    - `(G, …)` cites Godement, _Topologie algébrique et théorie des faisceaux_.
-    - `(T, …)` cites Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku).
-    - `(FAC, …)` cites Serre, _Faisceaux algébriques cohérents_.
+    - $(M, \cdots)$ cites Cartan–Eilenberg, _Homological Algebra_.
+    - $(G, \cdots)$ cites Godement, _Topologie algébrique et théorie des faisceaux_.
+    - $(T, \cdots)$ cites Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku).
+    - $(FAC, \cdots)$ cites Serre, _Faisceaux algébriques cohérents_.
 - House style is recorded in [conventions.md](conventions.md); the running term map is in
-    [translation-ledger.md](translation-ledger.md).
+  [translation-ledger.md](translation-ledger.md).

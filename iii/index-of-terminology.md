@@ -1,12 +1,12 @@
 # Index of terminology
 
-Alphabetized by the English head term. Section numbers refer to the defining occurrence; the chapter prefix (`0_III`,
+Alphabetized by the English head term. Section numbers refer to the defining occurrence; the chapter prefix ($0_{III}$,
 `III`) is included where ambiguous.
 
 ## A
 
 - Abutment of a spectral sequence: 0_III.11.1.1.
-- Algebraizable (`𝒪_X`-module): III.5.2.1.
+- Algebraizable ($\mathcal{O}_{X}$-module): III.5.2.1.
 - Algebraizable (formal scheme): III.5.4.2.
 - Analytically integral (ring): III.4.3.6.
 - Augmentation of a resolution: 0_III.11.4.1.
@@ -21,9 +21,10 @@ Alphabetized by the English head term. Section numbers refer to the defining occ
 - Cartan–Eilenberg resolution (right, injective): 0_III.11.4.2.
 - Cartan–Eilenberg resolution (left, projective): 0_III.11.6.1.
 - Characteristic, Euler–Poincaré, of a complex: 0_III.11.10.1.
-- Characteristic, Euler–Poincaré, of a coherent `𝒪_X`-module (`X` projective over `Spec(A)`, `A` Artinian): III.2.5.1.
+- Characteristic, Euler–Poincaré, of a coherent $\mathcal{O}_{X}$-module ($X$ projective over $\operatorname{Spec}(A)$,
+  $A$ Artinian): III.2.5.1.
 - Characteristic, Euler–Poincaré, of a complex of modules: III.7.9.5.
-- Cohomologically flat (at a point, on `Y`, in dimension `p`): III.7.8.1.
+- Cohomologically flat (at a point, on $Y$, in dimension $p$): III.7.8.1.
 - Complex defined by a bicomplex: 0_III.11.3.1.
 - Complexes, homotopic: III.6.1.4.
 - Condition (ML): 0_III.13.1.2.
@@ -48,10 +49,10 @@ Alphabetized by the English head term. Section numbers refer to the defining occ
 
 - Filtration, co-discrete: 0_III.11.1.3.
 - Filtration, co-separated, discrete, exhaustive, finite, separated: 0_III.11.1.3.
-- Filtration, `𝔍`-good (`J`-good): 0_III.13.7.7.
+- Filtration, $\mathfrak{J}$-good ($J$-good): 0_III.13.7.7.
 - Final (object of a category): 0_III.8.1.10.
 - Finite (morphism of formal preschemes): III.4.8.2.
-- Finite (formal prescheme over `𝔇`), `𝔇`-finite (formal prescheme): III.4.8.2.
+- Finite (formal prescheme over $\mathfrak{D}$), $\mathfrak{D}$-finite (formal prescheme): III.4.8.2.
 - Formal prescheme: see EGA I, Ch. I §10.
 - Formula, Künneth: III.6.7.8.
 - Functor, canonical covariant: 0_III.8.1.2.
@@ -74,15 +75,15 @@ Alphabetized by the English head term. Section numbers refer to the defining occ
 
 - Hilbert polynomial: III.2.5.3.
 - Hilbert polynomial relative to a complex of modules: III.7.9.12.
-- Homologically flat (at a point, on `Y`, in dimension `p`): III.7.8.1.
+- Homologically flat (at a point, on $Y$, in dimension $p$): III.7.8.1.
 - Homomorphism of algebraic structures on categories: 0_III.8.2.1.
 - Homotopism: III.6.1.4.
-- Hypercohomology of a functor relative to a complex `K^•`: 0_III.11.4.3.
-- Hypercohomology of a bifunctor relative to two complexes `K^•`, `K'^•`: 0_III.11.4.6.
-- Hyperhomology of a functor relative to a complex `K_•`: 0_III.11.6.2.
-- Hyperhomology of a bifunctor relative to two complexes `K_•`, `K'_•`: 0_III.11.6.6.
+- Hypercohomology of a functor relative to a complex $K^{\bullet}$: 0_III.11.4.3.
+- Hypercohomology of a bifunctor relative to two complexes $K^{\bullet}$, $K'^{\bullet}$: 0_III.11.4.6.
+- Hyperhomology of a functor relative to a complex $K_{\bullet}$: 0_III.11.6.2.
+- Hyperhomology of a bifunctor relative to two complexes $K_{\bullet}$, $K'_{\bullet}$: 0_III.11.6.6.
 - Hyperhomology of a functor relative to a bicomplex: 0_III.11.7.2.
-- Hypertor of two complexes of `A`-modules: III.6.3.1.
+- Hypertor of two complexes of $A$-modules: III.6.3.1.
 - Hypertor, local, of two complexes of modules: III.6.4.1.
 - Hypertor, global, of two complexes of modules: III.6.6.2, III.6.6.8, III.6.7.3.
 
@@ -116,8 +117,8 @@ Alphabetized by the English head term. Section numbers refer to the defining occ
 
 ## O
 
-- `𝒞`-object in groups: 0_III.8.2.3.
-- `𝒞`-group, `𝒞`-ring, `𝒞`-module: 0_III.8.2.3.
+- $\mathcal{C}$-object in groups: 0_III.8.2.3.
+- $\mathcal{C}$-group, $\mathcal{C}$-ring, $\mathcal{C}$-module: 0_III.8.2.3.
 - Object of boundaries, of coboundaries, of cycles, of cocycles: 0_III.11.2.1.
 - Object of universal images: 0_III.13.1.1.
 - Object, final, of a category: 0_III.8.1.10.
@@ -130,7 +131,7 @@ Alphabetized by the English head term. Section numbers refer to the defining occ
 - Polynomial, Hilbert relative to a complex of modules: III.7.9.12.
 - Prescheme, see EGA I, EGA II.
 - Prescheme, formal: see EGA I, Ch. I §10.
-- Proper part (over `𝔇`) of a formal prescheme: III.3.4.1.
+- Proper part (over $\mathfrak{D}$) of a formal prescheme: III.3.4.1.
 - Proper (morphism of formal preschemes): III.3.4.1.
 
 ## R
@@ -143,8 +144,8 @@ Alphabetized by the English head term. Section numbers refer to the defining occ
 
 ## S
 
-- Sheaf of rings of cohomological dimension `≤ n`: III.6.5.5.
-- Space, ringed, of cohomological dimension `≤ n`: III.6.5.5.
+- Sheaf of rings of cohomological dimension $\leq n$: III.6.5.5.
+- Space, ringed, of cohomological dimension $\leq n$: III.6.5.5.
 - Spectral sequence in an abelian category: 0_III.11.1.1.
 - Spectral sequence, biregular: 0_III.11.1.3.
 - Spectral sequence, coregular: 0_III.11.1.3.

@@ -14,7 +14,7 @@
 - **§8.** The duality theorem on projective fibres.
 - **§9.** Relative and local cohomology; local duality.
 - **§10.** Relations between projective cohomology and local cohomology; the technique of formal completion along a
-    divisor.
+  divisor.
 - **§11.** Global and local Picard groups (¹).
 
 This chapter establishes the fundamental theorems on the cohomology of coherent algebraic sheaves, with the exception of
@@ -35,8 +35,8 @@ exposition of [FAC]. Sections §§8 and 9 are likewise inspired by [FAC] (the tr
 contexts being, however, less obvious). Finally, as we said in the Introduction, §4 should be regarded as the modern
 reformulation of Zariski's fundamental "invariance theorem" in the "theory of holomorphic functions".
 
-We mention finally that the results of n° 3.4 (and the preliminary propositions of `(0_III, 13.4)` through
-`(0_III, 13.7)`) will not be used in the rest of Chapter III and may therefore be omitted on a first reading.
+We mention finally that the results of n° 3.4 (and the preliminary propositions of $(0_{III}, 13.4)$ through $(0_{III},
+13.7)$) will not be used in the rest of Chapter III and may therefore be omitted on a first reading.
 
 > _Translator's note._ As stated in the EGA III table of contents, §§8 through 11 of Chapter III were never published;
 > the volume in print stops at §7. The unpublished sections, sketched here for the reader's orientation, were absorbed

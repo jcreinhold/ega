@@ -21,13 +21,13 @@ Citation identifiers: [PMIHES_1964\_\_20\_\_5_0](http://www.numdam.org/item?id=P
 **Chapitre 0 (suite) — Préliminaires**
 
 - [§14. Combinatorial dimension of a topological space](01-ch0-14-combinatorial-dimension.md)
-- [§15. `M`-regular and `ℱ`-regular sequences](02-ch0-15-mf-regular-sequences.md)
+- [§15. $M$-regular and $\mathcal{F}$-regular sequences](02-ch0-15-mf-regular-sequences.md)
 - [§16. Dimension and depth in Noetherian local rings](03-ch0-16-dimension-and-depth.md)
 - [§17. Regular rings](04-ch0-17-regular-rings.md)
 - [§18. Complements on extensions of algebras](05-ch0-18-extensions-of-algebras.md)
 - [§19. Formally smooth algebras and Cohen rings](06-ch0-19-formally-smooth-algebras.md)
 - [§20. Derivations and differentials](07-ch0-20-derivations-and-differentials.md)
-- [§21. Differentials in characteristic `p` rings](08-ch0-21-differentials-characteristic-p.md)
+- [§21. Differentials in characteristic $p$ rings](08-ch0-21-differentials-characteristic-p.md)
 - [§22. Differential criteria for formal smoothness and regularity](09-ch0-22-differential-criteria.md)
 - [§23. Japanese rings](10-ch0-23-japanese-rings.md)
 
@@ -84,11 +84,12 @@ bibliography.
     - `(I, 4.2.3)`, `(II, 5.5.4)`, `(III, 2.3.8)` cite earlier volumes.
     - `(IV, 17.6.2)` cites EGA IV itself, including cross-section references inside EGA IV.
     - `(0, 4.2.4)` cites Chapter 0 embedded in EGA I.
-    - `(0_III, 13.4.2)`, `(0_IV, 19.3.5)` cite Chapter 0 (suite) housed in EGA III and EGA IV Part 1 respectively.
-    - `(M, …)`, `(G, …)`, `(T, …)`, `(FAC, …)` cite Cartan–Eilenberg, Godement, Grothendieck (Tôhoku), and Serre (FAC).
+    - $(0_{III}, 13.4.2)$, $(0_{IV}, 19.3.5)$ cite Chapter 0 (suite) housed in EGA III and EGA IV Part 1 respectively.
+    - $(M, \cdots)$, $(G, \cdots)$, $(T, \cdots)$, $(FAC, \cdots)$ cite Cartan–Eilenberg, Godement, Grothendieck
+      (Tôhoku), and Serre (FAC).
     - `(Bourbaki, Alg. comm., …)` cites Bourbaki, _Éléments de mathématique : Algèbre commutative_.
 - House style is recorded in [conventions.md](conventions.md); the running term map is in
-    [translation-ledger.md](translation-ledger.md).
+  [translation-ledger.md](translation-ledger.md).
 
 ## A note on §IV.11
 

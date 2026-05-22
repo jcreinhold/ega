@@ -6,44 +6,48 @@
 
 <!-- label: II.6.1.1 -->
 
-Let `X` be an `S`-prescheme and `f : X → S` its structure morphism. We say that `X` is _integral over_ `S`, or that `f`
-is an _integral morphism_, if there exists a cover `(S_α)` of `S` by affine opens such that, for every `α`, the induced
-prescheme `f⁻¹(S_α)` is an affine scheme whose ring `B_α` is an _integral algebra_ over the ring `A_α` of `S_α`. We say
-that `X` is _finite over_ `S`, or that `f` is a _finite morphism_, if `X` is integral and of finite type over `S`.
+Let $X$ be an $S$-prescheme and $f : X \to S$ its structure morphism. We say that $X$ is _integral over_ $S$, or that
+$f$ is an _integral morphism_, if there exists a cover $(S_{\alpha})$ of $S$ by affine opens such that, for every
+$\alpha$, the induced prescheme $f^{-1}(S_{\alpha})$ is an affine scheme whose ring $B_{\alpha}$ is an _integral
+algebra_ over the ring $A_{\alpha}$ of $S_{\alpha}$. We say that $X$ is _finite over_ $S$, or that $f$ is a _finite
+morphism_, if $X$ is integral and of finite type over $S$.
 
-When `S` is affine of ring `A`, we shall also say "integral (resp. finite) over `A`" instead of "integral (resp. finite)
-over `S`".
+When $S$ is affine of ring $A$, we shall also say "integral (resp. finite) over $A$" instead of "integral (resp. finite)
+over $S$".
 
 **(6.1.2)**
 
 <!-- label: II.6.1.2 -->
 
-It is clear that if `X` is integral over `S`, then it is affine over `S`. For an affine prescheme `X` over `S` to be
-integral (resp. finite) over `S`, it is necessary and sufficient that the associated quasi-coherent `𝒪_S`-algebra `𝒜(X)`
-be such that there exists a cover `(S_α)` of `S` by affine opens with the property that, for every `α`, `Γ(S_α, 𝒜(X))`
-is an integral (resp. integral and of finite type) algebra over `Γ(S_α, 𝒪_S)`. A quasi-coherent `𝒪_S`-algebra with this
-property is said to be _integral_ (resp. _finite_) over `𝒪_S`. To give an integral (resp. finite) prescheme over `S` is
-therefore the same (1.3.1) as to give a quasi-coherent `𝒪_S`-algebra that is integral (resp. finite) over `𝒪_S`. Note
-that a quasi-coherent `𝒪_S`-algebra `ℬ` is finite if and only if it is an `𝒪_S`-module of finite type `(I, 1.3.9)`; this
-is equivalent to saying that `ℬ` is an integral `𝒪_S`-algebra of finite type, since an algebra that is integral and of
-finite type over a ring `A` is an `A`-module of finite type.
+It is clear that if $X$ is integral over $S$, then it is affine over $S$. For an affine prescheme $X$ over $S$ to be
+integral (resp. finite) over $S$, it is necessary and sufficient that the associated quasi-coherent
+$\mathcal{O}_{S}$-algebra $\mathcal{A}(X)$ be such that there exists a cover $(S_{\alpha})$ of $S$ by affine opens with
+the property that, for every $\alpha$, $\Gamma(S_{\alpha}, \mathcal{A}(X))$ is an integral (resp. integral and of finite
+type) algebra over $\Gamma(S_{\alpha}, \mathcal{O}_{S})$. A quasi-coherent $\mathcal{O}_{S}$-algebra with this property
+is said to be _integral_ (resp. _finite_) over $\mathcal{O}_{S}$. To give an integral (resp. finite) prescheme over $S$
+is therefore the same (1.3.1) as to give a quasi-coherent $\mathcal{O}_{S}$-algebra that is integral (resp. finite) over
+$\mathcal{O}_{S}$. Note that a quasi-coherent $\mathcal{O}_{S}$-algebra $\mathcal{B}$ is finite if and only if it is an
+$\mathcal{O}_{S}$-module of finite type `(I, 1.3.9)`; this is equivalent to saying that $\mathcal{B}$ is an integral
+$\mathcal{O}_{S}$-algebra of finite type, since an algebra that is integral and of finite type over a ring $A$ is an
+$A$-module of finite type.
 
 **Proposition.**
 
 <!-- label: II.6.1.3 -->
 
-Let `S` be a locally Noetherian prescheme. For an affine prescheme `X` over `S` to be finite over `S`, it is necessary
-and sufficient that the `𝒪_S`-algebra `𝒜(X)` be coherent.
+Let $S$ be a locally Noetherian prescheme. For an affine prescheme $X$ over $S$ to be finite over $S$, it is necessary
+and sufficient that the $\mathcal{O}_{S}$-algebra $\mathcal{A}(X)$ be coherent.
 
-**Proof.** Taking the preceding remark into account, this comes down to noting that, if `S` is locally Noetherian, the
-quasi-coherent `𝒪_S`-modules of finite type are exactly the coherent `𝒪_S`-modules `(I, 1.5.1)`.
+**Proof.** Taking the preceding remark into account, this comes down to noting that, if $S$ is locally Noetherian, the
+quasi-coherent $\mathcal{O}_{S}$-modules of finite type are exactly the coherent $\mathcal{O}_{S}$-modules `(I, 1.5.1)`.
 
 **Proposition.**
 
 <!-- label: II.6.1.4 -->
 
-Let `X` be an integral (resp. finite) prescheme over `S` and `f : X → S` its structure morphism. Then, for every affine
-open `U ⊂ S` of ring `A`, `f⁻¹(U)` is an affine scheme whose ring `B` is an integral (resp. finite) algebra over `A`.
+Let $X$ be an integral (resp. finite) prescheme over $S$ and $f : X \to S$ its structure morphism. Then, for every
+affine open $U \subset S$ of ring $A$, $f^{-1}(U)$ is an affine scheme whose ring $B$ is an integral (resp. finite)
+algebra over $A$.
 
 <!-- original page 111 -->
 
@@ -53,40 +57,42 @@ open `U ⊂ S` of ring `A`, `f⁻¹(U)` is an affine scheme whose ring `B` is an
 
 <!-- label: II.6.1.4.1 -->
 
-Let `A` be a ring, `M` an `A`-module, and `(g_i)_{1 ≤ i ≤ m}` a finite system of elements of `A` such that the `D(g_i)`
-(`1 ≤ i ≤ m`) cover `Spec(A)`. If, for every `i`, `M_{g_i}` is an `A_{g_i}`-module of finite type, then `M` is an
-`A`-module of finite type.
+Let $A$ be a ring, $M$ an $A$-module, and $(g_{i})_{1 \leq i \leq m}$ a finite system of elements of $A$ such that the
+$D(g_{i})$ ($1 \leq i \leq m$) cover $\operatorname{Spec}(A)$. If, for every $i$, $M_{g_{i}}$ is an $A_{g_{i}}$-module
+of finite type, then $M$ is an $A$-module of finite type.
 
-**Proof.** We may assume that each `M_{g_i}` admits a finite system of generators `(m_{ij}/g_i^n)` with `m_{ij} ∈ M`,
-with `n` the same for all indices `i`. We show that the `m_{ij}` form a system of generators of `M`. Let `M'` be the
-sub-`A`-module of `M` generated by these elements, and let `m` be an element of `M`. By hypothesis, for each `i`, there
-exist `a_{ij} ∈ A` and an integer `p` (independent of `i`) such that, in `M_{g_i}`, `m/1 = (∑_j a_{ij} m_{ij})/g_i^p`;
-this implies that there exists an integer `r ≥ p` such that, for every `i`, `g_i^r m ∈ M'`. Now, since the
-`D(g_i^r) = D(g_i)` cover `Spec(A)`, the ideal of `A` generated by the `g_i^r` is equal to `A`; in other words, there
-exist elements `a_i ∈ A` such that `∑_i a_i g_i^r = 1`, and consequently `m = (∑_i a_i g_i^r) m ∈ M'`, whence the lemma.
+**Proof.** We may assume that each $M_{g_{i}}$ admits a finite system of generators $(m_{ij}/g^{n}_{i})$ with $m_{ij}
+\in M$, with $n$ the same for all indices $i$. We show that the $m_{ij}$ form a system of generators of $M$. Let $M'$ be
+the sub-$A$-module of $M$ generated by these elements, and let $m$ be an element of $M$. By hypothesis, for each $i$,
+there exist $a_{ij} \in A$ and an integer $p$ (independent of $i$) such that, in $M_{g_{i}}$, $m/1 = (\sum_{j} a_{ij}
+m_{ij})/g^{p}_{i}$; this implies that there exists an integer $r \geq p$ such that, for every $i$, $g^{r}_{i} m \in M'$.
+Now, since the $D(g^{r}_{i}) = D(g_{i})$ cover $\operatorname{Spec}(A)$, the ideal of $A$ generated by the $g^{r}_{i}$
+is equal to $A$; in other words, there exist elements $a_{i} \in A$ such that $\sum_{i} a_{i} g^{r}_{i} = 1$, and
+consequently $m = (\sum_{i} a_{i} g^{r}_{i}) m \in M'$, whence the lemma.
 
-This being so, we already know `(1.3.2)` that `f⁻¹(U)` is affine. If `φ` is the homomorphism `A → B` corresponding to
-`f`, there exists a finite cover of `U` by opens `D(g_i)` (`g_i ∈ A`) such that, if `h_i = φ(g_i)`, then `B_{h_i}` is an
-integral (resp. integral and finite) algebra over `A_{g_i}`. Indeed, there is a cover of `U` by affine opens `V_α ⊂ U`
-such that, if `A_α = 𝒜(V_α)`, `B_α = 𝒜(f⁻¹(V_α))` is an integral (resp. finite) algebra over `A_α`. Every `x ∈ U`
-belongs to some `V_α`, so there exists `g ∈ A` such that `x ∈ D(g) ⊂ V_α`; if `g_α` is the image of `g` in `A_α`, then
-`𝒜(D(g)) = A_g = (A_α)_{g_α}`. Let `h = φ(g)` and let `h_α` be the image of `g_α` in `B_α`; we have
+This being so, we already know `(1.3.2)` that $f^{-1}(U)$ is affine. If $\phi$ is the homomorphism $A \to B$
+corresponding to $f$, there exists a finite cover of $U$ by opens $D(g_{i})$ ($g_{i} \in A$) such that, if $h_{i} =
+\phi(g_{i})$, then $B_{h_{i}}$ is an integral (resp. integral and finite) algebra over $A_{g_{i}}$. Indeed, there is a
+cover of $U$ by affine opens $V_{\alpha} \subset U$ such that, if $A_{\alpha} = \mathcal{A}(V_{\alpha})$, $B_{\alpha} =
+\mathcal{A}(f^{-1}(V_{\alpha}))$ is an integral (resp. finite) algebra over $A_{\alpha}$. Every $x \in U$ belongs to
+some $V_{\alpha}$, so there exists $g \in A$ such that $x \in D(g) \subset V_{\alpha}$; if $g_{\alpha}$ is the image of
+$g$ in $A_{\alpha}$, then $\mathcal{A}(D(g)) = A_{g} = (A_{\alpha})_{g_{\alpha}}$. Let $h = \phi(g)$ and let
+$h_{\alpha}$ be the image of $g_{\alpha}$ in $B_{\alpha}$; we have
 
-```text
-  𝒜(D(h)) = B_h = (B_α)_{h_α}
-```
+$$ \mathcal{A}(D(h)) = B_{h} = (B_{\alpha})_{h_{\alpha}} $$
 
-and, since `B_α` is integral (resp. finite) over `A_α`, `(B_α)_{h_α}` is integral (resp. finite) over `(A_α)_{g_α}`. It
-now suffices to use the fact that `U` is quasi-compact to obtain the desired cover.
+and, since $B_{\alpha}$ is integral (resp. finite) over $A_{\alpha}$, $(B_{\alpha})_{h_{\alpha}}$ is integral (resp.
+finite) over $(A_{\alpha})_{g_{\alpha}}$. It now suffices to use the fact that $U$ is quasi-compact to obtain the
+desired cover.
 
-If we first suppose that the `B_{h_i}` are integral and finite over the `A_{g_i}`, then since `B_{h_i}`, viewed as an
-`A_{g_i}`-module, also coincides with `B_{g_i}`, Lemma (6.1.4.1) shows that in this case `B` is an `A`-module of finite
-type.
+If we first suppose that the $B_{h_{i}}$ are integral and finite over the $A_{g_{i}}$, then since $B_{h_{i}}$, viewed as
+an $A_{g_{i}}$-module, also coincides with $B_{g_{i}}$, Lemma (6.1.4.1) shows that in this case $B$ is an $A$-module of
+finite type.
 
-Now suppose only that each `B_{h_i}` is integral over `A_{g_i}`; let `b ∈ B`, and let `C` be the sub-`A`-algebra of `B`
-generated by `b`. For every `i`, `C_{h_i}` is the algebra over `A_{g_i}` generated by `b/1` in `B_{h_i}`; it follows
-from the hypothesis that each `C_{h_i}` is an `A_{g_i}`-module of finite type, hence (6.1.4.1) `C` is an `A`-module of
-finite type, which proves that `B` is integral over `A`.
+Now suppose only that each $B_{h_{i}}$ is integral over $A_{g_{i}}$; let $b \in B$, and let $C$ be the sub-$A$-algebra
+of $B$ generated by $b$. For every $i$, $C_{h_{i}}$ is the algebra over $A_{g_{i}}$ generated by $b/1$ in $B_{h_{i}}$;
+it follows from the hypothesis that each $C_{h_{i}}$ is an $A_{g_{i}}$-module of finite type, hence (6.1.4.1) $C$ is an
+$A$-module of finite type, which proves that $B$ is integral over $A$.
 
 **Proposition.**
 
@@ -94,36 +100,37 @@ finite type, which proves that `B` is integral over `A`.
 
 - (i) A closed immersion is finite (and _a fortiori_ integral).
 - (ii) The composition of two finite (resp. integral) morphisms is finite (resp. integral).
-- (iii) If `f : X → Y` is a finite (resp. integral) `S`-morphism, then `f_{(S')} : X_{(S')} → Y_{(S')}` is finite (resp.
-    integral) for every base extension `S' → S`.
-- (iv) If `f : X → Y` and `g : X' → Y'` are two finite (resp. integral) `S`-morphisms, then so is
-    `f ×_S g : X ×_S X' → Y ×_S Y'`.
-- (v) If `f : X → Y` and `g : Y → Z` are morphisms such that `g ∘ f` is finite (resp. integral) and `g` is separated,
-    then `f` is finite (resp. integral).
-- (vi) If `f : X → Y` is a finite (resp. integral) morphism, then so is `f_red`.
+- (iii) If $f : X \to Y$ is a finite (resp. integral) $S$-morphism, then $f_{(S')} : X_{(S')} \to Y_{(S')}$ is finite
+  (resp. integral) for every base extension $S' \to S$.
+- (iv) If $f : X \to Y$ and $g : X' \to Y'$ are two finite (resp. integral) $S$-morphisms, then so is $f \times_{S} g :
+  X \times_{S} X' \to Y \times_{S} Y'$.
+- (v) If $f : X \to Y$ and $g : Y \to Z$ are morphisms such that $g \circ f$ is finite (resp. integral) and $g$ is
+  separated, then $f$ is finite (resp. integral).
+- (vi) If $f : X \to Y$ is a finite (resp. integral) morphism, then so is $f_{red}$.
 
 <!-- original page 112 -->
 
-**Proof.** By `(I, 5.5.12)`, it suffices to prove (i), (ii), and (iii). To prove that a closed immersion `X → S` is
-finite, we may restrict to the case `S = Spec(A)`, and everything then comes down to noting that a quotient ring `A/𝔧`
-is a monogeneous `A`-module. To prove that the composition of two finite (resp. integral) morphisms `X → Y`, `Y → Z` is
-finite (resp. integral), we may again assume that `Z` (and hence `X` and `Y` `(1.3.4)`) is affine, and the claim then
-amounts to: if `B` is a finite (resp. integral) `A`-algebra and `C` a finite (resp. integral) `B`-algebra, then `C` is a
-finite (resp. integral) `A`-algebra, which is immediate. Finally, to prove (iii), we may restrict to the case `S = Y`,
-since `X_{(S')}` is identified with `X ×_Y Y_{(S')}` `(I, 3.3.11)`; we may further assume that `S = Spec(A)` and
-`S' = Spec(A')`; then `X` is affine of ring `B` `(1.3.4)`, `X_{(S')}` is affine of ring `A' ⊗_A B`, and it suffices to
-remark that if `B` is a finite (resp. integral) `A`-algebra, then `A' ⊗_A B` is a finite (resp. integral) `A'`-algebra.
+**Proof.** By `(I, 5.5.12)`, it suffices to prove (i), (ii), and (iii). To prove that a closed immersion $X \to S$ is
+finite, we may restrict to the case $S = \operatorname{Spec}(A)$, and everything then comes down to noting that a
+quotient ring $A/\mathfrak{j}$ is a monogeneous $A$-module. To prove that the composition of two finite (resp. integral)
+morphisms $X \to Y$, $Y \to Z$ is finite (resp. integral), we may again assume that $Z$ (and hence $X$ and $Y$
+`(1.3.4)`) is affine, and the claim then amounts to: if $B$ is a finite (resp. integral) $A$-algebra and $C$ a finite
+(resp. integral) $B$-algebra, then $C$ is a finite (resp. integral) $A$-algebra, which is immediate. Finally, to prove
+(iii), we may restrict to the case $S = Y$, since $X_{(S')}$ is identified with $X \times_{Y} Y_{(S')}$ `(I, 3.3.11)`;
+we may further assume that $S = \operatorname{Spec}(A)$ and $S' = \operatorname{Spec}(A')$; then $X$ is affine of ring
+$B$ `(1.3.4)`, $X_{(S')}$ is affine of ring $A' \otimes_{A} B$, and it suffices to remark that if $B$ is a finite (resp.
+integral) $A$-algebra, then $A' \otimes_{A} B$ is a finite (resp. integral) $A'$-algebra.
 
-We also note that if `X` and `Y` are two `S`-preschemes that are finite (resp. integral) over `S`, their sum `X ⊔ Y` is
-a finite (resp. integral) prescheme over `S`, since this comes down to seeing that if `B` and `C` are finite (resp.
-integral) `A`-algebras, then so is `B × C`.
+We also note that if $X$ and $Y$ are two $S$-preschemes that are finite (resp. integral) over $S$, their sum $X \sqcup
+Y$ is a finite (resp. integral) prescheme over $S$, since this comes down to seeing that if $B$ and $C$ are finite
+(resp. integral) $A$-algebras, then so is $B \times C$.
 
 **Corollary.**
 
 <!-- label: II.6.1.6 -->
 
-If `X` is an integral (resp. finite) prescheme over `S`, then, for every open `U ⊂ S`, `f⁻¹(U)` is integral (resp.
-finite) over `U`.
+If $X$ is an integral (resp. finite) prescheme over $S$, then, for every open $U \subset S$, $f^{-1}(U)$ is integral
+(resp. finite) over $U$.
 
 **Proof.** This is a particular case of (6.1.5, (iii)).
 
@@ -131,33 +138,34 @@ finite) over `U`.
 
 <!-- label: II.6.1.7 -->
 
-Let `f : X → Y` be a finite morphism. Then, for every `y ∈ Y`, the fibre `f⁻¹(y)` is a finite algebraic scheme over
-`κ(y)`, and _a fortiori_ its underlying space is discrete and finite.
+Let $f : X \to Y$ be a finite morphism. Then, for every $y \in Y$, the fibre $f^{-1}(y)$ is a finite algebraic scheme
+over $\kappa(y)$, and _a fortiori_ its underlying space is discrete and finite.
 
-**Proof.** Indeed, as a `κ(y)`-prescheme, `f⁻¹(y)` is identified with `X ×_Y Spec(κ(y))` `(I, 3.6.1)`, which is finite
-over `Spec(κ(y))` (6.1.5, (iii)); it is thus an affine scheme whose ring is an algebra of finite rank over `κ(y)`
-(6.1.4). The corollary then follows from `(I, 6.4.4)`.
+**Proof.** Indeed, as a $\kappa(y)$-prescheme, $f^{-1}(y)$ is identified with $X \times_{Y}
+\operatorname{Spec}(\kappa(y))$ `(I, 3.6.1)`, which is finite over $\operatorname{Spec}(\kappa(y))$ (6.1.5, (iii)); it
+is thus an affine scheme whose ring is an algebra of finite rank over $\kappa(y)$ (6.1.4). The corollary then follows
+from `(I, 6.4.4)`.
 
 **Corollary.**
 
 <!-- label: II.6.1.8 -->
 
-Let `X`, `S` be two integral preschemes and `f : X → S` a _dominant_ morphism. If `f` is integral (resp. finite), then
-the field `R(X)` of rational functions on `X` is algebraic (resp. algebraic of finite degree) over the field `R(S)` of
-rational functions on `S`.
+Let $X$, $S$ be two integral preschemes and $f : X \to S$ a _dominant_ morphism. If $f$ is integral (resp. finite), then
+the field $R(X)$ of rational functions on $X$ is algebraic (resp. algebraic of finite degree) over the field $R(S)$ of
+rational functions on $S$.
 
-**Proof.** Let `s` be the generic point of `S`; the `κ(s)`-prescheme `f⁻¹(s)` is integral (resp. finite) over
-`Spec(κ(s))` (6.1.5, (iii)) and contains, by hypothesis, the generic point `x` of `X`; the local ring of `x` in
-`f⁻¹(s)`, being equal to `κ(x)` `(I, 3.6.5)`, is a local ring of an integral (resp. finite) algebra over `κ(s)` (6.1.4),
-whence the corollary.
+**Proof.** Let $s$ be the generic point of $S$; the $\kappa(s)$-prescheme $f^{-1}(s)$ is integral (resp. finite) over
+$\operatorname{Spec}(\kappa(s))$ (6.1.5, (iii)) and contains, by hypothesis, the generic point $x$ of $X$; the local
+ring of $x$ in $f^{-1}(s)$, being equal to $\kappa(x)$ `(I, 3.6.5)`, is a local ring of an integral (resp. finite)
+algebra over $\kappa(s)$ (6.1.4), whence the corollary.
 
 **Remark.**
 
 <!-- label: II.6.1.9 -->
 
-The hypothesis that `g` is separated is essential for the validity of (6.1.5, (v)): indeed, if `Y` is not separated over
-`Z`, then the identity `1_Y` is the composite morphism `Y →^{Δ_Y} Y ×_Z Y →^{p_1} Y`, but `Δ_Y` is not an integral
-morphism, as follows from (6.1.10):
+The hypothesis that $g$ is separated is essential for the validity of (6.1.5, (v)): indeed, if $Y$ is not separated over
+$Z$, then the identity `1_Y` is the composite morphism $Y \to^{\Delta_{Y}} Y \times_{Z} Y \to^{p_{1}} Y$, but
+$\Delta_{Y}$ is not an integral morphism, as follows from (6.1.10):
 
 **Proposition.**
 
@@ -165,114 +173,123 @@ morphism, as follows from (6.1.10):
 
 Every integral morphism is universally closed.
 
-**Proof.** Let `f : X → Y` be an integral morphism; by (6.1.5, (iii)), it suffices to show that `f` is closed. Let `Z`
-be a closed part of `X`; there exists a subprescheme of `X` whose
+**Proof.** Let $f : X \to Y$ be an integral morphism; by (6.1.5, (iii)), it suffices to show that $f$ is closed. Let $Z$
+be a closed part of $X$; there exists a subprescheme of $X$ whose
 
 <!-- original page 113 -->
 
-underlying space is `Z` `(I, 5.2.1)`, and it therefore follows from (6.1.5, (i) and (ii)) that we may restrict to
-proving that `f(X)` is closed in `Y`. By (6.1.5, (vi)), we may assume that `X` and `Y` are reduced; furthermore, if `T`
-is the closed reduced subprescheme of `Y` whose underlying space is `f(X)` `(I, 5.2.1)`, we know that `f` factors as
-`X → T →^{j} Y`, where `j` is the injection morphism `(I, 5.2.2)`, and since `j` is separated `(I, 5.5.1, (i))`, it
-follows from (6.1.5, (v)) that `g` is an integral morphism. We may therefore assume that `f(X)` is dense in `Y`.
-Finally, since the question is local on `Y`, we may restrict to the case `Y = Spec(A)`. Then `X = Spec(B)`, where `B` is
-an `A`-algebra that is integral over `A` (6.1.4); moreover, `A` is reduced `(I, 5.1.4)` and the hypothesis that `f(X)`
-is dense in `Y` implies that the homomorphism `φ : A → B` corresponding to `f` is injective `(I, 1.2.7)`. To say that
-under these conditions `f(X) = Y` means that every prime ideal of `A` is the trace on `A` of a prime ideal of `B`, which
-is none other than the first theorem of Cohen–Seidenberg ([13], t. I, p. 257, th. 3).
+underlying space is $Z$ `(I, 5.2.1)`, and it therefore follows from (6.1.5, (i) and (ii)) that we may restrict to
+proving that $f(X)$ is closed in $Y$. By (6.1.5, (vi)), we may assume that $X$ and $Y$ are reduced; furthermore, if $T$
+is the closed reduced subprescheme of $Y$ whose underlying space is $f(X)$ `(I, 5.2.1)`, we know that $f$ factors as $X
+\to T \to^{j} Y$, where $j$ is the injection morphism `(I, 5.2.2)`, and since $j$ is separated `(I, 5.5.1, (i))`, it
+follows from (6.1.5, (v)) that $g$ is an integral morphism. We may therefore assume that $f(X)$ is dense in $Y$.
+Finally, since the question is local on $Y$, we may restrict to the case $Y = \operatorname{Spec}(A)$. Then $X =
+\operatorname{Spec}(B)$, where $B$ is an $A$-algebra that is integral over $A$ (6.1.4); moreover, $A$ is reduced
+`(I, 5.1.4)` and the hypothesis that $f(X)$ is dense in $Y$ implies that the homomorphism $\phi : A \to B$ corresponding
+to $f$ is injective `(I, 1.2.7)`. To say that under these conditions $f(X) = Y$ means that every prime ideal of $A$ is
+the trace on $A$ of a prime ideal of $B$, which is none other than the first theorem of Cohen–Seidenberg ([13], t. I, p.
+257, th. 3).
 
 **Corollary.**
 
 <!-- label: II.6.1.11 -->
 
-Every finite morphism `f : X → Y` is projective.
+Every finite morphism $f : X \to Y$ is projective.
 
-**Proof.** Since `f` is affine, `𝒪_X` is a very ample `𝒪_X`-module relative to `f` (5.1.2); furthermore, `f_*(𝒪_X)` is a
-quasi-coherent `𝒪_Y`-module of finite type (6.1.2); finally, `f` is separated, of finite type, and universally closed
-(6.1.10), so we are in the conditions of application of criterion (5.5.4, (i)).
+**Proof.** Since $f$ is affine, $\mathcal{O}_{X}$ is a very ample $\mathcal{O}_{X}$-module relative to $f$ (5.1.2);
+furthermore, $f_{*}(\mathcal{O}_{X})$ is a quasi-coherent $\mathcal{O}_{Y}$-module of finite type (6.1.2); finally, $f$
+is separated, of finite type, and universally closed (6.1.10), so we are in the conditions of application of criterion
+(5.5.4, (i)).
 
 **Proposition.**
 
 <!-- label: II.6.1.12 -->
 
-Let `f : X' → X` be a finite morphism, and let `ℬ = f_*(𝒪_{X'})` (which is a quasi-coherent `𝒪_X`-algebra and an
-`𝒪_X`-module of finite type). Let `ℱ'` be a quasi-coherent `𝒪_{X'}`-module; for `ℱ'` to be locally free of rank `r`, it
-is necessary and sufficient that `f_*(ℱ')` be a locally free `ℬ`-module of rank `r`.
+Let $f : X' \to X$ be a finite morphism, and let $\mathcal{B} = f_{*}(\mathcal{O}_{X'})$ (which is a quasi-coherent
+$\mathcal{O}_{X}$-algebra and an $\mathcal{O}_{X}$-module of finite type). Let $\mathcal{F}'$ be a quasi-coherent
+$\mathcal{O}_{X'}$-module; for $\mathcal{F}'$ to be locally free of rank $r$, it is necessary and sufficient that
+$f_{*}(\mathcal{F}')$ be a locally free $\mathcal{B}$-module of rank $r$.
 
-**Proof.** It is clear that if `f_*(ℱ')|U` is isomorphic to `ℬ^r|U` (`U` open in `X`), then `ℱ'|f⁻¹(U)` is isomorphic to
-`𝒪_{X'}^r|f⁻¹(U)` (1.4.2). Conversely, suppose that `ℱ'` is locally free of rank `r`, and let us show that `f_*(ℱ')` is
-locally isomorphic to `ℬ^r` as a `ℬ`-module. Let `x` be a point of `X`; as `U` runs over a fundamental system of affine
-neighbourhoods of `x`, `f⁻¹(U)` runs over a fundamental system of affine neighbourhoods (1.2.5) of the finite set
-`f⁻¹(x)`, since `f` is closed (6.1.10). The proposition then follows from the following lemma:
+**Proof.** It is clear that if $f_{*}(\mathcal{F}')|U$ is isomorphic to $\mathcal{B}^{r}|U$ ($U$ open in $X$), then
+$\mathcal{F}'|f^{-1}(U)$ is isomorphic to $\mathcal{O}^{r}_{X'}|f^{-1}(U)$ (1.4.2). Conversely, suppose that
+$\mathcal{F}'$ is locally free of rank $r$, and let us show that $f_{*}(\mathcal{F}')$ is locally isomorphic to
+$\mathcal{B}^{r}$ as a $\mathcal{B}$-module. Let $x$ be a point of $X$; as $U$ runs over a fundamental system of affine
+neighbourhoods of $x$, $f^{-1}(U)$ runs over a fundamental system of affine neighbourhoods (1.2.5) of the finite set
+$f^{-1}(x)$, since $f$ is closed (6.1.10). The proposition then follows from the following lemma:
 
 **Lemma.**
 
 <!-- label: II.6.1.12.1 -->
 
-Let `Y` be a prescheme, `ℰ` a locally free `𝒪_Y`-module of rank `r`, and `Z` a finite part of `Y` contained in an affine
-open `V`. Then there exists a neighbourhood `U ⊂ V` of `Z` such that `ℰ|U` is isomorphic to `𝒪_Y^r|U`.
+Let $Y$ be a prescheme, $\mathcal{E}$ a locally free $\mathcal{O}_{Y}$-module of rank $r$, and $Z$ a finite part of $Y$
+contained in an affine open $V$. Then there exists a neighbourhood $U \subset V$ of $Z$ such that $\mathcal{E}|U$ is
+isomorphic to $\mathcal{O}^{r}_{Y}|U$.
 
-**Proof.** We may evidently assume `Y` affine; for every `z_i ∈ Z`, there exists in the closure `{z_i}` at least one
-closed point `z'_i` `(0, 2.1.3)`; if `Z'` is the set of the `z'_i`, every neighbourhood of `Z'` is a neighbourhood of
-`Z`, and we may therefore assume that `Z` is closed in `Y` and discrete. Consider the closed reduced subprescheme of `Y`
-having `Z` as its underlying space `(I, 5.2.1)` and let `j : Z → Y` be the canonical injection; `j*(ℰ) = ℰ ⊗_Y 𝒪_Z` is
-locally free of rank `r` on the discrete scheme `Z`, and is therefore isomorphic to `𝒪_Z^r`; in other words, there exist
-`r` sections `s_i` (`1 ≤ i ≤ r`) of `ℰ ⊗_Y 𝒪_Z` over `Z` such that the homomorphism `𝒪_Z^r → ℰ ⊗_Y 𝒪_Z` defined by these
-sections is bijective. But `Y = Spec(A)` is affine, `Z` is defined by an ideal `𝔧` of `A`, and we have `ℰ = M̃`, where
-`M` is an `A`-module; the `s_i` are elements
+**Proof.** We may evidently assume $Y$ affine; for every $z_{i} \in Z$, there exists in the closure ${z_{i}}$ at least
+one closed point $z'_{i}$ `(0, 2.1.3)`; if $Z'$ is the set of the $z'_{i}$, every neighbourhood of $Z'$ is a
+neighbourhood of $Z$, and we may therefore assume that $Z$ is closed in $Y$ and discrete. Consider the closed reduced
+subprescheme of $Y$ having $Z$ as its underlying space `(I, 5.2.1)` and let $j : Z \to Y$ be the canonical injection;
+$j*(\mathcal{E}) = \mathcal{E} \otimes_{Y} \mathcal{O}_{Z}$ is locally free of rank $r$ on the discrete scheme $Z$, and
+is therefore isomorphic to $\mathcal{O}^{r}_{Z}$; in other words, there exist $r$ sections $s_{i}$ ($1 \leq i \leq r$)
+of $\mathcal{E} \otimes_{Y} \mathcal{O}_{Z}$ over $Z$ such that the homomorphism $\mathcal{O}^{r}_{Z} \to \mathcal{E}
+\otimes_{Y} \mathcal{O}_{Z}$ defined by these sections is bijective. But $Y = \operatorname{Spec}(A)$ is affine, $Z$ is
+defined by an ideal $\mathfrak{j}$ of $A$, and we have $\mathcal{E} = \tilde{M}$, where $M$ is an $A$-module; the
+$s_{i}$ are elements
 
 <!-- original page 114 -->
 
-of `M ⊗_A (A/𝔧)` and are therefore images of `r` elements `t_i ∈ M = Γ(Y, ℰ)`. For every `z_j ∈ Z` there is then a
-neighbourhood `V_j` of `z_j` such that the restrictions of the `t_i` to `V_j` define an isomorphism `𝒪_Y^r|V_j ⥲ ℰ|V_j`
-`(0, 5.5.4)`; the neighbourhood `U` given by the union of the `V_j` therefore meets the question.
+of $M \otimes_{A} (A/\mathfrak{j})$ and are therefore images of $r$ elements $t_{i} \in M = \Gamma(Y, \mathcal{E})$. For
+every $z_{j} \in Z$ there is then a neighbourhood $V_{j}$ of $z_{j}$ such that the restrictions of the $t_{i}$ to
+$V_{j}$ define an isomorphism $\mathcal{O}^{r}_{Y}|V_{j} \xrightarrow{\sim} \mathcal{E}|V_{j}$ `(0, 5.5.4)`; the
+neighbourhood $U$ given by the union of the $V_{j}$ therefore meets the question.
 
 **Proposition.**
 
 <!-- label: II.6.1.13 -->
 
-Let `g : X' → X` be an integral morphism of preschemes, `Y` a normal locally integral prescheme, and `f` a rational map
-from `Y` to `X'` such that `g ∘ f` is an everywhere defined rational map `(I, 7.2.1)`. Then `f` is everywhere defined.
+Let $g : X' \to X$ be an integral morphism of preschemes, $Y$ a normal locally integral prescheme, and $f$ a rational
+map from $Y$ to $X'$ such that $g \circ f$ is an everywhere defined rational map `(I, 7.2.1)`. Then $f$ is everywhere
+defined.
 
-**Proof.** If `f₁` and `f₂` are two morphisms (from dense opens of `Y` to `X'`) in the class `f`, it is clear that
-`g ∘ f₁` and `g ∘ f₂` are equivalent morphisms, which justifies the notation `g ∘ f` for their equivalence class. We
-recall also that, if we further suppose `Y` to be locally Noetherian, then the hypothesis that `Y` is normal already
-implies that `Y` is locally integral `(I, 6.1.13)`.
+**Proof.** If $f_{1}$ and $f_{2}$ are two morphisms (from dense opens of $Y$ to $X'$) in the class $f$, it is clear that
+$g \circ f_{1}$ and $g \circ f_{2}$ are equivalent morphisms, which justifies the notation $g \circ f$ for their
+equivalence class. We recall also that, if we further suppose $Y$ to be locally Noetherian, then the hypothesis that $Y$
+is normal already implies that $Y$ is locally integral `(I, 6.1.13)`.
 
-To prove (6.1.13), let us first note that the question is local on `Y`, and so we may assume that there exists in the
-class `g ∘ f` a morphism `h : Y → X`. Consider the inverse image `Y' = X'_{(h)} = X'_{(Y)}`, and note that the morphism
-`g' = g_{(Y)} : Y' → Y` is integral (6.1.5, (iii)). In view of the correspondence between rational maps from `Y` to `X'`
-and rational `Y`-sections of `Y'` `(I, 7.1.2)`, we see that we are reduced to proving the particular case of (6.1.13) in
-which `X = Y`; in other words:
+To prove (6.1.13), let us first note that the question is local on $Y$, and so we may assume that there exists in the
+class $g \circ f$ a morphism $h : Y \to X$. Consider the inverse image $Y' = X'_{(h)} = X'_{(Y)}$, and note that the
+morphism $g' = g_{(Y)} : Y' \to Y$ is integral (6.1.5, (iii)). In view of the correspondence between rational maps from
+$Y$ to $X'$ and rational $Y$-sections of $Y'$ `(I, 7.1.2)`, we see that we are reduced to proving the particular case of
+(6.1.13) in which $X = Y$; in other words:
 
 **Corollary.**
 
 <!-- label: II.6.1.14 -->
 
-Let `X` be a normal locally integral prescheme, `g : X' → X` an integral morphism, and `f` a rational `X`-section of
-`X'`. Then `f` is everywhere defined.
+Let $X$ be a normal locally integral prescheme, $g : X' \to X$ an integral morphism, and $f$ a rational $X$-section of
+$X'$. Then $f$ is everywhere defined.
 
-**Proof.** Since the question is local on `X`, we may assume `X` integral, and then `f` is identified with a morphism
-from an open `U` of `X` to `X'` `(I, 7.2.2)` which is a `U`-section of `g⁻¹(U)`. Since `g` is separated, `f` is a closed
-immersion of `U` into `g⁻¹(U)` `(I, 5.4.6)`; let `Z` be the closed subprescheme of `g⁻¹(U)` associated to `f`
-`(I, 4.2.1)`, which is isomorphic to `U`, hence integral; let `X₁` be the reduced subprescheme of `X'` whose underlying
-space is the closure `Z̄` of `Z` in `X'` `(I, 5.2.1)`; then `Z` is a subprescheme induced on an open of `X₁`
-`(I, 5.2.3)`, and, being irreducible, so is `X₁`, which is therefore integral. The morphism `f` can then be considered
-as a rational `X`-section of `X₁`; since the restriction of `g` to `X₁` is an integral morphism (6.1.5, (i) and (ii)),
-we are finally reduced to proving (6.1.14) in the particular case `X' = X₁`; in other words:
+**Proof.** Since the question is local on $X$, we may assume $X$ integral, and then $f$ is identified with a morphism
+from an open $U$ of $X$ to $X'$ `(I, 7.2.2)` which is a $U$-section of $g^{-1}(U)$. Since $g$ is separated, $f$ is a
+closed immersion of $U$ into $g^{-1}(U)$ `(I, 5.4.6)`; let $Z$ be the closed subprescheme of $g^{-1}(U)$ associated to
+$f$ `(I, 4.2.1)`, which is isomorphic to $U$, hence integral; let $X_{1}$ be the reduced subprescheme of $X'$ whose
+underlying space is the closure $\bar{Z}$ of $Z$ in $X'$ `(I, 5.2.1)`; then $Z$ is a subprescheme induced on an open of
+$X_{1}$ `(I, 5.2.3)`, and, being irreducible, so is $X_{1}$, which is therefore integral. The morphism $f$ can then be
+considered as a rational $X$-section of $X_{1}$; since the restriction of $g$ to $X_{1}$ is an integral morphism (6.1.5,
+(i) and (ii)), we are finally reduced to proving (6.1.14) in the particular case $X' = X_{1}$; in other words:
 
 **Corollary.**
 
 <!-- label: II.6.1.15 -->
 
-Let `X` be a normal integral prescheme, `X'` an integral prescheme, and `g : X' → X` an integral morphism. If there
-exists a rational `X`-section `f` of `X'`, then `g` is an isomorphism.
+Let $X$ be a normal integral prescheme, $X'$ an integral prescheme, and $g : X' \to X$ an integral morphism. If there
+exists a rational $X$-section $f$ of $X'$, then $g$ is an isomorphism.
 
-**Proof.** Since the question is local on `X`, we may assume `X` affine of integral ring `A`, and then `X'` is affine of
-ring `A'` integral over `A` (6.1.4) and integral; furthermore, the argument of (6.1.14) shows that there exists a dense
-open in `X` isomorphic to a dense open of `X'`, hence `A` and `A'` have the same field of fractions. On the other hand,
-by `(I, 8.2.1.1)` and the hypothesis that the `𝒪_x` are integrally closed, the ring `A` is integrally closed, hence
-`A' = A`, which completes the proof of (6.1.13).
+**Proof.** Since the question is local on $X$, we may assume $X$ affine of integral ring $A$, and then $X'$ is affine of
+ring $A'$ integral over $A$ (6.1.4) and integral; furthermore, the argument of (6.1.14) shows that there exists a dense
+open in $X$ isomorphic to a dense open of $X'$, hence $A$ and $A'$ have the same field of fractions. On the other hand,
+by `(I, 8.2.1.1)` and the hypothesis that the $\mathcal{O}_{x}$ are integrally closed, the ring $A$ is integrally
+closed, hence $A' = A$, which completes the proof of (6.1.13).
 
 ## 6.2. Quasi-finite morphisms
 
@@ -280,41 +297,43 @@ by `(I, 8.2.1.1)` and the hypothesis that the `𝒪_x` are integrally closed, th
 
 <!-- label: II.6.2.1 -->
 
-Let `f : X → Y` be a morphism locally of finite type, `x` a point of `X`. The following conditions are equivalent:
+Let $f : X \to Y$ be a morphism locally of finite type, $x$ a point of $X$. The following conditions are equivalent:
 
 <!-- original page 115 -->
 
-- a) The point `x` is isolated in its fibre `f⁻¹(f(x))`.
-- b) The ring `𝒪_x` is a quasi-finite `𝒪_{f(x)}`-module `(0, 7.4.1)`.
+- a) The point $x$ is isolated in its fibre $f^{-1}(f(x))$.
+- b) The ring $\mathcal{O}_{x}$ is a quasi-finite $\mathcal{O}_{f(x)}$-module `(0, 7.4.1)`.
 
-**Proof.** Since the question is evidently local on `X` and on `Y`, we may assume `X = Spec(A)` and `Y = Spec(B)`
-affine, with `A` a `B`-algebra of finite type `(I, 6.3.3)`. Moreover, we may replace `X` by `X ×_Y Spec(𝒪_{f(x)})`
-without changing the fibre `f⁻¹(f(x))` or the local ring `𝒪_x` `(I, 3.6.5)`; we may therefore assume that `B` is a local
-ring (equal to `𝒪_{f(x)}`); if `𝔫` is the maximal ideal of `B`, then `f⁻¹(f(x))` is an affine scheme of ring `A/𝔫A`, of
-finite type over `κ(f(x)) = B/𝔫` `(I, 6.4.11)`. This being so, if a) is satisfied, we may further assume that
-`f⁻¹(f(x))` is reduced to the point `x`; then `A/𝔫A` is of finite rank over `B/𝔫` `(I, 6.4.4)`, that is, `A` is a
-quasi-finite `B`-module. Conversely, if this is so, `f⁻¹(f(x))` is an Artinian affine scheme, hence discrete
-`(I, 6.4.4)`; consequently `x` is isolated in its fibre, which shows that b) implies a).
+**Proof.** Since the question is evidently local on $X$ and on $Y$, we may assume $X = \operatorname{Spec}(A)$ and $Y =
+\operatorname{Spec}(B)$ affine, with $A$ a $B$-algebra of finite type `(I, 6.3.3)`. Moreover, we may replace $X$ by $X
+\times_{Y} \operatorname{Spec}(\mathcal{O}_{f(x)})$ without changing the fibre $f^{-1}(f(x))$ or the local ring
+$\mathcal{O}_{x}$ `(I, 3.6.5)`; we may therefore assume that $B$ is a local ring (equal to $\mathcal{O}_{f(x)}$); if
+$\mathfrak{n}$ is the maximal ideal of $B$, then $f^{-1}(f(x))$ is an affine scheme of ring $A/\mathfrak{n}A$, of finite
+type over $\kappa(f(x)) = B/\mathfrak{n}$ `(I, 6.4.11)`. This being so, if a) is satisfied, we may further assume that
+$f^{-1}(f(x))$ is reduced to the point $x$; then $A/\mathfrak{n}A$ is of finite rank over $B/\mathfrak{n}$ `(I, 6.4.4)`,
+that is, $A$ is a quasi-finite $B$-module. Conversely, if this is so, $f^{-1}(f(x))$ is an Artinian affine scheme, hence
+discrete `(I, 6.4.4)`; consequently $x$ is isolated in its fibre, which shows that b) implies a).
 
 **Corollary.**
 
 <!-- label: II.6.2.2 -->
 
-Let `f : X → Y` be a morphism of finite type. The following conditions are equivalent:
+Let $f : X \to Y$ be a morphism of finite type. The following conditions are equivalent:
 
-- a) Every point `x ∈ X` is isolated in its fibre `f⁻¹(f(x))` (in other words, the subspace `f⁻¹(f(x))` is discrete).
-- b) For every `x ∈ X`, the prescheme `f⁻¹(f(x))` is a finite `κ(f(x))`-prescheme.
-- c) For every `x ∈ X`, the ring `𝒪_x` is a quasi-finite `𝒪_{f(x)}`-module.
+- a) Every point $x \in X$ is isolated in its fibre $f^{-1}(f(x))$ (in other words, the subspace $f^{-1}(f(x))$ is
+  discrete).
+- b) For every $x \in X$, the prescheme $f^{-1}(f(x))$ is a finite $\kappa(f(x))$-prescheme.
+- c) For every $x \in X$, the ring $\mathcal{O}_{x}$ is a quasi-finite $\mathcal{O}_{f(x)}$-module.
 
-**Proof.** The equivalence of a) and c) follows from (6.2.1). On the other hand, since `f⁻¹(f(x))` is a
-`κ(f(x))`-algebraic prescheme `(I, 6.4.11)`, the equivalence of a) and b) follows from `(I, 6.4.4)`.
+**Proof.** The equivalence of a) and c) follows from (6.2.1). On the other hand, since $f^{-1}(f(x))$ is a
+$\kappa(f(x))$-algebraic prescheme `(I, 6.4.11)`, the equivalence of a) and b) follows from `(I, 6.4.4)`.
 
 **Definition.**
 
 <!-- label: II.6.2.3 -->
 
-When `f : X → Y` is a morphism of finite type satisfying the equivalent conditions of (6.2.2), we say that `f` is
-_quasi-finite_, or that `X` is _quasi-finite over_ `Y`.
+When $f : X \to Y$ is a morphism of finite type satisfying the equivalent conditions of (6.2.2), we say that $f$ is
+_quasi-finite_, or that $X$ is _quasi-finite over_ $Y$.
 
 It is clear that every finite morphism is quasi-finite (6.1.8).
 
@@ -322,69 +341,73 @@ It is clear that every finite morphism is quasi-finite (6.1.8).
 
 <!-- label: II.6.2.4 -->
 
-- (i) An immersion `X → Y` which is closed, or such that `X` is Noetherian, is a quasi-finite morphism.
-- (ii) If `f : X → Y` and `g : Y → Z` are quasi-finite morphisms, then `g ∘ f` is quasi-finite.
-- (iii) If `X` and `Y` are `S`-preschemes and `f : X → Y` a quasi-finite `S`-morphism, then
-    `f_{(S')} : X_{(S')} → Y_{(S')}` is quasi-finite for every base extension `g : S' → S`.
-- (iv) If `f : X → Y` and `g : X' → Y'` are two quasi-finite `S`-morphisms, then
+- (i) An immersion $X \to Y$ which is closed, or such that $X$ is Noetherian, is a quasi-finite morphism.
+- (ii) If $f : X \to Y$ and $g : Y \to Z$ are quasi-finite morphisms, then $g \circ f$ is quasi-finite.
+- (iii) If $X$ and $Y$ are $S$-preschemes and $f : X \to Y$ a quasi-finite $S$-morphism, then $f_{(S')} : X_{(S')} \to
+  Y_{(S')}$ is quasi-finite for every base extension $g : S' \to S$.
+- (iv) If $f : X \to Y$ and $g : X' \to Y'$ are two quasi-finite $S$-morphisms, then
     ```text
       f ×_S g : X ×_S X' → Y ×_S Y'
     ```
     is quasi-finite.
-- (v) Let `f : X → Y` and `g : Y → Z` be morphisms such that `g ∘ f` is quasi-finite; if, further, `g` is separated, or
-    `X` is Noetherian, or `X ×_Z Y` is locally Noetherian, then `f` is quasi-finite.
-- (vi) If `f` is quasi-finite, so is `f_red`.
+- (v) Let $f : X \to Y$ and $g : Y \to Z$ be morphisms such that $g \circ f$ is quasi-finite; if, further, $g$ is
+  separated, or $X$ is Noetherian, or $X \times_{Z} Y$ is locally Noetherian, then $f$ is quasi-finite.
+- (vi) If $f$ is quasi-finite, so is $f_{red}$.
 
-**Proof.** If `f : X → Y` is an immersion, then every fibre is reduced to a point, and assertion (i) therefore follows
-from `(I, 6.3.4 (i)` and `6.3.5)`. To prove (ii), we remark first that `h = g ∘ f` is of finite type `(I, 6.3.4 (ii))`;
-furthermore, if `z = h(x)` and `y = f(x)`, then `y` is isolated in `g⁻¹(z)`, so there exists an open neighbourhood `V`
-of `y` in `Y` meeting no point of `g⁻¹(z)` other than `y`; therefore `f⁻¹(V)` is an open neighbourhood of `x` meeting
+**Proof.** If $f : X \to Y$ is an immersion, then every fibre is reduced to a point, and assertion (i) therefore follows
+from `(I, 6.3.4 (i)` and `6.3.5)`. To prove (ii), we remark first that $h = g \circ f$ is of finite type
+`(I, 6.3.4 (ii))`; furthermore, if $z = h(x)$ and $y = f(x)$, then $y$ is isolated in $g^{-1}(z)$, so there exists an
+open neighbourhood $V$ of $y$ in $Y$ meeting no point of $g^{-1}(z)$ other than $y$; therefore $f^{-1}(V)$ is an open
+neighbourhood of $x$ meeting
 
 <!-- original page 116 -->
 
-none of the `f⁻¹(y')`, where `y' ≠ y` is in `g⁻¹(z)`; since `x` is isolated in `f⁻¹(y)`, it is isolated in
-`h⁻¹(z) = f⁻¹(g⁻¹(z))`. To prove (iii), we may restrict to the case `Y = S` `(I, 3.3.11)`; we remark again first that
-`f' = f_{(S')}` is of finite type `(I, 6.3.4, (iii))`; on the other hand, if `x' ∈ X' = X_{(S')}` and if we set
-`y' = f'(x')` and `y = g(y')`, then `f'⁻¹(y')` is identified with `f⁻¹(y) ⊗_{κ(y)} κ(y')` `(I, 3.6.5)`; since `f⁻¹(y)`
-is of finite rank over `κ(y)` by hypothesis, `f'⁻¹(y')` is of finite rank over `κ(y')`, hence discrete. The assertions
-(iv), (v), (vi) follow from (i), (ii), (iii) by the general method `(I, 5.5.12)`, except when the hypotheses in (v) are
-other than "`g` separated"; to treat this case, we remark first that if `x` is isolated in `f⁻¹(g⁻¹(g(f(x))))`, it is _a
-fortiori_ isolated in `f⁻¹(f(x))`; the fact that `f` is of finite type then follows from `(I, 6.3.6)`.
+none of the $f^{-1}(y')$, where $y' \neq y$ is in $g^{-1}(z)$; since $x$ is isolated in $f^{-1}(y)$, it is isolated in
+$h^{-1}(z) = f^{-1}(g^{-1}(z))$. To prove (iii), we may restrict to the case $Y = S$ `(I, 3.3.11)`; we remark again
+first that $f' = f_{(S')}$ is of finite type `(I, 6.3.4, (iii))`; on the other hand, if $x' \in X' = X_{(S')}$ and if we
+set $y' = f'(x')$ and $y = g(y')$, then $f'^{-1}(y')$ is identified with $f^{-1}(y) \otimes_{\kappa(y)} \kappa(y')$
+`(I, 3.6.5)`; since $f^{-1}(y)$ is of finite rank over $\kappa(y)$ by hypothesis, $f'^{-1}(y')$ is of finite rank over
+$\kappa(y')$, hence discrete. The assertions (iv), (v), (vi) follow from (i), (ii), (iii) by the general method
+`(I, 5.5.12)`, except when the hypotheses in (v) are other than "$g$ separated"; to treat this case, we remark first
+that if $x$ is isolated in $f^{-1}(g^{-1}(g(f(x))))$, it is _a fortiori_ isolated in $f^{-1}(f(x))$; the fact that $f$
+is of finite type then follows from `(I, 6.3.6)`.
 
 **Proposition.**
 
 <!-- label: II.6.2.5 -->
 
-Let `A` be a complete local Noetherian ring, `X` an `A`-scheme locally of finite type, `x` a point of `X` over the
-closed point `y` of `Y = Spec(A)`, and suppose that `x` is isolated in its fibre `f⁻¹(y)` (where `f` is the structure
-morphism `X → Y`). Then `𝒪_x` is an `A`-module of finite type, and `X` is `Y`-isomorphic to the sum `(I, 3.1)` of
-`X' = Spec(𝒪_x)` (which is a finite `Y`-scheme) and an `A`-scheme `X''`.
+Let $A$ be a complete local Noetherian ring, $X$ an $A$-scheme locally of finite type, $x$ a point of $X$ over the
+closed point $y$ of $Y = \operatorname{Spec}(A)$, and suppose that $x$ is isolated in its fibre $f^{-1}(y)$ (where $f$
+is the structure morphism $X \to Y$). Then $\mathcal{O}_{x}$ is an $A$-module of finite type, and $X$ is $Y$-isomorphic
+to the sum `(I, 3.1)` of $X' = \operatorname{Spec}(\mathcal{O}_{x})$ (which is a finite $Y$-scheme) and an $A$-scheme
+`X''`.
 
-**Proof.** It follows from (6.2.1) that `𝒪_x` is a quasi-finite `A`-module. Since `𝒪_x` is Noetherian `(I, 6.3.7)` and
-the homomorphism `A → 𝒪_x` is local, the hypothesis that `A` is complete implies that `𝒪_x` is an `A`-module of finite
-type `(0, 7.4.3)`. Let `X' = Spec(𝒪_x)` be the local scheme of `X` at the point `x` `(I, 2.4.1)`, and let `g : X' → X`
-be the canonical morphism. Since the composite `X' → X → Y` is finite (6.1.1) and `f` is separated, `g` is finite
-(6.1.5, (v)), hence `g(X')` is closed in `X` (6.1.10); on the other hand, since `g` is of finite type, `g` is a local
-isomorphism at the closed point `x'` of `X'` by the definition of `g` and `(I, 6.5.4)`; but since `X'` is the only open
-neighbourhood of `x'`, this means that `g` is an open immersion, hence `g(X')` is also open in `X`, which completes the
+**Proof.** It follows from (6.2.1) that $\mathcal{O}_{x}$ is a quasi-finite $A$-module. Since $\mathcal{O}_{x}$ is
+Noetherian `(I, 6.3.7)` and the homomorphism $A \to \mathcal{O}_{x}$ is local, the hypothesis that $A$ is complete
+implies that $\mathcal{O}_{x}$ is an $A$-module of finite type `(0, 7.4.3)`. Let $X' =
+\operatorname{Spec}(\mathcal{O}_{x})$ be the local scheme of $X$ at the point $x$ `(I, 2.4.1)`, and let $g : X' \to X$
+be the canonical morphism. Since the composite $X' \to X \to Y$ is finite (6.1.1) and $f$ is separated, $g$ is finite
+(6.1.5, (v)), hence $g(X')$ is closed in $X$ (6.1.10); on the other hand, since $g$ is of finite type, $g$ is a local
+isomorphism at the closed point $x'$ of $X'$ by the definition of $g$ and `(I, 6.5.4)`; but since $X'$ is the only open
+neighbourhood of $x'$, this means that $g$ is an open immersion, hence $g(X')$ is also open in $X$, which completes the
 proof.
 
 **Corollary.**
 
 <!-- label: II.6.2.6 -->
 
-Let `A` be a complete local Noetherian ring, `Y = Spec(A)`, `f : X → Y` a separated quasi-finite morphism. Then `X` is
-`Y`-isomorphic to a sum `X' ⊔ X''`, where `X'` is a finite `Y`-scheme and `X''` a quasi-finite `Y`-scheme such that, if
-`y` is the closed point of `Y`, `X'' ∩ f⁻¹(y) = ∅`.
+Let $A$ be a complete local Noetherian ring, $Y = \operatorname{Spec}(A)$, $f : X \to Y$ a separated quasi-finite
+morphism. Then $X$ is $Y$-isomorphic to a sum $X' \sqcup X''$, where $X'$ is a finite $Y$-scheme and `X''` a
+quasi-finite $Y$-scheme such that, if $y$ is the closed point of $Y$, $X'' \cap f^{-1}(y) = \emptyset$.
 
-**Proof.** Indeed, the fibre `f⁻¹(y)` is finite and discrete by hypothesis, and the corollary therefore follows, by
+**Proof.** Indeed, the fibre $f^{-1}(y)$ is finite and discrete by hypothesis, and the corollary therefore follows, by
 induction on the number of points of this fibre, from (6.2.5).
 
 **Remark.**
 
 <!-- label: II.6.2.7 -->
 
-In Chapter V, we will see that if `Y` is locally Noetherian, then a separated quasi-finite morphism `X → Y` is
+In Chapter V, we will see that if $Y$ is locally Noetherian, then a separated quasi-finite morphism $X \to Y$ is
 necessarily quasi-affine.
 
 ## 6.3. Integral closure of a prescheme
@@ -393,108 +416,114 @@ necessarily quasi-affine.
 
 <!-- label: II.6.3.1 -->
 
-Let `(X, 𝒜)` be a ringed space, `ℬ` a (commutative) `𝒜`-algebra, `f` a section of `ℬ` over `X`. The following properties
-are equivalent:
+Let $(X, \mathcal{A})$ be a ringed space, $\mathcal{B}$ a (commutative) $\mathcal{A}$-algebra, $f$ a section of
+$\mathcal{B}$ over $X$. The following properties are equivalent:
 
-- a) The sub-`𝒜`-module of `ℬ` generated by the `f^n` for `n ≥ 0` `(0, 5.1.1)` is of finite type.
-- b) There exists a sub-`𝒜`-algebra `𝒞` of `ℬ` that is an `𝒜`-module of finite type, such that `f ∈ Γ(X, 𝒞)`.
-- c) For every `x ∈ X`, `f_x` is integral over the fibre `𝒜_x`.
+- a) The sub-$\mathcal{A}$-module of $\mathcal{B}$ generated by the $f^{n}$ for $n \geq 0$ `(0, 5.1.1)` is of finite
+  type.
+- b) There exists a sub-$\mathcal{A}$-algebra $\mathcal{C}$ of $\mathcal{B}$ that is an $\mathcal{A}$-module of finite
+  type, such that $f \in \Gamma(X, \mathcal{C})$.
+- c) For every $x \in X$, $f_{x}$ is integral over the fibre $\mathcal{A}_{x}$.
 
 <!-- original page 117 -->
 
-**Proof.** Since the sub-`𝒜`-module of `ℬ` generated by the `f^n` is an `𝒜`-algebra, it is clear that a) implies b). On
-the other hand, b) implies that for every `x ∈ X`, the `𝒜_x`-module `𝒞_x` is of finite type, which implies that every
-element of the algebra `𝒞_x`, and in particular `f_x`, is integral over `𝒜_x`. Finally, if for some `x ∈ X` we have a
-relation of the form
+**Proof.** Since the sub-$\mathcal{A}$-module of $\mathcal{B}$ generated by the $f^{n}$ is an $\mathcal{A}$-algebra, it
+is clear that a) implies b). On the other hand, b) implies that for every $x \in X$, the $\mathcal{A}_{x}$-module
+$\mathcal{C}_{x}$ is of finite type, which implies that every element of the algebra $\mathcal{C}_{x}$, and in
+particular $f_{x}$, is integral over $\mathcal{A}_{x}$. Finally, if for some $x \in X$ we have a relation of the form
 
 ```text
   f_x^n + (a₁)_x f_x^{n−1} + … + (a_n)_x = 0
 ```
 
-where the `a_i` (`1 ≤ i ≤ n`) are sections of `𝒜` over an open neighbourhood `U` of `x`, then the section
-`f^n|U + a₁ · f^{n−1}|U + … + a_n` is zero over a neighbourhood `V ⊂ U` of `x`, whence it follows immediately that all
-the `f^k|V` (`k ≥ 0`) are linear combinations with coefficients in `Γ(V, 𝒜)` of the `f^j|V` for `0 ≤ j ≤ n − 1`; we
-conclude that c) implies a).
+where the $a_{i}$ ($1 \leq i \leq n$) are sections of $\mathcal{A}$ over an open neighbourhood $U$ of $x$, then the
+section $f^{n}|U + a_{1} \cdot f^{n-1}|U + \cdots + a_{n}$ is zero over a neighbourhood $V \subset U$ of $x$, whence it
+follows immediately that all the $f^{k}|V$ ($k \geq 0$) are linear combinations with coefficients in $\Gamma(V,
+\mathcal{A})$ of the $f^{j}|V$ for $0 \leq j \leq n - 1$; we conclude that c) implies a).
 
-When the equivalent conditions of (6.3.1) are satisfied, we say that the section `f` is _integral over_ `𝒜`.
+When the equivalent conditions of (6.3.1) are satisfied, we say that the section $f$ is _integral over_ $\mathcal{A}$.
 
 **Corollary.**
 
 <!-- label: II.6.3.2 -->
 
-Under the hypotheses of (6.3.1), there exists a (unique) sub-`𝒜`-module `𝒜'` of `ℬ` such that, for every `x ∈ X`, `𝒜'_x`
-is the set of germs `f_x ∈ ℬ_x` that are integral over `𝒜_x`. For every open `U ⊂ X`, the sections of `𝒜'` over `U` are
-the sections `f ∈ Γ(U, ℬ)` that are integral over `𝒜|U`.
+Under the hypotheses of (6.3.1), there exists a (unique) sub-$\mathcal{A}$-module $\mathcal{A}'$ of $\mathcal{B}$ such
+that, for every $x \in X$, $\mathcal{A}'_{x}$ is the set of germs $f_{x} \in \mathcal{B}_{x}$ that are integral over
+$\mathcal{A}_{x}$. For every open $U \subset X$, the sections of $\mathcal{A}'$ over $U$ are the sections $f \in
+\Gamma(U, \mathcal{B})$ that are integral over $\mathcal{A}|U$.
 
-**Proof.** The existence of `𝒜'` is immediate, by taking `Γ(U, 𝒜')` to be the set of `f ∈ Γ(U, ℬ)` such that `f_x` is
-integral over `𝒜_x` for every `x ∈ U`. The second assertion follows immediately from (6.3.1).
+**Proof.** The existence of $\mathcal{A}'$ is immediate, by taking $\Gamma(U, \mathcal{A}')$ to be the set of $f \in
+\Gamma(U, \mathcal{B})$ such that $f_{x}$ is integral over $\mathcal{A}_{x}$ for every $x \in U$. The second assertion
+follows immediately from (6.3.1).
 
-It is clear that `𝒜'` is a sub-`𝒜`-algebra of `ℬ`; we say that it is the _integral closure of_ `𝒜` _in_ `ℬ`.
+It is clear that $\mathcal{A}'$ is a sub-$\mathcal{A}$-algebra of $\mathcal{B}$; we say that it is the _integral closure
+of_ $\mathcal{A}$ _in_ $\mathcal{B}$.
 
 **(6.3.3)**
 
 <!-- label: II.6.3.3 -->
 
-Let `(X, 𝒜)`, `(Y, ℬ)` be two ringed spaces and
+Let $(X, \mathcal{A})$, $(Y, \mathcal{B})$ be two ringed spaces and
 
 ```text
   g = (ψ, θ) : X → Y
 ```
 
-a morphism. Let `𝒞` (resp. `𝒟`) be an `𝒜`-algebra (resp. a `ℬ`-algebra) and let
+a morphism. Let $\mathcal{C}$ (resp. $\mathcal{D}$) be an $\mathcal{A}$-algebra (resp. a $\mathcal{B}$-algebra) and let
 
-```text
-  u : 𝒟 → 𝒞
-```
+$$ u : \mathcal{D} \to \mathcal{C} $$
 
-be a `g`-morphism `(0, 4.4.1)`. Then, if `𝒞'` (resp. `ℬ'`) is the integral closure of `𝒜` (resp. `ℬ`) in `𝒞` (resp.
-`𝒟`), the restriction of `u` to `ℬ'` is a `g`-morphism
+be a $g$-morphism `(0, 4.4.1)`. Then, if $\mathcal{C}'$ (resp. $\mathcal{B}'$) is the integral closure of $\mathcal{A}$
+(resp. $\mathcal{B}$) in $\mathcal{C}$ (resp. $\mathcal{D}$), the restriction of $u$ to $\mathcal{B}'$ is a $g$-morphism
 
-```text
-  u' : ℬ' → 𝒞'.
-```
+$$ u' : \mathcal{B}' \to \mathcal{C}'. $$
 
-Indeed, if `j` is the canonical injection `ℬ' → 𝒟`, it suffices to show that
+Indeed, if $j$ is the canonical injection $\mathcal{B}' \to \mathcal{D}$, it suffices to show that
 
 ```text
   v = u^♯ ∘ g*(j) : g*(ℬ') → 𝒞
 ```
 
-sends `g*(ℬ')` into `𝒞'`. Now, an element of `g*(ℬ')_x = ℬ'_{ψ(x)} ⊗_{ℬ_{ψ(x)}} 𝒜_x` is integral over `𝒜_x` by the
-definition of `ℬ'`, hence so is its image under `v_x`, which establishes our assertion.
+sends $g*(\mathcal{B}')$ into $\mathcal{C}'$. Now, an element of $g*(\mathcal{B}')_{x} = \mathcal{B}'_{\psi(x)}
+\otimes_{\mathcal{B}_{\psi(x)}} \mathcal{A}_{x}$ is integral over $\mathcal{A}_{x}$ by the definition of $\mathcal{B}'$,
+hence so is its image under $v_{x}$, which establishes our assertion.
 
 **Proposition.**
 
 <!-- label: II.6.3.4 -->
 
-Let `X` be a prescheme, `𝒜` a quasi-coherent `𝒪_X`-algebra. Then the integral closure `𝒪'_X` of `𝒪_X` in `𝒜` is a
-quasi-coherent `𝒪_X`-algebra, and for every affine open `U` of `X`, `Γ(U, 𝒪'_X)` is the integral closure of `Γ(U, 𝒪_X)`
-in `Γ(U, 𝒜)`.
+Let $X$ be a prescheme, $\mathcal{A}$ a quasi-coherent $\mathcal{O}_{X}$-algebra. Then the integral closure
+$\mathcal{O}'_{X}$ of $\mathcal{O}_{X}$ in $\mathcal{A}$ is a quasi-coherent $\mathcal{O}_{X}$-algebra, and for every
+affine open $U$ of $X$, $\Gamma(U, \mathcal{O}'_{X})$ is the integral closure of $\Gamma(U, \mathcal{O}_{X})$ in
+$\Gamma(U, \mathcal{A})$.
 
-**Proof.** We may restrict to the case where `X = Spec(B)` is affine and `𝒜 = Ã`, where `A` is a
+**Proof.** We may restrict to the case where $X = \operatorname{Spec}(B)$ is affine and $\mathcal{A} = \tilde{A}$, where
+$A$ is a
 
 <!-- original page 118 -->
 
-`B`-algebra; let `B'` be the integral closure of `B` in `A`. Everything comes down to seeing that for every `x ∈ X`, an
-element of `A_x` integral over `B_x` necessarily belongs to `B'_x`, which follows from the fact that, for a commutative
-ring `C`, the operations of integral closure in a `C`-algebra and of passage to a ring of fractions (with respect to a
-multiplicative part of `C`) commute ([13], t. I, p. 261 and 257).
+$B$-algebra; let $B'$ be the integral closure of $B$ in $A$. Everything comes down to seeing that for every $x \in X$,
+an element of $A_{x}$ integral over $B_{x}$ necessarily belongs to $B'_{x}$, which follows from the fact that, for a
+commutative ring $C$, the operations of integral closure in a $C$-algebra and of passage to a ring of fractions (with
+respect to a multiplicative part of $C$) commute ([13], t. I, p. 261 and 257).
 
-The `X`-scheme `X' = Spec(𝒪'_X)` is then called the _integral closure of_ `X` _relative to_ `𝒜` (or _relative to_
-`Spec(𝒜)`); it is clear that `X'` is integral over `X` (6.1.2).
+The $X$-scheme $X' = \operatorname{Spec}(\mathcal{O}'_{X})$ is then called the _integral closure of_ $X$ _relative to_
+$\mathcal{A}$ (or _relative to_ $\operatorname{Spec}(\mathcal{A})$); it is clear that $X'$ is integral over $X$ (6.1.2).
 
-We immediately deduce from (6.3.4) that if `f : X' → X` is the structure morphism, then, for every open `U` of `X`,
-`f⁻¹(U)` is the integral closure of the prescheme induced by `X` on `U`, relative to `𝒜|U`.
+We immediately deduce from (6.3.4) that if $f : X' \to X$ is the structure morphism, then, for every open $U$ of $X$,
+$f^{-1}(U)$ is the integral closure of the prescheme induced by $X$ on $U$, relative to $\mathcal{A}|U$.
 
 **(6.3.5)**
 
 <!-- label: II.6.3.5 -->
 
-Let `X`, `Y` be two preschemes, `f : X → Y` a morphism, `𝒜` (resp. `ℬ`) a quasi-coherent `𝒪_X`-algebra (resp.
-quasi-coherent `𝒪_Y`-algebra), and let `u : ℬ → 𝒜` be an `f`-morphism. We have seen (6.3.3) that one deduces from it an
-`f`-morphism `u' : 𝒪'_Y → 𝒪'_X`, where `𝒪'_X` (resp. `𝒪'_Y`) is the integral closure of `𝒪_X` (resp. `𝒪_Y`) in `𝒜`
-(resp. `ℬ`). Consequently, if `X'` (resp. `Y'`) is the integral closure of `X` (resp. `Y`) relative to `𝒜` (resp. `ℬ`),
-one canonically deduces from `u` a morphism `f' = Spec(u') : X' → Y'` (1.5.6) making the diagram
+Let $X$, $Y$ be two preschemes, $f : X \to Y$ a morphism, $\mathcal{A}$ (resp. $\mathcal{B}$) a quasi-coherent
+$\mathcal{O}_{X}$-algebra (resp. quasi-coherent $\mathcal{O}_{Y}$-algebra), and let $u : \mathcal{B} \to \mathcal{A}$ be
+an $f$-morphism. We have seen (6.3.3) that one deduces from it an $f$-morphism $u' : \mathcal{O}'_{Y} \to
+\mathcal{O}'_{X}$, where $\mathcal{O}'_{X}$ (resp. $\mathcal{O}'_{Y}$) is the integral closure of $\mathcal{O}_{X}$
+(resp. $\mathcal{O}_{Y}$) in $\mathcal{A}$ (resp. $\mathcal{B}$). Consequently, if $X'$ (resp. $Y'$) is the integral
+closure of $X$ (resp. $Y$) relative to $\mathcal{A}$ (resp. $\mathcal{B}$), one canonically deduces from $u$ a morphism
+$f' = \operatorname{Spec}(u') : X' \to Y'$ (1.5.6) making the diagram
 
 ```text
   X' ─────f'────→ Y'
@@ -509,23 +538,26 @@ commute.
 
 <!-- label: II.6.3.6 -->
 
-Suppose that `X` has only a finite number of irreducible components `X_i` (`1 ≤ i ≤ r`), with generic points `ξ_i`, and
-consider in particular the integral closure of `X` relative to a quasi-coherent `ℛ(X)`-algebra `𝒜` (quasi-coherent as an
-`𝒪_X`-algebra or as an `ℛ(X)`-algebra, which amounts to the same thing). We know `(I, 7.3.5)` that `𝒜` is a direct sum
-of `r` quasi-coherent `𝒪_X`-algebras `𝒜_i`, with the support of `𝒜_i` contained in `X_i`, and the sheaf induced by `𝒜_i`
-on `X_i` being a simple sheaf whose fibre `A_i` is an algebra over `𝒪_{ξ_i}`. It is then clear (6.3.4) that the integral
-closure `𝒪'_X` of `𝒪_X` in `𝒜` is the direct sum of the integral closures `𝒪_X^{(i)}` of `𝒪_X` in each of the `𝒜_i`, and
-consequently the integral closure `X' = Spec(𝒪'_X)` of `X` relative to `𝒜` is an `X`-scheme that is the sum of the
-`Spec(𝒪_X^{(i)}) = X'_i` (`1 ≤ i ≤ r`).
+Suppose that $X$ has only a finite number of irreducible components $X_{i}$ ($1 \leq i \leq r$), with generic points
+$\xi_{i}$, and consider in particular the integral closure of $X$ relative to a quasi-coherent $\mathcal{R}(X)$-algebra
+$\mathcal{A}$ (quasi-coherent as an $\mathcal{O}_{X}$-algebra or as an $\mathcal{R}(X)$-algebra, which amounts to the
+same thing). We know `(I, 7.3.5)` that $\mathcal{A}$ is a direct sum of $r$ quasi-coherent $\mathcal{O}_{X}$-algebras
+$\mathcal{A}_{i}$, with the support of $\mathcal{A}_{i}$ contained in $X_{i}$, and the sheaf induced by
+$\mathcal{A}_{i}$ on $X_{i}$ being a simple sheaf whose fibre $A_{i}$ is an algebra over $\mathcal{O}_{\xi_{i}}$. It is
+then clear (6.3.4) that the integral closure $\mathcal{O}'_{X}$ of $\mathcal{O}_{X}$ in $\mathcal{A}$ is the direct sum
+of the integral closures $\mathcal{O}^{(i)}_{X}$ of $\mathcal{O}_{X}$ in each of the $\mathcal{A}_{i}$, and consequently
+the integral closure $X' = \operatorname{Spec}(\mathcal{O}'_{X})$ of $X$ relative to $\mathcal{A}$ is an $X$-scheme that
+is the sum of the $\operatorname{Spec}(\mathcal{O}^{(i)}_{X}) = X'_{i}$ ($1 \leq i \leq r$).
 
-Suppose further that the `𝒪_X`-algebra `𝒜` is reduced, or, equivalently, that each of the algebras `A_i` is reduced, and
-hence may be considered as an algebra over the field `κ(ξ_i)` (equal to the field of rational functions of the reduced
-subprescheme of `X` having `X_i` as its underlying space); then (1.3.8) each of the `X'_i` is a reduced `X`-scheme and
-`X'` is also the integral closure of `X_red`. Suppose moreover that each of the algebras `A_i` is a direct sum of a
-finite number of fields `K_{ij}` (`1 ≤ j ≤ s_i`); if `𝒦_{ij}` is the sub-algebra of `𝒜_i` corresponding to `K_{ij}`, it
-is clear that `𝒪_X^{(i)}` is the direct sum of the integral closures `𝒪_X^{(ij)}` of `𝒪_X` in each of the `𝒦_{ij}`.
-Consequently, `X'_i` is then the sum of the `X`-schemes `X'_{ij} = Spec(𝒪_X^{(ij)})` (`1 ≤ j ≤ s_i`). Furthermore, under
-these hypotheses and with this notation:
+Suppose further that the $\mathcal{O}_{X}$-algebra $\mathcal{A}$ is reduced, or, equivalently, that each of the algebras
+$A_{i}$ is reduced, and hence may be considered as an algebra over the field $\kappa(\xi_{i})$ (equal to the field of
+rational functions of the reduced subprescheme of $X$ having $X_{i}$ as its underlying space); then (1.3.8) each of the
+$X'_{i}$ is a reduced $X$-scheme and $X'$ is also the integral closure of $X_{red}$. Suppose moreover that each of the
+algebras $A_{i}$ is a direct sum of a finite number of fields $K_{ij}$ ($1 \leq j \leq s_{i}$); if $\mathcal{K}_{ij}$ is
+the sub-algebra of $\mathcal{A}_{i}$ corresponding to $K_{ij}$, it is clear that $\mathcal{O}^{(i)}_{X}$ is the direct
+sum of the integral closures $\mathcal{O}^{(ij)}_{X}$ of $\mathcal{O}_{X}$ in each of the $\mathcal{K}_{ij}$.
+Consequently, $X'_{i}$ is then the sum of the $X$-schemes $X'_{ij} = \operatorname{Spec}(\mathcal{O}^{(ij)}_{X})$ ($1
+\leq j \leq s_{i}$). Furthermore, under these hypotheses and with this notation:
 
 <!-- original page 119 -->
 
@@ -533,41 +565,44 @@ these hypotheses and with this notation:
 
 <!-- label: II.6.3.7 -->
 
-Each of the `X'_{ij}` is an integral normal `X`-prescheme, and its field of rational functions `R(X'_{ij})` is
-canonically identified with the algebraic closure `K'_{ij}` of `κ(ξ_i)` in `K_{ij}`.
+Each of the $X'_{ij}$ is an integral normal $X$-prescheme, and its field of rational functions $R(X'_{ij})$ is
+canonically identified with the algebraic closure $K'_{ij}$ of $\kappa(\xi_{i})$ in $K_{ij}$.
 
-**Proof.** By the above, we may assume `X` integral, so `r = 1` and `s_1 = 1`, so that the unique algebra `A_1` is a
-field `K`; let `ξ` be the generic point of `X`, and let `f : X' → X` be the structure morphism. For every non-empty
-affine open `U` of `X`, `f⁻¹(U)` is identified with the spectrum of the integral closure `B'_U` in the field `K` of the
-integral ring `B_U = Γ(U, 𝒪_X)` (6.3.4); since the ring `B'_U` is integral and integrally closed, so are the local rings
-of the points of its spectrum, hence `f⁻¹(U)` is by definition an integral and normal scheme (`(0, 4.1.4)` and
-`(I, 5.1.4)`). Moreover, since `(0)` is the only prime ideal of `B'_U` above the prime ideal `(0)` of `B_U` ([13], t. I,
-p. 259), `f⁻¹(ξ)` reduces to a single point `ξ'`, and `κ(ξ')` is the field of fractions `K'` of `B'_U`, which is none
-other than the algebraic closure of `κ(ξ)` in `K`. Finally, `X'` is irreducible, because as `U` runs over the non-empty
-affine opens of `X`, the `f⁻¹(U)` constitute an open cover of `X'` by irreducible opens; moreover, the intersection
-`f⁻¹(U ∩ V)` of two such opens contains `ξ'`, hence is non-empty, and we conclude by `(0, 2.1.4)`.
+**Proof.** By the above, we may assume $X$ integral, so $r = 1$ and $s_{1} = 1$, so that the unique algebra `A_1` is a
+field $K$; let $\xi$ be the generic point of $X$, and let $f : X' \to X$ be the structure morphism. For every non-empty
+affine open $U$ of $X$, $f^{-1}(U)$ is identified with the spectrum of the integral closure $B'_{U}$ in the field $K$ of
+the integral ring $B_{U} = \Gamma(U, \mathcal{O}_{X})$ (6.3.4); since the ring $B'_{U}$ is integral and integrally
+closed, so are the local rings of the points of its spectrum, hence $f^{-1}(U)$ is by definition an integral and normal
+scheme (`(0, 4.1.4)` and `(I, 5.1.4)`). Moreover, since `(0)` is the only prime ideal of $B'_{U}$ above the prime ideal
+`(0)` of `B_U` ([13], t. I, p. 259), $f^{-1}(\xi)$ reduces to a single point $\xi'$, and $\kappa(\xi')$ is the field of
+fractions $K'$ of $B'_{U}$, which is none other than the algebraic closure of $\kappa(\xi)$ in $K$. Finally, $X'$ is
+irreducible, because as $U$ runs over the non-empty affine opens of $X$, the $f^{-1}(U)$ constitute an open cover of
+$X'$ by irreducible opens; moreover, the intersection $f^{-1}(U \cap V)$ of two such opens contains $\xi'$, hence is
+non-empty, and we conclude by `(0, 2.1.4)`.
 
 **Corollary.**
 
 <!-- label: II.6.3.8 -->
 
-Let `X` be a reduced prescheme having only a finite number of irreducible components `X_i` (`1 ≤ i ≤ r`), and let `ξ_i`
-be the generic point of `X_i`. The integral closure `X'` of `X` relative to `ℛ(X)` is the sum of `r` `X`-schemes `X'_i`
-which are integral and normal. If `f : X' → X` is the structure morphism, then `f⁻¹(ξ_i)` reduces to the generic point
-`ξ'_i` of `X'_i` and we have `κ(ξ'_i) = κ(ξ_i)`; in other words, `f` is birational.
+Let $X$ be a reduced prescheme having only a finite number of irreducible components $X_{i}$ ($1 \leq i \leq r$), and
+let $\xi_{i}$ be the generic point of $X_{i}$. The integral closure $X'$ of $X$ relative to $\mathcal{R}(X)$ is the sum
+of $r$ $X$-schemes $X'_{i}$ which are integral and normal. If $f : X' \to X$ is the structure morphism, then
+$f^{-1}(\xi_{i})$ reduces to the generic point $\xi'_{i}$ of $X'_{i}$ and we have $\kappa(\xi'_{i}) = \kappa(\xi_{i})$;
+in other words, $f$ is birational.
 
-In this case we say that `X'` is the _normalisation_ of the reduced prescheme `X`; note that `f`, being birational and
-integral, is surjective (6.1.10). In order to have `X' = X`, it is necessary and sufficient that `X` be normal. When `X`
-is an integral prescheme, it follows from (6.3.8) that its normalisation `X'` is integral.
+In this case we say that $X'$ is the _normalisation_ of the reduced prescheme $X$; note that $f$, being birational and
+integral, is surjective (6.1.10). In order to have $X' = X$, it is necessary and sufficient that $X$ be normal. When $X$
+is an integral prescheme, it follows from (6.3.8) that its normalisation $X'$ is integral.
 
 **(6.3.9)**
 
 <!-- label: II.6.3.9 -->
 
-Let `X`, `Y` be two integral preschemes, `f : X → Y` a dominant morphism, `L = R(X)`, `K = R(Y)` the fields of rational
-functions of `X` and `Y`; there canonically corresponds to `f` an injection `K → L`, and when we identify `K` (resp.
-`L`) with the simple sheaf `ℛ(Y)` (resp. `ℛ(X)`), this injection is an `f`-morphism. Let `K₁` (resp. `L₁`) be an
-extension of `K` (resp. `L`) and suppose given a monomorphism `K₁ → L₁` such that the diagram
+Let $X$, $Y$ be two integral preschemes, $f : X \to Y$ a dominant morphism, $L = R(X)$, $K = R(Y)$ the fields of
+rational functions of $X$ and $Y$; there canonically corresponds to $f$ an injection $K \to L$, and when we identify $K$
+(resp. $L$) with the simple sheaf $\mathcal{R}(Y)$ (resp. $\mathcal{R}(X)$), this injection is an $f$-morphism. Let
+$K_{1}$ (resp. $L_{1}$) be an extension of $K$ (resp. $L$) and suppose given a monomorphism $K_{1} \to L_{1}$ such that
+the diagram
 
 ```text
   K₁ ────→ L₁
@@ -575,67 +610,70 @@ extension of `K` (resp. `L`) and suppose given a monomorphism `K₁ → L₁` su
   K ─────→ L
 ```
 
-commutes; if `K₁` (resp. `L₁`) is considered as a simple sheaf on `Y` (resp. `X`), hence as an `ℛ(Y)`-algebra (resp. an
-`ℛ(X)`-algebra), this means that `K₁ → L₁` is an `f`-morphism. With this, if `X'` (resp. `Y'`) is the integral closure
-of `X` (resp. `Y`) relative to `L₁` (resp. `K₁`), then `X'` (resp. `Y'`) is an integral normal prescheme (6.3.6) whose
-field of rational functions is canonically identified with the algebraic closure `L'` (resp. `K'`)
+commutes; if $K_{1}$ (resp. $L_{1}$) is considered as a simple sheaf on $Y$ (resp. $X$), hence as an
+$\mathcal{R}(Y)$-algebra (resp. an $\mathcal{R}(X)$-algebra), this means that $K_{1} \to L_{1}$ is an $f$-morphism. With
+this, if $X'$ (resp. $Y'$) is the integral closure of $X$ (resp. $Y$) relative to $L_{1}$ (resp. $K_{1}$), then $X'$
+(resp. $Y'$) is an integral normal prescheme (6.3.6) whose field of rational functions is canonically identified with
+the algebraic closure $L'$ (resp. $K'$)
 
 <!-- original page 120 -->
 
-of `L` (resp. `K`) in `L₁` (resp. `K₁`), and there exists a canonical (necessarily dominant) morphism `f' : X' → Y'`
-making the diagram (6.3.5.1) commute.
+of $L$ (resp. $K$) in $L_{1}$ (resp. $K_{1}$), and there exists a canonical (necessarily dominant) morphism $f' : X' \to
+Y'$ making the diagram (6.3.5.1) commute.
 
-The most important case is that in which one takes `L₁ = L`, so `K₁` is then an extension of `K` contained in `L`, and
-one supposes `X` integral and normal, hence `X' = X`. What precedes then shows that when `X` is normal, and `Y'` is the
-integral closure of `Y` relative to a field `K₁ ⊂ L = R(X)`, every dominant morphism `f : X → Y` factors as
+The most important case is that in which one takes $L_{1} = L$, so $K_{1}$ is then an extension of $K$ contained in $L$,
+and one supposes $X$ integral and normal, hence $X' = X$. What precedes then shows that when $X$ is normal, and $Y'$ is
+the integral closure of $Y$ relative to a field $K_{1} \subset L = R(X)$, every dominant morphism $f : X \to Y$ factors
+as
 
 ```text
   f : X →^{f'} Y' → Y
 ```
 
-where `f'` is dominant; moreover, when the monomorphism `K₁ → L` is given, `f'` is necessarily unique, as one sees by
-reducing to the case where `X` and `Y` are affine. We thus see that, for the data of `Y`, `L`, and a `K`-monomorphism
-`K₁ → L`, the integral closure `Y'` of `Y` relative to `K₁` is the solution of a universal problem.
+where $f'$ is dominant; moreover, when the monomorphism $K_{1} \to L$ is given, $f'$ is necessarily unique, as one sees
+by reducing to the case where $X$ and $Y$ are affine. We thus see that, for the data of $Y$, $L$, and a $K$-monomorphism
+$K_{1} \to L$, the integral closure $Y'$ of $Y$ relative to $K_{1}$ is the solution of a universal problem.
 
 **Remark.**
 
 <!-- label: II.6.3.10 -->
 
-Let us take up the hypotheses of (6.3.6), supposing further that each of the algebras `A_i` is of finite rank over
-`κ(ξ_i)` (which implies that `A_i` is a direct sum of a finite number of fields); we can assert in certain cases that
-the structure morphism `X' → X` is not only integral, but even finite. Let us restrict to the case where `X` is reduced;
-since the question is local on `X`, we may further assume that `X` is affine of ring `C`, and that `C` has only a finite
-number of minimal ideals `𝔭_i` (`1 ≤ i ≤ r`) such that the `C_i = C/𝔭_i` are integral; then `X'` will be finite over `X`
-if the integral closure of each `C_i` in every extension of finite degree of its field of fractions is a `C`-module of
-finite type (6.3.4). We know that this condition is always satisfied when `C` is an algebra of finite type over a field
-([13], t. I, p. 267, th. 9), or over `ℤ` ([9, I, p. 93, th. 3]), or over a complete local Noetherian ring ([25], p.
-298). We conclude that `X' → X` will be a finite morphism whenever `X` is a scheme of finite type over a field, over
-`ℤ`, or over a complete local Noetherian ring.
+Let us take up the hypotheses of (6.3.6), supposing further that each of the algebras $A_{i}$ is of finite rank over
+$\kappa(\xi_{i})$ (which implies that $A_{i}$ is a direct sum of a finite number of fields); we can assert in certain
+cases that the structure morphism $X' \to X$ is not only integral, but even finite. Let us restrict to the case where
+$X$ is reduced; since the question is local on $X$, we may further assume that $X$ is affine of ring $C$, and that $C$
+has only a finite number of minimal ideals $\mathfrak{p}_{i}$ ($1 \leq i \leq r$) such that the $C_{i} =
+C/\mathfrak{p}_{i}$ are integral; then $X'$ will be finite over $X$ if the integral closure of each $C_{i}$ in every
+extension of finite degree of its field of fractions is a $C$-module of finite type (6.3.4). We know that this condition
+is always satisfied when $C$ is an algebra of finite type over a field ([13], t. I, p. 267, th. 9), or over $\mathbb{Z}$
+([9, I, p. 93, th. 3]), or over a complete local Noetherian ring ([25], p. 298). We conclude that $X' \to X$ will be a
+finite morphism whenever $X$ is a scheme of finite type over a field, over $\mathbb{Z}$, or over a complete local
+Noetherian ring.
 
-## 6.4. Determinant of an endomorphism of an `𝒪_X`-module
+## 6.4. Determinant of an endomorphism of an $\mathcal{O}_{X}$-module
 
 **(6.4.1)**
 
 <!-- label: II.6.4.1 -->
 
-Let `A` be a (commutative) ring, `E` a free `A`-module of rank `n`, `u` an endomorphism of `E`; we recall that to define
-the _characteristic polynomial_ of `u`, one considers the endomorphism `u ⊗ 1` of the free `A[T]`-module of rank `n`,
-`E ⊗_A A[T]` (`T` an indeterminate), and one sets
+Let $A$ be a (commutative) ring, $E$ a free $A$-module of rank $n$, $u$ an endomorphism of $E$; we recall that to define
+the _characteristic polynomial_ of $u$, one considers the endomorphism $u \otimes 1$ of the free `A[T]`-module of rank
+$n$, $E \otimes_{A} A[T]$ ($T$ an indeterminate), and one sets
 
 ```text
   P(u, T) = det(T · I − (u ⊗ 1))                                            (6.4.1.1)
 ```
 
-(`I` the identity automorphism of `E ⊗_A A[T]`). We have
+($I$ the identity automorphism of $E \otimes_{A} A[T]$). We have
 
 ```text
   P(u, T) = T^n − σ₁(u) T^{n−1} + … + (−1)^n σ_n(u)                         (6.4.1.2)
 ```
 
-where `σ_i(u)` is an element of `A`, equal to a homogeneous polynomial of degree `i` (with integer coefficients) in the
-entries of the matrix of `u` relative to an arbitrary basis of `E`; we say that the `σ_i(u)` are the _elementary
-symmetric functions_ of `u`, and in particular we have `σ₁(u) = Tr u` and `σ_n(u) = det u`. Recall that, by the
-Hamilton–Cayley theorem, we have
+where $\sigma_{i}(u)$ is an element of $A$, equal to a homogeneous polynomial of degree $i$ (with integer coefficients)
+in the entries of the matrix of $u$ relative to an arbitrary basis of $E$; we say that the $\sigma_{i}(u)$ are the
+_elementary symmetric functions_ of $u$, and in particular we have $\sigma_{1}(u) = Tr u$ and $\sigma_{n}(u) = det u$.
+Recall that, by the Hamilton–Cayley theorem, we have
 
 ```text
   P(u, u) = u^n − σ₁(u) u^{n−1} + … + (−1)^n σ_n(u) = 0                     (6.4.1.3)
@@ -649,54 +687,56 @@ which can also be written as
   (det u) · I_E = u · Q(u)                                                  (6.4.1.4)
 ```
 
-(`I_E` the identity automorphism of `E`), with
+(`I_E` the identity automorphism of $E$), with
 
 ```text
   Q(u) = (−1)^{n+1} (u^{n−1} − σ₁(u) u^{n−2} + … + (−1)^{n−1} σ_{n−1}(u)).  (6.4.1.5)
 ```
 
-Let `φ : A → B` be a ring homomorphism, making `B` an `A`-algebra; consider the `B`-module `E_{(B)} = E ⊗_A B`, which is
-free of rank `n`, and the extension `u ⊗ 1` of `u` to an endomorphism of `E_{(B)}`; it is immediate that one has
-`σ_i(u ⊗ 1) = φ(σ_i(u))` for every index `i`.
+Let $\phi : A \to B$ be a ring homomorphism, making $B$ an $A$-algebra; consider the $B$-module $E_{(B)} = E \otimes_{A}
+B$, which is free of rank $n$, and the extension $u \otimes 1$ of $u$ to an endomorphism of $E_{(B)}$; it is immediate
+that one has $\sigma_{i}(u \otimes 1) = \phi(\sigma_{i}(u))$ for every index $i$.
 
 **(6.4.2)**
 
 <!-- label: II.6.4.2 -->
 
-Now suppose that `A` is an integral ring, with field of fractions `K`, and let `E` be an `A`-module of finite type (but
-not necessarily free). Let `n` be the _rank_ of `E`, i.e. the rank of the free `K`-module `E ⊗_A K`; to every
-endomorphism `u` of `E` canonically corresponds the endomorphism `u ⊗ 1` of `E ⊗_A K`; by abuse of language, we still
-call _characteristic polynomial_ of `u`, and denote by `P(u, T)`, the polynomial `P(u ⊗ 1, T)`, whose coefficients
-`σ_i(u ⊗ 1)` (which belong to `K`) we also denote by `σ_i(u)` and call the _elementary symmetric functions_ of `u`; in
-particular `det u = det(u ⊗ 1)` by definition. With this notation, formulas (6.4.1.3) to (6.4.1.5) make sense and remain
-valid, provided one interprets `u^j` as the homomorphism `E → E ⊗_A K` obtained by composing the endomorphism
-`u^j ⊗ 1 = (u ⊗ 1)^j` of `E ⊗_A K` with the canonical homomorphism `x ↦ x ⊗ 1`.
+Now suppose that $A$ is an integral ring, with field of fractions $K$, and let $E$ be an $A$-module of finite type (but
+not necessarily free). Let $n$ be the _rank_ of $E$, i.e. the rank of the free $K$-module $E \otimes_{A} K$; to every
+endomorphism $u$ of $E$ canonically corresponds the endomorphism $u \otimes 1$ of $E \otimes_{A} K$; by abuse of
+language, we still call _characteristic polynomial_ of $u$, and denote by $P(u, T)$, the polynomial $P(u \otimes 1, T)$,
+whose coefficients $\sigma_{i}(u \otimes 1)$ (which belong to $K$) we also denote by $\sigma_{i}(u)$ and call the
+_elementary symmetric functions_ of $u$; in particular $det u = det(u \otimes 1)$ by definition. With this notation,
+formulas (6.4.1.3) to (6.4.1.5) make sense and remain valid, provided one interprets $u^{j}$ as the homomorphism $E \to
+E \otimes_{A} K$ obtained by composing the endomorphism $u^{j} \otimes 1 = (u \otimes 1)^{j}$ of $E \otimes_{A} K$ with
+the canonical homomorphism $x \mapsto x \otimes 1$.
 
-If `F` is the torsion submodule of `E` and if `E₀ = E/F`, then `u(F) ⊂ F`, hence, by passage to quotients, `u` gives an
-endomorphism `u₀` of `E₀`; moreover, `E ⊗_A K` is identified with `E₀ ⊗_A K` and `u ⊗ 1` with `u₀ ⊗ 1`, hence
-`σ_i(u) = σ_i(u₀)` for `1 ≤ i ≤ n`.
+If $F$ is the torsion submodule of $E$ and if $E_{0} = E/F$, then $u(F) \subset F$, hence, by passage to quotients, $u$
+gives an endomorphism $u_{0}$ of $E_{0}$; moreover, $E \otimes_{A} K$ is identified with $E_{0} \otimes_{A} K$ and $u
+\otimes 1$ with $u_{0} \otimes 1$, hence $\sigma_{i}(u) = \sigma_{i}(u_{0})$ for $1 \leq i \leq n$.
 
-When `E` is torsion-free, `E` is canonically identified with a sub-`A`-module of `E ⊗_A K`, and the relation `u ⊗ 1 = 0`
-is equivalent to `u = 0`. When `E` is a free `A`-module, the two definitions of `σ_i(u)` given in (6.4.1) and (6.4.2)
-coincide by the above, which justifies the notation adopted.
+When $E$ is torsion-free, $E$ is canonically identified with a sub-$A$-module of $E \otimes_{A} K$, and the relation $u
+\otimes 1 = 0$ is equivalent to $u = 0$. When $E$ is a free $A$-module, the two definitions of $\sigma_{i}(u)$ given in
+(6.4.1) and (6.4.2) coincide by the above, which justifies the notation adopted.
 
-Note also that when `E` is a torsion module — in other words, `E₀ = {0}` — the exterior algebra of `E₀` reduces to `K`
-and the determinant of the unique endomorphism `u₀` of `E₀` is _equal to_ `1`.
+Note also that when $E$ is a torsion module — in other words, $E_{0} = {0}$ — the exterior algebra of $E_{0}$ reduces to
+$K$ and the determinant of the unique endomorphism $u_{0}$ of $E_{0}$ is _equal to_ `1`.
 
 **Proposition.**
 
 <!-- label: II.6.4.3 -->
 
-Let `A` be an integral ring, `E` an `A`-module of finite type, `u` an endomorphism of `E`; then the elementary symmetric
-functions `σ_i(u)` of `u` (and in particular `det u`) are elements of `K` integral over `A`.
+Let $A$ be an integral ring, $E$ an $A$-module of finite type, $u$ an endomorphism of $E$; then the elementary symmetric
+functions $\sigma_{i}(u)$ of $u$ (and in particular `det u`) are elements of $K$ integral over $A$.
 
-**Proof.** Let `A'` be the integral closure of `A`; since `A'[T]` is an integrally closed ring ([24], p. 99), it is the
-integral closure of `A[T]` in its field of fractions `K(T)`. Replacing `u` by `T · I − u ⊗ 1` and `A` by `A[T]`, we see
-that we are reduced to proving that `det u` is integral over `A`. If `n` is the rank of `E`, we have
-`det u = det(⋀^n u)` and `(⋀^n u) ⊗ 1 = ⋀^n(u ⊗ 1)`, so we may assume `n = 1`. But then the map `u ↦ det u` is a
-homomorphism from the `A`-module `Hom_A(E, E)` to `K`; since `E` is of finite type, `Hom_A(E, E)` is isomorphic to a
-sub-`A`-module of the `A`-module of finite type `E^n` (if `E` admits a system of `n` generators), so the elements
-`det u` belong to a sub-`A`-module of `K` of finite type, and are consequently integral over `A`.
+**Proof.** Let $A'$ be the integral closure of $A$; since `A'[T]` is an integrally closed ring ([24], p. 99), it is the
+integral closure of `A[T]` in its field of fractions $K(T)$. Replacing $u$ by $T \cdot I - u \otimes 1$ and $A$ by
+`A[T]`, we see that we are reduced to proving that `det u` is integral over $A$. If $n$ is the rank of $E$, we have $det
+u = det(\bigwedge^{n} u)$ and $(\bigwedge^{n} u) \otimes 1 = \bigwedge^{n}(u \otimes 1)$, so we may assume $n = 1$. But
+then the map $u \mapsto det u$ is a homomorphism from the $A$-module $\operatorname{Hom}_{A}(E, E)$ to $K$; since $E$ is
+of finite type, $\operatorname{Hom}_{A}(E, E)$ is isomorphic to a sub-$A$-module of the $A$-module of finite type
+$E^{n}$ (if $E$ admits a system of $n$ generators), so the elements `det u` belong to a sub-$A$-module of $K$ of finite
+type, and are consequently integral over $A$.
 
 <!-- original page 122 -->
 
@@ -704,41 +744,41 @@ sub-`A`-module of the `A`-module of finite type `E^n` (if `E` admits a system of
 
 <!-- label: II.6.4.4 -->
 
-Under the hypotheses of (6.4.3), if we further suppose `A` normal, then the `σ_i(u)` (in particular `Tr u` and `det u`)
-belong to `A`.
+Under the hypotheses of (6.4.3), if we further suppose $A$ normal, then the $\sigma_{i}(u)$ (in particular `Tr u` and
+`det u`) belong to $A$.
 
 **Proposition.**
 
 <!-- label: II.6.4.5 -->
 
-Let `A` be an integral ring, `E` an `A`-module of finite type of rank `n`, `u` an endomorphism of `E` such that the
-`σ_i(u)` belong to `A`. For `u` to be an automorphism of `E`, it is necessary that `det u` be invertible in `A`; this
-condition is sufficient when `E` is torsion-free.
+Let $A$ be an integral ring, $E$ an $A$-module of finite type of rank $n$, $u$ an endomorphism of $E$ such that the
+$\sigma_{i}(u)$ belong to $A$. For $u$ to be an automorphism of $E$, it is necessary that `det u` be invertible in $A$;
+this condition is sufficient when $E$ is torsion-free.
 
-**Proof.** The condition is sufficient, since the hypothesis and the formulas (6.4.1.4) and (6.4.1.5) (valid in `E`, and
-not only in `E ⊗_A K`, since `E` is torsion-free) prove that `(det u)⁻¹ Q(u)` is the inverse of `u`.
+**Proof.** The condition is sufficient, since the hypothesis and the formulas (6.4.1.4) and (6.4.1.5) (valid in $E$, and
+not only in $E \otimes_{A} K$, since $E$ is torsion-free) prove that $(det u)^{-1} Q(u)$ is the inverse of $u$.
 
-The condition is necessary, since if `u` is invertible, it follows from (6.4.3) that `det(u⁻¹)` belongs to the integral
-closure `A'` of `A` in its field of fractions `K`, and is evidently the inverse of `det u` _in_ `A'`. Our assertion then
-follows from:
+The condition is necessary, since if $u$ is invertible, it follows from (6.4.3) that $det(u^{-1})$ belongs to the
+integral closure $A'$ of $A$ in its field of fractions $K$, and is evidently the inverse of `det u` _in_ $A'$. Our
+assertion then follows from:
 
 **Lemma.**
 
 <!-- label: II.6.4.5.1 -->
 
-Let `A` be a subring of a ring `A'` such that `A'` is integral over `A`. If an element `x ∈ A` is invertible in `A'`, it
-is also invertible in `A`.
+Let $A$ be a subring of a ring $A'$ such that $A'$ is integral over $A$. If an element $x \in A$ is invertible in $A'$,
+it is also invertible in $A$.
 
-**Proof.** In the contrary case, `x` would belong to a maximal ideal `𝔪` of `A`, and it follows from the first theorem
-of Cohen–Seidenberg ([13], t. I, p. 257, th. 3) that there would be a maximal ideal `𝔪'` of `A'` such that `𝔪 = 𝔪' ∩ A`;
-we would then have `x ∈ 𝔪'`, which is absurd.
+**Proof.** In the contrary case, $x$ would belong to a maximal ideal $\mathfrak{m}$ of $A$, and it follows from the
+first theorem of Cohen–Seidenberg ([13], t. I, p. 257, th. 3) that there would be a maximal ideal $\mathfrak{m}'$ of
+$A'$ such that $\mathfrak{m} = \mathfrak{m}' \cap A$; we would then have $x \in \mathfrak{m}'$, which is absurd.
 
 **Corollary.**
 
 <!-- label: II.6.4.6 -->
 
-Let `A` be an integral and integrally closed ring, `E` a torsion-free `A`-module of finite type, `u` an endomorphism of
-`E`. For `u` to be an automorphism of `E`, it is necessary and sufficient that `det u` be invertible in `A`.
+Let $A$ be an integral and integrally closed ring, $E$ a torsion-free $A$-module of finite type, $u$ an endomorphism of
+$E$. For $u$ to be an automorphism of $E$, it is necessary and sufficient that `det u` be invertible in $A$.
 
 **Proof.** This follows from (6.4.4) and (6.4.5).
 
@@ -746,60 +786,65 @@ Let `A` be an integral and integrally closed ring, `E` a torsion-free `A`-module
 
 <!-- label: II.6.4.7 -->
 
-We will need below a generalisation of the preceding results. Consider a reduced Noetherian ring `A`; let `𝔭_α`
-(`1 ≤ α ≤ r`) be its minimal ideals, `K_α` the field of fractions of the integral ring `A/𝔭_α`, `K` the total ring of
-fractions of `A`, the direct sum of the fields `K_α`. Let `E` be an `A`-module of finite type, and suppose that
-`E ⊗_A K` is a free `K`-module of rank `n` (which here is no longer a consequence of the other hypotheses); it amounts
-to the same to say that all the `K_α`-vector spaces `E ⊗_A K_α = E_α` have the same dimension `n`; if then `u` is an
-endomorphism of `E`, we again set `P(u, T) = P(u ⊗ 1, T)` and `σ_j(u) = σ_j(u ⊗ 1)`, and in particular
-`det u = det(u ⊗ 1)`; the `σ_j(u)` are thus elements of `K`. It is immediate that `E ⊗_A K` is the direct sum of the
-`E_α` and that the latter are stable under `u ⊗ 1`; the restriction of `u ⊗ 1` to `E_α` is in fact the extension `u_α`
-of `u` to this `K_α`-vector space; we deduce that `σ_j(u)` is the element of `K` whose components in the `K_α` are the
-`σ_j(u_α)`. Since the integral closure of `A` in `K` is the direct sum of the integral closures of `A` in the `K_α`, the
-`σ_j(u)` are integral over `A`.
+We will need below a generalisation of the preceding results. Consider a reduced Noetherian ring $A$; let
+$\mathfrak{p}_{\alpha}$ ($1 \leq \alpha \leq r$) be its minimal ideals, $K_{\alpha}$ the field of fractions of the
+integral ring $A/\mathfrak{p}_{\alpha}$, $K$ the total ring of fractions of $A$, the direct sum of the fields
+$K_{\alpha}$. Let $E$ be an $A$-module of finite type, and suppose that $E \otimes_{A} K$ is a free $K$-module of rank
+$n$ (which here is no longer a consequence of the other hypotheses); it amounts to the same to say that all the
+$K_{\alpha}$-vector spaces $E \otimes_{A} K_{\alpha} = E_{\alpha}$ have the same dimension $n$; if then $u$ is an
+endomorphism of $E$, we again set $P(u, T) = P(u \otimes 1, T)$ and $\sigma_{j}(u) = \sigma_{j}(u \otimes 1)$, and in
+particular $det u = det(u \otimes 1)$; the $\sigma_{j}(u)$ are thus elements of $K$. It is immediate that $E \otimes_{A}
+K$ is the direct sum of the $E_{\alpha}$ and that the latter are stable under $u \otimes 1$; the restriction of $u
+\otimes 1$ to $E_{\alpha}$ is in fact the extension $u_{\alpha}$ of $u$ to this $K_{\alpha}$-vector space; we deduce
+that $\sigma_{j}(u)$ is the element of $K$ whose components in the $K_{\alpha}$ are the $\sigma_{j}(u_{\alpha})$. Since
+the integral closure of $A$ in $K$ is the direct sum of the integral closures of $A$ in the $K_{\alpha}$, the
+$\sigma_{j}(u)$ are integral over $A$.
 
 **Lemma.**
 
 <!-- label: II.6.4.7.1 -->
 
-The sub-`A`-algebra of `K` generated by all the elements `σ_j(u)` (`1 ≤ j ≤ n`), as `u` runs over `Hom_A(E, E)`, is an
-`A`-module of finite type.
+The sub-$A$-algebra of $K$ generated by all the elements $\sigma_{j}(u)$ ($1 \leq j \leq n$), as $u$ runs over
+$\operatorname{Hom}_{A}(E, E)$, is an $A$-module of finite type.
 
-**Proof.** It suffices to prove that the sub-`A[T]`-algebra of `K[T]` generated by the `P(u, T)` is an `A[T]`-module of
-finite type, since if the `F_i(T)` (`1 ≤ i ≤ m`) form a system of generators of this `A[T]`-module, then the
-coefficients of the `F_i(T)` are integral over `A`, hence generate an `A`-algebra which is an `A`-module of finite type
-([13], t. I, p. 255, th. 1). We may therefore
+**Proof.** It suffices to prove that the sub-`A[T]`-algebra of `K[T]` generated by the $P(u, T)$ is an `A[T]`-module of
+finite type, since if the $F_{i}(T)$ ($1 \leq i \leq m$) form a system of generators of this `A[T]`-module, then the
+coefficients of the $F_{i}(T)$ are integral over $A$, hence generate an $A$-algebra which is an $A$-module of finite
+type ([13], t. I, p. 255, th. 1). We may therefore
 
 <!-- original page 123 -->
 
-replace `A` by `A[T]` (which is Noetherian) and `E` by `E ⊗_A A[T] = E'`, which is such that
-`E' ⊗_{A[T]} K[T] = E ⊗_A K[T]` is a free `K[T]`-module of rank `n`. Returning to the initial notation, we therefore see
-that it suffices to prove that the `A`-module generated by the elements `det u`, as `u` runs over `Hom_A(E, E)`, is of
-finite type; _a fortiori_ (since every submodule of an `A`-module of finite type is of finite type) it suffices to prove
-that as `v` runs over the set of endomorphisms of `⋀^n E`, the `A`-module generated by the `det v` is of finite type; in
-other words, we are again reduced to the case `n = 1`. But then the proposition follows from the fact that `Hom_A(E, E)`
-is an `A`-module of finite type, and that `v ↦ det v` is a homomorphism from this `A`-module to `K`.
+replace $A$ by `A[T]` (which is Noetherian) and $E$ by $E \otimes_{A} A[T] = E'$, which is such that $E' \otimes_{A[T]}
+K[T] = E \otimes_{A} K[T]$ is a free `K[T]`-module of rank $n$. Returning to the initial notation, we therefore see that
+it suffices to prove that the $A$-module generated by the elements `det u`, as $u$ runs over $\operatorname{Hom}_{A}(E,
+E)$, is of finite type; _a fortiori_ (since every submodule of an $A$-module of finite type is of finite type) it
+suffices to prove that as $v$ runs over the set of endomorphisms of $\bigwedge^{n} E$, the $A$-module generated by the
+`det v` is of finite type; in other words, we are again reduced to the case $n = 1$. But then the proposition follows
+from the fact that $\operatorname{Hom}_{A}(E, E)$ is an $A$-module of finite type, and that $v \mapsto det v$ is a
+homomorphism from this $A$-module to $K$.
 
-Let `F` be the kernel of the canonical homomorphism `E → E ⊗_A K` and let `E₀ = E/F`; we see as above that `E ⊗_A K` is
-identified with `E₀ ⊗_A K`, that `u(F) ⊂ F`, and that if `u₀` is the endomorphism of `E₀` deduced from `u` by passage to
-quotients, then `u ⊗ 1` is identified with `u₀ ⊗ 1`, and `σ_j(u) = σ_j(u₀)` for every `j`. _If we have_ `F = 0`, then
-formulas (6.4.1.3) and (6.4.1.5) make sense and remain valid when `E` is identified with a submodule of `E ⊗_A K` and
-the `u^j` with homomorphisms `E → E ⊗_A K`; consequently, Proposition (6.4.5) also extends to this case, with the same
-proof.
+Let $F$ be the kernel of the canonical homomorphism $E \to E \otimes_{A} K$ and let $E_{0} = E/F$; we see as above that
+$E \otimes_{A} K$ is identified with $E_{0} \otimes_{A} K$, that $u(F) \subset F$, and that if $u_{0}$ is the
+endomorphism of $E_{0}$ deduced from $u$ by passage to quotients, then $u \otimes 1$ is identified with $u_{0} \otimes
+1$, and $\sigma_{j}(u) = \sigma_{j}(u_{0})$ for every $j$. _If we have_ $F = 0$, then formulas (6.4.1.3) and (6.4.1.5)
+make sense and remain valid when $E$ is identified with a submodule of $E \otimes_{A} K$ and the $u^{j}$ with
+homomorphisms $E \to E \otimes_{A} K$; consequently, Proposition (6.4.5) also extends to this case, with the same proof.
 
 **(6.4.8)**
 
 <!-- label: II.6.4.8 -->
 
-Let `(X, 𝒜)` be a ringed space, `ℰ` a locally free `𝒜`-module (of finite rank), `u` an endomorphism of `ℰ`. There exists
-by hypothesis a base `𝔅` of the topology of `X` such that for every `V ∈ 𝔅`, `ℰ|V` is isomorphic to `𝒜^n|V` (for some
-`n` that may vary with `V`). Let `u` be an endomorphism of `ℰ`; for every `V ∈ 𝔅`, `u_V` is thus an endomorphism of the
-`Γ(V, 𝒜)`-module `Γ(V, ℰ)`, which is free by hypothesis; the determinant `det u_V` is therefore defined and belongs to
-`Γ(V, 𝒜)`. Moreover, if `e₁, …, e_n` form a basis of `Γ(V, ℰ)`, their restrictions to any open `W ⊂ V` form a basis of
-`Γ(W, ℰ)` over `Γ(W, 𝒜)`, so `det u_W` is the restriction of `det u_V` to `W`. There exists therefore a unique section
-of `𝒜` over `X`, which we denote by `det u` and call the _determinant_ of `u`, such that the restriction of `det u` to
-every `V ∈ 𝔅` is `det u_V`. It is clear that for every `x ∈ X` we have `(det u)_x = det u_x`; for two endomorphisms `u`,
-`v` of `ℰ`, we have
+Let $(X, \mathcal{A})$ be a ringed space, $\mathcal{E}$ a locally free $\mathcal{A}$-module (of finite rank), $u$ an
+endomorphism of $\mathcal{E}$. There exists by hypothesis a base $\mathfrak{B}$ of the topology of $X$ such that for
+every $V \in \mathfrak{B}$, $\mathcal{E}|V$ is isomorphic to $\mathcal{A}^{n}|V$ (for some $n$ that may vary with $V$).
+Let $u$ be an endomorphism of $\mathcal{E}$; for every $V \in \mathfrak{B}$, $u_{V}$ is thus an endomorphism of the
+$\Gamma(V, \mathcal{A})$-module $\Gamma(V, \mathcal{E})$, which is free by hypothesis; the determinant $det u_{V}$ is
+therefore defined and belongs to $\Gamma(V, \mathcal{A})$. Moreover, if $e_{1}, \cdots, e_{n}$ form a basis of
+$\Gamma(V, \mathcal{E})$, their restrictions to any open $W \subset V$ form a basis of $\Gamma(W, \mathcal{E})$ over
+$\Gamma(W, \mathcal{A})$, so $det u_{W}$ is the restriction of $det u_{V}$ to $W$. There exists therefore a unique
+section of $\mathcal{A}$ over $X$, which we denote by `det u` and call the _determinant_ of $u$, such that the
+restriction of `det u` to every $V \in \mathfrak{B}$ is $det u_{V}$. It is clear that for every $x \in X$ we have $(det
+u)_{x} = det u_{x}$; for two endomorphisms $u$, $v$ of $\mathcal{E}$, we have
 
 ```text
   det(v ∘ u) = (det v)(det u)                                               (6.4.8.1)
@@ -807,67 +852,76 @@ every `V ∈ 𝔅` is `det u_V`. It is clear that for every `x ∈ X` we have `(
 
 as well as
 
-```text
-  det(1_ℰ) = 1_𝒜                                                            (6.4.8.2)
-```
+$$ det(1_{\mathcal{E}}) = 1_{\mathcal{A}} (6.4.8.2) $$
 
-and, if the rank of `ℰ` is constant (which will be the case `(0, 5.4.1)` if `X` is connected) and equal to `n`,
+and, if the rank of $\mathcal{E}$ is constant (which will be the case `(0, 5.4.1)` if $X$ is connected) and equal to
+$n$,
 
 ```text
   det(s · u) = s^n det u                                                    (6.4.8.3)
 ```
 
-for every `s ∈ Γ(X, 𝒜)` (note that `det(0) = 0_𝒜` if `n ≥ 1`, but `det(0) = 1_𝒜` for `n = 0`). Moreover, for `u` to be
-an automorphism of `ℰ`, it is necessary and sufficient that `det u` be invertible in `Γ(X, 𝒜)`.
+for every $s \in \Gamma(X, \mathcal{A})$ (note that $det(0) = 0_{\mathcal{A}}$ if $n \geq 1$, but $det(0) =
+1_{\mathcal{A}}$ for $n = 0$). Moreover, for $u$ to be an automorphism of $\mathcal{E}$, it is necessary and sufficient
+that `det u` be invertible in $\Gamma(X, \mathcal{A})$.
 
-If the rank of `ℰ` is constant, one can define in the same way the _elementary symmetric functions_ `σ_i(u)`, which are
-elements of `Γ(X, 𝒜)`; the relations (6.4.1.3) to (6.4.1.5) still hold.
+If the rank of $\mathcal{E}$ is constant, one can define in the same way the _elementary symmetric functions_
+$\sigma_{i}(u)$, which are elements of $\Gamma(X, \mathcal{A})$; the relations (6.4.1.3) to (6.4.1.5) still hold.
 
 <!-- original page 124 -->
 
-We have thus defined a homomorphism `det : Hom_𝒜(ℰ, ℰ) → Γ(X, 𝒜)` of multiplicative monoids; if we note that
-`Hom_𝒜(ℰ, ℰ) = Γ(X, 𝓗𝓸𝓶_𝒜(ℰ, ℰ))` by definition, we see that we can replace `X` in this definition by an arbitrary open
-`U` of `X`, which immediately defines a homomorphism `det : 𝓗𝓸𝓶_𝒜(ℰ, ℰ) → 𝒜` of sheaves of multiplicative monoids. When
-`ℰ` has constant rank, one similarly defines homomorphisms `σ_i : 𝓗𝓸𝓶_𝒜(ℰ, ℰ) → 𝒜` of sheaves of sets; for `i = 1`, the
-homomorphism `σ_1 = Tr` is a homomorphism of `𝒜`-modules.
+We have thus defined a homomorphism $det : \operatorname{Hom}_{\mathcal{A}}(\mathcal{E}, \mathcal{E}) \to \Gamma(X,
+\mathcal{A})$ of multiplicative monoids; if we note that $\operatorname{Hom}_{\mathcal{A}}(\mathcal{E}, \mathcal{E}) =
+\Gamma(X, \operatorname{Hom}_{\mathcal{A}}(\mathcal{E}, \mathcal{E}))$ by definition, we see that we can replace $X$ in
+this definition by an arbitrary open $U$ of $X$, which immediately defines a homomorphism $det :
+\operatorname{Hom}_{\mathcal{A}}(\mathcal{E}, \mathcal{E}) \to \mathcal{A}$ of sheaves of multiplicative monoids. When
+$\mathcal{E}$ has constant rank, one similarly defines homomorphisms $\sigma_{i} :
+\operatorname{Hom}_{\mathcal{A}}(\mathcal{E}, \mathcal{E}) \to \mathcal{A}$ of sheaves of sets; for $i = 1$, the
+homomorphism $\sigma_{1} = Tr$ is a homomorphism of $\mathcal{A}$-modules.
 
-Let `(Y, ℬ)` be a second ringed space, and let `f : (X, 𝒜) → (Y, ℬ)` be a morphism of ringed spaces; if `ℱ` is a locally
-free `ℬ`-module, then `f*(ℱ)` is a locally free `𝒜`-module (of the same rank as `ℱ` if the latter is of constant rank)
-`(0, 5.4.5)`. For every endomorphism `v` of `ℱ`, `f*(v)` is an endomorphism of `f*(ℱ)`, and it follows immediately from
-the definitions that `det f*(v)` is the section of `𝒜 = f*(ℬ)` over `X` which canonically corresponds to
-`det v ∈ Γ(Y, ℬ)`. We can also say that the homomorphism `f*(det) : f*(𝓗𝓸𝓶_ℬ(ℱ, ℱ)) → f*(ℬ) = 𝒜` is the composite
+Let $(Y, \mathcal{B})$ be a second ringed space, and let $f : (X, \mathcal{A}) \to (Y, \mathcal{B})$ be a morphism of
+ringed spaces; if $\mathcal{F}$ is a locally free $\mathcal{B}$-module, then $f*(\mathcal{F})$ is a locally free
+$\mathcal{A}$-module (of the same rank as $\mathcal{F}$ if the latter is of constant rank) `(0, 5.4.5)`. For every
+endomorphism $v$ of $\mathcal{F}$, $f*(v)$ is an endomorphism of $f*(\mathcal{F})$, and it follows immediately from the
+definitions that $det f*(v)$ is the section of $\mathcal{A} = f*(\mathcal{B})$ over $X$ which canonically corresponds to
+$det v \in \Gamma(Y, \mathcal{B})$. We can also say that the homomorphism $f*(det) :
+f*(\operatorname{Hom}_{\mathcal{B}}(\mathcal{F}, \mathcal{F})) \to f*(\mathcal{B}) = \mathcal{A}$ is the composite
 
 ```text
   f*(𝓗𝓸𝓶_ℬ(ℱ, ℱ)) →^{γ^♯} 𝓗𝓸𝓶_𝒜(f*(ℱ), f*(ℱ)) →^{det} 𝒜
 ```
 
-`(0, 4.4.6)`. We have analogous results for the `σ_i`.
+`(0, 4.4.6)`. We have analogous results for the $\sigma_{i}$.
 
 **(6.4.9)**
 
 <!-- label: II.6.4.9 -->
 
-Suppose now that `X` is a locally integral prescheme, so that the sheaf `ℛ(X)` of rational functions on `X` is a locally
-simple sheaf of fields `(I, 7.3.4)`, quasi-coherent as an `𝒪_X`-module. If `ℰ` is a quasi-coherent `𝒪_X`-module of
-finite type, then `ℰ' = ℰ ⊗_{𝒪_X} ℛ(X)` is a locally free `ℛ(X)`-module `(I, 7.3.6)`; for every endomorphism `u` of `ℰ`,
-`u ⊗ 1_{ℛ(X)}` is then an endomorphism of `ℰ'`, and `det(u ⊗ 1)` is a section of `ℛ(X)` over `X`, which we still call
-_determinant_ of `u` and still denote by `det u`. It follows from (6.4.3) that `det u` is a section of the integral
-closure of `𝒪_X` in `ℛ(X)` (6.3.2); if, further, `X` is normal, then `det u` is a section of `𝒪_X` over `X`, and if we
-further suppose that `ℰ` is torsion-free, for `u` to be an automorphism of `ℰ`, it is necessary and sufficient that
-`det u` be invertible, by virtue of (6.4.6). The formulas (6.4.8.1) to (6.4.8.3) still hold; from the homomorphism
-`u ↦ det u`, applied to the modules of sections of `𝓗𝓸𝓶_{𝒪_X}(ℰ, ℰ)`, one deduces a homomorphism of sheaves
-`det : 𝓗𝓸𝓶_{𝒪_X}(ℰ, ℰ) → ℛ(X)`, which takes its values in `𝒪_X` when `X` is normal. We have analogous definitions and
-results for the other elementary symmetric functions `σ_j(u)` when `ℰ'` is of constant rank; if moreover `X` is normal,
-the `σ_j(u)` are sections of `𝒪_X` over `X`.
+Suppose now that $X$ is a locally integral prescheme, so that the sheaf $\mathcal{R}(X)$ of rational functions on $X$ is
+a locally simple sheaf of fields `(I, 7.3.4)`, quasi-coherent as an $\mathcal{O}_{X}$-module. If $\mathcal{E}$ is a
+quasi-coherent $\mathcal{O}_{X}$-module of finite type, then $\mathcal{E}' = \mathcal{E} \otimes_{\mathcal{O}_{X}}
+\mathcal{R}(X)$ is a locally free $\mathcal{R}(X)$-module `(I, 7.3.6)`; for every endomorphism $u$ of $\mathcal{E}$, $u
+\otimes 1_{\mathcal{R}(X)}$ is then an endomorphism of $\mathcal{E}'$, and $det(u \otimes 1)$ is a section of
+$\mathcal{R}(X)$ over $X$, which we still call _determinant_ of $u$ and still denote by `det u`. It follows from (6.4.3)
+that `det u` is a section of the integral closure of $\mathcal{O}_{X}$ in $\mathcal{R}(X)$ (6.3.2); if, further, $X$ is
+normal, then `det u` is a section of $\mathcal{O}_{X}$ over $X$, and if we further suppose that $\mathcal{E}$ is
+torsion-free, for $u$ to be an automorphism of $\mathcal{E}$, it is necessary and sufficient that `det u` be invertible,
+by virtue of (6.4.6). The formulas (6.4.8.1) to (6.4.8.3) still hold; from the homomorphism $u \mapsto det u$, applied
+to the modules of sections of $\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{E}, \mathcal{E})$, one deduces a
+homomorphism of sheaves $det : \operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{E}, \mathcal{E}) \to \mathcal{R}(X)$, which
+takes its values in $\mathcal{O}_{X}$ when $X$ is normal. We have analogous definitions and results for the other
+elementary symmetric functions $\sigma_{j}(u)$ when $\mathcal{E}'$ is of constant rank; if moreover $X$ is normal, the
+$\sigma_{j}(u)$ are sections of $\mathcal{O}_{X}$ over $X$.
 
-Finally, let `X`, `Y` be two integral preschemes, and let `f : X → Y` be a dominant morphism. We know that there then
-exists a canonical homomorphism `f*(ℛ(Y)) → ℛ(X)` `(I, 7.3.8)`, whence we obtain, for every quasi-coherent `𝒪_Y`-module
-`ℱ` of finite type, a canonical homomorphism `θ : f*(ℱ ⊗_{𝒪_Y} ℛ(Y)) → f*(ℱ) ⊗_{𝒪_X} ℛ(X)`. If `v` is an
+Finally, let $X$, $Y$ be two integral preschemes, and let $f : X \to Y$ be a dominant morphism. We know that there then
+exists a canonical homomorphism $f*(\mathcal{R}(Y)) \to \mathcal{R}(X)$ `(I, 7.3.8)`, whence we obtain, for every
+quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{F}$ of finite type, a canonical homomorphism $\theta : f*(\mathcal{F}
+\otimes_{\mathcal{O}_{Y}} \mathcal{R}(Y)) \to f*(\mathcal{F}) \otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$. If $v$ is an
 
 <!-- original page 125 -->
 
-endomorphism of `ℱ`, then `f*(v ⊗ 1_{ℛ(Y)})` is an endomorphism of `f*(ℱ ⊗_{𝒪_Y} ℛ(Y))`, and one has a commutative
-diagram
+endomorphism of $\mathcal{F}$, then $f*(v \otimes 1_{\mathcal{R}(Y)})$ is an endomorphism of $f*(\mathcal{F}
+\otimes_{\mathcal{O}_{Y}} \mathcal{R}(Y))$, and one has a commutative diagram
 
 ```text
   f*(ℱ ⊗_{𝒪_Y} ℛ(Y)) ─────f*(v⊗1)────→ f*(ℱ ⊗_{𝒪_Y} ℛ(Y))
@@ -876,22 +930,25 @@ diagram
   f*(ℱ) ⊗_{𝒪_X} ℛ(X) ───f*(v)⊗1────→ f*(ℱ) ⊗_{𝒪_X} ℛ(X)
 ```
 
-One then concludes easily that `det f*(v)` is the canonical image, under the homomorphism `f*(ℛ(Y)) → ℛ(X)`, of the
-section `det v` of `ℛ(Y)`; indeed, one reduces immediately to the case where `X = Spec(A)` and `Y = Spec(B)` are affine,
-`A` and `B` being integral rings with fields of fractions `K` and `L` respectively, the homomorphism `B → A` being
-injective and extending therefore to a monomorphism `L → K`; if `ℱ = M̃`, where `M` is a `B`-module of finite type, the
-rank over `L` of `M ⊗_B L` is equal to that of `(M ⊗_B A) ⊗_A K` over `K`, and `det((u ⊗ 1) ⊗ 1)` is the image in `K` of
-`det(u ⊗ 1)` for every endomorphism `u` of `M`, whence the conclusion.
+One then concludes easily that $det f*(v)$ is the canonical image, under the homomorphism $f*(\mathcal{R}(Y)) \to
+\mathcal{R}(X)$, of the section `det v` of $\mathcal{R}(Y)$; indeed, one reduces immediately to the case where $X =
+\operatorname{Spec}(A)$ and $Y = \operatorname{Spec}(B)$ are affine, $A$ and $B$ being integral rings with fields of
+fractions $K$ and $L$ respectively, the homomorphism $B \to A$ being injective and extending therefore to a monomorphism
+$L \to K$; if $\mathcal{F} = \tilde{M}$, where $M$ is a $B$-module of finite type, the rank over $L$ of $M \otimes_{B}
+L$ is equal to that of $(M \otimes_{B} A) \otimes_{A} K$ over $K$, and $det((u \otimes 1) \otimes 1)$ is the image in
+$K$ of $det(u \otimes 1)$ for every endomorphism $u$ of $M$, whence the conclusion.
 
 **(6.4.10)**
 
 <!-- label: II.6.4.10 -->
 
-Suppose finally that `X` is a locally Noetherian reduced prescheme, so that the sheaf `ℛ(X)` of rational functions on
-`X` is again a quasi-coherent `𝒪_X`-module `(I, 7.3.4)`; let furthermore `ℰ` be a coherent `𝒪_X`-module such that
-`ℰ' = ℰ ⊗_{𝒪_X} ℛ(X)` is locally free (of finite rank). By virtue of (6.4.7), if `ℰ'` is of constant rank, we can, for
-every endomorphism `u` of `ℰ`, define the `σ_j(u)`, which are sections of `ℛ(X)` over `X`. When `ℰ'` is no longer
-assumed of constant rank, we can still define the homomorphism `det : 𝓗𝓸𝓶_{𝒪_X}(ℰ, ℰ) → ℛ(X)`.
+Suppose finally that $X$ is a locally Noetherian reduced prescheme, so that the sheaf $\mathcal{R}(X)$ of rational
+functions on $X$ is again a quasi-coherent $\mathcal{O}_{X}$-module `(I, 7.3.4)`; let furthermore $\mathcal{E}$ be a
+coherent $\mathcal{O}_{X}$-module such that $\mathcal{E}' = \mathcal{E} \otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$ is
+locally free (of finite rank). By virtue of (6.4.7), if $\mathcal{E}'$ is of constant rank, we can, for every
+endomorphism $u$ of $\mathcal{E}$, define the $\sigma_{j}(u)$, which are sections of $\mathcal{R}(X)$ over $X$. When
+$\mathcal{E}'$ is no longer assumed of constant rank, we can still define the homomorphism $det :
+\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{E}, \mathcal{E}) \to \mathcal{R}(X)$.
 
 ## 6.5. Norm of an invertible sheaf
 
@@ -899,92 +956,103 @@ assumed of constant rank, we can still define the homomorphism `det : 𝓗𝓸�
 
 <!-- label: II.6.5.1 -->
 
-Let `(X, 𝒜)` be a ringed space and let `ℬ` be a (commutative) `𝒜`-algebra. The `𝒜`-module `ℬ` is canonically identified
-with a sub-`𝒜`-module of `𝓗𝓸𝓶_𝒜(ℬ, ℬ)`, a section `f` of `ℬ` over an open `U` of `X` being identified with
-multiplication by this section. If `(X, 𝒜)` and `ℬ` satisfy one of the conditions enumerated in (6.4.8), (6.4.9), or
-(6.4.10), we can therefore define `det(f)` (and in certain cases the `σ_j(f)`), which are sections of `𝒜` or of `ℛ(X)`
-over `U`, which we shall call the _norm_ of `f` (resp. the _elementary symmetric functions_ of `f`) and denote by
-`N_{ℬ/𝒜}(f)`. We shall suppose that one of the following conditions is satisfied:
+Let $(X, \mathcal{A})$ be a ringed space and let $\mathcal{B}$ be a (commutative) $\mathcal{A}$-algebra. The
+$\mathcal{A}$-module $\mathcal{B}$ is canonically identified with a sub-$\mathcal{A}$-module of
+$\operatorname{Hom}_{\mathcal{A}}(\mathcal{B}, \mathcal{B})$, a section $f$ of $\mathcal{B}$ over an open $U$ of $X$
+being identified with multiplication by this section. If $(X, \mathcal{A})$ and $\mathcal{B}$ satisfy one of the
+conditions enumerated in (6.4.8), (6.4.9), or (6.4.10), we can therefore define $det(f)$ (and in certain cases the
+$\sigma_{j}(f)$), which are sections of $\mathcal{A}$ or of $\mathcal{R}(X)$ over $U$, which we shall call the _norm_ of
+$f$ (resp. the _elementary symmetric functions_ of $f$) and denote by $N_{\mathcal{B}/\mathcal{A}}(f)$. We shall suppose
+that one of the following conditions is satisfied:
 
-- (I) `ℬ` _is a locally free `𝒜`-module (of finite rank)._
-- (II) `(X, 𝒜)` _is a locally Noetherian reduced prescheme, `ℬ` is a coherent `𝒜`-module such that `ℬ ⊗_𝒜 ℛ(X)` is a
-    locally free `ℛ(X)`-module, and, for every section_ `f ∈ Γ(U, ℬ)` _over an open `U ⊂ X`, `N_{ℬ/𝒜}(f)` is a section
-    of `𝒜` over `U`._
+- (I) $\mathcal{B}$ _is a locally free $\mathcal{A}$-module (of finite rank)._
+- (II) $(X, \mathcal{A})$ _is a locally Noetherian reduced prescheme, $\mathcal{B}$ is a coherent $\mathcal{A}$-module
+  such that $\mathcal{B} \otimes_{\mathcal{A}} \mathcal{R}(X)$ is a locally free $\mathcal{R}(X)$-module, and, for every
+  section_ $f \in \Gamma(U, \mathcal{B})$ _over an open $U \subset X$, $N_{\mathcal{B}/\mathcal{A}}(f)$ is a section of
+  $\mathcal{A}$ over $U$._
 
 <!-- original page 126 -->
 
-Note that this last condition is automatically satisfied when the locally Noetherian prescheme `X` is normal (6.4.9).
+Note that this last condition is automatically satisfied when the locally Noetherian prescheme $X$ is normal (6.4.9).
 
-On the other hand, the hypothesis that `ℬ ⊗_𝒜 ℛ(X)` is locally free can also be expressed as follows: denote by `X_α`
-the closed reduced subpreschemes of `X` having as their underlying spaces the irreducible components of `X`
-`(I, 5.2.1)`, which are therefore locally Noetherian integral preschemes. Every `x ∈ X` belongs to a finite number of
-the subspaces `X_α`; on the other hand, `ℬ ⊗_𝒜 ℛ(X_α)` is a locally free `ℛ(X_α)`-module of constant rank `k_α`
-`(I, 7.3.6)`; to say that `ℬ ⊗_𝒜 ℛ(X)` is a locally free `ℛ(X)`-module means that, for every `x ∈ X`, the ranks `k_α`
-corresponding to the indices such that `x ∈ X_α` are equal. The question is in fact local, and one reduces to the case
-`X = Spec(C)`, where `C` is a reduced Noetherian ring, and `ℬ = D̃`, where `D` is a `C`-algebra that is a `C`-module of
-finite type; if `𝔭_i` (`1 ≤ i ≤ m`) are the minimal prime ideals of `C`, the total ring of fractions `L` of `C` is the
-direct sum of the fields of fractions `K_i` of the integral rings `C/𝔭_i`, and `D ⊗_C L` is the direct sum of the
-`D ⊗_C K_i`, whence the conclusion.
+On the other hand, the hypothesis that $\mathcal{B} \otimes_{\mathcal{A}} \mathcal{R}(X)$ is locally free can also be
+expressed as follows: denote by $X_{\alpha}$ the closed reduced subpreschemes of $X$ having as their underlying spaces
+the irreducible components of $X$ `(I, 5.2.1)`, which are therefore locally Noetherian integral preschemes. Every $x \in
+X$ belongs to a finite number of the subspaces $X_{\alpha}$; on the other hand, $\mathcal{B} \otimes_{\mathcal{A}}
+\mathcal{R}(X_{\alpha})$ is a locally free $\mathcal{R}(X_{\alpha})$-module of constant rank $k_{\alpha}$ `(I, 7.3.6)`;
+to say that $\mathcal{B} \otimes_{\mathcal{A}} \mathcal{R}(X)$ is a locally free $\mathcal{R}(X)$-module means that, for
+every $x \in X$, the ranks $k_{\alpha}$ corresponding to the indices such that $x \in X_{\alpha}$ are equal. The
+question is in fact local, and one reduces to the case $X = \operatorname{Spec}(C)$, where $C$ is a reduced Noetherian
+ring, and $\mathcal{B} = \tilde{D}$, where $D$ is a $C$-algebra that is a $C$-module of finite type; if
+$\mathfrak{p}_{i}$ ($1 \leq i \leq m$) are the minimal prime ideals of $C$, the total ring of fractions $L$ of $C$ is
+the direct sum of the fields of fractions $K_{i}$ of the integral rings $C/\mathfrak{p}_{i}$, and $D \otimes_{C} L$ is
+the direct sum of the $D \otimes_{C} K_{i}$, whence the conclusion.
 
 It is clear that under hypotheses (I) or (II), one thus defines a _homomorphism of sheaves of multiplicative monoids_
-`N_{ℬ/𝒜} : ℬ → 𝒜`, also denoted by `N` if no confusion may arise, and called the _norm_ homomorphism. For two sections
-`f`, `g` of `ℬ` over the same open `U`, one therefore has
+$N_{\mathcal{B}/\mathcal{A}} : \mathcal{B} \to \mathcal{A}$, also denoted by $N$ if no confusion may arise, and called
+the _norm_ homomorphism. For two sections $f$, $g$ of $\mathcal{B}$ over the same open $U$, one therefore has
 
-```text
-  N_{ℬ/𝒜}(fg) = N_{ℬ/𝒜}(f) · N_{ℬ/𝒜}(g)                                    (6.5.1.1)
-```
+$$ N_{\mathcal{B}/\mathcal{A}}(fg) = N_{\mathcal{B}/\mathcal{A}}(f) \cdot N_{\mathcal{B}/\mathcal{A}}(g) (6.5.1.1) $$
 
-for the corresponding sections of `𝒜` over `U`;
+for the corresponding sections of $\mathcal{A}$ over $U$;
 
-```text
-  N_{ℬ/𝒜}(1_ℬ) = 1_𝒜;                                                      (6.5.1.2)
-```
+$$ N_{\mathcal{B}/\mathcal{A}}(1_{\mathcal{B}}) = 1_{\mathcal{A}}; (6.5.1.2) $$
 
-finally, for every section `s` of `𝒜` over `U`,
+finally, for every section $s$ of $\mathcal{A}$ over $U$,
 
-```text
-  N_{ℬ/𝒜}(s · 1_ℬ) = s^n                                                   (6.5.1.3)
-```
+$$ N_{\mathcal{B}/\mathcal{A}}(s \cdot 1_{\mathcal{B}}) = s^{n} (6.5.1.3) $$
 
-if the rank of `ℬ` is constant and equal to `n` (for `s = 0_𝒜`, this formula gives `N(0_ℬ) = 0_𝒜` if `n ≥ 1`, and
-`N(0_ℬ) = N(1_ℬ) = 1_𝒜` if `n = 0`).
+if the rank of $\mathcal{B}$ is constant and equal to $n$ (for $s = 0_{\mathcal{A}}$, this formula gives
+$N(0_{\mathcal{B}}) = 0_{\mathcal{A}}$ if $n \geq 1$, and $N(0_{\mathcal{B}}) = N(1_{\mathcal{B}}) = 1_{\mathcal{A}}$ if
+$n = 0$).
 
-Under hypothesis (I), for `f ∈ Γ(U, ℬ)` to be invertible it is necessary and sufficient that `N(f) ∈ Γ(U, 𝒜)` be so.
-Under hypothesis (II), this condition is necessary; it is sufficient (by (6.4.7)) when one supposes that
-`ℬ → ℬ ⊗_𝒜 ℛ(X)` is injective and that the following more restrictive hypothesis is satisfied:
+Under hypothesis (I), for $f \in \Gamma(U, \mathcal{B})$ to be invertible it is necessary and sufficient that $N(f) \in
+\Gamma(U, \mathcal{A})$ be so. Under hypothesis (II), this condition is necessary; it is sufficient (by (6.4.7)) when
+one supposes that $\mathcal{B} \to \mathcal{B} \otimes_{\mathcal{A}} \mathcal{R}(X)$ is injective and that the following
+more restrictive hypothesis is satisfied:
 
-- (II bis) `(X, 𝒜)` _is a locally Noetherian reduced prescheme, `ℬ` is a coherent `𝒜`-module such that `ℬ ⊗_𝒜 ℛ(X)` is a
-    locally free `ℛ(X)`-module, and, for every section `f ∈ Γ(U, ℬ)` over an open `U` such that `ℬ ⊗_𝒜 ℛ(X)|U` is of
-    constant rank `n` over `ℛ(X)|U`, the `σ_j(f)` (`1 ≤ j ≤ n`) are sections of `𝒜` over `U`._
+- (II bis) $(X, \mathcal{A})$ _is a locally Noetherian reduced prescheme, $\mathcal{B}$ is a coherent
+  $\mathcal{A}$-module such that $\mathcal{B} \otimes_{\mathcal{A}} \mathcal{R}(X)$ is a locally free
+  $\mathcal{R}(X)$-module, and, for every section $f \in \Gamma(U, \mathcal{B})$ over an open $U$ such that $\mathcal{B}
+  \otimes_{\mathcal{A}} \mathcal{R}(X)|U$ is of constant rank $n$ over $\mathcal{R}(X)|U$, the $\sigma_{j}(f)$ ($1 \leq
+  j \leq n$) are sections of $\mathcal{A}$ over $U$._
 
-(Again note that this condition is satisfied when `X` is normal.)
+(Again note that this condition is satisfied when $X$ is normal.)
 
 **(6.5.2)**
 
 <!-- label: II.6.5.2 -->
 
-Suppose that one of the hypotheses (I), (II) of (6.5.1) is satisfied, and let `ℒ'` be an invertible `ℬ`-module. We shall
-associate to it canonically (up to unique isomorphism) an invertible `𝒜`-module `ℒ` in the following way. Denote by `𝒜*`
-(resp. `ℬ*`) the subsheaf of `𝒜` (resp. `ℬ`) such that `Γ(U, 𝒜*)` (resp. `Γ(U, ℬ*)`) is the set of invertible
+Suppose that one of the hypotheses (I), (II) of (6.5.1) is satisfied, and let $\mathcal{L}'$ be an invertible
+$\mathcal{B}$-module. We shall associate to it canonically (up to unique isomorphism) an invertible $\mathcal{A}$-module
+$\mathcal{L}$ in the following way. Denote by $\mathcal{A}*$ (resp. $\mathcal{B}*$) the subsheaf of $\mathcal{A}$ (resp.
+$\mathcal{B}$) such that $\Gamma(U, \mathcal{A}*)$ (resp. $\Gamma(U, \mathcal{B}*)$) is the set of invertible
 
 <!-- original page 127 -->
 
-elements of `Γ(U, 𝒜)` (resp. `Γ(U, ℬ)`) for every open `U ⊂ X`; these are sheaves of multiplicative groups, and
-`N_{ℬ/𝒜}`, restricted to `ℬ*`, is a _homomorphism_ `ℬ* → 𝒜*` of sheaves of groups (6.5.1). Let `𝔏` be the set of pairs
-`(U_λ, η_λ)` having the following property: `U_λ` is an open of `X` and `η_λ` is an isomorphism `ℒ'|U_λ ⥲ ℬ|U_λ` of
-`(ℬ|U_λ)`-modules. By hypothesis, the `U_λ` form a cover of `X`; for any two indices `λ`, `μ`, one sets
-`ω_{λμ} = (η_λ|U_λ ∩ U_μ) ∘ (η_μ|U_λ ∩ U_μ)⁻¹`, which is an automorphism of `ℬ|U_λ ∩ U_μ`, canonically identified with a
-section of `ℬ*` over `U_λ ∩ U_μ`, and `(ω_{λμ})` is a `1`-cocycle of the cover `𝔘 = (U_λ)` with values in `ℬ*`
-`(0, 5.4.7)`. The fact that `N_{ℬ/𝒜} : ℬ* → 𝒜*` is a homomorphism then implies that `(N_{ℬ/𝒜} ω_{λμ})` is a `1`-cocycle
-of `𝔘` with values in `𝒜*`, and therefore corresponds (up to unique isomorphism) to an invertible `𝒜`-module `ℒ`
-`(0, 5.4.7)` which we shall denote by `N_{ℬ/𝒜}(ℒ')` and call the _norm_ of the invertible `ℬ`-module `ℒ'`.
+elements of $\Gamma(U, \mathcal{A})$ (resp. $\Gamma(U, \mathcal{B})$) for every open $U \subset X$; these are sheaves of
+multiplicative groups, and $N_{\mathcal{B}/\mathcal{A}}$, restricted to $\mathcal{B}*$, is a _homomorphism_
+$\mathcal{B}* \to \mathcal{A}*$ of sheaves of groups (6.5.1). Let $\mathfrak{L}$ be the set of pairs $(U_{\lambda},
+\eta_{\lambda})$ having the following property: $U_{\lambda}$ is an open of $X$ and $\eta_{\lambda}$ is an isomorphism
+$\mathcal{L}'|U_{\lambda} \xrightarrow{\sim} \mathcal{B}|U_{\lambda}$ of $(\mathcal{B}|U_{\lambda})$-modules. By
+hypothesis, the $U_{\lambda}$ form a cover of $X$; for any two indices $\lambda$, $\mu$, one sets $\omega_{\lambda \mu}
+= (\eta_{\lambda}|U_{\lambda} \cap U_{\mu}) \circ (\eta_{\mu}|U_{\lambda} \cap U_{\mu})^{-1}$, which is an automorphism
+of $\mathcal{B}|U_{\lambda} \cap U_{\mu}$, canonically identified with a section of $\mathcal{B}*$ over $U_{\lambda}
+\cap U_{\mu}$, and $(\omega_{\lambda \mu})$ is a `1`-cocycle of the cover $\mathfrak{U} = (U_{\lambda})$ with values in
+$\mathcal{B}*$ `(0, 5.4.7)`. The fact that $N_{\mathcal{B}/\mathcal{A}} : \mathcal{B}* \to \mathcal{A}*$ is a
+homomorphism then implies that $(N_{\mathcal{B}/\mathcal{A}} \omega_{\lambda \mu})$ is a `1`-cocycle of $\mathfrak{U}$
+with values in $\mathcal{A}*$, and therefore corresponds (up to unique isomorphism) to an invertible
+$\mathcal{A}$-module $\mathcal{L}$ `(0, 5.4.7)` which we shall denote by $N_{\mathcal{B}/\mathcal{A}}(\mathcal{L}')$ and
+call the _norm_ of the invertible $\mathcal{B}$-module $\mathcal{L}'$.
 
-Let `𝔐` be a subset of `𝔏` such that the corresponding `U_λ` still form a cover of `X`, and let `𝔅` be this cover; the
-restriction of the cocycle `(ω_{λμ})` to `𝔅` defines a `1`-cocycle `(N_{ℬ/𝒜} ω_{λμ})` of `𝔅` with values in `𝒜*`, the
-restriction of the `1`-cocycle `(N_{ℬ/𝒜} ω_{λμ})` of `𝔘`; it is clear that there is a canonical isomorphism from the
-invertible `𝒜`-module defined by this `1`-cocycle of `𝔅` onto `N_{ℬ/𝒜}(ℒ')`, which allows the invertible `𝒜`-module to
-be defined by any sub-cover of `𝔘`. This possibility immediately shows that, if `ℒ'₁`, `ℒ'₂` are two invertible
-`ℬ`-modules, then, by virtue of (6.5.1.1) and (6.5.1.2),
+Let $\mathfrak{M}$ be a subset of $\mathfrak{L}$ such that the corresponding $U_{\lambda}$ still form a cover of $X$,
+and let $\mathfrak{B}$ be this cover; the restriction of the cocycle $(\omega_{\lambda \mu})$ to $\mathfrak{B}$ defines
+a `1`-cocycle $(N_{\mathcal{B}/\mathcal{A}} \omega_{\lambda \mu})$ of $\mathfrak{B}$ with values in $\mathcal{A}*$, the
+restriction of the `1`-cocycle $(N_{\mathcal{B}/\mathcal{A}} \omega_{\lambda \mu})$ of $\mathfrak{U}$; it is clear that
+there is a canonical isomorphism from the invertible $\mathcal{A}$-module defined by this `1`-cocycle of $\mathfrak{B}$
+onto $N_{\mathcal{B}/\mathcal{A}}(\mathcal{L}')$, which allows the invertible $\mathcal{A}$-module to be defined by any
+sub-cover of $\mathfrak{U}$. This possibility immediately shows that, if $\mathcal{L}'_{1}$, $\mathcal{L}'_{2}$ are two
+invertible $\mathcal{B}$-modules, then, by virtue of (6.5.1.1) and (6.5.1.2),
 
 ```text
   N(ℒ'₁ ⊗_ℬ ℒ'₂) = N(ℒ'₁) ⊗_𝒜 N(ℒ'₂)                                       (6.5.2.1)
@@ -992,19 +1060,16 @@ be defined by any sub-cover of `𝔘`. This possibility immediately shows that, 
 
 and
 
-```text
-  N_{ℬ/𝒜}(ℬ) = 𝒜                                                           (6.5.2.2)
-```
+$$ N_{\mathcal{B}/\mathcal{A}}(\mathcal{B}) = \mathcal{A} (6.5.2.2) $$
 
 as well as
 
-```text
-  N(ℒ'⁻¹) = (N(ℒ'))⁻¹                                                      (6.5.2.3)
-```
+$$ N(\mathcal{L}'^{-1}) = (N(\mathcal{L}'))^{-1} (6.5.2.3) $$
 
-up to canonical isomorphisms. Moreover, it follows from (6.5.1.3) that if `ℒ` is an invertible `𝒜`-module and if `ℬ` is
-of constant rank `n` over `𝒜` in case (I) (resp. `ℬ ⊗_𝒜 ℛ(X)` of constant rank `n` over `ℛ(X)` in case (II)), one has,
-up to canonical isomorphism,
+up to canonical isomorphisms. Moreover, it follows from (6.5.1.3) that if $\mathcal{L}$ is an invertible
+$\mathcal{A}$-module and if $\mathcal{B}$ is of constant rank $n$ over $\mathcal{A}$ in case (I) (resp. $\mathcal{B}
+\otimes_{\mathcal{A}} \mathcal{R}(X)$ of constant rank $n$ over $\mathcal{R}(X)$ in case (II)), one has, up to canonical
+isomorphism,
 
 ```text
   N_{ℬ/𝒜}(ℒ ⊗_𝒜 ℬ) = ℒ^{⊗n}.                                               (6.5.2.4)
@@ -1014,14 +1079,18 @@ up to canonical isomorphism,
 
 <!-- label: II.6.5.3 -->
 
-We now show that `N_{ℬ/𝒜}(ℒ')` is a covariant functor in the category of invertible `ℬ`-modules. Indeed, let
-`h' : ℒ'₁ → ℒ'₂` be a homomorphism of invertible `ℬ`-modules, and let `𝔅 = (U_λ)` be an open cover of `X` such that for
-every `λ` one has `(ℬ|U_λ)`-isomorphisms `η_λ^{(1)} : ℒ'₁|U_λ ⥲ ℬ|U_λ` and `η_λ^{(2)} : ℒ'₂|U_λ ⥲ ℬ|U_λ`; there is then
-for each `λ` an endomorphism `h'_λ` of `ℬ|U_λ` such that `h'_λ ∘ η_λ^{(1)} = η_λ^{(2)} ∘ (h'|U_λ)`, and one can
-evidently identify `h'_λ` with a section of `ℬ` over `U_λ` `(0, 5.1.1)`. Hence, for every pair `(λ, μ)` of indices, the
-restrictions to `U_λ ∩ U_μ` of `(η_λ^{(2)})⁻¹ ∘ h'_λ ∘ η_λ^{(1)}` and `(η_μ^{(2)})⁻¹ ∘ h'_μ ∘ η_μ^{(1)}` coincide. We
-deduce that for the `1`-cocycles `(ω_{λμ}^{(1)})` and `(ω_{λμ}^{(2)})` with values in `ℬ*` corresponding to `ℒ'₁` and
-`ℒ'₂`, the relation
+We now show that $N_{\mathcal{B}/\mathcal{A}}(\mathcal{L}')$ is a covariant functor in the category of invertible
+$\mathcal{B}$-modules. Indeed, let $h' : \mathcal{L}'_{1} \to \mathcal{L}'_{2}$ be a homomorphism of invertible
+$\mathcal{B}$-modules, and let $\mathfrak{B} = (U_{\lambda})$ be an open cover of $X$ such that for every $\lambda$ one
+has $(\mathcal{B}|U_{\lambda})$-isomorphisms $\eta^{(1)}_{\lambda} : \mathcal{L}'_{1}|U_{\lambda} \xrightarrow{\sim}
+\mathcal{B}|U_{\lambda}$ and $\eta^{(2)}_{\lambda} : \mathcal{L}'_{2}|U_{\lambda} \xrightarrow{\sim}
+\mathcal{B}|U_{\lambda}$; there is then for each $\lambda$ an endomorphism $h'_{\lambda}$ of $\mathcal{B}|U_{\lambda}$
+such that $h'_{\lambda} \circ \eta^{(1)}_{\lambda} = \eta^{(2)}_{\lambda} \circ (h'|U_{\lambda})$, and one can evidently
+identify $h'_{\lambda}$ with a section of $\mathcal{B}$ over $U_{\lambda}$ `(0, 5.1.1)`. Hence, for every pair
+$(\lambda, \mu)$ of indices, the restrictions to $U_{\lambda} \cap U_{\mu}$ of $(\eta^{(2)}_{\lambda})^{-1} \circ
+h'_{\lambda} \circ \eta^{(1)}_{\lambda}$ and $(\eta^{(2)}_{\mu})^{-1} \circ h'_{\mu} \circ \eta^{(1)}_{\mu}$ coincide.
+We deduce that for the `1`-cocycles $(\omega^{(1)}_{\lambda \mu})$ and $(\omega^{(2)}_{\lambda \mu})$ with values in
+$\mathcal{B}*$ corresponding to $\mathcal{L}'_{1}$ and $\mathcal{L}'_{2}$, the relation
 
 ```text
   ω_{λμ}^{(2)} h'_μ = h'_λ ω_{λμ}^{(1)}.
@@ -1029,101 +1098,105 @@ deduce that for the `1`-cocycles `(ω_{λμ}^{(1)})` and `(ω_{λμ}^{(2)})` wit
 
 <!-- original page 128 -->
 
-If we set `h_λ = N(h'_λ)`, we therefore have the analogous relations
+If we set $h_{\lambda} = N(h'_{\lambda})$, we therefore have the analogous relations
 
 ```text
   N(ω_{λμ}^{(2)}) h_μ = h_λ N(ω_{λμ}^{(1)})
 ```
 
-and consequently the `h_λ` define a homomorphism `N(ℒ'₁) → N(ℒ'₂)` which we shall denote by `N_{ℬ/𝒜}(h')` or `N(h')`.
-Under hypothesis (I), for `h'` to be an isomorphism, it is necessary and sufficient (since this is a local question)
-that `N_{ℬ/𝒜}(h')` be one. Under hypothesis (II), this condition is again necessary; it is sufficient if hypothesis (II
-bis) is satisfied and `ℬ → ℬ ⊗_𝒜 ℛ(X)` is injective.
+and consequently the $h_{\lambda}$ define a homomorphism $N(\mathcal{L}'_{1}) \to N(\mathcal{L}'_{2})$ which we shall
+denote by $N_{\mathcal{B}/\mathcal{A}}(h')$ or $N(h')$. Under hypothesis (I), for $h'$ to be an isomorphism, it is
+necessary and sufficient (since this is a local question) that $N_{\mathcal{B}/\mathcal{A}}(h')$ be one. Under
+hypothesis (II), this condition is again necessary; it is sufficient if hypothesis (II bis) is satisfied and
+$\mathcal{B} \to \mathcal{B} \otimes_{\mathcal{A}} \mathcal{R}(X)$ is injective.
 
-Taking in particular `ℒ'₁ = ℬ`, the homomorphisms `ℬ → ℒ'` are identified `(0, 5.1.1)` with the sections of `ℒ'` over
-`X`, whence a canonical map
+Taking in particular $\mathcal{L}'_{1} = \mathcal{B}$, the homomorphisms $\mathcal{B} \to \mathcal{L}'$ are identified
+`(0, 5.1.1)` with the sections of $\mathcal{L}'$ over $X$, whence a canonical map
 
 ```text
   N_{ℬ/𝒜} : Γ(X, ℒ') → Γ(X, N_{ℬ/𝒜}(ℒ')).
 ```
 
-It also follows from (6.5.1.1) that if `f'₁ ∈ Γ(X, ℒ'₁)`, `f'₂ ∈ Γ(X, ℒ'₂)`, one has
+It also follows from (6.5.1.1) that if $f'_{1} \in \Gamma(X, \mathcal{L}'_{1})$, $f'_{2} \in \Gamma(X,
+\mathcal{L}'_{2})$, one has
 
 ```text
   N(f'₁ ⊗ f'₂) = N(f'₁) ⊗ N(f'₂).                                          (6.5.3.1)
 ```
 
-For every invertible `𝒜`-module `ℒ` and every section `f ∈ Γ(X, ℒ)`, one has, taking (6.5.2.4) into account,
+For every invertible $\mathcal{A}$-module $\mathcal{L}$ and every section $f \in \Gamma(X, \mathcal{L})$, one has,
+taking (6.5.2.4) into account,
 
-```text
-  N_{ℬ/𝒜}(f ⊗ 1_ℬ) = f^{⊗n}                                                (6.5.3.2)
-```
+$$ N_{\mathcal{B}/\mathcal{A}}(f \otimes 1_{\mathcal{B}}) = f^{\otimes n} (6.5.3.2) $$
 
-when `ℬ` is of constant rank `n` under hypothesis (I) (resp. when `ℬ ⊗_𝒜 ℛ(X)` is of constant rank `n` under hypothesis
-(II)). Finally, for the homomorphism `ℬ → ℒ'` corresponding to a section `f'` of `ℒ'` over `X` to be an isomorphism, it
-is necessary and sufficient that `f'_x` be a basis of `ℒ'_x` for every `x ∈ X`; under hypothesis (I), this condition is
-therefore equivalent to saying that `(N(f'))_x` is a basis of `(N(ℒ'))_x` for every `x`; under hypothesis (II), this
-condition is again necessary, and it is sufficient when `ℬ` satisfies (II bis) and `ℬ → ℬ ⊗_𝒜 ℛ(X)` is injective.
+when $\mathcal{B}$ is of constant rank $n$ under hypothesis (I) (resp. when $\mathcal{B} \otimes_{\mathcal{A}}
+\mathcal{R}(X)$ is of constant rank $n$ under hypothesis (II)). Finally, for the homomorphism $\mathcal{B} \to
+\mathcal{L}'$ corresponding to a section $f'$ of $\mathcal{L}'$ over $X$ to be an isomorphism, it is necessary and
+sufficient that $f'_{x}$ be a basis of $\mathcal{L}'_{x}$ for every $x \in X$; under hypothesis (I), this condition is
+therefore equivalent to saying that $(N(f'))_{x}$ is a basis of $(N(\mathcal{L}'))_{x}$ for every $x$; under hypothesis
+(II), this condition is again necessary, and it is sufficient when $\mathcal{B}$ satisfies (II bis) and $\mathcal{B} \to
+\mathcal{B} \otimes_{\mathcal{A}} \mathcal{R}(X)$ is injective.
 
 **(6.5.4)**
 
 <!-- label: II.6.5.4 -->
 
-Let `(X, 𝒜)`, `(X', 𝒜')` be two ringed spaces,
+Let $(X, \mathcal{A})$, $(X', \mathcal{A}')$ be two ringed spaces,
 
-```text
-  f : X' → X
-```
+$$ f : X' \to X $$
 
-a morphism, `ℬ` an `𝒜`-algebra, `ℬ' = f*(ℬ)` the inverse image `𝒜'`-algebra. One supposes that one of the following
-hypotheses is satisfied:
+a morphism, $\mathcal{B}$ an $\mathcal{A}$-algebra, $\mathcal{B}' = f*(\mathcal{B})$ the inverse image
+$\mathcal{A}'$-algebra. One supposes that one of the following hypotheses is satisfied:
 
-- 1° `ℬ` satisfies hypothesis (I) of (6.5.1).
-- 2° `(X, 𝒜)` and `ℬ` satisfy hypothesis (II) of (6.5.1), `(X', 𝒜')` is a locally Noetherian reduced prescheme, and, if
-    one denotes by `X_α` and `X'_β` the closed reduced subpreschemes of `X` and `X'` respectively having as underlying
-    spaces the irreducible components of these spaces, the restriction of `f` to each `X'_β` is a dominant morphism from
-    `X'_β` into some `X_α`.
+- 1° $\mathcal{B}$ satisfies hypothesis (I) of (6.5.1).
+- 2° $(X, \mathcal{A})$ and $\mathcal{B}$ satisfy hypothesis (II) of (6.5.1), $(X', \mathcal{A}')$ is a locally
+  Noetherian reduced prescheme, and, if one denotes by $X_{\alpha}$ and $X'_{\beta}$ the closed reduced subpreschemes of
+  $X$ and $X'$ respectively having as underlying spaces the irreducible components of these spaces, the restriction of
+  $f$ to each $X'_{\beta}$ is a dominant morphism from $X'_{\beta}$ into some $X_{\alpha}$.
 
-Under these conditions, `ℬ'` satisfies hypothesis (I) or hypothesis (II) of (6.5.1) respectively; the first assertion is
-immediate. To establish the second, it suffices to see that for every `x' ∈ X'`, the ranks of the
-`ℬ' ⊗_{𝒪_{X'}} ℛ(X'_β)` for the `β` such that `x' ∈ X'_β` are the same. But if the restriction of `f` to `X'_β` is a
-dominant morphism into `X_α`, the rank of `ℬ' ⊗_{𝒪_{X'}} ℛ(X'_β)` is equal to that of `ℬ ⊗_{𝒪_X} ℛ(X_α)` (as one sees at
-once by reducing to the affine case as in (6.4.9)), whence our assertion by virtue of hypothesis (II) and (6.5.1).
+Under these conditions, $\mathcal{B}'$ satisfies hypothesis (I) or hypothesis (II) of (6.5.1) respectively; the first
+assertion is immediate. To establish the second, it suffices to see that for every $x' \in X'$, the ranks of the
+$\mathcal{B}' \otimes_{\mathcal{O}_{X'}} \mathcal{R}(X'_{\beta})$ for the $\beta$ such that $x' \in X'_{\beta}$ are the
+same. But if the restriction of $f$ to $X'_{\beta}$ is a dominant morphism into $X_{\alpha}$, the rank of $\mathcal{B}'
+\otimes_{\mathcal{O}_{X'}} \mathcal{R}(X'_{\beta})$ is equal to that of $\mathcal{B} \otimes_{\mathcal{O}_{X}}
+\mathcal{R}(X_{\alpha})$ (as one sees at once by reducing to the affine case as in (6.4.9)), whence our assertion by
+virtue of hypothesis (II) and (6.5.1).
 
 <!-- original page 129 -->
 
-This being so, it follows from (6.4.8), (6.4.9), and (6.4.10) that if `s` is a section of `ℬ` over an open `U ⊂ X`, `s'`
-the corresponding section of `ℬ'` over `f⁻¹(U)`, then `N_{ℬ'/𝒜'}(s')` is the section of `𝒜'` over `f⁻¹(U)` which
-corresponds to the section `N_{ℬ/𝒜}(s)` of `𝒜` over `U`.
+This being so, it follows from (6.4.8), (6.4.9), and (6.4.10) that if $s$ is a section of $\mathcal{B}$ over an open $U
+\subset X$, $s'$ the corresponding section of $\mathcal{B}'$ over $f^{-1}(U)$, then $N_{\mathcal{B}'/\mathcal{A}'}(s')$
+is the section of $\mathcal{A}'$ over $f^{-1}(U)$ which corresponds to the section $N_{\mathcal{B}/\mathcal{A}}(s)$ of
+$\mathcal{A}$ over $U$.
 
-If `ℳ` is an invertible `ℬ`-module, one deduces from the preceding that if `ℳ' = f*(ℳ)` (which is an invertible
-`ℬ'`-module), one has `N_{ℬ'/𝒜'}(ℳ') = f*(N_{ℬ/𝒜}(ℳ))` up to canonical isomorphism.
+If $\mathcal{M}$ is an invertible $\mathcal{B}$-module, one deduces from the preceding that if $\mathcal{M}' =
+f*(\mathcal{M})$ (which is an invertible $\mathcal{B}'$-module), one has $N_{\mathcal{B}'/\mathcal{A}'}(\mathcal{M}') =
+f*(N_{\mathcal{B}/\mathcal{A}}(\mathcal{M}))$ up to canonical isomorphism.
 
 **(6.5.5)**
 
 <!-- label: II.6.5.5 -->
 
-Suppose henceforth that `(X, 𝒜)` is a prescheme. The data of a quasi-coherent `𝒜`-algebra `ℬ` that is an `𝒜`-module of
-finite type is then equivalent, as we know, to that of a _finite_ morphism `g : X' → X` such that `g_*(𝒪_{X'}) = ℬ`,
-defined up to `X`-isomorphism (6.1.2 and 1.3.1). Furthermore, to give a quasi-coherent `𝒪_{X'}`-module `ℱ'` is
-equivalent to giving a quasi-coherent `ℬ`-module `ℱ` such that `g_*(ℱ') = ℱ` (1.4.3), and for `ℱ'` to be invertible it
-is necessary and sufficient that `ℱ` be so (6.1.12). To translate the preceding results in terms of the finite morphism
-`g`, it will be necessary to suppose either that `g_*(𝒪_{X'})` is a locally free `𝒪_X`-module (of finite type), or that
-`(X, 𝒪_X)` and `g_*(𝒪_{X'})` satisfy hypothesis (II). For every invertible `𝒪_{X'}`-module `ℒ'`, one then sets
+Suppose henceforth that $(X, \mathcal{A})$ is a prescheme. The data of a quasi-coherent $\mathcal{A}$-algebra
+$\mathcal{B}$ that is an $\mathcal{A}$-module of finite type is then equivalent, as we know, to that of a _finite_
+morphism $g : X' \to X$ such that $g_{*}(\mathcal{O}_{X'}) = \mathcal{B}$, defined up to $X$-isomorphism (6.1.2 and
+1.3.1). Furthermore, to give a quasi-coherent $\mathcal{O}_{X'}$-module $\mathcal{F}'$ is equivalent to giving a
+quasi-coherent $\mathcal{B}$-module $\mathcal{F}$ such that $g_{*}(\mathcal{F}') = \mathcal{F}$ (1.4.3), and for
+$\mathcal{F}'$ to be invertible it is necessary and sufficient that $\mathcal{F}$ be so (6.1.12). To translate the
+preceding results in terms of the finite morphism $g$, it will be necessary to suppose either that
+$g_{*}(\mathcal{O}_{X'})$ is a locally free $\mathcal{O}_{X}$-module (of finite type), or that $(X, \mathcal{O}_{X})$
+and $g_{*}(\mathcal{O}_{X'})$ satisfy hypothesis (II). For every invertible $\mathcal{O}_{X'}$-module $\mathcal{L}'$,
+one then sets
 
-```text
-  N_{X'/X}(ℒ') = N_{g_*(𝒪_{X'})/𝒪_X}(g_*(ℒ'))                              (6.5.5.1)
-```
+$$ N_{X'/X}(\mathcal{L}') = N_{g_{*}(\mathcal{O}_{X'})/\mathcal{O}_{X}}(g_{*}(\mathcal{L}')) (6.5.5.1) $$
 
-and one calls this the _norm_ (relative to `g`) of `ℒ'`. Similarly, if `h' : ℒ'₁ → ℒ'₂` is a homomorphism of invertible
-`𝒪_{X'}`-modules, one sets
+and one calls this the _norm_ (relative to $g$) of $\mathcal{L}'$. Similarly, if $h' : \mathcal{L}'_{1} \to
+\mathcal{L}'_{2}$ is a homomorphism of invertible $\mathcal{O}_{X'}$-modules, one sets
 
-```text
-  N_{X'/X}(h') = N_{g_*(𝒪_{X'})/𝒪_X}(g_*(h')) :
-                                 N_{X'/X}(ℒ'₁) → N_{X'/X}(ℒ'₂).            (6.5.5.2)
-```
+$$ N_{X'/X}(h') = N_{g_{*}(\mathcal{O}_{X'})/\mathcal{O}_{X}}(g_{*}(h')) : N_{X'/X}(\mathcal{L}'_{1}) \to
+N_{X'/X}(\mathcal{L}'_{2}). (6.5.5.2) $$
 
-In particular, for `ℒ'₁ = 𝒪_{X'}`, one thus obtains a canonical map
+In particular, for $\mathcal{L}'_{1} = \mathcal{O}_{X'}$, one thus obtains a canonical map
 
 ```text
   N_{X'/X} : Γ(X', ℒ') → Γ(X, N_{X'/X}(ℒ')).                                (6.5.5.3)
@@ -1135,39 +1208,44 @@ We leave to the reader most of these translations, and confine ourselves to spel
 
 <!-- label: II.6.5.6 -->
 
-Let `g : X' → X` be a finite morphism, and suppose that either `g_*(𝒪_{X'})` is a locally free `𝒪_X`-module or that
-`(X, 𝒪_X)` and `g_*(𝒪_{X'})` satisfy (II bis) (which will be the case in particular when `X` is locally Noetherian and
-normal). For a homomorphism `h' : ℒ'₁ → ℒ'₂` of invertible `𝒪_{X'}`-modules to be an isomorphism, it is necessary and
-sufficient, under the first hypothesis, that `N_{X'/X}(h')` be one; under the second hypothesis, this condition is again
-necessary, and it is sufficient when the homomorphism `g_*(𝒪_{X'}) → g_*(𝒪_{X'}) ⊗_{𝒪_X} ℛ(X)` is injective.
+Let $g : X' \to X$ be a finite morphism, and suppose that either $g_{*}(\mathcal{O}_{X'})$ is a locally free
+$\mathcal{O}_{X}$-module or that $(X, \mathcal{O}_{X})$ and $g_{*}(\mathcal{O}_{X'})$ satisfy (II bis) (which will be
+the case in particular when $X$ is locally Noetherian and normal). For a homomorphism $h' : \mathcal{L}'_{1} \to
+\mathcal{L}'_{2}$ of invertible $\mathcal{O}_{X'}$-modules to be an isomorphism, it is necessary and sufficient, under
+the first hypothesis, that $N_{X'/X}(h')$ be one; under the second hypothesis, this condition is again necessary, and it
+is sufficient when the homomorphism $g_{*}(\mathcal{O}_{X'}) \to g_{*}(\mathcal{O}_{X'}) \otimes_{\mathcal{O}_{X}}
+\mathcal{R}(X)$ is injective.
 
-**Proof.** Note that here we use the fact that, for `g_*(h')` to be an isomorphism, it is necessary and sufficient that
-`h'` be one (1.4.2).
+**Proof.** Note that here we use the fact that, for $g_{*}(h')$ to be an isomorphism, it is necessary and sufficient
+that $h'$ be one (1.4.2).
 
 **Corollary.**
 
 <!-- label: II.6.5.7 -->
 
-Let `g : X' → X` be a finite morphism, and suppose that either `g_*(𝒪_{X'})` is a locally free `𝒪_X`-module or that
-`(X, 𝒪_X)` and `g_*(𝒪_{X'})` satisfy (II bis) and `g_*(𝒪_{X'}) → g_*(𝒪_{X'}) ⊗_{𝒪_X} ℛ(X)` is injective. Let `ℒ'` be an
-invertible `𝒪_{X'}`-module, `f'` a
+Let $g : X' \to X$ be a finite morphism, and suppose that either $g_{*}(\mathcal{O}_{X'})$ is a locally free
+$\mathcal{O}_{X}$-module or that $(X, \mathcal{O}_{X})$ and $g_{*}(\mathcal{O}_{X'})$ satisfy (II bis) and
+$g_{*}(\mathcal{O}_{X'}) \to g_{*}(\mathcal{O}_{X'}) \otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$ is injective. Let
+$\mathcal{L}'$ be an invertible $\mathcal{O}_{X'}$-module, $f'$ a
 
 <!-- original page 130 -->
 
-section of `ℒ'` over `X'`, and `f = N_{X'/X}(f')` the corresponding section of `ℒ = N_{X'/X}(ℒ')` over `X` (6.5.5.1).
-Then `g(X' − X'_{f'}) = X − X_f`, and `X_f` is the largest open subset `U` of `X` such that `g⁻¹(U) ⊂ X'_{f'}`.
+section of $\mathcal{L}'$ over $X'$, and $f = N_{X'/X}(f')$ the corresponding section of $\mathcal{L} =
+N_{X'/X}(\mathcal{L}')$ over $X$ (6.5.5.1). Then $g(X' - X'_{f'}) = X - X_{f}$, and $X_{f}$ is the largest open subset
+$U$ of $X$ such that $g^{-1}(U) \subset X'_{f'}$.
 
-**Proof.** Indeed, `g(X' − X'_{f'})` is closed in `X` (6.1.10); it therefore suffices to prove the last assertion. Now
-the relation `U ⊂ X_f` is equivalent to the fact that the homomorphism `𝒪_X|U → ℒ|U` defined by `f|U` is an isomorphism.
-By (6.5.6), this is equivalent to saying that the homomorphism `𝒪_{X'}|g⁻¹(U) → ℒ'|g⁻¹(U)` defined by `f'|g⁻¹(U)` is an
-isomorphism, that is, to the relation `g⁻¹(U) ⊂ X'_{f'}`.
+**Proof.** Indeed, $g(X' - X'_{f'})$ is closed in $X$ (6.1.10); it therefore suffices to prove the last assertion. Now
+the relation $U \subset X_{f}$ is equivalent to the fact that the homomorphism $\mathcal{O}_{X}|U \to \mathcal{L}|U$
+defined by $f|U$ is an isomorphism. By (6.5.6), this is equivalent to saying that the homomorphism
+$\mathcal{O}_{X'}|g^{-1}(U) \to \mathcal{L}'|g^{-1}(U)$ defined by $f'|g^{-1}(U)$ is an isomorphism, that is, to the
+relation $g^{-1}(U) \subset X'_{f'}$.
 
 **Proposition.**
 
 <!-- label: II.6.5.8 -->
 
-Let `g : X' → X` be a finite morphism, `f : Y → X` a morphism; let `Y' = X'_{(Y)}`, `g' = g_{(Y)}`, `f' = f_{(X')}`, so
-that one has the commutative diagram
+Let $g : X' \to X$ be a finite morphism, $f : Y \to X$ a morphism; let $Y' = X'_{(Y)}$, $g' = g_{(Y)}$, $f' = f_{(X')}$,
+so that one has the commutative diagram
 
 ```text
   X' ←─f'── Y'
@@ -1176,19 +1254,18 @@ that one has the commutative diagram
   X ←──f──── Y
 ```
 
-Suppose that either `g_*(𝒪_{X'})` is locally free, or that `(X, 𝒪_X)` and `g_*(𝒪_{X'})` satisfy (II), that `Y` is a
-locally Noetherian reduced prescheme, and that the restriction of `f` to every irreducible component of `Y` is a
-dominant morphism into an irreducible component of `X`. Then, for every invertible `𝒪_{X'}`-module `ℒ'`, one has
+Suppose that either $g_{*}(\mathcal{O}_{X'})$ is locally free, or that $(X, \mathcal{O}_{X})$ and
+$g_{*}(\mathcal{O}_{X'})$ satisfy (II), that $Y$ is a locally Noetherian reduced prescheme, and that the restriction of
+$f$ to every irreducible component of $Y$ is a dominant morphism into an irreducible component of $X$. Then, for every
+invertible $\mathcal{O}_{X'}$-module $\mathcal{L}'$, one has
 
-```text
-  N_{Y'/Y}(f'*(ℒ')) = f*(N_{X'/X}(ℒ'))
-```
+$$ N_{Y'/Y}(f'*(\mathcal{L}')) = f*(N_{X'/X}(\mathcal{L}')) $$
 
 up to canonical isomorphism.
 
-**Proof.** Note that one has `f*(g_*(ℒ')) = g'_*(f'*(ℒ'))` by virtue of (1.5.2), and in particular
-`g'_*(𝒪_{Y'}) = f*(g_*(𝒪_{X'}))`; if `g_*(𝒪_{X'})` is locally free, then so is `g'_*(𝒪_{Y'})`. The conclusion then
-follows from the definitions and (6.5.4).
+**Proof.** Note that one has $f*(g_{*}(\mathcal{L}')) = g'_{*}(f'*(\mathcal{L}'))$ by virtue of (1.5.2), and in
+particular $g'_{*}(\mathcal{O}_{Y'}) = f*(g_{*}(\mathcal{O}_{X'}))$; if $g_{*}(\mathcal{O}_{X'})$ is locally free, then
+so is $g'_{*}(\mathcal{O}_{Y'})$. The conclusion then follows from the definitions and (6.5.4).
 
 **Remark.**
 
@@ -1202,27 +1279,29 @@ We shall later generalise the notion of norm developed above, and relate it to t
 
 <!-- label: II.6.6.1 -->
 
-Let `Y` be a prescheme, `f : X → Y` a quasi-compact morphism, `g : X' → X` a finite and surjective morphism. Suppose
-that either `g_*(𝒪_{X'})` is a locally free `𝒪_X`-module, or that `(X, 𝒪_X)` and `g_*(𝒪_{X'})` satisfy (II bis). Then,
-for every invertible `𝒪_{X'}`-module `ℒ'` that is ample for `f ∘ g`, `ℒ = N_{X'/X}(ℒ')` is ample for `f`.
+Let $Y$ be a prescheme, $f : X \to Y$ a quasi-compact morphism, $g : X' \to X$ a finite and surjective morphism. Suppose
+that either $g_{*}(\mathcal{O}_{X'})$ is a locally free $\mathcal{O}_{X}$-module, or that $(X, \mathcal{O}_{X})$ and
+$g_{*}(\mathcal{O}_{X'})$ satisfy (II bis). Then, for every invertible $\mathcal{O}_{X'}$-module $\mathcal{L}'$ that is
+ample for $f \circ g$, $\mathcal{L} = N_{X'/X}(\mathcal{L}')$ is ample for $f$.
 
-**Proof.** We may assume `Y` affine (4.6.4), and then by virtue of (4.6.6) the statement is equivalent to:
+**Proof.** We may assume $Y$ affine (4.6.4), and then by virtue of (4.6.6) the statement is equivalent to:
 
 **Corollary.**
 
 <!-- label: II.6.6.2 -->
 
-Let `X` be a quasi-compact prescheme, `g : X' → X` a finite surjective morphism such that either `g_*(𝒪_{X'})` is a
-locally free `𝒪_X`-module or that `(X, 𝒪_X)` and `g_*(𝒪_{X'})` satisfy (II bis). Then, for every ample `𝒪_{X'}`-module
-`ℒ'`, `ℒ = N_{X'/X}(ℒ')` is ample.
+Let $X$ be a quasi-compact prescheme, $g : X' \to X$ a finite surjective morphism such that either
+$g_{*}(\mathcal{O}_{X'})$ is a locally free $\mathcal{O}_{X}$-module or that $(X, \mathcal{O}_{X})$ and
+$g_{*}(\mathcal{O}_{X'})$ satisfy (II bis). Then, for every ample $\mathcal{O}_{X'}$-module $\mathcal{L}'$, $\mathcal{L}
+= N_{X'/X}(\mathcal{L}')$ is ample.
 
-**Proof.** Under the second hypothesis, we may further assume that the canonical homomorphism
-`g_*(𝒪_{X'}) → g_*(𝒪_{X'}) ⊗_{𝒪_X} ℛ(X)` is injective. Indeed, if not, let
+**Proof.** Under the second hypothesis, we may further assume that the canonical homomorphism $g_{*}(\mathcal{O}_{X'})
+\to g_{*}(\mathcal{O}_{X'}) \otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$ is injective. Indeed, if not, let
 
 <!-- original page 131 -->
 
-`𝒯` be the kernel of this homomorphism, which is a coherent ideal of `ℬ = g_*(𝒪_{X'})` `(I, 6.1.1)`, and set
-`X'' = Spec(ℬ/𝒯)`; we then have a commutative diagram
+$\mathcal{T}$ be the kernel of this homomorphism, which is a coherent ideal of $\mathcal{B} = g_{*}(\mathcal{O}_{X'})$
+`(I, 6.1.1)`, and set $X'' = \operatorname{Spec}(\mathcal{B}/\mathcal{T})$; we then have a commutative diagram
 
 ```text
   X'' ──h──→ X'
@@ -1232,75 +1311,77 @@ locally free `𝒪_X`-module or that `(X, 𝒪_X)` and `g_*(𝒪_{X'})` satisfy 
          X
 ```
 
-where `h` is a closed immersion (1.4.10). Furthermore, we know that the support of `𝒯` is a closed set `(0, 5.2.2)` rare
-in `X` `(I, 7.4.6)`, whence we conclude that for the generic point `x` of an irreducible component of `X`, there is an
-affine open neighbourhood `U` of `x` such that `ℬ|U = (ℬ/𝒯)|U`. Since `g` is by hypothesis surjective, we thus conclude
-that `x ∈ g'(X'')`; `g'` is therefore dominant, and being a finite morphism, it is surjective (6.1.10); by definition,
-`g'_*(𝒪_{X''}) ⊗_{𝒪_X} ℛ(X) = (ℬ/𝒯) ⊗_{𝒪_X} ℛ(X) = g_*(𝒪_{X'}) ⊗_{𝒪_X} ℛ(X)`, so `(X, 𝒪_X)` and `g'_*(𝒪_{X''})` satisfy
-(II bis), and moreover `g'_*(𝒪_{X''}) → g'_*(𝒪_{X''}) ⊗_{𝒪_X} ℛ(X)` is injective. Finally, `h*(ℒ') = ℒ''` is an ample
-`𝒪_{X''}`-module (4.6.13, (i bis)), and we have `N_{X''/X}(ℒ'') = N_{X'/X}(ℒ')`. Indeed, to define these two invertible
-`𝒪_X`-modules one can use a single affine open cover `(U_λ)` of `X` such that the restrictions of `g_*(ℒ')` and
-`g'_*(ℒ'')` to `U_λ` are respectively isomorphic to `ℬ|U_λ` and `(ℬ/𝒯)|U_λ`. One sees at once that to every isomorphism
-`η_λ : g_*(ℒ')|U_λ → ℬ|U_λ` there canonically corresponds an isomorphism
+where $h$ is a closed immersion (1.4.10). Furthermore, we know that the support of $\mathcal{T}$ is a closed set
+`(0, 5.2.2)` rare in $X$ `(I, 7.4.6)`, whence we conclude that for the generic point $x$ of an irreducible component of
+$X$, there is an affine open neighbourhood $U$ of $x$ such that $\mathcal{B}|U = (\mathcal{B}/\mathcal{T})|U$. Since $g$
+is by hypothesis surjective, we thus conclude that $x \in g'(X'')$; $g'$ is therefore dominant, and being a finite
+morphism, it is surjective (6.1.10); by definition, $g'_{*}(\mathcal{O}_{X''}) \otimes_{\mathcal{O}_{X}} \mathcal{R}(X)
+= (\mathcal{B}/\mathcal{T}) \otimes_{\mathcal{O}_{X}} \mathcal{R}(X) = g_{*}(\mathcal{O}_{X'}) \otimes_{\mathcal{O}_{X}}
+\mathcal{R}(X)$, so $(X, \mathcal{O}_{X})$ and $g'_{*}(\mathcal{O}_{X''})$ satisfy (II bis), and moreover
+$g'_{*}(\mathcal{O}_{X''}) \to g'_{*}(\mathcal{O}_{X''}) \otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$ is injective.
+Finally, $h*(\mathcal{L}') = \mathcal{L}''$ is an ample $\mathcal{O}_{X''}$-module (4.6.13, (i bis)), and we have
+$N_{X''/X}(\mathcal{L}'') = N_{X'/X}(\mathcal{L}')$. Indeed, to define these two invertible $\mathcal{O}_{X}$-modules
+one can use a single affine open cover $(U_{\lambda})$ of $X$ such that the restrictions of $g_{*}(\mathcal{L}')$ and
+$g'_{*}(\mathcal{L}'')$ to $U_{\lambda}$ are respectively isomorphic to $\mathcal{B}|U_{\lambda}$ and
+$(\mathcal{B}/\mathcal{T})|U_{\lambda}$. One sees at once that to every isomorphism $\eta_{\lambda} :
+g_{*}(\mathcal{L}')|U_{\lambda} \to \mathcal{B}|U_{\lambda}$ there canonically corresponds an isomorphism
 
-```text
-  η'_λ : g'_*(ℒ'')|U_λ → (ℬ/𝒯)|U_λ
-```
+$$ \eta'_{\lambda} : g'_{*}(\mathcal{L}'')|U_{\lambda} \to (\mathcal{B}/\mathcal{T})|U_{\lambda} $$
 
-so that, if `(ω_{λμ})` and `(ω'_{λμ})` are the `1`-cocycles corresponding to the systems of isomorphisms `(η_λ)` and
-`(η'_λ)` (6.5.2), `ω'_{λμ}` is the canonical image in `Γ(U_λ ∩ U_μ, ℬ/𝒯)` of `ω_{λμ} ∈ Γ(U_λ ∩ U_μ, ℬ)`. By virtue of
-the definition of `𝒯`, one therefore concludes that
+so that, if $(\omega_{\lambda \mu})$ and $(\omega'_{\lambda \mu})$ are the `1`-cocycles corresponding to the systems of
+isomorphisms $(\eta_{\lambda})$ and $(\eta'_{\lambda})$ (6.5.2), $\omega'_{\lambda \mu}$ is the canonical image in
+$\Gamma(U_{\lambda} \cap U_{\mu}, \mathcal{B}/\mathcal{T})$ of $\omega_{\lambda \mu} \in \Gamma(U_{\lambda} \cap
+U_{\mu}, \mathcal{B})$. By virtue of the definition of $\mathcal{T}$, one therefore concludes that
 
-```text
-  N_{ℬ/𝒜}(ω_{λμ}) = N_{(ℬ/𝒯)/𝒜}(ω'_{λμ})
-```
+$$ N_{\mathcal{B}/\mathcal{A}}(\omega_{\lambda \mu}) = N_{(\mathcal{B}/\mathcal{T})/\mathcal{A}}(\omega'_{\lambda \mu})
+$$
 
-(with `𝒜 = 𝒪_X`), whence the asserted equality.
+(with $\mathcal{A} = \mathcal{O}_{X}$), whence the asserted equality.
 
-Suppose therefore that the homomorphism `g_*(𝒪_{X'}) → g_*(𝒪_{X'}) ⊗_{𝒪_X} ℛ(X)` is injective when we are under
-hypothesis (II bis). It suffices to prove that, as `f` runs over the sections of `ℒ^{⊗n}` (for `n > 0`) over `X`, the
-`X_f` form a base of the topology of `X` (4.5.2). Now let `x ∈ X` and let `U` be an arbitrary neighbourhood of `x`;
-since `g⁻¹(x)` is finite (6.1.7) and `ℒ'` is ample, there exists an integer `n > 0` and a section `f'` of `ℒ'^{⊗n}` over
-`X'` such that `X'_{f'}` is a neighbourhood of `g⁻¹(x)` contained in `g⁻¹(U)` (4.5.4). Since
+Suppose therefore that the homomorphism $g_{*}(\mathcal{O}_{X'}) \to g_{*}(\mathcal{O}_{X'}) \otimes_{\mathcal{O}_{X}}
+\mathcal{R}(X)$ is injective when we are under hypothesis (II bis). It suffices to prove that, as $f$ runs over the
+sections of $\mathcal{L}^{\otimes n}$ (for $n > 0$) over $X$, the $X_{f}$ form a base of the topology of $X$ (4.5.2).
+Now let $x \in X$ and let $U$ be an arbitrary neighbourhood of $x$; since $g^{-1}(x)$ is finite (6.1.7) and
+$\mathcal{L}'$ is ample, there exists an integer $n > 0$ and a section $f'$ of $\mathcal{L}'^{\otimes n}$ over $X'$ such
+that $X'_{f'}$ is a neighbourhood of $g^{-1}(x)$ contained in $g^{-1}(U)$ (4.5.4). Since
 
-```text
-  ℒ^{⊗n} = N_{X'/X}(ℒ'^{⊗n})
-```
+$$ \mathcal{L}^{\otimes n} = N_{X'/X}(\mathcal{L}'^{\otimes n}) $$
 
-it suffices to take `f = N_{X'/X}(f')`; indeed, then `X − X_f = g(X' − X'_{f'})` (6.5.7), so `x ∈ X_f ⊂ U`.
+it suffices to take $f = N_{X'/X}(f')$; indeed, then $X - X_{f} = g(X' - X'_{f'})$ (6.5.7), so $x \in X_{f} \subset U$.
 
 **Corollary.**
 
 <!-- label: II.6.6.3 -->
 
-Under the hypotheses of (6.6.1), for an invertible `𝒪_X`-module `ℒ` to be ample for `f`, it is necessary and sufficient
-that `ℒ' = g*(ℒ)` be ample for `f ∘ g`.
+Under the hypotheses of (6.6.1), for an invertible $\mathcal{O}_{X}$-module $\mathcal{L}$ to be ample for $f$, it is
+necessary and sufficient that $\mathcal{L}' = g*(\mathcal{L})$ be ample for $f \circ g$.
 
-**Proof.** The condition is necessary, since `g` is affine (5.1.12). To prove that the condition is sufficient, we may
-assume `Y` affine (4.6.4), hence `X` and `X'` quasi-compact and `ℒ'` ample (4.6.6), and it remains to show that `ℒ` is
-ample. Now, the set of points
+**Proof.** The condition is necessary, since $g$ is affine (5.1.12). To prove that the condition is sufficient, we may
+assume $Y$ affine (4.6.4), hence $X$ and $X'$ quasi-compact and $\mathcal{L}'$ ample (4.6.6), and it remains to show
+that $\mathcal{L}$ is ample. Now, the set of points
 
 <!-- original page 132 -->
 
-`x ∈ X` in a neighbourhood of which `g_*(𝒪_{X'})` (resp. `g_*(𝒪_{X'}) ⊗_{𝒪_X} ℛ(X)`) has a given rank `n` in the first
-(resp. second) hypothesis is both open and closed in `X`, so `X` is the prescheme sum of a finite number of these opens,
-and we may therefore assume that it is equal to one of them (4.6.17). But then `N_{X'/X}(ℒ') = ℒ^{⊗n}`, hence `ℒ^{⊗n}`
-is ample by virtue of (6.6.2), and so is `ℒ` (4.5.6).
+$x \in X$ in a neighbourhood of which $g_{*}(\mathcal{O}_{X'})$ (resp. $g_{*}(\mathcal{O}_{X'})
+\otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$) has a given rank $n$ in the first (resp. second) hypothesis is both open and
+closed in $X$, so $X$ is the prescheme sum of a finite number of these opens, and we may therefore assume that it is
+equal to one of them (4.6.17). But then $N_{X'/X}(\mathcal{L}') = \mathcal{L}^{\otimes n}$, hence $\mathcal{L}^{\otimes
+n}$ is ample by virtue of (6.6.2), and so is $\mathcal{L}$ (4.5.6).
 
 **Corollary.**
 
 <!-- label: II.6.6.4 -->
 
-Suppose that the hypotheses of (6.6.1) are satisfied and suppose further that `f : X → Y` is of finite type. Then, for
-`f` to be quasi-projective, it is necessary and sufficient that `f ∘ g` be so. If, moreover, we suppose that `Y` is a
-quasi-compact scheme, or a prescheme whose underlying space is Noetherian, then, for `f` to be projective, it is
-necessary and sufficient that `f ∘ g` be so.
+Suppose that the hypotheses of (6.6.1) are satisfied and suppose further that $f : X \to Y$ is of finite type. Then, for
+$f$ to be quasi-projective, it is necessary and sufficient that $f \circ g$ be so. If, moreover, we suppose that $Y$ is
+a quasi-compact scheme, or a prescheme whose underlying space is Noetherian, then, for $f$ to be projective, it is
+necessary and sufficient that $f \circ g$ be so.
 
-**Proof.** The hypothesis implies that `f ∘ g` is of finite type. Taking into account the definition of quasi-projective
-morphisms (5.3.1), the first assertion follows from (6.6.1) and (6.6.3). Taking this result and (5.5.3, (ii)) into
-account, it remains to prove that when `f` is assumed quasi-projective, for `f` to be proper, it is necessary and
-sufficient that `f ∘ g` be proper. Now `f` is then separated (5.3.1) and of finite type; since `g` is surjective, our
-assertion follows from (5.4.2, (ii)) and (5.4.3, (ii)).
+**Proof.** The hypothesis implies that $f \circ g$ is of finite type. Taking into account the definition of
+quasi-projective morphisms (5.3.1), the first assertion follows from (6.6.1) and (6.6.3). Taking this result and (5.5.3,
+(ii)) into account, it remains to prove that when $f$ is assumed quasi-projective, for $f$ to be proper, it is necessary
+and sufficient that $f \circ g$ be proper. Now $f$ is then separated (5.3.1) and of finite type; since $g$ is
+surjective, our assertion follows from (5.4.2, (ii)) and (5.4.3, (ii)).
 
 In particular:
 
@@ -1308,17 +1389,18 @@ In particular:
 
 <!-- label: II.6.6.5 -->
 
-Let `X` be a prescheme of finite type over a field `K`, `K'` a finite-degree extension of `K`. For `X` to be projective
-(resp. quasi-projective) over `K`, it is necessary and sufficient that `X' = X ⊗_K K'` be projective (resp.
-quasi-projective) over `K'`.
+Let $X$ be a prescheme of finite type over a field $K$, $K'$ a finite-degree extension of $K$. For $X$ to be projective
+(resp. quasi-projective) over $K$, it is necessary and sufficient that $X' = X \otimes_{K} K'$ be projective (resp.
+quasi-projective) over $K'$.
 
 **Proof.** The condition is indeed necessary (5.3.4, (iii) and 5.5.5, (iii)). Conversely, suppose it is satisfied, and
-let `g : X' → X` be the canonical projection. It is clear that `g` is a finite morphism (6.1.5, (iii)) and surjective
-`(I, 3.5.2, (ii))`. Moreover, `g_*(𝒪_{X'})` is a locally free `𝒪_X`-module, being isomorphic to `𝒪_X ⊗_K K'` (1.5.2). It
-then follows from the hypothesis and from (6.1.11) and (5.5.5, (ii)) that `X'` is projective (resp. quasi-projective)
-over `K`; we then deduce from (6.6.4) that `X` is projective (resp. quasi-projective) over `K`.
+let $g : X' \to X$ be the canonical projection. It is clear that $g$ is a finite morphism (6.1.5, (iii)) and surjective
+`(I, 3.5.2, (ii))`. Moreover, $g_{*}(\mathcal{O}_{X'})$ is a locally free $\mathcal{O}_{X}$-module, being isomorphic to
+$\mathcal{O}_{X} \otimes_{K} K'$ (1.5.2). It then follows from the hypothesis and from (6.1.11) and (5.5.5, (ii)) that
+$X'$ is projective (resp. quasi-projective) over $K$; we then deduce from (6.6.4) that $X$ is projective (resp.
+quasi-projective) over $K$.
 
-In Chapter V, we will show that the statement of (6.6.5) remains valid when `K'` is an arbitrary extension of `K`.
+In Chapter V, we will show that the statement of (6.6.5) remains valid when $K'$ is an arbitrary extension of $K$.
 
 The end of this section is devoted to the proof of the criterion (6.6.11), which is a rather technical refinement of
 (6.6.1); it may be omitted on a first reading.
@@ -1327,179 +1409,194 @@ The end of this section is devoted to the proof of the criterion (6.6.11), which
 
 <!-- label: II.6.6.6 -->
 
-Let `X` be a reduced Noetherian prescheme, `ℰ` a coherent `𝒪_X`-module such that `ℰ ⊗_{𝒪_X} ℛ(X)` is a locally free
-`ℛ(X)`-module of constant rank `n`. Then there exists a reduced Noetherian prescheme `Z` and a finite birational
-morphism `h : Z → X` having the following property: the morphisms of sheaves of sets `σ_i : 𝓗𝓸𝓶_{𝒪_X}(ℰ, ℰ) → ℛ(X)`
-(`1 ≤ i ≤ n`) (cf. (6.4.10)) send `𝓗𝓸𝓶_{𝒪_X}(ℰ, ℰ)` into the coherent `𝒪_X`-algebra `h_*(𝒪_Z)`.
+Let $X$ be a reduced Noetherian prescheme, $\mathcal{E}$ a coherent $\mathcal{O}_{X}$-module such that $\mathcal{E}
+\otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$ is a locally free $\mathcal{R}(X)$-module of constant rank $n$. Then there
+exists a reduced Noetherian prescheme $Z$ and a finite birational morphism $h : Z \to X$ having the following property:
+the morphisms of sheaves of sets $\sigma_{i} : \operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{E}, \mathcal{E}) \to
+\mathcal{R}(X)$ ($1 \leq i \leq n$) (cf. (6.4.10)) send $\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{E}, \mathcal{E})$
+into the coherent $\mathcal{O}_{X}$-algebra $h_{*}(\mathcal{O}_{Z})$.
 
-**Proof.** Consider an affine open `U` of `X` of ring `𝒜(U) = A`; let `E = Γ(U, ℰ)`, and let `C_U` be the sub-algebra of
-`R(U)` generated by the `σ_i(u)` as `u` runs over `Hom_A(E, E)`; we have seen (6.4.7.1) that this `A`-algebra is of
-finite rank. Moreover, it is clear that the formation of the algebras `C_U` commutes with the restriction operations
-from an affine open `U` to an affine open `U' ⊂ U`. We have thus defined a finite sub-`𝒪_X`-algebra `𝒞` of `ℛ(X)` such
-that `Γ(U, 𝒞) = C_U` for every affine open `U` of `X`. We
+**Proof.** Consider an affine open $U$ of $X$ of ring $\mathcal{A}(U) = A$; let $E = \Gamma(U, \mathcal{E})$, and let
+`C_U` be the sub-algebra of $R(U)$ generated by the $\sigma_{i}(u)$ as $u$ runs over $\operatorname{Hom}_{A}(E, E)$; we
+have seen (6.4.7.1) that this $A$-algebra is of finite rank. Moreover, it is clear that the formation of the algebras
+`C_U` commutes with the restriction operations from an affine open $U$ to an affine open $U' \subset U$. We have thus
+defined a finite sub-$\mathcal{O}_{X}$-algebra $\mathcal{C}$ of $\mathcal{R}(X)$ such that $\Gamma(U, \mathcal{C}) =
+C_{U}$ for every affine open $U$ of $X$. We
 
 <!-- original page 133 -->
 
-shall take `Z = Spec(𝒞)`, and for `h` the structure morphism, which is therefore finite (6.1.2); since `𝒞` is reduced,
-`Z` is a reduced Noetherian prescheme (1.3.8). Finally, the total ring of fractions of `C_U` is `R(U)` by definition,
-and since `C_U` is contained in the integral closure of `𝒜(U)` in `R(U)`, there is a bijective correspondence between
-minimal prime ideals of `𝒜(U)` and minimal prime ideals of `C_U` ([13], t. I, p. 259), which proves that `h` is
-birational and completes the proof.
+shall take $Z = \operatorname{Spec}(\mathcal{C})$, and for $h$ the structure morphism, which is therefore finite
+(6.1.2); since $\mathcal{C}$ is reduced, $Z$ is a reduced Noetherian prescheme (1.3.8). Finally, the total ring of
+fractions of `C_U` is $R(U)$ by definition, and since `C_U` is contained in the integral closure of $\mathcal{A}(U)$ in
+$R(U)$, there is a bijective correspondence between minimal prime ideals of $\mathcal{A}(U)$ and minimal prime ideals of
+`C_U` ([13], t. I, p. 259), which proves that $h$ is birational and completes the proof.
 
 **Corollary.**
 
 <!-- label: II.6.6.7 -->
 
-Under the hypotheses of (6.6.6), let `W` be an open of `X` such that, for every `x ∈ W`, either `X` is normal at the
-point `x`, or `ℰ_x` is a free `𝒪_x`-module. Then we may suppose `h` defined so that the restriction of `h` to `h⁻¹(W)`
-is an isomorphism of `h⁻¹(W)` onto `W`.
+Under the hypotheses of (6.6.6), let $W$ be an open of $X$ such that, for every $x \in W$, either $X$ is normal at the
+point $x$, or $\mathcal{E}_{x}$ is a free $\mathcal{O}_{x}$-module. Then we may suppose $h$ defined so that the
+restriction of $h$ to $h^{-1}(W)$ is an isomorphism of $h^{-1}(W)$ onto $W$.
 
-**Proof.** Indeed, either hypothesis implies that if `U ⊂ W` is an affine open, then, with the notation of (6.6.6),
-`(σ_i(u))_x ∈ A_x` for every `x ∈ U` (6.4.3), so `σ_i(u) ∈ A`, and the conclusion follows from the definition of `h`
-given in (6.6.6).
+**Proof.** Indeed, either hypothesis implies that if $U \subset W$ is an affine open, then, with the notation of
+(6.6.6), $(\sigma_{i}(u))_{x} \in A_{x}$ for every $x \in U$ (6.4.3), so $\sigma_{i}(u) \in A$, and the conclusion
+follows from the definition of $h$ given in (6.6.6).
 
 **(6.6.8)**
 
 <!-- label: II.6.6.8 -->
 
-Let `X` be a reduced Noetherian prescheme, `g : X' → X` a finite surjective morphism, so that `ℬ = g_*(𝒪_{X'})` is a
-coherent `𝒪_X`-algebra, and suppose moreover that `ℬ ⊗_{𝒪_X} ℛ(X)` is a locally free `ℛ(X)`-module of constant rank `n`.
-We can then apply the lemma (6.6.6) taking `ℰ = ℬ`, whence, with the notation of (6.6.6), a homomorphism of sheaves of
-multiplicative monoids `σ_n : 𝓗𝓸𝓶_{𝒪_X}(ℬ, ℬ) → h_*(𝒪_Z)`, and composing this homomorphism with the canonical
-homomorphism `ℬ → 𝓗𝓸𝓶_{𝒪_X}(ℬ, ℬ)` (6.5.1), one therefore obtains a homomorphism of sheaves of multiplicative monoids:
+Let $X$ be a reduced Noetherian prescheme, $g : X' \to X$ a finite surjective morphism, so that $\mathcal{B} =
+g_{*}(\mathcal{O}_{X'})$ is a coherent $\mathcal{O}_{X}$-algebra, and suppose moreover that $\mathcal{B}
+\otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$ is a locally free $\mathcal{R}(X)$-module of constant rank $n$. We can then
+apply the lemma (6.6.6) taking $\mathcal{E} = \mathcal{B}$, whence, with the notation of (6.6.6), a homomorphism of
+sheaves of multiplicative monoids $\sigma_{n} : \operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{B}, \mathcal{B}) \to
+h_{*}(\mathcal{O}_{Z})$, and composing this homomorphism with the canonical homomorphism $\mathcal{B} \to
+\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{B}, \mathcal{B})$ (6.5.1), one therefore obtains a homomorphism of sheaves
+of multiplicative monoids:
 
 ```text
   N' : ℬ = g_*(𝒪_{X'}) → h_*(𝒪_Z) = 𝒞.                                     (6.6.8.1)
 ```
 
-This being so, for every invertible `𝒪_{X'}`-module `ℒ'`, `g_*(ℒ')` is an invertible `ℬ`-module (6.1.12), and the method
-of (6.5.2) allows us to associate to `ℒ'` functorially an invertible `𝒞`-module, which we shall denote by `N'(g_*(ℒ'))`.
+This being so, for every invertible $\mathcal{O}_{X'}$-module $\mathcal{L}'$, $g_{*}(\mathcal{L}')$ is an invertible
+$\mathcal{B}$-module (6.1.12), and the method of (6.5.2) allows us to associate to $\mathcal{L}'$ functorially an
+invertible $\mathcal{C}$-module, which we shall denote by $N'(g_{*}(\mathcal{L}'))$.
 
 **Lemma.**
 
 <!-- label: II.6.6.9 -->
 
-Let `X` be a reduced Noetherian prescheme, `g : X' → X` a finite surjective morphism such that
-`g_*(𝒪_{X'}) ⊗_{𝒪_X} ℛ(X)` is a locally free `ℛ(X)`-module of constant rank. Then there exists a reduced Noetherian
-prescheme `Z` and a finite birational morphism `h : Z → X` having the following property: for every ample
-`𝒪_{X'}`-module `ℒ'`, the invertible `𝒪_Z`-module `ℳ` such that `h_*(ℳ) = N'(g_*(ℒ'))` (notation of (6.6.8)) is ample.
+Let $X$ be a reduced Noetherian prescheme, $g : X' \to X$ a finite surjective morphism such that
+$g_{*}(\mathcal{O}_{X'}) \otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$ is a locally free $\mathcal{R}(X)$-module of constant
+rank. Then there exists a reduced Noetherian prescheme $Z$ and a finite birational morphism $h : Z \to X$ having the
+following property: for every ample $\mathcal{O}_{X'}$-module $\mathcal{L}'$, the invertible $\mathcal{O}_{Z}$-module
+$\mathcal{M}$ such that $h_{*}(\mathcal{M}) = N'(g_{*}(\mathcal{L}'))$ (notation of (6.6.8)) is ample.
 
-**Proof.** Suppose first that the homomorphism `ℬ → ℬ ⊗_{𝒪_X} ℛ(X)` is injective. Define `Z` and `h` as in (6.6.6) (with
-`ℰ = g_*(𝒪_{X'})`). Let `z ∈ Z`; we have to show that there exists an integer `m > 0` and a section `t` of `ℳ^{⊗m}` over
-`Z` such that `Z_t` is an affine open containing `z` (4.5.2). Let `x = h(z)`, and let `U` be an affine open of `X`
-containing `x`; then `h⁻¹(U)` is an affine open neighbourhood of `z`, and it suffices to find `t` such that
-`z ∈ Z_t ⊂ h⁻¹(U)`, since `Z_t` will then necessarily be affine (5.5.8). There exists by hypothesis an integer `n > 0`
-and a section `s'` of `ℒ'^{⊗n}` over `X'` such that
+**Proof.** Suppose first that the homomorphism $\mathcal{B} \to \mathcal{B} \otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$ is
+injective. Define $Z$ and $h$ as in (6.6.6) (with $\mathcal{E} = g_{*}(\mathcal{O}_{X'})$). Let $z \in Z$; we have to
+show that there exists an integer $m > 0$ and a section $t$ of $\mathcal{M}^{\otimes m}$ over $Z$ such that $Z_{t}$ is
+an affine open containing $z$ (4.5.2). Let $x = h(z)$, and let $U$ be an affine open of $X$ containing $x$; then
+$h^{-1}(U)$ is an affine open neighbourhood of $z$, and it suffices to find $t$ such that $z \in Z_{t} \subset
+h^{-1}(U)$, since $Z_{t}$ will then necessarily be affine (5.5.8). There exists by hypothesis an integer $n > 0$ and a
+section $s'$ of $\mathcal{L}'^{\otimes n}$ over $X'$ such that
 
-```text
-  g⁻¹(x) ⊂ X'_{s'} ⊂ g⁻¹(U)                                                (6.6.9.1)
-```
+$$ g^{-1}(x) \subset X'_{s'} \subset g^{-1}(U) (6.6.9.1) $$
 
-by virtue of (4.5.4). By definition, `s'` is also a section of `g_*(ℒ')` over `X`, and there corresponds to it, as in
-(6.5.2), a section `s = N'(s')` of `N'(g_*(ℒ'))` over `X`.
+by virtue of (4.5.4). By definition, $s'$ is also a section of $g_{*}(\mathcal{L}')$ over $X$, and there corresponds to
+it, as in (6.5.2), a section $s = N'(s')$ of $N'(g_{*}(\mathcal{L}'))$ over $X$.
 
 <!-- original page 134 -->
 
-We shall see that if `t` is the section `s` considered as a section of `ℳ` over `Z`, then `t` answers the question. Set
+We shall see that if $t$ is the section $s$ considered as a section of $\mathcal{M}$ over $Z$, then $t$ answers the
+question. Set
 
 ```text
   V = X − g(X' − X'_{s'})                                                  (6.6.9.2)
 ```
 
-which is an open of `X` containing `x` and contained in `U`, by virtue of (6.6.9.1) and (6.1.10). We shall show that
+which is an open of $X$ containing $x$ and contained in $U$, by virtue of (6.6.9.1) and (6.1.10). We shall show that
 
-```text
-  h⁻¹(V) ⊂ Z_t ⊂ h⁻¹(U),                                                   (6.6.9.3)
-```
+$$ h^{-1}(V) \subset Z_{t} \subset h^{-1}(U), (6.6.9.3) $$
 
-which will complete the proof. It amounts to saying that the set `T` of `y ∈ X` such that `s_y` is invertible contains
-`V` and is contained in `U`. For this, consider first an affine open `W` contained in `V`; `g⁻¹(W)` is an affine open in
-`X'`, and by virtue of (6.6.9.2), `s'_{y'}` is invertible for every `y' ∈ g⁻¹(W)`; by virtue of the hypotheses on `X`
-and `ℬ`, one can apply the results of (6.4.7) and one sees that if `y = g(y')`, then `s_y` is invertible; in other
-words, `V ⊂ T`. On the other hand, it also follows from (6.4.7) that, conversely, if `s_y` is invertible, so is
-`s'_{y'}`, which implies `y' ∈ g⁻¹(U)` by (6.6.9.1), and therefore `y ∈ U`, whence `T ⊂ U` in this case.
+which will complete the proof. It amounts to saying that the set $T$ of $y \in X$ such that $s_{y}$ is invertible
+contains $V$ and is contained in $U$. For this, consider first an affine open $W$ contained in $V$; $g^{-1}(W)$ is an
+affine open in $X'$, and by virtue of (6.6.9.2), $s'_{y'}$ is invertible for every $y' \in g^{-1}(W)$; by virtue of the
+hypotheses on $X$ and $\mathcal{B}$, one can apply the results of (6.4.7) and one sees that if $y = g(y')$, then $s_{y}$
+is invertible; in other words, $V \subset T$. On the other hand, it also follows from (6.4.7) that, conversely, if
+$s_{y}$ is invertible, so is $s'_{y'}$, which implies $y' \in g^{-1}(U)$ by (6.6.9.1), and therefore $y \in U$, whence
+$T \subset U$ in this case.
 
-One passes from this to the general case by the same reasoning as in (6.6.2), replacing `X'` by `X''` such that
-`g'_*(𝒪_{X''}) → g'_*(𝒪_{X''}) ⊗_{𝒪_X} ℛ(X)` is injective, and `ℒ'` by an ample `𝒪_{X''}`-module `ℒ''` such that
-`N'(g_*(ℒ')) = N'(g'_*(ℒ''))`. The lemma (6.6.9) is therefore proven in all cases (with a suitable choice of `h`).
+One passes from this to the general case by the same reasoning as in (6.6.2), replacing $X'$ by `X''` such that
+$g'_{*}(\mathcal{O}_{X''}) \to g'_{*}(\mathcal{O}_{X''}) \otimes_{\mathcal{O}_{X}} \mathcal{R}(X)$ is injective, and
+$\mathcal{L}'$ by an ample $\mathcal{O}_{X''}$-module $\mathcal{L}''$ such that $N'(g_{*}(\mathcal{L}')) =
+N'(g'_{*}(\mathcal{L}''))$. The lemma (6.6.9) is therefore proven in all cases (with a suitable choice of $h$).
 
 **Corollary.**
 
 <!-- label: II.6.6.10 -->
 
-Suppose that the hypotheses of (6.6.9) are satisfied; for every invertible `𝒪_X`-module `ℒ` such that `g*(ℒ)` is ample,
-`h*(ℒ)` is ample.
+Suppose that the hypotheses of (6.6.9) are satisfied; for every invertible $\mathcal{O}_{X}$-module $\mathcal{L}$ such
+that $g*(\mathcal{L})$ is ample, $h*(\mathcal{L})$ is ample.
 
-**Proof.** Indeed, if we set `ℒ' = g*(ℒ)`, then `g_*(ℒ') = ℒ ⊗_{𝒪_X} ℬ` `(0, 5.4.10)`, so
+**Proof.** Indeed, if we set $\mathcal{L}' = g*(\mathcal{L})$, then $g_{*}(\mathcal{L}') = \mathcal{L}
+\otimes_{\mathcal{O}_{X}} \mathcal{B}$ `(0, 5.4.10)`, so
 
 ```text
   N'(g_*(ℒ')) = (ℒ ⊗_{𝒪_X} 𝒞)^{⊗n}
 ```
 
-(by the same reasoning as for (6.5.2.4)). We conclude that `ℳ = (h*(ℒ))^{⊗n}`, and since `ℳ` is ample, so is `h*(ℒ)`
-(4.5.6).
+(by the same reasoning as for (6.5.2.4)). We conclude that $\mathcal{M} = (h*(\mathcal{L}))^{\otimes n}$, and since
+$\mathcal{M}$ is ample, so is $h*(\mathcal{L})$ (4.5.6).
 
 **Proposition.**
 
 <!-- label: II.6.6.11 -->
 
-Let `Y` be an affine scheme, `X` a reduced Noetherian prescheme, `f : X → Y` a quasi-compact morphism, `g : X' → X` a
-finite surjective morphism. Let `W` be an open part of `X` such that, for every `x ∈ W`, either `X` is normal at the
-point `x`, or there exists an open neighbourhood `T ⊂ W` of `x` such that `(g_*(𝒪_{X'}))|T` is a locally free
-`(𝒪_X|T)`-module. Then there exists a reduced `Y`-prescheme `Z` and a finite and birational `Y`-morphism `h : Z → X`
-such that the restriction of `h` to `h⁻¹(W)` is an isomorphism `h⁻¹(W) ⥲ W` and which possesses the following property:
-for every invertible `𝒪_X`-module `ℒ` such that `g*(ℒ)` is ample relative to `f ∘ g`, `h*(ℒ)` is ample relative to
-`f ∘ h`.
+Let $Y$ be an affine scheme, $X$ a reduced Noetherian prescheme, $f : X \to Y$ a quasi-compact morphism, $g : X' \to X$
+a finite surjective morphism. Let $W$ be an open part of $X$ such that, for every $x \in W$, either $X$ is normal at the
+point $x$, or there exists an open neighbourhood $T \subset W$ of $x$ such that $(g_{*}(\mathcal{O}_{X'}))|T$ is a
+locally free $(\mathcal{O}_{X}|T)$-module. Then there exists a reduced $Y$-prescheme $Z$ and a finite and birational
+$Y$-morphism $h : Z \to X$ such that the restriction of $h$ to $h^{-1}(W)$ is an isomorphism $h^{-1}(W)
+\xrightarrow{\sim} W$ and which possesses the following property: for every invertible $\mathcal{O}_{X}$-module
+$\mathcal{L}$ such that $g*(\mathcal{L})$ is ample relative to $f \circ g$, $h*(\mathcal{L})$ is ample relative to $f
+\circ h$.
 
-**Proof.** Since `Y` is affine, `g*(ℒ)` is ample, and it is then a matter of proving that for a suitable choice of `h`,
-`h*(ℒ)` is ample (4.6.6). We shall see that we can replace `g` by a finite surjective morphism `g' : X'' → X` such that
-`g'*(ℒ)` is ample and `g'_*(𝒪_{X''}) ⊗_{𝒪_X} ℛ(X)` is a locally free `ℛ(X)`-module of constant rank; we will then be
-reduced to the conditions of (6.6.10) and the proposition will be proven.
+**Proof.** Since $Y$ is affine, $g*(\mathcal{L})$ is ample, and it is then a matter of proving that for a suitable
+choice of $h$, $h*(\mathcal{L})$ is ample (4.6.6). We shall see that we can replace $g$ by a finite surjective morphism
+$g' : X'' \to X$ such that $g'*(\mathcal{L})$ is ample and $g'_{*}(\mathcal{O}_{X''}) \otimes_{\mathcal{O}_{X}}
+\mathcal{R}(X)$ is a locally free $\mathcal{R}(X)$-module of constant rank; we will then be reduced to the conditions of
+(6.6.10) and the proposition will be proven.
 
-For this, let `ℬ = g_*(𝒪_{X'})`; denote by `X_i` (`1 ≤ i ≤ n`) the closed reduced subpreschemes of `X` having as their
-underlying spaces the irreducible components of `X` `(I, 5.2.1)`; they are integral by hypothesis. Let `X'_i` be the
-closed
+For this, let $\mathcal{B} = g_{*}(\mathcal{O}_{X'})$; denote by $X_{i}$ ($1 \leq i \leq n$) the closed reduced
+subpreschemes of $X$ having as their underlying spaces the irreducible components of $X$ `(I, 5.2.1)`; they are integral
+by hypothesis. Let $X'_{i}$ be the closed
 
 <!-- original page 135 -->
 
-subprescheme `g⁻¹(X_i)` of `X'`, `g_i : X'_i → X_i` the morphism `g` restricted to `X'_i`, which is finite (6.1.5,
-(iii)) and surjective; let `k_i` be the rank of the `𝒪_{X_i}`-algebra `ℬ_i = (g_i)_*(𝒪_{X'_i})`. Since
-`ℬ_i ⊗_{𝒪_{X_i}} ℛ(X_i)` is a constant presheaf `(I, 7.3.5)`, the rank `k_i` is also the rank of the `(𝒪_X|U)`-algebra
-`ℬ|U` for every open `U` of `X` meeting only the single irreducible component `X_i`. If `T` is an open set in `X` such
-that `ℬ|T` is isomorphic to `𝒪_X^m|T`, it follows from the preceding remark that the numbers `k_i` are equal to `m` for
-all the indices `i` such that `T ∩ X_i ≠ ∅`. Let then `U` be the open of `X` formed by the points in a neighbourhood of
-which `ℬ` is a locally free `𝒪_X`-module, and let `U_j` (`1 ≤ j ≤ s`) be its connected components, which are open in `X`
-and finite in number (since `U` is Noetherian); denote by `V_j` the closed subprescheme of `X'`, closure of the
-subprescheme induced on the open `g⁻¹(U_j)` `(I, 9.5.11)`. By the above, for all indices `i` such that `X_i ∩ U_j ≠ ∅`,
-the ranks `k_i` are all equal to a single integer `m_j`; note moreover that a single `X_i` cannot meet two `U_j` of
-distinct indices. Let `i_λ` be the indices `i` such that `X_i ∩ U = ∅`. Consider the product `k` of all the `k_i`, set
-`n_i = k/k_i`, and let `X''` be the prescheme defined as follows. For each `j` (`1 ≤ j ≤ s`), one considers `k/m_j`
-preschemes isomorphic to `V_j`, and for each `λ`, `k/k_{i_λ} = n_{i_λ}` preschemes isomorphic to `X'_{i_λ}`; `X''` is
-the sum of all these preschemes. One defines a morphism `g'' : X'' → X'` reducing to the canonical injection on each of
-the summands of `X''`; it is clear that `g''` is a finite dominant morphism, hence surjective (since a finite morphism
-is closed (6.1.10)); set `g' = g ∘ g''`, which is a finite surjective morphism `X'' → X`; one has
-`g'*(ℒ) = g''*(g*(ℒ))`, so `g'*(ℒ)` is an ample `𝒪_{X''}`-module (5.1.12). It is clear then that for this new prescheme
-`X''`, the ranks defined like the `k_i` for `X'` are all equal to `k`; taking `(I, 7.3.3)` into account, one immediately
-concludes that for every affine open `T` of `X`, `(g'_*(𝒪_{X''}) ⊗_{𝒪_X} ℛ(X))|T` is an `(ℛ(X)|T)`-module isomorphic to
-`(ℛ(X)|T)^k`.
+subprescheme $g^{-1}(X_{i})$ of $X'$, $g_{i} : X'_{i} \to X_{i}$ the morphism $g$ restricted to $X'_{i}$, which is
+finite (6.1.5, (iii)) and surjective; let $k_{i}$ be the rank of the $\mathcal{O}_{X_{i}}$-algebra $\mathcal{B}_{i} =
+(g_{i})_{*}(\mathcal{O}_{X'_{i}})$. Since $\mathcal{B}_{i} \otimes_{\mathcal{O}_{X_{i}}} \mathcal{R}(X_{i})$ is a
+constant presheaf `(I, 7.3.5)`, the rank $k_{i}$ is also the rank of the $(\mathcal{O}_{X}|U)$-algebra $\mathcal{B}|U$
+for every open $U$ of $X$ meeting only the single irreducible component $X_{i}$. If $T$ is an open set in $X$ such that
+$\mathcal{B}|T$ is isomorphic to $\mathcal{O}^{m}_{X}|T$, it follows from the preceding remark that the numbers $k_{i}$
+are equal to $m$ for all the indices $i$ such that $T \cap X_{i} \neq \emptyset$. Let then $U$ be the open of $X$ formed
+by the points in a neighbourhood of which $\mathcal{B}$ is a locally free $\mathcal{O}_{X}$-module, and let $U_{j}$ ($1
+\leq j \leq s$) be its connected components, which are open in $X$ and finite in number (since $U$ is Noetherian);
+denote by $V_{j}$ the closed subprescheme of $X'$, closure of the subprescheme induced on the open $g^{-1}(U_{j})$
+`(I, 9.5.11)`. By the above, for all indices $i$ such that $X_{i} \cap U_{j} \neq \emptyset$, the ranks $k_{i}$ are all
+equal to a single integer $m_{j}$; note moreover that a single $X_{i}$ cannot meet two $U_{j}$ of distinct indices. Let
+$i_{\lambda}$ be the indices $i$ such that $X_{i} \cap U = \emptyset$. Consider the product $k$ of all the $k_{i}$, set
+$n_{i} = k/k_{i}$, and let `X''` be the prescheme defined as follows. For each $j$ ($1 \leq j \leq s$), one considers
+$k/m_{j}$ preschemes isomorphic to $V_{j}$, and for each $\lambda$, $k/k_{i_{\lambda}} = n_{i_{\lambda}}$ preschemes
+isomorphic to $X'_{i_{\lambda}}$; `X''` is the sum of all these preschemes. One defines a morphism $g'' : X'' \to X'$
+reducing to the canonical injection on each of the summands of `X''`; it is clear that `g''` is a finite dominant
+morphism, hence surjective (since a finite morphism is closed (6.1.10)); set $g' = g \circ g''$, which is a finite
+surjective morphism $X'' \to X$; one has $g'*(\mathcal{L}) = g''*(g*(\mathcal{L}))$, so $g'*(\mathcal{L})$ is an ample
+$\mathcal{O}_{X''}$-module (5.1.12). It is clear then that for this new prescheme `X''`, the ranks defined like the
+$k_{i}$ for $X'$ are all equal to $k$; taking `(I, 7.3.3)` into account, one immediately concludes that for every affine
+open $T$ of $X$, $(g'_{*}(\mathcal{O}_{X''}) \otimes_{\mathcal{O}_{X}} \mathcal{R}(X))|T$ is an
+$(\mathcal{R}(X)|T)$-module isomorphic to $(\mathcal{R}(X)|T)^{k}$.
 
 **Corollary.**
 
 <!-- label: II.6.6.12 -->
 
-If, in the statement of (6.6.11), we have `W = X`, then for an invertible `𝒪_X`-module `ℒ` to be ample relative to `f`,
-it is necessary and sufficient that `g*(ℒ)` be ample relative to `f ∘ g`.
+If, in the statement of (6.6.11), we have $W = X$, then for an invertible $\mathcal{O}_{X}$-module $\mathcal{L}$ to be
+ample relative to $f$, it is necessary and sufficient that $g*(\mathcal{L})$ be ample relative to $f \circ g$.
 
 **Remark.**
 
 <!-- label: II.6.6.13 -->
 
-In Chapter III, we will see that, if `Y` is Noetherian, `f` of finite type, and if the restriction of `f` to the closed
-reduced subprescheme of `X` having `X − W` as its underlying space is proper, then the conclusion of (6.6.12) is still
-valid. But we shall give in Chapter V examples of algebraic schemes `X` over a field `K` (the structure morphism
-`X → Spec(K)` not being proper) whose normalisation `X'` is quasi-affine, but which is not quasi-affine (so that `𝒪_X`
-is not ample, even though `𝒪_{X'}` is (5.1.12) and the morphism `X' → X` is finite and surjective (6.3.10)). We shall
-see in the next section that this circumstance cannot occur when we replace "quasi-affine" by "affine".
+In Chapter III, we will see that, if $Y$ is Noetherian, $f$ of finite type, and if the restriction of $f$ to the closed
+reduced subprescheme of $X$ having $X - W$ as its underlying space is proper, then the conclusion of (6.6.12) is still
+valid. But we shall give in Chapter V examples of algebraic schemes $X$ over a field $K$ (the structure morphism $X \to
+\operatorname{Spec}(K)$ not being proper) whose normalisation $X'$ is quasi-affine, but which is not quasi-affine (so
+that $\mathcal{O}_{X}$ is not ample, even though $\mathcal{O}_{X'}$ is (5.1.12) and the morphism $X' \to X$ is finite
+and surjective (6.3.10)). We shall see in the next section that this circumstance cannot occur when we replace
+"quasi-affine" by "affine".
 
 ## 6.7. Chevalley's theorem
 
@@ -1512,104 +1609,111 @@ by other methods, in the case of algebraic schemes.
 
 <!-- label: II.6.7.1 -->
 
-Let `X` be an affine scheme, `Y` a Noetherian prescheme, and `f : X → Y` a finite surjective morphism. Then `Y` is an
+Let $X$ be an affine scheme, $Y$ a Noetherian prescheme, and $f : X \to Y$ a finite surjective morphism. Then $Y$ is an
 affine scheme.
 
-**Proof.** It is clear that `f_red : X_red → Y_red` is finite (6.1.5, (vi)); since `X_red` is an affine scheme, and
-saying that `Y` is affine is equivalent to saying that `Y_red` is affine (since `Y` is Noetherian `(I, 6.1.7)`), we see
-that we may suppose `Y` reduced. For every closed part `Y'` of `Y`, there is then a single reduced subprescheme of `Y`
-having `Y'` as its underlying space `(I, 5.1.2)`; its inverse image `f⁻¹(Y')`, canonically isomorphic to `X ×_Y Y'`
-`(I, 4.4.1)`, is affine as a closed subprescheme of `X`, and the restriction of `f` to `f⁻¹(Y')`, which is identified
-with `f ×_Y 1_{Y'}`, is a finite surjective morphism (6.1.5, (iii)). By virtue of the principle of Noetherian induction
-`(0, 2.2.2)`, we may therefore (taking `(I, 6.1.7)` into account) reduce to proving the theorem under the hypothesis
-that for every closed part `Y' ≠ Y`, every closed subprescheme of `Y` having `Y'` as its underlying space is affine. We
-thus conclude that, _for every coherent `𝒪_Y`-module `ℱ` whose (closed) support `Z` is distinct from `Y`, one has_
-`H¹(Y, ℱ) = 0`. Indeed, there exists a closed subprescheme `Y'` of `Y` having `Z` as its underlying space and such that,
-if `j : Y' → Y` is the canonical injection, one has `ℱ = j_*(j*(ℱ))` `(I, 9.3.5)`; consequently (5.2.3)
-`H¹(Y, ℱ) = H¹(Y', j*(ℱ)) = 0` by `(I, 5.1.9.2)`.
+**Proof.** It is clear that `f_red : X_red → Y_red` is finite (6.1.5, (vi)); since $X_{red}$ is an affine scheme, and
+saying that $Y$ is affine is equivalent to saying that $Y_{red}$ is affine (since $Y$ is Noetherian `(I, 6.1.7)`), we
+see that we may suppose $Y$ reduced. For every closed part $Y'$ of $Y$, there is then a single reduced subprescheme of
+$Y$ having $Y'$ as its underlying space `(I, 5.1.2)`; its inverse image $f^{-1}(Y')$, canonically isomorphic to $X
+\times_{Y} Y'$ `(I, 4.4.1)`, is affine as a closed subprescheme of $X$, and the restriction of $f$ to $f^{-1}(Y')$,
+which is identified with $f \times_{Y} 1_{Y'}$, is a finite surjective morphism (6.1.5, (iii)). By virtue of the
+principle of Noetherian induction `(0, 2.2.2)`, we may therefore (taking `(I, 6.1.7)` into account) reduce to proving
+the theorem under the hypothesis that for every closed part $Y' \neq Y$, every closed subprescheme of $Y$ having $Y'$ as
+its underlying space is affine. We thus conclude that, _for every coherent $\mathcal{O}_{Y}$-module $\mathcal{F}$ whose
+(closed) support $Z$ is distinct from $Y$, one has_ $H^{1}(Y, \mathcal{F}) = 0$. Indeed, there exists a closed
+subprescheme $Y'$ of $Y$ having $Z$ as its underlying space and such that, if $j : Y' \to Y$ is the canonical injection,
+one has $\mathcal{F} = j_{*}(j*(\mathcal{F}))$ `(I, 9.3.5)`; consequently (5.2.3) $H^{1}(Y, \mathcal{F}) = H^{1}(Y',
+j*(\mathcal{F})) = 0$ by `(I, 5.1.9.2)`.
 
-Suppose first that `Y` is not irreducible, and let `Y'` be an irreducible component of `Y` and `Y'' = Y − Y'`; we again
-denote by `Y'` the closed reduced subprescheme of `Y` having `Y'` as its underlying space, and by `j` the canonical
-injection `Y' → Y`. Let `ℱ` be a coherent `𝒪_Y`-module, and consider the canonical homomorphism
+Suppose first that $Y$ is not irreducible, and let $Y'$ be an irreducible component of $Y$ and $Y'' = Y - Y'$; we again
+denote by $Y'$ the closed reduced subprescheme of $Y$ having $Y'$ as its underlying space, and by $j$ the canonical
+injection $Y' \to Y$. Let $\mathcal{F}$ be a coherent $\mathcal{O}_{Y}$-module, and consider the canonical homomorphism
 
 ```text
   ρ : ℱ → ℱ' = j_*(j*(ℱ))
 ```
 
-`(0, 4.4.3)`; `ℱ'` is a coherent `𝒪_Y`-module by virtue of `(0, 5.3.10)` and `(0, 5.3.12)`, since `j_*(𝒪_{Y'}) = 𝒪_Y/𝒥`,
-denoting by `𝒥` the sheaf of ideals of `𝒪_Y` defining the subprescheme `Y'`. Consequently `𝒢 = Ker ρ` and `𝒦 = Im ρ` are
-also coherent `𝒪_Y`-modules `(0, 5.3.4)`; now by definition the fibre `ℱ'_y` of `ℱ'` at the generic point `y` of `Y'` is
-equal to `ℱ_y`, since `y` is interior to `Y'` and therefore `𝒥_y = 0`, since `Y` is reduced. We conclude that `y` is not
-contained in the (closed) support of `𝒢`; moreover, the support of `ℱ'` (and _a fortiori_ that of `𝒦`) is contained in
-`Y'`; in other words, the supports of `𝒢` and `𝒦` are distinct from `Y`. We deduce that `H¹(Y, 𝒢) = H¹(Y, 𝒦) = 0`, and
-the exact sequence of cohomology applied to the exact sequence `0 → 𝒢 → ℱ → 𝒦 → 0` shows that `H¹(Y, ℱ) = 0`. We
-conclude by Serre's criterion (5.2.1).
+`(0, 4.4.3)`; $\mathcal{F}'$ is a coherent $\mathcal{O}_{Y}$-module by virtue of `(0, 5.3.10)` and `(0, 5.3.12)`, since
+$j_{*}(\mathcal{O}_{Y'}) = \mathcal{O}_{Y}/\mathcal{J}$, denoting by $\mathcal{J}$ the sheaf of ideals of
+$\mathcal{O}_{Y}$ defining the subprescheme $Y'$. Consequently $\mathcal{G} = Ker \rho$ and $\mathcal{K} = Im \rho$ are
+also coherent $\mathcal{O}_{Y}$-modules `(0, 5.3.4)`; now by definition the fibre $\mathcal{F}'_{y}$ of $\mathcal{F}'$
+at the generic point $y$ of $Y'$ is equal to $\mathcal{F}_{y}$, since $y$ is interior to $Y'$ and therefore
+$\mathcal{J}_{y} = 0$, since $Y$ is reduced. We conclude that $y$ is not contained in the (closed) support of
+$\mathcal{G}$; moreover, the support of $\mathcal{F}'$ (and _a fortiori_ that of $\mathcal{K}$) is contained in $Y'$; in
+other words, the supports of $\mathcal{G}$ and $\mathcal{K}$ are distinct from $Y$. We deduce that $H^{1}(Y,
+\mathcal{G}) = H^{1}(Y, \mathcal{K}) = 0$, and the exact sequence of cohomology applied to the exact sequence $0 \to
+\mathcal{G} \to \mathcal{F} \to \mathcal{K} \to 0$ shows that $H^{1}(Y, \mathcal{F}) = 0$. We conclude by Serre's
+criterion (5.2.1).
 
-So suppose `Y` irreducible, and hence integral. We may also suppose `X` integral: indeed, if we denote by `X_i` the
-closed reduced subpreschemes of `X` having as their underlying spaces the irreducible components of `X` `(I, 5.2.1)` and
-by `g_i` the restriction of `g` to `X_i`, then at least one of the `g_i` is dominant, and since it is a finite morphism
-(6.1.5), it is surjective (6.1.10); since `X_i` is also an affine scheme, we see that we may replace `X` by `X_i` in the
-statement.
+So suppose $Y$ irreducible, and hence integral. We may also suppose $X$ integral: indeed, if we denote by $X_{i}$ the
+closed reduced subpreschemes of $X$ having as their underlying spaces the irreducible components of $X$ `(I, 5.2.1)` and
+by $g_{i}$ the restriction of $g$ to $X_{i}$, then at least one of the $g_{i}$ is dominant, and since it is a finite
+morphism (6.1.5), it is surjective (6.1.10); since $X_{i}$ is also an affine scheme, we see that we may replace $X$ by
+$X_{i}$ in the statement.
 
 **Lemma.**
 
 <!-- label: II.6.7.1.1 -->
 
-Let `X`, `Y` be two integral Noetherian preschemes, `x` (resp. `y`) the generic point of `X` (resp. `Y`), `f : X → Y` a
-finite surjective morphism. Let `ℒ` be an invertible `𝒪_X`-module such that there exists an affine open neighbourhood
-`U` of `y` and a section `g ∈ Γ(X, ℒ)` for which
+Let $X$, $Y$ be two integral Noetherian preschemes, $x$ (resp. $y$) the generic point of $X$ (resp. $Y$), $f : X \to Y$
+a finite surjective morphism. Let $\mathcal{L}$ be an invertible $\mathcal{O}_{X}$-module such that there exists an
+affine open neighbourhood $U$ of $y$ and a section $g \in \Gamma(X, \mathcal{L})$ for which
 
 <!-- original page 137 -->
 
-`x ∈ X_g ⊂ f⁻¹(U)`. Then there exist two integers `m > 0`, `n > 0`, a homomorphism `u : 𝒪_Y^m → f_*(ℒ^{⊗n})`, and an
-open neighbourhood `V` of `y` such that the restriction `u|V` is an isomorphism of `𝒪_Y^m|V` onto `f_*(ℒ^{⊗n})|V`.
+$x \in X_{g} \subset f^{-1}(U)$. Then there exist two integers $m > 0$, $n > 0$, a homomorphism $u : \mathcal{O}^{m}_{Y}
+\to f_{*}(\mathcal{L}^{\otimes n})$, and an open neighbourhood $V$ of $y$ such that the restriction $u|V$ is an
+isomorphism of $\mathcal{O}^{m}_{Y}|V$ onto $f_{*}(\mathcal{L}^{\otimes n})|V$.
 
-**Proof.** Let `C` be the (integral) ring of `U`, `k = 𝒪_y` its field of fractions: since `f` is finite, `U' = f⁻¹(U)`
-is affine (1.3.2); let `D` be its (integral) ring of fractions `K = 𝒪_x`; by hypothesis `D` is a `C`-module of finite
-type (6.1.4), so `K` is an extension of finite rank of `k`. The fibre `f⁻¹(y) = X ×_Y Spec(κ(y)) = X ×_Y Spec(𝒪_y)` is
-identified with `Spec(K)` `(I, 3.6.5)`; let `s_i` (`1 ≤ i ≤ m`) be elements of `D` forming a basis of `K` over `k`.
-There exists `n > 0` such that the sections `(s_i|X_g) g^{⊗n}` of `ℒ^{⊗n}` over `X_g` extend to sections `b_i`
-(`1 ≤ i ≤ m`) of `ℒ^{⊗n}` over `X` `(I, 9.3.1)`. The `b_i` are also, by definition, sections of `f_*(ℒ^{⊗n})` over `Y`
-and therefore define a homomorphism `u : 𝒪_Y^m → f_*(ℒ^{⊗n})` `(0, 5.1.1)`; we shall see that `u` answers the question.
-One has `ℒ^{⊗n}|U' = M̃`, where `M` is a `D`-module of finite type, so if `φ` is the injection `C → D` corresponding to
-the morphism `f⁻¹(U) → U` given by the restriction of `f`, then `M_{[φ]}` is a `C`-module of finite type; consequently
+**Proof.** Let $C$ be the (integral) ring of $U$, $k = \mathcal{O}_{y}$ its field of fractions: since $f$ is finite, $U'
+= f^{-1}(U)$ is affine (1.3.2); let $D$ be its (integral) ring of fractions $K = \mathcal{O}_{x}$; by hypothesis $D$ is
+a $C$-module of finite type (6.1.4), so $K$ is an extension of finite rank of $k$. The fibre $f^{-1}(y) = X \times_{Y}
+\operatorname{Spec}(\kappa(y)) = X \times_{Y} \operatorname{Spec}(\mathcal{O}_{y})$ is identified with
+$\operatorname{Spec}(K)$ `(I, 3.6.5)`; let $s_{i}$ ($1 \leq i \leq m$) be elements of $D$ forming a basis of $K$ over
+$k$. There exists $n > 0$ such that the sections $(s_{i}|X_{g}) g^{\otimes n}$ of $\mathcal{L}^{\otimes n}$ over $X_{g}$
+extend to sections $b_{i}$ ($1 \leq i \leq m$) of $\mathcal{L}^{\otimes n}$ over $X$ `(I, 9.3.1)`. The $b_{i}$ are also,
+by definition, sections of $f_{*}(\mathcal{L}^{\otimes n})$ over $Y$ and therefore define a homomorphism $u :
+\mathcal{O}^{m}_{Y} \to f_{*}(\mathcal{L}^{\otimes n})$ `(0, 5.1.1)`; we shall see that $u$ answers the question. One
+has $\mathcal{L}^{\otimes n}|U' = \tilde{M}$, where $M$ is a $D$-module of finite type, so if $\phi$ is the injection $C
+\to D$ corresponding to the morphism $f^{-1}(U) \to U$ given by the restriction of $f$, then $M_{[\phi]}$ is a
+$C$-module of finite type; consequently
 
-```text
-  f_*(ℒ^{⊗n})|U = (M_{[φ]})̃
-```
+$$ f_{*}(\mathcal{L}^{\otimes n})|U = \tilde{M_{[\phi]}} $$
 
-`(I, 1.6.3)` is coherent, and since `U` is an arbitrary affine open of `Y`, `f_*(ℒ^{⊗n})` is coherent; moreover,
-`u|U = θ̃`, where `θ` is a `C`-homomorphism `C^m → M_{[φ]}`, and `u_y = θ_y` is the homomorphism
-`θ ⊗ 1 : k^m = C^m ⊗ K → M_{[φ]} ⊗ K`; but the latter is by definition an _isomorphism_, since the `(b_i)_x` form a
-basis of `M_{[φ]} ⊗ K` over `k`, `g_x` being by hypothesis a generator of `(ℒ^{⊗n})_x`. We conclude that the supports of
-the `𝒪_Y`-modules `Ker u` and `Coker u` do not contain `y`; since these `𝒪_Y`-modules are coherent `(0, 5.3.3)`, their
-supports are closed `(0, 5.2.2)`, whence the lemma.
+`(I, 1.6.3)` is coherent, and since $U$ is an arbitrary affine open of $Y$, $f_{*}(\mathcal{L}^{\otimes n})$ is
+coherent; moreover, $u|U = \tilde{\theta}$, where $\theta$ is a $C$-homomorphism $C^{m} \to M_{[\phi]}$, and $u_{y} =
+\theta_{y}$ is the homomorphism $\theta \otimes 1 : k^{m} = C^{m} \otimes K \to M_{[\phi]} \otimes K$; but the latter is
+by definition an _isomorphism_, since the $(b_{i})_{x}$ form a basis of $M_{[\phi]} \otimes K$ over $k$, $g_{x}$ being
+by hypothesis a generator of $(\mathcal{L}^{\otimes n})_{x}$. We conclude that the supports of the
+$\mathcal{O}_{Y}$-modules `Ker u` and `Coker u` do not contain $y$; since these $\mathcal{O}_{Y}$-modules are coherent
+`(0, 5.3.3)`, their supports are closed `(0, 5.2.2)`, whence the lemma.
 
-This being so, the hypotheses of the lemma (6.7.1.1) are fulfilled in the case we are considering, by taking `ℒ = 𝒪_X`,
-since `X` is affine `(I, 1.1.10)`; we shall set `𝒜 = 𝒪_Y` and `ℬ = f_*(𝒪_X)`. By virtue of Serre's criterion (5.2.1.1),
-it suffices to prove that for every coherent `𝒪_Y`-module `ℱ`, one has `H¹(Y, ℱ) = 0`; it even suffices to prove this
-when `ℱ ⊂ 𝒪_Y`, which entails that `ℱ` is torsion-free since `Y` is integral; in fact we shall show that `H¹(Y, ℱ) = 0`
-for every coherent torsion-free `𝒪_Y`-module `ℱ`. Now the homomorphism `u : 𝒜^m → ℬ` defines a homomorphism
+This being so, the hypotheses of the lemma (6.7.1.1) are fulfilled in the case we are considering, by taking
+$\mathcal{L} = \mathcal{O}_{X}$, since $X$ is affine `(I, 1.1.10)`; we shall set $\mathcal{A} = \mathcal{O}_{Y}$ and
+$\mathcal{B} = f_{*}(\mathcal{O}_{X})$. By virtue of Serre's criterion (5.2.1.1), it suffices to prove that for every
+coherent $\mathcal{O}_{Y}$-module $\mathcal{F}$, one has $H^{1}(Y, \mathcal{F}) = 0$; it even suffices to prove this
+when $\mathcal{F} \subset \mathcal{O}_{Y}$, which entails that $\mathcal{F}$ is torsion-free since $Y$ is integral; in
+fact we shall show that $H^{1}(Y, \mathcal{F}) = 0$ for every coherent torsion-free $\mathcal{O}_{Y}$-module
+$\mathcal{F}$. Now the homomorphism $u : \mathcal{A}^{m} \to \mathcal{B}$ defines a homomorphism
 
 ```text
   v : 𝒢 = 𝓗𝓸𝓶_𝒜(ℬ, ℱ) → 𝓗𝓸𝓶_𝒜(𝒜^m, ℱ) = ℱ^m.
 ```
 
-We first show that `v` is injective: by hypothesis `𝒯 = Coker u` has a support not meeting `V`, hence is a torsion
-`𝒪_Y`-module `(I, 7.4.6)`; the exact sequence
+We first show that $v$ is injective: by hypothesis $\mathcal{T} = Coker u$ has a support not meeting $V$, hence is a
+torsion $\mathcal{O}_{Y}$-module `(I, 7.4.6)`; the exact sequence
 
-```text
-  𝒜^m → ℬ → 𝒯 → 0
-```
+$$ \mathcal{A}^{m} \to \mathcal{B} \to \mathcal{T} \to 0 $$
 
-gives, by left exactness of the functor `𝓗𝓸𝓶_𝒜`, the exact sequence
+gives, by left exactness of the functor $\operatorname{Hom}_{\mathcal{A}}$, the exact sequence
 
 ```text
   0 → 𝓗𝓸𝓶_𝒜(𝒯, ℱ) → 𝒢 →^v ℱ^m.
 ```
 
-But since `ℱ` is torsion-free, one has `𝓗𝓸𝓶_𝒜(𝒯, ℱ) = 0` `(0, 5.2.6)`, whence our assertion. We therefore have the exact
-sequence
+But since $\mathcal{F}$ is torsion-free, one has $\operatorname{Hom}_{\mathcal{A}}(\mathcal{T}, \mathcal{F}) = 0$
+`(0, 5.2.6)`, whence our assertion. We therefore have the exact sequence
 
 ```text
   0 → 𝒢 → ℱ^m → Coker v → 0
@@ -1617,29 +1721,30 @@ sequence
 
 <!-- original page 138 -->
 
-where `𝒢` and `Coker v` are coherent `𝒪_Y`-modules (`(0, 5.3.4)` and `(0, 5.3.5)`); by virtue of the exact sequence of
-cohomology, it will suffice to show that `H¹(Y, 𝒢) = H¹(Y, Coker v) = 0` in order to deduce
-`H¹(Y, ℱ^m) = (H¹(Y, ℱ))^m = 0`, and therefore `H¹(Y, ℱ) = 0`. Now the restriction `v|V` is an isomorphism, hence the
-support of `Coker v` is distinct from `Y`, whence `H¹(Y, Coker v) = 0` by the hypothesis at the start. On the other
-hand, `𝒢` is a coherent `ℬ`-module `(I, 9.6.4)`; since `X` is affine over `Y`, there exists a quasi-coherent
-`𝒪_X`-module `𝒦` such that `𝒢` is isomorphic to `f_*(𝒦)` (1.4.3); since `X` is affine, one has `H¹(X, 𝒦) = 0`
-`(I, 5.1.9.2)`, hence also `H¹(Y, 𝒢) = 0` by (5.2.3), which completes the proof of theorem (6.7.1).
+where $\mathcal{G}$ and `Coker v` are coherent $\mathcal{O}_{Y}$-modules (`(0, 5.3.4)` and `(0, 5.3.5)`); by virtue of
+the exact sequence of cohomology, it will suffice to show that $H^{1}(Y, \mathcal{G}) = H^{1}(Y, Coker v) = 0$ in order
+to deduce $H^{1}(Y, \mathcal{F}^{m}) = (H^{1}(Y, \mathcal{F}))^{m} = 0$, and therefore $H^{1}(Y, \mathcal{F}) = 0$. Now
+the restriction $v|V$ is an isomorphism, hence the support of `Coker v` is distinct from $Y$, whence $H^{1}(Y, Coker v)
+= 0$ by the hypothesis at the start. On the other hand, $\mathcal{G}$ is a coherent $\mathcal{B}$-module `(I, 9.6.4)`;
+since $X$ is affine over $Y$, there exists a quasi-coherent $\mathcal{O}_{X}$-module $\mathcal{K}$ such that
+$\mathcal{G}$ is isomorphic to $f_{*}(\mathcal{K})$ (1.4.3); since $X$ is affine, one has $H^{1}(X, \mathcal{K}) = 0$
+`(I, 5.1.9.2)`, hence also $H^{1}(Y, \mathcal{G}) = 0$ by (5.2.3), which completes the proof of theorem (6.7.1).
 
 **Corollary.**
 
 <!-- label: II.6.7.2 -->
 
-Let `X` be a Noetherian prescheme, `(X_i)_{1 ≤ i ≤ n}` a finite cover of the space `X` consisting of closed sets. For
-`X` to be affine, it is necessary and sufficient that, for each `i`, there exist a closed subprescheme of `X` having
-`X_i` as its underlying space and which is affine.
+Let $X$ be a Noetherian prescheme, $(X_{i})_{1 \leq i \leq n}$ a finite cover of the space $X$ consisting of closed
+sets. For $X$ to be affine, it is necessary and sufficient that, for each $i$, there exist a closed subprescheme of $X$
+having $X_{i}$ as its underlying space and which is affine.
 
-**Proof.** Indeed, if this is so, let `X'` be the scheme sum of the `X_i`; it is clear that `X'` is affine, and one
-defines a surjective morphism `f : X' → X` by taking as the restriction of `f` to `X_i` the canonical injection.
-Everything comes down to verifying that `f` is finite, by virtue of (6.7.1), and this has been seen in (6.1.5).
+**Proof.** Indeed, if this is so, let $X'$ be the scheme sum of the $X_{i}$; it is clear that $X'$ is affine, and one
+defines a surjective morphism $f : X' \to X$ by taking as the restriction of $f$ to $X_{i}$ the canonical injection.
+Everything comes down to verifying that $f$ is finite, by virtue of (6.7.1), and this has been seen in (6.1.5).
 
 **Corollary.**
 
 <!-- label: II.6.7.3 -->
 
-For a Noetherian prescheme `X` to be affine, it is necessary and sufficient that the closed reduced subpreschemes having
-as their underlying spaces the irreducible components of `X` be affine.
+For a Noetherian prescheme $X$ to be affine, it is necessary and sufficient that the closed reduced subpreschemes having
+as their underlying spaces the irreducible components of $X$ be affine.

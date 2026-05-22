@@ -3,7 +3,7 @@
 ## V. Elementary procedures for the construction of schemes (unpublished — prenotes)
 
 A. Grothendieck — prenotes for an unpublished fifth volume of EGA. Translated and edited by Piotr Blass and Joseph
-Blass; polished and formatted here in continuity with the EGA I-IV translations at `docs/books/ega/{i,ii,iii,iv}/`.
+Blass; polished and formatted here in continuity with the EGA I-IV translations at $docs/books/ega/{i,ii,iii,iv}/$.
 
 The intended fifth volume was announced in 1964 alongside EGA IV Part 1 under the title *Procédés élémentaires de
 construction de schémas* (elementary procedures for the construction of schemes), with descent techniques, the method of
@@ -50,7 +50,7 @@ file; after that first occurrence, the parenthetical is dropped.
 - **§V.1.** Singular and supersingular zeros of a function; differential criteria.
 - **§§V.2.15, V.2.16.** Jacobian and regularity supplements.
 - **§V.5.** Hyperplane sections and conic projections (Bertini-Zariski theorem, connectedness, generic sections,
-    grassmannians, linear-system formulation).
+  grassmannians, linear-system formulation).
 - **§V.6.** Invertible sheaves and divisors relative to projective fibrations; linear systems.
 
 The 1964 sommaire announced further sections — descent techniques, method of the generic fibre, algebraic and formal
@@ -64,10 +64,10 @@ together with Mumford's *Lectures on curves on an algebraic surface* and the pos
 These prenotes are polished into idiomatic English mathematical prose in continuity with EGA I-IV. The Blass & Blass
 translation is the canonical source; we retire French residue, fix grammar, modernize archaic phrasings where the
 mathematics is unchanged, normalize OCR'd math glyphs to Unicode, and preserve Grothendieck's marginal author-to-self
-comments as italicized translator-marked inserts (`*Grothendieck note: …*` or `> *Grothendieck note.* …`). Translator
-queries from Blass become numbered footnotes at the section foot. `[illegible]` markers are resolved against the source
-PDFs where possible; where the PDF is genuinely unreadable we keep the marker and add a translator footnote naming the
-surrounding context.
+comments as italicized translator-marked inserts ($*Grothendieck note: \cdots*$ or $> *Grothendieck note.* \cdots$).
+Translator queries from Blass become numbered footnotes at the section foot. `[illegible]` markers are resolved against
+the source PDFs where possible; where the PDF is genuinely unreadable we keep the marker and add a translator footnote
+naming the surrounding context.
 
 See [conventions.md](conventions.md) for the full locked house style and [translation-ledger.md](translation-ledger.md)
 for the running Blass→idiomatic-English term map.
@@ -76,8 +76,9 @@ for the running Blass→idiomatic-English term map.
 
 - `(V, N.M.K)` cites EGA V itself (this edition).
 - `(formerly IV, M)` parenthetical at first occurrence in each file, then dropped.
-- `(IV, …)`, `(III, …)`, `(II, …)`, `(I, …)`, `(0_IV, …)`, `(0_III, …)` cite the published earlier volumes.
-- `(M, …)`, `(G, …)`, `(T, …)`, `(FAC, …)`, `(Bourbaki, Alg. comm., …)`, `(Nagata, …)`, `(Zariski-Samuel, …)` are
-    inherited classical citations (see EGA IV conventions).
-- `(Mumford, …)` cites D. Mumford, _Lectures on curves on an algebraic surface_ (Princeton, 1966).
-- `(Bourbaki Sém. 232/236/261)` cites Grothendieck's Séminaire Bourbaki exposés.
+- $(IV, \cdots)$, $(III, \cdots)$, $(II, \cdots)$, $(I, \cdots)$, $(0_{IV}, \cdots)$, $(0_{III}, \cdots)$ cite the
+  published earlier volumes.
+- $(M, \cdots)$, $(G, \cdots)$, $(T, \cdots)$, $(FAC, \cdots)$, `(Bourbaki, Alg. comm., …)`, $(Nagata, \cdots)$,
+  $(Zariski-Samuel, \cdots)$ are inherited classical citations (see EGA IV conventions).
+- $(Mumford, \cdots)$ cites D. Mumford, _Lectures on curves on an algebraic surface_ (Princeton, 1966).
+- $(Bourbaki S\acute{e}m. 232/236/261)$ cites Grothendieck's Séminaire Bourbaki exposés.

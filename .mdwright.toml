@@ -35,7 +35,7 @@ extra = []
 profile = "preserve"
 
 # Type: "keep" | "no" | int.
-# Wrap mode for prose paragraphs. `keep` leaves existing breaks alone; `no` forbids new breaks; an integer enforces that column for breakable lines in every formatter profile.
+# Wrap mode for prose paragraphs. `keep` leaves existing breaks alone; `no` forbids new breaks; an integer enforces that display-column budget for breakable lines in every formatter profile.
 wrap = 120
 
 # Type: "stable" | "balanced".
@@ -93,9 +93,9 @@ style = "preserve"
 placement = "preserve"
 
 [fmt.tables]
-# Type: "preserve" | "pad".
-# GFM table spacing policy. `preserve` keeps source cell spacing; `pad` aligns cells and delimiter rows to mdformat-compatible widths when verification preserves semantics.
-style = "preserve"
+# Type: "compact" | "align" | "preserve".
+# GFM table spacing policy. `compact` trims cell padding to one space on each side; `align` pads columns by display width; `preserve` keeps source cell spacing.
+style = "align"
 
 [fmt.lists]
 # Type: "marker-width" | "four-space".
@@ -115,6 +115,11 @@ normalise = false
 # Type: "none" | "commonmark-katex" | "dollar".
 # Math delimiter rendering policy for downstream renderers. `none` preserves source math regions; `commonmark-katex` records intent without rewriting; `dollar` rewrites bracket and paren math to dollar delimiters.
 render = "none"
+
+[parse.math]
+# Type: "tex" | "github".
+# Math delimiter recognition policy. `tex` recognises `\(...\)`, `\[...\]`, and LaTeX environments; `github` also recognises `$...$` and `$$...$$`.
+delimiters = "github"
 
 [parse.extensions]
 # Type: bool.

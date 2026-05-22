@@ -6,12 +6,12 @@ of Schemes_. Originally published as _Publications mathématiques de l'IHÉS_, t
 ## Conventions
 
 - EGA's historical terminology is preserved: `prescheme` for what current authors usually call a scheme, and `scheme`
-    for what current authors call a separated scheme. On first occurrence in each section a flagged term carries a
-    bracketed modern gloss (e.g. `prescheme [modern: scheme]`); subsequent occurrences use the historical term alone.
-    See [glossary.md](glossary.md) for the full ledger.
+  for what current authors call a separated scheme. On first occurrence in each section a flagged term carries a
+  bracketed modern gloss (e.g. `prescheme [modern: scheme]`); subsequent occurrences use the historical term alone. See
+  [glossary.md](glossary.md) for the full ledger.
 - Decimal numbering matches the source exactly: `(N.M.K)` for items in the current chapter, `(0, N.M.K)` for
-    cross-references to Chapter 0, `(I, N.M.K)` for cross-references to Chapter I, and similarly for later volumes
-    (`(II, 6.2.3)`, etc.). Bibliographic citations are by bracketed number, e.g. `[14]`.
+  cross-references to Chapter 0, `(I, N.M.K)` for cross-references to Chapter I, and similarly for later volumes
+  (`(II, 6.2.3)`, etc.). Bibliographic citations are by bracketed number, e.g. `[14]`.
 - Original page transitions are marked inline as HTML comments (`<!-- original page n -->`).
 
 ## Contents

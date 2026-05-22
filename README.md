@@ -16,9 +16,9 @@ Each volume directory has its own `README.md` with status, contents, and transla
 ## Translation principles
 
 - Preserve EGA's historical terminology (notably `prescheme` / `scheme`); inline the modern gloss on first occurrence
-    per section, and keep a per-volume `glossary.md` ledger.
+  per section, and keep a per-volume `glossary.md` ledger.
 - Preserve EGA's decimal numbering exactly: `(N.M.K)` within a chapter, `(0, N.M.K)` for Chapter 0 references,
-    `(I, N.M.K)` for cross-chapter references.
+  `(I, N.M.K)` for cross-chapter references.
 - Mark original page transitions inline as HTML comments (`<!-- original page n -->`).
 - Revise prose for English mathematical idiom while preserving Grothendieck's architectural voice.
 
@@ -29,10 +29,10 @@ The French source text was drawn from the Grothendieck Circle's archive of Groth
 
 ## Related projects
 
-- [ryankeleti/ega](https://github.com/ryankeleti/ega) — a community LaTeX English translation of EGA. EGA I and II
-    are complete; EGA III and IV are partial. Cross-referenced here for technical accuracy.
+- [ryankeleti/ega](https://github.com/ryankeleti/ega) — a community LaTeX English translation of EGA. EGA I and II are
+  complete; EGA III and IV are partial. Cross-referenced here for technical accuracy.
 - [The Stacks Project](https://stacks.math.columbia.edu/) — an open-source modernized reference covering much of the
-    same material in contemporary scheme-theoretic language, with permanently linkable tags.
+  same material in contemporary scheme-theoretic language, with permanently linkable tags.
 
 ## License and citation
 

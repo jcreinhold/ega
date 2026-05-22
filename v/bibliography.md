@@ -6,27 +6,27 @@ which are heavily cited in §V.5 and §V.6.
 
 ## Standing abbreviations (inherited from EGA IV; extended)
 
-| Key in EGA V                | Work                                                                                                                                                       |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `(I, …)`                    | A. Grothendieck and J. Dieudonné, _Éléments de géométrie algébrique : I_, IHÉS 4 (1960).                                                                   |
-| `(II, …)`                   | _Éléments de géométrie algébrique : II_, IHÉS 8 (1961).                                                                                                    |
-| `(III, …)`                  | _Éléments de géométrie algébrique : III_, IHÉS 11 (1961), 17 (1963).                                                                                       |
-| `(IV, …)`                   | _Éléments de géométrie algébrique : IV_, IHÉS 20 (1964), 24 (1965), 28 (1966), 32 (1967).                                                                  |
-| `(0_III, …)`                | Running Chapter 0 of EGA III, §§8-13.                                                                                                                      |
-| `(0_IV, …)`                 | Running Chapter 0 of EGA IV, §§14-23.                                                                                                                      |
-| `(M, …)`                    | H. Cartan and S. Eilenberg, _Homological Algebra_ (Princeton, 1956).                                                                                       |
-| `(G, …)`                    | R. Godement, _Topologie algébrique et théorie des faisceaux_ (Hermann, 1958).                                                                              |
-| `(T, …)`                    | A. Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku Math. J., 1957).                                                                      |
-| `(FAC, …)`                  | J.-P. Serre, _Faisceaux algébriques cohérents_ (Annals of Math., 1955).                                                                                    |
-| `(Bourbaki, Alg. comm., …)` | N. Bourbaki, _Éléments de mathématique : Algèbre commutative_ (Hermann, 1961-1965).                                                                        |
-| `(Bourbaki, Alg., …)`       | N. Bourbaki, _Éléments de mathématique : Algèbre_ (Hermann, 1942-).                                                                                        |
-| `(Bourbaki, Top. gén., …)`  | N. Bourbaki, _Éléments de mathématique : Topologie générale_ (Hermann, 1940-).                                                                             |
-| `(Nagata, …)`               | M. Nagata, _Local Rings_ (Interscience, 1962).                                                                                                             |
-| `(Zariski-Samuel, …)`       | O. Zariski and P. Samuel, _Commutative Algebra_ (Van Nostrand, 1958-1960).                                                                                 |
-| `(Mumford, …)`              | D. Mumford, _Lectures on curves on an algebraic surface_ (Princeton Math. Notes 59, 1966).                                                                 |
-| `(Bourbaki Sém. 232)`       | A. Grothendieck, _Techniques de construction en géométrie analytique_, Sém. Bourbaki, exposé 232 (Février 1962).                                           |
-| `(Bourbaki Sém. 236)`       | A. Grothendieck, _Techniques de descente et théorèmes d'existence en géométrie algébrique_, Sém. Bourbaki, exposés 190, 195, 212, 221, 232, 236 (1959-62). |
-| `(Bourbaki Sém. 261)`       | A. Grothendieck, _Techniques de construction de schémas_, Sém. Bourbaki, exposé 261 (Mai 1963).                                                            |
+| Key in EGA V                            | Work                                                                                                                                                       |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $(I, \cdots)$                           | A. Grothendieck and J. Dieudonné, _Éléments de géométrie algébrique : I_, IHÉS 4 (1960).                                                                   |
+| $(II, \cdots)$                          | _Éléments de géométrie algébrique : II_, IHÉS 8 (1961).                                                                                                    |
+| $(III, \cdots)$                         | _Éléments de géométrie algébrique : III_, IHÉS 11 (1961), 17 (1963).                                                                                       |
+| $(IV, \cdots)$                          | _Éléments de géométrie algébrique : IV_, IHÉS 20 (1964), 24 (1965), 28 (1966), 32 (1967).                                                                  |
+| $(0_{III}, \cdots)$                     | Running Chapter 0 of EGA III, §§8-13.                                                                                                                      |
+| $(0_{IV}, \cdots)$                      | Running Chapter 0 of EGA IV, §§14-23.                                                                                                                      |
+| $(M, \cdots)$                           | H. Cartan and S. Eilenberg, _Homological Algebra_ (Princeton, 1956).                                                                                       |
+| $(G, \cdots)$                           | R. Godement, _Topologie algébrique et théorie des faisceaux_ (Hermann, 1958).                                                                              |
+| $(T, \cdots)$                           | A. Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku Math. J., 1957).                                                                      |
+| $(FAC, \cdots)$                         | J.-P. Serre, _Faisceaux algébriques cohérents_ (Annals of Math., 1955).                                                                                    |
+| `(Bourbaki, Alg. comm., …)`             | N. Bourbaki, _Éléments de mathématique : Algèbre commutative_ (Hermann, 1961-1965).                                                                        |
+| $(Bourbaki, Alg., \cdots)$              | N. Bourbaki, _Éléments de mathématique : Algèbre_ (Hermann, 1942-).                                                                                        |
+| $(Bourbaki, Top. g\acute{e}n., \cdots)$ | N. Bourbaki, _Éléments de mathématique : Topologie générale_ (Hermann, 1940-).                                                                             |
+| $(Nagata, \cdots)$                      | M. Nagata, _Local Rings_ (Interscience, 1962).                                                                                                             |
+| $(Zariski-Samuel, \cdots)$              | O. Zariski and P. Samuel, _Commutative Algebra_ (Van Nostrand, 1958-1960).                                                                                 |
+| $(Mumford, \cdots)$                     | D. Mumford, _Lectures on curves on an algebraic surface_ (Princeton Math. Notes 59, 1966).                                                                 |
+| $(Bourbaki S\acute{e}m. 232)$           | A. Grothendieck, _Techniques de construction en géométrie analytique_, Sém. Bourbaki, exposé 232 (Février 1962).                                           |
+| $(Bourbaki S\acute{e}m. 236)$           | A. Grothendieck, _Techniques de descente et théorèmes d'existence en géométrie algébrique_, Sém. Bourbaki, exposés 190, 195, 212, 221, 232, 236 (1959-62). |
+| $(Bourbaki S\acute{e}m. 261)$           | A. Grothendieck, _Techniques de construction de schémas_, Sém. Bourbaki, exposé 261 (Mai 1963).                                                            |
 
 The Bourbaki references appearing in the text take the form `(Bourbaki, Alg. comm., chap. II, §3, n° 4)` or the shorter
 `(Bourbaki, Alg. comm., II, §3, n° 4)`. Page numbers are kept when present.
@@ -74,7 +74,7 @@ abbreviate to author surname and the result invoked). Where the specific result 
 the EGA III/IV bibliographic entry; where the prenote leaves the reference vague, we preserve that vagueness in the
 translated body and add a translator footnote only if the modern equivalent is non-obvious.
 
-The Vaiello unified edition (`papers/books/ega/v/04-vaiello-unified-translation.md`) is the operational source for
+The Vaiello unified edition ($papers/books/ega/v/04-vaiello-unified-translation.md$) is the operational source for
 §§V.2.15-2.16 and is consulted as a reconciliation reference for §§V.1, V.5, V.6 when the Blass piecemeal source has
 ambiguous or illegible passages. The Vaiello edition itself is not bibliographically citable as a separate work; the
 underlying translations are by Piotr Blass and Joseph Blass.

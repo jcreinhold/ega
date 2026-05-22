@@ -13,19 +13,19 @@
 
 <!-- label: I.10.1 -->
 
-**(10.1.1)** Let `A` be an admissible topological ring (0.7.1). The _formal spectrum_ `Spf(A)` is the topological space
-of _open_ prime ideals of `A`, with topology induced from `Spec(A)` (the discrete-topology spectrum). For each ideal of
-definition `𝔍`, `Spf(A)` is identified with `Spec(A/𝔍)` (with topology, but with structure sheaf inheriting the adic
-completion).
+**(10.1.1)** Let $A$ be an admissible topological ring (0.7.1). The _formal spectrum_ $Spf(A)$ is the topological space
+of _open_ prime ideals of $A$, with topology induced from $\operatorname{Spec}(A)$ (the discrete-topology spectrum). For
+each ideal of definition $\mathfrak{J}$, $Spf(A)$ is identified with $\operatorname{Spec}(A/\mathfrak{J})$ (with
+topology, but with structure sheaf inheriting the adic completion).
 
-**Definition (10.1.2).** A _formal affine scheme_ is a topologically ringed space `(X, 𝒪_X)` isomorphic to
-`(Spf(A), 𝒪_{Spf(A)})` for some admissible ring `A`. Here `𝒪_{Spf(A)}` is the sheaf of topological rings whose sections
-over `D(f)` are the completed rings of fractions `A_{\{f\}}` (0.7.6.15).
+**Definition (10.1.2).** A _formal affine scheme_ is a topologically ringed space $(X, \mathcal{O}_{X})$ isomorphic to
+$(Spf(A), \mathcal{O}_{Spf(A)})$ for some admissible ring $A$. Here $\mathcal{O}_{Spf(A)}$ is the sheaf of topological
+rings whose sections over $D(f)$ are the completed rings of fractions $A_{\{f\}}$ (0.7.6.15).
 
-**Proposition (10.1.3).** `Γ(Spf(A), 𝒪_{Spf(A)}) = A` topologically.
+**Proposition (10.1.3).** $\Gamma(Spf(A), \mathcal{O}_{Spf(A)}) = A$ topologically.
 
-**Proposition (10.1.4).** For `A` adic Noetherian, `Spf(A)` is canonically `lim⃗_n Spec(A/𝔍^{n+1})` (filtered inductive
-limit in the category of ringed spaces).
+**Proposition (10.1.4).** For $A$ adic Noetherian, $Spf(A)$ is canonically $\varinjlim_{n}
+\operatorname{Spec}(A/\mathfrak{J}^{n+1})$ (filtered inductive limit in the category of ringed spaces).
 
 **Proposition (10.1.6).** `Spf` is a functor from admissible rings to topologically ringed spaces, contravariant in the
 ring.
@@ -34,9 +34,9 @@ ring.
 
 <!-- label: I.10.2 -->
 
-**(10.2.1)** A _morphism of formal affine schemes_ `(X, 𝒪_X) → (Y, 𝒪_Y)` is a morphism of topologically ringed spaces
-with continuous stalk homomorphisms; equivalently (for `X = Spf(A)`, `Y = Spf(B)`), a continuous ring homomorphism
-`B → A`.
+**(10.2.1)** A _morphism of formal affine schemes_ $(X, \mathcal{O}_{X}) \to (Y, \mathcal{O}_{Y})$ is a morphism of
+topologically ringed spaces with continuous stalk homomorphisms; equivalently (for $X = Spf(A)$, $Y = Spf(B)$), a
+continuous ring homomorphism $B \to A$.
 
 **Proposition (10.2.2).** Hom-sets are bijective with continuous ring homomorphisms:
 
@@ -48,41 +48,41 @@ Hom(Spf(A), Spf(B)) ≅ Hom_{cont}(B, A).
 
 <!-- label: I.10.3 -->
 
-**Definition (10.3.3).** A _sheaf of ideals of definition_ for a formal prescheme `X` is a quasi-coherent sheaf of
-ideals `ℐ ⊂ 𝒪_X` such that locally `ℐ` corresponds to an ideal of definition.
+**Definition (10.3.3).** A _sheaf of ideals of definition_ for a formal prescheme $X$ is a quasi-coherent sheaf of
+ideals $\mathcal{I} \subset \mathcal{O}_{X}$ such that locally $\mathcal{I}$ corresponds to an ideal of definition.
 
 **Proposition (10.3.4)–(10.3.6).** Existence and uniqueness of sheaves of ideals of definition for formal affine
 schemes; the _fundamental system of ideals of definition_ corresponds to a fundamental system of neighborhoods of `0` in
-`A`.
+$A$.
 
 ### 10.4. Formal preschemes and morphisms
 
 <!-- label: I.10.4 -->
 
-**Definition (10.4.2).** A _formal prescheme_ is a topologically ringed space `(X, 𝒪_X)` covered by open subsets each
-isomorphic to a formal affine scheme.
+**Definition (10.4.2).** A _formal prescheme_ is a topologically ringed space $(X, \mathcal{O}_{X})$ covered by open
+subsets each isomorphic to a formal affine scheme.
 
 **Proposition (10.4.3).** Formal preschemes form a category, with morphisms locally those of formal affine schemes.
 
 **Corollary (10.4.4).** The functor `Spf` extends to admissible topological algebras over a fixed admissible base.
 
-**Definition (10.4.5).** _Adic morphism_: a morphism of formal preschemes `f : X → Y` is _adic_ if for every affine open
-`Spf(B) ⊂ Y` with ideal of definition `𝔍 ⊂ B`, the preimage `f⁻¹(Spf(B))` admits an open cover by formal affine opens
-`Spf(A_α)` whose topologies are `𝔍 A_α`-adic.
+**Definition (10.4.5).** _Adic morphism_: a morphism of formal preschemes $f : X \to Y$ is _adic_ if for every affine
+open $Spf(B) \subset Y$ with ideal of definition $\mathfrak{J} \subset B$, the preimage $f^{-1}(Spf(B))$ admits an open
+cover by formal affine opens $Spf(A_{\alpha})$ whose topologies are $\mathfrak{J} A_{\alpha}$-adic.
 
 **Proposition (10.4.6).** Adic morphisms are stable under composition and base change (when fiber products exist; see
 (10.7)).
 
-**(10.4.7)** _Formal `S`-preschemes:_ for a formal prescheme `S`, a _formal `S`-prescheme_ is a formal prescheme `X`
-together with a morphism `X → S`.
+**(10.4.7)** _Formal $S$-preschemes:_ for a formal prescheme $S$, a _formal $S$-prescheme_ is a formal prescheme $X$
+together with a morphism $X \to S$.
 
 ### 10.5. Sheaves of ideals of definition for formal preschemes
 
 <!-- label: I.10.5 -->
 
-**(10.5.1)** A formal prescheme `X` carries a _largest sheaf of ideals of definition_ `ℐ ⊂ 𝒪_X` such that locally `ℐ`
-corresponds to an ideal of definition. Quotient `𝒪_X / ℐⁿ` defines a sheaf of rings making `(X, 𝒪_X / ℐⁿ)` a prescheme
-for each `n`.
+**(10.5.1)** A formal prescheme $X$ carries a _largest sheaf of ideals of definition_ $\mathcal{I} \subset
+\mathcal{O}_{X}$ such that locally $\mathcal{I}$ corresponds to an ideal of definition. Quotient $\mathcal{O}_{X} /
+\mathcal{I}^{n}$ defines a sheaf of rings making $(X, \mathcal{O}_{X} / \mathcal{I}^{n})$ a prescheme for each $n$.
 
 **Proposition (10.5.3).** Existence of the largest sheaf of ideals of definition.
 
@@ -93,11 +93,11 @@ constructions.
 
 <!-- label: I.10.6 -->
 
-**Proposition (10.6.2)–(10.6.3).** For an adic Noetherian formal prescheme `X` with sheaf of ideals of definition `ℐ`,
-the system `X_n = (X, 𝒪_X / ℐⁿ⁺¹)` (`n ≥ 0`) is an _adic inductive system_ of preschemes, and `X = lim⃗_n X_n` (in a
-suitable sense).
+**Proposition (10.6.2)–(10.6.3).** For an adic Noetherian formal prescheme $X$ with sheaf of ideals of definition
+$\mathcal{I}$, the system $X_{n} = (X, \mathcal{O}_{X} / \mathcal{I}^{n+1})$ ($n \geq 0$) is an _adic inductive system_
+of preschemes, and $X = \varinjlim_{n} X_{n}$ (in a suitable sense).
 
-**Corollaries (10.6.4)–(10.6.5).** Properties carried from the `X_n` to `X` (and conversely).
+**Corollaries (10.6.4)–(10.6.5).** Properties carried from the $X_{n}$ to $X$ (and conversely).
 
 **Proposition (10.6.9).** Sheafification of inductive systems.
 
@@ -105,24 +105,25 @@ suitable sense).
 
 <!-- label: I.10.7 -->
 
-**Proposition (10.7.2)–(10.7.3).** For `S` a formal prescheme and `X, Y` formal `S`-preschemes, the _fiber product_
-`X ×̂_S Y` exists in the category of formal preschemes, computed via completed tensor products of admissible algebras
-(0.7.7).
+**Proposition (10.7.2)–(10.7.3).** For $S$ a formal prescheme and `X, Y` formal $S$-preschemes, the _fiber product_ $X
+\hat{\times}_{S} Y$ exists in the category of formal preschemes, computed via completed tensor products of admissible
+algebras (0.7.7).
 
 ### 10.8. Formal completion of a prescheme along a closed subset
 
 <!-- label: I.10.8 -->
 
-**Lemma (10.8.2).** For a prescheme `Y` and a closed subset `Y′ ⊂ Y`, the _formal completion_ `Ŷ_{/Y′}` exists as a
-formal prescheme.
+**Lemma (10.8.2).** For a prescheme $Y$ and a closed subset $Y' \subset Y$, the _formal completion_ $\hat{Y}_{/Y'}$
+exists as a formal prescheme.
 
-**Definition (10.8.4).** For a quasi-coherent ideal `𝒥 ⊂ 𝒪_Y` defining `Y′`, the _formal completion_ of `Y` along `Y′`
-is the topologically ringed space `(Y′, lim⃖_n 𝒪_Y / 𝒥ⁿ)`. As a formal prescheme, this is the inductive limit of
-`(Y′, 𝒪_Y / 𝒥ⁿ)`.
+**Definition (10.8.4).** For a quasi-coherent ideal $\mathcal{J} \subset \mathcal{O}_{Y}$ defining $Y'$, the _formal
+completion_ of $Y$ along $Y'$ is the topologically ringed space $(Y', \varprojlim_{n} \mathcal{O}_{Y} /
+\mathcal{J}^{n})$. As a formal prescheme, this is the inductive limit of $(Y', \mathcal{O}_{Y} / \mathcal{J}^{n})$.
 
-**Proposition (10.8.5).** The formal completion is a formal prescheme; functorial in the pair `(Y, Y′)`.
+**Proposition (10.8.5).** The formal completion is a formal prescheme; functorial in the pair $(Y, Y')$.
 
-**Corollary (10.8.6).** Coherent sheaves on `Y` give rise canonically to coherent sheaves on `Ŷ_{/Y′}` by base change.
+**Corollary (10.8.6).** Coherent sheaves on $Y$ give rise canonically to coherent sheaves on $\hat{Y}_{/Y'}$ by base
+change.
 
 **Proposition (10.8.8)–(10.8.11).** Behavior of formal completion under products, fiber products, and morphisms;
 commutation with operations on coherent sheaves.
@@ -133,8 +134,8 @@ commutation with operations on coherent sheaves.
 
 <!-- label: I.10.9 -->
 
-**Proposition (10.9.4)–(10.9.5).** Morphisms `Y → Z` of preschemes extend functorially to morphisms `Ŷ_{/Y′} → Ẑ_{/Z′}`
-of formal completions, provided closed subsets are compatible.
+**Proposition (10.9.4)–(10.9.5).** Morphisms $Y \to Z$ of preschemes extend functorially to morphisms $\hat{Y}_{/Y'} \to
+\hat{Z}_{/Z'}$ of formal completions, provided closed subsets are compatible.
 
 **Proposition (10.9.7).** Existence and uniqueness of extension under standard hypotheses.
 
@@ -142,9 +143,9 @@ of formal completions, provided closed subsets are compatible.
 
 <!-- label: I.10.10 -->
 
-**Proposition (10.10.2)–(10.10.8).** For an adic Noetherian formal affine scheme `Spf(A)`: every coherent sheaf is the
-formal completion of a coherent sheaf on `Spec(A_n)` for some `n`; the category of coherent sheaves is equivalent to the
-category of `A`-modules of finite type.
+**Proposition (10.10.2)–(10.10.8).** For an adic Noetherian formal affine scheme $Spf(A)$: every coherent sheaf is the
+formal completion of a coherent sheaf on $\operatorname{Spec}(A_{n})$ for some $n$; the category of coherent sheaves is
+equivalent to the category of $A$-modules of finite type.
 
 ### 10.11. Coherent sheaves on formal preschemes
 
@@ -165,8 +166,8 @@ preschemes.
 
 <!-- label: I.10.12 -->
 
-**Definition (10.12.1).** An _adic morphism_ (from (10.4.5)) preserves ideals of definition: `f^♯(ℐ_Y) · 𝒪_X = ℐ_X`
-locally.
+**Definition (10.12.1).** An _adic morphism_ (from (10.4.5)) preserves ideals of definition:
+$f^{\sharp}(\mathcal{I}_{Y}) \cdot \mathcal{O}_{X} = \mathcal{I}_{X}$ locally.
 
 **Theorem (10.12.3).** Adic morphisms of locally Noetherian formal preschemes are stable under composition and base
 change.
@@ -177,11 +178,11 @@ change.
 
 <!-- label: I.10.13 -->
 
-**Proposition (10.13.1).** A morphism of locally Noetherian formal preschemes `f : X → Y` is _of finite type_ iff
-locally on `Y = Spf(B)`, `X` is `Spf(C)` with `C` a topologically finitely generated `B`-algebra (quotient of
-`B{T_1, …, T_r}`).
+**Proposition (10.13.1).** A morphism of locally Noetherian formal preschemes $f : X \to Y$ is _of finite type_ iff
+locally on $Y = Spf(B)$, $X$ is $Spf(C)$ with $C$ a topologically finitely generated $B$-algebra (quotient of $B{T_{1},
+\cdots, T_{r}}$).
 
-**Definition (10.13.3).** A formal prescheme `X` _of finite type_ over a formal prescheme `S` is one whose structure
+**Definition (10.13.3).** A formal prescheme $X$ _of finite type_ over a formal prescheme $S$ is one whose structure
 morphism is of finite type.
 
 **Corollaries (10.13.2), (10.13.4)–(10.13.6).** Composition, base change, and base change to ordinary preschemes
@@ -194,8 +195,8 @@ preserve finite-type morphisms.
 **Proposition (10.14.1).** _Closed formal subpreschemes_ of a formal prescheme correspond bijectively to quasi-coherent
 sheaves of ideals.
 
-**Definition (10.14.2).** A _closed immersion of formal preschemes_ `Y → X` is a morphism realizing `Y` as a closed
-formal subprescheme of `X`.
+**Definition (10.14.2).** A _closed immersion of formal preschemes_ $Y \to X$ is a morphism realizing $Y$ as a closed
+formal subprescheme of $X$.
 
 **Proposition (10.14.3)–(10.14.4).** Stability properties of closed immersions: composition, base change, fiber
 products.
@@ -204,7 +205,8 @@ products.
 
 <!-- label: I.10.15 -->
 
-**Definition (10.15.1).** A morphism of formal preschemes `f : X → S` is _separated_ if the diagonal `Δ : X → X ×̂_S X`
-is a closed immersion of formal preschemes. _Formal `S`-schemes_ are separated formal `S`-preschemes.
+**Definition (10.15.1).** A morphism of formal preschemes $f : X \to S$ is _separated_ if the diagonal $\Delta : X \to X
+\hat{\times}_{S} X$ is a closed immersion of formal preschemes. _Formal $S$-schemes_ are separated formal
+$S$-preschemes.
 
 Composition, base change, and standard valuative criteria carry over from the prescheme setting.

@@ -1,14 +1,14 @@
 # Translation conventions — EGA III
 
 These conventions are locked after the §III.1 calibration pass. They **inherit** the EGA II conventions at
-`docs/books/ega/ii/conventions.md` verbatim; only the EGA-III-specific additions for cohomology, derived functors,
+$docs/books/ega/ii/conventions.md$ verbatim; only the EGA-III-specific additions for cohomology, derived functors,
 spectral sequences, and the running Chapter 0_III preliminaries are recorded here.
 
 ## 1. Inherited from EGA II
 
 Terminology table (§1), math glyphs and Unicode policy (§2), block labels (§3), numbered displays and cross-references
 (§4), pagination comments (§5), proof idioms (§6), source-trace footer format (§7), translator-note guidance (§8), and
-modality preservation (§9) all transfer unchanged. Re-read those sections in `docs/books/ega/ii/conventions.md` before
+modality preservation (§9) all transfer unchanged. Re-read those sections in $docs/books/ega/ii/conventions.md$ before
 extending the ledger or making a stylistic choice here.
 
 ## 2. Cross-volume citations specific to EGA III
@@ -16,7 +16,7 @@ extending the ledger or making a stylistic choice here.
 EGA III uses the running Chapter 0 (suite) — call it Chapter 0_III — and cites the preliminaries of EGA I as plain
 "Chapter 0". To keep the two distinguishable in print we write them differently:
 
-- `(0_III, 10.3.1)` cites a paragraph in `03-ch0-10-complements-flat-modules.md` (Chap 0_III §10).
+- $(0_{III}, 10.3.1)$ cites a paragraph in `03-ch0-10-complements-flat-modules.md` (Chap 0_III §10).
 - `(0, 4.2.4)` cites Chapter 0 in EGA I.
 - `(I, 4.2.3)`, `(II, 5.5.4)` cite EGA I, EGA II respectively.
 - `(III, 2.3.8)` cites EGA III itself; later volumes use this form.
@@ -25,10 +25,10 @@ EGA III also routinely cites four external classics, which we render literally:
 
 | Source key in EGA III | Work                                                                                  |
 | --------------------- | ------------------------------------------------------------------------------------- |
-| `(M, …)`              | H. Cartan and S. Eilenberg, *Homological Algebra* (Princeton, 1956).                  |
-| `(G, …)`              | R. Godement, *Topologie algébrique et théorie des faisceaux* (Hermann, 1958).         |
-| `(T, …)`              | A. Grothendieck, *Sur quelques points d'algèbre homologique* (Tôhoku Math. J., 1957). |
-| `(FAC, …)`            | J.-P. Serre, *Faisceaux algébriques cohérents* (Annals of Math., 1955).               |
+| $(M, \cdots)$         | H. Cartan and S. Eilenberg, *Homological Algebra* (Princeton, 1956).                  |
+| $(G, \cdots)$         | R. Godement, *Topologie algébrique et théorie des faisceaux* (Hermann, 1958).         |
+| $(T, \cdots)$         | A. Grothendieck, *Sur quelques points d'algèbre homologique* (Tôhoku Math. J., 1957). |
+| $(FAC, \cdots)$       | J.-P. Serre, *Faisceaux algébriques cohérents* (Annals of Math., 1955).               |
 
 Where the source spells these out (e.g. "Cartan–Eilenberg, *loc. cit.*"), we keep the spelling and add the bracketed key
 in the bibliography.
@@ -39,22 +39,25 @@ EGA III routinely manipulates chain and cochain complexes, bicomplexes, total co
 functors. We fix the following Unicode rendering; display long expressions in fenced ```` ```text ```` blocks as in EGA
 II.
 
-- Complexes: `K•` and `K_•` (lower-degree boundary) for chain complexes, `K•` and `K^•` (upper-degree boundary) for
-    cochain complexes. EGA's `K^•` and `K_•` are rendered with explicit `^•` / `_•` whenever the context could confuse
-    them.
-- Bicomplexes: `K^{p,q}`, `K_{p,q}`.
-- Total complex: `s(K)` (EGA's preferred notation; matches Cartan–Eilenberg); occasionally `Tot(K)` when the source uses
-    that.
-- Cocycles, coboundaries, cohomology: `Z^i(K)`, `B^i(K)`, `H^i(K)`, with matching lower-indexed `Z_i`, `B_i`, `H_i` for
-    chain complexes.
-- Cohomology of a sheaf or module: `H^i(X, ℱ)`, `H^i(𝔘, ℱ)` (open cover), `H^i(U, ℱ)` (open set).
-- Derived functors: `R^i F`, `R F` (right-derived; covariant), `L_i F`, `LF` (left).
-- Hyper-derived: `R^• T(K^•)`, `L_• T(K_•)` for hypercohomology and hyperhomology of a complex; `R^• T(K^•, K'^•)`,
-    `L_• T(K_•, K'_•)` for bifunctors.
-- Higher direct images: `R^i f_* ℱ`, `R f_* ℱ`.
-- Tor and Ext: `Tor_i(A, B)`, `Tor_i^A(M, N)`, `Ext^i(A, B)`, `Ext^i_A(M, N)`.
-- Hypertor: `𝒯or_i(K_•, K'_•)`, `Tor_i(M_•, N_•)`, with subscripts as in the source.
-- Filtration: `F^•`, `F_•`, `gr^•`, `gr_•`. Graded object associated to a filtration: `gr(K)`.
+- Complexes: $K\bullet$ and $K_{\bullet}$ (lower-degree boundary) for chain complexes, $K\bullet$ and $K^{\bullet}$
+  (upper-degree boundary) for cochain complexes. EGA's $K^{\bullet}$ and $K_{\bullet}$ are rendered with explicit
+  ${}^{\bullet}$ / ${}_{\bullet}$ whenever the context could confuse them.
+- Bicomplexes: $K^{p,q}$, $K_{p,q}$.
+- Total complex: $s(K)$ (EGA's preferred notation; matches Cartan–Eilenberg); occasionally $Tot(K)$ when the source uses
+  that.
+- Cocycles, coboundaries, cohomology: $Z^{i}(K)$, $B^{i}(K)$, $H^{i}(K)$, with matching lower-indexed $Z_{i}$, $B_{i}$,
+  $H_{i}$ for chain complexes.
+- Cohomology of a sheaf or module: $H^{i}(X, \mathcal{F})$, $H^{i}(\mathfrak{U}, \mathcal{F})$ (open cover), $H^{i}(U,
+  \mathcal{F})$ (open set).
+- Derived functors: $R^{i} F$, `R F` (right-derived; covariant), $L_{i} F$, `LF` (left).
+- Hyper-derived: $R^{\bullet} T(K^{\bullet})$, $L_{\bullet} T(K_{\bullet})$ for hypercohomology and hyperhomology of a
+  complex; $R^{\bullet} T(K^{\bullet}, K'^{\bullet})$, $L_{\bullet} T(K_{\bullet}, K'_{\bullet})$ for bifunctors.
+- Higher direct images: $R^{i} f_{*} \mathcal{F}$, $R f_{*} \mathcal{F}$.
+- Tor and Ext: $Tor_{i}(A, B)$, $Tor^{A}_{i}(M, N)$, $Ext^{i}(A, B)$, $Ext^{i}_{A}(M, N)$.
+- Hypertor: $\mathcal{T}or_{i}(K_{\bullet}, K'_{\bullet})$, $Tor_{i}(M_{\bullet}, N_{\bullet})$, with subscripts as in
+  the source.
+- Filtration: $F^{\bullet}$, $F_{\bullet}$, $gr^{\bullet}$, $gr_{\bullet}$. Graded object associated to a filtration:
+  $gr(K)$.
 
 ## 4. Spectral sequences
 
@@ -205,4 +208,4 @@ Each translated section ends with:
 
 ````
 
-When no LaTeX cross-reference exists (e.g. for §III.6 and §III.7), the `cross-ref:` line is omitted.
+When no LaTeX cross-reference exists (e.g. for §III.6 and §III.7), the $cross-ref:$ line is omitted.

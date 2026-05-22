@@ -14,145 +14,146 @@ appearance of the chapter of our Treatise devoted to the study of the "étale to
 
 <!-- label: IV.18.1.1 -->
 
-*Let `S` be a prescheme, `S_0` a closed sub-prescheme of `S`, `X_0` an `S_0`-prescheme smooth (resp. étale) over `S_0`,
-`x_0` a point of `X_0`. Then there exist an open neighbourhood `U_0` of `x_0` in `X_0`, an `S`-prescheme `U` smooth
-(resp. étale) over `S`, and an `S_0`-isomorphism `U ×_S S_0 ⥲ U_0`.*
+*Let $S$ be a prescheme, `S_0` a closed sub-prescheme of $S$, `X_0` an `S_0`-prescheme smooth (resp. étale) over `S_0`,
+$x_{0}$ a point of `X_0`. Then there exist an open neighbourhood `U_0` of $x_{0}$ in `X_0`, an $S$-prescheme $U$ smooth
+(resp. étale) over $S$, and an `S_0`-isomorphism $U \times_{S} S_{0} \xrightarrow{\sim} U_{0}$.*
 
-Note that if `X_0` is étale over `S_0` at the point `x_0`, then it is a fortiori unramified over `S_0` at that point; if
-one has constructed an `S`-prescheme `U` smooth over `S` such that `U ×_S S_0` is isomorphic to `U_0`, then since the
-fibres of the morphisms `U_0 → S_0` and `U → S` containing `x_0` are then isomorphic, it will follow that `U` is
-unramified over `S` at the point `x_0` `(17.4.1, d)`, hence also in a neighbourhood of `x_0`; replacing `U` by this
-neighbourhood, one concludes that `U` will be étale over `S`. It is therefore enough to prove the proposition when one
-assumes only `X_0` smooth over `S_0`.
+Note that if `X_0` is étale over `S_0` at the point $x_{0}$, then it is a fortiori unramified over `S_0` at that point;
+if one has constructed an $S$-prescheme $U$ smooth over $S$ such that $U \times_{S} S_{0}$ is isomorphic to `U_0`, then
+since the fibres of the morphisms $U_{0} \to S_{0}$ and $U \to S$ containing $x_{0}$ are then isomorphic, it will follow
+that $U$ is unramified over $S$ at the point $x_{0}$ `(17.4.1, d)`, hence also in a neighbourhood of $x_{0}$; replacing
+$U$ by this neighbourhood, one concludes that $U$ will be étale over $S$. It is therefore enough to prove the
+proposition when one assumes only `X_0` smooth over `S_0`.
 
-The question being local on `S` and on `X_0`, one may suppose that `S = Spec(A)` and `X_0 = Spec(C_0)` are affine, so
-that `S_0 = Spec(A_0)`, where `A_0` is a quotient ring of `A`, `C_0 = B_0/𝔍_0`, where `B_0 = A_0[T_1, …, T_n]` and `𝔍_0`
-is an ideal of finite type of `B_0`; finally, `C_0` is a formally smooth `A_0`-algebra for the discrete topologies. Let
-`𝔭_0` be the ideal `j_{x_0}` in `C_0`; one has `𝔭_0 = 𝔮_0/𝔍_0`, where `𝔮_0` is a prime ideal of `B_0`. The Jacobian
-criterion `(0, 22.6.4)` combined with `(0, 19.1.12)` shows that there exist in `𝔍_0` a family of `r` polynomials `u_i`
-`(1 ⩽ i ⩽ r)` and `r` indices `j_h` `(1 ⩽ h ⩽ r)` such that the images of the `u_i` in `(𝔍_0)_{𝔮_0}/(𝔍_0^2)_{𝔮_0}`
-generate this `(B_0)_{𝔮_0}`-module and such that
+The question being local on $S$ and on `X_0`, one may suppose that $S = \operatorname{Spec}(A)$ and $X_{0} =
+\operatorname{Spec}(C_{0})$ are affine, so that $S_{0} = \operatorname{Spec}(A_{0})$, where `A_0` is a quotient ring of
+$A$, $C_{0} = B_{0}/\mathfrak{J}_{0}$, where $B_{0} = A_{0}[T_{1}, \cdots, T_{n}]$ and $\mathfrak{J}_{0}$ is an ideal of
+finite type of `B_0`; finally, `C_0` is a formally smooth `A_0`-algebra for the discrete topologies. Let
+$\mathfrak{p}_{0}$ be the ideal $j_{x_{0}}$ in `C_0`; one has $\mathfrak{p}_{0} = \mathfrak{q}_{0}/\mathfrak{J}_{0}$,
+where $\mathfrak{q}_{0}$ is a prime ideal of `B_0`. The Jacobian criterion `(0, 22.6.4)` combined with `(0, 19.1.12)`
+shows that there exist in $\mathfrak{J}_{0}$ a family of $r$ polynomials $u_{i}$ $(1 \leqslant i \leqslant r)$ and $r$
+indices $j_{h}$ $(1 \leqslant h \leqslant r)$ such that the images of the $u_{i}$ in
+$(\mathfrak{J}_{0})_{\mathfrak{q}_{0}}/(\mathfrak{J}^{2}_{0})_{\mathfrak{q}_{0}}$ generate this
+$(B_{0})_{\mathfrak{q}_{0}}$-module and such that
 
-```text
-  (18.1.1.1)    det(∂u_i/∂T_{j_h}) ∉ 𝔮_0.
-```
+$$ (18.1.1.1) det(\partial u_{i}/\partial T_{j_{h}}) \notin \mathfrak{q}_{0}. $$
 
-Since `(B_0)_{𝔮_0}` is a local ring, it follows from Nakayama's lemma that one may suppose the images of the `u_i` in
-`(𝔍_0)_{𝔮_0}` generate this `(B_0)_{𝔮_0}`-module, then, by replacing if necessary `X_0` by an affine open neighbourhood
-of `x_0`, that the `u_i` generate `𝔍_0` `(0_I, 5.2.2)`. Put then `B = A[T_1, …, T_n]`; `B_0` is thus a quotient ring
+Since $(B_{0})_{\mathfrak{q}_{0}}$ is a local ring, it follows from Nakayama's lemma that one may suppose the images of
+the $u_{i}$ in $(\mathfrak{J}_{0})_{\mathfrak{q}_{0}}$ generate this $(B_{0})_{\mathfrak{q}_{0}}$-module, then, by
+replacing if necessary `X_0` by an affine open neighbourhood of $x_{0}$, that the $u_{i}$ generate $\mathfrak{J}_{0}$
+$(0_{I}, 5.2.2)$. Put then $B = A[T_{1}, \cdots, T_{n}]$; `B_0` is thus a quotient ring
 
 <!-- original page 110 -->
 
-of `B`, `𝔭_0` is the image of a prime ideal `𝔮` of `B`, and `𝔮` is the inverse image of `𝔮_0`. For each `i`, let
-`v_i ∈ B` be an element whose image is `u_i` in `B_0`, and let `𝔍` be the ideal of `B` generated by the `v_i`, so that
-`𝔍_0` is the image of `𝔍` in `B_0`. The proposition will be established by taking for `U` an open neighbourhood of the
-point of `Spec(B/𝔍)` corresponding to the prime ideal `𝔭 = 𝔮/𝔍`, provided one proves that `B_𝔮/𝔍_𝔮` is a formally smooth
-`A`-algebra for the discrete topologies. Now, this follows from the Jacobian criterion, for the images of the `v_i` in
-`𝔍_𝔮/𝔍_𝔮^2` generate this `B_𝔮`-module, and it follows from `(18.1.1.1)` that one has `det(∂v_i/∂T_{j_h}) ∉ 𝔮`.
+of $B$, $\mathfrak{p}_{0}$ is the image of a prime ideal $\mathfrak{q}$ of $B$, and $\mathfrak{q}$ is the inverse image
+of $\mathfrak{q}_{0}$. For each $i$, let $v_{i} \in B$ be an element whose image is $u_{i}$ in `B_0`, and let
+$\mathfrak{J}$ be the ideal of $B$ generated by the $v_{i}$, so that $\mathfrak{J}_{0}$ is the image of $\mathfrak{J}$
+in `B_0`. The proposition will be established by taking for $U$ an open neighbourhood of the point of
+$\operatorname{Spec}(B/\mathfrak{J})$ corresponding to the prime ideal $\mathfrak{p} = \mathfrak{q}/\mathfrak{J}$,
+provided one proves that $B_{\mathfrak{q}}/\mathfrak{J}_{\mathfrak{q}}$ is a formally smooth $A$-algebra for the
+discrete topologies. Now, this follows from the Jacobian criterion, for the images of the $v_{i}$ in
+$\mathfrak{J}_{\mathfrak{q}}/\mathfrak{J}^{2}_{\mathfrak{q}}$ generate this $B_{\mathfrak{q}}$-module, and it follows
+from `(18.1.1.1)` that one has $det(\partial v_{i}/\partial T_{j_{h}}) \notin \mathfrak{q}$.
 
 **Theorem (18.1.2).**
 
 <!-- label: IV.18.1.2 -->
 
-*Let `S` be a prescheme, `S_0` a closed sub-prescheme of `S` whose underlying space is identical to that of `S`. Then
+*Let $S$ be a prescheme, `S_0` a closed sub-prescheme of $S$ whose underlying space is identical to that of $S$. Then
 the functor*
 
 ```text
   X ↦ X ×_S S_0
 ```
 
-*from the category of `S`-preschemes étale over `S` to the category of `S_0`-preschemes étale over `S_0` is an
+*from the category of $S$-preschemes étale over $S$ to the category of `S_0`-preschemes étale over `S_0` is an
 equivalence of categories.*
 
-Let us show first that this functor is *fully faithful*. Let `X`, `Y` be two `S`-preschemes étale over `S`, and put
-`X_0 = X ×_S S_0`, `Y_0 = Y ×_S S_0`. If `Z = X ×_S Y`, the set `Hom_S(X, Y)` is in canonical bijective correspondence
-with the set of `X`-sections `Γ(Z/X)`, and similarly `Hom_{S_0}(X_0, Y_0)` is in canonical bijective correspondence with
-`Γ(Z_0/X_0)`, where `Z_0 = Z ×_S S_0 = X_0 ×_{S_0} Y_0`. Now `Z` is étale over `X`, `Z_0` étale over `X_0`, and `X_0`
-(resp. `Z_0`) is a closed sub-prescheme of `X` (resp. `Z`) having the same underlying space. The open subsets of `Z`
-such that the restriction of the morphism `Z → X` is surjective and radicial are therefore the same as the subsets of
+Let us show first that this functor is *fully faithful*. Let $X$, $Y$ be two $S$-preschemes étale over $S$, and put
+$X_{0} = X \times_{S} S_{0}$, $Y_{0} = Y \times_{S} S_{0}$. If $Z = X \times_{S} Y$, the set $\operatorname{Hom}_{S}(X,
+Y)$ is in canonical bijective correspondence with the set of $X$-sections $\Gamma(Z/X)$, and similarly
+$\operatorname{Hom}_{S_{0}}(X_{0}, Y_{0})$ is in canonical bijective correspondence with $\Gamma(Z_{0}/X_{0})$, where
+$Z_{0} = Z \times_{S} S_{0} = X_{0} \times_{S_{0}} Y_{0}$. Now $Z$ is étale over $X$, `Z_0` étale over `X_0`, and `X_0`
+(resp. `Z_0`) is a closed sub-prescheme of $X$ (resp. $Z$) having the same underlying space. The open subsets of $Z$
+such that the restriction of the morphism $Z \to X$ is surjective and radicial are therefore the same as the subsets of
 `Z_0` having the corresponding properties, and our assertion follows accordingly from `(17.9.3)`.
 
 To complete the proof, it suffices to see that for every `S_0`-prescheme `X_0` étale over `S_0`, there exist an
-`S`-prescheme `X` étale over `S` and an `S_0`-isomorphism `X_0 ⥲ X ×_S S_0`. By virtue of Prop. `(18.1.1)`, there is an
-open cover `(U_α)` of `X_0` and, for each `α`, an `S`-prescheme `V_α` which is étale over `S`, and finally an
-`S_0`-isomorphism `θ_α : U_α ⥲ V_α ×_S S_0`. Moreover, by the first part of the proof, there exists a unique
-`S_0`-isomorphism `φ_{αβ}` from `θ_α(U_α ∩ U_β)` onto `θ_β(U_α ∩ U_β)`, corresponding to the identity automorphism of
-`U_α ∩ U_β`, and it is immediate, for the same reason, that these isomorphisms satisfy the gluing condition
-`(0_I, 4.1.7)`. There is consequently an `S`-prescheme `X` such that the `V_α` are canonically identified with
-sub-preschemes induced on open sets of `X`, the `θ_α` being identified with `S_0`-isomorphisms which coincide on the
-intersections `U_α ∩ U_β` and therefore define an `S_0`-isomorphism `X_0 ⥲ X ×_S S_0`. It is clear that `X` is étale
-over `S` `(17.3.2)`, which completes the proof.
+$S$-prescheme $X$ étale over $S$ and an `S_0`-isomorphism $X_{0} \xrightarrow{\sim} X \times_{S} S_{0}$. By virtue of
+Prop. `(18.1.1)`, there is an open cover $(U_{\alpha})$ of `X_0` and, for each $\alpha$, an $S$-prescheme $V_{\alpha}$
+which is étale over $S$, and finally an `S_0`-isomorphism $\theta_{\alpha} : U_{\alpha} \xrightarrow{\sim} V_{\alpha}
+\times_{S} S_{0}$. Moreover, by the first part of the proof, there exists a unique `S_0`-isomorphism $\phi_{\alpha
+\beta}$ from $\theta_{\alpha}(U_{\alpha} \cap U_{\beta})$ onto $\theta_{\beta}(U_{\alpha} \cap U_{\beta})$,
+corresponding to the identity automorphism of $U_{\alpha} \cap U_{\beta}$, and it is immediate, for the same reason,
+that these isomorphisms satisfy the gluing condition $(0_{I}, 4.1.7)$. There is consequently an $S$-prescheme $X$ such
+that the $V_{\alpha}$ are canonically identified with sub-preschemes induced on open sets of $X$, the $\theta_{\alpha}$
+being identified with `S_0`-isomorphisms which coincide on the intersections $U_{\alpha} \cap U_{\beta}$ and therefore
+define an `S_0`-isomorphism $X_{0} \xrightarrow{\sim} X \times_{S} S_{0}$. It is clear that $X$ is étale over $S$
+`(17.3.2)`, which completes the proof.
 
 **Corollary (18.1.3).**
 
 <!-- label: IV.18.1.3 -->
 
-*Let `S` be a prescheme, `X` an `S`-prescheme étale over `S`, `S'` an `S`-prescheme, `S'_0` a closed sub-prescheme of
-`S'` having the same underlying space. Then the canonical map `X(S')_S → X(S'_0)_S` `(I, 3.4.3)` is bijective.*
+*Let $S$ be a prescheme, $X$ an $S$-prescheme étale over $S$, $S'$ an $S$-prescheme, $S'_{0}$ a closed sub-prescheme of
+$S'$ having the same underlying space. Then the canonical map $X(S')_{S} \to X(S'_{0})_{S}$ `(I, 3.4.3)` is bijective.*
 
-Indeed, put `X' = X ×_S S'`, `X'_0 = X ×_S S'_0`, so that `X(S')_S = Γ(X'/S')` and `X(S'_0)_S = Γ(X'_0/S'_0)`; the
-corollary follows from the fact that the functor defined in `(18.1.2)` (with `S` and `S_0` replaced by `S'` and `S'_0`
-respectively) is fully faithful (or directly from `(17.9.3)`).
+Indeed, put $X' = X \times_{S} S'$, $X'_{0} = X \times_{S} S'_{0}$, so that $X(S')_{S} = \Gamma(X'/S')$ and
+$X(S'_{0})_{S} = \Gamma(X'_{0}/S'_{0})$; the corollary follows from the fact that the functor defined in `(18.1.2)`
+(with $S$ and `S_0` replaced by $S'$ and $S'_{0}$ respectively) is fully faithful (or directly from `(17.9.3)`).
 
 <!-- original page 111 -->
 
 ### 18.2. Étale covers
 
-**(18.2.1)** Given a ring `A` and a commutative `A`-algebra `B` which is *finite* and is a *free* `A`-module, recall
-(Bourbaki, _Alg._, chap. VIII, §12, n° 2) that one defines on `B` an `A`-linear form `Tr_{B/A}`, the "*trace form*";
-from this one deduces the definition of a *symmetric `A`-bilinear form* (also called the "*trace form*")
+**(18.2.1)** Given a ring $A$ and a commutative $A$-algebra $B$ which is *finite* and is a *free* $A$-module, recall
+(Bourbaki, _Alg._, chap. VIII, §12, n° 2) that one defines on $B$ an $A$-linear form $Tr_{B/A}$, the "*trace form*";
+from this one deduces the definition of a *symmetric $A$-bilinear form* (also called the "*trace form*")
 
-```text
-  (18.2.1.1)    (x, y) ↦ Tr_{B/A}(xy)
-```
+$$ (18.2.1.1) (x, y) \mapsto Tr_{B/A}(xy) $$
 
-whose datum is equivalent to that of the associated `A`-linear map `astr_{B/A} : B → B̌` of the `A`-module `B` into its
-*dual* `B̌`, equal to its transpose. When `A` is a *field*, it is equivalent to say that this bilinear form is
-*nondegenerate* or that `B` is a *separable* `A`-algebra (Bourbaki, _Alg._, chap. IX, §2, prop. 5).
+whose datum is equivalent to that of the associated $A$-linear map $astr_{B/A} : B \to \check{B}$ of the $A$-module $B$
+into its *dual* $\check{B}$, equal to its transpose. When $A$ is a *field*, it is equivalent to say that this bilinear
+form is *nondegenerate* or that $B$ is a *separable* $A$-algebra (Bourbaki, _Alg._, chap. IX, §2, prop. 5).
 
-Let `f : A → A'` be a homomorphism of rings; put `B' = B ⊗_A A'`, and let `g : B → B'` be the canonical homomorphism;
-the image under `g` of a basis of the `A`-module `B` is then a basis of the `A'`-module `B'`, and it follows from the
-definitions that one has, for every `x ∈ B`,
+Let $f : A \to A'$ be a homomorphism of rings; put $B' = B \otimes_{A} A'$, and let $g : B \to B'$ be the canonical
+homomorphism; the image under $g$ of a basis of the $A$-module $B$ is then a basis of the $A'$-module $B'$, and it
+follows from the definitions that one has, for every $x \in B$,
 
-```text
-  (18.2.1.2)    Tr_{B'/A'}(g(x)) = f(Tr_{B/A}(x)).
-```
+$$ (18.2.1.2) Tr_{B'/A'}(g(x)) = f(Tr_{B/A}(x)). $$
 
-**(18.2.2)** Consider now a ringed space `(X, 𝒪_X)` and let `ℬ` be an `𝒪_X`-Algebra which, as an `𝒪_X`-Module, is
-*locally free of finite rank*; then, for every open `U ⊂ X` such that `ℬ | U` is (as an `𝒪_U`-Module) isomorphic to
-`𝒪_U^n` (for an `n` depending on `U`), `Γ(U, ℬ)` is a `Γ(U, 𝒪_X)`-algebra which, as a `Γ(U, 𝒪_X)`-module, is free of
-finite rank and therefore defines a `Γ(U, 𝒪_X)`-linear form `Tr_{Γ(U, ℬ)/Γ(U, 𝒪_X)}`, which we shall also denote
-`Tr_{ℬ/𝒪_X, U}`; from this one deduces an associated linear map
+**(18.2.2)** Consider now a ringed space $(X, \mathcal{O}_{X})$ and let $\mathcal{B}$ be an $\mathcal{O}_{X}$-Algebra
+which, as an $\mathcal{O}_{X}$-Module, is *locally free of finite rank*; then, for every open $U \subset X$ such that
+$\mathcal{B} | U$ is (as an $\mathcal{O}_{U}$-Module) isomorphic to $\mathcal{O}^{n}_{U}$ (for an $n$ depending on $U$),
+$\Gamma(U, \mathcal{B})$ is a $\Gamma(U, \mathcal{O}_{X})$-algebra which, as a $\Gamma(U, \mathcal{O}_{X})$-module, is
+free of finite rank and therefore defines a $\Gamma(U, \mathcal{O}_{X})$-linear form $Tr_{\Gamma(U,
+\mathcal{B})/\Gamma(U, \mathcal{O}_{X})}$, which we shall also denote $Tr_{\mathcal{B}/\mathcal{O}_{X}, U}$; from this
+one deduces an associated linear map
 
 ```text
   astr_{ℬ/𝒪_X, U} : Γ(U, ℬ) → Γ(U, ℬ)̌ = Γ(U, ℬ̌).
 ```
 
-Moreover, it follows from `(18.2.1.2)` that these linear maps are compatible with the operations of restriction from `U`
-to a smaller open set, and therefore define on the one hand a homomorphism of `𝒪_X`-Modules, also called the *trace
-homomorphism*:
+Moreover, it follows from `(18.2.1.2)` that these linear maps are compatible with the operations of restriction from $U$
+to a smaller open set, and therefore define on the one hand a homomorphism of $\mathcal{O}_{X}$-Modules, also called the
+*trace homomorphism*:
 
-```text
-  (18.2.2.1)    Tr_{ℬ/𝒪_X} : ℬ → 𝒪_X
-```
+$$ (18.2.2.1) Tr_{\mathcal{B}/\mathcal{O}_{X}} : \mathcal{B} \to \mathcal{O}_{X} $$
 
-and on the other hand a homomorphism of `𝒪_X`-Modules
+and on the other hand a homomorphism of $\mathcal{O}_{X}$-Modules
 
-```text
-  (18.2.2.2)    astr_{ℬ/𝒪_X} : ℬ → ℬ̌
-```
+$$ (18.2.2.2) astr_{\mathcal{B}/\mathcal{O}_{X}} : \mathcal{B} \to \check{\mathcal{B}} $$
 
 said to be *associated with the trace*, and equal to its own transpose. It also follows from `(18.2.1.2)` that for every
-`x ∈ X` one has
+$x \in X$ one has
 
-```text
-  (18.2.2.3)    (Tr_{ℬ/𝒪_X})_x = Tr_{ℬ_x/𝒪_{X,x}}
-  (18.2.2.4)    (astr_{ℬ/𝒪_X})_x = astr_{ℬ_x/𝒪_{X,x}}.
-```
+$$ (18.2.2.3) (Tr_{\mathcal{B}/\mathcal{O}_{X}})_{x} = Tr_{\mathcal{B}_{x}/\mathcal{O}_{X,x}} (18.2.2.4)
+(astr_{\mathcal{B}/\mathcal{O}_{X}})_{x} = astr_{\mathcal{B}_{x}/\mathcal{O}_{X,x}}. $$
 
-Finally, under the conditions of `(18.2.1)`, if one puts `X = Spec(A)` and if `ℬ = B̃` is the `𝒪_X`-Algebra
-corresponding to `B`, the form `Tr_{ℬ/𝒪_X}` (resp. the homomorphism `astr_{ℬ/𝒪_X}`) corresponds to the form `Tr_{B/A}`
-(resp. to the homomorphism of `A`-modules `astr_{B/A}`), as also follows from `(18.2.1.2)`.
+Finally, under the conditions of `(18.2.1)`, if one puts $X = \operatorname{Spec}(A)$ and if $\mathcal{B} = \tilde{B}$
+is the $\mathcal{O}_{X}$-Algebra corresponding to $B$, the form $Tr_{\mathcal{B}/\mathcal{O}_{X}}$ (resp. the
+homomorphism $astr_{\mathcal{B}/\mathcal{O}_{X}}$) corresponds to the form $Tr_{B/A}$ (resp. to the homomorphism of
+$A$-modules $astr_{B/A}$), as also follows from `(18.2.1.2)`.
 
 <!-- original page 112 -->
 
@@ -160,117 +161,132 @@ corresponding to `B`, the form `Tr_{ℬ/𝒪_X}` (resp. the homomorphism `astr_{
 
 <!-- label: IV.18.2.3 -->
 
-*Let `f : X → Y` be a finite morphism of preschemes and let `ℬ = f_*(𝒪_X)`. The following conditions are equivalent:*
+*Let $f : X \to Y$ be a finite morphism of preschemes and let $\mathcal{B} = f_{*}(\mathcal{O}_{X})$. The following
+conditions are equivalent:*
 
-*a) `f` is étale.*
+*a) $f$ is étale.*
 
-*a') `f` is a flat morphism of finite presentation and, for every `x ∈ X`, if one puts `y = f(x)`, then
-`𝒪_{X, x}/𝔪_y · 𝒪_{X, x}` is a field, a finite separable extension of `k(y)`.*
+*a') $f$ is a flat morphism of finite presentation and, for every $x \in X$, if one puts $y = f(x)$, then
+$\mathcal{O}_{X, x}/\mathfrak{m}_{y} \cdot \mathcal{O}_{X, x}$ is a field, a finite separable extension of $k(y)$.*
 
-*b) `ℬ` is a locally free `𝒪_Y`-Module and, for every `y ∈ Y`, `ℬ_y ⊗_{𝒪_{Y,y}} k(y)` is a finite separable
-`k(y)`-algebra (hence the direct composite of a finite number of fields, finite separable extensions of `k(y)`).*
+*b) $\mathcal{B}$ is a locally free $\mathcal{O}_{Y}$-Module and, for every $y \in Y$, $\mathcal{B}_{y}
+\otimes_{\mathcal{O}_{Y,y}} k(y)$ is a finite separable $k(y)$-algebra (hence the direct composite of a finite number of
+fields, finite separable extensions of $k(y)$).*
 
-*c) `ℬ` is a locally free `𝒪_Y`-Module and the homomorphism `astr_{ℬ/𝒪_Y} : ℬ → ℬ̌` `(18.2.2)` is bijective.*
+*c) $\mathcal{B}$ is a locally free $\mathcal{O}_{Y}$-Module and the homomorphism $astr_{\mathcal{B}/\mathcal{O}_{Y}} :
+\mathcal{B} \to \check{\mathcal{B}}$ `(18.2.2)` is bijective.*
 
-Taking into account that `f` is quasi-compact, the equivalence of a) and a') has already been proved `(17.6.2)`. To
-prove the rest of the proposition, one may restrict to the case where `Y = Spec(A)` and `X = Spec(B)` are affine, `B`
-being a finite `A`-algebra and `ℬ = B̃`. To say that `f` is a morphism of finite presentation amounts then to saying
-that `B` is an `A`-module of finite presentation `(1.4.7)`. If in addition `f` is flat, hence `B` a flat `A`-module, one
-knows (Bourbaki, _Alg. comm._, chap. II, §5, n° 2, cor. 2 of th. 1) that `B` is a projective `A`-module, hence `ℬ` a
-locally free `𝒪_Y`-Module (loc. cit., n° 2, th. 1), and the converse is immediate. On the other hand, `f⁻¹(y)` is none
-other than the spectrum of the `k(y)`-algebra `ℬ(y) = ℬ_y ⊗_{𝒪_{Y,y}} k(y)`, which completes the proof of the
+Taking into account that $f$ is quasi-compact, the equivalence of a) and a') has already been proved `(17.6.2)`. To
+prove the rest of the proposition, one may restrict to the case where $Y = \operatorname{Spec}(A)$ and
+$X = \operatorname{Spec}(B)$ are affine, $B$ being a finite $A$-algebra and $\mathcal{B} = \tilde{B}$. To say that $f$
+is a morphism of finite presentation amounts then to saying that $B$ is an $A$-module of finite presentation `(1.4.7)`.
+If in addition $f$ is flat, hence $B$ a flat $A$-module, one knows (Bourbaki, _Alg. comm._, chap. II, §5, n° 2, cor. 2
+of th. 1) that $B$ is a projective $A$-module, hence $\mathcal{B}$ a locally free $\mathcal{O}_{Y}$-Module (loc. cit.,
+n° 2, th. 1), and the converse is immediate. On the other hand, $f^{-1}(y)$ is none other than the spectrum of the
+$k(y)$-algebra $\mathcal{B}(y) = \mathcal{B}_{y} \otimes_{\mathcal{O}_{Y,y}} k(y)$, which completes the proof of the
 equivalence of a') and b). To see that b) is equivalent to c), note that the second assertion of b) is equivalent to the
-fact that the homomorphism `astr_{ℬ(y)/k(y)} : ℬ(y) → ℬ(y)̌` is bijective; since `ℬ(y) = ℬ_y ⊗_{𝒪_{Y,y}} k(y)` and
-`ℬ(y)̌ = ℬ̌_y ⊗_{𝒪_{Y,y}} k(y)`, and since `ℬ_y` and `ℬ̌_y` are free `𝒪_{Y,y}`-modules, it follows from `(18.2.2.4)` and
-from Bourbaki, _Alg. comm._, chap. II, §3, n° 3, cor. of prop. 6, that the homomorphism
-`astr_{ℬ_y/𝒪_{Y,y}} : ℬ_y → ℬ̌_y` is also bijective; the converse being obvious, this completes the proof.
+fact that the homomorphism $astr_{\mathcal{B}(y)/k(y)} : \mathcal{B}(y) \to \mathcal{B}\check{y}$ is bijective; since
+$\mathcal{B}(y) = \mathcal{B}_{y} \otimes_{\mathcal{O}_{Y,y}} k(y)$ and
+$\mathcal{B}\check{y} = \check{\mathcal{B}}_{y} \otimes_{\mathcal{O}_{Y,y}} k(y)$, and since $\mathcal{B}_{y}$ and
+$\check{\mathcal{B}}_{y}$ are free $\mathcal{O}_{Y,y}$-modules, it follows from `(18.2.2.4)` and from Bourbaki, _Alg.
+comm._, chap. II, §3, n° 3, cor. of prop. 6, that the homomorphism
+$astr_{\mathcal{B}_{y}/\mathcal{O}_{Y,y}} : \mathcal{B}_{y} \to \check{\mathcal{B}}_{y}$ is also bijective; the converse
+being obvious, this completes the proof.
 
-When an `𝒪_X`-Algebra `ℬ` verifies the equivalent conditions b) and c) of `(18.2.3)`, one says that `ℬ` is a *finite
-étale `𝒪_X`-Algebra*. When `X = Spec(A)` is affine and one therefore has `ℬ = B̃`, where `B` is an `A`-algebra, it
-amounts to the same, by virtue of `(18.2.3)`, to say that `ℬ` is a finite étale `𝒪_X`-Algebra or that `B` is a finite
-étale `A`-algebra (in the sense of `(17.3.2)`).
+When an $\mathcal{O}_{X}$-Algebra $\mathcal{B}$ verifies the equivalent conditions b) and c) of `(18.2.3)`, one says
+that $\mathcal{B}$ is a *finite étale $\mathcal{O}_{X}$-Algebra*. When $X = \operatorname{Spec}(A)$ is affine and one
+therefore has $\mathcal{B} = \tilde{B}$, where $B$ is an $A$-algebra, it amounts to the same, by virtue of `(18.2.3)`,
+to say that $\mathcal{B}$ is a finite étale $\mathcal{O}_{X}$-Algebra or that $B$ is a finite étale $A$-algebra (in the
+sense of `(17.3.2)`).
 
 **Corollary (18.2.4).**
 
 <!-- label: IV.18.2.4 -->
 
-*Let `f : X → Y` be a finite morphism of finite presentation, and put `ℬ = f_*(𝒪_X)`. Let `y` be a point of `Y`. The
-following conditions are equivalent:*
+*Let $f : X \to Y$ be a finite morphism of finite presentation, and put $\mathcal{B} = f_{*}(\mathcal{O}_{X})$. Let $y$
+be a point of $Y$. The following conditions are equivalent:*
 
-*a) There exists an open neighbourhood `U` of `y` in `Y` such that the restriction `f⁻¹(U) → U` of `f` is an étale
+*a) There exists an open neighbourhood $U$ of $y$ in $Y$ such that the restriction $f^{-1}(U) \to U$ of $f$ is an étale
 morphism.*
 
-*b) `ℬ_y` is a free `𝒪_{Y,y}`-module of finite type and `ℬ_y ⊗_{𝒪_{Y,y}} k(y)` is a separable `k(y)`-algebra.*
+*b) $\mathcal{B}_{y}$ is a free $\mathcal{O}_{Y,y}$-module of finite type and $\mathcal{B}_{y}
+\otimes_{\mathcal{O}_{Y,y}} k(y)$ is a separable $k(y)$-algebra.*
 
-It is clear that a) implies b) by virtue of `(18.2.3)`. On the other hand, `ℬ` is an `𝒪_Y`-Module of finite presentation
-`(1.6.3 and 1.4.7)`; hence, if `ℬ_y` is a free `𝒪_{Y,y}`-module, there exists an open neighbourhood `U` of `y` in `Y`
-such that `ℬ | U` is a locally free `𝒪_U`-Module `(0_I, 5.2.7)`; in addition, by hypothesis, the homomorphism
-`astr_{ℬ_y/𝒪_{Y,y}} : ℬ_y → ℬ̌_y` being
+It is clear that a) implies b) by virtue of `(18.2.3)`. On the other hand, $\mathcal{B}$ is an $\mathcal{O}_{Y}$-Module
+of finite presentation `(1.6.3 and 1.4.7)`; hence, if $\mathcal{B}_{y}$ is a free $\mathcal{O}_{Y,y}$-module, there
+exists an open neighbourhood $U$ of $y$ in $Y$ such that $\mathcal{B} | U$ is a locally free $\mathcal{O}_{U}$-Module
+$(0_{I}, 5.2.7)$; in addition, by hypothesis, the homomorphism $astr_{\mathcal{B}_{y}/\mathcal{O}_{Y,y}} :
+\mathcal{B}_{y} \to \check{\mathcal{B}}_{y}$ being
 
 <!-- original page 113 -->
 
-bijective, it also follows from `(0_I, 5.2.7)` that one may suppose `U` chosen so that the homomorphism
-`astr_{ℬ | U/𝒪_U}` is bijective. The fact that b) implies a) then follows from `(18.2.3)`.
+bijective, it also follows from $(0_{I}, 5.2.7)$ that one may suppose $U$ chosen so that the homomorphism
+$astr_{\mathcal{B} | U/\mathcal{O}_{U}}$ is bijective. The fact that b) implies a) then follows from `(18.2.3)`.
 
 **Corollary (18.2.5).**
 
 <!-- label: IV.18.2.5 -->
 
-*Let `Y` be a quasi-compact or locally Noetherian prescheme, `f : X → Y` a finite morphism of finite presentation; put
-`ℬ = f_*(𝒪_X)`. Suppose that for every closed point `y` of `Y`, `ℬ_y` is a free `𝒪_{Y,y}`-module and
-`ℬ_y ⊗_{𝒪_{Y,y}} k(y)` is a separable `k(y)`-algebra. Then `f` is étale.*
+*Let $Y$ be a quasi-compact or locally Noetherian prescheme, $f : X \to Y$ a finite morphism of finite presentation; put
+$\mathcal{B} = f_{*}(\mathcal{O}_{X})$. Suppose that for every closed point $y$ of $Y$, $\mathcal{B}_{y}$ is a free
+$\mathcal{O}_{Y,y}$-module and $\mathcal{B}_{y} \otimes_{\mathcal{O}_{Y,y}} k(y)$ is a separable $k(y)$-algebra. Then
+$f$ is étale.*
 
-Indeed, it follows from `(18.2.4)` that every closed point `y` of `Y` has an open neighbourhood `U` such that the
-restriction `f⁻¹(U) → U` of `f` is étale; the conclusion follows from the fact that in the two cases considered, every
-non-empty closed subset of `Y` contains a closed point `(5.1.11 and 0_I, 2.1.3)`.
+Indeed, it follows from `(18.2.4)` that every closed point $y$ of $Y$ has an open neighbourhood $U$ such that the
+restriction $f^{-1}(U) \to U$ of $f$ is étale; the conclusion follows from the fact that in the two cases considered,
+every non-empty closed subset of $Y$ contains a closed point $(5.1.11 and 0_{I}, 2.1.3)$.
 
 **Corollary (18.2.6).**
 
 <!-- label: IV.18.2.6 -->
 
-*If `f : X → Y` is a finite étale morphism, and if one puts `ℬ = f_*(𝒪_X)`, then the `𝒪_Y`-homomorphism
-`Tr_{ℬ/𝒪_Y} : ℬ → 𝒪_Y` `(18.2.2)` (also denoted `Tr_f`) is surjective.*
+*If $f : X \to Y$ is a finite étale morphism, and if one puts $\mathcal{B} = f_{*}(\mathcal{O}_{X})$, then the
+$\mathcal{O}_{Y}$-homomorphism $Tr_{\mathcal{B}/\mathcal{O}_{Y}} : \mathcal{B} \to \mathcal{O}_{Y}$ `(18.2.2)` (also
+denoted $Tr_{f}$) is surjective.*
 
-The question being local, one may, by virtue of `(18.2.3)`, suppose that `Y = Spec(A)`, `X = Spec(B)` with `ℬ = B̃`, `B`
-being a free `A`-module; since by virtue of `(18.2.3)` the bilinear form `(18.2.1.1)` is nondegenerate, this entails in
-particular that the linear form `Tr_{B/A}` is surjective.
+The question being local, one may, by virtue of `(18.2.3)`, suppose that $Y = \operatorname{Spec}(A)$, $X =
+\operatorname{Spec}(B)$ with $\mathcal{B} = \tilde{B}$, $B$ being a free $A$-module; since by virtue of `(18.2.3)` the
+bilinear form `(18.2.1.1)` is nondegenerate, this entails in particular that the linear form $Tr_{B/A}$ is surjective.
 
-**Remarks (18.2.7).** — (i) When `f : X → Y` is a finite morphism such that `f_*(𝒪_X)` is a locally free `𝒪_Y`-Module
-(resp. locally free of rank `n`), one says further that `f` is a *finite locally free morphism* (resp. *locally free of
-rank `n`*). This condition, by virtue of `(18.2.3)`, is verified if `f` is a finite étale morphism, but does not by
-itself imply that `f` be étale, as is shown by the example where `X = Spec(K)` and `Y = Spec(k)` are spectra of fields,
-`K` being a finite non-separable extension of `k`. When `f : X → Y` is a finite étale morphism, one also says that `X`
-is an *étale cover* of `Y`. One will note that in that case, `f` is universally open and universally closed, and in
-particular `f(X)` is a subset of `Y` both open and closed.
+**Remarks (18.2.7).** — (i) When $f : X \to Y$ is a finite morphism such that $f_{*}(\mathcal{O}_{X})$ is a locally free
+$\mathcal{O}_{Y}$-Module (resp. locally free of rank $n$), one says further that $f$ is a *finite locally free morphism*
+(resp. *locally free of rank $n$*). This condition, by virtue of `(18.2.3)`, is verified if $f$ is a finite étale
+morphism, but does not by itself imply that $f$ be étale, as is shown by the example where $X = \operatorname{Spec}(K)$
+and $Y = \operatorname{Spec}(k)$ are spectra of fields, $K$ being a finite non-separable extension of $k$. When $f : X
+\to Y$ is a finite étale morphism, one also says that $X$ is an *étale cover* of $Y$. One will note that in that case,
+$f$ is universally open and universally closed, and in particular $f(X)$ is a subset of $Y$ both open and closed.
 
-One says that an étale cover `X` of `Y` is *trivial* if `X` is a sum of a finite number of preschemes isomorphic to `Y`.
-One says that an étale cover `X` of `Y` is *locally trivial* if the morphism `f : X → Y` is such that every point
-`y ∈ Y` has an open neighbourhood `U` for which the cover `f⁻¹(U)` of `U` is trivial.
+One says that an étale cover $X$ of $Y$ is *trivial* if $X$ is a sum of a finite number of preschemes isomorphic to $Y$.
+One says that an étale cover $X$ of $Y$ is *locally trivial* if the morphism $f : X \to Y$ is such that every point $y
+\in Y$ has an open neighbourhood $U$ for which the cover $f^{-1}(U)$ of $U$ is trivial.
 
-(ii) Let `f : X → Y` be a finite morphism, locally free of rank `n`; put `ℬ = f_*(𝒪_X)` and let
-`u = astr_{ℬ/𝒪_Y} : ℬ → ℬ̌`; from this one deduces a homomorphism of `n`-th exterior power
-`Λ^n u : Λ^n ℬ → Λ^n ℬ̌ = (Λ^n ℬ)̌` between invertible `𝒪_Y`-Modules, and consequently `(0_I, 5.4.2)` an element
+(ii) Let $f : X \to Y$ be a finite morphism, locally free of rank $n$; put $\mathcal{B} = f_{*}(\mathcal{O}_{X})$ and
+let $u = astr_{\mathcal{B}/\mathcal{O}_{Y}} : \mathcal{B} \to \check{\mathcal{B}}$; from this one deduces a homomorphism
+of $n$-th exterior power $\Lambda^{n} u : \Lambda^{n} \mathcal{B} \to \Lambda^{n} \check{\mathcal{B}} =
+\check{\Lambda^{n} \mathcal{B}}$ between invertible $\mathcal{O}_{Y}$-Modules, and consequently $(0_{I}, 5.4.2)$ an
+element
 
 ```text
   (18.2.7.1)    d_{X/Y} ∈ Γ(Y, (Λ^n ℬ̌) ⊗_{𝒪_Y} (Λ^n ℬ̌))
 ```
 
-called the *discriminant* of `X` over `Y`. Moreover, since `(Λ^n ℬ̌) ⊗_{𝒪_Y} (Λ^n ℬ̌)` is the dual of
-`(Λ^n ℬ) ⊗_{𝒪_Y} (Λ^n ℬ)`, `d_{X/Y}` may also be identified with a homomorphism
+called the *discriminant* of $X$ over $Y$. Moreover, since $(\Lambda^{n} \check{\mathcal{B}}) \otimes_{\mathcal{O}_{Y}}
+(\Lambda^{n} \check{\mathcal{B}})$ is the dual of $(\Lambda^{n} \mathcal{B}) \otimes_{\mathcal{O}_{Y}} (\Lambda^{n}
+\mathcal{B})$, $d_{X/Y}$ may also be identified with a homomorphism
 
 ```text
   (18.2.7.2)    (Λ^n ℬ) ⊗_{𝒪_Y} (Λ^n ℬ) → 𝒪_Y
 ```
 
-and one denotes by `𝒟_{X/Y}` the quasi-coherent Ideal of finite type of `𝒪_Y`, image of the homomorphism `(18.2.7.2)`,
-also called the *discriminant Ideal* of `X` over `Y`.
+and one denotes by $\mathcal{D}_{X/Y}$ the quasi-coherent Ideal of finite type of $\mathcal{O}_{Y}$, image of the
+homomorphism `(18.2.7.2)`, also called the *discriminant Ideal* of $X$ over $Y$.
 
 <!-- original page 114 -->
 
-That being so, for the homomorphism `u` to be bijective, it is necessary and sufficient that `Λ^n u` be bijective, or
-again that the section `d_{X/Y}` have an invertible germ at every point `y ∈ Y`, which one also writes `d_{X/Y}(y) ≠ 0`
-for every `y` `(0_I, 5.5.2)`. It also amounts to the same to say that the discriminant Ideal `𝒟_{X/Y}` is equal to
-`𝒪_Y`.
+That being so, for the homomorphism $u$ to be bijective, it is necessary and sufficient that $\Lambda^{n} u$ be
+bijective, or again that the section $d_{X/Y}$ have an invertible germ at every point $y \in Y$, which one also writes
+$d_{X/Y}(y) \neq 0$ for every $y$ $(0_{I}, 5.5.2)$. It also amounts to the same to say that the discriminant Ideal
+$\mathcal{D}_{X/Y}$ is equal to $\mathcal{O}_{Y}$.
 
 The terminology of "cover" introduced in `(18.2.7, (i))` is justified by the following proposition:
 
@@ -278,32 +294,32 @@ The terminology of "cover" introduced in `(18.2.7, (i))` is justified by the fol
 
 <!-- label: IV.18.2.8 -->
 
-*Let `f : X → Y` be a morphism étale, separated and of finite type, and for every `y ∈ Y` let `n(y)` be the geometric
-number of points of `f⁻¹(y)`. Then the function `y ↦ n(y)` is lower semi-continuous in `Y`. For it to be continuous at a
-point `y` (hence constant in a neighbourhood of `y`), it is necessary and sufficient that there exist an open
-neighbourhood `U` of `y` such that the restriction `f⁻¹(U) → U` of `f` be a finite (étale) morphism.*
+*Let $f : X \to Y$ be a morphism étale, separated and of finite type, and for every $y \in Y$ let $n(y)$ be the
+geometric number of points of $f^{-1}(y)$. Then the function $y \mapsto n(y)$ is lower semi-continuous in $Y$. For it to
+be continuous at a point $y$ (hence constant in a neighbourhood of $y$), it is necessary and sufficient that there exist
+an open neighbourhood $U$ of $y$ such that the restriction $f^{-1}(U) \to U$ of $f$ be a finite (étale) morphism.*
 
-Since `f` is quasi-finite `(17.6.1)` and locally of finite presentation, it amounts to the same to say that `f` is
-finite or that `f` is proper `(8.11.1)`: in addition, each fibre `f⁻¹(y)` is geometrically reduced over `k(y)`. The
-conclusions then follow from `(15.5.9, (i) and (ii))` and from the fact that `f` is flat.
+Since $f$ is quasi-finite `(17.6.1)` and locally of finite presentation, it amounts to the same to say that $f$ is
+finite or that $f$ is proper `(8.11.1)`: in addition, each fibre $f^{-1}(y)$ is geometrically reduced over $k(y)$. The
+conclusions then follow from `(15.5.9, (i) and (ii))` and from the fact that $f$ is flat.
 
 **Corollary (18.2.9).**
 
 <!-- label: IV.18.2.9 -->
 
-*Let `Y` be a connected prescheme, `f : X → Y` a morphism étale, separated and of finite type. For `f` to be finite (in
-other words, for `X` to be an étale cover of `Y`), it is necessary and sufficient that all the fibres of `f` have the
-same geometric number of points.*
+*Let $Y$ be a connected prescheme, $f : X \to Y$ a morphism étale, separated and of finite type. For $f$ to be finite
+(in other words, for $X$ to be an étale cover of $Y$), it is necessary and sufficient that all the fibres of $f$ have
+the same geometric number of points.*
 
 **Remarks (18.2.10).** — (i) The example of the "affine line with one point doubled" `(I, 5.5.11)` shows that an étale
 morphism of finite type of Noetherian preschemes can be *non-separated*; for this example, the first assertion of
 `(18.2.8)` no longer holds.
 
-(ii) For a separated, étale morphism of finite type `f : X → Y` to make `X` into a *locally trivial* cover, it is
-necessary and sufficient that for every `x ∈ X` there exist an open neighbourhood `U` of `y = f(x)` and a `U`-section
-`g` of `f⁻¹(U)` such that `g(y) = x`. Indeed, the condition is obviously necessary; the fact that it is sufficient
-follows from the fact that every fibre `f⁻¹(y)` is finite (`(17.6.1)` and `(I, 6.2.2)`), from the characterization of
-sections of an étale `Y`-scheme `(17.9.3)`, and from prop. `(18.2.8)`.
+(ii) For a separated, étale morphism of finite type $f : X \to Y$ to make $X$ into a *locally trivial* cover, it is
+necessary and sufficient that for every $x \in X$ there exist an open neighbourhood $U$ of $y = f(x)$ and a $U$-section
+$g$ of $f^{-1}(U)$ such that $g(y) = x$. Indeed, the condition is obviously necessary; the fact that it is sufficient
+follows from the fact that every fibre $f^{-1}(y)$ is finite (`(17.6.1)` and `(I, 6.2.2)`), from the characterization of
+sections of an étale $Y$-scheme `(17.9.3)`, and from prop. `(18.2.8)`.
 
 ### 18.3. Finite étale algebras
 
@@ -311,44 +327,45 @@ sections of an étale `Y`-scheme `(17.9.3)`, and from prop. `(18.2.8)`.
 
 <!-- label: IV.18.3.1 -->
 
-*Let `A` be a ring, `B` an `A`-algebra of finite presentation.*
+*Let $A$ be a ring, $B$ an $A$-algebra of finite presentation.*
 
-*(i) For `B` to be an unramified `A`-algebra, it is necessary and sufficient that `B` be an `A`-module of finite
-presentation and that `B` be a projective `(B ⊗_A B)`-module.*
+*(i) For $B$ to be an unramified $A$-algebra, it is necessary and sufficient that $B$ be an $A$-module of finite
+presentation and that $B$ be a projective $(B \otimes_{A} B)$-module.*
 
-*(ii) Suppose moreover that `B` is a finite `A`-algebra. For `B` to be an étale `A`-algebra, it is necessary and
-sufficient that `B` be a projective `A`-module and a projective `(B ⊗_A B)`-module.*
+*(ii) Suppose moreover that $B$ is a finite $A$-algebra. For $B$ to be an étale $A$-algebra, it is necessary and
+sufficient that $B$ be a projective $A$-module and a projective $(B \otimes_{A} B)$-module.*
 
-It is understood that the `(B ⊗_A B)`-module structure on `B` is the one coming from the `(B ⊗_A B)`-algebra structure
-on `B` corresponding to the canonical `A`-homomorphism of rings `B ⊗_A B → B`, which is surjective and of kernel
-`𝔍_{B/A}` `(0, 20.4.1)`.
+It is understood that the $(B \otimes_{A} B)$-module structure on $B$ is the one coming from the $(B \otimes_{A}
+B)$-algebra structure on $B$ corresponding to the canonical $A$-homomorphism of rings $B \otimes_{A} B \to B$, which is
+surjective and of kernel $\mathfrak{J}_{B/A}$ `(0, 20.4.1)`.
 
-(i) To say that the morphism `Spec(B) → Spec(A)` is locally of finite presentation is equivalent to saying that `B` is
-an `A`-algebra of finite presentation `(1.4.6)`. To say
+(i) To say that the morphism $\operatorname{Spec}(B) \to \operatorname{Spec}(A)$ is locally of finite presentation is
+equivalent to saying that $B$ is an $A$-algebra of finite presentation `(1.4.6)`. To say
 
 <!-- original page 115 -->
 
-that `B` is an unramified `A`-algebra means then `(17.4.2)` that `Spec((B ⊗_A B)/𝔍_{B/A})` is a sub-scheme induced on an
-open and closed subset of `Spec(B ⊗_A B)`, and one knows that for this to be so, it is necessary and sufficient that
-`𝔍_{B/A}` be a direct factor ideal of `B ⊗_A B` (Bourbaki, _Alg. comm._, chap. II, §4, n° 3, prop. 15); but it amounts
-to the same to say that the `(B ⊗_A B)`-module quotient `(B ⊗_A B)/𝔍_{B/A}` is projective (Bourbaki, _Alg._, chap. II,
+that $B$ is an unramified $A$-algebra means then `(17.4.2)` that $\operatorname{Spec}((B \otimes_{A}
+B)/\mathfrak{J}_{B/A})$ is a sub-scheme induced on an open and closed subset of $\operatorname{Spec}(B \otimes_{A} B)$,
+and one knows that for this to be so, it is necessary and sufficient that $\mathfrak{J}_{B/A}$ be a direct factor ideal
+of $B \otimes_{A} B$ (Bourbaki, _Alg. comm._, chap. II, §4, n° 3, prop. 15); but it amounts to the same to say that the
+$(B \otimes_{A} B)$-module quotient $(B \otimes_{A} B)/\mathfrak{J}_{B/A}$ is projective (Bourbaki, _Alg._, chap. II,
 3rd ed., §2, n° 2, prop. 4).
 
-(ii) If one recalls that a flat `A`-module of finite presentation is projective and conversely (Bourbaki, _Alg. comm._,
+(ii) If one recalls that a flat $A$-module of finite presentation is projective and conversely (Bourbaki, _Alg. comm._,
 chap. II, §5, n° 2, cor. 2 of th. 1), the assertion of (ii) follows from that of (i) and from `(17.6.2)`.
 
 **Proposition (18.3.2).**
 
 <!-- label: IV.18.3.2 -->
 
-*Let `A` be a ring, `𝔍` an ideal of `A` such that, for the `𝔍`-preadic topology, `A` is separated and complete; put
-`A_0 = A/𝔍`. Then the functor*
+*Let $A$ be a ring, $\mathfrak{J}$ an ideal of $A$ such that, for the $\mathfrak{J}$-preadic topology, $A$ is separated
+and complete; put $A_{0} = A/\mathfrak{J}$. Then the functor*
 
 ```text
   B ↦ B ⊗_A A_0
 ```
 
-*is an equivalence from the category of finite étale `A`-algebras to the category of finite étale `A_0`-algebras.*
+*is an equivalence from the category of finite étale $A$-algebras to the category of finite étale `A_0`-algebras.*
 
 We shall first prove the following lemma:
 
@@ -356,27 +373,31 @@ We shall first prove the following lemma:
 
 <!-- label: IV.18.3.2.1 -->
 
-*Let `A` be a ring, `𝔍` an ideal of `A` such that, for the `𝔍`-preadic topology, `A` is separated and complete.*
+*Let $A$ be a ring, $\mathfrak{J}$ an ideal of $A$ such that, for the $\mathfrak{J}$-preadic topology, $A$ is separated
+and complete.*
 
-*(i) Every projective `A`-module of finite type `M` is separated and complete for the `𝔍`-preadic topology, hence the
-projective limit of the projective `(A/𝔍^{n+1})`-modules `M/𝔍^{n+1} M`.*
+*(i) Every projective $A$-module of finite type $M$ is separated and complete for the $\mathfrak{J}$-preadic topology,
+hence the projective limit of the projective $(A/\mathfrak{J}^{n+1})$-modules $M/\mathfrak{J}^{n+1} M$.*
 
-*(ii) Conversely, put `A_n = A/𝔍^{n+1}`, and let `(M_n)` be a projective system of `A_n`-modules such that, for each
-`n`, the homomorphism `M_{n+1} ⊗_{A_{n+1}} A_n → M_n` deduced from the di-homomorphism of transition `M_{n+1} → M_n` is
-bijective. Suppose moreover that the `M_n` are projective and `M_0` of finite type. Then `M = lim_← M_n` is a projective
-`A`-module of finite type such that the canonical homomorphism `M ⊗_A A_0 → M_0` is bijective.*
+*(ii) Conversely, put $A_{n} = A/\mathfrak{J}^{n+1}$, and let $(M_{n})$ be a projective system of $A_{n}$-modules such
+that, for each $n$, the homomorphism $M_{n+1} \otimes_{A_{n+1}} A_{n} \to M_{n}$ deduced from the di-homomorphism of
+transition $M_{n+1} \to M_{n}$ is bijective. Suppose moreover that the $M_{n}$ are projective and `M_0` of finite type.
+Then $M = \varprojlim M_{n}$ is a projective $A$-module of finite type such that the canonical homomorphism $M
+\otimes_{A} A_{0} \to M_{0}$ is bijective.*
 
-(i) There exists a free `A`-module of finite type `L` such that `M` is isomorphic to a direct factor of `L`; since `L`
-is separated for the `𝔍`-preadic topology, so is every submodule `N` of `L`, since `𝔍^{n+1} N ⊂ 𝔍^{n+1} L`; in
-particular `M` is separated for this topology, and since the surjective homomorphism `f : L → M` is continuous for the
-`𝔍`-preadic topology, its kernel `N` is closed for the topology induced by that of `L`; since `L` is complete and `f` a
-strict morphism, one concludes that `M` is complete (Bourbaki, _Top. gén._, chap. IX, 2nd ed., §3, n° 1, prop. 4).
+(i) There exists a free $A$-module of finite type $L$ such that $M$ is isomorphic to a direct factor of $L$; since $L$
+is separated for the $\mathfrak{J}$-preadic topology, so is every submodule $N$ of $L$, since $\mathfrak{J}^{n+1} N
+\subset \mathfrak{J}^{n+1} L$; in particular $M$ is separated for this topology, and since the surjective homomorphism
+$f : L \to M$ is continuous for the $\mathfrak{J}$-preadic topology, its kernel $N$ is closed for the topology induced
+by that of $L$; since $L$ is complete and $f$ a strict morphism, one concludes that $M$ is complete (Bourbaki, _Top.
+gén._, chap. IX, 2nd ed., §3, n° 1, prop. 4).
 
-(ii) It follows from Nakayama's lemma that if `M_0` is generated by a finite family `(x_{i,0})` of `r` elements and if
-for each `n`, `x_{i,n}` is an element of `M_n` whose image in `M_{n-1}` is `x_{i, n-1}`, then `(x_{i,n})_{1 ⩽ i ⩽ r}` is
-a system of generators of `M_n` (Bourbaki, _Alg. comm._, chap. II, §3, cor. 2 of prop. 4). That being so, for each `n`,
-put `L_n = A_n^r`; if `(e_{i,n})_{1 ⩽ i ⩽ r}` is the canonical basis of `L_n`, let `u_n : L_n → M_n` be the `A`-linear
-map such that `u_n(e_{i,n}) = x_{i,n}` for each `i`. By hypothesis one has a split exact sequence
+(ii) It follows from Nakayama's lemma that if `M_0` is generated by a finite family $(x_{i,0})$ of $r$ elements and if
+for each $n$, $x_{i,n}$ is an element of $M_{n}$ whose image in $M_{n-1}$ is $x_{i, n-1}$, then $(x_{i,n})_{1 \leqslant
+i \leqslant r}$ is a system of generators of $M_{n}$ (Bourbaki, _Alg. comm._, chap. II, §3, cor. 2 of prop. 4). That
+being so, for each $n$, put $L_{n} = A^{r}_{n}$; if $(e_{i,n})_{1 \leqslant i \leqslant r}$ is the canonical basis of
+$L_{n}$, let $u_{n} : L_{n} \to M_{n}$ be the $A$-linear map such that $u_{n}(e_{i,n}) = x_{i,n}$ for each $i$. By
+hypothesis one has a split exact sequence
 
 ```text
   0 → N_n →^{v_n} L_n →^{u_n} M_n → 0
@@ -384,8 +405,8 @@ map such that `u_n(e_{i,n}) = x_{i,n}` for each `i`. By hypothesis one has a spl
 
 <!-- original page 116 -->
 
-and since `L_n = L_{n+1}/𝔍^{n+1} L_{n+1}` and `M_n = M_{n+1}/𝔍^{n+1} M_{n+1}`, the vertical arrows in the commutative
-diagram
+and since $L_{n} = L_{n+1}/\mathfrak{J}^{n+1} L_{n+1}$ and $M_{n} = M_{n+1}/\mathfrak{J}^{n+1} M_{n+1}$, the vertical
+arrows in the commutative diagram
 
 ```text
   0 → N_{n+1} →^{v_{n+1}} L_{n+1} →^{u_{n+1}} M_{n+1} → 0
@@ -393,91 +414,103 @@ diagram
   0 → N_n     →^{v_n}     L_n    →^{u_n}     M_n      → 0
 ```
 
-are all three *surjective*. Now one has `M = lim_← M_n` and `L = A^r = lim_← L_n`; if one puts `N = lim_← N_n`,
-`u = lim_← u_n`, `v = lim_← v_n`, one has, by virtue of `(0_III, 13.2.2)`, the exact sequence
+are all three *surjective*. Now one has $M = \varprojlim M_{n}$ and $L = A^{r} = \varprojlim L_{n}$; if one puts $N =
+\varprojlim N_{n}$, $u = \varprojlim u_{n}$, $v = \varprojlim v_{n}$, one has, by virtue of $(0_{III}, 13.2.2)$, the
+exact sequence
 
 ```text
   (18.3.2.2)    0 → N →^v L →^u M → 0.
 ```
 
-Moreover, since for each `n`, `v_n` is left-invertible and `M_n` is a projective `A_n`-module, it follows from
+Moreover, since for each $n$, $v_{n}$ is left-invertible and $M_{n}$ is a projective $A_{n}$-module, it follows from
 `(0, 19.1.8)` that the exact sequence `(18.3.2.2)` is split, which proves the lemma.
 
 That being so, let us show first that the functor in the statement of `(18.3.2)` is *fully faithful*. Put, as in the
-lemma, `A_n = A/𝔍^{n+1}`; let `B`, `C` be two finite étale `A`-algebras, and put, for each `n`, `B_n = B ⊗_A A_n`,
-`C_n = C ⊗_A A_n`; by virtue of `(18.3.1)` and `(18.3.2.1)`, `B` and `C` are separated and complete for the `𝔍`-preadic
-topology, and one has `B = lim_← B_n`, `C = lim_← C_n`; moreover every homomorphism of `A`-algebras `u : B → C` is
-continuous for the `𝔍`-preadic topologies, and therefore gives a projective system of homomorphisms of `A_n`-algebras
-`u_n = u ⊗ 1 : B_n → C_n` of which it is the projective limit; the converse being obvious, one has therefore a canonical
-bijection
+lemma, $A_{n} = A/\mathfrak{J}^{n+1}$; let $B$, $C$ be two finite étale $A$-algebras, and put, for each $n$, $B_{n} = B
+\otimes_{A} A_{n}$, $C_{n} = C \otimes_{A} A_{n}$; by virtue of `(18.3.1)` and `(18.3.2.1)`, $B$ and $C$ are separated
+and complete for the $\mathfrak{J}$-preadic topology, and one has $B = \varprojlim B_{n}$, $C = \varprojlim C_{n}$;
+moreover every homomorphism of $A$-algebras $u : B \to C$ is continuous for the $\mathfrak{J}$-preadic topologies, and
+therefore gives a projective system of homomorphisms of $A_{n}$-algebras $u_{n} = u \otimes 1 : B_{n} \to C_{n}$ of
+which it is the projective limit; the converse being obvious, one has therefore a canonical bijection
 
 ```text
   Hom_{A-alg.}(B, C) ⥲ lim_← Hom_{A_n-alg.}(B_n, C_n).
 ```
 
-But since `B` and `C` are *étale* `A`-algebras, it follows at once from `(18.1.2)` that the canonical map
+But since $B$ and $C$ are *étale* $A$-algebras, it follows at once from `(18.1.2)` that the canonical map
 
 ```text
   Hom_{A_{n+1}-alg.}(B_{n+1}, C_{n+1}) → Hom_{A_n-alg.}(B_n, C_n)
 ```
 
-is bijective for `n ⩾ 0`, which finishes proving that the canonical map `Hom_{A-alg.}(B, C) → Hom_{A_0-alg.}(B_0, C_0)`
-is bijective.
+is bijective for $n \geqslant 0$, which finishes proving that the canonical map
+`Hom_{A-alg.}(B, C) → Hom_{A_0-alg.}(B_0, C_0)` is bijective.
 
 To complete the proof of `(18.3.2)`, it suffices to see that for every finite étale `A_0`-algebra `B_0`, there exist a
-finite étale `A`-algebra `B` and an `A_0`-isomorphism `B_0 ⥲ B ⊗_A A_0`. Now, it follows from `(18.1.2)` that there is a
-projective system `(B_n)` such that `B_n` is a finite étale `A_n`-algebra and the homomorphisms
-`B_{n+1} ⊗_{A_{n+1}} A_n → B_n` are bijective. It follows from `(18.3.1)` and `(18.3.2.1)` that the `A`-algebra
-`B = lim_← B_n` is a projective `A`-module of finite type and that `B_0` is isomorphic to `B ⊗_A A_0`. To prove that `B`
-is an étale `A`-algebra, it suffices, by virtue of `(18.2.5)`, to show that for every maximal ideal `𝔪` of `A`,
-`B_𝔪/𝔪 B_𝔪` is a separable `(A/𝔪)`-algebra. Now, since `𝔍` is contained in the radical of `A` `(0_I, 7.1.10)`,
+finite étale $A$-algebra $B$ and an `A_0`-isomorphism $B_{0} \xrightarrow{\sim} B \otimes_{A} A_{0}$. Now, it follows
+from `(18.1.2)` that there is a projective system $(B_{n})$ such that $B_{n}$ is a finite étale $A_{n}$-algebra and the
+homomorphisms $B_{n+1} \otimes_{A_{n+1}} A_{n} \to B_{n}$ are bijective. It follows from `(18.3.1)` and `(18.3.2.1)`
+that the $A$-algebra $B = \varprojlim B_{n}$ is a projective $A$-module of finite type and that `B_0` is isomorphic to
+$B \otimes_{A} A_{0}$. To prove that $B$ is an étale $A$-algebra, it suffices, by virtue of `(18.2.5)`, to show that for
+every maximal ideal $\mathfrak{m}$ of $A$, $B_{\mathfrak{m}}/\mathfrak{m} B_{\mathfrak{m}}$ is a separable
+$(A/\mathfrak{m})$-algebra. Now, since $\mathfrak{J}$ is contained in the radical of $A$ $(0_{I}, 7.1.10)$,
 
 <!-- original page 117 -->
 
-one has `𝔍 ⊂ 𝔪`, and if `𝔪_0 = 𝔪/𝔍`, one has `A_0/𝔪_0 = A/𝔪` and `B_𝔪/𝔪 B_𝔪 = (B_0)_{𝔪_0}/𝔪_0 (B_0)_{𝔪_0}`; the
-conclusion therefore follows from the fact that `B_0` is a finite étale `A_0`-algebra `(18.2.5)`.
+one has $\mathfrak{J} \subset \mathfrak{m}$, and if $\mathfrak{m}_{0} = \mathfrak{m}/\mathfrak{J}$, one has
+$A_{0}/\mathfrak{m}_{0} = A/\mathfrak{m}$ and $B_{\mathfrak{m}}/\mathfrak{m} B_{\mathfrak{m}} =
+(B_{0})_{\mathfrak{m}_{0}}/\mathfrak{m}_{0} (B_{0})_{\mathfrak{m}_{0}}$; the conclusion therefore follows from the fact
+that `B_0` is a finite étale `A_0`-algebra `(18.2.5)`.
 
-**Example (18.3.3).** — Prop. `(18.3.2)` applies in particular when `A` is a *separated and complete local ring*, `𝔍`
-being the maximal ideal of `A`, so that `A_0` is a *field* and the category of finite étale `A_0`-algebras is identical
-to that of finite separable `A_0`-algebras, hence isomorphic to direct composites of fields, separable and finite
-extensions of `A_0`. In particular, if the field `A_0` is *separably closed*, these extensions are all identical to
-`A_0`, and consequently every étale cover of `Spec(A)` is *trivial* `(18.2.7)` by virtue of `(18.3.2)`.
+**Example (18.3.3).** — Prop. `(18.3.2)` applies in particular when $A$ is a *separated and complete local ring*,
+$\mathfrak{J}$ being the maximal ideal of $A$, so that `A_0` is a *field* and the category of finite étale
+`A_0`-algebras is identical to that of finite separable `A_0`-algebras, hence isomorphic to direct composites of fields,
+separable and finite extensions of `A_0`. In particular, if the field `A_0` is *separably closed*, these extensions are
+all identical to `A_0`, and consequently every étale cover of $\operatorname{Spec}(A)$ is *trivial* `(18.2.7)` by virtue
+of `(18.3.2)`.
 
 **Theorem (18.3.4).**
 
 <!-- label: IV.18.3.4 -->
 
-*Let `A` be a Noetherian ring, `𝔍` an ideal of `A` such that `A` is separated and complete for the `𝔍`-preadic topology,
-`A_0 = A/𝔍`. Put `S = Spec(A)`, `S_0 = Spec(A_0)`. Let `X` be an `S`-scheme proper over `S`, and put `X_0 = X ×_S S_0`.
-Then the functor*
+*Let $A$ be a Noetherian ring, $\mathfrak{J}$ an ideal of $A$ such that $A$ is separated and complete for the
+$\mathfrak{J}$-preadic topology, $A_{0} = A/\mathfrak{J}$. Put $S = \operatorname{Spec}(A)$, $S_{0} =
+\operatorname{Spec}(A_{0})$. Let $X$ be an $S$-scheme proper over $S$, and put $X_{0} = X \times_{S} S_{0}$. Then the
+functor*
 
 ```text
   Z ↦ Z ×_X X_0
 ```
 
-*from the category of `X`-schemes finite and étale over `X` to the category of `X_0`-schemes finite and étale over `X_0`
+*from the category of $X$-schemes finite and étale over $X$ to the category of `X_0`-schemes finite and étale over `X_0`
 is an equivalence of categories.*
 
-Let us show first that this functor is *fully faithful*. Let `Z'` and `Z''` be two `X`-schemes finite and étale over
-`X`. Put `S_n = Spec(A/𝔍^{n+1})`, `X_n = X ×_S S_n`, `Z'_n = Z' ×_S S_n`, `Z''_n = Z'' ×_S S_n` for each `n ⩾ 0`. It
-follows from `(III, 5.4.1)` that one has a canonical bijection `Hom_X(Z', Z'') ⥲ lim_← Hom_{X_n}(Z'_n, Z''_n)`. Now, by
-virtue of `(18.1.2)`, the canonical map `Hom_{X_{n+1}}(Z'_{n+1}, Z''_{n+1}) → Hom_{X_n}(Z'_n, Z''_n)` is bijective,
-which completes the proof of our assertion.
+Let us show first that this functor is *fully faithful*. Let $Z'$ and `Z''` be two $X$-schemes finite and étale over
+$X$. Put $S_{n} = \operatorname{Spec}(A/\mathfrak{J}^{n+1})$, $X_{n} = X \times_{S} S_{n}$, $Z'_{n} = Z' \times_{S}
+S_{n}$, $Z''_{n} = Z'' \times_{S} S_{n}$ for each $n \geqslant 0$. It follows from `(III, 5.4.1)` that one has a
+canonical bijection `Hom_X(Z', Z'') ⥲ lim_← Hom_{X_n}(Z'_n, Z''_n)`. Now, by virtue of `(18.1.2)`, the canonical map
+$\operatorname{Hom}_{X_{n+1}}(Z'_{n+1}, Z''_{n+1}) \to \operatorname{Hom}_{X_{n}}(Z'_{n}, Z''_{n})$ is bijective, which
+completes the proof of our assertion.
 
-It remains to prove that if `ℬ_0` is a finite étale `𝒪_{X_0}`-Algebra, there exists an `𝒪_X`-Algebra `ℬ` finite and
-étale and an isomorphism `ℬ_0 ⥲ ℬ ⊗_{𝒪_X} 𝒪_{X_0}`. It follows from `(18.1.2)` that there is a projective system
-`(ℬ_n)`, where `ℬ_n` is a finite étale `𝒪_{X_n}`-Algebra, and the second comparison theorem `(III, 5.1.4)` proves the
-existence of a coherent `𝒪_X`-Module `ℬ` and of a projective system of isomorphisms `ℬ_n ⥲ ℬ ⊗_{𝒪_X} 𝒪_{X_n}`. The datum
-of an Algebra structure on a Module `ℱ` being equivalent to that of a homomorphism `ℱ ⊗ ℱ → ℱ` making commutative
-diagrams in which only tensor powers of `ℱ` intervene, it follows from `(III, 5.1.3)`, `(I, 10.11.4)` and `(I, 10.11.7)`
-that `ℬ` is naturally endowed with an `𝒪_X`-Algebra structure for which the isomorphism `ℬ_n ⥲ ℬ ⊗_{𝒪_X} 𝒪_{X_n}` is an
-isomorphism of Algebras. Moreover, `ℬ` is a *locally free* `𝒪_X`-Module; this also follows from `(III, 5.1.3)`,
-`(I, 10.11.4)`, `(I, 10.11.7)` and from the fact that, in the category of coherent `𝒪_X`-Modules, locally free
-`𝒪_X`-Modules `ℱ` may be defined as those for which the functor `𝒢 ↦ ℋom_{𝒪_X}(ℱ, 𝒢)` is exact. Finally, to see that `ℬ`
-is an étale `𝒪_X`-Algebra, it suffices `(18.2.5)` to show that for every closed point `x ∈ X`, `ℬ_x ⊗_{𝒪_{X,x}} k(x)` is
-a separable `k(x)`-algebra. But since the structure morphism `f : X → S` is proper, `f(x)` is a closed point of `S`,
-hence belongs to `S_0`, since `𝔍` is contained in the radical of `A` `(0_I, 7.1.10)`; the conclusion therefore follows
-from the fact that `X_0 = f⁻¹(S_0)` and that `ℬ_0` is a finite étale `𝒪_{X_0}`-Algebra.
+It remains to prove that if $\mathcal{B}_{0}$ is a finite étale $\mathcal{O}_{X_{0}}$-Algebra, there exists an
+$\mathcal{O}_{X}$-Algebra $\mathcal{B}$ finite and étale and an isomorphism $\mathcal{B}_{0} \xrightarrow{\sim}
+\mathcal{B} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X_{0}}$. It follows from `(18.1.2)` that there is a projective system
+$(\mathcal{B}_{n})$, where $\mathcal{B}_{n}$ is a finite étale $\mathcal{O}_{X_{n}}$-Algebra, and the second comparison
+theorem `(III, 5.1.4)` proves the existence of a coherent $\mathcal{O}_{X}$-Module $\mathcal{B}$ and of a projective
+system of isomorphisms $\mathcal{B}_{n} \xrightarrow{\sim} \mathcal{B} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X_{n}}$.
+The datum of an Algebra structure on a Module $\mathcal{F}$ being equivalent to that of a homomorphism $\mathcal{F}
+\otimes \mathcal{F} \to \mathcal{F}$ making commutative diagrams in which only tensor powers of $\mathcal{F}$ intervene,
+it follows from `(III, 5.1.3)`, `(I, 10.11.4)` and `(I, 10.11.7)` that $\mathcal{B}$ is naturally endowed with an
+$\mathcal{O}_{X}$-Algebra structure for which the isomorphism $\mathcal{B}_{n} \xrightarrow{\sim} \mathcal{B}
+\otimes_{\mathcal{O}_{X}} \mathcal{O}_{X_{n}}$ is an isomorphism of Algebras. Moreover, $\mathcal{B}$ is a *locally
+free* $\mathcal{O}_{X}$-Module; this also follows from `(III, 5.1.3)`, `(I, 10.11.4)`, `(I, 10.11.7)` and from the fact
+that, in the category of coherent $\mathcal{O}_{X}$-Modules, locally free $\mathcal{O}_{X}$-Modules $\mathcal{F}$ may be
+defined as those for which the functor $\mathcal{G} \mapsto \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{F}, \mathcal{G})$
+is exact. Finally, to see that $\mathcal{B}$ is an étale $\mathcal{O}_{X}$-Algebra, it suffices `(18.2.5)` to show that
+for every closed point $x \in X$, $\mathcal{B}_{x} \otimes_{\mathcal{O}_{X,x}} k(x)$ is a separable $k(x)$-algebra. But
+since the structure morphism $f : X \to S$ is proper, $f(x)$ is a closed point of $S$, hence belongs to `S_0`, since
+$\mathfrak{J}$ is contained in the radical of $A$ $(0_{I}, 7.1.10)$; the conclusion therefore follows from the fact that
+$X_{0} = f^{-1}(S_{0})$ and that $\mathcal{B}_{0}$ is a finite étale $\mathcal{O}_{X_{0}}$-Algebra.
 
 <!-- original page 118 -->
 
@@ -487,153 +520,166 @@ from the fact that `X_0 = f⁻¹(S_0)` and that `ℬ_0` is a finite étale `𝒪
 
 <!-- label: IV.18.4.1 -->
 
-*Let `A` be a ring, `B` a finite monogenic `A`-algebra, `u` a generator of the `A`-algebra `B`, `F ∈ A[T]` a polynomial
-such that `F(u) = 0`, `F'` the derived polynomial; put `u' = F'(u)`. Then the ideal of `B`, annihilator of `Ω^1_{B/A}`,
-contains `u' B`; it is equal to `u' B` if the ideal `𝔍` of `A[T]` formed by the polynomials `G` such that `G(u) = 0` is
-generated by `F`, in other words if the canonical surjective homomorphism `φ : A[T]/F · A[T] → B` transforming the image
-of `T` into `u` is bijective.*
+*Let $A$ be a ring, $B$ a finite monogenic $A$-algebra, $u$ a generator of the $A$-algebra $B$, $F \in A[T]$ a
+polynomial such that $F(u) = 0$, $F'$ the derived polynomial; put $u' = F'(u)$. Then the ideal of $B$, annihilator of
+$\Omega^{1}_{B/A}$, contains `u' B`; it is equal to `u' B` if the ideal $\mathfrak{J}$ of `A[T]` formed by the
+polynomials $G$ such that $G(u) = 0$ is generated by $F$, in other words if the canonical surjective homomorphism
+$\phi : A[T]/F \cdot A[T] \to B$ transforming the image of $T$ into $u$ is bijective.*
 
-Put `C = A[T]`, so that `B = C/𝔍`. One has the exact sequence `(0, 20.5.12.1)`
+Put $C = A[T]$, so that $B = C/\mathfrak{J}$. One has the exact sequence `(0, 20.5.12.1)`
 
 ```text
   𝔍/𝔍² → Ω^1_{C/A} ⊗_C B → Ω^1_{B/A} → 0
 ```
 
-and `Ω^1_{B/A}` is therefore identified with the quotient `B/𝔍'`, `𝔍'` being the ideal generated by the elements
-`G'(u)`, where `G` ranges over a system of generators of the ideal `𝔍` `(0, 20.5.13)`; the lemma follows immediately.
+and $\Omega^{1}_{B/A}$ is therefore identified with the quotient $B/\mathfrak{J}'$, $\mathfrak{J}'$ being the ideal
+generated by the elements `G'(u)`, where $G$ ranges over a system of generators of the ideal $\mathfrak{J}$
+`(0, 20.5.13)`; the lemma follows immediately.
 
 **Proposition (18.4.2).**
 
 <!-- label: IV.18.4.2 -->
 
-*With the notations of `(18.4.1)`, let `𝔮` be a prime ideal of `B`. Then:*
+*With the notations of `(18.4.1)`, let $\mathfrak{q}$ be a prime ideal of $B$. Then:*
 
-*(i) If `𝔮` does not contain `u'`, `B_𝔮` is a formally unramified `A_𝔭`-algebra (`𝔭` being the inverse image of `𝔮` in
-`A`); in other words, `Spec(B_𝔮)` is formally unramified over `Spec(A)`.*
+*(i) If $\mathfrak{q}$ does not contain $u'$, $B_{\mathfrak{q}}$ is a formally unramified $A_{\mathfrak{p}}$-algebra
+($\mathfrak{p}$ being the inverse image of $\mathfrak{q}$ in $A$); in other words,
+$\operatorname{Spec}(B_{\mathfrak{q}})$ is formally unramified over $\operatorname{Spec}(A)$.*
 
-*(ii) Suppose moreover that `F` is unitary and generates `𝔍`. Then, for `Spec(B)` to be étale over `Spec(A)` at the
-point `𝔮`, it is necessary and sufficient that `u' ∉ 𝔮`.*
+*(ii) Suppose moreover that $F$ is unitary and generates $\mathfrak{J}$. Then, for $\operatorname{Spec}(B)$ to be étale
+over $\operatorname{Spec}(A)$ at the point $\mathfrak{q}$, it is necessary and sufficient that $u' \notin
+\mathfrak{q}$.*
 
-The hypothesis that `u' ∉ 𝔮` entails that `Ω^1_{B_𝔮/A_𝔭} = 0` `(0, 20.5.9)`, hence (i) follows from `(17.2.1)`.
-Moreover, under the hypotheses of (ii), `B` is a free `A`-module by virtue of Euclidean division; since the annihilator
-`𝔍'` of `Ω^1_{B/A}` is then equal to `u' B` by virtue of `(18.4.1)`, and `Ω^1_{B/A}` is a `B`-module of finite
-presentation `(16.4.22)`, the annihilator of `Ω^1_{B_𝔮/A_𝔭}` is equal to `u' B_𝔮` (Bourbaki, _Alg. comm._, chap. II, §2,
-n° 4, formula (9)), and (ii) follows therefore from (i) and from the implication c) ⇒ a) in `(17.6.1)`.
+The hypothesis that $u' \notin \mathfrak{q}$ entails that $\Omega^{1}_{B_{\mathfrak{q}}/A_{\mathfrak{p}}} = 0$
+`(0, 20.5.9)`, hence (i) follows from `(17.2.1)`. Moreover, under the hypotheses of (ii), $B$ is a free $A$-module by
+virtue of Euclidean division; since the annihilator $\mathfrak{J}'$ of $\Omega^{1}_{B/A}$ is then equal to `u' B` by
+virtue of `(18.4.1)`, and $\Omega^{1}_{B/A}$ is a $B$-module of finite presentation `(16.4.22)`, the annihilator of
+$\Omega^{1}_{B_{\mathfrak{q}}/A_{\mathfrak{p}}}$ is equal to $u' B_{\mathfrak{q}}$ (Bourbaki, _Alg. comm._, chap. II,
+§2, n° 4, formula (9)), and (ii) follows therefore from (i) and from the implication c) ⇒ a) in `(17.6.1)`.
 
 **Corollary (18.4.3).**
 
 <!-- label: IV.18.4.3 -->
 
-*With the notations of `(18.4.2)`, suppose that `F` is unitary and generates `𝔍`. Then, for `B` to be an étale
-`A`-algebra, it is necessary and sufficient that `u'` be invertible in `B` (or, what amounts to the same, that the ideal
-of `A[T]` generated by `F` and `F'` be equal to `A[T]`).*
+*With the notations of `(18.4.2)`, suppose that $F$ is unitary and generates $\mathfrak{J}$. Then, for $B$ to be an
+étale $A$-algebra, it is necessary and sufficient that $u'$ be invertible in $B$ (or, what amounts to the same, that the
+ideal of `A[T]` generated by $F$ and $F'$ be equal to `A[T]`).*
 
-Taking `(18.4.2, (ii))` into account, to say that `Spec(B)` is étale over `Spec(A)` means indeed that `u'` does not
-belong to any prime ideal of `B`, i.e. that it is invertible in `B`.
+Taking `(18.4.2, (ii))` into account, to say that $\operatorname{Spec}(B)$ is étale over $\operatorname{Spec}(A)$ means
+indeed that $u'$ does not belong to any prime ideal of $B$, i.e. that it is invertible in $B$.
 
-One says that a unitary polynomial `F ∈ A[T]` such that the ideal of `A[T]` generated by `F` and `F'` is equal to `A[T]`
-itself is *separable*; it is immediate that this definition coincides with the usual definition (Bourbaki, _Alg._, chap.
-V, §7, n° 6) when `A` is a field.
+One says that a unitary polynomial $F \in A[T]$ such that the ideal of `A[T]` generated by $F$ and $F'$ is equal to
+`A[T]` itself is *separable*; it is immediate that this definition coincides with the usual definition (Bourbaki,
+_Alg._, chap. V, §7, n° 6) when $A$ is a field.
 
 **Lemma (18.4.4).**
 
 <!-- label: IV.18.4.4 -->
 
-*Let `A` be a local ring, `B` a finite monogenic `A`-algebra, `u` a generator of the `A`-algebra `B`. Let `𝔫_i`
-`(1 ⩽ i ⩽ r)` be maximal ideals of `B` such that `Spec(B)` is formally unramified over `Spec(A)` at the points `𝔫_i`.
-Then there exists a unitary polynomial `F ∈ A[T]` such that `F(u) = 0` and `F'(u) ∉ 𝔫_i` for every index `i`
-`(1 ⩽ i ⩽ r)`. Moreover, if `k` is the residue field*
+*Let $A$ be a local ring, $B$ a finite monogenic $A$-algebra, $u$ a generator of the $A$-algebra $B$. Let
+$\mathfrak{n}_{i}$ $(1 \leqslant i \leqslant r)$ be maximal ideals of $B$ such that $\operatorname{Spec}(B)$ is formally
+unramified over $\operatorname{Spec}(A)$ at the points $\mathfrak{n}_{i}$. Then there exists a unitary polynomial $F \in
+A[T]$ such that $F(u) = 0$ and $F'(u) \notin \mathfrak{n}_{i}$ for every index $i$ $(1 \leqslant i \leqslant r)$.
+Moreover, if $k$ is the residue field*
 
 <!-- original page 119 -->
 
-*of `A`, `f ∈ k[T]` the minimal polynomial of the image of `u` in `B ⊗_A k`, there exists an `F ∈ A[T]` of which `f` is
-the canonical image and such that `F(u) = 0`; such a polynomial `F` verifies the conditions `F'(u) ∉ 𝔫_i` for
-`1 ⩽ i ⩽ r`.*
+*of $A$, $f \in k[T]$ the minimal polynomial of the image of $u$ in $B \otimes_{A} k$, there exists an $F \in A[T]$ of
+which $f$ is the canonical image and such that $F(u) = 0$; such a polynomial $F$ verifies the conditions $F'(u) \notin
+\mathfrak{n}_{i}$ for $1 \leqslant i \leqslant r$.*
 
-The maximal ideal `𝔪` of `A` is the inverse image of each of the `𝔫_i` `(II, 6.1.10)`; let `L = B ⊗_A k`, which is a
-finite `k`-algebra. Let `ζ` be the image of `u` in `L`, and let `n` be the rank of `L` over `k`; the minimal polynomial
-`f ∈ k[T]` of `ζ` over `k` is therefore of degree `n`, and `L` is isomorphic to `k[T]/f · k[T]`. If `𝔫'_i = 𝔫_i/𝔪 B`,
-the hypothesis entails that `Spec(L)` is étale over `k` at the points `𝔫'_i` `(1 ⩽ i ⩽ r)` by virtue of `(17.6.1, c)`,
-hence `f'(ζ) ∉ 𝔫'_i` by virtue of `(18.4.2, (ii))`. Note now that `𝔪 B` is contained in the radical of `B`; since
-`1, ζ, …, ζ^{n-1}` form a basis of `L` over `k`, it follows from Nakayama's lemma that `1, u, …, u^{n-1}` generate the
-`A`-module `B`, and consequently there exists a unitary polynomial `F ∈ A[T]` of degree `n` such that `F(u) = 0`; in
-addition, since `ζ` is a root of the canonical image of `F` in `k[T]`, this image is necessarily equal to `f`. But then
-the image of `F'(u)` in `L` is `f'(ζ)`, and since `f'(ζ) ∉ 𝔫'_i`, one has `F'(u) ∉ 𝔫_i` for each `i`.
+The maximal ideal $\mathfrak{m}$ of $A$ is the inverse image of each of the $\mathfrak{n}_{i}$ `(II, 6.1.10)`; let $L =
+B \otimes_{A} k$, which is a finite $k$-algebra. Let $\zeta$ be the image of $u$ in $L$, and let $n$ be the rank of $L$
+over $k$; the minimal polynomial $f \in k[T]$ of $\zeta$ over $k$ is therefore of degree $n$, and $L$ is isomorphic to
+$k[T]/f \cdot k[T]$. If $\mathfrak{n}'_{i} = \mathfrak{n}_{i}/\mathfrak{m} B$, the hypothesis entails that
+$\operatorname{Spec}(L)$ is étale over $k$ at the points $\mathfrak{n}'_{i}$ $(1 \leqslant i \leqslant r)$ by virtue of
+`(17.6.1, c)`, hence $f'(\zeta) \notin \mathfrak{n}'_{i}$ by virtue of `(18.4.2, (ii))`. Note now that $\mathfrak{m} B$
+is contained in the radical of $B$; since $1, \zeta, \cdots, \zeta^{n-1}$ form a basis of $L$ over $k$, it follows from
+Nakayama's lemma that $1, u, \cdots, u^{n-1}$ generate the $A$-module $B$, and consequently there exists a unitary
+polynomial $F \in A[T]$ of degree $n$ such that $F(u) = 0$; in addition, since $\zeta$ is a root of the canonical image
+of $F$ in `k[T]`, this image is necessarily equal to $f$. But then the image of `F'(u)` in $L$ is $f'(\zeta)$, and since
+$f'(\zeta) \notin \mathfrak{n}'_{i}$, one has $F'(u) \notin \mathfrak{n}_{i}$ for each $i$.
 
 **Proposition (18.4.5).**
 
 <!-- label: IV.18.4.5 -->
 
-*Let `A` be a local ring, `k` its residue field, `B` a finite (resp. finite and of finite presentation) `A`-algebra.
-Suppose moreover either that the field `k` is infinite, or that `B` is a local ring. Let `n` be the rank of
-`L = B ⊗_A k` over `k`. For `B` to be a formally unramified (resp. étale) `A`-algebra, it is necessary and sufficient
-that there exist a unitary separable polynomial `F ∈ A[T]` `(18.4.3)` such that `B` is isomorphic to a quotient of
-`A[T]/F · A[T]` (resp. isomorphic to `A[T]/F · A[T]`). Moreover, one may suppose `F` of degree `n` (resp. `F` is
-necessarily of degree `n`).*
+*Let $A$ be a local ring, $k$ its residue field, $B$ a finite (resp. finite and of finite presentation) $A$-algebra.
+Suppose moreover either that the field $k$ is infinite, or that $B$ is a local ring. Let $n$ be the rank of $L = B
+\otimes_{A} k$ over $k$. For $B$ to be a formally unramified (resp. étale) $A$-algebra, it is necessary and sufficient
+that there exist a unitary separable polynomial $F \in A[T]$ `(18.4.3)` such that $B$ is isomorphic to a quotient of
+$A[T]/F \cdot A[T]$ (resp. isomorphic to $A[T]/F \cdot A[T]$). Moreover, one may suppose $F$ of degree $n$ (resp. $F$ is
+necessarily of degree $n$).*
 
-The conditions are sufficient by virtue of `(18.4.2)`, without assuming `k` infinite or `B` local. To see that the
-conditions are necessary, note that if `B` is a formally unramified `A`-algebra, `L` is a finite and separable algebra
-over `k`, hence the direct composite of a finite number of finite and separable extensions `k_j` of `k` `(1 ⩽ j ⩽ r)`,
-`k_j` being therefore generated by an element `ξ_j` of minimal polynomial `f_j` `(1 ⩽ j ⩽ r)` (Bourbaki, _Alg._, chap.
-V, §11, n° 4, prop. 4). Let us show that by virtue of the hypotheses made on `k` or `B`, there exists an element `ζ` of
-`L` generating the `k`-algebra `L`. This is immediate if `B` is local, since then `r = 1`. Otherwise, `k` being supposed
-infinite, one may suppose that the irreducible polynomials `f_j ∈ k[T]` are all distinct (by replacing if necessary each
-`ξ_j` by `ξ_j + a_j`, for a suitable element `a_j ∈ k`); if one puts `f = f_1 f_2 ⋯ f_r`, it is clear that `L` is
-isomorphic to `k[T]/f · k[T]` in both cases considered, hence is generated by an element `ζ` of minimal polynomial
-`f ∈ k[T]` of degree `n`. If `u ∈ B` is an element whose image is `ζ` in `L`, Nakayama's lemma shows that the elements
-`1, u, …, u^{n-1}` generate the `A`-module `B`; this already shows that there exists a unitary polynomial `F ∈ A[T]` of
-degree `n` such that `F(u) = 0`, `u` generating the `A`-algebra `B`, which is consequently isomorphic to a quotient
-algebra of `A[T]/F · A[T]`; moreover `B` is a semi-local ring, and at each of its maximal ideals `𝔫_i` one has
-`F'(u) ∉ 𝔫_i` by `(18.4.4)`, which proves that `F'(u)` is invertible in `B`, hence that `F` is a separable polynomial.
-Finally, if `B` is an étale `A`-algebra, `B` being a flat `A`-module of finite presentation `(1.4.7)` is a free
-`A`-module, and `1, u, …, u^{n-1}` form a basis of the `A`-module `B` (Bourbaki, _Alg. comm._, chap. II, §3, n° 2, prop.
-5), in other words the `A`-algebra `B` is
+The conditions are sufficient by virtue of `(18.4.2)`, without assuming $k$ infinite or $B$ local. To see that the
+conditions are necessary, note that if $B$ is a formally unramified $A$-algebra, $L$ is a finite and separable algebra
+over $k$, hence the direct composite of a finite number of finite and separable extensions $k_{j}$ of $k$ $(1 \leqslant
+j \leqslant r)$, $k_{j}$ being therefore generated by an element $\xi_{j}$ of minimal polynomial $f_{j}$ $(1 \leqslant j
+\leqslant r)$ (Bourbaki, _Alg._, chap. V, §11, n° 4, prop. 4). Let us show that by virtue of the hypotheses made on $k$
+or $B$, there exists an element $\zeta$ of $L$ generating the $k$-algebra $L$. This is immediate if $B$ is local, since
+then $r = 1$. Otherwise, $k$ being supposed infinite, one may suppose that the irreducible polynomials $f_{j} \in k[T]$
+are all distinct (by replacing if necessary each $\xi_{j}$ by $\xi_{j} + a_{j}$, for a suitable element $a_{j} \in k$);
+if one puts $f = f_{1} f_{2} \cdots f_{r}$, it is clear that $L$ is isomorphic to $k[T]/f \cdot k[T]$ in both cases
+considered, hence is generated by an element $\zeta$ of minimal polynomial $f \in k[T]$ of degree $n$. If $u \in B$ is
+an element whose image is $\zeta$ in $L$, Nakayama's lemma shows that the elements $1, u, \cdots, u^{n-1}$ generate the
+$A$-module $B$; this already shows that there exists a unitary polynomial $F \in A[T]$ of degree $n$ such that $F(u) =
+0$, $u$ generating the $A$-algebra $B$, which is consequently isomorphic to a quotient algebra of $A[T]/F \cdot A[T]$;
+moreover $B$ is a semi-local ring, and at each of its maximal ideals $\mathfrak{n}_{i}$ one has $F'(u) \notin
+\mathfrak{n}_{i}$ by `(18.4.4)`, which proves that `F'(u)` is invertible in $B$, hence that $F$ is a separable
+polynomial. Finally, if $B$ is an étale $A$-algebra, $B$ being a flat $A$-module of finite presentation `(1.4.7)` is a
+free $A$-module, and $1, u, \cdots, u^{n-1}$ form a basis of the $A$-module $B$ (Bourbaki, _Alg. comm._, chap. II, §3,
+n° 2, prop. 5), in other words the $A$-algebra $B$ is
 
 <!-- original page 120 -->
 
-isomorphic to `A[T]/F · A[T]`, and for every other unitary polynomial `G ∈ A[T]` such that `B` is isomorphic to
-`A[T]/G · A[T]`, `G` is necessarily of degree `n`.
+isomorphic to $A[T]/F \cdot A[T]$, and for every other unitary polynomial $G \in A[T]$ such that $B$ is isomorphic to
+$A[T]/G \cdot A[T]$, $G$ is necessarily of degree $n$.
 
 **Theorem (18.4.6) (Chevalley).**
 
 <!-- label: IV.18.4.6 -->
 
-*(i) Let `f : X → Y` be a morphism locally of finite type, `x` a point of `X`, `y = f(x)`, and put `A = 𝒪_{Y, y}`. For
-`𝒪_{X, x}` to be a formally étale (resp. formally unramified) `A`-algebra, it is necessary and sufficient that there
-exist a unitary polynomial `F ∈ A[T]` and a maximal ideal `𝔫` of `B = A[T]/F · A[T]` (resp. of a quotient algebra `B` of
-`A[T]/F · A[T]`) such that `𝒪_{X, x}` is `A`-isomorphic to `B_𝔫` and such that, if `u` is the image of `T` in `B`, one
-has `F'(u) ∉ 𝔫`.*
+*(i) Let $f : X \to Y$ be a morphism locally of finite type, $x$ a point of $X$, $y = f(x)$, and put $A =
+\mathcal{O}_{Y, y}$. For $\mathcal{O}_{X, x}$ to be a formally étale (resp. formally unramified) $A$-algebra, it is
+necessary and sufficient that there exist a unitary polynomial $F \in A[T]$ and a maximal ideal $\mathfrak{n}$ of $B =
+A[T]/F \cdot A[T]$ (resp. of a quotient algebra $B$ of $A[T]/F \cdot A[T]$) such that $\mathcal{O}_{X, x}$ is
+$A$-isomorphic to $B_{\mathfrak{n}}$ and such that, if $u$ is the image of $T$ in $B$, one has $F'(u) \notin
+\mathfrak{n}$.*
 
-*(ii) Suppose moreover that `f` is locally of finite presentation. Then, for `f` to be étale at the point `x`, it is
-necessary and sufficient that one can in addition take `B = A[T]/F · A[T]`.*
+*(ii) Suppose moreover that $f$ is locally of finite presentation. Then, for $f$ to be étale at the point $x$, it is
+necessary and sufficient that one can in addition take $B = A[T]/F \cdot A[T]$.*
 
 The conditions are sufficient by virtue of `(18.4.2)`. To see that they are necessary, one may obviously restrict to the
-case where `X` and `Y` are affine, and, taking remark `(17.4.1.2)` into account, to the case where `f` is formally
-unramified and quasi-finite. Since `f` is affine, it follows from `(8.12.8)` that there exist a finite `A`-algebra `C`
-and a maximal ideal `𝔯` of `C` (necessarily above the maximal ideal `𝔪` of `A`) such that `𝒪_{X, x}` is `A`-isomorphic
-to `C_𝔯`. Moreover `(17.4.1.2)`, the residue field `C/𝔯 = C_𝔯/𝔯 C_𝔯` is a finite separable extension of `k = A/𝔪`, hence
-of the form `k[v]`, where `v` is separable over `k`. Let `𝔯_i` `(1 ⩽ i ⩽ h)` be the maximal ideals of the semi-local
-ring `C` other than `𝔯`; there exists an element `u ∈ C` belonging to all the `𝔯_i` and such that its image in `C/𝔯` is
-equal to `v` (Bourbaki, _Alg. comm._, chap. II, §1, n° 2, prop. 5). We shall show that the sub-`A`-algebra `B = A[u]` of
-`C` and the ideal (necessarily maximal since `C` is finite over `B`) `𝔫 = 𝔯 ∩ B` of `B` answer the question.
+case where $X$ and $Y$ are affine, and, taking remark `(17.4.1.2)` into account, to the case where $f$ is formally
+unramified and quasi-finite. Since $f$ is affine, it follows from `(8.12.8)` that there exist a finite $A$-algebra $C$
+and a maximal ideal $\mathfrak{r}$ of $C$ (necessarily above the maximal ideal $\mathfrak{m}$ of $A$) such that
+$\mathcal{O}_{X, x}$ is $A$-isomorphic to $C_{\mathfrak{r}}$. Moreover `(17.4.1.2)`, the residue field $C/\mathfrak{r} =
+C_{\mathfrak{r}}/\mathfrak{r} C_{\mathfrak{r}}$ is a finite separable extension of $k = A/\mathfrak{m}$, hence of the
+form `k[v]`, where $v$ is separable over $k$. Let $\mathfrak{r}_{i}$ $(1 \leqslant i \leqslant h)$ be the maximal ideals
+of the semi-local ring $C$ other than $\mathfrak{r}$; there exists an element $u \in C$ belonging to all the
+$\mathfrak{r}_{i}$ and such that its image in $C/\mathfrak{r}$ is equal to $v$ (Bourbaki, _Alg. comm._, chap. II, §1, n°
+2, prop. 5). We shall show that the sub-$A$-algebra $B = A[u]$ of $C$ and the ideal (necessarily maximal since $C$ is
+finite over $B$) $\mathfrak{n} = \mathfrak{r} \cap B$ of $B$ answer the question.
 
-To handle the case where `𝒪_{X, x}` is a formally unramified `A`-algebra, it will suffice to prove that `B_𝔫` is
-isomorphic to `C_𝔯`; indeed, `B_𝔫` will then be formally unramified over `A`, and the existence of the polynomial
-`F ∈ A[T]` having the properties of the statement will follow from `(18.4.4)`. Note now that, since `f` is formally
-unramified, `C/𝔯` is isomorphic to the `A`-algebra `C_𝔯/𝔪 C_𝔯` `(17.4.1.2)`. One is thus reduced to proving the
-following lemma:
+To handle the case where $\mathcal{O}_{X, x}$ is a formally unramified $A$-algebra, it will suffice to prove that
+$B_{\mathfrak{n}}$ is isomorphic to $C_{\mathfrak{r}}$; indeed, $B_{\mathfrak{n}}$ will then be formally unramified over
+$A$, and the existence of the polynomial $F \in A[T]$ having the properties of the statement will follow from
+`(18.4.4)`. Note now that, since $f$ is formally unramified, $C/\mathfrak{r}$ is isomorphic to the $A$-algebra
+$C_{\mathfrak{r}}/\mathfrak{m} C_{\mathfrak{r}}$ `(17.4.1.2)`. One is thus reduced to proving the following lemma:
 
 **Lemma (18.4.6.1).**
 
 <!-- label: IV.18.4.6.1 -->
 
-*Let `A` be a local ring, `𝔪` its maximal ideal, `C` a finite `A`-algebra, `𝔯` a maximal ideal of `C`. Let `u` be an
-element of `C` belonging to all the maximal ideals of `C` distinct from `𝔯`, not belonging to `𝔯`, and such that
-`C_𝔯/𝔪 C_𝔯` is a monogenic algebra over `k = A/𝔪`, generated by the image of `u` in `C_𝔯/𝔪 C_𝔯`. Put `B = A[u]`,
-`𝔫 = 𝔯 ∩ B`. Then the canonical homomorphism `B_𝔫 → C_𝔯` is an isomorphism.*
+*Let $A$ be a local ring, $\mathfrak{m}$ its maximal ideal, $C$ a finite $A$-algebra, $\mathfrak{r}$ a maximal ideal of
+$C$. Let $u$ be an element of $C$ belonging to all the maximal ideals of $C$ distinct from $\mathfrak{r}$, not belonging
+to $\mathfrak{r}$, and such that $C_{\mathfrak{r}}/\mathfrak{m} C_{\mathfrak{r}}$ is a monogenic algebra over $k =
+A/\mathfrak{m}$, generated by the image of $u$ in $C_{\mathfrak{r}}/\mathfrak{m} C_{\mathfrak{r}}$. Put $B = A[u]$,
+$\mathfrak{n} = \mathfrak{r} \cap B$. Then the canonical homomorphism $B_{\mathfrak{n}} \to C_{\mathfrak{r}}$ is an
+isomorphism.*
 
-Put `R = B − 𝔫`, `S = C − 𝔯`, so that `B_𝔫 = R⁻¹ B` and `C_𝔯 = S⁻¹ C`; the canonical homomorphism `B_𝔫 → C_𝔯` may be
-written as the composite
+Put $R = B - \mathfrak{n}$, $S = C - \mathfrak{r}$, so that $B_{\mathfrak{n}} = R^{-1} B$ and $C_{\mathfrak{r}} = S^{-1}
+C$; the canonical homomorphism $B_{\mathfrak{n}} \to C_{\mathfrak{r}}$ may be written as the composite
 
 ```text
   R⁻¹ B → R⁻¹ C → S⁻¹ C
@@ -641,161 +687,173 @@ written as the composite
 
 and it suffices to show that each of these two homomorphisms is bijective.
 
-Let us first show that `h : R⁻¹ C → S⁻¹ C = C_𝔯` is bijective; it suffices to see that the images in `R⁻¹ C` of the
-elements of `S` are invertible, or again that every maximal ideal `𝔭` of `R⁻¹ C` has an inverse image in `C` not meeting
-`S`, hence necessarily equal to `𝔯`. Now, since `R⁻¹ C` is a `(R⁻¹ B)`-algebra finite, the inverse image of `𝔭` in
+Let us first show that $h : R^{-1} C \to S^{-1} C = C_{\mathfrak{r}}$ is bijective; it suffices to see that the images
+in $R^{-1} C$ of the elements of $S$ are invertible, or again that every maximal ideal $\mathfrak{p}$ of $R^{-1} C$ has
+an inverse image in $C$ not meeting $S$, hence necessarily equal to $\mathfrak{r}$. Now, since $R^{-1} C$ is a $(R^{-1}
+B)$-algebra finite, the inverse image of $\mathfrak{p}$ in
 
 <!-- original page 121 -->
 
-`R⁻¹ B = B_𝔫` is the unique maximal ideal `𝔫 B_𝔫` of this ring, hence the inverse image of `𝔭` in `B` is equal to `𝔫`.
-But on the other hand, if `𝔮` is the inverse image of `𝔭` in `C`, one has `𝔮 ∩ B = 𝔫`, and since `𝔫` is maximal in `B`
-and `C` is a `B`-algebra finite, `𝔮` is necessarily one of the maximal ideals of `C`; in addition, one has `u ∉ 𝔮` since
-`u ∉ 𝔫` and `u ∈ B`, hence by hypothesis one has necessarily `𝔮 = 𝔯`.
+$R^{-1} B = B_{\mathfrak{n}}$ is the unique maximal ideal $\mathfrak{n} B_{\mathfrak{n}}$ of this ring, hence the
+inverse image of $\mathfrak{p}$ in $B$ is equal to $\mathfrak{n}$. But on the other hand, if $\mathfrak{q}$ is the
+inverse image of $\mathfrak{p}$ in $C$, one has $\mathfrak{q} \cap B = \mathfrak{n}$, and since $\mathfrak{n}$ is
+maximal in $B$ and $C$ is a $B$-algebra finite, $\mathfrak{q}$ is necessarily one of the maximal ideals of $C$; in
+addition, one has $u \notin \mathfrak{q}$ since $u \notin \mathfrak{n}$ and $u \in B$, hence by hypothesis one has
+necessarily $\mathfrak{q} = \mathfrak{r}$.
 
-On the other hand, since `B ⊂ C`, the homomorphism `g : R⁻¹ B → R⁻¹ C` is injective `(0_I, 1.3.2)`; to see that it is
-surjective, note that `R⁻¹ C` is a `(R⁻¹ B)`-module of finite type, and on the other hand that `𝔪 R⁻¹ B` is contained in
-the maximal ideal of the local ring `R⁻¹ B`; by virtue of Nakayama's lemma, it suffices to prove that the homomorphism
-`R⁻¹ B/𝔪 R⁻¹ B → R⁻¹ C/𝔪 R⁻¹ C` is surjective. But by virtue of the first part of the proof, `R⁻¹ C/𝔪 R⁻¹ C` is
-identified with `C_𝔯/𝔪 C_𝔯`; by hypothesis this `k`-algebra is generated by the image of `u`, and a fortiori it is equal
-to the image of `R⁻¹ B/𝔪 R⁻¹ B`.
+On the other hand, since $B \subset C$, the homomorphism $g : R^{-1} B \to R^{-1} C$ is injective $(0_{I}, 1.3.2)$; to
+see that it is surjective, note that $R^{-1} C$ is a $(R^{-1} B)$-module of finite type, and on the other hand that
+$\mathfrak{m} R^{-1} B$ is contained in the maximal ideal of the local ring $R^{-1} B$; by virtue of Nakayama's lemma,
+it suffices to prove that the homomorphism $R^{-1} B/\mathfrak{m} R^{-1} B \to R^{-1} C/\mathfrak{m} R^{-1} C$ is
+surjective. But by virtue of the first part of the proof, $R^{-1} C/\mathfrak{m} R^{-1} C$ is identified with
+$C_{\mathfrak{r}}/\mathfrak{m} C_{\mathfrak{r}}$; by hypothesis this $k$-algebra is generated by the image of $u$, and a
+fortiori it is equal to the image of $R^{-1} B/\mathfrak{m} R^{-1} B$.
 
-Consider in the second place the case where `f` is étale at the point `x`. Replacing `X` by a neighbourhood of `x`, one
-may suppose that `X` is a neighbourhood of `𝔫` in `Spec(B)` `(1.7.2)`. Put `B' = Spec(A[T]/F · A[T])` and let `𝔫'` be
-the inverse image of `𝔫` in `B'`; since the image of `F'(T)` in `B'` does not belong to `𝔫'` by hypothesis, the morphism
-`Spec(B') → Spec(A)` is étale at the point `𝔫'` by `(18.4.2, (ii))`. Since by hypothesis `Spec(B) → Spec(A)` is étale at
-the point `𝔫`, one concludes `(17.3.4)` that `Spec(B) → Spec(B')` is étale at the point `𝔫`; but since this morphism is
-an immersion, it can be étale at a point only if it is a local isomorphism at that point `(17.9.1)`, hence `B_𝔫` and
-`B'_{𝔫'}` are isomorphic.
+Consider in the second place the case where $f$ is étale at the point $x$. Replacing $X$ by a neighbourhood of $x$, one
+may suppose that $X$ is a neighbourhood of $\mathfrak{n}$ in $\operatorname{Spec}(B)$ `(1.7.2)`. Put $B' =
+\operatorname{Spec}(A[T]/F \cdot A[T])$ and let $\mathfrak{n}'$ be the inverse image of $\mathfrak{n}$ in $B'$; since
+the image of `F'(T)` in $B'$ does not belong to $\mathfrak{n}'$ by hypothesis, the morphism $\operatorname{Spec}(B') \to
+\operatorname{Spec}(A)$ is étale at the point $\mathfrak{n}'$ by `(18.4.2, (ii))`. Since by hypothesis
+$\operatorname{Spec}(B) \to \operatorname{Spec}(A)$ is étale at the point $\mathfrak{n}$, one concludes `(17.3.4)` that
+$\operatorname{Spec}(B) \to \operatorname{Spec}(B')$ is étale at the point $\mathfrak{n}$; but since this morphism is an
+immersion, it can be étale at a point only if it is a local isomorphism at that point `(17.9.1)`, hence
+$B_{\mathfrak{n}}$ and $B'_{\mathfrak{n}'}$ are isomorphic.
 
-Finally, suppose that `𝒪_{X, x}` is a formally étale `A`-algebra; with the previous notations, it follows from
-`(17.1.5)` that `B_𝔫` is a formally étale `B_𝔫`-algebra; but since the homomorphism `B_𝔫 → 𝒪_{X, x}` is surjective, this
-can hold only if this homomorphism is bijective `(0, 19.10.3, (i))`. This completes the proof of `(18.4.6)`.
+Finally, suppose that $\mathcal{O}_{X, x}$ is a formally étale $A$-algebra; with the previous notations, it follows from
+`(17.1.5)` that $B_{\mathfrak{n}}$ is a formally étale $B_{\mathfrak{n}}$-algebra; but since the homomorphism
+$B_{\mathfrak{n}} \to \mathcal{O}_{X, x}$ is surjective, this can hold only if this homomorphism is bijective
+`(0, 19.10.3, (i))`. This completes the proof of `(18.4.6)`.
 
 **Corollary (18.4.7).**
 
 <!-- label: IV.18.4.7 -->
 
-*Let `f : X → Y` be a morphism locally of finite type, `x` a point of `X`. For `f` to be formally unramified at the
-point `x`, it is necessary and sufficient that there exist an open neighbourhood `U` of `x` such that `f | U` factors as
-`U →^j X' →^h Y`, where `h` is an étale morphism and `j` a closed immersion.*
+*Let $f : X \to Y$ be a morphism locally of finite type, $x$ a point of $X$. For $f$ to be formally unramified at the
+point $x$, it is necessary and sufficient that there exist an open neighbourhood $U$ of $x$ such that $f | U$ factors as
+$U \to^{j} X' \to^{h} Y$, where $h$ is an étale morphism and $j$ a closed immersion.*
 
-One may obviously restrict to the case where `Y = Spec(R)` is affine and `f` of finite type. If `A = 𝒪_{Y, y}` with
-`y = f(x)`, the condition for `f` to be formally unramified at the point `x` is equivalent, by virtue of `(17.4.1.2)`,
-to saying that `𝒪_{X, x}` is a formally unramified `A`-algebra. If this is so, one may apply `(18.4.6, (i))`; replacing
-if necessary `Y` by an affine neighbourhood of `y`, one may suppose (with the notations of `(18.4.6)`) that the
-polynomial `F` is the image in `A[T]` of a unitary polynomial `G ∈ R[T]`. One then puts `X' = Spec(R[T]/G · R[T])`; let
-`x'` be the image of the point `𝔫` of `Spec(B)` under the morphism corresponding to the composite homomorphism
-`R[T]/G · R[T] → A[T]/F · A[T] → B`. It follows from `(18.4.2)` that the morphism `h : X' → Y` corresponding to the
-canonical homomorphism `R → R[T]/G · R[T]` is étale at the point `x'`, hence, by restricting if necessary `X'` and `Y`
-to open neighbourhoods of `x'` and `y` respectively, one may suppose `h` étale. On the other hand, by virtue of
-`(I, 6.5.1, (ii))` and of `(1.7.2)`, it follows from the fact that one has a local homomorphism
-`φ : 𝒪_{X', x'} → 𝒪_{X, x}` that this homomorphism corresponds to a
+One may obviously restrict to the case where $Y = \operatorname{Spec}(R)$ is affine and $f$ of finite type. If $A =
+\mathcal{O}_{Y, y}$ with $y = f(x)$, the condition for $f$ to be formally unramified at the point $x$ is equivalent, by
+virtue of `(17.4.1.2)`, to saying that $\mathcal{O}_{X, x}$ is a formally unramified $A$-algebra. If this is so, one may
+apply `(18.4.6, (i))`; replacing if necessary $Y$ by an affine neighbourhood of $y$, one may suppose (with the notations
+of `(18.4.6)`) that the polynomial $F$ is the image in `A[T]` of a unitary polynomial $G \in R[T]$. One then puts $X' =
+\operatorname{Spec}(R[T]/G \cdot R[T])$; let $x'$ be the image of the point $\mathfrak{n}$ of $\operatorname{Spec}(B)$
+under the morphism corresponding to the composite homomorphism $R[T]/G \cdot R[T] \to A[T]/F \cdot A[T] \to B$. It
+follows from `(18.4.2)` that the morphism $h : X' \to Y$ corresponding to the canonical homomorphism $R \to R[T]/G \cdot
+R[T]$ is étale at the point $x'$, hence, by restricting if necessary $X'$ and $Y$ to open neighbourhoods of $x'$ and $y$
+respectively, one may suppose $h$ étale. On the other hand, by virtue of `(I, 6.5.1, (ii))` and of `(1.7.2)`, it follows
+from the fact that one has a local homomorphism $\phi : \mathcal{O}_{X', x'} \to \mathcal{O}_{X, x}$ that this
+homomorphism corresponds to a
 
 <!-- original page 122 -->
 
-morphism `j : U → X'` of an open neighbourhood `U` of `x` in `X'`; by restricting `U` if necessary, one may, by applying
-`(I, 6.5.1, (i))`, suppose that `h ∘ j = f | U`, hence `j` is of finite type `(I, 6.3.4, (v))`; finally, the
-homomorphism `φ` is surjective by `(18.4.6, (i))`, hence it follows from `(I, 6.5.4, (i))` that one may, by restricting
-`U` and `X'` again, suppose that `j` is a closed immersion. This proves therefore the necessity of the stated condition;
-its sufficiency is immediate `(17.1.3, (i) and (ii))`.
+morphism $j : U \to X'$ of an open neighbourhood $U$ of $x$ in $X'$; by restricting $U$ if necessary, one may, by
+applying `(I, 6.5.1, (i))`, suppose that $h \circ j = f | U$, hence $j$ is of finite type `(I, 6.3.4, (v))`; finally,
+the homomorphism $\phi$ is surjective by `(18.4.6, (i))`, hence it follows from `(I, 6.5.4, (i))` that one may, by
+restricting $U$ and $X'$ again, suppose that $j$ is a closed immersion. This proves therefore the necessity of the
+stated condition; its sufficiency is immediate `(17.1.3, (i) and (ii))`.
 
 **Corollary (18.4.8).**
 
 <!-- label: IV.18.4.8 -->
 
-*Let `f : X → Y` be a morphism locally of finite presentation. For `f` to be unramified (resp. étale), it is necessary
-and sufficient that there exist a family of flat morphisms `g_α : Y_α → Y` and, for each `α`, an open set `U_α` in
-`X_α = X ×_Y Y_α`, such that, if `g'_α : X_α → X` and `f_α : X_α → Y_α` are the canonical projections, the `g'_α(U_α)`
-form a cover of `X`, and each of the composite morphisms `U_α → X_α → Y_α` is a closed immersion (resp. an open
-immersion). One may moreover then take the `g_α` étale.*
+*Let $f : X \to Y$ be a morphism locally of finite presentation. For $f$ to be unramified (resp. étale), it is necessary
+and sufficient that there exist a family of flat morphisms $g_{\alpha} : Y_{\alpha} \to Y$ and, for each $\alpha$, an
+open set $U_{\alpha}$ in $X_{\alpha} = X \times_{Y} Y_{\alpha}$, such that, if $g'_{\alpha} : X_{\alpha} \to X$ and
+$f_{\alpha} : X_{\alpha} \to Y_{\alpha}$ are the canonical projections, the $g'_{\alpha}(U_{\alpha})$ form a cover of
+$X$, and each of the composite morphisms $U_{\alpha} \to X_{\alpha} \to Y_{\alpha}$ is a closed immersion (resp. an open
+immersion). One may moreover then take the $g_{\alpha}$ étale.*
 
-The necessity of the condition for étale morphisms is trivial, by taking a single `Y_α` equal to `X`, the morphism `g_α`
-being equal to `f`, and the open set `U ⊂ X ×_Y X` being the diagonal. When `f` is unramified, the necessity of the
-condition follows from `(18.4.7)`; one takes an open cover `(V_α)` of `X` such that for each `α`, `f | V_α` factors as
-`V_α →^{j_α} Y_α → Y`, where `j_α` is a closed immersion and `g_α` an étale morphism. Then `j_α : V_α → Y_α` factors as
-`V_α →^{s_α} X_α →^{f_α} Y_α`, where `s_α` is a `V_α`-section of `X_α`, and since the morphism `g'_α : X_α → X` is
-étale, `s_α` is an open immersion `(17.4.1)`, and it suffices to take `U_α = s_α(V_α)` to answer the question.
+The necessity of the condition for étale morphisms is trivial, by taking a single $Y_{\alpha}$ equal to $X$, the
+morphism $g_{\alpha}$ being equal to $f$, and the open set $U \subset X \times_{Y} X$ being the diagonal. When $f$ is
+unramified, the necessity of the condition follows from `(18.4.7)`; one takes an open cover $(V_{\alpha})$ of $X$ such
+that for each $\alpha$, $f | V_{\alpha}$ factors as $V_{\alpha} \to^{j_{\alpha}} Y_{\alpha} \to Y$, where $j_{\alpha}$
+is a closed immersion and $g_{\alpha}$ an étale morphism. Then $j_{\alpha} : V_{\alpha} \to Y_{\alpha}$ factors as
+$V_{\alpha} \to^{s_{\alpha}} X_{\alpha} \to^{f_{\alpha}} Y_{\alpha}$, where $s_{\alpha}$ is a $V_{\alpha}$-section of
+$X_{\alpha}$, and since the morphism $g'_{\alpha} : X_{\alpha} \to X$ is étale, $s_{\alpha}$ is an open immersion
+`(17.4.1)`, and it suffices to take $U_{\alpha} = s_{\alpha}(V_{\alpha})$ to answer the question.
 
-The sufficiency of the conditions follows from `(17.7.1)`; one concludes from it that `f` is unramified (resp. étale) at
-each point of `g'_α(U_α)`, hence in `X` entirely since the `g'_α(U_α)` cover `X`.
+The sufficiency of the conditions follows from `(17.7.1)`; one concludes from it that $f$ is unramified (resp. étale) at
+each point of $g'_{\alpha}(U_{\alpha})$, hence in $X$ entirely since the $g'_{\alpha}(U_{\alpha})$ cover $X$.
 
 **Proposition (18.4.9).**
 
 <!-- label: IV.18.4.9 -->
 
-*Let `S` be a prescheme, `f : X → S` a morphism, `h : Y → S` a morphism locally of finite presentation, `g : X → Y` an
-`S`-morphism, `x` a point of `X`, `y = g(x)`. The following conditions are equivalent:*
+*Let $S$ be a prescheme, $f : X \to S$ a morphism, $h : Y \to S$ a morphism locally of finite presentation, $g : X \to
+Y$ an $S$-morphism, $x$ a point of $X$, $y = g(x)$. The following conditions are equivalent:*
 
-*a) `h` is étale at the point `y` and `g` is flat at the point `x`.*
+*a) $h$ is étale at the point $y$ and $g$ is flat at the point $x$.*
 
-*b) `h` is unramified at the point `y` and `f` is flat at the point `x`.*
+*b) $h$ is unramified at the point $y$ and $f$ is flat at the point $x$.*
 
-Since `f = h ∘ g`, a) entails that `f` is flat at the point `x` `(2.1.6)`, and obviously that `h` is unramified at the
-point `y`, hence a) implies b).
+Since $f = h \circ g$, a) entails that $f$ is flat at the point $x$ `(2.1.6)`, and obviously that $h$ is unramified at
+the point $y$, hence a) implies b).
 
-To prove that b) entails a), one may first suppose that `h` is unramified (by replacing `Y` by a neighbourhood of `y`);
-then, by replacing `S` by an open neighbourhood of `s = h(y) = f(x)`, one may suppose that there exist an étale morphism
-`u : S' → S`, a point `y'` of `Y' = Y ×_S S'` above `y`, and an open neighbourhood `V` of `y'` in `Y'` such that, if
-`h' = h_{(S')} : Y' → S'`, the restriction of `h'` to `V` is a closed immersion `(18.4.8)`. If one then proves that `h'`
-is étale at the point `y'`, it will follow that `h` is étale at the point `y` `(17.7.1, (ii))`; in addition,
-`f' = f_{(S')} : X ×_S S' → S'` is flat at every point `x'` above `x`. Since the projections `v : Y' → Y`, `w : X' → X`
-are étale morphisms (hence flat), if one proves that `g' = g_{(S')} : X_{(S')} → Y_{(S')}` is flat at the point `x'`, it
-will follow from `(2.2.11, (iv))` that `g` will be flat at the point `x`. One may therefore restrict to the case where
-`h` is a closed immersion
+To prove that b) entails a), one may first suppose that $h$ is unramified (by replacing $Y$ by a neighbourhood of $y$);
+then, by replacing $S$ by an open neighbourhood of $s = h(y) = f(x)$, one may suppose that there exist an étale morphism
+$u : S' \to S$, a point $y'$ of $Y' = Y \times_{S} S'$ above $y$, and an open neighbourhood $V$ of $y'$ in $Y'$ such
+that, if $h' = h_{(S')} : Y' \to S'$, the restriction of $h'$ to $V$ is a closed immersion `(18.4.8)`. If one then
+proves that $h'$ is étale at the point $y'$, it will follow that $h$ is étale at the point $y$ `(17.7.1, (ii))`; in
+addition, $f' = f_{(S')} : X \times_{S} S' \to S'$ is flat at every point $x'$ above $x$. Since the projections $v : Y'
+\to Y$, $w : X' \to X$ are étale morphisms (hence flat), if one proves that $g' = g_{(S')} : X_{(S')} \to Y_{(S')}$ is
+flat at the point $x'$, it will follow from `(2.2.11, (iv))` that $g$ will be flat at the point $x$. One may therefore
+restrict to the case where $h$ is a closed immersion
 
 <!-- original page 123 -->
 
-of finite presentation, `f` being supposed flat at the point `x`. Let `𝒥` be the quasi-coherent Ideal of finite type of
-`𝒪_S` which defines the closed sub-prescheme `Y` of `S`. The hypothesis that `f` is flat at the point `x` entails that
-the homomorphism `𝒪_{S, s} → 𝒪_{X, x}` is injective `(0_I, 6.5.1)`; a fortiori the homomorphism `𝒥_s → 𝒪_{Y, y}` is
-injective, which means that `𝒥_s = 0`, since this is the kernel of the preceding homomorphism. Since `𝒥` is of finite
-type, there is an open neighbourhood `U` of `s` in `S` such that `𝒥 | U = 0` `(0_I, 5.2.2)`. One may therefore suppose
-that `h` is an open immersion, and then it is clear that `g` is flat at the point `x`.
+of finite presentation, $f$ being supposed flat at the point $x$. Let $\mathcal{J}$ be the quasi-coherent Ideal of
+finite type of $\mathcal{O}_{S}$ which defines the closed sub-prescheme $Y$ of $S$. The hypothesis that $f$ is flat at
+the point $x$ entails that the homomorphism $\mathcal{O}_{S, s} \to \mathcal{O}_{X, x}$ is injective $(0_{I}, 6.5.1)$; a
+fortiori the homomorphism $\mathcal{J}_{s} \to \mathcal{O}_{Y, y}$ is injective, which means that $\mathcal{J}_{s} = 0$,
+since this is the kernel of the preceding homomorphism. Since $\mathcal{J}$ is of finite type, there is an open
+neighbourhood $U$ of $s$ in $S$ such that $\mathcal{J} | U = 0$ $(0_{I}, 5.2.2)$. One may therefore suppose that $h$ is
+an open immersion, and then it is clear that $g$ is flat at the point $x$.
 
 **Proposition (18.4.10).**
 
 <!-- label: IV.18.4.10 -->
 
-*Let `P(f, x)` denote a property verifying the following conditions:*
+*Let $P(f, x)$ denote a property verifying the following conditions:*
 
-*1° For every morphism `f : X → Y` and every local isomorphism `h : Y → Z`, `P(f, x)` is equivalent to `P(h ∘ f, x)` for
-`x ∈ X`.*
+*1° For every morphism $f : X \to Y$ and every local isomorphism $h : Y \to Z$, $P(f, x)$ is equivalent to $P(h \circ f,
+x)$ for $x \in X$.*
 
-*2° For every morphism `f : X → Y`, every étale morphism `g : Y' → Y`, every point `x ∈ X`, if one puts `X' = X ×_Y Y'`,
-`f' = f_{(Y')} : X' → Y'`, and if `x' ∈ X'` is above `x`, the properties `P(f, x)` and `P(f', x')` are equivalent
-("invariance under étale base change").*
+*2° For every morphism $f : X \to Y$, every étale morphism $g : Y' \to Y$, every point $x \in X$, if one puts $X' = X
+\times_{Y} Y'$, $f' = f_{(Y')} : X' \to Y'$, and if $x' \in X'$ is above $x$, the properties $P(f, x)$ and $P(f', x')$
+are equivalent ("invariance under étale base change").*
 
-*Let then `S` be a prescheme, `f : X → S` and `h : Y → S` two morphisms, `g : X → Y` an `S`-morphism, `x` a point of
-`X`, `y = g(x)`, and suppose `h` étale at the point `y`. Then the properties `P(f, x)` and `P(g, x)` are equivalent.*
+*Let then $S$ be a prescheme, $f : X \to S$ and $h : Y \to S$ two morphisms, $g : X \to Y$ an $S$-morphism, $x$ a point
+of $X$, $y = g(x)$, and suppose $h$ étale at the point $y$. Then the properties $P(f, x)$ and $P(g, x)$ are equivalent.*
 
-With the same notations as in the proof of `(18.4.9)` and by replacing `S` (resp. `Y`) by a neighbourhood of `s = h(y)`
-(resp. of `y`), one may here, by virtue of `(18.4.8)`, find an étale morphism `u : S' → S` such that `h'` is an open
-immersion; if `x' ∈ X'` is above `x`, `P(f', x')` (resp. `P(g', x')`) is then by hypothesis equivalent to `P(f, x)`
-(resp. `P(g, x)`). One may therefore restrict to the case where `h` is an open immersion. Since the hypothesis entails
-that `P(g, x)` is then equivalent to `P(h ∘ g, x)`, one deduces the conclusion.
+With the same notations as in the proof of `(18.4.9)` and by replacing $S$ (resp. $Y$) by a neighbourhood of $s = h(y)$
+(resp. of $y$), one may here, by virtue of `(18.4.8)`, find an étale morphism $u : S' \to S$ such that $h'$ is an open
+immersion; if $x' \in X'$ is above $x$, $P(f', x')$ (resp. $P(g', x')$) is then by hypothesis equivalent to $P(f, x)$
+(resp. $P(g, x)$). One may therefore restrict to the case where $h$ is an open immersion. Since the hypothesis entails
+that $P(g, x)$ is then equivalent to $P(h \circ g, x)$, one deduces the conclusion.
 
-**Examples (18.4.11).** — One may take for property `P(f, x)` any one of the following, taking `(17.7.4, (ii))` into
+**Examples (18.4.11).** — One may take for property $P(f, x)$ any one of the following, taking `(17.7.4, (ii))` into
 account:
 
-(i) `f` is flat at the point `x` `(2.2.11, (iv))`;
+(i) $f$ is flat at the point $x$ `(2.2.11, (iv))`;
 
-(ii) `f` is locally of finite presentation and of codepth `⩽ n` at the point `x` `(6.8.1 and 6.7.8)`;
+(ii) $f$ is locally of finite presentation and of codepth $\leqslant n$ at the point $x$ `(6.8.1 and 6.7.8)`;
 
-(iii) `f` is locally of finite presentation and Cohen-Macaulay at the point `x` `(6.8.1 and 6.7.8)`;
+(iii) $f$ is locally of finite presentation and Cohen-Macaulay at the point $x$ `(6.8.1 and 6.7.8)`;
 
-(iv) `f` is locally of finite presentation and possesses property `(S_n)` at the point `x` `(6.8.1 and 6.7.8)`;
+(iv) $f$ is locally of finite presentation and possesses property $(S_{n})$ at the point $x$ `(6.8.1 and 6.7.8)`;
 
-(v) `f` is locally of finite presentation and possesses property `(R_n)` at the point `x` `(6.8.1 and 6.7.8)`;
+(v) $f$ is locally of finite presentation and possesses property $(R_{n})$ at the point $x$ `(6.8.1 and 6.7.8)`;
 
-(vi) `f` is locally of finite presentation and normal at the point `x` `(6.8.1 and 6.7.8)`;
+(vi) $f$ is locally of finite presentation and normal at the point $x$ `(6.8.1 and 6.7.8)`;
 
-(vii) `f` is locally of finite presentation and reduced at the point `x` `(6.8.1 and 6.7.8)`;
+(vii) $f$ is locally of finite presentation and reduced at the point $x$ `(6.8.1 and 6.7.8)`;
 
-(viii) `f` is unramified at the point `x` `(17.7.4)`;
+(viii) $f$ is unramified at the point $x$ `(17.7.4)`;
 
-(ix) `f` is smooth at the point `x` `(17.7.4)`;
+(ix) $f$ is smooth at the point $x$ `(17.7.4)`;
 
-(x) `f` is étale at the point `x` `(17.7.4)`.
+(x) $f$ is étale at the point $x$ `(17.7.4)`.
 
 <!-- original page 124 -->
 
@@ -803,183 +861,215 @@ account:
 
 <!-- label: IV.18.4.12 -->
 
-*(i) Let `f : X → Y` be a morphism locally of finite type, `x` a point of `X`. If `f` is flat and formally unramified at
-the point `x`, then, in every factorization `f | U : U →^j X' →^h Y`, where `U` is an open neighbourhood of `x`, `j` a
-closed immersion and `h` an étale morphism `(18.4.7)`, the homomorphism `𝒪_{X', j(x)} → 𝒪_{X, x}` corresponding to `j`
-is bijective (in particular `𝒪_{X, x}` is an essentially étale `𝒪_{Y, y}`-algebra `(18.6.1)`).*
+*(i) Let $f : X \to Y$ be a morphism locally of finite type, $x$ a point of $X$. If $f$ is flat and formally unramified
+at the point $x$, then, in every factorization $f | U : U \to^{j} X' \to^{h} Y$, where $U$ is an open neighbourhood of
+$x$, $j$ a closed immersion and $h$ an étale morphism `(18.4.7)`, the homomorphism $\mathcal{O}_{X', j(x)} \to
+\mathcal{O}_{X, x}$ corresponding to $j$ is bijective (in particular $\mathcal{O}_{X, x}$ is an essentially étale
+$\mathcal{O}_{Y, y}$-algebra `(18.6.1)`).*
 
-*(ii) For a morphism `f : X → Y` to be étale, it is necessary and sufficient that it be locally of finite type, formally
-unramified and flat.*
+*(ii) For a morphism $f : X \to Y$ to be étale, it is necessary and sufficient that it be locally of finite type,
+formally unramified and flat.*
 
-(i) Since the homomorphism `𝒪_{X', j(x)} → 𝒪_{X, x}` is surjective, it suffices to prove that it is injective, and for
-that it suffices to make `𝒪_{X, x}` into a faithfully flat `𝒪_{X', j(x)}`-module, or merely a flat one
-`(0_I, 6.5.1 and 6.6.2)`; in other words, it is a matter of showing that `j` is a flat morphism at the point `x`; but
-since `h ∘ j = f` is by hypothesis flat at the point `x` and `h` is étale, this follows from `(18.4.10)` and
-`(18.4.11, (i))`.
+(i) Since the homomorphism $\mathcal{O}_{X', j(x)} \to \mathcal{O}_{X, x}$ is surjective, it suffices to prove that it
+is injective, and for that it suffices to make $\mathcal{O}_{X, x}$ into a faithfully flat $\mathcal{O}_{X',
+j(x)}$-module, or merely a flat one $(0_{I}, 6.5.1 and 6.6.2)$; in other words, it is a matter of showing that $j$ is a
+flat morphism at the point $x$; but since $h \circ j = f$ is by hypothesis flat at the point $x$ and $h$ is étale, this
+follows from `(18.4.10)` and `(18.4.11, (i))`.
 
-(ii) There is only the sufficiency of the stated conditions to prove. For every `x ∈ X`, one has in an open
-neighbourhood `U` of `x` a factorization of `f | U` having the properties considered in (i). Since by hypothesis `f` is
-flat and formally unramified at all points of `U`, the result of (i) applies not only to `x` but to all points of `U`;
-this means that if `𝒥` is the quasi-coherent Ideal of `𝒪_{X'}` corresponding to the closed sub-prescheme of `X'`
-associated with `j`, one has `𝒥_z = 0` for every `z ∈ U`, hence `j` is an open immersion, and `f` is consequently étale
-at every point of `U`, hence at every point of `X`.
+(ii) There is only the sufficiency of the stated conditions to prove. For every $x \in X$, one has in an open
+neighbourhood $U$ of $x$ a factorization of $f | U$ having the properties considered in (i). Since by hypothesis $f$ is
+flat and formally unramified at all points of $U$, the result of (i) applies not only to $x$ but to all points of $U$;
+this means that if $\mathcal{J}$ is the quasi-coherent Ideal of $\mathcal{O}_{X'}$ corresponding to the closed
+sub-prescheme of $X'$ associated with $j$, one has $\mathcal{J}_{z} = 0$ for every $z \in U$, hence $j$ is an open
+immersion, and $f$ is consequently étale at every point of $U$, hence at every point of $X$.
 
 **Corollary (18.4.13).**
 
 <!-- label: IV.18.4.13 -->
 
-*Let `f : X → Y` be a morphism locally of finite type, `x` a point of `X`, `y = f(x)`. Suppose that `y` admits an open
-neighbourhood which is a reduced prescheme having only a finite number of irreducible components. Then, for `f` to be
-étale at the point `x`, it is necessary and sufficient that `f` be flat and formally unramified at the point `x`.*
+*Let $f : X \to Y$ be a morphism locally of finite type, $x$ a point of $X$, $y = f(x)$. Suppose that $y$ admits an open
+neighbourhood which is a reduced prescheme having only a finite number of irreducible components. Then, for $f$ to be
+étale at the point $x$, it is necessary and sufficient that $f$ be flat and formally unramified at the point $x$.*
 
-There is only the sufficiency of the condition to prove. The question being local on `X` and `Y`, one may suppose
-`(18.4.7)` that `f` factors as `X →^j X' →^h Y` where `h` is étale and `j` a closed immersion, and moreover that `Y` is
-reduced and has only a finite number of irreducible components. Then `X'` is reduced `(17.5.7)` and, by replacing if
-necessary `X'` by an open neighbourhood of `j(x)`, one may suppose that `X'` has only a finite number of irreducible
-components: indeed, one may suppose `h` quasi-finite `(17.6.1)`, and since the maximal points of `X'` lie above the
-maximal points of `Y` `(2.3.4)`, their number is finite. Everything comes down to showing, with the notations of the
-proof of `(18.4.12)`, that one has `𝒥_{x'} = 0` for all the points `x'` of a neighbourhood of `j(x)` in `X'`, knowing
-that `𝒥_{j(x)} = 0`. Now, by replacing `X'` by an affine neighbourhood of `j(x)`, one may suppose that all the
-irreducible components of `X'` contain `j(x)`; if `X' = Spec(A')`, and if `𝔭'` is the prime ideal of `A'` corresponding
-to the point `j(x)`, the morphism `Spec(A'_{𝔭'}) → Spec(A')` is dominant, hence the corresponding homomorphism
-`A' → A'_{𝔭'}` is injective since `A'` is reduced `(I, 1.2.7)`. If `𝒥 = 𝔍̃`, where `𝔍` is an ideal of `A'`, `𝔍` is
-therefore identified with a subset of `𝔍_{𝔭'}`, and the hypothesis `𝔍_{𝔭'} = 0` therefore entails `𝔍 = 0`.
+There is only the sufficiency of the condition to prove. The question being local on $X$ and $Y$, one may suppose
+`(18.4.7)` that $f$ factors as $X \to^{j} X' \to^{h} Y$ where $h$ is étale and $j$ a closed immersion, and moreover that
+$Y$ is reduced and has only a finite number of irreducible components. Then $X'$ is reduced `(17.5.7)` and, by replacing
+if necessary $X'$ by an open neighbourhood of $j(x)$, one may suppose that $X'$ has only a finite number of irreducible
+components: indeed, one may suppose $h$ quasi-finite `(17.6.1)`, and since the maximal points of $X'$ lie above the
+maximal points of $Y$ `(2.3.4)`, their number is finite. Everything comes down to showing, with the notations of the
+proof of `(18.4.12)`, that one has $\mathcal{J}_{x'} = 0$ for all the points $x'$ of a neighbourhood of $j(x)$ in $X'$,
+knowing that $\mathcal{J}_{j(x)} = 0$. Now, by replacing $X'$ by an affine neighbourhood of $j(x)$, one may suppose that
+all the irreducible components of $X'$ contain $j(x)$; if $X' = \operatorname{Spec}(A')$, and if $\mathfrak{p}'$ is the
+prime ideal of $A'$ corresponding to the point $j(x)$, the morphism $\operatorname{Spec}(A'_{\mathfrak{p}'}) \to
+\operatorname{Spec}(A')$ is dominant, hence the corresponding homomorphism $A' \to A'_{\mathfrak{p}'}$ is injective
+since $A'$ is reduced `(I, 1.2.7)`. If $\mathcal{J} = \tilde{\mathfrak{J}}$, where $\mathfrak{J}$ is an ideal of $A'$,
+$\mathfrak{J}$ is therefore identified with a subset of $\mathfrak{J}_{\mathfrak{p}'}$, and the hypothesis
+$\mathfrak{J}_{\mathfrak{p}'} = 0$ therefore entails $\mathfrak{J} = 0$.
 
 **Corollary (18.4.14).**
 
 <!-- label: IV.18.4.14 -->
 
-*Let `A` be a local ring of maximal ideal `𝔪`, of residue field `k`, `B` a finite `A`-algebra.*
+*Let $A$ be a local ring of maximal ideal $\mathfrak{m}$, of residue field $k$, $B$ a finite $A$-algebra.*
 
 <!-- original page 125 -->
 
-*(i) For `B` to be a formally unramified `A`-algebra, it is necessary and sufficient that `B ⊗_A k` be an étale
-`k`-algebra.*
+*(i) For $B$ to be a formally unramified $A$-algebra, it is necessary and sufficient that $B \otimes_{A} k$ be an étale
+$k$-algebra.*
 
-*(ii) For `B` to be an étale `A`-algebra, it is necessary and sufficient that `B ⊗_A k` be an étale `k`-algebra and that
-`B` be a flat `A`-module (which is equivalent to saying `(0_I, 6.3.3)` that for every maximal ideal `𝔫` of `B`
-(necessarily above `𝔪`), `B_𝔫` is a flat `A`-module).*
+*(ii) For $B$ to be an étale $A$-algebra, it is necessary and sufficient that $B \otimes_{A} k$ be an étale $k$-algebra
+and that $B$ be a flat $A$-module (which is equivalent to saying $(0_{I}, 6.3.3)$ that for every maximal ideal
+$\mathfrak{n}$ of $B$ (necessarily above $\mathfrak{m}$), $B_{\mathfrak{n}}$ is a flat $A$-module).*
 
 One obviously has only to prove the sufficiency of the stated conditions. It is clear that (ii) follows from (i) and
-from `(18.4.12, (ii))`, taking `(17.1.2, (i))` into account. To prove (i), note that if `B ⊗_A k` is an étale
-`k`-algebra, one has `Ω^1_{B ⊗_A k/k} = 0` `(17.2.1)`. Now one has `Ω^1_{B ⊗_A k/k} = Ω^1_{B/A} ⊗_B (B ⊗_A k)`
-`(0, 20.5.5)`, and since `B` is an `A`-algebra of finite type, `Ω^1_{B/A}` is a `B`-module of finite type `(0, 20.4.7)`.
-But since `B` is a finite `A`-algebra, `𝔪 B` is contained in the radical of `B` (Bourbaki, _Alg. comm._, chap. V, §2, n°
-1, prop. 1), hence Nakayama's lemma proves that `Ω^1_{B/A} = 0`, and consequently `B` is a formally unramified
-`A`-algebra `(17.2.1)`.
+from `(18.4.12, (ii))`, taking `(17.1.2, (i))` into account. To prove (i), note that if $B \otimes_{A} k$ is an étale
+$k$-algebra, one has $\Omega^{1}_{B \otimes_{A} k/k} = 0$ `(17.2.1)`. Now one has $\Omega^{1}_{B \otimes_{A} k/k} =
+\Omega^{1}_{B/A} \otimes_{B} (B \otimes_{A} k)$ `(0, 20.5.5)`, and since $B$ is an $A$-algebra of finite type,
+$\Omega^{1}_{B/A}$ is a $B$-module of finite type `(0, 20.4.7)`. But since $B$ is a finite $A$-algebra, $\mathfrak{m} B$
+is contained in the radical of $B$ (Bourbaki, _Alg. comm._, chap. V, §2, n° 1, prop. 1), hence Nakayama's lemma proves
+that $\Omega^{1}_{B/A} = 0$, and consequently $B$ is a formally unramified $A$-algebra `(17.2.1)`.
 
 ### 18.5. Henselian local rings[^18.5-azumaya-nagata]
 
-**(18.5.1)** Let `X` be a prescheme, `ℰ` a locally free `𝒪_X`-Module of finite rank; the dual `ℰ̌ = ℋom_{𝒪_X}(ℰ, 𝒪_X)`
-is thus a locally free `𝒪_X`-Module whose rank at every point of `X` is equal to that of `ℰ` at that point, and the
-canonical homomorphism `ℰ → ℋom_{𝒪_X}(ℰ̌, 𝒪_X) = (ℰ̌)̌` is bijective. For every morphism `X' → X`, put
-`ℰ_{(X')} = ℰ ⊗_{𝒪_X} 𝒪_{X'}`, which is a locally free `𝒪_{X'}`-Module, and consider the set `Γ(X', ℰ̌_{(X')})` of
-sections of this `𝒪_{X'}`-Module over `X'`. We are going to see that one thereby defines a representable contravariant
-functor
+**(18.5.1)** Let $X$ be a prescheme, $\mathcal{E}$ a locally free $\mathcal{O}_{X}$-Module of finite rank; the dual
+$\check{\mathcal{E}} = \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{E}, \mathcal{O}_{X})$ is thus a locally free
+$\mathcal{O}_{X}$-Module whose rank at every point of $X$ is equal to that of $\mathcal{E}$ at that point, and the
+canonical homomorphism $\mathcal{E} \to \mathcal{H}om_{\mathcal{O}_{X}}(\check{\mathcal{E}}, \mathcal{O}_{X}) =
+\check{\check{\mathcal{E}}}$ is bijective. For every morphism $X' \to X$, put $\mathcal{E}_{(X')} = \mathcal{E}
+\otimes_{\mathcal{O}_{X}} \mathcal{O}_{X'}$, which is a locally free $\mathcal{O}_{X'}$-Module, and consider the set
+$\Gamma(X', \check{\mathcal{E}}_{(X')})$ of sections of this $\mathcal{O}_{X'}$-Module over $X'$. We are going to see
+that one thereby defines a representable contravariant functor
 
 ```text
   (18.5.1.1)    𝒱 : X' ↦ Γ(X', ℰ̌_{(X')})
 ```
 
-from the category of `X`-preschemes to that of sets `(0_III, 8.1.8)`.
+from the category of $X$-preschemes to that of sets $(0_{III}, 8.1.8)$.
 
-First of all, one has indeed defined a functor, for if `f : X'' → X'` is an `X`-morphism of `X`-preschemes, one has
-`ℰ_{(X'')} = f*(ℰ_{(X')})`, whence `(0_I, 4.4.3.2)` a map
-`Γ(X', ℰ̌_{(X')}) → Γ(X'', f*(ℰ̌_{(X')})) = Γ(X'', ℰ̌_{(X'')})` which completes the definition of the functor `𝒱`. Let
-us show next that the `X`-prescheme `𝐕(ℰ)` `(II, 1.7.8)` represents the functor `𝒱`. Indeed, it is immediate that one
-has `(ℰ_{(X')})̌ = ℰ̌_{(X')}`, hence `𝒱(X') = Γ(X', (ℰ_{(X')})̌)`; taking `(I, 3.3.14)` into account, one is reduced to
-defining a bijection `Γ(𝐕(ℰ)/X) ⥲ Γ(X, ℰ̌)`, and to verifying that the bijection `Γ(𝐕(ℰ_{(X')})/X') ⥲ Γ(X', ℰ̌_{(X')})`
-is functorial in `X'`. Now, one has a canonical bijection of `Γ(𝐕(ℰ)/X)` onto `Hom_{𝒪_X}(ℰ, 𝒪_X)` `(II, 1.7.8)`, and the
-transposition `u ↦ ťu` is a canonical bijection of `Hom_{𝒪_X}(ℰ, 𝒪_X)` onto `Hom_{𝒪_X}(𝒪_X, ℰ̌) = Γ(X, ℰ̌)` by reason of
-the identification of `(ℰ̌)̌` with `ℰ`. The verification of the functorial property is immediate.
+First of all, one has indeed defined a functor, for if $f : X'' \to X'$ is an $X$-morphism of $X$-preschemes, one has
+$\mathcal{E}_{(X'')} = f*(\mathcal{E}_{(X')})$, whence $(0_{I}, 4.4.3.2)$ a map $\Gamma(X', \check{\mathcal{E}}_{(X')})
+\to \Gamma(X'', f*(\check{\mathcal{E}}_{(X')})) = \Gamma(X'', \check{\mathcal{E}}_{(X'')})$ which completes the
+definition of the functor $\mathcal{V}$. Let us show next that the $X$-prescheme $\mathbf{V}(\mathcal{E})$ `(II, 1.7.8)`
+represents the functor $\mathcal{V}$. Indeed, it is immediate that one has $\check{\mathcal{E}_{(X')}} =
+\check{\mathcal{E}}_{(X')}$, hence $\mathcal{V}(X') = \Gamma(X', \check{\mathcal{E}_{(X')}})$; taking `(I, 3.3.14)` into
+account, one is reduced to defining a bijection $\Gamma(\mathbf{V}(\mathcal{E})/X) \xrightarrow{\sim} \Gamma(X,
+\check{\mathcal{E}})$, and to verifying that the bijection $\Gamma(\mathbf{V}(\mathcal{E}_{(X')})/X') \xrightarrow{\sim}
+\Gamma(X', \check{\mathcal{E}}_{(X')})$ is functorial in $X'$. Now, one has a canonical bijection of
+$\Gamma(\mathbf{V}(\mathcal{E})/X)$ onto $\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{E}, \mathcal{O}_{X})$
+`(II, 1.7.8)`, and the transposition $u \mapsto \check{t}u$ is a canonical bijection of
+$\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{E}, \mathcal{O}_{X})$ onto
+$\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{O}_{X}, \check{\mathcal{E}}) = \Gamma(X, \check{\mathcal{E}})$ by reason
+of the identification of $\check{\check{\mathcal{E}}}$ with $\mathcal{E}$. The verification of the functorial property
+is immediate.
 
 <!-- original page 126 -->
 
-Let us further note that, in conformity with the general theory `(0_III, 8.1.6)`, the identity automorphism of `𝐕(ℰ)`
-corresponds canonically to a section `c` of `ℰ̌_{(𝐕(ℰ))}` over `𝐕(ℰ)`, that is to say `(II, 1.4.1)` to a homomorphism of
-`𝐒_{𝒪_X}^•(ℰ)`-Modules `u : 𝐒_{𝒪_X}^•(ℰ) → 𝐒_{𝒪_X}^•(ℰ) ⊗_{𝒪_X} ℰ̌`; for every affine open `W` of `X`, if one puts
-`Γ(W, 𝒪_X) = A`, if one identifies `Γ(W, 𝐒_{𝒪_X}^•(ℰ))` with a polynomial algebra `C = A[T_1, …, T_n]`, so that the
-`T_i` form a basis of `Γ(W, ℰ)`, and if finally one denotes by `(e_i)` the dual basis of `(T_i)` in
-`Γ(W, ℰ̌) = Γ(W, ℰ)̌`, one sees at once that `u` corresponds to the homomorphism of `C`-modules such that
-`u(1) = ∑_{i=1}^n T_i ⊗ e_i`.
+Let us further note that, in conformity with the general theory $(0_{III}, 8.1.6)$, the identity automorphism of
+$\mathbf{V}(\mathcal{E})$ corresponds canonically to a section $c$ of $\check{\mathcal{E}}_{(\mathbf{V}(\mathcal{E}))}$
+over $\mathbf{V}(\mathcal{E})$, that is to say `(II, 1.4.1)` to a homomorphism of
+$\mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E})$-Modules $u : \mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E})
+\to \mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E}) \otimes_{\mathcal{O}_{X}} \check{\mathcal{E}}$; for every affine
+open $W$ of $X$, if one puts $\Gamma(W, \mathcal{O}_{X}) = A$, if one identifies $\Gamma(W,
+\mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E}))$ with a polynomial algebra $C = A[T_{1}, \cdots, T_{n}]$, so that
+the $T_{i}$ form a basis of $\Gamma(W, \mathcal{E})$, and if finally one denotes by $(e_{i})$ the dual basis of
+$(T_{i})$ in $\Gamma(W, \check{\mathcal{E}}) = \Gamma\check{W, \mathcal{E}}$, one sees at once that $u$ corresponds to
+the homomorphism of $C$-modules such that $u(1) = \sum^{n}_{i=1} T_{i} \otimes e_{i}$.
 
-If `X' = Spec(A)` is affine and such that `ℰ_{(X')}` is isomorphic to `𝒪_{X'}^n`, `Γ(X', ℰ̌_{(X')})` is a free
-`A`-module of rank `n`; in a figurative way, one may say that the object `𝐕(ℰ)` represents "the set of points of the
-affine space twisted over `X` defined by `ℰ`".
+If $X' = \operatorname{Spec}(A)$ is affine and such that $\mathcal{E}_{(X')}$ is isomorphic to $\mathcal{O}^{n}_{X'}$,
+$\Gamma(X', \check{\mathcal{E}}_{(X')})$ is a free $A$-module of rank $n$; in a figurative way, one may say that the
+object $\mathbf{V}(\mathcal{E})$ represents "the set of points of the affine space twisted over $X$ defined by
+$\mathcal{E}$".
 
-**(18.5.2)** Recall `(II, 1.7.8)` that one has by definition `𝐕(ℰ) = Spec(𝐒_{𝒪_X}^•(ℰ))`. Let `ℐ` be a quasi-coherent
-Ideal of `𝐒_{𝒪_X}^•(ℰ)`, so that `Spec(𝐒_{𝒪_X}^•(ℰ)/ℐ)` is a closed sub-prescheme of `𝐕(ℰ)`; we are going to interpret
-it as representing a functor from the category of `X`-preschemes to that of sets. Note for this that a section
-`u ∈ Γ(X, ℰ̌)` is canonically identified with an `𝒪_X`-homomorphism `u : 𝒪_X → ℰ̌`, to which corresponds by
-transposition an `𝒪_X`-homomorphism `ťu : ℰ → 𝒪_X`, and consequently a homomorphism of `𝒪_X`-Algebras
-`v : 𝐒_{𝒪_X}^•(ℰ) → 𝒪_X`. Let `Al(X, ℰ̌, ℐ)` denote the set of `u ∈ Γ(X, ℰ̌)` such that `ℐ` is contained in the kernel
-of `v`; it follows at once from these definitions that
+**(18.5.2)** Recall `(II, 1.7.8)` that one has by definition $\mathbf{V}(\mathcal{E}) =
+\operatorname{Spec}(\mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E}))$. Let $\mathcal{I}$ be a quasi-coherent Ideal
+of $\mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E})$, so that
+$\operatorname{Spec}(\mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E})/\mathcal{I})$ is a closed sub-prescheme of
+$\mathbf{V}(\mathcal{E})$; we are going to interpret it as representing a functor from the category of $X$-preschemes to
+that of sets. Note for this that a section $u \in \Gamma(X, \check{\mathcal{E}})$ is canonically identified with an
+$\mathcal{O}_{X}$-homomorphism $u : \mathcal{O}_{X} \to \check{\mathcal{E}}$, to which corresponds by transposition an
+$\mathcal{O}_{X}$-homomorphism $\check{t}u : \mathcal{E} \to \mathcal{O}_{X}$, and consequently a homomorphism of
+$\mathcal{O}_{X}$-Algebras $v : \mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E}) \to \mathcal{O}_{X}$. Let $Al(X,
+\check{\mathcal{E}}, \mathcal{I})$ denote the set of $u \in \Gamma(X, \check{\mathcal{E}})$ such that $\mathcal{I}$ is
+contained in the kernel of $v$; it follows at once from these definitions that
 
 ```text
   X' ↦ Al(X', ℰ̌_{(X')}, ℐ ⊗_{𝒪_X} 𝒪_{X'})
 ```
 
-is a functor represented by `Spec(𝐒_{𝒪_X}^•(ℰ)/ℐ)`. If `X' = Spec(A)` is affine and such that `ℰ_{(X')}` is isomorphic
-to `𝒪_{X'}^n`, `Γ(X', ℰ̌_{(X')})` can be identified with the set `A^n`, and `ℐ ⊗_{𝒪_X} 𝒪_{X'}` with an `𝒪_{X'}`-Module
-of the form `𝔍̃`, where `𝔍` is an ideal of the polynomial ring `A[T_1, …, T_n]`; the set
-`Al(X', ℰ̌_{(X')}, ℐ ⊗_{𝒪_X} 𝒪_{X'})` is then identified with the subset of `A^n` formed by the points `(t_1, …, t_n)`
-such that `P(t_1, …, t_n) = 0` for every polynomial `P ∈ 𝔍`; in a figurative way, one may therefore say that the object
-`Spec(𝐒_{𝒪_X}^•(ℰ)/ℐ)` represents "the algebraic subset of the affine space twisted `Γ(X, ℰ̌)` formed by the points
-annulling the ideal `Γ(X, ℐ)`". One also denotes this `X`-prescheme by `𝐀𝐥(ℰ, ℐ)`. One will note that if `ℐ` is an Ideal
-of finite type of `𝐒_{𝒪_X}^•(ℰ)`, `𝐀𝐥(ℰ, ℐ)` is an `X`-prescheme of finite presentation, since `𝐒_{𝒪_X}^•(ℰ)` is an
-`𝒪_X`-Algebra of finite presentation.
+is a functor represented by $\operatorname{Spec}(\mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E})/\mathcal{I})$. If
+$X' = \operatorname{Spec}(A)$ is affine and such that $\mathcal{E}_{(X')}$ is isomorphic to $\mathcal{O}^{n}_{X'}$,
+$\Gamma(X', \check{\mathcal{E}}_{(X')})$ can be identified with the set $A^{n}$, and $\mathcal{I}
+\otimes_{\mathcal{O}_{X}} \mathcal{O}_{X'}$ with an $\mathcal{O}_{X'}$-Module of the form $\tilde{\mathfrak{J}}$, where
+$\mathfrak{J}$ is an ideal of the polynomial ring $A[T_{1}, \cdots, T_{n}]$; the set $Al(X', \check{\mathcal{E}}_{(X')},
+\mathcal{I} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X'})$ is then identified with the subset of $A^{n}$ formed by the
+points $(t_{1}, \cdots, t_{n})$ such that $P(t_{1}, \cdots, t_{n}) = 0$ for every polynomial $P \in \mathfrak{J}$; in a
+figurative way, one may therefore say that the object
+$\operatorname{Spec}(\mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E})/\mathcal{I})$ represents "the algebraic subset
+of the affine space twisted $\Gamma(X, \check{\mathcal{E}})$ formed by the points annulling the ideal $\Gamma(X,
+\mathcal{I})$". One also denotes this $X$-prescheme by $\mathbf{Al}(\mathcal{E}, \mathcal{I})$. One will note that if
+$\mathcal{I}$ is an Ideal of finite type of $\mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E})$,
+$\mathbf{Al}(\mathcal{E}, \mathcal{I})$ is an $X$-prescheme of finite presentation, since
+$\mathbf{S}^{\bullet}_{\mathcal{O}_{X}}(\mathcal{E})$ is an $\mathcal{O}_{X}$-Algebra of finite presentation.
 
 **Lemma (18.5.3).**
 
 <!-- label: IV.18.5.3 -->
 
-*Let `S` be a prescheme, `f : X → S` a morphism finite and locally free `(18.2.7)`. Consider the contravariant functor
-from the category of `S`-preschemes to the category of sets*
+*Let $S$ be a prescheme, $f : X \to S$ a morphism finite and locally free `(18.2.7)`. Consider the contravariant functor
+from the category of $S$-preschemes to the category of sets*
 
 ```text
   (18.5.3.1)    S' ↦ Of(X ×_S S')
 ```
 
-*where `Of(X ×_S S')` is the set of subsets simultaneously open and closed of the space underlying `X ×_S S'`. Then this
-functor is representable by an `S`-prescheme `𝐎𝐟(X)`, which is affine, étale and of finite presentation over `S`.*
+*where $Of(X \times_{S} S')$ is the set of subsets simultaneously open and closed of the space underlying $X \times_{S}
+S'$. Then this functor is representable by an $S$-prescheme $\mathbf{Of}(X)$, which is affine, étale and of finite
+presentation over $S$.*
 
 <!-- original page 127 -->
 
-One has by hypothesis `X = Spec(ℬ)`, where `ℬ = f_*(𝒪_X)` is a finite and locally free `𝒪_S`-Algebra. Put
-`X' = X ×_S S'`, `f' = f_{(S')}`, `ℬ' = ℬ ⊗_{𝒪_S} 𝒪_{S'} = f'_*(𝒪_{X'})`, so that `X' = Spec(ℬ')`; there is then a
-canonical bijection, functorial in `S'`, of the set `Of(X')` onto the set `Id(ℬ')` of *idempotents* of the ring
-`Γ(S', ℬ') = Γ(X', 𝒪_{X'})`. Indeed, by virtue of the equivalence of the category of `S'`-schemes affine over `S'` and
-the opposite category of the category of quasi-coherent `𝒪_{S'}`-Algebras `(II, 1.2.7 and 1.3.1)`, there is canonical
-biunivocal correspondence between the decompositions of `X'` into a sum `X'_1 ⨿ X'_2` of two sub-preschemes induced on
-open sets of `X'` and the decompositions of `ℬ'` into direct composite of two Ideals `ℬ'_1`, `ℬ'_2`; these latter in
-turn form a set in canonical biunivocal correspondence (and functorial in `S'`) with `Id(ℬ')`. It therefore suffices to
-prove the lemma for the functor `S' ↦ Id(ℬ')`.
+One has by hypothesis $X = \operatorname{Spec}(\mathcal{B})$, where $\mathcal{B} = f_{*}(\mathcal{O}_{X})$ is a finite
+and locally free $\mathcal{O}_{S}$-Algebra. Put $X' = X \times_{S} S'$, $f' = f_{(S')}$, $\mathcal{B}' = \mathcal{B}
+\otimes_{\mathcal{O}_{S}} \mathcal{O}_{S'} = f'_{*}(\mathcal{O}_{X'})$, so that $X' =
+\operatorname{Spec}(\mathcal{B}')$; there is then a canonical bijection, functorial in $S'$, of the set $Of(X')$ onto
+the set $Id(\mathcal{B}')$ of *idempotents* of the ring $\Gamma(S', \mathcal{B}') = \Gamma(X', \mathcal{O}_{X'})$.
+Indeed, by virtue of the equivalence of the category of $S'$-schemes affine over $S'$ and the opposite category of the
+category of quasi-coherent $\mathcal{O}_{S'}$-Algebras `(II, 1.2.7 and 1.3.1)`, there is canonical biunivocal
+correspondence between the decompositions of $X'$ into a sum $X'_{1} \amalg X'_{2}$ of two sub-preschemes induced on
+open sets of $X'$ and the decompositions of $\mathcal{B}'$ into direct composite of two Ideals $\mathcal{B}'_{1}$,
+$\mathcal{B}'_{2}$; these latter in turn form a set in canonical biunivocal correspondence (and functorial in $S'$) with
+$Id(\mathcal{B}')$. It therefore suffices to prove the lemma for the functor $S' \mapsto Id(\mathcal{B}')$.
 
-For this, we are going to show that there exists an Ideal of finite type `ℐ` of `𝐒_{𝒪_S}^•(ℬ̌)` such that `Id(ℬ')` is of
-the form `Al(S', ℬ̌', ℐ ⊗_{𝒪_S} 𝒪_{S'})` `(18.5.2)`. Note for this effect that since `ℬ` is an `𝒪_S`-Algebra, its
-inverse image `ℬ_{(𝐕(ℬ̌))}` is an `𝒪_{𝐕(ℬ̌)}`-Algebra, and one may therefore form the *square* `c²`, in this Algebra, of
-the canonical section `c` `(18.5.1)`; it corresponds canonically to a homomorphism
-`u^{(2)} : 𝐒_{𝒪_S}^•(ℬ) → 𝐒_{𝒪_S}^•(ℬ) ⊗_{𝒪_S} ℬ` of `𝐒_{𝒪_S}^•(ℬ)`-Modules, and one verifies at once that for an affine
-open `W` of `S`, with the notations of `(18.5.1)`, `u^{(2)}` corresponds to the homomorphism of `C`-modules such that
-`u^{(2)}(1) = ∑_{k} (∑_{i,j} c_{ijk} T_i T_j) ⊗ e_k`, where `(c_{ijk})` is the multiplication table of the algebra
-`Γ(W, ℬ)`. Let us show that the Ideal `ℐ` of `𝐒_{𝒪_S}^•(ℬ)` generated by the kernel of the homomorphism `u − u^{(2)}`
-answers the question. It suffices indeed to note that the ideal `Γ(W, ℐ)` of `C` is generated by the polynomials
-`P_k(T_1, …, T_n) = T_k − ∑_{i,j} c_{ijk} T_i T_j` and that the *idempotents* of `Γ(W, ℬ)` are precisely the elements
-`∑_i t_i e_i` of this algebra such that `(t_1, …, t_n)` annuls all the polynomials `P_k` `(1 ⩽ k ⩽ n)`. One therefore
-deduces from `(18.5.2)` that the `S`-prescheme affine of finite presentation `𝐎𝐟(X) = 𝐀𝐥(ℬ, ℐ)` indeed represents the
-functor `(18.5.3.1)`. It remains to prove that `𝐎𝐟(X)` is étale over `S`, or, what amounts to the same, that it is
-*formally étale* over `S`. But if `S'` is an `S`-prescheme, `S'_0` a closed sub-prescheme of `S'` defined by a locally
-nilpotent Ideal of `𝒪_{S'}` (and having therefore the same underlying space as `S'`), it is clear that `X' = X ×_S S'`
-and `X'_0 = X ×_S S'_0` have the same underlying space, hence the canonical map `Of(X') → Of(X'_0)` is bijective, which
-completes the proof `(17.1.1)`.
+For this, we are going to show that there exists an Ideal of finite type $\mathcal{I}$ of
+$\mathbf{S}^{\bullet}_{\mathcal{O}_{S}}(\check{\mathcal{B}})$ such that $Id(\mathcal{B}')$ is of the form $Al(S',
+\check{\mathcal{B}}', \mathcal{I} \otimes_{\mathcal{O}_{S}} \mathcal{O}_{S'})$ `(18.5.2)`. Note for this effect that
+since $\mathcal{B}$ is an $\mathcal{O}_{S}$-Algebra, its inverse image $\mathcal{B}_{(\mathbf{V}(\check{\mathcal{B}}))}$
+is an $\mathcal{O}_{\mathbf{V}(\check{\mathcal{B}})}$-Algebra, and one may therefore form the *square* $c^{2}$, in this
+Algebra, of the canonical section $c$ `(18.5.1)`; it corresponds canonically to a homomorphism $u^{(2)} :
+\mathbf{S}^{\bullet}_{\mathcal{O}_{S}}(\mathcal{B}) \to \mathbf{S}^{\bullet}_{\mathcal{O}_{S}}(\mathcal{B})
+\otimes_{\mathcal{O}_{S}} \mathcal{B}$ of $\mathbf{S}^{\bullet}_{\mathcal{O}_{S}}(\mathcal{B})$-Modules, and one
+verifies at once that for an affine open $W$ of $S$, with the notations of `(18.5.1)`, $u^{(2)}$ corresponds to the
+homomorphism of $C$-modules such that $u^{(2)}(1) = \sum_{k} (\sum_{i,j} c_{ijk} T_{i} T_{j}) \otimes e_{k}$, where
+$(c_{ijk})$ is the multiplication table of the algebra $\Gamma(W, \mathcal{B})$. Let us show that the Ideal
+$\mathcal{I}$ of $\mathbf{S}^{\bullet}_{\mathcal{O}_{S}}(\mathcal{B})$ generated by the kernel of the homomorphism $u -
+u^{(2)}$ answers the question. It suffices indeed to note that the ideal $\Gamma(W, \mathcal{I})$ of $C$ is generated by
+the polynomials $P_{k}(T_{1}, \cdots, T_{n}) = T_{k} - \sum_{i,j} c_{ijk} T_{i} T_{j}$ and that the *idempotents* of
+$\Gamma(W, \mathcal{B})$ are precisely the elements $\sum_{i} t_{i} e_{i}$ of this algebra such that $(t_{1}, \cdots,
+t_{n})$ annuls all the polynomials $P_{k}$ $(1 \leqslant k \leqslant n)$. One therefore deduces from `(18.5.2)` that the
+$S$-prescheme affine of finite presentation $\mathbf{Of}(X) = \mathbf{Al}(\mathcal{B}, \mathcal{I})$ indeed represents
+the functor `(18.5.3.1)`. It remains to prove that $\mathbf{Of}(X)$ is étale over $S$, or, what amounts to the same,
+that it is *formally étale* over $S$. But if $S'$ is an $S$-prescheme, $S'_{0}$ a closed sub-prescheme of $S'$ defined
+by a locally nilpotent Ideal of $\mathcal{O}_{S'}$ (and having therefore the same underlying space as $S'$), it is clear
+that $X' = X \times_{S} S'$ and $X'_{0} = X \times_{S} S'_{0}$ have the same underlying space, hence the canonical map
+$Of(X') \to Of(X'_{0})$ is bijective, which completes the proof `(17.1.1)`.
 
 **Proposition (18.5.4).**
 
 <!-- label: IV.18.5.4 -->
 
-*Let `S` be a prescheme, `S_0` a closed sub-prescheme of `S`; consider the following properties:*
+*Let $S$ be a prescheme, `S_0` a closed sub-prescheme of $S$; consider the following properties:*
 
-*a) For every finite morphism `g : S' → S`, the canonical map*
+*a) For every finite morphism $g : S' \to S$, the canonical map*
 
 ```text
   (18.5.4.1)    Of(S') → Of(S' ×_S S_0)    (cf. (18.5.3))
@@ -987,11 +1077,11 @@ completes the proof `(17.1.1)`.
 
 *is bijective.*
 
-*a') For every finite and locally free morphism `g : S' → S`, the map `(18.5.4.1)` is bijective.*
+*a') For every finite and locally free morphism $g : S' \to S$, the map `(18.5.4.1)` is bijective.*
 
 <!-- original page 128 -->
 
-*b) For every étale and separated morphism `g : S' → S`, the canonical map*
+*b) For every étale and separated morphism $g : S' \to S$, the canonical map*
 
 ```text
   (18.5.4.2)    Γ(S'/S) → Γ(S' ×_S S_0/S_0)
@@ -999,140 +1089,141 @@ completes the proof `(17.1.1)`.
 
 *is bijective.*
 
-*The condition b) entails a'); if moreover `S` is quasi-compact and quasi-separated, the condition a) entails b).*
+*The condition b) entails a'); if moreover $S$ is quasi-compact and quasi-separated, the condition a) entails b).*
 
-Let us first prove that b) entails a'). Suppose then b) verified, and let `g : S' → S` be a finite and locally free
-morphism; put `S'_0 = S' ×_S S_0`, so that `g_0 = g_{(S_0)} : S'_0 → S_0` is finite and locally free. Then it follows
-from `(18.5.3)` that `P = 𝐎𝐟(S')` is an étale and separated `S`-prescheme; moreover, the definition of the functor `𝐎𝐟`
-shows at once that if one puts `P_0 = 𝐎𝐟(S'_0)` (for the category of `S_0`-preschemes), one has `P_0 = P ×_S S_0`. That
-being so, one has by definition the commutative diagram
+Let us first prove that b) entails a'). Suppose then b) verified, and let $g : S' \to S$ be a finite and locally free
+morphism; put $S'_{0} = S' \times_{S} S_{0}$, so that $g_{0} = g_{(S_{0})} : S'_{0} \to S_{0}$ is finite and locally
+free. Then it follows from `(18.5.3)` that $P = \mathbf{Of}(S')$ is an étale and separated $S$-prescheme; moreover, the
+definition of the functor $\mathbf{Of}$ shows at once that if one puts $P_{0} = \mathbf{Of}(S'_{0})$ (for the category
+of `S_0`-preschemes), one has $P_{0} = P \times_{S} S_{0}$. That being so, one has by definition the commutative diagram
 
-```text
-        Γ(P/S)   →  Γ(P_0/S_0)
-         ↓ ≀          ↓ ≀
-        Of(S')   →  Of(S'_0)
-```
+$$ \Gamma(P/S) \to \Gamma(P_{0}/S_{0}) \downarrow \wr \downarrow \wr Of(S') \to Of(S'_{0}) $$
 
-where the vertical arrows are the canonical bijections. Since hypothesis b), applied to the morphism `P → S`, entails
+where the vertical arrows are the canonical bijections. Since hypothesis b), applied to the morphism $P \to S$, entails
 that the top row is a bijection, so is the bottom row, which establishes our assertion.
 
-Before proving that a) entails b) when `S` is quasi-compact and quasi-separated, we shall establish the
+Before proving that a) entails b) when $S$ is quasi-compact and quasi-separated, we shall establish the
 
 **Lemma (18.5.4.3).**
 
 <!-- label: IV.18.5.4.3 -->
 
-*If `S` and `S_0` verify condition a) of `(18.5.4)`, then, for every finite morphism `g : S' → S`, `S'` is the unique
-neighbourhood of `S'_0 = g⁻¹(S_0) = S' ×_S S_0` in `S'`.*
+*If $S$ and `S_0` verify condition a) of `(18.5.4)`, then, for every finite morphism $g : S' \to S$, $S'$ is the unique
+neighbourhood of $S'_{0} = g^{-1}(S_{0}) = S' \times_{S} S_{0}$ in $S'$.*
 
-Indeed, it amounts to the same to say that if `T'` is a closed subset of `S'` such that `T' ∩ S'_0 = ∅`, then `T' = ∅`.
-Now, if one denotes again by `T'` a closed sub-prescheme of `S'` having `T'` for underlying space, the composite
-morphism `h : T' → S' → S` is finite and `h⁻¹(S_0)` is empty; condition a) applied to the morphism `h` entails that `T'`
-is necessarily empty.
+Indeed, it amounts to the same to say that if $T'$ is a closed subset of $S'$ such that $T' \cap S'_{0} = \emptyset$,
+then $T' = \emptyset$. Now, if one denotes again by $T'$ a closed sub-prescheme of $S'$ having $T'$ for underlying
+space, the composite morphism $h : T' \to S' \to S$ is finite and $h^{-1}(S_{0})$ is empty; condition a) applied to the
+morphism $h$ entails that $T'$ is necessarily empty.
 
 This lemma being established, let us prove first that under hypothesis a), the map `(18.5.4.2)` is injective. Indeed, if
-`u'`, `u''` are two `S`-sections of `S'`, the fact that the morphism `S' → S` is unramified entails that the prescheme
-of coincidences of `u'` and `u''` is induced on an open set `U` of `S` `(17.4.6)`. If the restrictions to `S_0` of `u'`
-and `u''` are the same, the fact that `u'` and `u''` are open immersions `(17.4.1)` entails that `U` contains `S_0`,
-hence is equal to `S` by virtue of the lemma `(18.5.4.3)` applied to the case `S' = S`.
+$u'$, `u''` are two $S$-sections of $S'$, the fact that the morphism $S' \to S$ is unramified entails that the prescheme
+of coincidences of $u'$ and `u''` is induced on an open set $U$ of $S$ `(17.4.6)`. If the restrictions to `S_0` of $u'$
+and `u''` are the same, the fact that $u'$ and `u''` are open immersions `(17.4.1)` entails that $U$ contains `S_0`,
+hence is equal to $S$ by virtue of the lemma `(18.5.4.3)` applied to the case $S' = S$.
 
-It remains to show that under hypothesis a), the map `(18.5.4.2)` is surjective (`S` being quasi-compact and
-quasi-separated). Let then `u_0 : S_0 → S'_0` be an `S_0`-section of `S'_0`; `u_0(S_0)` being quasi-compact in `S'`, may
-be covered by a finite number of affine open sets
+It remains to show that under hypothesis a), the map `(18.5.4.2)` is surjective ($S$ being quasi-compact and
+quasi-separated). Let then $u_{0} : S_{0} \to S'_{0}$ be an `S_0`-section of $S'_{0}$; $u_{0}(S_{0})$ being
+quasi-compact in $S'$, may be covered by a finite number of affine open sets
 
 <!-- original page 129 -->
 
-`V_i` such that the restriction `g | V_i` is a morphism of finite type; if `V` is the union of the `V_i`, one concludes
-that `g | V : V → S` is a morphism of finite presentation, being separated and locally of finite presentation by
-hypothesis `(1.6.1)`. Replacing `S'` by `V`, one may therefore suppose that `g` is of finite presentation. Since `S` is
-quasi-compact and quasi-separated and `g` is quasi-finite and separated `(17.6.1)`, it follows from the "Main theorem"
-`(8.12.6)` that `g` factors as `S' →^j S'' →^f S`, where `j` is an open immersion and `f` a finite morphism. Put
-`S''_0 = S'' ×_S S_0`, `j_0 = j_{(S_0)} : S'_0 → S''_0`, which is an open immersion, and
-`f_0 = f_{(S_0)} : S''_0 → S_0`, which is a finite morphism. Then `u_0` is also an `S_0`-section of `S''_0`. Since
-`g_0 : S'_0 → S_0` is étale, `u_0` is an open immersion of `S_0` in `S'_0` `(17.4.1)`, hence `u_0(S_0)` is open in
-`S'_0`, and a fortiori in `S''_0`; but on the other hand, since `f_0` is a finite morphism, hence separated, `u_0` is a
-closed immersion of `S_0` in `S''_0` `(I, 5.4.6)`, hence `X_0 = u_0(S_0)` is both open and closed in `S''_0`. By virtue
-of hypothesis a), there exists a subset both open and closed `X` of `S''` such that `X ∩ S''_0 = X_0`. Let us show first
-that the morphism `f : S'' → S` is *étale at the points of `X`*: indeed, the set `U` of points of `X` where `f | X` is
-étale is open and contains by hypothesis `X_0 ⊂ S'_0`. But the lemma `(18.5.4.3)` applied to the finite morphism `f | X`
-proves that `U = X`. On the other hand, `S' ∩ X` is open in `X` and contains `X_0` by hypothesis, hence the same
-reasoning proves that `S' ∩ X = X`, that is to say `X ⊂ S'`. It remains to show that, for every `s ∈ S`, the geometric
-number `n(s)` of points of `X ∩ f⁻¹(s)` is equal to `1`, for it will follow that `f | X` is radicial and surjective, and
-since `f | X` is étale, one will have shown `(17.9.1)` that `f | X` is an isomorphism of the open `X ⊂ S'` onto `S`, of
-which the inverse isomorphism `u` will be the `S`-section sought extending `u_0`. But since `f | X` is étale and finite,
-`s ↦ n(s)` is continuous on `S` `(18.2.8)`, and since `X ∩ S_0 = X_0`, one has `n(s) = 1` on `S_0`; the set of points
-`s ∈ S` such that `n(s) = 1` being open in `S` and containing `S_0`, it is equal to `S` by `(18.5.4.3)`. Q.E.D.
+$V_{i}$ such that the restriction $g | V_{i}$ is a morphism of finite type; if $V$ is the union of the $V_{i}$, one
+concludes that $g | V : V \to S$ is a morphism of finite presentation, being separated and locally of finite
+presentation by hypothesis `(1.6.1)`. Replacing $S'$ by $V$, one may therefore suppose that $g$ is of finite
+presentation. Since $S$ is quasi-compact and quasi-separated and $g$ is quasi-finite and separated `(17.6.1)`, it
+follows from the "Main theorem" `(8.12.6)` that $g$ factors as $S' \to^{j} S'' \to^{f} S$, where $j$ is an open
+immersion and $f$ a finite morphism. Put $S''_{0} = S'' \times_{S} S_{0}$, $j_{0} = j_{(S_{0})} : S'_{0} \to S''_{0}$,
+which is an open immersion, and $f_{0} = f_{(S_{0})} : S''_{0} \to S_{0}$, which is a finite morphism. Then $u_{0}$ is
+also an `S_0`-section of $S''_{0}$. Since $g_{0} : S'_{0} \to S_{0}$ is étale, $u_{0}$ is an open immersion of `S_0` in
+$S'_{0}$ `(17.4.1)`, hence $u_{0}(S_{0})$ is open in $S'_{0}$, and a fortiori in $S''_{0}$; but on the other hand, since
+$f_{0}$ is a finite morphism, hence separated, $u_{0}$ is a closed immersion of `S_0` in $S''_{0}$ `(I, 5.4.6)`, hence
+$X_{0} = u_{0}(S_{0})$ is both open and closed in $S''_{0}$. By virtue of hypothesis a), there exists a subset both open
+and closed $X$ of `S''` such that $X \cap S''_{0} = X_{0}$. Let us show first that the morphism $f : S'' \to S$ is
+*étale at the points of $X$*: indeed, the set $U$ of points of $X$ where $f | X$ is étale is open and contains by
+hypothesis $X_{0} \subset S'_{0}$. But the lemma `(18.5.4.3)` applied to the finite morphism $f | X$ proves that $U =
+X$. On the other hand, $S' \cap X$ is open in $X$ and contains `X_0` by hypothesis, hence the same reasoning proves that
+$S' \cap X = X$, that is to say $X \subset S'$. It remains to show that, for every $s \in S$, the geometric number
+$n(s)$ of points of $X \cap f^{-1}(s)$ is equal to `1`, for it will follow that $f | X$ is radicial and surjective, and
+since $f | X$ is étale, one will have shown `(17.9.1)` that $f | X$ is an isomorphism of the open $X \subset S'$ onto
+$S$, of which the inverse isomorphism $u$ will be the $S$-section sought extending $u_{0}$. But since $f | X$ is étale
+and finite, $s \mapsto n(s)$ is continuous on $S$ `(18.2.8)`, and since $X \cap S_{0} = X_{0}$, one has $n(s) = 1$ on
+`S_0`; the set of points $s \in S$ such that $n(s) = 1$ being open in $S$ and containing `S_0`, it is equal to $S$ by
+`(18.5.4.3)`. Q.E.D.
 
 **Remark (18.5.4.4).** — One can show that the statement `(18.5.4)` remains valid when, in condition b), one assumes
-only the morphism `g` étale (but not necessarily separated) `[43, exp. XII]`.
+only the morphism $g$ étale (but not necessarily separated) $[43, \exp. XII]$.
 
 **Definition (18.5.5).**
 
 <!-- label: IV.18.5.5 -->
 
-*One says that a prescheme `S` and a closed sub-prescheme `S_0` of `S` form a **Henselian couple** if they verify
+*One says that a prescheme $S$ and a closed sub-prescheme `S_0` of $S$ form a **Henselian couple** if they verify
 condition a) of `(18.5.4)`.*
 
-Taking `(I, 5.1.8)` into account, it amounts to the same to say that `(S, S_0)` is a Henselian couple or that
-`(S_red, (S_0)_red)` is one.
+Taking `(I, 5.1.8)` into account, it amounts to the same to say that $(S, S_{0})$ is a Henselian couple or that
+$(S_{red}, (S_{0})_{red})$ is one.
 
 **Proposition (18.5.6).**
 
 <!-- label: IV.18.5.6 -->
 
-*(i) If `(S, S_0)` is a Henselian couple, then, for every finite morphism `f : S' → S`, if `S'_0` is the sub-prescheme
-`f⁻¹(S_0)` of `S'`, the couple `(S', S'_0)` is Henselian.*
+*(i) If $(S, S_{0})$ is a Henselian couple, then, for every finite morphism $f : S' \to S$, if $S'_{0}$ is the
+sub-prescheme $f^{-1}(S_{0})$ of $S'$, the couple $(S', S'_{0})$ is Henselian.*
 
-*(ii) Let `S = ⨿_α S^{(α)}` be a sum of preschemes, `S_0` a closed sub-prescheme of `S`, sum of the closed
-sub-preschemes `S_0^{(α)}` of the `S^{(α)}`. For the couple `(S, S_0)` to be Henselian, it is necessary and sufficient
-that each of the couples `(S^{(α)}, S_0^{(α)})` be so.*
+*(ii) Let $S = \amalg_{\alpha} S^{(\alpha)}$ be a sum of preschemes, `S_0` a closed sub-prescheme of $S$, sum of the
+closed sub-preschemes $S^{(\alpha)}_{0}$ of the $S^{(\alpha)}$. For the couple $(S, S_{0})$ to be Henselian, it is
+necessary and sufficient that each of the couples $(S^{(\alpha)}, S^{(\alpha)}_{0})$ be so.*
 
-Assertion (i) is an immediate consequence of the definition, since for every finite morphism `g : S'' → S'`,
-`f ∘ g : S'' → S` is a finite morphism. Similarly, under the conditions of (ii), for a morphism `g : S' → S` to be
+Assertion (i) is an immediate consequence of the definition, since for every finite morphism $g : S'' \to S'$, $f \circ
+g : S'' \to S$ is a finite morphism. Similarly, under the conditions of (ii), for a morphism $g : S' \to S$ to be
 finite, it is necessary and sufficient that each
 
 <!-- original page 130 -->
 
-of its restrictions `g^{(α)} : S'^{(α)} = g⁻¹(S^{(α)}) → S^{(α)}` be so, and if one puts `S'_0 = g⁻¹(S_0)`,
-`S'^{(α)}_0 = (g^{(α)})⁻¹(S_0^{(α)})`, there is biunivocal correspondence between the open and closed subsets `U` (resp.
-`U_0`) of `S'` (resp. `S'_0`) and the families `(U^{(α)})` (resp. `U_0^{(α)}`), where `U^{(α)}` (resp. `U_0^{(α)}`) is
-an open and closed subset of `S'^{(α)}` (resp. `S'^{(α)}_0`), whence assertion (ii).
+of its restrictions $g^{(\alpha)} : S'^{(\alpha)} = g^{-1}(S^{(\alpha)}) \to S^{(\alpha)}$ be so, and if one puts
+$S'_{0} = g^{-1}(S_{0})$, $S'^{(\alpha)}_{0} = (g^{(\alpha)})^{-1}(S^{(\alpha)}_{0})$, there is biunivocal
+correspondence between the open and closed subsets $U$ (resp. `U_0`) of $S'$ (resp. $S'_{0}$) and the families
+$(U^{(\alpha)})$ (resp. $U^{(\alpha)}_{0}$), where $U^{(\alpha)}$ (resp. $U^{(\alpha)}_{0}$) is an open and closed
+subset of $S'^{(\alpha)}$ (resp. $S'^{(\alpha)}_{0}$), whence assertion (ii).
 
-**Remark (18.5.7).** — Let `S = Spec(A)` be an affine scheme, `S_0` a closed sub-scheme of `S` defined by an ideal `𝔍`
-of `A`. Then, if the couple `(S, S_0)` is Henselian, the ideal `𝔍` is necessarily contained in the radical of `A`.
-Indeed, if `𝔪` is a maximal ideal of `A`, `𝔪` must belong to `V(𝔍) = S_0`, by virtue of `(18.5.4.3)`, in other words one
-must have `𝔍 ⊂ 𝔪`, whence the conclusion. In particular, suppose that `S_0` is reduced to a point, that is to say that
-the ideal `𝔍` is *maximal*; then `𝔍` must be the radical of `A`, in other words `A` must be a *local* ring, `S_0` being
-the unique closed point of `Spec(A)`.
+**Remark (18.5.7).** — Let $S = \operatorname{Spec}(A)$ be an affine scheme, `S_0` a closed sub-scheme of $S$ defined by
+an ideal $\mathfrak{J}$ of $A$. Then, if the couple $(S, S_{0})$ is Henselian, the ideal $\mathfrak{J}$ is necessarily
+contained in the radical of $A$. Indeed, if $\mathfrak{m}$ is a maximal ideal of $A$, $\mathfrak{m}$ must belong to
+$V(\mathfrak{J}) = S_{0}$, by virtue of `(18.5.4.3)`, in other words one must have $\mathfrak{J} \subset \mathfrak{m}$,
+whence the conclusion. In particular, suppose that `S_0` is reduced to a point, that is to say that the ideal
+$\mathfrak{J}$ is *maximal*; then $\mathfrak{J}$ must be the radical of $A$, in other words $A$ must be a *local* ring,
+`S_0` being the unique closed point of $\operatorname{Spec}(A)$.
 
 **Definition (18.5.8).**
 
 <!-- label: IV.18.5.8 -->
 
-*One says that a ring `A` is **Henselian** if it is semi-local and if, denoting by `𝔯` the radical of `A`, the couple
-`(Spec(A), Spec(A/𝔯))` is Henselian. One calls **Henselian local scheme** a scheme isomorphic to the spectrum of a
-Henselian local ring.*
+*One says that a ring $A$ is **Henselian** if it is semi-local and if, denoting by $\mathfrak{r}$ the radical of $A$,
+the couple $(\operatorname{Spec}(A), \operatorname{Spec}(A/\mathfrak{r}))$ is Henselian. One calls **Henselian local
+scheme** a scheme isomorphic to the spectrum of a Henselian local ring.*
 
 **Proposition (18.5.9).**
 
 <!-- label: IV.18.5.9 -->
 
-*(i) For a semi-local ring `A` to be Henselian, it is necessary and sufficient that it be a direct composite of
+*(i) For a semi-local ring $A$ to be Henselian, it is necessary and sufficient that it be a direct composite of
 Henselian local rings.*
 
-*(ii) For a local ring `A` to be Henselian, it is necessary and sufficient that every finite `A`-algebra `B` be
+*(ii) For a local ring $A$ to be Henselian, it is necessary and sufficient that every finite $A$-algebra $B$ be
 isomorphic to a product of local rings.*
 
-(i) Indeed, the definition, applied to `S = Spec(A)` and `S_0 = Spec(A/𝔯)`, shows, since `S_0` is a finite discrete
-closed subset in `S`, that `S` is the union of a finite number of open and closed subsets `S_i` `(1 ⩽ i ⩽ n)` pairwise
-disjoint, each of which contains exactly one of the maximal ideals `𝔪_i` of `A`; the conclusion follows from
-`(18.5.6, (ii))` and from remark `(18.5.7)`.
+(i) Indeed, the definition, applied to $S = \operatorname{Spec}(A)$ and $S_{0} = \operatorname{Spec}(A/\mathfrak{r})$,
+shows, since `S_0` is a finite discrete closed subset in $S$, that $S$ is the union of a finite number of open and
+closed subsets $S_{i}$ $(1 \leqslant i \leqslant n)$ pairwise disjoint, each of which contains exactly one of the
+maximal ideals $\mathfrak{m}_{i}$ of $A$; the conclusion follows from `(18.5.6, (ii))` and from remark `(18.5.7)`.
 
-(ii) Every finite morphism `S' → Spec(A)` is of the form `Spec(B) → Spec(A)`, where `B` is a finite `A`-algebra. If `k`
-is the residue field of `A`, `Spec(B ⊗_A k)` is a spectrum of an Artinian ring, hence finite and discrete. To say that
-the couple `(Spec(A), Spec(k))` is Henselian therefore signifies that `B` is direct composite of rings `A_i` such that
-`Spec(A_i ⊗_A k)` is reduced to a point, that is to say that `A_i` (which is a finite `A`-algebra) must have only one
-maximal ideal (Bourbaki, _Alg. comm._, chap. V, §2, n° 1, prop. 1).
+(ii) Every finite morphism $S' \to \operatorname{Spec}(A)$ is of the form $\operatorname{Spec}(B) \to
+\operatorname{Spec}(A)$, where $B$ is a finite $A$-algebra. If $k$ is the residue field of $A$, $\operatorname{Spec}(B
+\otimes_{A} k)$ is a spectrum of an Artinian ring, hence finite and discrete. To say that the couple
+$(\operatorname{Spec}(A), \operatorname{Spec}(k))$ is Henselian therefore signifies that $B$ is direct composite of
+rings $A_{i}$ such that $\operatorname{Spec}(A_{i} \otimes_{A} k)$ is reduced to a point, that is to say that $A_{i}$
+(which is a finite $A$-algebra) must have only one maximal ideal (Bourbaki, _Alg. comm._, chap. V, §2, n° 1, prop. 1).
 
 The study of Henselian rings is therefore essentially reduced to that of Henselian local rings.
 
@@ -1140,90 +1231,98 @@ The study of Henselian rings is therefore essentially reduced to that of Henseli
 
 <!-- label: IV.18.5.10 -->
 
-*If `A` is a Henselian ring, every finite `A`-algebra `B` is a Henselian ring (hence direct composite of Henselian local
+*If $A$ is a Henselian ring, every finite $A$-algebra $B$ is a Henselian ring (hence direct composite of Henselian local
 rings `(18.5.9)`).*
 
-Indeed, if `𝔯'` is the radical of `B`, the inverse image of `𝔯'` in `A` is the radical `𝔯` of `A`, and every ideal of
-`B` above a maximal ideal of `A` is a maximal ideal of `B`, hence the set `V(𝔯')` in `Spec(B)` is the inverse image of
-the set `V(𝔯)` in `Spec(A)`. The proposition is then a consequence of `(18.5.6, (i))`.
+Indeed, if $\mathfrak{r}'$ is the radical of $B$, the inverse image of $\mathfrak{r}'$ in $A$ is the radical
+$\mathfrak{r}$ of $A$, and every ideal of $B$ above a maximal ideal of $A$ is a maximal ideal of $B$, hence the set
+$V(\mathfrak{r}')$ in $\operatorname{Spec}(B)$ is the inverse image of the set $V(\mathfrak{r})$ in
+$\operatorname{Spec}(A)$. The proposition is then a consequence of `(18.5.6, (i))`.
 
 **Theorem (18.5.11).**
 
 <!-- label: IV.18.5.11 -->
 
-*Let `A` be a local ring, `𝔪` its maximal ideal. The following conditions are equivalent:*
+*Let $A$ be a local ring, $\mathfrak{m}$ its maximal ideal. The following conditions are equivalent:*
 
-*a) `A` is Henselian, in other words, every finite `A`-algebra `B` is isomorphic to a product of local rings.*
+*a) $A$ is Henselian, in other words, every finite $A$-algebra $B$ is isomorphic to a product of local rings.*
 
 <!-- original page 131 -->
 
-*a') Condition a) is satisfied for all `A`-algebras `B` of the form `A[T]/F · A[T]`, where `F ∈ A[T]` is a unitary
+*a') Condition a) is satisfied for all $A$-algebras $B$ of the form $A[T]/F \cdot A[T]$, where $F \in A[T]$ is a unitary
 polynomial.*
 
-*b) Let `S = Spec(A)`, `S_0 = Spec(k)`. For every étale morphism `g : S' → S`, if one puts `S'_0 = S' ⊗_A k`, every
-`S_0`-section `u_0` of `S'_0` is the restriction of an `S`-section `u` of `S'`.*
+*b) Let $S = \operatorname{Spec}(A)$, $S_{0} = \operatorname{Spec}(k)$. For every étale morphism $g : S' \to S$, if one
+puts $S'_{0} = S' \otimes_{A} k$, every `S_0`-section $u_{0}$ of $S'_{0}$ is the restriction of an $S$-section $u$ of
+$S'$.*
 
-*c) For every morphism `f : X → S`, separated and locally of finite type, and every point `x ∈ X` such that `f(x)` is
-equal to the closed point `s` of `S` and that `f` is quasi-finite at the point `x` `(Err_{III}, 20)`, `X` is a sum of
-two preschemes `X'`, `X''` such that `X' = Spec(𝒪_{X, x})` and `f | X' : X' → S` is a finite morphism.*
+*c) For every morphism $f : X \to S$, separated and locally of finite type, and every point $x \in X$ such that $f(x)$
+is equal to the closed point $s$ of $S$ and that $f$ is quasi-finite at the point $x$ $(Err_{III}, 20)$, $X$ is a sum of
+two preschemes $X'$, `X''` such that $X' = \operatorname{Spec}(\mathcal{O}_{X, x})$ and $f | X' : X' \to S$ is a finite
+morphism.*
 
-*c') For every morphism `f : X → S` locally of finite type, and every point `x ∈ X` such that `f` is quasi-finite at the
-point `x` and `f(x)` is equal to the closed point `s` of `S`, `𝒪_{X, x}` is a finite algebra over `𝒪_{S, s} = A`.*
+*c') For every morphism $f : X \to S$ locally of finite type, and every point $x \in X$ such that $f$ is quasi-finite at
+the point $x$ and $f(x)$ is equal to the closed point $s$ of $S$, $\mathcal{O}_{X, x}$ is a finite algebra over
+$\mathcal{O}_{S, s} = A$.*
 
-*c'') For every morphism `f : X → S` locally of finite presentation, and every point `x ∈ X` such that `f` is
-quasi-finite at the point `x` and that `f(x)` is equal to the closed point `s` of `S`, `𝒪_{X, x}` is a finite algebra of
-finite presentation over `𝒪_{S, s} = A`.*
+*c'') For every morphism $f : X \to S$ locally of finite presentation, and every point $x \in X$ such that $f$ is
+quasi-finite at the point $x$ and that $f(x)$ is equal to the closed point $s$ of $S$, $\mathcal{O}_{X, x}$ is a finite
+algebra of finite presentation over $\mathcal{O}_{S, s} = A$.*
 
-Note first that condition c') (resp. c'')) is equivalent to the same condition where one supposes in addition `f`
-separated, the question being local on `X`. Similarly, condition b) is equivalent to the same condition where one
-supposes in addition `g` separated: indeed, it suffices to apply this latter to the restriction of `g` to an affine open
-neighbourhood of the point `u_0(S_0)` in `S'`. Let us restrict ourselves therefore from now on to the case where, in b),
-c') and c''), the given morphisms are separated.
+Note first that condition c') (resp. c'')) is equivalent to the same condition where one supposes in addition $f$
+separated, the question being local on $X$. Similarly, condition b) is equivalent to the same condition where one
+supposes in addition $g$ separated: indeed, it suffices to apply this latter to the restriction of $g$ to an affine open
+neighbourhood of the point $u_{0}(S_{0})$ in $S'$. Let us restrict ourselves therefore from now on to the case where, in
+b), c') and c''), the given morphisms are separated.
 
 The fact that a) implies b) and that b) implies a') is a particular case of `(18.5.4)`. Let us moreover show that a')
-implies a). It is a matter of proving that if `e_0` is an idempotent of `C = B ⊗_A k`, there exists an idempotent
-`e ∈ B` whose canonical image is `e_0`. If `b` is an element of `B` whose image in `C` is `e_0`, the sub-`A`-algebra
-`A[b] = B'` of `B` is finite, and the canonical image `C'` of `B' ⊗_A k` in `C` contains `e_0`. Now, `B' ⊗_A k` is a
-finite `k`-algebra, hence the direct composite of finite local `k`-algebras, and consequently `e_0` is the image in `C'`
-of an idempotent `e'_0` of `B' ⊗_A k`. One is thus reduced to the case where `B` is monogenic, and consequently
-isomorphic to an `A`-algebra quotient of an algebra of the form `A[T]/F · A[T]`, where `F` is a unitary polynomial. Now,
-by virtue of a'), `A[T]/F · A[T]` is direct composite of local rings, hence so are all its quotient algebras, which
-completes the proof of the existence of the idempotent `e`.
+implies a). It is a matter of proving that if $e_{0}$ is an idempotent of $C = B \otimes_{A} k$, there exists an
+idempotent $e \in B$ whose canonical image is $e_{0}$. If $b$ is an element of $B$ whose image in $C$ is $e_{0}$, the
+sub-$A$-algebra $A[b] = B'$ of $B$ is finite, and the canonical image $C'$ of $B' \otimes_{A} k$ in $C$ contains
+$e_{0}$. Now, $B' \otimes_{A} k$ is a finite $k$-algebra, hence the direct composite of finite local $k$-algebras, and
+consequently $e_{0}$ is the image in $C'$ of an idempotent $e'_{0}$ of $B' \otimes_{A} k$. One is thus reduced to the
+case where $B$ is monogenic, and consequently isomorphic to an $A$-algebra quotient of an algebra of the form $A[T]/F
+\cdot A[T]$, where $F$ is a unitary polynomial. Now, by virtue of a'), $A[T]/F \cdot A[T]$ is direct composite of local
+rings, hence so are all its quotient algebras, which completes the proof of the existence of the idempotent $e$.
 
 It is immediate that c) entails a), as one sees by reasoning by induction on the number of maximal ideals of the
-semi-local ring `B`. To see that a) implies c), one may, by virtue of `(13.1.4)`, restrict to the case where `f` is an
-affine and quasi-finite morphism. Then, by application of the "Main theorem" `(8.12.8)`, `f` may be written as a
-composite morphism `X →^j Y →^g S`, where `g` is a finite morphism and `j` an open immersion. Since `Y = Spec(B)`, where
-`B` is a finite `A`-algebra, it follows from a) that `B` is direct composite of local rings, which are obviously finite
-`A`-algebras, and `𝒪_{X, x}` is identified with one of these local rings since `f(x) = s`; in addition, every open of
-`Y` containing `x` necessarily contains `Spec(𝒪_{X, x})`.
+semi-local ring $B$. To see that a) implies c), one may, by virtue of `(13.1.4)`, restrict to the case where $f$ is an
+affine and quasi-finite morphism. Then, by application of the "Main theorem" `(8.12.8)`, $f$ may be written as a
+composite morphism $X \to^{j} Y \to^{g} S$, where $g$ is a finite morphism and $j$ an open immersion. Since $Y =
+\operatorname{Spec}(B)$, where $B$ is a finite $A$-algebra, it follows from a) that $B$ is direct composite of local
+rings, which are obviously finite $A$-algebras, and $\mathcal{O}_{X, x}$ is identified with one of these local rings
+since $f(x) = s$; in addition, every open of $Y$ containing $x$ necessarily contains
+$\operatorname{Spec}(\mathcal{O}_{X, x})$.
 
 It is trivial that c) implies c'), by virtue of the remark at the start. Let us prove that c') implies c''). Suppose
 indeed c') verified, and prove that under the conditions
 
 <!-- original page 132 -->
 
-of c''), the set `Z = Spec(𝒪_{X, x})` is then identified with an open and closed subset of `X`, which will establish c''
-`(I, 2.4.2)`. In the first place, the composite morphism `Z →^j X →^f S`, where `j` is the canonical morphism
-`(I, 2.4.1)`, is finite and of finite presentation by hypothesis, and since `f` is separated and locally of finite
-presentation, `j` is also a morphism finite and of finite presentation (`(II, 6.1.5)` and `(1.4.3)`); `j` is
-consequently a closed morphism `(II, 6.1.10)`, which proves that `Z` is closed in `X`. It then follows from `(I, 2.4.2)`
-and `(I, 4.2.2)` that `j` is a closed immersion. But if `𝒥` is the Ideal of `𝒪_X` defining `Z`, one has then by
-hypothesis `𝒥_x = 0`, hence also `𝒥_z = 0` at every point `z` of an open neighbourhood `V` of `x` in `X`, since by
-hypothesis `𝒥` is a quasi-coherent `𝒪_X`-Module of finite type (`(1.4.7)` and `(0_I, 5.2.2)`). Now, such a neighbourhood
-contains `Z`, hence `Z` is open in `X` since `𝒥 | V = 0`.
+of c''), the set $Z = \operatorname{Spec}(\mathcal{O}_{X, x})$ is then identified with an open and closed subset of $X$,
+which will establish c'' `(I, 2.4.2)`. In the first place, the composite morphism $Z \to^{j} X \to^{f} S$, where $j$ is
+the canonical morphism `(I, 2.4.1)`, is finite and of finite presentation by hypothesis, and since $f$ is separated and
+locally of finite presentation, $j$ is also a morphism finite and of finite presentation (`(II, 6.1.5)` and `(1.4.3)`);
+$j$ is consequently a closed morphism `(II, 6.1.10)`, which proves that $Z$ is closed in $X$. It then follows from
+`(I, 2.4.2)` and `(I, 4.2.2)` that $j$ is a closed immersion. But if $\mathcal{J}$ is the Ideal of $\mathcal{O}_{X}$
+defining $Z$, one has then by hypothesis $\mathcal{J}_{x} = 0$, hence also $\mathcal{J}_{z} = 0$ at every point $z$ of
+an open neighbourhood $V$ of $x$ in $X$, since by hypothesis $\mathcal{J}$ is a quasi-coherent $\mathcal{O}_{X}$-Module
+of finite type (`(1.4.7)` and $(0_{I}, 5.2.2)$). Now, such a neighbourhood contains $Z$, hence $Z$ is open in $X$ since
+$\mathcal{J} | V = 0$.
 
-Finally, c'') implies a'): indeed, if `B = A[T]/F · A[T]`, the morphism `X = Spec(B) → Spec(A) = Y` is finite and of
-finite presentation, and the preceding proof shows that `B` is direct composite of the finite `A`-algebras `𝒪_{X, x_i}`,
-where the `x_i` are the points of the fibre of the closed point of `Y`.
+Finally, c'') implies a'): indeed, if $B = A[T]/F \cdot A[T]$, the morphism $X = \operatorname{Spec}(B) \to
+\operatorname{Spec}(A) = Y$ is finite and of finite presentation, and the preceding proof shows that $B$ is direct
+composite of the finite $A$-algebras $\mathcal{O}_{X, x_{i}}$, where the $x_{i}$ are the points of the fibre of the
+closed point of $Y$.
 
 **Corollary (18.5.12).**
 
 <!-- label: IV.18.5.12 -->
 
-*Let `A` be a semi-local ring, `𝔯` its radical; put `S = Spec(A)`, `S_0 = Spec(A/𝔯)`. For `A` to be Henselian, it is
-necessary and sufficient that, for every finite morphism `f : X → S` and every étale and separated morphism `g : Y → S`,
-if one puts `X_0 = X ×_S S_0` and `Y_0 = Y ×_S S_0`, the canonical map*
+*Let $A$ be a semi-local ring, $\mathfrak{r}$ its radical; put $S = \operatorname{Spec}(A)$, $S_{0} =
+\operatorname{Spec}(A/\mathfrak{r})$. For $A$ to be Henselian, it is necessary and sufficient that, for every finite
+morphism $f : X \to S$ and every étale and separated morphism $g : Y \to S$, if one puts $X_{0} = X \times_{S} S_{0}$
+and $Y_{0} = Y \times_{S} S_{0}$, the canonical map*
 
 ```text
   Hom_S(X, Y) → Hom_{S_0}(X_0, Y_0)
@@ -1232,18 +1331,19 @@ if one puts `X_0 = X ×_S S_0` and `Y_0 = Y ×_S S_0`, the canonical map*
 *is bijective.*
 
 The sufficiency of the condition follows from the equivalence of a) and b) in `(18.5.11)`, by applying this condition to
-the case where `f = 1_S`. To see that the condition is necessary, note that if `A` is Henselian, the couple `(X, X_0)`
-is Henselian by `(18.5.6, (i))`; in addition `Hom_S(X, Y) = Γ(X ×_S Y/X)` and
-`Hom_{S_0}(X_0, Y_0) = Γ(X_0 ×_{S_0} Y_0/X_0)`; since `X ×_S Y` is étale and separated over `X`, the conclusion follows
-from the fact that a) implies b) in `(18.5.4)`.
+the case where $f = 1_{S}$. To see that the condition is necessary, note that if $A$ is Henselian, the couple $(X,
+X_{0})$ is Henselian by `(18.5.6, (i))`; in addition $\operatorname{Hom}_{S}(X, Y) = \Gamma(X \times_{S} Y/X)$ and
+$\operatorname{Hom}_{S_{0}}(X_{0}, Y_{0}) = \Gamma(X_{0} \times_{S_{0}} Y_{0}/X_{0})$; since $X \times_{S} Y$ is étale
+and separated over $X$, the conclusion follows from the fact that a) implies b) in `(18.5.4)`.
 
 **Remark (18.5.13).** — The equivalent conditions a), a'), b) of theorem `(18.5.11)` are also equivalent to the
 following ("*Hensel's lemma*"):
 
-*a'') For every unitary polynomial `F ∈ A[T]`, of canonical image `F_0 ∈ k[T]`, and every decomposition `F_0 = G_0 H_0`
-of `F_0` into a product of two coprime unitary polynomials `G_0`, `H_0` of `k[T]`, there exists a unique couple `(G, H)`
-of unitary polynomials of `A[T]` having the following properties: `G_0` and `H_0` are the canonical images respectively
-of `G` and `H`, one has `F = GH`, and the ideal of `A[T]` generated by `G` and `H` is equal to `A[T]`.*
+*a'') For every unitary polynomial $F \in A[T]$, of canonical image $F_{0} \in k[T]$, and every decomposition $F_{0} =
+G_{0} H_{0}$ of `F_0` into a product of two coprime unitary polynomials `G_0`, `H_0` of `k[T]`, there exists a unique
+couple $(G, H)$ of unitary polynomials of `A[T]` having the following properties: `G_0` and `H_0` are the canonical
+images respectively of $G$ and $H$, one has $F = GH$, and the ideal of `A[T]` generated by $G$ and $H$ is equal to
+`A[T]`.*
 
 We shall first establish the following lemma:
 
@@ -1251,179 +1351,191 @@ We shall first establish the following lemma:
 
 <!-- label: IV.18.5.13.1 -->
 
-*Let `A` be a local ring of residue field `k`, `F ∈ A[T]` a unitary polynomial, `B` the `A`-algebra `A[T]/F · A[T]`.
-There exists a canonical correspondence between the decompositions of `B` into direct composite of two `A`-algebras
-quotients `B'`, `B''` and the decompositions `F = GH` of `F` into product of two unitary polynomials `G`, `H` of `A[T]`,
-such that the ideal generated by `G` and `H` is equal to `A[T]`; the quotient algebras `B'`, `B''` corresponding to such
-a pair of polynomials `G`, `H` are respectively `A[T]/H · A[T]` and `A[T]/G · A[T]`.*
+*Let $A$ be a local ring of residue field $k$, $F \in A[T]$ a unitary polynomial, $B$ the $A$-algebra $A[T]/F \cdot
+A[T]$. There exists a canonical correspondence between the decompositions of $B$ into direct composite of two
+$A$-algebras quotients $B'$, `B''` and the decompositions $F = GH$ of $F$ into product of two unitary polynomials $G$,
+$H$ of `A[T]`, such that the ideal generated by $G$ and $H$ is equal to `A[T]`; the quotient algebras $B'$, `B''`
+corresponding to such a pair of polynomials $G$, $H$ are respectively $A[T]/H \cdot A[T]$ and $A[T]/G \cdot A[T]$.*
 
 <!-- original page 133 -->
 
-If `F = GH` and if `G` and `H` generate the ideal `A[T]`, there are two polynomials `P`, `Q` of `A[T]` such that
-`1 = PG + QH`. One deduces that the intersection of the principal ideals `𝔞 = G · A[T]` and `𝔟 = H · A[T]` is equal to
-`𝔠 = F · A[T]`: indeed, if `R ∈ G · A[T] ∩ H · A[T]`, one may write `R = PRG + QRH`; now `RH` (resp. `RG`) is a multiple
-of `F` since `R` is a multiple of `G` (resp. `H`), hence `R ∈ F · A[T]`. Since `A[T] = 𝔞 + 𝔟`, `A[T]/𝔠` is direct sum of
-the ideals `𝔞/(𝔞 ∩ 𝔟)` and `𝔟/(𝔞 ∩ 𝔟)`, canonically isomorphic respectively to `A[T]/𝔟` and `A[T]/𝔞`.
+If $F = GH$ and if $G$ and $H$ generate the ideal `A[T]`, there are two polynomials $P$, $Q$ of `A[T]` such that
+$1 = PG + QH$. One deduces that the intersection of the principal ideals $\mathfrak{a} = G \cdot A[T]$ and
+$\mathfrak{b} = H \cdot A[T]$ is equal to $\mathfrak{c} = F \cdot A[T]$: indeed, if
+$R \in G \cdot A[T] \cap H \cdot A[T]$, one may write $R = PRG + QRH$; now `RH` (resp. `RG`) is a multiple of $F$ since
+$R$ is a multiple of $G$ (resp. $H$), hence $R \in F \cdot A[T]$. Since $A[T] = \mathfrak{a} + \mathfrak{b}$,
+$A[T]/\mathfrak{c}$ is direct sum of the ideals $\mathfrak{a}/(\mathfrak{a} \cap \mathfrak{b})$ and
+$\mathfrak{b}/(\mathfrak{a} \cap \mathfrak{b})$, canonically isomorphic respectively to $A[T]/\mathfrak{b}$ and
+$A[T]/\mathfrak{a}$.
 
-Conversely, suppose given a decomposition of `B` into direct composite of two `A`-algebras `B'`, `B''`, which are
-canonically identified with two ideals `e'B`, `e''B` of `B`, corresponding to a decomposition `1 = e' + e''` of `1` into
-orthogonal idempotents `e'`, `e''` of `B`. Put further `B_0 = B ⊗_A k = k[T]/F_0 · k[T]`, where `F_0` is the canonical
-image of `F` in `k[T]`, of the same degree `n` as `F`; if `e'_0`, `e''_0` are the canonical images of `e'`, `e''` in
-`B_0`, these are two orthogonal idempotents such that `1 = e'_0 + e''_0`, and `B_0` is therefore direct composite of
-`B'_0 = e'_0 B_0` and `B''_0 = e''_0 B_0`. Let `t` and `t_0` be the canonical images of `T` in `B` and `B_0`; since
-`B'_0` (resp. `B''_0`) is a finite `k`-algebra generated by `t'_0 = e'_0 t_0` (resp. `t''_0 = e''_0 t_0`), it admits a
-basis of the form `{e'_0, t'_0, t'_0^2, …, t'_0^{s-1}}` (resp. `{e''_0, t''_0, t''_0^2, …, t''_0^{r-1}}`) with
-`r + s = n`. On the other hand, `B` being a free `A`-module (with basis `{1, t, …, t^{n-1}}`), `B'` and `B''` are
-projective `A`-modules, hence free since `A` is a local ring (Bourbaki, _Alg. comm._, chap. II, §5, n° 3, cor. of prop.
-5); it therefore follows from what precedes and from Bourbaki, _Alg. comm._, chap. II, §3, n° 3, prop. 5, that if one
-puts `t' = e't`, `t'' = e''t`, `{e', t', …, t'^{s-1}}` (resp. `{e'', t'', …, t''^{r-1}}`) is a basis of the `A`-module
-`B'` (resp. `B''`). There is therefore a unitary polynomial `H` (resp. `G`) of degree `s` (resp. `r`) of `A[T]` such
-that `e' H(t') = 0` and `e'' G(t'') = 0`; since `t^h = t'^h + t''^h` for every integer `h ⩾ 1`, and `t'^h = e' t^h`,
-`t''^h = e'' t^h`, one has also `G(t) = e' G(t')` and `H(t) = e'' H(t'')`, whence `G(t) H(t) = 0`; one concludes that
-the polynomial `G(T) H(T)` is divisible by `F(T)`; but since the degrees of these two unitary polynomials are the same,
-one has `GH = F`. In addition, `B'` (resp. `B''`) is isomorphic to `A[T]/H · A[T]` (resp. `A[T]/G · A[T]`). Finally,
-there are two polynomials `R`, `S` of `A[T]` such that `e' = R(t)` and `e'' = S(t)`; since
-`R(t) = e' R(t') + e'' R(t'')`, one has necessarily `e'' R(t'') = 0` and similarly `e' S(t') = 0`, so that, by
-definition of `G` and `H`, `R = QH` and `S = PG`, where `P`, `Q` belong to `A[T]`; the relation `1 = R(t) + S(t)` in `B`
-thus gives by definition `PG + QH = 1 + LF` for some polynomial `L ∈ A[T]`, and since `F = GH`, this proves that the
-ideal generated by `G` and `H` is `A[T]`, and completes the proof of the lemma.
+Conversely, suppose given a decomposition of $B$ into direct composite of two $A$-algebras $B'$, `B''`, which are
+canonically identified with two ideals `e'B`, `e''B` of $B$, corresponding to a decomposition $1 = e' + e''$ of `1` into
+orthogonal idempotents $e'$, `e''` of $B$. Put further $B_{0} = B \otimes_{A} k = k[T]/F_{0} \cdot k[T]$, where `F_0` is
+the canonical image of $F$ in `k[T]`, of the same degree $n$ as $F$; if $e'_{0}$, $e''_{0}$ are the canonical images of
+$e'$, `e''` in `B_0`, these are two orthogonal idempotents such that $1 = e'_{0} + e''_{0}$, and `B_0` is therefore
+direct composite of $B'_{0} = e'_{0} B_{0}$ and $B''_{0} = e''_{0} B_{0}$. Let $t$ and $t_{0}$ be the canonical images
+of $T$ in $B$ and `B_0`; since $B'_{0}$ (resp. $B''_{0}$) is a finite $k$-algebra generated by $t'_{0} = e'_{0} t_{0}$
+(resp. $t''_{0} = e''_{0} t_{0}$), it admits a basis of the form ${e'_{0}, t'_{0}, t'^{2}_{0}, \cdots, t'^{s-1}_{0}}$
+(resp. ${e''_{0}, t''_{0}, t''^{2}_{0}, \cdots, t''^{r-1}_{0}}$) with $r + s = n$. On the other hand, $B$ being a free
+$A$-module (with basis ${1, t, \cdots, t^{n-1}}$), $B'$ and `B''` are projective $A$-modules, hence free since $A$ is a
+local ring (Bourbaki, _Alg. comm._, chap. II, §5, n° 3, cor. of prop. 5); it therefore follows from what precedes and
+from Bourbaki, _Alg. comm._, chap. II, §3, n° 3, prop. 5, that if one puts $t' = e't$, $t'' = e''t$, ${e', t', \cdots,
+t'^{s-1}}$ (resp. ${e'', t'', \cdots, t''^{r-1}}$) is a basis of the $A$-module $B'$ (resp. `B''`). There is therefore a
+unitary polynomial $H$ (resp. $G$) of degree $s$ (resp. $r$) of `A[T]` such that $e' H(t') = 0$ and $e'' G(t'') = 0$;
+since $t^{h} = t'^{h} + t''^{h}$ for every integer $h \geqslant 1$, and $t'^{h} = e' t^{h}$, $t''^{h} = e'' t^{h}$, one
+has also $G(t) = e' G(t')$ and $H(t) = e'' H(t'')$, whence $G(t) H(t) = 0$; one concludes that the polynomial $G(T)
+H(T)$ is divisible by $F(T)$; but since the degrees of these two unitary polynomials are the same, one has $GH = F$. In
+addition, $B'$ (resp. `B''`) is isomorphic to $A[T]/H \cdot A[T]$ (resp. $A[T]/G \cdot A[T]$). Finally, there are two
+polynomials $R$, $S$ of `A[T]` such that $e' = R(t)$ and $e'' = S(t)$; since $R(t) = e' R(t') + e'' R(t'')$, one has
+necessarily $e'' R(t'') = 0$ and similarly $e' S(t') = 0$, so that, by definition of $G$ and $H$, $R = QH$ and $S = PG$,
+where $P$, $Q$ belong to `A[T]`; the relation $1 = R(t) + S(t)$ in $B$ thus gives by definition $PG + QH = 1 + LF$ for
+some polynomial $L \in A[T]$, and since $F = GH$, this proves that the ideal generated by $G$ and $H$ is `A[T]`, and
+completes the proof of the lemma.
 
-This lemma being established, it suffices to apply it to the local ring `A` on the one hand, to the field `k` on the
+This lemma being established, it suffices to apply it to the local ring $A$ on the one hand, to the field $k$ on the
 other, to see at once that conditions a') and a'') are equivalent.
 
 **Proposition (18.5.14).**
 
 <!-- label: IV.18.5.14 -->
 
-*Every semi-local ring `A`, separated and complete for the `𝔯`-preadic topology (where `𝔯` is the radical of `A`) is
-Henselian.*
+*Every semi-local ring $A$, separated and complete for the $\mathfrak{r}$-preadic topology (where $\mathfrak{r}$ is the
+radical of $A$) is Henselian.*
 
-Indeed, `A` is direct composite of separated and complete local rings (Bourbaki, _Alg. comm._, chap. III, §2, n° 13,
-cor. of prop. 19), hence one is reduced to the case where `A` is a local ring. Let us verify criterion a') of
-`(18.5.11)`. Since `B` is a free `A`-module of finite type, it is obviously separated and complete for the `𝔯`-preadic
-topology,
+Indeed, $A$ is direct composite of separated and complete local rings (Bourbaki, _Alg. comm._, chap. III, §2, n° 13,
+cor. of prop. 19), hence one is reduced to the case where $A$ is a local ring. Let us verify criterion a') of
+`(18.5.11)`. Since $B$ is a free $A$-module of finite type, it is obviously separated and complete for the
+$\mathfrak{r}$-preadic topology,
 
 <!-- original page 134 -->
 
-which is also the `𝔰`-preadic topology, where `𝔰` is the radical of the semi-local ring `B`, for `B/𝔯 B` is an Artinian
-ring of radical `𝔰/𝔯 B`. One then knows (Bourbaki, _Alg. comm._, chap. III, §2, n° 13, cor. of prop. 19) that `B` is
-direct composite of local rings.
+which is also the $\mathfrak{s}$-preadic topology, where $\mathfrak{s}$ is the radical of the semi-local ring $B$, for
+$B/\mathfrak{r} B$ is an Artinian ring of radical $\mathfrak{s}/\mathfrak{r} B$. One then knows (Bourbaki, _Alg. comm._,
+chap. III, §2, n° 13, cor. of prop. 19) that $B$ is direct composite of local rings.
 
 **Proposition (18.5.15).**
 
 <!-- label: IV.18.5.15 -->
 
-*Let `A` be a Henselian ring, `𝔯` its radical. Then the functor `B ↦ B/𝔯 B` is an equivalence from the category of
-finite étale `A`-algebras with the category of finite étale `(A/𝔯)`-algebras.*
+*Let $A$ be a Henselian ring, $\mathfrak{r}$ its radical. Then the functor $B \mapsto B/\mathfrak{r} B$ is an
+equivalence from the category of finite étale $A$-algebras with the category of finite étale
+$(A/\mathfrak{r})$-algebras.*
 
 The fact that the functor in the statement is fully faithful is a particular case of `(18.5.12)`. To show that this
-functor is an equivalence of categories, one may restrict to the case where `A` is local; it then suffices to apply
-`(18.1.1)` (for étale morphisms), to `S = Spec(A)` and `S_0 = Spec(A/𝔯)`, reduced to a single point.
+functor is an equivalence of categories, one may restrict to the case where $A$ is local; it then suffices to apply
+`(18.1.1)` (for étale morphisms), to $S = \operatorname{Spec}(A)$ and $S_{0} = \operatorname{Spec}(A/\mathfrak{r})$,
+reduced to a single point.
 
-**Remarks (18.5.16).** — (i) We do not know whether proposition `(18.5.15)` generalizes to a Henselian couple
-`(S, S_0)`, even when `S` is affine and Noetherian.
+**Remarks (18.5.16).** — (i) We do not know whether proposition `(18.5.15)` generalizes to a Henselian couple $(S,
+S_{0})$, even when $S$ is affine and Noetherian.
 
-(ii) Let `A` be a Noetherian ring, `𝔍` an ideal of `A` such that `A` is separated and complete for the `𝔍`-preadic
-topology. Then the couple `(Spec(A), Spec(A/𝔍))` is Henselian: indeed, for every finite `A`-algebra `B`, `B` is
-separated and complete for the `𝔍`-preadic topology `(0_I, 7.3.6)`. Replacing `B` by `A` and `𝔍 B` by `𝔍`, everything
-comes down to seeing that the map which, to every idempotent of `A`, associates its class `mod 𝔍`, is bijective. Now,
-one has `A = lim_← (A/𝔍^n)`. Let `Idem(A)` denote the set of idempotents of `A`, and for every ring homomorphism
-`φ : A → B`, let `Idem(φ)` denote the map from `Idem(A)` to `Idem(B)` restriction of `φ`; it follows from the definition
-of the projective limit that one has `Idem(A) = lim_← Idem(A/𝔍^n)` for the maps `ψ_{nm} : Idem(A/𝔍^m) → Idem(A/𝔍^n)`
-restriction of the canonical maps `A/𝔍^m → A/𝔍^n`. But since `Spec(A/𝔍^n) → Spec(A/𝔍^m)` is a homeomorphism, the
-`ψ_{nm}` are bijections (as one saw in the proof of `(18.5.3)`); this therefore proves our assertion.
+(ii) Let $A$ be a Noetherian ring, $\mathfrak{J}$ an ideal of $A$ such that $A$ is separated and complete for the
+$\mathfrak{J}$-preadic topology. Then the couple $(\operatorname{Spec}(A), \operatorname{Spec}(A/\mathfrak{J}))$ is
+Henselian: indeed, for every finite $A$-algebra $B$, $B$ is separated and complete for the $\mathfrak{J}$-preadic
+topology $(0_{I}, 7.3.6)$. Replacing $B$ by $A$ and $\mathfrak{J} B$ by $\mathfrak{J}$, everything comes down to seeing
+that the map which, to every idempotent of $A$, associates its class $mod \mathfrak{J}$, is bijective. Now, one has $A =
+\varprojlim (A/\mathfrak{J}^{n})$. Let $\operatorname{Idem}(A)$ denote the set of idempotents of $A$, and for every ring
+homomorphism $\phi : A \to B$, let $\operatorname{Idem}(\phi)$ denote the map from $\operatorname{Idem}(A)$ to
+$\operatorname{Idem}(B)$ restriction of $\phi$; it follows from the definition of the projective limit that one has
+`Idem(A) = lim_← Idem(A/𝔍^n)` for the maps $\psi_{nm} : \operatorname{Idem}(A/\mathfrak{J}^{m}) \to
+\operatorname{Idem}(A/\mathfrak{J}^{n})$ restriction of the canonical maps $A/\mathfrak{J}^{m} \to A/\mathfrak{J}^{n}$.
+But since $\operatorname{Spec}(A/\mathfrak{J}^{n}) \to \operatorname{Spec}(A/\mathfrak{J}^{m})$ is a homeomorphism, the
+$\psi_{nm}$ are bijections (as one saw in the proof of `(18.5.3)`); this therefore proves our assertion.
 
 **Theorem (18.5.17).**
 
 <!-- label: IV.18.5.17 -->
 
-*Let `A` be a Henselian local ring, `S = Spec(A)`, `s` the closed point of `S`. For every smooth morphism `f : X → S`,
-the canonical map*
+*Let $A$ be a Henselian local ring, $S = \operatorname{Spec}(A)$, $s$ the closed point of $S$. For every smooth morphism
+$f : X \to S$, the canonical map*
 
-```text
-  Γ(X/S) → Γ(X_s/k(s))
-```
+$$ \Gamma(X/S) \to \Gamma(X_{s}/k(s)) $$
 
-*(where `X_s = f⁻¹(s)`) is surjective.*
+*(where $X_{s} = f^{-1}(s)$) is surjective.*
 
-The datum of a `k(s)`-section of `X_s` is equivalent to that of a point `x ∈ X` above `s` rational over `k(s)`, and it
-is a matter of proving that there exists an `S`-section `u : S → X` such that `u(s) = x`. Taking `(17.16.3, (i))` into
-account, one may suppose that `f` is étale. Then the conclusion follows from criterion `(18.5.11, b))`. (The reader will
-note that by virtue of this criterion, the validity of `(18.5.17)` for a given local ring `A` is necessary and
-sufficient for `A` to be Henselian.)
+The datum of a $k(s)$-section of $X_{s}$ is equivalent to that of a point $x \in X$ above $s$ rational over $k(s)$, and
+it is a matter of proving that there exists an $S$-section $u : S \to X$ such that $u(s) = x$. Taking `(17.16.3, (i))`
+into account, one may suppose that $f$ is étale. Then the conclusion follows from criterion `(18.5.11, b))`. (The reader
+will note that by virtue of this criterion, the validity of `(18.5.17)` for a given local ring $A$ is necessary and
+sufficient for $A$ to be Henselian.)
 
 **Remark (18.5.18).** — The conditions of `(18.5.11)` are also equivalent to the following:
 
-*d) For every morphism `f : X → S` locally of finite type and every point `x ∈ X` such that `f(x)` is the closed point
-`s` of `S` and that `𝒪_{X, x}/𝔪_s 𝒪_{X, x}` is a field canonically isomorphic to `k(s) = A/𝔪_s`, there exists an open
-neighbourhood `U` of `x` in `X` such that `f | U` is a closed immersion.*
+*d) For every morphism $f : X \to S$ locally of finite type and every point $x \in X$ such that $f(x)$ is the closed
+point $s$ of $S$ and that $\mathcal{O}_{X, x}/\mathfrak{m}_{s} \mathcal{O}_{X, x}$ is a field canonically isomorphic to
+$k(s) = A/\mathfrak{m}_{s}$, there exists an open neighbourhood $U$ of $x$ in $X$ such that $f | U$ is a closed
+immersion.*
 
 <!-- original page 135 -->
 
 It is immediate that d) implies condition b) of `(18.5.11)` since a closed étale immersion is an open immersion
 `(18.9.1)`. Conversely, suppose the conditions of `(18.5.11)` verified and let us prove d). The hypothesis of d) implies
-that `f` is quasi-finite at the point `x` `(Err_{III}, 20)`, by virtue of `(13.1.4)`. Hence by virtue of condition c) of
-`(18.5.11)`, `𝒪_{X, x}` is a finite `A`-algebra and `Spec(𝒪_{X, x})` an open neighbourhood `U` of `x` in `X`. In
-addition, since `𝒪_{X, x}/𝔪_s 𝒪_{X, x}` is isomorphic to `k = A/𝔪_s`, Nakayama's lemma proves that the homomorphism
-`A → 𝒪_{X, x}` is surjective, hence `f | U` is a closed immersion.
+that $f$ is quasi-finite at the point $x$ $(Err_{III}, 20)$, by virtue of `(13.1.4)`. Hence by virtue of condition c) of
+`(18.5.11)`, $\mathcal{O}_{X, x}$ is a finite $A$-algebra and $\operatorname{Spec}(\mathcal{O}_{X, x})$ an open
+neighbourhood $U$ of $x$ in $X$. In addition, since $\mathcal{O}_{X, x}/\mathfrak{m}_{s} \mathcal{O}_{X, x}$ is
+isomorphic to $k = A/\mathfrak{m}_{s}$, Nakayama's lemma proves that the homomorphism $A \to \mathcal{O}_{X, x}$ is
+surjective, hence $f | U$ is a closed immersion.
 
 **Proposition (18.5.19).**
 
 <!-- label: IV.18.5.19 -->
 
-*Let `A` be a Noetherian and Henselian local ring, `S = Spec(A)`, `s` the closed point of `S`, `f : X → S` a proper
-morphism; put `X_s = f⁻¹(s)`. Then the map `Y ↦ Y ∩ X_s` is a bijection of the set of connected components of `X` onto
-the set of connected components of `X_s`.*
+*Let $A$ be a Noetherian and Henselian local ring, $S = \operatorname{Spec}(A)$, $s$ the closed point of $S$, $f : X \to
+S$ a proper morphism; put $X_{s} = f^{-1}(s)$. Then the map $Y \mapsto Y \cap X_{s}$ is a bijection of the set of
+connected components of $X$ onto the set of connected components of $X_{s}$.*
 
-By considering a closed sub-prescheme of `X` having for underlying space a connected component of `X`, one is reduced to
-proving that if `X` is connected and non-empty, then `X_s` is connected and non-empty. The fact that `X_s` is non-empty
-follows from `(II, 7.2.1)`; to prove that `X_s` is connected, let us reason by contradiction, considering the Stein
-factorization `f : X →^{f'} S' →^g S` of the proper morphism `f` `(III, 4.3.3)`; by hypothesis, the discrete finite set
-`g⁻¹(s)` would contain at least two points. Since `A` is Henselian and `g` separated and of finite type, it would then
-follow from `(18.5.11, c)` that `S'` would be a sum of two non-empty preschemes `S'_1`, `S'_2` (since the intersection
-of one of them with `g⁻¹(s)` is reduced to a single point). Since `f'` is surjective `(III, 4.3.1)`, one would conclude
-that `X` is a sum of two non-empty preschemes, contrary to the hypothesis.
+By considering a closed sub-prescheme of $X$ having for underlying space a connected component of $X$, one is reduced to
+proving that if $X$ is connected and non-empty, then $X_{s}$ is connected and non-empty. The fact that $X_{s}$ is
+non-empty follows from `(II, 7.2.1)`; to prove that $X_{s}$ is connected, let us reason by contradiction, considering
+the Stein factorization $f : X \to^{f'} S' \to^{g} S$ of the proper morphism $f$ `(III, 4.3.3)`; by hypothesis, the
+discrete finite set $g^{-1}(s)$ would contain at least two points. Since $A$ is Henselian and $g$ separated and of
+finite type, it would then follow from `(18.5.11, c)` that $S'$ would be a sum of two non-empty preschemes $S'_{1}$,
+$S'_{2}$ (since the intersection of one of them with $g^{-1}(s)$ is reduced to a single point). Since $f'$ is surjective
+`(III, 4.3.1)`, one would conclude that $X$ is a sum of two non-empty preschemes, contrary to the hypothesis.
 
 <!-- original page 135 -->
 
 ### 18.6. Henselization
 
-**(18.6.1)** Given a local ring `A`, we say that a local `A`-algebra `B` is **essentially étale** if there exist an
-étale `A`-algebra `C` and a prime ideal `𝔫` of `C` such that `B` is `A`-isomorphic to `C_𝔫` and the composite
-homomorphism `A → C → C_𝔫` is local (in other words, that `𝔫` lies over the maximal ideal `𝔪` of `A`); this entails
-`(17.6.1)` that `𝔫` is the only prime ideal of `B` lying over `𝔪`, since `B` is a local ring. If `B`, `B'` are two
-essentially étale local `A`-algebras, then every `A`-homomorphism `B → B'` is local.
+**(18.6.1)** Given a local ring $A$, we say that a local $A$-algebra $B$ is **essentially étale** if there exist an
+étale $A$-algebra $C$ and a prime ideal $\mathfrak{n}$ of $C$ such that $B$ is $A$-isomorphic to $C_{\mathfrak{n}}$ and
+the composite homomorphism $A \to C \to C_{\mathfrak{n}}$ is local (in other words, that $\mathfrak{n}$ lies over the
+maximal ideal $\mathfrak{m}$ of $A$); this entails `(17.6.1)` that $\mathfrak{n}$ is the only prime ideal of $B$ lying
+over $\mathfrak{m}$, since $B$ is a local ring. If $B$, $B'$ are two essentially étale local $A$-algebras, then every
+$A$-homomorphism $B \to B'$ is local.
 
-If `A'` is an essentially étale local `A`-algebra and `A''` an essentially étale local `A'`-algebra, then `A''` is an
-essentially étale local `A`-algebra. Indeed, by hypothesis we have `A' = B_𝔫`, where `B` is an étale `A`-algebra and `𝔫`
-a prime ideal of `B` lying over the maximal ideal of `A`, and `A'' = B'_{𝔫'}`, where `B'` is an étale `A'`-algebra and
-`𝔫'` a prime ideal of `B'` lying over the ideal `𝔫 B_𝔫`. Setting `S = B − 𝔫`, so that `A' = S^{−1} B`, `B'` is of the
-form `S^{−1} C`, where `C` is a `B`-algebra of finite presentation. Consequently `C` is an `A`-algebra of finite
-presentation and `A''` is of the form `C_𝔯`, where `𝔯` is a prime ideal of `C` lying over the maximal ideal of `A`.
-Since `A'` is a formally étale `A`-algebra and `A''` a formally étale `A'`-algebra, `A''` is a formally étale
+If $A'$ is an essentially étale local $A$-algebra and `A''` an essentially étale local $A'$-algebra, then `A''` is an
+essentially étale local $A$-algebra. Indeed, by hypothesis we have $A' = B_{\mathfrak{n}}$, where $B$ is an étale
+$A$-algebra and $\mathfrak{n}$ a prime ideal of $B$ lying over the maximal ideal of $A$, and $A'' = B'_{\mathfrak{n}'}$,
+where $B'$ is an étale $A'$-algebra and $\mathfrak{n}'$ a prime ideal of $B'$ lying over the ideal $\mathfrak{n}
+B_{\mathfrak{n}}$. Setting $S = B - \mathfrak{n}$, so that $A' = S^{-1} B$, $B'$ is of the form $S^{-1} C$, where $C$ is
+a $B$-algebra of finite presentation. Consequently $C$ is an $A$-algebra of finite presentation and `A''` is of the form
+$C_{\mathfrak{r}}$, where $\mathfrak{r}$ is a prime ideal of $C$ lying over the maximal ideal of $A$. Since $A'$ is a
+formally étale $A$-algebra and `A''` a formally étale $A'$-algebra, `A''` is a formally étale
 
 <!-- original page 136 -->
 
-`A`-algebra (for the discrete topologies `(0_IV, 19.3.5)` `(17.1.3)`); the morphism `Spec(C) → Spec(A)` is therefore
-étale at the point `𝔯` `(17.6.1)`, and consequently there exists an element `g ∈ C` such that `C_g` is an étale
-`A`-algebra, which proves that `A''` is an essentially étale `A`-algebra.
+$A$-algebra (for the discrete topologies $(0_{IV}, 19.3.5)$ `(17.1.3)`); the morphism $\operatorname{Spec}(C) \to
+\operatorname{Spec}(A)$ is therefore étale at the point $\mathfrak{r}$ `(17.6.1)`, and consequently there exists an
+element $g \in C$ such that $C_{g}$ is an étale $A$-algebra, which proves that `A''` is an essentially étale
+$A$-algebra.
 
-Given a local ring `A`, there exists a set `𝔈` of essentially étale local `A`-algebras such that every essentially étale
-local `A`-algebra is `A`-isomorphic to an algebra belonging to `𝔈`. To see this, it evidently suffices to observe that
-there exists a set `𝔉` of `A`-algebras of finite type such that every `A`-algebra of finite type is isomorphic to an
-algebra belonging to `𝔉`; one may take `𝔉` to be the set of quotients of the polynomial algebras `A[T_1, …, T_n]`
-`(n ∈ ℕ)`.
+Given a local ring $A$, there exists a set $\mathfrak{E}$ of essentially étale local $A$-algebras such that every
+essentially étale local $A$-algebra is $A$-isomorphic to an algebra belonging to $\mathfrak{E}$. To see this, it
+evidently suffices to observe that there exists a set $\mathfrak{F}$ of $A$-algebras of finite type such that every
+$A$-algebra of finite type is isomorphic to an algebra belonging to $\mathfrak{F}$; one may take $\mathfrak{F}$ to be
+the set of quotients of the polynomial algebras $A[T_{1}, \cdots, T_{n}]$ $(n \in \mathbb{N})$.
 
-In what follows, if `A` and `B` are two local rings, we shall denote by `Hom.loc(A, B)` the set of local homomorphisms
-from `A` to `B`.
+In what follows, if $A$ and $B$ are two local rings, we shall denote by $\operatorname{Hom}.loc(A, B)$ the set of local
+homomorphisms from $A$ to $B$.
 
 **Lemma (18.6.2).**
 
 <!-- label: IV.18.6.2 -->
 
-*Let `A`, `A'` be two local rings, `k`, `k'` their respective residue fields, `φ : A → A'` a (local) homomorphism making
-`A'` into an essentially étale `A`-algebra `(18.6.1)` and such that the corresponding homomorphism `k → k'` is
-bijective. Then, for every Henselian local ring `B`, the canonical map*
+*Let $A$, $A'$ be two local rings, $k$, $k'$ their respective residue fields, $\phi : A \to A'$ a (local) homomorphism
+making $A'$ into an essentially étale $A$-algebra `(18.6.1)` and such that the corresponding homomorphism $k \to k'$ is
+bijective. Then, for every Henselian local ring $B$, the canonical map*
 
 ```text
   (18.6.2.1)    Hom(φ, 1_B) : Hom.loc(A', B) → Hom.loc(A, B)
@@ -1431,81 +1543,86 @@ bijective. Then, for every Henselian local ring `B`, the canonical map*
 
 *is bijective.*
 
-Set `S = Spec(A)`, `Y = Spec(B)`, and let `s` and `y` be the closed points of `S` and `Y` respectively. By hypothesis,
-`A'` is isomorphic to a local ring `𝒪_{X, x}` of an `S`-scheme `X` étale over `S`, at a point `x ∈ X` lying over `s`.
-Suppose given a local homomorphism `ψ : A → B`, making `Y` into an `S`-scheme; the problem is to see that there exists
-one and only one `S`-morphism `f : Y → X` such that `f(y) = x`. Set `X' = X ×_S Y`, and note that since `k(x) = k(s)`,
-there exists a single point `x' ∈ X'` lying over `x` and over `y`, and that `k(x') = k(y)`. It must be shown that there
-exists a unique `Y`-section `f'` of `X'` such that `f'(y) = x'`. Now, the morphism `g : X' → Y` is étale and separated,
-and the fibre `X'_y = g^{−1}(y)` has at the point `x'` the local ring `k(x') = k(y)` for its local ring. If one sets
-`Y_0 = Spec(k(y))`, there exists therefore a unique `Y_0`-section `f_0` of `X'_y` such that `f_0(y) = x'`, and the
-conclusion follows from the assumption that `B` is Henselian and from `(18.5.11, e)`.
+Set $S = \operatorname{Spec}(A)$, $Y = \operatorname{Spec}(B)$, and let $s$ and $y$ be the closed points of $S$ and $Y$
+respectively. By hypothesis, $A'$ is isomorphic to a local ring $\mathcal{O}_{X, x}$ of an $S$-scheme $X$ étale over
+$S$, at a point $x \in X$ lying over $s$. Suppose given a local homomorphism $\psi : A \to B$, making $Y$ into an
+$S$-scheme; the problem is to see that there exists one and only one $S$-morphism $f : Y \to X$ such that $f(y) = x$.
+Set $X' = X \times_{S} Y$, and note that since $k(x) = k(s)$, there exists a single point $x' \in X'$ lying over $x$ and
+over $y$, and that $k(x') = k(y)$. It must be shown that there exists a unique $Y$-section $f'$ of $X'$ such that $f'(y)
+= x'$. Now, the morphism $g : X' \to Y$ is étale and separated, and the fibre $X'_{y} = g^{-1}(y)$ has at the point $x'$
+the local ring $k(x') = k(y)$ for its local ring. If one sets $Y_{0} = \operatorname{Spec}(k(y))$, there exists
+therefore a unique `Y_0`-section $f_{0}$ of $X'_{y}$ such that $f_{0}(y) = x'$, and the conclusion follows from the
+assumption that $B$ is Henselian and from `(18.5.11, e)`.
 
-We shall say that a local `A`-algebra `A'` satisfying the conditions of `(18.6.2)` is **strictly essentially étale**.
-Note that the criterion `(18.5.11, b)` signifies that, in order for `A` to be Henselian, it is necessary and sufficient
-that every strictly essentially étale `A`-algebra be `A`-isomorphic to `A`.
+We shall say that a local $A$-algebra $A'$ satisfying the conditions of `(18.6.2)` is **strictly essentially étale**.
+Note that the criterion `(18.5.11, b)` signifies that, in order for $A$ to be Henselian, it is necessary and sufficient
+that every strictly essentially étale $A$-algebra be $A$-isomorphic to $A$.
 
 **Lemma (18.6.3).**
 
 <!-- label: IV.18.6.3 -->
 
-*Let `A` be a local ring, `A_1`, `A_2` two strictly essentially étale local `A`-algebras.*
+*Let $A$ be a local ring, `A_1`, `A_2` two strictly essentially étale local $A$-algebras.*
 
-*(i) There exists at most one `A`-homomorphism (necessarily local) from `A_1` to `A_2`.*
+*(i) There exists at most one $A$-homomorphism (necessarily local) from `A_1` to `A_2`.*
 
-*(ii) There exist a strictly essentially étale local `A`-algebra `A_3` and two `A`-homomorphisms `A_1 → A_3`,
-`A_2 → A_3`.*
+*(ii) There exist a strictly essentially étale local $A$-algebra `A_3` and two $A$-homomorphisms $A_{1} \to A_{3}$,
+$A_{2} \to A_{3}$.*
 
-Set `S = Spec(A)`; by hypothesis there are two `S`-schemes `X_1`, `X_2` étale over `S`, and two points `x_1 ∈ X_1`,
-`x_2 ∈ X_2` lying over the closed point `s` of `S` and such that `A_1 = 𝒪_{X_1, x_1}`, `A_2 = 𝒪_{X_2, x_2}`. Set
-`X_3 = X_1 ×_S X_2`; the hypotheses `k(x_1) = k(x_2) = k(s)` entail that there exists a single point `x_3 ∈ X_3` lying
-over `x_1` and `x_2` and that `k(x_3) = k(s)` `(I, 3.4.9)`. Moreover, `X_3` is étale over `S` `(17.3.3)`, so
-`A_3 = 𝒪_{X_3, x_3}` satisfies the conditions of (ii). On the other hand,
+Set $S = \operatorname{Spec}(A)$; by hypothesis there are two $S$-schemes `X_1`, `X_2` étale over $S$, and two points
+$x_{1} \in X_{1}$, $x_{2} \in X_{2}$ lying over the closed point $s$ of $S$ and such that $A_{1} = \mathcal{O}_{X_{1},
+x_{1}}$, $A_{2} = \mathcal{O}_{X_{2}, x_{2}}$. Set $X_{3} = X_{1} \times_{S} X_{2}$; the hypotheses $k(x_{1}) = k(x_{2})
+= k(s)$ entail that there exists a single point $x_{3} \in X_{3}$ lying over $x_{1}$ and $x_{2}$ and that $k(x_{3}) =
+k(s)$ `(I, 3.4.9)`. Moreover, `X_3` is étale over $S$ `(17.3.3)`, so $A_{3} = \mathcal{O}_{X_{3}, x_{3}}$ satisfies the
+conditions of (ii). On the other hand,
 
 <!-- original page 137 -->
 
-we have seen that an `A`-homomorphism from `A_1` to `A_2` is necessarily local; it corresponds to an `S`-morphism `f`
-from `X_2 = Spec(A_2)` to `X_1` such that `f(x_2) = x_1`, or again, setting `X_3 = X_1 ×_S X_2`, to an `X_2`-section
-`f'` of `X_3` such that `f'(x_2) = x_3`. Since `k(x_3) = k(x_2)` and `X_3` is connected, the uniqueness of `f` follows
-from `(17.4.9)`, whence (i).
+we have seen that an $A$-homomorphism from `A_1` to `A_2` is necessarily local; it corresponds to an $S$-morphism $f$
+from $X_{2} = \operatorname{Spec}(A_{2})$ to `X_1` such that $f(x_{2}) = x_{1}$, or again, setting $X_{3} = X_{1}
+\times_{S} X_{2}$, to an `X_2`-section $f'$ of `X_3` such that $f'(x_{2}) = x_{3}$. Since $k(x_{3}) = k(x_{2})$ and
+`X_3` is connected, the uniqueness of $f$ follows from `(17.4.9)`, whence (i).
 
-**(18.6.4)** Denote by `𝔖` the subset of the set `𝔈` defined in `(18.6.1)` consisting of the strictly essentially étale
-`A`-algebras belonging to `𝔈`. It follows from `(18.6.3)` that the relation "there exists an `A`-homomorphism from `A_λ`
-to `A_μ`" is a preorder relation on `𝔖` and makes `𝔖` into an increasing filtered set. Indexing `𝔖` by itself by means
-of the identity map, it follows from `(18.6.3, (i))` that if `λ ⩽ μ` in `𝔖`, there exists a unique `A`-homomorphism
-`φ_{μλ} : A_λ → A_μ` and `(A_λ, φ_{μλ})` is evidently an inductive system of local `A`-algebras, the `φ_{μλ}` being
-local homomorphisms. Moreover, it follows from `(17.3.5)` that for `λ ⩽ μ`, `A_μ` is a strictly essentially étale
-`A_λ`-algebra.
+**(18.6.4)** Denote by $\mathfrak{S}$ the subset of the set $\mathfrak{E}$ defined in `(18.6.1)` consisting of the
+strictly essentially étale $A$-algebras belonging to $\mathfrak{E}$. It follows from `(18.6.3)` that the relation "there
+exists an $A$-homomorphism from $A_{\lambda}$ to $A_{\mu}$" is a preorder relation on $\mathfrak{S}$ and makes
+$\mathfrak{S}$ into an increasing filtered set. Indexing $\mathfrak{S}$ by itself by means of the identity map, it
+follows from `(18.6.3, (i))` that if $\lambda \leqslant \mu$ in $\mathfrak{S}$, there exists a unique $A$-homomorphism
+$\phi_{\mu \lambda} : A_{\lambda} \to A_{\mu}$ and $(A_{\lambda}, \phi_{\mu \lambda})$ is evidently an inductive system
+of local $A$-algebras, the $\phi_{\mu \lambda}$ being local homomorphisms. Moreover, it follows from `(17.3.5)` that for
+$\lambda \leqslant \mu$, $A_{\mu}$ is a strictly essentially étale $A_{\lambda}$-algebra.
 
 **Definition (18.6.5).**
 
 <!-- label: IV.18.6.5 -->
 
-*One calls the **Henselization** of a local ring `A`, and denotes by `^h A`, the inductive-limit `A`-algebra of the
-inductive system `(A_λ, φ_{μλ})` defined in `(18.6.4)`.*
+*One calls the **Henselization** of a local ring $A$, and denotes by ${}^{h} A$, the inductive-limit $A$-algebra of the
+inductive system $(A_{\lambda}, \phi_{\mu \lambda})$ defined in `(18.6.4)`.*
 
-This definition depends on the choice of `𝔈` only in appearance; if `𝔈'` is another set of essentially étale local
-`A`-algebras with the same property as `𝔈`, and `𝔖'` is the subset of `𝔈'` consisting of the strictly essentially étale
-`A`-algebras, it follows from `(18.6.3, (ii))` that, for the preorder relations considered, `𝔖` and `𝔖'` are cofinal in
-`𝔖'' = 𝔈 ∪ 𝔈'`, hence give the same inductive limit up to isomorphism. We shall also see below `(18.6.6, (i) and (ii))`
-that `^h A` and the canonical homomorphism `A → ^h A` form a solution of a universal problem, and consequently are
-determined up to unique isomorphism.
+This definition depends on the choice of $\mathfrak{E}$ only in appearance; if $\mathfrak{E}'$ is another set of
+essentially étale local $A$-algebras with the same property as $\mathfrak{E}$, and $\mathfrak{S}'$ is the subset of
+$\mathfrak{E}'$ consisting of the strictly essentially étale $A$-algebras, it follows from `(18.6.3, (ii))` that, for
+the preorder relations considered, $\mathfrak{S}$ and $\mathfrak{S}'$ are cofinal in $\mathfrak{S}'' = \mathfrak{E} \cup
+\mathfrak{E}'$, hence give the same inductive limit up to isomorphism. We shall also see below `(18.6.6, (i) and (ii))`
+that ${}^{h} A$ and the canonical homomorphism $A \to {}^{h} A$ form a solution of a universal problem, and consequently
+are determined up to unique isomorphism.
 
-One will note that if `A` is a field, one obviously has `^h A = A`. In the general case, `^h A` is also the
-Henselization of all the strictly essentially étale `A`-algebras `A_λ (λ ∈ 𝔖)`, for if `B` is a strictly essentially
-étale `A_λ`-algebra, `B` is also a strictly essentially étale `A`-algebra `(18.6.1)`, hence (up to `A`-isomorphism) one
-of the `A_μ` for `μ ⩾ λ`, and the `A_μ` such that `μ ⩾ λ` and such that `A_μ` is a strictly essentially étale
-`A_λ`-algebra form a cofinal set in the preordered set of the `A_μ`, by virtue of `(18.6.1)` and `(18.6.3)`.
+One will note that if $A$ is a field, one obviously has ${}^{h} A = A$. In the general case, ${}^{h} A$ is also the
+Henselization of all the strictly essentially étale $A$-algebras $A_{\lambda} (\lambda \in \mathfrak{S})$, for if $B$ is
+a strictly essentially étale $A_{\lambda}$-algebra, $B$ is also a strictly essentially étale $A$-algebra `(18.6.1)`,
+hence (up to $A$-isomorphism) one of the $A_{\mu}$ for $\mu \geqslant \lambda$, and the $A_{\mu}$ such that $\mu
+\geqslant \lambda$ and such that $A_{\mu}$ is a strictly essentially étale $A_{\lambda}$-algebra form a cofinal set in
+the preordered set of the $A_{\mu}$, by virtue of `(18.6.1)` and `(18.6.3)`.
 
 **Theorem (18.6.6).**
 
 <!-- label: IV.18.6.6 -->
 
-*Let `A` be a local ring, `^h A` its Henselization.*
+*Let $A$ be a local ring, ${}^{h} A$ its Henselization.*
 
-*(i) `^h A` is a Henselian local ring and the structure homomorphism `A → ^h A` is local.*
+*(i) ${}^{h} A$ is a Henselian local ring and the structure homomorphism $A \to {}^{h} A$ is local.*
 
-*(ii) For every Henselian local ring `B`, the canonical map*
+*(ii) For every Henselian local ring $B$, the canonical map*
 
 ```text
   Hom.loc(^h A, B) → Hom.loc(A, B)
@@ -1513,223 +1630,249 @@ of the `A_μ` for `μ ⩾ λ`, and the `A_μ` such that `μ ⩾ λ` and such tha
 
 *is bijective.*
 
-*(iii) `^h A` is a faithfully flat `A`-module, and if `𝔪` is the maximal ideal of `A`, `𝔪 · ^h A` is the maximal ideal
-of `^h A`, and the homomorphism `A/𝔪 → ^h A / 𝔪 · ^h A` of residue fields is bijective.*
+*(iii) ${}^{h} A$ is a faithfully flat $A$-module, and if $\mathfrak{m}$ is the maximal ideal of $A$, $\mathfrak{m}
+\cdot {}^{h} A$ is the maximal ideal of ${}^{h} A$, and the homomorphism $A/\mathfrak{m} \to {}^{h} A / \mathfrak{m}
+\cdot {}^{h} A$ of residue fields is bijective.*
 
-*(iv) If `Â` and `(^h A)^∧` are the separated completions of the local rings `A` and `^h A`, the homomorphism
-`Â → (^h A)^∧` deduced from the structure homomorphism `A → ^h A` by completion is bijective.*
+*(iv) If `Â` and $({}^{h} A)^{\wedge}$ are the separated completions of the local rings $A$ and ${}^{h} A$, the
+homomorphism $\hat{A} \to ({}^{h} A)^{\wedge}$ deduced from the structure homomorphism $A \to {}^{h} A$ by completion is
+bijective.*
 
-*(v) In order for `^h A` to be Noetherian, it is necessary and sufficient that `A` be so.*
+*(v) In order for ${}^{h} A$ to be Noetherian, it is necessary and sufficient that $A$ be so.*
 
-*(vi) If `A` is Henselian, the canonical homomorphism `A → ^h A` is bijective.*
+*(vi) If $A$ is Henselian, the canonical homomorphism $A \to {}^{h} A$ is bijective.*
 
 <!-- original page 138 -->
 
-Let `𝔪_λ` be the maximal ideal of `A_λ`; it follows from the fact that, in `(17.6.1)`, a) implies c'), that for `λ ⩽ μ`,
-one has `𝔪_μ = 𝔪_λ · A_μ`, the homomorphism `A_λ / 𝔪_λ → A_μ / 𝔪_μ` is bijective, and `A_μ` is a flat `A_λ`-module. The
-fact that `^h A` is local, that the homomorphism `A → ^h A` is local, assertion (iii), and the sufficiency of (v) follow
-therefore from `(0_III, 10.3.1.3)`; the necessity of (v) follows from the fact that `^h A` is a faithfully flat
-`A`-module `(0_I, 6.5.2)`.
+Let $\mathfrak{m}_{\lambda}$ be the maximal ideal of $A_{\lambda}$; it follows from the fact that, in `(17.6.1)`, a)
+implies c'), that for $\lambda \leqslant \mu$, one has $\mathfrak{m}_{\mu} = \mathfrak{m}_{\lambda} \cdot A_{\mu}$, the
+homomorphism $A_{\lambda} / \mathfrak{m}_{\lambda} \to A_{\mu} / \mathfrak{m}_{\mu}$ is bijective, and $A_{\mu}$ is a
+flat $A_{\lambda}$-module. The fact that ${}^{h} A$ is local, that the homomorphism $A \to {}^{h} A$ is local, assertion
+(iii), and the sufficiency of (v) follow therefore from $(0_{III}, 10.3.1.3)$; the necessity of (v) follows from the
+fact that ${}^{h} A$ is a faithfully flat $A$-module $(0_{I}, 6.5.2)$.
 
-To prove that `^h A` is Henselian, let us apply the criterion `(18.5.11, b)`. Set `S = Spec(^h A)`,
-`S_0 = Spec(^h A / 𝔪 · ^h A)`, and let `g : S' → S` be an étale morphism; set `S'_0 = g^{−1}(S_0)`, and let
-`f_0 : S_0 → S'_0` be an `S_0`-section of `S'_0`. Reasoning as in `(18.5.4)`, one may suppose that `g` is of finite
-presentation. It then follows from `(8.8.2)` and `(17.7.5)` that there exist an index `λ ∈ 𝔖`, an étale morphism
-`g^{(λ)} : S'^{(λ)} → S^{(λ)} = Spec(A_λ)` and, on setting `S_0^{(λ)} = Spec(A_λ / 𝔪 A_λ)` and
-`S'_0^{(λ)} = g^{(λ)−1}(S_0^{(λ)})`, an `S_0^{(λ)}`-section `f_0^{(λ)} : S_0^{(λ)} → S'_0^{(λ)}` such that
-`S' = S'^{(λ)} ×_{S^{(λ)}} S`, `g = g^{(λ)} × 1` and `f_0 = f_0^{(λ)} × 1`. Let `s` be the closed point of `S`,
-`x = f_0(s)`, `x^{(λ)}` the projection of `x` in `S'^{(λ)}`; since `x^{(λ)}` lies over the closed point `s^{(λ)}` of
-`S^{(λ)}`, the local ring `C^{(λ)}` of `S'^{(λ)}` at the point `x^{(λ)}` is an essentially étale `A_λ`-algebra;
-moreover, since `f_0^{(λ)}(s^{(λ)}) = x^{(λ)}`, one has `k(x^{(λ)}) = k(s^{(λ)})`, in other words, `C^{(λ)}` is a
-strictly essentially étale local `A_λ`-algebra, and consequently `(18.6.1)` is `A_λ`-isomorphic to an `A`-algebra `A_μ`
-with `μ ⩾ λ`. There is therefore an `A_λ`-homomorphism `C^{(λ)} → ^h A`, that is to say an `S^{(λ)}`-morphism
-`h : S → S'^{(λ)}` such that `h(s) = x^{(λ)}`, and consequently there does exist an `S`-section `f` of `S'` such that
-`f(s) = x`, which completes the proof of (i).
+To prove that ${}^{h} A$ is Henselian, let us apply the criterion `(18.5.11, b)`. Set $S = \operatorname{Spec}({}^{h}
+A)$, $S_{0} = \operatorname{Spec}({}^{h} A / \mathfrak{m} \cdot {}^{h} A)$, and let $g : S' \to S$ be an étale morphism;
+set $S'_{0} = g^{-1}(S_{0})$, and let $f_{0} : S_{0} \to S'_{0}$ be an `S_0`-section of $S'_{0}$. Reasoning as in
+`(18.5.4)`, one may suppose that $g$ is of finite presentation. It then follows from `(8.8.2)` and `(17.7.5)` that there
+exist an index $\lambda \in \mathfrak{S}$, an étale morphism $g^{(\lambda)} : S'^{(\lambda)} \to S^{(\lambda)} =
+\operatorname{Spec}(A_{\lambda})$ and, on setting $S^{(\lambda)}_{0} = \operatorname{Spec}(A_{\lambda} / \mathfrak{m}
+A_{\lambda})$ and $S'^{(\lambda)}_{0} = g^{(\lambda)-1}(S^{(\lambda)}_{0})$, an $S^{(\lambda)}_{0}$-section
+$f^{(\lambda)}_{0} : S^{(\lambda)}_{0} \to S'^{(\lambda)}_{0}$ such that $S' = S'^{(\lambda)} \times_{S^{(\lambda)}} S$,
+$g = g^{(\lambda)} \times 1$ and $f_{0} = f^{(\lambda)}_{0} \times 1$. Let $s$ be the closed point of $S$, $x =
+f_{0}(s)$, $x^{(\lambda)}$ the projection of $x$ in $S'^{(\lambda)}$; since $x^{(\lambda)}$ lies over the closed point
+$s^{(\lambda)}$ of $S^{(\lambda)}$, the local ring $C^{(\lambda)}$ of $S'^{(\lambda)}$ at the point $x^{(\lambda)}$ is
+an essentially étale $A_{\lambda}$-algebra; moreover, since $f^{(\lambda)}_{0}(s^{(\lambda)}) = x^{(\lambda)}$, one has
+$k(x^{(\lambda)}) = k(s^{(\lambda)})$, in other words, $C^{(\lambda)}$ is a strictly essentially étale local
+$A_{\lambda}$-algebra, and consequently `(18.6.1)` is $A_{\lambda}$-isomorphic to an $A$-algebra $A_{\mu}$ with $\mu
+\geqslant \lambda$. There is therefore an $A_{\lambda}$-homomorphism $C^{(\lambda)} \to {}^{h} A$, that is to say an
+$S^{(\lambda)}$-morphism $h : S \to S'^{(\lambda)}$ such that $h(s) = x^{(\lambda)}$, and consequently there does exist
+an $S$-section $f$ of $S'$ such that $f(s) = x$, which completes the proof of (i).
 
 To prove (ii), it suffices to note that one has `Hom.loc(^h A, B) = lim_→ Hom.loc(A_λ, B)` and that by `(18.6.2)` the
 canonical homomorphisms `Hom.loc(A_λ, B) ← Hom.loc(A, B)` are bijective.
 
-To establish (iv), note that for every `λ` and every integer `n > 0`, one has `𝔪_λ^n = 𝔪^n · A_λ`, and
-`(𝔪 · ^h A)^n = 𝔪^n · ^h A = lim_→ 𝔪_λ^n`. One concludes, by the exactness of the functor `lim_→` in the category of
-`A`-modules, that `^h A / (𝔪 · ^h A)^n = lim_→ (A_λ / 𝔪_λ^n)`, and consequently it suffices to show that, for every
-integer `n` and every index `λ`, the homomorphism `A / 𝔪^n → A_λ / 𝔪_λ^n` is bijective. Now, this is true by hypothesis
-for `n = 1`; on the other hand, since `A_λ` is a flat `A`-module, one has
+To establish (iv), note that for every $\lambda$ and every integer $n > 0$, one has $\mathfrak{m}^{n}_{\lambda} =
+\mathfrak{m}^{n} \cdot A_{\lambda}$, and $(\mathfrak{m} \cdot {}^{h} A)^{n} = \mathfrak{m}^{n} \cdot {}^{h} A =
+\varinjlim \mathfrak{m}^{n}_{\lambda}$. One concludes, by the exactness of the functor $\varinjlim$ in the category of
+$A$-modules, that ${}^{h} A / (\mathfrak{m} \cdot {}^{h} A)^{n} = \varinjlim (A_{\lambda} /
+\mathfrak{m}^{n}_{\lambda})$, and consequently it suffices to show that, for every integer $n$ and every index
+$\lambda$, the homomorphism $A / \mathfrak{m}^{n} \to A_{\lambda} / \mathfrak{m}^{n}_{\lambda}$ is bijective. Now, this
+is true by hypothesis for $n = 1$; on the other hand, since $A_{\lambda}$ is a flat $A$-module, one has
 
 ```text
   𝔪_λ^n / 𝔪_λ^{n+1} = (𝔪^n / 𝔪^{n+1}) ⊗_A A_λ = (𝔪^n / 𝔪^{n+1}) ⊗_{A/𝔪} (A_λ / 𝔪 A_λ),
 ```
 
-and since `A/𝔪 → A_λ / 𝔪 A_λ = A_λ / 𝔪_λ` is bijective, the homomorphism `𝔪^n / 𝔪^{n+1} → 𝔪_λ^n / 𝔪_λ^{n+1}` is also
-bijective; the conclusion follows therefore from `(Bourbaki, Alg. comm., chap. III, § 2, n° 8, cor. 3 of th. 1)`.
+and since $A/\mathfrak{m} \to A_{\lambda} / \mathfrak{m} A_{\lambda} = A_{\lambda} / \mathfrak{m}_{\lambda}$ is
+bijective, the homomorphism $\mathfrak{m}^{n} / \mathfrak{m}^{n+1} \to \mathfrak{m}^{n}_{\lambda} /
+\mathfrak{m}^{n+1}_{\lambda}$ is also bijective; the conclusion follows therefore from
+`(Bourbaki, Alg. comm., chap. III, § 2, n° 8, cor. 3 of th. 1)`.
 
-Finally, if `A` is Henselian, it follows from the remark preceding `(18.6.3)` that the homomorphisms `A → A_λ` are
-bijective, which proves (vi) by the definition of `^h A`.
+Finally, if $A$ is Henselian, it follows from the remark preceding `(18.6.3)` that the homomorphisms $A \to A_{\lambda}$
+are bijective, which proves (vi) by the definition of ${}^{h} A$.
 
-**(18.6.7)** Now let `A` be a semi-local ring, `𝔪_i (1 ⩽ i ⩽ r)` its maximal ideals. One calls the **Henselization** of
-`A` and one still denotes by `^h A` the product ring `∏ ^h(A_{𝔪_i})` of the Henselizations of the local rings `A_{𝔪_i}`.
-It is a faithfully flat `A`-module and a semi-local `A`-algebra whose maximal ideals are the `𝔪_i · ^h A` by virtue of
-`(18.6.6, (iii))`; moreover, if `𝔯 = ⋂ 𝔪_i` is the radical of `A`, it follows from what precedes that `𝔯 · ^h A`
+**(18.6.7)** Now let $A$ be a semi-local ring, $\mathfrak{m}_{i} (1 \leqslant i \leqslant r)$ its maximal ideals. One
+calls the **Henselization** of $A$ and one still denotes by ${}^{h} A$ the product ring $\prod
+{}^{h}(A_{\mathfrak{m}_{i}})$ of the Henselizations of the local rings $A_{\mathfrak{m}_{i}}$. It is a faithfully flat
+$A$-module and a semi-local $A$-algebra whose maximal ideals are the $\mathfrak{m}_{i} \cdot {}^{h} A$ by virtue of
+`(18.6.6, (iii))`; moreover, if $\mathfrak{r} = \bigcap \mathfrak{m}_{i}$ is the radical of $A$, it follows from what
+precedes that $\mathfrak{r} \cdot {}^{h} A$
 
 <!-- original page 139 -->
 
-is the radical of `^h A` and that the canonical map `A / 𝔯 → ^h A / 𝔯 · ^h A` is bijective. As the separated completion
-`Â` of `A` for the `𝔯`-preadic topology is the product of the separated completions `Â_{𝔪_i}`
-`(Bourbaki, Alg. comm., chap. III, § 2, n° 13, prop. 18)`, the canonical homomorphism `Â → (^h A)^∧` is bijective by
-`(18.6.6, (iv))`, and it is clear by `(18.6.6, (v))` that in order for `^h A` to be Noetherian it is necessary and
-sufficient that `A` be so.
+is the radical of ${}^{h} A$ and that the canonical map $A / \mathfrak{r} \to {}^{h} A / \mathfrak{r} \cdot {}^{h} A$ is
+bijective. As the separated completion `Â` of $A$ for the $\mathfrak{r}$-preadic topology is the product of the
+separated completions $\hat{A}_{\mathfrak{m}_{i}}$ `(Bourbaki, Alg. comm., chap. III, § 2, n° 13, prop. 18)`, the
+canonical homomorphism $\hat{A} \to ({}^{h} A)^{\wedge}$ is bijective by `(18.6.6, (iv))`, and it is clear by
+`(18.6.6, (v))` that in order for ${}^{h} A$ to be Noetherian it is necessary and sufficient that $A$ be so.
 
-To obtain the analogue of the universal property `(18.6.6, (ii))`, let us agree, when `A` and `B` are two semi-local
-rings of radicals `𝔯`, `𝔰` respectively, to call a **semi-local homomorphism** from `A` to `B` any homomorphism `φ` such
-that `φ(𝔯) ⊂ 𝔰`. In the particular case where `B` is a product of local rings `B_j (1 ⩽ j ⩽ n)`, the datum of such a
-homomorphism amounts to that of its projections `φ_j : A → B_j`, which are homomorphisms subject only to the condition
-that `φ_j(𝔯) ⊂ 𝔫_j`, where `𝔫_j` is the maximal ideal of `B_j`. Furthermore, if `𝔪_i (1 ⩽ i ⩽ m)` are the maximal ideals
-of `A`, the prime ideal `φ_j^{−1}(𝔫_j)` must contain one of the `𝔪_i` since it contains their intersection `𝔯`, hence it
-equals one of the `𝔪_i` and `φ_j` factors as `A → A_{𝔪_i} →^{φ'_j} B_j`, where `φ'_j` is a local homomorphism. If
-`Hom.sloc(A, B)` denotes the set of semi-local homomorphisms from `A` to `B`, one can thus identify this set with
-`∏_j (⋃_i Hom.loc(A_{𝔪_i}, B_j))` in the case considered; as a Henselian semi-local ring is a direct product of
-Henselian local rings, one sees that the universal property `(18.6.6, (ii))` is still valid for a semi-local ring `A`,
-on replacing local homomorphisms by semi-local homomorphisms.
+To obtain the analogue of the universal property `(18.6.6, (ii))`, let us agree, when $A$ and $B$ are two semi-local
+rings of radicals $\mathfrak{r}$, $\mathfrak{s}$ respectively, to call a **semi-local homomorphism** from $A$ to $B$ any
+homomorphism $\phi$ such that $\phi(\mathfrak{r}) \subset \mathfrak{s}$. In the particular case where $B$ is a product
+of local rings $B_{j} (1 \leqslant j \leqslant n)$, the datum of such a homomorphism amounts to that of its projections
+$\phi_{j} : A \to B_{j}$, which are homomorphisms subject only to the condition that $\phi_{j}(\mathfrak{r}) \subset
+\mathfrak{n}_{j}$, where $\mathfrak{n}_{j}$ is the maximal ideal of $B_{j}$. Furthermore, if $\mathfrak{m}_{i} (1
+\leqslant i \leqslant m)$ are the maximal ideals of $A$, the prime ideal $\phi^{-1}_{j}(\mathfrak{n}_{j})$ must contain
+one of the $\mathfrak{m}_{i}$ since it contains their intersection $\mathfrak{r}$, hence it equals one of the
+$\mathfrak{m}_{i}$ and $\phi_{j}$ factors as $A \to A_{\mathfrak{m}_{i}} \to^{\phi'_{j}} B_{j}$, where $\phi'_{j}$ is a
+local homomorphism. If $\operatorname{Hom}.sloc(A, B)$ denotes the set of semi-local homomorphisms from $A$ to $B$, one
+can thus identify this set with $\prod_{j} (\bigcup_{i} \operatorname{Hom}.loc(A_{\mathfrak{m}_{i}}, B_{j}))$ in the
+case considered; as a Henselian semi-local ring is a direct product of Henselian local rings, one sees that the
+universal property `(18.6.6, (ii))` is still valid for a semi-local ring $A$, on replacing local homomorphisms by
+semi-local homomorphisms.
 
 **Proposition (18.6.8).**
 
 <!-- label: IV.18.6.8 -->
 
-*Let `A` be a semi-local ring, `B` a semi-local `A`-algebra that is integral over `A`. Then `B ⊗_A (^h A)` is a
-semi-local `B`-algebra isomorphic to `^h B`.*
+*Let $A$ be a semi-local ring, $B$ a semi-local $A$-algebra that is integral over $A$. Then $B \otimes_{A} ({}^{h} A)$
+is a semi-local $B$-algebra isomorphic to ${}^{h} B$.*
 
-Since `B ⊗_A (^h A)` is integral over `^h A`, each of its maximal ideals lies over one of the maximal ideals of `^h A`,
-hence over a maximal ideal of `A`, and since `B` is integral over `A`, the prime ideals of `B` lying over a maximal
-ideal of `A` are maximal ideals of `B`, so that finally a maximal ideal of `B ⊗_A (^h A)` has as projections in
-`Spec(^h A)` and `Spec(B)` maximal ideals; taking into account `(18.6.6, (iii))` and `(I, 3.4.9)`, one concludes that
-the ring `B ⊗_A (^h A)` is semi-local. Moreover, for every Henselian local ring `C`, `Hom.sloc(B ⊗_A (^h A), C)` is in
-bijective correspondence with the set of pairs `(φ, ψ)` of semi-local homomorphisms `φ : B → C`, `ψ : ^h A → C` such
-that the composites `A → B →^φ C`, `A → ^h A →^ψ C` are equal. But by virtue of the bijective correspondence between
-`Hom.sloc(A, C)` and `Hom.sloc(^h A, C)`, one sees that for every `φ ∈ Hom.sloc(B, C)` there exists one and only one `ψ`
-having the previous property, hence the map `Hom.sloc(B ⊗_A (^h A), C) → Hom.sloc(B, C)` is bijective, which proves the
-proposition by virtue of the uniqueness of the solution of a universal problem.
+Since $B \otimes_{A} ({}^{h} A)$ is integral over ${}^{h} A$, each of its maximal ideals lies over one of the maximal
+ideals of ${}^{h} A$, hence over a maximal ideal of $A$, and since $B$ is integral over $A$, the prime ideals of $B$
+lying over a maximal ideal of $A$ are maximal ideals of $B$, so that finally a maximal ideal of $B \otimes_{A} ({}^{h}
+A)$ has as projections in $\operatorname{Spec}({}^{h} A)$ and $\operatorname{Spec}(B)$ maximal ideals; taking into
+account `(18.6.6, (iii))` and `(I, 3.4.9)`, one concludes that the ring $B \otimes_{A} ({}^{h} A)$ is semi-local.
+Moreover, for every Henselian local ring $C$, $\operatorname{Hom}.sloc(B \otimes_{A} ({}^{h} A), C)$ is in bijective
+correspondence with the set of pairs $(\phi, \psi)$ of semi-local homomorphisms $\phi : B \to C$, $\psi : {}^{h} A \to
+C$ such that the composites $A \to B \to^{\phi} C$, $A \to {}^{h} A \to^{\psi} C$ are equal. But by virtue of the
+bijective correspondence between $\operatorname{Hom}.sloc(A, C)$ and $\operatorname{Hom}.sloc({}^{h} A, C)$, one sees
+that for every $\phi \in \operatorname{Hom}.sloc(B, C)$ there exists one and only one $\psi$ having the previous
+property, hence the map `Hom.sloc(B ⊗_A (^h A), C) → Hom.sloc(B, C)` is bijective, which proves the proposition by
+virtue of the uniqueness of the solution of a universal problem.
 
 **Theorem (18.6.9).**
 
 <!-- label: IV.18.6.9 -->
 
-*Let `A` be a semi-local ring.*
+*Let $A$ be a semi-local ring.*
 
-*(i) In order for `^h A` to be reduced (resp. normal), it is necessary and sufficient that `A` be so.*
+*(i) In order for ${}^{h} A$ to be reduced (resp. normal), it is necessary and sufficient that $A$ be so.*
 
-*(ii) Suppose `A` Noetherian. Then, for every prime ideal `𝔭` of `A`, the ring `(^h A)_𝔭 / 𝔭 · (^h A)_𝔭` is a direct
-composite of a finite number of separable algebraic extensions of `k(𝔭)` (which implies that the fibres of the canonical
-morphism `Spec(^h A) → Spec(A)` are geometrically regular).*
+*(ii) Suppose $A$ Noetherian. Then, for every prime ideal $\mathfrak{p}$ of $A$, the ring $({}^{h} A)_{\mathfrak{p}} /
+\mathfrak{p} \cdot ({}^{h} A)_{\mathfrak{p}}$ is a direct composite of a finite number of separable algebraic extensions
+of $k(\mathfrak{p})$ (which implies that the fibres of the canonical morphism $\operatorname{Spec}({}^{h} A) \to
+\operatorname{Spec}(A)$ are geometrically regular).*
 
 <!-- original page 140 -->
 
-(i) Since `^h A` is a faithfully flat `A`-module, it follows from `(2.1.13)` that if `^h A` is reduced (resp. normal),
-the same holds for `A`. To prove the converse, one may restrict to the case where the ring `A` is local, so that with
-the notations of `(18.6.4)`, one has `^h A = lim_→ A_λ`. Now, it follows from the definition of the `A_λ` and from
-`(17.5.7)` that if `A` is reduced (resp. integral and integrally closed), the same holds for the `A_λ`; moreover, the
-homomorphisms `A_α → A_β` for `α ⩽ β` are injective by virtue of `(0_I, 6.5.1)` since `A_β` is a faithfully flat
-`A_α`-module; hence the morphisms `Spec(A_β) → Spec(A_α)` are dominant, and one concludes from `(5.13.2)` (resp.
-`(5.13.4)`) that `^h A` is reduced (resp. integral and integrally closed).
+(i) Since ${}^{h} A$ is a faithfully flat $A$-module, it follows from `(2.1.13)` that if ${}^{h} A$ is reduced (resp.
+normal), the same holds for $A$. To prove the converse, one may restrict to the case where the ring $A$ is local, so
+that with the notations of `(18.6.4)`, one has ${}^{h} A = \varinjlim A_{\lambda}$. Now, it follows from the definition
+of the $A_{\lambda}$ and from `(17.5.7)` that if $A$ is reduced (resp. integral and integrally closed), the same holds
+for the $A_{\lambda}$; moreover, the homomorphisms $A_{\alpha} \to A_{\beta}$ for $\alpha \leqslant \beta$ are injective
+by virtue of $(0_{I}, 6.5.1)$ since $A_{\beta}$ is a faithfully flat $A_{\alpha}$-module; hence the morphisms
+$\operatorname{Spec}(A_{\beta}) \to \operatorname{Spec}(A_{\alpha})$ are dominant, and one concludes from `(5.13.2)`
+(resp. `(5.13.4)`) that ${}^{h} A$ is reduced (resp. integral and integrally closed).
 
-(ii) One may restrict to the case where `A` is local. By virtue of the fact that the functor `lim_→` commutes with
-tensor products, the fibre of the morphism `Spec(^h A) → Spec(A)` at a point `x` is the inductive limit of the fibres of
-the morphisms `Spec(A_λ) → Spec(A)` at this point. Since `^h A` is Noetherian, one sees, taking into account `(17.6.2)`,
-that one is reduced to proving the following lemma:
+(ii) One may restrict to the case where $A$ is local. By virtue of the fact that the functor $\varinjlim$ commutes with
+tensor products, the fibre of the morphism $\operatorname{Spec}({}^{h} A) \to \operatorname{Spec}(A)$ at a point $x$ is
+the inductive limit of the fibres of the morphisms $\operatorname{Spec}(A_{\lambda}) \to \operatorname{Spec}(A)$ at this
+point. Since ${}^{h} A$ is Noetherian, one sees, taking into account `(17.6.2)`, that one is reduced to proving the
+following lemma:
 
 **Lemma (18.6.9.1).**
 
 <!-- label: IV.18.6.9.1 -->
 
-*Let `(B_α)` be an inductive system of Artinian rings, `B = lim_→ B_α` its inductive limit. If `B` is Noetherian, then
-`B` is Artinian; if moreover, for `α ⩽ β`, the homomorphisms `φ_{βα} : B_α → B_β` are injective, then there exists `λ`
-such that, for `α ⩾ λ`, the number of local components `B_{αi}` of `B_α` is constant, `φ_{βα}(B_{αi}) ⊂ B_{βi}` for
-every `i`, and the `B_i = lim_→ B_{αi}` are the local components of `B`.*
+*Let $(B_{\alpha})$ be an inductive system of Artinian rings, $B = \varinjlim B_{\alpha}$ its inductive limit. If $B$ is
+Noetherian, then $B$ is Artinian; if moreover, for $\alpha \leqslant \beta$, the homomorphisms $\phi_{\beta \alpha} :
+B_{\alpha} \to B_{\beta}$ are injective, then there exists $\lambda$ such that, for $\alpha \geqslant \lambda$, the
+number of local components $B_{\alpha i}$ of $B_{\alpha}$ is constant, $\phi_{\beta \alpha}(B_{\alpha i}) \subset
+B_{\beta i}$ for every $i$, and the $B_{i} = \varinjlim B_{\alpha i}$ are the local components of $B$.*
 
-In effect, let `Y_α = Spec(B_α)`, `Y = Spec(B)`, which as a topological space is equal to `lim_← Y_α` `(8.2.10)`. The
-spaces `Y_α` are finite and discrete; moreover, if the `φ_{βα}` are injective, the canonical morphisms `Y_β → Y_α` are
-dominant, hence surjective. The lemma will therefore result from the following purely topological lemma:
+In effect, let $Y_{\alpha} = \operatorname{Spec}(B_{\alpha})$, $Y = \operatorname{Spec}(B)$, which as a topological
+space is equal to $\varprojlim Y_{\alpha}$ `(8.2.10)`. The spaces $Y_{\alpha}$ are finite and discrete; moreover, if the
+$\phi_{\beta \alpha}$ are injective, the canonical morphisms $Y_{\beta} \to Y_{\alpha}$ are dominant, hence surjective.
+The lemma will therefore result from the following purely topological lemma:
 
 **Lemma (18.6.9.2).**
 
 <!-- label: IV.18.6.9.2 -->
 
-*Let `(Y_α, ψ_{αβ})` be a projective system of finite discrete topological spaces. If `Y = lim_← Y_α` is Noetherian, `Y`
-is finite and discrete. If moreover the `ψ_{αβ}` are surjective, there exists `λ` such that for `α ⩾ λ`, the number of
-elements of `Y_α` is constant and equal to the number of elements of `Y`.*
+*Let $(Y_{\alpha}, \psi_{\alpha \beta})$ be a projective system of finite discrete topological spaces. If $Y =
+\varprojlim Y_{\alpha}$ is Noetherian, $Y$ is finite and discrete. If moreover the $\psi_{\alpha \beta}$ are surjective,
+there exists $\lambda$ such that for $\alpha \geqslant \lambda$, the number of elements of $Y_{\alpha}$ is constant and
+equal to the number of elements of $Y$.*
 
-In effect, `Y` being compact and Noetherian, every part of `Y` is compact, hence closed, which implies that `Y` is
-discrete, hence finite since it is compact. If moreover the `ψ_{αβ}` are surjective, the same holds for `ψ_α : Y → Y_α`,
-hence `Card(Y) ⩽ Card(Y_α)`, and as `Card(Y_α)` is an increasing function of `α`, there exists `λ` such that for
-`α ⩾ λ`, `Card(Y_α) = Card(Y_λ)`; the `ψ_{αβ}` are then bijective for `α ⩾ λ` and one has therefore
-`Card(Y) = Card(Y_λ)`.
+In effect, $Y$ being compact and Noetherian, every part of $Y$ is compact, hence closed, which implies that $Y$ is
+discrete, hence finite since it is compact. If moreover the $\psi_{\alpha \beta}$ are surjective, the same holds for
+$\psi_{\alpha} : Y \to Y_{\alpha}$, hence $Card(Y) \leqslant Card(Y_{\alpha})$, and as $Card(Y_{\alpha})$ is an
+increasing function of $\alpha$, there exists $\lambda$ such that for $\alpha \geqslant \lambda$, $Card(Y_{\alpha}) =
+Card(Y_{\lambda})$; the $\psi_{\alpha \beta}$ are then bijective for $\alpha \geqslant \lambda$ and one has therefore
+$Card(Y) = Card(Y_{\lambda})$.
 
 **Corollary (18.6.10).**
 
 <!-- label: IV.18.6.10 -->
 
-*Let `A` be a Noetherian local ring. In order for `^h A` to possess one of the following properties:*
+*Let $A$ be a Noetherian local ring. In order for ${}^{h} A$ to possess one of the following properties:*
 
 *a) being a Cohen-Macaulay ring `(0, 16.5.3)`;*
 
-*b) satisfying property `(S_n)` `(5.7.3)`;*
+*b) satisfying property $(S_{n})$ `(5.7.3)`;*
 
 *c) being regular;*
 
-*d) satisfying property `(R_n)` `(5.8.2)`;*
+*d) satisfying property $(R_{n})$ `(5.8.2)`;*
 
-*it is necessary and sufficient that `A` possess this same property.*
+*it is necessary and sufficient that $A$ possess this same property.*
 
 <!-- original page 141 -->
 
-This follows immediately from the fact that the fibres of the morphism `Spec(^h A) → Spec(A)` are geometrically regular
-`(18.6.9)` and from `(6.4.1)`, `(6.5.1)` and `(6.5.3)`.
+This follows immediately from the fact that the fibres of the morphism $\operatorname{Spec}({}^{h} A) \to
+\operatorname{Spec}(A)$ are geometrically regular `(18.6.9)` and from `(6.4.1)`, `(6.5.1)` and `(6.5.3)`.
 
 **Corollary (18.6.11).**
 
 <!-- label: IV.18.6.11 -->
 
-*Let `A` be a Noetherian semi-local ring. In order for a prime ideal `𝔭` of `^h A` to belong to `Ass(^h A)`, it is
-necessary and sufficient that `𝔭 ∩ A` belong to `Ass(A)`.*
+*Let $A$ be a Noetherian semi-local ring. In order for a prime ideal $\mathfrak{p}$ of ${}^{h} A$ to belong to
+$Ass({}^{h} A)$, it is necessary and sufficient that $\mathfrak{p} \cap A$ belong to $Ass(A)$.*
 
-Taking into account the description of the fibres of the morphism `Spec(^h A) → Spec(A)`, this follows immediately from
-`(3.3.1)`.
+Taking into account the description of the fibres of the morphism $\operatorname{Spec}({}^{h} A) \to
+\operatorname{Spec}(A)$, this follows immediately from `(3.3.1)`.
 
 **Proposition (18.6.12).**
 
 <!-- label: IV.18.6.12 -->
 
-*Let `A` be a local ring; the following properties are equivalent:*
+*Let $A$ be a local ring; the following properties are equivalent:*
 
-*a) `A` is unibranch `(0, 23.2.1)` (resp. reduced and unibranch).*
+*a) $A$ is unibranch `(0, 23.2.1)` (resp. reduced and unibranch).*
 
-*b) For every strictly essentially étale local `A`-algebra `A'`, `Spec(A')` is irreducible (resp. integral).*
+*b) For every strictly essentially étale local $A$-algebra $A'$, $\operatorname{Spec}(A')$ is irreducible (resp.
+integral).*
 
-*c) `Spec(^h A)` is irreducible (resp. integral).*
+*c) $\operatorname{Spec}({}^{h} A)$ is irreducible (resp. integral).*
 
-Let us first note that `^h(A_{red}) = (^h A)_{red}`, for `^h(A_{red}) = A_{red} ⊗_A (^h A)` `(18.6.8)`, and since
-`^h(A_{red})` is reduced `(18.6.9)`, it equals `(^h A)_{red}`. This permits us, in the proof, to consider only the case
-where `A` is reduced, so that `A'` is also reduced `(17.5.7)` and `^h A` is also reduced `(18.6.9)`.
+Let us first note that ${}^{h}(A_{red}) = ({}^{h} A)_{red}$, for ${}^{h}(A_{red}) = A_{red} \otimes_{A} ({}^{h} A)$
+`(18.6.8)`, and since ${}^{h}(A_{red})$ is reduced `(18.6.9)`, it equals $({}^{h} A)_{red}$. This permits us, in the
+proof, to consider only the case where $A$ is reduced, so that $A'$ is also reduced `(17.5.7)` and ${}^{h} A$ is also
+reduced `(18.6.9)`.
 
-With the notations of `(18.6.4)`, condition b) signifies that all the `A_λ` are integral; one concludes that
-`^h A = lim_→ A_λ` is integral `(5.13.3)`, so b) entails c).
+With the notations of `(18.6.4)`, condition b) signifies that all the $A_{\lambda}$ are integral; one concludes that
+${}^{h} A = \varinjlim A_{\lambda}$ is integral `(5.13.3)`, so b) entails c).
 
-It is clear that if `^h A` is integral, the same holds for the `A_λ ⊂ ^h A`, so c) entails b). Let us show that c)
-entails a). Note first that `A ⊂ ^h A` is integral; let `K` and `L` be the fields of fractions of `A` and `^h A`
-respectively. It suffices to see that for every finite `A`-algebra `B ⊂ K`, `B` is a local ring. Now `B` is a semi-local
-ring, whose Henselization is therefore `B ⊗_A (^h A)` `(18.6.8)`. By flatness, `B ⊗_A (^h A)` identifies with a subring
-of `K ⊗_A (^h A)` and the latter with a subring of `L`, so `^h B` is integral. But since `^h B` is a Henselian
-semi-local ring, it is a direct composite of local rings `(18.5.9)`, hence can be integral only if it is local, which
-entails that `B` is local.
+It is clear that if ${}^{h} A$ is integral, the same holds for the $A_{\lambda} \subset {}^{h} A$, so c) entails b). Let
+us show that c) entails a). Note first that $A \subset {}^{h} A$ is integral; let $K$ and $L$ be the fields of fractions
+of $A$ and ${}^{h} A$ respectively. It suffices to see that for every finite $A$-algebra $B \subset K$, $B$ is a local
+ring. Now $B$ is a semi-local ring, whose Henselization is therefore $B \otimes_{A} ({}^{h} A)$ `(18.6.8)`. By flatness,
+$B \otimes_{A} ({}^{h} A)$ identifies with a subring of $K \otimes_{A} ({}^{h} A)$ and the latter with a subring of $L$,
+so ${}^{h} B$ is integral. But since ${}^{h} B$ is a Henselian semi-local ring, it is a direct composite of local rings
+`(18.5.9)`, hence can be integral only if it is local, which entails that $B$ is local.
 
-Let us finally prove that a) implies c). Let `C` be the integral closure of the integral ring `A`. Since `C` is a local
-ring by hypothesis, `C ⊗_A (^h A)` is the Henselization of `C` `(18.6.8)`, hence is integral and integrally closed
-`(18.6.9)`. Since `A` is a subring of `C`, `^h A` identifies with a subring of `^h C` by flatness, so it too is
-integral, which completes the proof.
+Let us finally prove that a) implies c). Let $C$ be the integral closure of the integral ring $A$. Since $C$ is a local
+ring by hypothesis, $C \otimes_{A} ({}^{h} A)$ is the Henselization of $C$ `(18.6.8)`, hence is integral and integrally
+closed `(18.6.9)`. Since $A$ is a subring of $C$, ${}^{h} A$ identifies with a subring of ${}^{h} C$ by flatness, so it
+too is integral, which completes the proof.
 
 **Corollary (18.6.13).**
 
 <!-- label: IV.18.6.13 -->
 
-*Let `A` be a Henselian local ring. Then, in order for `A` to be unibranch, it is necessary and sufficient that `A` be
+*Let $A$ be a Henselian local ring. Then, in order for $A$ to be unibranch, it is necessary and sufficient that $A$ be
 integral.*
 
 **Proposition (18.6.14).**
@@ -1739,64 +1882,70 @@ integral.*
 *(i) Every filtered inductive limit of Henselian local rings (where the transition homomorphisms are local) is a
 Henselian local ring.*
 
-*(ii) The functor `A ↦ ^h A` on the category of local rings (where the morphisms are the local homomorphisms) commutes
-with filtered inductive limits.*
+*(ii) The functor $A \mapsto {}^{h} A$ on the category of local rings (where the morphisms are the local homomorphisms)
+commutes with filtered inductive limits.*
 
-*(iii) Every Henselian local ring `A` is the inductive limit of a filtered inductive system of Henselian and Noetherian
-local rings `A_λ` (the transition homomorphisms `A_λ → A_μ` being local).*
+*(iii) Every Henselian local ring $A$ is the inductive limit of a filtered inductive system of Henselian and Noetherian
+local rings $A_{\lambda}$ (the transition homomorphisms $A_{\lambda} \to A_{\mu}$ being local).*
 
-(i) Let `(A_λ)` be a filtered inductive system of Henselian local rings, where the transition homomorphisms are local.
-Let us show that `A' = lim_→ A_λ`, which is local `(0_III, 10.3.1.3)`, is Henselian. Let `C` be an étale `A'`-algebra,
-`𝔫` a prime ideal
+(i) Let $(A_{\lambda})$ be a filtered inductive system of Henselian local rings, where the transition homomorphisms are
+local. Let us show that $A' = \varinjlim A_{\lambda}$, which is local $(0_{III}, 10.3.1.3)$, is Henselian. Let $C$ be an
+étale $A'$-algebra, $\mathfrak{n}$ a prime ideal
 
 <!-- original page 142 -->
 
-of `C` lying over the maximal ideal `𝔪'` of `A'`, such that `C_𝔫` is strictly essentially étale over `A'` `(18.6.1)`, in
-other words such that `k(𝔪') → k(𝔫)` is an isomorphism. By virtue of `(8.8.2, (ii))` and `(17.7.8)`, there exist an
-index `λ` and an étale `A_λ`-algebra `C_λ` such that `C = C_λ ⊗_{A_λ} A'` up to isomorphism; moreover, if `𝔫_λ` is the
-inverse image of `𝔫` in `C_λ`, and `𝔪_λ` the maximal ideal of `A_λ`, one may, by virtue of `(8.8.2.4)` and the
-transitivity of fibres `(I, 3.6.4)`, suppose that `(C_λ)_{𝔫_λ}` is strictly essentially étale over `A_λ`; since `A_λ` is
-Henselian, `(C_λ)_{𝔫_λ}` is necessarily isomorphic to `A_λ` `(18.5.11, b)`; there is consequently a neighbourhood of
-`𝔫_λ` in `Spec(C_λ)` isomorphic to `Spec(A_λ)` `(I, 6.5.4)`; one concludes that there is a neighbourhood of `𝔫` in
-`Spec(C)` isomorphic to `Spec(A')`, hence `C_𝔫` is isomorphic to `A'`, which proves that `A'` is Henselian `(18.6.2)`
-and completes the proof.
+of $C$ lying over the maximal ideal $\mathfrak{m}'$ of $A'$, such that $C_{\mathfrak{n}}$ is strictly essentially étale
+over $A'$ `(18.6.1)`, in other words such that $k(\mathfrak{m}') \to k(\mathfrak{n})$ is an isomorphism. By virtue of
+`(8.8.2, (ii))` and `(17.7.8)`, there exist an index $\lambda$ and an étale $A_{\lambda}$-algebra $C_{\lambda}$ such
+that $C = C_{\lambda} \otimes_{A_{\lambda}} A'$ up to isomorphism; moreover, if $\mathfrak{n}_{\lambda}$ is the inverse
+image of $\mathfrak{n}$ in $C_{\lambda}$, and $\mathfrak{m}_{\lambda}$ the maximal ideal of $A_{\lambda}$, one may, by
+virtue of `(8.8.2.4)` and the transitivity of fibres `(I, 3.6.4)`, suppose that $(C_{\lambda})_{\mathfrak{n}_{\lambda}}$
+is strictly essentially étale over $A_{\lambda}$; since $A_{\lambda}$ is Henselian,
+$(C_{\lambda})_{\mathfrak{n}_{\lambda}}$ is necessarily isomorphic to $A_{\lambda}$ `(18.5.11, b)`; there is
+consequently a neighbourhood of $\mathfrak{n}_{\lambda}$ in $\operatorname{Spec}(C_{\lambda})$ isomorphic to
+$\operatorname{Spec}(A_{\lambda})$ `(I, 6.5.4)`; one concludes that there is a neighbourhood of $\mathfrak{n}$ in
+$\operatorname{Spec}(C)$ isomorphic to $\operatorname{Spec}(A')$, hence $C_{\mathfrak{n}}$ is isomorphic to $A'$, which
+proves that $A'$ is Henselian `(18.6.2)` and completes the proof.
 
-(ii) Suppose that `B = lim_→ B_λ`, where the `B_λ` are local rings, the transition homomorphisms `B_λ → B_μ (λ ⩽ μ)`
-being local. Set `A_λ = ^h B_λ`; the `A_λ` are Henselian local rings `(18.6.6, (vi))`, and by virtue of `(18.6.6, (ii))`
-the transition homomorphisms `B_λ → B_μ` determine in a unique way local homomorphisms `A_λ → A_μ`, so that `(A_λ)` is
-an inductive system. Everything reduces to seeing that `A' = lim_→ A_λ` is canonically isomorphic to `A = ^h B`. By
-virtue of `(18.6.6, (ii))` and the definition of inductive limits, one has, for every Henselian local ring `E`,
+(ii) Suppose that $B = \varinjlim B_{\lambda}$, where the $B_{\lambda}$ are local rings, the transition homomorphisms
+$B_{\lambda} \to B_{\mu} (\lambda \leqslant \mu)$ being local. Set $A_{\lambda} = {}^{h} B_{\lambda}$; the $A_{\lambda}$
+are Henselian local rings `(18.6.6, (vi))`, and by virtue of `(18.6.6, (ii))` the transition homomorphisms $B_{\lambda}
+\to B_{\mu}$ determine in a unique way local homomorphisms $A_{\lambda} \to A_{\mu}$, so that $(A_{\lambda})$ is an
+inductive system. Everything reduces to seeing that $A' = \varinjlim A_{\lambda}$ is canonically isomorphic to $A =
+{}^{h} B$. By virtue of `(18.6.6, (ii))` and the definition of inductive limits, one has, for every Henselian local ring
+$E$,
 
 ```text
   Hom.loc(A', E) = lim_← Hom.loc(A_λ, E) = lim_← Hom.loc(B_λ, E) = Hom.loc(B, E).
 ```
 
-But since `A'` is Henselian by (i), this proves our assertion.
+But since $A'$ is Henselian by (i), this proves our assertion.
 
-(iii) The ring `A` is a filtered inductive limit of its Noetherian local subrings `B_λ`, the transition homomorphisms
-being local `(5.13.3, (iii))`. Since the `^h B_λ` are Henselian and Noetherian local rings `(18.6.6, (v))` and
-`A = ^h A` `(18.6.6, (vi))`, it suffices to apply (ii) to the inductive system `(B_λ)`.
+(iii) The ring $A$ is a filtered inductive limit of its Noetherian local subrings $B_{\lambda}$, the transition
+homomorphisms being local `(5.13.3, (iii))`. Since the ${}^{h} B_{\lambda}$ are Henselian and Noetherian local rings
+`(18.6.6, (v))` and $A = {}^{h} A$ `(18.6.6, (vi))`, it suffices to apply (ii) to the inductive system $(B_{\lambda})$.
 
 **Corollary (18.6.15).**
 
 <!-- label: IV.18.6.15 -->
 
-*Let `A` be a Henselian local ring, `X` an `A`-prescheme of finite presentation over `A`. There then exist a Henselian
-Noetherian local ring `A_0`, a local homomorphism `A_0 → A`, a prescheme `X_0` of finite type over `A_0`, and an
-`A`-isomorphism `X_0 ⊗_{A_0} A ⥲ X`.*
+*Let $A$ be a Henselian local ring, $X$ an $A$-prescheme of finite presentation over $A$. There then exist a Henselian
+Noetherian local ring `A_0`, a local homomorphism $A_{0} \to A$, a prescheme `X_0` of finite type over `A_0`, and an
+$A$-isomorphism $X_{0} \otimes_{A_{0}} A \xrightarrow{\sim} X$.*
 
 This results from `(18.6.14)` and `(8.8.2, (ii))`.
 
 ### 18.7. Henselization and excellent rings
 
-**(18.7.1)** We shall denote in this n° by `P(Z, k)` a property of the form considered in `(7.3.1)`, where we suppose in
-addition that the property `Q(A, k)` satisfies the following condition:
+**(18.7.1)** We shall denote in this n° by $P(Z, k)$ a property of the form considered in `(7.3.1)`, where we suppose in
+addition that the property $Q(A, k)$ satisfies the following condition:
 
-For every separable algebraic extension `k'` of `k`, and every Noetherian local `k'`-algebra `A`, the property `Q(A, k)`
-is equivalent to `Q(A, k')`.
+For every separable algebraic extension $k'$ of $k$, and every Noetherian local $k'$-algebra $A$, the property $Q(A, k)$
+is equivalent to $Q(A, k')$.
 
-It is immediate that all the properties `P` considered in `(7.3.8)` satisfy the preceding condition, taking into account
-that if `K` is a finite extension of `k`, `k' ⊗_k K` is a direct composite of separable algebraic extensions of `K`.
+It is immediate that all the properties $P$ considered in `(7.3.8)` satisfy the preceding condition, taking into account
+that if $K$ is a finite extension of $k$, $k' \otimes_{k} K$ is a direct composite of separable algebraic extensions of
+$K$.
 
 <!-- original page 143 -->
 
@@ -1804,32 +1953,33 @@ that if `K` is a finite extension of `k`, `k' ⊗_k K` is a direct composite of 
 
 <!-- label: IV.18.7.2 -->
 
-*Let `A` be a Noetherian local ring. In order for `^h A` to be a `P`-ring `(7.3.13)`, it is necessary and sufficient
-that `A` be so.*
+*Let $A$ be a Noetherian local ring. In order for ${}^{h} A$ to be a $P$-ring `(7.3.13)`, it is necessary and sufficient
+that $A$ be so.*
 
-In effect, by virtue of `(18.6.6, (iv))`, the completion `Â` of `A` is also the completion of `^h A`, and one has
-therefore `A ⊂ ^h A ⊂ Â`. According to `(18.6.9)`, for every `x ∈ Spec(A)`, the fibre at `x` of the morphism
-`Spec(^h A) → Spec(A)` is discrete and finite, and at each of the points `y_i` of this fibre, `k(y_i)` is a separable
-algebraic extension of `k(x)`. The formal fibre of `A` at the point `x` is therefore a prescheme that is the sum of the
-formal fibres of `^h A` at the points `y_i`. The conclusion then follows from the hypothesis made on `P` in `(18.7.1)`.
+In effect, by virtue of `(18.6.6, (iv))`, the completion `Â` of $A$ is also the completion of ${}^{h} A$, and one has
+therefore $A \subset {}^{h} A \subset \hat{A}$. According to `(18.6.9)`, for every $x \in \operatorname{Spec}(A)$, the
+fibre at $x$ of the morphism $\operatorname{Spec}({}^{h} A) \to \operatorname{Spec}(A)$ is discrete and finite, and at
+each of the points $y_{i}$ of this fibre, $k(y_{i})$ is a separable algebraic extension of $k(x)$. The formal fibre of
+$A$ at the point $x$ is therefore a prescheme that is the sum of the formal fibres of ${}^{h} A$ at the points $y_{i}$.
+The conclusion then follows from the hypothesis made on $P$ in `(18.7.1)`.
 
 **Corollary (18.7.3).**
 
 <!-- label: IV.18.7.3 -->
 
-*Let `A` be a Noetherian local ring. In order for `^h A` to be universally Japanese, it is necessary and sufficient that
-`A` be so.*
+*Let $A$ be a Noetherian local ring. In order for ${}^{h} A$ to be universally Japanese, it is necessary and sufficient
+that $A$ be so.*
 
-In effect, for a Noetherian local ring `B`, it amounts to the same thing to say that `B` is universally Japanese, or
-that the formal fibres of `B` are geometrically reduced `(7.6.4 and 7.7.1)`; the conclusion follows therefore from
+In effect, for a Noetherian local ring $B$, it amounts to the same thing to say that $B$ is universally Japanese, or
+that the formal fibres of $B$ are geometrically reduced `(7.6.4 and 7.7.1)`; the conclusion follows therefore from
 `(18.7.2)`.
 
 **Corollary (18.7.4).**
 
 <!-- label: IV.18.7.4 -->
 
-*Let `A` be a Noetherian local ring. In order for the formal fibres of `^h A` to be geometrically regular, it is
-necessary and sufficient that those of `A` be so.*
+*Let $A$ be a Noetherian local ring. In order for the formal fibres of ${}^{h} A$ to be geometrically regular, it is
+necessary and sufficient that those of $A$ be so.*
 
 This is a particular case of `(18.7.2)`.
 
@@ -1837,65 +1987,73 @@ This is a particular case of `(18.7.2)`.
 
 <!-- label: IV.18.7.5 -->
 
-*Let `A` be a Noetherian local ring. If `A` is universally catenary `(5.6.2)` (resp. formally catenary `(7.1.9)`, resp.
-strictly formally catenary `(7.2.6)`), the same holds for `^h A`.*
+*Let $A$ be a Noetherian local ring. If $A$ is universally catenary `(5.6.2)` (resp. formally catenary `(7.1.9)`, resp.
+strictly formally catenary `(7.2.6)`), the same holds for ${}^{h} A$.*
 
-With the notations of `(18.6.4)`, if `A` is universally catenary, the same holds for the `A_λ`, which are essentially of
-finite type `A`-algebras `(5.6.3)`. To prove that in this case `^h A` is universally catenary, it will therefore suffice
-to establish the following lemma:
+With the notations of `(18.6.4)`, if $A$ is universally catenary, the same holds for the $A_{\lambda}$, which are
+essentially of finite type $A$-algebras `(5.6.3)`. To prove that in this case ${}^{h} A$ is universally catenary, it
+will therefore suffice to establish the following lemma:
 
 **Lemma (18.7.5.1).**
 
 <!-- label: IV.18.7.5.1 -->
 
-*Let `(B_α, φ_{βα})` be an inductive system of Noetherian rings and suppose that, for `α ⩽ β`, `φ_{βα}` makes `B_β` a
-faithfully flat `B_α`-module and that `B = lim_→ B_α` is Noetherian. Then, if the `B_α` are catenary (resp. universally
-catenary), the same holds for `B`.*
+*Let $(B_{\alpha}, \phi_{\beta \alpha})$ be an inductive system of Noetherian rings and suppose that, for $\alpha
+\leqslant \beta$, $\phi_{\beta \alpha}$ makes $B_{\beta}$ a faithfully flat $B_{\alpha}$-module and that $B = \varinjlim
+B_{\alpha}$ is Noetherian. Then, if the $B_{\alpha}$ are catenary (resp. universally catenary), the same holds for $B$.*
 
-To say that `B` is universally catenary amounts to saying that `B[T_1, …, T_n]` is catenary for every `n` `(5.6.2)`, and
-it is immediate that the inductive system `(B_α[T_1, …, T_n])` satisfies the same conditions as `(B_α)`; it suffices
-therefore to prove that if the `B_α` are catenary, the same holds for `B`. If `𝔭_0 ⊃ 𝔭_1 ⊃ ⋯ ⊃ 𝔭_n` is a saturated chain
-of prime ideals of `B`, the inverse images `𝔭_{0α} ⊃ 𝔭_{1α} ⊃ ⋯ ⊃ 𝔭_{nα}` of these ideals in `B_α` form a chain of prime
-ideals, and it suffices to show that for `α` sufficiently large, this chain is saturated. Now, each `𝔭_i` is an ideal of
-finite type, hence there exists `λ` such that, for `α ⩾ λ`, one has `𝔭_{iα} = 𝔭_{iα+1}`. One has therefore
-`1 = codim(V(𝔭_i), V(𝔭_{i+1})) = codim(V(𝔭_{iα}), V(𝔭_{i+1, α}))` since `B` is a flat `B_α`-module (`(6.1.4)` and
-`(0_I, 6.2.3)`), which completes the proof of the lemma.
+To say that $B$ is universally catenary amounts to saying that $B[T_{1}, \cdots, T_{n}]$ is catenary for every $n$
+`(5.6.2)`, and it is immediate that the inductive system $(B_{\alpha}[T_{1}, \cdots, T_{n}])$ satisfies the same
+conditions as $(B_{\alpha})$; it suffices therefore to prove that if the $B_{\alpha}$ are catenary, the same holds for
+$B$. If $\mathfrak{p}_{0} \supset \mathfrak{p}_{1} \supset \cdots \supset \mathfrak{p}_{n}$ is a saturated chain of
+prime ideals of $B$, the inverse images $\mathfrak{p}_{0\alpha} \supset \mathfrak{p}_{1\alpha} \supset \cdots \supset
+\mathfrak{p}_{n\alpha}$ of these ideals in $B_{\alpha}$ form a chain of prime ideals, and it suffices to show that for
+$\alpha$ sufficiently large, this chain is saturated. Now, each $\mathfrak{p}_{i}$ is an ideal of finite type, hence
+there exists $\lambda$ such that, for $\alpha \geqslant \lambda$, one has $\mathfrak{p}_{i\alpha} =
+\mathfrak{p}_{i\alpha+1}$. One has therefore $1 = codim(V(\mathfrak{p}_{i}), V(\mathfrak{p}_{i+1})) =
+codim(V(\mathfrak{p}_{i\alpha}), V(\mathfrak{p}_{i+1, \alpha}))$ since $B$ is a flat $B_{\alpha}$-module (`(6.1.4)` and
+$(0_{I}, 6.2.3)$), which completes the proof of the lemma.
 
-Suppose now `A` formally catenary. Let `𝔭` be a prime ideal of `^h A`, `𝔮` its inverse image in `A`, so that
-`𝔮 · ^h A ⊂ 𝔭`, and consequently `^h A / 𝔭` is a quotient ring of `^h A / 𝔮 · ^h A`. It suffices therefore to prove that
-`^h A / 𝔮 · ^h A` is formally catenary for every prime ideal `𝔮` of `A` `(7.1.9)`, and since `^h A / 𝔮 · ^h A = ^h(A/𝔮)`
-by `(18.6.8)`, it suffices `(7.1.11)` to see that if `A` is integral and formally catenary, `^h A` is formally
-equidimensional. But since the completion of `^h A` is equal to `Â`, this follows from the hypothesis that `A` is
-formally catenary.
+Suppose now $A$ formally catenary. Let $\mathfrak{p}$ be a prime ideal of ${}^{h} A$, $\mathfrak{q}$ its inverse image
+in $A$, so that $\mathfrak{q} \cdot {}^{h} A \subset \mathfrak{p}$, and consequently ${}^{h} A / \mathfrak{p}$ is a
+quotient ring of ${}^{h} A / \mathfrak{q} \cdot {}^{h} A$. It suffices therefore to prove that ${}^{h} A / \mathfrak{q}
+\cdot {}^{h} A$ is formally catenary for every prime ideal $\mathfrak{q}$ of $A$ `(7.1.9)`, and since ${}^{h} A /
+\mathfrak{q} \cdot {}^{h} A = {}^{h}(A/\mathfrak{q})$ by `(18.6.8)`, it suffices `(7.1.11)` to see that if $A$ is
+integral and formally catenary, ${}^{h} A$ is formally equidimensional. But since the completion of ${}^{h} A$ is equal
+to `Â`, this follows from the hypothesis that $A$ is formally catenary.
 
 <!-- original page 144 -->
 
-Suppose finally `A` strictly formally catenary; then we have just seen that `^h A` is formally catenary, and it remains
-to prove that the fibres of the morphism `Spec(Â) → Spec(^h A)` satisfy property `(S_1)` `(7.2.5, b)`. But this follows
-from the hypothesis on `A` and from `(18.7.2)` applied to the case where `P(Z, k)` is the property `(S_1)` for `Z`.
+Suppose finally $A$ strictly formally catenary; then we have just seen that ${}^{h} A$ is formally catenary, and it
+remains to prove that the fibres of the morphism $\operatorname{Spec}(\hat{A}) \to \operatorname{Spec}({}^{h} A)$
+satisfy property `(S_1)` `(7.2.5, b)`. But this follows from the hypothesis on $A$ and from `(18.7.2)` applied to the
+case where $P(Z, k)$ is the property `(S_1)` for $Z$.
 
 **Corollary (18.7.6).**
 
 <!-- label: IV.18.7.6 -->
 
-*If a Noetherian local ring `A` is excellent `(7.8.2)`, the same holds for `^h A`.*
+*If a Noetherian local ring $A$ is excellent `(7.8.2)`, the same holds for ${}^{h} A$.*
 
-**Remark (18.7.7).** — It can happen that `^h A` is an excellent local ring without `A` being universally catenary (nor
-consequently excellent). To see this, let us take up again the example of the ring `A` of `(5.6.11)`, with the same
-notations. The ring `E` constructed in `(5.6.11)` is excellent when `k_0` is of characteristic `0`
-`(7.8.3, (ii) and (iii))`; consider two rings `E_1`, `E_2` isomorphic to `E`, and "glue" `Spec(E_1)` and `Spec(E_2)` so
-that if `𝔪_i` and `𝔪'_i` are the maximal ideals of `E_i (i = 1, 2)` corresponding to `𝔪` and `𝔪'`, the point `𝔪_1` is
-"glued" to `𝔪_2` and the point `𝔪'_1` to `𝔪'_2`; in precise terms, if `ε_i` and `ε'_i` are the canonical homomorphisms
-of `E_i` onto `k(𝔪_i)` and `k(𝔪'_i) (i = 1, 2)`, the scheme obtained is `Spec(R)`, where `R` is the subring of
-`E_1 × E_2` consisting of pairs `(x_1, x_2)` such that `ε_2(x_2) = ε_1(x_1)` and `ε'_1(x_1) = ε'_2(x_2)`. One verifies
-easily (for example with the help of `(17.6.3)`) that `R` is a finite étale `C`-algebra, and that there are two maximal
-ideals `𝔯_1`, `𝔯_2` of `R` lying over the maximal ideal `𝔫` of `C`, the completions of `R_{𝔯_1}` and `R_{𝔯_2}` being
-canonically isomorphic to that of `A = C_𝔫`; `R_{𝔯_1}` is therefore a strictly essentially étale `A`-algebra, and
-consequently its Henselization is equal to `^h A`. Moreover, one has seen `(7.8.4, (ii))` that the formal fibres of `A`
-are geometrically regular, hence the same holds for those of `^h A` `(18.7.2)`. Finally, the ring `R` is universally
-catenary, for its quotients by its two minimal prime ideals are isomorphic to `E`, whence the conclusion by
-`(5.6.3, (iii))`. The ring `R_{𝔯_1}` is therefore excellent, and consequently the same holds for `^h A` `(18.7.6)`,
-whereas `A` is not universally catenary.
+**Remark (18.7.7).** — It can happen that ${}^{h} A$ is an excellent local ring without $A$ being universally catenary
+(nor consequently excellent). To see this, let us take up again the example of the ring $A$ of `(5.6.11)`, with the same
+notations. The ring $E$ constructed in `(5.6.11)` is excellent when $k_{0}$ is of characteristic `0`
+`(7.8.3, (ii) and (iii))`; consider two rings `E_1`, `E_2` isomorphic to $E$, and "glue" $\operatorname{Spec}(E_{1})$
+and $\operatorname{Spec}(E_{2})$ so that if $\mathfrak{m}_{i}$ and $\mathfrak{m}'_{i}$ are the maximal ideals of $E_{i}
+(i = 1, 2)$ corresponding to $\mathfrak{m}$ and $\mathfrak{m}'$, the point $\mathfrak{m}_{1}$ is "glued" to
+$\mathfrak{m}_{2}$ and the point $\mathfrak{m}'_{1}$ to $\mathfrak{m}'_{2}$; in precise terms, if $\epsilon_{i}$ and
+$\epsilon'_{i}$ are the canonical homomorphisms of $E_{i}$ onto $k(\mathfrak{m}_{i})$ and $k(\mathfrak{m}'_{i}) (i = 1,
+2)$, the scheme obtained is $\operatorname{Spec}(R)$, where $R$ is the subring of $E_{1} \times E_{2}$ consisting of
+pairs $(x_{1}, x_{2})$ such that $\epsilon_{2}(x_{2}) = \epsilon_{1}(x_{1})$ and $\epsilon'_{1}(x_{1}) =
+\epsilon'_{2}(x_{2})$. One verifies easily (for example with the help of `(17.6.3)`) that $R$ is a finite étale
+$C$-algebra, and that there are two maximal ideals $\mathfrak{r}_{1}$, $\mathfrak{r}_{2}$ of $R$ lying over the maximal
+ideal $\mathfrak{n}$ of $C$, the completions of $R_{\mathfrak{r}_{1}}$ and $R_{\mathfrak{r}_{2}}$ being canonically
+isomorphic to that of $A = C_{\mathfrak{n}}$; $R_{\mathfrak{r}_{1}}$ is therefore a strictly essentially étale
+$A$-algebra, and consequently its Henselization is equal to ${}^{h} A$. Moreover, one has seen `(7.8.4, (ii))` that the
+formal fibres of $A$ are geometrically regular, hence the same holds for those of ${}^{h} A$ `(18.7.2)`. Finally, the
+ring $R$ is universally catenary, for its quotients by its two minimal prime ideals are isomorphic to $E$, whence the
+conclusion by `(5.6.3, (iii))`. The ring $R_{\mathfrak{r}_{1}}$ is therefore excellent, and consequently the same holds
+for ${}^{h} A$ `(18.7.6)`, whereas $A$ is not universally catenary.
 
 ### 18.8. Strictly local rings and strict Henselization
 
@@ -1903,20 +2061,20 @@ whereas `A` is not universally catenary.
 
 <!-- label: IV.18.8.1 -->
 
-*Let `A` be a local ring. The following conditions are equivalent:*
+*Let $A$ be a local ring. The following conditions are equivalent:*
 
-*a) `A` is a Henselian ring and its residue field `k` is separably closed.*
+*a) $A$ is a Henselian ring and its residue field $k$ is separably closed.*
 
-*b) `A` is a Henselian ring and every étale cover of `S = Spec(A)` is trivial.*
+*b) $A$ is a Henselian ring and every étale cover of $S = \operatorname{Spec}(A)$ is trivial.*
 
-*c) For every étale morphism `f : X → S` and every point `x ∈ X` such that `f(x)` is the closed point `s` of `S`, there
-exists an `S`-section `u : S → X` of `X` such that `u(s) = x`.*
+*c) For every étale morphism $f : X \to S$ and every point $x \in X$ such that $f(x)$ is the closed point $s$ of $S$,
+there exists an $S$-section $u : S \to X$ of $X$ such that $u(s) = x$.*
 
-The hypothesis c) implies that for every étale morphism `f : X → S`, the residue fields at the points of `f^{−1}(s)` are
-all isomorphic to `k`, and moreover that condition b) of `(18.5.11)` is satisfied. Hence `A` is Henselian, and the fact
-that every étale cover of `S` is trivial follows from `(18.2.10, (ii))`; so c) implies b). As the étale covers of
-`Spec(k)` are trivial if and only if `k` is separably closed, b) implies a) by virtue of `(18.5.11, b)`. Finally, it
-also follows from `(18.5.11, b)` that a) implies c).
+The hypothesis c) implies that for every étale morphism $f : X \to S$, the residue fields at the points of $f^{-1}(s)$
+are all isomorphic to $k$, and moreover that condition b) of `(18.5.11)` is satisfied. Hence $A$ is Henselian, and the
+fact that every étale cover of $S$ is trivial follows from `(18.2.10, (ii))`; so c) implies b). As the étale covers of
+$\operatorname{Spec}(k)$ are trivial if and only if $k$ is separably closed, b) implies a) by virtue of `(18.5.11, b)`.
+Finally, it also follows from `(18.5.11, b)` that a) implies c).
 
 **Definition (18.8.2).**
 
@@ -1927,13 +2085,13 @@ calls a **strictly local scheme** a scheme isomorphic to the spectrum of a stric
 
 **Remark (18.8.3).** — The conditions of `(18.8.1)` are also equivalent to the following:
 
-*d) For every morphism `f : X → S` locally of finite type and every point `x ∈ X` such that `f(x)` is the closed point
-`s` of `S` and that `𝒪_{X, x} / 𝔪_s · 𝒪_{X, x}` is a finite separable extension of `k(s) = k`, there exists an open
-neighbourhood `U` of `x` in `X` such that `f | U` is a closed immersion.*
+*d) For every morphism $f : X \to S$ locally of finite type and every point $x \in X$ such that $f(x)$ is the closed
+point $s$ of $S$ and that $\mathcal{O}_{X, x} / \mathfrak{m}_{s} \cdot \mathcal{O}_{X, x}$ is a finite separable
+extension of $k(s) = k$, there exists an open neighbourhood $U$ of $x$ in $X$ such that $f | U$ is a closed immersion.*
 
 <!-- original page 145 -->
 
-(One will note that the hypothesis of d) is satisfied if `f` is formally unramified at the point `x` `(17.4.1.2)`.)
+(One will note that the hypothesis of d) is satisfied if $f$ is formally unramified at the point $x$ `(17.4.1.2)`.)
 
 We leave the proof to the reader, it being substantially the same as that of `(18.5.18)`.
 
@@ -1941,74 +2099,82 @@ We leave the proof to the reader, it being substantially the same as that of `(1
 
 <!-- label: IV.18.8.4 -->
 
-*Let `A`, `A'` be two local rings, `φ : A → A'` a local homomorphism making `A'` into an essentially étale `A`-algebra
-`(18.6.1)`. Then, for every strictly local ring `B`, every local homomorphism `ψ : A → B`, and every `k(A)`-algebra
-homomorphism `α : k(A') → k(B)`, there exist one and only one local homomorphism `ψ' : A' → B` such that `ψ = ψ' ∘ φ`
-and that `α` equals the homomorphism `ψ̄'` deduced from `ψ'` by passage to the quotients.*
+*Let $A$, $A'$ be two local rings, $\phi : A \to A'$ a local homomorphism making $A'$ into an essentially étale
+$A$-algebra `(18.6.1)`. Then, for every strictly local ring $B$, every local homomorphism $\psi : A \to B$, and every
+$k(A)$-algebra homomorphism $\alpha : k(A') \to k(B)$, there exist one and only one local homomorphism $\psi' : A' \to
+B$ such that $\psi = \psi' \circ \phi$ and that $\alpha$ equals the homomorphism $\bar{\psi}'$ deduced from $\psi'$ by
+passage to the quotients.*
 
-With the notations of `(18.6.2)`, the homomorphism `α` corresponds to a `k(y)`-morphism `Spec(k(y)) → Spec(k(x'))`,
-hence to a well-determined point `x'` in `X'` lying over `y`. The existence of the `Y`-section `f'` of `X'` such that
-`f'(y) = x'` follows therefore from `(18.8.1, c)` since `f'` is étale and `B` strictly local, and its uniqueness follows
-from the fact that `f'` is separated and from `(17.4.9)`.
+With the notations of `(18.6.2)`, the homomorphism $\alpha$ corresponds to a $k(y)$-morphism $\operatorname{Spec}(k(y))
+\to \operatorname{Spec}(k(x'))$, hence to a well-determined point $x'$ in $X'$ lying over $y$. The existence of the
+$Y$-section $f'$ of $X'$ such that $f'(y) = x'$ follows therefore from `(18.8.1, c)` since $f'$ is étale and $B$
+strictly local, and its uniqueness follows from the fact that $f'$ is separated and from `(17.4.9)`.
 
 **Lemma (18.8.5).**
 
 <!-- label: IV.18.8.5 -->
 
-*Let `A` be a local ring, `A_1`, `A_2` two essentially étale local `A`-algebras, `K` a field, extension of `k(A)`.*
+*Let $A$ be a local ring, `A_1`, `A_2` two essentially étale local $A$-algebras, $K$ a field, extension of $k(A)$.*
 
-*(i) For every `k(A)`-homomorphism `γ : k(A_1) → k(A_2)`, there exists at most one `A`-homomorphism (necessarily local)
-`ψ : A_1 → A_2` such that `γ` is the homomorphism `ψ̄` deduced from `ψ` by passage to the quotients.*
+*(i) For every $k(A)$-homomorphism $\gamma : k(A_{1}) \to k(A_{2})$, there exists at most one $A$-homomorphism
+(necessarily local) $\psi : A_{1} \to A_{2}$ such that $\gamma$ is the homomorphism $\bar{\psi}$ deduced from $\psi$ by
+passage to the quotients.*
 
-*(ii) For every pair of local `A`-homomorphisms `β_1 : A_1 → K`, `β_2 : A_2 → K`, there exist an essentially étale local
-`A`-algebra `A_3`, two `A`-homomorphisms `φ_1 : A_1 → A_3`, `φ_2 : A_2 → A_3`, and an `A`-homomorphism `β : A_3 → K`
-such that `β_1 = β ∘ φ_1` and `β_2 = β ∘ φ_2`.*
+*(ii) For every pair of local $A$-homomorphisms $\beta_{1} : A_{1} \to K$, $\beta_{2} : A_{2} \to K$, there exist an
+essentially étale local $A$-algebra `A_3`, two $A$-homomorphisms $\phi_{1} : A_{1} \to A_{3}$, $\phi_{2} : A_{2} \to
+A_{3}$, and an $A$-homomorphism $\beta : A_{3} \to K$ such that $\beta_{1} = \beta \circ \phi_{1}$ and $\beta_{2} =
+\beta \circ \phi_{2}$.*
 
-With the notations of `(18.6.3)`, the homomorphisms `β_1`, `β_2` in (ii) correspond to two `S`-morphisms
-`Spec(K) → X_1`, `Spec(K) → X_2`, with respective images `x_1`, `x_2`; one deduces from them a well-determined
-`S`-morphism `Spec(K) → X_3` `(I, 3.2.1)` with image `x_3` lying over `x_1` and `x_2`; the `A`-algebra
-`A_3 = 𝒪_{X_3, x_3}` and the homomorphism `A_3 → K` corresponding to these data satisfy the conditions of (ii). On the
-other hand, the datum of `γ` in (i) corresponds to an `S`-morphism `Spec(k(x_2)) → Spec(k(x_1))`, or again to a point
-`x_3` of `X_3` lying over `x_2`; the uniqueness of `ψ` follows from the uniqueness of an `X_2`-section of `X_3` passing
-through `x_3` `(17.4.9)`.
+With the notations of `(18.6.3)`, the homomorphisms $\beta_{1}$, $\beta_{2}$ in (ii) correspond to two $S$-morphisms
+$\operatorname{Spec}(K) \to X_{1}$, $\operatorname{Spec}(K) \to X_{2}$, with respective images $x_{1}$, $x_{2}$; one
+deduces from them a well-determined $S$-morphism $\operatorname{Spec}(K) \to X_{3}$ `(I, 3.2.1)` with image $x_{3}$
+lying over $x_{1}$ and $x_{2}$; the $A$-algebra $A_{3} = \mathcal{O}_{X_{3}, x_{3}}$ and the homomorphism $A_{3} \to K$
+corresponding to these data satisfy the conditions of (ii). On the other hand, the datum of $\gamma$ in (i) corresponds
+to an $S$-morphism $\operatorname{Spec}(k(x_{2})) \to \operatorname{Spec}(k(x_{1}))$, or again to a point $x_{3}$ of
+`X_3` lying over $x_{2}$; the uniqueness of $\psi$ follows from the uniqueness of an `X_2`-section of `X_3` passing
+through $x_{3}$ `(17.4.9)`.
 
-**(18.8.6)** Let `A` be a local ring, `𝔪` its maximal ideal, `k` its residue field, `Ω` a separable closure of `k`.
-Consider the set `𝔈` of essentially étale `A`-algebras defined in `(18.6.1)`, and denote by `L` the set of local
-`A`-homomorphisms `A' → Ω`, where `A'` ranges over `𝔈`; one will note that such a homomorphism factors as
-`λ : A' →^{ω_λ} k(A') → Ω`, where `ω_λ : k(A') → Ω` is an `A`-homomorphism (since `𝔪 A'` is the maximal ideal of `A'`);
-conversely, the datum of such a homomorphism `ω_λ` uniquely determines a homomorphism `λ ∈ L`. For every `λ ∈ L`, we
-shall denote by `A_λ` the essentially étale `A`-algebra belonging to `𝔈` on which `λ` is defined. The set `L` is
-preordered by the relation "there exists an `A`-homomorphism `φ_{μλ} : A_λ → A_μ` such that `λ = φ_{μλ}^* ∘ μ`", and it
-follows from `(18.8.5, (i))` that this homomorphism `φ_{μλ}` is unique. Moreover, `L` is increasingly filtered for the
-preceding preorder relation (which we still note `λ ⩽ μ`), by virtue
+**(18.8.6)** Let $A$ be a local ring, $\mathfrak{m}$ its maximal ideal, $k$ its residue field, $\Omega$ a separable
+closure of $k$. Consider the set $\mathfrak{E}$ of essentially étale $A$-algebras defined in `(18.6.1)`, and denote by
+$L$ the set of local $A$-homomorphisms $A' \to \Omega$, where $A'$ ranges over $\mathfrak{E}$; one will note that such a
+homomorphism factors as $\lambda : A' \to^{\omega_{\lambda}} k(A') \to \Omega$, where $\omega_{\lambda} : k(A') \to
+\Omega$ is an $A$-homomorphism (since $\mathfrak{m} A'$ is the maximal ideal of $A'$); conversely, the datum of such a
+homomorphism $\omega_{\lambda}$ uniquely determines a homomorphism $\lambda \in L$. For every $\lambda \in L$, we shall
+denote by $A_{\lambda}$ the essentially étale $A$-algebra belonging to $\mathfrak{E}$ on which $\lambda$ is defined. The
+set $L$ is preordered by the relation "there exists an $A$-homomorphism $\phi_{\mu \lambda} : A_{\lambda} \to A_{\mu}$
+such that $\lambda = \phi^{*}_{\mu \lambda} \circ \mu$", and it follows from `(18.8.5, (i))` that this homomorphism
+$\phi_{\mu \lambda}$ is unique. Moreover, $L$ is increasingly filtered for the preceding preorder relation (which we
+still note $\lambda \leqslant \mu$), by virtue
 
 <!-- original page 146 -->
 
-of `(18.8.5, (ii))`. It is clear that `(A_λ, φ_{μλ})` is an inductive system of local `A`-algebras, the `φ_{μλ}` being
-local homomorphisms; moreover, it follows from `(17.3.5)` that for `λ ⩽ μ`, `A_μ` is an essentially étale `A_λ`-algebra.
-If `φ̄_{μλ} : k(A_λ) → k(A_μ)` is the `A`-homomorphism deduced from `φ_{μλ}` by passage to the quotients,
-`(k(A_λ), φ̄_{μλ})` is an inductive system of separable algebraic extensions of `k`, and the `ω_λ : k(A_λ) → Ω` form an
-inductive system of `k`-homomorphisms. Moreover, the inductive limit
+of `(18.8.5, (ii))`. It is clear that $(A_{\lambda}, \phi_{\mu \lambda})$ is an inductive system of local $A$-algebras,
+the $\phi_{\mu \lambda}$ being local homomorphisms; moreover, it follows from `(17.3.5)` that for $\lambda \leqslant
+\mu$, $A_{\mu}$ is an essentially étale $A_{\lambda}$-algebra. If $\bar{\phi}_{\mu \lambda} : k(A_{\lambda}) \to
+k(A_{\mu})$ is the $A$-homomorphism deduced from $\phi_{\mu \lambda}$ by passage to the quotients, $(k(A_{\lambda}),
+\bar{\phi}_{\mu \lambda})$ is an inductive system of separable algebraic extensions of $k$, and the $\omega_{\lambda} :
+k(A_{\lambda}) \to \Omega$ form an inductive system of $k$-homomorphisms. Moreover, the inductive limit
 
 ```text
   (18.8.6.1)    ω : lim_→ k(A_λ) → Ω
 ```
 
-is a `k`-isomorphism. It suffices in effect to prove that for every finite separable extension `k'` of `k`, there exists
-an essentially étale `A`-algebra `A'` such that `k'` is the residue field of `A'` and that the homomorphism `k → k'` is
-deduced from `A → A'` by passage to the quotients. But this follows from `(18.1.1)` applied to étale morphisms, taking
-into account that `Spec(A)` is the only neighbourhood of its closed point.
+is a $k$-isomorphism. It suffices in effect to prove that for every finite separable extension $k'$ of $k$, there exists
+an essentially étale $A$-algebra $A'$ such that $k'$ is the residue field of $A'$ and that the homomorphism $k \to k'$
+is deduced from $A \to A'$ by passage to the quotients. But this follows from `(18.1.1)` applied to étale morphisms,
+taking into account that $\operatorname{Spec}(A)$ is the only neighbourhood of its closed point.
 
-Note now that if `𝔪_λ` is the maximal ideal of `A_λ`, it follows from `(17.6.1)` that for `λ ⩽ μ`, one has
-`𝔪_μ = 𝔪_λ · A_μ` and that `A_μ` is a flat `A_λ`-module. Hence it follows from `(0_III, 10.3.1.3)` that the ring
-`lim_→ A_λ` is local, that the canonical homomorphism `w : A → lim_→ A_λ` is local, and that one has a canonical
-`k`-isomorphism
+Note now that if $\mathfrak{m}_{\lambda}$ is the maximal ideal of $A_{\lambda}$, it follows from `(17.6.1)` that for
+$\lambda \leqslant \mu$, one has $\mathfrak{m}_{\mu} = \mathfrak{m}_{\lambda} \cdot A_{\mu}$ and that $A_{\mu}$ is a
+flat $A_{\lambda}$-module. Hence it follows from $(0_{III}, 10.3.1.3)$ that the ring $\varinjlim A_{\lambda}$ is local,
+that the canonical homomorphism $w : A \to \varinjlim A_{\lambda}$ is local, and that one has a canonical
+$k$-isomorphism
 
 ```text
   lim_→ k(A_λ) ⥲ k(lim_→ A_λ);
 ```
 
-identifying these two fields, one deduces a canonical `k`-isomorphism
+identifying these two fields, one deduces a canonical $k$-isomorphism
 
 ```text
   (18.8.6.2)    ω^{−1} : Ω ⥲ k(lim_→ A_λ).
@@ -2018,160 +2184,175 @@ identifying these two fields, one deduces a canonical `k`-isomorphism
 
 <!-- label: IV.18.8.7 -->
 
-*Let `A` be a local ring, `k = k(A)` its residue field, `i : k → Ω` a homomorphism of `k` into a separable closure `Ω`
-of `k`; one calls the **strict Henselization** of `A` relative to `i`, and one denotes by `^{hs} A_{(i)}` (or `^{hs} A`
-when this leads to no confusion) the inductive limit of the inductive system `(A_λ, φ_{μλ})` defined in `(18.8.6)`.*
+*Let $A$ be a local ring, $k = k(A)$ its residue field, $i : k \to \Omega$ a homomorphism of $k$ into a separable
+closure $\Omega$ of $k$; one calls the **strict Henselization** of $A$ relative to $i$, and one denotes by ${}^{hs}
+A_{(i)}$ (or ${}^{hs} A$ when this leads to no confusion) the inductive limit of the inductive system $(A_{\lambda},
+\phi_{\mu \lambda})$ defined in `(18.8.6)`.*
 
-As one has a canonical `k`-isomorphism `ω^{−1} : Ω ⥲ k(^{hs} A_{(i)})`, it is canonically endowed with a structure of
-`^{hs} A_{(i)}`-algebra by the local homomorphism
+As one has a canonical $k$-isomorphism $\omega^{-1} : \Omega \xrightarrow{\sim} k({}^{hs} A_{(i)})$, it is canonically
+endowed with a structure of ${}^{hs} A_{(i)}$-algebra by the local homomorphism
 
 ```text
   ^{hs} A_{(i)} → k(^{hs} A_{(i)}) ⥲ Ω.
 ```
 
 As in `(18.6.5)` one sees that the definition given in `(18.8.7)` depends only in appearance on the choice of the set
-`𝔈`; we shall see further below `(18.8.8, (i) and (ii))` that `^{hs} A_{(i)}` is an object representing a functor
-entirely defined by the data of `A` and `i` `(0_III, 8.1.8)`, and is therefore defined as such up to unique isomorphism.
+$\mathfrak{E}$; we shall see further below `(18.8.8, (i) and (ii))` that ${}^{hs} A_{(i)}$ is an object representing a
+functor entirely defined by the data of $A$ and $i$ $(0_{III}, 8.1.8)$, and is therefore defined as such up to unique
+isomorphism.
 
 **Proposition (18.8.8).**
 
 <!-- label: IV.18.8.8 -->
 
-*Let `A` be a local ring, `k` its residue field, `i : k → Ω` a homomorphism of `k` into a separable closure of `k`,
-`^{hs} A_{(i)}` the strict Henselization of `A` corresponding to `i`.*
+*Let $A$ be a local ring, $k$ its residue field, $i : k \to \Omega$ a homomorphism of $k$ into a separable closure of
+$k$, ${}^{hs} A_{(i)}$ the strict Henselization of $A$ corresponding to $i$.*
 
-*(i) `^{hs} A_{(i)}` is a strictly local ring `(18.8.2)` and the structure homomorphism `w : A → ^{hs} A_{(i)}` is
+*(i) ${}^{hs} A_{(i)}$ is a strictly local ring `(18.8.2)` and the structure homomorphism $w : A \to {}^{hs} A_{(i)}$ is
 local.*
 
-*(ii) For every local homomorphism `u : A → B`, where `B` is a strictly local ring, and every `k`-homomorphism
-`φ : Ω → k(B)`, there exists one and only one `A`-homomorphism `v : ^{hs} A_{(i)} → B` such that `φ` factors as
-`Ω ⥲ k(^{hs} A_{(i)}) →^{v̄} k(B)`, where `v̄` is deduced from `v` by passage to the quotients.*
+*(ii) For every local homomorphism $u : A \to B$, where $B$ is a strictly local ring, and every $k$-homomorphism $\phi :
+\Omega \to k(B)$, there exists one and only one $A$-homomorphism $v : {}^{hs} A_{(i)} \to B$ such that $\phi$ factors as
+$\Omega \xrightarrow{\sim} k({}^{hs} A_{(i)}) \to^{\bar{v}} k(B)$, where $\bar{v}$ is deduced from $v$ by passage to the
+quotients.*
 
 <!-- original page 147 -->
 
-*(iii) `^{hs} A_{(i)}` is a faithfully flat `A`-module, and if `𝔪` is the maximal ideal of `A`, `𝔪 · ^{hs} A_{(i)}` is
-the maximal ideal of `^{hs} A_{(i)}`, and `k(^{hs} A_{(i)})` is a separable closure of `k`.*
+*(iii) ${}^{hs} A_{(i)}$ is a faithfully flat $A$-module, and if $\mathfrak{m}$ is the maximal ideal of $A$,
+$\mathfrak{m} \cdot {}^{hs} A_{(i)}$ is the maximal ideal of ${}^{hs} A_{(i)}$, and $k({}^{hs} A_{(i)})$ is a separable
+closure of $k$.*
 
-*(iv) In order for `^{hs} A_{(i)}` to be Noetherian, it is necessary and sufficient that `A` be so.*
+*(iv) In order for ${}^{hs} A_{(i)}$ to be Noetherian, it is necessary and sufficient that $A$ be so.*
 
-*(v) If `A` is strictly local (so `Ω = k`), one has `^{hs} A = A`.*
+*(v) If $A$ is strictly local (so $\Omega = k$), one has ${}^{hs} A = A$.*
 
-*(vi) If `i' : k → Ω'` is a second homomorphism of `k` into a separable closure of `k`, then for every `k`-isomorphism
-`σ : Ω ⥲ Ω'`, the corresponding `A`-homomorphism (by (ii)) `v_σ : ^{hs} A_{(i)} → ^{hs} A_{(i')}` is an isomorphism.*
+*(vi) If $i' : k \to \Omega'$ is a second homomorphism of $k$ into a separable closure of $k$, then for every
+$k$-isomorphism $\sigma : \Omega \xrightarrow{\sim} \Omega'$, the corresponding $A$-homomorphism (by (ii)) $v_{\sigma} :
+{}^{hs} A_{(i)} \to {}^{hs} A_{(i')}$ is an isomorphism.*
 
-We have already seen above that `^{hs} A_{(i)}` is a local ring and that `w` is a local homomorphism; the fact that
-`^{hs} A_{(i)}` is Henselian (and consequently strictly local) is proved as in `(18.6.6)`. The assertions of (iii) also
-follow from `(0_III, 10.3.1.3)`, as does the sufficiency of condition (iv); the necessity of this condition follows from
-the fact that `^{hs} A_{(i)}` is a faithfully flat `A`-module `(0_I, 6.5.2)`.
+We have already seen above that ${}^{hs} A_{(i)}$ is a local ring and that $w$ is a local homomorphism; the fact that
+${}^{hs} A_{(i)}$ is Henselian (and consequently strictly local) is proved as in `(18.6.6)`. The assertions of (iii)
+also follow from $(0_{III}, 10.3.1.3)$, as does the sufficiency of condition (iv); the necessity of this condition
+follows from the fact that ${}^{hs} A_{(i)}$ is a faithfully flat $A$-module $(0_{I}, 6.5.2)$.
 
-To prove (ii), let us remark, with the notations of `(18.8.6)`, that for every `λ ∈ L`, there exists one and only one
-local `A`-homomorphism `v_λ : A_λ → B`, such that the composite `k(A_λ) →^{ω_λ} Ω →^φ k(B)` is deduced from `v_λ` by
-passage to the quotients, by virtue of `(18.8.4)` and the hypothesis that `B` is strictly local. The uniqueness of `v_λ`
-moreover entails that the `v_λ` form an inductive system, whence the existence of the homomorphism `v` satisfying the
-conditions of (ii); its uniqueness follows from `(17.4.9)`. The uniqueness of `v` entails at once assertion (vi), by
-considering the composites `v_σ ∘ v_{σ^{−1}}` and `v_{σ^{−1}} ∘ v_σ`. Finally, if `A` is strictly local, and `A' = B_𝔫`
-an essentially étale local `A`-algebra, where `B` is an étale `A`-algebra, it follows from `(18.8.1)` that there exists
-a `Spec(A)`-section of `Spec(B)` taking the value `𝔫` at the closed point of `Spec(A)`, hence one deduces from
-`(17.4.1)` that the homomorphism `A → A'` is bijective, which proves (v).
+To prove (ii), let us remark, with the notations of `(18.8.6)`, that for every $\lambda \in L$, there exists one and
+only one local $A$-homomorphism $v_{\lambda} : A_{\lambda} \to B$, such that the composite $k(A_{\lambda})
+\to^{\omega_{\lambda}} \Omega \to^{\phi} k(B)$ is deduced from $v_{\lambda}$ by passage to the quotients, by virtue of
+`(18.8.4)` and the hypothesis that $B$ is strictly local. The uniqueness of $v_{\lambda}$ moreover entails that the
+$v_{\lambda}$ form an inductive system, whence the existence of the homomorphism $v$ satisfying the conditions of (ii);
+its uniqueness follows from `(17.4.9)`. The uniqueness of $v$ entails at once assertion (vi), by considering the
+composites $v_{\sigma} \circ v_{\sigma^{-1}}$ and $v_{\sigma^{-1}} \circ v_{\sigma}$. Finally, if $A$ is strictly local,
+and $A' = B_{\mathfrak{n}}$ an essentially étale local $A$-algebra, where $B$ is an étale $A$-algebra, it follows from
+`(18.8.1)` that there exists a $\operatorname{Spec}(A)$-section of $\operatorname{Spec}(B)$ taking the value
+$\mathfrak{n}$ at the closed point of $\operatorname{Spec}(A)$, hence one deduces from `(17.4.1)` that the homomorphism
+$A \to A'$ is bijective, which proves (v).
 
-**(18.8.8.1)** Let `𝒞` be the category of strictly local rings, with the local homomorphisms as morphisms; for every
-`B ∈ 𝒞`, denote by `F(B)` the set of pairs `(u, ψ)` formed of a local homomorphism `u : A → B` and an `A`-isomorphism
-`ψ : Ω ⥲ k(B)` such that the composite `k(A) = k →^i Ω →^ψ k(B)` is deduced from `u` by passage to the quotients. One
-can say that the object `^{hs} A_{(i)}` represents the covariant functor `F : 𝒞 → Ens` `(0_III, 8.1.8)`.
+**(18.8.8.1)** Let $\mathcal{C}$ be the category of strictly local rings, with the local homomorphisms as morphisms; for
+every $B \in \mathcal{C}$, denote by $F(B)$ the set of pairs $(u, \psi)$ formed of a local homomorphism $u : A \to B$
+and an $A$-isomorphism $\psi : \Omega \xrightarrow{\sim} k(B)$ such that the composite $k(A) = k \to^{i} \Omega
+\to^{\psi} k(B)$ is deduced from $u$ by passage to the quotients. One can say that the object ${}^{hs} A_{(i)}$
+represents the covariant functor $F : \mathcal{C} \to Ens$ $(0_{III}, 8.1.8)$.
 
-One will note that by virtue of `(18.8.8, (vi))` the strict Henselizations `^{hs} A_{(i)}` are all `A`-isomorphic (for
-the various `k`-homomorphisms `i` of `k` into separable closures of `k`), but for given `i` and `i'`, there are in
-general infinitely many `A`-isomorphisms `^{hs} A_{(i)} ⥲ ^{hs} A_{(i')}`. In precise terms, the group of
-`A`-automorphisms of `^{hs} A_{(i)}` is isomorphic to the Galois group of `Ω` over `k`.
+One will note that by virtue of `(18.8.8, (vi))` the strict Henselizations ${}^{hs} A_{(i)}$ are all $A$-isomorphic (for
+the various $k$-homomorphisms $i$ of $k$ into separable closures of $k$), but for given $i$ and $i'$, there are in
+general infinitely many $A$-isomorphisms ${}^{hs} A_{(i)} \xrightarrow{\sim} {}^{hs} A_{(i')}$. In precise terms, the
+group of $A$-automorphisms of ${}^{hs} A_{(i)}$ is isomorphic to the Galois group of $\Omega$ over $k$.
 
-**(18.8.9)** Now let `A` be a semi-local ring, `𝔪_j (1 ⩽ j ⩽ n)` its maximal ideals, and for each index `j`, consider a
-homomorphism `i_j : k(A_{𝔪_j}) → Ω_j` of `k(A_{𝔪_j})` into a separable closure of this field. One calls the **strict
-Henselization** of `A` relative to the `i_j`, and one denotes by `^{hs} A` (when this gives rise to no confusion), the
-product `∏_j (^{hs}(A_{𝔪_j}))` of the strict Henselizations of the local rings `A_{𝔪_j}` relative to the homomorphisms
-`i_j`.
+**(18.8.9)** Now let $A$ be a semi-local ring, $\mathfrak{m}_{j} (1 \leqslant j \leqslant n)$ its maximal ideals, and
+for each index $j$, consider a homomorphism $i_{j} : k(A_{\mathfrak{m}_{j}}) \to \Omega_{j}$ of
+$k(A_{\mathfrak{m}_{j}})$ into a separable closure of this field. One calls the **strict Henselization** of $A$ relative
+to the $i_{j}$, and one denotes by ${}^{hs} A$ (when this gives rise to no confusion), the product $\prod_{j}
+({}^{hs}(A_{\mathfrak{m}_{j}}))$ of the strict Henselizations of the local rings $A_{\mathfrak{m}_{j}}$ relative to the
+homomorphisms $i_{j}$.
 
 <!-- original page 148 -->
 
-It is therefore, by virtue of `(18.8.8)`, a faithfully flat `A`-module and a semi-local `A`-algebra whose maximal ideals
-are the `𝔪_j · ^{hs} A` and the radical `𝔯 · ^{hs} A` (if `𝔯` designates the radical of `A`). Finally, the universal
-property `(18.8.8, (ii))` subsists on replacing "local homomorphism" by "semi-local homomorphism" `(18.6.7)`, and on
-replacing `Ω` by `∏_j Ω_j`.
+It is therefore, by virtue of `(18.8.8)`, a faithfully flat $A$-module and a semi-local $A$-algebra whose maximal ideals
+are the $\mathfrak{m}_{j} \cdot {}^{hs} A$ and the radical $\mathfrak{r} \cdot {}^{hs} A$ (if $\mathfrak{r}$ designates
+the radical of $A$). Finally, the universal property `(18.8.8, (ii))` subsists on replacing "local homomorphism" by
+"semi-local homomorphism" `(18.6.7)`, and on replacing $\Omega$ by $\prod_{j} \Omega_{j}$.
 
 **Proposition (18.8.10).**
 
 <!-- label: IV.18.8.10 -->
 
-*Let `A` be a semi-local ring, `B` a finite `A`-algebra. Let `𝔫_i (1 ⩽ i ⩽ r)` be the maximal ideals of `B`. Then there
-is, for each `j`, a maximal ideal `𝔮_j` of `B ⊗_A (^{hs} A)` lying over `𝔫_j`, such that `^{hs} B` is isomorphic to the
-direct composite of the local rings `(B ⊗_A (^{hs} A))_{𝔮_j} (1 ⩽ j ⩽ r)`.*
+*Let $A$ be a semi-local ring, $B$ a finite $A$-algebra. Let $\mathfrak{n}_{i} (1 \leqslant i \leqslant r)$ be the
+maximal ideals of $B$. Then there is, for each $j$, a maximal ideal $\mathfrak{q}_{j}$ of $B \otimes_{A} ({}^{hs} A)$
+lying over $\mathfrak{n}_{j}$, such that ${}^{hs} B$ is isomorphic to the direct composite of the local rings $(B
+\otimes_{A} ({}^{hs} A))_{\mathfrak{q}_{j}} (1 \leqslant j \leqslant r)$.*
 
-One may evidently restrict to the case where `A` is local, on replacing `A` by `A_{𝔪_i}`, where `𝔪_i` is the maximal
-ideal of `A` inverse image of `𝔫_i`. Set on the other hand `C = B_{𝔫_i}`; by virtue of the definition of `^{hs} B`
-`(18.8.1)`, everything reduces to seeing that `^{hs} C` is `C`-isomorphic to `(C ⊗_A (^{hs} A))_𝔮`, where `𝔮` is one of
-the maximal ideals of `C ⊗_A (^{hs} A)`. Let `k` and `K` be the residue fields of `A` and `C`, `Ω` that of `^{hs} A`,
-which is by definition a separable closure of `k`; as `K` is a finite extension of `k`, one may suppose `K` and `Ω`
-contained in the same algebraic closure of `k`; it is then immediate that `K ⊗_k Ω` is a direct composite of a finite
-number of fields, all isomorphic to the separable closure `K Ω` of `K`. On the other hand, the ring `^{hs} A` being
-Henselian, `C ⊗_A (^{hs} A)` is a direct composite of the local rings `(C ⊗_A (^{hs} A))_{𝔮_j}`, where `𝔮_j (1 ⩽ j)`
-ranges over the maximal ideals of `C ⊗_A (^{hs} A)`, and these local rings are Henselian `(18.5.10)` and have `K Ω` for
-residue field, hence are strictly local `(18.8.1)`. Set for brevity `C' = C ⊗_A (^{hs} A)` and `C'_j = C'_{𝔮_j}`, which
-is therefore a quotient ring of `C'`; let `f : C → C'`, `g : ^{hs} A → C'`, `φ_j : C' → C'_j` be the canonical maps.
+One may evidently restrict to the case where $A$ is local, on replacing $A$ by $A_{\mathfrak{m}_{i}}$, where
+$\mathfrak{m}_{i}$ is the maximal ideal of $A$ inverse image of $\mathfrak{n}_{i}$. Set on the other hand $C =
+B_{\mathfrak{n}_{i}}$; by virtue of the definition of ${}^{hs} B$ `(18.8.1)`, everything reduces to seeing that ${}^{hs}
+C$ is $C$-isomorphic to $(C \otimes_{A} ({}^{hs} A))_{\mathfrak{q}}$, where $\mathfrak{q}$ is one of the maximal ideals
+of $C \otimes_{A} ({}^{hs} A)$. Let $k$ and $K$ be the residue fields of $A$ and $C$, $\Omega$ that of ${}^{hs} A$,
+which is by definition a separable closure of $k$; as $K$ is a finite extension of $k$, one may suppose $K$ and $\Omega$
+contained in the same algebraic closure of $k$; it is then immediate that $K \otimes_{k} \Omega$ is a direct composite
+of a finite number of fields, all isomorphic to the separable closure $K \Omega$ of $K$. On the other hand, the ring
+${}^{hs} A$ being Henselian, $C \otimes_{A} ({}^{hs} A)$ is a direct composite of the local rings $(C \otimes_{A}
+({}^{hs} A))_{\mathfrak{q}_{j}}$, where $\mathfrak{q}_{j} (1 \leqslant j)$ ranges over the maximal ideals of $C
+\otimes_{A} ({}^{hs} A)$, and these local rings are Henselian `(18.5.10)` and have $K \Omega$ for residue field, hence
+are strictly local `(18.8.1)`. Set for brevity $C' = C \otimes_{A} ({}^{hs} A)$ and $C'_{j} = C'_{\mathfrak{q}_{j}}$,
+which is therefore a quotient ring of $C'$; let $f : C \to C'$, $g : {}^{hs} A \to C'$, $\phi_{j} : C' \to C'_{j}$ be
+the canonical maps.
 
-Let `v : C → ^{hs} C` be the canonical homomorphism; there exists one and only one local homomorphism
-`u : ^{hs} A → ^{hs} C` which, by passage to the quotients, gives the canonical injection `Ω → K Ω` and such that the
-composite `A → ^{hs} A →^u ^{hs} C` is equal to the composite `A → C →^v ^{hs} C` `(18.8.8)`; hence there exists a
-unique local homomorphism `w_0 : C' → ^{hs} C` such that `w_0 ∘ g = u`, `w_0 ∘ f = v`, and since `^{hs} C` is a local
-ring, this homomorphism factors as `C' →^{φ_i} C'_i →^w ^{hs} C` for a well-determined index `i`, `w` being a local
-homomorphism. On the other hand, the ring `C'_i` being strictly local, there exists a local homomorphism
-`w' : ^{hs} C → C'_i` which, by passage to the quotients, gives the identity automorphism of `K Ω` and which is such
-that `w' ∘ v = φ_i ∘ f` `(18.8.8)`. One deduces first from this that `w ∘ w'` is an endomorphism of `^{hs} C` which, by
-passage to the quotients, gives the identity automorphism of `K Ω`, hence is
+Let $v : C \to {}^{hs} C$ be the canonical homomorphism; there exists one and only one local homomorphism $u : {}^{hs} A
+\to {}^{hs} C$ which, by passage to the quotients, gives the canonical injection $\Omega \to K \Omega$ and such that the
+composite $A \to {}^{hs} A \to^{u} {}^{hs} C$ is equal to the composite $A \to C \to^{v} {}^{hs} C$ `(18.8.8)`; hence
+there exists a unique local homomorphism $w_{0} : C' \to {}^{hs} C$ such that $w_{0} \circ g = u$, $w_{0} \circ f = v$,
+and since ${}^{hs} C$ is a local ring, this homomorphism factors as $C' \to^{\phi_{i}} C'_{i} \to^{w} {}^{hs} C$ for a
+well-determined index $i$, $w$ being a local homomorphism. On the other hand, the ring $C'_{i}$ being strictly local,
+there exists a local homomorphism $w' : {}^{hs} C \to C'_{i}$ which, by passage to the quotients, gives the identity
+automorphism of $K \Omega$ and which is such that $w' \circ v = \phi_{i} \circ f$ `(18.8.8)`. One deduces first from
+this that $w \circ w'$ is an endomorphism of ${}^{hs} C$ which, by passage to the quotients, gives the identity
+automorphism of $K \Omega$, hence is
 
 <!-- original page 149 -->
 
-the identity `(18.8.8)`. On the other hand, one has `w' ∘ w ∘ φ_i ∘ f = w' ∘ v = φ_i ∘ f`, and
-`w' ∘ w ∘ φ_i ∘ g = w' ∘ u = φ_i ∘ g`, whence `w' ∘ w ∘ φ_i = φ_i`, in other words `w' ∘ w` is the identity automorphism
-of `C'_i`. Q.E.D.
+the identity `(18.8.8)`. On the other hand, one has $w' \circ w \circ \phi_{i} \circ f = w' \circ v = \phi_{i} \circ f$,
+and $w' \circ w \circ \phi_{i} \circ g = w' \circ u = \phi_{i} \circ g$, whence $w' \circ w \circ \phi_{i} = \phi_{i}$,
+in other words $w' \circ w$ is the identity automorphism of $C'_{i}$. Q.E.D.
 
-**Remark (18.8.11).** — The proof of `(18.8.10)` uses the fact that `B` is integral over `A`, but uses the fact that `B`
-is a finite `A`-algebra only to establish that `K ⊗_k Ω` is a direct composite of a finite number of fields. Now, this
-last property is still satisfied when one supposes that `B` is a semi-local integral `A`-algebra whose maximal ideals
-`𝔫_i` have residue fields of finite separable degrees `[k(𝔫_i) : k]_s`.
+**Remark (18.8.11).** — The proof of `(18.8.10)` uses the fact that $B$ is integral over $A$, but uses the fact that $B$
+is a finite $A$-algebra only to establish that $K \otimes_{k} \Omega$ is a direct composite of a finite number of
+fields. Now, this last property is still satisfied when one supposes that $B$ is a semi-local integral $A$-algebra whose
+maximal ideals $\mathfrak{n}_{i}$ have residue fields of finite separable degrees $[k(\mathfrak{n}_{i}) : k]_{s}$.
 
 **Proposition (18.8.12).**
 
 <!-- label: IV.18.8.12 -->
 
-*Let `A` be a semi-local ring.*
+*Let $A$ be a semi-local ring.*
 
-*(i) In order for `^{hs} A` to be reduced (resp. normal), it is necessary and sufficient that `A` be so.*
+*(i) In order for ${}^{hs} A$ to be reduced (resp. normal), it is necessary and sufficient that $A$ be so.*
 
-*(ii) Suppose `A` Noetherian. Then, for every prime ideal `𝔭` of `A`, the ring `(^{hs} A)_𝔭 / 𝔭 · (^{hs} A)_𝔭` is a
-direct composite of a finite number of separable algebraic extensions of `k(𝔭)` (which implies that the fibres of the
-canonical morphism `Spec(^{hs} A) → Spec(A)` are geometrically regular and are discrete spaces).*
+*(ii) Suppose $A$ Noetherian. Then, for every prime ideal $\mathfrak{p}$ of $A$, the ring $({}^{hs} A)_{\mathfrak{p}} /
+\mathfrak{p} \cdot ({}^{hs} A)_{\mathfrak{p}}$ is a direct composite of a finite number of separable algebraic
+extensions of $k(\mathfrak{p})$ (which implies that the fibres of the canonical morphism $\operatorname{Spec}({}^{hs} A)
+\to \operatorname{Spec}(A)$ are geometrically regular and are discrete spaces).*
 
 **Corollary (18.8.13).**
 
 <!-- label: IV.18.8.13 -->
 
-*Let `A` be a Noetherian local ring. In order for `^{hs} A` to possess one of the following properties:*
+*Let $A$ be a Noetherian local ring. In order for ${}^{hs} A$ to possess one of the following properties:*
 
 *a) being a Cohen-Macaulay ring `(0, 16.5.3)`;*
 
-*b) satisfying condition `(S_n)` `(5.7.3)`;*
+*b) satisfying condition $(S_{n})$ `(5.7.3)`;*
 
 *c) being regular;*
 
-*d) satisfying condition `(R_n)` `(5.8.2)`;*
+*d) satisfying condition $(R_{n})$ `(5.8.2)`;*
 
-*it is necessary and sufficient that `A` possess this same property.*
+*it is necessary and sufficient that $A$ possess this same property.*
 
 **Corollary (18.8.14).**
 
 <!-- label: IV.18.8.14 -->
 
-*Let `A` be a Noetherian semi-local ring. In order for a prime ideal `𝔭` of `^{hs} A` to belong to `Ass(^{hs} A)`, it is
-necessary and sufficient that `𝔭 ∩ A` belong to `Ass(A)`.*
+*Let $A$ be a Noetherian semi-local ring. In order for a prime ideal $\mathfrak{p}$ of ${}^{hs} A$ to belong to
+$Ass({}^{hs} A)$, it is necessary and sufficient that $\mathfrak{p} \cap A$ belong to $Ass(A)$.*
 
 The proofs are the same as those of `(18.6.9)`, `(18.6.10)` and `(18.6.11)` respectively.
 
@@ -2179,28 +2360,28 @@ The proofs are the same as those of `(18.6.9)`, `(18.6.10)` and `(18.6.11)` resp
 
 <!-- label: IV.18.8.15 -->
 
-*Let `A` be a local ring; the following properties are equivalent:*
+*Let $A$ be a local ring; the following properties are equivalent:*
 
-*a) `A` is geometrically unibranch (resp. reduced and geometrically unibranch).*
+*a) $A$ is geometrically unibranch (resp. reduced and geometrically unibranch).*
 
-*b) For every essentially étale local `A`-algebra `A'`, `Spec(A')` is irreducible (resp. integral).*
+*b) For every essentially étale local $A$-algebra $A'$, $\operatorname{Spec}(A')$ is irreducible (resp. integral).*
 
-*c) `Spec(^{hs} A)` is irreducible (resp. integral).*
+*c) $\operatorname{Spec}({}^{hs} A)$ is irreducible (resp. integral).*
 
-One reduces as in `(18.6.12)` to the case where `A` is reduced, using the relation
-`^{hs}(A_{red}) = (^{hs} A) ⊗_A A_{red}` `(18.8.11)`, and the equivalence of b) and c) is proved as in `(18.6.12)`; the
-same holds for the fact that a) implies c), taking into account `(18.8.11)` and the definition of a geometrically
-unibranch integral local ring. Finally, to prove that c) implies a), let us keep the same notations as in `(18.6.12)`;
-it is still a question of seeing that `^{hs} B` is integral. But, by `(18.8.10)`, `^{hs} B` is a localized ring of the
-semi-local ring `B ⊗_A (^{hs} A)`, which by flatness still identifies with a subring of the field `L`, hence is
-integral; the same holds therefore for `^{hs} B`, which completes the proof.
+One reduces as in `(18.6.12)` to the case where $A$ is reduced, using the relation ${}^{hs}(A_{red}) = ({}^{hs} A)
+\otimes_{A} A_{red}$ `(18.8.11)`, and the equivalence of b) and c) is proved as in `(18.6.12)`; the same holds for the
+fact that a) implies c), taking into account `(18.8.11)` and the definition of a geometrically unibranch integral local
+ring. Finally, to prove that c) implies a), let us keep the same notations as in `(18.6.12)`; it is still a question of
+seeing that ${}^{hs} B$ is integral. But, by `(18.8.10)`, ${}^{hs} B$ is a localized ring of the semi-local ring $B
+\otimes_{A} ({}^{hs} A)$, which by flatness still identifies with a subring of the field $L$, hence is integral; the
+same holds therefore for ${}^{hs} B$, which completes the proof.
 
 **Corollary (18.8.16).**
 
 <!-- label: IV.18.8.16 -->
 
-*Let `A` be a Henselian local ring (resp. strictly local). In order for `A` to be unibranch (resp. geometrically
-unibranch), it is necessary and sufficient that `Spec(A)` be irreducible.*
+*Let $A$ be a Henselian local ring (resp. strictly local). In order for $A$ to be unibranch (resp. geometrically
+unibranch), it is necessary and sufficient that $\operatorname{Spec}(A)$ be irreducible.*
 
 <!-- original page 150 -->
 
@@ -2208,7 +2389,7 @@ unibranch), it is necessary and sufficient that `Spec(A)` be irreducible.*
 
 <!-- label: IV.18.8.17 -->
 
-*Let `A` be a Noetherian local ring. If `A` is universally catenary, the same holds for `^{hs} A`.*
+*Let $A$ be a Noetherian local ring. If $A$ is universally catenary, the same holds for ${}^{hs} A$.*
 
 The proof is the same as that of `(18.7.5)`.
 
@@ -2219,10 +2400,10 @@ The proof is the same as that of `(18.7.5)`.
 *(i) Every filtered inductive limit of strictly local rings (where the transition homomorphisms are local) is a strictly
 local ring.*
 
-*(ii) The functor `A ↦ ^{hs} A` on the category of local rings (where the morphisms are the local homomorphisms)
+*(ii) The functor $A \mapsto {}^{hs} A$ on the category of local rings (where the morphisms are the local homomorphisms)
 commutes with filtered inductive limits.*
 
-*(iii) Every strictly local ring `A` is the inductive limit of a filtered inductive system of Noetherian strictly local
+*(iii) Every strictly local ring $A$ is the inductive limit of a filtered inductive system of Noetherian strictly local
 rings (the transition homomorphisms being local).*
 
 The proofs are modelled on those of `(18.6.14)`.
@@ -2233,56 +2414,58 @@ The proofs are modelled on those of `(18.6.14)`.
 
 <!-- label: IV.18.9.1 -->
 
-*Let `A` be a Henselian Noetherian local ring whose formal fibres are geometrically normal. Then the formal fibres of
-`A` are geometrically integral (hence geometrically connected).*
+*Let $A$ be a Henselian Noetherian local ring whose formal fibres are geometrically normal. Then the formal fibres of
+$A$ are geometrically integral (hence geometrically connected).*
 
 The two assertions of the statement are in fact equivalent, a locally Noetherian connected and normal prescheme being
-integral. As every finite integral `A`-algebra is a Henselian local ring `(18.5.9 and 18.5.10)`, it follows from
-`(7.3.16.2)` that one is reduced to proving that if one supposes moreover `A` integral, then the fibre of the morphism
-`Spec(Â) → Spec(A)` at the generic point of `Spec(A)` is integral, which follows from the
+integral. As every finite integral $A$-algebra is a Henselian local ring `(18.5.9 and 18.5.10)`, it follows from
+`(7.3.16.2)` that one is reduced to proving that if one supposes moreover $A$ integral, then the fibre of the morphism
+$\operatorname{Spec}(\hat{A}) \to \operatorname{Spec}(A)$ at the generic point of $\operatorname{Spec}(A)$ is integral,
+which follows from the
 
 **Corollary (18.9.2).**
 
 <!-- label: IV.18.9.2 -->
 
-*Let `A` be a Henselian Noetherian local ring that is integral, whose formal fibres are geometrically normal. Then `Â`
+*Let $A$ be a Henselian Noetherian local ring that is integral, whose formal fibres are geometrically normal. Then `Â`
 is integral.*
 
-In effect, it follows from `(18.8.16)` that `A` is unibranch, so the theorem follows from the hypothesis made on the
-formal fibres of `A` and from `(7.6.3)`.
+In effect, it follows from `(18.8.16)` that $A$ is unibranch, so the theorem follows from the hypothesis made on the
+formal fibres of $A$ and from `(7.6.3)`.
 
 **Corollary (18.9.3).**
 
 <!-- label: IV.18.9.3 -->
 
-*Under the hypotheses of `(18.9.2)`, the field of fractions `L` of `Â` is a separable extension of the field of
-fractions `K` of `A`, and `K` is algebraically closed in `L`.*
+*Under the hypotheses of `(18.9.2)`, the field of fractions $L$ of `Â` is a separable extension of the field of
+fractions $K$ of $A$, and $K$ is algebraically closed in $L$.*
 
-This follows from the fact that the fibre of the morphism `Spec(Â) → Spec(A)` at the generic point of `Spec(A)` is
-geometrically integral and from `(4.3.2)` and `(4.3.5)`.
+This follows from the fact that the fibre of the morphism $\operatorname{Spec}(\hat{A}) \to \operatorname{Spec}(A)$ at
+the generic point of $\operatorname{Spec}(A)$ is geometrically integral and from `(4.3.2)` and `(4.3.5)`.
 
 **Corollary (18.9.4).**
 
 <!-- label: IV.18.9.4 -->
 
-*Let `A` be a Henselian Noetherian local ring whose formal fibres are geometrically normal (for example a Henselian
-Noetherian local ring that is excellent), and set `A' = Â`. Let `X` be an `A`-prescheme, `X' = X ⊗_A A'`, `g : X' → X`
-the canonical projection. Then the map `U ↦ g^{−1}(U)` is a bijection of the set of subsets that are at once open and
-closed in `X` onto the set of subsets that are at once open and closed in `X'`.*
+*Let $A$ be a Henselian Noetherian local ring whose formal fibres are geometrically normal (for example a Henselian
+Noetherian local ring that is excellent), and set $A' = \hat{A}$. Let $X$ be an $A$-prescheme, $X' = X \otimes_{A} A'$,
+$g : X' \to X$ the canonical projection. Then the map $U \mapsto g^{-1}(U)$ is a bijection of the set of subsets that
+are at once open and closed in $X$ onto the set of subsets that are at once open and closed in $X'$.*
 
-As `g` is a faithfully flat and quasi-compact morphism, one knows `(2.3.12)` that the topology of `X` is the quotient of
-that of `X'` by the equivalence relation defined by `g`. Everything reduces therefore to seeing that an open and closed
-subset `U'` of `X'` is saturated for this relation. Now, as the morphism `Spec(A') → Spec(A)` has its fibres
-geometrically connected `(18.9.1)`, the fibres of `g` are connected, whence at once our assertion.
+As $g$ is a faithfully flat and quasi-compact morphism, one knows `(2.3.12)` that the topology of $X$ is the quotient of
+that of $X'$ by the equivalence relation defined by $g$. Everything reduces therefore to seeing that an open and closed
+subset $U'$ of $X'$ is saturated for this relation. Now, as the morphism $\operatorname{Spec}(A') \to
+\operatorname{Spec}(A)$ has its fibres geometrically connected `(18.9.1)`, the fibres of $g$ are connected, whence at
+once our assertion.
 
-In particular, if `X` is locally connected (which will be the case if `X` is locally Noetherian), then, for every
-connected component `U` of `X` (which is open and closed
+In particular, if $X$ is locally connected (which will be the case if $X$ is locally Noetherian), then, for every
+connected component $U$ of $X$ (which is open and closed
 
 <!-- original page 151 -->
 
-in `X`), `g^{−1}(U)` is connected `(Bourbaki, Top. gén., chap. I, 3rd ed., § 11, n° 3, prop. 7)`. If one denotes by
-`π_0(X)` the set of connected components of `X`, the map `π_0(X') → π_0(X)` canonically deduced from `g` is therefore
-bijective.
+in $X$), $g^{-1}(U)$ is connected `(Bourbaki, Top. gén., chap. I, 3rd ed., § 11, n° 3, prop. 7)`. If one denotes by
+$\pi_{0}(X)$ the set of connected components of $X$, the map $\pi_{0}(X') \to \pi_{0}(X)$ canonically deduced from $g$
+is therefore bijective.
 
 **Corollary (18.9.5).**
 
@@ -2294,51 +2477,53 @@ bijective.
   (18.9.5.1)    Z ↦ Z ⊗_A A'
 ```
 
-*from the category of étale preschemes over `X` to the category of étale preschemes over `X'` is fully faithful.*
+*from the category of étale preschemes over $X$ to the category of étale preschemes over $X'$ is fully faithful.*
 
-Let `Z_1`, `Z_2` be two étale preschemes over `X`, and set `Z'_i = Z_i ⊗_A A' (i = 1, 2)`; it is a question of proving
-that every `X'`-morphism `Z'_1 → Z'_2` arises, by base change, from a unique `X`-morphism `Z_1 → Z_2`. Suppose first
-that `Z_2` is separated over `X`; then, since `Hom_X(Z_1, Z_2)` identifies with `Γ(Z_1 ×_X Z_2 / Z_1)`, and
-`Z_1 ×_X Z_2` is étale and separated over `Z_1`, `Hom_X(Z_1, Z_2)` identifies functorially, by virtue of `(17.9.3)`,
-with the set of open and closed subsets `U` of `Z_1 ×_X Z_2` such that the restriction to `U` of the projection
-`p : Z_1 ×_X Z_2 → Z_1` is a surjective and radicial morphism. The assertion follows therefore in the case considered
-from `(18.9.4)` and from the fact that `Z'_1 ×_{X'} Z'_2 = (Z_1 ×_X Z_2) ⊗_A A'`.
+Let `Z_1`, `Z_2` be two étale preschemes over $X$, and set $Z'_{i} = Z_{i} \otimes_{A} A' (i = 1, 2)$; it is a question
+of proving that every $X'$-morphism $Z'_{1} \to Z'_{2}$ arises, by base change, from a unique $X$-morphism $Z_{1} \to
+Z_{2}$. Suppose first that `Z_2` is separated over $X$; then, since $\operatorname{Hom}_{X}(Z_{1}, Z_{2})$ identifies
+with $\Gamma(Z_{1} \times_{X} Z_{2} / Z_{1})$, and $Z_{1} \times_{X} Z_{2}$ is étale and separated over `Z_1`,
+$\operatorname{Hom}_{X}(Z_{1}, Z_{2})$ identifies functorially, by virtue of `(17.9.3)`, with the set of open and closed
+subsets $U$ of $Z_{1} \times_{X} Z_{2}$ such that the restriction to $U$ of the projection $p : Z_{1} \times_{X} Z_{2}
+\to Z_{1}$ is a surjective and radicial morphism. The assertion follows therefore in the case considered from `(18.9.4)`
+and from the fact that $Z'_{1} \times_{X'} Z'_{2} = (Z_{1} \times_{X} Z_{2}) \otimes_{A} A'$.
 
-Let us pass to the general case: it will suffice to prove that the graph `Γ'` of an `X'`-morphism `Z'_1 → Z'_2` which is
-open `(17.9.3)` in `Z'_1 ×_{X'} Z'_2` is of the form `Γ ⊗_A A'`, where `Γ` is induced on an open subset of
-`Z = Z_1 ×_X Z_2`. In effect, the restriction to `Γ` of the projection `p : Z → Z_1` is then an isomorphism, for by base
-change `A → A'` this restriction becomes the isomorphism restriction to `Γ'` of the projection `p' : Z' → Z'_1` (with
-`Z' = Z ⊗_A A'`), and it suffices to apply `(2.7.1, (viii))`; the conclusion then follows from the characterization of
-graphs of morphisms `(I, 5.3)`.
+Let us pass to the general case: it will suffice to prove that the graph $\Gamma'$ of an $X'$-morphism $Z'_{1} \to
+Z'_{2}$ which is open `(17.9.3)` in $Z'_{1} \times_{X'} Z'_{2}$ is of the form $\Gamma \otimes_{A} A'$, where $\Gamma$
+is induced on an open subset of $Z = Z_{1} \times_{X} Z_{2}$. In effect, the restriction to $\Gamma$ of the projection
+$p : Z \to Z_{1}$ is then an isomorphism, for by base change $A \to A'$ this restriction becomes the isomorphism
+restriction to $\Gamma'$ of the projection $p' : Z' \to Z'_{1}$ (with $Z' = Z \otimes_{A} A'$), and it suffices to apply
+`(2.7.1, (viii))`; the conclusion then follows from the characterization of graphs of morphisms `(I, 5.3)`.
 
-If `q : Z' → Z` is the canonical projection, to prove that `Γ'` is of the form `q^{−1}(Γ)`, where `Γ` is open in `Z`, it
-suffices, since `q` is a faithfully flat and quasi-compact morphism, to prove that there exists a set `U ⊂ Z` such that
-`Γ' = q^{−1}(U)` `(2.3.12)`. Set `Z'' = Z' ×_Z Z' = Z ×_X X''`, where `X'' = X' ×_X X'`, and let `r_1 : Z'' → Z'`,
-`r_2 : Z'' → Z'` be the canonical projections. Applying `(4.5.19.1)`, it suffices to show that
-`r_1^{−1}(Γ') = r_2^{−1}(Γ')`. But this is a property which is true if and only if it is so after each base change
-`Spec(k(x)) → X`, where `x` ranges over `X`. In other words, it suffices to prove the corollary when `X` is the spectrum
-of a field, but since every étale `X`-prescheme is then automatically separated over `X` `(17.6.2, c')`, one is reduced
-to the case considered at the beginning of the proof.
+If $q : Z' \to Z$ is the canonical projection, to prove that $\Gamma'$ is of the form $q^{-1}(\Gamma)$, where $\Gamma$
+is open in $Z$, it suffices, since $q$ is a faithfully flat and quasi-compact morphism, to prove that there exists a set
+$U \subset Z$ such that $\Gamma' = q^{-1}(U)$ `(2.3.12)`. Set $Z'' = Z' \times_{Z} Z' = Z \times_{X} X''$, where $X'' =
+X' \times_{X} X'$, and let $r_{1} : Z'' \to Z'$, $r_{2} : Z'' \to Z'$ be the canonical projections. Applying
+`(4.5.19.1)`, it suffices to show that $r^{-1}_{1}(\Gamma') = r^{-1}_{2}(\Gamma')$. But this is a property which is true
+if and only if it is so after each base change $\operatorname{Spec}(k(x)) \to X$, where $x$ ranges over $X$. In other
+words, it suffices to prove the corollary when $X$ is the spectrum of a field, but since every étale $X$-prescheme is
+then automatically separated over $X$ `(17.6.2, c')`, one is reduced to the case considered at the beginning of the
+proof.
 
-**Remarks (18.9.6).** — (i) It is possible that, if the residue field of `A` is of characteristic `0`, the functor
-`(18.9.5.1)` even induces an equivalence of the category of étale covers of `X` and of the category of étale covers of
-`X'`. One can in any case prove this when `A` is excellent, using Hironaka's resolution of singularities (M. Artin). It
+**Remarks (18.9.6).** — (i) It is possible that, if the residue field of $A$ is of characteristic `0`, the functor
+`(18.9.5.1)` even induces an equivalence of the category of étale covers of $X$ and of the category of étale covers of
+$X'$. One can in any case prove this when $A$ is excellent, using Hironaka's resolution of singularities (M. Artin). It
 is plausible that the analogous statement is still true without restriction on the characteristic of the residue field,
 provided one restricts to "principal Galois covers" whose group is of order prime to the residue characteristic (cf.
 `[41]`).
 
 <!-- original page 152 -->
 
-(ii) One does not know whether the formal fibres of `A` are geometrically connected (let alone geometrically
-irreducible) when `A` is an arbitrary Henselian local ring. It would suffice that, for every Noetherian Henselian
-integral local ring `A`, `Spec(Â)` be irreducible. One does not know whether this is always so.
+(ii) One does not know whether the formal fibres of $A$ are geometrically connected (let alone geometrically
+irreducible) when $A$ is an arbitrary Henselian local ring. It would suffice that, for every Noetherian Henselian
+integral local ring $A$, $\operatorname{Spec}(\hat{A})$ be irreducible. One does not know whether this is always so.
 
-(iii) One does not know whether, when `A` is an excellent local ring, its strict Henselization `^{hs} A` is excellent.
-One can see that, to clarify this question, one may reduce to the case where `A = k[[T_1, …, T_n]]`, `k` being a field
-of characteristic `p > 0`. Taking into account `(18.8.17)`, the question is whether the formal fibres of `^{hs} A` are
-geometrically regular. The answer is affirmative when `n = 1`, but is not known for `n = 2`. One can show that the
-answer is affirmative whenever, for every scheme `Y_1` finite over `Y = Spec(A)`, one can resolve the singularities of
-`Y_1` `(7.9.1)`.
+(iii) One does not know whether, when $A$ is an excellent local ring, its strict Henselization ${}^{hs} A$ is excellent.
+One can see that, to clarify this question, one may reduce to the case where $A = k[[T_{1}, \cdots, T_{n}]]$, $k$ being
+a field of characteristic $p > 0$. Taking into account `(18.8.17)`, the question is whether the formal fibres of
+${}^{hs} A$ are geometrically regular. The answer is affirmative when $n = 1$, but is not known for $n = 2$. One can
+show that the answer is affirmative whenever, for every scheme `Y_1` finite over $Y = \operatorname{Spec}(A)$, one can
+resolve the singularities of `Y_1` `(7.9.1)`.
 
 The connectedness assertion made in `(18.9.1)` generalizes in the following way:
 
@@ -2346,205 +2531,214 @@ The connectedness assertion made in `(18.9.1)` generalizes in the following way:
 
 <!-- label: IV.18.9.7 -->
 
-*Let `A`, `B` be two Noetherian local rings, `ρ : A → B` a local homomorphism, `f : Spec(B) = X → Spec(A) = Y` the
-corresponding morphism. Suppose the following conditions verified:*
+*Let $A$, $B$ be two Noetherian local rings, $\rho : A \to B$ a local homomorphism, $f : \operatorname{Spec}(B) = X \to
+\operatorname{Spec}(A) = Y$ the corresponding morphism. Suppose the following conditions verified:*
 
-*(i) `f` is flat and all the fibres `X_y = f^{−1}(y) (y ∈ Y)` are geometrically reduced `(4.6.2)`.*
+*(i) $f$ is flat and all the fibres $X_{y} = f^{-1}(y) (y \in Y)$ are geometrically reduced `(4.6.2)`.*
 
-*(ii) Either the ring `A` is geometrically unibranch `(0, 23.2.1)`, or the ring `A` is unibranch `(0, 23.2.1)` and
-`k(B)` is a primary extension `(4.3.1)` of `k(A)`.*
+*(ii) Either the ring $A$ is geometrically unibranch `(0, 23.2.1)`, or the ring $A$ is unibranch `(0, 23.2.1)` and
+$k(B)$ is a primary extension `(4.3.1)` of $k(A)$.*
 
-*Then, if `η` is the generic point of `Y`, `X_η` is connected, and for every closed subset `T` of `X` such that `f(T)`
-is rare in `Y`, `X − T` is connected.*
+*Then, if $\eta$ is the generic point of $Y$, $X_{\eta}$ is connected, and for every closed subset $T$ of $X$ such that
+$f(T)$ is rare in $Y$, $X - T$ is connected.*
 
-The two conclusions stated are in fact equivalent; indeed, the hypothesis that `f(T)` is rare entails that `f(T)` does
-not contain `η`; on the other hand, since `{η}` is pro-constructible `(1.9.6)` and `f` is flat, `X_η` is dense in `X`
-`(2.3.10)`, and consequently if `X_η` is connected, the same holds for `X − T` which contains it. Conversely, when `U`
-ranges over the set of affine open neighbourhoods of `η` in `Y`, `X_η` is the projective limit of the sub-preschemes
-induced on the open sets `f^{−1}(U)` of `X` `(8.1.2, a)`; if one supposes that `X − T` is connected for every closed
-subset `T` of `X` such that `f(T)` is rare in `Y`, the `f^{−1}(U)` are connected, hence the same holds for `X_η`
-`(8.4.1)`.
+The two conclusions stated are in fact equivalent; indeed, the hypothesis that $f(T)$ is rare entails that $f(T)$ does
+not contain $\eta$; on the other hand, since ${\eta}$ is pro-constructible `(1.9.6)` and $f$ is flat, $X_{\eta}$ is
+dense in $X$ `(2.3.10)`, and consequently if $X_{\eta}$ is connected, the same holds for $X - T$ which contains it.
+Conversely, when $U$ ranges over the set of affine open neighbourhoods of $\eta$ in $Y$, $X_{\eta}$ is the projective
+limit of the sub-preschemes induced on the open sets $f^{-1}(U)$ of $X$ `(8.1.2, a)`; if one supposes that $X - T$ is
+connected for every closed subset $T$ of $X$ such that $f(T)$ is rare in $Y$, the $f^{-1}(U)$ are connected, hence the
+same holds for $X_{\eta}$ `(8.4.1)`.
 
-Let us first show that one may restrict to the case where `A` is integral and `Y = Spec(A)` geometrically unibranch
-`(6.15.1)` (which implies that `A` is geometrically unibranch, but is not equivalent to this condition `(6.15.2)`). It
-is clear that one may first suppose `Y` reduced, by considering the morphism `X ×_Y Y_{red} → Y_{red}`, deduced from `f`
-by base change, which is flat, and has the same fibres as `f`. One may therefore suppose `A` integral and unibranch; if
-`K` is the field of fractions of `A`, there then exists a finite `A`-subalgebra `A''` of `K` such that, if `A'` is the
-integral closure of `A`, the morphism `Spec(A') → Spec(A'')` is radicial `(0, 23.2.5)`; one concludes `(6.15.5)` that
-`Spec(A'')` is geometrically unibranch. As `A` is unibranch, `A'` is a local ring, hence the same holds for `A''`; let
-us show that the ring `B'' = B ⊗_A A''` is also a local ring. In effect, `B''` is a finite `B`-algebra, hence a
-Noetherian semi-local ring;
+Let us first show that one may restrict to the case where $A$ is integral and $Y = \operatorname{Spec}(A)$ geometrically
+unibranch `(6.15.1)` (which implies that $A$ is geometrically unibranch, but is not equivalent to this condition
+`(6.15.2)`). It is clear that one may first suppose $Y$ reduced, by considering the morphism $X \times_{Y} Y_{red} \to
+Y_{red}$, deduced from $f$ by base change, which is flat, and has the same fibres as $f$. One may therefore suppose $A$
+integral and unibranch; if $K$ is the field of fractions of $A$, there then exists a finite $A$-subalgebra `A''` of $K$
+such that, if $A'$ is the integral closure of $A$, the morphism $\operatorname{Spec}(A') \to \operatorname{Spec}(A'')$
+is radicial `(0, 23.2.5)`; one concludes `(6.15.5)` that $\operatorname{Spec}(A'')$ is geometrically unibranch. As $A$
+is unibranch, $A'$ is a local ring, hence the same holds for `A''`; let us show that the ring $B'' = B \otimes_{A} A''$
+is also a local ring. In effect, `B''` is a finite $B$-algebra, hence a Noetherian semi-local ring;
 
 <!-- original page 153 -->
 
-if `k''` is the residue field of `A''`, the maximal ideals of `B''` are the points of `Spec(B'')` lying over the closed
-point of `Spec(B)`, hence the points of `Spec(k(B) ⊗_{k(A)} k'')` `(I, 3.4.9)`, since the closed point of `Spec(A'')` is
-the only point lying over the closed point of `Spec(A)`. Now, when `A` is geometrically unibranch, `k''` is a radicial
-extension of `k(A)`, hence `Spec(k(B) ⊗_{k(A)} k'')` is radicial over `Spec(k(B))` and therefore comprises a single
-point. When `A` is unibranch and `k(B)` is a primary extension of `k(A)`, `Spec(k(B) ⊗_{k(A)} k'')` is irreducible
-`(4.3.2)` and since it is a finite and discrete space `(I, 6.4.4)` it is again reduced to a point, which shows that in
-both cases envisaged `B''` is local. If `Y'' = Spec(A'')`, `X'' = Spec(B'') = X ×_Y Y''`, the morphism
-`f'' = f_{(Y'')} : X'' → Y''` is flat and has its fibres geometrically reduced; moreover, if `η''` is the generic point
-of `Y''`, `k(η'') = k(η) = K` by definition, hence the fibres `X_η` and `X''_{η''}` are isomorphic. It suffices
-therefore to prove that `X''_{η''}` is connected.
+if `k''` is the residue field of `A''`, the maximal ideals of `B''` are the points of $\operatorname{Spec}(B'')$ lying
+over the closed point of $\operatorname{Spec}(B)$, hence the points of $\operatorname{Spec}(k(B) \otimes_{k(A)} k'')$
+`(I, 3.4.9)`, since the closed point of $\operatorname{Spec}(A'')$ is the only point lying over the closed point of
+$\operatorname{Spec}(A)$. Now, when $A$ is geometrically unibranch, `k''` is a radicial extension of $k(A)$, hence
+$\operatorname{Spec}(k(B) \otimes_{k(A)} k'')$ is radicial over $\operatorname{Spec}(k(B))$ and therefore comprises a
+single point. When $A$ is unibranch and $k(B)$ is a primary extension of $k(A)$, $\operatorname{Spec}(k(B)
+\otimes_{k(A)} k'')$ is irreducible `(4.3.2)` and since it is a finite and discrete space `(I, 6.4.4)` it is again
+reduced to a point, which shows that in both cases envisaged `B''` is local. If $Y'' = \operatorname{Spec}(A'')$, $X'' =
+\operatorname{Spec}(B'') = X \times_{Y} Y''$, the morphism $f'' = f_{(Y'')} : X'' \to Y''$ is flat and has its fibres
+geometrically reduced; moreover, if $\eta''$ is the generic point of `Y''`, $k(\eta'') = k(\eta) = K$ by definition,
+hence the fibres $X_{\eta}$ and $X''_{\eta''}$ are isomorphic. It suffices therefore to prove that $X''_{\eta''}$ is
+connected.
 
-**Remark (18.9.7.1).** — When the ring `A` is Japanese, one may, in what precedes, take `A'' = A'` by definition
-`(0, 23.1.1)`; one sees therefore that in this case one would even be reduced to proving the theorem when `A` is
+**Remark (18.9.7.1).** — When the ring $A$ is Japanese, one may, in what precedes, take $A'' = A'$ by definition
+`(0, 23.1.1)`; one sees therefore that in this case one would even be reduced to proving the theorem when $A$ is
 integrally closed.
 
-**(18.9.7.2)** Let us henceforth suppose that `Y` is integral and geometrically unibranch. Note that if `T` is a closed
-subset of `X` such that `f(T)` is rare in `Y`, `T` contains no maximal point of `X` since `f` is flat `(2.3.4)`, hence
-is rare in `X`; as `X` is a local scheme, hence connected, to prove that `X − T` is connected, it suffices, by virtue of
-`(15.5.6.1)`, to show that for every `x ∈ X` such that `f(x) ≠ η`, `Spec(𝒪_{X, x}) − {x}` is connected. Set `y = f(x)`,
-`A_1 = 𝒪_{Y, y}`, `B_1 = 𝒪_{X, x}`, `Y_1 = Spec(A_1)`, `X_1 = Spec(B_1)`, `f_1 : X_1 → Y_1` the morphism corresponding
-to the local homomorphism `A_1 → B_1` deduced from `ρ`; it is clear that `f_1` is flat, and it follows from `(4.6.1)`
-that its fibres are geometrically reduced; moreover `A_1` is integral and geometrically unibranch `(6.15.1)` and
-`dim(A_1) ⩾ 1`. One is thus reduced to proving the
+**(18.9.7.2)** Let us henceforth suppose that $Y$ is integral and geometrically unibranch. Note that if $T$ is a closed
+subset of $X$ such that $f(T)$ is rare in $Y$, $T$ contains no maximal point of $X$ since $f$ is flat `(2.3.4)`, hence
+is rare in $X$; as $X$ is a local scheme, hence connected, to prove that $X - T$ is connected, it suffices, by virtue of
+`(15.5.6.1)`, to show that for every $x \in X$ such that $f(x) \neq \eta$, $\operatorname{Spec}(\mathcal{O}_{X, x}) -
+{x}$ is connected. Set $y = f(x)$, $A_{1} = \mathcal{O}_{Y, y}$, $B_{1} = \mathcal{O}_{X, x}$, $Y_{1} =
+\operatorname{Spec}(A_{1})$, $X_{1} = \operatorname{Spec}(B_{1})$, $f_{1} : X_{1} \to Y_{1}$ the morphism corresponding
+to the local homomorphism $A_{1} \to B_{1}$ deduced from $\rho$; it is clear that $f_{1}$ is flat, and it follows from
+`(4.6.1)` that its fibres are geometrically reduced; moreover `A_1` is integral and geometrically unibranch `(6.15.1)`
+and $\dim(A_{1}) \geqslant 1$. One is thus reduced to proving the
 
 **Lemma (18.9.7.3).**
 
 <!-- label: IV.18.9.7.3 -->
 
-*Let `A`, `B` be two Noetherian local rings, `Y = Spec(A)`, `X = Spec(B)`, `ρ : A → B` a local homomorphism, `f : X → Y`
-the corresponding morphism. Suppose the following conditions verified:*
+*Let $A$, $B$ be two Noetherian local rings, $Y = \operatorname{Spec}(A)$, $X = \operatorname{Spec}(B)$, $\rho : A \to
+B$ a local homomorphism, $f : X \to Y$ the corresponding morphism. Suppose the following conditions verified:*
 
-*(i) `f` is flat and all the fibres `X_y (y ∈ Y)` are geometrically reduced.*
+*(i) $f$ is flat and all the fibres $X_{y} (y \in Y)$ are geometrically reduced.*
 
-*(ii) `A` is integral, geometrically unibranch and `dim(A) ⩾ 1`.*
+*(ii) $A$ is integral, geometrically unibranch and $\dim(A) \geqslant 1$.*
 
-*Then, if `b` is the closed point of `X`, `X − {b}` is connected.*
+*Then, if $b$ is the closed point of $X$, $X - {b}$ is connected.*
 
-Let us first note that by virtue of Hartshorne's theorem `(5.10.7)`, `X − {b}` is connected if one has `prof(B) ⩾ 2`.
-Now one has `(6.3.1)`
+Let us first note that by virtue of Hartshorne's theorem `(5.10.7)`, $X - {b}$ is connected if one has $prof(B)
+\geqslant 2$. Now one has `(6.3.1)`
 
 ```text
   (18.9.7.4)    prof(B) = prof(A) + prof(B ⊗_A k)
 ```
 
-on denoting by `k` the residue field of `A`. On the other hand, since `A` is integral and `dim(A) ⩾ 1`, one has
-`prof(A) ⩾ 1`, hence `prof(B) ⩾ 2` except when `prof(B ⊗_A k) = 0`; moreover, `B ⊗_A k` is reduced by (i), so the
-relation `prof(B ⊗_A k) = 0` signifies that `B ⊗_A k` is a field `(0, 16.4.7)`. We shall henceforth suppose that this
-last condition is verified. We shall begin by treating a case where the proof is very simple.
+on denoting by $k$ the residue field of $A$. On the other hand, since $A$ is integral and $\dim(A) \geqslant 1$, one has
+$prof(A) \geqslant 1$, hence $prof(B) \geqslant 2$ except when $prof(B \otimes_{A} k) = 0$; moreover, $B \otimes_{A} k$
+is reduced by (i), so the relation $prof(B \otimes_{A} k) = 0$ signifies that $B \otimes_{A} k$ is a field
+`(0, 16.4.7)`. We shall henceforth suppose that this last condition is verified. We shall begin by treating a case where
+the proof is very simple.
 
-**A) Case where `A` is integrally closed.** Then, if `dim(A) ⩾ 2`, one has `prof(A) ⩾ 2` `(0, 16.5.1)`, hence
-`prof(B) ⩾ 2`. One therefore has only to consider the case where `dim(A) = 1` and where `B ⊗_A k`
+**A) Case where $A$ is integrally closed.** Then, if $\dim(A) \geqslant 2$, one has $prof(A) \geqslant 2$ `(0, 16.5.1)`,
+hence $prof(B) \geqslant 2$. One therefore has only to consider the case where $\dim(A) = 1$ and where $B \otimes_{A} k$
 
 <!-- original page 154 -->
 
-is a field; `A` is then a discrete valuation ring, hence regular, and since `B ⊗_A k` is a field and `f` is flat, `B` is
-regular `(0, 17.3.3)`; but moreover `(6.1.1.1)`, one has `dim(B) = dim(A) + dim(B ⊗_A k) = dim(A) = 1`, hence `B` is
-also a discrete valuation ring. But then `X − {b}` is reduced to a single point, whence lemma `(18.9.7.3)` in this case.
+is a field; $A$ is then a discrete valuation ring, hence regular, and since $B \otimes_{A} k$ is a field and $f$ is
+flat, $B$ is regular `(0, 17.3.3)`; but moreover `(6.1.1.1)`, one has `dim(B) = dim(A) + dim(B ⊗_A k) = dim(A) = 1`,
+hence $B$ is also a discrete valuation ring. But then $X - {b}$ is reduced to a single point, whence lemma `(18.9.7.3)`
+in this case.
 
 One observes that this proves the statement of theorem `(18.9.7)` when one supposes moreover that, in this statement,
-the ring `A` is Japanese, for by virtue of remark `(18.9.7.1)`, one is reduced to the case where `A` is integrally
-closed, and then, in the reduction preceding `(18.9.7.3)`, the ring `A_1 = 𝒪_{Y, y}` is also integrally closed and one
-may apply the result that has just been proved.
+the ring $A$ is Japanese, for by virtue of remark `(18.9.7.1)`, one is reduced to the case where $A$ is integrally
+closed, and then, in the reduction preceding `(18.9.7.3)`, the ring $A_{1} = \mathcal{O}_{Y, y}$ is also integrally
+closed and one may apply the result that has just been proved.
 
-**B) Case where `dim(A) ⩾ 2`.** The result of `(18.9.7.3)` will then follow from the two following lemmas:
+**B) Case where $\dim(A) \geqslant 2$.** The result of `(18.9.7.3)` will then follow from the two following lemmas:
 
 **Lemma (18.9.7.5).**
 
 <!-- label: IV.18.9.7.5 -->
 
-*Let `A` be a Noetherian semi-local reduced ring, `A'` its integral closure in its total ring of fractions,
-`X = Spec(A)`, `X' = Spec(A')`; let `S` be the set of closed points of `X` and `U = X − S`. Suppose that for every point
-`x' ∈ X'` lying over a point of `S`, one has `dim(𝒪_{X', x'}) ⩾ 2`; then the ring `A^{(1)} = Γ(U, 𝒪_X)` is integral over
-`A` and is an `A`-algebra isomorphic to a sub-algebra of `A'`.*
+*Let $A$ be a Noetherian semi-local reduced ring, $A'$ its integral closure in its total ring of fractions, $X =
+\operatorname{Spec}(A)$, $X' = \operatorname{Spec}(A')$; let $S$ be the set of closed points of $X$ and $U = X - S$.
+Suppose that for every point $x' \in X'$ lying over a point of $S$, one has $\dim(\mathcal{O}_{X', x'}) \geqslant 2$;
+then the ring $A^{(1)} = \Gamma(U, \mathcal{O}_{X})$ is integral over $A$ and is an $A$-algebra isomorphic to a
+sub-algebra of $A'$.*
 
-Recall that if `𝔭_i (1 ⩽ i ⩽ m)` are the minimal ideals of `A`, `A'` is the direct composite of the integral closures
-`A'_i` of the integral rings `A_i = A / 𝔭_i`, so that `X'` is the sum of the schemes `X'_i = Spec(A'_i)`. If `X_0` is
-the sum of the schemes `X_i = Spec(A_i) (1 ⩽ i ⩽ m)` and `U_0` the inverse image of `U` in `X_0`, the canonical
-homomorphism `Γ(U, 𝒪_X) → Γ(U_0, 𝒪_{X_0})` is injective since `X` is reduced and the morphism `X_0 → X` (hence also the
-morphism `U_0 → U`) surjective. As `Γ(U_0, 𝒪_{X_0})` is a direct composite of the `Γ(U_i, 𝒪_{X_i}) (1 ⩽ i ⩽ m)`, where
-`U_i` is the inverse image of `U` in `X_i`, everything reduces to proving that for each `i`, `Γ(U_i, 𝒪_{X_i})` is
-isomorphic to a sub-`A_i`-algebra of `A'_i`. In other words, one is reduced to the case where `A` is a Noetherian
-semi-local integral ring. As `X` is reduced and the morphism `X' → X` is surjective, the homomorphism
-`Γ(U, 𝒪_X) → Γ(U', 𝒪_{X'})` (where `U'` is the inverse image of `U` in `X'`) is injective, and everything reduces to
-seeing that the canonical homomorphism `A' = Γ(X', 𝒪_{X'}) → Γ(U', 𝒪_{X'})` is bijective. Now `(I, 8.2.1.1)`,
-`Γ(U', 𝒪_{X'})` is the intersection of the local rings `A'_{𝔭'}`, where `𝔭'` ranges over `U'`, and by hypothesis, among
-these local rings figure all those for which `𝔭'` is of height `1`. But the reasoning of `(0, 23.2.7)` also applies to a
-Noetherian semi-local integral ring, so `A'` is a semi-local Krull ring, and is therefore the intersection of the local
-rings `A'_{𝔭'}`, where `𝔭'` ranges over the set of prime ideals of height `1` of `A'`
-`(Bourbaki, Alg. comm., chap. VII, § 1, n° 6, th. 4)`; a fortiori `A'` is the intersection of the `A'_{𝔭'}` for
-`𝔭' ∈ U'`, which completes the proof of the lemma.
+Recall that if $\mathfrak{p}_{i} (1 \leqslant i \leqslant m)$ are the minimal ideals of $A$, $A'$ is the direct
+composite of the integral closures $A'_{i}$ of the integral rings $A_{i} = A / \mathfrak{p}_{i}$, so that $X'$ is the
+sum of the schemes $X'_{i} = \operatorname{Spec}(A'_{i})$. If `X_0` is the sum of the schemes $X_{i} =
+\operatorname{Spec}(A_{i}) (1 \leqslant i \leqslant m)$ and `U_0` the inverse image of $U$ in `X_0`, the canonical
+homomorphism $\Gamma(U, \mathcal{O}_{X}) \to \Gamma(U_{0}, \mathcal{O}_{X_{0}})$ is injective since $X$ is reduced and
+the morphism $X_{0} \to X$ (hence also the morphism $U_{0} \to U$) surjective. As $\Gamma(U_{0}, \mathcal{O}_{X_{0}})$
+is a direct composite of the $\Gamma(U_{i}, \mathcal{O}_{X_{i}}) (1 \leqslant i \leqslant m)$, where $U_{i}$ is the
+inverse image of $U$ in $X_{i}$, everything reduces to proving that for each $i$, $\Gamma(U_{i}, \mathcal{O}_{X_{i}})$
+is isomorphic to a sub-$A_{i}$-algebra of $A'_{i}$. In other words, one is reduced to the case where $A$ is a Noetherian
+semi-local integral ring. As $X$ is reduced and the morphism $X' \to X$ is surjective, the homomorphism $\Gamma(U,
+\mathcal{O}_{X}) \to \Gamma(U', \mathcal{O}_{X'})$ (where $U'$ is the inverse image of $U$ in $X'$) is injective, and
+everything reduces to seeing that the canonical homomorphism $A' = \Gamma(X', \mathcal{O}_{X'}) \to \Gamma(U',
+\mathcal{O}_{X'})$ is bijective. Now `(I, 8.2.1.1)`, $\Gamma(U', \mathcal{O}_{X'})$ is the intersection of the local
+rings $A'_{\mathfrak{p}'}$, where $\mathfrak{p}'$ ranges over $U'$, and by hypothesis, among these local rings figure
+all those for which $\mathfrak{p}'$ is of height `1`. But the reasoning of `(0, 23.2.7)` also applies to a Noetherian
+semi-local integral ring, so $A'$ is a semi-local Krull ring, and is therefore the intersection of the local rings
+$A'_{\mathfrak{p}'}$, where $\mathfrak{p}'$ ranges over the set of prime ideals of height `1` of $A'$
+`(Bourbaki, Alg. comm., chap. VII, § 1, n° 6, th. 4)`; a fortiori $A'$ is the intersection of the $A'_{\mathfrak{p}'}$
+for $\mathfrak{p}' \in U'$, which completes the proof of the lemma.
 
-**Remark (18.9.7.6).** — One knows `(0, 23.2.5)` that there exists a finite `A`-subalgebra `A''` of the field of
-fractions `K` of `A` such that the morphism `Spec(A') → Spec(A'')` is radicial; as this morphism is also integral and
-dominant, hence surjective `(II, 6.1.10)`, it is a homeomorphism `(2.4.5)`. By virtue of the geometric interpretation of
-`dim(𝒪_{X, x})` `(5.1.2)`, one has therefore, for every point `x''` of `X'' = Spec(A'')` lying over a point `x ∈ X`,
-`dim(𝒪_{X'', x''}) = dim(𝒪_{X', x'}) ⩾ 2` if `x'` is the unique point of `X'` lying over `x`. This
+**Remark (18.9.7.6).** — One knows `(0, 23.2.5)` that there exists a finite $A$-subalgebra `A''` of the field of
+fractions $K$ of $A$ such that the morphism $\operatorname{Spec}(A') \to \operatorname{Spec}(A'')$ is radicial; as this
+morphism is also integral and dominant, hence surjective `(II, 6.1.10)`, it is a homeomorphism `(2.4.5)`. By virtue of
+the geometric interpretation of $\dim(\mathcal{O}_{X, x})$ `(5.1.2)`, one has therefore, for every point `x''` of $X'' =
+\operatorname{Spec}(A'')$ lying over a point $x \in X$, $\dim(\mathcal{O}_{X'', x''}) = \dim(\mathcal{O}_{X', x'})
+\geqslant 2$ if $x'$ is the unique point of $X'$ lying over $x$. This
 
 <!-- original page 155 -->
 
-being so, it follows first from `(0, 16.1.5)` and `(0, 16.1.4.1)` that the relation `dim(𝒪_{X'', x''}) ⩾ 2` entails
-`dim(𝒪_{X, x}) ⩾ 2`. Conversely, suppose that `dim(𝒪_{X, x}) ⩾ 2` and that `A` is universally catenary `(5.6.2)`; then
-the same holds for `𝒪_{X, x}` `(5.6.3)`, hence `dim(𝒪_{X'', x''}) = dim(𝒪_{X, x}) ⩾ 2` by virtue of `(5.6.10)` and one
-has therefore in this case `dim(𝒪_{X', x'}) ⩾ 2`. The same conclusion holds if `𝒪_{X, x}` is geometrically unibranch,
-for the fibre of the morphism `X' → X` at the point `x` is then reduced to a single point, and `𝒪_{X', x'}` is an
-integral `𝒪_{X, x}`-algebra; it then suffices to apply `(0, 16.1.5)`.
+being so, it follows first from `(0, 16.1.5)` and `(0, 16.1.4.1)` that the relation $\dim(\mathcal{O}_{X'', x''})
+\geqslant 2$ entails $\dim(\mathcal{O}_{X, x}) \geqslant 2$. Conversely, suppose that $\dim(\mathcal{O}_{X, x})
+\geqslant 2$ and that $A$ is universally catenary `(5.6.2)`; then the same holds for $\mathcal{O}_{X, x}$ `(5.6.3)`,
+hence $\dim(\mathcal{O}_{X'', x''}) = \dim(\mathcal{O}_{X, x}) \geqslant 2$ by virtue of `(5.6.10)` and one has
+therefore in this case $\dim(\mathcal{O}_{X', x'}) \geqslant 2$. The same conclusion holds if $\mathcal{O}_{X, x}$ is
+geometrically unibranch, for the fibre of the morphism $X' \to X$ at the point $x$ is then reduced to a single point,
+and $\mathcal{O}_{X', x'}$ is an integral $\mathcal{O}_{X, x}$-algebra; it then suffices to apply `(0, 16.1.5)`.
 
 **Lemma (18.9.7.7).**
 
 <!-- label: IV.18.9.7.7 -->
 
-*Let `A` be a Noetherian local ring of dimension `⩾ 2`, integral and geometrically unibranch, `Y = Spec(A)`, `y` the
-closed point of `Y`. Let `X` be a locally Noetherian connected prescheme, `f : X → Y` a flat morphism. Then, for every
-closed subset `T ⊂ f^{−1}(y)`, `X − T` is connected.*
+*Let $A$ be a Noetherian local ring of dimension $\geqslant 2$, integral and geometrically unibranch, $Y =
+\operatorname{Spec}(A)$, $y$ the closed point of $Y$. Let $X$ be a locally Noetherian connected prescheme, $f : X \to Y$
+a flat morphism. Then, for every closed subset $T \subset f^{-1}(y)$, $X - T$ is connected.*
 
-The same reasoning as at the beginning of `(18.9.7.2)` reduces to proving that, for every point `x ∈ f^{−1}(y)`,
-`Spec(𝒪_{X, x}) − {x}` is connected. One may therefore restrict to the case where `X = Spec(B)`, `B` being a Noetherian
-local ring and the homomorphism `A → B` corresponding to `f` being local; set `U = Y − {y}`, and note that
-`V = f^{−1}(U)` is dense in `X` `(2.3.10)`; it suffices therefore to prove that `V` is connected. Let us keep the
-notations of `(18.9.7.5)`, and set `A^{(1)} = Γ(U, 𝒪_Y)`, `Y_1 = Spec(A^{(1)})`,
-`X_1 = X ×_Y Y_1 = Spec(B ⊗_A A^{(1)})`, so that one has the commutative diagram
+The same reasoning as at the beginning of `(18.9.7.2)` reduces to proving that, for every point $x \in f^{-1}(y)$,
+$\operatorname{Spec}(\mathcal{O}_{X, x}) - {x}$ is connected. One may therefore restrict to the case where $X =
+\operatorname{Spec}(B)$, $B$ being a Noetherian local ring and the homomorphism $A \to B$ corresponding to $f$ being
+local; set $U = Y - {y}$, and note that $V = f^{-1}(U)$ is dense in $X$ `(2.3.10)`; it suffices therefore to prove that
+$V$ is connected. Let us keep the notations of `(18.9.7.5)`, and set $A^{(1)} = \Gamma(U, \mathcal{O}_{Y})$, $Y_{1} =
+\operatorname{Spec}(A^{(1)})$, $X_{1} = X \times_{Y} Y_{1} = \operatorname{Spec}(B \otimes_{A} A^{(1)})$, so that one
+has the commutative diagram
 
-```text
-  X ←—— X_1
-  ↓ f    ↓ f_1
-  Y ←—— Y_1
-```
+$$ X \leftarrow X_{1} \downarrow f \downarrow f_{1} Y \leftarrow Y_{1} $$
 
-By virtue of `(2.3.1)` and the definition of `A^{(1)}`, one has a canonical isomorphism `Γ(V, 𝒪_X) ⥲ B ⊗_A A^{(1)}`, and
-it suffices therefore to prove that this last ring is local, such a ring not being able to be the product of two rings
-not reduced to `0` `(III, 7.8.6.1)`. But one has seen `(18.9.7.5)` that `A^{(1)}` is a sub-`A`-algebra of the integral
-closure `A'` of `A`, since `dim(A) ⩾ 2`. The hypothesis that `A` is geometrically unibranch entails that the morphism
-`Spec(A') → Spec(A)` is radicial at the point `y` `(6.15.3)`; a fortiori `g : Y_1 → Y` is radicial at the point `y`, and
-consequently `g_1` is radicial at the closed point `x` of `X`; since moreover `g_1` is an integral morphism, the closed
-points of `X_1` lie over `x`, so there exists only a single closed point of `X_1`, which completes the proof of
-`(18.9.7.7)`.
+By virtue of `(2.3.1)` and the definition of $A^{(1)}$, one has a canonical isomorphism $\Gamma(V, \mathcal{O}_{X})
+\xrightarrow{\sim} B \otimes_{A} A^{(1)}$, and it suffices therefore to prove that this last ring is local, such a ring
+not being able to be the product of two rings not reduced to `0` `(III, 7.8.6.1)`. But one has seen `(18.9.7.5)` that
+$A^{(1)}$ is a sub-$A$-algebra of the integral closure $A'$ of $A$, since $\dim(A) \geqslant 2$. The hypothesis that $A$
+is geometrically unibranch entails that the morphism $\operatorname{Spec}(A') \to \operatorname{Spec}(A)$ is radicial at
+the point $y$ `(6.15.3)`; a fortiori $g : Y_{1} \to Y$ is radicial at the point $y$, and consequently $g_{1}$ is
+radicial at the closed point $x$ of $X$; since moreover $g_{1}$ is an integral morphism, the closed points of `X_1` lie
+over $x$, so there exists only a single closed point of `X_1`, which completes the proof of `(18.9.7.7)`.
 
-It is clear that `(18.9.7.7)` proves `(18.9.7.3)` when `dim(A) ⩾ 2` (even without supposing the fibres `X_y`
+It is clear that `(18.9.7.7)` proves `(18.9.7.3)` when $\dim(A) \geqslant 2$ (even without supposing the fibres $X_{y}$
 geometrically reduced).
 
-**C) Case where `dim(A) = 1`.** One has seen at the beginning of the proof of `(18.9.7.3)` that one may suppose
-`dim(B ⊗_A k) = 0`, and by flatness `(6.1.1.1)`, one has therefore
+**C) Case where $\dim(A) = 1$.** One has seen at the beginning of the proof of `(18.9.7.3)` that one may suppose $\dim(B
+\otimes_{A} k) = 0$, and by flatness `(6.1.1.1)`, one has therefore
 
 ```text
   dim(B) = dim(A) + dim(B ⊗_A k) = 1.
 ```
 
-Since `A` is integral, `Y` consists of two points, the generic point `η` and the closed point `a`. Moreover, since `f`
-is flat, every irreducible component of `X` dominates `Y` `(2.3.4)`, hence `X − {b}`, which is the set of maximal points
-of `X`, is equal to
+Since $A$ is integral, $Y$ consists of two points, the generic point $\eta$ and the closed point $a$. Moreover, since
+$f$ is flat, every irreducible component of $X$ dominates $Y$ `(2.3.4)`, hence $X - {b}$, which is the set of maximal
+points of $X$, is equal to
 
 <!-- original page 156 -->
 
-the underlying set of `f^{−1}(η)`, and the fibre `f^{−1}(η)` is the sum of the `Spec(k(ξ_i))`. The hypothesis on the
-`X_y` and the fact that these fibres are of dimension `0` show that they are geometrically regular `(6.7.6)`, and a
-fortiori geometrically normal, in other words `f` is a normal morphism. But since `A` is integral and geometrically
-unibranch, it follows from `(6.15.10)` that `B` is integral and geometrically unibranch, hence `f^{−1}(η) = X − {b}` is
-reduced to a single point, and a fortiori connected; this therefore completes the proof of `(18.9.7.3)` and that of
-`(18.9.7)`.
+the underlying set of $f^{-1}(\eta)$, and the fibre $f^{-1}(\eta)$ is the sum of the $\operatorname{Spec}(k(\xi_{i}))$.
+The hypothesis on the $X_{y}$ and the fact that these fibres are of dimension `0` show that they are geometrically
+regular `(6.7.6)`, and a fortiori geometrically normal, in other words $f$ is a normal morphism. But since $A$ is
+integral and geometrically unibranch, it follows from `(6.15.10)` that $B$ is integral and geometrically unibranch,
+hence $f^{-1}(\eta) = X - {b}$ is reduced to a single point, and a fortiori connected; this therefore completes the
+proof of `(18.9.7.3)` and that of `(18.9.7)`.
 
 **Remark (18.9.7.8).** — In case C) of the proof of `(18.9.7.3)`, one can avoid appealing to the delicate result
-`(6.15.10)` by reasoning as follows: since `A` is integral and of dimension `1`, it follows from the Krull-Akizuki
-theorem `(Bourbaki, Alg. comm., chap. VII, § 2, n° 5, prop. 5)` that its integral closure `A'` is a Noetherian ring. The
-same reasoning as at the beginning of the proof of `(18.9.7)` then shows that `B' = B ⊗_A A'` is a local ring; moreover,
-by flatness, `B'` is contained in the total ring of fractions `R` of the reduced ring `B` `(3.3.5)`. Now, the reasoning
-that proves the Krull-Akizuki theorem `(Bourbaki, loc. cit.)` applies equally to a Noetherian local reduced ring of
-dimension `1`, and shows that for such a ring `B`, every ring comprised between `B` and its total ring of fractions is
-Noetherian. The ring `B'` being a Noetherian local ring and the morphism `Spec(B') → Spec(A')` being normal, `B'` is an
-integral and integrally closed ring `(6.5.4)`, and one concludes as at the beginning of the proof of `(18.9.7)`.
+`(6.15.10)` by reasoning as follows: since $A$ is integral and of dimension `1`, it follows from the Krull-Akizuki
+theorem `(Bourbaki, Alg. comm., chap. VII, § 2, n° 5, prop. 5)` that its integral closure $A'$ is a Noetherian ring. The
+same reasoning as at the beginning of the proof of `(18.9.7)` then shows that $B' = B \otimes_{A} A'$ is a local ring;
+moreover, by flatness, $B'$ is contained in the total ring of fractions $R$ of the reduced ring $B$ `(3.3.5)`. Now, the
+reasoning that proves the Krull-Akizuki theorem `(Bourbaki, loc. cit.)` applies equally to a Noetherian local reduced
+ring of dimension `1`, and shows that for such a ring $B$, every ring comprised between $B$ and its total ring of
+fractions is Noetherian. The ring $B'$ being a Noetherian local ring and the morphism $\operatorname{Spec}(B') \to
+\operatorname{Spec}(A')$ being normal, $B'$ is an integral and integrally closed ring `(6.5.4)`, and one concludes as at
+the beginning of the proof of `(18.9.7)`.
 
 **Corollary (18.9.8).**
 
@@ -2553,55 +2747,57 @@ integral and integrally closed ring `(6.5.4)`, and one concludes as at the begin
 *With the notations of `(18.9.7)`, suppose condition (i) of `(18.9.7)` verified and one of the two following
 conditions:*
 
-*(ii') `A` is a strictly local ring `(18.8.2)`.*
+*(ii') $A$ is a strictly local ring `(18.8.2)`.*
 
-*(ii'') `A` is a Henselian local ring and `k(B)` is a primary extension of `k(A)`.*
+*(ii'') $A$ is a Henselian local ring and $k(B)$ is a primary extension of $k(A)$.*
 
-*Then all the fibres `X_y (y ∈ Y)` are geometrically connected.*
+*Then all the fibres $X_{y} (y \in Y)$ are geometrically connected.*
 
-Let `𝔭` be the prime ideal of `A` corresponding to the point `y`, and set `A' = A / 𝔭` and `B' = B ⊗_A A' = B / 𝔭 B`,
-which are evidently Noetherian local rings; it is clear that the morphism `f' : Spec(B') → Spec(A')` satisfies condition
-(i) of `(18.9.7)`; since `y` is the generic point of `Spec(A')` and `k(A') = k(A)`, `k(B') = k(B)`, one sees that it
-suffices to verify that, in case (ii') (resp. (ii'')), `A'` is geometrically unibranch (resp. unibranch). But `A'` is
-integral, and in case (ii') (resp. (ii'')) it is strictly local (resp. Henselian) by virtue of `(18.5.10)`. One
-concludes that `A'` is geometrically unibranch (resp. unibranch) by virtue of `(18.8.15)` (resp. `(18.6.12)`).
+Let $\mathfrak{p}$ be the prime ideal of $A$ corresponding to the point $y$, and set $A' = A / \mathfrak{p}$ and $B' = B
+\otimes_{A} A' = B / \mathfrak{p} B$, which are evidently Noetherian local rings; it is clear that the morphism $f' :
+\operatorname{Spec}(B') \to \operatorname{Spec}(A')$ satisfies condition (i) of `(18.9.7)`; since $y$ is the generic
+point of $\operatorname{Spec}(A')$ and $k(A') = k(A)$, $k(B') = k(B)$, one sees that it suffices to verify that, in case
+(ii') (resp. (ii'')), $A'$ is geometrically unibranch (resp. unibranch). But $A'$ is integral, and in case (ii') (resp.
+(ii'')) it is strictly local (resp. Henselian) by virtue of `(18.5.10)`. One concludes that $A'$ is geometrically
+unibranch (resp. unibranch) by virtue of `(18.8.15)` (resp. `(18.6.12)`).
 
 **Corollary (18.9.9).**
 
 <!-- label: IV.18.9.9 -->
 
-*Let `A` be a Henselian Noetherian local ring, universally Japanese (i.e. (`(7.6.4)` and `(7.7.2)`), whose formal fibres
-`(7.3.13)` are geometrically reduced); then the formal fibres of `A` are geometrically connected.*
+*Let $A$ be a Henselian Noetherian local ring, universally Japanese (i.e. (`(7.6.4)` and `(7.7.2)`), whose formal fibres
+`(7.3.13)` are geometrically reduced); then the formal fibres of $A$ are geometrically connected.*
 
-It suffices to apply `(18.9.8)` to the case where `B = Â`, since `B` is a flat `A`-module and `k(Â) = k(A)`.
+It suffices to apply `(18.9.8)` to the case where $B = \hat{A}$, since $B$ is a flat $A$-module and $k(\hat{A}) = k(A)$.
 
-**Remark (18.9.10).** — The proofs of `(18.9.4)` and `(18.9.5)` use only the fact that the formal fibres of `A` are
+**Remark (18.9.10).** — The proofs of `(18.9.4)` and `(18.9.5)` use only the fact that the formal fibres of $A$ are
 geometrically connected. The conclusions
 
 <!-- original page 157 -->
 
-of these two propositions are therefore still valid when one supposes the local ring `A` Noetherian, Henselian and
+of these two propositions are therefore still valid when one supposes the local ring $A$ Noetherian, Henselian and
 universally Japanese.
 
 **Corollary (18.9.11).**
 
 <!-- label: IV.18.9.11 -->
 
-*Let `X`, `Y` be two locally Noetherian preschemes, `Y` being supposed geometrically unibranch and `X` connected. Let
-`f : X → Y` be a reduced morphism (i.e. `(6.8.1)` flat and with geometrically reduced fibres). Then, for every closed
-subset `T` of `X` such that `f(T)` is rare in `Y`, `X − T` is connected.*
+*Let $X$, $Y$ be two locally Noetherian preschemes, $Y$ being supposed geometrically unibranch and $X$ connected. Let
+$f : X \to Y$ be a reduced morphism (i.e. `(6.8.1)` flat and with geometrically reduced fibres). Then, for every closed
+subset $T$ of $X$ such that $f(T)$ is rare in $Y$, $X - T$ is connected.*
 
-As `f` is flat and `f(T)`, being rare, cannot contain any maximal point of `Y`, `T` cannot contain any maximal point of
-`X` `(2.3.4)`, hence is rare in `X`. Using `(15.5.6.1)`, it suffices to show that, for every `x ∈ T`,
-`Spec(𝒪_{X, x}) − {x}` is connected. Set `y = f(x)`, which is not a maximal point of `Y`. As the ring `𝒪_{Y, y}` is
-geometrically unibranch, one may apply `(18.9.7)` to the morphism
+As $f$ is flat and $f(T)$, being rare, cannot contain any maximal point of $Y$, $T$ cannot contain any maximal point of
+$X$ `(2.3.4)`, hence is rare in $X$. Using `(15.5.6.1)`, it suffices to show that, for every $x \in T$,
+$\operatorname{Spec}(\mathcal{O}_{X, x}) - {x}$ is connected. Set $y = f(x)$, which is not a maximal point of $Y$. As
+the ring $\mathcal{O}_{Y, y}$ is geometrically unibranch, one may apply `(18.9.7)` to the morphism
 
 ```text
   f_1 : Spec(𝒪_{X, x}) → Spec(𝒪_{Y, y}),
 ```
 
-which satisfies conditions (i) and (ii) of this theorem, and to the closed subset `{x}` of `Spec(𝒪_{X, x})`, since
-`f_1({x}) = {y}` is rare in `Spec(𝒪_{Y, y})`.
+which satisfies conditions (i) and (ii) of this theorem, and to the closed subset ${x}$ of
+$\operatorname{Spec}(\mathcal{O}_{X, x})$, since $f_{1}({x}) = {y}$ is rare in $\operatorname{Spec}(\mathcal{O}_{Y,
+y})$.
 
 <!-- original page 157 -->
 
@@ -2611,237 +2807,253 @@ which satisfies conditions (i) and (ii) of this theorem, and to the closed subse
 
 <!-- label: IV.18.10.1 -->
 
-*Let `f : X → Y` be a morphism locally of finite presentation, `x` a point of `X`, `y = f(x)`. Suppose that `Y` is
-integral and geometrically unibranch at the point `y`. Then, in order that `f` be étale at the point `x`, it is
+*Let $f : X \to Y$ be a morphism locally of finite presentation, $x$ a point of $X$, $y = f(x)$. Suppose that $Y$ is
+integral and geometrically unibranch at the point $y$. Then, in order that $f$ be étale at the point $x$, it is
 necessary and sufficient that the following two conditions be satisfied:*
 
-*(i) `f` is unramified at the point `x`;*
+*(i) $f$ is unramified at the point $x$;*
 
-*(ii) the homomorphism `𝒪_{Y,y} → 𝒪_{X,x}` is injective.*
+*(ii) the homomorphism $\mathcal{O}_{Y,y} \to \mathcal{O}_{X,x}$ is injective.*
 
-*Moreover, if this is so, `X` is integral and geometrically unibranch at the point `x`.*
+*Moreover, if this is so, $X$ is integral and geometrically unibranch at the point $x$.*
 
-*Finally, if `𝒪_{Y,y}` is Noetherian, one can, in the preceding criterion, replace condition (ii) by the condition*
+*Finally, if $\mathcal{O}_{Y,y}$ is Noetherian, one can, in the preceding criterion, replace condition (ii) by the
+condition*
 
-*(ii bis) one has `dim(𝒪_{Y,y}) = dim(𝒪_{X,x})`.*
+*(ii bis) one has $\dim(\mathcal{O}_{Y,y}) = \dim(\mathcal{O}_{X,x})$.*
 
-The fact that, if `f` is étale, `X` is integral and geometrically unibranch at the point `x` is a particular case of
-`(17.5.7)`. It is clear, on the other hand, that conditions (i) and (ii) are necessary for `f` to be étale at the point
-`x`, since `𝒪_{X,x}` is then a faithfully flat `𝒪_{Y,y}`-module `(17.6.1)`. Let us prove that these conditions are
-sufficient.
+The fact that, if $f$ is étale, $X$ is integral and geometrically unibranch at the point $x$ is a particular case of
+`(17.5.7)`. It is clear, on the other hand, that conditions (i) and (ii) are necessary for $f$ to be étale at the point
+$x$, since $\mathcal{O}_{X,x}$ is then a faithfully flat $\mathcal{O}_{Y,y}$-module `(17.6.1)`. Let us prove that these
+conditions are sufficient.
 
-Set `A = 𝒪_{Y,y}`, `A' = ^{sh}A` `(18.8.7)`, `Y' = Spec(A')`, `X' = X ×_Y Y'`, `f' = f_{(Y')} : X' → Y'`. Let `y'` be
-the closed point of `Y'`, and `x'` a point of `X'` lying above `x` and above `y'`; since the morphism `g : Y' → Y` is
-flat `(18.8.8)`, everything reduces to showing that `f'` is étale at the point `x'` `(17.7.1, (ii))`. Hypothesis (ii)
-implies that the morphism `Spec(𝒪_{X,x}) → Spec(𝒪_{Y,y})` is dominant `(I, 1.2.7)`; since `𝒪_{Y,y}` is integral,
-`Spec(𝒪_{Y,y})` has a unique generic point `y_1`, and there is therefore a generization `x_1` of `x` in `X` above `y_1`.
-The projection morphism `X' → X` being flat, there exists a generization `x'_1` of `x'` above `x_1` `(2.3.4)`; set
-`y'_1 = f'(x'_1)`; one has consequently `g(y'_1) = y_1`. Now, the hypothesis on `Y` implies that `A'` is integral
-`(18.8.15)`, so `Y'` has a unique generic point `η`, necessarily above `y_1` since `g`
+Set $A = \mathcal{O}_{Y,y}$, $A' = {}^{sh}A$ `(18.8.7)`, $Y' = \operatorname{Spec}(A')$, $X' = X \times_{Y} Y'$, $f' =
+f_{(Y')} : X' \to Y'$. Let $y'$ be the closed point of $Y'$, and $x'$ a point of $X'$ lying above $x$ and above $y'$;
+since the morphism $g : Y' \to Y$ is flat `(18.8.8)`, everything reduces to showing that $f'$ is étale at the point $x'$
+`(17.7.1, (ii))`. Hypothesis (ii) implies that the morphism $\operatorname{Spec}(\mathcal{O}_{X,x}) \to
+\operatorname{Spec}(\mathcal{O}_{Y,y})$ is dominant `(I, 1.2.7)`; since $\mathcal{O}_{Y,y}$ is integral,
+$\operatorname{Spec}(\mathcal{O}_{Y,y})$ has a unique generic point $y_{1}$, and there is therefore a generization
+$x_{1}$ of $x$ in $X$ above $y_{1}$. The projection morphism $X' \to X$ being flat, there exists a generization $x'_{1}$
+of $x'$ above $x_{1}$ `(2.3.4)`; set $y'_{1} = f'(x'_{1})$; one has consequently $g(y'_{1}) = y_{1}$. Now, the
+hypothesis on $Y$ implies that $A'$ is integral `(18.8.15)`, so $Y'$ has a unique generic point $\eta$, necessarily
+above $y_{1}$ since $g$
 
 <!-- original page 158 -->
 
-is flat `(2.3.4)`; on the other hand, `η` is also a generic point of `g⁻¹(y_1)` `(0_I, 2.1.8)`, and one knows moreover
-that the fibres of `g` are discrete spaces `(18.8.12)`, so `g⁻¹(y_1) = {η}`, and consequently `y'_1 = η`. The morphism
-`Spec(𝒪_{X',x'}) → Spec(𝒪_{Y',y'})` restriction of `f'` is therefore dominant, and since `𝒪_{Y',y'} = A'` is integral,
-the corresponding homomorphism `𝒪_{Y',y'} → 𝒪_{X',x'}` is injective `(I, 1.2.7)`. On the other hand, `f'` is unramified
-at the point `x'` `(17.3.3)`, so `(18.8.3, d))` there is a neighbourhood `U` of `x'` in `X'` such that `f' | U` is a
-closed immersion of `U` into `Y'`; a fortiori the homomorphism `𝒪_{Y',y'} → 𝒪_{X',x'}` is surjective, and since it is
-injective, it is bijective. But then `𝒪_{X',x'}` is a flat `𝒪_{Y',y'}`-module, and `f'` is therefore étale at the point
-`x'` `(17.6.1)`.
+is flat `(2.3.4)`; on the other hand, $\eta$ is also a generic point of $g^{-1}(y_{1})$ $(0_{I}, 2.1.8)$, and one knows
+moreover that the fibres of $g$ are discrete spaces `(18.8.12)`, so $g^{-1}(y_{1}) = {\eta}$, and consequently $y'_{1} =
+\eta$. The morphism $\operatorname{Spec}(\mathcal{O}_{X',x'}) \to \operatorname{Spec}(\mathcal{O}_{Y',y'})$ restriction
+of $f'$ is therefore dominant, and since $\mathcal{O}_{Y',y'} = A'$ is integral, the corresponding homomorphism
+$\mathcal{O}_{Y',y'} \to \mathcal{O}_{X',x'}$ is injective `(I, 1.2.7)`. On the other hand, $f'$ is unramified at the
+point $x'$ `(17.3.3)`, so `(18.8.3, d))` there is a neighbourhood $U$ of $x'$ in $X'$ such that $f' | U$ is a closed
+immersion of $U$ into $Y'$; a fortiori the homomorphism $\mathcal{O}_{Y',y'} \to \mathcal{O}_{X',x'}$ is surjective, and
+since it is injective, it is bijective. But then $\mathcal{O}_{X',x'}$ is a flat $\mathcal{O}_{Y',y'}$-module, and $f'$
+is therefore étale at the point $x'$ `(17.6.1)`.
 
-Finally, when `𝒪_{Y,y}` is Noetherian, one knows that if `f` is étale at the point `x`, one has
-`dim(𝒪_{Y,y}) = dim(𝒪_{X,x})` `(17.10.4)`. Conversely, suppose conditions (i) and (ii bis) are verified, and let us show
-that they imply (ii). Let `𝔍` be the kernel of the canonical homomorphism `𝒪_{Y,y} → 𝒪_{X,x}`; restricting `Y` if
-necessary to a neighbourhood of `y`, one can suppose that `𝔍 = 𝓙_y`, where `𝓙` is an Ideal of `𝒪_Y`; if `Y_1` is the
-closed sub-prescheme of `Y` defined by `𝓙`, one can, by restricting again if necessary `X` and `Y` to neighbourhoods of
-`x` and `y` respectively, suppose that `f` factors as `X →^{f_1} Y_1 → Y` `(I, 6.5.1)`. It is clear that `f_1` is still
-unramified at the point `x`, so `(17.4.1)` quasi-finite at that point; the proof of `(5.4.1, (i))` then shows that one
-has `dim(𝒪_{X,x}) ≤ dim(𝒪_{Y_1,y})`. But if one had `𝔍 ≠ 0`, one would conclude that `dim(𝒪_{Y_1,y}) < dim(𝒪_{Y,y})`
-since `Y` is integral `(0, 16.1.2.2)`; one would consequently have `dim(𝒪_{X,x}) < dim(𝒪_{Y,y})` contrary to the
-hypothesis, which proves (ii).
+Finally, when $\mathcal{O}_{Y,y}$ is Noetherian, one knows that if $f$ is étale at the point $x$, one has
+$\dim(\mathcal{O}_{Y,y}) = \dim(\mathcal{O}_{X,x})$ `(17.10.4)`. Conversely, suppose conditions (i) and (ii bis) are
+verified, and let us show that they imply (ii). Let $\mathfrak{J}$ be the kernel of the canonical homomorphism
+$\mathcal{O}_{Y,y} \to \mathcal{O}_{X,x}$; restricting $Y$ if necessary to a neighbourhood of $y$, one can suppose that
+$\mathfrak{J} = \mathcal{J}_{y}$, where $\mathcal{J}$ is an Ideal of $\mathcal{O}_{Y}$; if `Y_1` is the closed
+sub-prescheme of $Y$ defined by $\mathcal{J}$, one can, by restricting again if necessary $X$ and $Y$ to neighbourhoods
+of $x$ and $y$ respectively, suppose that $f$ factors as $X \to^{f_{1}} Y_{1} \to Y$ `(I, 6.5.1)`. It is clear that
+$f_{1}$ is still unramified at the point $x$, so `(17.4.1)` quasi-finite at that point; the proof of `(5.4.1, (i))` then
+shows that one has $\dim(\mathcal{O}_{X,x}) \leq \dim(\mathcal{O}_{Y_{1},y})$. But if one had $\mathfrak{J} \neq 0$, one
+would conclude that $\dim(\mathcal{O}_{Y_{1},y}) < \dim(\mathcal{O}_{Y,y})$ since $Y$ is integral `(0, 16.1.2.2)`; one
+would consequently have $\dim(\mathcal{O}_{X,x}) < \dim(\mathcal{O}_{Y,y})$ contrary to the hypothesis, which proves
+(ii).
 
-**Remarks (18.10.2).** — (i) When `A = 𝒪_{Y,y}` is Noetherian, and one knows that its completion `Â` is integral (for
-example if `A` is regular), one can, in the preceding proof, replace `A'` by `Â`.
+**Remarks (18.10.2).** — (i) When $A = \mathcal{O}_{Y,y}$ is Noetherian, and one knows that its completion `Â` is
+integral (for example if $A$ is regular), one can, in the preceding proof, replace $A'$ by `Â`.
 
-(ii) When `Y` is locally Noetherian, one can give of `(18.10.1)` a more rapid proof, not using strict Henselization, but
-bringing in the rather delicate results of §§14 and 15. Since `f` is quasi-finite at the point `x` by hypothesis
-`(17.4.1)`, one can, by replacing `X` by an open neighbourhood of `x`, suppose that `f⁻¹(y) = {x}`. Hypothesis (ii)
-implies, as one has seen, the existence of an irreducible component `Z` of `X` containing `x` and dominating the unique
-irreducible component `Y_0` of `Y` containing `y`. The morphism `f | Z` being quasi-finite at the point `x`, hence
-equidimensional at that point `(13.2.2)`, it follows from the hypothesis on `Y` and from Chevalley's criterion
-`(14.4.4)` that `g = f | Z` is universally open at the point `x`. Moreover, since `f` (hence also `g`) is unramified at
-the point `x`, `g⁻¹(g(x))` is geometrically reduced over `k(g(x))` `(17.4.1)`; since `𝒪_{Y,y}` is integral, one
-concludes from `(15.2.3)` that `g` is flat at the point `x`, so `f` is étale at that point `(18.4.9)`.
+(ii) When $Y$ is locally Noetherian, one can give of `(18.10.1)` a more rapid proof, not using strict Henselization, but
+bringing in the rather delicate results of §§14 and 15. Since $f$ is quasi-finite at the point $x$ by hypothesis
+`(17.4.1)`, one can, by replacing $X$ by an open neighbourhood of $x$, suppose that $f^{-1}(y) = {x}$. Hypothesis (ii)
+implies, as one has seen, the existence of an irreducible component $Z$ of $X$ containing $x$ and dominating the unique
+irreducible component `Y_0` of $Y$ containing $y$. The morphism $f | Z$ being quasi-finite at the point $x$, hence
+equidimensional at that point `(13.2.2)`, it follows from the hypothesis on $Y$ and from Chevalley's criterion
+`(14.4.4)` that $g = f | Z$ is universally open at the point $x$. Moreover, since $f$ (hence also $g$) is unramified at
+the point $x$, $g^{-1}(g(x))$ is geometrically reduced over $k(g(x))$ `(17.4.1)`; since $\mathcal{O}_{Y,y}$ is integral,
+one concludes from `(15.2.3)` that $g$ is flat at the point $x$, so $f$ is étale at that point `(18.4.9)`.
 
-(iii) The notations and the hypotheses on `Y` being those of `(18.10.1)`, suppose only that `f` is locally of finite
-type (and not necessarily locally of finite presentation). Then, in order that `𝒪_{X,x}` be an essentially étale
-`𝒪_{Y,y}`-algebra `(18.6.1)`, it is necessary and sufficient that `f` verify the two following conditions:
+(iii) The notations and the hypotheses on $Y$ being those of `(18.10.1)`, suppose only that $f$ is locally of finite
+type (and not necessarily locally of finite presentation). Then, in order that $\mathcal{O}_{X,x}$ be an essentially
+étale $\mathcal{O}_{Y,y}$-algebra `(18.6.1)`, it is necessary and sufficient that $f$ verify the two following
+conditions:
 
 <!-- original page 159 -->
 
-1° `f` is formally unramified at the point `x`;
+1° $f$ is formally unramified at the point $x$;
 
-2° the homomorphism `𝒪_{Y,y} → 𝒪_{X,x}` is injective.
+2° the homomorphism $\mathcal{O}_{Y,y} \to \mathcal{O}_{X,x}$ is injective.
 
 There remains only to prove the sufficiency of these conditions. Taking account of `(18.4.12)`, it suffices to show that
-`f` is flat at the point `x`. Now, taking up again the proof of `(18.10.1)` and the notations used in that proof, it
-suffices to show that `f'` is flat at the point `x'` `(2.5.1)`; moreover, `f'` is formally unramified at the point `x'`
-`(17.1.3)`; one can therefore restrict to the proof when `Y = Spec(A)`, where `A` is strictly local and `y = f(x)` is
-the closed point of `Y`. Using then `(18.8.3)` one sees that the homomorphism `𝒪_{Y,y} → 𝒪_{X,x}` is surjective, hence
-bijective by virtue of the hypothesis, and that suffices to show the flatness of `f` at the point `x`.
+$f$ is flat at the point $x$. Now, taking up again the proof of `(18.10.1)` and the notations used in that proof, it
+suffices to show that $f'$ is flat at the point $x'$ `(2.5.1)`; moreover, $f'$ is formally unramified at the point $x'$
+`(17.1.3)`; one can therefore restrict to the proof when $Y = \operatorname{Spec}(A)$, where $A$ is strictly local and
+$y = f(x)$ is the closed point of $Y$. Using then `(18.8.3)` one sees that the homomorphism $\mathcal{O}_{Y,y} \to
+\mathcal{O}_{X,x}$ is surjective, hence bijective by virtue of the hypothesis, and that suffices to show the flatness of
+$f$ at the point $x$.
 
-Suppose moreover that `Y` is locally integral at the point `y` `(I, 2.1.8)`. Then conditions 1° and 2° above (joined
-with the fact that `Y` is geometrically unibranch at the point `y` and `f` locally of finite type) already imply that
-`f` is étale at the point `x`. Indeed, this results from the foregoing and from `(18.4.13)`.
+Suppose moreover that $Y$ is locally integral at the point $y$ `(I, 2.1.8)`. Then conditions 1° and 2° above (joined
+with the fact that $Y$ is geometrically unibranch at the point $y$ and $f$ locally of finite type) already imply that
+$f$ is étale at the point $x$. Indeed, this results from the foregoing and from `(18.4.13)`.
 
 **Corollary (18.10.3).**
 
 <!-- label: IV.18.10.3 -->
 
-*Let `Y` be an integral and geometrically unibranch prescheme, `η` its generic point, `X` a connected prescheme,
-`f : X → Y` a morphism locally of finite type and such that `f⁻¹(η)` is non-empty. Then, if `f` is formally unramified,
-`f` is étale, and `X` is integral and geometrically unibranch.*
+*Let $Y$ be an integral and geometrically unibranch prescheme, $\eta$ its generic point, $X$ a connected prescheme, $f :
+X \to Y$ a morphism locally of finite type and such that $f^{-1}(\eta)$ is non-empty. Then, if $f$ is formally
+unramified, $f$ is étale, and $X$ is integral and geometrically unibranch.*
 
-It follows from the hypothesis and from `(18.4.13)` that `f` is étale at all points where it is flat, and in particular
-at the points of `f⁻¹(η)`, since `𝒪_{Y,η} = k(η)` is a field. The open set `U` of points of `X` where `f` is étale is
-therefore non-empty. Let us show, on the other hand, that for every `x ∈ X`, the homomorphism `𝒪_{Y,f(x)} → 𝒪_{X,x}` is
-injective. Indeed, let `s` be a section of `𝒪_Y` above an open neighbourhood of `f(x)`, which one can always suppose to
-be `Y` itself (the question being local on `X` and `Y`), and suppose that its image `t ∈ Γ(Y, f_*(𝒪_X)) = Γ(X, 𝒪_X)` has
-a germ zero at the point `x`, hence vanishes in an open neighbourhood `V` of `x`; then the restriction of `t` to the
-open `U ∩ V ≠ ∅` is zero; but the restriction `f | (U ∩ V)` is étale, so `W = f(U ∩ V)` is open in `Y` and consequently
-contains the generic point `η`; the homomorphism `𝒪_{Y,f(z)} → 𝒪_{X,z}` being injective for every point `z ∈ f⁻¹(η)`,
-the hypothesis that `t | (U ∩ V) = 0` implies that `s | W = 0`, and since `Y` is integral, this implies `s = 0`, whence
-our assertion. Applying now `(18.10.2, (iii))`, one concludes that `f` is flat at the point `x`, in other words `x ∈ U`,
-and `U` is therefore both open and closed in `X`; since it is non-empty and `X` is connected, one has `U = X`.
+It follows from the hypothesis and from `(18.4.13)` that $f$ is étale at all points where it is flat, and in particular
+at the points of $f^{-1}(\eta)$, since $\mathcal{O}_{Y,\eta} = k(\eta)$ is a field. The open set $U$ of points of $X$
+where $f$ is étale is therefore non-empty. Let us show, on the other hand, that for every $x \in X$, the homomorphism
+$\mathcal{O}_{Y,f(x)} \to \mathcal{O}_{X,x}$ is injective. Indeed, let $s$ be a section of $\mathcal{O}_{Y}$ above an
+open neighbourhood of $f(x)$, which one can always suppose to be $Y$ itself (the question being local on $X$ and $Y$),
+and suppose that its image $t \in \Gamma(Y, f_{*}(\mathcal{O}_{X})) = \Gamma(X, \mathcal{O}_{X})$ has a germ zero at the
+point $x$, hence vanishes in an open neighbourhood $V$ of $x$; then the restriction of $t$ to the open $U \cap V \neq
+\emptyset$ is zero; but the restriction $f | (U \cap V)$ is étale, so $W = f(U \cap V)$ is open in $Y$ and consequently
+contains the generic point $\eta$; the homomorphism $\mathcal{O}_{Y,f(z)} \to \mathcal{O}_{X,z}$ being injective for
+every point $z \in f^{-1}(\eta)$, the hypothesis that $t | (U \cap V) = 0$ implies that $s | W = 0$, and since $Y$ is
+integral, this implies $s = 0$, whence our assertion. Applying now `(18.10.2, (iii))`, one concludes that $f$ is flat at
+the point $x$, in other words $x \in U$, and $U$ is therefore both open and closed in $X$; since it is non-empty and $X$
+is connected, one has $U = X$.
 
-Note now that since `f` is étale, hence locally quasi-finite, and `Y` is irreducible, the maximal points of `X` belong
-to `f⁻¹(η)` `(2.3.4)` and for every `x ∈ X`, there is a neighbourhood of `x` which contains only a finite number of
-these maximal points; in other words the set of irreducible components of `X` is locally finite. But by `(18.10.1)`, `X`
-is integral and geometrically unibranch at every point, so every point of `X` belongs to only one irreducible component,
-and since the latter form a locally finite set, they are open (and closed) in `X`; since `X` is connected, it is
-integral.
+Note now that since $f$ is étale, hence locally quasi-finite, and $Y$ is irreducible, the maximal points of $X$ belong
+to $f^{-1}(\eta)$ `(2.3.4)` and for every $x \in X$, there is a neighbourhood of $x$ which contains only a finite number
+of these maximal points; in other words the set of irreducible components of $X$ is locally finite. But by `(18.10.1)`,
+$X$ is integral and geometrically unibranch at every point, so every point of $X$ belongs to only one irreducible
+component, and since the latter form a locally finite set, they are open (and closed) in $X$; since $X$ is connected, it
+is integral.
 
 <!-- original page 160 -->
 
-**Remark (18.10.3.1).** — If `f : X → Y` is locally of finite presentation, dominant and quasi-compact, the fibre
-`f⁻¹(η)` is non-empty by virtue of `(1.1.5)`. On the contrary, if one does not suppose `f` quasi-compact, `f` can be
-unramified and dominant without `f` being étale (still supposing verified the hypotheses of `(18.10.3)` for `X` and
-`Y`). This is shown by the following example: one takes for `Y` the affine plane `Spec(ℂ[T, U])`; one considers on the
-other hand a family `(X_j)_{j ∈ ℤ}` of preschemes isomorphic to the affine line `Spec(ℂ[T])`, and one forms the
-prescheme obtained by "gluing" `X_{2j}` and `X_{2j+1}` at the point `−1` and `X_{2j+1}` and `X_{2j+2}` at the point
-`+1`. Define on the other hand `f : X → Y` as being equal on `X_{2j}` to the closed immersion whose image is the line of
-equation `y = 2j`, transforming the point `−1` into `(2j−1, 2j)` and the point `+1` into `(2j+1, 2j)`; on `X_{2j+1}`,
-`f` is the closed immersion whose image is the line of equation `x = 2j+1`, transforming the point `−1` into
-`(2j+1, 2j)` and the point `+1` into `(2j+1, 2j+2)`. It is clear that `f` is a local immersion (hence is unramified) and
-is dominant but the fibre of the generic point of `Y` is empty and `f` is not étale.
+**Remark (18.10.3.1).** — If $f : X \to Y$ is locally of finite presentation, dominant and quasi-compact, the fibre
+$f^{-1}(\eta)$ is non-empty by virtue of `(1.1.5)`. On the contrary, if one does not suppose $f$ quasi-compact, $f$ can
+be unramified and dominant without $f$ being étale (still supposing verified the hypotheses of `(18.10.3)` for $X$ and
+$Y$). This is shown by the following example: one takes for $Y$ the affine plane $\operatorname{Spec}(\mathbb{C}[T,
+U])$; one considers on the other hand a family $(X_{j})_{j \in \mathbb{Z}}$ of preschemes isomorphic to the affine line
+$\operatorname{Spec}(\mathbb{C}[T])$, and one forms the prescheme obtained by "gluing" $X_{2j}$ and $X_{2j+1}$ at the
+point $-1$ and $X_{2j+1}$ and $X_{2j+2}$ at the point `+1`. Define on the other hand $f : X \to Y$ as being equal on
+$X_{2j}$ to the closed immersion whose image is the line of equation $y = 2j$, transforming the point $-1$ into $(2j-1,
+2j)$ and the point `+1` into $(2j+1, 2j)$; on $X_{2j+1}$, $f$ is the closed immersion whose image is the line of
+equation $x = 2j+1$, transforming the point $-1$ into $(2j+1, 2j)$ and the point `+1` into $(2j+1, 2j+2)$. It is clear
+that $f$ is a local immersion (hence is unramified) and is dominant but the fibre of the generic point of $Y$ is empty
+and $f$ is not étale.
 
 **Corollary (18.10.4).**
 
 <!-- label: IV.18.10.4 -->
 
-*Let `g : Y → S`, `h : X → S` be two morphisms locally of finite presentation, `f : X → Y` an `S`-morphism, `x` a point
-of `X`, `y = f(x)`, `s = g(y) = h(x)`. Suppose that `h` is flat at the point `x` and `g⁻¹(s)` normal at the point `y`.
-Then, in order that `f` be étale at the point `x`, it is necessary and sufficient that `f` be unramified at the point
-`x` and that `dim_x h⁻¹(s) = dim_y g⁻¹(s)`.*
+*Let $g : Y \to S$, $h : X \to S$ be two morphisms locally of finite presentation, $f : X \to Y$ an $S$-morphism, $x$ a
+point of $X$, $y = f(x)$, $s = g(y) = h(x)$. Suppose that $h$ is flat at the point $x$ and $g^{-1}(s)$ normal at the
+point $y$. Then, in order that $f$ be étale at the point $x$, it is necessary and sufficient that $f$ be unramified at
+the point $x$ and that $\dim_{x} h^{-1}(s) = \dim_{y} g^{-1}(s)$.*
 
-The conditions are necessary by virtue of the fact that if `f` is étale at the point `x`, the same is true of
-`f_s : h⁻¹(s) → g⁻¹(s)`, and the conclusion then results from the fact that `f_s` is flat and quasi-finite at the point
-`x` `(6.1.2)`. Conversely, if the conditions of the statement are verified, to see that `f` is étale at the point `x`,
-it suffices, by virtue of `(17.8.3)`, to see that `f_s` is. One can therefore restrict to the case where `S` is the
-spectrum of a field. It results then from the hypothesis `dim_x X = dim_y Y` and from the fact that `f` is unramified at
-the point `x` that one has (by `(5.2.3)` and `(17.4.1)`) `dim(𝒪_{X,x}) = dim(𝒪_{Y,y})`; since `f` is quasi-finite at the
-point `x` and `𝒪_{Y,y}` integral, one deduces from `(0_I, 7.4.4)` and `(0, 16.3.10)` that the homomorphism
-`𝒪_{Y,y} → 𝒪_{X,x}` is injective; it then suffices to conclude by applying `(18.10.1)`.
+The conditions are necessary by virtue of the fact that if $f$ is étale at the point $x$, the same is true of $f_{s} :
+h^{-1}(s) \to g^{-1}(s)$, and the conclusion then results from the fact that $f_{s}$ is flat and quasi-finite at the
+point $x$ `(6.1.2)`. Conversely, if the conditions of the statement are verified, to see that $f$ is étale at the point
+$x$, it suffices, by virtue of `(17.8.3)`, to see that $f_{s}$ is. One can therefore restrict to the case where $S$ is
+the spectrum of a field. It results then from the hypothesis $\dim_{x} X = \dim_{y} Y$ and from the fact that $f$ is
+unramified at the point $x$ that one has (by `(5.2.3)` and `(17.4.1)`) $\dim(\mathcal{O}_{X,x}) =
+\dim(\mathcal{O}_{Y,y})$; since $f$ is quasi-finite at the point $x$ and $\mathcal{O}_{Y,y}$ integral, one deduces from
+$(0_{I}, 7.4.4)$ and `(0, 16.3.10)` that the homomorphism $\mathcal{O}_{Y,y} \to \mathcal{O}_{X,x}$ is injective; it
+then suffices to conclude by applying `(18.10.1)`.
 
 **Corollary (18.10.5).**
 
 <!-- label: IV.18.10.5 -->
 
-*With the notations of `(18.10.4)`, suppose that `h` is flat and that `g⁻¹(s)` is normal for every `s ∈ S` (which will
-be for example the case if `g` is smooth). In order that `f` be an open immersion, it is necessary and sufficient that
-`f` be a monomorphism and that, for every `x ∈ X`, one have `dim_x h⁻¹(s) = dim_y g⁻¹(s)`, where `y = f(x)` and
-`s = g(y) = h(x)`.*
+*With the notations of `(18.10.4)`, suppose that $h$ is flat and that $g^{-1}(s)$ is normal for every $s \in S$ (which
+will be for example the case if $g$ is smooth). In order that $f$ be an open immersion, it is necessary and sufficient
+that $f$ be a monomorphism and that, for every $x \in X$, one have $\dim_{x} h^{-1}(s) = \dim_{y} g^{-1}(s)$, where $y =
+f(x)$ and $s = g(y) = h(x)$.*
 
 One has only to prove the sufficiency of the conditions; now, it results from `(17.1.3)` that a monomorphism locally of
-finite presentation is unramified, so the hypotheses imply that `f` is étale `(18.10.4)`; one concludes by `(17.9.1)`.
+finite presentation is unramified, so the hypotheses imply that $f$ is étale `(18.10.4)`; one concludes by `(17.9.1)`.
 
 **Lemma (18.10.6).**
 
 <!-- label: IV.18.10.6 -->
 
-*Let `f : X → Y` be a flat and locally quasi-finite morphism (EGA, 2.0).*
+*Let $f : X \to Y$ be a flat and locally quasi-finite morphism (EGA, 2.0).*
 
-*(i) The set `Max(X)` of maximal points of `X` is in canonical bijective correspondence with the set
-`⋃_{y ∈ Max(Y)} f⁻¹(y)`.*
+*(i) The set $Max(X)$ of maximal points of $X$ is in canonical bijective correspondence with the set $\bigcup_{y \in
+Max(Y)} f^{-1}(y)$.*
 
-*(ii) If `Y` is irreducible and of generic point `η`, the set of irreducible components of `X` is in canonical bijective
-correspondence with `f⁻¹(η)`, and in particular is finite if and only if `f⁻¹(η)` is finite.*
+*(ii) If $Y$ is irreducible and of generic point $\eta$, the set of irreducible components of $X$ is in canonical
+bijective correspondence with $f^{-1}(\eta)$, and in particular is finite if and only if $f^{-1}(\eta)$ is finite.*
 
 <!-- original page 161 -->
 
-*(iii) If the set of irreducible components of `Y` is locally finite, the same is true of the set of irreducible
-components of `X`, and in particular `X` is locally connected.*
+*(iii) If the set of irreducible components of $Y$ is locally finite, the same is true of the set of irreducible
+components of $X$, and in particular $X$ is locally connected.*
 
-Assertion (i) results immediately from `(2.3.4)` and `(0_I, 2.1.6)` and from the fact that the fibres `f⁻¹(y)` are
+Assertion (i) results immediately from `(2.3.4)` and $(0_{I}, 2.1.6)$ and from the fact that the fibres $f^{-1}(y)$ are
 discrete sets. It is clear that (ii) is a particular case of (i). Finally, to prove (iii), one can, by virtue of (i),
-restrict to the case where `f` is quasi-finite and where `Y` is irreducible `(0_I, 2.1.6)`, and the conclusion then
-results from (ii) and from the fact that the fibres of `f` are finite sets `(II, 6.2.2)`.
+restrict to the case where $f$ is quasi-finite and where $Y$ is irreducible $(0_{I}, 2.1.6)$, and the conclusion then
+results from (ii) and from the fact that the fibres of $f$ are finite sets `(II, 6.2.2)`.
 
 **Proposition (18.10.7).**
 
 <!-- label: IV.18.10.7 -->
 
-*Let `Y` be a geometrically unibranch and irreducible (resp. integral) prescheme, `f : X → Y` an étale morphism. Then
-`X` is isomorphic to a sum of irreducible (resp. integral) preschemes `X_λ`, where `λ` ranges over the fibre `f⁻¹(η)` of
-the generic point `η` of `Y`. The `X_λ` are geometrically unibranch; if `Y` is normal, the `X_λ` are normal.*
+*Let $Y$ be a geometrically unibranch and irreducible (resp. integral) prescheme, $f : X \to Y$ an étale morphism. Then
+$X$ is isomorphic to a sum of irreducible (resp. integral) preschemes $X_{\lambda}$, where $\lambda$ ranges over the
+fibre $f^{-1}(\eta)$ of the generic point $\eta$ of $Y$. The $X_{\lambda}$ are geometrically unibranch; if $Y$ is
+normal, the $X_{\lambda}$ are normal.*
 
-Indeed, `X` is geometrically unibranch `(17.5.7)`, so every point of `X` belongs to only one irreducible component;
-moreover, by virtue of `(18.10.6)` and `(17.6.1)` the set of irreducible components of `X` is locally finite, so
-`(0_I, 2.1.6)` these are the connected components `X_λ` of `X` (`λ ∈ f⁻¹(η)`), and `X` is the sum of the `X_λ`; by
-virtue of `(17.5.7)`, if `Y` is integral (resp. normal), the `X_λ` are integral (resp. normal).
+Indeed, $X$ is geometrically unibranch `(17.5.7)`, so every point of $X$ belongs to only one irreducible component;
+moreover, by virtue of `(18.10.6)` and `(17.6.1)` the set of irreducible components of $X$ is locally finite, so
+$(0_{I}, 2.1.6)$ these are the connected components $X_{\lambda}$ of $X$ ($\lambda \in f^{-1}(\eta)$), and $X$ is the
+sum of the $X_{\lambda}$; by virtue of `(17.5.7)`, if $Y$ is integral (resp. normal), the $X_{\lambda}$ are integral
+(resp. normal).
 
 **Proposition (18.10.8).**
 
 <!-- label: IV.18.10.8 -->
 
-*Let `Y` be a normal and integral prescheme, of generic point `η`, `K = k(η)` its field of rational functions,
-`f : X → Y` an étale morphism. Suppose that `f⁻¹(η)` is finite and non-empty, so that the `K`-scheme `f⁻¹(η)` is the
-spectrum of a finite separable `K`-algebra `L`, direct composite of a finite number of fields `K_i` (`1 ≤ i ≤ n`),
-finite separable extensions of `K` `(17.6.2)`. Let `Y'` be the integral closure of `Y` in `L`, isomorphic to the sum of
-the integral closures `Y'_i` of `Y` in the `K_i` `(II, 6.3.6)`. Then the morphism `f` factors in a unique way as
-`f : X →^{f'} Y' →^g Y`, such that the restriction `f'_η : f'⁻¹(η) → g⁻¹(η)` is the canonical isomorphism. Moreover `f'`
-is a local isomorphism; in order that `f'` be an open immersion, it is necessary and sufficient that `f` be separated.*
+*Let $Y$ be a normal and integral prescheme, of generic point $\eta$, $K = k(\eta)$ its field of rational functions,
+$f : X \to Y$ an étale morphism. Suppose that $f^{-1}(\eta)$ is finite and non-empty, so that the $K$-scheme
+$f^{-1}(\eta)$ is the spectrum of a finite separable $K$-algebra $L$, direct composite of a finite number of fields
+$K_{i}$ ($1 \leq i \leq n$), finite separable extensions of $K$ `(17.6.2)`. Let $Y'$ be the integral closure of $Y$ in
+$L$, isomorphic to the sum of the integral closures $Y'_{i}$ of $Y$ in the $K_{i}$ `(II, 6.3.6)`. Then the morphism $f$
+factors in a unique way as $f : X \to^{f'} Y' \to^{g} Y$, such that the restriction
+$f'_{\eta} : f'^{-1}(\eta) \to g^{-1}(\eta)$ is the canonical isomorphism. Moreover $f'$ is a local isomorphism; in
+order that $f'$ be an open immersion, it is necessary and sufficient that $f$ be separated.*
 
-By virtue of `(18.10.7)`, one can restrict to the case where `X` is integral and normal, `L` its field of rational
-functions, `f` being dominant. The existence and uniqueness of the factorization of `f` considered then result from
-`(II, 6.3.9)`. Since `f'` is birational and locally quasi-finite, the last assertions result from `(8.12.10)`.
+By virtue of `(18.10.7)`, one can restrict to the case where $X$ is integral and normal, $L$ its field of rational
+functions, $f$ being dominant. The existence and uniqueness of the factorization of $f$ considered then result from
+`(II, 6.3.9)`. Since $f'$ is birational and locally quasi-finite, the last assertions result from `(8.12.10)`.
 
 **Corollary (18.10.9).**
 
 <!-- label: IV.18.10.9 -->
 
-*Under the hypotheses of `(18.10.8)`, in order that `f` be a finite morphism (in other words, in order that `X` be an
-étale cover of `Y`), it is necessary and sufficient that `X` be isomorphic to the integral closure `Y'` of `Y` in `L`.*
+*Under the hypotheses of `(18.10.8)`, in order that $f$ be a finite morphism (in other words, in order that $X$ be an
+étale cover of $Y$), it is necessary and sufficient that $X$ be isomorphic to the integral closure $Y'$ of $Y$ in $L$.*
 
-If `f` is finite, the canonical injection `j : X → Y'` (which is an open immersion) is also a finite morphism
-`(II, 6.1.5, (v))`, hence a closed morphism `(II, 6.1.10)`, and since `j(X)` is dense in `Y'` by `(18.10.8)`, one has
-`j(X) = Y'`. Conversely, since `Y` is normal and `L` direct composite of finite separable extensions of `K`, `Y'` is
-finite over `Y` (Bourbaki, Alg. comm., chap. V, §1, n° 6, cor. 1 of prop. 18), whence the corollary.
+If $f$ is finite, the canonical injection $j : X \to Y'$ (which is an open immersion) is also a finite morphism
+`(II, 6.1.5, (v))`, hence a closed morphism `(II, 6.1.10)`, and since $j(X)$ is dense in $Y'$ by `(18.10.8)`, one has
+$j(X) = Y'$. Conversely, since $Y$ is normal and $L$ direct composite of finite separable extensions of $K$, $Y'$ is
+finite over $Y$ (Bourbaki, Alg. comm., chap. V, §1, n° 6, cor. 1 of prop. 18), whence the corollary.
 
-**(18.10.10)** Let `Y` be a normal and integral prescheme, `K = R(Y)` its field of rational functions. We shall say that
-a `K`-algebra `L` of finite rank is *unramified over `Y`* if: 1° `L` is a separable `K`-algebra, hence direct composite
-of finite separable extensions `K_i` of `K` (`1 ≤ i ≤ n`); 2° the integral closure `Y'` of `Y` in `L` (sum of the
-preschemes integral closures of `Y` in the `K_i`) is unramified over `Y` (which, by `(18.10.3)`,
+**(18.10.10)** Let $Y$ be a normal and integral prescheme, $K = R(Y)$ its field of rational functions. We shall say that
+a $K$-algebra $L$ of finite rank is *unramified over $Y$* if: 1° $L$ is a separable $K$-algebra, hence direct composite
+of finite separable extensions $K_{i}$ of $K$ ($1 \leq i \leq n$); 2° the integral closure $Y'$ of $Y$ in $L$ (sum of
+the preschemes integral closures of $Y$ in the $K_{i}$) is unramified over $Y$ (which, by `(18.10.3)`,
 
 <!-- original page 162 -->
 
-amounts to saying that `Y'` is étale over `Y`). When `Y = Spec(A)`, where `A` is an integral and integrally closed ring,
-`K` its field of fractions, one will also say (by abuse of language, and when there is no risk of confusion with the
-terminology of `(17.3.2, (ii))`) that *`L` is unramified over `A`* instead of "unramified over `Y`".
+amounts to saying that $Y'$ is étale over $Y$). When $Y = \operatorname{Spec}(A)$, where $A$ is an integral and
+integrally closed ring, $K$ its field of fractions, one will also say (by abuse of language, and when there is no risk
+of confusion with the terminology of `(17.3.2, (ii))`) that *$L$ is unramified over $A$* instead of "unramified over
+$Y$".
 
-**Remark (18.10.11).** — Instead of saying that `L` is unramified over `Y` certain authors also say that `L` is
-"unramified over `K`"; we shall refrain from following this usage, which lends itself to confusions.
+**Remark (18.10.11).** — Instead of saying that $L$ is unramified over $Y$ certain authors also say that $L$ is
+"unramified over $K$"; we shall refrain from following this usage, which lends itself to confusions.
 
 One can then express `(18.10.9)` in the following form:
 
@@ -2849,210 +3061,221 @@ One can then express `(18.10.9)` in the following form:
 
 <!-- label: IV.18.10.12 -->
 
-*Let `Y` be a normal and integral prescheme, `K = R(Y)` its field of rational functions. Then the functor `X ↦ R(X)` is
-an equivalence between the category of étale covers of `Y`, and the category of finite étale `K`-algebras which are
-unramified over `Y`. One obtains a quasi-inverse functor by making correspond to every finite étale `K`-algebra `L`,
-unramified over `Y`, the integral closure `Y'` of `Y` in `L`.*
+*Let $Y$ be a normal and integral prescheme, $K = R(Y)$ its field of rational functions. Then the functor $X \mapsto
+R(X)$ is an equivalence between the category of étale covers of $Y$, and the category of finite étale $K$-algebras which
+are unramified over $Y$. One obtains a quasi-inverse functor by making correspond to every finite étale $K$-algebra $L$,
+unramified over $Y$, the integral closure $Y'$ of $Y$ in $L$.*
 
 **Proposition (18.10.13).**
 
 <!-- label: IV.18.10.13 -->
 
-*Let `Y` be a normal and integral prescheme, `K = R(Y)` its field of rational functions.*
+*Let $Y$ be a normal and integral prescheme, $K = R(Y)$ its field of rational functions.*
 
-*(i) The field `K` is a `K`-algebra unramified over `Y`.*
+*(i) The field $K$ is a $K$-algebra unramified over $Y$.*
 
-*(ii) Let `L` be a finite extension of `K`, unramified over `Y`, and let `Z` be the integral closure of `Y` in `L`.
-Then, if `M` is an `L`-algebra unramified over `Z`, `M` is also a `K`-algebra unramified over `Y` ("transitivity" of
+*(ii) Let $L$ be a finite extension of $K$, unramified over $Y$, and let $Z$ be the integral closure of $Y$ in $L$.
+Then, if $M$ is an $L$-algebra unramified over $Z$, $M$ is also a $K$-algebra unramified over $Y$ ("transitivity" of
 non-ramification).*
 
-*(iii) Let `Y'` be a normal and integral prescheme, `K'` its field of rational functions, `g : Y' → Y` a dominant
-morphism. If `L` is a `K`-algebra unramified over `Y`, then `L ⊗_K K'` is a `K'`-algebra unramified over `Y'`
-("translation" property). If moreover `Y = Spec(A)` and `Y' = Spec(A')` are affine, and if `C` is the integral closure
-of `A` in `L`, then `C' = C ⊗_A A'` is the integral closure of `A'` in `L ⊗_K K'`.*
+*(iii) Let $Y'$ be a normal and integral prescheme, $K'$ its field of rational functions, $g : Y' \to Y$ a dominant
+morphism. If $L$ is a $K$-algebra unramified over $Y$, then $L \otimes_{K} K'$ is a $K'$-algebra unramified over $Y'$
+("translation" property). If moreover $Y = \operatorname{Spec}(A)$ and $Y' = \operatorname{Spec}(A')$ are affine, and if
+$C$ is the integral closure of $A$ in $L$, then $C' = C \otimes_{A} A'$ is the integral closure of $A'$ in $L
+\otimes_{K} K'$.*
 
-Assertion (i) is immediate, `Y` being by hypothesis its own normalization in `K`. To prove (ii), let `Z'` be the
-integral closure of `Z` in `M`, which is by hypothesis an étale cover of `Z`. Since `Z` is étale and separated over `Y`,
-the same is true of `Z'` `(17.3.3)` which is evidently the integral closure of `Y` in `M`. Since `M` is a finite and
-separable `K`-algebra, it results from `(18.10.10)` that `M` is unramified over `Y`. Finally, to prove (iii), note that
-if `Z` is the integral closure of `Y` in `L`, `Z ×_Y Y'` is étale and separated over `Y'` `(17.3.3)`, finite over `Y'`
-since `Z` is finite over `Y`, and admits as ring of rational functions `L ⊗_K K'` `(I, 3.4.9)`; since `Y'` is normal,
-the same is true of `Z ×_Y Y'` `(17.5.7)`, which is therefore the integral closure of `Y'` in `L ⊗_K K'`, which finishes
-the proof.
+Assertion (i) is immediate, $Y$ being by hypothesis its own normalization in $K$. To prove (ii), let $Z'$ be the
+integral closure of $Z$ in $M$, which is by hypothesis an étale cover of $Z$. Since $Z$ is étale and separated over $Y$,
+the same is true of $Z'$ `(17.3.3)` which is evidently the integral closure of $Y$ in $M$. Since $M$ is a finite and
+separable $K$-algebra, it results from `(18.10.10)` that $M$ is unramified over $Y$. Finally, to prove (iii), note that
+if $Z$ is the integral closure of $Y$ in $L$, $Z \times_{Y} Y'$ is étale and separated over $Y'$ `(17.3.3)`, finite over
+$Y'$ since $Z$ is finite over $Y$, and admits as ring of rational functions $L \otimes_{K} K'$ `(I, 3.4.9)`; since $Y'$
+is normal, the same is true of $Z \times_{Y} Y'$ `(17.5.7)`, which is therefore the integral closure of $Y'$ in $L
+\otimes_{K} K'$, which finishes the proof.
 
 **Corollary (18.10.14).**
 
 <!-- label: IV.18.10.14 -->
 
-*Let `Y` and `Y'` be two normal and integral preschemes, `K`, `K'` their respective fields of rational functions,
-`g : Y' → Y` a dominant morphism, so that `K'` is an extension of `K`. Let `L` be a finite extension of `K` unramified
-over `Y`, `L_1` a composed extension (Bourbaki, Alg., chap. VIII, §8, def. 1) of `L` and `K'`. Then `L_1` is an
-extension of `K'` unramified over `Y'`. If moreover `Y = Spec(A)`, `Y' = Spec(A')` are affine, and if `C` is the
-integral closure of `A` in `L`, then the subring `C_1 = A'[C, A']` of `L_1` is the integral closure of `A'` in `L_1`.*
+*Let $Y$ and $Y'$ be two normal and integral preschemes, $K$, $K'$ their respective fields of rational functions, $g :
+Y' \to Y$ a dominant morphism, so that $K'$ is an extension of $K$. Let $L$ be a finite extension of $K$ unramified over
+$Y$, `L_1` a composed extension (Bourbaki, Alg., chap. VIII, §8, def. 1) of $L$ and $K'$. Then `L_1` is an extension of
+$K'$ unramified over $Y'$. If moreover $Y = \operatorname{Spec}(A)$, $Y' = \operatorname{Spec}(A')$ are affine, and if
+$C$ is the integral closure of $A$ in $L$, then the subring $C_{1} = A'[C, A']$ of `L_1` is the integral closure of $A'$
+in `L_1`.*
 
-Indeed, `L ⊗_K K'` is the direct composite of finite separable extensions of `K'`, and `L_1`
+Indeed, $L \otimes_{K} K'$ is the direct composite of finite separable extensions of $K'$, and `L_1`
 
 <!-- original page 163 -->
 
-is one of these extensions; therefore the integral closure of `Y` in `L` is the sum of preschemes one of which is the
-integral closure of `Y` in `L_1`. The corollary therefore results at once from `(18.10.13)`.
+is one of these extensions; therefore the integral closure of $Y$ in $L$ is the sum of preschemes one of which is the
+integral closure of $Y$ in `L_1`. The corollary therefore results at once from `(18.10.13)`.
 
-When for example `A` is the ring of integers of a number field `K`, `K'` and `L` algebraic extensions of `K`, there are
-classical examples showing that the relation `C_1 = A'[C, A']` fails when `L` is not unramified over `A`.
+When for example $A$ is the ring of integers of a number field $K$, $K'$ and $L$ algebraic extensions of $K$, there are
+classical examples showing that the relation $C_{1} = A'[C, A']$ fails when $L$ is not unramified over $A$.
 
-**(18.10.15)** Suppose that `Y = Spec(A)` is affine, `A` being integral and integrally closed; let `K` be its field of
-fractions, `L` a finite separable extension of `K`, and suppose that the integral closure `C` of `A` in `L` is a
-projective `A`-module of finite type (which will be for example the case if `A` is a Dedekind ring (Bourbaki, Alg.
-comm., chap. VII, §4, n° 10, prop. 22)). To say that `L` is unramified over `A` means that `C` is étale `(18.10.10)` and
-by virtue of `(18.2.7, (ii))`, this is therefore equivalent to saying that the discriminant `d_{C/A}` of `Spec(C)` over
-`Spec(A)` is invertible in `A`. In the particular case where `C` is a free `A`-module and `(c_i)_{1 ≤ i ≤ n}` a basis of
-`C` over `A`, this means that `det(Tr_{L/K}(c_i c_j))` is invertible in `A`.
+**(18.10.15)** Suppose that $Y = \operatorname{Spec}(A)$ is affine, $A$ being integral and integrally closed; let $K$ be
+its field of fractions, $L$ a finite separable extension of $K$, and suppose that the integral closure $C$ of $A$ in $L$
+is a projective $A$-module of finite type (which will be for example the case if $A$ is a Dedekind ring (Bourbaki, Alg.
+comm., chap. VII, §4, n° 10, prop. 22)). To say that $L$ is unramified over $A$ means that $C$ is étale `(18.10.10)` and
+by virtue of `(18.2.7, (ii))`, this is therefore equivalent to saying that the discriminant $d_{C/A}$ of
+$\operatorname{Spec}(C)$ over $\operatorname{Spec}(A)$ is invertible in $A$. In the particular case where $C$ is a free
+$A$-module and $(c_{i})_{1 \leq i \leq n}$ a basis of $C$ over $A$, this means that $det(Tr_{L/K}(c_{i} c_{j}))$ is
+invertible in $A$.
 
 **Theorem (18.10.16).**
 
 <!-- label: IV.18.10.16 -->
 
-*Let `Y` be an integral prescheme, `η` its generic point, `f : X → Y` a separated morphism locally of finite type.
-Suppose that every irreducible component of `X` dominates `Y` and that the generic fibre `X_η = f⁻¹(η)` is a prescheme
-finite over `K = k(η)`, so that `(X_η)_{red}` is equal to `Spec(L)`, where `L = ∏ L_i` is a product of finite extensions
-`L_i` of `K`. One sets*
+*Let $Y$ be an integral prescheme, $\eta$ its generic point, $f : X \to Y$ a separated morphism locally of finite type.
+Suppose that every irreducible component of $X$ dominates $Y$ and that the generic fibre $X_{\eta} = f^{-1}(\eta)$ is a
+prescheme finite over $K = k(\eta)$, so that $(X_{\eta})_{red}$ is equal to $\operatorname{Spec}(L)$, where $L = \prod
+L_{i}$ is a product of finite extensions $L_{i}$ of $K$. One sets*
 
 ```text
   n = [L : K] = ∑ [L_i : K],    n_s = ∑ [L_i : K]_s   (sum of separable degrees of the L_i).
 ```
 
-*Let `y` be a geometrically unibranch point of `Y`, and denote by `n(y)` the sum of the separable degrees over `k(y)` of
-the residue fields of the isolated points of `f⁻¹(y)`. Then:*
+*Let $y$ be a geometrically unibranch point of $Y$, and denote by $n(y)$ the sum of the separable degrees over $k(y)$ of
+the residue fields of the isolated points of $f^{-1}(y)$. Then:*
 
-*(i) one has `n(y) ≤ n_s ≤ n`.*
+*(i) one has $n(y) \leq n_{s} \leq n$.*
 
-*(ii) Suppose `X` reduced and the point `y` normal in `Y`. In order that `n(y) = n_s`, it is necessary and sufficient
-that there exist an open neighbourhood `U` of `y` in `Y` such that the restriction `f⁻¹(U) → U` of `f` be an étale and
-finite morphism.*
+*(ii) Suppose $X$ reduced and the point $y$ normal in $Y$. In order that $n(y) = n_{s}$, it is necessary and sufficient
+that there exist an open neighbourhood $U$ of $y$ in $Y$ such that the restriction $f^{-1}(U) \to U$ of $f$ be an étale
+and finite morphism.*
 
-A) *Reduction to the case where `f` is quasi-finite.* — One knows `(13.1.4)` that the set `Z` of points `x ∈ X` isolated
-in `f⁻¹(f(x))` is open in `X` and by hypothesis `Z` contains `f⁻¹(η)`. Since `f⁻¹(η)` is finite, `Z` is the filtered
-increasing union of quasi-compact open sets `V_λ` containing `f⁻¹(η)` (hence dense in `X` by hypothesis). If `n_λ(y)` is
-the sum of the separable degrees over `k(y)` of the residue fields of the points of `V_λ ∩ f⁻¹(y)`, one has
-`n(y) = sup_λ n_λ(y)`; to prove (i), it will therefore suffice to show that `n_λ(y) ≤ n_s`. On the other hand, if
-`n(y) = n_s`, there is an index `λ` such that `n_λ(y) = n_s`. Suppose proved that there then exists an open
-neighbourhood `U` of `y` in `Y` such that the restriction `V_λ ∩ f⁻¹(U) → U` of `f` is an étale and finite morphism.
-Since `f` is separated, the canonical injection `V_λ ∩ f⁻¹(U) → f⁻¹(U)` is also a finite morphism `(II, 6.1.5, (v))`, so
-`V_λ ∩ f⁻¹(U)` is closed in `f⁻¹(U)` `(II, 6.1.10)`; but being everywhere dense in `f⁻¹(U)`, it is necessarily equal to
-it.
+A) *Reduction to the case where $f$ is quasi-finite.* — One knows `(13.1.4)` that the set $Z$ of points $x \in X$
+isolated in $f^{-1}(f(x))$ is open in $X$ and by hypothesis $Z$ contains $f^{-1}(\eta)$. Since $f^{-1}(\eta)$ is finite,
+$Z$ is the filtered increasing union of quasi-compact open sets $V_{\lambda}$ containing $f^{-1}(\eta)$ (hence dense in
+$X$ by hypothesis). If $n_{\lambda}(y)$ is the sum of the separable degrees over $k(y)$ of the residue fields of the
+points of $V_{\lambda} \cap f^{-1}(y)$, one has $n(y) = \sup_{\lambda} n_{\lambda}(y)$; to prove (i), it will therefore
+suffice to show that $n_{\lambda}(y) \leq n_{s}$. On the other hand, if $n(y) = n_{s}$, there is an index $\lambda$ such
+that $n_{\lambda}(y) = n_{s}$. Suppose proved that there then exists an open neighbourhood $U$ of $y$ in $Y$ such that
+the restriction $V_{\lambda} \cap f^{-1}(U) \to U$ of $f$ is an étale and finite morphism. Since $f$ is separated, the
+canonical injection $V_{\lambda} \cap f^{-1}(U) \to f^{-1}(U)$ is also a finite morphism `(II, 6.1.5, (v))`, so
+$V_{\lambda} \cap f^{-1}(U)$ is closed in $f^{-1}(U)$ `(II, 6.1.10)`; but being everywhere dense in $f^{-1}(U)$, it is
+necessarily equal to it.
 
-B) *Reduction to the case where `X` is reduced, `f` finite and `Y = Spec(𝒪_{Y,y})`.* — One will note that the hypothesis
-on `f` implies that it is also verified for `f_{red}` and that the conclusion of (i) concerns only `f_{red}`. One can
-therefore replace `f` everywhere by `f_{red}` and suppose `X` reduced.
+B) *Reduction to the case where $X$ is reduced, $f$ finite and $Y = \operatorname{Spec}(\mathcal{O}_{Y,y})$.* — One will
+note that the hypothesis on $f$ implies that it is also verified for $f_{red}$ and that the conclusion of (i) concerns
+only $f_{red}$. One can therefore replace $f$ everywhere by $f_{red}$ and suppose $X$ reduced.
 
 <!-- original page 164 -->
 
-On the other hand, by virtue of `(18.12.13)` (¹), one can (after having replaced `Y` by an affine open neighbourhood `V`
-of `y` and `f` by its restriction `f⁻¹(V) → V`) factor `f` as `X →^j X' →^g Y`, where `g` is finite and `j` an open
-immersion. Since `X` is reduced, one can replace `X'` by the reduced closed sub-prescheme of underlying space `j(X)`
-`(I, 5.2.2)`, hence suppose `X'` reduced and such that every irreducible component of `X'` dominates `Y`. Moreover,
-`j(X)` is a dense open in `X'` and has only a finite number of irreducible components by virtue of the hypothesis; so
-`(0_I, 1.2.7)` the irreducible components of `X'` are the closures of those of `j(X)`, and consequently the fibre
-`g⁻¹(η)` identifies with `f⁻¹(η)`. If one supposes the theorem proved when moreover `f` is a finite morphism, one can
-apply it to `g`, and since `f⁻¹(y)` identifies with a sub-prescheme of `g⁻¹(y)`, relation (i) for `g` implies the same
-relation for `f`. Suppose moreover that `n(y) = n_s`; then, by virtue of what precedes, one can apply the conclusion of
-(ii) to the morphism `g`, and by replacing if necessary `Y` by an open neighbourhood of `y`, one can suppose `g` étale,
-and the same is consequently true of `f`; moreover, one has then `f⁻¹(y) = g⁻¹(y)`. Since the morphism `g` is closed and
-`j(X)` is open in `X'`, there exists a neighbourhood `U` of `y` in `Y` such that `j(X) ⊃ g⁻¹(U)` (`= f⁻¹(U)`), which
-proves that (ii) is also true for `f`.
+On the other hand, by virtue of `(18.12.13)` (¹), one can (after having replaced $Y$ by an affine open neighbourhood $V$
+of $y$ and $f$ by its restriction $f^{-1}(V) \to V$) factor $f$ as $X \to^{j} X' \to^{g} Y$, where $g$ is finite and $j$
+an open immersion. Since $X$ is reduced, one can replace $X'$ by the reduced closed sub-prescheme of underlying space
+$j(X)$ `(I, 5.2.2)`, hence suppose $X'$ reduced and such that every irreducible component of $X'$ dominates $Y$.
+Moreover, $j(X)$ is a dense open in $X'$ and has only a finite number of irreducible components by virtue of the
+hypothesis; so $(0_{I}, 1.2.7)$ the irreducible components of $X'$ are the closures of those of $j(X)$, and consequently
+the fibre $g^{-1}(\eta)$ identifies with $f^{-1}(\eta)$. If one supposes the theorem proved when moreover $f$ is a
+finite morphism, one can apply it to $g$, and since $f^{-1}(y)$ identifies with a sub-prescheme of $g^{-1}(y)$, relation
+(i) for $g$ implies the same relation for $f$. Suppose moreover that $n(y) = n_{s}$; then, by virtue of what precedes,
+one can apply the conclusion of (ii) to the morphism $g$, and by replacing if necessary $Y$ by an open neighbourhood of
+$y$, one can suppose $g$ étale, and the same is consequently true of $f$; moreover, one has then $f^{-1}(y) =
+g^{-1}(y)$. Since the morphism $g$ is closed and $j(X)$ is open in $X'$, there exists a neighbourhood $U$ of $y$ in $Y$
+such that $j(X) \supset g^{-1}(U)$ ($= f^{-1}(U)$), which proves that (ii) is also true for $f$.
 
-One is thus reduced to the case where `f` is moreover a finite morphism. It is immediate that, to prove (i), one can
-restrict to the case where `Y = Spec(𝒪_{Y,y})`. Let us show that the same is true to prove (ii). Indeed, suppose proved
-that the condition `n(y) = n_s` implies that `X ×_Y Spec(𝒪_{Y,y})` is étale and finite over `Spec(𝒪_{Y,y})`; since this
-implies that `f` is flat and formally unramified at the points of `f⁻¹(y)`, and that `Y` is integral, one concludes from
-`(18.4.13)` that `f` is étale at the points of `f⁻¹(y)`, hence also in an open neighbourhood `V` of `f⁻¹(y)` in `X`; but
-since `f` is a finite morphism, hence closed, `V` contains an open of the form `f⁻¹(U)`, where `U` is an open
-neighbourhood of `y` in `Y`.
+One is thus reduced to the case where $f$ is moreover a finite morphism. It is immediate that, to prove (i), one can
+restrict to the case where $Y = \operatorname{Spec}(\mathcal{O}_{Y,y})$. Let us show that the same is true to prove
+(ii). Indeed, suppose proved that the condition $n(y) = n_{s}$ implies that $X \times_{Y}
+\operatorname{Spec}(\mathcal{O}_{Y,y})$ is étale and finite over $\operatorname{Spec}(\mathcal{O}_{Y,y})$; since this
+implies that $f$ is flat and formally unramified at the points of $f^{-1}(y)$, and that $Y$ is integral, one concludes
+from `(18.4.13)` that $f$ is étale at the points of $f^{-1}(y)$, hence also in an open neighbourhood $V$ of $f^{-1}(y)$
+in $X$; but since $f$ is a finite morphism, hence closed, $V$ contains an open of the form $f^{-1}(U)$, where $U$ is an
+open neighbourhood of $y$ in $Y$.
 
-C) *Reduction to the case where `Y = Spec(𝒪_{Y,y})` and `𝒪_{Y,y}` is strictly local.* — Set `A = 𝒪_{Y,y}`, and let
-`A' = ^{sh}A` be the strict Henselization of `A` `(18.8.7)`, which is an integral and geometrically unibranch local ring
-`(18.8.16)`. Let `Y' = Spec(A')`, and let `y'` be the closed point and `η'` the generic point of `Y'`; `y'` lies above
-`y` and since the morphism `g : Y' → Y` is flat `(18.8.8)`, `η'` lies above `η` `(2.3.4)`. Set `X' = X ×_Y Y'`,
-`f' = f_{(Y')} : X' → Y'`; `f'` is finite and since `g` is flat, every irreducible component of `X'` dominates `Y'`
-`(2.3.7)`. If `n'(y')`, `n'` and `n'_s` are the numbers defined for `f'` in the same way as `n(y)`, `n` and `n_s` for
-`f`, one has `n'_s = n_s` and `n'(y') = n(y)` `(I, 6.4.8)`, and it therefore amounts to the same to prove assertion (i)
-of the statement for `f` or for `f'`. Moreover, if `X` is reduced and `y` a normal point of `Y` (hence `A` integrally
-closed), then `A'` is integrally closed `(18.8.12)`. On the other hand it results from the definition `(18.8.7)`, from
-the remark `(8.1.2, a))` and from the theorem of the double inductive limit, that `A'` is the inductive limit of rings
-`A_α` such that the morphisms `Spec(A_α) → Spec(A) = Y` are étale; consequently `X'` is the projective limit of the
-`X_α = X ⊗_A A_α`, which are étale over `X`, hence reduced since `X` is `(17.5.7)`; by passage to the limit,
+C) *Reduction to the case where $Y = \operatorname{Spec}(\mathcal{O}_{Y,y})$ and $\mathcal{O}_{Y,y}$ is strictly local.*
+— Set $A = \mathcal{O}_{Y,y}$, and let $A' = {}^{sh}A$ be the strict Henselization of $A$ `(18.8.7)`, which is an
+integral and geometrically unibranch local ring `(18.8.16)`. Let $Y' = \operatorname{Spec}(A')$, and let $y'$ be the
+closed point and $\eta'$ the generic point of $Y'$; $y'$ lies above $y$ and since the morphism $g : Y' \to Y$ is flat
+`(18.8.8)`, $\eta'$ lies above $\eta$ `(2.3.4)`. Set $X' = X \times_{Y} Y'$, $f' = f_{(Y')} : X' \to Y'$; $f'$ is finite
+and since $g$ is flat, every irreducible component of $X'$ dominates $Y'$ `(2.3.7)`. If `n'(y')`, $n'$ and $n'_{s}$ are
+the numbers defined for $f'$ in the same way as $n(y)$, $n$ and $n_{s}$ for $f$, one has $n'_{s} = n_{s}$ and $n'(y') =
+n(y)$ `(I, 6.4.8)`, and it therefore amounts to the same to prove assertion (i) of the statement for $f$ or for $f'$.
+Moreover, if $X$ is reduced and $y$ a normal point of $Y$ (hence $A$ integrally closed), then $A'$ is integrally closed
+`(18.8.12)`. On the other hand it results from the definition `(18.8.7)`, from the remark `(8.1.2, a))` and from the
+theorem of the double inductive limit, that $A'$ is the inductive limit of rings $A_{\alpha}$ such that the morphisms
+$\operatorname{Spec}(A_{\alpha}) \to \operatorname{Spec}(A) = Y$ are étale; consequently $X'$ is the projective limit of
+the $X_{\alpha} = X \otimes_{A} A_{\alpha}$, which are étale over $X$, hence reduced since $X$ is `(17.5.7)`; by passage
+to the limit,
 
-> (¹) The reader will verify that `(18.10.16)` is not used in the proof of `(18.12.13)`. If `f` is supposed locally of
+> (¹) The reader will verify that `(18.10.16)` is not used in the proof of `(18.12.13)`. If $f$ is supposed locally of
 > finite presentation (resp. quasi-projective), one can replace `(18.12.13)` by `(8.12.8)` (resp. `(8.12.6)`).
 
 <!-- original page 165 -->
 
-one deduces that `X'` is reduced `(8.7.1)`. This being so, if `n(y) = n_s`, one has `n_s = n` and consequently the
-residue fields at the points of `X_η` are necessarily separable over `k(η)`; the residue fields at the points of
-`X'_{η'}` are consequently algebraic and separable over `k(η')` `(4.6.1)`, in other words `n'_s = n' = n`, and one has
-therefore by virtue of what precedes `n'(y') = n'`. The morphism `f'` therefore has the same properties as `f`, and if
-one proves that `f'` is étale, it will result that `f` is étale by `(17.7.1)`.
+one deduces that $X'$ is reduced `(8.7.1)`. This being so, if $n(y) = n_{s}$, one has $n_{s} = n$ and consequently the
+residue fields at the points of $X_{\eta}$ are necessarily separable over $k(\eta)$; the residue fields at the points of
+$X'_{\eta'}$ are consequently algebraic and separable over $k(\eta')$ `(4.6.1)`, in other words $n'_{s} = n' = n$, and
+one has therefore by virtue of what precedes $n'(y') = n'$. The morphism $f'$ therefore has the same properties as $f$,
+and if one proves that $f'$ is étale, it will result that $f$ is étale by `(17.7.1)`.
 
-D) *End of the proof.* — Suppose therefore `A` strictly local. Since `A` is Henselian and the morphism `f` finite, it
-results from `(18.5.11)` that if `x_j` (`1 ≤ j ≤ m`) are the distinct points of `f⁻¹(y)`, `X` is the sum of the open
-sub-preschemes `Spec(𝒪_{X,x_j}) = X_j`, which are therefore the connected components of `X`. By hypothesis, each of
-these dominates `Y`, hence meets `f⁻¹(η)`, and consequently the number of points of `f⁻¹(η)` is `≥ m`; a fortiori one
-has `n ≥ m`. But since `k(y)` is separably closed and the `k(x_j)` are algebraic over `k(y)`, these are necessarily
-radicial extensions of `k(y)`, hence `m = n(y)`, and this proves (i). Suppose now verified the hypotheses of (ii); the
-relations `n(y) = n_s = n` imply first, since every irreducible component of `X` dominates `Y`, that each of the `X_j`
-is *irreducible*; moreover, since the `X_j` are reduced, they are integral; finally the relations `m = n_s = n` imply
-that for the generic point `ξ_j` of `X_j`, `k(ξ_j)` is a separable extension of `k(η)` of degree 1, hence isomorphic to
-`k(η)`; in other words, the restriction `f | X_j : X_j → Y` of `f` is a *finite and birational* morphism; moreover,
-`X_j` is integral and by hypothesis `Y` is normal; so `(8.12.10.1)` `f | X_j` is an isomorphism, which proves that `f`
-is étale, and finishes the proof of `(18.10.16)`.
+D) *End of the proof.* — Suppose therefore $A$ strictly local. Since $A$ is Henselian and the morphism $f$ finite, it
+results from `(18.5.11)` that if $x_{j}$ ($1 \leq j \leq m$) are the distinct points of $f^{-1}(y)$, $X$ is the sum of
+the open sub-preschemes $\operatorname{Spec}(\mathcal{O}_{X,x_{j}}) = X_{j}$, which are therefore the connected
+components of $X$. By hypothesis, each of these dominates $Y$, hence meets $f^{-1}(\eta)$, and consequently the number
+of points of $f^{-1}(\eta)$ is $\geq m$; a fortiori one has $n \geq m$. But since $k(y)$ is separably closed and the
+$k(x_{j})$ are algebraic over $k(y)$, these are necessarily radicial extensions of $k(y)$, hence $m = n(y)$, and this
+proves (i). Suppose now verified the hypotheses of (ii); the relations $n(y) = n_{s} = n$ imply first, since every
+irreducible component of $X$ dominates $Y$, that each of the $X_{j}$ is *irreducible*; moreover, since the $X_{j}$ are
+reduced, they are integral; finally the relations $m = n_{s} = n$ imply that for the generic point $\xi_{j}$ of $X_{j}$,
+$k(\xi_{j})$ is a separable extension of $k(\eta)$ of degree 1, hence isomorphic to $k(\eta)$; in other words, the
+restriction $f | X_{j} : X_{j} \to Y$ of $f$ is a *finite and birational* morphism; moreover, $X_{j}$ is integral and by
+hypothesis $Y$ is normal; so `(8.12.10.1)` $f | X_{j}$ is an isomorphism, which proves that $f$ is étale, and finishes
+the proof of `(18.10.16)`.
 
 **Remark (18.10.17).** — The method of "étale localization" used in the proof of `(18.10.16)` also allows one to improve
 the results of `(15.5.1)` by eliminating the Noetherian hypothesis. One has first the following result which generalizes
 `(15.5.2)`:
 
-**(18.10.17.1)** *Let `f : X → Y` be a separated and quasi-finite morphism, `y` a point of `Y` such that `f` is
-universally open at the points of `f⁻¹(y)`. Then, for every generization `y'` of `y`, one has `n(y') ≤ n(y)`.*
+**(18.10.17.1)** *Let $f : X \to Y$ be a separated and quasi-finite morphism, $y$ a point of $Y$ such that $f$ is
+universally open at the points of $f^{-1}(y)$. Then, for every generization $y'$ of $y$, one has $n(y') \leq n(y)$.*
 
-One can replace `Y` by the reduced closed sub-prescheme `Z` of underlying space `{y'}^-` and `X` by `f⁻¹(Z)`, hence
-suppose `Y` integral of generic point `y'`. Using `(18.12.13)` as in `(18.10.16, B)`, one can suppose that `X` is dense
-open in a prescheme `X'` and that `f` is the restriction to `X` of a *finite* morphism `g : X' → Y`. Let us show that
-one has `g⁻¹(y') = f⁻¹(y')`. Indeed, let `i : g⁻¹(y') → X'` be the canonical injection, which is a flat morphism since
-`y'` is a generic point of `Y` `(I, 3.6.5)`; one can write `f⁻¹(y') = i⁻¹(X)`. On the other hand, the canonical
-injection `j : X → X'` is a morphism of finite type since the composite `g ∘ j = f` is of finite type and `g` is
-separated `(1.5.4)`; so `X` is a retrocompact open in `X'`, and consequently is pro-constructible in `X'`
-`(1.9.5, (v))`. One concludes therefore from `(2.3.10)` that one has `i⁻¹(X)^- = i⁻¹(X^-)` in other words `f⁻¹(y')` is
-dense in `g⁻¹(y')`; but since `g⁻¹(y')` is discrete, one has necessarily `f⁻¹(y') = g⁻¹(y')`.
+One can replace $Y$ by the reduced closed sub-prescheme $Z$ of underlying space ${y'}^{-}$ and $X$ by $f^{-1}(Z)$, hence
+suppose $Y$ integral of generic point $y'$. Using `(18.12.13)` as in `(18.10.16, B)`, one can suppose that $X$ is dense
+open in a prescheme $X'$ and that $f$ is the restriction to $X$ of a *finite* morphism $g : X' \to Y$. Let us show that
+one has $g^{-1}(y') = f^{-1}(y')$. Indeed, let $i : g^{-1}(y') \to X'$ be the canonical injection, which is a flat
+morphism since $y'$ is a generic point of $Y$ `(I, 3.6.5)`; one can write $f^{-1}(y') = i^{-1}(X)$. On the other hand,
+the canonical injection $j : X \to X'$ is a morphism of finite type since the composite $g \circ j = f$ is of finite
+type and $g$ is separated `(1.5.4)`; so $X$ is a retrocompact open in $X'$, and consequently is pro-constructible in
+$X'$ `(1.9.5, (v))`. One concludes therefore from `(2.3.10)` that one has $i^{-1}(X)^{-} = i^{-1}(X^{-})$ in other words
+$f^{-1}(y')$ is dense in $g^{-1}(y')$; but since $g^{-1}(y')$ is discrete, one has necessarily $f^{-1}(y') =
+g^{-1}(y')$.
 
-One is thus reduced to proving that the sum of the numbers `[k(x) : k(y)]_s` where `x` ranges over the set of points of
-`g⁻¹(y)` where `g` is universally open, is at most equal
+One is thus reduced to proving that the sum of the numbers $[k(x) : k(y)]_{s}$ where $x$ ranges over the set of points
+of $g^{-1}(y)$ where $g$ is universally open, is at most equal
 
 <!-- original page 166 -->
 
-to the number `n(y')` (for the morphism `g`). Using next the fact that the property of being universally open at a point
-is preserved under base change, one shows, as in `(18.10.16, C)`, that one can reduce to the case where
-`Y = Spec(𝒪_{Y,y})`, with `𝒪_{Y,y}` strictly local. Then, with the notations of `(18.10.16, D)`, `X` is the sum of the
-open sub-preschemes `X_j = Spec(𝒪_{X,x_j})`, where `x_j` ranges over `g⁻¹(y)`; the hypothesis that `g` is open at one of
-these points `x_j` implies that the corresponding sub-prescheme `X_j` dominates `Y` `(1.10.3)`; one concludes as in
-`(18.10.16, D)`.
+to the number $n(y')$ (for the morphism $g$). Using next the fact that the property of being universally open at a point
+is preserved under base change, one shows, as in `(18.10.16, C)`, that one can reduce to the case where $Y =
+\operatorname{Spec}(\mathcal{O}_{Y,y})$, with $\mathcal{O}_{Y,y}$ strictly local. Then, with the notations of
+`(18.10.16, D)`, $X$ is the sum of the open sub-preschemes $X_{j} = \operatorname{Spec}(\mathcal{O}_{X,x_{j}})$, where
+$x_{j}$ ranges over $g^{-1}(y)$; the hypothesis that $g$ is open at one of these points $x_{j}$ implies that the
+corresponding sub-prescheme $X_{j}$ dominates $Y$ `(1.10.3)`; one concludes as in `(18.10.16, D)`.
 
-One next derives from `(18.10.17.1)` that the conclusions of `(15.5.1)` are still valid when one no longer supposes `Y`
-locally Noetherian, but only that `f` is separated, quasi-finite and of finite presentation.
+One next derives from `(18.10.17.1)` that the conclusions of `(15.5.1)` are still valid when one no longer supposes $Y$
+locally Noetherian, but only that $f$ is separated, quasi-finite and of finite presentation.
 
-Indeed, to prove assertion (i) of `(15.5.1)`, one remarks that, since `f` is of finite presentation, the set `E` of
-points `y ∈ Y` such that `n ≥ n(y)` is locally constructible `(9.7.9)`; to show that `y` is interior to `E`, it
-suffices, by virtue of `(1.10.1)`, to see that every generization `y'` of `y` belongs to `E`, which is none other than
+Indeed, to prove assertion (i) of `(15.5.1)`, one remarks that, since $f$ is of finite presentation, the set $E$ of
+points $y \in Y$ such that $n \geq n(y)$ is locally constructible `(9.7.9)`; to show that $y$ is interior to $E$, it
+suffices, by virtue of `(1.10.1)`, to see that every generization $y'$ of $y$ belongs to $E$, which is none other than
 `(18.10.17.1)`.
 
-To prove assertion (ii) of `(15.5.1)`, one can, since `f` is of finite presentation, use `(8.10.5, (xii))` applied
-following the method of `(8.1.2, a))`, and one can therefore already suppose that `Y = Spec(𝒪_{Y,y})`. Applying next
-`(2.7.1, (vii))`, one sees that one can by the faithfully flat base change `Y' → Y`, where `Y' = Spec(^{sh}𝒪_{Y,y})`,
-suppose that the ring `𝒪_{Y,y}` is strictly local. Applying `(18.5.11, c))`, one sees then that if `x_j` (`1 ≤ j ≤ n`)
-are the points of `f⁻¹(y)`, `X` is the sum of `n` open sub-preschemes `X_j = Spec(𝒪_{X,x_j})` which are finite over `Y`,
-and of an open prescheme `X''`. If one proves that `X'' = ∅`, one will have shown that `f` is finite, hence proper. Now,
-the fields `k(x_j)` being algebraic extensions of `k(y)`, are radicial, and consequently `n(y) = n`; since `f` is open
-at each of the points `x_j`, `X_j` dominates `Y` `(1.10.3)`, hence the restriction of `f` to `X_j`, being a finite
-morphism, is surjective `(II, 6.1.10)`. The hypothesis that `n(z)` is constant in `Y` therefore implies that
-`X'' ∩ f⁻¹(z) = ∅` for every `z ∈ Y`, that is to say `X'' = ∅`.
+To prove assertion (ii) of `(15.5.1)`, one can, since $f$ is of finite presentation, use `(8.10.5, (xii))` applied
+following the method of `(8.1.2, a))`, and one can therefore already suppose that $Y =
+\operatorname{Spec}(\mathcal{O}_{Y,y})$. Applying next `(2.7.1, (vii))`, one sees that one can by the faithfully flat
+base change $Y' \to Y$, where $Y' = \operatorname{Spec}({}^{sh}\mathcal{O}_{Y,y})$, suppose that the ring
+$\mathcal{O}_{Y,y}$ is strictly local. Applying `(18.5.11, c))`, one sees then that if $x_{j}$ ($1 \leq j \leq n$) are
+the points of $f^{-1}(y)$, $X$ is the sum of $n$ open sub-preschemes $X_{j} =
+\operatorname{Spec}(\mathcal{O}_{X,x_{j}})$ which are finite over $Y$, and of an open prescheme `X''`. If one proves
+that $X'' = \emptyset$, one will have shown that $f$ is finite, hence proper. Now, the fields $k(x_{j})$ being algebraic
+extensions of $k(y)$, are radicial, and consequently $n(y) = n$; since $f$ is open at each of the points $x_{j}$,
+$X_{j}$ dominates $Y$ `(1.10.3)`, hence the restriction of $f$ to $X_{j}$, being a finite morphism, is surjective
+`(II, 6.1.10)`. The hypothesis that $n(z)$ is constant in $Y$ therefore implies that $X'' \cap f^{-1}(z) = \emptyset$
+for every $z \in Y$, that is to say $X'' = \emptyset$.
 
 Finally, the proof of (iii) reproduces without change that given in `(15.5.1)`.
 
@@ -3063,131 +3286,136 @@ oneself of the Noetherian hypotheses.
 
 <!-- label: IV.18.10.18 -->
 
-*Let `X`, `Y` be two preschemes, `f : X → Y` a birational morphism (¹), `x` a point of `X`. In order that `f` be a local
-isomorphism at the point `x`, it is necessary and sufficient that `f` be étale at the point `x`. In order that `f` be an
-open immersion, it is necessary and sufficient that `f` be étale and separated.*
+*Let $X$, $Y$ be two preschemes, $f : X \to Y$ a birational morphism (¹), $x$ a point of $X$. In order that $f$ be a
+local isomorphism at the point $x$, it is necessary and sufficient that $f$ be étale at the point $x$. In order that $f$
+be an open immersion, it is necessary and sufficient that $f$ be étale and separated.*
 
 The conditions stated being trivially necessary, everything reduces to seeing that they are sufficient. For the first
-assertion, the question is local on `X` and `Y`, so one can suppose `f` étale, `X` and `Y` affine, hence `f` separated,
-and one is reduced to proving the second assertion. By virtue of `(17.9.1)`, it is a matter of proving that `f` is
-radicial. Let then `y ∈ Y` and let us prove that `f⁻¹(y)` is radicial over `k(y)`. The base change `Spec(𝒪_{Y,y}) → Y`
-not changing the fact that `f` is étale, separated and birational, one can restrict to the case where `Y = Spec(A)`,
-with `A = 𝒪_{Y,y}`. Let then `A' = ^{sh}A`, which is a local ring and a faithfully flat `A`-module
+assertion, the question is local on $X$ and $Y$, so one can suppose $f$ étale, $X$ and $Y$ affine, hence $f$ separated,
+and one is reduced to proving the second assertion. By virtue of `(17.9.1)`, it is a matter of proving that $f$ is
+radicial. Let then $y \in Y$ and let us prove that $f^{-1}(y)$ is radicial over $k(y)$. The base change
+$\operatorname{Spec}(\mathcal{O}_{Y,y}) \to Y$ not changing the fact that $f$ is étale, separated and birational, one
+can restrict to the case where $Y = \operatorname{Spec}(A)$, with $A = \mathcal{O}_{Y,y}$. Let then $A' = {}^{sh}A$,
+which is a local ring and a faithfully flat $A$-module
 
-> (¹) We mean by this the notion defined in `(6.15.4)`, but where one does not suppose `X` and `Y` reduced.
+> (¹) We mean by this the notion defined in `(6.15.4)`, but where one does not suppose $X$ and $Y$ reduced.
 
 <!-- original page 167 -->
 
-`(18.8.8)`, the homomorphism `A → A'` being local. Set `Y' = Spec(A')`, `X' = X ×_Y Y'`, `f' = f_{(Y')} : X' → Y'`, so
-that `f'` is étale and separated; moreover, since the morphism `Y' → Y` is flat, the reasoning of `(6.15.4.1)` shows
-that `f'` is also birational. If `y'` is the closed point of `Y'`, it will suffice, by virtue of `(2.6.1, (v))`, to
-prove that `f'⁻¹(y')` is radicial over `k(y')`; since `f'` is étale, it will suffice to prove that `f'⁻¹(y')` contains
-at most one point `(17.6.1, c'))`.
+`(18.8.8)`, the homomorphism $A \to A'$ being local. Set $Y' = \operatorname{Spec}(A')$, $X' = X \times_{Y} Y'$, $f' =
+f_{(Y')} : X' \to Y'$, so that $f'$ is étale and separated; moreover, since the morphism $Y' \to Y$ is flat, the
+reasoning of `(6.15.4.1)` shows that $f'$ is also birational. If $y'$ is the closed point of $Y'$, it will suffice, by
+virtue of `(2.6.1, (v))`, to prove that $f'^{-1}(y')$ is radicial over $k(y')$; since $f'$ is étale, it will suffice to
+prove that $f'^{-1}(y')$ contains at most one point `(17.6.1, c'))`.
 
-Suppose therefore `Y = Spec(A)`, `A` being strictly local, `f` separated, étale and birational, and let us show that
-`f⁻¹(y)` cannot contain more than one point. Indeed, if there existed in `f⁻¹(y)` two distinct points `x_1`, `x_2`,
-there would exist two `Y`-sections `u_1`, `u_2` of `f` such that `u_1(y) = x_1` and `u_2(y) = x_2` `(18.8.1)`; but since
-`f` is étale and separated, `u_1` and `u_2` would be isomorphisms of `Y` onto two (open) connected components of `X`
-`(17.9.4)` and there would therefore be at least two maximal points of `X` above every maximal point of `Y`, which
-contradicts the hypothesis that `f` is birational.
+Suppose therefore $Y = \operatorname{Spec}(A)$, $A$ being strictly local, $f$ separated, étale and birational, and let
+us show that $f^{-1}(y)$ cannot contain more than one point. Indeed, if there existed in $f^{-1}(y)$ two distinct points
+$x_{1}$, $x_{2}$, there would exist two $Y$-sections $u_{1}$, $u_{2}$ of $f$ such that $u_{1}(y) = x_{1}$ and $u_{2}(y)
+= x_{2}$ `(18.8.1)`; but since $f$ is étale and separated, $u_{1}$ and $u_{2}$ would be isomorphisms of $Y$ onto two
+(open) connected components of $X$ `(17.9.4)` and there would therefore be at least two maximal points of $X$ above
+every maximal point of $Y$, which contradicts the hypothesis that $f$ is birational.
 
 **Proposition (18.10.19).**
 
 <!-- label: IV.18.10.19 -->
 
-*Let `Y` be a reduced prescheme whose set of irreducible components is locally finite, `f : X → Y` a separated morphism,
-locally of finite type and formally unramified, `g` a rational `Y`-section of `f` (i.e. a rational `Y`-map of `Y` into
-`X`), `U` the domain of definition of `g` `(I, 7.2.1)`, and let `Z` be the closure of `g(U)` in `X`. Then, for every
-point `y ∈ Y − U` such that `Y` is geometrically unibranch at the point `y`, one has `Z_y = Z ∩ f⁻¹(y) = ∅`. In
-particular, if `Y` is geometrically unibranch, `g(U)` is a subset both open and closed of `X`. If, for every closed
-irreducible part `T` of `X`, `f(T)` is closed in `Y`, `g` is defined at every geometrically unibranch point of `Y`.*
+*Let $Y$ be a reduced prescheme whose set of irreducible components is locally finite, $f : X \to Y$ a separated
+morphism, locally of finite type and formally unramified, $g$ a rational $Y$-section of $f$ (i.e. a rational $Y$-map of
+$Y$ into $X$), $U$ the domain of definition of $g$ `(I, 7.2.1)`, and let $Z$ be the closure of $g(U)$ in $X$. Then, for
+every point $y \in Y - U$ such that $Y$ is geometrically unibranch at the point $y$, one has $Z_{y} = Z \cap f^{-1}(y) =
+\emptyset$. In particular, if $Y$ is geometrically unibranch, $g(U)$ is a subset both open and closed of $X$. If, for
+every closed irreducible part $T$ of $X$, $f(T)$ is closed in $Y$, $g$ is defined at every geometrically unibranch point
+of $Y$.*
 
-Since `Y` is reduced and `f` separated, it results from `(I, 7.2.2)` that there exists a `U`-section `u` of `f⁻¹(U)`
-belonging to the class `g`; moreover `(17.4.1.2)`, since `f` is formally unramified, `u` is an isomorphism of `U` onto
-the prescheme induced on the open `u(U)` of `X`. If one denotes again by `Z` the reduced sub-prescheme of `X` having `Z`
-as underlying space, `u(U) = u(U)`, being reduced, is also induced by `Z`, so the restriction `f' = f | Z` of `f` is a
-birational morphism of `Z` into `Y`, moreover formally unramified, since `f` is `(17.1.3)`. The question being local on
-`Y`, since `Y` is reduced and geometrically unibranch (hence integral) at the point `y`, one can restrict (by replacing
-`Y` by an open neighbourhood of `y`) to the case where `Y` is integral; then `u(U)` is irreducible, hence so is `Z`, and
-consequently `Z` is also integral. Then `(I, 8.2.7)` since `f'` is dominant, the homomorphism `𝒪_{Y,f'(z)} → 𝒪_{Z,z}` is
-injective for every `z ∈ Z_y`, and one concludes from `(18.10.2, (iii))` that `f'` is an étale morphism; being separated
-and birational, it is a local isomorphism at the point `z` by virtue of `(18.10.18)`; but this would imply that the
-`U`-section `u` would be extendible to an open distinct from `U`, contrary to the definition of the latter. One
-therefore necessarily has `Z_y = ∅`, which establishes the first assertion; the second is an evident consequence.
-Moreover, under the hypotheses of the last assertion of the statement, since `Z` is closed and irreducible, `f(Z)` is
-closed in `Y`, hence equal to `Y`, i.e. one has `Z_y ≠ ∅` for every `y ∈ Y`, which finishes the proof.
+Since $Y$ is reduced and $f$ separated, it results from `(I, 7.2.2)` that there exists a $U$-section $u$ of $f^{-1}(U)$
+belonging to the class $g$; moreover `(17.4.1.2)`, since $f$ is formally unramified, $u$ is an isomorphism of $U$ onto
+the prescheme induced on the open $u(U)$ of $X$. If one denotes again by $Z$ the reduced sub-prescheme of $X$ having $Z$
+as underlying space, $u(U) = u(U)$, being reduced, is also induced by $Z$, so the restriction $f' = f | Z$ of $f$ is a
+birational morphism of $Z$ into $Y$, moreover formally unramified, since $f$ is `(17.1.3)`. The question being local on
+$Y$, since $Y$ is reduced and geometrically unibranch (hence integral) at the point $y$, one can restrict (by replacing
+$Y$ by an open neighbourhood of $y$) to the case where $Y$ is integral; then $u(U)$ is irreducible, hence so is $Z$, and
+consequently $Z$ is also integral. Then `(I, 8.2.7)` since $f'$ is dominant, the homomorphism $\mathcal{O}_{Y,f'(z)} \to
+\mathcal{O}_{Z,z}$ is injective for every $z \in Z_{y}$, and one concludes from `(18.10.2, (iii))` that $f'$ is an étale
+morphism; being separated and birational, it is a local isomorphism at the point $z$ by virtue of `(18.10.18)`; but this
+would imply that the $U$-section $u$ would be extendible to an open distinct from $U$, contrary to the definition of the
+latter. One therefore necessarily has $Z_{y} = \emptyset$, which establishes the first assertion; the second is an
+evident consequence. Moreover, under the hypotheses of the last assertion of the statement, since $Z$ is closed and
+irreducible, $f(Z)$ is closed in $Y$, hence equal to $Y$, i.e. one has $Z_{y} \neq \emptyset$ for every $y \in Y$, which
+finishes the proof.
 
-**Remark (18.10.20).** — Let `Y` be a locally Noetherian prescheme. One says that a morphism `f : X → Y` is *essentially
-proper* if it is locally of finite type and if,
+**Remark (18.10.20).** — Let $Y$ be a locally Noetherian prescheme. One says that a morphism $f : X \to Y$ is
+*essentially proper* if it is locally of finite type and if,
 
 <!-- original page 168 -->
 
-for every `Y`-scheme of the form `Y' = Spec(A)` where `A` is a discrete valuation ring, the canonical map
-`(II, 7.3.2.2)` relative to the `Y'`-prescheme `X ×_Y Y'`, is bijective. The reasoning of `(II, 7.3.8)` proves that it
-amounts to the same to say that `f` (supposed locally of finite type) is separated and that for every base change
-`Y'' → Y`, where `Y''` is locally Noetherian, the image by `f_{(Y'')} : X_{(Y'')} → Y''` of every closed irreducible
-part of `X_{(Y'')}` is closed. To say that `f` is proper (for `Y` locally Noetherian) therefore signifies that `f` is
-essentially proper and of finite type `(II, 7.3.8)`; but one encounters important examples of essentially proper
-morphisms which are not of finite type (for example certain "Picard preschemes" or certain "Néron-Severi preschemes"
-(chap. VI)). It results evidently from `(18.10.19)` that *if `Y` is locally Noetherian, reduced and geometrically
-unibranch, and if the morphism `f : X → Y` is essentially proper and unramified, then every rational `Y`-section of `f`
-is everywhere defined*.
+for every $Y$-scheme of the form $Y' = \operatorname{Spec}(A)$ where $A$ is a discrete valuation ring, the canonical map
+`(II, 7.3.2.2)` relative to the $Y'$-prescheme $X \times_{Y} Y'$, is bijective. The reasoning of `(II, 7.3.8)` proves
+that it amounts to the same to say that $f$ (supposed locally of finite type) is separated and that for every base
+change $Y'' \to Y$, where `Y''` is locally Noetherian, the image by $f_{(Y'')} : X_{(Y'')} \to Y''$ of every closed
+irreducible part of $X_{(Y'')}$ is closed. To say that $f$ is proper (for $Y$ locally Noetherian) therefore signifies
+that $f$ is essentially proper and of finite type `(II, 7.3.8)`; but one encounters important examples of essentially
+proper morphisms which are not of finite type (for example certain "Picard preschemes" or certain "Néron-Severi
+preschemes" (chap. VI)). It results evidently from `(18.10.19)` that *if $Y$ is locally Noetherian, reduced and
+geometrically unibranch, and if the morphism $f : X \to Y$ is essentially proper and unramified, then every rational
+$Y$-section of $f$ is everywhere defined*.
 
-The following proposition generalizes the criterion `(17.15.5)` of smoothness of a morphism `X → Y` when `Y` is not the
-spectrum of a field:
+The following proposition generalizes the criterion `(17.15.5)` of smoothness of a morphism $X \to Y$ when $Y$ is not
+the spectrum of a field:
 
 **Proposition (18.10.21).**
 
 <!-- label: IV.18.10.21 -->
 
-*Let `f : X → Y` be a morphism locally of finite presentation, `x` a point of `X`, `y = f(x)` and suppose the ring
-`𝒪_{Y,y}` integral and geometrically unibranch. Let `r` be the minimum number of generators of the `𝒪_{X,x}`-module
-`(Ω_{X/Y}^1)_x` (equal to the rank of the `k(x)`-vector space `(Ω_{X/Y}^1)_x ⊗_{𝒪_x} k(x)`). Then, in order that `f` be
-smooth at the point `x`, it is necessary and sufficient that, if `y'` is the generic point of the unique irreducible
-component of `Y` containing `y`, there exist a generization `x'` of `x` such that `f(x') = y'` and
-`dim_{x'} f⁻¹(y') ≥ r`.*
+*Let $f : X \to Y$ be a morphism locally of finite presentation, $x$ a point of $X$, $y = f(x)$ and suppose the ring
+$\mathcal{O}_{Y,y}$ integral and geometrically unibranch. Let $r$ be the minimum number of generators of the
+$\mathcal{O}_{X,x}$-module $(\Omega^{1}_{X/Y})_{x}$ (equal to the rank of the $k(x)$-vector space
+$(\Omega^{1}_{X/Y})_{x} \otimes_{\mathcal{O}_{x}} k(x)$). Then, in order that $f$ be smooth at the point $x$, it is
+necessary and sufficient that, if $y'$ is the generic point of the unique irreducible component of $Y$ containing $y$,
+there exist a generization $x'$ of $x$ such that $f(x') = y'$ and $\dim_{x'} f^{-1}(y') \geq r$.*
 
-If `f` is smooth at the point `x`, it is also smooth in an open neighbourhood `U` of `x`, hence at every generization
-`x'` of `x` and `dim_{x'}(f⁻¹(f(x'))) = r` at each of these points, by virtue of `(17.10.2)`. Since `f` is moreover flat
-in `U`, there exists a generization of `x` above every generization of `y` `(2.3.4)`, which proves that the condition is
-necessary. To show that it is sufficient, note first that by `(17.5.1)`, it suffices to prove that the morphism deduced
-from `f` by the base change `Spec(𝒪_{Y,y}) → Y` is smooth at the point `x`; one can therefore suppose that
-`Y = Spec(𝒪_{Y,y})`.
+If $f$ is smooth at the point $x$, it is also smooth in an open neighbourhood $U$ of $x$, hence at every generization
+$x'$ of $x$ and $\dim_{x'}(f^{-1}(f(x'))) = r$ at each of these points, by virtue of `(17.10.2)`. Since $f$ is moreover
+flat in $U$, there exists a generization of $x$ above every generization of $y$ `(2.3.4)`, which proves that the
+condition is necessary. To show that it is sufficient, note first that by `(17.5.1)`, it suffices to prove that the
+morphism deduced from $f$ by the base change $\operatorname{Spec}(\mathcal{O}_{Y,y}) \to Y$ is smooth at the point $x$;
+one can therefore suppose that $Y = \operatorname{Spec}(\mathcal{O}_{Y,y})$.
 
-The question is local on `X`, so `((16.4.22)` and `(0_I, 5.2.2))` one can suppose that `X` is affine, and that there
-exist `r` sections `s_i` (`1 ≤ i ≤ r`) of `𝒪_X` above `X` such that the sections `d_{X/Y}(s_i)` generate `Ω_{X/Y}^1`.
-Let
+The question is local on $X$, so `((16.4.22)` and `(0_I, 5.2.2))` one can suppose that $X$ is affine, and that there
+exist $r$ sections $s_{i}$ ($1 \leq i \leq r$) of $\mathcal{O}_{X}$ above $X$ such that the sections $d_{X/Y}(s_{i})$
+generate $\Omega^{1}_{X/Y}$. Let
 
 ```text
   g : X → Z = Y[T_1, …, T_r] = 𝐕(𝒪_Y^r)
 ```
 
-be the `Y`-morphism corresponding to the homomorphism `𝒪_Y^r → f_*(𝒪_X)` of `𝒪_Y`-Modules defined by the `s_i`
-(considered as sections of `f_*(𝒪_X)` above `Y`) `(II, 1.2.7)`. One has the exact sequence `(16.4.19)`
+be the $Y$-morphism corresponding to the homomorphism $\mathcal{O}^{r}_{Y} \to f_{*}(\mathcal{O}_{X})$ of
+$\mathcal{O}_{Y}$-Modules defined by the $s_{i}$ (considered as sections of $f_{*}(\mathcal{O}_{X})$ above $Y$)
+`(II, 1.2.7)`. One has the exact sequence `(16.4.19)`
 
-```text
-  g*(Ω_{Z/Y}^1) → Ω_{X/Y}^1 → Ω_{X/Z}^1 → 0.
-```
+$$ g*(\Omega^{1}_{Z/Y}) \to \Omega^{1}_{X/Y} \to \Omega^{1}_{X/Z} \to 0. $$
 
-Since the `dT_i` (`1 ≤ i ≤ r`) generate `Ω_{Z/Y}^1`, it results from the definition of `g` that the homomorphism
-`g*(Ω_{Z/Y}^1) → Ω_{X/Y}^1` is surjective, hence `Ω_{X/Z}^1 = 0`, and `g` is consequently unramified `(17.4.1)`. We
-shall see that `g` is étale at the point `x`, and taking account of `(17.3.8)`, this will prove that `f` is smooth at
-the point `x`. Since `𝒪_{Y,y}` is supposed integral and geometrically
+Since the $dT_{i}$ ($1 \leq i \leq r$) generate $\Omega^{1}_{Z/Y}$, it results from the definition of $g$ that the
+homomorphism $g*(\Omega^{1}_{Z/Y}) \to \Omega^{1}_{X/Y}$ is surjective, hence $\Omega^{1}_{X/Z} = 0$, and $g$ is
+consequently unramified `(17.4.1)`. We shall see that $g$ is étale at the point $x$, and taking account of `(17.3.8)`,
+this will prove that $f$ is smooth at the point $x$. Since $\mathcal{O}_{Y,y}$ is supposed integral and geometrically
 
 <!-- original page 169 -->
 
-unibranch, the same is true of `𝒪_{Z,z}` (where `z = g(x)`), since the structural morphism `Z → Y` is smooth `(17.3.8)`.
-By virtue of `(18.10.1)`, it suffices to show that the homomorphism `𝒪_{Z,z} → 𝒪_{X,x}` is injective; it amounts to the
-same to see that the corresponding morphism `Spec(𝒪_{X,x}) → Spec(𝒪_{Z,z})` is dominant, since `𝒪_{Z,z}` is integral
-`(I, 1.2.7)`. Let `y'` be the generic point of `Y = Spec(𝒪_{Y,y})` and let `ζ` be the generic point of
-`Z = Spec(𝒪_{Y,y}[T_1, …, T_r])` which is integral; if `h : Z → Y` is the structural morphism, one has `h(ζ) = y'`. It
-suffices to prove that there exists in `f⁻¹(y')` a generization `x'` of `x` such that the image of `x'` by the morphism
-`g_{y'} : f⁻¹(y') → h⁻¹(y')` is equal to `ζ`. Moreover, `ζ` is also the generic point of
-`h⁻¹(y') = Spec(k(y')[T_1, …, T_r])`; since the morphism `g_{y'}` is unramified, hence quasi-finite `(17.4.2)`, the same
-is true of its restriction to every irreducible component of `f⁻¹(y')`; since `f⁻¹(y')` and `h⁻¹(y')` are locally
-Noetherian and `dim(h⁻¹(y')) = r`, it results from `(5.4.1)` that the restriction of `g_{y'}` to every irreducible
-component of dimension `≥ r` of `f⁻¹(y')` is a dominant morphism. Now, there exists by hypothesis such a component
-containing a generization of `x`; a fortiori its generic point is a generization of `x`, whence the conclusion.
+unibranch, the same is true of $\mathcal{O}_{Z,z}$ (where $z = g(x)$), since the structural morphism $Z \to Y$ is smooth
+`(17.3.8)`. By virtue of `(18.10.1)`, it suffices to show that the homomorphism $\mathcal{O}_{Z,z} \to
+\mathcal{O}_{X,x}$ is injective; it amounts to the same to see that the corresponding morphism
+$\operatorname{Spec}(\mathcal{O}_{X,x}) \to \operatorname{Spec}(\mathcal{O}_{Z,z})$ is dominant, since
+$\mathcal{O}_{Z,z}$ is integral `(I, 1.2.7)`. Let $y'$ be the generic point of $Y =
+\operatorname{Spec}(\mathcal{O}_{Y,y})$ and let $\zeta$ be the generic point of $Z =
+\operatorname{Spec}(\mathcal{O}_{Y,y}[T_{1}, \cdots, T_{r}])$ which is integral; if $h : Z \to Y$ is the structural
+morphism, one has $h(\zeta) = y'$. It suffices to prove that there exists in $f^{-1}(y')$ a generization $x'$ of $x$
+such that the image of $x'$ by the morphism $g_{y'} : f^{-1}(y') \to h^{-1}(y')$ is equal to $\zeta$. Moreover, $\zeta$
+is also the generic point of $h^{-1}(y') = \operatorname{Spec}(k(y')[T_{1}, \cdots, T_{r}])$; since the morphism
+$g_{y'}$ is unramified, hence quasi-finite `(17.4.2)`, the same is true of its restriction to every irreducible
+component of $f^{-1}(y')$; since $f^{-1}(y')$ and $h^{-1}(y')$ are locally Noetherian and $\dim(h^{-1}(y')) = r$, it
+results from `(5.4.1)` that the restriction of $g_{y'}$ to every irreducible component of dimension $\geq r$ of
+$f^{-1}(y')$ is a dominant morphism. Now, there exists by hypothesis such a component containing a generization of $x$;
+a fortiori its generic point is a generization of $x$, whence the conclusion.
 
 ### 18.11. Application to complete Noetherian local algebras over a field
 
@@ -3197,19 +3425,18 @@ The following lemma generalizes `(0, 21.9.1)` and `(0, 21.9.2)`:
 
 <!-- label: IV.18.11.1 -->
 
-*Let `k` be a field, `A` a complete Noetherian local ring which is a `k`-algebra, `K` the residue field of `A`.*
+*Let $k$ be a field, $A$ a complete Noetherian local ring which is a $k$-algebra, $K$ the residue field of $A$.*
 
-*(i) If the `K`-vector space `Ω_{K/k}^1` is of finite rank, the `A`-module `Ω̂_{A/k}^1` is of finite type.*
+*(i) If the $K$-vector space $\Omega^{1}_{K/k}$ is of finite rank, the $A$-module $\hat{\Omega}^{1}_{A/k}$ is of finite
+type.*
 
-*(ii) If moreover `A` is a formally smooth `k`-algebra (for the adic topology), `Ω̂_{A/k}^1` is a free `A`-module of
-rank equal to*
+*(ii) If moreover $A$ is a formally smooth $k$-algebra (for the adic topology), $\hat{\Omega}^{1}_{A/k}$ is a free
+$A$-module of rank equal to*
 
-```text
-  dim(A) + rg_K(Ω_{K/k}^1) − rg_K(Υ_{K/k}).
-```
+$$ \dim(A) + rg_{K}(\Omega^{1}_{K/k}) - rg_{K}(\Upsilon_{K/k}). $$
 
-*In addition, for every subfield `k_0` of `k` such that `Ω_{k/k_0}^1` is a `k`-vector space of finite rank,
-`Ω̂_{A/k_0}^1` is a free `A`-module of rank equal to*
+*In addition, for every subfield $k_{0}$ of $k$ such that $\Omega^{1}_{k/k_{0}}$ is a $k$-vector space of finite rank,
+$\hat{\Omega}^{1}_{A/k_{0}}$ is a free $A$-module of rank equal to*
 
 ```text
   dim(A) + rg_K(Ω_{K/k}^1) − rg_K(Υ_{K/k}) + rg_k(Ω_{k/k_0}^1).
@@ -3217,110 +3444,117 @@ rank equal to*
 
 Assertion (i) is only mentioned for memory, having been proved in `(0, 20.7.15)`. To prove (ii), note that this
 assertion was in fact established by the proof of `(0, 21.9.2)`, the statement of `(0, 21.9.2)` alone bringing in the
-finiteness of the transcendence degree of `K` over `k` (by means of Cartier's equality `(0, 21.7.1)`).
+finiteness of the transcendence degree of $K$ over $k$ (by means of Cartier's equality `(0, 21.7.1)`).
 
 **Lemma (18.11.2).**
 
 <!-- label: IV.18.11.2 -->
 
-*Let `k` be a field of characteristic `p > 0`, `C` a Noetherian, complete local `k`-algebra, whose residue field is a
-finite extension of `k`, and which is integral; let `n` be its dimension, `L` its field of fractions. Then `Ω_{L/k}^1`
-and `Υ_{L/k}` are `L`-vector spaces of finite rank, and one has*
+*Let $k$ be a field of characteristic $p > 0$, $C$ a Noetherian, complete local $k$-algebra, whose residue field is a
+finite extension of $k$, and which is integral; let $n$ be its dimension, $L$ its field of fractions. Then
+$\Omega^{1}_{L/k}$ and $\Upsilon_{L/k}$ are $L$-vector spaces of finite rank, and one has*
 
-```text
-  (18.11.2.1)    rg_L(Ω_{L/k}^1) − rg_L(Υ_{L/k}) ≤ n.
-```
+$$ (18.11.2.1) rg_{L}(\Omega^{1}_{L/k}) - rg_{L}(\Upsilon_{L/k}) \leq n. $$
 
 <!-- original page 170 -->
 
-*Suppose moreover that `[k : k^p] < +∞`. Then one has the equality*
+*Suppose moreover that $[k : k^{p}] < +\infty$. Then one has the equality*
 
-```text
-  (18.11.2.2)    rg_L(Ω_{L/k}^1) − rg_L(Υ_{L/k}) = n.
-```
+$$ (18.11.2.2) rg_{L}(\Omega^{1}_{L/k}) - rg_{L}(\Upsilon_{L/k}) = n. $$
 
-*Moreover, `Ω_{C/k}^1` is then isomorphic to `Ω̂_{C/k}^1`, hence by `(18.11.1)` is a `C`-module of finite type.*
+*Moreover, $\Omega^{1}_{C/k}$ is then isomorphic to $\hat{\Omega}^{1}_{C/k}$, hence by `(18.11.1)` is a $C$-module of
+finite type.*
 
-One knows indeed `(0, 19.8.9)` that there exists a sub-`k`-algebra `C_0` of `C` isomorphic to a formal power series
-algebra `k[[T_1, …, T_n]]` and such that `C` is a finite `C_0`-algebra. Consequently, `L` is a finite extension of the
-field of fractions `L_0 = k((T_1, …, T_n))` of `C_0`. Now, one has the exact sequence of `L`-vector spaces obtained by
-applying `(0, 20.6.17.1)` to the prime subfield of `k` and to the three fields `k ⊂ L_0 ⊂ L` (and taking account of
-`(0, 20.6.21, (i))`)
+One knows indeed `(0, 19.8.9)` that there exists a sub-$k$-algebra `C_0` of $C$ isomorphic to a formal power series
+algebra $k[[T_{1}, \cdots, T_{n}]]$ and such that $C$ is a finite `C_0`-algebra. Consequently, $L$ is a finite extension
+of the field of fractions $L_{0} = k((T_{1}, \cdots, T_{n}))$ of `C_0`. Now, one has the exact sequence of $L$-vector
+spaces obtained by applying `(0, 20.6.17.1)` to the prime subfield of $k$ and to the three fields $k \subset L_{0}
+\subset L$ (and taking account of `(0, 20.6.21, (i))`)
 
 ```text
   0 → Υ_{L/k} → Υ_{L_0/k} ⊗_{L_0} L → Υ_{L/L_0} → Ω_{k/?}^1 ⊗_k L → Ω_{L_0/k}^1 ⊗_{L_0} L → Ω_{L/L_0}^1 → 0.
 ```
 
-Since `L` is a finite extension of `L_0`, `Ω_{L/L_0}^1` and `Υ_{L/L_0}` are `L`-vector spaces of finite rank having the
-same rank, by virtue of Cartier's equality `(0, 21.7.1)`. Since `L_0` is separable over `k` `(0, 21.9.6.4)`, one has
-`Υ_{L_0/k} = 0` `(0, 20.6.3)`; one therefore already deduces from the preceding exact sequence that `Υ_{L/k}` is of
-finite rank and that one has in all cases `(0_III, 11.10.2)`
+Since $L$ is a finite extension of `L_0`, $\Omega^{1}_{L/L_{0}}$ and $\Upsilon_{L/L_{0}}$ are $L$-vector spaces of
+finite rank having the same rank, by virtue of Cartier's equality `(0, 21.7.1)`. Since `L_0` is separable over $k$
+`(0, 21.9.6.4)`, one has $\Upsilon_{L_{0}/k} = 0$ `(0, 20.6.3)`; one therefore already deduces from the preceding exact
+sequence that $\Upsilon_{L/k}$ is of finite rank and that one has in all cases $(0_{III}, 11.10.2)$
 
 ```text
   rg_L(Ω_{L/k}^1) − rg_L(Υ_{L/k}) = rg_{L_0}(Ω_{L_0/k}^1) − rg_{L_0}(Υ_{L_0/k}).
 ```
 
-To prove `(18.11.2.1)` or `(18.11.2.2)`, one can therefore restrict to proving these relations by replacing `C` and `L`
-by `C_0` and `L_0`. Since `L_0` is separable over `k` `(0, 21.9.6.4)`, one has `Υ_{L_0/k} = 0` `(0, 20.6.3)`; on the
-other hand `Ω_{L_0/k}^1 = Ω_{C_0/k}^1 ⊗_{C_0} L_0` `(0, 20.5.9)`. One knows `(0, 21.9.4)` that if
-`C_1 = k[[T_1^p, …, T_n^p]]`, `Ω_{C_0/C_1}^1` identifies with `Ω̂_{C_0/k[C_0^p]}`; on the other hand, one has
-`Ω̂_{C_0/k[C_0^p]} = Ω̂_{C_0/k}^1` `(0, 21.1.5)`, and since `C_0^p = k^p[[T_1^p, …, T_n^p]]`, one has `k[C_0^p] ⊂ C_1`,
-with equality when `[k : k^p] < +∞`. Now, one has an exact sequence `Ω̂_{C_0/k[C_0^p]} → Ω̂_{C_0/C_1} → 0`
-`(0, 20.5.7)`, whence an exact sequence `Ω̂_{C_0/k[C_0^p]} → Ω_{C_0/C_1}^1 ⊗_{C_0} L_0 → 0`. Since `Ω_{C_0/C_1}^1` is a
-free `C_0`-module of rank `n` `(0, 21.9.3)`, one sees that one has in all cases `rg_{L_0}(Ω_{L_0/k}^1) ≤ n`, with
-equality when `[k : k^p] < +∞`; this already proves `(18.11.2.1)` and `(18.11.2.2)`.
+To prove `(18.11.2.1)` or `(18.11.2.2)`, one can therefore restrict to proving these relations by replacing $C$ and $L$
+by `C_0` and `L_0`. Since `L_0` is separable over $k$ `(0, 21.9.6.4)`, one has $\Upsilon_{L_{0}/k} = 0$ `(0, 20.6.3)`;
+on the other hand $\Omega^{1}_{L_{0}/k} = \Omega^{1}_{C_{0}/k} \otimes_{C_{0}} L_{0}$ `(0, 20.5.9)`. One knows
+`(0, 21.9.4)` that if $C_{1} = k[[T^{p}_{1}, \cdots, T^{p}_{n}]]$, $\Omega^{1}_{C_{0}/C_{1}}$ identifies with
+$\hat{\Omega}_{C_{0}/k[C^{p}_{0}]}$; on the other hand, one has $\hat{\Omega}_{C_{0}/k[C^{p}_{0}]} =
+\hat{\Omega}^{1}_{C_{0}/k}$ `(0, 21.1.5)`, and since $C^{p}_{0} = k^{p}[[T^{p}_{1}, \cdots, T^{p}_{n}]]$, one has
+$k[C^{p}_{0}] \subset C_{1}$, with equality when $[k : k^{p}] < +\infty$. Now, one has an exact sequence
+$\hat{\Omega}_{C_{0}/k[C^{p}_{0}]} \to \hat{\Omega}_{C_{0}/C_{1}} \to 0$ `(0, 20.5.7)`, whence an exact sequence
+$\hat{\Omega}_{C_{0}/k[C^{p}_{0}]} \to \Omega^{1}_{C_{0}/C_{1}} \otimes_{C_{0}} L_{0} \to 0$. Since
+$\Omega^{1}_{C_{0}/C_{1}}$ is a free `C_0`-module of rank $n$ `(0, 21.9.3)`, one sees that one has in all cases
+$rg_{L_{0}}(\Omega^{1}_{L_{0}/k}) \leq n$, with equality when $[k : k^{p}] < +\infty$; this already proves `(18.11.2.1)`
+and `(18.11.2.2)`.
 
-Finally, to see that `Ω_{C/k}^1` is isomorphic to `Ω̂_{C/k}^1` when `[k : k^p] < +∞`, it suffices to prove that
-`Ω_{C/k}^1` is a `C`-module of finite type, since `C` is a complete Noetherian local ring `(0_I, 7.3.3)`. Since
-`Ω_{C/k}^1` is isomorphic to `Ω_{C/k[C^p]}^1` and `k[C^p] ⊂ k[C_0^p]`, everything reduces to proving that `C` is a
-`k[C_0^p]`-module of finite type `(0, 20.4.7)`; but this results from the fact that `C` is a `C_0`-module of finite type
-and `C_0` a `k[C_0^p]`-module of finite type by virtue of the hypothesis `[k : k^p] < +∞`.
+Finally, to see that $\Omega^{1}_{C/k}$ is isomorphic to $\hat{\Omega}^{1}_{C/k}$ when $[k : k^{p}] < +\infty$, it
+suffices to prove that $\Omega^{1}_{C/k}$ is a $C$-module of finite type, since $C$ is a complete Noetherian local ring
+$(0_{I}, 7.3.3)$. Since $\Omega^{1}_{C/k}$ is isomorphic to $\Omega^{1}_{C/k[C^{p}]}$ and $k[C^{p}] \subset
+k[C^{p}_{0}]$, everything reduces to proving that $C$ is a $k[C^{p}_{0}]$-module of finite type `(0, 20.4.7)`; but this
+results from the fact that $C$ is a `C_0`-module of finite type and `C_0` a $k[C^{p}_{0}]$-module of finite type by
+virtue of the hypothesis $[k : k^{p}] < +\infty$.
 
 **Lemma (18.11.3).**
 
 <!-- label: IV.18.11.3 -->
 
-*Let `k` be a field, `p` its characteristic exponent, and suppose that `[k : k^p] < +∞`. Let `A` be a complete
-Noetherian local `k`-algebra, whose residue field is a finite extension of `k`. Let `𝔭` be a prime ideal of `A` such
-that `A_𝔭` is geometrically regular over `k` `(6.7.6)`, so that there exists a single minimal prime ideal `𝔮` of `A`
-contained in `𝔭`. Then `(Ω_{A/k}^1)_𝔭` is a free `A_𝔭`-module of rank equal to `dim(A/𝔮)`.*
+*Let $k$ be a field, $p$ its characteristic exponent, and suppose that $[k : k^{p}] < +\infty$. Let $A$ be a complete
+Noetherian local $k$-algebra, whose residue field is a finite extension of $k$. Let $\mathfrak{p}$ be a prime ideal of
+$A$ such that $A_{\mathfrak{p}}$ is geometrically regular over $k$ `(6.7.6)`, so that there exists a single minimal
+prime ideal $\mathfrak{q}$ of $A$ contained in $\mathfrak{p}$. Then $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ is a free
+$A_{\mathfrak{p}}$-module of rank equal to $\dim(A/\mathfrak{q})$.*
 
-Since `A` is Noetherian, and `Spec(A)` regular (and a fortiori integral) at the point `𝔭`, `𝔭` belongs to only one
-irreducible component of `Spec(A)`, hence contains
+Since $A$ is Noetherian, and $\operatorname{Spec}(A)$ regular (and a fortiori integral) at the point $\mathfrak{p}$,
+$\mathfrak{p}$ belongs to only one irreducible component of $\operatorname{Spec}(A)$, hence contains
 
 <!-- original page 171 -->
 
-only one minimal ideal `𝔮` of `A`, and moreover one has `𝔮_𝔭 = 0`. If one sets `B = A/𝔮`, the sequence `(0, 20.7.20)`
+only one minimal ideal $\mathfrak{q}$ of $A$, and moreover one has $\mathfrak{q}_{\mathfrak{p}} = 0$. If one sets $B =
+A/\mathfrak{q}$, the sequence `(0, 20.7.20)`
 
 ```text
   𝔮/𝔮^2 →^j Ω_{A/k}^1 ⊗_A B → Ω_{B/k}^1 → 0
 ```
 
-is exact; indeed, `Ω_{A/k}^1` is an `A`-module of finite type `(18.11.1)`, so one has
-`Ω_{A/k}^1 ⊗_A B = Ω_{A/k}^1 ⊗_A B = Ω_{A/k}^1/𝔮 · Ω_{A/k}^1`, and since this `B`-module is of finite type, every
-sub-`B`-module of it is closed `(0_I, 7.3.5)`, taking account of `(0, 20.4.5)`. Since the image of `𝔮/𝔮^2` is dense in
-the kernel of the homomorphism `Ω̂_{A/k}^1 ⊗_A B → Ω̂_{B/k}^1` `(0, 20.7.20)`, it is necessarily equal to this kernel,
-whence our assertion. Localizing at `𝔭` the preceding exact sequence, one sees moreover that the canonical homomorphism
-`(Ω_{A/k}^1)_𝔭 → (Ω_{B/k}^1)_𝔭` is bijective. One sees thus that one can restrict to the case where `𝔮 = 0`, in other
-words to the case where `A` is integral. Let us then distinguish two cases:
+is exact; indeed, $\Omega^{1}_{A/k}$ is an $A$-module of finite type `(18.11.1)`, so one has $\Omega^{1}_{A/k}
+\otimes_{A} B = \Omega^{1}_{A/k} \otimes_{A} B = \Omega^{1}_{A/k}/\mathfrak{q} \cdot \Omega^{1}_{A/k}$, and since this
+$B$-module is of finite type, every sub-$B$-module of it is closed $(0_{I}, 7.3.5)$, taking account of `(0, 20.4.5)`.
+Since the image of $\mathfrak{q}/\mathfrak{q}^{2}$ is dense in the kernel of the homomorphism $\hat{\Omega}^{1}_{A/k}
+\otimes_{A} B \to \hat{\Omega}^{1}_{B/k}$ `(0, 20.7.20)`, it is necessarily equal to this kernel, whence our assertion.
+Localizing at $\mathfrak{p}$ the preceding exact sequence, one sees moreover that the canonical homomorphism
+$(\Omega^{1}_{A/k})_{\mathfrak{p}} \to (\Omega^{1}_{B/k})_{\mathfrak{p}}$ is bijective. One sees thus that one can
+restrict to the case where $\mathfrak{q} = 0$, in other words to the case where $A$ is integral. Let us then distinguish
+two cases:
 
-I) `p > 1`. Then one can apply `(18.11.2)` to the quotient algebra `C = A/𝔭`, whose field of fractions `K` is none other
-than the residue field of `A_𝔭`; one sees therefore that one has
+I) $p > 1$. Then one can apply `(18.11.2)` to the quotient algebra $C = A/\mathfrak{p}$, whose field of fractions $K$ is
+none other than the residue field of $A_{\mathfrak{p}}$; one sees therefore that one has
 
-```text
-  (18.11.3.1)    rg_K(Ω_{K/k}^1) − rg_K(Υ_{K/k}) = dim(A/𝔭).
-```
+$$ (18.11.3.1) rg_{K}(\Omega^{1}_{K/k}) - rg_{K}(\Upsilon_{K/k}) = \dim(A/\mathfrak{p}). $$
 
-Note now `(0, 19.6.6)` that `A_𝔭` is a `k`-algebra formally smooth for its `𝔭 A_𝔭`-preadic topology; consequently
-`Ω_{A_𝔭/k}^1` is formally projective `(0, 20.4.9)` for the `𝔭`-preadic topology `(0, 20.4.5)`; on the other hand,
-`Ω_{A_𝔭/k}^1 = (Ω_{A/k}^1)_𝔭` `(0, 20.5.9)` is an `A_𝔭`-module of finite type, by virtue of `(18.11.2)` applied to `A`.
-For every integer `j`, `Ω_{A_𝔭/k}^1/𝔭^{j+1} Ω_{A_𝔭/k}^1` is therefore an `(A_𝔭/𝔭^{j+1} A_𝔭)`-module projective of rank
-`m = rg_K(Ω_{A_𝔭/k}^1 ⊗ K)` `(0, 19.2.4)`; one concludes therefore from `(0_III, 10.2.1 and 10.1.3)` that `Ω_{A_𝔭/k}^1`
-is a free `A_𝔭`-module of rank `m`. Let `A' = (A_𝔭)^∧` be the completed algebra of `A_𝔭` for its `𝔭 A_𝔭`-preadic
-topology; `A'` is still a `k`-algebra formally smooth `(0, 19.3.6)` for its adic topology, and it results from
-`(0, 20.7.14)` and from `(0, 20.4.5)` that `Ω̂_{A'/k}^1 = Ω̂_{A_𝔭/k}^1`; one concludes that `Ω̂_{A'/k}^1` is a free
-`A'`-module of rank `m`. But it then results from `(18.11.1)` and from the fact that `dim(A') = dim(A_𝔭)` `(0, 16.2.4)`
-that one has
+Note now `(0, 19.6.6)` that $A_{\mathfrak{p}}$ is a $k$-algebra formally smooth for its $\mathfrak{p}
+A_{\mathfrak{p}}$-preadic topology; consequently $\Omega^{1}_{A_{\mathfrak{p}}/k}$ is formally projective `(0, 20.4.9)`
+for the $\mathfrak{p}$-preadic topology `(0, 20.4.5)`; on the other hand, $\Omega^{1}_{A_{\mathfrak{p}}/k} =
+(\Omega^{1}_{A/k})_{\mathfrak{p}}$ `(0, 20.5.9)` is an $A_{\mathfrak{p}}$-module of finite type, by virtue of
+`(18.11.2)` applied to $A$. For every integer $j$, $\Omega^{1}_{A_{\mathfrak{p}}/k}/\mathfrak{p}^{j+1}
+\Omega^{1}_{A_{\mathfrak{p}}/k}$ is therefore an $(A_{\mathfrak{p}}/\mathfrak{p}^{j+1} A_{\mathfrak{p}})$-module
+projective of rank $m = rg_{K}(\Omega^{1}_{A_{\mathfrak{p}}/k} \otimes K)$ `(0, 19.2.4)`; one concludes therefore from
+$(0_{III}, 10.2.1 and 10.1.3)$ that $\Omega^{1}_{A_{\mathfrak{p}}/k}$ is a free $A_{\mathfrak{p}}$-module of rank $m$.
+Let $A' = (A_{\mathfrak{p}})^{\wedge}$ be the completed algebra of $A_{\mathfrak{p}}$ for its $\mathfrak{p}
+A_{\mathfrak{p}}$-preadic topology; $A'$ is still a $k$-algebra formally smooth `(0, 19.3.6)` for its adic topology, and
+it results from `(0, 20.7.14)` and from `(0, 20.4.5)` that $\hat{\Omega}^{1}_{A'/k} =
+\hat{\Omega}^{1}_{A_{\mathfrak{p}}/k}$; one concludes that $\hat{\Omega}^{1}_{A'/k}$ is a free $A'$-module of rank $m$.
+But it then results from `(18.11.1)` and from the fact that $\dim(A') = \dim(A_{\mathfrak{p}})$ `(0, 16.2.4)` that one
+has
 
 ```text
   (18.11.3.2)    m = dim(A_𝔭) + (rg_K(Ω_{K/k}^1) − rg_K(Υ_{K/k}))
@@ -3328,77 +3562,86 @@ that one has
 
 whence, by virtue of `(18.11.3.1)`
 
-```text
-  m = dim(A/𝔭) + dim(A_𝔭).
-```
+$$ m = \dim(A/\mathfrak{p}) + \dim(A_{\mathfrak{p}}). $$
 
-But since `A` is a complete Noetherian local ring, it is a quotient of a regular ring `(0, 19.8.8)`, hence
+But since $A$ is a complete Noetherian local ring, it is a quotient of a regular ring `(0, 19.8.8)`, hence
 `(0, 16.5.12)` one has `dim(A) = dim(A/𝔭) + dim(A_𝔭)`, which finishes the proof in this case.
 
-II) `p = 1`. One has, as above, `dim(A) = dim(A/𝔭) + dim(A_𝔭)`; set `n = dim(A)`, `r = dim(A/𝔭)`, `s = dim(A_𝔭)`; we
-shall see that `(Ω_{A/k}^1)_𝔭` is an `A_𝔭`-module free of rank `n`. We shall first prove the following lemma:
+II) $p = 1$. One has, as above, `dim(A) = dim(A/𝔭) + dim(A_𝔭)`; set $n = \dim(A)$, $r = \dim(A/\mathfrak{p})$, $s =
+\dim(A_{\mathfrak{p}})$; we shall see that $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ is an $A_{\mathfrak{p}}$-module free of
+rank $n$. We shall first prove the following lemma:
 
-**Lemma (18.11.3.3).** *Let `A` be a Noetherian local ring, `𝔭` a prime ideal of `A` such that `A_𝔭` is a Cohen-Macaulay
-ring. For every system of parameters `(t_i)_{1 ≤ i ≤ s}` of `A_𝔭` there exists a sequence `(x_i)_{1 ≤ i ≤ s}` of
-elements of `𝔭` such that the `x_i` are part of a system of parameters of `A`*
+**Lemma (18.11.3.3).** *Let $A$ be a Noetherian local ring, $\mathfrak{p}$ a prime ideal of $A$ such that
+$A_{\mathfrak{p}}$ is a Cohen-Macaulay ring. For every system of parameters $(t_{i})_{1 \leq i \leq s}$ of
+$A_{\mathfrak{p}}$ there exists a sequence $(x_{i})_{1 \leq i \leq s}$ of elements of $\mathfrak{p}$ such that the
+$x_{i}$ are part of a system of parameters of $A$*
 
 <!-- original page 172 -->
 
-*and such that, for every `i`, `x_i/1` is congruent to `t_i` modulo the ideal `t_1 A_𝔭 + ⋯ + t_{i-1} A_𝔭`. In
-particular, if `A_𝔭` is regular and if the `t_i` form a regular system of parameters of `A_𝔭`, the same is true of the
-`x_i/1`.*
+*and such that, for every $i$, $x_{i}/1$ is congruent to $t_{i}$ modulo the ideal $t_{1} A_{\mathfrak{p}} + \cdots +
+t_{i-1} A_{\mathfrak{p}}$. In particular, if $A_{\mathfrak{p}}$ is regular and if the $t_{i}$ form a regular system of
+parameters of $A_{\mathfrak{p}}$, the same is true of the $x_{i}/1$.*
 
 This lemma will itself be a consequence of the following:
 
-**Lemma (18.11.3.4).** *Let `A` be a Noetherian local ring, `𝔭` a prime ideal of `A`, `x` an element of `A`; then there
-exists an element `x' ∈ A` such that `x'/1 = x/1` in `A_𝔭` and that `x'` not belong to any of the minimal prime ideals
-of `A` not contained in `𝔭`.*
+**Lemma (18.11.3.4).** *Let $A$ be a Noetherian local ring, $\mathfrak{p}$ a prime ideal of $A$, $x$ an element of $A$;
+then there exists an element $x' \in A$ such that $x'/1 = x/1$ in $A_{\mathfrak{p}}$ and that $x'$ not belong to any of
+the minimal prime ideals of $A$ not contained in $\mathfrak{p}$.*
 
-Let us first show how `(18.11.3.4)` implies `(18.11.3.3)`. By multiplying if necessary the `t_i` by invertible elements
-of `A_𝔭`, one can suppose that they are of the form `x_i/1`, with `x_i ∈ 𝔭` for `1 ≤ i ≤ s`. Reasoning by recurrence on
-`s`; since `t_1` is part of a system of parameters of `A_𝔭`, it does not belong to any of the minimal prime ideals of
-`A_𝔭` `(0, 16.5.5)`, hence no `x_1 ∈ A` such that `x_1/1 = t_1` can belong to a minimal prime ideal of `A` contained in
-`𝔭`. By virtue of `(18.11.3.4)`, one can moreover choose `x'_1` such that `x'_1/1 = t_1` (hence `x'_1 ∈ 𝔭`) and that
-`x'_1` not belong to any minimal prime ideal of `A`, hence be part of a system of parameters of `A`
-`(0, 16.3.4 and 16.3.7)`. One then reasons by recurrence, by considering the ring `A' = A/x'_1 A` and the prime ideal
-`𝔭' = 𝔭/x'_1 A` of this ring; since `A'_{𝔭'} = A_𝔭/t_1 A_𝔭`, `A'_{𝔭'}` is also a Cohen-Macaulay ring `(0, 16.5.5)`, and
-the images `t'_i` (`2 ≤ i ≤ s`) of the `t_i` in `A'_{𝔭'}` form a system of parameters of this ring; it suffices to apply
-to `A'` and to the `t'_i` (`2 ≤ i ≤ s`) the hypothesis of recurrence. The last assertion of `(18.11.3.3)` results from
-the fact that in `A_𝔭`, a system of parameters which generates the maximal ideal is a regular system of parameters
-`(0, 17.1.1)`.
+Let us first show how `(18.11.3.4)` implies `(18.11.3.3)`. By multiplying if necessary the $t_{i}$ by invertible
+elements of $A_{\mathfrak{p}}$, one can suppose that they are of the form $x_{i}/1$, with $x_{i} \in \mathfrak{p}$ for
+$1 \leq i \leq s$. Reasoning by recurrence on $s$; since $t_{1}$ is part of a system of parameters of
+$A_{\mathfrak{p}}$, it does not belong to any of the minimal prime ideals of $A_{\mathfrak{p}}$ `(0, 16.5.5)`, hence no
+$x_{1} \in A$ such that $x_{1}/1 = t_{1}$ can belong to a minimal prime ideal of $A$ contained in $\mathfrak{p}$. By
+virtue of `(18.11.3.4)`, one can moreover choose $x'_{1}$ such that $x'_{1}/1 = t_{1}$ (hence $x'_{1} \in \mathfrak{p}$)
+and that $x'_{1}$ not belong to any minimal prime ideal of $A$, hence be part of a system of parameters of $A$
+`(0, 16.3.4 and 16.3.7)`. One then reasons by recurrence, by considering the ring $A' = A/x'_{1} A$ and the prime ideal
+$\mathfrak{p}' = \mathfrak{p}/x'_{1} A$ of this ring; since $A'_{\mathfrak{p}'} = A_{\mathfrak{p}}/t_{1}
+A_{\mathfrak{p}}$, $A'_{\mathfrak{p}'}$ is also a Cohen-Macaulay ring `(0, 16.5.5)`, and the images $t'_{i}$ ($2 \leq i
+\leq s$) of the $t_{i}$ in $A'_{\mathfrak{p}'}$ form a system of parameters of this ring; it suffices to apply to $A'$
+and to the $t'_{i}$ ($2 \leq i \leq s$) the hypothesis of recurrence. The last assertion of `(18.11.3.3)` results from
+the fact that in $A_{\mathfrak{p}}$, a system of parameters which generates the maximal ideal is a regular system of
+parameters `(0, 17.1.1)`.
 
-Let us therefore prove `(18.11.3.4)`. Let `(𝔭_k)_{1 ≤ k ≤ r}` be the sequence of minimal prime ideals of `A` not
-contained in `𝔭` and such that `x ∈ 𝔭_k`, and let `(𝔭'_j)_{1 ≤ j ≤ n'}` be the sequence of minimal prime ideals of `A`
-other than the `𝔭_k`; one can suppose that `r ≥ 1`. Since `𝔭_k` does not contain `⋂_{1 ≤ j ≤ n'} 𝔭'_j`, there exists an
-element `y ∈ ⋂_{1 ≤ j ≤ n'} 𝔭'_j` which is contained in none of the `𝔭_k` (Bourbaki, Alg. comm., chap. II, §1, n° 1,
-prop. 2); moreover `y/1` belongs to all the minimal prime ideals of `A_𝔭`, hence is nilpotent; if `(y/1)^h = 0`, the
-element `x' = x + y^h` will answer to the conditions of the statement, for on the one hand `y^h ∈ 𝔭_k` for `1 ≤ k ≤ r`,
-and by definition of the `𝔭_k` one has indeed `x' ∉ 𝔭_k` for `1 ≤ k ≤ r`, and on the other hand, if `𝔭'_j` is a minimal
-prime ideal of `A` not contained in `𝔭` but such that `x ∉ 𝔭'_j`, one has also `x' ∉ 𝔭'_j` since `y^h ∈ 𝔭'_j`.
+Let us therefore prove `(18.11.3.4)`. Let $(\mathfrak{p}_{k})_{1 \leq k \leq r}$ be the sequence of minimal prime ideals
+of $A$ not contained in $\mathfrak{p}$ and such that $x \in \mathfrak{p}_{k}$, and let $(\mathfrak{p}'_{j})_{1 \leq j
+\leq n'}$ be the sequence of minimal prime ideals of $A$ other than the $\mathfrak{p}_{k}$; one can suppose that $r \geq
+1$. Since $\mathfrak{p}_{k}$ does not contain $\bigcap_{1 \leq j \leq n'} \mathfrak{p}'_{j}$, there exists an element $y
+\in \bigcap_{1 \leq j \leq n'} \mathfrak{p}'_{j}$ which is contained in none of the $\mathfrak{p}_{k}$ (Bourbaki, Alg.
+comm., chap. II, §1, n° 1, prop. 2); moreover $y/1$ belongs to all the minimal prime ideals of $A_{\mathfrak{p}}$, hence
+is nilpotent; if $(y/1)^{h} = 0$, the element $x' = x + y^{h}$ will answer to the conditions of the statement, for on
+the one hand $y^{h} \in \mathfrak{p}_{k}$ for $1 \leq k \leq r$, and by definition of the $\mathfrak{p}_{k}$ one has
+indeed $x' \notin \mathfrak{p}_{k}$ for $1 \leq k \leq r$, and on the other hand, if $\mathfrak{p}'_{j}$ is a minimal
+prime ideal of $A$ not contained in $\mathfrak{p}$ but such that $x \notin \mathfrak{p}'_{j}$, one has also $x' \notin
+\mathfrak{p}'_{j}$ since $y^{h} \in \mathfrak{p}'_{j}$.
 
-Let us return to the proof of `(18.11.3)` when `p = 1`. By virtue of `(18.11.3.3)`, there exists a regular system of
-parameters `(t_i)_{1 ≤ i ≤ s}` of `A_𝔭` such that `t_i = x_i/1`, where the `x_i` (`1 ≤ i ≤ s`) belong to `𝔭` and are
-part of a system of parameters `(x_j)_{1 ≤ j ≤ n}` of `A`. Set `A_0 = k[[T_1, …, T_n]]`; since `A` is a complete
-`k`-algebra and the `x_j` belong to the maximal ideal `𝔪` of `A`, there exists a local `k`-homomorphism `u : A_0 → A`
-such that `u(T_j) = x_j` for `1 ≤ j ≤ n` (Bourbaki, Alg. comm., chap. III, §4, n° 5, prop. 6); if `𝔫` is the ideal of
-`A` generated by the `x_j` (`1 ≤ j ≤ n`), it is by hypothesis an ideal of definition of `A`; one therefore deduces from
-`(0_I, 7.4.4 and 7.4.3)` that `u` makes `A` into a finite `A_0`-algebra.
+Let us return to the proof of `(18.11.3)` when $p = 1$. By virtue of `(18.11.3.3)`, there exists a regular system of
+parameters $(t_{i})_{1 \leq i \leq s}$ of $A_{\mathfrak{p}}$ such that $t_{i} = x_{i}/1$, where the $x_{i}$ ($1 \leq i
+\leq s$) belong to $\mathfrak{p}$ and are part of a system of parameters $(x_{j})_{1 \leq j \leq n}$ of $A$. Set $A_{0}
+= k[[T_{1}, \cdots, T_{n}]]$; since $A$ is a complete $k$-algebra and the $x_{j}$ belong to the maximal ideal
+$\mathfrak{m}$ of $A$, there exists a local $k$-homomorphism $u : A_{0} \to A$ such that $u(T_{j}) = x_{j}$ for $1 \leq
+j \leq n$ (Bourbaki, Alg. comm., chap. III, §4, n° 5, prop. 6); if $\mathfrak{n}$ is the ideal of $A$ generated by the
+$x_{j}$ ($1 \leq j \leq n$), it is by hypothesis an ideal of definition of $A$; one therefore deduces from $(0_{I},
+7.4.4 and 7.4.3)$ that $u$ makes $A$ into a finite `A_0`-algebra.
 
-Set `𝔭_0 = ∑_{j=1}^s A_0 T_j`, `B_0 = (A_0)_{𝔭_0}` and `B = A ⊗_{A_0} B_0`, so that `u_1 : B_0 → B` makes
+Set $\mathfrak{p}_{0} = \sum^{s}_{j=1} A_{0} T_{j}$, $B_{0} = (A_{0})_{\mathfrak{p}_{0}}$ and $B = A \otimes_{A_{0}}
+B_{0}$, so that $u_{1} : B_{0} \to B$ makes
 
 <!-- original page 173 -->
 
-`B` into a finite `B_0`-algebra; moreover, if `𝔭'` is the ideal of `B` generated by `𝔭`, one has `B_{𝔭'} = A_𝔭`; since
-`𝔭'` contains `𝔭_0 B` by construction, it lies above the maximal ideal `𝔭_0 B_0` of `B_0`. Let us show that the morphism
-`Spec(B) → Spec(B_0)` is unramified at the point `𝔭'`: this results indeed from the fact that `k(𝔭')` is a finite
-extension of the field `k(𝔭_0)` of characteristic `0`, hence is necessarily separable, and that one has
-`B_{𝔭'}/𝔭_0 B_{𝔭'} = k(𝔭')` by virtue of the choice of the `x_j` for `1 ≤ j ≤ s` `(17.4.1)`.
+$B$ into a finite `B_0`-algebra; moreover, if $\mathfrak{p}'$ is the ideal of $B$ generated by $\mathfrak{p}$, one has
+$B_{\mathfrak{p}'} = A_{\mathfrak{p}}$; since $\mathfrak{p}'$ contains $\mathfrak{p}_{0} B$ by construction, it lies
+above the maximal ideal $\mathfrak{p}_{0} B_{0}$ of `B_0`. Let us show that the morphism $\operatorname{Spec}(B) \to
+\operatorname{Spec}(B_{0})$ is unramified at the point $\mathfrak{p}'$: this results indeed from the fact that
+$k(\mathfrak{p}')$ is a finite extension of the field $k(\mathfrak{p}_{0})$ of characteristic `0`, hence is necessarily
+separable, and that one has $B_{\mathfrak{p}'}/\mathfrak{p}_{0} B_{\mathfrak{p}'} = k(\mathfrak{p}')$ by virtue of the
+choice of the $x_{j}$ for $1 \leq j \leq s$ `(17.4.1)`.
 
 Let us now note the following lemma:
 
-**Lemma (18.11.3.5).** *Let `k` be a field, `R`, `S` two complete Noetherian local `k`-algebras, such that, if `K` is
-the residue field of `S`, `Ω_{K/k}^1` is of finite rank over `K`; let `u : R → S` be a `k`-homomorphism making `S` into
-a finite `R`-algebra; then one has `Ω̂_{S/R}^1 = Ω_{S/R}^1`, and the sequence*
+**Lemma (18.11.3.5).** *Let $k$ be a field, $R$, $S$ two complete Noetherian local $k$-algebras, such that, if $K$ is
+the residue field of $S$, $\Omega^{1}_{K/k}$ is of finite rank over $K$; let $u : R \to S$ be a $k$-homomorphism making
+$S$ into a finite $R$-algebra; then one has $\hat{\Omega}^{1}_{S/R} = \Omega^{1}_{S/R}$, and the sequence*
 
 ```text
   (18.11.3.6)    Ω_{R/k}^1 ⊗_R S →^v Ω_{S/k}^1 →^w Ω_{S/R}^1 → 0
@@ -3406,79 +3649,88 @@ a finite `R`-algebra; then one has `Ω̂_{S/R}^1 = Ω_{S/R}^1`, and the sequence
 
 *(cf. `(0, 20.7.17.3)`) is exact.*
 
-The first assertion results from the fact that `Ω_{S/R}^1` is an `S`-module of finite type `(0, 20.4.7)` and from
-`(0_I, 7.3.6)`. On the other hand, one knows `(0, 20.7.17.3)` that the image of `v` is dense in `Ker(w)` and that `w` is
-surjective; but it results from `(18.11.1)` that `Ω_{S/k}^1` is an `S`-module of finite type; one concludes that every
-sub-`S`-module of `Ω_{S/k}^1` is closed `(0_I, 7.3.5)`, whence the lemma.
+The first assertion results from the fact that $\Omega^{1}_{S/R}$ is an $S$-module of finite type `(0, 20.4.7)` and from
+$(0_{I}, 7.3.6)$. On the other hand, one knows `(0, 20.7.17.3)` that the image of $v$ is dense in $Ker(w)$ and that $w$
+is surjective; but it results from `(18.11.1)` that $\Omega^{1}_{S/k}$ is an $S$-module of finite type; one concludes
+that every sub-$S$-module of $\Omega^{1}_{S/k}$ is closed $(0_{I}, 7.3.5)$, whence the lemma.
 
-Let us apply this lemma to the case where `R = A_0`, `S = A`, and note that `Ω_{A_0/k}^1` is a free `A_0`-module of rank
-`n` `(0, 21.9.3)`; hence one has `Ω̂_{A_0/k}^1 ⊗_{A_0} A = Ω_{A_0/k}^1 ⊗_{A_0} A` and this `A`-module is free of rank
-`n`. Since `Spec(B)` is unramified over `Spec(B_0)` at the point `𝔭'`, one has `(Ω_{A/A_0}^1)_𝔭 = Ω_{B/B_0}^1)_{𝔭'} = 0`
-`(2.5.10 and 17.4.1)`. If one localizes the exact sequence `(18.11.3.6)` (applied to `A_0` and `A`) at `𝔭`, one
-therefore obtains a surjective homomorphism
+Let us apply this lemma to the case where $R = A_{0}$, $S = A$, and note that $\Omega^{1}_{A_{0}/k}$ is a free
+`A_0`-module of rank $n$ `(0, 21.9.3)`; hence one has $\hat{\Omega}^{1}_{A_{0}/k} \otimes_{A_{0}} A =
+\Omega^{1}_{A_{0}/k} \otimes_{A_{0}} A$ and this $A$-module is free of rank $n$. Since $\operatorname{Spec}(B)$ is
+unramified over $\operatorname{Spec}(B_{0})$ at the point $\mathfrak{p}'$, one has
+`(Ω_{A/A_0}^1)_𝔭 = Ω_{B/B_0}^1)_{𝔭'} = 0` `(2.5.10 and 17.4.1)`. If one localizes the exact sequence `(18.11.3.6)`
+(applied to `A_0` and $A$) at $\mathfrak{p}$, one therefore obtains a surjective homomorphism
 
 ```text
   (Ω_{A_0/k}^1)_𝔯 ⊗_{(A_0)_𝔯} A_𝔭 → (Ω_{A/k}^1)_𝔭,
 ```
 
-whence one concludes that the `A_𝔭`-module `(Ω_{A/k}^1)_𝔭` admits a system of `n` generators. But the `A`-module
-`Ω_{A/k}^1` is of rank `n`, by virtue of `(0, 21.9.5)`, which is applicable to the complete and integral ring `A`
-because of Cohen's theorem `(0, 19.8.8, (ii))` and the fact that the field of fractions of `A` is of characteristic `0`.
-The `A_𝔭`-module `(Ω_{A/k}^1)_𝔭` is therefore also of rank `n`, and since its quotient by its torsion sub-module admits
-a system of `n` generators, this quotient is necessarily free; one deduces at once that the `n` generators of
-`(Ω_{A/k}^1)_𝔭` obtained above form a free system, whence the conclusion.
+whence one concludes that the $A_{\mathfrak{p}}$-module $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ admits a system of $n$
+generators. But the $A$-module $\Omega^{1}_{A/k}$ is of rank $n$, by virtue of `(0, 21.9.5)`, which is applicable to the
+complete and integral ring $A$ because of Cohen's theorem `(0, 19.8.8, (ii))` and the fact that the field of fractions
+of $A$ is of characteristic `0`. The $A_{\mathfrak{p}}$-module $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ is therefore also of
+rank $n$, and since its quotient by its torsion sub-module admits a system of $n$ generators, this quotient is
+necessarily free; one deduces at once that the $n$ generators of $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ obtained above form
+a free system, whence the conclusion.
 
 **Lemma (18.11.4).**
 
 <!-- label: IV.18.11.4 -->
 
-*Let `k` be a field, `A` a complete Noetherian local `k`-algebra, whose residue field is a finite extension of `k`. Let
-`k'` be an arbitrary extension of `k`, and set `Â' = A ⊗̂_k k'`. Then:*
+*Let $k$ be a field, $A$ a complete Noetherian local $k$-algebra, whose residue field is a finite extension of $k$. Let
+$k'$ be an arbitrary extension of $k$, and set $\hat{A}' = A \hat{\otimes}_{k} k'$. Then:*
 
-*(i) `Â'` is a complete Noetherian semi-local ring, direct composite of complete local rings `A'_i` (`1 ≤ i ≤ r`) which
-are faithfully flat `A`-modules, and whose residue fields are finite extensions of `k'`; if `𝔪` is the maximal ideal of
-`A`, `𝔪 Â'` is an ideal of definition of `Â'`; one has `dim(A'_i) = dim(A)` for every `i`.*
+*(i) `Â'` is a complete Noetherian semi-local ring, direct composite of complete local rings $A'_{i}$ ($1 \leq i \leq
+r$) which are faithfully flat $A$-modules, and whose residue fields are finite extensions of $k'$; if $\mathfrak{m}$ is
+the maximal ideal of $A$, $\mathfrak{m} \hat{A}'$ is an ideal of definition of `Â'`; one has $\dim(A'_{i}) = \dim(A)$
+for every $i$.*
 
-*(ii) For every `i`, `Ω̂_{A'_i/k'}^1` is canonically isomorphic to `Ω̂_{A/k}^1 ⊗_A A'_i`.*
+*(ii) For every $i$, $\hat{\Omega}^{1}_{A'_{i}/k'}$ is canonically isomorphic to $\hat{\Omega}^{1}_{A/k} \otimes_{A}
+A'_{i}$.*
 
 <!-- original page 174 -->
 
-(i) The first assertions result at once from `(7.5.5)` and `(0_I, 6.6.2)`; the fact that `𝔪 Â'` is an ideal of
-definition of `Â'` also results from `(7.5.5)`, for if `K` is the residue field of `A`, `K ⊗_k k'` is a finite
-`k'`-algebra. Finally `A'_i/𝔪 A'_i` is one of the direct-composite Artinian local rings of `K ⊗_k k'` `(7.5.5)`, so it
-is of dimension `0`; since `A'_i` is a flat `A`-module, the equality of the dimensions of `A` and of `A'_i` results from
-`(6.1.2)`.
+(i) The first assertions result at once from `(7.5.5)` and $(0_{I}, 6.6.2)$; the fact that $\mathfrak{m} \hat{A}'$ is an
+ideal of definition of `Â'` also results from `(7.5.5)`, for if $K$ is the residue field of $A$, $K \otimes_{k} k'$ is a
+finite $k'$-algebra. Finally $A'_{i}/\mathfrak{m} A'_{i}$ is one of the direct-composite Artinian local rings of $K
+\otimes_{k} k'$ `(7.5.5)`, so it is of dimension `0`; since $A'_{i}$ is a flat $A$-module, the equality of the
+dimensions of $A$ and of $A'_{i}$ results from `(6.1.2)`.
 
-(ii) Since `Ω̂_{A/k}^1` is, by virtue of the hypothesis on `K`, an `A`-module of finite type `(18.11.1)`,
-`Ω̂_{A/k}^1 ⊗_A Â'` is complete and identifies with the completed tensor product `Ω̂_{A/k}^1 ⊗̂_A Â'`; by virtue of the
-associativity of the completed tensor product `(0_I, 7.7.4)`, `Ω̂_{A/k}^1 ⊗̂_A (A ⊗̂_k k')` identifies with
-`Ω̂_{A/k}^1 ⊗̂_k k'`. But `Ω_{A/k}^1 ⊗_k k'` identifies with `Ω_{A''/k'}^1`, where `A'' = A ⊗_k k'` `(0, 20.5.5)`, and
-since `Â'` is by definition the separated completion of `A''`, the separated completion of `Ω_{A/k}^1 ⊗_k k'` identifies
-by construction with that of `Ω_{A''/k'}^1` `(0, 20.7.4)`; in other words, one has a canonical isomorphism
+(ii) Since $\hat{\Omega}^{1}_{A/k}$ is, by virtue of the hypothesis on $K$, an $A$-module of finite type `(18.11.1)`,
+$\hat{\Omega}^{1}_{A/k} \otimes_{A} \hat{A}'$ is complete and identifies with the completed tensor product
+$\hat{\Omega}^{1}_{A/k} \hat{\otimes}_{A} \hat{A}'$; by virtue of the associativity of the completed tensor product
+$(0_{I}, 7.7.4)$, $\hat{\Omega}^{1}_{A/k} \hat{\otimes}_{A} (A \hat{\otimes}_{k} k')$ identifies with
+$\hat{\Omega}^{1}_{A/k} \hat{\otimes}_{k} k'$. But $\Omega^{1}_{A/k} \otimes_{k} k'$ identifies with
+$\Omega^{1}_{A''/k'}$, where $A'' = A \otimes_{k} k'$ `(0, 20.5.5)`, and since `Â'` is by definition the separated
+completion of `A''`, the separated completion of $\Omega^{1}_{A/k} \otimes_{k} k'$ identifies by construction with that
+of $\Omega^{1}_{A''/k'}$ `(0, 20.7.4)`; in other words, one has a canonical isomorphism
 
 ```text
   Ω̂_{A/k}^1 ⊗̂_k k' = Ω̂_{Â'/k'}^1.
 ```
 
-The conclusion of (ii) results now from the fact that `Ω̂_{Â'/k'}^1` is the direct sum of the `Ω̂_{A'_i/k'}^1`
-`(0, 20.4.13)`, and if `𝔯` is the radical of `Â'`, the `𝔯`-preadic topology on `Ω_{Â'/k'}^1` identifies with the product
-of the `𝔯 A'_i`-preadic topologies on the `Ω_{A'_i/k'}^1` (where `𝔪'_i` is the maximal ideal of `A'_i`); finally, it
-results that the separated completion `Ω̂_{Â'/k'}^1` for the `𝔯`-preadic topology identifies with the product of the
-separated completions `Ω̂_{A'_i/k'}^1` for the `𝔪'_i`-preadic topologies, and it suffices to use `(0, 20.4.5)`.
+The conclusion of (ii) results now from the fact that $\hat{\Omega}^{1}_{\hat{A}'/k'}$ is the direct sum of the
+$\hat{\Omega}^{1}_{A'_{i}/k'}$ `(0, 20.4.13)`, and if $\mathfrak{r}$ is the radical of `Â'`, the $\mathfrak{r}$-preadic
+topology on $\Omega^{1}_{\hat{A}'/k'}$ identifies with the product of the $\mathfrak{r} A'_{i}$-preadic topologies on
+the $\Omega^{1}_{A'_{i}/k'}$ (where $\mathfrak{m}'_{i}$ is the maximal ideal of $A'_{i}$); finally, it results that the
+separated completion $\hat{\Omega}^{1}_{\hat{A}'/k'}$ for the $\mathfrak{r}$-preadic topology identifies with the
+product of the separated completions $\hat{\Omega}^{1}_{A'_{i}/k'}$ for the $\mathfrak{m}'_{i}$-preadic topologies, and
+it suffices to use `(0, 20.4.5)`.
 
 **Proposition (18.11.5).**
 
 <!-- label: IV.18.11.5 -->
 
-*Let `k` be a field, `A` a complete Noetherian local `k`-algebra whose residue field is a finite extension of `k`, `𝔭` a
-prime ideal of `A`, distinct from the maximal ideal `𝔪`, such that there exists a minimal prime ideal `𝔮 ⊂ 𝔭` for which
-`dim(A/𝔮) = dim(A)` (which will hold in particular when `A` is equidimensional), `m` an integer `≥ 0`. The following
-conditions are equivalent:*
+*Let $k$ be a field, $A$ a complete Noetherian local $k$-algebra whose residue field is a finite extension of $k$,
+$\mathfrak{p}$ a prime ideal of $A$, distinct from the maximal ideal $\mathfrak{m}$, such that there exists a minimal
+prime ideal $\mathfrak{q} \subset \mathfrak{p}$ for which $\dim(A/\mathfrak{q}) = \dim(A)$ (which will hold in
+particular when $A$ is equidimensional), $m$ an integer $\geq 0$. The following conditions are equivalent:*
 
-*a) The `A_𝔭`-module `(Ω_{A/k}^1)_𝔭` admits a system of `m` generators.*
+*a) The $A_{\mathfrak{p}}$-module $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ admits a system of $m$ generators.*
 
-*b) There exists a local `k`-homomorphism `u : B → A`, where `B = k[[T_1, …, T_m]]`, making `A` into a finite
-`B`-algebra, and such that the corresponding morphism `Spec(A) → Spec(B)` is unramified at the point `𝔭`.*
+*b) There exists a local $k$-homomorphism $u : B \to A$, where $B = k[[T_{1}, \cdots, T_{m}]]$, making $A$ into a finite
+$B$-algebra, and such that the corresponding morphism $\operatorname{Spec}(A) \to \operatorname{Spec}(B)$ is unramified
+at the point $\mathfrak{p}$.*
 
 To prove that b) implies a), note that by virtue of lemma `(18.11.3.5)`, one has then the exact sequence
 
@@ -3486,100 +3738,117 @@ To prove that b) implies a), note that by virtue of lemma `(18.11.3.5)`, one has
   Ω_{B/k}^1 ⊗_B A → Ω_{A/k}^1 → Ω_{A/B}^1 → 0
 ```
 
-since `A` is a finite `B`-algebra; localizing at `𝔭` and noting that by hypothesis one has then `(Ω_{A/B}^1)_𝔭 = 0`
-`(17.4.1)`, one obtains a surjective homomorphism `(Ω_{B/k}^1 ⊗_B A)_𝔭 → (Ω_{A/k}^1)_𝔭`, and the conclusion results from
-the fact that `Ω_{B/k}^1` is a free `B`-module of rank `m` `(0, 21.9.3)`.
+since $A$ is a finite $B$-algebra; localizing at $\mathfrak{p}$ and noting that by hypothesis one has then
+$(\Omega^{1}_{A/B})_{\mathfrak{p}} = 0$ `(17.4.1)`, one obtains a surjective homomorphism $(\Omega^{1}_{B/k} \otimes_{B}
+A)_{\mathfrak{p}} \to (\Omega^{1}_{A/k})_{\mathfrak{p}}$, and the conclusion results from the fact that
+$\Omega^{1}_{B/k}$ is a free $B$-module of rank $m$ `(0, 21.9.3)`.
 
 To prove that a) implies b), let us first prove the following lemmas.
 
-**Lemma (18.11.5.1).** *Let `k` be a field, `A` a complete Noetherian local `k`-algebra, whose residue field is a finite
-extension of `k`, `𝔭` a prime ideal of `A`, `𝔮` a minimal ideal of `A` contained in `𝔭`. Then the minimum number of
-generators of the `A_𝔭`-module `(Ω_{A/k}^1)_𝔭` is at least equal to `dim(A/𝔮)`.*
+**Lemma (18.11.5.1).** *Let $k$ be a field, $A$ a complete Noetherian local $k$-algebra, whose residue field is a finite
+extension of $k$, $\mathfrak{p}$ a prime ideal of $A$, $\mathfrak{q}$ a minimal ideal of $A$ contained in
+$\mathfrak{p}$. Then the minimum number of generators of the $A_{\mathfrak{p}}$-module
+$(\Omega^{1}_{A/k})_{\mathfrak{p}}$ is at least equal to $\dim(A/\mathfrak{q})$.*
 
 <!-- original page 175 -->
 
-Set `n = dim(A/𝔮)`, and let `m` be the minimum number of generators of the `A_𝔭`-module `(Ω_{A/k}^1)_𝔭`, which is equal
-to `rg_{k(𝔭)}(Ω_{A/k}^1 ⊗_A k(𝔭))` (Bourbaki, Alg. comm., chap. II, §3, n° 2, cor. 2 of prop. 4). Note that one has
-`(Ω_{A/𝔮/k}^1)_𝔭 = (Ω_{A/k}^1 ⊗_A A/𝔮)_𝔭`, so the minimum number of generators of the `(A/𝔮)_𝔭`-module `(Ω_{A/𝔮/k}^1)_𝔭`
-is at most equal to `m`. It suffices consequently to consider the case where `𝔭 = 𝔮` is minimal. In the second place,
-let us show that one can restrict to the case where `k` is algebraically closed. Indeed, let `k'` be an algebraic
-closure of `k`, and set `Â' = A ⊗̂_k k'`, which is direct composite of local `k'`-algebras `A'_i` (`1 ≤ i ≤ r`), whose
-residue fields are isomorphic to `k'`, and which are faithfully flat `A`-modules `(18.11.4)`. Applying `(2.3.4)` and
-`(6.1.1)`, one sees that in a given `A'_i`, there exists a minimal ideal `𝔮'_i` above `𝔮` such that
-`n = dim(A'/𝔮'_i) = dim(A/𝔮) = n`. On the other hand `(18.11.4)`, one has
-`(Ω̂_{A'_i/k'}^1)_{𝔮'_i} = (Ω_{A/k}^1)_𝔮 ⊗_{A_𝔮} (A'_i)_{𝔮'_i}`, so the minimum number `m'` of generators of the
-`(A'_i)_{𝔮'_i}`-module `(Ω̂_{A'_i/k'}^1)_{𝔮'_i}` is at most equal to `m`, whence our assertion.
+Set $n = \dim(A/\mathfrak{q})$, and let $m$ be the minimum number of generators of the $A_{\mathfrak{p}}$-module
+$(\Omega^{1}_{A/k})_{\mathfrak{p}}$, which is equal to $rg_{k(\mathfrak{p})}(\Omega^{1}_{A/k} \otimes_{A}
+k(\mathfrak{p}))$ (Bourbaki, Alg. comm., chap. II, §3, n° 2, cor. 2 of prop. 4). Note that one has
+$(\Omega^{1}_{A/\mathfrak{q}/k})_{\mathfrak{p}} = (\Omega^{1}_{A/k} \otimes_{A} A/\mathfrak{q})_{\mathfrak{p}}$, so the
+minimum number of generators of the $(A/\mathfrak{q})_{\mathfrak{p}}$-module
+$(\Omega^{1}_{A/\mathfrak{q}/k})_{\mathfrak{p}}$ is at most equal to $m$. It suffices consequently to consider the case
+where $\mathfrak{p} = \mathfrak{q}$ is minimal. In the second place, let us show that one can restrict to the case where
+$k$ is algebraically closed. Indeed, let $k'$ be an algebraic closure of $k$, and set $\hat{A}' = A \hat{\otimes}_{k}
+k'$, which is direct composite of local $k'$-algebras $A'_{i}$ ($1 \leq i \leq r$), whose residue fields are isomorphic
+to $k'$, and which are faithfully flat $A$-modules `(18.11.4)`. Applying `(2.3.4)` and `(6.1.1)`, one sees that in a
+given $A'_{i}$, there exists a minimal ideal $\mathfrak{q}'_{i}$ above $\mathfrak{q}$ such that $n =
+\dim(A'/\mathfrak{q}'_{i}) = \dim(A/\mathfrak{q}) = n$. On the other hand `(18.11.4)`, one has
+$(\hat{\Omega}^{1}_{A'_{i}/k'})_{\mathfrak{q}'_{i}} = (\Omega^{1}_{A/k})_{\mathfrak{q}} \otimes_{A_{\mathfrak{q}}}
+(A'_{i})_{\mathfrak{q}'_{i}}$, so the minimum number $m'$ of generators of the $(A'_{i})_{\mathfrak{q}'_{i}}$-module
+$(\hat{\Omega}^{1}_{A'_{i}/k'})_{\mathfrak{q}'_{i}}$ is at most equal to $m$, whence our assertion.
 
-Suppose therefore `k` algebraically closed, and let us show that one can moreover restrict to the case where `𝔮 = 0`.
-Indeed, one has `Υ_{A/𝔮/A} = 0` `(0, 20.4.12)`, so the exact sequence `(18.11.3.6)` furnishes a surjective homomorphism
-`(Ω_{A/k}^1)_𝔭 ⊗_A (A/𝔮) → (Ω_{A/𝔮/k}^1)_𝔭`, whence one deduces at once that the minimum number of generators of the
-`K`-module `(Ω_{A/𝔮/k}^1) ⊗_A K`, where `K` is the field of fractions of `A/𝔮`, is at most equal to `m`.
+Suppose therefore $k$ algebraically closed, and let us show that one can moreover restrict to the case where
+$\mathfrak{q} = 0$. Indeed, one has $\Upsilon_{A/\mathfrak{q}/A} = 0$ `(0, 20.4.12)`, so the exact sequence
+`(18.11.3.6)` furnishes a surjective homomorphism $(\Omega^{1}_{A/k})_{\mathfrak{p}} \otimes_{A} (A/\mathfrak{q}) \to
+(\Omega^{1}_{A/\mathfrak{q}/k})_{\mathfrak{p}}$, whence one deduces at once that the minimum number of generators of the
+$K$-module $(\Omega^{1}_{A/\mathfrak{q}/k}) \otimes_{A} K$, where $K$ is the field of fractions of $A/\mathfrak{q}$, is
+at most equal to $m$.
 
-But if `A` is integral and `K` its field of fractions, `K` is separable over the algebraically closed field `k`, hence a
-geometrically regular `k`-algebra `(6.7.6)`; one can therefore apply `(18.11.3)` for `𝔭 = 0` observing that `k = k^p`
-since `k` is algebraically closed, and in this case one has `m = n`.
+But if $A$ is integral and $K$ its field of fractions, $K$ is separable over the algebraically closed field $k$, hence a
+geometrically regular $k$-algebra `(6.7.6)`; one can therefore apply `(18.11.3)` for $\mathfrak{p} = 0$ observing that
+$k = k^{p}$ since $k$ is algebraically closed, and in this case one has $m = n$.
 
-**Lemma (18.11.5.2).** *Let `k` be a field, `A` a complete Noetherian local `k`-algebra, whose residue field is a finite
-extension of `k`, `𝔪` its maximal ideal, `𝔭 ⊂ 𝔪` a prime ideal of `A`. Let `m` be the minimum number of generators of
-the `A_𝔭`-module `(Ω_{A/k}^1)_𝔭`, and let `(x_i)_{1 ≤ i ≤ m}` be a family of elements of `𝔪` not belonging to `𝔭`. Then
-there exist `m` invertible elements `u_i` (`1 ≤ i ≤ m`) of `A` such that if one sets `y_i = u_i x_i`, the canonical
-images of the `dy_i` in `(Ω_{A/k}^1)_𝔭` generate this `A_𝔭`-module.*
+**Lemma (18.11.5.2).** *Let $k$ be a field, $A$ a complete Noetherian local $k$-algebra, whose residue field is a finite
+extension of $k$, $\mathfrak{m}$ its maximal ideal, $\mathfrak{p} \subset \mathfrak{m}$ a prime ideal of $A$. Let $m$ be
+the minimum number of generators of the $A_{\mathfrak{p}}$-module $(\Omega^{1}_{A/k})_{\mathfrak{p}}$, and let
+$(x_{i})_{1 \leq i \leq m}$ be a family of elements of $\mathfrak{m}$ not belonging to $\mathfrak{p}$. Then there exist
+$m$ invertible elements $u_{i}$ ($1 \leq i \leq m$) of $A$ such that if one sets $y_{i} = u_{i} x_{i}$, the canonical
+images of the $dy_{i}$ in $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ generate this $A_{\mathfrak{p}}$-module.*
 
-For every `x ∈ A`, let us denote by `δ(x)` the canonical image of `dx (= d_{A/k} x)` in
-`(Ω_{A/k}^1)_𝔭 ⊗_{A_𝔭} k(𝔭) = Ω_{A/k}^1 ⊗_A k(𝔭)`; since this `k(𝔭)`-vector space is by hypothesis of rank `m`, it
-suffices (by virtue of Nakayama's lemma) to prove that one can determine the `u_i` such that the `δ(y_i)` form a free
-system. Reasoning by recurrence and supposing that, for an integer `r < m`, one has determined the `u_i` (`1 ≤ i ≤ r`)
-such that the `δ(y_i)` for `1 ≤ i ≤ r` are linearly independent over `k(𝔭)`; if `δ(x_{r+1})` is not a linear combination
-of the `δ(y_i)` for `1 ≤ i ≤ r`, it suffices to take `u_{r+1} = 1` to continue the recurrence. In the contrary case,
-note that for `u ∈ A`, `δ(u x_{r+1})` is the canonical image of `u(dx_{r+1}) + x_{r+1}(du)`; since `u(dx_{r+1})` has a
-canonical image linear combination of the `δ(y_i)` for `1 ≤ i ≤ r`, and that on the other hand the canonical image of
-`x_{r+1}` in `k(𝔭)` is `≠ 0`, one sees that it suffices to prove that there exists an invertible element `u ∈ A` such
-that `δ(u)` is not a linear combination of the `δ(y_i)` for `1 ≤ i ≤ r`. Now, it results from `(0, 20.7.15)` and from
-`(0_I, 7.2.9)` that the `δ(x)` generate the `k(𝔭)`-vector space `(Ω_{A/k}^1)_𝔭 ⊗_{A_𝔭} k(𝔭)`;
+For every $x \in A$, let us denote by $\delta(x)$ the canonical image of $dx (= d_{A/k} x)$ in
+$(\Omega^{1}_{A/k})_{\mathfrak{p}} \otimes_{A_{\mathfrak{p}}} k(\mathfrak{p}) = \Omega^{1}_{A/k} \otimes_{A}
+k(\mathfrak{p})$; since this $k(\mathfrak{p})$-vector space is by hypothesis of rank $m$, it suffices (by virtue of
+Nakayama's lemma) to prove that one can determine the $u_{i}$ such that the $\delta(y_{i})$ form a free system.
+Reasoning by recurrence and supposing that, for an integer $r < m$, one has determined the $u_{i}$ ($1 \leq i \leq r$)
+such that the $\delta(y_{i})$ for $1 \leq i \leq r$ are linearly independent over $k(\mathfrak{p})$; if
+$\delta(x_{r+1})$ is not a linear combination of the $\delta(y_{i})$ for $1 \leq i \leq r$, it suffices to take $u_{r+1}
+= 1$ to continue the recurrence. In the contrary case, note that for $u \in A$, $\delta(u x_{r+1})$ is the canonical
+image of $u(dx_{r+1}) + x_{r+1}(du)$; since $u(dx_{r+1})$ has a canonical image linear combination of the
+$\delta(y_{i})$ for $1 \leq i \leq r$, and that on the other hand the canonical image of $x_{r+1}$ in $k(\mathfrak{p})$
+is $\neq 0$, one sees that it suffices to prove that there exists an invertible element $u \in A$ such that $\delta(u)$
+is not a linear combination of the $\delta(y_{i})$ for $1 \leq i \leq r$. Now, it results from `(0, 20.7.15)` and from
+$(0_{I}, 7.2.9)$ that the $\delta(x)$ generate the $k(\mathfrak{p})$-vector space $(\Omega^{1}_{A/k})_{\mathfrak{p}}
+\otimes_{A_{\mathfrak{p}}} k(\mathfrak{p})$;
 
 <!-- original page 176 -->
 
-since by hypothesis `r < m`, there therefore exists `v ∈ A` such that `δ(v)` is not a linear combination of the `δ(y_i)`
-for `1 ≤ i ≤ r`. If `v ∉ 𝔪`, one will take `u = v`; otherwise, `1 + v` is invertible and one has `δ(1 + v) = δ(v)` since
-`d(1 + v) = dv`; one will then take `u = 1 + v`, which finishes proving `(18.11.5.2)`.
+since by hypothesis $r < m$, there therefore exists $v \in A$ such that $\delta(v)$ is not a linear combination of the
+$\delta(y_{i})$ for $1 \leq i \leq r$. If $v \notin \mathfrak{m}$, one will take $u = v$; otherwise, $1 + v$ is
+invertible and one has $\delta(1 + v) = \delta(v)$ since $d(1 + v) = dv$; one will then take $u = 1 + v$, which finishes
+proving `(18.11.5.2)`.
 
-Let us now return to the proof of the implication a) `⇒` b) in `(18.11.5)`. Note first that since `𝔭 ≠ 𝔪`, there exists
-a system of parameters `(x_i)_{1 ≤ i ≤ n}` of `A` (with `n = dim(A)`) such that `x_i ∉ 𝔭` for `1 ≤ i ≤ n`: indeed, one
-cannot have `x_i ∈ 𝔭` for every `i`, otherwise `A/𝔭` would be of finite length, and `𝔭` would be maximal, contrary to
-the hypothesis. But if for example `x_1 ∉ 𝔭`, it suffices, for each index `i` such that `x_i ∈ 𝔭`, to replace `x_i` by
-`x_1 + x_i`, in order to have a system of parameters of which no element belongs to `𝔭`. Hypothesis a) and the relation
-`dim(A/𝔮) = n` imply, by virtue of `(18.11.5.1)`, that `m ≥ n`; one can therefore consider a family `(x_i)_{1 ≤ i ≤ m}`
-of elements `x_i ∉ 𝔭`, of which the first `n` form a system of parameters of `A`. Multiplying moreover the `x_i` by
-invertible elements `u_i` of `A`, one can, thanks to `(18.11.5.2)`, suppose that the images of the `dx_i` (`1 ≤ i ≤ m`)
-in `(Ω_{A/k}^1)_𝔭` generate this `A_𝔭`-module, and the multiplication by the `u_i` has not altered the fact that the
-`x_i` for `1 ≤ i ≤ n` form a system of parameters. Let us then consider the local `k`-homomorphism `u : B → A` such that
-`u(T_i) = x_i` for `1 ≤ i ≤ m` (Bourbaki, Alg. comm., chap. III, §4, n° 5, prop. 6); since the `x_i` generate an ideal
-of definition of `A`, it results from `(0_I, 7.4.4 and 7.4.3)` that `u` makes `A` into a finite `B`-algebra. One
-therefore has `(18.11.3.5)` the exact sequence
+Let us now return to the proof of the implication a) $\Rightarrow$ b) in `(18.11.5)`. Note first that since
+$\mathfrak{p} \neq \mathfrak{m}$, there exists a system of parameters $(x_{i})_{1 \leq i \leq n}$ of $A$ (with $n =
+\dim(A)$) such that $x_{i} \notin \mathfrak{p}$ for $1 \leq i \leq n$: indeed, one cannot have $x_{i} \in \mathfrak{p}$
+for every $i$, otherwise $A/\mathfrak{p}$ would be of finite length, and $\mathfrak{p}$ would be maximal, contrary to
+the hypothesis. But if for example $x_{1} \notin \mathfrak{p}$, it suffices, for each index $i$ such that $x_{i} \in
+\mathfrak{p}$, to replace $x_{i}$ by $x_{1} + x_{i}$, in order to have a system of parameters of which no element
+belongs to $\mathfrak{p}$. Hypothesis a) and the relation $\dim(A/\mathfrak{q}) = n$ imply, by virtue of `(18.11.5.1)`,
+that $m \geq n$; one can therefore consider a family $(x_{i})_{1 \leq i \leq m}$ of elements $x_{i} \notin
+\mathfrak{p}$, of which the first $n$ form a system of parameters of $A$. Multiplying moreover the $x_{i}$ by invertible
+elements $u_{i}$ of $A$, one can, thanks to `(18.11.5.2)`, suppose that the images of the $dx_{i}$ ($1 \leq i \leq m$)
+in $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ generate this $A_{\mathfrak{p}}$-module, and the multiplication by the $u_{i}$
+has not altered the fact that the $x_{i}$ for $1 \leq i \leq n$ form a system of parameters. Let us then consider the
+local $k$-homomorphism $u : B \to A$ such that $u(T_{i}) = x_{i}$ for $1 \leq i \leq m$ (Bourbaki, Alg. comm., chap.
+III, §4, n° 5, prop. 6); since the $x_{i}$ generate an ideal of definition of $A$, it results from $(0_{I}, 7.4.4 and
+7.4.3)$ that $u$ makes $A$ into a finite $B$-algebra. One therefore has `(18.11.3.5)` the exact sequence
 
 ```text
   (Ω_{B/k}^1 ⊗_B A) →^v Ω_{A/k}^1 → Ω_{A/B}^1 → 0.
 ```
 
-But the `dx_i` are the canonical images by `v` of the elements `dT_i ⊗ 1` `(0, 20.5.2.6)`. If one localizes the
-preceding exact sequence at `𝔭`, one sees therefore that `v_𝔭 : (Ω_{B/k}^1 ⊗_B A)_𝔭 → (Ω_{A/k}^1)_𝔭` is surjective, and
-consequently one has `(Ω_{A/B}^1)_𝔭 = (Ω_{A/B}^1)_𝔯 = 0` (where `𝔯` is the inverse image of `𝔭` in `B`, cf.
-`(16.4.15)`). By virtue of `(17.4.1)`, this implies property b) of `(18.11.5)`. Q.E.D.
+But the $dx_{i}$ are the canonical images by $v$ of the elements $dT_{i} \otimes 1$ `(0, 20.5.2.6)`. If one localizes
+the preceding exact sequence at $\mathfrak{p}$, one sees therefore that $v_{\mathfrak{p}} : (\Omega^{1}_{B/k}
+\otimes_{B} A)_{\mathfrak{p}} \to (\Omega^{1}_{A/k})_{\mathfrak{p}}$ is surjective, and consequently one has
+$(\Omega^{1}_{A/B})_{\mathfrak{p}} = (\Omega^{1}_{A/B})_{\mathfrak{r}} = 0$ (where $\mathfrak{r}$ is the inverse image
+of $\mathfrak{p}$ in $B$, cf. `(16.4.15)`). By virtue of `(17.4.1)`, this implies property b) of `(18.11.5)`. Q.E.D.
 
-**Remark (18.11.6).** — In the statement of `(18.11.5)`, one cannot suppress the hypothesis `𝔭 ≠ 𝔪`. Indeed, for every
-local `k`-homomorphism `u : B → A`, where `B = k[[T_1, …, T_r]]` (`r` an arbitrary integer) making `A` into a finite
-`B`-algebra, `𝔪` is the only point of `Spec(A)` above the maximal ideal `𝔫` of `B`; the morphism `Spec(A) → Spec(B)`
-cannot be unramified at `𝔪` unless `A/𝔫 A` is a field, separable extension of `k` `(17.4.1)`, which implies that the
-residue field `K` of `A` is a separable extension of `k`. If this condition is not satisfied, the conclusion of
-`(18.11.5)` can never be verified for `𝔭 = 𝔪`, whatever the integer `m`.
+**Remark (18.11.6).** — In the statement of `(18.11.5)`, one cannot suppress the hypothesis $\mathfrak{p} \neq
+\mathfrak{m}$. Indeed, for every local $k$-homomorphism $u : B \to A$, where $B = k[[T_{1}, \cdots, T_{r}]]$ ($r$ an
+arbitrary integer) making $A$ into a finite $B$-algebra, $\mathfrak{m}$ is the only point of $\operatorname{Spec}(A)$
+above the maximal ideal $\mathfrak{n}$ of $B$; the morphism $\operatorname{Spec}(A) \to \operatorname{Spec}(B)$ cannot
+be unramified at $\mathfrak{m}$ unless $A/\mathfrak{n} A$ is a field, separable extension of $k$ `(17.4.1)`, which
+implies that the residue field $K$ of $A$ is a separable extension of $k$. If this condition is not satisfied, the
+conclusion of `(18.11.5)` can never be verified for $\mathfrak{p} = \mathfrak{m}$, whatever the integer $m$.
 
 **Corollary (18.11.7).**
 
 <!-- label: IV.18.11.7 -->
 
-*Let `k` be a field, `A` a complete Noetherian local equidimensional `k`-algebra, whose residue field is a finite
-extension of `k`, `𝔭` a prime ideal of `A`. Then the minimum number of generators of the `A_𝔭`-module `(Ω_{A/k}^1)_𝔭` is
-at least equal to `dim(A)`.*
+*Let $k$ be a field, $A$ a complete Noetherian local equidimensional $k$-algebra, whose residue field is a finite
+extension of $k$, $\mathfrak{p}$ a prime ideal of $A$. Then the minimum number of generators of the
+$A_{\mathfrak{p}}$-module $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ is at least equal to $\dim(A)$.*
 
 It is a particular case of `(18.11.5.1)`.
 
@@ -3591,104 +3860,120 @@ More particularly:
 
 <!-- label: IV.18.11.8 -->
 
-*Let `k` be a field, `A` a complete Noetherian local integral `k`-algebra, whose residue field is a finite extension of
-`k`. If `K` is the field of fractions of `A`, one has `rg_K((Ω_{A/k}^1) ⊗_A K) ≥ dim(A)`.*
+*Let $k$ be a field, $A$ a complete Noetherian local integral $k$-algebra, whose residue field is a finite extension of
+$k$. If $K$ is the field of fractions of $A$, one has $rg_{K}((\Omega^{1}_{A/k}) \otimes_{A} K) \geq \dim(A)$.*
 
-It suffices to set `𝔭 = 0` in `(18.11.7)`.
+It suffices to set $\mathfrak{p} = 0$ in `(18.11.7)`.
 
 **Corollary (18.11.9).**
 
 <!-- label: IV.18.11.9 -->
 
-*Let `k` be a field, `A` a complete Noetherian local `k`-algebra of dimension `n`, whose residue field is a finite
-extension of `k`. Let `𝔭` be a prime ideal of `A` distinct from the maximal ideal, and containing a minimal prime ideal
-`𝔮` such that `dim(A/𝔮) = n`. Suppose that the `A_𝔭`-module `(Ω_{A/k}^1)_𝔭` admits `n` generators. Then:*
+*Let $k$ be a field, $A$ a complete Noetherian local $k$-algebra of dimension $n$, whose residue field is a finite
+extension of $k$. Let $\mathfrak{p}$ be a prime ideal of $A$ distinct from the maximal ideal, and containing a minimal
+prime ideal $\mathfrak{q}$ such that $\dim(A/\mathfrak{q}) = n$. Suppose that the $A_{\mathfrak{p}}$-module
+$(\Omega^{1}_{A/k})_{\mathfrak{p}}$ admits $n$ generators. Then:*
 
-*(i) the `A_𝔭`-module `(Ω_{A/k}^1)_𝔭` is free of rank `n`.*
+*(i) the $A_{\mathfrak{p}}$-module $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ is free of rank $n$.*
 
-*(ii) There exists a local `k`-homomorphism `u : B → A`, where `B = k[[T_1, …, T_n]]`, making `A` into a finite
-`B`-algebra, and such that the corresponding morphism `Spec(A) → Spec(B)` is étale at the point `𝔭`.*
+*(ii) There exists a local $k$-homomorphism $u : B \to A$, where $B = k[[T_{1}, \cdots, T_{n}]]$, making $A$ into a
+finite $B$-algebra, and such that the corresponding morphism $\operatorname{Spec}(A) \to \operatorname{Spec}(B)$ is
+étale at the point $\mathfrak{p}$.*
 
-*(iii) The `k`-algebra `A_𝔭` is geometrically regular.*
+*(iii) The $k$-algebra $A_{\mathfrak{p}}$ is geometrically regular.*
 
-Let us prove first (ii); by virtue of `(18.11.5)`, there exists a local homomorphism `u : B = k[[T_1, …, T_n]] → A`
-making `A` into a finite `B`-algebra, and such that the corresponding morphism `Spec(A) → Spec(B)` is unramified at the
-point `𝔭`; set `𝔯 = u⁻¹(𝔭)`. The hypothesis on `𝔮 ⊂ 𝔭`, and the fact that `A` is a quotient of a regular ring
-`(0, 19.8.8)` imply that one has `dim(A_𝔭) = n − dim(A/𝔭)` `(0, 16.5.12)`. One has similarly `dim(B_𝔯) = n − dim(B/𝔯)`.
-Finally, since the morphism `Spec(A) → Spec(B)` is unramified at the point `𝔭`, the fibre of this morphism at the point
-`𝔯` is of dimension `0`, hence `(0, 16.3.9)` one has `dim(A/𝔭) ≤ dim(B/𝔯)` and consequently `dim(B_𝔯) ≤ dim(A_𝔭)`. One
-concludes therefore from `(18.10.1)` that the morphism `Spec(A) → Spec(B)` is étale at the point `𝔭`.
+Let us prove first (ii); by virtue of `(18.11.5)`, there exists a local homomorphism $u : B = k[[T_{1}, \cdots, T_{n}]]
+\to A$ making $A$ into a finite $B$-algebra, and such that the corresponding morphism $\operatorname{Spec}(A) \to
+\operatorname{Spec}(B)$ is unramified at the point $\mathfrak{p}$; set $\mathfrak{r} = u^{-1}(\mathfrak{p})$. The
+hypothesis on $\mathfrak{q} \subset \mathfrak{p}$, and the fact that $A$ is a quotient of a regular ring `(0, 19.8.8)`
+imply that one has $\dim(A_{\mathfrak{p}}) = n - \dim(A/\mathfrak{p})$ `(0, 16.5.12)`. One has similarly
+$\dim(B_{\mathfrak{r}}) = n - \dim(B/\mathfrak{r})$. Finally, since the morphism $\operatorname{Spec}(A) \to
+\operatorname{Spec}(B)$ is unramified at the point $\mathfrak{p}$, the fibre of this morphism at the point
+$\mathfrak{r}$ is of dimension `0`, hence `(0, 16.3.9)` one has $\dim(A/\mathfrak{p}) \leq \dim(B/\mathfrak{r})$ and
+consequently $\dim(B_{\mathfrak{r}}) \leq \dim(A_{\mathfrak{p}})$. One concludes therefore from `(18.10.1)` that the
+morphism $\operatorname{Spec}(A) \to \operatorname{Spec}(B)$ is étale at the point $\mathfrak{p}$.
 
-Assertion (iii) results from the fact that `A_𝔭` is formally smooth over `B_𝔯` and that `B_𝔯` is formally smooth over
-`k` (for the preadic topologies) `(0, 19.3.4 and 19.3.5)`, hence `A_𝔭` is formally smooth over `k` for its preadic
-topology, and consequently is geometrically regular over `k` `(0, 22.5.8)`.
+Assertion (iii) results from the fact that $A_{\mathfrak{p}}$ is formally smooth over $B_{\mathfrak{r}}$ and that
+$B_{\mathfrak{r}}$ is formally smooth over $k$ (for the preadic topologies) `(0, 19.3.4 and 19.3.5)`, hence
+$A_{\mathfrak{p}}$ is formally smooth over $k$ for its preadic topology, and consequently is geometrically regular over
+$k$ `(0, 22.5.8)`.
 
-Let us prove finally (i). Let `k'` be an algebraically closed extension of `k`, and consider the semi-local `k'`-algebra
-`Â' = A ⊗̂_k k'`. If one considers `A` as a finite `B`-module by means of the homomorphism `u`, one can write, up to a
-canonical isomorphism, `Â' = A ⊗_B (B ⊗̂_k k')` (`(7.5.7.1)`, in the statement of which one recalls that it is not
-necessary to suppose the residue field of `B` to be a finite extension of `k`). Set `B' = B ⊗̂_k k'`, which identifies
-canonically with the formal power series algebra `k'[[T_1, …, T_n]]`. Since the morphism `Spec(A) → Spec(B)` is finite
-and étale at the point `𝔭`, the morphism `Spec(Â') → Spec(B')` is finite, and étale at every point `𝔭'` above `𝔭`
-`(17.3.3)`; moreover, `Â'` is direct composite of local rings `A'_i` of dimension `n` (`1 ≤ i ≤ r`) `(18.11.4)` and `𝔭'`
-identifies with a prime ideal `𝔭'_i` of one of the `A'_i`. The same reasoning as above proves then that `(A'_i)_{𝔭'_i}`
-is geometrically regular over `k'`, and since `k'` is perfect, it results from `(18.11.3)` that
-`(Ω̂_{A'_i/k'}^1)_{𝔭'_i}` is a `(A'_i)_{𝔭'_i}`-module free of finite type. But
+Let us prove finally (i). Let $k'$ be an algebraically closed extension of $k$, and consider the semi-local $k'$-algebra
+$\hat{A}' = A \hat{\otimes}_{k} k'$. If one considers $A$ as a finite $B$-module by means of the homomorphism $u$, one
+can write, up to a canonical isomorphism, $\hat{A}' = A \otimes_{B} (B \hat{\otimes}_{k} k')$ (`(7.5.7.1)`, in the
+statement of which one recalls that it is not necessary to suppose the residue field of $B$ to be a finite extension of
+$k$). Set $B' = B \hat{\otimes}_{k} k'$, which identifies canonically with the formal power series algebra $k'[[T_{1},
+\cdots, T_{n}]]$. Since the morphism $\operatorname{Spec}(A) \to \operatorname{Spec}(B)$ is finite and étale at the
+point $\mathfrak{p}$, the morphism $\operatorname{Spec}(\hat{A}') \to \operatorname{Spec}(B')$ is finite, and étale at
+every point $\mathfrak{p}'$ above $\mathfrak{p}$ `(17.3.3)`; moreover, `Â'` is direct composite of local rings $A'_{i}$
+of dimension $n$ ($1 \leq i \leq r$) `(18.11.4)` and $\mathfrak{p}'$ identifies with a prime ideal $\mathfrak{p}'_{i}$
+of one of the $A'_{i}$. The same reasoning as above proves then that $(A'_{i})_{\mathfrak{p}'_{i}}$ is geometrically
+regular over $k'$, and since $k'$ is perfect, it results from `(18.11.3)` that
+$(\hat{\Omega}^{1}_{A'_{i}/k'})_{\mathfrak{p}'_{i}}$ is a $(A'_{i})_{\mathfrak{p}'_{i}}$-module free of finite type. But
 
 <!-- original page 178 -->
 
-since `(A'_i)_{𝔭'_i}` is isomorphic to `(Ω_{A/k}^1)_𝔭 ⊗_{A_𝔭} (A'_i)_{𝔭'_i}` `(18.11.4)` and `(A'_i)_{𝔭'_i}` is an
-`A_𝔭`-module faithfully flat, one sees that `(Ω_{A/k}^1)_𝔭` is an `A_𝔭`-module free of finite type `(2.5.2)`; moreover,
-by virtue of `(18.11.5.1)` and of the hypothesis `dim(A/𝔮) = n`, one concludes that `(Ω_{A/k}^1)_𝔭` is an `A_𝔭`-module
-free of rank `n`. Q.E.D.
+since $(A'_{i})_{\mathfrak{p}'_{i}}$ is isomorphic to $(\Omega^{1}_{A/k})_{\mathfrak{p}} \otimes_{A_{\mathfrak{p}}}
+(A'_{i})_{\mathfrak{p}'_{i}}$ `(18.11.4)` and $(A'_{i})_{\mathfrak{p}'_{i}}$ is an $A_{\mathfrak{p}}$-module faithfully
+flat, one sees that $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ is an $A_{\mathfrak{p}}$-module free of finite type `(2.5.2)`;
+moreover, by virtue of `(18.11.5.1)` and of the hypothesis $\dim(A/\mathfrak{q}) = n$, one concludes that
+$(\Omega^{1}_{A/k})_{\mathfrak{p}}$ is an $A_{\mathfrak{p}}$-module free of rank $n$. Q.E.D.
 
 **Theorem (18.11.10).**
 
 <!-- label: IV.18.11.10 -->
 
-*Let `k` be a field of characteristic exponent `p`, `A` a complete Noetherian local `k`-algebra, whose residue field is
-a finite extension of `k`, `𝔭` a prime ideal of `A` distinct from the maximal ideal. The following conditions are
-equivalent:*
+*Let $k$ be a field of characteristic exponent $p$, $A$ a complete Noetherian local $k$-algebra, whose residue field is
+a finite extension of $k$, $\mathfrak{p}$ a prime ideal of $A$ distinct from the maximal ideal. The following conditions
+are equivalent:*
 
-*a) For every extension `k'` of `k`, and every prime ideal `𝔭'` of `Â' = A ⊗̂_k k'` above `𝔭`, `Â'_{𝔭'}` is a regular
-ring.*
+*a) For every extension $k'$ of $k$, and every prime ideal $\mathfrak{p}'$ of $\hat{A}' = A \hat{\otimes}_{k} k'$ above
+$\mathfrak{p}$, $\hat{A}'_{\mathfrak{p}'}$ is a regular ring.*
 
-*a') There exist a perfect extension `k'` of `k` and a prime ideal `𝔭'` of `Â' = A ⊗̂_k k'` above `𝔭`, such that
-`Â'_{𝔭'}` is regular.*
+*a') There exist a perfect extension $k'$ of $k$ and a prime ideal $\mathfrak{p}'$ of $\hat{A}' = A \hat{\otimes}_{k}
+k'$ above $\mathfrak{p}$, such that $\hat{A}'_{\mathfrak{p}'}$ is regular.*
 
-*b) Let `n` be the largest of the dimensions of the irreducible components of `Spec(A)` to which `𝔭` belongs; then
-`(Ω_{A/k}^1)_𝔭` is an `A_𝔭`-module free of rank `n`.*
+*b) Let $n$ be the largest of the dimensions of the irreducible components of $\operatorname{Spec}(A)$ to which
+$\mathfrak{p}$ belongs; then $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ is an $A_{\mathfrak{p}}$-module free of rank $n$.*
 
-*Suppose moreover that `n = dim(A)` (which will be the case if `A` is equidimensional); then the preceding conditions
+*Suppose moreover that $n = \dim(A)$ (which will be the case if $A$ is equidimensional); then the preceding conditions
 are also equivalent to:*
 
-*c) There exists a local `k`-homomorphism `u : B → A`, where `B = k[[T_1, …, T_n]]`, making `A` into a finite
-`B`-algebra, and such that the corresponding morphism `Spec(A) → Spec(B)` is étale at the point `𝔭`.*
+*c) There exists a local $k$-homomorphism $u : B \to A$, where $B = k[[T_{1}, \cdots, T_{n}]]$, making $A$ into a finite
+$B$-algebra, and such that the corresponding morphism $\operatorname{Spec}(A) \to \operatorname{Spec}(B)$ is étale at
+the point $\mathfrak{p}$.*
 
 *Each of the conditions a), a'), b) implies the following:*
 
-*d) The ring `A_𝔭` is geometrically regular over `k`.*
+*d) The ring $A_{\mathfrak{p}}$ is geometrically regular over $k$.*
 
-*If moreover `[k : k^p] < +∞`, condition d) is equivalent to a), a') and b).*
+*If moreover $[k : k^{p}] < +\infty$, condition d) is equivalent to a), a') and b).*
 
-The fact that d) implies b) when `[k : k^p] < +∞` is none other than `(18.11.3)`. It is clear that a) implies trivially
-a'); let us show that c) implies a) when `dim(A) = n`. With the notations of a), one has then `Â' = A ⊗_B B'`, where
-`B' = B ⊗̂_k k' = k'[[T_1, …, T_n]]` `(7.5.7.1)`. The morphism `Spec(Â') → Spec(B')` is then finite and étale at the
-point `𝔭'`, and the reasoning that proves `(18.11.9, (iii))` shows that `Â'_{𝔭'}` is regular.
+The fact that d) implies b) when $[k : k^{p}] < +\infty$ is none other than `(18.11.3)`. It is clear that a) implies
+trivially a'); let us show that c) implies a) when $\dim(A) = n$. With the notations of a), one has then $\hat{A}' = A
+\otimes_{B} B'$, where $B' = B \hat{\otimes}_{k} k' = k'[[T_{1}, \cdots, T_{n}]]$ `(7.5.7.1)`. The morphism
+$\operatorname{Spec}(\hat{A}') \to \operatorname{Spec}(B')$ is then finite and étale at the point $\mathfrak{p}'$, and
+the reasoning that proves `(18.11.9, (iii))` shows that $\hat{A}'_{\mathfrak{p}'}$ is regular.
 
-The fact that b) implies c) when `dim(A) = n` results from `(18.11.9)`. Let us show that a') implies b) when
-`dim(A) = n`. One knows that `Â'` is an `A`-module flat `(18.11.4)` and `dim(Â') = dim(A) = n`; it results from
-`(2.3.4)` and from `(6.1.1)` that there exists a minimal prime ideal `𝔮'` of `Â'` contained in `𝔭'`, above `𝔮` and such
-that `dim(Â'/𝔮') = dim(A/𝔮) = n`. Moreover, it results from `(18.11.4)` that
-`(Ω̂_{Â'/k'}^1)_{𝔭'} = (Ω_{A/k}^1)_𝔭 ⊗_{A_𝔭} Â'_{𝔭'}`; since `k'` is perfect, the hypothesis that `Â'_{𝔭'}` is regular
-implies that it is geometrically regular over `k'` `(6.7.7)`. Since `k'^p = k'`, one can apply to `Â'` and `𝔭'` the fact
-that d) implies b), hence `(Ω̂_{Â'/k'}^1)_{𝔭'}` is an `Â'_{𝔭'}`-module free of rank `n`; by faithful flatness
-`(18.11.4 and 2.5.2)`, one concludes that `(Ω_{A/k}^1)_𝔭` is an `A_𝔭`-module free of rank `n`.
+The fact that b) implies c) when $\dim(A) = n$ results from `(18.11.9)`. Let us show that a') implies b) when $\dim(A) =
+n$. One knows that `Â'` is an $A$-module flat `(18.11.4)` and $\dim(\hat{A}') = \dim(A) = n$; it results from `(2.3.4)`
+and from `(6.1.1)` that there exists a minimal prime ideal $\mathfrak{q}'$ of `Â'` contained in $\mathfrak{p}'$, above
+$\mathfrak{q}$ and such that $\dim(\hat{A}'/\mathfrak{q}') = \dim(A/\mathfrak{q}) = n$. Moreover, it results from
+`(18.11.4)` that $(\hat{\Omega}^{1}_{\hat{A}'/k'})_{\mathfrak{p}'} = (\Omega^{1}_{A/k})_{\mathfrak{p}}
+\otimes_{A_{\mathfrak{p}}} \hat{A}'_{\mathfrak{p}'}$; since $k'$ is perfect, the hypothesis that
+$\hat{A}'_{\mathfrak{p}'}$ is regular implies that it is geometrically regular over $k'$ `(6.7.7)`. Since $k'^{p} = k'$,
+one can apply to `Â'` and $\mathfrak{p}'$ the fact that d) implies b), hence
+$(\hat{\Omega}^{1}_{\hat{A}'/k'})_{\mathfrak{p}'}$ is an $\hat{A}'_{\mathfrak{p}'}$-module free of rank $n$; by faithful
+flatness `(18.11.4 and 2.5.2)`, one concludes that $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ is an $A_{\mathfrak{p}}$-module
+free of rank $n$.
 
-This shows the equivalence of a), a'), b) and c) when `dim(A) = n`. It remains to prove that a), a') and b) are still
-equivalent in the general case. Let `𝔍` be the ideal of `A`, kernel of the canonical homomorphism `A → A_𝔭`, and set
-`A_1 = A/𝔍`; one has necessarily `𝔍 ⊂ 𝔭`, and if one sets `𝔭_1 = 𝔭/𝔍`, the canonical homomorphism `A_𝔭 → (A_1)_{𝔭_1}` is
-bijective; one concludes `(I, 6.5.4)` that the canonical injection `Spec(A_1) → Spec(A)` is a local isomorphism at the
-point `𝔭_1`, and one has `𝔍_𝔭 = 0`. One sees as in `(18.11.3)` that one has an exact sequence
+This shows the equivalence of a), a'), b) and c) when $\dim(A) = n$. It remains to prove that a), a') and b) are still
+equivalent in the general case. Let $\mathfrak{J}$ be the ideal of $A$, kernel of the canonical homomorphism $A \to
+A_{\mathfrak{p}}$, and set $A_{1} = A/\mathfrak{J}$; one has necessarily $\mathfrak{J} \subset \mathfrak{p}$, and if one
+sets $\mathfrak{p}_{1} = \mathfrak{p}/\mathfrak{J}$, the canonical homomorphism $A_{\mathfrak{p}} \to
+(A_{1})_{\mathfrak{p}_{1}}$ is bijective; one concludes `(I, 6.5.4)` that the canonical injection
+$\operatorname{Spec}(A_{1}) \to \operatorname{Spec}(A)$ is a local isomorphism at the point $\mathfrak{p}_{1}$, and one
+has $\mathfrak{J}_{\mathfrak{p}} = 0$. One sees as in `(18.11.3)` that one has an exact sequence
 
 ```text
   (𝔍/𝔍^2) →^j Ω_{A/k}^1 ⊗_A A_1 → Ω_{A_1/k}^1 → 0
@@ -3696,102 +3981,117 @@ point `𝔭_1`, and one has `𝔍_𝔭 = 0`. One sees as in `(18.11.3)` that one
 
 <!-- original page 179 -->
 
-and localizing at `𝔭`, there comes an isomorphism `(Ω_{A/k}^1)_𝔭 = (Ω_{A_1/k}^1)_{𝔭_1}`. This shows that condition b)
-for the ring `A` and the ideal `𝔭` is equivalent to condition b) for the ring `A_1` and the ideal `𝔭_1`. On the other
-hand, with the notations of a), one has `Â'_1 = A_1 ⊗̂_k k' = Â'/𝔍 Â'` up to isomorphism (`(7.5.7.1)`, where the
-hypothesis on the residue field of `B` is superfluous); if `𝔭'` is a prime ideal of `Â'` above `𝔭`, every element of
-`𝔍 Â'` annihilates an element of `Â' − 𝔭'`, hence `𝔍 Â' ⊂ 𝔭'`, and if one sets `𝔭'_1 = 𝔭'/𝔍 Â'`, `𝔭'_1` is above `𝔭_1`
-and `(Â'_1)_{𝔭'_1}` identifies canonically with `Â'_{𝔭'}`; this shows therefore that condition a) (resp. a')) for the
-ring `A` and the ideal `𝔭` is equivalent to condition a) (resp. a')) for the ring `A_1` and the ideal `𝔭_1`. Now, all
-the minimal prime ideals of `A` contained in `𝔭` contain `𝔍` since `Spec(A_1) → Spec(A)` is a local isomorphism at the
-point `𝔭_1`; on the other hand the ideals of `Ass_A(A/𝔍)` are the ideals of `Ass(A)` which are contained in `𝔭`
-(Bourbaki, Alg. comm., chap. IV, §1, n° 2, prop. 6); so the minimal prime ideals of `A_1` are all contained in `𝔭_1`,
-and one has consequently `dim(A_1) = n`. It then suffices to apply to `A_1` and to `𝔭_1` what has been proved above.
+and localizing at $\mathfrak{p}$, there comes an isomorphism $(\Omega^{1}_{A/k})_{\mathfrak{p}} =
+(\Omega^{1}_{A_{1}/k})_{\mathfrak{p}_{1}}$. This shows that condition b) for the ring $A$ and the ideal $\mathfrak{p}$
+is equivalent to condition b) for the ring `A_1` and the ideal $\mathfrak{p}_{1}$. On the other hand, with the notations
+of a), one has $\hat{A}'_{1} = A_{1} \hat{\otimes}_{k} k' = \hat{A}'/\mathfrak{J} \hat{A}'$ up to isomorphism
+(`(7.5.7.1)`, where the hypothesis on the residue field of $B$ is superfluous); if $\mathfrak{p}'$ is a prime ideal of
+`Â'` above $\mathfrak{p}$, every element of $\mathfrak{J} \hat{A}'$ annihilates an element of $\hat{A}' -
+\mathfrak{p}'$, hence $\mathfrak{J} \hat{A}' \subset \mathfrak{p}'$, and if one sets $\mathfrak{p}'_{1} =
+\mathfrak{p}'/\mathfrak{J} \hat{A}'$, $\mathfrak{p}'_{1}$ is above $\mathfrak{p}_{1}$ and
+$(\hat{A}'_{1})_{\mathfrak{p}'_{1}}$ identifies canonically with $\hat{A}'_{\mathfrak{p}'}$; this shows therefore that
+condition a) (resp. a')) for the ring $A$ and the ideal $\mathfrak{p}$ is equivalent to condition a) (resp. a')) for the
+ring `A_1` and the ideal $\mathfrak{p}_{1}$. Now, all the minimal prime ideals of $A$ contained in $\mathfrak{p}$
+contain $\mathfrak{J}$ since $\operatorname{Spec}(A_{1}) \to \operatorname{Spec}(A)$ is a local isomorphism at the point
+$\mathfrak{p}_{1}$; on the other hand the ideals of $Ass_{A}(A/\mathfrak{J})$ are the ideals of $Ass(A)$ which are
+contained in $\mathfrak{p}$ (Bourbaki, Alg. comm., chap. IV, §1, n° 2, prop. 6); so the minimal prime ideals of `A_1`
+are all contained in $\mathfrak{p}_{1}$, and one has consequently $\dim(A_{1}) = n$. It then suffices to apply to `A_1`
+and to $\mathfrak{p}_{1}$ what has been proved above.
 
 **Remarks (18.11.11).** — (i) The equivalence of conditions d) and b) in `(18.11.10)` is no longer valid when one no
-longer supposes that `[k : k^p] < +∞`. Indeed, in the example of `(0, 22.7.7, (ii))`, the ring `B = A/𝔮` is integral and
-of dimension `1`; on the other hand, the sequence
+longer supposes that $[k : k^{p}] < +\infty$. Indeed, in the example of `(0, 22.7.7, (ii))`, the ring $B =
+A/\mathfrak{q}$ is integral and of dimension `1`; on the other hand, the sequence
 
 ```text
   (𝔮/𝔮^2) ⊗_A L →^j Ω_{A/k}^1 ⊗_A L → Ω_{B/k}^1 ⊗_B L → 0
 ```
 
-is exact (same proof as in `(18.11.3)`), and one knows that `j` is not injective, hence `j = 0` since `(𝔮/𝔮^2) ⊗_A L` is
-of rank `1`. One concludes that `rg_L(Ω_{B/k}^1 ⊗_B L) = 2`. Since `B_𝔭` is a geometrically regular `k`-algebra, one
-sees that here condition d) does not imply b).
+is exact (same proof as in `(18.11.3)`), and one knows that $j$ is not injective, hence $j = 0$ since
+$(\mathfrak{q}/\mathfrak{q}^{2}) \otimes_{A} L$ is of rank `1`. One concludes that $rg_{L}(\Omega^{1}_{B/k} \otimes_{B}
+L) = 2$. Since $B_{\mathfrak{p}}$ is a geometrically regular $k$-algebra, one sees that here condition d) does not imply
+b).
 
-(ii) The notations being those of `(18.11.10)`, suppose that `n = dim(A)` and let `(x_i)_{1 ≤ i ≤ n}` be a system of
-parameters of `A` not belonging to `𝔭`; one deduces from it a local `k`-homomorphism `u : B → A` such that
-`u(T_i) = x_i` for `1 ≤ i ≤ n`, making `A` into a finite `B`-algebra. In order that the corresponding morphism
-`Spec(A) → Spec(B)` be étale at the point `𝔭`, it is necessary and sufficient that the images of the `dx_i` in
-`(Ω_{A/k}^1)_𝔭` form a system of generators of this `A_𝔭`-module. Indeed, one has seen in the proof of `(18.11.5)` that
-if the morphism `Spec(A) → Spec(B)` is unramified at the point `𝔭`, the canonical homomorphism
-`(Ω_{B/k}^1 ⊗_B A)_𝔭 → (Ω_{A/k}^1)_𝔭` is surjective and the images of the elements `dT_i ⊗ 1`, which generate
-`Ω_{B/k}^1 ⊗_B A`, are the `dx_i`, whence the necessity of the condition. Conversely, the same reasoning shows that if
-this condition is verified, the morphism `Spec(A) → Spec(B)` is unramified at `𝔭`, and the reasoning of `(18.11.9)`
-proves in fact that this morphism is étale at `𝔭`.
+(ii) The notations being those of `(18.11.10)`, suppose that $n = \dim(A)$ and let $(x_{i})_{1 \leq i \leq n}$ be a
+system of parameters of $A$ not belonging to $\mathfrak{p}$; one deduces from it a local $k$-homomorphism $u : B \to A$
+such that $u(T_{i}) = x_{i}$ for $1 \leq i \leq n$, making $A$ into a finite $B$-algebra. In order that the
+corresponding morphism $\operatorname{Spec}(A) \to \operatorname{Spec}(B)$ be étale at the point $\mathfrak{p}$, it is
+necessary and sufficient that the images of the $dx_{i}$ in $(\Omega^{1}_{A/k})_{\mathfrak{p}}$ form a system of
+generators of this $A_{\mathfrak{p}}$-module. Indeed, one has seen in the proof of `(18.11.5)` that if the morphism
+$\operatorname{Spec}(A) \to \operatorname{Spec}(B)$ is unramified at the point $\mathfrak{p}$, the canonical
+homomorphism $(\Omega^{1}_{B/k} \otimes_{B} A)_{\mathfrak{p}} \to (\Omega^{1}_{A/k})_{\mathfrak{p}}$ is surjective and
+the images of the elements $dT_{i} \otimes 1$, which generate $\Omega^{1}_{B/k} \otimes_{B} A$, are the $dx_{i}$, whence
+the necessity of the condition. Conversely, the same reasoning shows that if this condition is verified, the morphism
+$\operatorname{Spec}(A) \to \operatorname{Spec}(B)$ is unramified at $\mathfrak{p}$, and the reasoning of `(18.11.9)`
+proves in fact that this morphism is étale at $\mathfrak{p}$.
 
 **Corollary (18.11.12).**
 
 <!-- label: IV.18.11.12 -->
 
-*Let `k` be a field of characteristic exponent `p` such that `[k : k^p] < +∞`, `A` a complete Noetherian local and
-integral `k`-algebra, which is not a field, and whose residue field is a finite extension of `k`. There then exists a
-finite radicial extension `k'` of `k` such that, setting `Â' = A ⊗̂_k k'`, the `k'`-algebra `Â'_{red}` and the prime
-ideal `0` of this algebra verify the equivalent conditions a), a'), b), c) and d) of `(18.11.10)`. In particular, if
-`n = dim(A) = dim(Â')`,*
+*Let $k$ be a field of characteristic exponent $p$ such that $[k : k^{p}] < +\infty$, $A$ a complete Noetherian local
+and integral $k$-algebra, which is not a field, and whose residue field is a finite extension of $k$. There then exists
+a finite radicial extension $k'$ of $k$ such that, setting $\hat{A}' = A \hat{\otimes}_{k} k'$, the $k'$-algebra
+$\hat{A}'_{red}$ and the prime ideal `0` of this algebra verify the equivalent conditions a), a'), b), c) and d) of
+`(18.11.10)`. In particular, if $n = \dim(A) = \dim(\hat{A}')$,*
 
 <!-- original page 180 -->
 
-*there exists a local `k'`-homomorphism `B' = k'[[T_1, …, T_n]] → Â'_{red}` making `Â'_{red}` into a finite
-`B'`-algebra, and such that the field of fractions `K'` of `Â'_{red}` is a finite separable extension of the field of
-fractions `k'((T_1, …, T_n))` of `B'`.*
+*there exists a local $k'$-homomorphism $B' = k'[[T_{1}, \cdots, T_{n}]] \to \hat{A}'_{red}$ making $\hat{A}'_{red}$
+into a finite $B'$-algebra, and such that the field of fractions $K'$ of $\hat{A}'_{red}$ is a finite separable
+extension of the field of fractions $k'((T_{1}, \cdots, T_{n}))$ of $B'$.*
 
-The morphism `Spec(Â') → Spec(A)` being radicial and finite, `Â'` is a complete local ring and its nilradical is the
-only prime ideal above the ideal `0` of `A`; by flatness, `Â'` identifies with a subring of `K ⊗_k k'`, which is
-moreover the total ring of fractions of `Â'`; one has consequently `K' = (K ⊗_k k')_{red}`. It is a question of proving,
-in view of the equivalence d) `⇔` c) of `(18.11.10)`, that there exists a finite radicial extension `k'` of `k` such
-that `(K ⊗_k k')_{red}` is a separable extension of `k'` `(6.7.6)`. Now one knows `(0, 19.8.9)` that under the
-hypotheses made, there exists a sub-`k`-algebra `C = k[[T_1, …, T_n]]` of `A` such that `A` is a finite `C`-algebra; `K`
-is therefore a finite extension of the field of fractions `K_1 = k((T_1, …, T_n))` of `C`, which is separable over `k`
-`(0, 21.9.6.4)`. If `p` is the characteristic exponent of `k`, one can therefore write
-`K ⊗_k k^{p⁻∞} = K ⊗_{K_1} (K_1 ⊗_k k^{p⁻∞})` and `K_1 ⊗_k k^{p⁻∞}` is a field, radicial extension of `K_1`; one
-concludes that `K ⊗_k k^{p⁻∞}` is a finite algebra over the field `K_1 ⊗_k k^{p⁻∞}`, hence an Artinian ring. The
-conclusion therefore results from the following more general lemma:
+The morphism $\operatorname{Spec}(\hat{A}') \to \operatorname{Spec}(A)$ being radicial and finite, `Â'` is a complete
+local ring and its nilradical is the only prime ideal above the ideal `0` of $A$; by flatness, `Â'` identifies with a
+subring of $K \otimes_{k} k'$, which is moreover the total ring of fractions of `Â'`; one has consequently $K' = (K
+\otimes_{k} k')_{red}$. It is a question of proving, in view of the equivalence d) $\Leftrightarrow$ c) of `(18.11.10)`,
+that there exists a finite radicial extension $k'$ of $k$ such that $(K \otimes_{k} k')_{red}$ is a separable extension
+of $k'$ `(6.7.6)`. Now one knows `(0, 19.8.9)` that under the hypotheses made, there exists a sub-$k$-algebra $C =
+k[[T_{1}, \cdots, T_{n}]]$ of $A$ such that $A$ is a finite $C$-algebra; $K$ is therefore a finite extension of the
+field of fractions $K_{1} = k((T_{1}, \cdots, T_{n}))$ of $C$, which is separable over $k$ `(0, 21.9.6.4)`. If $p$ is
+the characteristic exponent of $k$, one can therefore write $K \otimes_{k} k^{p^{-}\infty} = K \otimes_{K_{1}} (K_{1}
+\otimes_{k} k^{p^{-}\infty})$ and $K_{1} \otimes_{k} k^{p^{-}\infty}$ is a field, radicial extension of `K_1`; one
+concludes that $K \otimes_{k} k^{p^{-}\infty}$ is a finite algebra over the field $K_{1} \otimes_{k} k^{p^{-}\infty}$,
+hence an Artinian ring. The conclusion therefore results from the following more general lemma:
 
-**Lemma (18.11.12.1).** *Let `k` be a field of characteristic `p > 0`, `K` an extension of `k`. The following conditions
+**Lemma (18.11.12.1).** *Let $k$ be a field of characteristic $p > 0$, $K$ an extension of $k$. The following conditions
 are equivalent:*
 
-*a) The ring `K ⊗_k k^{p⁻∞}` is Artinian.*
+*a) The ring $K \otimes_{k} k^{p^{-}\infty}$ is Artinian.*
 
-*b) There exists an extension `k'` of `k` of finite type such that `(K ⊗_k k')_{red}` is a separable `k'`-algebra.*
+*b) There exists an extension $k'$ of $k$ of finite type such that $(K \otimes_{k} k')_{red}$ is a separable
+$k'$-algebra.*
 
-*c) There exists a finite radicial extension `k'` of `k` such that `(K ⊗_k k')_{red}` is a separable extension of `k'`.*
+*c) There exists a finite radicial extension $k'$ of $k$ such that $(K \otimes_{k} k')_{red}$ is a separable extension
+of $k'$.*
 
-Let us first show that c) implies a). The ring `A = K ⊗_k k'` is then a local Artinian ring, and if `𝔑` is its
-nilradical, the residue field `L = A/𝔑` is separable over `k'`; consequently `L ⊗_k k^{p⁻∞}` is a field, and since it is
-equal to `(A ⊗_k k^{p⁻∞})_{red} = (A/𝔑)(⊗_k k^{p⁻∞})`, one sees that `𝔑 ⊗_k k^{p⁻∞}` is the nilradical of
-`A ⊗_k k^{p⁻∞} = K ⊗_k k^{p⁻∞}`; since `𝔑` is an ideal of finite type, the nilradical of `K ⊗_k k^{p⁻∞}` is therefore of
-finite type, which implies that the ring `K ⊗_k k^{p⁻∞}` is Artinian.
+Let us first show that c) implies a). The ring $A = K \otimes_{k} k'$ is then a local Artinian ring, and if
+$\mathfrak{N}$ is its nilradical, the residue field $L = A/\mathfrak{N}$ is separable over $k'$; consequently $L
+\otimes_{k} k^{p^{-}\infty}$ is a field, and since it is equal to $(A \otimes_{k} k^{p^{-}\infty})_{red} =
+(A/\mathfrak{N})(\otimes_{k} k^{p^{-}\infty})$, one sees that $\mathfrak{N} \otimes_{k} k^{p^{-}\infty}$ is the
+nilradical of $A \otimes_{k} k^{p^{-}\infty} = K \otimes_{k} k^{p^{-}\infty}$; since $\mathfrak{N}$ is an ideal of
+finite type, the nilradical of $K \otimes_{k} k^{p^{-}\infty}$ is therefore of finite type, which implies that the ring
+$K \otimes_{k} k^{p^{-}\infty}$ is Artinian.
 
-Conversely, let us prove that a) implies c). Let `𝔑` be the nilradical of the Artinian local ring `B = K ⊗_k k^{p⁻∞}`,
-which is by hypothesis generated by a finite number of elements of the form `z_i = ∑ λ_{ij} ⊗ ξ_{ij}`, where
-`λ_{ij} ∈ K`, `ξ_{ij} ∈ k^{p⁻∞}`. Let `k'` be the finite radicial extension of `k` generated by the `ξ_{ij}`, `𝔑_0` the
-ideal of `B_0 = K ⊗_k k'` generated by the `z_i`; it is clear that the `z_i` are nilpotent in `B_0`; on the other hand,
-one has `𝔑_0 ⊗_{k'} k^{p⁻∞} = 𝔑`, and consequently `𝔑 ∩ B_0 = 𝔑_0`, hence `𝔑_0` contains the nilradical of `B_0`, hence
-it is equal to it. Since `B/𝔑 = (B_0/𝔑_0) ⊗_{k'} k^{p⁻∞}` is reduced, one concludes that `B_0/𝔑_0 = (K ⊗_k k')_{red}` is
-separable over `k'` `(4.6.1)`.
+Conversely, let us prove that a) implies c). Let $\mathfrak{N}$ be the nilradical of the Artinian local ring $B = K
+\otimes_{k} k^{p^{-}\infty}$, which is by hypothesis generated by a finite number of elements of the form $z_{i} = \sum
+\lambda_{ij} \otimes \xi_{ij}$, where $\lambda_{ij} \in K$, $\xi_{ij} \in k^{p^{-}\infty}$. Let $k'$ be the finite
+radicial extension of $k$ generated by the $\xi_{ij}$, $\mathfrak{N}_{0}$ the ideal of $B_{0} = K \otimes_{k} k'$
+generated by the $z_{i}$; it is clear that the $z_{i}$ are nilpotent in `B_0`; on the other hand, one has
+$\mathfrak{N}_{0} \otimes_{k'} k^{p^{-}\infty} = \mathfrak{N}$, and consequently $\mathfrak{N} \cap B_{0} =
+\mathfrak{N}_{0}$, hence $\mathfrak{N}_{0}$ contains the nilradical of `B_0`, hence it is equal to it. Since
+$B/\mathfrak{N} = (B_{0}/\mathfrak{N}_{0}) \otimes_{k'} k^{p^{-}\infty}$ is reduced, one concludes that
+$B_{0}/\mathfrak{N}_{0} = (K \otimes_{k} k')_{red}$ is separable over $k'$ `(4.6.1)`.
 
-It is clear that c) implies b). Conversely, suppose b) verified, and note that there exists a separable extension `k_1`
-of `k` such that `k'` is a finite radicial extension of `k_1`; set `K_1 = K ⊗_k k_1`, which is a field. Applying the
-equivalence of a) and c) to the extension `K_1` of `k_1`, one sees that `K_1 ⊗_{k_1} k_1^{p⁻∞}` is an Artinian ring; but
-this ring is equal
+It is clear that c) implies b). Conversely, suppose b) verified, and note that there exists a separable extension
+$k_{1}$ of $k$ such that $k'$ is a finite radicial extension of $k_{1}$; set $K_{1} = K \otimes_{k} k_{1}$, which is a
+field. Applying the equivalence of a) and c) to the extension `K_1` of $k_{1}$, one sees that $K_{1} \otimes_{k_{1}}
+k^{p^{-}\infty}_{1}$ is an Artinian ring; but this ring is equal
 
 <!-- original page 181 -->
 
-to `K ⊗_k k_1^{p⁻∞} = (K ⊗_k k^{p⁻∞}) ⊗_{k^{p⁻∞}} k_1^{p⁻∞}`, hence `K ⊗_k k^{p⁻∞}` is also Artinian (Bourbaki, Alg.
-comm., chap. I, §3, n° 5, cor. of prop. 8); one has thus proved that b) implies a), which finishes the proof of
-`(18.11.12.1)` and of `(18.11.12)`.
+to $K \otimes_{k} k^{p^{-}\infty}_{1} = (K \otimes_{k} k^{p^{-}\infty}) \otimes_{k^{p^{-}\infty}} k^{p^{-}\infty}_{1}$,
+hence $K \otimes_{k} k^{p^{-}\infty}$ is also Artinian (Bourbaki, Alg. comm., chap. I, §3, n° 5, cor. of prop. 8); one
+has thus proved that b) implies a), which finishes the proof of `(18.11.12.1)` and of `(18.11.12)`.
 
 ### 18.12. Applications of étale localization to quasi-finite morphisms (generalizations of earlier results)
 
@@ -3801,75 +4101,81 @@ The results of this number have been communicated to us by P. Deligne.
 
 <!-- label: IV.18.12.1 -->
 
-*Let `f : X → Y` be a morphism locally of finite type, `x` a point of `X`, `y = f(x)`. Suppose that `x` is an isolated
-point of the space `f⁻¹(y)`. Then, there exist an étale morphism `Y' → Y`, a point `x'` of `X' = X ×_Y Y'` above `x` and
-an open neighbourhood `V'` of `x'` in `X'` such that, if `f' = f_{(Y')} : X' → Y'`, `f' | V'` is a finite morphism. If
-moreover `f` is separated, `V'` is both open and closed, and `X'` is therefore the sum of two sub-preschemes induced on
-opens of `X'`, of which one is finite over `Y'` and contains `x'`.*
+*Let $f : X \to Y$ be a morphism locally of finite type, $x$ a point of $X$, $y = f(x)$. Suppose that $x$ is an isolated
+point of the space $f^{-1}(y)$. Then, there exist an étale morphism $Y' \to Y$, a point $x'$ of $X' = X \times_{Y} Y'$
+above $x$ and an open neighbourhood $V'$ of $x'$ in $X'$ such that, if $f' = f_{(Y')} : X' \to Y'$, $f' | V'$ is a
+finite morphism. If moreover $f$ is separated, $V'$ is both open and closed, and $X'$ is therefore the sum of two
+sub-preschemes induced on opens of $X'$, of which one is finite over $Y'$ and contains $x'$.*
 
-The last assertion results from the fact that, if `f` is separated, the same is true of `f'`; so, if `j' : V' → X'` is
-the canonical injection, the fact that the morphism `f' | V' = f' ∘ j'` is finite implies that the same is true of `j'`
-`(II, 6.1.5)`, and consequently `V' = j'(V')` is closed in `X'` `(II, 6.1.10)`.
+The last assertion results from the fact that, if $f$ is separated, the same is true of $f'$; so, if $j' : V' \to X'$ is
+the canonical injection, the fact that the morphism $f' | V' = f' \circ j'$ is finite implies that the same is true of
+$j'$ `(II, 6.1.5)`, and consequently $V' = j'(V')$ is closed in $X'$ `(II, 6.1.10)`.
 
-The question being local on `X`, one can suppose `Y = Spec(A)` and `X = Spec(B)` affine, `B` being an `A`-algebra of
-finite type, hence of the form `C/𝔍`, where `C = A[T_1, …, T_r]` and `𝔍` is an ideal of `C`; `f` is therefore separated,
-and one can moreover suppose that `f⁻¹(y) = {x}`. Let `(𝔍_λ)` be the family of ideals of finite type of `C` contained in
-`𝔍`, so that `𝔍` is the filtered union of the `𝔍_λ`. If `X` and the `X_λ = Spec(C/𝔍_λ)` are considered as closed
-sub-preschemes of `Z = Spec(C)`, one has therefore, for the underlying spaces, `X = ⋂ X_λ`; if `f_λ : X_λ → Y` is the
-structural morphism, one deduces that `f_λ⁻¹(y) = ⋂ f_λ⁻¹(y)`, and since the sets `f_λ⁻¹(y)` are closed in the
-Noetherian space `Z_y = Spec(k(y)[T_1, …, T_r])`, there exists an index `λ` such that `f_λ⁻¹(y) = f⁻¹(y) = {x}`. One can
-therefore suppose that the `X_λ` verify the same condition as `X` at the point `x`; if one proves the proposition for
-such an `X_λ`, it will result for `X`, since if `x'` is a point above `x` in `Z' = Z ×_Y Y'`, `X'_λ = p⁻¹(X_λ)`, where
-`p : Z' → Z` is the projection (so that one has also `X' = p⁻¹(X)`), if there exists an open neighbourhood `V'_λ` of
-`x'` in `X'_λ` which is finite over `Y'`, a fortiori the restriction of `f'_λ` to the closed sub-prescheme `X' ∩ V'_λ`
-of `V'_λ` will be a finite morphism. One is therefore reduced to the case where `f` is of finite presentation. Note
-moreover that the set of points of `X` isolated in their fibre is open in `X` `(13.1.4)`, so `f` is quasi-finite at the
-point `x`, and one can consequently restrict to the case where `f` is quasi-finite. Let `A^h` be the Henselized local
-ring of `𝒪_{Y,y}`, and set `Y^h = Spec(A^h)`. If `X^h = X ×_Y Y^h`, `f^h = f_{(Y^h)} : X^h → Y^h` is separated,
-quasi-finite and of finite presentation; since `A^h` is Henselian, there is for every `x^h ∈ X^h` above `x` an open and
-closed neighbourhood `V^h` of `x^h` in `X^h` which is finite over `Y^h` `(18.5.11, c))`; since the immersion `V^h → X^h`
-is open and closed, it is quasi-compact, hence of finite presentation `(1.6.2)`, so `f^h | V^h` is of finite
-presentation.
+The question being local on $X$, one can suppose $Y = \operatorname{Spec}(A)$ and $X = \operatorname{Spec}(B)$ affine,
+$B$ being an $A$-algebra of finite type, hence of the form $C/\mathfrak{J}$, where $C = A[T_{1}, \cdots, T_{r}]$ and
+$\mathfrak{J}$ is an ideal of $C$; $f$ is therefore separated, and one can moreover suppose that $f^{-1}(y) = {x}$. Let
+$(\mathfrak{J}_{\lambda})$ be the family of ideals of finite type of $C$ contained in $\mathfrak{J}$, so that
+$\mathfrak{J}$ is the filtered union of the $\mathfrak{J}_{\lambda}$. If $X$ and the $X_{\lambda} =
+\operatorname{Spec}(C/\mathfrak{J}_{\lambda})$ are considered as closed sub-preschemes of $Z = \operatorname{Spec}(C)$,
+one has therefore, for the underlying spaces, $X = \bigcap X_{\lambda}$; if $f_{\lambda} : X_{\lambda} \to Y$ is the
+structural morphism, one deduces that $f^{-1}_{\lambda}(y) = \bigcap f^{-1}_{\lambda}(y)$, and since the sets
+$f^{-1}_{\lambda}(y)$ are closed in the Noetherian space $Z_{y} = \operatorname{Spec}(k(y)[T_{1}, \cdots, T_{r}])$,
+there exists an index $\lambda$ such that $f^{-1}_{\lambda}(y) = f^{-1}(y) = {x}$. One can therefore suppose that the
+$X_{\lambda}$ verify the same condition as $X$ at the point $x$; if one proves the proposition for such an
+$X_{\lambda}$, it will result for $X$, since if $x'$ is a point above $x$ in $Z' = Z \times_{Y} Y'$, $X'_{\lambda} =
+p^{-1}(X_{\lambda})$, where $p : Z' \to Z$ is the projection (so that one has also $X' = p^{-1}(X)$), if there exists an
+open neighbourhood $V'_{\lambda}$ of $x'$ in $X'_{\lambda}$ which is finite over $Y'$, a fortiori the restriction of
+$f'_{\lambda}$ to the closed sub-prescheme $X' \cap V'_{\lambda}$ of $V'_{\lambda}$ will be a finite morphism. One is
+therefore reduced to the case where $f$ is of finite presentation. Note moreover that the set of points of $X$ isolated
+in their fibre is open in $X$ `(13.1.4)`, so $f$ is quasi-finite at the point $x$, and one can consequently restrict to
+the case where $f$ is quasi-finite. Let $A^{h}$ be the Henselized local ring of $\mathcal{O}_{Y,y}$, and set $Y^{h} =
+\operatorname{Spec}(A^{h})$. If $X^{h} = X \times_{Y} Y^{h}$, $f^{h} = f_{(Y^{h})} : X^{h} \to Y^{h}$ is separated,
+quasi-finite and of finite presentation; since $A^{h}$ is Henselian, there is for every $x^{h} \in X^{h}$ above $x$ an
+open and closed neighbourhood $V^{h}$ of $x^{h}$ in $X^{h}$ which is finite over $Y^{h}$ `(18.5.11, c))`; since the
+immersion $V^{h} \to X^{h}$ is open and closed, it is quasi-compact, hence of finite presentation `(1.6.2)`, so $f^{h} |
+V^{h}$ is of finite presentation.
 
-This being so, by definition, `A^h` is the inductive limit of a filtered family `(A_α)` of strictly essentially étale
-`𝒪_{Y,y}`-algebras `(18.6.5)`; each `A_α` is itself the inductive limit of a filtered family `(B_{αβ})` of étale
-`𝒪_{Y,y}`-algebras (`(18.6.1)` and `(8.1.2, a))`). Finally, since `B_{αβ}` may be supposed an `𝒪_{Y,y}`-algebra of
-finite presentation, it results moreover from `(8.1.2, a))` and from `(17.7.8)` that `B_{αβ}` is the inductive limit of
-a filtered family `(C_{αβγ})` of étale `A`-algebras. Finally, one sees, using the theorem of the double inductive limit,
-that `Y^h` is the projective limit of a filtered family `(Y_α)` of affine schemes étale over `Y`. If `x_α` is the
-projection of `x^h` onto `X_α = X ×_Y Y_α`, one can suppose that the neighbourhood `V^h`, which is quasi-compact, is of
-the form `V_α ×_{Y_α} Y^h` where `V_α` is an open neighbourhood of `x_α` in `X_α` `(8.2.11)`. Finally, `V^h` being of
-finite presentation over `Y^h`, one concludes from `(8.10.5, (x))` that for a suitable `α`, `V_α` is finite over `Y_α`.
-Q.E.D.
+This being so, by definition, $A^{h}$ is the inductive limit of a filtered family $(A_{\alpha})$ of strictly essentially
+étale $\mathcal{O}_{Y,y}$-algebras `(18.6.5)`; each $A_{\alpha}$ is itself the inductive limit of a filtered family
+$(B_{\alpha \beta})$ of étale $\mathcal{O}_{Y,y}$-algebras (`(18.6.1)` and `(8.1.2, a))`). Finally, since $B_{\alpha
+\beta}$ may be supposed an $\mathcal{O}_{Y,y}$-algebra of finite presentation, it results moreover from `(8.1.2, a))`
+and from `(17.7.8)` that $B_{\alpha \beta}$ is the inductive limit of a filtered family $(C_{\alpha \beta \gamma})$ of
+étale $A$-algebras. Finally, one sees, using the theorem of the double inductive limit, that $Y^{h}$ is the projective
+limit of a filtered family $(Y_{\alpha})$ of affine schemes étale over $Y$. If $x_{\alpha}$ is the projection of $x^{h}$
+onto $X_{\alpha} = X \times_{Y} Y_{\alpha}$, one can suppose that the neighbourhood $V^{h}$, which is quasi-compact, is
+of the form $V_{\alpha} \times_{Y_{\alpha}} Y^{h}$ where $V_{\alpha}$ is an open neighbourhood of $x_{\alpha}$ in
+$X_{\alpha}$ `(8.2.11)`. Finally, $V^{h}$ being of finite presentation over $Y^{h}$, one concludes from `(8.10.5, (x))`
+that for a suitable $\alpha$, $V_{\alpha}$ is finite over $Y_{\alpha}$. Q.E.D.
 
-**Remark (18.12.2).** — In the preceding proof, one sees (taking account of `(18.6.2)`) that one has constructed a `Y'`
-answering the question, and such moreover that if `y' = f'(x')`, the homomorphism `k(y) → k(y')` is bijective.
+**Remark (18.12.2).** — In the preceding proof, one sees (taking account of `(18.6.2)`) that one has constructed a $Y'$
+answering the question, and such moreover that if $y' = f'(x')$, the homomorphism $k(y) \to k(y')$ is bijective.
 
 **Corollary (18.12.3).**
 
 <!-- label: IV.18.12.3 -->
 
-*Let `f : X → Y` be a morphism locally of finite type and separated, `y` a point of `Y` such that the subspace `f⁻¹(y)`
-is finite and discrete. There then exist an étale morphism `Y' → Y`, a point `y' ∈ Y'` above `y`, such that
-`k(y') = k(y)`, and a decomposition of `X'` into the sum of two sub-preschemes `X'_1`, `X'_2` induced on opens of `X'`,
-such that the restriction of `f' = f_{(Y')} : X' → Y'` to `X'_1` is a finite morphism and one has
-`X'_2 ∩ f'⁻¹(y') = ∅`.*
+*Let $f : X \to Y$ be a morphism locally of finite type and separated, $y$ a point of $Y$ such that the subspace
+$f^{-1}(y)$ is finite and discrete. There then exist an étale morphism $Y' \to Y$, a point $y' \in Y'$ above $y$, such
+that $k(y') = k(y)$, and a decomposition of $X'$ into the sum of two sub-preschemes $X'_{1}$, $X'_{2}$ induced on opens
+of $X'$, such that the restriction of $f' = f_{(Y')} : X' \to Y'$ to $X'_{1}$ is a finite morphism and one has $X'_{2}
+\cap f'^{-1}(y') = \emptyset$.*
 
-If `n` is the number of points of `f⁻¹(y)`, one reasons by recurrence on `n`, the corollary being trivial for `n = 0`.
-Let `x` be a point of `f⁻¹(y)`; by virtue of `(18.12.1)` and `(18.12.2)` there is an étale morphism `Y_1 → Y`, a point
-`y_1` of `Y_1` above `y` such that `k(y_1) = k(y)`, and if one sets `S_1 = X ×_Y Y_1`, `f_1 = f_{(Y_1)} : S_1 → Y_1`,
-there exists a point `x_1` of `f_1⁻¹(y_1)`
+If $n$ is the number of points of $f^{-1}(y)$, one reasons by recurrence on $n$, the corollary being trivial for $n =
+0$. Let $x$ be a point of $f^{-1}(y)$; by virtue of `(18.12.1)` and `(18.12.2)` there is an étale morphism $Y_{1} \to
+Y$, a point $y_{1}$ of `Y_1` above $y$ such that $k(y_{1}) = k(y)$, and if one sets $S_{1} = X \times_{Y} Y_{1}$, $f_{1}
+= f_{(Y_{1})} : S_{1} \to Y_{1}$, there exists a point $x_{1}$ of $f^{-1}_{1}(y_{1})$
 
 <!-- original page 182 -->
 
-such that `S_1` is the sum of two opens `V_1`, `X_1`, `V_1` being finite over `Y_1` and a neighbourhood of `x_1`. By
-virtue of the relation `k(y_1) = k(y)`, the fibre `f_1⁻¹(y_1)` in `S_1` is isomorphic to `f⁻¹(y)`, so `X_1 ∩ f_1⁻¹(y_1)`
-is finite, discrete and has `n − 1` points. Since `f_1 | X_1` is locally of finite type and separated, one applies the
-hypothesis of recurrence to this morphism: there is an étale morphism `Y' → Y_1`, a point `y' ∈ Y'` above `y_1` such
-that `k(y') = k(y_1)`, and, if `X' = X ×_Y Y'` and if `p : X' → S_1` is the canonical projection, one has a
-decomposition of `p⁻¹(X_1)` into a sum of two sub-preschemes `U'` and `X'_2` induced on opens of `X'` such that
-`X'_2 ∩ f'⁻¹(y') = ∅` and that `U'` is finite over `Y'`. Moreover, `V' = p⁻¹(V_1)` is finite over `Y'` and `X'` is the
-sum of `U'`, `V'` and `X'_2`; one will therefore answer the question by taking `X'_1` to be the sum of `U'` and `V'`.
+such that `S_1` is the sum of two opens `V_1`, `X_1`, `V_1` being finite over `Y_1` and a neighbourhood of $x_{1}$. By
+virtue of the relation $k(y_{1}) = k(y)$, the fibre $f^{-1}_{1}(y_{1})$ in `S_1` is isomorphic to $f^{-1}(y)$, so $X_{1}
+\cap f^{-1}_{1}(y_{1})$ is finite, discrete and has $n - 1$ points. Since $f_{1} | X_{1}$ is locally of finite type and
+separated, one applies the hypothesis of recurrence to this morphism: there is an étale morphism $Y' \to Y_{1}$, a point
+$y' \in Y'$ above $y_{1}$ such that $k(y') = k(y_{1})$, and, if $X' = X \times_{Y} Y'$ and if $p : X' \to S_{1}$ is the
+canonical projection, one has a decomposition of $p^{-1}(X_{1})$ into a sum of two sub-preschemes $U'$ and $X'_{2}$
+induced on opens of $X'$ such that $X'_{2} \cap f'^{-1}(y') = \emptyset$ and that $U'$ is finite over $Y'$. Moreover,
+$V' = p^{-1}(V_{1})$ is finite over $Y'$ and $X'$ is the sum of $U'$, $V'$ and $X'_{2}$; one will therefore answer the
+question by taking $X'_{1}$ to be the sum of $U'$ and $V'$.
 
 The following corollary improves `(8.11.1)`:
 
@@ -3877,33 +4183,35 @@ The following corollary improves `(8.11.1)`:
 
 <!-- label: IV.18.12.4 -->
 
-*In order that a morphism `f : X → Y` be finite, it is necessary and sufficient that it be separated, universally
-closed, locally of finite type and that, for every `y ∈ Y`, `f⁻¹(y)` be a finite discrete space; in particular, a proper
-and quasi-finite morphism is finite.*
+*In order that a morphism $f : X \to Y$ be finite, it is necessary and sufficient that it be separated, universally
+closed, locally of finite type and that, for every $y \in Y$, $f^{-1}(y)$ be a finite discrete space; in particular, a
+proper and quasi-finite morphism is finite.*
 
-Indeed, one can apply corollary `(18.12.3)` to an arbitrary point `y` of `Y`. With the notations of that corollary, `f'`
-is a closed morphism, so, since `X'_2` is closed in `X'`, `f'(X'_2)` is closed in `Y'` and does not contain `y'`; there
-consequently exists an open neighbourhood `U'` of `y'` in `Y'` such that `U' → Y` is of finite type and that
-`f'⁻¹(U') = X ×_Y U'` is finite over `U'`. Let `U` be the image of `U'` in `Y`, which is an open of `Y` by virtue of
-`(11.3.1)` since the morphism `Y' → Y` is étale, hence flat and locally of finite presentation; one evidently has still
-`X ×_Y U = X ×_Y U' = f⁻¹(U) ×_U U'`. Since now the morphism `U' → U` is faithfully flat and quasi-compact, one deduces
-from `(2.7.1, (xv))` that the morphism `f⁻¹(U) → U`, restriction of `f`, is finite, which proves the corollary.
+Indeed, one can apply corollary `(18.12.3)` to an arbitrary point $y$ of $Y$. With the notations of that corollary, $f'$
+is a closed morphism, so, since $X'_{2}$ is closed in $X'$, $f'(X'_{2})$ is closed in $Y'$ and does not contain $y'$;
+there consequently exists an open neighbourhood $U'$ of $y'$ in $Y'$ such that $U' \to Y$ is of finite type and that
+$f'^{-1}(U') = X \times_{Y} U'$ is finite over $U'$. Let $U$ be the image of $U'$ in $Y$, which is an open of $Y$ by
+virtue of `(11.3.1)` since the morphism $Y' \to Y$ is étale, hence flat and locally of finite presentation; one
+evidently has still $X \times_{Y} U = X \times_{Y} U' = f^{-1}(U) \times_{U} U'$. Since now the morphism $U' \to U$ is
+faithfully flat and quasi-compact, one deduces from `(2.7.1, (xv))` that the morphism $f^{-1}(U) \to U$, restriction of
+$f$, is finite, which proves the corollary.
 
-**Remark (18.12.5).** — One will note that in the proof of `(18.12.4)` one has not used the hypothesis that `f` is
-universally closed in its general form, but only that `f_{(Y')}` is a closed morphism for every étale morphism `Y' → Y`.
+**Remark (18.12.5).** — One will note that in the proof of `(18.12.4)` one has not used the hypothesis that $f$ is
+universally closed in its general form, but only that $f_{(Y')}$ is a closed morphism for every étale morphism $Y' \to
+Y$.
 
 **Corollary (18.12.6).**
 
 <!-- label: IV.18.12.6 -->
 
-*Let `f : X → Y` be a morphism of preschemes. The following conditions are equivalent:*
+*Let $f : X \to Y$ be a morphism of preschemes. The following conditions are equivalent:*
 
-*a) `f` is a closed immersion.*
+*a) $f$ is a closed immersion.*
 
-*b) `f` is a proper monomorphism.*
+*b) $f$ is a proper monomorphism.*
 
-*c) `f` is proper and, for every `y ∈ Y`, the `k(y)`-prescheme `X_y = f⁻¹(y)` is radicial and geometrically reduced over
-`k(y)` (i.e. empty or `k(y)`-isomorphic to `Spec(k(y))`).*
+*c) $f$ is proper and, for every $y \in Y$, the $k(y)$-prescheme $X_{y} = f^{-1}(y)$ is radicial and geometrically
+reduced over $k(y)$ (i.e. empty or $k(y)$-isomorphic to $\operatorname{Spec}(k(y))$).*
 
 This is deduced from `(18.12.4)` as `(8.11.5)` is deduced from `(8.11.1)`.
 
@@ -3911,75 +4219,76 @@ This is deduced from `(18.12.4)` as `(8.11.5)` is deduced from `(8.11.1)`.
 
 <!-- label: IV.18.12.7 -->
 
-*Let `f : X → Y` be a morphism locally of finite type, `y` a point of `Y`. In order that there exist an open
-neighbourhood `U` of `y` such that the restriction `f⁻¹(U) → U` of `f` be a closed immersion, it is necessary and
-sufficient that `X_y` be a `k(y)`-prescheme radicial and geometrically reduced over `k(y)` (i.e. empty or
-`k(y)`-isomorphic to `Spec(k(y))`) and that there exist an open neighbourhood `V` of `y` such that the restriction
-`f⁻¹(V) → V` of `f` be a universally closed morphism.*
+*Let $f : X \to Y$ be a morphism locally of finite type, $y$ a point of $Y$. In order that there exist an open
+neighbourhood $U$ of $y$ such that the restriction $f^{-1}(U) \to U$ of $f$ be a closed immersion, it is necessary and
+sufficient that $X_{y}$ be a $k(y)$-prescheme radicial and geometrically reduced over $k(y)$ (i.e. empty or
+$k(y)$-isomorphic to $\operatorname{Spec}(k(y))$) and that there exist an open neighbourhood $V$ of $y$ such that the
+restriction $f^{-1}(V) \to V$ of $f$ be a universally closed morphism.*
 
 The conditions being evidently necessary, let us prove that they are sufficient. One can restrict to the case where
-`X_y ≠ ∅`. By virtue of the second condition, one can already suppose `f` universally closed. Let us show moreover that
-one can suppose `f` affine, hence separated; this results from the following lemma:
+$X_{y} \neq \emptyset$. By virtue of the second condition, one can already suppose $f$ universally closed. Let us show
+moreover that one can suppose $f$ affine, hence separated; this results from the following lemma:
 
-**Lemma (18.12.7.1).** *Let `f : X → Y` be a closed morphism, `y ∈ Y` a point such that every neighbourhood of `X_y`
-contains an affine neighbourhood of `X_y` (condition always verified when `X_y` is empty or reduced to a single point).
-Then there exists an affine open neighbourhood `U` of `y` such that the restriction `f⁻¹(U) → U` of `f` be an affine
-morphism.*
+**Lemma (18.12.7.1).** *Let $f : X \to Y$ be a closed morphism, $y \in Y$ a point such that every neighbourhood of
+$X_{y}$ contains an affine neighbourhood of $X_{y}$ (condition always verified when $X_{y}$ is empty or reduced to a
+single point). Then there exists an affine open neighbourhood $U$ of $y$ such that the restriction $f^{-1}(U) \to U$ of
+$f$ be an affine morphism.*
 
-Indeed, let `U_0` be an affine open neighbourhood of `y` in `Y` and let `V` be an affine open neighbourhood of `X_y`
-contained in `f⁻¹(U_0)`. Since `f` is closed, there exists an affine open neighbourhood `U ⊂ U_0` of `y` such that
-`f⁻¹(U) ⊂ V`. Since the restriction `g : V → U_0` of `f` is an affine morphism, the same is true of its restriction
-`f⁻¹(U) → U` `(II, 1.2.5)`.
+Indeed, let `U_0` be an affine open neighbourhood of $y$ in $Y$ and let $V$ be an affine open neighbourhood of $X_{y}$
+contained in $f^{-1}(U_{0})$. Since $f$ is closed, there exists an affine open neighbourhood $U \subset U_{0}$ of $y$
+such that $f^{-1}(U) \subset V$. Since the restriction $g : V \to U_{0}$ of $f$ is an affine morphism, the same is true
+of its restriction $f^{-1}(U) \to U$ `(II, 1.2.5)`.
 
-Suppose therefore `f` affine and universally closed, and let us show that there exists an open neighbourhood `U` of `y`
-such that the restriction `f⁻¹(U) → U` is a finite morphism; since one can suppose `Y` and `X` affine, one can suppose
-`f` of finite type, hence proper, and it suffices to prove that there exists a neighbourhood `U` of `y` such that
-`f⁻¹(U) → U` is a quasi-finite morphism `(18.12.4)`. But there exists a neighbourhood `V` of the set `X_y` (reduced to a
-single point) such that `f | V` is quasi-finite `(13.1.4)`, and since `f` is closed there is a neighbourhood `U` of `y`
-such that `f⁻¹(U) ⊂ V`, which finishes the proof, taking account of `(18.12.6)`.
+Suppose therefore $f$ affine and universally closed, and let us show that there exists an open neighbourhood $U$ of $y$
+such that the restriction $f^{-1}(U) \to U$ is a finite morphism; since one can suppose $Y$ and $X$ affine, one can
+suppose $f$ of finite type, hence proper, and it suffices to prove that there exists a neighbourhood $U$ of $y$ such
+that $f^{-1}(U) \to U$ is a quasi-finite morphism `(18.12.4)`. But there exists a neighbourhood $V$ of the set $X_{y}$
+(reduced to a single point) such that $f | V$ is quasi-finite `(13.1.4)`, and since $f$ is closed there is a
+neighbourhood $U$ of $y$ such that $f^{-1}(U) \subset V$, which finishes the proof, taking account of `(18.12.6)`.
 
 **Proposition (18.12.8).**
 
 <!-- label: IV.18.12.8 -->
 
-*Let `f : X → Y` be a morphism of preschemes. In order that `f` be integral, it is necessary and sufficient that `f` be
-affine and universally closed.*
+*Let $f : X \to Y$ be a morphism of preschemes. In order that $f$ be integral, it is necessary and sufficient that $f$
+be affine and universally closed.*
 
-The conditions are necessary `(II, 6.1.10)`; let us prove that they are sufficient. One can suppose `Y = Spec(A)`
-affine, hence also `X = Spec(B)`, and it must be proved that every element `b ∈ B` is integral over `A` `(II, 6.1.1)`.
-Let `B'` be the sub-`A`-algebra of `B` generated by `b`, which is an `A`-algebra of finite type; set `X' = Spec(B')`, so
-that `f : X → Y` factors as `X →^g X' →^h Y`, where `h` is of finite type, and `g` is dominant since the homomorphism
-`B' → B` is injective `(I, 1.2.7)`. Since `h` is separated and `h ∘ g` universally closed, `g` is universally closed
-`(II, 5.4.3 and`
+The conditions are necessary `(II, 6.1.10)`; let us prove that they are sufficient. One can suppose $Y =
+\operatorname{Spec}(A)$ affine, hence also $X = \operatorname{Spec}(B)$, and it must be proved that every element $b \in
+B$ is integral over $A$ `(II, 6.1.1)`. Let $B'$ be the sub-$A$-algebra of $B$ generated by $b$, which is an $A$-algebra
+of finite type; set $X' = \operatorname{Spec}(B')$, so that $f : X \to Y$ factors as $X \to^{g} X' \to^{h} Y$, where $h$
+is of finite type, and $g$ is dominant since the homomorphism $B' \to B$ is injective `(I, 1.2.7)`. Since $h$ is
+separated and $h \circ g$ universally closed, $g$ is universally closed `(II, 5.4.3 and`
 
 <!-- original page 183 -->
 
-`5.4.9)`, hence surjective since it is dominant; one concludes `(II, 5.4.3 and 5.4.9)` that `h` is also universally
-closed, hence proper since it is of finite type and separated. But then, for every `y ∈ Y`, the morphism
-`h⁻¹(y) → Spec(k(y))` deduced from `h` is proper and affine, hence finite `(III, 4.4.2)`, in other words `h` is
-quasi-finite; one deduces therefore from `(18.12.4)` that `h` is finite, which proves that `B'` is a finite `A`-algebra,
-and consequently that `b` is integral over `A`. Q.E.D.
+`5.4.9)`, hence surjective since it is dominant; one concludes `(II, 5.4.3 and 5.4.9)` that $h$ is also universally
+closed, hence proper since it is of finite type and separated. But then, for every $y \in Y$, the morphism $h^{-1}(y)
+\to \operatorname{Spec}(k(y))$ deduced from $h$ is proper and affine, hence finite `(III, 4.4.2)`, in other words $h$ is
+quasi-finite; one deduces therefore from `(18.12.4)` that $h$ is finite, which proves that $B'$ is a finite $A$-algebra,
+and consequently that $b$ is integral over $A$. Q.E.D.
 
-**Remark (18.12.9).** — It may be that a morphism `f : X → Y` be integral when one supposes it only separated,
-universally closed and such that for every `y ∈ Y`, the morphism `f⁻¹(y) → Spec(k(y))` deduced from `f` is integral. It
-would be necessary for this to prove that these conditions imply that `f` is affine, or again that every fibre `X_y` is
-contained in an affine open neighbourhood.
+**Remark (18.12.9).** — It may be that a morphism $f : X \to Y$ be integral when one supposes it only separated,
+universally closed and such that for every $y \in Y$, the morphism $f^{-1}(y) \to \operatorname{Spec}(k(y))$ deduced
+from $f$ is integral. It would be necessary for this to prove that these conditions imply that $f$ is affine, or again
+that every fibre $X_{y}$ is contained in an affine open neighbourhood.
 
 **Corollary (18.12.10).**
 
 <!-- label: IV.18.12.10 -->
 
-*A morphism `f : X → Y` which is injective and universally closed is integral.*
+*A morphism $f : X \to Y$ which is injective and universally closed is integral.*
 
-It suffices, by `(18.12.8)`, to prove that `f` is affine, which results from lemma `(18.12.7.1)` and from the
+It suffices, by `(18.12.8)`, to prove that $f$ is affine, which results from lemma `(18.12.7.1)` and from the
 hypothesis.
 
 **Corollary (18.12.11).**
 
 <!-- label: IV.18.12.11 -->
 
-*Let `f : X → Y` be a morphism of preschemes (resp. a morphism locally of finite type). In order that `f` be a universal
-homeomorphism `(2.4.2)`, it is necessary and sufficient that `f` be integral (resp. finite), radicial and surjective.*
+*Let $f : X \to Y$ be a morphism of preschemes (resp. a morphism locally of finite type). In order that $f$ be a
+universal homeomorphism `(2.4.2)`, it is necessary and sufficient that $f$ be integral (resp. finite), radicial and
+surjective.*
 
 One knows that the conditions are sufficient `(2.4.5)`; they are necessary by virtue of `(18.12.10)` and `(18.12.4)`.
 
@@ -3989,142 +4298,158 @@ The following proposition improves `(8.11.2)`:
 
 <!-- label: IV.18.12.12 -->
 
-*Every morphism `f : X → Y` which is quasi-finite and separated is quasi-affine.*
+*Every morphism $f : X \to Y$ which is quasi-finite and separated is quasi-affine.*
 
-Set `𝒜 = f_*(𝒪_X)`, which is a quasi-coherent `𝒪_Y`-algebra since `f` is quasi-compact and separated `(1.7.4)`; let
-`Z = Spec(𝒜)` `(II, 1.3.1)` so that `f` factors canonically as `X →^g Z →^h Y`, `h` being affine and `g` corresponding
-to the identity automorphism of `𝒜` `(II, 1.2.7)`; it will suffice to prove that `g` is an open immersion, or, what
-amounts to the same `(17.9.1)`, that `g` is étale and radicial. It will evidently suffice to show that, for every
-`y ∈ Y`, the morphism `g` is étale and radicial at each point of `f⁻¹(y)`. Now, for every `y ∈ Y`, one can apply to `f`
-the result of `(18.12.3)`, of which we preserve the notations; since the morphism `Y' → Y` is flat, and that `f` is
-quasi-compact and separated, one has, up to canonical isomorphism, `f'_*(𝒪_{X'}) = 𝒜 ⊗_{𝒪_Y} 𝒪_{Y'} = 𝒜'` `(2.3.1)`, so
-`Z' = Z ×_Y Y'` identifies with `Spec(f'_*(𝒪_{X'}))`, and in the canonical factorization `X' →^{g'} Z' →^{h'} Y'` of
-`f'` `(II, 1.2.7)`, one has `h' = h_{(Y')}` and `g' = g_{(Y')}`. This being so, the decomposition of `X'` into the sum
-of two sub-preschemes `X'_1`, `X'_2` implies the decomposition of `𝒜'` into the direct product of the two quasi-coherent
-`𝒪_{Y'}`-algebras `𝒜'_1`, `𝒜'_2`, direct images respectively of `𝒪_{X'_1}` and `𝒪_{X'_2}`, so that `Z'` identifies with
-the sum `Z'_1 ⊔ Z'_2`, where `Z'_i = Spec(𝒜'_i)` and `g'(X'_i) ⊂ Z'_i` for `i = 1, 2`. Since `X'_1` is finite over `Y'`,
-`g'_1 = g' | X'_1` is an isomorphism of `X'_1` onto `Z'_1`, since `f' | X'_1` is affine; since `X'_2 ∩ f'⁻¹(y') = ∅`,
-one sees that `g'` is étale and radicial at each point of `f'⁻¹(y')`. The morphism `Y' → Y` being flat and locally of
-finite presentation, one therefore deduces first from `(17.7.4)` that `g` is étale at all points of `X` projections of
-points of `f'⁻¹(y')`, that is to say at all points of `f⁻¹(y)` `(I, 3.5.2)`. On the other hand, the morphism
-`g'_{y'} : f'⁻¹(y') → h'⁻¹(y')` deduced from `g'` is radicial; since `k(y') = k(y)`, the morphism
-`g_y : f⁻¹(y) → h⁻¹(y)` is also radicial, in other words `g` is radicial at each point of `f⁻¹(y)`, which finishes
-proving the proposition.
+Set $\mathcal{A} = f_{*}(\mathcal{O}_{X})$, which is a quasi-coherent $\mathcal{O}_{Y}$-algebra since $f$ is
+quasi-compact and separated `(1.7.4)`; let $Z = \operatorname{Spec}(\mathcal{A})$ `(II, 1.3.1)` so that $f$ factors
+canonically as $X \to^{g} Z \to^{h} Y$, $h$ being affine and $g$ corresponding to the identity automorphism of
+$\mathcal{A}$ `(II, 1.2.7)`; it will suffice to prove that $g$ is an open immersion, or, what amounts to the same
+`(17.9.1)`, that $g$ is étale and radicial. It will evidently suffice to show that, for every $y \in Y$, the morphism
+$g$ is étale and radicial at each point of $f^{-1}(y)$. Now, for every $y \in Y$, one can apply to $f$ the result of
+`(18.12.3)`, of which we preserve the notations; since the morphism $Y' \to Y$ is flat, and that $f$ is quasi-compact
+and separated, one has, up to canonical isomorphism, $f'_{*}(\mathcal{O}_{X'}) = \mathcal{A} \otimes_{\mathcal{O}_{Y}}
+\mathcal{O}_{Y'} = \mathcal{A}'$ `(2.3.1)`, so $Z' = Z \times_{Y} Y'$ identifies with
+$\operatorname{Spec}(f'_{*}(\mathcal{O}_{X'}))$, and in the canonical factorization $X' \to^{g'} Z' \to^{h'} Y'$ of $f'$
+`(II, 1.2.7)`, one has $h' = h_{(Y')}$ and $g' = g_{(Y')}$. This being so, the decomposition of $X'$ into the sum of two
+sub-preschemes $X'_{1}$, $X'_{2}$ implies the decomposition of $\mathcal{A}'$ into the direct product of the two
+quasi-coherent $\mathcal{O}_{Y'}$-algebras $\mathcal{A}'_{1}$, $\mathcal{A}'_{2}$, direct images respectively of
+$\mathcal{O}_{X'_{1}}$ and $\mathcal{O}_{X'_{2}}$, so that $Z'$ identifies with the sum $Z'_{1} \sqcup Z'_{2}$, where
+$Z'_{i} = \operatorname{Spec}(\mathcal{A}'_{i})$ and $g'(X'_{i}) \subset Z'_{i}$ for $i = 1, 2$. Since $X'_{1}$ is
+finite over $Y'$, $g'_{1} = g' | X'_{1}$ is an isomorphism of $X'_{1}$ onto $Z'_{1}$, since $f' | X'_{1}$ is affine;
+since $X'_{2} \cap f'^{-1}(y') = \emptyset$, one sees that $g'$ is étale and radicial at each point of $f'^{-1}(y')$.
+The morphism $Y' \to Y$ being flat and locally of finite presentation, one therefore deduces first from `(17.7.4)` that
+$g$ is étale at all points of $X$ projections of points of $f'^{-1}(y')$, that is to say at all points of $f^{-1}(y)$
+`(I, 3.5.2)`. On the other hand, the morphism $g'_{y'} : f'^{-1}(y') \to h'^{-1}(y')$ deduced from $g'$ is radicial;
+since $k(y') = k(y)$, the morphism $g_{y} : f^{-1}(y) \to h^{-1}(y)$ is also radicial, in other words $g$ is radicial at
+each point of $f^{-1}(y)$, which finishes proving the proposition.
 
 The following statement improves similarly `(8.12.6)`:
 
-**Corollary (18.12.13)** *("Main Theorem" of Zariski).* — *Let `Y` be a quasi-compact and quasi-separated prescheme,
-`f : X → Y` a quasi-finite and separated morphism. Then there exists a factorization of `f`*
+**Corollary (18.12.13)** *("Main Theorem" of Zariski).* — *Let $Y$ be a quasi-compact and quasi-separated prescheme,
+$f : X \to Y$ a quasi-finite and separated morphism. Then there exists a factorization of $f$*
 
 ```text
   X →^g Z →^u Y
 ```
 
-*where `g` is an open immersion (necessarily quasi-compact) and `u` a finite morphism.*
+*where $g$ is an open immersion (necessarily quasi-compact) and $u$ a finite morphism.*
 
-Indeed, it results from `(18.12.12)` that `f` is quasi-affine, hence quasi-projective. One can then apply `(8.12.8)`,
-where the hypothesis of the existence of an ample `𝒪_Y`-Module can in fact be replaced by the sole hypothesis that `Y`
-is quasi-compact and quasi-separated: indeed, it results from `(8.12.3)` that the existence of the announced
-factorization in `(8.12.8)` is a property local on `Y`, and that it therefore suffices to prove it when `Y` is affine.
+Indeed, it results from `(18.12.12)` that $f$ is quasi-affine, hence quasi-projective. One can then apply `(8.12.8)`,
+where the hypothesis of the existence of an ample $\mathcal{O}_{Y}$-Module can in fact be replaced by the sole
+hypothesis that $Y$ is quasi-compact and quasi-separated: indeed, it results from `(8.12.3)` that the existence of the
+announced factorization in `(8.12.8)` is a property local on $Y$, and that it therefore suffices to prove it when $Y$ is
+affine.
 
 **Remark (18.12.14).** — One can give of `(18.12.13)` a proof analogous to that of `(18.12.12)` not using `(8.12.8)`
 (but using `(18.12.3)`, hence `(18.5.11)`, which itself uses the "Main theorem" in its local form `(8.12.9)`). Let us
-indeed keep the notations of the proof of `(18.12.12)`, and let `ℬ` be the quasi-coherent `𝒪_Y`-Algebra, *integral
-closure* of `𝒪_Y` in `𝒜` `(II, 6.3.2)`. If one sets `T = Spec(ℬ)`, it suffices, by virtue of `(8.12.3)`, to prove that
-the `Y`-morphism `g̃ : X → T` corresponding to the canonical injection `ℬ → 𝒜` is an immersion, and for this it suffices
-to show `(17.9.1)` that `g̃` is étale and radicial. With the notations of `(18.12.12)`, one can suppose that
-`Y = Spec(C)` and `Y' = Spec(C')` are affine, `C'` being an étale `C`-algebra `(17.3.2)`; hence `𝒜 = Ã`, where `A` is
+indeed keep the notations of the proof of `(18.12.12)`, and let $\mathcal{B}$ be the quasi-coherent
+$\mathcal{O}_{Y}$-Algebra, *integral closure* of $\mathcal{O}_{Y}$ in $\mathcal{A}$ `(II, 6.3.2)`. If one sets $T =
+\operatorname{Spec}(\mathcal{B})$, it suffices, by virtue of `(8.12.3)`, to prove that the $Y$-morphism $\tilde{g} : X
+\to T$ corresponding to the canonical injection $\mathcal{B} \to \mathcal{A}$ is an immersion, and for this it suffices
+to show `(17.9.1)` that $\tilde{g}$ is étale and radicial. With the notations of `(18.12.12)`, one can suppose that $Y =
+\operatorname{Spec}(C)$ and $Y' = \operatorname{Spec}(C')$ are affine, $C'$ being an étale $C$-algebra `(17.3.2)`; hence
+$\mathcal{A} = \tilde{A}$, where $A$ is
 
 <!-- original page 184 -->
 
-a `C`-algebra, `𝒜' = Ã'` with `A' = A ⊗_C C'`, and `ℬ = B̃`, where `B` is the integral closure of `C` in `A`. The
-algebra `A'` is isomorphic to the product `A'_1 × A'_2`, where `A'_1` is a finite `C'`-algebra. It will suffice to prove
-that `B' = B ⊗_C C'`, which identifies by flatness with a sub-`C'`-algebra of `A'`, contains `A'_1`, for indeed `B'`
-will then decompose into the product `A'_1 × A''_2`, where `A''_2` is a sub-`C'`-algebra of `A'_2`, and if one sets
-`T'_2 = Spec(A''_2)`, `T' = T ×_Y Y'` will be the sum of `Z'_1 = Spec(A'_1)` and `T'_2`, and `g̃' | X'_1` will be an
-isomorphism of `X'_1` onto `Z'_1`, which will allow one to conclude as in `(18.12.12)`.
+a $C$-algebra, $\mathcal{A}' = \tilde{A}'$ with $A' = A \otimes_{C} C'$, and $\mathcal{B} = \tilde{B}$, where $B$ is the
+integral closure of $C$ in $A$. The algebra $A'$ is isomorphic to the product $A'_{1} \times A'_{2}$, where $A'_{1}$ is
+a finite $C'$-algebra. It will suffice to prove that $B' = B \otimes_{C} C'$, which identifies by flatness with a
+sub-$C'$-algebra of $A'$, contains $A'_{1}$, for indeed $B'$ will then decompose into the product $A'_{1} \times
+A''_{2}$, where $A''_{2}$ is a sub-$C'$-algebra of $A'_{2}$, and if one sets $T'_{2} = \operatorname{Spec}(A''_{2})$,
+$T' = T \times_{Y} Y'$ will be the sum of $Z'_{1} = \operatorname{Spec}(A'_{1})$ and $T'_{2}$, and $\tilde{g}' | X'_{1}$
+will be an isomorphism of $X'_{1}$ onto $Z'_{1}$, which will allow one to conclude as in `(18.12.12)`.
 
-To prove that `B'` contains `A'_1`, it evidently suffices to prove the following proposition, which extends partially
+To prove that $B'$ contains $A'_{1}$, it evidently suffices to prove the following proposition, which extends partially
 `(6.14.4)` when one no longer makes Noetherian hypotheses:
 
 **Proposition (18.12.15).**
 
 <!-- label: IV.18.12.15 -->
 
-*Let `C` be a ring, `C'` an étale `C`-algebra, `A` a `C`-algebra, `B` the integral closure of `C` in `A`; one sets
-`A' = A ⊗_C C'`, `B' = B ⊗_C C'`, `B'` being identified with a sub-algebra of `A'`; then `B'` is the integral closure of
-`C'` in `A'`.*
+*Let $C$ be a ring, $C'$ an étale $C$-algebra, $A$ a $C$-algebra, $B$ the integral closure of $C$ in $A$; one sets $A' =
+A \otimes_{C} C'$, $B' = B \otimes_{C} C'$, $B'$ being identified with a sub-algebra of $A'$; then $B'$ is the integral
+closure of $C'$ in $A'$.*
 
-By considering the filtered increasing family of sub-`C`-algebras of finite type of `A` and reasoning as in
-`(6.14.4, II)`, one can first suppose that `A` is a `C`-algebra of finite type, hence of the form `E/𝔍`, where
-`E = C[T_1, …, T_r]` and `𝔍` is an ideal of `E`; one has then `A' = E'/𝔍 E'`, where `E' = C'[T_1, …, T_r]`. Let `(𝔍_λ)`
-be the filtered increasing family of ideals of finite type of `E` contained in `𝔍`, so that `A` is the inductive limit
-of the `E/𝔍_λ`; if `B_λ` is the integral closure of `C` in `E/𝔍_λ`, `B` is the inductive limit of the `B_λ`, as the
-reasoning of `(5.13.4)` shows. Similarly the integral closure of `C'` in `E'/𝔍 E'` is the inductive limit of the
-integral closure of `C'` in `E'/𝔍_λ E'`; if one proves that the latter is equal to `B_λ ⊗_C C'`, it will result that
-`B' = lim^→ (B_λ ⊗_C C')` will be the integral closure of `C'` in `A'`. One is thus reduced to proving the proposition
-when `A` is a `C`-algebra of finite presentation.
+By considering the filtered increasing family of sub-$C$-algebras of finite type of $A$ and reasoning as in
+`(6.14.4, II)`, one can first suppose that $A$ is a $C$-algebra of finite type, hence of the form $E/\mathfrak{J}$,
+where $E = C[T_{1}, \cdots, T_{r}]$ and $\mathfrak{J}$ is an ideal of $E$; one has then $A' = E'/\mathfrak{J} E'$, where
+$E' = C'[T_{1}, \cdots, T_{r}]$. Let $(\mathfrak{J}_{\lambda})$ be the filtered increasing family of ideals of finite
+type of $E$ contained in $\mathfrak{J}$, so that $A$ is the inductive limit of the $E/\mathfrak{J}_{\lambda}$; if
+$B_{\lambda}$ is the integral closure of $C$ in $E/\mathfrak{J}_{\lambda}$, $B$ is the inductive limit of the
+$B_{\lambda}$, as the reasoning of `(5.13.4)` shows. Similarly the integral closure of $C'$ in $E'/\mathfrak{J} E'$ is
+the inductive limit of the integral closure of $C'$ in $E'/\mathfrak{J}_{\lambda} E'$; if one proves that the latter is
+equal to $B_{\lambda} \otimes_{C} C'$, it will result that $B' = \lim^{\to} (B_{\lambda} \otimes_{C} C')$ will be the
+integral closure of $C'$ in $A'$. One is thus reduced to proving the proposition when $A$ is a $C$-algebra of finite
+presentation.
 
-Let us next show that one can reduce to the case where `C` is Noetherian. Indeed, `C` is the filtered union of its
-sub-`ℤ`-algebras of finite type `C_α`, so it results from `(17.7.8)` that there exists an index `α` and an étale
-`C_α`-algebra `C'_α` such that `C' = C'_α ⊗_{C_α} C`; moreover `C'` is the inductive limit of the
-`C'_β = C'_α ⊗_{C_α} C_β` for `β ≥ α`. One can moreover suppose, since `A` is a `C`-algebra of finite presentation, that
-`A = A_α ⊗_{C_α} C`, where `A_α` is a `C_α`-algebra of finite type, and `A` is the inductive limit of the
-`A_β = A_α ⊗_{C_α} C_β` for `β ≥ α` `(8.9.1)`. The reasoning of `(5.13.4)` then shows that `B` is the inductive limit of
-the integral closures `B_β` of the `C_β` in the `A_β`. Similarly `A'` is the inductive limit of the
-`A'_β = A_β ⊗_{C_β} C'_β = A_α ⊗_{C_α} C'_β` for `β ≥ α`, hence the same reasoning as above shows that it will suffice
-to prove that `B'_β = B_β ⊗_{C_β} C'_β` is the integral closure of `C'_β` in `A'_β`.
+Let us next show that one can reduce to the case where $C$ is Noetherian. Indeed, $C$ is the filtered union of its
+sub-$\mathbb{Z}$-algebras of finite type $C_{\alpha}$, so it results from `(17.7.8)` that there exists an index $\alpha$
+and an étale $C_{\alpha}$-algebra $C'_{\alpha}$ such that $C' = C'_{\alpha} \otimes_{C_{\alpha}} C$; moreover $C'$ is
+the inductive limit of the $C'_{\beta} = C'_{\alpha} \otimes_{C_{\alpha}} C_{\beta}$ for $\beta \geq \alpha$. One can
+moreover suppose, since $A$ is a $C$-algebra of finite presentation, that $A = A_{\alpha} \otimes_{C_{\alpha}} C$, where
+$A_{\alpha}$ is a $C_{\alpha}$-algebra of finite type, and $A$ is the inductive limit of the $A_{\beta} = A_{\alpha}
+\otimes_{C_{\alpha}} C_{\beta}$ for $\beta \geq \alpha$ `(8.9.1)`. The reasoning of `(5.13.4)` then shows that $B$ is
+the inductive limit of the integral closures $B_{\beta}$ of the $C_{\beta}$ in the $A_{\beta}$. Similarly $A'$ is the
+inductive limit of the $A'_{\beta} = A_{\beta} \otimes_{C_{\beta}} C'_{\beta} = A_{\alpha} \otimes_{C_{\alpha}}
+C'_{\beta}$ for $\beta \geq \alpha$, hence the same reasoning as above shows that it will suffice to prove that
+$B'_{\beta} = B_{\beta} \otimes_{C_{\beta}} C'_{\beta}$ is the integral closure of $C'_{\beta}$ in $A'_{\beta}$.
 
-Once reduced to the case where `C` is Noetherian, the proposition becomes a particular case of `(6.14.4)`. One must
-nevertheless observe that, when `C'` is supposed étale over `C` Noetherian, the proof of `(6.14.4)` no longer requires
+Once reduced to the case where $C$ is Noetherian, the proposition becomes a particular case of `(6.14.4)`. One must
+nevertheless observe that, when $C'$ is supposed étale over $C$ Noetherian, the proof of `(6.14.4)` no longer requires
 the delicate theorem `(6.14.1)`. Indeed, the successive reductions of the proof of `(6.14.4)` reduce, without using
-`(6.14.1)`, to the case where `C` is integral, `A` the field of fractions of `C`. Since then `B` is a normal ring and
-the morphism `Spec(B') → Spec(B)` is étale, it results from `(17.5.7)` that `B'` is a normal ring; the reasoning ends by
-appealing only to the elementary lemma `(6.14.1.1)`, but not to the difficult part of the proof of `(6.14.1)`.
+`(6.14.1)`, to the case where $C$ is integral, $A$ the field of fractions of $C$. Since then $B$ is a normal ring and
+the morphism $\operatorname{Spec}(B') \to \operatorname{Spec}(B)$ is étale, it results from `(17.5.7)` that $B'$ is a
+normal ring; the reasoning ends by appealing only to the elementary lemma `(6.14.1.1)`, but not to the difficult part of
+the proof of `(6.14.1)`.
 
 **Proposition (18.12.16).**
 
 <!-- label: IV.18.12.16 -->
 
-*Let `g : Y → S` be a quasi-compact morphism, `f : X → Y` a separated and quasi-finite morphism. For every invertible
-`𝒪_Y`-Module `ℒ`, ample relative to `S` `(II, 4.6.1)`, the `𝒪_X`-Module `f*(ℒ)` is ample relative to `S`.*
+*Let $g : Y \to S$ be a quasi-compact morphism, $f : X \to Y$ a separated and quasi-finite morphism. For every
+invertible $\mathcal{O}_{Y}$-Module $\mathcal{L}$, ample relative to $S$ `(II, 4.6.1)`, the $\mathcal{O}_{X}$-Module
+$f*(\mathcal{L})$ is ample relative to $S$.*
 
-Indeed, by virtue of `(18.12.12)`, the morphism `f` is quasi-affine, hence `(II, 5.1.6)` the `𝒪_X`-Module `𝒪_X` is ample
-for `f`. One deduces `(II, 4.6.13, (ii))` that `𝒪_X ⊗_{𝒪_Y} f*(ℒ^{⊗ n}) = f*(ℒ^{⊗ n})` is ample relative to `S` for `n`
-large enough. But since `f*(ℒ^{⊗ n}) = (f*(ℒ))^{⊗ n}`, this implies that `f*(ℒ)` is ample relative to `S`
-`(II, 4.6.9, (i))`.
+Indeed, by virtue of `(18.12.12)`, the morphism $f$ is quasi-affine, hence `(II, 5.1.6)` the $\mathcal{O}_{X}$-Module
+$\mathcal{O}_{X}$ is ample for $f$. One deduces `(II, 4.6.13, (ii))` that $\mathcal{O}_{X} \otimes_{\mathcal{O}_{Y}}
+f*(\mathcal{L}^{\otimes n}) = f*(\mathcal{L}^{\otimes n})$ is ample relative to $S$ for $n$ large enough. But since
+$f*(\mathcal{L}^{\otimes n}) = (f*(\mathcal{L}))^{\otimes n}$, this implies that $f*(\mathcal{L})$ is ample relative to
+$S$ `(II, 4.6.9, (i))`.
 
 **Corollary (18.12.17).**
 
 <!-- label: IV.18.12.17 -->
 
-*Let `Z` be an affine scheme, `h : X → Z` a morphism of finite type, `ℒ` an invertible `𝒪_X`-Module. With the notations
-of `(II, 4.5.2)`, the conditions of `(II, 4.5.2)` (which are equivalent to the fact that `ℒ` is ample) are also
-equivalent to each of the following:*
+*Let $Z$ be an affine scheme, $h : X \to Z$ a morphism of finite type, $\mathcal{L}$ an invertible
+$\mathcal{O}_{X}$-Module. With the notations of `(II, 4.5.2)`, the conditions of `(II, 4.5.2)` (which are equivalent to
+the fact that $\mathcal{L}$ is ample) are also equivalent to each of the following:*
 
-*b'') `h` is separated, one has `G(s) = X` and the canonical morphism `u : G(s) → Proj(S)` has its fibres finite and
-discrete.*
+*b'') $h$ is separated, one has $G(s) = X$ and the canonical morphism $u : G(s) \to \operatorname{Proj}(S)$ has its
+fibres finite and discrete.*
 
-*b''') One has `G(s) = X` and the canonical morphism `u` is radicial.*
+*b''') One has $G(s) = X$ and the canonical morphism $u$ is radicial.*
 
-If `Z = Spec(A)`, the ring `S` is canonically equipped with a structure of graded `A`-algebra, so one has a structural
-morphism `g : Proj(S) → Z` which is separated `(II, 2.4.2)`, and one has `h = g ∘ u`.
+If $Z = \operatorname{Spec}(A)$, the ring $S$ is canonically equipped with a structure of graded $A$-algebra, so one has
+a structural morphism $g : \operatorname{Proj}(S) \to Z$ which is separated `(II, 2.4.2)`, and one has $h = g \circ u$.
 
-Since every radicial morphism is separated `(1.8.7.1)`, b''') implies that `h` is separated, hence implies b''). Since
-condition b) of `(II, 4.5.2)` evidently implies b''), it remains to see that b'') implies that `ℒ` is ample. Since
-`h = g ∘ u` is of finite type by hypothesis and `g` is separated, `u` is also of finite type `(I, 6.3.4)`, hence the
-hypothesis b'') implies that `u` is quasi-finite and separated `(I, 5.5.1)`. To prove that `ℒ` is ample, we shall apply
-`(18.12.16)`. Set `Y = Proj(S)`. Since `X` is quasi-compact, there exist an integer `n > 0` and a finite number of
-elements `f_j ∈ S_n` such that the inverse images `u⁻¹(D_+(f_j))` cover `X`; one can therefore consider `u` as a
-quasi-finite and separated morphism of `X` into the open `Y' = ⋃ D_+(f_j)` of `Y`. Consider then the invertible
-`𝒪_{Y'}`-Module `ℒ' = 𝒪_Y(n) | Y'` `(II, 2.5.8)`; it is very ample relative to `Z` `(II, 4.4.3)`, and `u*(ℒ')` is none
-other by definition than `ℒ^{⊗ n}`
+Since every radicial morphism is separated `(1.8.7.1)`, b''') implies that $h$ is separated, hence implies b''). Since
+condition b) of `(II, 4.5.2)` evidently implies b''), it remains to see that b'') implies that $\mathcal{L}$ is ample.
+Since $h = g \circ u$ is of finite type by hypothesis and $g$ is separated, $u$ is also of finite type `(I, 6.3.4)`,
+hence the hypothesis b'') implies that $u$ is quasi-finite and separated `(I, 5.5.1)`. To prove that $\mathcal{L}$ is
+ample, we shall apply `(18.12.16)`. Set $Y = \operatorname{Proj}(S)$. Since $X$ is quasi-compact, there exist an integer
+$n > 0$ and a finite number of elements $f_{j} \in S_{n}$ such that the inverse images $u^{-1}(D_{+}(f_{j}))$ cover $X$;
+one can therefore consider $u$ as a quasi-finite and separated morphism of $X$ into the open $Y' = \bigcup D_{+}(f_{j})$
+of $Y$. Consider then the invertible $\mathcal{O}_{Y'}$-Module $\mathcal{L}' = \mathcal{O}_{Y}(n) | Y'$ `(II, 2.5.8)`;
+it is very ample relative to $Z$ `(II, 4.4.3)`, and $u*(\mathcal{L}')$ is none other by definition than
+$\mathcal{L}^{\otimes n}$
 
-`(II, 3.7.9, (i))`. By virtue of `(18.12.16)`, `ℒ^{⊗ n}` is therefore ample relative to `Z` (which is equivalent to
-saying that it is ample `(II, 4.6.6)`), and consequently the same is true of `ℒ` `(II, 4.5.6, (i))`.
+`(II, 3.7.9, (i))`. By virtue of `(18.12.16)`, $\mathcal{L}^{\otimes n}$ is therefore ample relative to $Z$ (which is
+equivalent to saying that it is ample `(II, 4.6.6)`), and consequently the same is true of $\mathcal{L}$
+`(II, 4.5.6, (i))`.
 
-We leave to the reader the task of stating similarly conditions equivalent to those of `(II, 4.6.3)` for `𝒪_X`-Modules
-relatively ample.
+We leave to the reader the task of stating similarly conditions equivalent to those of `(II, 4.6.3)` for
+$\mathcal{O}_{X}$-Modules relatively ample.
 
 [^18.5-azumaya-nagata]: The notion of Henselian local ring is due to Azumaya, that of Henselization to Nagata, to whom
     one also owes the principal results of this theory.

@@ -8,144 +8,143 @@ We shall develop in §5 the general theory of the dimension of preschemes; but t
 preschemes can be developed in a more elementary way, and since it presents in addition many special features, we give
 here a rapid exposition of it, independent of the general theory.
 
-If `K` is a field and `L` an extension of `K`, we shall denote by `deg.tr_K L` the **transcendence degree** of `L` over
-`K`.
+If $K$ is a field and $L$ an extension of $K$, we shall denote by $deg.tr_{K} L$ the **transcendence degree** of $L$
+over $K$.
 
 **Definition (4.1.1).**
 
 <!-- label: IV.4.1.1 -->
 
-*Let `k` be a field, `X` a prescheme locally of finite type over `k`. We call **dimension** of `X` the number*
+*Let $k$ be a field, $X$ a prescheme locally of finite type over $k$. We call **dimension** of $X$ the number*
 
 ```text
   dim(X) = sup_{x} deg.tr_k k(x)                                    (4.1.1.1)
 ```
 
-*where `x` runs through the set of maximal points of `X`.*
+*where $x$ runs through the set of maximal points of $X$.*
 
-We shall see in §5 `(5.2.2)` that the definition `(4.1.1)` depends only apparently on the base field `k` over which `X`
-is locally of finite type, and that the number `dim(X)` so defined coincides with the dimension of the underlying space
-`X` (defined in `(0, 14.1.2)`). One evidently has `dim(X) = dim(X_red)`.
+We shall see in §5 `(5.2.2)` that the definition `(4.1.1)` depends only apparently on the base field $k$ over which $X$
+is locally of finite type, and that the number $\dim(X)$ so defined coincides with the dimension of the underlying space
+$X$ (defined in `(0, 14.1.2)`). One evidently has `dim(X) = dim(X_red)`.
 
-We note that each `k(x)` is an extension of finite type of `k` `(I, 6.3.3)` hence has finite transcendence degree over
-`k`. If `X` is of finite type over `k` and non-empty, it is Noetherian `(I, 6.3.7)`, hence has only a finite number of
-irreducible components, and consequently `dim(X)` is finite and `≥ 0`; definition `(4.1.1)` gives
+We note that each $k(x)$ is an extension of finite type of $k$ `(I, 6.3.3)` hence has finite transcendence degree over
+$k$. If $X$ is of finite type over $k$ and non-empty, it is Noetherian `(I, 6.3.7)`, hence has only a finite number of
+irreducible components, and consequently $\dim(X)$ is finite and $\geq 0$; definition `(4.1.1)` gives
 
-```text
-  dim(∅) = −∞.
-```
+$$ \dim(\emptyset) = -\infty. $$
 
-It is clear that, if one denotes by `(X_α)` the family of reduced closed sub-preschemes of `X` having as underlying
-spaces the irreducible components of `X` `(I, 5.2.1)`, one has
+It is clear that, if one denotes by $(X_{\alpha})$ the family of reduced closed sub-preschemes of $X$ having as
+underlying spaces the irreducible components of $X$ `(I, 5.2.1)`, one has
 
 ```text
   dim(X) = sup_α dim(X_α).                                          (4.1.1.2)
 ```
 
 This therefore reduces the calculation of the dimension to the case of integral preschemes (locally of finite type over
-`k`). Finally, one evidently has
+$k$). Finally, one evidently has
 
-```text
-  dim(X) = dim(U)                                                   (4.1.1.3)
-```
+$$ \dim(X) = \dim(U) (4.1.1.3) $$
 
-for every sub-prescheme induced on an everywhere dense open set `U` of `X`; this finally reduces the notion of dimension
-to the case of an affine scheme of finite type over `k`.
+for every sub-prescheme induced on an everywhere dense open set $U$ of $X$; this finally reduces the notion of dimension
+to the case of an affine scheme of finite type over $k$.
 
 **Theorem (4.1.2).**
 
 <!-- label: IV.4.1.2 -->
 
-*Let `X`, `Y` be two preschemes locally of finite type over a field `k`, `f : X → Y` a `k`-morphism.*
+*Let $X$, $Y$ be two preschemes locally of finite type over a field $k$, $f : X \to Y$ a $k$-morphism.*
 
-*(i) If `f` is quasi-compact and dominant, one has `dim(Y) ≤ dim(X)`.*
+*(i) If $f$ is quasi-compact and dominant, one has $\dim(Y) \leq \dim(X)$.*
 
-*(ii) If `f` is quasi-finite, one has `dim(X) ≤ dim(Y)`.*
+*(ii) If $f$ is quasi-finite, one has $\dim(X) \leq \dim(Y)$.*
 
 <!-- original page 53 -->
 
-*(iii) Suppose `X` is of finite type over `k`. For `dim(X) ≤ n` (resp. `dim(X) ≤ n`, `dim(X) = n`), it is necessary and
-sufficient that there exist a dense open set `U` in `X`, and a `k`-morphism `g : U → V_n^{(k)}`
-(`= Spec(k[T_1, …, T_n])`, which we shall also denote by `V_n^{(k)}`) which is surjective (resp. finite, resp. finite
-and surjective). If `X` is an affine scheme, one can take `U = X`.*
+*(iii) Suppose $X$ is of finite type over $k$. For $\dim(X) \leq n$ (resp. $\dim(X) \leq n$, $\dim(X) = n$), it is
+necessary and sufficient that there exist a dense open set $U$ in $X$, and a $k$-morphism $g : U \to V^{(k)}_{n}$ ($=
+\operatorname{Spec}(k[T_{1}, \cdots, T_{n}])$, which we shall also denote by $V^{(k)}_{n}$) which is surjective (resp.
+finite, resp. finite and surjective). If $X$ is an affine scheme, one can take $U = X$.*
 
-(i) Let `y` be a maximal point of `Y`; one knows that `f⁻¹(y)` contains a maximal point `x` of `X` `(1.1.5)`, hence
-`k(x)` is an extension of `k(y)`, whence the inequality `deg.tr_k k(y) ≤ deg.tr_k k(x) ≤ dim(X)`, which proves (i).
+(i) Let $y$ be a maximal point of $Y$; one knows that $f^{-1}(y)$ contains a maximal point $x$ of $X$ `(1.1.5)`, hence
+$k(x)$ is an extension of $k(y)$, whence the inequality `deg.tr_k k(y) ≤ deg.tr_k k(x) ≤ dim(X)`, which proves (i).
 
-(ii) If `x` is a maximal point of `X`, `k(x)` is a finite extension of `k(f(x))` `(II, 6.2.2)`, hence has the same
-transcendence degree over `k`. Considering the reduced closed sub-prescheme of `Y` having `‾{f(x)}` as underlying space,
-one sees that one is reduced to proving the
+(ii) If $x$ is a maximal point of $X$, $k(x)$ is a finite extension of $k(f(x))$ `(II, 6.2.2)`, hence has the same
+transcendence degree over $k$. Considering the reduced closed sub-prescheme of $Y$ having $\overline{f(x)}$ as
+underlying space, one sees that one is reduced to proving the
 
 **Corollary (4.1.2.1).**
 
 <!-- label: IV.4.1.2.1 -->
 
-*Let `Y` be a `k`-prescheme locally of finite type; for every sub-prescheme `Z` of `Y`, one has `dim(Z) ≤ dim(Y)`.
-Suppose in addition that the irreducible components of `Y` all have the same dimension; then, for `Z` to be rare in `Y`,
-it is necessary and sufficient that `dim(Z) < dim(Y)`.*
+*Let $Y$ be a $k$-prescheme locally of finite type; for every sub-prescheme $Z$ of $Y$, one has $\dim(Z) \leq \dim(Y)$.
+Suppose in addition that the irreducible components of $Y$ all have the same dimension; then, for $Z$ to be rare in $Y$,
+it is necessary and sufficient that $\dim(Z) < \dim(Y)$.*
 
-Indeed, let `z` be a maximal point of `Z`; by considering one of the reduced closed sub-preschemes of `Y` having as
-underlying space one of the irreducible components of `Y` containing `z`, one reduces to the case where `Y` is integral
-with generic point `y`, then, by considering in `Y` an affine open set containing `z`, to the case where `Y` is affine
-and of finite type over `k`, say `Y = Spec(A)`, and `Z` closed in `Y`, say `Z = Spec(A/𝔞)` where `𝔞` is an ideal of the
-integral ring `A`, distinct from `A`. By virtue of the normalization lemma
-`(Bourbaki, Alg. comm., chap. V, §3, n° 1, th. 1)` there exists a finite sequence `(x_i)_{1 ≤ i ≤ n}` of elements of
-`A`, algebraically independent over `k`, such that `A` is integral over the ring `B = k[x_1, …, x_n]` and that `𝔞 ∩ B`
-is generated by a subfamily `(x_i)_{1 ≤ i ≤ p}` (possibly empty) of `(x_i)_{1 ≤ i ≤ n}`. Let
-`g : Y → Spec(B) = V_n^{(k)}` be the finite dominant morphism corresponding to the canonical injection `B → A`; since
-`C = B/(𝔞 ∩ B)` is isomorphic to `k[x_{p+1}, …, x_n]`, `g` induces on `Z` a finite dominant morphism
-`Z → V_{n−p}^{(k)}`; one has therefore `deg.tr_k k(y) = n` and `deg.tr_k k(z) = n − p`, since `k(y)` (resp. `k(z)`) is a
-finite extension of `k(g(y))` (resp. `k(g(z))`). This proves the first assertion of `(4.1.2.1)`. Furthermore, if
-`p = 0`, one necessarily has `z = y`, since `y` is the only point of `Y` whose image by `g` is the generic point of
-`V_n^{(k)}`; in this case, `Z` therefore contains a non-empty open set of `Y`. If on the contrary `p > 0`, one
-necessarily has `z ≠ y` and `‾{z}` is therefore rare in `‾{y}`, which completes the proof of `(4.1.2.1)`.
+Indeed, let $z$ be a maximal point of $Z$; by considering one of the reduced closed sub-preschemes of $Y$ having as
+underlying space one of the irreducible components of $Y$ containing $z$, one reduces to the case where $Y$ is integral
+with generic point $y$, then, by considering in $Y$ an affine open set containing $z$, to the case where $Y$ is affine
+and of finite type over $k$, say $Y = \operatorname{Spec}(A)$, and $Z$ closed in $Y$, say $Z =
+\operatorname{Spec}(A/\mathfrak{a})$ where $\mathfrak{a}$ is an ideal of the integral ring $A$, distinct from $A$. By
+virtue of the normalization lemma `(Bourbaki, Alg. comm., chap. V, §3, n° 1, th. 1)` there exists a finite sequence
+$(x_{i})_{1 \leq i \leq n}$ of elements of $A$, algebraically independent over $k$, such that $A$ is integral over the
+ring $B = k[x_{1}, \cdots, x_{n}]$ and that $\mathfrak{a} \cap B$ is generated by a subfamily $(x_{i})_{1 \leq i \leq
+p}$ (possibly empty) of $(x_{i})_{1 \leq i \leq n}$. Let $g : Y \to \operatorname{Spec}(B) = V^{(k)}_{n}$ be the finite
+dominant morphism corresponding to the canonical injection $B \to A$; since $C = B/(\mathfrak{a} \cap B)$ is isomorphic
+to $k[x_{p+1}, \cdots, x_{n}]$, $g$ induces on $Z$ a finite dominant morphism $Z \to V^{(k)}_{n-p}$; one has therefore
+$deg.tr_{k} k(y) = n$ and $deg.tr_{k} k(z) = n - p$, since $k(y)$ (resp. $k(z)$) is a finite extension of $k(g(y))$
+(resp. $k(g(z))$). This proves the first assertion of `(4.1.2.1)`. Furthermore, if $p = 0$, one necessarily has $z = y$,
+since $y$ is the only point of $Y$ whose image by $g$ is the generic point of $V^{(k)}_{n}$; in this case, $Z$ therefore
+contains a non-empty open set of $Y$. If on the contrary $p > 0$, one necessarily has $z \neq y$ and $\overline{z}$ is
+therefore rare in $\overline{y}$, which completes the proof of `(4.1.2.1)`.
 
 (iii) The fact that the conditions stated are sufficient follows at once from (i) and (ii) and from `(1.5.4, (v))`. To
-prove that they are necessary, one may consider a dense open set `U` of `X`, union of pairwise disjoint and irreducible
-affine open sets `U_i` `(1 ≤ i ≤ m)`, each of which contains one of the maximal points of `X` `(0_I, 2.1.6)`; one may in
-addition suppose `X` reduced and if `X` is affine, one may of course take `U = X`. The same
+prove that they are necessary, one may consider a dense open set $U$ of $X$, union of pairwise disjoint and irreducible
+affine open sets $U_{i}$ $(1 \leq i \leq m)$, each of which contains one of the maximal points of $X$ $(0_{I}, 2.1.6)$;
+one may in addition suppose $X$ reduced and if $X$ is affine, one may of course take $U = X$. The same
 
 <!-- original page 54 -->
 
-reasoning as in `(4.1.2.1)` shows that if `dim(U_i) = n_i`, there exists a `k`-morphism `g_i : U_i → V_{n_i}^{(k)}`
-which is finite and dominant, hence surjective `(II, 6.1.10)`. Let `n = dim(X) = sup_i n_i`; for each `n_i`, there is
-then a morphism `h_i : V_{n_i}^{(k)} → V_n^{(k)}` which is a closed immersion corresponding to the canonical
-homomorphism `k[T_1, …, T_n] → k[T_1, …, T_{n_i}]`, and which is the identity for `n_i = n`. Since `U` is the sum of the
-`U_i`, one takes for `g` the morphism which on each `U_i` coincides with `h_i ∘ g_i`; it is evidently finite and
-surjective. When `n' ≥ n` one will have a finite morphism `U → V_{n'}^{(k)}` by composing the canonical closed immersion
-`V_n^{(k)} → V_{n'}^{(k)}` with `g`; when `n' ≤ n`, one composes likewise with `g` the canonical morphism
-`p : V_n^{(k)} → V_{n'}^{(k)}` corresponding to the canonical injection `k[T_1, …, T_{n'}] → k[T_1, …, T_n]`, noting
-that `p` is faithfully flat, hence surjective.
+reasoning as in `(4.1.2.1)` shows that if $\dim(U_{i}) = n_{i}$, there exists a $k$-morphism $g_{i} : U_{i} \to
+V^{(k)}_{n_{i}}$ which is finite and dominant, hence surjective `(II, 6.1.10)`. Let $n = \dim(X) = \sup_{i} n_{i}$; for
+each $n_{i}$, there is then a morphism $h_{i} : V^{(k)}_{n_{i}} \to V^{(k)}_{n}$ which is a closed immersion
+corresponding to the canonical homomorphism $k[T_{1}, \cdots, T_{n}] \to k[T_{1}, \cdots, T_{n_{i}}]$, and which is the
+identity for $n_{i} = n$. Since $U$ is the sum of the $U_{i}$, one takes for $g$ the morphism which on each $U_{i}$
+coincides with $h_{i} \circ g_{i}$; it is evidently finite and surjective. When $n' \geq n$ one will have a finite
+morphism $U \to V^{(k)}_{n'}$ by composing the canonical closed immersion $V^{(k)}_{n} \to V^{(k)}_{n'}$ with $g$; when
+$n' \leq n$, one composes likewise with $g$ the canonical morphism $p : V^{(k)}_{n} \to V^{(k)}_{n'}$ corresponding to
+the canonical injection $k[T_{1}, \cdots, T_{n'}] \to k[T_{1}, \cdots, T_{n}]$, noting that $p$ is faithfully flat,
+hence surjective.
 
 **Remark (4.1.3).**
 
 <!-- label: IV.4.1.3 -->
 
-*The corollary `(4.1.2.1)` shows that in formula `(4.1.1.1)`, one may suppose that `x` runs through the set of all
-points of `X`.*
+*The corollary `(4.1.2.1)` shows that in formula `(4.1.1.1)`, one may suppose that $x$ runs through the set of all
+points of $X$.*
 
 **Corollary (4.1.4).**
 
 <!-- label: IV.4.1.4 -->
 
-*Let `X` be a prescheme locally of finite type over a field `k`, `K` an extension of `k`; then `dim(X ⊗_k K) = dim(X)`.*
+*Let $X$ be a prescheme locally of finite type over a field $k$, $K$ an extension of $k$; then $\dim(X \otimes_{k} K) =
+\dim(X)$.*
 
-One may evidently restrict to the case where `X` is of finite type over `k`; then the morphism `u : X ⊗_k K → X` is
-faithfully flat `(2.2.13, (i))`, hence if `U` is an everywhere dense open set in `X`, `u⁻¹(U) = U ⊗_k K` is dense in
-`X ⊗_k K` `(2.3.10)`; if `g : U → V_n^{(k)}` is finite and surjective, so is `g_{(K)} : U_{(K)} → V_n^{(K)}`
-`(I, 3.5.2 and II, 6.1.5)`, whence the corollary.
+One may evidently restrict to the case where $X$ is of finite type over $k$; then the morphism $u : X \otimes_{k} K \to
+X$ is faithfully flat `(2.2.13, (i))`, hence if $U$ is an everywhere dense open set in $X$, $u^{-1}(U) = U \otimes_{k}
+K$ is dense in $X \otimes_{k} K$ `(2.3.10)`; if $g : U \to V^{(k)}_{n}$ is finite and surjective, so is $g_{(K)} :
+U_{(K)} \to V^{(K)}_{n}$ `(I, 3.5.2 and II, 6.1.5)`, whence the corollary.
 
 **Corollary (4.1.5).**
 
 <!-- label: IV.4.1.5 -->
 
-*Let `X` and `Y` be two preschemes locally of finite type over a field `k`; then `dim(X ×_k Y) = dim(X) + dim(Y)`.*
+*Let $X$ and $Y$ be two preschemes locally of finite type over a field $k$; then `dim(X ×_k Y) = dim(X) + dim(Y)`.*
 
-It suffices to prove that if `U` (resp. `V`) is an affine neighbourhood of a point `x` (resp. `y`) of `X` (resp. `Y`)
-such that `deg.tr_k k(x) = m = dim(U)` and `deg.tr_k k(y) = n = dim(V)`, then `dim(U ×_k V) = m + n`, in other words,
-one may, by virtue of `(4.1.2)`, suppose that there exist finite surjective `k`-morphisms `f : X → V_m^{(k)}`,
-`g : Y → V_n^{(k)}`; then `f × g : X ×_k Y → V_{m+n}^{(k)}` is finite and surjective `(I, 3.5.2 and II, 6.1.5)`, whence
-the corollary.
+It suffices to prove that if $U$ (resp. $V$) is an affine neighbourhood of a point $x$ (resp. $y$) of $X$ (resp. $Y$)
+such that $deg.tr_{k} k(x) = m = \dim(U)$ and $deg.tr_{k} k(y) = n = \dim(V)$, then $\dim(U \times_{k} V) = m + n$, in
+other words, one may, by virtue of `(4.1.2)`, suppose that there exist finite surjective $k$-morphisms $f : X \to
+V^{(k)}_{m}$, $g : Y \to V^{(k)}_{n}$; then $f \times g : X \times_{k} Y \to V^{(k)}_{m+n}$ is finite and surjective
+`(I, 3.5.2 and II, 6.1.5)`, whence the corollary.
 
 ### 4.2. Associated prime cycles on algebraic preschemes
 
@@ -153,8 +152,9 @@ the corollary.
 
 <!-- label: IV.4.2.1 -->
 
-*Let `K` and `L` be two extensions of a field `k`, such that `K ⊗_k L` is Noetherian. Then the prime ideals associated
-to `K ⊗_k L` are minimal, and if `E` is the residue field of the local ring of such an ideal, one has*
+*Let $K$ and $L$ be two extensions of a field $k$, such that $K \otimes_{k} L$ is Noetherian. Then the prime ideals
+associated to $K \otimes_{k} L$ are minimal, and if $E$ is the residue field of the local ring of such an ideal, one
+has*
 
 ```text
   deg.tr_K E = deg.tr_k L,    deg.tr_L E = deg.tr_k K               (4.2.1.1)
@@ -166,10 +166,10 @@ to `K ⊗_k L` are minimal, and if `E` is the residue field of the local ring of
   deg.tr_k E = deg.tr_k K + deg.tr_k L.                             (4.2.1.2)
 ```
 
-One knows that `K` is an algebraic extension of a purely transcendental extension `K' = k(𝐭)`, where `𝐭 = (t_ι)_{ι ∈ I}`
-is a family of indeterminates; the ring `k[𝐭] ⊗_k L = L[𝐭]` is integral, hence so is `K' ⊗_k L`, which is a ring of
-fractions of it, and the field of fractions of `K' ⊗_k L` is `L(𝐭)`; one has the commutative diagram of canonical
-homomorphisms
+One knows that $K$ is an algebraic extension of a purely transcendental extension $K' = k(\mathbf{t})$, where
+$\mathbf{t} = (t_{\iota})_{\iota \in I}$ is a family of indeterminates; the ring $k[\mathbf{t}] \otimes_{k} L =
+L[\mathbf{t}]$ is integral, hence so is $K' \otimes_{k} L$, which is a ring of fractions of it, and the field of
+fractions of $K' \otimes_{k} L$ is $L(\mathbf{t})$; one has the commutative diagram of canonical homomorphisms
 
 <!-- original page 55 -->
 
@@ -181,78 +181,83 @@ homomorphisms
   k  ───→  L
 ```
 
-Since `K` is faithfully flat over `K'`, `K ⊗_k L = K ⊗_{K'} (K' ⊗_k L)` is faithfully flat over `K' ⊗_k L`, hence
-`K' ⊗_k L` is Noetherian `(0_I, 6.5.2)`; in addition `K' ⊗_k L` is identified with a sub-ring of `K ⊗_k L`; the trace on
-`K' ⊗_k L` of a prime ideal `𝔭` associated to `K ⊗_k L` is the ideal `0`, an element `≠ 0` of `K' ⊗_k L` not being a
-zero-divisor in `K ⊗_k L` `(0_I, 6.3.4 and Bourbaki, Alg. comm., chap. IV, §1, n° 1, cor. 3 of prop. 2)`. As in addition
-`K` is algebraic over `K'`, `K ⊗_k L` is an integral algebra over `K' ⊗_k L`, and the prime ideals of `K ⊗_k L` inducing
-`0` on `K' ⊗_k L` are necessarily without mutual inclusion relation
+Since $K$ is faithfully flat over $K'$, $K \otimes_{k} L = K \otimes_{K'} (K' \otimes_{k} L)$ is faithfully flat over
+$K' \otimes_{k} L$, hence $K' \otimes_{k} L$ is Noetherian $(0_{I}, 6.5.2)$; in addition $K' \otimes_{k} L$ is
+identified with a sub-ring of $K \otimes_{k} L$; the trace on $K' \otimes_{k} L$ of a prime ideal $\mathfrak{p}$
+associated to $K \otimes_{k} L$ is the ideal `0`, an element $\neq 0$ of $K' \otimes_{k} L$ not being a zero-divisor in
+$K \otimes_{k} L$ `(0_I, 6.3.4 and Bourbaki, Alg. comm., chap. IV, §1, n° 1, cor. 3 of prop. 2)`. As in addition $K$ is
+algebraic over $K'$, $K \otimes_{k} L$ is an integral algebra over $K' \otimes_{k} L$, and the prime ideals of $K
+\otimes_{k} L$ inducing `0` on $K' \otimes_{k} L$ are necessarily without mutual inclusion relation
 `(Bourbaki, Alg. comm., chap. V, §2, n° 1, cor. 1 of prop. 1)`; this proves the first assertion
-`(Bourbaki, Alg. comm., chap. IV, §1, n° 3, cor. 1 of prop. 7)`. Moreover, the residue field `E` of `𝔭` is algebraic
-over the residue field of the ideal `(0)` of `K' ⊗_k L`, that is `L(𝐭)`; hence
+`(Bourbaki, Alg. comm., chap. IV, §1, n° 3, cor. 1 of prop. 7)`. Moreover, the residue field $E$ of $\mathfrak{p}$ is
+algebraic over the residue field of the ideal `(0)` of $K' \otimes_{k} L$, that is $L(\mathbf{t})$; hence
 `deg.tr_K E = deg.tr_K L(𝐭) = Card(I) = deg.tr_k K`, in other words one has the first relation `(4.2.1.1)`; exchanging
-the roles of `K` and `L`, one has the second relation `(4.2.1.1)`, whence `(4.2.1.2)`.
+the roles of $K$ and $L$, one has the second relation `(4.2.1.1)`, whence `(4.2.1.2)`.
 
 **Corollary (4.2.2).**
 
 <!-- label: IV.4.2.2 -->
 
-*Under the hypotheses of `(3.3.6)`, if the preschemes `T_{x,y}` are locally Noetherian, they have no embedded associated
+*Under the hypotheses of `(3.3.6)`, if the preschemes $T_{x,y}$ are locally Noetherian, they have no embedded associated
 prime cycle.*
 
 **Corollary (4.2.3).**
 
 <!-- label: IV.4.2.3 -->
 
-*Under the hypotheses of `(3.3.6)` (resp. `(3.3.7)`), if the `T_{x,y}` are locally Noetherian and if `ℱ` and the `𝒢_s`
-(for `s ∈ S`) (resp. `ℱ` and `𝒢`) are without embedded associated prime cycle, the same holds for `ℱ ⊗_𝒮 𝒢`.*
+*Under the hypotheses of `(3.3.6)` (resp. `(3.3.7)`), if the $T_{x,y}$ are locally Noetherian and if $\mathcal{F}$ and
+the $\mathcal{G}_{s}$ (for $s \in S$) (resp. $\mathcal{F}$ and $\mathcal{G}$) are without embedded associated prime
+cycle, the same holds for $\mathcal{F} \otimes_{\mathcal{S}} \mathcal{G}$.*
 
 This results from `(4.2.2)`, `(3.3.2)` and from the proof of `(3.3.6)`. In particular, since every prescheme over a
-field `k` is flat over `k`, we have thus proved assertion (i) of the
+field $k$ is flat over $k$, we have thus proved assertion (i) of the
 
 **Proposition (4.2.4).**
 
 <!-- label: IV.4.2.4 -->
 
-*Let `k` be a field, `X` and `Y` two locally Noetherian `k`-preschemes such that `X ×_k Y` is locally Noetherian.
-Suppose in addition that `X` and `Y` are integral. Then:*
+*Let $k$ be a field, $X$ and $Y$ two locally Noetherian $k$-preschemes such that $X \times_{k} Y$ is locally Noetherian.
+Suppose in addition that $X$ and $Y$ are integral. Then:*
 
-*(i) `X ×_k Y` is without embedded associated prime cycle; each of the irreducible components of `X ×_k Y` dominates `X`
-and `Y`, and the set of these components is in bijective correspondence with the set of irreducible components of
-`Spec(R(X) ⊗_k R(Y))` (in other words, the set of minimal prime ideals of `R(X) ⊗_k R(Y)`), where `R(X)` and `R(Y)` are
-the fields of rational functions of `X` and `Y` respectively.*
+*(i) $X \times_{k} Y$ is without embedded associated prime cycle; each of the irreducible components of $X \times_{k} Y$
+dominates $X$ and $Y$, and the set of these components is in bijective correspondence with the set of irreducible
+components of $\operatorname{Spec}(R(X) \otimes_{k} R(Y))$ (in other words, the set of minimal prime ideals of $R(X)
+\otimes_{k} R(Y)$), where $R(X)$ and $R(Y)$ are the fields of rational functions of $X$ and $Y$ respectively.*
 
-*(ii) If a maximal point `z` of `X ×_k Y` is identified with a minimal prime ideal `𝔭` of `R(X) ⊗_k R(Y)`, the local
-ring `𝒪_{X ×_k Y, z}` is isomorphic to the ring of fractions `(R(X) ⊗_k R(Y))_𝔭`. In particular, if `R(X)` or `R(Y)` is
-separable over `k`, `X ×_k Y` is reduced.*
+*(ii) If a maximal point $z$ of $X \times_{k} Y$ is identified with a minimal prime ideal $\mathfrak{p}$ of $R(X)
+\otimes_{k} R(Y)$, the local ring $\mathcal{O}_{X \times_{k} Y, z}$ is isomorphic to the ring of fractions $(R(X)
+\otimes_{k} R(Y))_{\mathfrak{p}}$. In particular, if $R(X)$ or $R(Y)$ is separable over $k$, $X \times_{k} Y$ is
+reduced.*
 
 <!-- original page 56 -->
 
-*(iii) If in addition `X` and `Y` are locally of finite type over `k`, every irreducible component of `X ×_k Y` has
-dimension `dim(X) + dim(Y)`.*
+*(iii) If in addition $X$ and $Y$ are locally of finite type over $k$, every irreducible component of $X \times_{k} Y$
+has dimension $\dim(X) + \dim(Y)$.*
 
 Assertion (iii) follows from `(4.2.1.2)`, taking into account (i) and (ii). To prove (ii), one may evidently restrict to
-the case where `X = Spec(A)`, `Y = Spec(B)` are affine, `A` and `B` being thus integral rings of respective fields of
-fractions `K = R(X)` and `L = R(Y)`; assertion (i) shows that every minimal prime ideal `𝔮` of `A ⊗_k B` is the trace on
-`A ⊗_k B` of a minimal prime ideal `𝔭` of `K ⊗_k L`; since `K ⊗_k L` is a ring of fractions of `A ⊗_k B`, the isomorphy
-of the rings `(A ⊗_k B)_𝔮` and `(K ⊗_k L)_𝔭` follows from `(0_I, 1.2.5)`.
+the case where $X = \operatorname{Spec}(A)$, $Y = \operatorname{Spec}(B)$ are affine, $A$ and $B$ being thus integral
+rings of respective fields of fractions $K = R(X)$ and $L = R(Y)$; assertion (i) shows that every minimal prime ideal
+$\mathfrak{q}$ of $A \otimes_{k} B$ is the trace on $A \otimes_{k} B$ of a minimal prime ideal $\mathfrak{p}$ of $K
+\otimes_{k} L$; since $K \otimes_{k} L$ is a ring of fractions of $A \otimes_{k} B$, the isomorphy of the rings $(A
+\otimes_{k} B)_{\mathfrak{q}}$ and $(K \otimes_{k} L)_{\mathfrak{p}}$ follows from $(0_{I}, 1.2.5)$.
 
-Finally, if for example `R(Y)` is separable over `k`, one knows that the ring `R(X) ⊗_k R(Y)` is reduced
+Finally, if for example $R(Y)$ is separable over $k$, one knows that the ring $R(X) \otimes_{k} R(Y)$ is reduced
 `(Bourbaki, Alg., chap. VIII, §7, n° 3, th. 1)`; the same therefore holds for the local rings of the maximal points of
-`X ×_k Y`. One deduces from this that `X ×_k Y` is reduced `(3.2.1)`.
+$X \times_{k} Y$. One deduces from this that $X \times_{k} Y$ is reduced `(3.2.1)`.
 
 **Proposition (4.2.5).**
 
 <!-- label: IV.4.2.5 -->
 
-*Let `k` be a field, `X` and `Y` locally Noetherian `k`-preschemes, `ℱ` (resp. `𝒢`) a quasi-coherent `𝒪_X`-Module (resp.
-`𝒪_Y`-Module). Let `(Z'_λ)` (resp. `(Z''_μ)`) be the family of associated prime cycles of `ℱ` (resp. `𝒢`), and let us
-again denote by `Z'_λ` (resp. `Z''_μ`) the reduced sub-prescheme of `X` (resp. `Y`) having `Z'_λ` (resp. `Z''_μ`) as
-underlying space. Then, if `Z'_λ ×_k Z''_μ` is locally Noetherian, the irreducible components `Z_{λ,μ,ν}` of
-`Z'_λ ×_k Z''_μ` dominate `Z'_λ` and `Z''_μ`, and `(Z_{λ,μ,ν})` is the family of distinct associated prime cycles of
-`ℱ ⊗_k 𝒢`.*
+*Let $k$ be a field, $X$ and $Y$ locally Noetherian $k$-preschemes, $\mathcal{F}$ (resp. $\mathcal{G}$) a quasi-coherent
+$\mathcal{O}_{X}$-Module (resp. $\mathcal{O}_{Y}$-Module). Let $(Z'_{\lambda})$ (resp. $(Z''_{\mu})$) be the family of
+associated prime cycles of $\mathcal{F}$ (resp. $\mathcal{G}$), and let us again denote by $Z'_{\lambda}$ (resp.
+$Z''_{\mu}$) the reduced sub-prescheme of $X$ (resp. $Y$) having $Z'_{\lambda}$ (resp. $Z''_{\mu}$) as underlying space.
+Then, if $Z'_{\lambda} \times_{k} Z''_{\mu}$ is locally Noetherian, the irreducible components $Z_{\lambda,\mu,\nu}$ of
+$Z'_{\lambda} \times_{k} Z''_{\mu}$ dominate $Z'_{\lambda}$ and $Z''_{\mu}$, and $(Z_{\lambda,\mu,\nu})$ is the family
+of distinct associated prime cycles of $\mathcal{F} \otimes_{k} \mathcal{G}$.*
 
-It suffices to apply `(4.2.4)` to the product `Spec(k(x)) ×_k Spec(k(y))`.
+It suffices to apply `(4.2.4)` to the product $\operatorname{Spec}(k(x)) \times_{k} \operatorname{Spec}(k(y))$.
 
 In particular:
 
@@ -260,87 +265,106 @@ In particular:
 
 <!-- label: IV.4.2.6 -->
 
-*Let `k` be a field, `X`, `Y` two locally Noetherian `k`-preschemes such that `X ×_k Y` is locally Noetherian. Let
-`(Z'_λ)` (resp. `(Z''_μ)`) be the family of reduced sub-preschemes of `X` (resp. `Y`) having as underlying spaces the
-irreducible components of `X` (resp. `Y`). Then the irreducible components `Z_{λ,μ,ν}` of `Z'_λ ×_k Z''_μ` dominate
-`Z'_λ` and `Z''_μ`, and `(Z_{λ,μ,ν})` is the family of irreducible components of `X ×_k Y`.*
+*Let $k$ be a field, $X$, $Y$ two locally Noetherian $k$-preschemes such that $X \times_{k} Y$ is locally Noetherian.
+Let $(Z'_{\lambda})$ (resp. $(Z''_{\mu})$) be the family of reduced sub-preschemes of $X$ (resp. $Y$) having as
+underlying spaces the irreducible components of $X$ (resp. $Y$). Then the irreducible components $Z_{\lambda,\mu,\nu}$
+of $Z'_{\lambda} \times_{k} Z''_{\mu}$ dominate $Z'_{\lambda}$ and $Z''_{\mu}$, and $(Z_{\lambda,\mu,\nu})$ is the
+family of irreducible components of $X \times_{k} Y$.*
 
-Indeed, one may restrict to the case where `X` and `Y` are reduced `(I, 5.1.8)`; the irreducible components of `X`
-(resp. `Y`) are then the associated prime cycles of `𝒪_X` (resp. `𝒪_Y`) `(3.2.1)`. Apply `(4.2.5)` to `ℱ = 𝒪_X` and
-`𝒢 = 𝒪_Y`, noting that by definition `𝒪_X ⊗_k 𝒪_Y = 𝒪_{X ×_k Y}`; the corollary follows from the fact that `𝒪_X ⊗_k 𝒪_Y`
-has no embedded associated prime cycles, since this holds for `𝒪_X` and `𝒪_Y` by hypothesis `(4.2.3)`.
+Indeed, one may restrict to the case where $X$ and $Y$ are reduced `(I, 5.1.8)`; the irreducible components of $X$
+(resp. $Y$) are then the associated prime cycles of $\mathcal{O}_{X}$ (resp. $\mathcal{O}_{Y}$) `(3.2.1)`. Apply
+`(4.2.5)` to $\mathcal{F} = \mathcal{O}_{X}$ and $\mathcal{G} = \mathcal{O}_{Y}$, noting that by definition
+$\mathcal{O}_{X} \otimes_{k} \mathcal{O}_{Y} = \mathcal{O}_{X \times_{k} Y}$; the corollary follows from the fact that
+$\mathcal{O}_{X} \otimes_{k} \mathcal{O}_{Y}$ has no embedded associated prime cycles, since this holds for
+$\mathcal{O}_{X}$ and $\mathcal{O}_{Y}$ by hypothesis `(4.2.3)`.
 
-We apply the preceding results to the case where `Y` is the spectrum of an extension `K` of `k`:
+We apply the preceding results to the case where $Y$ is the spectrum of an extension $K$ of $k$:
 
 **Proposition (4.2.7).**
 
 <!-- label: IV.4.2.7 -->
 
-*Let `k` be a field, `X` a `k`-prescheme, `K` an extension of `k` such that `X ⊗_k K` is locally Noetherian, `ℱ` a
-quasi-coherent `𝒪_X`-Module, `x'` a point of `X ⊗_k K`, `x` its image in `X`.*
+*Let $k$ be a field, $X$ a $k$-prescheme, $K$ an extension of $k$ such that $X \otimes_{k} K$ is locally Noetherian,
+$\mathcal{F}$ a quasi-coherent $\mathcal{O}_{X}$-Module, $x'$ a point of $X \otimes_{k} K$, $x$ its image in $X$.*
 
-*(i) Let `(Z'_λ)` be the family of reduced sub-preschemes of `X` having as underlying spaces the associated prime cycles
-of `ℱ`; then the irreducible components `Z_λ` of `Z'_λ ⊗_k K` are the associated prime cycles of `ℱ ⊗_k K`, and `Z_λ`
-dominates `Z'_λ`; in addition, for a `Z_λ` to be embedded, it is necessary and sufficient that `Z'_λ` be so.*
+*(i) Let $(Z'_{\lambda})$ be the family of reduced sub-preschemes of $X$ having as underlying spaces the associated
+prime cycles of $\mathcal{F}$; then the irreducible components $Z_{\lambda}$ of $Z'_{\lambda} \otimes_{k} K$ are the
+associated prime cycles of $\mathcal{F} \otimes_{k} K$, and $Z_{\lambda}$ dominates $Z'_{\lambda}$; in addition, for a
+$Z_{\lambda}$ to be embedded, it is necessary and sufficient that $Z'_{\lambda}$ be so.*
 
-*(ii) For `x` to belong to an embedded associated prime cycle of `ℱ`, it is necessary and sufficient that `x'` belong to
-an embedded associated prime cycle of `ℱ ⊗_k K`; for `ℱ` to be without embedded associated prime cycle, it is necessary
-and sufficient that the same hold for `ℱ ⊗_k K`.*
+*(ii) For $x$ to belong to an embedded associated prime cycle of $\mathcal{F}$, it is necessary and sufficient that $x'$
+belong to an embedded associated prime cycle of $\mathcal{F} \otimes_{k} K$; for $\mathcal{F}$ to be without embedded
+associated prime cycle, it is necessary and sufficient that the same hold for $\mathcal{F} \otimes_{k} K$.*
 
 <!-- original page 57 -->
 
-*(iii) The indices `λ` such that `x ∈ Z'_λ` are the same as those for which there exists an index `μ` such that
-`x' ∈ Z_{λ,μ}`. In particular, if `x'` belongs to only one associated prime cycle of `ℱ ⊗_k K`, `x` belongs to only one
-associated prime cycle of `ℱ`.*
+*(iii) The indices $\lambda$ such that $x \in Z'_{\lambda}$ are the same as those for which there exists an index $\mu$
+such that $x' \in Z_{\lambda,\mu}$. In particular, if $x'$ belongs to only one associated prime cycle of $\mathcal{F}
+\otimes_{k} K$, $x$ belongs to only one associated prime cycle of $\mathcal{F}$.*
 
-*(iv) If `X` is locally of finite type over `k`, one has `dim(Z_λ) = dim(Z'_λ)`.*
+*(iv) If $X$ is locally of finite type over $k$, one has $\dim(Z_{\lambda}) = \dim(Z'_{\lambda})$.*
 
-We note that the hypothesis implies that `X` itself is locally Noetherian `(2.2.13 and 2.2.14)`; assertion (i) follows
-from `(4.2.5)` and from the proof of `(4.2.3)`, for `𝒢 = 𝒪_Y` with `Y = Spec(K)`; (ii) and (iii) follow from (i) and
-from `(2.3.5)`; finally, (iv) is a special case of `(4.2.4, (iii))`.
+We note that the hypothesis implies that $X$ itself is locally Noetherian `(2.2.13 and 2.2.14)`; assertion (i) follows
+from `(4.2.5)` and from the proof of `(4.2.3)`, for $\mathcal{G} = \mathcal{O}_{Y}$ with $Y = \operatorname{Spec}(K)$;
+(ii) and (iii) follow from (i) and from `(2.3.5)`; finally, (iv) is a special case of `(4.2.4, (iii))`.
 
 **Corollary (4.2.8).**
 
 <!-- label: IV.4.2.8 -->
 
-*If `X` is locally of finite type over `k`, the set of dimensions of the associated prime cycles is the same for `ℱ` and
-`ℱ ⊗_k K`; the set of dimensions of the irreducible components is the same for `X` and `X ⊗_k K`.*
+*If $X$ is locally of finite type over $k$, the set of dimensions of the associated prime cycles is the same for
+$\mathcal{F}$ and $\mathcal{F} \otimes_{k} K$; the set of dimensions of the irreducible components is the same for $X$
+and $X \otimes_{k} K$.*
 
 **Proposition (4.2.9).**
 
 <!-- label: IV.4.2.9 -->
 
-*Suppose the hypotheses of `(4.2.5)` are satisfied, and suppose in addition that `ℱ` and `𝒢` are coherent. Let
-`(ℱ_λ)_{λ ∈ L}` and `(𝒢_μ)_{μ ∈ M}` be irredundant decompositions of `ℱ` and `𝒢` respectively; for every pair
-`(λ, μ) ∈ L × M`, let `(ℋ_{λ,μ,ν})_{ν ∈ S(λ, μ)}` be a reduced irredundant decomposition of `ℱ_λ ⊗_k 𝒢_μ`, where
-`S(λ, μ) = Ass(ℱ_λ ⊗_k 𝒢_μ)` `(3.2.5)`. Then `(ℋ_{λ,μ,ν})` (for all triples `(λ, μ, ν)`) is an irredundant decomposition
-of `ℱ ⊗_k 𝒢`; it is reduced if `(ℱ_λ)` and `(𝒢_μ)` are.*
+*Suppose the hypotheses of `(4.2.5)` are satisfied, and suppose in addition that $\mathcal{F}$ and $\mathcal{G}$ are
+coherent. Let $(\mathcal{F}_{\lambda})_{\lambda \in L}$ and $(\mathcal{G}_{\mu})_{\mu \in M}$ be irredundant
+decompositions of $\mathcal{F}$ and $\mathcal{G}$ respectively; for every pair $(\lambda, \mu) \in L \times M$, let
+$(\mathcal{H}_{\lambda,\mu,\nu})_{\nu \in S(\lambda, \mu)}$ be a reduced irredundant decomposition of
+$\mathcal{F}_{\lambda} \otimes_{k} \mathcal{G}_{\mu}$, where $S(\lambda, \mu) = Ass(\mathcal{F}_{\lambda} \otimes_{k}
+\mathcal{G}_{\mu})$ `(3.2.5)`. Then $(\mathcal{H}_{\lambda,\mu,\nu})$ (for all triples $(\lambda, \mu, \nu)$) is an
+irredundant decomposition of $\mathcal{F} \otimes_{k} \mathcal{G}$; it is reduced if $(\mathcal{F}_{\lambda})$ and
+$(\mathcal{G}_{\mu})$ are.*
 
-Note that `ℱ ⊗_k 𝒢` and each of the `ℱ_λ ⊗_k 𝒢_μ` are coherent, and each of the `ℱ_λ ⊗_k 𝒢_μ` is identified with a
-quotient of `ℱ ⊗_k 𝒢`; each of the `ℋ_{λ,μ,ν}` is identified by definition with a coherent quotient of `ℱ_λ ⊗_k 𝒢_μ`,
-hence also with a coherent quotient of `ℱ ⊗_k 𝒢`. The family of supports of the `ℋ_{λ,μ,ν}` is locally finite, since
-`Supp(ℱ_λ ⊗_k 𝒢_μ)` is contained in the underlying space of `Supp(ℱ_λ) ×_k Supp(𝒢_μ)` (where `Supp(ℱ_λ)` and `Supp(𝒢_μ)`
-denote the corresponding reduced closed sub-preschemes), and for given `λ` and `μ`, the family of supports of the
-`ℋ_{λ,μ,ν}` is locally finite by hypothesis; our assertion therefore follows from the fact that the families
-`(Supp(ℱ_λ))` and `(Supp(𝒢_μ))` are locally finite. To prove that `(ℋ_{λ,μ,ν})` is an irredundant decomposition of
-`ℱ ⊗_k 𝒢`, it suffices therefore to prove that the canonical homomorphism `ℱ ⊗_k 𝒢 → ⊕_{λ,μ,ν} ℋ_{λ,μ,ν}` is injective;
-now, it is composed of the homomorphisms
-`ℱ ⊗_k 𝒢 → (⊕_λ ℱ_λ) ⊗_k (⊕_μ 𝒢_μ) → ⊕_{λ,μ} ℱ_λ ⊗_k 𝒢_μ → ⊕_{λ,μ,ν} ℋ_{λ,μ,ν}`; the last of these homomorphisms is
-injective by definition, and the same holds for the first, which is none other than the tensor product of the canonical
-injective homomorphisms `ℱ → ⊕_λ ℱ_λ`, `𝒢 → ⊕_μ 𝒢_μ` (recall that `ℱ` and `𝒢` are flat over `k`). Finally, if `(ℱ_λ)`
-and `(𝒢_μ)` are reduced, one may suppose that `L = Ass(ℱ)` and `M = Ass(𝒢)`; the fact that the `ℋ_{λ,μ,ν}` then form a
-reduced decomposition follows from the fact that the `Ass(ℱ_λ ⊗_k 𝒢_μ)` form a partition of `Ass(ℱ ⊗_k 𝒢)` by virtue of
-`(4.2.2)` (cf. `(3.2.5)`).
+Note that $\mathcal{F} \otimes_{k} \mathcal{G}$ and each of the $\mathcal{F}_{\lambda} \otimes_{k} \mathcal{G}_{\mu}$
+are coherent, and each of the $\mathcal{F}_{\lambda} \otimes_{k} \mathcal{G}_{\mu}$ is identified with a quotient of
+$\mathcal{F} \otimes_{k} \mathcal{G}$; each of the $\mathcal{H}_{\lambda,\mu,\nu}$ is identified by definition with a
+coherent quotient of $\mathcal{F}_{\lambda} \otimes_{k} \mathcal{G}_{\mu}$, hence also with a coherent quotient of
+$\mathcal{F} \otimes_{k} \mathcal{G}$. The family of supports of the $\mathcal{H}_{\lambda,\mu,\nu}$ is locally finite,
+since $Supp(\mathcal{F}_{\lambda} \otimes_{k} \mathcal{G}_{\mu})$ is contained in the underlying space of
+$Supp(\mathcal{F}_{\lambda}) \times_{k} Supp(\mathcal{G}_{\mu})$ (where $Supp(\mathcal{F}_{\lambda})$ and
+$Supp(\mathcal{G}_{\mu})$ denote the corresponding reduced closed sub-preschemes), and for given $\lambda$ and $\mu$,
+the family of supports of the $\mathcal{H}_{\lambda,\mu,\nu}$ is locally finite by hypothesis; our assertion therefore
+follows from the fact that the families $(Supp(\mathcal{F}_{\lambda}))$ and $(Supp(\mathcal{G}_{\mu}))$ are locally
+finite. To prove that $(\mathcal{H}_{\lambda,\mu,\nu})$ is an irredundant decomposition of $\mathcal{F} \otimes_{k}
+\mathcal{G}$, it suffices therefore to prove that the canonical homomorphism $\mathcal{F} \otimes_{k} \mathcal{G} \to
+\oplus_{\lambda,\mu,\nu} \mathcal{H}_{\lambda,\mu,\nu}$ is injective; now, it is composed of the homomorphisms
+$\mathcal{F} \otimes_{k} \mathcal{G} \to (\oplus_{\lambda} \mathcal{F}_{\lambda}) \otimes_{k} (\oplus_{\mu}
+\mathcal{G}_{\mu}) \to \oplus_{\lambda,\mu} \mathcal{F}_{\lambda} \otimes_{k} \mathcal{G}_{\mu} \to
+\oplus_{\lambda,\mu,\nu} \mathcal{H}_{\lambda,\mu,\nu}$; the last of these homomorphisms is injective by definition, and
+the same holds for the first, which is none other than the tensor product of the canonical injective homomorphisms
+$\mathcal{F} \to \oplus_{\lambda} \mathcal{F}_{\lambda}$, $\mathcal{G} \to \oplus_{\mu} \mathcal{G}_{\mu}$ (recall that
+$\mathcal{F}$ and $\mathcal{G}$ are flat over $k$). Finally, if $(\mathcal{F}_{\lambda})$ and $(\mathcal{G}_{\mu})$ are
+reduced, one may suppose that $L = Ass(\mathcal{F})$ and $M = Ass(\mathcal{G})$; the fact that the
+$\mathcal{H}_{\lambda,\mu,\nu}$ then form a reduced decomposition follows from the fact that the
+$Ass(\mathcal{F}_{\lambda} \otimes_{k} \mathcal{G}_{\mu})$ form a partition of $Ass(\mathcal{F} \otimes_{k}
+\mathcal{G})$ by virtue of `(4.2.2)` (cf. `(3.2.5)`).
 
 **Corollary (4.2.10).**
 
 <!-- label: IV.4.2.10 -->
 
-*Under the hypotheses of `(4.2.7)`, suppose in addition that `ℱ` is coherent and let `(ℱ_λ)_{λ ∈ L}` be an irredundant
-decomposition of `ℱ`; for every `λ ∈ L`, let `(ℋ_{λ,μ})_{μ ∈ Ass(ℱ_λ ⊗_k K)}` be a reduced irredundant decomposition of
-`ℱ_λ ⊗_k K`. Then `(ℋ_{λ,μ})` is an irredundant decomposition of `ℱ ⊗_k K`; it is reduced if `(ℱ_λ)` is.*
+*Under the hypotheses of `(4.2.7)`, suppose in addition that $\mathcal{F}$ is coherent and let
+$(\mathcal{F}_{\lambda})_{\lambda \in L}$ be an irredundant decomposition of $\mathcal{F}$; for every $\lambda \in L$,
+let $(\mathcal{H}_{\lambda,\mu})_{\mu \in Ass(\mathcal{F}_{\lambda} \otimes_{k} K)}$ be a reduced irredundant
+decomposition of $\mathcal{F}_{\lambda} \otimes_{k} K$. Then $(\mathcal{H}_{\lambda,\mu})$ is an irredundant
+decomposition of $\mathcal{F} \otimes_{k} K$; it is reduced if $(\mathcal{F}_{\lambda})$ is.*
 
-One applies `(4.2.9)` with `Y = Spec(K)`, `𝒢 = 𝒪_Y = K`, `M` reduced to a single element.
+One applies `(4.2.9)` with $Y = \operatorname{Spec}(K)$, $\mathcal{G} = \mathcal{O}_{Y} = K$, $M$ reduced to a single
+element.
 
 <!-- original page 58 -->
 
@@ -353,16 +377,17 @@ the following numbers; for the proofs, we refer to [1].
 
 <!-- label: IV.4.3.1 -->
 
-Recall that an extension `L` of a field `k` is called **primary** if the largest separable algebraic extension of `k`
-contained in `L` is `k` itself.
+Recall that an extension $L$ of a field $k$ is called **primary** if the largest separable algebraic extension of $k$
+contained in $L$ is $k$ itself.
 
 **Proposition (4.3.2).**
 
 <!-- label: IV.4.3.2 -->
 
-*Let `K`, `L` be two extensions of a field `k`. If `L` is a primary extension of `k`, then `Spec(L ⊗_k K)` is
-irreducible, and if `ζ` is its generic point, `k(ζ)` is a primary extension of `K`. Conversely, if for every finite
-separable extension `K` of `k`, `Spec(L ⊗_k K)` is irreducible, `L` is a primary extension of `k`.*
+*Let $K$, $L$ be two extensions of a field $k$. If $L$ is a primary extension of $k$, then $\operatorname{Spec}(L
+\otimes_{k} K)$ is irreducible, and if $\zeta$ is its generic point, $k(\zeta)$ is a primary extension of $K$.
+Conversely, if for every finite separable extension $K$ of $k$, $\operatorname{Spec}(L \otimes_{k} K)$ is irreducible,
+$L$ is a primary extension of $k$.*
 
 See the proof in [1], pp. 14-03 to 14-06.
 
@@ -370,8 +395,8 @@ See the proof in [1], pp. 14-03 to 14-06.
 
 <!-- label: IV.4.3.3 -->
 
-*If `k` is separably closed (i.e. if its algebraic closure is radicial over `k`), then, for any two extensions `K`, `L`
-of `k`, `Spec(L ⊗_k K)` is irreducible, and conversely.*
+*If $k$ is separably closed (i.e. if its algebraic closure is radicial over $k$), then, for any two extensions $K$, $L$
+of $k$, $\operatorname{Spec}(L \otimes_{k} K)$ is irreducible, and conversely.*
 
 This follows at once from `(4.3.2)`.
 
@@ -379,23 +404,25 @@ This follows at once from `(4.3.2)`.
 
 <!-- label: IV.4.3.4 -->
 
-*Let `L` be an extension of a field `k`, `L_s` the largest separable algebraic extension of `k` contained in `L`
-(sometimes called the separable algebraic closure of `k` in `L`); suppose `L_s` is of finite degree over `k`, and let
-`K` be a Galois extension of `k` containing `L_s`. Then `Spec(L ⊗_k K)` has `[L_s : k]` irreducible components of which
-it is the sum, and the residue fields at the generic points of these components are primary extensions of `K`.*
+*Let $L$ be an extension of a field $k$, $L_{s}$ the largest separable algebraic extension of $k$ contained in $L$
+(sometimes called the separable algebraic closure of $k$ in $L$); suppose $L_{s}$ is of finite degree over $k$, and let
+$K$ be a Galois extension of $k$ containing $L_{s}$. Then $\operatorname{Spec}(L \otimes_{k} K)$ has $[L_{s} : k]$
+irreducible components of which it is the sum, and the residue fields at the generic points of these components are
+primary extensions of $K$.*
 
-Indeed, one has `L ⊗_k K = L ⊗_{L_s} (L_s ⊗_k K)` and one knows that `L_s ⊗_k K` is isomorphic to a product of
-`[L_s : k]` fields isomorphic to `K` `(Bourbaki, Alg., chap. VIII, §7, n° 3, cor. 2 of th. 1)`; hence `L ⊗_k K` is
-isomorphic to a product of `[L_s : k]` rings isomorphic to `L ⊗_{L_s} K`; since `L` is a primary extension of `L_s`, the
-conclusion follows from `(4.3.2)`.
+Indeed, one has $L \otimes_{k} K = L \otimes_{L_{s}} (L_{s} \otimes_{k} K)$ and one knows that $L_{s} \otimes_{k} K$ is
+isomorphic to a product of $[L_{s} : k]$ fields isomorphic to $K$
+`(Bourbaki, Alg., chap. VIII, §7, n° 3, cor. 2 of th. 1)`; hence $L \otimes_{k} K$ is isomorphic to a product of
+$[L_{s} : k]$ rings isomorphic to $L \otimes_{L_{s}} K$; since $L$ is a primary extension of $L_{s}$, the conclusion
+follows from `(4.3.2)`.
 
 **Proposition (4.3.5).**
 
 <!-- label: IV.4.3.5 -->
 
-*Let `K`, `L` be two extensions of a field `k`. If `L` is a separable extension of `k`, the ring `L ⊗_k K` is reduced.
-Conversely, if for every finite radicial extension `K` of `k`, the ring `L ⊗_k K` is reduced, `L` is a separable
-extension of `k`.*
+*Let $K$, $L$ be two extensions of a field $k$. If $L$ is a separable extension of $k$, the ring $L \otimes_{k} K$ is
+reduced. Conversely, if for every finite radicial extension $K$ of $k$, the ring $L \otimes_{k} K$ is reduced, $L$ is a
+separable extension of $k$.*
 
 For the proof, see Bourbaki, Alg., chap. VIII, §7, n° 3, th. 1.
 
@@ -403,7 +430,7 @@ For the proof, see Bourbaki, Alg., chap. VIII, §7, n° 3, th. 1.
 
 <!-- label: IV.4.3.6 -->
 
-*If `k` is perfect, then, for any two extensions `K`, `L` of `k`, `K ⊗_k L` is reduced, and conversely.*
+*If $k$ is perfect, then, for any two extensions $K$, $L$ of $k$, $K \otimes_{k} L$ is reduced, and conversely.*
 
 This follows at once from `(4.3.5)`.
 
@@ -411,19 +438,19 @@ This follows at once from `(4.3.5)`.
 
 <!-- label: IV.4.3.7 -->
 
-*Let `L` be a separable extension of `k` and let `K` be an extension of `k` such that `K` or `L` is finite over `k`;
-then the residue fields of the semi-local ring `L ⊗_k K` are separable extensions of `K`.*
+*Let $L$ be a separable extension of $k$ and let $K$ be an extension of $k$ such that $K$ or $L$ is finite over $k$;
+then the residue fields of the semi-local ring $L \otimes_{k} K$ are separable extensions of $K$.*
 
-One knows in fact that `L ⊗_k K` is the direct composite of these residue fields `E_i`; for every extension `K'` of `K`,
-`L ⊗_k K'` is therefore isomorphic to the direct composite of the rings `E_i ⊗_K K'`; since `L ⊗_k K'` is reduced, the
-`E_i` are separable over `K` by virtue of `(4.3.5)`.
+One knows in fact that $L \otimes_{k} K$ is the direct composite of these residue fields $E_{i}$; for every extension
+$K'$ of $K$, $L \otimes_{k} K'$ is therefore isomorphic to the direct composite of the rings $E_{i} \otimes_{K} K'$;
+since $L \otimes_{k} K'$ is reduced, the $E_{i}$ are separable over $K$ by virtue of `(4.3.5)`.
 
 **Corollary (4.3.8).**
 
 <!-- label: IV.4.3.8 -->
 
-*If `K` and `L` are two finite separable extensions of `k`, `K ⊗_k L` is the product of a finite number of separable
-extensions of `k`.*
+*If $K$ and $L$ are two finite separable extensions of $k$, $K \otimes_{k} L$ is the product of a finite number of
+separable extensions of $k$.*
 
 <!-- original page 59 -->
 
@@ -431,7 +458,8 @@ extensions of `k`.*
 
 <!-- label: IV.4.3.9 -->
 
-*If `k` is algebraically closed, then, for any two extensions `K`, `L` of `k`, `L ⊗_k K` is integral, and conversely.*
+*If $k$ is algebraically closed, then, for any two extensions $K$, $L$ of $k$, $L \otimes_{k} K$ is integral, and
+conversely.*
 
 This is a consequence of `(4.3.3)` and `(4.3.6)`, a perfect and separably closed field being algebraically closed.
 
@@ -441,113 +469,115 @@ This is a consequence of `(4.3.3)` and `(4.3.6)`, a perfect and separably closed
 
 <!-- label: IV.4.4.1 -->
 
-Let `k` be a field, `X` a `k`-prescheme, `K` an extension of `k`. Since the morphism `Spec(K) → Spec(k)` is faithfully
-flat, quasi-compact, and universally open `(2.4.9)`, the same holds for the projection morphism `p : X ⊗_k K → X`
-`(2.2.13)`. It therefore follows from `(2.3.5)` that every irreducible component of `X ⊗_k K` dominates an irreducible
-component of `X`, and (since `p` is surjective) every irreducible component of `X` is dominated by an irreducible
-component of `X ⊗_k K`; one thus deduces from `p` a surjective map from the set of irreducible components of `X ⊗_k K`
-to the set of irreducible components of `X`. Likewise, it follows from the fact that `p` is continuous and surjective
-that every connected component of `X` is the image by `p` of a union of connected components of `X ⊗_k K`, whence a
-surjective map from the set of connected components of `X ⊗_k K` to the set of connected components of `X`. One
-concludes from this that every irreducible (resp. connected) component `Z'` of `X ⊗_k K` is contained in a unique set of
-the form `p⁻¹(Z)`, where `Z` is an irreducible (resp. connected) component of `X`; for every sub-prescheme of `X` having
-`Z` as underlying space (and still denoted `Z`), `Z'` is an irreducible (resp. connected) component of `Z ⊗_k K`. In
-particular, if `X ⊗_k K` has a finite number `n` (resp. `n'`) of irreducible (resp. connected) components (which will be
-the case when `X` is of finite type over `k`, since then `X ⊗_k K` is of finite type over `K`, hence Noetherian), the
-number of irreducible (resp. connected) components of `X` is `≤ n` (resp. `≤ n'`); to say that it is equal to `n` (resp.
-`n'`) means that for every reduced sub-prescheme `Z` of `X` having as underlying space an irreducible (resp. connected)
-component of `X`, `Z ⊗_k K` is irreducible (resp. connected) `(I, 5.1.8)`; the number of irreducible (resp. connected)
-components of `X ⊗_k K` is therefore independent of `K` if and only if for every irreducible (resp. connected) component
-`Z` of `X`, `Z ⊗_k K` is irreducible (resp. connected) for every extension `K` of `k`.
+Let $k$ be a field, $X$ a $k$-prescheme, $K$ an extension of $k$. Since the morphism $\operatorname{Spec}(K) \to
+\operatorname{Spec}(k)$ is faithfully flat, quasi-compact, and universally open `(2.4.9)`, the same holds for the
+projection morphism $p : X \otimes_{k} K \to X$ `(2.2.13)`. It therefore follows from `(2.3.5)` that every irreducible
+component of $X \otimes_{k} K$ dominates an irreducible component of $X$, and (since $p$ is surjective) every
+irreducible component of $X$ is dominated by an irreducible component of $X \otimes_{k} K$; one thus deduces from $p$ a
+surjective map from the set of irreducible components of $X \otimes_{k} K$ to the set of irreducible components of $X$.
+Likewise, it follows from the fact that $p$ is continuous and surjective that every connected component of $X$ is the
+image by $p$ of a union of connected components of $X \otimes_{k} K$, whence a surjective map from the set of connected
+components of $X \otimes_{k} K$ to the set of connected components of $X$. One concludes from this that every
+irreducible (resp. connected) component $Z'$ of $X \otimes_{k} K$ is contained in a unique set of the form $p^{-1}(Z)$,
+where $Z$ is an irreducible (resp. connected) component of $X$; for every sub-prescheme of $X$ having $Z$ as underlying
+space (and still denoted $Z$), $Z'$ is an irreducible (resp. connected) component of $Z \otimes_{k} K$. In particular,
+if $X \otimes_{k} K$ has a finite number $n$ (resp. $n'$) of irreducible (resp. connected) components (which will be the
+case when $X$ is of finite type over $k$, since then $X \otimes_{k} K$ is of finite type over $K$, hence Noetherian),
+the number of irreducible (resp. connected) components of $X$ is $\leq n$ (resp. $\leq n'$); to say that it is equal to
+$n$ (resp. $n'$) means that for every reduced sub-prescheme $Z$ of $X$ having as underlying space an irreducible (resp.
+connected) component of $X$, $Z \otimes_{k} K$ is irreducible (resp. connected) `(I, 5.1.8)`; the number of irreducible
+(resp. connected) components of $X \otimes_{k} K$ is therefore independent of $K$ if and only if for every irreducible
+(resp. connected) component $Z$ of $X$, $Z \otimes_{k} K$ is irreducible (resp. connected) for every extension $K$ of
+$k$.
 
-In particular, if `X ⊗_k K` is irreducible (resp. connected), the same holds for `X` (which already follows from the
-fact that `p` is surjective). Likewise, if `X ⊗_k K` is reduced (resp. integral), the same holds for `X` since `p` is
-faithfully flat `(2.1.13)`.
+In particular, if $X \otimes_{k} K$ is irreducible (resp. connected), the same holds for $X$ (which already follows from
+the fact that $p$ is surjective). Likewise, if $X \otimes_{k} K$ is reduced (resp. integral), the same holds for $X$
+since $p$ is faithfully flat `(2.1.13)`.
 
 In this number and the next, we shall examine more closely what can be said of the irreducible (resp. connected)
-components of `X ⊗_k K` when `K` varies; what precedes already shows us that the number of these components is an
-increasing function of `K`.
+components of $X \otimes_{k} K$ when $K$ varies; what precedes already shows us that the number of these components is
+an increasing function of $K$.
 
 **Lemma (4.4.2).**
 
 <!-- label: IV.4.4.2 -->
 
-*Let `X'`, `X` be two topological spaces, `f : X' → X` a continuous map. Suppose that the following conditions are
+*Let $X'$, $X$ be two topological spaces, $f : X' \to X$ a continuous map. Suppose that the following conditions are
 satisfied:*
 
-*(i) `f` is surjective open (resp. such that the topological space `X` is canonically identified with the quotient of
-`X'` by the equivalence relation defined by `f`).*
+*(i) $f$ is surjective open (resp. such that the topological space $X$ is canonically identified with the quotient of
+$X'$ by the equivalence relation defined by $f$).*
 
 <!-- original page 60 -->
 
-*(ii) For every `x ∈ X`, `f⁻¹(x)` is irreducible (resp. connected).*
+*(ii) For every $x \in X$, $f^{-1}(x)$ is irreducible (resp. connected).*
 
-*Then for `X'` to be irreducible (resp. connected), it is necessary and sufficient that `X` be so.*
+*Then for $X'$ to be irreducible (resp. connected), it is necessary and sufficient that $X$ be so.*
 
 The assertion relative to connectedness is none other than Bourbaki, Top. gén., chap. 1, 3rd ed., §11, n° 3, prop. 7.
-Let us prove the assertion relative to irreducibility; the condition being trivially necessary since `f` is surjective,
-let us prove that it is sufficient. Let `X'_1`, `X'_2` be two closed parts of `X'` such that `X' = X'_1 ∪ X'_2`, and
-denote by `X_i` `(i = 1, 2)` the set of `x ∈ X` such that `f⁻¹(x) ⊂ X'_i`; one therefore has `X − X_i = f(X' − X'_i)`,
-and since `f` is open, one concludes that `X_i` is a closed part of `X` `(i = 1, 2)`. On the other hand, for every
-`x ∈ X`, `f⁻¹(x)` is irreducible by hypothesis, and is the union of the two closed parts `X'_1 ∩ f⁻¹(x)` and
-`X'_2 ∩ f⁻¹(x)`; one of these two parts must therefore be equal to `f⁻¹(x)`, which means that one must have `x ∈ X_1` or
-`x ∈ X_2`; one therefore has `X = X_1 ∪ X_2`, and since `X` is irreducible by hypothesis, one deduces from this
-`X = X_1` or `X = X_2`, hence `X' = X'_1` or `X' = X'_2`.
+Let us prove the assertion relative to irreducibility; the condition being trivially necessary since $f$ is surjective,
+let us prove that it is sufficient. Let $X'_{1}$, $X'_{2}$ be two closed parts of $X'$ such that $X' = X'_{1} \cup
+X'_{2}$, and denote by $X_{i}$ $(i = 1, 2)$ the set of $x \in X$ such that $f^{-1}(x) \subset X'_{i}$; one therefore has
+$X - X_{i} = f(X' - X'_{i})$, and since $f$ is open, one concludes that $X_{i}$ is a closed part of $X$ $(i = 1, 2)$. On
+the other hand, for every $x \in X$, $f^{-1}(x)$ is irreducible by hypothesis, and is the union of the two closed parts
+$X'_{1} \cap f^{-1}(x)$ and $X'_{2} \cap f^{-1}(x)$; one of these two parts must therefore be equal to $f^{-1}(x)$,
+which means that one must have $x \in X_{1}$ or $x \in X_{2}$; one therefore has $X = X_{1} \cup X_{2}$, and since $X$
+is irreducible by hypothesis, one deduces from this $X = X_{1}$ or $X = X_{2}$, hence $X' = X'_{1}$ or $X' = X'_{2}$.
 
 **Remark (4.4.3).**
 
 <!-- label: IV.4.4.3 -->
 
-*If the topology of `X` is not the quotient of that of `X'` by the equivalence relation defined by `f`, it can happen
-that `X` and all the fibres `f⁻¹(x)` are irreducible, without `X'` being connected: one has an example by taking for `X`
-an irreducible scheme (for example the affine line `Spec(k[T])` over an algebraically closed field `k`), considering a
-closed point `x_0` of `X` and taking for `X'` the sum space of `{x_0}` and the open subspace `X − {x_0}` of `X`.
-Likewise, if one replaces the hypothesis "`f` open" by "`f` closed" (and even "`f` proper") (which however implies that
-the topology of `X` is then quotient of that of `X'` by the relation defined by `f`), it can happen that `X` and all the
-fibres `f⁻¹(x)` are irreducible without `X'` being so. Take again for `X` the affine line over `k`, denote by `S` the
-product `X ×_k 𝐏`, where `𝐏` is the projective line over `k`; if `x_0` is a closed point of `X`, `t_0` a closed point of
-`𝐏`, `p : S → X`, `q : S → 𝐏` the projections, denote by `X'` the reduced sub-prescheme having as underlying space the
-closed set `p⁻¹(x_0) ∪ q⁻¹(t_0)`, and take for `f` the restriction to `X'` of `p`; `f` is proper but `X'` is not
-irreducible.*
+*If the topology of $X$ is not the quotient of that of $X'$ by the equivalence relation defined by $f$, it can happen
+that $X$ and all the fibres $f^{-1}(x)$ are irreducible, without $X'$ being connected: one has an example by taking for
+$X$ an irreducible scheme (for example the affine line $\operatorname{Spec}(k[T])$ over an algebraically closed field
+$k$), considering a closed point $x_{0}$ of $X$ and taking for $X'$ the sum space of ${x_{0}}$ and the open subspace
+$X - {x_{0}}$ of $X$. Likewise, if one replaces the hypothesis "$f$ open" by "$f$ closed" (and even "$f$ proper") (which
+however implies that the topology of $X$ is then quotient of that of $X'$ by the relation defined by $f$), it can happen
+that $X$ and all the fibres $f^{-1}(x)$ are irreducible without $X'$ being so. Take again for $X$ the affine line over
+$k$, denote by $S$ the product $X \times_{k} \mathbf{P}$, where $\mathbf{P}$ is the projective line over $k$; if $x_{0}$
+is a closed point of $X$, $t_{0}$ a closed point of $\mathbf{P}$, $p : S \to X$, $q : S \to \mathbf{P}$ the projections,
+denote by $X'$ the reduced sub-prescheme having as underlying space the closed set $p^{-1}(x_{0}) \cup q^{-1}(t_{0})$,
+and take for $f$ the restriction to $X'$ of $p$; $f$ is proper but $X'$ is not irreducible.*
 
 **Theorem (4.4.4).**
 
 <!-- label: IV.4.4.4 -->
 
-*Let `k` be an algebraically closed field, `X` a `k`-prescheme. If `X` is irreducible (resp. connected), the same holds
-for `X ⊗_k K` for every extension `K` of `k`.*
+*Let $k$ be an algebraically closed field, $X$ a $k$-prescheme. If $X$ is irreducible (resp. connected), the same holds
+for $X \otimes_{k} K$ for every extension $K$ of $k$.*
 
-One has seen indeed `(4.4.1)` that the morphism `p : X ⊗_k K → X` is faithfully flat and open; in order to apply the
-lemma `(4.4.2)`, it therefore suffices to verify that the fibres `p⁻¹(x)` are irreducible for every `x ∈ X`. But the
-`k(x)`-prescheme `p⁻¹(x)` is isomorphic to `Spec(k(x) ⊗_k K)` `(I, 3.6.2)`, hence integral by virtue of the hypothesis
-on `k` and of `(4.3.9)`.
+One has seen indeed `(4.4.1)` that the morphism $p : X \otimes_{k} K \to X$ is faithfully flat and open; in order to
+apply the lemma `(4.4.2)`, it therefore suffices to verify that the fibres $p^{-1}(x)$ are irreducible for every $x \in
+X$. But the $k(x)$-prescheme $p^{-1}(x)$ is isomorphic to $\operatorname{Spec}(k(x) \otimes_{k} K)$ `(I, 3.6.2)`, hence
+integral by virtue of the hypothesis on $k$ and of `(4.3.9)`.
 
 **Corollary (4.4.5).**
 
 <!-- label: IV.4.4.5 -->
 
-*Let `k` be an algebraically closed field, `X` a `k`-prescheme, `K` an extension of `k`, `p : X ⊗_k K → X` the canonical
-projection. If `Z` is an irreducible (resp. connected) part of `X`, `p⁻¹(Z)` is irreducible (resp. connected); in
-particular, if `X_0` is an irreducible component (resp. the connected component) of `X` containing `Z`, `p⁻¹(X_0)` is an
-irreducible (resp. connected) component of `X ⊗_k K` containing `p⁻¹(Z)`.*
+*Let $k$ be an algebraically closed field, $X$ a $k$-prescheme, $K$ an extension of $k$, $p : X \otimes_{k} K \to X$ the
+canonical projection. If $Z$ is an irreducible (resp. connected) part of $X$, $p^{-1}(Z)$ is irreducible (resp.
+connected); in particular, if `X_0` is an irreducible component (resp. the connected component) of $X$ containing $Z$,
+$p^{-1}(X_{0})$ is an irreducible (resp. connected) component of $X \otimes_{k} K$ containing $p^{-1}(Z)$.*
 
-The second assertion follows from `(4.4.1)` and from the first applied by replacing `Z` by `X_0`; to prove the first,
-let `X'` be the underlying space of `X ⊗_k K`, `Z' = p⁻¹(Z)`; the
+The second assertion follows from `(4.4.1)` and from the first applied by replacing $Z$ by `X_0`; to prove the first,
+let $X'$ be the underlying space of $X \otimes_{k} K$, $Z' = p^{-1}(Z)$; the
 
 <!-- original page 61 -->
 
-equivalence relation `R` defined by `p` on `X'` is open, hence the same holds for the relation `R_{Z'}` it induces on
-the saturated part `Z'`, and `Z` is identified with the quotient space `Z' / R_{Z'}`
-`(Bourbaki, Top. gén., chap. I, 3rd ed., §5, n° 2, prop. 4)`; one may therefore apply to `Z` and `Z'` the lemma
+equivalence relation $R$ defined by $p$ on $X'$ is open, hence the same holds for the relation $R_{Z'}$ it induces on
+the saturated part $Z'$, and $Z$ is identified with the quotient space $Z' / R_{Z'}$
+`(Bourbaki, Top. gén., chap. I, 3rd ed., §5, n° 2, prop. 4)`; one may therefore apply to $Z$ and $Z'$ the lemma
 `(4.4.2)`, whence the first assertion of `(4.4.4)`.
 
 **Corollary (4.4.6).**
 
 <!-- label: IV.4.4.6 -->
 
-*With the hypotheses and notations of `(4.4.5)`, the map `Z ↦ p⁻¹(Z)` is a bijection of the set of irreducible (resp.
-connected) components of `X` onto the set of irreducible (resp. connected) components of `X ⊗_k K`, whose inverse
-bijection is `Z' ↦ p(Z')`.*
+*With the hypotheses and notations of `(4.4.5)`, the map $Z \mapsto p^{-1}(Z)$ is a bijection of the set of irreducible
+(resp. connected) components of $X$ onto the set of irreducible (resp. connected) components of $X \otimes_{k} K$, whose
+inverse bijection is $Z' \mapsto p(Z')$.*
 
 ### 4.5. Geometrically irreducible and geometrically connected preschemes
 
@@ -555,219 +585,229 @@ bijection is `Z' ↦ p(Z')`.*
 
 <!-- label: IV.4.5.1 -->
 
-*Let `k` be a field, `X` a `k`-prescheme, `Ω` an algebraically closed extension of `k`. Let `n` (resp. `n'`) be the
-cardinal of the set of irreducible components (resp. of connected components) of `X ⊗_k Ω`; this number is independent
-of the algebraically closed extension `Ω` chosen. In addition, for every extension `K` of `k`, the cardinal of the set
-of irreducible (resp. connected) components of `X ⊗_k K` is `≤ n` (resp. `≤ n'`).*
+*Let $k$ be a field, $X$ a $k$-prescheme, $\Omega$ an algebraically closed extension of $k$. Let $n$ (resp. $n'$) be the
+cardinal of the set of irreducible components (resp. of connected components) of $X \otimes_{k} \Omega$; this number is
+independent of the algebraically closed extension $\Omega$ chosen. In addition, for every extension $K$ of $k$, the
+cardinal of the set of irreducible (resp. connected) components of $X \otimes_{k} K$ is $\leq n$ (resp. $\leq n'$).*
 
-Indeed, two algebraically closed extensions `Ω`, `Ω'` of `k` can always be considered as sub-extensions of a same
-extension `E` of `k`; it suffices then to apply `(4.4.6)` to `X ⊗_k Ω` and `X ⊗_k Ω'` and to the common extension `E` of
-`Ω` and `Ω'` to prove the first assertion. The second is obtained by taking for `Ω` an algebraically closed extension of
-`K` and using `(4.4.1)`.
+Indeed, two algebraically closed extensions $\Omega$, $\Omega'$ of $k$ can always be considered as sub-extensions of a
+same extension $E$ of $k$; it suffices then to apply `(4.4.6)` to $X \otimes_{k} \Omega$ and $X \otimes_{k} \Omega'$ and
+to the common extension $E$ of $\Omega$ and $\Omega'$ to prove the first assertion. The second is obtained by taking for
+$\Omega$ an algebraically closed extension of $K$ and using `(4.4.1)`.
 
 **Definition (4.5.2).**
 
 <!-- label: IV.4.5.2 -->
 
-*The cardinal `n` (resp. `n'`) of `(4.5.1)` is called the **geometric number of irreducible components** (resp. **of
-connected components**) of `X` (relative to `k`). If `n = 1` (resp. `n' = 1`) one says that `X` is a **geometrically
-irreducible** (resp. **geometrically connected**) `k`-prescheme.*
+*The cardinal $n$ (resp. $n'$) of `(4.5.1)` is called the **geometric number of irreducible components** (resp. **of
+connected components**) of $X$ (relative to $k$). If $n = 1$ (resp. $n' = 1$) one says that $X$ is a **geometrically
+irreducible** (resp. **geometrically connected**) $k$-prescheme.*
 
 One thereby recovers a definition given for a particular case in `(III, 4.3.4)`. By virtue of `(4.5.1)`, the following
 properties are equivalent:
 
-a) `X` is geometrically irreducible (resp. geometrically connected).
+a) $X$ is geometrically irreducible (resp. geometrically connected).
 
-b) For one algebraically closed extension `Ω` of `k`, `X ⊗_k Ω` is irreducible (resp. connected).
+b) For one algebraically closed extension $\Omega$ of $k$, $X \otimes_{k} \Omega$ is irreducible (resp. connected).
 
-c) For every extension `K` of `k`, `X ⊗_k K` is irreducible (resp. connected).
+c) For every extension $K$ of $k$, $X \otimes_{k} K$ is irreducible (resp. connected).
 
 **(4.5.3)**
 
 <!-- label: IV.4.5.3 -->
 
-Let `X` be a `k`-prescheme, `Z` a locally closed part of `X`. If one again denotes by `Z` any of the sub-preschemes of
-`X` having `Z` as underlying space `(I, 5.2.1)`, it follows from `(I, 5.1.8)` that for an extension `K` of `k`, the
-number of irreducible (resp. connected) components of `Z ⊗_k K` is independent of the sub-prescheme with underlying
-space `Z` that one has chosen; thus one defines the **geometric number of irreducible components** (resp. **of connected
-components**) of `Z` as that of any sub-prescheme of `X` having `Z` as underlying space.
+Let $X$ be a $k$-prescheme, $Z$ a locally closed part of $X$. If one again denotes by $Z$ any of the sub-preschemes of
+$X$ having $Z$ as underlying space `(I, 5.2.1)`, it follows from `(I, 5.1.8)` that for an extension $K$ of $k$, the
+number of irreducible (resp. connected) components of $Z \otimes_{k} K$ is independent of the sub-prescheme with
+underlying space $Z$ that one has chosen; thus one defines the **geometric number of irreducible components** (resp.
+**of connected components**) of $Z$ as that of any sub-prescheme of $X$ having $Z$ as underlying space.
 
 **Proposition (4.5.4).**
 
 <!-- label: IV.4.5.4 -->
 
-*Let `X`, `Y` be two `k`-preschemes, `f : X → Y` a surjective `k`-morphism. If `X` is geometrically irreducible (resp.
-geometrically connected), the same holds for `Y`.*
+*Let $X$, $Y$ be two $k$-preschemes, $f : X \to Y$ a surjective $k$-morphism. If $X$ is geometrically irreducible (resp.
+geometrically connected), the same holds for $Y$.*
 
 <!-- original page 62 -->
 
-Indeed, for every extension `K` of `k`, `f_{(K)} : X_{(K)} → Y_{(K)}` is surjective `(I, 3.5.2)`, and `X_{(K)}` being
-irreducible (resp. connected) by hypothesis, the same holds for `Y_{(K)}`.
+Indeed, for every extension $K$ of $k$, $f_{(K)} : X_{(K)} \to Y_{(K)}$ is surjective `(I, 3.5.2)`, and $X_{(K)}$ being
+irreducible (resp. connected) by hypothesis, the same holds for $Y_{(K)}$.
 
 **Definition (4.5.5).**
 
 <!-- label: IV.4.5.5 -->
 
-*One says that a morphism `f : X → Y` of preschemes is **irreducible** (resp. **connected**) if, for every `y ∈ Y`, the
-`k(y)`-prescheme `f⁻¹(y)` is geometrically irreducible (resp. geometrically connected).*
+*One says that a morphism $f : X \to Y$ of preschemes is **irreducible** (resp. **connected**) if, for every $y \in Y$,
+the $k(y)$-prescheme $f^{-1}(y)$ is geometrically irreducible (resp. geometrically connected).*
 
 **Proposition (4.5.6).**
 
 <!-- label: IV.4.5.6 -->
 
-*(i) Let `X` be a `k`-prescheme, `K` an extension of `k`. Then the geometric number of irreducible (resp. connected)
-components of `X_{(K)}` relative to `K` is equal to the geometric number of irreducible (resp. connected) components of
-`X` relative to `k`. In particular, for the `K`-prescheme `X_{(K)}` to be geometrically irreducible (resp. geometrically
-connected), it is necessary and sufficient that the `k`-prescheme `X` be so.*
+*(i) Let $X$ be a $k$-prescheme, $K$ an extension of $k$. Then the geometric number of irreducible (resp. connected)
+components of $X_{(K)}$ relative to $K$ is equal to the geometric number of irreducible (resp. connected) components of
+$X$ relative to $k$. In particular, for the $K$-prescheme $X_{(K)}$ to be geometrically irreducible (resp. geometrically
+connected), it is necessary and sufficient that the $k$-prescheme $X$ be so.*
 
-*(ii) Let `f : X → Y`, `g : Y' → Y` be two morphisms, and put `X' = X_{(Y')} = X ×_Y Y'`, `f' = f_{(Y')} : X' → Y'`. If
-`f` is irreducible (resp. connected), the same holds for `f'`. The converse is true if `g` is surjective.*
+*(ii) Let $f : X \to Y$, $g : Y' \to Y$ be two morphisms, and put $X' = X_{(Y')} = X \times_{Y} Y'$, $f' = f_{(Y')} : X'
+\to Y'$. If $f$ is irreducible (resp. connected), the same holds for $f'$. The converse is true if $g$ is surjective.*
 
-(i) If `Ω` is an algebraically closed extension of `K`, one has `X ⊗_k Ω = X_{(K)} ⊗_K Ω`, whence the assertion.
+(i) If $\Omega$ is an algebraically closed extension of $K$, one has $X \otimes_{k} \Omega = X_{(K)} \otimes_{K}
+\Omega$, whence the assertion.
 
-(ii) For every `y' ∈ Y'`, if one puts `y = g(y')`, one has `f'⁻¹(y') = f⁻¹(y) ⊗_{k(y)} k(y')` `(I, 3.6.4)`, hence the
-two assertions follow from (i).
+(ii) For every $y' \in Y'$, if one puts $y = g(y')$, one has $f'^{-1}(y') = f^{-1}(y) \otimes_{k(y)} k(y')$
+`(I, 3.6.4)`, hence the two assertions follow from (i).
 
 **Proposition (4.5.7).**
 
 <!-- label: IV.4.5.7 -->
 
-*Let `f : X → Y` be a surjective irreducible (resp. connected) morphism, `g : Y' → Y` a morphism, and put
-`X' = X ×_Y Y'`. If in addition `Y'` is irreducible (resp. connected), and `f` universally open (resp. flat and
-quasi-compact, or universally open, or universally closed), then `X'` is irreducible (resp. connected).*
+*Let $f : X \to Y$ be a surjective irreducible (resp. connected) morphism, $g : Y' \to Y$ a morphism, and put $X' = X
+\times_{Y} Y'$. If in addition $Y'$ is irreducible (resp. connected), and $f$ universally open (resp. flat and
+quasi-compact, or universally open, or universally closed), then $X'$ is irreducible (resp. connected).*
 
-The properties of `f` that one considers being all stable under base change, one may restrict to the case where
-`Y' = Y`; it then suffices to apply `(4.4.2)` (taking into account `(2.3.12)`).
+The properties of $f$ that one considers being all stable under base change, one may restrict to the case where $Y' =
+Y$; it then suffices to apply `(4.4.2)` (taking into account `(2.3.12)`).
 
 **Corollary (4.5.8).**
 
 <!-- label: IV.4.5.8 -->
 
-*Let `X`, `Y` be two `k`-preschemes.*
+*Let $X$, $Y$ be two $k$-preschemes.*
 
-*(i) If `X` is geometrically irreducible (resp. geometrically connected) and `Y` irreducible (resp. connected), then
-`X ×_k Y` is irreducible (resp. connected).*
+*(i) If $X$ is geometrically irreducible (resp. geometrically connected) and $Y$ irreducible (resp. connected), then $X
+\times_{k} Y$ is irreducible (resp. connected).*
 
-*(ii) If `X` and `Y` are geometrically irreducible (resp. geometrically connected), the same holds for `X ×_k Y`.*
+*(ii) If $X$ and $Y$ are geometrically irreducible (resp. geometrically connected), the same holds for $X \times_{k}
+Y$.*
 
-(i) The structure morphism `X → Spec(k)` is surjective and universally open `(2.4.9)` and in addition irreducible (resp.
-connected); it therefore suffices to apply `(4.5.7)`.
+(i) The structure morphism $X \to \operatorname{Spec}(k)$ is surjective and universally open `(2.4.9)` and in addition
+irreducible (resp. connected); it therefore suffices to apply `(4.5.7)`.
 
-(ii) If `Ω` is an algebraically closed extension of `k`, one has `(X ×_k Y)_{(Ω)} = X_{(Ω)} ×_Ω Y_{(Ω)}` `(I, 3.3.10)`;
-by hypothesis `X_{(Ω)}` and `Y_{(Ω)}` are geometrically irreducible (resp. geometrically connected) `Ω`-preschemes
-`(4.5.6)` and it therefore suffices to apply (i).
+(ii) If $\Omega$ is an algebraically closed extension of $k$, one has $(X \times_{k} Y)_{(\Omega)} = X_{(\Omega)}
+\times_{\Omega} Y_{(\Omega)}$ `(I, 3.3.10)`; by hypothesis $X_{(\Omega)}$ and $Y_{(\Omega)}$ are geometrically
+irreducible (resp. geometrically connected) $\Omega$-preschemes `(4.5.6)` and it therefore suffices to apply (i).
 
 **Proposition (4.5.9).**
 
 <!-- label: IV.4.5.9 -->
 
-*Let `X` be a `k`-prescheme. The following conditions are equivalent:*
+*Let $X$ be a $k$-prescheme. The following conditions are equivalent:*
 
-*a) `X` is geometrically irreducible (in other words, for every extension `K` of `k`, `X ⊗_k K` is irreducible).*
+*a) $X$ is geometrically irreducible (in other words, for every extension $K$ of $k$, $X \otimes_{k} K$ is
+irreducible).*
 
-*b) For every finite separable extension `K` of `k`, `X ⊗_k K` is irreducible.*
+*b) For every finite separable extension $K$ of $k$, $X \otimes_{k} K$ is irreducible.*
 
-*c) `X` is irreducible, and if `x` is its generic point, `k(x)` is a primary extension of `k`.*
+*c) $X$ is irreducible, and if $x$ is its generic point, $k(x)$ is a primary extension of $k$.*
 
-It is clear that a) implies b). To see that b) implies c), consider a finite separable extension `K` of `k`; if
-`p : X ⊗_k K → X` is the canonical projection, the
+It is clear that a) implies b). To see that b) implies c), consider a finite separable extension $K$ of $k$; if $p : X
+\otimes_{k} K \to X$ is the canonical projection, the
 
 <!-- original page 63 -->
 
-maximal points of `X ⊗_k K` are those of the fibre `p⁻¹(x) = Spec(k(x) ⊗_k K)` (`(2.3.4)` and `(0_I, 2.1.8)`); to say
-that this fibre is irreducible for every finite separable extension `K` of `k` amounts to saying that `k(x)` is a
-primary extension of `k`, by virtue of `(4.3.2)`. Conversely, if c) is satisfied, the same reasoning (taking into
-account `(4.3.2)`) shows that for every extension `K` of `k`, `X ⊗_k K` is irreducible, hence c) implies a).
+maximal points of $X \otimes_{k} K$ are those of the fibre $p^{-1}(x) = \operatorname{Spec}(k(x) \otimes_{k} K)$
+(`(2.3.4)` and $(0_{I}, 2.1.8)$); to say that this fibre is irreducible for every finite separable extension $K$ of $k$
+amounts to saying that $k(x)$ is a primary extension of $k$, by virtue of `(4.3.2)`. Conversely, if c) is satisfied, the
+same reasoning (taking into account `(4.3.2)`) shows that for every extension $K$ of $k$, $X \otimes_{k} K$ is
+irreducible, hence c) implies a).
 
 **Corollary (4.5.10).**
 
 <!-- label: IV.4.5.10 -->
 
-*Let `X` be an irreducible `k`-prescheme, `x` its generic point, `k'` the separable algebraic closure of `k` in `k(x)`,
-`k''` a Galois extension of `k` (of finite degree or not) containing `k'`. Suppose `k'` finite over `k`; then the
-irreducible components of `X ⊗_k k''` are geometrically irreducible; their number is equal to `[k' : k]` and is also the
-geometric number of irreducible components of `X`.*
+*Let $X$ be an irreducible $k$-prescheme, $x$ its generic point, $k'$ the separable algebraic closure of $k$ in $k(x)$,
+`k''` a Galois extension of $k$ (of finite degree or not) containing $k'$. Suppose $k'$ finite over $k$; then the
+irreducible components of $X \otimes_{k} k''$ are geometrically irreducible; their number is equal to $[k' : k]$ and is
+also the geometric number of irreducible components of $X$.*
 
-As in `(4.5.9)`, one is reduced to considering the maximal points of the fibre `Spec(k(x) ⊗_k k'')`; by virtue of
-`(4.3.4)`, they are `[k' : k]` in number and the residue fields at these points (which are also those of `X ⊗_k k''`)
-are primary extensions of `k''`, which, taking into account `(4.5.9)`, proves the corollary.
+As in `(4.5.9)`, one is reduced to considering the maximal points of the fibre $\operatorname{Spec}(k(x) \otimes_{k}
+k'')$; by virtue of `(4.3.4)`, they are $[k' : k]$ in number and the residue fields at these points (which are also
+those of $X \otimes_{k} k''$) are primary extensions of `k''`, which, taking into account `(4.5.9)`, proves the
+corollary.
 
 **Corollary (4.5.11).**
 
 <!-- label: IV.4.5.11 -->
 
-*Let `X` be a `k`-prescheme; suppose that `X` has only a finite number of maximal points `x_i` `(1 ≤ i ≤ r)` and that
-for each `i`, the separable algebraic closure `k'_i` of `k` in `k(x_i)` is of finite degree over `k`. Then there exists
-a finite separable extension `L` of `k` such that the irreducible components of `X ⊗_k L` are geometrically irreducible;
-their number, equal to `Σ_i [k'_i : k]`, is the geometric number of irreducible components of `X`.*
+*Let $X$ be a $k$-prescheme; suppose that $X$ has only a finite number of maximal points $x_{i}$ $(1 \leq i \leq r)$ and
+that for each $i$, the separable algebraic closure $k'_{i}$ of $k$ in $k(x_{i})$ is of finite degree over $k$. Then
+there exists a finite separable extension $L$ of $k$ such that the irreducible components of $X \otimes_{k} L$ are
+geometrically irreducible; their number, equal to $\Sigma_{i} [k'_{i} : k]$, is the geometric number of irreducible
+components of $X$.*
 
-The maximal points of `X ⊗_k L` are those of the various fibres `Spec(k(x_i) ⊗_k L)` by virtue of `(2.3.4)` and
-`(0_I, 2.1.8)` applied to the irreducible components of `X` and to their inverse images in `X ⊗_k L`. It therefore
-suffices to take for `L` a finite Galois extension of `k` containing all the `k'_i` and to apply `(4.5.10)`.
+The maximal points of $X \otimes_{k} L$ are those of the various fibres $\operatorname{Spec}(k(x_{i}) \otimes_{k} L)$ by
+virtue of `(2.3.4)` and $(0_{I}, 2.1.8)$ applied to the irreducible components of $X$ and to their inverse images in $X
+\otimes_{k} L$. It therefore suffices to take for $L$ a finite Galois extension of $k$ containing all the $k'_{i}$ and
+to apply `(4.5.10)`.
 
-One will note that `(4.5.11)` applies in particular to every `k`-prescheme `X` of finite type over `k`, for `X` is then
-Noetherian, hence has only a finite number of irreducible components, and each of the `k(x_i)` is an extension of finite
-type of `k`, hence so is the algebraic closure of `k` in `k(x_i)` ([1], p. 6-06, lemma 5).
+One will note that `(4.5.11)` applies in particular to every $k$-prescheme $X$ of finite type over $k$, for $X$ is then
+Noetherian, hence has only a finite number of irreducible components, and each of the $k(x_{i})$ is an extension of
+finite type of $k$, hence so is the algebraic closure of $k$ in $k(x_{i})$ ([1], p. 6-06, lemma 5).
 
 **Remarks (4.5.12).**
 
 <!-- label: IV.4.5.12 -->
 
-(i) The notions defined in `(4.5.2)` depend on the base field `k`. For brevity, and when it will be necessary to mention
-the base field, one may say "**`k`-irreducible**" (resp. "**`k`-connected**") in place of "geometrically irreducible
-(resp. connected) relative to `k`". One will note that this terminology, completely natural in the context of schemes,
-is exactly opposite to that of Weil: in that author, "`k`-irreducible" (resp. "`k`-connected", "`k`-normal", etc.)
-designates an intrinsic property of a prescheme `X`, independent of the field `k` taken as "base field" (in other words,
-of the chosen morphism `X → Spec(k)`); we express these properties by saying simply that `X` is irreducible (resp.
-connected, normal, etc.). Weil says on the other hand "absolutely irreducible", "absolutely connected", "absolutely
-normal", etc., for the corresponding notions relative to the prescheme `X ⊗_k Ω`, where `Ω` is a suitable algebraically
-closed extension of `k`. This terminology is explained by the different point of view in which that author places
-himself: for him, an "algebraic variety" `V` is given first as a
+(i) The notions defined in `(4.5.2)` depend on the base field $k$. For brevity, and when it will be necessary to mention
+the base field, one may say "**$k$-irreducible**" (resp. "**$k$-connected**") in place of "geometrically irreducible
+(resp. connected) relative to $k$". One will note that this terminology, completely natural in the context of schemes,
+is exactly opposite to that of Weil: in that author, "$k$-irreducible" (resp. "$k$-connected", "$k$-normal", etc.)
+designates an intrinsic property of a prescheme $X$, independent of the field $k$ taken as "base field" (in other words,
+of the chosen morphism $X \to \operatorname{Spec}(k)$); we express these properties by saying simply that $X$ is
+irreducible (resp. connected, normal, etc.). Weil says on the other hand "absolutely irreducible", "absolutely
+connected", "absolutely normal", etc., for the corresponding notions relative to the prescheme $X \otimes_{k} \Omega$,
+where $\Omega$ is a suitable algebraically closed extension of $k$. This terminology is explained by the different point
+of view in which that author places himself: for him, an "algebraic variety" $V$ is given first as a
 
 <!-- original page 64 -->
 
-geometric object over an algebraically closed field `Ω`; the datum of a smaller "field of definition" `k` (i.e., of a
-scheme over `k` defining `V` by extension of the base field to `Ω`) is for him an additional and, to a certain extent,
-secondary structure, so that his qualification of "absolute" or "intrinsic" on one side, "relative to `k`" on the other,
-is opposite to ours (¹). We shall therefore avoid in the sequel using the qualifier "absolute", which may lead to
-confusion, and when we use the abbreviated terminology introduced above (in conflict with received terminology), we
-shall refer to `(4.5.12)` to avoid all ambiguity.
+geometric object over an algebraically closed field $\Omega$; the datum of a smaller "field of definition" $k$ (i.e., of
+a scheme over $k$ defining $V$ by extension of the base field to $\Omega$) is for him an additional and, to a certain
+extent, secondary structure, so that his qualification of "absolute" or "intrinsic" on one side, "relative to $k$" on
+the other, is opposite to ours (¹). We shall therefore avoid in the sequel using the qualifier "absolute", which may
+lead to confusion, and when we use the abbreviated terminology introduced above (in conflict with received terminology),
+we shall refer to `(4.5.12)` to avoid all ambiguity.
 
 (ii) The proposition `(4.5.9)` gives a "birational" criterion (in other words, depending only on the residue field at
-the generic point) for a `k`-prescheme `X` to be geometrically irreducible. There is no analogous criterion for `X` to
-be geometrically connected. For example, take `X = Spec(𝐑[[T, U]]/(T² + U²))` (`T`, `U` indeterminates); `X` is an
-integral `𝐑`-scheme, and its field of rational functions `k(x)` is `𝐂((T))`, as one easily verifies; `X ⊗_𝐑 𝐂`
-decomposes into two irreducible components (the two "isotropic lines") which have one point in common (the maximal ideal
-image in `𝐂[[T, U]]/(T² + U²)` of the maximal ideal `(T) + (U)` of `𝐂[[T, U]]`); hence `X ⊗_𝐑 𝐂` is connected. Let `X'`
-be the (open) complement of the closed point of `X` corresponding to the maximal ideal `(T) + (U)` of `𝐑[[T, U]]`; then
-`X' ⊗_𝐑 𝐂` is not connected, although `X` and `X'` have the same field of rational functions.
+the generic point) for a $k$-prescheme $X$ to be geometrically irreducible. There is no analogous criterion for $X$ to
+be geometrically connected. For example, take $X = \operatorname{Spec}(\mathbf{R}[[T, U]]/(T^{2} + U^{2}))$ ($T$, $U$
+indeterminates); $X$ is an integral $\mathbf{R}$-scheme, and its field of rational functions $k(x)$ is
+$\mathbf{C}((T))$, as one easily verifies; $X \otimes_{\mathbf{R}} \mathbf{C}$ decomposes into two irreducible
+components (the two "isotropic lines") which have one point in common (the maximal ideal image in $\mathbf{C}[[T,
+U]]/(T^{2} + U^{2})$ of the maximal ideal $(T) + (U)$ of $\mathbf{C}[[T, U]]$); hence $X \otimes_{\mathbf{R}}
+\mathbf{C}$ is connected. Let $X'$ be the (open) complement of the closed point of $X$ corresponding to the maximal
+ideal $(T) + (U)$ of $\mathbf{R}[[T, U]]$; then $X' \otimes_{\mathbf{R}} \mathbf{C}$ is not connected, although $X$ and
+$X'$ have the same field of rational functions.
 
 **Proposition (4.5.13).**
 
 <!-- label: IV.4.5.13 -->
 
-*Let `X`, `Y` be two `k`-preschemes, `f : Y → X` a `k`-morphism. Suppose `Y` geometrically connected and non-empty, and
-`X` connected. Then `X` is geometrically connected.*
+*Let $X$, $Y$ be two $k$-preschemes, $f : Y \to X$ a $k$-morphism. Suppose $Y$ geometrically connected and non-empty,
+and $X$ connected. Then $X$ is geometrically connected.*
 
-Let `Ω` be an algebraic closure of `k`, `X' = X_{(Ω)}`, `Y' = Y_{(Ω)}`, `f' = f_{(Ω)} : Y' → X'`; it must be shown that
-`X'` is connected. Let `U'` be a non-empty open and closed part of `X'`; note that the morphisms `p : X' → X` and
-`q : Y' → Y` are open `(2.4.10)` and closed since `Ω` is an algebraic extension of `k` `(II, 6.1.10)`. Hence `U = p(U')`
-is non-empty open and closed in `X`, and consequently equal to `X`. Since `Y` is non-empty, one concludes `(I, 3.4.7)`
-that `V' = f'⁻¹(U')` is not empty; moreover, it is an open and closed part of `Y'`, and the latter space is connected by
-hypothesis; hence `V' = Y'`. One deduces from this that `U' = X'`, since otherwise the same reasoning applied to the
-open and closed set `X' − U'`, would show that `f'⁻¹(X' − U') = Y'`, which is absurd since `Y'` is non-empty.
+Let $\Omega$ be an algebraic closure of $k$, $X' = X_{(\Omega)}$, $Y' = Y_{(\Omega)}$, $f' = f_{(\Omega)} : Y' \to X'$;
+it must be shown that $X'$ is connected. Let $U'$ be a non-empty open and closed part of $X'$; note that the morphisms
+$p : X' \to X$ and $q : Y' \to Y$ are open `(2.4.10)` and closed since $\Omega$ is an algebraic extension of $k$
+`(II, 6.1.10)`. Hence $U = p(U')$ is non-empty open and closed in $X$, and consequently equal to $X$. Since $Y$ is
+non-empty, one concludes `(I, 3.4.7)` that $V' = f'^{-1}(U')$ is not empty; moreover, it is an open and closed part of
+$Y'$, and the latter space is connected by hypothesis; hence $V' = Y'$. One deduces from this that $U' = X'$, since
+otherwise the same reasoning applied to the open and closed set $X' - U'$, would show that $f'^{-1}(X' - U') = Y'$,
+which is absurd since $Y'$ is non-empty.
 
 **Corollary (4.5.13.1).**
 
 <!-- label: IV.4.5.13.1 -->
 
-*(i) Let `X`, `Y` be two `k`-preschemes, `f : Y → X` a `k`-morphism. If `Y` is geometrically connected and non-empty,
-the connected component `X_0` of `X` containing `f(Y)` is geometrically connected.*
+*(i) Let $X$, $Y$ be two $k$-preschemes, $f : Y \to X$ a $k$-morphism. If $Y$ is geometrically connected and non-empty,
+the connected component `X_0` of $X$ containing $f(Y)$ is geometrically connected.*
 
-*(ii) Let `X` be a `k`-prescheme. If `Y` is an irreducible component of `X` which is geometrically irreducible, then the
-connected component `X_0` of `X` containing `Y` is geometrically connected.*
+*(ii) Let $X$ be a $k$-prescheme. If $Y$ is an irreducible component of $X$ which is geometrically irreducible, then the
+connected component `X_0` of $X$ containing $Y$ is geometrically connected.*
 
-(i) One may suppose `Y` reduced, so that `f` factors as `f : Y → X_0 → X`, `X_0`
+(i) One may suppose $Y$ reduced, so that $f$ factors as $f : Y \to X_{0} \to X$, `X_0`
 
 ______________________________________________________________________
 
@@ -776,64 +816,67 @@ introduced here.
 
 <!-- original page 65 -->
 
-denoting the reduced sub-prescheme of `X` having `X_0` as underlying space `(I, 5.2.2)`; it suffices to apply `(4.5.13)`
-to `g`.
+denoting the reduced sub-prescheme of $X$ having `X_0` as underlying space `(I, 5.2.2)`; it suffices to apply `(4.5.13)`
+to $g$.
 
-(ii) By considering a prescheme having `Y` as underlying space, and noting that `Y` is a fortiori geometrically
-connected, it suffices to apply (i) to the canonical injection `Y → X`.
+(ii) By considering a prescheme having $Y$ as underlying space, and noting that $Y$ is a fortiori geometrically
+connected, it suffices to apply (i) to the canonical injection $Y \to X$.
 
 **Corollary (4.5.14).**
 
 <!-- label: IV.4.5.14 -->
 
-*Let `X` be a `k`-prescheme. If `x` is a point of `X` such that `k(x)` is a primary extension of `k` (in particular if
-`x` is a rational point of `X`), the connected component of `x` in `X` is geometrically connected.*
+*Let $X$ be a $k$-prescheme. If $x$ is a point of $X$ such that $k(x)$ is a primary extension of $k$ (in particular if
+$x$ is a rational point of $X$), the connected component of $x$ in $X$ is geometrically connected.*
 
-It suffices to apply `(4.5.13.1)` to `Y = Spec(k(x))` and to the canonical morphism `Y → X`, taking into account
-`(4.5.9)`, which implies that `Y` is geometrically irreducible.
+It suffices to apply `(4.5.13.1)` to $Y = \operatorname{Spec}(k(x))$ and to the canonical morphism $Y \to X$, taking
+into account `(4.5.9)`, which implies that $Y$ is geometrically irreducible.
 
 **Proposition (4.5.15).**
 
 <!-- label: IV.4.5.15 -->
 
-*Let `X` be a `k`-prescheme, `x` a point of `X`, `k'` the separable algebraic closure of `k` in `k(x)`. Suppose the
+*Let $X$ be a $k$-prescheme, $x$ a point of $X$, $k'$ the separable algebraic closure of $k$ in $k(x)$. Suppose the
 following conditions satisfied:*
 
-*(i) `X` is connected.*
+*(i) $X$ is connected.*
 
-*(ii) `k'` is a finite extension of `k`.*
+*(ii) $k'$ is a finite extension of $k$.*
 
-*Then the geometric number of connected components of `X` is `≤ [k' : k]`, and if `k''` is a finite Galois extension of
-`k` containing `k'`, the connected components of `X ⊗_k k''` are geometrically connected.*
+*Then the geometric number of connected components of $X$ is $\leq [k' : k]$, and if `k''` is a finite Galois extension
+of $k$ containing $k'$, the connected components of $X \otimes_{k} k''$ are geometrically connected.*
 
-One will note that condition (ii) is satisfied if `X` is locally of finite type over `k`.
+One will note that condition (ii) is satisfied if $X$ is locally of finite type over $k$.
 
-There exist finite Galois extensions `k''` of `k` containing `k'` by virtue of condition (ii). Put `X'' = X ⊗_k k''`;
-the projection morphism `p : X'' → X` is faithfully flat and finite, hence closed `(II, 6.1.10)` and consequently
-`(2.3.6, (ii))` the image by `p` of every connected component `X''_α` of `X''` is equal to `X`; `X''_α` therefore
-contains a point `x_α ∈ p⁻¹(x)`. But `p⁻¹(x)` has a number of points equal to the number of irreducible components of
-`Spec(k(x) ⊗_k k'')` `(I, 3.4.9)`, that is `[k' : k]` `(4.3.4)`, and a fortiori the number of connected components of
-`X''` is `≤ [k' : k]`. For every `x_α ∈ p⁻¹(x)`, `k(x_α)` is a primary extension of `k''` by virtue of `(4.3.5)` and of
-`(I, 3.4.9)`. One may therefore apply to `x_α` and `X''` the corollary `(4.5.14)`, which proves that all the connected
-components of `X''` are geometrically connected.
+There exist finite Galois extensions `k''` of $k$ containing $k'$ by virtue of condition (ii). Put $X'' = X \otimes_{k}
+k''$; the projection morphism $p : X'' \to X$ is faithfully flat and finite, hence closed `(II, 6.1.10)` and
+consequently `(2.3.6, (ii))` the image by $p$ of every connected component $X''_{\alpha}$ of `X''` is equal to $X$;
+$X''_{\alpha}$ therefore contains a point $x_{\alpha} \in p^{-1}(x)$. But $p^{-1}(x)$ has a number of points equal to
+the number of irreducible components of $\operatorname{Spec}(k(x) \otimes_{k} k'')$ `(I, 3.4.9)`, that is $[k' : k]$
+`(4.3.4)`, and a fortiori the number of connected components of `X''` is $\leq [k' : k]$. For every $x_{\alpha} \in
+p^{-1}(x)$, $k(x_{\alpha})$ is a primary extension of `k''` by virtue of `(4.3.5)` and of `(I, 3.4.9)`. One may
+therefore apply to $x_{\alpha}$ and `X''` the corollary `(4.5.14)`, which proves that all the connected components of
+`X''` are geometrically connected.
 
 **Corollary (4.5.16).**
 
 <!-- label: IV.4.5.16 -->
 
-*Let `X` be a `k`-prescheme, `(X_α)` the family of its connected components, and for every `α`, let `x_α ∈ X_α`. Suppose
-the following conditions satisfied:*
+*Let $X$ be a $k$-prescheme, $(X_{\alpha})$ the family of its connected components, and for every $\alpha$, let
+$x_{\alpha} \in X_{\alpha}$. Suppose the following conditions satisfied:*
 
-*(i) The family `(X_α)` is finite.*
+*(i) The family $(X_{\alpha})$ is finite.*
 
-*(ii) For every `α`, the separable algebraic closure `k'_α` of `k` in `k(x_α)` is a finite extension of `k`.*
+*(ii) For every $\alpha$, the separable algebraic closure $k'_{\alpha}$ of $k$ in $k(x_{\alpha})$ is a finite extension
+of $k$.*
 
-*Then the geometric number of connected components of `X` is at most `Σ_α [k'_α : k]`, and there exists a finite
-separable extension `k''` of `k` such that all the connected components of `X ⊗_k k''` are geometrically connected.*
+*Then the geometric number of connected components of $X$ is at most $\Sigma_{\alpha} [k'_{\alpha} : k]$, and there
+exists a finite separable extension `k''` of $k$ such that all the connected components of $X \otimes_{k} k''$ are
+geometrically connected.*
 
-Noting that the connected components of `X` are open by virtue of condition (i), it suffices to apply to each of the
-sub-preschemes of `X` induced on the open sets `X_α` the result of `(4.5.15)`; to have an extension `k''` answering the
-question, it suffices to take a finite Galois extension of `k` containing all the `k'_α`.
+Noting that the connected components of $X$ are open by virtue of condition (i), it suffices to apply to each of the
+sub-preschemes of $X$ induced on the open sets $X_{\alpha}$ the result of `(4.5.15)`; to have an extension `k''`
+answering the question, it suffices to take a finite Galois extension of $k$ containing all the $k'_{\alpha}$.
 
 <!-- original page 66 -->
 
@@ -841,50 +884,53 @@ question, it suffices to take a finite Galois extension of `k` containing all th
 
 <!-- label: IV.4.5.17 -->
 
-*Suppose the `k`-prescheme `X` contains a point `x` such that the separable algebraic closure of `k` in `k(x)` is finite
-over `k`. For `X` to be geometrically connected, it is necessary and sufficient that for every finite separable
-extension `K` of `k`, `X ⊗_k K` be connected.*
+*Suppose the $k$-prescheme $X$ contains a point $x$ such that the separable algebraic closure of $k$ in $k(x)$ is finite
+over $k$. For $X$ to be geometrically connected, it is necessary and sufficient that for every finite separable
+extension $K$ of $k$, $X \otimes_{k} K$ be connected.*
 
 **Remark (4.5.18).**
 
 <!-- label: IV.4.5.18 -->
 
 *We shall see in §8 `(8.4.5)` that the conclusion of `(4.5.17)` is still valid if, instead of supposing that the
-condition of the statement is satisfied, one supposes that `X` is quasi-compact.*
+condition of the statement is satisfied, one supposes that $X$ is quasi-compact.*
 
 **Proposition (4.5.19).**
 
 <!-- label: IV.4.5.19 -->
 
-*Let `X` be a `k`-prescheme, `Z` a part of `X`, `k'` an algebraically closed extension of `k`, `X' = X_{(k')}`,
-`p : X' → X` the canonical projection. Suppose that `Z' = p⁻¹(Z)` is contained in a single irreducible component `X'_0`
-of `X'`. Then one has `X'_0 = p⁻¹(X_0)`, where `X_0 = p(X'_0)` is an irreducible component of `X` containing `Z`, and in
-addition `X_0` is geometrically irreducible. If moreover `X'_0` is the only irreducible component of `X'` meeting `Z'`,
-then `X_0` is the only irreducible component of `X` meeting `Z`.*
+*Let $X$ be a $k$-prescheme, $Z$ a part of $X$, $k'$ an algebraically closed extension of $k$, $X' = X_{(k')}$, $p : X'
+\to X$ the canonical projection. Suppose that $Z' = p^{-1}(Z)$ is contained in a single irreducible component $X'_{0}$
+of $X'$. Then one has $X'_{0} = p^{-1}(X_{0})$, where $X_{0} = p(X'_{0})$ is an irreducible component of $X$ containing
+$Z$, and in addition `X_0` is geometrically irreducible. If moreover $X'_{0}$ is the only irreducible component of $X'$
+meeting $Z'$, then `X_0` is the only irreducible component of $X$ meeting $Z$.*
 
-To show that `X'_0 = p⁻¹(X_0)`, we shall apply the
+To show that $X'_{0} = p^{-1}(X_{0})$, we shall apply the
 
 **Lemma (4.5.19.1).**
 
 <!-- label: IV.4.5.19.1 -->
 
-*Let `T`, `T'` be two preschemes, `p : T' → T` a morphism; consider the prescheme `T'' = T' ×_T T'`, and let
-`p_1 : T'' → T'`, `p_2 : T'' → T'` be the canonical projections. For a part `U'` of `T'` to be of the form `p⁻¹(U)`,
-where `U ⊂ T`, it is necessary and sufficient that one have `p_1⁻¹(U') = p_2⁻¹(U')`.*
+*Let $T$, $T'$ be two preschemes, $p : T' \to T$ a morphism; consider the prescheme $T'' = T' \times_{T} T'$, and let
+$p_{1} : T'' \to T'$, $p_{2} : T'' \to T'$ be the canonical projections. For a part $U'$ of $T'$ to be of the form
+$p^{-1}(U)$, where $U \subset T$, it is necessary and sufficient that one have $p^{-1}_{1}(U') = p^{-1}_{2}(U')$.*
 
-The structure morphism `q : T'' → T` is equal to `p ∘ p_1` and to `p ∘ p_2` by definition, hence the relation is
-necessary. Conversely, suppose it satisfied; let `u'` be a point of `U'`, `t'` a point of `p⁻¹(p(u'))`; since
-`p(u') = p(t')`, there exists a point `t'' ∈ T''` such that `p_1(t'') = u'`, `p_2(t'') = t'` `(I, 3.4.7)`; hence
-`t'' ∈ p_1⁻¹(U') = p_2⁻¹(U')` by hypothesis, and consequently `t' = p_2(t'') ∈ U'`, which proves the lemma.
+The structure morphism $q : T'' \to T$ is equal to $p \circ p_{1}$ and to $p \circ p_{2}$ by definition, hence the
+relation is necessary. Conversely, suppose it satisfied; let $u'$ be a point of $U'$, $t'$ a point of $p^{-1}(p(u'))$;
+since $p(u') = p(t')$, there exists a point $t'' \in T''$ such that $p_{1}(t'') = u'$, $p_{2}(t'') = t'$ `(I, 3.4.7)`;
+hence $t'' \in p^{-1}_{1}(U') = p^{-1}_{2}(U')$ by hypothesis, and consequently $t' = p_{2}(t'') \in U'$, which proves
+the lemma.
 
-This lemma being established, to show that `X'_0 = p⁻¹(X_0)`, let us form therefore the product `X'' = X' ×_X X'`
-(relative to the morphism `p : X' → X`); if `p_1` and `p_2` are the canonical projections of `X''` onto `X'`, it is
-therefore a matter of showing that `p_1⁻¹(X'_0) = p_2⁻¹(X'_0)`. Now, if one puts `S = Spec(k)`, `S' = Spec(k')`, observe
-that if `S'' = S' ×_S S' = Spec(k' ⊗_k k')`, one may also write `X'' = X' ×_{S'} S''`. If `q'' : X'' → S''` is the
-structure morphism, it suffices to prove that for every `s'' ∈ S''`, one has
-`p_1⁻¹(X'_0) ∩ q''⁻¹(s'') = p_2⁻¹(X'_0) ∩ q''⁻¹(s'')`. If one puts `T = Spec(k(s''))`, `U = X'' ×_{S''} T = q''⁻¹(s'')`,
-and if `v : U → X''` is the canonical projection, it is therefore a matter of proving that `U_1 = v⁻¹(p_1⁻¹(X'_0))` and
-`U_2 = v⁻¹(p_2⁻¹(X'_0))`, which are irreducible components of `U` `(4.4.5)`, are identical. One has the diagram
+This lemma being established, to show that $X'_{0} = p^{-1}(X_{0})$, let us form therefore the product $X'' = X'
+\times_{X} X'$ (relative to the morphism $p : X' \to X$); if $p_{1}$ and $p_{2}$ are the canonical projections of `X''`
+onto $X'$, it is therefore a matter of showing that $p^{-1}_{1}(X'_{0}) = p^{-1}_{2}(X'_{0})$. Now, if one puts $S =
+\operatorname{Spec}(k)$, $S' = \operatorname{Spec}(k')$, observe that if $S'' = S' \times_{S} S' =
+\operatorname{Spec}(k' \otimes_{k} k')$, one may also write $X'' = X' \times_{S'} S''$. If $q'' : X'' \to S''$ is the
+structure morphism, it suffices to prove that for every $s'' \in S''$, one has $p^{-1}_{1}(X'_{0}) \cap q''^{-1}(s'') =
+p^{-1}_{2}(X'_{0}) \cap q''^{-1}(s'')$. If one puts $T = \operatorname{Spec}(k(s''))$, $U = X'' \times_{S''} T =
+q''^{-1}(s'')$, and if $v : U \to X''$ is the canonical projection, it is therefore a matter of proving that $U_{1} =
+v^{-1}(p^{-1}_{1}(X'_{0}))$ and $U_{2} = v^{-1}(p^{-1}_{2}(X'_{0}))$, which are irreducible components of $U$ `(4.4.5)`,
+are identical. One has the diagram
 
 ```text
   X  ←──  X'  ⇇  X''  ←──  U                                       (4.5.19.2)
@@ -893,7 +939,7 @@ and if `v : U → X''` is the canonical projection, it is therefore a matter of 
   S  ←──  S'  ⇇  S''  ←──  T
 ```
 
-By construction, `U_1` and `U_2` both contain the set `w⁻¹(Z)`, where
+By construction, `U_1` and `U_2` both contain the set $w^{-1}(Z)$, where
 
 ```text
   w = p ∘ p_1 ∘ v = p ∘ p_2 ∘ v.
@@ -901,7 +947,8 @@ By construction, `U_1` and `U_2` both contain the set `w⁻¹(Z)`, where
 
 <!-- original page 67 -->
 
-Now, there exists a field `K`, common extension of `k'` and of `k(s'')`, so that if one puts `P = Spec(K)`, the diagram
+Now, there exists a field $K$, common extension of $k'$ and of $k(s'')$, so that if one puts $P =
+\operatorname{Spec}(K)$, the diagram
 
 ```text
   S' ←── P
@@ -910,7 +957,7 @@ Now, there exists a field `K`, common extension of `k'` and of `k(s'')`, so that
   S  ←── T
 ```
 
-is commutative; if one puts `Q = X ⊗_k K`, the diagram
+is commutative; if one puts $Q = X \otimes_{k} K$, the diagram
 
 ```text
   X' ←── Q
@@ -919,38 +966,40 @@ is commutative; if one puts `Q = X ⊗_k K`, the diagram
   X  ←── U
 ```
 
-is therefore likewise commutative, and the two irreducible components `r⁻¹(U_1)` and `r⁻¹(U_2)` of `Q` `(4.4.5)`
-consequently contain `q'⁻¹(Z')`. Now, by virtue of `(4.4.5)`, the images `q(r⁻¹(U_1))` and `q(r⁻¹(U_2))` are irreducible
-components of `X'` containing `Z'`; they are therefore both equal to `X'_0`, hence `r⁻¹(U_1) = r⁻¹(U_2)` by virtue of
-`(4.4.5)`, and finally `U_1 = U_2`.
+is therefore likewise commutative, and the two irreducible components $r^{-1}(U_{1})$ and $r^{-1}(U_{2})$ of $Q$
+`(4.4.5)` consequently contain $q'^{-1}(Z')$. Now, by virtue of `(4.4.5)`, the images $q(r^{-1}(U_{1}))$ and
+$q(r^{-1}(U_{2}))$ are irreducible components of $X'$ containing $Z'$; they are therefore both equal to $X'_{0}$, hence
+$r^{-1}(U_{1}) = r^{-1}(U_{2})$ by virtue of `(4.4.5)`, and finally $U_{1} = U_{2}$.
 
-Since `p` is surjective and `X'_0` dominates an irreducible component of `X`, `X_0 = p(X'_0)` is an irreducible
-component of `X` containing `Z`, and since `p⁻¹(X_0)` is an irreducible component of `X'`, `X_0` is geometrically
+Since $p$ is surjective and $X'_{0}$ dominates an irreducible component of $X$, $X_{0} = p(X'_{0})$ is an irreducible
+component of $X$ containing $Z$, and since $p^{-1}(X_{0})$ is an irreducible component of $X'$, `X_0` is geometrically
 irreducible.
 
-To prove the last assertion, let `X_1` be a second irreducible component of `X` meeting `Z`. Taking `z ∈ Z ∩ X_1`, one
-sees that there exists an irreducible component of `X'` meeting `Z'` and dominating `X_1` `(2.3.5)`; but since `X'_0` is
-by hypothesis the only irreducible component of `X'` meeting `Z'`, one has necessarily `X_1 = X_0`.
+To prove the last assertion, let `X_1` be a second irreducible component of $X$ meeting $Z$. Taking $z \in Z \cap
+X_{1}$, one sees that there exists an irreducible component of $X'$ meeting $Z'$ and dominating `X_1` `(2.3.5)`; but
+since $X'_{0}$ is by hypothesis the only irreducible component of $X'$ meeting $Z'$, one has necessarily $X_{1} =
+X_{0}$.
 
 **Remark (4.5.20).**
 
 <!-- label: IV.4.5.20 -->
 
-*The fact that `Z'` is contained in a single irreducible component `X'_0` of `X'` does not imply that `X_0 = p(X'_0)` is
-the only irreducible component of `X` containing `Z`. Take in fact `k = 𝐑`, `k' = 𝐂`, and for `X` the `k`-scheme
-obtained by gluing (¹) at a point (non-generic) of `X_1 = Spec(𝐑[S, T]/(S² + T² − 1))` and of `X_2 = Spec(𝐂[T])` (the
-local rings of these two curves at each of their closed points having the same residue field isomorphic to `𝐂`); `X_1`
-and `X_2` are identified with the two irreducible components of `X`; if `x` is their common point, `p⁻¹(x)` is formed of
-two distinct points `y'`, `z'`, `p⁻¹(X_1)` is irreducible, and `p⁻¹(X_2)` is the sum of two irreducible components `Y'`,
-`Z'` of `X'` such that `y' ∈ Y'` and `z' ∈ Z'`, so that `p⁻¹(x)` is contained only in a single irreducible component of
-`X'`.*
+*The fact that $Z'$ is contained in a single irreducible component $X'_{0}$ of $X'$ does not imply that $X_{0} =
+p(X'_{0})$ is the only irreducible component of $X$ containing $Z$. Take in fact $k = \mathbf{R}$, $k' = \mathbf{C}$,
+and for $X$ the $k$-scheme obtained by gluing (¹) at a point (non-generic) of $X_{1} = \operatorname{Spec}(\mathbf{R}[S,
+T]/(S^{2} + T^{2} - 1))$ and of $X_{2} = \operatorname{Spec}(\mathbf{C}[T])$ (the local rings of these two curves at
+each of their closed points having the same residue field isomorphic to $\mathbf{C}$); `X_1` and `X_2` are identified
+with the two irreducible components of $X$; if $x$ is their common point, $p^{-1}(x)$ is formed of two distinct points
+$y'$, $z'$, $p^{-1}(X_{1})$ is irreducible, and $p^{-1}(X_{2})$ is the sum of two irreducible components $Y'$, $Z'$ of
+$X'$ such that $y' \in Y'$ and $z' \in Z'$, so that $p^{-1}(x)$ is contained only in a single irreducible component of
+$X'$.*
 
 **Proposition (4.5.21).**
 
 <!-- label: IV.4.5.21 -->
 
-*Let `k` be a separably closed field, and let `k'` be an algebraic closure of `k`. For every `k`-prescheme `X`, the
-canonical projection `X ⊗_k k' → X` is a universal homeomorphism.*
+*Let $k$ be a separably closed field, and let $k'$ be an algebraic closure of $k$. For every $k$-prescheme $X$, the
+canonical projection $X \otimes_{k} k' \to X$ is a universal homeomorphism.*
 
 ______________________________________________________________________
 
@@ -959,11 +1008,12 @@ concerns algebraic curves), one may consult [38], p. 68-71.
 
 <!-- original page 68 -->
 
-*In particular the irreducible (resp. connected) components of `X` are geometrically irreducible (resp. geometrically
+*In particular the irreducible (resp. connected) components of $X$ are geometrically irreducible (resp. geometrically
 connected).*
 
-By definition, `k'` is a radicial extension of `k`, the morphism `Spec(k') → Spec(k)` is integral, surjective and
-radicial, hence the first assertion follows from `(2.4.5, (i))`; the second follows from this, in view of `(4.5.1)`.
+By definition, $k'$ is a radicial extension of $k$, the morphism $\operatorname{Spec}(k') \to \operatorname{Spec}(k)$ is
+integral, surjective and radicial, hence the first assertion follows from `(2.4.5, (i))`; the second follows from this,
+in view of `(4.5.1)`.
 
 ### 4.6. Geometrically reduced algebraic preschemes
 
@@ -971,58 +1021,61 @@ radicial, hence the first assertion follows from `(2.4.5, (i))`; the second foll
 
 <!-- label: IV.4.6.1 -->
 
-*Let `k` be a field, `X` a `k`-prescheme, `Ω` a perfect extension of `k`. The following conditions are equivalent:*
+*Let $k$ be a field, $X$ a $k$-prescheme, $\Omega$ a perfect extension of $k$. The following conditions are equivalent:*
 
-*a) For every reduced `k`-prescheme `S`, `X ×_k S` is reduced.*
+*a) For every reduced $k$-prescheme $S$, $X \times_{k} S$ is reduced.*
 
-*b) For every extension `K` of `k`, `X ⊗_k K` is reduced.*
+*b) For every extension $K$ of $k$, $X \otimes_{k} K$ is reduced.*
 
-*c) `X ⊗_k Ω` is reduced.*
+*c) $X \otimes_{k} \Omega$ is reduced.*
 
-*d) For every finite radicial extension `k'` of `k`, `X ⊗_k k'` is reduced.*
+*d) For every finite radicial extension $k'$ of $k$, $X \otimes_{k} k'$ is reduced.*
 
-*e) `X` is reduced and for every irreducible component `X_α` of `X`, of generic point `x_α`, `k(x_α)` is a separable
-extension of `k`.*
+*e) $X$ is reduced and for every irreducible component $X_{\alpha}$ of $X$, of generic point $x_{\alpha}$,
+$k(x_{\alpha})$ is a separable extension of $k$.*
 
-It is trivial that a) ⇒ b) ⇒ c); since `k'` may be considered as a sub-extension of `Ω`, one has seen `(4.4.1)` that c)
-implies d). Let us show that d) implies e). Taking `k' = k`, one sees first that `X` is reduced; to prove that `k(x_α)`
-is separable over `k`, it suffices to show that `k(x_α) ⊗_k k'` is a reduced ring for every finite radicial extension
-`k'` of `k` `(4.3.5)`. One may restrict to the case where `X = Spec(A)` is affine, `A` being a reduced `k`-algebra; then
-by hypothesis the ring `A ⊗_k k'` is reduced `(I, 5.1.4)` and `k(x_α) ⊗_k k'` is a ring of fractions of this ring, hence
-is reduced `(0_I, 1.2.8)`. Finally, to prove that e) implies a), one may restrict to the case where `X = Spec(A)`,
-`S = Spec(B)` are affine, `A` and `B` being `k`-algebras. The `k(x_α)` are the fields of fractions of the quotient rings
-`A/𝔭_α`, where `𝔭_α = 𝔧_α` are the minimal prime ideals of `A`; since by hypothesis `∩_α 𝔭_α = 0`, `A` is contained in
-the product `∏_α A/𝔭_α`, hence in `∏_α k(x_α)`. One may likewise consider `B` as a sub-algebra of a product `∏_β L_β` of
-extensions of `k`. It follows from this that `A ⊗_k B` is identified with a sub-algebra of `(∏_α k(x_α)) ⊗_k (∏_β L_β)`,
-and this tensor product is itself identified with a sub-algebra of `∏_{α,β} (k(x_α) ⊗_k L_β)`
-`(Bourbaki, Alg., chap. II, 3rd ed., §7, n° 7, prop. 15)`. Now by hypothesis the `k(x_α) ⊗_k L_β` are reduced `(4.3.5)`,
-hence the same holds for `A ⊗_k B`.
+It is trivial that a) ⇒ b) ⇒ c); since $k'$ may be considered as a sub-extension of $\Omega$, one has seen `(4.4.1)`
+that c) implies d). Let us show that d) implies e). Taking $k' = k$, one sees first that $X$ is reduced; to prove that
+$k(x_{\alpha})$ is separable over $k$, it suffices to show that $k(x_{\alpha}) \otimes_{k} k'$ is a reduced ring for
+every finite radicial extension $k'$ of $k$ `(4.3.5)`. One may restrict to the case where $X = \operatorname{Spec}(A)$
+is affine, $A$ being a reduced $k$-algebra; then by hypothesis the ring $A \otimes_{k} k'$ is reduced `(I, 5.1.4)` and
+$k(x_{\alpha}) \otimes_{k} k'$ is a ring of fractions of this ring, hence is reduced $(0_{I}, 1.2.8)$. Finally, to prove
+that e) implies a), one may restrict to the case where $X = \operatorname{Spec}(A)$, $S = \operatorname{Spec}(B)$ are
+affine, $A$ and $B$ being $k$-algebras. The $k(x_{\alpha})$ are the fields of fractions of the quotient rings
+$A/\mathfrak{p}_{\alpha}$, where $\mathfrak{p}_{\alpha} = \mathfrak{j}_{\alpha}$ are the minimal prime ideals of $A$;
+since by hypothesis $\cap_{\alpha} \mathfrak{p}_{\alpha} = 0$, $A$ is contained in the product $\prod_{\alpha}
+A/\mathfrak{p}_{\alpha}$, hence in $\prod_{\alpha} k(x_{\alpha})$. One may likewise consider $B$ as a sub-algebra of a
+product $\prod_{\beta} L_{\beta}$ of extensions of $k$. It follows from this that $A \otimes_{k} B$ is identified with a
+sub-algebra of $(\prod_{\alpha} k(x_{\alpha})) \otimes_{k} (\prod_{\beta} L_{\beta})$, and this tensor product is itself
+identified with a sub-algebra of $\prod_{\alpha,\beta} (k(x_{\alpha}) \otimes_{k} L_{\beta})$
+`(Bourbaki, Alg., chap. II, 3rd ed., §7, n° 7, prop. 15)`. Now by hypothesis the $k(x_{\alpha}) \otimes_{k} L_{\beta}$
+are reduced `(4.3.5)`, hence the same holds for $A \otimes_{k} B$.
 
 **Definition (4.6.2).**
 
 <!-- label: IV.4.6.2 -->
 
-*If the equivalent conditions a) to e) of proposition `(4.6.1)` are fulfilled, one says that `X` is **separable** (or
-**geometrically reduced**, or **universally reduced**) over `k`. One says that a `k`-prescheme `X` is **geometrically
-integral** over `k` if, for every extension `K` of `k`, `X ⊗_k K` is integral; this is equivalent (by virtue of
-`(4.6.1)`) to saying that `X` is separable and geometrically irreducible over `k`.*
+*If the equivalent conditions a) to e) of proposition `(4.6.1)` are fulfilled, one says that $X$ is **separable** (or
+**geometrically reduced**, or **universally reduced**) over $k$. One says that a $k$-prescheme $X$ is **geometrically
+integral** over $k$ if, for every extension $K$ of $k$, $X \otimes_{k} K$ is integral; this is equivalent (by virtue of
+`(4.6.1)`) to saying that $X$ is separable and geometrically irreducible over $k$.*
 
-One will say that a (commutative) `k`-algebra `A` is **separable** if `Spec(A)` is separable over `k`; this means
-therefore that for every extension `K` of `k`, the ring `A_{(K)} = A ⊗_k K` is reduced. One will note that this
-definition coincides with that of Bourbaki, Alg., chap. VIII,
+One will say that a (commutative) $k$-algebra $A$ is **separable** if $\operatorname{Spec}(A)$ is separable over $k$;
+this means therefore that for every extension $K$ of $k$, the ring $A_{(K)} = A \otimes_{k} K$ is reduced. One will note
+that this definition coincides with that of Bourbaki, Alg., chap. VIII,
 
 <!-- original page 69 -->
 
-§7, n° 5, def. 1, when `A` is of finite rank over `k` (loc. cit., cor. of prop. 7), but not in general, a `k`-algebra
-being able to have a radical `≠ 0` even if it is integral.
+§7, n° 5, def. 1, when $A$ is of finite rank over $k$ (loc. cit., cor. of prop. 7), but not in general, a $k$-algebra
+being able to have a radical $\neq 0$ even if it is integral.
 
 **Corollary (4.6.3).**
 
 <!-- label: IV.4.6.3 -->
 
-*Let `X` be an integral `k`-prescheme; for `X` to be geometrically reduced (resp. geometrically integral) over `k`, it
-is necessary and sufficient that its field of rational functions `R(X)` be a separable (resp. separable and primary)
-extension of `k`.*
+*Let $X$ be an integral $k$-prescheme; for $X$ to be geometrically reduced (resp. geometrically integral) over $k$, it
+is necessary and sufficient that its field of rational functions $R(X)$ be a separable (resp. separable and primary)
+extension of $k$.*
 
 This follows at once from `(4.5.9)` and `(4.6.1)`.
 
@@ -1030,71 +1083,78 @@ This follows at once from `(4.5.9)` and `(4.6.1)`.
 
 <!-- label: IV.4.6.4 -->
 
-*Let `X` be a reduced `k`-prescheme. Then, for every separable extension `k'` of `k`, `X' = X ⊗_k k'` is reduced.*
+*Let $X$ be a reduced $k$-prescheme. Then, for every separable extension $k'$ of $k$, $X' = X \otimes_{k} k'$ is
+reduced.*
 
-It suffices to apply the equivalence of a) and e) in `(4.6.1)`, replacing `X` by `Spec(k')` and `S` by `X`.
+It suffices to apply the equivalence of a) and e) in `(4.6.1)`, replacing $X$ by $\operatorname{Spec}(k')$ and $S$ by
+$X$.
 
 **Proposition (4.6.5).**
 
 <!-- label: IV.4.6.5 -->
 
-*(i) Let `X` be a `k`-prescheme, `K` an extension of `k`. For `X` to be geometrically reduced (resp. geometrically
-integral) over `k`, it is necessary and sufficient that `X ⊗_k K` be geometrically reduced (resp. geometrically
-integral) over `K`.*
+*(i) Let $X$ be a $k$-prescheme, $K$ an extension of $k$. For $X$ to be geometrically reduced (resp. geometrically
+integral) over $k$, it is necessary and sufficient that $X \otimes_{k} K$ be geometrically reduced (resp. geometrically
+integral) over $K$.*
 
-*(ii) Let `X`, `Y` be two `k`-preschemes. If `X` and `Y` are geometrically reduced (resp. geometrically integral) over
-`k`, the same holds for `X ×_k Y`.*
+*(ii) Let $X$, $Y$ be two $k$-preschemes. If $X$ and $Y$ are geometrically reduced (resp. geometrically integral) over
+$k$, the same holds for $X \times_{k} Y$.*
 
 Assertion (i) is a trivial consequence of the definitions and of `(4.4.1)`. To prove the part of assertion (ii)
-concerning separability, one observes that if `Ω` is an algebraically closed extension of `k`, one has
-`(X ×_k Y) ⊗_k Ω = X ×_k (Y ⊗_k Ω)`; since `Y ⊗_k Ω` is reduced, the same holds for `X ×_k (Y ⊗_k Ω)` by virtue of
-`(4.6.1, a))`. The rest of assertion (ii) follows from what precedes and from `(4.5.8, (ii))`.
+concerning separability, one observes that if $\Omega$ is an algebraically closed extension of $k$, one has $(X
+\times_{k} Y) \otimes_{k} \Omega = X \times_{k} (Y \otimes_{k} \Omega)$; since $Y \otimes_{k} \Omega$ is reduced, the
+same holds for $X \times_{k} (Y \otimes_{k} \Omega)$ by virtue of `(4.6.1, a))`. The rest of assertion (ii) follows from
+what precedes and from `(4.5.8, (ii))`.
 
 **Proposition (4.6.6).**
 
 <!-- label: IV.4.6.6 -->
 
-*Let `X` be a `k`-prescheme of finite type. There exists a finite radicial extension `k'` of `k` such that
-`(X_{(k')})_red` is geometrically reduced over `k'`.*
+*Let $X$ be a $k$-prescheme of finite type. There exists a finite radicial extension $k'$ of $k$ such that
+$(X_{(k')})_{red}$ is geometrically reduced over $k'$.*
 
-Since `X` can be covered by a finite number of affine open sets `U_i`, one may restrict to the case where `X` is affine:
-in fact, if for each `i`, `k_i` is a finite radicial extension of `k` such that `(U_i ⊗_k k_i)_red` is geometrically
-reduced over `k_i`, one may suppose that the `k_i` are contained in a same finite radicial extension `k'` of `k`;
-`(U_i ⊗_k k')_red` is identified with `(U_i ⊗_k k_i)_red ⊗_{k_i} k'` by virtue of `(I, 5.1.8)`, hence is geometrically
-reduced over `k'` by hypothesis, and the same therefore holds for `(X ⊗_k k')_red`. Suppose therefore `X = Spec(A)`,
-where `A` is a `k`-algebra of finite type, and let `Ω` be an algebraic closure of `k`. Denote by `𝔑'` the nilradical of
-`A ⊗_k Ω`; since `A ⊗_k Ω` is a Noetherian ring, `𝔑'` is an ideal generated by a finite number of elements of the form
-`y_i = Σ_j x_{ij} ⊗ ξ_{ij}`, where `x_{ij} ∈ A`, `ξ_{ij} ∈ Ω`. Let `K` be a finite sub-extension of `Ω` containing the
-`ξ_{ij}`, and `𝔑` the ideal of `A ⊗_k K` generated by the `y_i` (`A ⊗_k K` being identified with a sub-ring of
-`A ⊗_k Ω`); it is clear that the `y_i` are nilpotent in `A ⊗_k K`; on the other hand, since `𝔑 ⊗_K Ω = 𝔑'` (and
-consequently `𝔑' ∩ (A ⊗_k K) = 𝔑`), `𝔑` contains the nilradical of `A ⊗_k K`, hence is equal to this nilradical. Since
-`(A ⊗_k Ω)/𝔑' = ((A ⊗_k K)/𝔑) ⊗_K Ω`, one sees that `(X ⊗_k K)_red ⊗_K Ω` is reduced, and consequently `(4.6.1)`,
-`(X_{(K)})_red` is geometrically reduced over `K`. By replacing `K` by the quasi-Galois extension over `k` that it
-generates in `Ω`, one sees by `(I, 5.1.8)` that one may suppose in addition `K` quasi-Galois over `k`, hence a separable
-extension of a finite radicial extension `k'` of `k` `(Bourbaki, Alg., chap. V, §10, n° 9, prop. 14)`. By virtue
+Since $X$ can be covered by a finite number of affine open sets $U_{i}$, one may restrict to the case where $X$ is
+affine: in fact, if for each $i$, $k_{i}$ is a finite radicial extension of $k$ such that $(U_{i} \otimes_{k}
+k_{i})_{red}$ is geometrically reduced over $k_{i}$, one may suppose that the $k_{i}$ are contained in a same finite
+radicial extension $k'$ of $k$; $(U_{i} \otimes_{k} k')_{red}$ is identified with $(U_{i} \otimes_{k} k_{i})_{red}
+\otimes_{k_{i}} k'$ by virtue of `(I, 5.1.8)`, hence is geometrically reduced over $k'$ by hypothesis, and the same
+therefore holds for $(X \otimes_{k} k')_{red}$. Suppose therefore $X = \operatorname{Spec}(A)$, where $A$ is a
+$k$-algebra of finite type, and let $\Omega$ be an algebraic closure of $k$. Denote by $\mathfrak{N}'$ the nilradical of
+$A \otimes_{k} \Omega$; since $A \otimes_{k} \Omega$ is a Noetherian ring, $\mathfrak{N}'$ is an ideal generated by a
+finite number of elements of the form $y_{i} = \Sigma_{j} x_{ij} \otimes \xi_{ij}$, where $x_{ij} \in A$, $\xi_{ij} \in
+\Omega$. Let $K$ be a finite sub-extension of $\Omega$ containing the $\xi_{ij}$, and $\mathfrak{N}$ the ideal of $A
+\otimes_{k} K$ generated by the $y_{i}$ ($A \otimes_{k} K$ being identified with a sub-ring of $A \otimes_{k} \Omega$);
+it is clear that the $y_{i}$ are nilpotent in $A \otimes_{k} K$; on the other hand, since $\mathfrak{N} \otimes_{K}
+\Omega = \mathfrak{N}'$ (and consequently $\mathfrak{N}' \cap (A \otimes_{k} K) = \mathfrak{N}$), $\mathfrak{N}$
+contains the nilradical of $A \otimes_{k} K$, hence is equal to this nilradical. Since $(A \otimes_{k}
+\Omega)/\mathfrak{N}' = ((A \otimes_{k} K)/\mathfrak{N}) \otimes_{K} \Omega$, one sees that $(X \otimes_{k} K)_{red}
+\otimes_{K} \Omega$ is reduced, and consequently `(4.6.1)`, $(X_{(K)})_{red}$ is geometrically reduced over $K$. By
+replacing $K$ by the quasi-Galois extension over $k$ that it generates in $\Omega$, one sees by `(I, 5.1.8)` that one
+may suppose in addition $K$ quasi-Galois over $k$, hence a separable extension of a finite radicial extension $k'$ of
+$k$ `(Bourbaki, Alg., chap. V, §10, n° 9, prop. 14)`. By virtue
 
 <!-- original page 70 -->
 
-of `(I, 5.1.8)`, `(X_{(k')})_red ⊗_{k'} K` is isomorphic to `(X_{(K)})_red`, hence is geometrically reduced; the same
-therefore holds for `(X_{(k')})_red` by virtue of `(4.6.5, (i))`.
+of `(I, 5.1.8)`, $(X_{(k')})_{red} \otimes_{k'} K$ is isomorphic to $(X_{(K)})_{red}$, hence is geometrically reduced;
+the same therefore holds for $(X_{(k')})_{red}$ by virtue of `(4.6.5, (i))`.
 
 **Corollary (4.6.7).**
 
 <!-- label: IV.4.6.7 -->
 
-*If `K` is an extension of finite type of `k`, there exists a finite radicial extension `k'` of `k` such that the
-residue fields of the semi-local ring `K ⊗_k k'` are separable over `k'`.*
+*If $K$ is an extension of finite type of $k$, there exists a finite radicial extension $k'$ of $k$ such that the
+residue fields of the semi-local ring $K \otimes_{k} k'$ are separable over $k'$.*
 
-It suffices to apply `(4.6.6)` to `X = Spec(A)`, where `A` is a `k`-algebra of finite type of which `K` is the field of
-fractions.
+It suffices to apply `(4.6.6)` to $X = \operatorname{Spec}(A)$, where $A$ is a $k$-algebra of finite type of which $K$
+is the field of fractions.
 
 **Corollary (4.6.8).**
 
 <!-- label: IV.4.6.8 -->
 
-*Let `X` be a `k`-prescheme of finite type. There exists a finite extension `k'` of `k` such that `(X_{(k')})_red` is
-geometrically reduced over `k'` and that the irreducible components of `X_{(k')}` are geometrically irreducible and the
-connected components of `X_{(k')}` geometrically connected.*
+*Let $X$ be a $k$-prescheme of finite type. There exists a finite extension $k'$ of $k$ such that $(X_{(k')})_{red}$ is
+geometrically reduced over $k'$ and that the irreducible components of $X_{(k')}$ are geometrically irreducible and the
+connected components of $X_{(k')}$ geometrically connected.*
 
 This follows at once from `(4.6.6)`, from `(4.5.10)` and `(4.5.15)`.
 
@@ -1102,269 +1162,282 @@ This follows at once from `(4.6.6)`, from `(4.5.10)` and `(4.5.15)`.
 
 <!-- label: IV.4.6.9 -->
 
-*Let `k` be a field, `X` a `k`-prescheme, `x` a point of `X`. One says that `X` is **geometrically reduced** (or
-**separable**) (resp. **geometrically pointwise integral**) at the point `x` over `k`, if, for every extension `k'` of
-`k` and every point `x'` of `X' = X ⊗_k k'` above `x`, `X'` is reduced (resp. integral) at `x'` (i.e., `𝒪_{X', x'}` is
-reduced (resp. integral)). One says that `X` is **geometrically pointwise integral** if `X` is geometrically pointwise
-integral at all its points, in other words if, for every extension `k'` of `k`, all the local rings of `X ⊗_k k'` are
-integral (in which case one also says that `X ⊗_k k'` is **pointwise integral**).*
+*Let $k$ be a field, $X$ a $k$-prescheme, $x$ a point of $X$. One says that $X$ is **geometrically reduced** (or
+**separable**) (resp. **geometrically pointwise integral**) at the point $x$ over $k$, if, for every extension $k'$ of
+$k$ and every point $x'$ of $X' = X \otimes_{k} k'$ above $x$, $X'$ is reduced (resp. integral) at $x'$ (i.e.,
+$\mathcal{O}_{X', x'}$ is reduced (resp. integral)). One says that $X$ is **geometrically pointwise integral** if $X$ is
+geometrically pointwise integral at all its points, in other words if, for every extension $k'$ of $k$, all the local
+rings of $X \otimes_{k} k'$ are integral (in which case one also says that $X \otimes_{k} k'$ is **pointwise
+integral**).*
 
-Note that, for `X` to be geometrically reduced over `k` `(4.6.2)`, it is necessary and sufficient that it be
-geometrically reduced over `k` at every point `x ∈ X`.
+Note that, for $X$ to be geometrically reduced over $k$ `(4.6.2)`, it is necessary and sufficient that it be
+geometrically reduced over $k$ at every point $x \in X$.
 
 **Proposition (4.6.10).**
 
 <!-- label: IV.4.6.10 -->
 
-*Let `k` be a field, `X` a `k`-prescheme, `k'` an extension of `k`, `x'` a point of `X' = X ⊗_k k'`, `x` its image in
-`X`. For `X` to be geometrically reduced (resp. geometrically pointwise integral) at `x` over `k`, it is necessary and
-sufficient that `X'` be so at `x'` over `k'`. In particular, for `X` to be geometrically pointwise integral over `k`, it
-is necessary and sufficient that `X'` be geometrically pointwise integral over `k'`.*
+*Let $k$ be a field, $X$ a $k$-prescheme, $k'$ an extension of $k$, $x'$ a point of $X' = X \otimes_{k} k'$, $x$ its
+image in $X$. For $X$ to be geometrically reduced (resp. geometrically pointwise integral) at $x$ over $k$, it is
+necessary and sufficient that $X'$ be so at $x'$ over $k'$. In particular, for $X$ to be geometrically pointwise
+integral over $k$, it is necessary and sufficient that $X'$ be geometrically pointwise integral over $k'$.*
 
 It suffices to prove the first assertion. The condition being evidently necessary, let us prove that it is sufficient.
-Suppose therefore `X'` geometrically reduced (resp. geometrically pointwise integral) at the point `x'` over `k'` and
-let us prove that `X` is so at the point `x` over `k`, in other words that for every extension `k''` of `k` and every
-point `x''` of `X'' = X ⊗_k k''` above `x`, `𝒪_{X'', x''}` is reduced (resp. integral). For this, note that there exists
-a point `z` of `X' ×_X X''` which projects to `x'` and `x''` `(I, 3.4.7)`. Let `s` be the point of `Spec(k' ⊗_k k'')`
-image of `z` `(I, 3.4.9)`; put `K = k(s)`, `Z = X ⊗_k K`, so that `K` may be considered as a composite extension of `k'`
-and `k''`, and `z` as a point of `Z` whose image in `X'` (resp. `X''`) is `x'` (resp. `x''`). Since `X'` is
-geometrically reduced (resp. geometrically pointwise integral) at the point `x'` over `k'`, the ring `𝒪_{Z, z}` is
-reduced (resp. integral), and since `𝒪_{Z, z}` is a faithfully flat `𝒪_{X'', x''}`-module, it follows that
-`𝒪_{X'', x''}` is reduced (resp. integral) `(0_I, 6.5.1)`.
+Suppose therefore $X'$ geometrically reduced (resp. geometrically pointwise integral) at the point $x'$ over $k'$ and
+let us prove that $X$ is so at the point $x$ over $k$, in other words that for every extension `k''` of $k$ and every
+point `x''` of $X'' = X \otimes_{k} k''$ above $x$, $\mathcal{O}_{X'', x''}$ is reduced (resp. integral). For this, note
+that there exists a point $z$ of $X' \times_{X} X''$ which projects to $x'$ and `x''` `(I, 3.4.7)`. Let $s$ be the point
+of $\operatorname{Spec}(k' \otimes_{k} k'')$ image of $z$ `(I, 3.4.9)`; put $K = k(s)$, $Z = X \otimes_{k} K$, so that
+$K$ may be considered as a composite extension of $k'$ and `k''`, and $z$ as a point of $Z$ whose image in $X'$ (resp.
+`X''`) is $x'$ (resp. `x''`). Since $X'$ is geometrically reduced (resp. geometrically pointwise integral) at the point
+$x'$ over $k'$, the ring $\mathcal{O}_{Z, z}$ is reduced (resp. integral), and since $\mathcal{O}_{Z, z}$ is a
+faithfully flat $\mathcal{O}_{X'', x''}$-module, it follows that $\mathcal{O}_{X'', x''}$ is reduced (resp. integral)
+$(0_{I}, 6.5.1)$.
 
 **Corollary (4.6.11).**
 
 <!-- label: IV.4.6.11 -->
 
-*Suppose `k` perfect (resp. algebraically closed). For `X` to be geometrically reduced (resp. geometrically pointwise
-integral) at the point `x` over `k`, it is necessary and sufficient that `𝒪_{X, x}` be reduced (resp. integral).*
+*Suppose $k$ perfect (resp. algebraically closed). For $X$ to be geometrically reduced (resp. geometrically pointwise
+integral) at the point $x$ over $k$, it is necessary and sufficient that $\mathcal{O}_{X, x}$ be reduced (resp.
+integral).*
 
-This is evidently necessary. Conversely, if this condition is satisfied, then, for every extension `k'` of `k`,
-`Spec(𝒪_{X, x}) ⊗_k k'` is reduced `(4.6.4)` (resp. integral `(4.4.4)`);
+This is evidently necessary. Conversely, if this condition is satisfied, then, for every extension $k'$ of $k$,
+$\operatorname{Spec}(\mathcal{O}_{X, x}) \otimes_{k} k'$ is reduced `(4.6.4)` (resp. integral `(4.4.4)`);
 
 <!-- original page 71 -->
 
-hence, for every point `x'` of `X' = X ⊗_k k'` above `x`, `𝒪_{X', x'}`, which is isomorphic to a local ring of
-`Spec(𝒪_{X, x}) ⊗_k k'`, is reduced (resp. integral).
+hence, for every point $x'$ of $X' = X \otimes_{k} k'$ above $x$, $\mathcal{O}_{X', x'}$, which is isomorphic to a local
+ring of $\operatorname{Spec}(\mathcal{O}_{X, x}) \otimes_{k} k'$, is reduced (resp. integral).
 
 **Proposition (4.6.12).**
 
 <!-- label: IV.4.6.12 -->
 
-*Let `k` be a field, `X` a `k`-prescheme, `x` a point of `X`, `Ω` a perfect extension of `k`. The following conditions
-are equivalent:*
+*Let $k$ be a field, $X$ a $k$-prescheme, $x$ a point of $X$, $\Omega$ a perfect extension of $k$. The following
+conditions are equivalent:*
 
-*a) `X` is geometrically reduced over `k` at the point `x`, in other words, for every extension `k'` of `k` and every
-point `x'` of `X' = X ⊗_k k'` above `x`, `𝒪_{X', x'}` is reduced.*
+*a) $X$ is geometrically reduced over $k$ at the point $x$, in other words, for every extension $k'$ of $k$ and every
+point $x'$ of $X' = X \otimes_{k} k'$ above $x$, $\mathcal{O}_{X', x'}$ is reduced.*
 
-*b) The prescheme `X ⊗_k Ω` is reduced at a point above `x`.*
+*b) The prescheme $X \otimes_{k} \Omega$ is reduced at a point above $x$.*
 
-*c) For every finite radicial extension `k'` of `k`, `X' = X ⊗_k k'` is reduced at the unique point above `x`.*
+*c) For every finite radicial extension $k'$ of $k$, $X' = X \otimes_{k} k'$ is reduced at the unique point above $x$.*
 
-*d) `Spec(𝒪_{X, x})` is geometrically reduced over `k`.*
+*d) $\operatorname{Spec}(\mathcal{O}_{X, x})$ is geometrically reduced over $k$.*
 
-*e) `𝒪_{X, x}` is reduced, and for every irreducible component `Z` of `X` containing `x`, of generic point `ξ`, `k(ξ)`
-is a separable extension of `k`.*
+*e) $\mathcal{O}_{X, x}$ is reduced, and for every irreducible component $Z$ of $X$ containing $x$, of generic point
+$\xi$, $k(\xi)$ is a separable extension of $k$.*
 
 The implications d) ⇒ a) ⇒ b) ⇒ c) are immediate, taking into account for the last `(4.6.10)`, `(4.6.11)` and the fact
-that every radicial extension of `k` is isomorphic to a sub-extension of `Ω`. Let us prove that c) implies d). It
-suffices to show that for every finite radicial extension `k'` of `k`, `𝒪_{X, x} ⊗_k k'` is reduced `(4.6.1)`; now this
-ring is the local ring of `X' = X ⊗_k k'` at the unique point `x'` of `X'` above `x` `(I, 3.5.8 and 3.5.7)`; it is
-therefore reduced by virtue of hypothesis c). Finally, the equivalence of d) and e) follows from the equivalence of b)
-and e) in `(4.6.1)`, since the irreducible components of `X` containing `x` correspond bijectively with the irreducible
-components of `Spec(𝒪_{X, x})` `(I, 2.4.2)`.
+that every radicial extension of $k$ is isomorphic to a sub-extension of $\Omega$. Let us prove that c) implies d). It
+suffices to show that for every finite radicial extension $k'$ of $k$, $\mathcal{O}_{X, x} \otimes_{k} k'$ is reduced
+`(4.6.1)`; now this ring is the local ring of $X' = X \otimes_{k} k'$ at the unique point $x'$ of $X'$ above $x$
+`(I, 3.5.8 and 3.5.7)`; it is therefore reduced by virtue of hypothesis c). Finally, the equivalence of d) and e)
+follows from the equivalence of b) and e) in `(4.6.1)`, since the irreducible components of $X$ containing $x$
+correspond bijectively with the irreducible components of $\operatorname{Spec}(\mathcal{O}_{X, x})$ `(I, 2.4.2)`.
 
 **Corollary (4.6.13).**
 
 <!-- label: IV.4.6.13 -->
 
-*Under the hypotheses of `(4.6.12)`, suppose in addition that `X` is locally Noetherian. Then the conditions a) to e) of
+*Under the hypotheses of `(4.6.12)`, suppose in addition that $X$ is locally Noetherian. Then the conditions a) to e) of
 `(4.6.12)` are also equivalent to the following:*
 
-*f) There exists an open neighbourhood `U` of `x` which is geometrically reduced over `k`.*
+*f) There exists an open neighbourhood $U$ of $x$ which is geometrically reduced over $k$.*
 
-Indeed, this condition trivially implies that `X` is geometrically reduced at the point `x` over `k`. Conversely, if so,
-since the ring `𝒪_{X, x}` is reduced, there exists an open neighbourhood `U` of `x` in `X` which is reduced
-`(I, 6.1.13)`; taking `U` sufficiently small, one may in addition suppose that `U` does not meet any of the irreducible
-components of `X` not containing `x`. Then the criterion `(4.6.12, e)` proves that `U` is geometrically reduced over
-`k`, taking into account the criterion `(4.6.1, e)`.
+Indeed, this condition trivially implies that $X$ is geometrically reduced at the point $x$ over $k$. Conversely, if so,
+since the ring $\mathcal{O}_{X, x}$ is reduced, there exists an open neighbourhood $U$ of $x$ in $X$ which is reduced
+`(I, 6.1.13)`; taking $U$ sufficiently small, one may in addition suppose that $U$ does not meet any of the irreducible
+components of $X$ not containing $x$. Then the criterion `(4.6.12, e)` proves that $U$ is geometrically reduced over
+$k$, taking into account the criterion `(4.6.1, e)`.
 
-It follows from `(4.6.13)` that when `X` is locally Noetherian, the set of `x ∈ X` where `X` is geometrically reduced
-over `k` is open, and it is the largest open set of `X` which is geometrically reduced over `k`.
+It follows from `(4.6.13)` that when $X$ is locally Noetherian, the set of $x \in X$ where $X$ is geometrically reduced
+over $k$ is open, and it is the largest open set of $X$ which is geometrically reduced over $k$.
 
 **(4.6.14)**
 
 <!-- label: IV.4.6.14 -->
 
-It follows from `(4.6.10)` and `(4.6.11)` that if `Ω` is an algebraically closed extension of `k`, it is equivalent to
-say that `X` is geometrically pointwise integral at the point `x`, or that `X ⊗_k Ω` is integral at a point above `x`.
+It follows from `(4.6.10)` and `(4.6.11)` that if $\Omega$ is an algebraically closed extension of $k$, it is equivalent
+to say that $X$ is geometrically pointwise integral at the point $x$, or that $X \otimes_{k} \Omega$ is integral at a
+point above $x$.
 
-For `X` to be geometrically pointwise integral at the point `x`, it is necessary that `X` be integral at the point `x`,
-and that if `ξ` is the generic point of the unique irreducible component of `X` containing `x`, `k(ξ)` be a separable
-extension of `k`; this follows from `(4.6.10)`. But these conditions are not sufficient, as follows from the example
-`(4.5.12, (ii))`. A sufficient but not necessary condition is that `X` be geometrically reduced at the point `x` and
-belong to only one irreducible component of `X`, that
+For $X$ to be geometrically pointwise integral at the point $x$, it is necessary that $X$ be integral at the point $x$,
+and that if $\xi$ is the generic point of the unique irreducible component of $X$ containing $x$, $k(\xi)$ be a
+separable extension of $k$; this follows from `(4.6.10)`. But these conditions are not sufficient, as follows from the
+example `(4.5.12, (ii))`. A sufficient but not necessary condition is that $X$ be geometrically reduced at the point $x$
+and belong to only one irreducible component of $X$, that
 
 <!-- original page 72 -->
 
-one supposes in addition geometrically irreducible; if moreover `X` is locally Noetherian, there is then an open
-neighbourhood of `x` in `X` which is geometrically integral.
+one supposes in addition geometrically irreducible; if moreover $X$ is locally Noetherian, there is then an open
+neighbourhood of $x$ in $X$ which is geometrically integral.
 
 Recall that if a locally Noetherian prescheme is pointwise integral, it is locally integral `(I, 6.1.13)`. If a
-`k`-prescheme `X`, locally of finite type over `k`, is geometrically pointwise integral over `k`, it follows therefore
-from this remark that, for every extension `k'` of `k`, `X ⊗_k k'` is locally integral (one also says in this case that
-`X` is **geometrically locally integral**).
+$k$-prescheme $X$, locally of finite type over $k$, is geometrically pointwise integral over $k$, it follows therefore
+from this remark that, for every extension $k'$ of $k$, $X \otimes_{k} k'$ is locally integral (one also says in this
+case that $X$ is **geometrically locally integral**).
 
 **Proposition (4.6.15).**
 
 <!-- label: IV.4.6.15 -->
 
-*(i) Let `k` be a field, `X` a `k`-prescheme of finite type. For `X` to be geometrically pointwise integral, it is
+*(i) Let $k$ be a field, $X$ a $k$-prescheme of finite type. For $X$ to be geometrically pointwise integral, it is
 necessary and sufficient that it be geometrically reduced and that the geometric number of its irreducible components be
 equal to the geometric number of its connected components.*
 
-*(ii) Let `X` be a prescheme locally of finite type over `k`. If `X` is geometrically pointwise integral at a point `x`,
-there exists an open neighbourhood `U` of `x` which is geometrically pointwise integral. In other words, the set of
-`x ∈ X` where `X` is geometrically pointwise integral is open in `X`.*
+*(ii) Let $X$ be a prescheme locally of finite type over $k$. If $X$ is geometrically pointwise integral at a point $x$,
+there exists an open neighbourhood $U$ of $x$ which is geometrically pointwise integral. In other words, the set of $x
+\in X$ where $X$ is geometrically pointwise integral is open in $X$.*
 
-(i) Given an algebraically closed extension `Ω` of `k`, `X_{(Ω)}` is pointwise integral (or locally integral, which
-amounts to the same since `X_{(Ω)}` is Noetherian) if and only if it is reduced and if the number of its connected
-components is equal to the number of its irreducible components `(I, 6.1.10)`. It suffices then to apply `(4.5.1)`,
-`(4.6.1)` and the first remark of `(4.6.14)`.
+(i) Given an algebraically closed extension $\Omega$ of $k$, $X_{(\Omega)}$ is pointwise integral (or locally integral,
+which amounts to the same since $X_{(\Omega)}$ is Noetherian) if and only if it is reduced and if the number of its
+connected components is equal to the number of its irreducible components `(I, 6.1.10)`. It suffices then to apply
+`(4.5.1)`, `(4.6.1)` and the first remark of `(4.6.14)`.
 
-(ii) The question being local on `X`, one may restrict to the case where `X` is a prescheme of finite type over `k`. In
-addition, one knows that there is an open neighbourhood of `x` in `X` which is geometrically reduced `(4.6.13)`, hence
-one may suppose `X` geometrically reduced. There exists then a finite extension `k'` of `k` such that `X' = X ⊗_k k'` is
-reduced and that its irreducible components are geometrically irreducible `(4.6.8)`. Let `p : X' → X` be the canonical
-projection, which is a finite surjective morphism, and let `x'_j` `(1 ≤ j ≤ r)` be the points of `p⁻¹(x)`; by
-hypothesis, `X'` is integral at each of the `x'_j`, hence each `x'_j` has an open neighbourhood `V_j` in `X'` which is
-integral. Since `p` is closed `(II, 6.1.10)`, each of the `p(V_j)` is a neighbourhood of `x`, hence there exists an open
-neighbourhood `U` of `x` such that `p⁻¹(U)` is contained in the union of the `V_j` and is consequently integral at each
-of its points, hence locally integral. The irreducible components of `p⁻¹(U)` are therefore open and pairwise disjoint,
-and since they are geometrically irreducible `(4.5.9)`, `p⁻¹(U) = U ⊗_k k'` is geometrically pointwise integral by
-virtue of (i), and the same therefore holds for `U` by definition.
+(ii) The question being local on $X$, one may restrict to the case where $X$ is a prescheme of finite type over $k$. In
+addition, one knows that there is an open neighbourhood of $x$ in $X$ which is geometrically reduced `(4.6.13)`, hence
+one may suppose $X$ geometrically reduced. There exists then a finite extension $k'$ of $k$ such that $X' = X
+\otimes_{k} k'$ is reduced and that its irreducible components are geometrically irreducible `(4.6.8)`. Let $p : X' \to
+X$ be the canonical projection, which is a finite surjective morphism, and let $x'_{j}$ $(1 \leq j \leq r)$ be the
+points of $p^{-1}(x)$; by hypothesis, $X'$ is integral at each of the $x'_{j}$, hence each $x'_{j}$ has an open
+neighbourhood $V_{j}$ in $X'$ which is integral. Since $p$ is closed `(II, 6.1.10)`, each of the $p(V_{j})$ is a
+neighbourhood of $x$, hence there exists an open neighbourhood $U$ of $x$ such that $p^{-1}(U)$ is contained in the
+union of the $V_{j}$ and is consequently integral at each of its points, hence locally integral. The irreducible
+components of $p^{-1}(U)$ are therefore open and pairwise disjoint, and since they are geometrically irreducible
+`(4.5.9)`, $p^{-1}(U) = U \otimes_{k} k'$ is geometrically pointwise integral by virtue of (i), and the same therefore
+holds for $U$ by definition.
 
 **Proposition (4.6.16).**
 
 <!-- label: IV.4.6.16 -->
 
-*Let `k` be a field, `X` a locally Noetherian `k`-prescheme, `ℱ` a coherent `𝒪_X`-Module. The following conditions are
-equivalent:*
+*Let $k$ be a field, $X$ a locally Noetherian $k$-prescheme, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module. The
+following conditions are equivalent:*
 
-*a) For every extension of finite type `k'` of `k`, if one puts `X' = X ⊗_k k'`, then `ℱ' = ℱ ⊗_k k'` is a reduced
-`𝒪_{X'}`-Module `(3.2.2)`.*
+*a) For every extension of finite type $k'$ of $k$, if one puts $X' = X \otimes_{k} k'$, then $\mathcal{F}' =
+\mathcal{F} \otimes_{k} k'$ is a reduced $\mathcal{O}_{X'}$-Module `(3.2.2)`.*
 
-*b) For every finite radicial extension `k'` of `k`, `ℱ'` is a reduced `𝒪_{X'}`-Module.*
+*b) For every finite radicial extension $k'$ of $k$, $\mathcal{F}'$ is a reduced $\mathcal{O}_{X'}$-Module.*
 
-*c) `ℱ` is reduced, and if `𝒥` is the Ideal of `𝒪_X` annihilator of `ℱ`, the closed sub-prescheme defined by `𝒥` is
-geometrically reduced over `k`.*
+*c) $\mathcal{F}$ is reduced, and if $\mathcal{J}$ is the Ideal of $\mathcal{O}_{X}$ annihilator of $\mathcal{F}$, the
+closed sub-prescheme defined by $\mathcal{J}$ is geometrically reduced over $k$.*
 
 <!-- original page 73 -->
 
-*In addition, if `X` is locally of finite type over `k`, these conditions are also equivalent to the following:*
+*In addition, if $X$ is locally of finite type over $k$, these conditions are also equivalent to the following:*
 
-*d) For every extension `k'` of `k` (or for an algebraically closed extension `k'` of `k`), `ℱ'` is a reduced
-`𝒪_{X'}`-Module.*
+*d) For every extension $k'$ of $k$ (or for an algebraically closed extension $k'$ of $k$), $\mathcal{F}'$ is a reduced
+$\mathcal{O}_{X'}$-Module.*
 
-It is clear that a) implies b). Condition b) implies first that `ℱ` is reduced: this means `(3.2.3)` that if `Y` is the
-closed sub-prescheme of `X` defined by the coherent Ideal `𝒥` of `𝒪_X`, annihilator of `ℱ`, `Y` is reduced, and there is
-a coherent torsion-free `𝒪_Y`-Module `𝒢` of rank 1 on every irreducible component of `Y`, such that `j_*(𝒢) = ℱ`,
-`j : Y → X` being the canonical injection. Now, for every extension `k'` of `k`, the annihilator of `ℱ'` is
-`𝒥' = 𝒥 ⊗_k k'`, the projection morphism `X' → X` being flat `(2.1.11)`; the closed sub-prescheme of `X'` defined by
-`𝒥'` is `Y' = Y ⊗_k k'`, and if `j' : Y' → X'` is the canonical injection, and `𝒢' = 𝒢 ⊗_k k'`, one has `ℱ' = j'_*(𝒢')`.
-Note also that, for every extension `k'` of `k` such that `X'` is locally Noetherian, `ℱ'` is without embedded
-associated prime cycle `(4.2.7)`. Moreover, every maximal point `y'` of `Y'` is above a maximal point `y` of `Y`; since
-`𝒢_y` is isomorphic to `𝒪_{Y, y}`, `𝒢'_{y'}` is isomorphic to `𝒪_{Y', y'}`. One sees therefore (by `(3.2.3)`) that it
-amounts to the same to say that `ℱ'` is reduced or that the prescheme `Y'` is reduced, when `X'` is locally Noetherian.
-The fact that b) implies c) and that c) implies a) is therefore a consequence of `(4.6.1, d)` and b)); in a), the
-hypothesis that `k'` is an extension of finite type of `k` is made only to ensure that `X'` is locally Noetherian. When
-`X` is locally of finite type, `X'` is locally Noetherian for every extension `k'` of `k`, which proves in this case the
-equivalence of d) and the other conditions.
+It is clear that a) implies b). Condition b) implies first that $\mathcal{F}$ is reduced: this means `(3.2.3)` that if
+$Y$ is the closed sub-prescheme of $X$ defined by the coherent Ideal $\mathcal{J}$ of $\mathcal{O}_{X}$, annihilator of
+$\mathcal{F}$, $Y$ is reduced, and there is a coherent torsion-free $\mathcal{O}_{Y}$-Module $\mathcal{G}$ of rank 1 on
+every irreducible component of $Y$, such that $j_{*}(\mathcal{G}) = \mathcal{F}$, $j : Y \to X$ being the canonical
+injection. Now, for every extension $k'$ of $k$, the annihilator of $\mathcal{F}'$ is $\mathcal{J}' = \mathcal{J}
+\otimes_{k} k'$, the projection morphism $X' \to X$ being flat `(2.1.11)`; the closed sub-prescheme of $X'$ defined by
+$\mathcal{J}'$ is $Y' = Y \otimes_{k} k'$, and if $j' : Y' \to X'$ is the canonical injection, and $\mathcal{G}' =
+\mathcal{G} \otimes_{k} k'$, one has $\mathcal{F}' = j'_{*}(\mathcal{G}')$. Note also that, for every extension $k'$ of
+$k$ such that $X'$ is locally Noetherian, $\mathcal{F}'$ is without embedded associated prime cycle `(4.2.7)`. Moreover,
+every maximal point $y'$ of $Y'$ is above a maximal point $y$ of $Y$; since $\mathcal{G}_{y}$ is isomorphic to
+$\mathcal{O}_{Y, y}$, $\mathcal{G}'_{y'}$ is isomorphic to $\mathcal{O}_{Y', y'}$. One sees therefore (by `(3.2.3)`)
+that it amounts to the same to say that $\mathcal{F}'$ is reduced or that the prescheme $Y'$ is reduced, when $X'$ is
+locally Noetherian. The fact that b) implies c) and that c) implies a) is therefore a consequence of `(4.6.1, d)` and
+b)); in a), the hypothesis that $k'$ is an extension of finite type of $k$ is made only to ensure that $X'$ is locally
+Noetherian. When $X$ is locally of finite type, $X'$ is locally Noetherian for every extension $k'$ of $k$, which proves
+in this case the equivalence of d) and the other conditions.
 
 **Definition (4.6.17).**
 
 <!-- label: IV.4.6.17 -->
 
-*When `ℱ` satisfies the equivalent conditions of `(4.6.16)`, one says that `ℱ` is **geometrically reduced** over `k`, or
-**separable** over `k`.*
+*When $\mathcal{F}$ satisfies the equivalent conditions of `(4.6.16)`, one says that $\mathcal{F}$ is **geometrically
+reduced** over $k$, or **separable** over $k$.*
 
 **Proposition (4.6.18).**
 
 <!-- label: IV.4.6.18 -->
 
-*Let `k` be a field, `X` a locally Noetherian `k`-prescheme, `ℱ` a coherent `𝒪_X`-Module. The following conditions are
-equivalent:*
+*Let $k$ be a field, $X$ a locally Noetherian $k$-prescheme, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module. The
+following conditions are equivalent:*
 
-*a) For every extension of finite type `k'` of `k`, if one puts `X' = X ⊗_k k'`, then `ℱ' = ℱ ⊗_k k'` is an integral
-`𝒪_{X'}`-Module `(3.2.4)`.*
+*a) For every extension of finite type $k'$ of $k$, if one puts $X' = X \otimes_{k} k'$, then $\mathcal{F}' =
+\mathcal{F} \otimes_{k} k'$ is an integral $\mathcal{O}_{X'}$-Module `(3.2.4)`.*
 
-*b) For every finite extension `k'` of `k`, `ℱ'` is an integral `𝒪_{X'}`-Module.*
+*b) For every finite extension $k'$ of $k$, $\mathcal{F}'$ is an integral $\mathcal{O}_{X'}$-Module.*
 
-*c) `ℱ` is reduced (or integral), and if `𝒥` is the Ideal of `𝒪_X` annihilator of `ℱ`, the closed sub-prescheme defined
-by `𝒥` is geometrically integral.*
+*c) $\mathcal{F}$ is reduced (or integral), and if $\mathcal{J}$ is the Ideal of $\mathcal{O}_{X}$ annihilator of
+$\mathcal{F}$, the closed sub-prescheme defined by $\mathcal{J}$ is geometrically integral.*
 
-*In addition, if `X` is locally of finite type over `k`, these conditions are also equivalent to the following:*
+*In addition, if $X$ is locally of finite type over $k$, these conditions are also equivalent to the following:*
 
-*d) For every extension `k'` of `k` (or for an algebraically closed extension `k'` of `k`), `ℱ'` is an integral
-`𝒪_{X'}`-Module.*
+*d) For every extension $k'$ of $k$ (or for an algebraically closed extension $k'$ of $k$), $\mathcal{F}'$ is an
+integral $\mathcal{O}_{X'}$-Module.*
 
-The conditions a), b) and c) imply that `ℱ` is integral, hence `Ass(ℱ)` reduced to a single point `x`, which is the
-generic point of `Supp(ℱ)`. For every extension `k'` of `k` for which `X'` is locally Noetherian, the associated prime
-cycles of `ℱ'` are therefore non-embedded, and are the maximal points of `Supp(ℱ')`, which are all above `x`. On the
-other hand, by virtue of `(4.6.16)`, each of the conditions a), b), c) implies that `ℱ` is geometrically reduced; it is
-trivial that a) implies b), and b) implies that `Supp(ℱ)` is geometrically irreducible `(4.5.9)`, hence c), since the
-sub-prescheme `Y` defined
+The conditions a), b) and c) imply that $\mathcal{F}$ is integral, hence $Ass(\mathcal{F})$ reduced to a single point
+$x$, which is the generic point of $Supp(\mathcal{F})$. For every extension $k'$ of $k$ for which $X'$ is locally
+Noetherian, the associated prime cycles of $\mathcal{F}'$ are therefore non-embedded, and are the maximal points of
+$Supp(\mathcal{F}')$, which are all above $x$. On the other hand, by virtue of `(4.6.16)`, each of the conditions a),
+b), c) implies that $\mathcal{F}$ is geometrically reduced; it is trivial that a) implies b), and b) implies that
+$Supp(\mathcal{F})$ is geometrically irreducible `(4.5.9)`, hence c), since the sub-prescheme $Y$ defined
 
 <!-- original page 74 -->
 
-by `𝒥` is then geometrically reduced and geometrically irreducible, hence geometrically integral. Conversely, if `Y` is
-geometrically integral, for every extension `k'` of `k`, `Supp(ℱ')` is irreducible, hence, if `X'` is locally
-Noetherian, `ℱ'` is integral; this shows that c) implies a), and that c) implies d) when `X` is locally of finite type
-over `k`.
+by $\mathcal{J}$ is then geometrically reduced and geometrically irreducible, hence geometrically integral. Conversely,
+if $Y$ is geometrically integral, for every extension $k'$ of $k$, $Supp(\mathcal{F}')$ is irreducible, hence, if $X'$
+is locally Noetherian, $\mathcal{F}'$ is integral; this shows that c) implies a), and that c) implies d) when $X$ is
+locally of finite type over $k$.
 
 **Definition (4.6.19).**
 
 <!-- label: IV.4.6.19 -->
 
-*When `ℱ` satisfies the equivalent conditions of `(4.6.18)`, one says that `ℱ` is **geometrically integral** over `k`.*
+*When $\mathcal{F}$ satisfies the equivalent conditions of `(4.6.18)`, one says that $\mathcal{F}$ is **geometrically
+integral** over $k$.*
 
 **Proposition (4.6.20).**
 
 <!-- label: IV.4.6.20 -->
 
-*Let `k` be a field, `X` a locally Noetherian `k`-prescheme, `ℱ` a coherent `𝒪_X`-Module. Let `K` be an extension of `k`
-such that `X ⊗_k K` is locally Noetherian. Then, if `ℱ` is geometrically reduced (resp. geometrically integral) over
-`k`, `ℱ ⊗_k K` is geometrically reduced (resp. geometrically integral) over `K`.*
+*Let $k$ be a field, $X$ a locally Noetherian $k$-prescheme, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module. Let $K$
+be an extension of $k$ such that $X \otimes_{k} K$ is locally Noetherian. Then, if $\mathcal{F}$ is geometrically
+reduced (resp. geometrically integral) over $k$, $\mathcal{F} \otimes_{k} K$ is geometrically reduced (resp.
+geometrically integral) over $K$.*
 
-Indeed, for every finite extension `K'` of `K`, `(X ⊗_k K) ⊗_K K' = X ⊗_k K'` is locally Noetherian, and one has seen in
-the proofs of `(4.6.16)` and `(4.6.18)` that the hypothesis on `ℱ` implies that `ℱ ⊗_k K'` is reduced (resp. integral),
-whence the conclusion.
+Indeed, for every finite extension $K'$ of $K$, $(X \otimes_{k} K) \otimes_{K} K' = X \otimes_{k} K'$ is locally
+Noetherian, and one has seen in the proofs of `(4.6.16)` and `(4.6.18)` that the hypothesis on $\mathcal{F}$ implies
+that $\mathcal{F} \otimes_{k} K'$ is reduced (resp. integral), whence the conclusion.
 
 **Proposition (4.6.21).**
 
 <!-- label: IV.4.6.21 -->
 
-*Let `k` be a field, `X`, `Y` two locally Noetherian `k`-preschemes such that `X ×_k Y` is locally Noetherian. Let `ℱ`
-be a coherent `𝒪_X`-Module, `𝒢` a coherent `𝒪_Y`-Module.*
+*Let $k$ be a field, $X$, $Y$ two locally Noetherian $k$-preschemes such that $X \times_{k} Y$ is locally Noetherian.
+Let $\mathcal{F}$ be a coherent $\mathcal{O}_{X}$-Module, $\mathcal{G}$ a coherent $\mathcal{O}_{Y}$-Module.*
 
-*(i) If `ℱ` is geometrically reduced (resp. geometrically integral) and `𝒢` reduced (resp. integral), then `ℱ ⊗_k 𝒢` is
-reduced (resp. integral).*
+*(i) If $\mathcal{F}$ is geometrically reduced (resp. geometrically integral) and $\mathcal{G}$ reduced (resp.
+integral), then $\mathcal{F} \otimes_{k} \mathcal{G}$ is reduced (resp. integral).*
 
-*(ii) If `ℱ` and `𝒢` are geometrically reduced (resp. geometrically integral), the same holds for `ℱ ⊗_k 𝒢`.*
+*(ii) If $\mathcal{F}$ and $\mathcal{G}$ are geometrically reduced (resp. geometrically integral), the same holds for
+$\mathcal{F} \otimes_{k} \mathcal{G}$.*
 
-(i) Using `(3.2.3)`, `(4.6.16)` and `(4.6.18)`, one may restrict to the case where `Supp(ℱ) = X`, `Supp(𝒢) = Y`, `X`
-being geometrically reduced (resp. geometrically integral), `Y` reduced (resp. integral), `ℱ` and `𝒢` without embedded
-associated prime cycles, and `ℱ_x` being isomorphic to `𝒪_x` at every maximal point `x` of `X`, `𝒢_y` isomorphic to
-`𝒪_y` at every maximal point `y` of `Y`. One knows then `(4.2.3)` that `ℱ ⊗_k 𝒢` is without embedded associated prime
-cycle, and that the associated prime cycles of `ℱ ⊗_k 𝒢` are exactly the irreducible components of `X ×_k Y` `(4.2.5)`.
-One may therefore restrict to the case where `X` and `Y` are irreducible; then, if `X` is geometrically reduced and `Y`
-reduced, one knows `(4.2.4, (ii))` that `X ×_k Y` is reduced; if `X` is geometrically integral and `Y` integral, one
-knows that `X ×_k Y` is in addition irreducible `(4.5.8, (i))`, hence integral. Finally, every maximal point `z` of
-`X ×_k Y` is above `x` and `y`, hence the hypotheses on `ℱ` and `𝒢` imply, by virtue of `(I, 9.1.12)`, that
-`(ℱ ⊗_k 𝒢)_z` is isomorphic to `𝒪_z`, which finishes the proof in this case.
+(i) Using `(3.2.3)`, `(4.6.16)` and `(4.6.18)`, one may restrict to the case where $Supp(\mathcal{F}) = X$,
+$Supp(\mathcal{G}) = Y$, $X$ being geometrically reduced (resp. geometrically integral), $Y$ reduced (resp. integral),
+$\mathcal{F}$ and $\mathcal{G}$ without embedded associated prime cycles, and $\mathcal{F}_{x}$ being isomorphic to
+$\mathcal{O}_{x}$ at every maximal point $x$ of $X$, $\mathcal{G}_{y}$ isomorphic to $\mathcal{O}_{y}$ at every maximal
+point $y$ of $Y$. One knows then `(4.2.3)` that $\mathcal{F} \otimes_{k} \mathcal{G}$ is without embedded associated
+prime cycle, and that the associated prime cycles of $\mathcal{F} \otimes_{k} \mathcal{G}$ are exactly the irreducible
+components of $X \times_{k} Y$ `(4.2.5)`. One may therefore restrict to the case where $X$ and $Y$ are irreducible;
+then, if $X$ is geometrically reduced and $Y$ reduced, one knows `(4.2.4, (ii))` that $X \times_{k} Y$ is reduced; if
+$X$ is geometrically integral and $Y$ integral, one knows that $X \times_{k} Y$ is in addition irreducible
+`(4.5.8, (i))`, hence integral. Finally, every maximal point $z$ of $X \times_{k} Y$ is above $x$ and $y$, hence the
+hypotheses on $\mathcal{F}$ and $\mathcal{G}$ imply, by virtue of `(I, 9.1.12)`, that $(\mathcal{F} \otimes_{k}
+\mathcal{G})_{z}$ is isomorphic to $\mathcal{O}_{z}$, which finishes the proof in this case.
 
-(ii) The reasoning is analogous, but here (after reduction to the case where `X = Supp(ℱ)`, `Y = Supp(𝒢)`), `X ×_k Y` is
-geometrically reduced (resp. geometrically integral) by virtue of `(4.6.5, (ii))`.
+(ii) The reasoning is analogous, but here (after reduction to the case where $X = Supp(\mathcal{F})$, $Y =
+Supp(\mathcal{G})$), $X \times_{k} Y$ is geometrically reduced (resp. geometrically integral) by virtue of
+`(4.6.5, (ii))`.
 
 The definitions `(4.6.18)` and `(4.6.19)` localize:
 
@@ -1372,20 +1445,21 @@ The definitions `(4.6.18)` and `(4.6.19)` localize:
 
 <!-- label: IV.4.6.22 -->
 
-*Let `k` be a field, `X` a locally Noetherian `k`-prescheme, `ℱ` a coherent `𝒪_X`-Module. One says that `ℱ` is
-**geometrically reduced** or **separable** (resp. **geometrically pointwise integral**) at a point `x ∈ X` if, for every
-finite radicial (resp. finite) extension `k'` of `k`, `ℱ ⊗_k k'` is reduced (resp. integral) at each of the points `x'`
-of `X ⊗_k k'` above `x` (cf. `(3.2.2)` and `(3.2.4)`).*
+*Let $k$ be a field, $X$ a locally Noetherian $k$-prescheme, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module. One says
+that $\mathcal{F}$ is **geometrically reduced** or **separable** (resp. **geometrically pointwise integral**) at a point
+$x \in X$ if, for every finite radicial (resp. finite) extension $k'$ of $k$, $\mathcal{F} \otimes_{k} k'$ is reduced
+(resp. integral) at each of the points $x'$ of $X \otimes_{k} k'$ above $x$ (cf. `(3.2.2)` and `(3.2.4)`).*
 
 <!-- original page 75 -->
 
-If `ℱ` is reduced at `x`, there is an open neighbourhood `U` of `x` such that `ℱ | U` is reduced `(3.2.2)`. Reasoning as
-in `(4.6.16)`, one sees that to say that `ℱ` is geometrically reduced at the point `x` is equivalent to saying that `ℱ`
-is reduced at the point `x` and that the closed sub-prescheme `Y` defined by the annihilator `𝒥` of `ℱ` is geometrically
-reduced at the point `x`; it follows from this that there is an open neighbourhood `U` of `x` such that `ℱ | U` is
-geometrically reduced `(4.6.11)`. The reasonings of `(4.6.16)` and `(4.6.18)` also show that if `X` is locally of finite
-type over `k`, to say that `ℱ` is geometrically pointwise integral at the point `x` is equivalent to saying that `ℱ` is
-reduced at the point `x` and that the sub-prescheme `Y` is geometrically pointwise integral at the point `x`.
+If $\mathcal{F}$ is reduced at $x$, there is an open neighbourhood $U$ of $x$ such that $\mathcal{F} | U$ is reduced
+`(3.2.2)`. Reasoning as in `(4.6.16)`, one sees that to say that $\mathcal{F}$ is geometrically reduced at the point $x$
+is equivalent to saying that $\mathcal{F}$ is reduced at the point $x$ and that the closed sub-prescheme $Y$ defined by
+the annihilator $\mathcal{J}$ of $\mathcal{F}$ is geometrically reduced at the point $x$; it follows from this that
+there is an open neighbourhood $U$ of $x$ such that $\mathcal{F} | U$ is geometrically reduced `(4.6.11)`. The
+reasonings of `(4.6.16)` and `(4.6.18)` also show that if $X$ is locally of finite type over $k$, to say that
+$\mathcal{F}$ is geometrically pointwise integral at the point $x$ is equivalent to saying that $\mathcal{F}$ is reduced
+at the point $x$ and that the sub-prescheme $Y$ is geometrically pointwise integral at the point $x$.
 
 ### 4.7. Multiplicities in primary decomposition on an algebraic prescheme
 
@@ -1393,9 +1467,9 @@ reduced at the point `x` and that the sub-prescheme `Y` is geometrically pointwi
 
 <!-- label: IV.4.7.1 -->
 
-*Let `A`, `B` be two local rings, `𝔪` the maximal ideal of `A`, `ρ : A → B` a local homomorphism. Suppose that `B` is a
-flat `A`-module, and `B/𝔪B` a `k`-module of finite length. Then, for an `A`-module `M` to be of finite length, it is
-necessary and sufficient that `M_{(B)}` be a `B`-module of finite length, and one has*
+*Let $A$, $B$ be two local rings, $\mathfrak{m}$ the maximal ideal of $A$, $\rho : A \to B$ a local homomorphism.
+Suppose that $B$ is a flat $A$-module, and $B/\mathfrak{m}B$ a $k$-module of finite length. Then, for an $A$-module $M$
+to be of finite length, it is necessary and sufficient that $M_{(B)}$ be a $B$-module of finite length, and one has*
 
 ```text
   long_B(M_{(B)}) = long_A(M) · long_B(B/𝔪B).                       (4.7.1.1)
@@ -1407,127 +1481,141 @@ This is a special case of `(2.5.5.2)`.
 
 <!-- label: IV.4.7.2 -->
 
-*Let `A`, `B` be two Noetherian rings, `ρ : A → B` a ring homomorphism such that `B` is a flat `A`-module. Let `𝔮` be a
-minimal prime ideal of `B`, `𝔭 = ρ⁻¹(𝔮)`, `M` an `A`-module of finite type; then `𝔭` is a minimal prime ideal of `A`,
-`M_𝔭` is an `A_𝔭`-module of finite length and one has*
+*Let $A$, $B$ be two Noetherian rings, $\rho : A \to B$ a ring homomorphism such that $B$ is a flat $A$-module. Let
+$\mathfrak{q}$ be a minimal prime ideal of $B$, $\mathfrak{p} = \rho^{-1}(\mathfrak{q})$, $M$ an $A$-module of finite
+type; then $\mathfrak{p}$ is a minimal prime ideal of $A$, $M_{\mathfrak{p}}$ is an $A_{\mathfrak{p}}$-module of finite
+length and one has*
 
 ```text
   long_{B_𝔮}(M_{(B)})_𝔮 = (long_{A_𝔭}(M_𝔭))(long_{B_𝔮}(B_𝔮/𝔭B_𝔮)).   (4.7.2.1)
 ```
 
-Indeed, `B_𝔮` is a flat `A_𝔭`-module `(0_I, 6.3.2)` and the homomorphism `A_𝔭 → B_𝔮` is local, hence `B_𝔮` is a
-faithfully flat `A_𝔭`-module `(0_I, 6.6.2)`; the fact that `𝔭` is minimal in `A` follows from `(2.3.5)`. In addition,
-`A_𝔭` is then an Artinian ring `(Bourbaki, Alg. comm., chap. IV, §2, n° 5, prop. 9)` and `M_𝔭` is therefore an
-`A_𝔭`-module of finite length; the formula `(4.7.2.1)` is then a special case of `(4.7.1.1)`.
+Indeed, $B_{\mathfrak{q}}$ is a flat $A_{\mathfrak{p}}$-module $(0_{I}, 6.3.2)$ and the homomorphism $A_{\mathfrak{p}}
+\to B_{\mathfrak{q}}$ is local, hence $B_{\mathfrak{q}}$ is a faithfully flat $A_{\mathfrak{p}}$-module $(0_{I},
+6.6.2)$; the fact that $\mathfrak{p}$ is minimal in $A$ follows from `(2.3.5)`. In addition, $A_{\mathfrak{p}}$ is then
+an Artinian ring `(Bourbaki, Alg. comm., chap. IV, §2, n° 5, prop. 9)` and $M_{\mathfrak{p}}$ is therefore an
+$A_{\mathfrak{p}}$-module of finite length; the formula `(4.7.2.1)` is then a special case of `(4.7.1.1)`.
 
 **Proposition (4.7.3).**
 
 <!-- label: IV.4.7.3 -->
 
-*Let `k` be a field of characteristic exponent `p`, `X` an integral locally Noetherian prescheme, `K = R(X)` the field
-of rational functions on `X`. Let `k'` be an extension of `k`, `(X'_α)` the family of irreducible components of
-`X' = X_{(k')}`, `x'_α` the generic point of `X'_α`.*
+*Let $k$ be a field of characteristic exponent $p$, $X$ an integral locally Noetherian prescheme, $K = R(X)$ the field
+of rational functions on $X$. Let $k'$ be an extension of $k$, $(X'_{\alpha})$ the family of irreducible components of
+$X' = X_{(k')}$, $x'_{\alpha}$ the generic point of $X'_{\alpha}$.*
 
-*(i) Suppose that `X'` is locally Noetherian (which is the case if `X` is locally of finite type over `k`, or if `k'` is
-an extension of finite type of `k`). Let then `k''` be any extension of `k'`, `X'' = X ⊗_k k''`, `(X''_α')` the family
-of irreducible components of `X''`, `x''_α'` the generic point of `X''_α'`. If `X''_α'` is above `x'_α`, one has*
+*(i) Suppose that $X'$ is locally Noetherian (which is the case if $X$ is locally of finite type over $k$, or if $k'$ is
+an extension of finite type of $k$). Let then `k''` be any extension of $k'$, $X'' = X \otimes_{k} k''$,
+$(X''_{\alpha}')$ the family of irreducible components of `X''`, $x''_{\alpha}'$ the generic point of $X''_{\alpha}'$.
+If $X''_{\alpha}'$ is above $x'_{\alpha}$, one has*
 
 ```text
   long(𝒪_{x''_α'}) = long(𝒪_{x'_α}) · long(𝒪_{Z'', z''})            (4.7.3.1)
 ```
 
-*where one has set `Z'' = Spec(k(x'_α)) ⊗_{k'} k''`. In particular, if `k''` is a separable extension of `k'` such that
-`X''` is locally Noetherian, one has `long(𝒪_{x''_α'}) = long(𝒪_{x'_α})`.*
+*where one has set $Z'' = \operatorname{Spec}(k(x'_{\alpha})) \otimes_{k'} k''$. In particular, if `k''` is a separable
+extension of $k'$ such that `X''` is locally Noetherian, one has $long(\mathcal{O}_{x''_{\alpha}'}) =
+long(\mathcal{O}_{x'_{\alpha}})$.*
 
 <!-- original page 76 -->
 
-*(ii) If `X` is locally of finite type over `k`, or if `k'` is an extension of finite type of `k`, the numbers
-`long(𝒪_{x'_α})` are powers of `p`.*
+*(ii) If $X$ is locally of finite type over $k$, or if $k'$ is an extension of finite type of $k$, the numbers
+$long(\mathcal{O}_{x'_{\alpha}})$ are powers of $p$.*
 
-*(iii) Suppose that `X` is locally of finite type over `k`. Then, if `k'` is perfect, all the numbers `long(𝒪_{x'_α})`
-are equal and depend only on the extension `K` of `k` (and not on the particular perfect extension `k'` of `k`
-considered). In addition, there exists a finite radicial extension `k_1` of `k` such that, if `x_1` is the generic point
-of `X_1 = X ⊗_k k_1` (which is irreducible), one has `long(𝒪_{x'_α}) = long(𝒪_{x_1})` for every `α`.*
+*(iii) Suppose that $X$ is locally of finite type over $k$. Then, if $k'$ is perfect, all the numbers
+$long(\mathcal{O}_{x'_{\alpha}})$ are equal and depend only on the extension $K$ of $k$ (and not on the particular
+perfect extension $k'$ of $k$ considered). In addition, there exists a finite radicial extension $k_{1}$ of $k$ such
+that, if $x_{1}$ is the generic point of $X_{1} = X \otimes_{k} k_{1}$ (which is irreducible), one has
+$long(\mathcal{O}_{x'_{\alpha}}) = long(\mathcal{O}_{x_{1}})$ for every $\alpha$.*
 
-(i) Recall `(4.2.4)` that the irreducible components `X'_α`, which are finite in number, correspond bijectively with the
-minimal prime ideals `𝔭_α` of `K ⊗_k k'`, and that `𝒪_{x'_α}` is an Artinian ring, isomorphic to `(K ⊗_k k')_{𝔭_α}`;
-these rings therefore depend only on the extensions `K` and `k'` of `k` (and are consequently the same (`k'` being
-fixed) for all integral `k`-preschemes having the same field `K` of rational functions). Formula `(4.7.3.1)` follows
-from `(4.7.2.1)` applied to the Noetherian ring `A` of an affine neighbourhood of `x'_α` in `X'`, and to the ring `B` of
-a sufficiently small affine neighbourhood of `x''_α'` in `X''`, `𝔭` and `𝔮` being the minimal prime ideals corresponding
-to `x'_α` and `x''_α'` respectively, and taking `M = A`: one notes that `A/𝔭` is the ring of an affine neighbourhood of
-`x'_α` in `X'_α`, and that `B = A ⊗_{k'} k''`; if `𝔮' = 𝔮/𝔭B`, minimal prime ideal of `B/𝔭B`, one has
-`𝒪_{Z'', z''} = (B/𝔭B)_{𝔮'} = B_𝔮/𝔭B_𝔮`, whence `(4.7.3.1)`. The last assertion of (i) follows from the fact that in
-this case `Z''` is reduced `(4.2.4)`, hence `𝔭B_𝔮 = 𝔮B_𝔮`.
+(i) Recall `(4.2.4)` that the irreducible components $X'_{\alpha}$, which are finite in number, correspond bijectively
+with the minimal prime ideals $\mathfrak{p}_{\alpha}$ of $K \otimes_{k} k'$, and that $\mathcal{O}_{x'_{\alpha}}$ is an
+Artinian ring, isomorphic to $(K \otimes_{k} k')_{\mathfrak{p}_{\alpha}}$; these rings therefore depend only on the
+extensions $K$ and $k'$ of $k$ (and are consequently the same ($k'$ being fixed) for all integral $k$-preschemes having
+the same field $K$ of rational functions). Formula `(4.7.3.1)` follows from `(4.7.2.1)` applied to the Noetherian ring
+$A$ of an affine neighbourhood of $x'_{\alpha}$ in $X'$, and to the ring $B$ of a sufficiently small affine
+neighbourhood of $x''_{\alpha}'$ in `X''`, $\mathfrak{p}$ and $\mathfrak{q}$ being the minimal prime ideals
+corresponding to $x'_{\alpha}$ and $x''_{\alpha}'$ respectively, and taking $M = A$: one notes that $A/\mathfrak{p}$ is
+the ring of an affine neighbourhood of $x'_{\alpha}$ in $X'_{\alpha}$, and that $B = A \otimes_{k'} k''$; if
+$\mathfrak{q}' = \mathfrak{q}/\mathfrak{p}B$, minimal prime ideal of $B/\mathfrak{p}B$, one has $\mathcal{O}_{Z'', z''}
+= (B/\mathfrak{p}B)_{\mathfrak{q}'} = B_{\mathfrak{q}}/\mathfrak{p}B_{\mathfrak{q}}$, whence `(4.7.3.1)`. The last
+assertion of (i) follows from the fact that in this case `Z''` is reduced `(4.2.4)`, hence $\mathfrak{p}B_{\mathfrak{q}}
+= \mathfrak{q}B_{\mathfrak{q}}$.
 
-(ii) If `k'` is an extension of finite type of `k`, there is a purely transcendental extension `k'_0` of `k` such that
-`k'` is a finite extension of `k'_0`; since `k'_0` is separable over `k`, it follows from (i) applied by replacing `k'`
-and `k''` by `k` and `k'_0` respectively, that one may replace `X` by `X ⊗_k k'_0`, in other words, suppose that `k'` is
-a finite extension of `k`. There is then a finite quasi-Galois extension `k''` of `k` containing `k'`, and the formula
-`(4.7.3.1)` shows that it suffices to prove the assertion for `k''`. But `k''` is a separable extension of a finite
-radicial extension `k_1` of `k`, hence, by virtue of (i), one is reduced in this case to proving the assertion when
-`k' = k_1` is in addition radicial. One knows then that `K ⊗_k k_1` is an Artinian ring having only one minimal prime
-ideal `(4.3.2)`; if `‾K` is an algebraic closure of `K`, the length of `‾K ⊗_k k_1` divides that of the Artinian ring
-`K ⊗_k k_1` by virtue of `(4.7.1.1)`. But `‾K ⊗_k k_1` is an Artinian `‾K`-algebra having only one prime ideal
-(necessarily maximal), and its quotient by this ideal is a finite extension of `‾K`, hence necessarily equal to `‾K`;
-the length of `‾K ⊗_k k_1` is therefore equal to its rank over `‾K`, that is `[k_1 : k]`, which is a power of `p`.
+(ii) If $k'$ is an extension of finite type of $k$, there is a purely transcendental extension $k'_{0}$ of $k$ such that
+$k'$ is a finite extension of $k'_{0}$; since $k'_{0}$ is separable over $k$, it follows from (i) applied by replacing
+$k'$ and `k''` by $k$ and $k'_{0}$ respectively, that one may replace $X$ by $X \otimes_{k} k'_{0}$, in other words,
+suppose that $k'$ is a finite extension of $k$. There is then a finite quasi-Galois extension `k''` of $k$ containing
+$k'$, and the formula `(4.7.3.1)` shows that it suffices to prove the assertion for `k''`. But `k''` is a separable
+extension of a finite radicial extension $k_{1}$ of $k$, hence, by virtue of (i), one is reduced in this case to proving
+the assertion when $k' = k_{1}$ is in addition radicial. One knows then that $K \otimes_{k} k_{1}$ is an Artinian ring
+having only one minimal prime ideal `(4.3.2)`; if $\overline{K}$ is an algebraic closure of $K$, the length of
+$\overline{K} \otimes_{k} k_{1}$ divides that of the Artinian ring $K \otimes_{k} k_{1}$ by virtue of `(4.7.1.1)`. But
+$\overline{K} \otimes_{k} k_{1}$ is an Artinian $\overline{K}$-algebra having only one prime ideal (necessarily
+maximal), and its quotient by this ideal is a finite extension of $\overline{K}$, hence necessarily equal to
+$\overline{K}$; the length of $\overline{K} \otimes_{k} k_{1}$ is therefore equal to its rank over $\overline{K}$, that
+is $[k_{1} : k]$, which is a power of $p$.
 
-Suppose next that `X` is locally of finite type over `k`, then `X''` is locally Noetherian for every extension `k''` of
-`k'`. Taking for `k''` an algebraically closed extension of `k'`, one is reduced, by virtue of `(4.7.3.1)`, to proving
-the assertion when `k'` is algebraically closed. Since `k` is then a separable extension of the algebraic closure `‾k`
-of `k`, it again follows from (i) that one is reduced to the case where `k' = ‾k`. Now, one knows (by replacing `X` by
-an affine open set of finite type over `k`) that there is a finite radicial
+Suppose next that $X$ is locally of finite type over $k$, then `X''` is locally Noetherian for every extension `k''` of
+$k'$. Taking for `k''` an algebraically closed extension of $k'$, one is reduced, by virtue of `(4.7.3.1)`, to proving
+the assertion when $k'$ is algebraically closed. Since $k$ is then a separable extension of the algebraic closure
+$\overline{k}$ of $k$, it again follows from (i) that one is reduced to the case where $k' = \overline{k}$. Now, one
+knows (by replacing $X$ by an affine open set of finite type over $k$) that there is a finite radicial
 
 <!-- original page 77 -->
 
-extension `k_1` of `k` such that `(X ⊗_k k_1)_red` is separable over `k_1` `(4.6.6)`; hence `(X ⊗_k k_1)_red ⊗_k ‾k` is
-reduced `(4.6.4)`. By virtue of `(4.7.3.1)`, one is therefore again reduced to the case where `k'` is a finite radicial
-extension of `k`, and one concludes as above.
+extension $k_{1}$ of $k$ such that $(X \otimes_{k} k_{1})_{red}$ is separable over $k_{1}$ `(4.6.6)`; hence $(X
+\otimes_{k} k_{1})_{red} \otimes_{k} \overline{k}$ is reduced `(4.6.4)`. By virtue of `(4.7.3.1)`, one is therefore
+again reduced to the case where $k'$ is a finite radicial extension of $k$, and one concludes as above.
 
-(iii) Note that two extensions `k'`, `k''` of `k` are contained in a same algebraically closed extension of `k`; to show
-that the set of numbers `long(𝒪_{x'_α})`, for `k'` perfect, does not depend on the choice of `k'`, one may therefore
-restrict to comparing these numbers for `k'` and for an algebraically closed extension `k''` of `k'`; in this case, the
-assertion follows from (i), since `k''` is separable over `k'`. To show that all the numbers `long(𝒪_{x'_α})` are equal,
-one may therefore restrict to the case where `k' = ‾k`, algebraic closure of `k`. Now, the finite radicial extension
-`k_1` of `k` being then determined as in (ii), the `x'_α` are all above the unique generic point of `X_1 = X ⊗_k k_1`,
-and the relation `long(𝒪_{x'_α}) = long(𝒪_{x_1})` for every `α` follows again from `(4.7.3.1)`, in view of the choice of
-`k_1`.
+(iii) Note that two extensions $k'$, `k''` of $k$ are contained in a same algebraically closed extension of $k$; to show
+that the set of numbers $long(\mathcal{O}_{x'_{\alpha}})$, for $k'$ perfect, does not depend on the choice of $k'$, one
+may therefore restrict to comparing these numbers for $k'$ and for an algebraically closed extension `k''` of $k'$; in
+this case, the assertion follows from (i), since `k''` is separable over $k'$. To show that all the numbers
+$long(\mathcal{O}_{x'_{\alpha}})$ are equal, one may therefore restrict to the case where $k' = \overline{k}$, algebraic
+closure of $k$. Now, the finite radicial extension $k_{1}$ of $k$ being then determined as in (ii), the $x'_{\alpha}$
+are all above the unique generic point of $X_{1} = X \otimes_{k} k_{1}$, and the relation
+$long(\mathcal{O}_{x'_{\alpha}}) = long(\mathcal{O}_{x_{1}})$ for every $\alpha$ follows again from `(4.7.3.1)`, in view
+of the choice of $k_{1}$.
 
 **Definition (4.7.4).**
 
 <!-- label: IV.4.7.4 -->
 
-*Let `k` be a field, `X` an integral `k`-prescheme, `K` the field of rational functions on `X`. One calls **radicial
-multiplicity** of `K` (or of `X`) over `k` the supremum of the lengths of the Artinian rings `K ⊗_k k_1`, as `k_1` runs
-through the set of finite radicial extensions of `k`. One calls **separable multiplicity** of `K` (or of `X`) over `k`
-the geometric number of irreducible components of `X` if this number is finite, and `+∞` otherwise. Finally, one calls
-**total multiplicity** of `K` (or of `X`) over `k` the product of the radicial multiplicity and the separable
-multiplicity of `K` over `k`.*
+*Let $k$ be a field, $X$ an integral $k$-prescheme, $K$ the field of rational functions on $X$. One calls **radicial
+multiplicity** of $K$ (or of $X$) over $k$ the supremum of the lengths of the Artinian rings $K \otimes_{k} k_{1}$, as
+$k_{1}$ runs through the set of finite radicial extensions of $k$. One calls **separable multiplicity** of $K$ (or of
+$X$) over $k$ the geometric number of irreducible components of $X$ if this number is finite, and $+\infty$ otherwise.
+Finally, one calls **total multiplicity** of $K$ (or of $X$) over $k$ the product of the radicial multiplicity and the
+separable multiplicity of $K$ over $k$.*
 
-One will note that if `p` is the characteristic exponent of `k` and if the radicial multiplicity of `K` over `k` is
-finite, it is a power `q = p^f` of `p`, as follows from `(4.7.3, (ii))`; when `p ≠ 1`, `f` is well determined and is
-called the **inseparability exponent** of `K` over `k`; when `p = 1`, the radicial multiplicity is always equal to 1.
+One will note that if $p$ is the characteristic exponent of $k$ and if the radicial multiplicity of $K$ over $k$ is
+finite, it is a power $q = p^{f}$ of $p$, as follows from `(4.7.3, (ii))`; when $p \neq 1$, $f$ is well determined and
+is called the **inseparability exponent** of $K$ over $k$; when $p = 1$, the radicial multiplicity is always equal to 1.
 
-To say that the radicial multiplicity (resp. separable, resp. total) of `X` over `k` is 1 means that `X` is
-geometrically reduced (resp. geometrically irreducible, resp. geometrically integral) over `k`.
+To say that the radicial multiplicity (resp. separable, resp. total) of $X$ over $k$ is 1 means that $X$ is
+geometrically reduced (resp. geometrically irreducible, resp. geometrically integral) over $k$.
 
-When `X` is locally of finite type, the radicial multiplicity of `X` over `k` is also the common length of the local
-rings `A_𝔮` at the minimal prime ideals of the total ring of fractions `A` of `K ⊗_k k'`, for every perfect extension
-`k'` of `k`; the separable multiplicity of `X` over `k` is the number of minimal prime ideals of `A = K ⊗_k Ω` for every
-algebraically closed extension `Ω` of `k`, and finally the total multiplicity is the sum of the lengths of the local
-rings `A_𝔮` of `A = K ⊗_k Ω` at its minimal prime ideals; these three numbers are all finite in this case.
+When $X$ is locally of finite type, the radicial multiplicity of $X$ over $k$ is also the common length of the local
+rings $A_{\mathfrak{q}}$ at the minimal prime ideals of the total ring of fractions $A$ of $K \otimes_{k} k'$, for every
+perfect extension $k'$ of $k$; the separable multiplicity of $X$ over $k$ is the number of minimal prime ideals of $A =
+K \otimes_{k} \Omega$ for every algebraically closed extension $\Omega$ of $k$, and finally the total multiplicity is
+the sum of the lengths of the local rings $A_{\mathfrak{q}}$ of $A = K \otimes_{k} \Omega$ at its minimal prime ideals;
+these three numbers are all finite in this case.
 
 **Definition (4.7.5).**
 
 <!-- label: IV.4.7.5 -->
 
-*Let `k` be a field, `X` a `k`-prescheme locally of finite type over `k`, `ℱ` a coherent `𝒪_X`-Module, `x` a point of
-`X` such that `ℱ_x` is an `𝒪_x`-module of finite length. One calls **geometric length** of `ℱ` at `x` (relative to `k`),
-or **radicial multiplicity** of `x` for `ℱ`, the product `λ_x(ℱ) = (long_{𝒪_x}(ℱ_x)) μ_r(k(x) | k)`, where
-`μ_r(k(x) | k)` denotes the radicial multiplicity of `k(x)` over `k`.*
+*Let $k$ be a field, $X$ a $k$-prescheme locally of finite type over $k$, $\mathcal{F}$ a coherent
+$\mathcal{O}_{X}$-Module, $x$ a point of $X$ such that $\mathcal{F}_{x}$ is an $\mathcal{O}_{x}$-module of finite
+length. One calls **geometric length** of $\mathcal{F}$ at $x$ (relative to $k$), or **radicial multiplicity** of $x$
+for $\mathcal{F}$, the product $\lambda_{x}(\mathcal{F}) = (long_{\mathcal{O}_{x}}(\mathcal{F}_{x})) \mu_{r}(k(x) | k)$,
+where $\mu_{r}(k(x) | k)$ denotes the radicial multiplicity of $k(x)$ over $k$.*
 
-When `X` is integral, and `x` the generic point of `X`, one has `long(ℱ_x) = 1`, hence the radicial multiplicity of `x`
-for `𝒪_x` is none other than the radicial multiplicity of `X` over `k`, defined in `(4.7.4)`.
+When $X$ is integral, and $x$ the generic point of $X$, one has $long(\mathcal{F}_{x}) = 1$, hence the radicial
+multiplicity of $x$ for $\mathcal{O}_{x}$ is none other than the radicial multiplicity of $X$ over $k$, defined in
+`(4.7.4)`.
 
 <!-- original page 78 -->
 
@@ -1535,141 +1623,156 @@ for `𝒪_x` is none other than the radicial multiplicity of `X` over `k`, defin
 
 <!-- label: IV.4.7.6 -->
 
-*Let `0 → ℱ' → ℱ → ℱ'' → 0` be an exact sequence of coherent `𝒪_X`-Modules. If at a point `x ∈ X` the geometric length
-`λ_x(ℱ)` of `ℱ` at this point is defined, the same holds for the geometric lengths `λ_x(ℱ')` and `λ_x(ℱ'')` of `ℱ'` and
-`ℱ''` at the point `x`, and conversely; in addition, one has*
+*Let $0 \to \mathcal{F}' \to \mathcal{F} \to \mathcal{F}'' \to 0$ be an exact sequence of coherent
+$\mathcal{O}_{X}$-Modules. If at a point $x \in X$ the geometric length $\lambda_{x}(\mathcal{F})$ of $\mathcal{F}$ at
+this point is defined, the same holds for the geometric lengths $\lambda_{x}(\mathcal{F}')$ and
+$\lambda_{x}(\mathcal{F}'')$ of $\mathcal{F}'$ and $\mathcal{F}''$ at the point $x$, and conversely; in addition, one
+has*
 
-```text
-  λ_x(ℱ) = λ_x(ℱ') + λ_x(ℱ'').                                      (4.7.6.1)
-```
+$$ \lambda_{x}(\mathcal{F}) = \lambda_{x}(\mathcal{F}') + \lambda_{x}(\mathcal{F}''). (4.7.6.1) $$
 
-The proposition follows at once from the definition, for `long(ℱ_x)` is finite if and only if `long(ℱ'_x)` and
-`long(ℱ''_x)` are finite, and one has `long(ℱ_x) = long(ℱ'_x) + long(ℱ''_x)`.
+The proposition follows at once from the definition, for $long(\mathcal{F}_{x})$ is finite if and only if
+$long(\mathcal{F}'_{x})$ and $long(\mathcal{F}''_{x})$ are finite, and one has `long(ℱ_x) = long(ℱ'_x) + long(ℱ''_x)`.
 
 **(4.7.7)**
 
 <!-- label: IV.4.7.7 -->
 
-Under the hypotheses of `(4.7.5)`, the only points `x ∈ X` such that `ℱ_x` is an `𝒪_x`-module of non-zero finite length
-are (by virtue of `(3.1.2)`) the maximal points of `Supp(ℱ)`, as follows from Bourbaki, Alg. comm., chap. IV, §2, n° 5,
-cor. 2 of prop. 7, the question being local on `X`. One knows that there exists a closed sub-prescheme `Y` having
-`Supp(ℱ)` as underlying space, and a coherent `𝒪_Y`-Module `𝒢` such that `ℱ = j_*(𝒢)`, `j : Y → X` being the canonical
-injection. If `x` is a maximal point of `Y`, one sees that the geometric lengths of `ℱ` and of `𝒢` at `x` are equal,
-`𝒪_x` and `𝒪_{Y, x}` having the same residue fields. One deduces from this the following characterization of the
-geometric length:
+Under the hypotheses of `(4.7.5)`, the only points $x \in X$ such that $\mathcal{F}_{x}$ is an $\mathcal{O}_{x}$-module
+of non-zero finite length are (by virtue of `(3.1.2)`) the maximal points of $Supp(\mathcal{F})$, as follows from
+Bourbaki, Alg. comm., chap. IV, §2, n° 5, cor. 2 of prop. 7, the question being local on $X$. One knows that there
+exists a closed sub-prescheme $Y$ having $Supp(\mathcal{F})$ as underlying space, and a coherent
+$\mathcal{O}_{Y}$-Module $\mathcal{G}$ such that $\mathcal{F} = j_{*}(\mathcal{G})$, $j : Y \to X$ being the canonical
+injection. If $x$ is a maximal point of $Y$, one sees that the geometric lengths of $\mathcal{F}$ and of $\mathcal{G}$
+at $x$ are equal, $\mathcal{O}_{x}$ and $\mathcal{O}_{Y, x}$ having the same residue fields. One deduces from this the
+following characterization of the geometric length:
 
 **Proposition (4.7.8).**
 
 <!-- label: IV.4.7.8 -->
 
-*Under the hypotheses of `(4.7.5)`, let `x` be a maximal point of `Supp(ℱ)`. Let `k'` be a perfect extension of `k`; put
-`X' = X ⊗_k k'`, `ℱ' = ℱ ⊗_k k'`; then the geometric length `λ_x(ℱ)` of `ℱ` at `x` is equal to the length of the
-`𝒪_{x'}`-module `ℱ'_{x'}` at any maximal point `x'` of `Supp(ℱ')` above `x`. In addition, there exists a finite radicial
-extension `k_1` of `k` such that, by putting `X_1 = X ⊗_k k_1`, `ℱ_1 = ℱ ⊗_k k_1`, `λ_x(ℱ)` is equal to the length of
-the `𝒪_{X_1}`-module `(ℱ_1)_{x_1}` at any maximal point `x_1` of `Supp(ℱ_1)` above `x`.*
+*Under the hypotheses of `(4.7.5)`, let $x$ be a maximal point of $Supp(\mathcal{F})$. Let $k'$ be a perfect extension
+of $k$; put $X' = X \otimes_{k} k'$, $\mathcal{F}' = \mathcal{F} \otimes_{k} k'$; then the geometric length
+$\lambda_{x}(\mathcal{F})$ of $\mathcal{F}$ at $x$ is equal to the length of the $\mathcal{O}_{x'}$-module
+$\mathcal{F}'_{x'}$ at any maximal point $x'$ of $Supp(\mathcal{F}')$ above $x$. In addition, there exists a finite
+radicial extension $k_{1}$ of $k$ such that, by putting $X_{1} = X \otimes_{k} k_{1}$, $\mathcal{F}_{1} = \mathcal{F}
+\otimes_{k} k_{1}$, $\lambda_{x}(\mathcal{F})$ is equal to the length of the $\mathcal{O}_{X_{1}}$-module
+$(\mathcal{F}_{1})_{x_{1}}$ at any maximal point $x_{1}$ of $Supp(\mathcal{F}_{1})$ above $x$.*
 
-The remark of `(4.7.7)` shows that one may restrict to the case where `x` is a maximal point of `X`. In addition, the
-question is local on `X` and one may therefore suppose `X = Spec(A)` affine Noetherian, `ℱ = ‾M`, where `M` is an
-`A`-module of finite type; let `B = A ⊗_k k'`, `𝔭` (resp. `𝔮`) the minimal prime ideal of `A` (resp. `B`) corresponding
-to `x` (resp. `x'`). One has then, applying formula `(4.7.2.1)`,
+The remark of `(4.7.7)` shows that one may restrict to the case where $x$ is a maximal point of $X$. In addition, the
+question is local on $X$ and one may therefore suppose $X = \operatorname{Spec}(A)$ affine Noetherian, $\mathcal{F} =
+\overline{M}$, where $M$ is an $A$-module of finite type; let $B = A \otimes_{k} k'$, $\mathfrak{p}$ (resp.
+$\mathfrak{q}$) the minimal prime ideal of $A$ (resp. $B$) corresponding to $x$ (resp. $x'$). One has then, applying
+formula `(4.7.2.1)`,
 
 ```text
   long_{B_𝔮}(M_{(B)})_𝔮 = long_{A_𝔭}(M_𝔭) · long_{B_𝔮}(B_𝔮/𝔭B_𝔮).
 ```
 
-But since `k(x) = A_𝔭/𝔭A_𝔭`, the same reasoning as in `(4.7.3)` shows that `long_{B_𝔮}(B_𝔮/𝔭B_𝔮)` is equal to the length
-of the local ring `(B/𝔭B)_{𝔮'}`, where `𝔮' = 𝔮/𝔭B`. The ring `(B/𝔭B)_{𝔮'}` is a local ring of `(A/𝔭) ⊗_k k'` at a
-minimal prime ideal of this ring, hence also a local ring of the total ring of fractions of `k(x) ⊗_k k'`, and the
-length of such a ring is by definition `μ_r(k(x) | k)`, whence the first assertion. The second is proved likewise,
-replacing `k'` by `k_1` and using `(4.7.3, (iii))`.
+But since $k(x) = A_{\mathfrak{p}}/\mathfrak{p}A_{\mathfrak{p}}$, the same reasoning as in `(4.7.3)` shows that
+$long_{B_{\mathfrak{q}}}(B_{\mathfrak{q}}/\mathfrak{p}B_{\mathfrak{q}})$ is equal to the length of the local ring
+$(B/\mathfrak{p}B)_{\mathfrak{q}'}$, where $\mathfrak{q}' = \mathfrak{q}/\mathfrak{p}B$. The ring
+$(B/\mathfrak{p}B)_{\mathfrak{q}'}$ is a local ring of $(A/\mathfrak{p}) \otimes_{k} k'$ at a minimal prime ideal of
+this ring, hence also a local ring of the total ring of fractions of $k(x) \otimes_{k} k'$, and the length of such a
+ring is by definition $\mu_{r}(k(x) | k)$, whence the first assertion. The second is proved likewise, replacing $k'$ by
+$k_{1}$ and using `(4.7.3, (iii))`.
 
-One also says, in the case where `x` is a maximal point of `Supp(ℱ)`, that the geometric length of `ℱ` at `x` is the
-**radicial multiplicity** of the maximal prime cycle `‾{x}` associated to `ℱ`.
+One also says, in the case where $x$ is a maximal point of $Supp(\mathcal{F})$, that the geometric length of
+$\mathcal{F}$ at $x$ is the **radicial multiplicity** of the maximal prime cycle $\overline{x}$ associated to
+$\mathcal{F}$.
 
 **Corollary (4.7.9).**
 
 <!-- label: IV.4.7.9 -->
 
-*Under the hypotheses of `(4.7.5)`, let `k'` be an extension of `k`, `X' = X ⊗_k k'`, `ℱ' = ℱ ⊗_k k'`; let `Z` be an
-irreducible component of `Supp(ℱ)`, and `Z'` an irreducible component of `Supp(ℱ')` which dominates `Z` `(4.2.7)`. Then
-the radicial multiplicities of `Z` with respect to `ℱ` and of `Z'` with respect to `ℱ'` are the same.*
+*Under the hypotheses of `(4.7.5)`, let $k'$ be an extension of $k$, $X' = X \otimes_{k} k'$, $\mathcal{F}' =
+\mathcal{F} \otimes_{k} k'$; let $Z$ be an irreducible component of $Supp(\mathcal{F})$, and $Z'$ an irreducible
+component of $Supp(\mathcal{F}')$ which dominates $Z$ `(4.2.7)`. Then the radicial multiplicities of $Z$ with respect to
+$\mathcal{F}$ and of $Z'$ with respect to $\mathcal{F}'$ are the same.*
 
 <!-- original page 79 -->
 
-It suffices to consider a perfect extension `k''` of `k'` and by putting `X'' = X ⊗_k k''`, `ℱ'' = ℱ ⊗_k k''`, a maximal
-point `x''` of `Supp(ℱ'')` which is above the generic point of `Z'`; it then follows from `(4.7.8)` that
-`long(ℱ''_{x''})` is equal to the multiplicities of `Z` and of `Z'`.
+It suffices to consider a perfect extension `k''` of $k'$ and by putting $X'' = X \otimes_{k} k''$, $\mathcal{F}'' =
+\mathcal{F} \otimes_{k} k''$, a maximal point `x''` of $Supp(\mathcal{F}'')$ which is above the generic point of $Z'$;
+it then follows from `(4.7.8)` that $long(\mathcal{F}''_{x''})$ is equal to the multiplicities of $Z$ and of $Z'$.
 
 **Proposition (4.7.10).**
 
 <!-- label: IV.4.7.10 -->
 
-*Let `k` be a field, `X` a `k`-prescheme locally of finite type over `k`, `ℱ` a coherent `𝒪_X`-Module, `x` a point of
-`X`, `ξ_i` the generic points of the irreducible components of `Supp(ℱ)` containing `x`. For `ℱ` to be geometrically
-reduced at the point `x` `(4.6.22)`, it is necessary and sufficient that `x` belong to no embedded associated prime
-cycle of `ℱ` and that, for every `i`, the geometric length `λ_i(ℱ)` of `ℱ` at the point `ξ_i` be equal to 1.*
+*Let $k$ be a field, $X$ a $k$-prescheme locally of finite type over $k$, $\mathcal{F}$ a coherent
+$\mathcal{O}_{X}$-Module, $x$ a point of $X$, $\xi_{i}$ the generic points of the irreducible components of
+$Supp(\mathcal{F})$ containing $x$. For $\mathcal{F}$ to be geometrically reduced at the point $x$ `(4.6.22)`, it is
+necessary and sufficient that $x$ belong to no embedded associated prime cycle of $\mathcal{F}$ and that, for every $i$,
+the geometric length $\lambda_{i}(\mathcal{F})$ of $\mathcal{F}$ at the point $\xi_{i}$ be equal to 1.*
 
-Let us first show that the conditions of the statement are sufficient. Indeed, if `k'` is a finite extension of `k`,
-`x'` a point of `X' = X ⊗_k k'` above `x`, and `ℱ' = ℱ ⊗_k k'`, `x'` belongs to no embedded associated prime cycle of
-`ℱ'` by virtue of `(4.2.7)`; in addition, by virtue of `(4.7.8)`, the geometric length of `ℱ'` is equal to 1 at any
-generic point `ξ'` of an irreducible component of `Supp(ℱ')` containing `x'`, such a point being above one of the `ξ_i`
-by virtue of `(2.3.4)`; a fortiori one has `long(ℱ'_{ξ'}) = 1`, which proves that `ℱ'` is reduced at the point `x'`.
+Let us first show that the conditions of the statement are sufficient. Indeed, if $k'$ is a finite extension of $k$,
+$x'$ a point of $X' = X \otimes_{k} k'$ above $x$, and $\mathcal{F}' = \mathcal{F} \otimes_{k} k'$, $x'$ belongs to no
+embedded associated prime cycle of $\mathcal{F}'$ by virtue of `(4.2.7)`; in addition, by virtue of `(4.7.8)`, the
+geometric length of $\mathcal{F}'$ is equal to 1 at any generic point $\xi'$ of an irreducible component of
+$Supp(\mathcal{F}')$ containing $x'$, such a point being above one of the $\xi_{i}$ by virtue of `(2.3.4)`; a fortiori
+one has $long(\mathcal{F}'_{\xi'}) = 1$, which proves that $\mathcal{F}'$ is reduced at the point $x'$.
 
-Conversely, it follows first from `(4.2.7)` that if, for a finite extension `k'` of `k`, `ℱ'` is reduced at all the
-points `x'` of `X'` above `x`, then `x` belongs to no embedded associated prime cycle of `ℱ`. In addition, by taking for
-`k'` the field `k_1` of the statement of `(4.7.8)` (where `x` is replaced by one of the `ξ_i`), the hypothesis that `ℱ`
-is geometrically reduced at the point `x` implies that `λ_i(ℱ) = 1`.
+Conversely, it follows first from `(4.2.7)` that if, for a finite extension $k'$ of $k$, $\mathcal{F}'$ is reduced at
+all the points $x'$ of $X'$ above $x$, then $x$ belongs to no embedded associated prime cycle of $\mathcal{F}$. In
+addition, by taking for $k'$ the field $k_{1}$ of the statement of `(4.7.8)` (where $x$ is replaced by one of the
+$\xi_{i}$), the hypothesis that $\mathcal{F}$ is geometrically reduced at the point $x$ implies that
+$\lambda_{i}(\mathcal{F}) = 1$.
 
 **Proposition (4.7.11).**
 
 <!-- label: IV.4.7.11 -->
 
-*Let `k` be a field, `X` a prescheme locally of finite type over `k`, `ℱ` a coherent `𝒪_X`-Module, `k'` an extension of
-`k`, `X' = X ⊗_k k'`, `ℱ' = ℱ ⊗_k k'`, `x` a point of `X`, `x'` a point of `X'` above `x`. For `ℱ` to be geometrically
-reduced (resp. geometrically pointwise integral) at the point `x`, it is necessary and sufficient that `ℱ'` be
-geometrically reduced (resp. geometrically pointwise integral) at the point `x'`.*
+*Let $k$ be a field, $X$ a prescheme locally of finite type over $k$, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module,
+$k'$ an extension of $k$, $X' = X \otimes_{k} k'$, $\mathcal{F}' = \mathcal{F} \otimes_{k} k'$, $x$ a point of $X$, $x'$
+a point of $X'$ above $x$. For $\mathcal{F}$ to be geometrically reduced (resp. geometrically pointwise integral) at the
+point $x$, it is necessary and sufficient that $\mathcal{F}'$ be geometrically reduced (resp. geometrically pointwise
+integral) at the point $x'$.*
 
-The irreducible components of `Supp(ℱ')` containing `x'` each dominate an irreducible component of `Supp(ℱ)` containing
-`x`, and conversely each of these latter is dominated by an irreducible component of `Supp(ℱ')` containing `x'`
-(`(4.2.7, (i))` and `(2.3.4)`). The assertion concerning the property of separability therefore follows from
-`(4.2.7, (ii))`, `(4.7.9)` and `(4.7.10)`. Let `Y` be the closed sub-prescheme of `X` defined by the Ideal `𝒥`
-annihilator of `ℱ`, so that `Y' = Y ⊗_k k'` is the closed sub-prescheme of `X'` defined by the Ideal `𝒥' = 𝒥 ⊗_k k'`
-annihilator of `ℱ'`; to say that `ℱ` (resp. `ℱ'`) is geometrically pointwise integral at the point `x` (resp. `x'`)
-amounts to saying that `ℱ` (resp. `ℱ'`) is geometrically reduced at the point `x` (resp. `x'`) and that `Y` (resp. `Y'`)
-is geometrically pointwise integral at the point `x` (resp. `x'`). By virtue of the assertion of the statement
-concerning separability, the hypothesis that `ℱ` is geometrically pointwise integral at the point `x`, or the hypothesis
-that `ℱ'` is geometrically pointwise integral at the point `x'`, both imply that there exists in `Y` a neighbourhood of
-`x` which is separable, and the conclusion follows from `(4.6.10)`.
+The irreducible components of $Supp(\mathcal{F}')$ containing $x'$ each dominate an irreducible component of
+$Supp(\mathcal{F})$ containing $x$, and conversely each of these latter is dominated by an irreducible component of
+$Supp(\mathcal{F}')$ containing $x'$ (`(4.2.7, (i))` and `(2.3.4)`). The assertion concerning the property of
+separability therefore follows from `(4.2.7, (ii))`, `(4.7.9)` and `(4.7.10)`. Let $Y$ be the closed sub-prescheme of
+$X$ defined by the Ideal $\mathcal{J}$ annihilator of $\mathcal{F}$, so that $Y' = Y \otimes_{k} k'$ is the closed
+sub-prescheme of $X'$ defined by the Ideal $\mathcal{J}' = \mathcal{J} \otimes_{k} k'$ annihilator of $\mathcal{F}'$; to
+say that $\mathcal{F}$ (resp. $\mathcal{F}'$) is geometrically pointwise integral at the point $x$ (resp. $x'$) amounts
+to saying that $\mathcal{F}$ (resp. $\mathcal{F}'$) is geometrically reduced at the point $x$ (resp. $x'$) and that $Y$
+(resp. $Y'$) is geometrically pointwise integral at the point $x$ (resp. $x'$). By virtue of the assertion of the
+statement concerning separability, the hypothesis that $\mathcal{F}$ is geometrically pointwise integral at the point
+$x$, or the hypothesis that $\mathcal{F}'$ is geometrically pointwise integral at the point $x'$, both imply that there
+exists in $Y$ a neighbourhood of $x$ which is separable, and the conclusion follows from `(4.6.10)`.
 
 **Definition (4.7.12).**
 
 <!-- label: IV.4.7.12 -->
 
-*Let `k` be a field, `X` a `k`-prescheme locally of finite type over `k`, `ℱ` a coherent `𝒪_X`-Module, `x` a maximal
-point of the support of `ℱ`. One calls **total multiplicity***
+*Let $k$ be a field, $X$ a $k$-prescheme locally of finite type over $k$, $\mathcal{F}$ a coherent
+$\mathcal{O}_{X}$-Module, $x$ a maximal point of the support of $\mathcal{F}$. One calls **total multiplicity***
 
 <!-- original page 80 -->
 
-*of `x` (or of the prime cycle `‾{x}`) for `ℱ` (relative to `k`) the product of the radicial multiplicity of `x` for `ℱ`
-by the separable multiplicity of `k(x)` over `k`.*
+*of $x$ (or of the prime cycle $\overline{x}$) for $\mathcal{F}$ (relative to $k$) the product of the radicial
+multiplicity of $x$ for $\mathcal{F}$ by the separable multiplicity of $k(x)$ over $k$.*
 
-It is equivalent to say that the total multiplicity of `x` for `ℱ` is the product of the length `long_{𝒪_x}(ℱ_x)` by the
-total multiplicity of `k(x)` over `k` `(4.7.4)`. With the notations of `(4.7.11)`, the total multiplicity of `x` for `ℱ`
-is equal to the sum of the total multiplicities for `ℱ'` of the maximal points `x'_i` of `Supp(ℱ')` which are above `x`;
-in addition, there exists a finite extension `k'` of `k` such that the total multiplicity of `x` for `ℱ` is equal to
-`Σ_i long(ℱ'_{x'_i})`.
+It is equivalent to say that the total multiplicity of $x$ for $\mathcal{F}$ is the product of the length
+$long_{\mathcal{O}_{x}}(\mathcal{F}_{x})$ by the total multiplicity of $k(x)$ over $k$ `(4.7.4)`. With the notations of
+`(4.7.11)`, the total multiplicity of $x$ for $\mathcal{F}$ is equal to the sum of the total multiplicities for
+$\mathcal{F}'$ of the maximal points $x'_{i}$ of $Supp(\mathcal{F}')$ which are above $x$; in addition, there exists a
+finite extension $k'$ of $k$ such that the total multiplicity of $x$ for $\mathcal{F}$ is equal to $\Sigma_{i}
+long(\mathcal{F}'_{x'_{i}})$.
 
 **Proposition (4.7.13).**
 
 <!-- label: IV.4.7.13 -->
 
-*The hypotheses and notations being those of `(4.7.10)`, for `ℱ` to be geometrically pointwise integral at the point
-`x`, it suffices that `x` belong to only one associated prime cycle (necessarily non-embedded) of `ℱ` and that the total
-multiplicity for `ℱ` of the generic point `ξ` of this cycle be equal to 1.*
+*The hypotheses and notations being those of `(4.7.10)`, for $\mathcal{F}$ to be geometrically pointwise integral at the
+point $x$, it suffices that $x$ belong to only one associated prime cycle (necessarily non-embedded) of $\mathcal{F}$
+and that the total multiplicity for $\mathcal{F}$ of the generic point $\xi$ of this cycle be equal to 1.*
 
-Indeed, if `k'` is a finite extension of `k`, `x'` a point of `X' = X ⊗_k k'` above `x` and `ℱ' = ℱ ⊗_k k'`, `x'` can
-belong to only one associated prime cycle of `ℱ'`, since there is only one maximal point of `Supp(ℱ')` above `ξ` by
-hypothesis; in addition, `ℱ'` is geometrically reduced according to `(4.7.10)`, whence the conclusion.
+Indeed, if $k'$ is a finite extension of $k$, $x'$ a point of $X' = X \otimes_{k} k'$ above $x$ and $\mathcal{F}' =
+\mathcal{F} \otimes_{k} k'$, $x'$ can belong to only one associated prime cycle of $\mathcal{F}'$, since there is only
+one maximal point of $Supp(\mathcal{F}')$ above $\xi$ by hypothesis; in addition, $\mathcal{F}'$ is geometrically
+reduced according to `(4.7.10)`, whence the conclusion.
 
 ### 4.8. Fields of definition
 
@@ -1677,16 +1780,18 @@ hypothesis; in addition, `ℱ'` is geometrically reduced according to `(4.7.10)`
 
 <!-- label: IV.4.8.1 -->
 
-Given a prescheme `X`, we shall designate, in this number, by `S(X)` the set of sub-preschemes of `X`, and as usual by
-`𝔓(X)` the set of parts of the underlying space of `X`; for every quasi-coherent `𝒪_X`-Module `ℱ`, we shall designate by
-`Φ(ℱ)` the set of quasi-coherent sub-`𝒪_X`-Modules of `ℱ`.
+Given a prescheme $X$, we shall designate, in this number, by $S(X)$ the set of sub-preschemes of $X$, and as usual by
+$\mathfrak{P}(X)$ the set of parts of the underlying space of $X$; for every quasi-coherent $\mathcal{O}_{X}$-Module
+$\mathcal{F}$, we shall designate by $\Phi(\mathcal{F})$ the set of quasi-coherent sub-$\mathcal{O}_{X}$-Modules of
+$\mathcal{F}$.
 
 **(4.8.2)**
 
 <!-- label: IV.4.8.2 -->
 
-Let `k` be a field, `X`, `Y` two `k`-preschemes, `ℱ`, `𝒢` two quasi-coherent `𝒪_X`-Modules, `K`, `K'` two extensions of
-`k` such that `K' ⊂ K`. One has then, corresponding to the morphism `Spec(K) → Spec(K')`, the canonical maps
+Let $k$ be a field, $X$, $Y$ two $k$-preschemes, $\mathcal{F}$, $\mathcal{G}$ two quasi-coherent
+$\mathcal{O}_{X}$-Modules, $K$, $K'$ two extensions of $k$ such that $K' \subset K$. One has then, corresponding to the
+morphism $\operatorname{Spec}(K) \to \operatorname{Spec}(K')$, the canonical maps
 
 ```text
   Φ(ℱ ⊗_k K') → Φ(ℱ ⊗_k K)                                          (4.8.2.1)
@@ -1696,13 +1801,13 @@ Let `k` be a field, `X`, `Y` two `k`-preschemes, `ℱ`, `𝒢` two quasi-coheren
   𝔓(X_{(K')}) → 𝔓(X_{(K)})                                          (4.8.2.5)
 ```
 
-If `p_X : X_{(K)} → X_{(K')}` is the canonical projection, the map `(4.8.2.5)` is `M ↦ p_X⁻¹(M)`, and likewise
-`(4.8.2.3)` is `Z ↦ p_X⁻¹(Z) = Z ⊗_{K'} K` `(I, 4.4.1)`. The map `(4.8.2.1)` is
-`ℋ ↦ ℋ_{(K)} = ℋ ⊗_{𝒪_{X_{(K')}}} 𝒪_{X_{(K)}}`; `(4.8.2.2)` is `u ↦ p_X^*(u)` and finally `(4.8.2.4)` is the map
-`f ↦ f_{(K)}`.
+If $p_{X} : X_{(K)} \to X_{(K')}$ is the canonical projection, the map `(4.8.2.5)` is $M \mapsto p^{-1}_{X}(M)$, and
+likewise `(4.8.2.3)` is $Z \mapsto p^{-1}_{X}(Z) = Z \otimes_{K'} K$ `(I, 4.4.1)`. The map `(4.8.2.1)` is $\mathcal{H}
+\mapsto \mathcal{H}_{(K)} = \mathcal{H} \otimes_{\mathcal{O}_{X_{(K')}}} \mathcal{O}_{X_{(K)}}$; `(4.8.2.2)` is $u
+\mapsto p^{*}_{X}(u)$ and finally `(4.8.2.4)` is the map $f \mapsto f_{(K)}$.
 
-If one denotes by `s_{K, K'}` any one of these canonical maps, it is clear that if `K''`, `K'`, `K` are three extensions
-of `k` such that `K'' ⊂ K' ⊂ K`, one has
+If one denotes by $s_{K, K'}$ any one of these canonical maps, it is clear that if `K''`, $K'$, $K$ are three extensions
+of $k$ such that $K'' \subset K' \subset K$, one has
 
 ```text
   s_{K, K''} = s_{K, K'} ∘ s_{K', K''}.                              (4.8.2.6)
@@ -1716,72 +1821,78 @@ of `k` such that `K'' ⊂ K' ⊂ K`, one has
 
 *The canonical maps `(4.8.2.1)` to `(4.8.2.5)` are injective.*
 
-One knows indeed that `p_X` is faithfully flat and quasi-compact; the fact that `(4.8.2.5)` is injective therefore
-follows from the fact that `p_X` is surjective. The injectivity of `(4.8.2.1)` follows from `(2.2.2)`, that of
+One knows indeed that $p_{X}$ is faithfully flat and quasi-compact; the fact that `(4.8.2.5)` is injective therefore
+follows from the fact that $p_{X}$ is surjective. The injectivity of `(4.8.2.1)` follows from `(2.2.2)`, that of
 `(4.8.2.2)` from `(2.2.7)`, that of `(4.8.2.3)` from `(2.2.15)`, and finally that of `(4.8.2.4)` from `(2.2.16)`.
 
 **Definition (4.8.4).**
 
 <!-- label: IV.4.8.4 -->
 
-*The notations being those of `(4.8.2)`, one says that a quasi-coherent sub-`𝒪_{X_{(K)}}`-Module of `ℱ ⊗_k K` (resp. a
-homomorphism `ℱ ⊗_k K → 𝒢 ⊗_k K`, resp. a sub-prescheme of `X_{(K)}`, resp. a `Y_{(K)}`-morphism `X_{(K)} → Y_{(K)}`,
-resp. a subset of `X_{(K)}`) is **defined over `K'`** if it belongs to the image of the map `(4.8.2.1)` (resp.
-`(4.8.2.2)`, resp. `(4.8.2.3)`, resp. `(4.8.2.4)`, resp. `(4.8.2.5)`). One says then that `K'` is a **field of
-definition** of the object considered.*
+*The notations being those of `(4.8.2)`, one says that a quasi-coherent sub-$\mathcal{O}_{X_{(K)}}$-Module of
+$\mathcal{F} \otimes_{k} K$ (resp. a homomorphism $\mathcal{F} \otimes_{k} K \to \mathcal{G} \otimes_{k} K$, resp. a
+sub-prescheme of $X_{(K)}$, resp. a $Y_{(K)}$-morphism $X_{(K)} \to Y_{(K)}$, resp. a subset of $X_{(K)}$) is **defined
+over $K'$** if it belongs to the image of the map `(4.8.2.1)` (resp. `(4.8.2.2)`, resp. `(4.8.2.3)`, resp. `(4.8.2.4)`,
+resp. `(4.8.2.5)`). One says then that $K'$ is a **field of definition** of the object considered.*
 
-It is clear that `K` itself is a field of definition of an element of any one of the five target sets of the maps
-`(4.8.2.1)` to `(4.8.2.5)`. One will note however that for a `K`-prescheme `Z`, to say for example that a quasi-coherent
-`𝒪_Z`-Module `ℋ` is "defined over a sub-field `K'` of `K`" has meaning only if `Z` has been given in the form `X_{(K)}`
-for a prescheme `X` over a sub-field `k` of `K`, and if `ℋ` is a sub-`𝒪_Z`-Module of an `𝒪_Z`-Module which has been
-given in the form `ℱ ⊗_k K`, where `ℱ` is a quasi-coherent `𝒪_X`-Module; one has analogous remarks for the other
-notions. It follows from `(4.8.2.6)` that if an element of one of the target sets of the maps of `(4.8.2)` is defined
-over `K'`, it is also defined over every field `K''` such that `K' ⊂ K'' ⊂ K`. Finally, with the notations of
-`(4.8.2.6)`, if `K_1` is an extension of `K`, for an element of the target set of `s_{K, K'}` to be defined over `K'`,
-it is necessary and sufficient that its image by `s_{K_1, K}` be defined over `K'`, by virtue of the relation
-`s_{K_1, K'} = s_{K_1, K} ∘ s_{K, K'}`.
+It is clear that $K$ itself is a field of definition of an element of any one of the five target sets of the maps
+`(4.8.2.1)` to `(4.8.2.5)`. One will note however that for a $K$-prescheme $Z$, to say for example that a quasi-coherent
+$\mathcal{O}_{Z}$-Module $\mathcal{H}$ is "defined over a sub-field $K'$ of $K$" has meaning only if $Z$ has been given
+in the form $X_{(K)}$ for a prescheme $X$ over a sub-field $k$ of $K$, and if $\mathcal{H}$ is a
+sub-$\mathcal{O}_{Z}$-Module of an $\mathcal{O}_{Z}$-Module which has been given in the form $\mathcal{F} \otimes_{k}
+K$, where $\mathcal{F}$ is a quasi-coherent $\mathcal{O}_{X}$-Module; one has analogous remarks for the other notions.
+It follows from `(4.8.2.6)` that if an element of one of the target sets of the maps of `(4.8.2)` is defined over $K'$,
+it is also defined over every field `K''` such that $K' \subset K'' \subset K$. Finally, with the notations of
+`(4.8.2.6)`, if `K_1` is an extension of $K$, for an element of the target set of $s_{K, K'}$ to be defined over $K'$,
+it is necessary and sufficient that its image by $s_{K_{1}, K}$ be defined over $K'$, by virtue of the relation
+$s_{K_{1}, K'} = s_{K_{1}, K} \circ s_{K, K'}$.
 
 **Proposition (4.8.5).**
 
 <!-- label: IV.4.8.5 -->
 
-*With the notations of `(4.8.2)`, let `(X_α)` be an open cover of `X`. For an element `ℋ ∈ Φ(ℱ ⊗_k K)` (resp.
-`u ∈ Hom(ℱ ⊗_k K, 𝒢 ⊗_k K)`, resp. `Z ∈ S(X_{(K)})`, resp. `M ∈ 𝔓(X_{(K)})`) to be defined over `K'`, it is necessary
-and sufficient that for every `α`, `ℋ | (X_α)_{(K)}` (resp. `u | (X_α)_{(K)}`, `Z ∩ (X_α)_{(K)}`, `M ∩ (X_α)_{(K)}`) be
-defined over `K'`.*
+*With the notations of `(4.8.2)`, let $(X_{\alpha})$ be an open cover of $X$. For an element $\mathcal{H} \in
+\Phi(\mathcal{F} \otimes_{k} K)$ (resp. $u \in \operatorname{Hom}(\mathcal{F} \otimes_{k} K, \mathcal{G} \otimes_{k}
+K)$, resp. $Z \in S(X_{(K)})$, resp. $M \in \mathfrak{P}(X_{(K)})$) to be defined over $K'$, it is necessary and
+sufficient that for every $\alpha$, $\mathcal{H} | (X_{\alpha})_{(K)}$ (resp. $u | (X_{\alpha})_{(K)}$, $Z \cap
+(X_{\alpha})_{(K)}$, $M \cap (X_{\alpha})_{(K)}$) be defined over $K'$.*
 
 This follows at once from the injectivity of the maps `(4.8.2.1)`, `(4.8.2.2)`, `(4.8.2.3)` and `(4.8.2.5)`: for
-example, if for every `α`, there is a quasi-coherent sub-`𝒪_{(X_α)_{(K')}}`-Module `ℋ_α` of `(ℱ | X_α) ⊗_k K'` such that
-`ℋ | (X_α)_{(K)} = ℋ_α ⊗_{K'} K`, for two arbitrary indices `α`, `β`, one will have
-`ℋ | (X_α ∩ X_β)_{(K)} = (ℋ_α | (X_α ∩ X_β)_{(K')}) ⊗_{K'} K = (ℋ_β | (X_α ∩ X_β)_{(K')}) ⊗_{K'} K`, hence necessarily
-`ℋ_α | (X_α ∩ X_β)_{(K')} = ℋ_β | (X_α ∩ X_β)_{(K')}` whatever `α` and `β`, and there exists consequently a
-quasi-coherent sub-`𝒪_{X_{(K')}}`-Module `ℋ'` of `ℱ ⊗_k K'` such that `ℋ' | (X_α)_{(K')} = ℋ_α` for every `α`, hence
-`ℋ = ℋ' ⊗_{K'} K`. One reasons likewise in the other cases.
+example, if for every $\alpha$, there is a quasi-coherent sub-$\mathcal{O}_{(X_{\alpha})_{(K')}}$-Module
+$\mathcal{H}_{\alpha}$ of $(\mathcal{F} | X_{\alpha}) \otimes_{k} K'$ such that $\mathcal{H} | (X_{\alpha})_{(K)} =
+\mathcal{H}_{\alpha} \otimes_{K'} K$, for two arbitrary indices $\alpha$, $\beta$, one will have $\mathcal{H} |
+(X_{\alpha} \cap X_{\beta})_{(K)} = (\mathcal{H}_{\alpha} | (X_{\alpha} \cap X_{\beta})_{(K')}) \otimes_{K'} K =
+(\mathcal{H}_{\beta} | (X_{\alpha} \cap X_{\beta})_{(K')}) \otimes_{K'} K$, hence necessarily $\mathcal{H}_{\alpha} |
+(X_{\alpha} \cap X_{\beta})_{(K')} = \mathcal{H}_{\beta} | (X_{\alpha} \cap X_{\beta})_{(K')}$ whatever $\alpha$ and
+$\beta$, and there exists consequently a quasi-coherent sub-$\mathcal{O}_{X_{(K')}}$-Module $\mathcal{H}'$ of
+$\mathcal{F} \otimes_{k} K'$ such that $\mathcal{H}' | (X_{\alpha})_{(K')} = \mathcal{H}_{\alpha}$ for every $\alpha$,
+hence $\mathcal{H} = \mathcal{H}' \otimes_{K'} K$. One reasons likewise in the other cases.
 
 **Lemma (4.8.6).**
 
 <!-- label: IV.4.8.6 -->
 
-*Let `k` be a field, `K` an extension of `k`, `A` a `k`-algebra, `M` an `A`-module, `N` a sub-`A_{(K)}`-module of
-`M_{(K)}`, `K'` a sub-extension of `K`. The following conditions are equivalent:*
+*Let $k$ be a field, $K$ an extension of $k$, $A$ a $k$-algebra, $M$ an $A$-module, $N$ a sub-$A_{(K)}$-module of
+$M_{(K)}$, $K'$ a sub-extension of $K$. The following conditions are equivalent:*
 
-*a) `N` is of the form `N' ⊗_{K'} K`, where `N'` is a sub-`A_{(K')}`-module of `M_{(K')}`.*
+*a) $N$ is of the form $N' \otimes_{K'} K$, where $N'$ is a sub-$A_{(K')}$-module of $M_{(K')}$.*
 
-*b) If `X = Spec(A)`, the quasi-coherent `𝒪_{X_{(K)}}`-Module `‾N` on `X_{(K)} = Spec(A_{(K)})` is defined over `K'`.*
+*b) If $X = \operatorname{Spec}(A)$, the quasi-coherent $\mathcal{O}_{X_{(K)}}$-Module $\overline{N}$ on $X_{(K)} =
+\operatorname{Spec}(A_{(K)})$ is defined over $K'$.*
 
-*c) `N` is of the form `N' ⊗_{K'} K`, where `N'` is a sub-`K'`-vector space of `M_{(K')}`.*
+*c) $N$ is of the form $N' \otimes_{K'} K$, where $N'$ is a sub-$K'$-vector space of $M_{(K')}$.*
 
 <!-- original page 82 -->
 
 The equivalence of a) and b) follows trivially from `(I, 1.6.5)`; it is clear on the other hand that a) implies c).
-Conversely, if c) is satisfied, one knows that one may write (up to canonical identification) `N' = N ∩ M_{(K')}`. Since
-`N` and `M_{(K')}` are by hypothesis `A_{(K')}`-modules, the same holds for `N'`.
+Conversely, if c) is satisfied, one knows that one may write (up to canonical identification) $N' = N \cap M_{(K')}$.
+Since $N$ and $M_{(K')}$ are by hypothesis $A_{(K')}$-modules, the same holds for $N'$.
 
 **Corollary (4.8.7).**
 
 <!-- label: IV.4.8.7 -->
 
-*Under the hypotheses of `(4.8.6)`, there exists a smallest sub-field `K'` of `K` containing `k` such that the
+*Under the hypotheses of `(4.8.6)`, there exists a smallest sub-field $K'$ of $K$ containing $k$ such that the
 equivalent conditions of `(4.8.6)` are satisfied.*
 
 It suffices to see this for condition c), where it follows from Bourbaki, Alg., chap. II, 3rd ed., §8, n° 6, prop. 6.
@@ -1792,124 +1903,133 @@ It suffices to see this for condition c), where it follows from Bourbaki, Alg., 
 
 *The notations being those of `(4.8.2)`:*
 
-*(i) Let `‾u : ℱ ⊗_k K → 𝒢 ⊗_k K` be an `𝒪_{X_{(K)}}`-homomorphism, and let `ℋ ⊂ (ℱ ⊗_k K) ⊕ (𝒢 ⊗_k K)` be its graph.
-For `‾u` to be defined over `K'`, it is necessary and sufficient that `ℋ` be so.*
+*(i) Let $\overline{u} : \mathcal{F} \otimes_{k} K \to \mathcal{G} \otimes_{k} K$ be an
+$\mathcal{O}_{X_{(K)}}$-homomorphism, and let $\mathcal{H} \subset (\mathcal{F} \otimes_{k} K) \oplus (\mathcal{G}
+\otimes_{k} K)$ be its graph. For $\overline{u}$ to be defined over $K'$, it is necessary and sufficient that
+$\mathcal{H}$ be so.*
 
-*(ii) Let `Z` be a closed sub-prescheme of `X_{(K)}`, and let `𝒥` be the quasi-coherent Ideal of `𝒪_{X_{(K)}}` defining
-`Z`. For `Z` to be defined over `K'`, it is necessary and sufficient that `𝒥` be so.*
+*(ii) Let $Z$ be a closed sub-prescheme of $X_{(K)}$, and let $\mathcal{J}$ be the quasi-coherent Ideal of
+$\mathcal{O}_{X_{(K)}}$ defining $Z$. For $Z$ to be defined over $K'$, it is necessary and sufficient that $\mathcal{J}$
+be so.*
 
-*(iii) Let `f` be a `K`-morphism: `X_{(K)} → Y_{(K)}` and let `Z` be the sub-prescheme of `(X ×_k Y)_{(K)}`, graph of
-`f` `(I, 5.3.11)`; for `f` to be defined over `K'`, it is necessary and sufficient that `Z` be so.*
+*(iii) Let $f$ be a $K$-morphism: $X_{(K)} \to Y_{(K)}$ and let $Z$ be the sub-prescheme of $(X \times_{k} Y)_{(K)}$,
+graph of $f$ `(I, 5.3.11)`; for $f$ to be defined over $K'$, it is necessary and sufficient that $Z$ be so.*
 
 Assertion (ii) follows at once from `(I, 4.4.5)`. The necessity in assertion (iii) is evident; suppose conversely that
-one has `Z = Z'_{(K)}`, where `Z'` is a sub-prescheme of `(X ×_k Y)_{(K')}`; if `p' : Z' → X_{(K')}` is the restriction
-to `Z'` of the first projection, one knows that `p'_{(K)}` is an isomorphism of preschemes, hence the same holds for
-`p'` `(2.7.1, (viii))`; but this means `(I, 5.3.11)` that `Z'` is the graph of a `K'`-morphism
-`f' : X_{(K')} → Y_{(K')}`, and one has then `f = f'_{(K)}` `(I, 5.3.12)`.
+one has $Z = Z'_{(K)}$, where $Z'$ is a sub-prescheme of $(X \times_{k} Y)_{(K')}$; if $p' : Z' \to X_{(K')}$ is the
+restriction to $Z'$ of the first projection, one knows that $p'_{(K)}$ is an isomorphism of preschemes, hence the same
+holds for $p'$ `(2.7.1, (viii))`; but this means `(I, 5.3.11)` that $Z'$ is the graph of a $K'$-morphism $f' : X_{(K')}
+\to Y_{(K')}$, and one has then $f = f'_{(K)}$ `(I, 5.3.12)`.
 
-Finally, to prove (i), one may, by virtue of `(4.8.5)`, suppose that `X = Spec(A)` is affine, `ℱ = ‾M`, `𝒢 = ‾N`, where
-`M` and `N` are `A`-modules, and `‾u = (‾v)_{(K)}`, where `‾v : M_{(K)} → N_{(K)}` is an `A_{(K)}`-homomorphism. Suppose
-that the graph of `‾v` is of the form `P'_{(K)}`, where `P'` is a sub-`A_{(K')}`-module of `M_{(K')} ⊕ N_{(K')}`; if
-`p' : P' → M_{(K')}` is the restriction to `P'` of the first projection, one knows that `p' ⊗ 1_K` is an isomorphism of
-`A_{(K)}`-modules, hence, by faithful flatness `(0_I, 6.4.1)`, `p'` is an isomorphism of `A_{(K')}`-modules, which
-proves that `P'` is the graph of an `A_{(K')}`-homomorphism `v' : M_{(K')} → N_{(K')}` and one has evidently
-`‾v = v' ⊗ 1_K`.
+Finally, to prove (i), one may, by virtue of `(4.8.5)`, suppose that $X = \operatorname{Spec}(A)$ is affine,
+$\mathcal{F} = \overline{M}$, $\mathcal{G} = \overline{N}$, where $M$ and $N$ are $A$-modules, and
+$\overline{u} = (\overline{v})_{(K)}$, where $\overline{v} : M_{(K)} \to N_{(K)}$ is an $A_{(K)}$-homomorphism. Suppose
+that the graph of $\overline{v}$ is of the form $P'_{(K)}$, where $P'$ is a sub-$A_{(K')}$-module of
+$M_{(K')} \oplus N_{(K')}$; if $p' : P' \to M_{(K')}$ is the restriction to $P'$ of the first projection, one knows that
+$p' \otimes 1_{K}$ is an isomorphism of $A_{(K)}$-modules, hence, by faithful flatness $(0_{I}, 6.4.1)$, $p'$ is an
+isomorphism of $A_{(K')}$-modules, which proves that $P'$ is the graph of an $A_{(K')}$-homomorphism
+$v' : M_{(K')} \to N_{(K')}$ and one has evidently $\overline{v} = v' \otimes 1_{K}$.
 
 **Proposition (4.8.9).**
 
 <!-- label: IV.4.8.9 -->
 
-*Let `k` be a field, `K` an extension of `k`, `X` a `k`-prescheme, `ℱ` a quasi-coherent `𝒪_X`-Module. Let `ℋ` be a
-quasi-coherent sub-`𝒪_{X_{(K)}}`-Module of `ℱ ⊗_k K`. Then there exists a smallest field of definition of `ℋ`.*
+*Let $k$ be a field, $K$ an extension of $k$, $X$ a $k$-prescheme, $\mathcal{F}$ a quasi-coherent
+$\mathcal{O}_{X}$-Module. Let $\mathcal{H}$ be a quasi-coherent sub-$\mathcal{O}_{X_{(K)}}$-Module of $\mathcal{F}
+\otimes_{k} K$. Then there exists a smallest field of definition of $\mathcal{H}$.*
 
-When `X` is affine, the assertion is none other than `(4.8.7)`. In the general case, consider a covering `(X_α)` of `X`
-by affine open sets; by virtue of what precedes, there exists for every `α` a smallest sub-field `K_α` of `K` containing
-`k` and such that `ℋ | (X_α)_{(K)}` is defined over `K_α`. By virtue of `(4.8.5)`, the sub-field of `K` generated by the
-`K_α` is the smallest field of definition of `ℋ`.
+When $X$ is affine, the assertion is none other than `(4.8.7)`. In the general case, consider a covering $(X_{\alpha})$
+of $X$ by affine open sets; by virtue of what precedes, there exists for every $\alpha$ a smallest sub-field
+$K_{\alpha}$ of $K$ containing $k$ and such that $\mathcal{H} | (X_{\alpha})_{(K)}$ is defined over $K_{\alpha}$. By
+virtue of `(4.8.5)`, the sub-field of $K$ generated by the $K_{\alpha}$ is the smallest field of definition of
+$\mathcal{H}$.
 
 **Corollary (4.8.10).**
 
 <!-- label: IV.4.8.10 -->
 
-*The notations being those of `(4.8.9)`, let `𝒢` be a second quasi-coherent `𝒪_X`-Module, and let
-`‾u : ℱ ⊗_k K → 𝒢 ⊗_k K` be an `𝒪_{X_{(K)}}`-homomorphism; then there exists a smallest field of definition of `‾u`.*
+*The notations being those of `(4.8.9)`, let $\mathcal{G}$ be a second quasi-coherent $\mathcal{O}_{X}$-Module, and let
+$\overline{u} : \mathcal{F} \otimes_{k} K \to \mathcal{G} \otimes_{k} K$ be an $\mathcal{O}_{X_{(K)}}$-homomorphism;
+then there exists a smallest field of definition of $\overline{u}$.*
 
 <!-- original page 83 -->
 
-Indeed, it follows from `(4.8.8)` that such a field is also a smallest field of definition of the graph of `‾u`, and the
-existence of the latter follows from `(4.8.9)`.
+Indeed, it follows from `(4.8.8)` that such a field is also a smallest field of definition of the graph of
+$\overline{u}$, and the existence of the latter follows from `(4.8.9)`.
 
 **Corollary (4.8.11).**
 
 <!-- label: IV.4.8.11 -->
 
-*Let `k` be a field, `X` a `k`-prescheme, `K` an extension of `k`, `Z` a closed sub-prescheme of `X_{(K)}`; then there
-exists a smallest field of definition of `Z`.*
+*Let $k$ be a field, $X$ a $k$-prescheme, $K$ an extension of $k$, $Z$ a closed sub-prescheme of $X_{(K)}$; then there
+exists a smallest field of definition of $Z$.*
 
-Indeed, if `𝒥` is the quasi-coherent Ideal of `𝒪_{X_{(K)}}` defining `Z`, it follows from `(4.8.8)` that this is
-equivalent to the existence of a smallest field of definition of `𝒥`, which follows from `(4.8.9)`.
+Indeed, if $\mathcal{J}$ is the quasi-coherent Ideal of $\mathcal{O}_{X_{(K)}}$ defining $Z$, it follows from `(4.8.8)`
+that this is equivalent to the existence of a smallest field of definition of $\mathcal{J}$, which follows from
+`(4.8.9)`.
 
 **Corollary (4.8.12).**
 
 <!-- label: IV.4.8.12 -->
 
-*Let `k` be a field, `X`, `Y` two `k`-preschemes, `Y` being assumed separated, `K` an extension of `k`,
-`f : X_{(K)} → Y_{(K)}` a `K`-morphism. There exists then a smallest field of definition of `f`.*
+*Let $k$ be a field, $X$, $Y$ two $k$-preschemes, $Y$ being assumed separated, $K$ an extension of $k$, $f : X_{(K)} \to
+Y_{(K)}$ a $K$-morphism. There exists then a smallest field of definition of $f$.*
 
 Indeed, the existence of such a field, by virtue of `(4.8.8)`, is equivalent to that of a smallest field of definition
-of the graph `Z` of `f`; but since `Z` is a closed sub-prescheme of `(X ×_k Y)_{(K)}` `(I, 5.4.3)`, the existence of a
-smallest field of definition of `Z` follows from `(4.8.11)`.
+of the graph $Z$ of $f$; but since $Z$ is a closed sub-prescheme of $(X \times_{k} Y)_{(K)}$ `(I, 5.4.3)`, the existence
+of a smallest field of definition of $Z$ follows from `(4.8.11)`.
 
 **Proposition (4.8.13).**
 
 <!-- label: IV.4.8.13 -->
 
-*Under the hypotheses of `(4.8.11)` (resp. `(4.8.9)`, `(4.8.10)`, `(4.8.12)`) suppose in addition that `X` be of finite
-type over `k` (resp. that `X` be of finite type over `k` and `ℱ` coherent, resp. that `X` be of finite type over `k` and
-`ℱ` and `𝒢` coherent, resp. that `X` and `Y` be of finite type over `k`). Then the smallest field of definition of `Z`
-(resp. of `ℋ`, of `‾u`, of `f`) is an extension of finite type of `k`.*
+*Under the hypotheses of `(4.8.11)` (resp. `(4.8.9)`, `(4.8.10)`, `(4.8.12)`) suppose in addition that $X$ be of finite
+type over $k$ (resp. that $X$ be of finite type over $k$ and $\mathcal{F}$ coherent, resp. that $X$ be of finite type
+over $k$ and $\mathcal{F}$ and $\mathcal{G}$ coherent, resp. that $X$ and $Y$ be of finite type over $k$). Then the
+smallest field of definition of $Z$ (resp. of $\mathcal{H}$, of $\overline{u}$, of $f$) is an extension of finite type
+of $k$.*
 
-One may restrict to treating the case of `(4.8.9)`, and suppose `X` affine since `X` is a finite union of affine open
-sets of finite type over `k`. With the notations of `(4.8.6)`, everything reduces to showing that if `A` is an algebra
-of finite type over `k` and `M` an `A`-module of finite type, there is a sub-extension `K'` of `K` satisfying conditions
-a), b) or c) and which is of finite type over `k` (every sub-extension of an extension of finite type being of finite
-type). Now, let `(m_i)_{1 ≤ i ≤ n}` be a system of generators of the `A`-module `M`; since `A` is Noetherian, the same
-holds for `A_{(K)}`, hence `N` is an `A_{(K)}`-module of finite type, admitting a finite system of generators `n_j`
-`(1 ≤ j ≤ r)` such that `n_j = Σ_i (m_i ⊗ 1) b_{ij}`, where `b_{ij} ∈ A_{(K)}`; each `b_{ij}` writes moreover
-`b_{ij} = Σ_h a_{ijh} ⊗ c_{ijh}`, where `a_{ijh} ∈ A` and `c_{ijh} ∈ K`; it is clear that the extension `K'` of `k`
-generated by the `c_{ijh}` answers the question.
+One may restrict to treating the case of `(4.8.9)`, and suppose $X$ affine since $X$ is a finite union of affine open
+sets of finite type over $k$. With the notations of `(4.8.6)`, everything reduces to showing that if $A$ is an algebra
+of finite type over $k$ and $M$ an $A$-module of finite type, there is a sub-extension $K'$ of $K$ satisfying conditions
+a), b) or c) and which is of finite type over $k$ (every sub-extension of an extension of finite type being of finite
+type). Now, let $(m_{i})_{1 \leq i \leq n}$ be a system of generators of the $A$-module $M$; since $A$ is Noetherian,
+the same holds for $A_{(K)}$, hence $N$ is an $A_{(K)}$-module of finite type, admitting a finite system of generators
+$n_{j}$ $(1 \leq j \leq r)$ such that $n_{j} = \Sigma_{i} (m_{i} \otimes 1) b_{ij}$, where $b_{ij} \in A_{(K)}$; each
+$b_{ij}$ writes moreover $b_{ij} = \Sigma_{h} a_{ijh} \otimes c_{ijh}$, where $a_{ijh} \in A$ and $c_{ijh} \in K$; it is
+clear that the extension $K'$ of $k$ generated by the $c_{ijh}$ answers the question.
 
 **Proposition (4.8.14).**
 
 <!-- label: IV.4.8.14 -->
 
-*Let `k` be a field, `X` a `k`-prescheme of finite type, `K` an extension of `k` containing a perfect extension of `k`.
-Then the smallest field of definition of the closed sub-prescheme `(X_{(K)})_red` of `X_{(K)}` is a finite radicial
-extension of `k`.*
+*Let $k$ be a field, $X$ a $k$-prescheme of finite type, $K$ an extension of $k$ containing a perfect extension of $k$.
+Then the smallest field of definition of the closed sub-prescheme $(X_{(K)})_{red}$ of $X_{(K)}$ is a finite radicial
+extension of $k$.*
 
-If `p` is the characteristic exponent of `k`, the hypothesis implies that `k' = k^{1/p^∞}` is contained in `K`; one
-knows that `(X_{(k')})_red` is geometrically reduced over `k'` `(4.6.1)`, hence `(X_{(k')})_red ⊗_{k'} K` is reduced,
-and consequently equal to `(X_{(K)})_red` `(I, 5.1.8)`; in other words, `k'` is a field of definition of
-`(X_{(K)})_red`. Since `k'` is an algebraic extension of `k`, the conclusion follows from `(4.8.13)`.
+If $p$ is the characteristic exponent of $k$, the hypothesis implies that $k' = k^{1/p^{\infty}}$ is contained in $K$;
+one knows that $(X_{(k')})_{red}$ is geometrically reduced over $k'$ `(4.6.1)`, hence $(X_{(k')})_{red} \otimes_{k'} K$
+is reduced, and consequently equal to $(X_{(K)})_{red}$ `(I, 5.1.8)`; in other words, $k'$ is a field of definition of
+$(X_{(K)})_{red}$. Since $k'$ is an algebraic extension of $k$, the conclusion follows from `(4.8.13)`.
 
 **Remarks (4.8.15).**
 
 <!-- label: IV.4.8.15 -->
 
-(i) The conclusion of `(4.8.14)` does not necessarily subsist if one does not suppose that `K` contains a perfect
-extension of `k`. For example, let `k_0`
+(i) The conclusion of `(4.8.14)` does not necessarily subsist if one does not suppose that $K$ contains a perfect
+extension of $k$. For example, let $k_{0}$
 
 <!-- original page 84 -->
 
-be a field of characteristic `p ≠ 0`, `k` the field of rational fractions `k_0(s, t)` in 2 indeterminates, `L` the field
-`k(s^{1/p}, t^{1/p})` and `X = Spec(L)`. Let on the other hand `u` be a third indeterminate and let `K` be the field
-`k(u, s^{1/p} + ut^{1/p})`; one verifies easily that `k` is algebraically closed in `K` and that `L ⊗_k K` has a
-non-zero nilradical, hence `X_{(K)}` is not reduced; but as `(X_{(K)})_red` is not defined over `k`, and `K` contains no
-sub-extension of finite degree over `k` other than `k`, the smallest field of definition of `(X_{(K)})_red` cannot be
-finite over `k`.
+be a field of characteristic $p \neq 0$, $k$ the field of rational fractions $k_{0}(s, t)$ in 2 indeterminates, $L$ the
+field $k(s^{1/p}, t^{1/p})$ and $X = \operatorname{Spec}(L)$. Let on the other hand $u$ be a third indeterminate and let
+$K$ be the field $k(u, s^{1/p} + ut^{1/p})$; one verifies easily that $k$ is algebraically closed in $K$ and that $L
+\otimes_{k} K$ has a non-zero nilradical, hence $X_{(K)}$ is not reduced; but as $(X_{(K)})_{red}$ is not defined over
+$k$, and $K$ contains no sub-extension of finite degree over $k$ other than $k$, the smallest field of definition of
+$(X_{(K)})_{red}$ cannot be finite over $k$.
 
-(ii) Given an element of one of the target sets of the maps `(4.8.2)`, and an extension `K_1` of `K`, it is equivalent
-to say that the object considered admits a smallest field of definition or that its image by `s_{K_1, K}` admits a
+(ii) Given an element of one of the target sets of the maps `(4.8.2)`, and an extension `K_1` of $K$, it is equivalent
+to say that the object considered admits a smallest field of definition or that its image by $s_{K_{1}, K}$ admits a
 smallest sub-field of definition (the two sub-fields being necessarily the same), as one has seen in `(4.8.4)`.
 
 ### 4.9. Field of definition of a part of a prescheme
@@ -1918,60 +2038,61 @@ smallest sub-field of definition (the two sub-fields being necessarily the same)
 
 <!-- label: IV.4.9.1 -->
 
-*Let `k` be a field, `X` a `k`-prescheme, `K` an extension of `k`, `T` a closed part of `X_{(K)}`, `K'` a sub-extension
-of `K`. The following conditions are equivalent:*
+*Let $k$ be a field, $X$ a $k$-prescheme, $K$ an extension of $k$, $T$ a closed part of $X_{(K)}$, $K'$ a sub-extension
+of $K$. The following conditions are equivalent:*
 
-*a) `T` is defined over `K'`.*
+*a) $T$ is defined over $K'$.*
 
-*b) The open part `U = X_{(K)} − T` of `X_{(K)}` is defined over `K'`.*
+*b) The open part $U = X_{(K)} - T$ of $X_{(K)}$ is defined over $K'$.*
 
-*b') The sub-prescheme of `X_{(K)}` induced on the open set `U` is defined over `K'`.*
+*b') The sub-prescheme of $X_{(K)}$ induced on the open set $U$ is defined over $K'$.*
 
-*c) There exists a closed sub-prescheme `Z` of `X_{(K)}` having `T` as underlying space, and defined over `K'`.*
+*c) There exists a closed sub-prescheme $Z$ of $X_{(K)}$ having $T$ as underlying space, and defined over $K'$.*
 
-If `g : X_{(K)} → X_{(K')}` is the canonical projection, to say that `T` is defined over `K'` means that there exists a
-closed part `T'` of `X_{(K')}` such that `T = g⁻¹(T')`; since `g⁻¹(X_{(K')} − T') = X_{(K)} − g⁻¹(T')` for every part
-`T'` of `X_{(K')}`, a), b) and b') are equivalent. If `Z`, having `T` as underlying space, is defined over `K'`, one has
-`Z = Z' ⊗_{K'} K`, where `Z'` is a closed sub-prescheme of `X_{(K')}`, and if `T'` is the sub-space underlying `Z'`, one
-knows that `T = g⁻¹(T')` `(I, 4.4.1)`, hence `T` is defined over `K'`. Conversely, to see that a) implies c), it
-suffices to consider a closed sub-prescheme `Z'` of `X_{(K')}` having as underlying space `T'` `(I, 5.2.1)` and to take
-`Z = Z' ⊗_{K'} K`.
+If $g : X_{(K)} \to X_{(K')}$ is the canonical projection, to say that $T$ is defined over $K'$ means that there exists
+a closed part $T'$ of $X_{(K')}$ such that $T = g^{-1}(T')$; since $g^{-1}(X_{(K')} - T') = X_{(K)} - g^{-1}(T')$ for
+every part $T'$ of $X_{(K')}$, a), b) and b') are equivalent. If $Z$, having $T$ as underlying space, is defined over
+$K'$, one has $Z = Z' \otimes_{K'} K$, where $Z'$ is a closed sub-prescheme of $X_{(K')}$, and if $T'$ is the sub-space
+underlying $Z'$, one knows that $T = g^{-1}(T')$ `(I, 4.4.1)`, hence $T$ is defined over $K'$. Conversely, to see that
+a) implies c), it suffices to consider a closed sub-prescheme $Z'$ of $X_{(K')}$ having as underlying space $T'$
+`(I, 5.2.1)` and to take $Z = Z' \otimes_{K'} K$.
 
 **Corollary (4.9.2).**
 
 <!-- label: IV.4.9.2 -->
 
-*With the notations of `(4.9.1)`, suppose that `K'` is a field of definition of `T`; every extension `K'' ⊂ K'` of `k`
-such that `K'` is a radicial extension of `K''`, is also a field of definition of `T`.*
+*With the notations of `(4.9.1)`, suppose that $K'$ is a field of definition of $T$; every extension $K'' \subset K'$ of
+$k$ such that $K'$ is a radicial extension of `K''`, is also a field of definition of $T$.*
 
-It suffices to observe that the canonical projection `g : X_{(K')} → X_{(K'')}` is an integral, surjective and radicial
-morphism, hence a homeomorphism `(2.4.5)`.
+It suffices to observe that the canonical projection $g : X_{(K')} \to X_{(K'')}$ is an integral, surjective and
+radicial morphism, hence a homeomorphism `(2.4.5)`.
 
 **Remark (4.9.3).**
 
 <!-- label: IV.4.9.3 -->
 
-*It follows from `(4.9.2)` that a closed part `T` of `X_{(K)}` does not necessarily admit a smallest field of
-definition. For example, if `K = k(t)`, where `t` is an indeterminate and `k` a perfect field of characteristic `p > 0`,
-a closed part `F` of `X_{(K)}` can have a smallest field of definition only if it is already defined over `k`: indeed,
-for every sub-field `K'` of `K` containing `k` and `≠ k`, one has `K' ≠ K^p`, `K^p` contains `k`, and `K'`*
+*It follows from `(4.9.2)` that a closed part $T$ of $X_{(K)}$ does not necessarily admit a smallest field of
+definition. For example, if $K = k(t)$, where $t$ is an indeterminate and $k$ a perfect field of characteristic $p > 0$,
+a closed part $F$ of $X_{(K)}$ can have a smallest field of definition only if it is already defined over $k$: indeed,
+for every sub-field $K'$ of $K$ containing $k$ and $\neq k$, one has $K' \neq K^{p}$, $K^{p}$ contains $k$, and $K'$*
 
 <!-- original page 85 -->
 
-*is a radicial extension of `K^p`, hence if `K'` is a field of definition of `F`, the same holds for `K^p`. However:*
+*is a radicial extension of $K^{p}$, hence if $K'$ is a field of definition of $F$, the same holds for $K^{p}$.
+However:*
 
 **Proposition (4.9.4).**
 
 <!-- label: IV.4.9.4 -->
 
-*With the notations of `(4.9.1)`, suppose that `K` is a separable extension of `K'`; for `K'` to be a field of
-definition of `T`, it is necessary and sufficient that `K'` be a field of definition of the reduced sub-prescheme of
-`X_{(K)}` having `T` as underlying space.*
+*With the notations of `(4.9.1)`, suppose that $K$ is a separable extension of $K'$; for $K'$ to be a field of
+definition of $T$, it is necessary and sufficient that $K'$ be a field of definition of the reduced sub-prescheme of
+$X_{(K)}$ having $T$ as underlying space.*
 
-The condition is evidently sufficient by virtue of `(4.9.1)`; to see that it is necessary, note that if `T = g⁻¹(T')`,
-where `T'` is a closed part of `X_{(K')}`, and if `Z'` is the reduced sub-prescheme of `X_{(K')}` having `T'` as
-underlying space, then `Z = Z' ⊗_{K'} K = Spec(K) ×_{K'} Z'` is reduced by virtue of the criterion `(4.6.1, e)` and the
-hypothesis on `K` and has `T` as underlying space.
+The condition is evidently sufficient by virtue of `(4.9.1)`; to see that it is necessary, note that if $T =
+g^{-1}(T')$, where $T'$ is a closed part of $X_{(K')}$, and if $Z'$ is the reduced sub-prescheme of $X_{(K')}$ having
+$T'$ as underlying space, then $Z = Z' \otimes_{K'} K = \operatorname{Spec}(K) \times_{K'} Z'$ is reduced by virtue of
+the criterion `(4.6.1, e)` and the hypothesis on $K$ and has $T$ as underlying space.
 
 **Corollary (4.9.5).**
 
@@ -1979,54 +2100,55 @@ hypothesis on `K` and has `T` as underlying space.
 
 *Suppose one of the following hypotheses is satisfied:*
 
-*a) `k` is of characteristic 0.*
+*a) $k$ is of characteristic 0.*
 
-*b) `K` is an algebraic extension of `k` and `X` is of finite type over `k`.*
+*b) $K$ is an algebraic extension of $k$ and $X$ is of finite type over $k$.*
 
-*Then every closed part `T` of `X_{(K)}` possesses a smallest field of definition, which is a separable extension of `k`
-(and finite over `k` in hypothesis b)).*
+*Then every closed part $T$ of $X_{(K)}$ possesses a smallest field of definition, which is a separable extension of $k$
+(and finite over $k$ in hypothesis b)).*
 
-In hypothesis a), `K` is separable over each of its sub-fields, and it follows therefore from `(4.9.4)` that the fields
-of definition of `T` are the same as those of the reduced sub-prescheme of `X_{(K)}` having `T` as underlying space. The
-corollary then follows from `(4.8.11)`. In hypothesis b), one knows that `K` is a radicial extension of a separable
-extension `K_1` of `k`. Then, for every sub-extension `K'` of `K`, `K'` is radicial over `K' ∩ K_1`, hence, by virtue of
-`(4.9.2)`, `K'` is a field of definition of `T` if and only if `K' ∩ K_1` is. This reduces us to the case where
-`K' = K_1`, hence to the case where `K'` is a separable algebraic extension of `k`, and one finishes the reasoning as in
-case a).
+In hypothesis a), $K$ is separable over each of its sub-fields, and it follows therefore from `(4.9.4)` that the fields
+of definition of $T$ are the same as those of the reduced sub-prescheme of $X_{(K)}$ having $T$ as underlying space. The
+corollary then follows from `(4.8.11)`. In hypothesis b), one knows that $K$ is a radicial extension of a separable
+extension `K_1` of $k$. Then, for every sub-extension $K'$ of $K$, $K'$ is radicial over $K' \cap K_{1}$, hence, by
+virtue of `(4.9.2)`, $K'$ is a field of definition of $T$ if and only if $K' \cap K_{1}$ is. This reduces us to the case
+where $K' = K_{1}$, hence to the case where $K'$ is a separable algebraic extension of $k$, and one finishes the
+reasoning as in case a).
 
 **Proposition (4.9.6).**
 
 <!-- label: IV.4.9.6 -->
 
-*Let `k` be a field, `X` a `k`-prescheme, `K` an extension of `k`, `U` an open and closed part of `X_{(K)}`, `V` its
-complement. Let `K'` be a sub-extension of `K`; then the following conditions are equivalent:*
+*Let $k$ be a field, $X$ a $k$-prescheme, $K$ an extension of $k$, $U$ an open and closed part of $X_{(K)}$, $V$ its
+complement. Let $K'$ be a sub-extension of $K$; then the following conditions are equivalent:*
 
-*a) `K'` is a field of definition of the part `U` of `X_{(K)}`.*
+*a) $K'$ is a field of definition of the part $U$ of $X_{(K)}$.*
 
-*a') `K'` is a field of definition of the closed sub-prescheme of `X_{(K)}` induced on the open set `U`.*
+*a') $K'$ is a field of definition of the closed sub-prescheme of $X_{(K)}$ induced on the open set $U$.*
 
-*b) `K'` is a field of definition of the part `V` of `X_{(K)}`.*
+*b) $K'$ is a field of definition of the part $V$ of $X_{(K)}$.*
 
-*b') `K'` is a field of definition of the closed sub-prescheme of `X_{(K)}` induced on the open set `V`.*
+*b') $K'$ is a field of definition of the closed sub-prescheme of $X_{(K)}$ induced on the open set $V$.*
 
-It is clear that a') implies a), and a) implies b') by virtue of `(4.9.1)`. Since `U` and `V` play symmetric roles, b')
+It is clear that a') implies a), and a) implies b') by virtue of `(4.9.1)`. Since $U$ and $V$ play symmetric roles, b')
 implies b) and b) implies a'), which finishes the proof.
 
 **Corollary (4.9.7).**
 
 <!-- label: IV.4.9.7 -->
 
-*Under the hypotheses of `(4.9.6)`, there exists a smallest field of definition `K'` for the part `U` of `X_{(K)}`, and
-`K'` is also the smallest field of definition of the part `V` of `X_{(K)}` and of the closed sub-preschemes of `X_{(K)}`
-induced on the open sets `U` and `V`. If in addition `X` is of finite type over `k`, `K'` is a finite separable
-extension of `k`.*
+*Under the hypotheses of `(4.9.6)`, there exists a smallest field of definition $K'$ for the part $U$ of $X_{(K)}$, and
+$K'$ is also the smallest field of definition of the part $V$ of $X_{(K)}$ and of the closed sub-preschemes of $X_{(K)}$
+induced on the open sets $U$ and $V$. If in addition $X$ is of finite type over $k$, $K'$ is a finite separable
+extension of $k$.*
 
 Taking into account `(4.9.6)` and `(4.8.11)`, there is only the last assertion to prove. By virtue of `(4.8.15, (ii))`,
-one may restrict to the case where `K` is algebraically closed. Let then `‾k` be the algebraic closure of `k` contained
-in `K`, and denote by `W_i` the connected
+one may restrict to the case where $K$ is algebraically closed. Let then $\overline{k}$ be the algebraic closure of $k$
+contained in $K$, and denote by $W_{i}$ the connected
 
 <!-- original page 86 -->
 
-components of `X_{(‾k)}` `(1 ≤ i ≤ m)`; if `p : X_{(K)} → X_{(‾k)}` is the canonical projection, one knows that the
-`p⁻¹(W_i)` are the connected components of `X_{(K)}` `(4.4.6)`, hence `U` is a union of a certain number of these
-components, and is consequently defined over `‾k`; the conclusion follows accordingly from `(4.9.5, b)`.
+components of $X_{(\overline{k})}$ $(1 \leq i \leq m)$; if $p : X_{(K)} \to X_{(\overline{k})}$ is the canonical
+projection, one knows that the $p^{-1}(W_{i})$ are the connected components of $X_{(K)}$ `(4.4.6)`, hence $U$ is a union
+of a certain number of these components, and is consequently defined over $\overline{k}$; the conclusion follows
+accordingly from `(4.9.5, b)`.

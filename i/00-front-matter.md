@@ -124,30 +124,30 @@ the principal tools used in this treatise, and seems to us one of the most power
 geometry.
 
 The general technique in which it fits may be sketched as follows (a typical example will be given in Chapter IX, in the
-study of the fundamental group). One has a proper morphism (Chapter II) `f : X → Y` from one algebraic variety to
-another (more generally, from one scheme to another) that one wishes to study in a neighborhood of a point `y ∈ Y`, with
-a view to solving a problem `P` relating to a neighborhood of `y`. One proceeds in successive steps:
+study of the fundamental group). One has a proper morphism (Chapter II) $f : X \to Y$ from one algebraic variety to
+another (more generally, from one scheme to another) that one wishes to study in a neighborhood of a point $y \in Y$,
+with a view to solving a problem $P$ relating to a neighborhood of $y$. One proceeds in successive steps:
 
-1° One may assume that `Y` is affine, so that `X` becomes a scheme defined over the affine ring `A` of `Y`, and one may
-even replace `A` by the local ring of `y`. This reduction is always easy in practice (Chapter V) and reduces us to the
-case where `A` is a _local_ ring.
+1° One may assume that $Y$ is affine, so that $X$ becomes a scheme defined over the affine ring $A$ of $Y$, and one may
+even replace $A$ by the local ring of $y$. This reduction is always easy in practice (Chapter V) and reduces us to the
+case where $A$ is a _local_ ring.
 
-2° One studies the problem under consideration when `A` is a local _Artinian_ ring. For the problem to retain a meaning
-when `A` is not assumed to be an integral domain, it is sometimes necessary to reformulate `P`; this reformulation often
+2° One studies the problem under consideration when $A$ is a local _Artinian_ ring. For the problem to retain a meaning
+when $A$ is not assumed to be an integral domain, it is sometimes necessary to reformulate $P$; this reformulation often
 yields a better understanding of the problem, which is "infinitesimal" in nature at this stage.
 
 3° The theory of formal schemes (Chapter III, §§3, 4, and 5) allows one to pass from the case of an Artinian ring to
 that of a _complete local ring_.
 
-4° Finally, if `A` is an arbitrary local ring, consideration of "multiform sections" over suitable schemes over `X`,
+4° Finally, if $A$ is an arbitrary local ring, consideration of "multiform sections" over suitable schemes over $X$,
 approximating a given "formal" section (Chapter IV), will often allow one to pass from a result known for the scheme
-obtained from `X` by extension of scalars to the completion of `A`, to an analogous result for a suitably simple finite
-extension (for example, an unramified one) of `A`.
+obtained from $X$ by extension of scalars to the completion of $A$, to an analogous result for a suitably simple finite
+extension (for example, an unramified one) of $A$.
 
-This sketch shows the importance of the systematic study of schemes defined over an Artinian ring `A`. Serre's viewpoint
+This sketch shows the importance of the systematic study of schemes defined over an Artinian ring $A$. Serre's viewpoint
 in his formulation of local class field theory, and the recent work of Greenberg, suggest that such a study might be
-undertaken by attaching functorially to such a scheme `X` a scheme `X′` over the residue field `k` of `A` (assumed
-perfect) of dimension equal (in favorable cases) to `n · dim X`, where `n` is the length of `A`.
+undertaken by attaching functorially to such a scheme $X$ a scheme $X'$ over the residue field $k$ of $A$ (assumed
+perfect) of dimension equal (in favorable cases) to $n \cdot \dim X$, where $n$ is the length of $A$.
 
 As for the influence of A. Weil, let it suffice to say that one of the principal motivations behind the writing of this
 treatise has been the need to develop the apparatus necessary to formulate, with all the desired generality, the
@@ -176,19 +176,18 @@ chapter, the `4` the paragraph, and the `9.3` the item within the paragraph. _Wi
 prefix is omitted.
 
 [^intro-1]: As J.-P. Serre has pointed out to us, the idea of defining the structure of a variety by giving a sheaf of
-    rings is due to H. Cartan, who took it as the starting point of his theory of analytic spaces. Of course,
-    just as in algebraic geometry, it would be important, in "analytic geometry", to admit nilpotent elements in
-    the local rings of analytic spaces. This extension of the definition of H. Cartan and J.-P. Serre has
-    recently been taken up by H. Grauert [5], and there is reason to hope that a systematic exposition of
-    analytic geometry in this general setting will soon appear. It is also clear that the notions and techniques
-    developed in this treatise retain their meaning in analytic geometry, although one must expect more
-    considerable technical difficulties in that theory. One can foresee that algebraic geometry, by the
-    simplicity of its methods, may serve as a kind of formal model for future developments in the theory of
-    analytic spaces.
+    rings is due to H. Cartan, who took it as the starting point of his theory of analytic spaces. Of course, just as in
+    algebraic geometry, it would be important, in "analytic geometry", to admit nilpotent elements in the local rings of
+    analytic spaces. This extension of the definition of H. Cartan and J.-P. Serre has recently been taken up by H.
+    Grauert [5], and there is reason to hope that a systematic exposition of analytic geometry in this general setting
+    will soon appear. It is also clear that the notions and techniques developed in this treatise retain their meaning
+    in analytic geometry, although one must expect more considerable technical difficulties in that theory. One can
+    foresee that algebraic geometry, by the simplicity of its methods, may serve as a kind of formal model for future
+    developments in the theory of analytic spaces.
 
 [^intro-2]: Among works close in spirit to our viewpoint in algebraic geometry, let us mention the important work of E.
-    Kähler [22] and a recent Note of Chow and Igusa [3], which take up, within the Nagata–Chevalley framework,
-    certain results of (FAC) and also give a Künneth formula.
+    Kähler [22] and a recent Note of Chow and Igusa [3], which take up, within the Nagata–Chevalley framework, certain
+    results of (FAC) and also give a Künneth formula.
 
 [^intro-3]: To avoid any misunderstanding, we point out that this task has barely been undertaken at the time this
     Introduction is being written, and so has not yet led to a proof of the Weil conjectures.
