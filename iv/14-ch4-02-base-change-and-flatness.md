@@ -1949,7 +1949,7 @@ Y$ a morphism, $X_{\eta} = f^{-1}(\eta)$ the fibre at the*
 *generic point, $i : X_{\eta} \to X$ the canonical morphism. Let $\mathcal{F}$ be a quasi-coherent
 $\mathcal{O}_{X}$-Module, $\mathcal{F}_{\eta} = i*(\mathcal{F})$, $\mathcal{G}_{\eta}$ an
 $\mathcal{O}_{X_{\eta}}$-Module quotient of $\mathcal{F}_{\eta}$, and let $\mathcal{G}$ be the $\mathcal{O}_{X}$-Module
-image of $\mathcal{F}$ under the composite homomorphism \`(0_I, 4.4.3.2)*
+image of $\mathcal{F}$ under the composite homomorphism (0_I, 4.4.3.2)*
 
 ```text
                   ℱ →ρ i_*(i*(ℱ)) = i_*(ℱ_η) → i_*(𝒢_η).

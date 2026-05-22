@@ -1,6 +1,6 @@
 <!-- original page 182 -->
 
-## §7. Application to relations between a Noetherian local ring and its completion. Excellent rings.
+## §7. Application to relations between a Noetherian local ring and its completion. Excellent rings
 
 The present section is devoted above all to the exposition of certain properties of Noetherian rings, generally stable
 under passage to an algebra of finite type or under localization, which are true for the rings one encounters most often
@@ -29,7 +29,7 @@ in the later chapters.
 
 <!-- original page 183 -->
 
-### 7.1. Formal equidimensionality and formally catenary rings.
+### 7.1. Formal equidimensionality and formally catenary rings
 
 **Definition (7.1.1).**
 
@@ -305,7 +305,7 @@ But one has $\dim(\mathcal{O}_{X, z}) \leq \dim(\mathcal{O}_{y})$ `(0, 16.3.9)`,
 the generic point of $X$, $\dim(\mathcal{O}_{X, z}) > 0$; hence $\dim(\mathcal{O}_{X, z}) = 1$ and $\dim(Z) =
 \dim(f^{-1}(\eta))$.
 
-### 7.2. Strictly formally catenary rings.
+### 7.2. Strictly formally catenary rings
 
 **Notations (7.2.1).**
 
@@ -601,7 +601,7 @@ prime ideals `(6.4.3)`. We are likewise unaware whether, in the equivalent condi
 replace the hypothesis that $A$ is universally catenary by the hypothesis that $A$ is catenary; one can show that this
 is so when $A$ is Henselian `(18.9.6)`.*
 
-### 7.3. Formal fibres of Noetherian local rings.
+### 7.3. Formal fibres of Noetherian local rings
 
 **(7.3.1)** We shall consider in this number and the two following ones properties $\mathbf{P}(Z, k)$ of the following
 form:
@@ -982,7 +982,7 @@ $K$ for the valuation corresponding to $A$ (the field of fractions of `Â`), in 
 geometrically regular, it is necessary and sufficient that $\hat{K}$ be a separable extension of $K$. This will always
 be the case when $K$ is of characteristic `0`.*
 
-### 7.4. Permanence of properties of formal fibres.
+### 7.4. Permanence of properties of formal fibres
 
 **(7.4.1)** In the whole of this number, we suppose that the property $\mathbf{P}$ is of the form defined in `(7.3.1)`,
 and satisfies conditions `(P_I)`, `(P_II)` and $(P_{III})$ of `(7.3.4)`. We suppose moreover that the property
@@ -1257,7 +1257,7 @@ $(0_{I}, 7.6.1)$ and $A_{(S)}$ $(0_{I}, 7.6.15)$ $\mathbf{P}$-rings?*
 
 <!-- original page 203 -->
 
-### 7.5. A criterion for $\mathbf{P}$-morphisms.
+### 7.5. A criterion for $\mathbf{P}$-morphisms
 
 **(7.5.0)** This number will not be used in the sequel of Chapter IV, and may therefore be omitted at a first reading.
 We shall see moreover further on `(7.9.8)` that the results of the present number can be considerably improved when one
@@ -1670,7 +1670,7 @@ exponent of $k$)). Likewise, it would be desirable to develop variants of `(7.5.
 weaken the hypothesis of finiteness of the residue fields of $A$ and $B$, by supposing for example that only one of them
 is a finite extension of $k$, the other being arbitrary.*
 
-### 7.6. Applications: I. Local Japanese rings.
+### 7.6. Applications: I. Local Japanese rings
 
 **Proposition (7.6.1).**
 
@@ -1882,7 +1882,7 @@ the two following conditions are equivalent:*
 *When $A$ is a universally catenary ring, one can prove that condition b) entails conversely a'); we shall have no need
 to use this result.*
 
-### 7.7. Applications: II. Universally Japanese rings.
+### 7.7. Applications: II. Universally Japanese rings
 
 **(7.7.1)** Recall `(0, 23.1.1)` that one calls **universally Japanese ring** a ring $A$ such that every integral
 $A$-algebra of finite type is a Japanese ring. It comes to the same to say that for every integral $A$-algebra of finite
@@ -1969,7 +1969,7 @@ The first assertion results from `(7.7.3)`, `(7.6.7, (i))` and `(6.12.6)`. The s
 
 <!-- original page 214 -->
 
-### 7.8. Excellent rings.
+### 7.8. Excellent rings
 
 **(7.8.1)** The preceding numbers of this section (as well as `(6.11)`, `(6.12)` and `(6.13)`) have been devoted to the
 study of problems one frequently encounters in the use of Noetherian rings and preschemes, and which can be grouped in
@@ -2189,7 +2189,7 @@ $U_{S_{k}}(\mathcal{F})$ and $CM(\mathcal{F})$ for every coherent $\mathcal{O}_{
 This results at once from `(7.8.3, (ii), (vi) and (iv))`. Let us note also that `(7.8.3, (ix))` is valid without
 modification of statement when $X$ is an excellent prescheme.
 
-### 7.9. Excellent rings and resolution of singularities.
+### 7.9. Excellent rings and resolution of singularities
 
 **(7.9.1)** Given a locally Noetherian reduced prescheme $X$, one calls **resolving morphism** for $X$ a morphism $f :
 X' \to X$ such that $X'$ is regular and $f$ is proper and birational. When such a morphism exists, one says that one can

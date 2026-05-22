@@ -176,7 +176,7 @@ If $S$ is Noetherian, so is $S^{(d)}$ for every integer $d > 0$.
 <!-- label: II.2.1.8 -->
 
 Let $\mathfrak{p}$ be a _graded_ prime ideal of the graded ring $S$; $\mathfrak{p}$ is then a direct sum of the
-subgroups $\mathfrak{p}_{n} = \mathfrak{p} \cap S_{n}$. Suppose that `𝔭 does not contain`S\_+\`\`. Then if $f \in S_{+}$
+subgroups $\mathfrak{p}_{n} = \mathfrak{p} \cap S_{n}$. Suppose that $\mathfrak{p}$ does not contain $S_{+}$. Then if $f \in S_{+}$
 is not in $\mathfrak{p}$, the relation $f^{n} x \in \mathfrak{p}$ is equivalent to $x \in \mathfrak{p}$; in particular,
 if $f \in S_{d}$ ($d > 0$), for every $x \in S_{m - nd}$, the relation $f^{n} x \in \mathfrak{p}_{m}$ is equivalent to
 $x \in \mathfrak{p}_{m - nd}$.

@@ -192,7 +192,7 @@ prop. 11).
 (Bourbaki, _Alg._, chap. VIII, §7, n° 3, th. 1), and one may apply (i) to every finite extension $K'$ of $K$, which
 proves our assertion.
 
-### 23.2. Integral closure of an integral Noetherian local ring.
+### 23.2. Integral closure of an integral Noetherian local ring
 
 **(23.2.1)**
 

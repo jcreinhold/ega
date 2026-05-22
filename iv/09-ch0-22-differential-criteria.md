@@ -446,7 +446,7 @@ the hypothesis $\bigcap_{\alpha} k_{\alpha}(k^{p}) = k^{p}$, which completes the
 
 *b) $\chi_{A/k} = 0$.*
 
-*c) The canonical homomorphism \`(0_IV, 20.5.11.2)*
+*c) The canonical homomorphism (0_IV, 20.5.11.2)*
 
 ```text
   δ_{K/A/k} : 𝔪/𝔪² → Ω^1_A ⊗_A K
@@ -1152,13 +1152,13 @@ homomorphism `(22.4.5.2)` sought, and it is immediate to verify that the composi
 *is still the canonical homomorphism $\pi_{B_{(K)}/K}$ (relative to $i_{0}$ and $j_{0}$). One has therefore also a
 canonical homomorphism analogous to `(22.4.5.3)`.*
 
-*If now $K$ is a field, $A/p A$ is an $\mathbb{F}_{p}$-algebra, and one has the exact sequence \`(0_IV, 20.5.14)*
+*If now $K$ is a field, $A/p A$ is an $\mathbb{F}_{p}$-algebra, and one has the exact sequence (0_IV, 20.5.14)*
 
 ```text
   0 → V/p A → Ω^1_{A/p A} ⊗_{A/p A} K → Ω^1_K → 0
 ```
 
-*and on the other hand one has the exact sequence \`(0_IV, 20.5.12.1)*
+*and on the other hand one has the exact sequence (0_IV, 20.5.12.1)*
 
 ```text
   p A → Ω^1_A ⊗_A (A/p A) → Ω^1_{A/p A} → 0

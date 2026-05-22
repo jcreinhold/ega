@@ -3498,7 +3498,7 @@ and $f'_{s}$ is not an isomorphism, although $f'_{\eta}$ is one.
 (iii) It is possible that the statement of proposition `(21.12.15)` remains valid when one replaces the word
 "isomorphism" by "étale morphism" (cf. `(21.12.14, (v))`). The same will then still hold for `(21.12.16)`.
 
-### 21.13. Parafactorial couples. Parafactorial local rings.
+### 21.13. Parafactorial couples. Parafactorial local rings
 
 **Definition (21.13.1).**
 

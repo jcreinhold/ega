@@ -1672,7 +1672,7 @@ $\mathcal{O}_{X}$-Module. The following properties are equivalent:*
 
 *is injective (resp. bijective).*
 
-*a') For every closed part $T \subset Z$ of $X$, the canonical homomorphism \`(0_I, 4.4.3.2)*
+*a') For every closed part $T \subset Z$ of $X$, the canonical homomorphism (0_I, 4.4.3.2)*
 
 $$ \mathcal{F} \to (i_{T})_{*}(\mathcal{F}|X - T) $$
 

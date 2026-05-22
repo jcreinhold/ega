@@ -5,7 +5,7 @@
 
 <!-- original page 137 -->
 
-## 6.1. Introduction.
+## 6.1. Introduction
 
 **6.1.1.**
 
@@ -80,7 +80,7 @@ abelian category $\mathcal{C}'$ with respect to a complex of $\mathcal{C}$ $(0_{
 homotopism $K^{\bullet} \to K'^{\bullet}$ of complexes of $\mathcal{C}$ canonically defines an isomorphism $R^{\bullet}
 T(K^{\bullet}) \to R^{\bullet} T(K'^{\bullet})$ for hypercohomology (loc. cit.).
 
-## 6.2. Hypercohomology of complexes of modules on a prescheme.
+## 6.2. Hypercohomology of complexes of modules on a prescheme
 
 **6.2.1.**
 
@@ -268,7 +268,7 @@ All the preceding applies naturally without change (apart from notation) to a co
 quasi-coherent $\mathcal{O}_{X}$-modules whose differential is of degree $-1$; it suffices to consider the complex
 $\mathcal{K}^{\bullet} = (\mathcal{K}^{i})$ where $\mathcal{K}^{i} = \mathcal{K}_{-i}$ for every $i \in \mathbb{Z}$.
 
-## 6.3. Hypertor of two complexes of modules.
+## 6.3. Hypertor of two complexes of modules
 
 **6.3.1.**
 
@@ -601,7 +601,7 @@ that every $s \in S$ defines a bijective homothety in $Tor^{A}_{\bullet}(P_{\bul
 is also a bijective homomorphism. Since $A'$ is a flat $A$-module, the conclusion follows from `(6.3.9)`, and one has
 similarly canonical isomorphisms for the spectral sequences.
 
-## 6.4. Local hypertor functors of complexes of quasi-coherent modules: case of affine schemes.
+## 6.4. Local hypertor functors of complexes of quasi-coherent modules: case of affine schemes
 
 **6.4.1.**
 
@@ -776,7 +776,7 @@ bijective: indeed, taking into account `(6.3.6.2)` and `(6.3.6.3)`, it proves th
 terms, and `(6.4.5)` shows that it is an isomorphism on the abutments; one concludes therefore with the help of
 $(0_{III}, 11.1.2)$ and $(0_{III}, 11.2.4)$.
 
-## 6.5. Local hypertor functors of complexes of quasi-coherent modules: general case.
+## 6.5. Local hypertor functors of complexes of quasi-coherent modules: general case
 
 **6.5.1.**
 
@@ -1100,7 +1100,7 @@ $\mathcal{T}or^{S}_{\bullet}(\mathcal{P}^{(1)}_{\bullet}, \mathcal{P}^{(2)}_{\bu
 We shall study in `(6.8)` the associativity spectral sequences to which these hypertor functors of an arbitrary number
 of complexes give rise.
 
-## 6.6. Global hypertor functors of complexes of quasi-coherent modules and Künneth spectral sequences: case of an affine base.
+## 6.6. Global hypertor functors of complexes of quasi-coherent modules and Künneth spectral sequences: case of an affine base
 
 **6.6.1.**
 
@@ -1431,7 +1431,7 @@ $\mathcal{P}^{(i)}_{\bullet}$ is reduced to its term of degree `0`, $\mathcal{F}
 
 <!-- original page 25 -->
 
-## 6.7. Global hypertor functors of complexes of quasi-coherent modules and Künneth spectral sequences: the general case.
+## 6.7. Global hypertor functors of complexes of quasi-coherent modules and Künneth spectral sequences: the general case
 
 **6.7.1.**
 
@@ -1935,7 +1935,7 @@ M^{(2)}_{\bullet,\bullet,\bullet}$ into $M^{(2)}_{\bullet,\bullet,\bullet} \otim
 M^{(1)}_{\bullet,\bullet,\bullet}$, whence our assertion by considering the homology of the simple complexes associated
 to these tricomplexes.
 
-## 6.8. The associativity spectral sequences of the global hypertor.
+## 6.8. The associativity spectral sequences of the global hypertor
 
 **6.8.1.**
 
@@ -2023,7 +2023,7 @@ $N_{\bullet}'$ and $N_{\bullet}''$ are bounded below.
 
 <!-- original page 34 -->
 
-## 6.9. The base-change spectral sequences in the global hypertor.
+## 6.9. The base-change spectral sequences in the global hypertor
 
 **6.9.1.**
 
@@ -2410,7 +2410,7 @@ f_{*}(\mathcal{P}_{\bullet})$ "commutes with passage to fibres", which we shall 
 
 *(To be continued.)*
 
-# §6 (continued). Local and global Tor functors; the Künneth formula
+# §6 (continued, second part). Local and global Tor functors; the Künneth formula
 
 > _Translator's note._ This file is the closing subsection of §III.6, translated as a separate piece for length. The
 > opening (§6.1–§6.6) and middle (§6.7–§6.9) are in the companion Part-A and Part-B files. They will be concatenated for
@@ -2418,7 +2418,7 @@ f_{*}(\mathcal{P}_{\bullet})$ "commutes with passage to fibres", which we shall 
 
 <!-- original page 39 -->
 
-## 6.10. Local structure of certain cohomological functors.
+## 6.10. Local structure of certain cohomological functors
 
 **Proposition (6.10.1).**
 

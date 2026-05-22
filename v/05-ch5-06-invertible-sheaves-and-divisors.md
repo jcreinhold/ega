@@ -91,7 +91,7 @@ If we drop the assumption that the rank of $E$ is $\geq 2$, it follows from (1.2
 is still surjective when $S$ is connected, but not necessarily injective: its kernel is isomorphic to $\mathbb{Z}$ if
 $E$ is of rank `1`, and to $\operatorname{Pic}(S) \times \mathbb{Z}$ if $E$ is of rank zero.
 
-#### Proof of (1.1).
+#### Proof of (1.1)
 
 We start from *uniqueness*. Suppose first $S = \operatorname{Spec}(K)$ is the spectrum of a field. Then
 $\mathcal{O}_{P}(n)$ is not isomorphic to $\mathcal{O}_{P}(m)$ for $n \neq m$; equivalently, $\mathcal{O}_{P}(m - n)$ is
@@ -157,7 +157,7 @@ $H^{1}(\mathbb{P}^{r}_{K}, \mathcal{O}_{\mathbb{P}^{r}_{K}}) = 0$ established in
 
 <!-- original page 4 -->
 
-#### A variant of (1.4).
+#### A variant of (1.4)
 
 Let $\mathbb{Z}(S)$ denote the set of locally constant functions $S \to \mathbb{Z}$. We define an evident homomorphism
 $\mathbb{Z}(S) \to \operatorname{Pic}(P)$: an element $n \in \mathbb{Z}(S)$ corresponds to a partition $(S_{n})_{n \in
@@ -179,7 +179,7 @@ in [Chapter V.1.1](#)[^v-6-4]), the preceding statement reads simply: *under the
 homomorphism $\mathbb{Z}_{S} \to \operatorname{Pic}_{P/S}$ of constant group schemes $\mathbb{Z}$ over $S$ into the
 relative Picard scheme, deduced from the section of the latter defined by $\mathcal{O}_{P}(1)$, is an isomorphism.*
 
-#### Morphisms between projective fibrations; degree.
+#### Morphisms between projective fibrations; degree
 
 Let $P$ be a projective fibration over a field $K$. An invertible module $L$ over $P$ is said to be **of degree $n$** if
 $L$ is isomorphic to $\mathcal{O}_{P}(n)$; if $\dim P \geq 1$, this determines $n$ in terms of $L$, but if $\dim P \leq
@@ -223,7 +223,7 @@ to a certain subset of the quotient set $\operatorname{Hom}(E^{1}, M \otimes Sym
 
 <!-- original page 5 -->
 
-#### Special cases.
+#### Special cases
 
 **(i) $n = 0$.** We take the homomorphisms $E^{1} \to M$ that are surjective, i.e. everywhere non-zero, modulo
 isomorphism of $M$. We find exactly the morphisms $g : P \to P^{1}$ of the form induced by a section $h$ of $P^{1}$ over
@@ -366,7 +366,7 @@ $\mathbb{P}(Sym^{n}(E)^{\vee})$ for $n \in \mathbb{N}$.*[^v-6-8]
 
 <!-- original page 7 -->
 
-#### The multiprojective case.
+#### The multiprojective case
 
 **(2.5).** Now suppose we are given a finite family $(E_{i})_{i \in I}$ of locally free modules over $S$, with $P_{i} =
 \mathbb{P}(E_{i})$ and $P = \prod_{i \in I, S} P_{i}$ the *multiprojective fibration* over $S$ defined by the $(E_{i})$.
@@ -442,7 +442,7 @@ sum-prescheme of the $\mathbb{P}((\bigotimes_{i} Sym^{n_{i}}(E_{i}))^{\vee})$ fo
 
 <!-- original page 8 -->
 
-#### Representability via a sheaf $Q$ on the base.
+#### Representability via a sheaf $Q$ on the base
 
 **Remark (2.10).**
 
@@ -521,7 +521,7 @@ to the noetherian case.
 
 ### V.6.3. Linear systems of divisors and morphisms into projective fibrations
 
-#### Fixed points of a family of divisors.
+#### Fixed points of a family of divisors
 
 **(3.1).** Let $D$ be a family of positive divisors over $X/S$ parametrized by $T$. A point $x \in X$ is called a
 **fixed point** of this family if $pr^{-1}_{1}(x) \subset D$ set-theoretically, so that the set of non-fixed points is
@@ -574,7 +574,7 @@ relative to $S$. This last fact follows from `(IV, §11)`[^v-6-11] and from the 
 contains no point of $X_{s}$ associated to $\mathcal{O}_{X_{s}}$ (the support of a divisor on $X_{s}$ contains no such
 point).
 
-#### Linear systems and morphisms into projective fibrations.
+#### Linear systems and morphisms into projective fibrations
 
 When $T$ is a projective fibration $Q = \mathbb{P}(F)$, the functor $\operatorname{Div}^{+}_{Q/S}$ is representable by
 the sum-prescheme of the $\mathbb{P}(Sym^{n}(F^{\vee}))$ (which we denote $\mathbb{P}(n)$); we find then a morphism
@@ -901,7 +901,7 @@ extension of $f*(\mathcal{O}_{P}(1))$ to an invertible sheaf over $X$.
 
 <!-- original page 16 -->
 
-#### Monomorphism into $\operatorname{Div}_{X/S}$.
+#### Monomorphism into $\operatorname{Div}_{X/S}$
 
 **Proposition (4.3).**
 
@@ -976,7 +976,7 @@ $P^{\vee}_{S}$. But this follows immediately from Lemma (4.4) and from the deter
 $\mathbb{P}(E^{\vee}) = \mathbb{P}(E)^{\vee}$ in V.6.1: the effect of an automorphism of a projective fibration over $S$
 (relative to a locally free module of finite type) is determined by its effect on a projective base in each fibre.
 
-#### The general case: $S$ arbitrary.
+#### The general case: $S$ arbitrary
 
 By base change over $S$, we are reduced in (a) to showing that any two sections of $P^{\vee}$ over $S$ defining the same
 divisor of $X$ are identical, and in (b) to showing that any two automorphisms of $P^{\vee}$ for which $D \circ u = D
@@ -1077,7 +1077,7 @@ historical interest) — to perform faithfully flat descent for linear systems o
 allow as parametrizing fibrations the "twisted projective fibrations" (i.e. the Brauer-Severi schemes), to be treated in
 a future section.
 
-#### Vulgar description over a field.
+#### Vulgar description over a field
 
 Descending again to the earth — even lower — to explain in vulgar terms the notion of a linear system, we place
 ourselves for simplicity over a field. (The statement holds essentially as such over an affine base.)

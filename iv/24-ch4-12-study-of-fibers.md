@@ -213,13 +213,12 @@ therefore proves (ii).
 
 *(i) Under the conditions of `(12.1.1.5)` with $\mathcal{F} = \mathcal{O}_{X}$ (so that $f$ is flat), one cannot in
 general assert that the restriction $Z' \to Y'$ of $f$ is a flat morphism, nor even an open morphism. This is what the
-example* \`(6.5.5,\*
+example `(6.5.5, (ii))` shows,*
 
 <!-- original page 177 -->
 
-*(ii))`*shows, where one takes for`Z'`one of the two irreducible components of`X =
-Spec(B)`. It is immediate that this restriction morphism is not open at the points of`Z'`above the "double point" of`Y'
-= Y\`.*
+*where one takes for $Z'$ one of the two irreducible components of $X = \operatorname{Spec}(B)$. It is immediate that
+this restriction morphism is not open at the points of $Z'$ above the "double point" of $Y' = Y$.*
 
 *(ii) In the hypotheses of `(12.1.1.5)`, with $\mathcal{F} = \mathcal{O}_{X}$, one cannot weaken the condition "$f$ is
 flat" to "$f$ is universally open" (cf. `(2.4.6)`), as we shall see later from an example `(14.4.10, (i))`.*
@@ -376,7 +375,7 @@ One sees this here on the example `(5.12.6)` with $X = \operatorname{Spec}(A)$, 
 localization and passage to the quotient, and being flat since $A$ is a torsion-free `A_0`-module $(0_{I}, 6.3.4)$. The
 fibre $X_{y}$ at the closed point $y$ of $Y$ is reduced (hence satisfies `(S_1)`) and satisfies `(R_1)`, but has two
 irreducible components of dimensions `2` and `1`, while the fibre $X_{y'}$ at the generic point $y'$ of $Y$ does not
-satisfy \[condition `(R_1)`\].*
+satisfy [condition `(R_1)`].*
 
 ### 12.2. Local and global properties of the fibres of a proper, flat morphism of finite presentation
 

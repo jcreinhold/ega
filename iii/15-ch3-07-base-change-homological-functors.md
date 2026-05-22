@@ -2,7 +2,7 @@
 
 <!-- original page 175 -->
 
-## 7.1. Functors of $A$-modules.
+## 7.1. Functors of $A$-modules
 
 **7.1.1.**
 
@@ -92,7 +92,7 @@ ideal $\mathfrak{m}$ of $A$, then $T$ is left exact (resp. right exact, exact).*
 P_{\mathfrak{m}}$ for every maximal ideal $\mathfrak{m}$ of $A$, then $N = P$ (Bourbaki, *Alg. comm.*, chap. II, § 3, n°
 3, th. 1).
 
-## 7.2. Characterizations of the tensor product functor.
+## 7.2. Characterizations of the tensor product functor
 
 **7.2.1.**
 
@@ -344,7 +344,7 @@ in which the two rows are exact, by virtue of the hypothesis that $T$ is semi-ex
 $t_{M'}$ and $t_{M''}$ are epimorphisms and the last vertical arrow is a monomorphism, the five lemma `(M, I, 1.1)`
 shows that $t_{M}$ is an epimorphism.
 
-## 7.3. Exactness criteria for the homological functors of modules.
+## 7.3. Exactness criteria for the homological functors of modules
 
 **Proposition (7.3.1).**
 
@@ -660,7 +660,7 @@ completes the proof.
 The preceding results will be considerably improved for the homological functors of particular type that we shall study
 in `(7.4)`; we shall obtain in fact exactness criteria involving only one of the $T_{p}$.
 
-## 7.4. Exactness criteria for the functors $H_{\bullet}(P_{\bullet} \otimes_{A} M)$.
+## 7.4. Exactness criteria for the functors $H_{\bullet}(P_{\bullet} \otimes_{A} M)$
 
 **7.4.1.**
 
@@ -926,7 +926,7 @@ are no longer homological) are still isomorphic?
 
 <!-- original page 190 -->
 
-## 7.5. The case of noetherian local rings.
+## 7.5. The case of noetherian local rings
 
 **7.5.1.**
 
@@ -1064,7 +1064,7 @@ One will note that, by virtue of `(7.4.7)`, the general hypotheses of `(7.4.4)` 
 $T_{\bullet}$ defined by `(7.4.1.1)` satisfies the general hypotheses of `(7.5.4)`. In this case, `(7.5.6)` is therefore
 contained in `(7.4.3)`.
 
-## 7.6. Descent of exactness properties. Semi-continuity theorem and exactness criterion of Grauert.
+## 7.6. Descent of exactness properties. Semi-continuity theorem and exactness criterion of Grauert
 
 **Proposition (7.6.1).**
 
@@ -1422,7 +1422,7 @@ fraction field of $A$); on the other hand, one knows that every basis over $k$ o
 of a system of generators of $M$ (Bourbaki, *Alg. comm.*, chap. II, § 3, n° 2, cor. 2 of prop. 4), hence $rang_{K}(M)
 \leq rang_{k}(M \otimes_{A} k)$, which proves our assertion.
 
-## 7.7. Application to proper morphisms: I. The exchange property.
+## 7.7. Application to proper morphisms: I. The exchange property
 
 The three subsections that follow are, essentially, translations into the language of morphisms of preschemes of the
 results of the preceding subsections.
@@ -1858,7 +1858,7 @@ account, and shows again that when $Y = \operatorname{Spec}(A)$ is affine, one h
 \mathcal{H}_{p}(\mathcal{L}_{\bullet} \otimes_{\mathcal{O}_{Y}} \mathcal{E})$, with $\mathcal{L}_{\bullet} =
 \tilde{L}_{\bullet}$, where $L_{\bullet}$ is a complex of free $A$-modules of finite type; this proves our assertion.
 
-## 7.8. Application to proper morphisms: II. Cohomological flatness criteria.
+## 7.8. Application to proper morphisms: II. Cohomological flatness criteria
 
 **Definition (7.8.1).**
 
@@ -2098,7 +2098,7 @@ locally free; in other words, $\mathcal{O}_{X}$ (under these conditions) is not 
 dimension 1 over $Y$ at the point $y$. In chap. V, we shall interpret $\mathcal{Q}$ as the sheaf of 1-differentials of
 the Picard scheme of $X$ with respect to $Y$ along the unit section.
 
-## 7.9. Application to proper morphisms: III. Invariance of the Euler–Poincaré characteristic and the Hilbert polynomial.
+## 7.9. Application to proper morphisms: III. Invariance of the Euler–Poincaré characteristic and the Hilbert polynomial
 
 **7.9.1.**
 

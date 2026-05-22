@@ -1712,7 +1712,7 @@ prescheme in groups are interpreted likewise.
 
 <!-- original page 34 -->
 
-### 8.9. First applications to the elimination of Noetherian hypotheses.
+### 8.9. First applications to the elimination of Noetherian hypotheses
 
 **Proposition (8.9.1).**
 
@@ -1841,7 +1841,7 @@ X_{\lambda} \times_{S_{\lambda}} S_{\lambda,i}$ and $\mathcal{F}_{\lambda,i} = \
 $S_{\lambda,i}$. The $S_{i}' = S_{\lambda,i} \times_{S_{\lambda}} S$ are then sub-preschemes of $S$ answering the
 question, by virtue of `(2.1.4)`.
 
-### 8.10. Permanence properties of morphisms under projective passage to the limit.
+### 8.10. Permanence properties of morphisms under projective passage to the limit
 
 In this section we keep the general hypotheses and notation of `(8.8.1)`.
 
@@ -2137,7 +2137,7 @@ immersion $j_{\mu} : X_{\mu} \to \mathbb{P}^{r}_{S_{\mu}} = P_{\mu}$ such that $
 to $j^{*}_{\nu}(\mathcal{O}_{P_{\nu}}(1))$, which shows that $\mathcal{L}_{\nu}$ is very ample for $f_{\nu}$
 `(II, 4.4.2)`.
 
-### 8.11. Application to quasi-finite morphisms.
+### 8.11. Application to quasi-finite morphisms
 
 We propose in this section to prove the two following theorems:
 
@@ -2251,7 +2251,7 @@ Indeed, $f$ being of finite type, universally closed, and separated by virtue of
 `(II, 5.4.1)`. Since it is obviously quasi-finite `(II, 6.2.3)`, it is finite by `(8.11.1)`. One knows moreover that it
 is radicial `(2.4.4)`, and obviously surjective.
 
-### 8.12. New demonstration and generalization of Zariski's *Main Theorem*.
+### 8.12. New demonstration and generalization of Zariski's *Main Theorem*
 
 **Lemma (8.12.1).**
 
@@ -2578,7 +2578,7 @@ two assertions are therefore consequences of `(8.12.10)` applied to $f'$.
 
 <!-- original page 49 -->
 
-### 8.13. Translation in terms of pro-objects.
+### 8.13. Translation in terms of pro-objects
 
 The following proposition is essentially equivalent to `(8.8.2, (i))`:
 
@@ -2768,7 +2768,7 @@ The only pro-algebraic groups encountered in practice up to the present being in
 therefore no doubt be advantage in substituting for the study of general pro-algebraic groups (introduced and studied by
 Serre [40]) that of quasi-compact group schemes over $k$, whose definition is conceptually simpler.
 
-### 8.14. Characterization of a prescheme locally of finite presentation over another, in terms of the functor it represents.
+### 8.14. Characterization of a prescheme locally of finite presentation over another, in terms of the functor it represents
 
 **(8.14.1)**
 

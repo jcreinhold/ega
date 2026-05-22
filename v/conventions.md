@@ -187,4 +187,4 @@ EGA V is presented as a single tree with five numbered section files plus six me
   `05-ch5-06-invertible-sheaves-and-divisors.md` — five numbered section files.
 - One alphabetized terminology index, one source-ordered notation index, one bibliography.
 
-Each translated file's $<!-- source: \cdots -->$ footer points back to the Blass piecemeal source.
+Each translated file's `<!-- source: ... -->` footer points back to the Blass piecemeal source.
