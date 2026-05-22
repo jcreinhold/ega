@@ -39,10 +39,12 @@ extra = []
 renderer = "katex"
 
 # Type: array of string.
-# Extra KaTeX extensions loaded on top of core. EGA's current chapters use
-# no chemistry / physics commands; add e.g. "mhchem" the first time \ce{}
-# is introduced.
+# Renderer packages/extensions to load on top of the renderer's default autoload set (e.g. `["mhchem", "physics"]`). Consumed by the `math/render-compat` rule.
 packages = []
+
+# Type: table.
+# User-declared macros known to be in scope, keyed by command name (no leading backslash). Each entry is either `name = arity` or `name = { arity = N }`.
+macros = {}
 
 [fmt]
 # Type: "preserve" | "mdformat".
