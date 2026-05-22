@@ -1,0 +1,22 @@
+[book]
+authors = ["Jacob Reinhold"]
+title = "Éléments de Géométrie Algébrique — English"
+description = "An English Markdown translation of Grothendieck and Dieudonné's EGA."
+language = "en"
+src = "."
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+mathjax-support = true
+git-repository-url = "https://github.com/jcreinhold/ega"
+edit-url-template = "https://github.com/jcreinhold/ega/edit/main/{path}"
+
+[output.html.search]
+enable = true
+limit-results = 25
+use-boolean-and = true
