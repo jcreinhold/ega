@@ -54,10 +54,18 @@
     font-style: italic;
     color: inherit;
     opacity: 0.85;
+    overflow-x: auto;
 }
 .content blockquote em,
 .content blockquote i {
     font-style: normal;
+}
+/* Code blocks inside blockquotes (EGA uses these for inline figures) —
+   wrap rather than overflow so narrow viewports don't cut off content. */
+.content blockquote pre,
+.content blockquote pre code {
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 /* KaTeX defaults to 1.21em (tuned for sans bodies); with serif body the
