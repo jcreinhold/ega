@@ -5,7 +5,9 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap");
 
 :root {
-    --content-max-width: 42rem;
+    /* NOTE: mdbook uses the 62.5% trick, so 1rem = 10px. Use absolute
+       px in this file to avoid surprises. */
+    --content-max-width: 760px;
     --page-padding: 40px;
 }
 
@@ -15,8 +17,8 @@ html {
 }
 
 .content {
-    line-height: 1.75;
-    font-size: 1.25rem;
+    line-height: 1.7;
+    font-size: 20px;
     font-feature-settings: "kern", "liga", "onum";
 }
 
