@@ -12,7 +12,7 @@ create-missing = false
 [preprocessor.katex]
 
 [output.html]
-default-theme = "rust"
+default-theme = "light"
 preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/jcreinhold/ega"
 edit-url-template = "https://github.com/jcreinhold/ega/edit/main/{path}"

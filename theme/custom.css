@@ -1,9 +1,76 @@
-/* Minimal overrides on top of mdbook defaults. */
+/* EGA — scholarly monograph treatment.
+   mdbook applies html { font-size: 62.5% } so 1rem = 10px; use px here. */
+
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap");
 
 :root {
-    --content-max-width: 960px;
+    --content-max-width: 880px;
 }
 
 .content {
-    line-height: 2;
+    font-family: "STIX Two Text", "Charter", "Cambria", "Source Serif Pro",
+        Georgia, serif;
+    font-size: 16px;
+    line-height: 1.75;
+    font-feature-settings: "kern", "liga", "onum";
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    font-family: "STIX Two Text", "Charter", "Cambria", Georgia, serif;
+    font-weight: 700;
+    line-height: 1.25;
+    text-wrap: balance;
+}
+
+.content li {
+    line-height: 1.5;
+}
+.content li + li {
+    margin-top: 0.25em;
+}
+
+/* Theorem-like labels: **Definition (1.3.4).**, **Proposition.**, **Proof.**
+   Source has no semantic classes, so we target inline bold at paragraph start.
+   Italic small-caps matches the French monograph tradition (Bourbaki/EGA). */
+.content p > strong:first-child {
+    font-style: italic;
+    font-weight: 600;
+    font-variant: small-caps;
+    letter-spacing: 0.02em;
+}
+
+/* Translator's notes and editorial citations. */
+.content blockquote {
+    border-left: 3px solid var(--quote-border, rgba(128, 128, 128, 0.4));
+    background: none;
+    padding: 0.1em 1em;
+    margin: 1.25em 0;
+    font-size: 0.95em;
+    font-style: italic;
+    color: inherit;
+    opacity: 0.85;
+}
+.content blockquote em,
+.content blockquote i {
+    font-style: normal;
+}
+
+/* Display math gets a touch of breathing room. */
+.content .katex-display {
+    margin: 1em 0;
+}
+
+/* Sidebar/chrome stay sans — distinct register from the prose. */
+.sidebar,
+.menu-title,
+.nav-chapters,
+.mobile-nav-chapters,
+#menu-bar {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, sans-serif;
 }
