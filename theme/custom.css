@@ -60,10 +60,12 @@
     font-style: normal;
 }
 
-/* Display math gets a touch of breathing room. */
-.content .katex-display {
-    margin: 1em 0;
-}
+/* KaTeX defaults to 1.21em (tuned for sans bodies); with serif body the
+   math overshoots — match body x-height more closely. Display math still
+   gets a small size boost for readability. */
+.content .katex { font-size: 1.1em; }
+.content .katex-display { margin: 1em 0; }
+.content .katex-display > .katex { font-size: 1.15em; }
 
 /* Sidebar/chrome stay sans — distinct register from the prose. */
 .sidebar,
