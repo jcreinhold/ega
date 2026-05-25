@@ -5,8 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap");
 
 :root {
-    --content-max-width: 46rem;
-    --page-padding: 15px;
+    --content-max-width: 42rem;
+    --page-padding: 40px;
 }
 
 html {
@@ -38,11 +38,11 @@ html {
     text-wrap: balance;
 }
 
-/* KaTeX inline at body size keeps lines from bulging. Display math gets
-   a little vertical breathing room. */
-.content .katex { font-size: 1em; }
-.content .katex-display { margin: 1.1em 0; }
-.content .katex-display > .katex { font-size: 1.1em; }
+/* KaTeX_Main x-height runs small against serif body — scale up so
+   inline math reads at the same visual size as the prose. */
+.content .katex { font-size: 1.15em; }
+.content .katex-display { margin: 1.25em 0; }
+.content .katex-display > .katex { font-size: 1.25em; }
 
 /* Slightly tighter mono so code samples don't dominate. */
 .content code,
