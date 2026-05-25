@@ -1,0 +1,61 @@
+/* Typography for math-heavy prose. Goal: unify body + KaTeX visually
+   and give inline math enough vertical room that it doesn't push lines
+   apart. */
+
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap");
+
+:root {
+    --content-max-width: 46rem;
+    --page-padding: 15px;
+}
+
+html {
+    font-family: "STIX Two Text", "Charter", "Cambria", "Source Serif Pro",
+        Georgia, serif;
+}
+
+.content {
+    line-height: 1.75;
+    font-size: 1.0625rem;
+    font-feature-settings: "kern", "liga", "onum";
+}
+
+.content p,
+.content li,
+.content blockquote {
+    text-wrap: pretty;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    font-family: "STIX Two Text", "Charter", "Cambria", Georgia, serif;
+    font-weight: 700;
+    line-height: 1.25;
+    text-wrap: balance;
+}
+
+/* KaTeX inline at body size keeps lines from bulging. Display math gets
+   a little vertical breathing room. */
+.content .katex { font-size: 1em; }
+.content .katex-display { margin: 1.1em 0; }
+.content .katex-display > .katex { font-size: 1.1em; }
+
+/* Slightly tighter mono so code samples don't dominate. */
+.content code,
+.content pre {
+    font-size: 0.9em;
+}
+
+/* Sidebar and chrome stay sans-serif — only the prose changes. */
+.sidebar,
+.menu-title,
+.nav-chapters,
+.mobile-nav-chapters,
+#menu-bar {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, sans-serif;
+}
