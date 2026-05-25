@@ -1,31 +1,20 @@
-/* Typography for math-heavy prose. Goal: unify body + KaTeX visually
-   and give inline math enough vertical room that it doesn't push lines
-   apart. */
+/* Serif body matched to KaTeX, sized like the SGA companion site (16px)
+   but with a slightly wider measure. Line-height is raised a touch so
+   inline math does not push lines apart. */
 
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap");
 
 :root {
-    /* NOTE: mdbook uses the 62.5% trick, so 1rem = 10px. Use absolute
-       px in this file to avoid surprises. */
-    --content-max-width: 760px;
-    --page-padding: 40px;
-}
-
-html {
-    font-family: "STIX Two Text", "Charter", "Cambria", "Source Serif Pro",
-        Georgia, serif;
+    /* mdbook uses html { font-size: 62.5% } so 1rem = 10px — use px to
+       avoid silent downscaling. */
+    --content-max-width: 880px;
 }
 
 .content {
-    line-height: 1.7;
-    font-size: 20px;
+    font-family: "STIX Two Text", "Charter", "Cambria", "Source Serif Pro",
+        Georgia, serif;
+    line-height: 1.65;
     font-feature-settings: "kern", "liga", "onum";
-}
-
-.content p,
-.content li,
-.content blockquote {
-    text-wrap: pretty;
 }
 
 .content h1,
@@ -35,29 +24,8 @@ html {
 .content h5,
 .content h6 {
     font-family: "STIX Two Text", "Charter", "Cambria", Georgia, serif;
-    font-weight: 700;
-    line-height: 1.25;
-    text-wrap: balance;
 }
 
-/* KaTeX_Main x-height runs small against serif body — scale up so
-   inline math reads at the same visual size as the prose. */
-.content .katex { font-size: 1.15em; }
-.content .katex-display { margin: 1.25em 0; }
-.content .katex-display > .katex { font-size: 1.25em; }
-
-/* Slightly tighter mono so code samples don't dominate. */
-.content code,
-.content pre {
-    font-size: 0.9em;
-}
-
-/* Sidebar and chrome stay sans-serif — only the prose changes. */
-.sidebar,
-.menu-title,
-.nav-chapters,
-.mobile-nav-chapters,
-#menu-bar {
-    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, sans-serif;
+.content .katex-display {
+    margin: 1em 0;
 }
