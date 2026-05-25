@@ -1,31 +1,9 @@
-/* Serif body matched to KaTeX, sized like the SGA companion site (16px)
-   but with a slightly wider measure. Line-height is raised a touch so
-   inline math does not push lines apart. */
-
-@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap");
+/* Minimal overrides on top of mdbook defaults. */
 
 :root {
-    /* mdbook uses html { font-size: 62.5% } so 1rem = 10px — use px to
-       avoid silent downscaling. */
-    --content-max-width: 880px;
+    --content-max-width: 960px;
 }
 
 .content {
-    font-family: "STIX Two Text", "Charter", "Cambria", "Source Serif Pro",
-        Georgia, serif;
-    line-height: 1.7;
-    font-feature-settings: "kern", "liga", "onum";
-}
-
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-    font-family: "STIX Two Text", "Charter", "Cambria", Georgia, serif;
-}
-
-.content .katex-display {
-    margin: 1em 0;
+    line-height: 2;
 }
