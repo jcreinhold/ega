@@ -723,15 +723,15 @@ properties; the proof should be easy and is left to Dieudonné (or Blass).[^v-5p
 *Suppose that $f : X \to \mathbb{P}$ is unramified and that $\dim X \leq m$. Let $T$ be a finite subscheme of $X$.
 Then:*
 
-\*(a) If $f$ is an immersion, the restriction of $p_{C}$ to $T_{k(\eta)}$ is radicial, i.e. "geometrically
+*(a) If $f$ is an immersion, the restriction of $p_{C}$ to $T_{k(\eta)}$ is radicial, i.e. "geometrically*
 
 <!-- original page 52 -->
 
-injective". If, in addition, $Y$ is a closed subset of $X$ of dimension $\leq m - 1$, then
+*injective". If, in addition, $Y$ is a closed subset of $X$ of dimension $\leq m - 1$, then*
 
-````text
+```text
   p_{C_η}^{−1}(p_{C_η}(Y_{k(η)})) ∩ T_{k(η)} = ∅.
-```*
+```
 
 *(b) If `X` is smooth at the points of `T`, then `p_{C_η}` is unramified at all the points of `T_{k(η)}` (and at the
 points of `p_{C_η}^{−1}(p_{C_η}(T_{k(η)}))`).*[^v-5p2-36]
