@@ -13,10 +13,8 @@ preset = "default"
 select = []
 
 # Type: array of string.
-# Lint rule names to add on top of `lint.preset`. EGA renders through
-# mdbook-katex, so the math/render-compat family with the katex profile
-# catches commands that wouldn't render (configured under [lint.render]).
-extend-select = ["math/render-compat"]
+# Lint rule names to add on top of `lint.preset`.
+extend-select = []
 
 # Type: array of string.
 # Lint rule names to remove after applying `lint.preset`, `lint.select`, and `lint.extend-select`.
@@ -33,10 +31,8 @@ extra = []
 
 [lint.render]
 # Type: "mathjax-v3" | "katex".
-# EGA's book.toml configures mdbook-katex (`[preprocessor.katex]`), so the
-# rule checks against KaTeX's command surface. Switch to "mathjax-v3" only
-# if the renderer changes.
-renderer = "katex"
+# Math renderer the `math/render-compat` rule should check against.
+renderer = "mathjax-v3"
 
 # Type: array of string.
 # Renderer packages/extensions to load on top of the renderer's default autoload set (e.g. `["mhchem", "physics"]`). Consumed by the `math/render-compat` rule.

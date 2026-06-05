@@ -9,14 +9,9 @@ src = "."
 build-dir = "book"
 create-missing = false
 
-[preprocessor.katex]
-
 [output.html]
-default-theme = "light"
-preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/jcreinhold/ega"
 edit-url-template = "https://github.com/jcreinhold/ega/edit/main/{path}"
-additional-css = ["theme/custom.css"]
 
 [output.html.search]
 enable = true
