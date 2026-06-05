@@ -751,24 +751,24 @@ Note the following consequence:
 
 <!-- label: V.5.14.6 -->
 
-*Let `X` be a projective algebraic scheme, irreducible and separable of dimension `n`, over an infinite field `k`.
-Then there exists a birational morphism of `X` onto a hypersurface in `ℙ^{n+1}`.*
+*Let `X` be a projective algebraic scheme, irreducible and separable of dimension `n`, over an infinite field `k`. Then
+there exists a birational morphism of `X` onto a hypersurface in `ℙ^{n+1}`.*
 
 We must avoid believing — even if `X` is a closed smooth geometrically irreducible subset of `ℙ` of dimension
-`m − 1 = n` — that the conic projection `p_C` is necessarily an immersion. Indeed, if `k` is infinite, this would
-imply that there exists a `C` rational over `k` having the same property, i.e. that `X` is isomorphic to a non-singular
+`m − 1 = n` — that the conic projection `p_C` is necessarily an immersion. Indeed, if `k` is infinite, this would imply
+that there exists a `C` rational over `k` having the same property, i.e. that `X` is isomorphic to a non-singular
 hypersurface in `ℙ^{n+1}`. But already for `n = 1` (so `X` an algebraic projective curve, smooth and connected over an
 algebraically closed field), it is easy to construct examples where `X` cannot be embedded (*ne peut s'immerger*) in a
-`ℙ²`. Also, in (5.14.4) we must avoid confusing the given statement with the assertion (in general false) that `p_C`
-is itself a monomorphism (preceding counterexample, if `X` is smooth of dimension `m`), or that `p_C` should be
-unramified. For the latter point, to convince ourselves take `X` a closed smooth subscheme, irreducible and of
-dimension `m` (over `k` algebraically closed), such that we have an `X → Q ≅ ℙ^m` unramified: it will be étale for
-reasons of dimension, but we can prove (see Ch. VIII) that this implies `X ≅ ℙ^m` (`ℙ^m` being simply connected). The
-intuitive geometric meaning of (5.14.4) is that the ramification set of `p_{C_η}` is "variable" over `k`; more
-precisely, the ramification set of `p_{C_ξ}`, for a variable `ξ` in an open set of `Grass_{m+1}(\overline{k})`, varies
-in `X(\overline{k})` and does not admit any "fixed point". Of course, to justify in the present section the passage
-from `η` generic to neighbouring points of `Grass_{m+1}(ℙ)`, and also if needed to be able to assume responsibility
-for the general considerations of §V.5.7.1, we have to consider the diagram
+`ℙ²`. Also, in (5.14.4) we must avoid confusing the given statement with the assertion (in general false) that `p_C` is
+itself a monomorphism (preceding counterexample, if `X` is smooth of dimension `m`), or that `p_C` should be unramified.
+For the latter point, to convince ourselves take `X` a closed smooth subscheme, irreducible and of dimension `m` (over
+`k` algebraically closed), such that we have an `X → Q ≅ ℙ^m` unramified: it will be étale for reasons of dimension, but
+we can prove (see Ch. VIII) that this implies `X ≅ ℙ^m` (`ℙ^m` being simply connected). The intuitive geometric meaning
+of (5.14.4) is that the ramification set of `p_{C_η}` is "variable" over `k`; more precisely, the ramification set of
+`p_{C_ξ}`, for a variable `ξ` in an open set of `Grass_{m+1}(\overline{k})`, varies in `X(\overline{k})` and does not
+admit any "fixed point". Of course, to justify in the present section the passage from `η` generic to neighbouring
+points of `Grass_{m+1}(ℙ)`, and also if needed to be able to assume responsibility for the general considerations of
+§V.5.7.1, we have to consider the diagram
 
 ```text
        X ⟵───── \widetilde{X}(C)
