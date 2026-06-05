@@ -51,8 +51,8 @@ projective system of sheaves of rings on $Y$, the transition homomorphism $\phi_
 $\mathcal{O}_{Y^{(m)}}$ by the power $(\mathcal{I}_{f} / \mathcal{I}^{m+1}_{f})^{n+1}$ of the augmentation ideal of
 $\mathcal{O}_{Y^{(m)}}$, kernel of $\phi_{0n} : \mathcal{O}_{Y^{(n)}} \to \mathcal{O}_{Y}$. The $Y^{(n)}$ therefore form
 an inductive system of ringed spaces, all having the space $Y$ as underlying space, and one has canonical morphisms of
-ringed spaces $h_{n} : Y^{(n)} \to X$ equal to $(\psi, \theta_{n})$, where $\theta^{\sharp}_{n}$ is the canonical morphism
-$\psi*(\mathcal{O}_{X}) \to \psi*(\mathcal{O}_{X})/\mathcal{I}^{n+1}_{f}$. It is clear that the sheaf
+ringed spaces $h_{n} : Y^{(n)} \to X$ equal to $(\psi, \theta_{n})$, where $\theta^{\sharp}_{n}$ is the canonical
+morphism $\psi*(\mathcal{O}_{X}) \to \psi*(\mathcal{O}_{X})/\mathcal{I}^{n+1}_{f}$. It is clear that the sheaf
 $\mathcal{GR}_{\bullet}(f)$ is a sheaf of graded algebras over the sheaf of rings $\mathcal{O}_{Y} =
 \mathcal{GR}_{0}(f)$, and the $\mathcal{GR}_{k}(f)$ are $\mathcal{O}_{Y}$-Modules.
 
@@ -83,8 +83,8 @@ $\psi_{0}*(\mathcal{O}_{U}) = \mathcal{O}_{U}|Y \to (\mathcal{O}_{U}/\mathcal{I}
 \theta_{0}) : Y \to U$ is a morphism of ringed spaces (and of spaces ringed in local rings if $X$ is a space ringed in
 local rings); if $i : U \to X$ is the canonical injection (morphism of ringed spaces), $j = i \circ j_{0}$ is the
 morphism $(\psi, \theta)$ of $Y$ into $X$, where $\psi : Y \to X$ is the canonical injection and $\theta :
-\mathcal{O}_{X} \to \psi_{*}(\mathcal{O}_{Y})$ is the homomorphism such that $\theta^{\sharp} = \theta^{\sharp}_{0}$. Since
-$\theta^{\sharp}$ is surjective, one can apply the preceding definitions; $\mathcal{O}_{Y^{(n)}}$ is equal to
+\mathcal{O}_{X} \to \psi_{*}(\mathcal{O}_{Y})$ is the homomorphism such that $\theta^{\sharp} = \theta^{\sharp}_{0}$.
+Since $\theta^{\sharp}$ is surjective, one can apply the preceding definitions; $\mathcal{O}_{Y^{(n)}}$ is equal to
 $\psi_{0}*(\mathcal{O}_{U}/\mathcal{I}^{n+1})$, and one has $(\psi_{0})_{*}(\mathcal{O}_{Y^{(n)}}) =
 \mathcal{O}_{U}/\mathcal{I}^{n+1}$ and $\mathcal{GR}_{n}(j) = \mathcal{GR}_{n}(j_{0}) =
 \psi_{0}*(\mathcal{I}^{n}/\mathcal{I}^{n+1}) = j_{0}*(\mathcal{I}^{n}/\mathcal{I}^{n+1})$.*
@@ -252,8 +252,8 @@ canonical morphism on each of the $Y_{\lambda}$.
 <!-- label: IV.16.2.1 -->
 
 Let $f = (\psi, \theta) : Y \to X$ and $f' = (\psi', \theta') : Y' \to X'$ be two morphisms of ringed spaces such that
-the homomorphisms $\theta^{\sharp}$ and $\theta'^{\sharp}$ are surjective; consider a commutative diagram of morphisms of ringed
-spaces
+the homomorphisms $\theta^{\sharp}$ and $\theta'^{\sharp}$ are surjective; consider a commutative diagram of morphisms
+of ringed spaces
 
 ```text
   (16.2.1.1)
@@ -275,10 +275,11 @@ Set $u = (\rho, \lambda)$, $v = (\sigma, \mu)$. One has $\rho*(\psi*(\mathcal{O}
             ρ*(𝒪_Y) ────────λ^#──────────> 𝒪_{Y'}
 ```
 
-from which one concludes, if $\mathcal{I}$ and $\mathcal{I}'$ are the kernels of $\theta^{\sharp}$ and $\theta'^{\sharp}$, that
-one has $\psi'*(\mu^{\sharp})(\rho*(\mathcal{I})) \subset \mathcal{I}'$, by exactness of the functor $\rho*$. One deduces at
-once that for every integer $n$, $\psi'*(\mu^{\sharp})(\rho*(\mathcal{I}^{n})) \subset \mathcal{I}'^{n}$, which shows that
-$\psi'*(\mu^{\sharp})$ defines, by passage to the quotients, a homomorphism of sheaves of rings
+from which one concludes, if $\mathcal{I}$ and $\mathcal{I}'$ are the kernels of $\theta^{\sharp}$ and
+$\theta'^{\sharp}$, that one has $\psi'*(\mu^{\sharp})(\rho*(\mathcal{I})) \subset \mathcal{I}'$, by exactness of the
+functor $\rho*$. One deduces at once that for every integer $n$,
+$\psi'*(\mu^{\sharp})(\rho*(\mathcal{I}^{n})) \subset \mathcal{I}'^{n}$, which shows that $\psi'*(\mu^{\sharp})$
+defines, by passage to the quotients, a homomorphism of sheaves of rings
 
 $$ (16.2.1.2) \nu_{n} : \rho*(\psi*(\mathcal{O}_{X})/\mathcal{I}^{n+1}) \to \psi'*(\mathcal{O}_{X'})/\mathcal{I}'^{n+1}
 $$
