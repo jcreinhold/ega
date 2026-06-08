@@ -1,6 +1,6 @@
 <!-- original page 5 -->
 
-## §16. Differential invariants. Differentially smooth morphisms
+# §16. Differential invariants. Differentially smooth morphisms
 
 In this section we present, in global form, certain notions of differential calculus particularly useful in algebraic
 geometry. We pass over many developments that are classical in differential geometry (connections, infinitesimal
@@ -9,7 +9,7 @@ natural way in the framework of schemes. We likewise pass over here the phenomen
 (some of which are studied, in the affine setting, in `(0, 21)`). For certain complements to the differential formalism
 in preschemes the reader may consult Exposés II and VII of `[42]`, as well as later chapters of this Treatise.
 
-### 16.1. Normal invariants of an immersion
+## 16.1. Normal invariants of an immersion
 
 **(16.1.1).**
 
@@ -245,7 +245,7 @@ immersion, and without $\psi$ being injective. One has an example by taking for 
 all isomorphic to $\operatorname{Spec}(\mathcal{O}_{x})$, where $x \in X$, and for $f$ the morphism equal to the
 canonical morphism on each of the $Y_{\lambda}$.
 
-### 16.2. Functorial properties of normal invariants of an immersion
+## 16.2. Functorial properties of normal invariants of an immersion
 
 **(16.2.1).**
 
@@ -564,7 +564,7 @@ preceding notation, it suffices to take $A = k[T]$, $\mathfrak{J} = AT^{2}$, $\m
 $(\mathfrak{J} + \mathfrak{K}^{2})/\mathfrak{K}^{2} = 0$ and $\mathfrak{J}/\mathfrak{KJ} \neq 0$. See, however,
 `(16.9.13)` and `(19.1.5)` for useful cases where the extended sequence remains exact.
 
-### 16.3. Fundamental differential invariants of a morphism of preschemes
+## 16.3. Fundamental differential invariants of a morphism of preschemes
 
 **Definition (16.3.1).**
 
@@ -729,7 +729,7 @@ $\mathcal{GR}_{n}(\mathcal{P}_{X/S})$ are quasi-coherent $\mathcal{O}_{X}$-Modul
 
 This follows from `(16.1.6)` and from the fact that $\Delta_{f}$ is locally of finite presentation `(1.4.3.1)`.
 
-### 16.4. Functorial properties of differential invariants
+## 16.4. Functorial properties of differential invariants
 
 **(16.4.1).**
 
@@ -1460,7 +1460,7 @@ We did not, however, wish to start from this point of view, which is less intuit
 applications. It seems, moreover, that, for the various species of "varieties", the "global" construction of the
 $\mathcal{P}^{n}$ analogous to the one we use here is also better suited to applications.
 
-### 16.5. Relative tangent sheaves and bundles; derivations
+## 16.5. Relative tangent sheaves and bundles; derivations
 
 **(16.5.1).**
 
@@ -1963,7 +1963,7 @@ under $\mathcal{G}$), the image under $w$ of the zero section of $\mathcal{G}$ i
 
 <!-- original page 34 -->
 
-### 16.6. Sheaves of $\Omega$-differentials and exterior differential
+## 16.6. Sheaves of $\Omega$-differentials and exterior differential
 
 **(16.6.1).**
 
@@ -2127,7 +2127,7 @@ One notes that the relation $d(dg) = 0$ for every section $g \in \Gamma(U, \math
 
 in other words, the derivations $D_{i}$ defined in `(16.5.7)` commute pairwise.
 
-### 16.7. The $\mathcal{P}^{n}_{X/S}(\mathcal{F})$
+## 16.7. The $\mathcal{P}^{n}_{X/S}(\mathcal{F})$
 
 **(16.7.1).**
 
@@ -2348,7 +2348,7 @@ an arbitrary sheaf of sets (the inverse image of a sheaf of sets under $p^{(n)}_
 a variant of this definition allows one to define the *"scheme of jets"* (relative to $S$) of an arbitrary
 $X$-prescheme.
 
-### 16.8. Differential operators[^16.8-gabriel]
+## 16.8. Differential operators[^16.8-gabriel]
 
 **Definition (16.8.1).**
 
@@ -2798,7 +2798,7 @@ $\mathcal{F}$ and $\mathcal{G}$ are locally free $\mathcal{O}_{X}$-Modules of fi
 reduces locally, by virtue of (i), to that of the sheaf $\mathcal{D}iff_{X/S}$; the latter will be studied below
 `(16.11)` in a particular case.
 
-### 16.9. Regular and quasi-regular immersions
+## 16.9. Regular and quasi-regular immersions
 
 **Definition (16.9.1).**
 
@@ -3158,7 +3158,7 @@ is exact (see the proof of `(16.2.7)`), and the modules figuring in this sequenc
 sheaves in `(16.9.13.1)`. The second assertion follows from the fact that $\mathcal{N}_{Y'/Y}$ is a locally free
 $\mathcal{O}_{Y'}$-Module `(16.9.8)` and from Bourbaki, *Alg.*, chap. II, 3rd ed., §1, n° 11, prop. 21.
 
-### 16.10. Differentially smooth morphisms
+## 16.10. Differentially smooth morphisms
 
 **Definition (16.10.1).**
 
@@ -3278,7 +3278,7 @@ rank. It follows from `(0, 20.4.7)` that every $x \in X$ has an open neighbourho
 family $(z_{\lambda})_{\lambda \in L}$ of sections of $\mathcal{O}_{X}$ over $U$ for which $(dz_{\lambda})_{\lambda \in
 L}$ forms a basis of the $\Gamma(U, \mathcal{O}_{X})$-module $\Gamma(U, \Omega^{1}_{X/S})$.
 
-### 16.11. Differential operators on a differentially smooth $S$-prescheme
+## 16.11. Differential operators on a differentially smooth $S$-prescheme
 
 **(16.11.1).**
 
@@ -3420,7 +3420,7 @@ be bijective for every $m \leq r$. The argument of `(16.11.2)` then shows that i
 restricted to $\mathbf{p} \in \mathbb{N}^{(L)}$, $\mathbf{q} \in \mathbb{N}^{(L)}$ with $|\mathbf{p}| \leq r$,
 $|\mathbf{q}| \leq r$.
 
-### 16.12. Case of characteristic zero — Jacobian criterion for differentially smooth morphisms
+## 16.12. Case of characteristic zero — Jacobian criterion for differentially smooth morphisms
 
 **(16.12.1).**
 

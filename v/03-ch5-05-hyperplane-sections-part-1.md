@@ -1,6 +1,6 @@
 <!-- original page 1 -->
 
-## §V.5. Hyperplane sections and conic projections (formerly EGA IV §20) — part 1 of 2
+# §V.5. Hyperplane sections and conic projections (formerly EGA IV §20) — part 1 of 2
 
 This section was originally drafted as §20 of EGA IV, then re-allocated to EGA V (Chapter V §5) without ever being
 published in either place. It is the longest single section of the prenotes. Because of its bulk we divide our
@@ -33,7 +33,7 @@ parenthetically at the first occurrence of each cross-reference into the old num
 > "elementary-geometry" type on Grassmannians. If need be, could one include there also (lacking a better place) the
 > supplements that I told you about dealing with birational transformations?
 
-### Plan of §V.5
+## Plan of §V.5
 
 1. Preliminaries and notation (§V.5.1).
 
@@ -71,7 +71,7 @@ Items 1-8 are treated in the present part 1; items 9-16 are treated in part 2.
 
 <!-- original page 3 -->
 
-### V.5.1. Preliminaries and notation
+## V.5.1. Preliminaries and notation
 
 Let $S$ be a prescheme, let $E$ be a locally free module of finite type over $S$, and let $E^{\vee}$ be its dual. We
 denote by $P = P(E) = \mathbb{P}(E)$ the projective fibration defined by $E$, and by $P^{\vee} = \mathbb{P}(E^{\vee})$
@@ -201,7 +201,7 @@ of $k$ algebraically closed.
 (relative to the projective immersion $f$ and the hyperplane $H_{\xi}$). There is no reason not to extend this
 terminology to the case of an arbitrary $f$.
 
-### V.5.2. Study of a generic hyperplane section: local properties
+## V.5.2. Study of a generic hyperplane section: local properties
 
 Let us recall that, from now on, $S = \operatorname{Spec}(k)$, with $k$ a field. If $\eta$ is a point of $P^{\vee}$ and
 if $\xi : \operatorname{Spec} k(\eta) \to P^{\vee}$ is the canonical morphism, we also write $H_{\eta}$, $Y_{\eta}$,
@@ -372,7 +372,7 @@ the opportunity to start a new subsection here.)
 
 <!-- original page 9 -->
 
-#### Geometric properties
+### Geometric properties
 
 **Theorem (5.2.12).**
 
@@ -504,7 +504,7 @@ characteristic zero, (5.2.12) and (5.2.17) are valid without assuming that $f$ i
 Indeed, it suffices to verify this for (5.2.12), and this follows from (5.2.11) and the fact that, for an algebraic
 prescheme in characteristic zero, smooth = regular.[^v-5p1-9]
 
-### V.5.3. Generic hyperplane section: geometric irreducibility and connectedness
+## V.5.3. Generic hyperplane section: geometric irreducibility and connectedness
 
 **Theorem (5.3.1) (Bertini-Zariski).**
 
@@ -595,7 +595,7 @@ components of $X$) that $Y_{\eta}$ is geometrically connected over $k(\eta)$.
 page 174, and vol. 2, page 304; also Zariski-Samuel, vol. 1, page 196, and vol. 2, page 230 of the GTM Springer edition.
 See also Jouanolou's *Théorème de Bertini et applications*, Theorem 3.6 and Section 6.
 
-### V.5.4. Variable hyperplane section: "sufficiently general" sections
+## V.5.4. Variable hyperplane section: "sufficiently general" sections
 
 We return to the general situation of §V.5.1: $S$ an arbitrary prescheme. We also suppose that $X$ is of finite
 presentation over $S$.
@@ -713,7 +713,7 @@ out.*[^v-5p1-17]
 
 <!-- original page 15 -->
 
-### V.5.5. Theorems of Seidenberg type
+## V.5.5. Theorems of Seidenberg type
 
 **(5.5.1).** In the present subsection we give conditions under which the set $E$ defined in §V.5.4 is open. We deal
 here with properties $P$ of local nature over $X$, respectively $Y_{\xi}$, such that we can define the set $U$ of $y \in
@@ -831,7 +831,7 @@ conditions enumerated in another volume; it requires an explicit list (i), (ii),
 Remark also (in (5.5.1) perhaps) that the case $P =$ geometrically normal (with $S = \operatorname{Spec}(k)$, to be
 sure[^v-5p1-22]) is due to Seidenberg.
 
-### V.5.6. Connectedness of an arbitrary hyperplane section
+## V.5.6. Connectedness of an arbitrary hyperplane section
 
 We now combine the already-known criterion for geometric connectedness of the generic hyperplane section (5.3.3) with
 Zariski's connectedness theorem in order to obtain a connectedness result for an arbitrary hyperplane section.
@@ -860,7 +860,7 @@ connected.
 > planning point of view, it might be clearer to group together all the connectedness questions (including (5.3.3) and
 > (5.4.4)) in the same subsection.
 
-### V.5.7. Application to the construction of hyperplane sections and multisections of specified type
+## V.5.7. Application to the construction of hyperplane sections and multisections of specified type
 
 <!-- original page 18 -->
 
@@ -953,7 +953,7 @@ that one can give examples with $X$ proper and smooth (but not projective) over 
 course, the projective assumption cannot be weakened in general to an assumption of quasi-projectiveness, as one sees,
 for example, by taking $X$ étale and not finite over $S$.*[^v-5p1-26]
 
-### V.5.8. Dimension of the set of exceptional hyperplanes
+## V.5.8. Dimension of the set of exceptional hyperplanes
 
 **(5.8.1).** In the previous subsections, and notably in §§V.5.2 and V.5.3, we have given statements asserting that the
 set of $\xi \in P^{\vee}$ such that $Y_{\xi}$ has a certain property $P$ is constructible and that it contains the

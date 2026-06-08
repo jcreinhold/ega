@@ -1,6 +1,6 @@
 <!-- original page 54 -->
 
-## §9. Constructible properties
+# §9. Constructible properties
 
 Let $S$ be a prescheme, $f : X \to S$ a morphism *of finite presentation* `(1.6.1)`, $\mathcal{F}$ a quasi-coherent
 $\mathcal{O}_{X}$-Module of finite presentation. We propose, in this section, to give criteria ensuring, for example,
@@ -13,7 +13,7 @@ $X_{f(x)}$ (or the $\mathcal{O}_{X_{f(x)}}$-Module $\mathcal{F}_{f(x)}$) has a c
 constructible. We shall see in §12 that these results, combined with the additional hypothesis that $f$ is flat (resp.
 proper and flat), allow one to prove that the sets considered in $X$ (resp. in $S$) are even *open* in many cases.
 
-### 9.1. The principle of finite extension
+## 9.1. The principle of finite extension
 
 **Proposition (9.1.1) (Principle of finite extension).**
 
@@ -137,7 +137,7 @@ The reasoning is the same as in `(9.1.4)`, applying `(8.5.2, (i))` (one uses her
 `(9.1.1)`, the fact that the morphisms $D(g) \to D(f)$ (with the notation of `(9.1.3)`) are open immersions, and *a
 fortiori* flat morphisms).
 
-### 9.2. Constructible and ind-constructible properties
+## 9.2. Constructible and ind-constructible properties
 
 **Definition (9.2.1).**
 
@@ -329,7 +329,7 @@ W \to \mathbf{V}^{n}_{A} (= \operatorname{Spec}(A[T_{1}, \cdots, T_{n}]))$ is an
 morphism finite and surjective by virtue of `(8.10.5, (vi) and (x))`. One concludes that for every $s \in S$, the
 morphism $g_{s} : W_{s} \to \mathbf{V}^{n}_{k(s)}$ is finite and surjective, hence $\dim(W_{s}) = n$ `(4.1.2)`.
 
-### 9.3. Constructible properties of morphisms of algebraic preschemes
+## 9.3. Constructible properties of morphisms of algebraic preschemes
 
 **Proposition (9.3.1).**
 
@@ -439,7 +439,7 @@ One may also, instead of considering morphisms of preschemes as in `(9.3.5)`, co
 
 <!-- original page 62 -->
 
-### 9.4. Constructibility of certain properties of modules
+## 9.4. Constructibility of certain properties of modules
 
 **Notation (9.4.1).**
 
@@ -744,7 +744,7 @@ an affine open set of $(X_{0})_{s_{0}}$) that $(\mathcal{F}_{0})_{s_{0}}$ is iso
 $\mathcal{O}^{n}_{(X_{0})_{s_{0}}}$, hence $\mathcal{F}_{s}$ is isomorphic to a sub-Module of an
 $\mathcal{O}^{n}_{X_{s}}$ `(2.2.7)`, and this establishes our assertion concerning $E'$.
 
-### 9.5. Constructibility of topological properties
+## 9.5. Constructibility of topological properties
 
 **Proposition (9.5.1).**
 
@@ -939,7 +939,7 @@ no $s \neq \eta$, while $X_{\eta} = \operatorname{Spec}(L)$ is integral.
 We shall see a little further on `(9.7)` that one obtains by contrast constructible properties when one considers the
 "geometric" notions corresponding to the notions of irreducible, reduced, or integral prescheme `(4.5 and 4.6)`.
 
-### 9.6. Constructibility of certain properties of morphisms
+## 9.6. Constructibility of certain properties of morphisms
 
 **Proposition (9.6.1).**
 
@@ -1233,7 +1233,7 @@ case where $Z$ is open in $X$, and then one is reduced to what was proved in `(9
 
 <!-- original page 76 -->
 
-### 9.7. Constructibility of separability, geometric irreducibility, and geometric connectedness
+## 9.7. Constructibility of separability, geometric irreducibility, and geometric connectedness
 
 **Lemma (9.7.1).**
 
@@ -1617,7 +1617,7 @@ other words, $g$ is an $S$-section of $X^{0}$; on the other hand, since $(X^{0})
 `(4.5.13)`, the same is true of $(X^{0})_{s}$ for every $s$ near $\eta$ `(9.7.7)`; since $g(s) \in (X^{0})_{s}$, one has
 indeed $(X^{0})_{s} = X^{\circ}_{s}$. Q.E.D.
 
-### 9.8. Primary decomposition near a generic fibre
+## 9.8. Primary decomposition near a generic fibre
 
 **Proposition (9.8.1).**
 
@@ -1877,7 +1877,7 @@ skeleton*", etc. The general conclusion of what has been seen since the start of
 of the type considered (and for an irreducible $S$) the properties valid on the "*generic fibre*" remain so on all
 neighbouring fibres.
 
-### 9.9. Constructibility of local properties of the fibres
+## 9.9. Constructibility of local properties of the fibres
 
 **Proposition (9.9.1).**
 

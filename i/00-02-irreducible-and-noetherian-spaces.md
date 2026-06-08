@@ -1,10 +1,8 @@
-# Chapter 0 — Preliminaries
-
-## §2. Irreducible Spaces. Noetherian Spaces
+# §2. Irreducible Spaces. Noetherian Spaces
 
 <!-- label: 0.2 -->
 
-### 2.1. Irreducible spaces
+## 2.1. Irreducible spaces
 
 <!-- label: 0.2.1 -->
 
@@ -79,7 +77,7 @@ one sees that if every irreducible component $Z$ of $X$ meeting $f^{-1}(y)$ admi
 _bijective correspondence_ between these components and the irreducible components of $f^{-1}(y)$, the generic points of
 $Z$ coinciding with those of $Z \cap f^{-1}(y)$.
 
-### 2.2. Noetherian spaces
+## 2.2. Noetherian spaces
 
 <!-- label: 0.2.2 -->
 

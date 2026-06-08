@@ -1,6 +1,6 @@
 <!-- original page 134 -->
 
-## §6. Flat morphisms of locally Noetherian preschemes
+# §6. Flat morphisms of locally Noetherian preschemes
 
 Let $X$, $Y$ be two locally Noetherian preschemes, $f : X \to Y$ a morphism. For every $y \in Y$, the fibre $f^{-1}(y) =
 X \times_{Y} \operatorname{Spec}(k(y))$ is also a locally Noetherian prescheme: it is enough to check this when $Y =
@@ -14,7 +14,7 @@ nos. (6.11) to (6.13) (rather separate from the rest of the section, by their "a
 we apply certain of the preceding results to find criteria allowing us to assert that the singular locus (or certain
 analogous sets) of certain preschemes are closed sets; these criteria will play an important role in §7.
 
-### 6.1. Flatness and dimension
+## 6.1. Flatness and dimension
 
 **Proposition (6.1.1).**
 
@@ -167,7 +167,7 @@ $B'$-module by virtue of (i) and of (0, 16.1.9 and 16.5.5) and since $A'$ is reg
 that $M'$ is a flat $A'$-module; one then deduces from (0_III, 10.2.7) that $M$ is a flat $A$-module, since $x$ is
 $M$-regular by (i).
 
-### 6.2. Flatness and projective dimension
+## 6.2. Flatness and projective dimension
 
 **Proposition (6.2.1).**
 
@@ -256,7 +256,7 @@ $Z_{i}(L_{\bullet} \otimes_{A} k) = Z_{i}(L_{\bullet}) \otimes_{A} k$ be a flat 
 integer $n$ such that $Z_{n-1}(L_{\bullet})$ is a free $B$-module is therefore also the smallest integer such that
 $Z_{n-1}(L_{\bullet} \otimes_{A} k)$ is a free $(B \otimes_{A} k)$-module, which proves the proposition (0, 17.2.1).
 
-### 6.3. Flatness and depth
+## 6.3. Flatness and depth
 
 **Proposition (6.3.1).**
 
@@ -471,7 +471,7 @@ prime ideal of $k \otimes_{A_{\mathfrak{p}}} A''$ corresponding to $\mathfrak{p}
 \otimes_{A_{\mathfrak{p}}} A'')_{\mathfrak{q}''}$ and $k \otimes_{A_{\mathfrak{p}}} A''_{\mathfrak{p}''}$ are
 isomorphic. Consequently (0, 16.5.13), the ring $k \otimes_{A_{\mathfrak{p}}} A''$ is a Cohen-Macaulay ring. Q.E.D.
 
-### 6.4. Flatness and property $(S_{n})$
+## 6.4. Flatness and property $(S_{n})$
 
 **Proposition (6.4.1).**
 
@@ -581,7 +581,7 @@ $A$.
 
 <!-- original page 143 -->
 
-### 6.5. Flatness and property $(R_{n})$
+## 6.5. Flatness and property $(R_{n})$
 
 **Proposition (6.5.1).**
 
@@ -696,7 +696,7 @@ immediate that $B$ is not integral.
 
 <!-- original page 145 -->
 
-### 6.6. Transitivity properties
+## 6.6. Transitivity properties
 
 **Proposition (6.6.1).**
 
@@ -743,7 +743,7 @@ Suppose $h$ flat, $f$ faithfully flat, and suppose that for every $z \in Z$, $h^
 then it follows from the reasoning of (6.6.1, (ii)) and from (6.3.2) that $g^{-1}(z)$ is of codepth $\leq n$ for every
 $z \in g(Y)$ and that for every $y \in Y$, $f^{-1}(y)$ is of codepth $\leq n$.
 
-### 6.7. Application to base changes in algebraic preschemes
+## 6.7. Application to base changes in algebraic preschemes
 
 **Proposition (6.7.1).**
 
@@ -1026,7 +1026,7 @@ d)) (for if $k'$ is an extension of $k$ of finite type, one may suppose that $K$
 type over $k$, $X'$ is locally of finite type over $k'$). One then deduces from (6.7.4) that property $Q(k'')$ is true
 (with the notation of (6.7.7)), hence $P(X, x)$ is true by (6.7.7, b)).
 
-### 6.8. Regular, normal, reduced, smooth morphisms
+## 6.8. Regular, normal, reduced, smooth morphisms
 
 **Definition (6.8.1).**
 
@@ -1201,7 +1201,7 @@ concludes by (6.8.6).
 In (17.5.1), we shall show that the equivalence of b) and c') in (6.8.6), as well as corollary (6.8.7), remain valid
 without Noetherian hypothesis on $X$ and $Y$, provided one restricts to morphisms locally of finite presentation.
 
-### 6.9. The generic flatness theorem
+## 6.9. The generic flatness theorem
 
 **Theorem (6.9.1).**
 
@@ -1284,7 +1284,7 @@ underlying space, there is by hypothesis a partition $(Y_{i})$ of $Y$ into local
 such that $\mathcal{F}_{i} = \mathcal{F} \otimes_{\mathcal{O}_{S}} \mathcal{O}_{Y_{i}}$ is flat over $Y_{i}$ for every
 $i$; it is clear that the $Y_{i}$ and $U$ form a partition answering the question.
 
-### 6.10. Dimension and depth of a Module normally flat along a closed sub-prescheme
+## 6.10. Dimension and depth of a Module normally flat along a closed sub-prescheme
 
 **(6.10.1)** Let $X$ be a locally Noetherian prescheme, $\mathfrak{J}$ a quasi-coherent Ideal of $\mathcal{O}_{X}$, $Y$
 the closed sub-prescheme of $X$ defined by $\mathfrak{J}$, $j : Y \to X$ the canonical injection. For every integer $k
@@ -1547,7 +1547,7 @@ $\mathcal{G}_{x}$-regular; finally, the sequence $((f_{i})_{x})$ is $\mathcal{F}
 formed of elements of the maximal ideal $\mathfrak{m}_{x}$; one deduces (0, 16.4.6) that $prof(\mathcal{F}_{x}) = p +
 q$, which completes the proof.
 
-### 6.11. Criteria for the sets $U_{S_{n}}(\mathcal{F})$ or $U_{C_{n}}(\mathcal{F})$ to be open
+## 6.11. Criteria for the sets $U_{S_{n}}(\mathcal{F})$ or $U_{C_{n}}(\mathcal{F})$ to be open
 
 **Lemma (6.11.1).**
 
@@ -1850,7 +1850,7 @@ $\dim(X) = 1$, it is immediate that every maximal point of $X_{red}$ admits an i
 
 <!-- original page 163 -->
 
-### 6.12. Nagata's criteria for $Reg(X)$ to be open
+## 6.12. Nagata's criteria for $Reg(X)$ to be open
 
 **(6.12.1).**
 
@@ -2125,7 +2125,7 @@ $\mathcal{O}_{x'}$ is regular by definition. One concludes that $U_{S_{1}}(X) = 
 $Z_{\lambda}$ is locally finite in $Z$, $\bigcup Z_{\lambda}$ is closed, which completes the proof that $U_{S_{1}}(X)$
 is open in $X$.
 
-### 6.13. Criteria for $Nor(X)$ to be open
+## 6.13. Criteria for $Nor(X)$ to be open
 
 **(6.13.1).**
 
@@ -2246,7 +2246,7 @@ This lemma being proved, one passes to the general case as in (6.12.4; II)), who
 hypothesis c), one sees this time that $Nor(X_{1})$ is open and one thus reduces to the case where `X_1` is normal and
 $g : X'_{1} \to X'$ flat and surjective; one concludes this time that $X'$ is normal by means of (6.5.4, (i)).
 
-### 6.14. Base change and integral closure
+## 6.14. Base change and integral closure
 
 **Proposition (6.14.1).**
 
@@ -2630,7 +2630,7 @@ $\operatorname{Spec}(B'_{\lambda}) \to \operatorname{Spec}(B_{\lambda})$ is norm
 One may for example apply (6.14.5) when $A$ is an excellent local ring and $A'$ its completion `Â`, since in this case
 $\operatorname{Spec}(A') \to \operatorname{Spec}(A)$ is a regular morphism (7.8.2).
 
-### 6.15. Geometrically unibranch preschemes
+## 6.15. Geometrically unibranch preschemes
 
 **(6.15.1).**
 

@@ -1,11 +1,11 @@
 <!-- original page 147 -->
 
-## §18. Complements on extensions of algebras
+# §18. Complements on extensions of algebras
 
 This section assembles a number of functorial constructions on rings which will be used repeatedly in §§19 and 20; it
 contains no non-trivial result.
 
-### 18.1. Inverse images of augmented rings
+## 18.1. Inverse images of augmented rings
 
 **(18.1.1)** Given a ring $A$ (not necessarily commutative), the category of $A$-*rings* has as objects the pairs $(B,
 \rho)$ formed by a ring $B$ and a ring homomorphism $\rho : A \to B$, and as morphisms (also called $A$-*homomorphisms*)
@@ -166,7 +166,7 @@ and $\mathfrak{J}'$; furthermore, one has seen `(18.1.3)` that $gr_{0} u : F \to
 \mathfrak{J}' \to \mathfrak{J}''$ is bijective, hence $u$ itself is bijective
 `(Bourbaki, Alg. comm., chap. III, §2, n° 8, cor. 3 of th. 1)`.
 
-### 18.2. Extensions of a ring by a bimodule
+## 18.2. Extensions of a ring by a bimodule
 
 **(18.2.1)** Let $E$ be an augmented $A$-ring over $B$, $f : E \to B$ the augmentation, $\mathfrak{J} = Ker(f)$ the
 augmentation ideal. If one has $\mathfrak{J}^{2} = 0$, then $\mathfrak{J}$ is not only an $E$-bimodule but also a
@@ -470,7 +470,7 @@ $B$-homomorphism $x \mapsto g'(x, 0)$.*
 
 This results at once from the definitions.
 
-### 18.3. The group of classes of $A$-extensions
+## 18.3. The group of classes of $A$-extensions
 
 **(18.3.1)** Consider a fixed $A$-ring $B$ and a fixed $B$-bimodule $L$; then the relation "$E$ and $E'$ are
 $A$-equivalent" between $A$-extensions $E$, $E'$ of $B$ by $L$ is an equivalence relation, and for this relation one can
@@ -760,7 +760,7 @@ immediate that the diagram
 is commutative. It suffices to apply this remark to the homomorphism $L \times L \to L$ defining the addition to
 conclude.
 
-### 18.4. Extensions of algebras
+## 18.4. Extensions of algebras
 
 **(18.4.1)** Let $A$ be a commutative ring. The category of $A$-*algebras* is then a full subcategory of that of
 $A$-rings, characterized by the fact that the structural homomorphisms $\rho : A \to B$ are *central*.
@@ -904,7 +904,7 @@ and likewise
 (18.4.6.2)                      H^2_k(K, L)^s ⥲ Hom_K(H_2(P'_•), L).
 ```
 
-### 18.5. Case of topological rings
+## 18.5. Case of topological rings
 
 **(18.5.1)** Let $A$, $B$ be two topological rings whose topology is linear, $\rho : A \to B$ a continuous homomorphism,
 $L$ a topological $B$-bimodule, and suppose that there exists an open two-sided ideal $\mathfrak{K}_{0}$ of $B$ such

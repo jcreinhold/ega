@@ -1,10 +1,8 @@
-# Chapter I — The Language of Schemes
-
-## §1. Affine Schemes
+# §1. Affine Schemes
 
 <!-- label: I.1 -->
 
-### 1.1. The prime spectrum of a ring
+## 1.1. The prime spectrum of a ring
 
 <!-- label: I.1.1 -->
 
@@ -122,7 +120,7 @@ $V(\mathfrak{J})$ in $X = \operatorname{Spec}(A)$ is $X$ itself.
 **Proof.** Every maximal ideal belongs to $V(\mathfrak{J})$. Every ideal $\mathfrak{a} \neq A$ is in some maximal ideal,
 so $V(\mathfrak{a}) \cap V(\mathfrak{J}) \neq \emptyset$.
 
-### 1.2. Functorial properties of prime spectra
+## 1.2. Functorial properties of prime spectra
 
 <!-- label: I.1.2 -->
 
@@ -160,7 +158,7 @@ $V(\mathfrak{a}) \cong \operatorname{Spec}(A/\mathfrak{a})$ into $X = \operatorn
 
 **Corollary (1.2.7).** ${}^{a}\phi(X)$ is dense in $X'$ iff every element of $\operatorname{Ker} \phi$ is nilpotent.
 
-### 1.3. Sheaf associated to a module
+## 1.3. Sheaf associated to a module
 
 <!-- label: I.1.3 -->
 
@@ -248,7 +246,7 @@ $\mathcal{H}om_{\tilde{B}}(\tilde{M}, \tilde{N}) \cong \widetilde{\operatorname{
 presentation. For $\mathfrak{J} \subset B$, $\widetilde{\mathfrak{J} N} = \tilde{\mathfrak{J}} \cdot \tilde{N}$. Graded
 $A$-algebras carry over to graded $\tilde{A}$-algebras.
 
-### 1.4. Quasi-coherent sheaves over a prime spectrum
+## 1.4. Quasi-coherent sheaves over a prime spectrum
 
 <!-- label: I.1.4 -->
 
@@ -268,7 +266,7 @@ sheaf on $X$.
 \tilde{B}$ for some $A$-algebra $B$; every quasi-coherent $\tilde{B}$-module is $\cong \tilde{N}$ for some $B$-module
 $N$.
 
-### 1.5. Coherent sheaves over a prime spectrum
+## 1.5. Coherent sheaves over a prime spectrum
 
 <!-- label: I.1.5 -->
 
@@ -286,7 +284,7 @@ $X$.
 **Corollary (1.5.4).** Under (1.5.1), every quasi-coherent $\mathcal{O}_{X}$-module is the inductive limit of its
 coherent sub-$\mathcal{O}_{X}$-modules.
 
-### 1.6. Functorial properties of quasi-coherent sheaves
+## 1.6. Functorial properties of quasi-coherent sheaves
 
 <!-- label: I.1.6 -->
 
@@ -346,7 +344,7 @@ $\gamma : \operatorname{Hom}_{A'}(N'_{1}, N'_{2}) \otimes_{A'} A \to \operatorna
 {}^{a}\phi' \circ {}^{a}\phi$ and $\tilde{\phi}'' = \tilde{\phi} \circ \tilde{\phi}'$, so $\Phi'' = \Phi' \circ \Phi$.
 Thus $(\operatorname{Spec}(A), \tilde{A})$ is a functor from rings to ringed spaces.
 
-### 1.7. Characterization of morphisms of affine schemes
+## 1.7. Characterization of morphisms of affine schemes
 
 <!-- label: I.1.7 -->
 
@@ -383,7 +381,7 @@ between commutative rings and the opposite category of affine schemes.
 **Corollary (1.7.5).** If $\phi : B \to A$ is surjective, $({}^{a}\phi, \tilde{\phi})$ is a monomorphism of ringed
 spaces.
 
-### 1.8. Morphisms from locally ringed spaces to affine schemes
+## 1.8. Morphisms from locally ringed spaces to affine schemes
 
 <!-- label: I.1.8 -->
 

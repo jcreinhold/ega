@@ -1,11 +1,11 @@
 <!-- original page 86 -->
 
-## §5. Dimension and depth in preschemes
+# §5. Dimension and depth in preschemes
 
 This section confines itself to restating, in the geometric language and with various complements of a technical nature,
 the notions and results of commutative algebra exposed in Chapter 0, §§16 and 17.
 
-### 5.1. Dimension of preschemes
+## 5.1. Dimension of preschemes
 
 **(5.1.1)**
 
@@ -267,7 +267,7 @@ This follows at once from `(5.1.12.1)` and the definitions.
 
 <!-- original page 90 -->
 
-### 5.2. Dimension of an algebraic prescheme
+## 5.2. Dimension of an algebraic prescheme
 
 **Proposition (5.2.1).**
 
@@ -382,7 +382,7 @@ has $\dim(X) = 1$, but the open set $U = {(0)}$ is of dimension `0` (cf. §10).*
 
 <!-- original page 92 -->
 
-### 5.3. Dimension of the support of a Module and Hilbert polynomial
+## 5.3. Dimension of the support of a Module and Hilbert polynomial
 
 This number uses the results of Chapter III; it will not be used in the sequel of this chapter.
 
@@ -463,7 +463,7 @@ whence, taking `(III, 2.5.3)` into account, for $n$ large enough,
 As, by virtue of `(5.3.1.2)` and the induction hypothesis, the degree of the polynomial $\chi_{A}(\mathcal{G}(n))$ is
 $d - 1$, the preceding relation entails that the degree of $\chi_{A}(\mathcal{F}(n))$ is $d$. Q.E.D.
 
-### 5.4. Dimension of the image of a morphism
+## 5.4. Dimension of the image of a morphism
 
 **Proposition (5.4.1).**
 
@@ -541,7 +541,7 @@ $B_{\mathfrak{n}_{i}}$ have dimension $< \dim(A)$ `(5.6.11)`. We shall, however,
 `(5.6.10))` that this last phenomenon cannot present itself when one supposes that $A$ is a quotient of a regular local
 ring.*
 
-### 5.5. Dimension formula for a morphism of finite type
+## 5.5. Dimension formula for a morphism of finite type
 
 **(5.5.1)**
 
@@ -745,7 +745,7 @@ prime ideal of `C[T]` such that $\mathfrak{n}' \cap C = \mathfrak{r}$, whence $(
 $(C[T])_{\mathfrak{n}'}$ is therefore a local ring of the ring $(C[T])_{\mathfrak{m}'}$, and as by hypothesis this
 latter is catenary, so is $(C[T])_{\mathfrak{n}'}$ `(0, 16.1.4)`.
 
-### 5.6. Dimension formula and universally catenary rings
+## 5.6. Dimension formula and universally catenary rings
 
 **Proposition (5.6.1).**
 
@@ -1106,7 +1106,7 @@ $E_{\mathfrak{p}} = C_{\mathfrak{p}}$, which proves our assertions.
 It would be interesting to know whether every integral Noetherian local ring verifying the conclusion of `(5.6.10)` is
 universally catenary; this is what Nagata `[33]` affirmed, but his proof does not seem to be complete.
 
-### 5.7. Depth and property $(S_{n})$
+## 5.7. Depth and property $(S_{n})$
 
 **Definition (5.7.1).**
 
@@ -1391,7 +1391,7 @@ $$ coprof_{A}(M_{[\rho]}) \leq coprof_{B}(M). (5.7.13.1) $$
 
 This follows from the preceding definition and from the relations `(5.7.9.1)` and `(5.7.9.2)`.
 
-### 5.8. Regular preschemes and property $(R_{n})$. Serre's normality criterion
+## 5.8. Regular preschemes and property $(R_{n})$. Serre's normality criterion
 
 **(5.8.1)**
 
@@ -1499,7 +1499,7 @@ A$. Q.E.D.
 
 <!-- original page 109 -->
 
-### 5.9. $Z$-pure and $Z$-closed Modules
+## 5.9. $Z$-pure and $Z$-closed Modules
 
 Part of the notions and results of this section and of the following one are special cases of notions and results
 developed in Chapter III in the theory of local cohomology. For the convenience of the reader, we give here an
@@ -1827,7 +1827,7 @@ $\mathbb{Z}$). One still has, for every $x \in X$, the canonical isomorphism `(5
 denotes the sheaf induced on the subspace $X_{x}$ of $X$ by the sheaf $\mathcal{F}$; the direct proof follows at once
 from the definition `(5.9.1.2)` and from the theorem of the double inductive limit.*
 
-### 5.10. Property `(S_2)` and $Z$-closure
+## 5.10. Property `(S_2)` and $Z$-closure
 
 **(5.10.1)**
 
@@ -2298,7 +2298,7 @@ This proves both assertions of (iv).
 
 <!-- original page 122 -->
 
-### 5.11. Coherence criteria for the Modules $\mathcal{H}^{0}_{X/Z}(\mathcal{F})$
+## 5.11. Coherence criteria for the Modules $\mathcal{H}^{0}_{X/Z}(\mathcal{F})$
 
 **Proposition (5.11.1).**
 
@@ -2562,7 +2562,7 @@ prime ideal of $A$ not meeting $S$; and on the other hand, if $\mathfrak{r}$ is 
 inverse image in $A$, $C/\mathfrak{r}$ is a finite integral $(A/\mathfrak{p})$-algebra containing $A/\mathfrak{p}$; our
 assertions are therefore consequences of `(5.10.17, (iii) and (iv))`.*
 
-### 5.12. Relations between the properties of a Noetherian local ring $A$ and of a quotient ring $A/tA$
+## 5.12. Relations between the properties of a Noetherian local ring $A$ and of a quotient ring $A/tA$
 
 One has already seen in `(3.4)` relations between the properties of $A$ and of $A/tA$ concerning associated prime
 ideals, as well as the properties of being integral or reduced. One gives in this section other relations between the

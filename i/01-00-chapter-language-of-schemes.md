@@ -1,4 +1,4 @@
-# Chapter I — The Language of Schemes
+# Chapter 1 — The Language of Schemes
 
 <!-- label: I -->
 

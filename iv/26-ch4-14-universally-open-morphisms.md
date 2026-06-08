@@ -1,6 +1,6 @@
 <!-- original page 199 -->
 
-## §14. Universally open morphisms
+# §14. Universally open morphisms
 
 §§14 and 15 are devoted to the study of the notion of *universally open morphism* `(2.4.2)`. One has already seen
 `(2.4.6)` that a flat morphism locally of finite presentation is universally open, the converse being inexact. In §14 we
@@ -29,7 +29,7 @@ connected component of the fibre $X_{y} = f^{-1}(y)$ at the point $g(y)$ (the "n
 groups), one studies the union $X^{\circ}$ of the $X^{\circ}_{y}$ for $y \in Y$, and one shows `(15.6.4)` that if $f$ is
 universally open and the fibres $X_{y}$ geometrically reduced, then $X^{\circ}$ is an open set in $X$.
 
-### 14.1. Open morphisms
+## 14.1. Open morphisms
 
 **(14.1.1)**
 
@@ -123,7 +123,7 @@ $y'$ of $y = f(x)$, there exists $x' \in X$, a generization of $x$, such that $y
 
 <!-- original page 201 -->
 
-### 14.2. Open morphisms and the dimension formula
+## 14.2. Open morphisms and the dimension formula
 
 **Theorem (14.2.1).**
 
@@ -248,7 +248,7 @@ contains the generic points of the irreducible components of $f^{-1}(\eta)$.
 
 <!-- original page 203 -->
 
-### 14.3. Universally open morphisms
+## 14.3. Universally open morphisms
 
 **(14.3.1)**
 
@@ -585,7 +585,7 @@ hypothesis that $f$ is open at the point $x$. One may show easily that it would 
 the spectrum of an integral local ring whose generic point is isolated, and where $X$ is a closed subprescheme of the
 vector bundle `Y[T]`.
 
-### 14.4. Chevalley's criterion for universally open morphisms
+## 14.4. Chevalley's criterion for universally open morphisms
 
 **Theorem (14.4.1).**
 
@@ -975,7 +975,7 @@ obtained will apply in particular to flat morphisms `(2.4.6)`, whose importance 
 can consider that statements involving the hypothesis that a morphism is universally open are common generalizations of
 statements involving a hypothesis of normality and of statements involving a hypothesis of flatness.
 
-### 14.5. Universally open morphisms and quasi-sections
+## 14.5. Universally open morphisms and quasi-sections
 
 **Lemma (14.5.1).**
 

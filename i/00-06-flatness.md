@@ -1,6 +1,4 @@
-# Chapter 0 — Preliminaries
-
-## §6. Flatness
+# §6. Flatness
 
 <!-- label: 0.6 -->
 
@@ -10,7 +8,7 @@ Bourbaki's _Algèbre commutative_, to which we refer the reader. All rings are a
 If $M$, $N$ are $A$-modules and $M'$ (resp. $N'$) is a submodule of $M$ (resp. $N$), we write $Im(M' \otimes_{A} N')$
 for the submodule of $M \otimes_{A} N$ that is the image of the canonical map $M' \otimes_{A} N' \to M \otimes_{A} N$.
 
-### 6.1. Flat modules
+## 6.1. Flat modules
 
 <!-- label: 0.6.1 -->
 
@@ -49,7 +47,7 @@ Im(M ⊗ (N′ ∩ N″)) = Im(M ⊗ N′) ∩ Im(M ⊗ N″)
 N/N'$ is flat. Then $Im(M' \otimes N') = Im(M' \otimes N) \cap Im(M \otimes N')$ (images in $M \otimes N$). In
 particular, if $\mathfrak{J}$ is an ideal of $A$ and $M/M'$ is flat, then $\mathfrak{J} M' = M' \cap \mathfrak{J} M$.
 
-### 6.2. Change of ring
+## 6.2. Change of ring
 
 <!-- label: 0.6.2 -->
 
@@ -85,7 +83,7 @@ exact and commutes with tensor products,
 M ⊗_A 𝔍 = lim⃗ (M_μ ⊗_{A_μ} 𝔍′_μ) = lim⃗ 𝔍′_μ M_μ = 𝔍 M.
 ```
 
-### 6.3. Localization of flatness
+## 6.3. Localization of flatness
 
 <!-- label: 0.6.3 -->
 
@@ -143,7 +141,7 @@ In particular, if $A$ is integral and $\phi : A \to B$ is a homomorphism making 
 then $\phi$ is _injective_. Conversely, if $B$ is integral, $A$ is a subring of $B$, and $A_{\mathfrak{m}}$ is a DVR for
 every maximal $\mathfrak{m}$, then $B$ is $A$-flat.
 
-### 6.4. Faithfully flat modules
+## 6.4. Faithfully flat modules
 
 <!-- label: 0.6.4 -->
 
@@ -180,7 +178,7 @@ M_𝔪 / 𝔪 M_𝔪 = (M ⊗_A A_𝔪) ⊗_{A_𝔪} (A_𝔪 / 𝔪 A_𝔪) = M 
 
 so the hypothesis gives $M / \mathfrak{m} M \neq 0$ for every maximal $\mathfrak{m}$, whence (6.4.1).
 
-### 6.5. Restriction of scalars
+## 6.5. Restriction of scalars
 
 <!-- label: 0.6.5 -->
 
@@ -196,7 +194,7 @@ identified with an $A$-submodule of $M_{(B)}$. Note that if $B$ is _Noetherian_,
 \mapsto \mathfrak{a} B$ is an increasing injection from ideals of $A$ into ideals of $B$, so a strictly increasing
 infinite chain of ideals of $A$ would give one of $B$.
 
-### 6.6. Faithfully flat rings
+## 6.6. Faithfully flat rings
 
 <!-- label: 0.6.6 -->
 
@@ -226,7 +224,7 @@ flat), it is necessary and sufficient that $N$ be.
 In particular, let $C$ be a $B$-algebra. If $C$ is faithfully flat over $B$ and $B$ is faithfully flat over $A$, then
 $C$ is faithfully flat over $A$. If $C$ is faithfully flat over $B$ and over $A$, then $B$ is faithfully flat over $A$.
 
-### 6.7. Flat morphisms of ringed spaces
+## 6.7. Flat morphisms of ringed spaces
 
 <!-- label: 0.6.7 -->
 

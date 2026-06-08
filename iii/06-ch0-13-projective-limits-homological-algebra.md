@@ -1,10 +1,8 @@
-# Chapter 0_III
-
-## §13. Projective limits in homological algebra
+# §13. Projective limits in homological algebra
 
 <!-- original page 64 -->
 
-### 13.1. The Mittag–Leffler condition
+## 13.1. The Mittag–Leffler condition
 
 **13.1.1.**
 
@@ -63,7 +61,7 @@ Condition `(ML)` can also be formulated when $\mathcal{C}$ is, for example, the 
 define the subset of "universal images" in $A_{\alpha}$, and the remarks made on this subject in `(13.1.1)` and
 `(13.1.2)` remain valid.
 
-### 13.2. The Mittag–Leffler condition for abelian groups
+## 13.2. The Mittag–Leffler condition for abelian groups
 
 **Proposition (13.2.1).**
 
@@ -234,7 +232,7 @@ and to obtain more complete statements than the preceding ones `[28]`.
 
 <!-- original page 68 -->
 
-### 13.3. Application: cohomology of a projective limit of sheaves
+## 13.3. Application: cohomology of a projective limit of sheaves
 
 **Proposition (13.3.1).**
 
@@ -344,7 +342,7 @@ every $k$, every $i > 0$ and every $U \in \mathfrak{B}$, and if for $U \in \math
 \mathcal{F}_{k}) \to \Gamma(U, \mathcal{F}_{h})$ are surjective. This will be the most frequent case of application of
 `(13.3.1)`.
 
-### 13.4. The Mittag–Leffler condition and graded objects associated to projective systems
+## 13.4. The Mittag–Leffler condition and graded objects associated to projective systems
 
 **13.4.1.**
 
@@ -467,7 +465,7 @@ if $A = \varprojlim A_{k}$, one has for every $p \in \mathbb{Z}$ a canonical iso
 Indeed, one has $Im(A_{k} \to A_{p}) = Im(A \to A_{p})$ whenever $k$ is large enough (Bourbaki, _Top. gén._, ch. II, 3rd
 ed., §3, n° 5, th. 1), and the conclusion results from `(13.4.1.3)` and `(13.4.4.1)`.
 
-### 13.5. Projective limits of spectral sequences of filtered complexes
+## 13.5. Projective limits of spectral sequences of filtered complexes
 
 **13.5.1.**
 
@@ -596,7 +594,7 @@ $Z^{pq}_{\infty}(\mathbf{X}^{\bullet})$, $B^{pq}_{\infty}(\mathbf{X}^{\bullet})$
 \leq r \leq +\infty$) and $d^{pq}_{r}$ depend *functorially* on the projective system $\mathbf{X}^{\bullet}$ submitted
 to the restrictions of `(13.5.5)`, and that the morphisms defined in `(13.5.5)` and `(13.5.6)` are functorial.
 
-### 13.6. Spectral sequence of a functor relative to an object equipped with a finite filtration
+## 13.6. Spectral sequence of a functor relative to an object equipped with a finite filtration
 
 **13.6.1.**
 
@@ -747,7 +745,7 @@ Note that when $\mathcal{C}'$ is the category of abelian groups, the structures 
 (resp. of $gr^{\bullet}(\mathcal{S})$-$\mathcal{C}'$-module graded or bigraded) are none other than the usual structures
 of $\mathcal{S}$-module (resp. $gr^{\bullet}(\mathcal{S})$-module graded, bigraded).
 
-### 13.7. Derived functors of a projective limit of arguments
+## 13.7. Derived functors of a projective limit of arguments
 
 **13.7.1.**
 

@@ -1,4 +1,4 @@
-# Chapter IV — Local study of schemes and morphisms of schemes
+# Chapter 4 — Local study of schemes and morphisms of schemes
 
 <!-- original page 222 -->
 

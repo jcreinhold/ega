@@ -1,6 +1,6 @@
 <!-- original page 212 -->
 
-## §20. Derivations and differentials
+# §20. Derivations and differentials
 
 The notions introduced in this section will be taken up in geometric form in chapter IV, §16, and will play an important
 role in the study of preschemes. Their importance in the present chapter rests first of all on their connections with
@@ -9,7 +9,7 @@ translated into geometric language in the section of chapter IV devoted to smoot
 applications. On the other hand, the differential notions will serve in §22 to prove important regularity criteria which
 will play an essential role in the deeper study of Noetherian local rings carried out in §7 of chapter IV.
 
-### 20.1. Derivations and extensions of algebras
+## 20.1. Derivations and extensions of algebras
 
 **Proposition (20.1.1).**
 
@@ -143,7 +143,7 @@ fact that $w$ is a right inverse of $p$.
 
 <!-- original page 214 -->
 
-### 20.2. Functorial properties of derivations
+## 20.2. Functorial properties of derivations
 
 **(20.2.1)** Let $A$ be a ring, $B$ an $A$-ring, $L$ a $B$-bimodule; if $L'$ is a second $B$-bimodule and $w : L \to L'$
 a homomorphism of $B$-bimodules, it is clear that the map $D \mapsto w \circ D$ is a homomorphism of additive groups
@@ -318,7 +318,7 @@ This follows from the definition of $Exan_{B/A}(C, L)$ (resp. $Exalcom_{B/A}(C, 
 
 *and likewise for the exact sequences `(20.2.3.1)`, `(20.2.4.1)`, and `(20.2.4.2)`.*
 
-### 20.3. Continuous derivations in topological rings
+## 20.3. Continuous derivations in topological rings
 
 **(20.3.1)** Given two topological rings $A$, $B$ (linearly topologized as always), we denote by
 $\operatorname{Hom}.cont(A, B)$ the set of continuous homomorphisms from $A$ to $B$. Given a topological ring $A$, the
@@ -441,7 +441,7 @@ functorial in $L$,*
 
 We leave to the reader the task of writing the diagrams analogous to those of `(20.2.5)`.
 
-### 20.4. Principal parts and differentials
+## 20.4. Principal parts and differentials
 
 In the whole sequel of this section and in the three following ones, all rings are assumed to be commutative.
 
@@ -762,7 +762,7 @@ of order $n$".*
 
 <!-- original page 223 -->
 
-### 20.5. Fundamental functorial properties of $\Omega_{B/A}$
+## 20.5. Fundamental functorial properties of $\Omega_{B/A}$
 
 **(20.5.1)** In the whole of this number and the following one, unless expressly stated otherwise, the rings and modules
 considered are assumed to be equipped with the discrete topology.
@@ -1309,7 +1309,7 @@ $$ (20.5.15.1) v_{C/B/A} : \Omega_{C/A} \to \Omega_{C/B} $$
 
 <!-- original page 136 -->
 
-### 20.6. Imperfection modules and characteristic homomorphisms
+## 20.6. Imperfection modules and characteristic homomorphisms
 
 **Definition (20.6.1).**
 
@@ -2064,7 +2064,7 @@ $F_{\bullet}(C/A)$, which from the point of view of homological algebra play the
 $\operatorname{Spec}(C)$ over $\operatorname{Spec}(A)$, will occupy an important place in the chapters of this work
 devoted to the duality of coherent sheaves and to the Riemann-Roch theorem.*
 
-### 20.7. Generalizations to topological rings
+## 20.7. Generalizations to topological rings
 
 **(20.7.1)** It follows at once from the definitions that if, in `(20.5.2)` and `(20.5.3)`, the rings $A$, $B$, $C$ are
 supposed to be topological rings and the ring homomorphisms $u$, $v$ continuous, then the homomorphisms $u_{C/B/A}$ and

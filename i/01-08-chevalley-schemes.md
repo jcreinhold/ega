@@ -1,12 +1,10 @@
-# Chapter I — The Language of Schemes
-
-## §8. Chevalley Schemes
+# §8. Chevalley Schemes
 
 <!-- label: I.8 -->
 
 > **Translation status.** Skeleton with definitions and principal statements; full proofs reference .
 
-### 8.1. Allied local rings
+## 8.1. Allied local rings
 
 <!-- label: I.8.1 -->
 
@@ -30,7 +28,7 @@ integral type_ over $K$ is one that dominates a finitely generated subalgebra of
 
 **Proposition (8.1.5).** Allied local rings have the same dimension and the same residue field up to isomorphism.
 
-### 8.2. Local rings of an integral scheme
+## 8.2. Local rings of an integral scheme
 
 <!-- label: I.8.2 -->
 
@@ -59,7 +57,7 @@ over a field.
 
 **Proposition (8.2.8).** Algebraic varieties in the sense of Serre's (FAC) are precisely integral algebraic $K$-schemes.
 
-### 8.3. Chevalley schemes
+## 8.3. Chevalley schemes
 
 <!-- label: I.8.3 -->
 

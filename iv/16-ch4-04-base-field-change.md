@@ -1,8 +1,8 @@
 <!-- original page 52 -->
 
-## §4. Base field change in algebraic preschemes
+# §4. Base field change in algebraic preschemes
 
-### 4.1. Dimension of algebraic preschemes
+## 4.1. Dimension of algebraic preschemes
 
 We shall develop in §5 the general theory of the dimension of preschemes; but the theory of the dimension of *algebraic*
 preschemes can be developed in a more elementary way, and since it presents in addition many special features, we give
@@ -146,7 +146,7 @@ other words, one may, by virtue of `(4.1.2)`, suppose that there exist finite su
 V^{(k)}_{m}$, $g : Y \to V^{(k)}_{n}$; then $f \times g : X \times_{k} Y \to V^{(k)}_{m+n}$ is finite and surjective
 `(I, 3.5.2 and II, 6.1.5)`, whence the corollary.
 
-### 4.2. Associated prime cycles on algebraic preschemes
+## 4.2. Associated prime cycles on algebraic preschemes
 
 **Proposition (4.2.1).**
 
@@ -368,7 +368,7 @@ element.
 
 <!-- original page 58 -->
 
-### 4.3. Reminders on tensor products of fields
+## 4.3. Reminders on tensor products of fields
 
 For the convenience of the reader, we recall here certain properties of tensor products of fields which we shall use in
 the following numbers; for the proofs, we refer to [1].
@@ -463,7 +463,7 @@ conversely.*
 
 This is a consequence of `(4.3.3)` and `(4.3.6)`, a perfect and separably closed field being algebraically closed.
 
-### 4.4. Irreducible preschemes and connected preschemes over an algebraically closed field
+## 4.4. Irreducible preschemes and connected preschemes over an algebraically closed field
 
 **(4.4.1)**
 
@@ -579,7 +579,7 @@ the saturated part $Z'$, and $Z$ is identified with the quotient space $Z' / R_{
 (resp. connected) components of $X$ onto the set of irreducible (resp. connected) components of $X \otimes_{k} K$, whose
 inverse bijection is $Z' \mapsto p(Z')$.*
 
-### 4.5. Geometrically irreducible and geometrically connected preschemes
+## 4.5. Geometrically irreducible and geometrically connected preschemes
 
 **Proposition (4.5.1).**
 
@@ -1015,7 +1015,7 @@ By definition, $k'$ is a radicial extension of $k$, the morphism $\operatorname{
 integral, surjective and radicial, hence the first assertion follows from `(2.4.5, (i))`; the second follows from this,
 in view of `(4.5.1)`.
 
-### 4.6. Geometrically reduced algebraic preschemes
+## 4.6. Geometrically reduced algebraic preschemes
 
 **Proposition (4.6.1).**
 
@@ -1461,7 +1461,7 @@ reasonings of `(4.6.16)` and `(4.6.18)` also show that if $X$ is locally of fini
 $\mathcal{F}$ is geometrically pointwise integral at the point $x$ is equivalent to saying that $\mathcal{F}$ is reduced
 at the point $x$ and that the sub-prescheme $Y$ is geometrically pointwise integral at the point $x$.
 
-### 4.7. Multiplicities in primary decomposition on an algebraic prescheme
+## 4.7. Multiplicities in primary decomposition on an algebraic prescheme
 
 **Lemma (4.7.1).**
 
@@ -1774,7 +1774,7 @@ Indeed, if $k'$ is a finite extension of $k$, $x'$ a point of $X' = X \otimes_{k
 one maximal point of $Supp(\mathcal{F}')$ above $\xi$ by hypothesis; in addition, $\mathcal{F}'$ is geometrically
 reduced according to `(4.7.10)`, whence the conclusion.
 
-### 4.8. Fields of definition
+## 4.8. Fields of definition
 
 **(4.8.1)**
 
@@ -2032,7 +2032,7 @@ $(X_{(K)})_{red}$ cannot be finite over $k$.
 to say that the object considered admits a smallest field of definition or that its image by $s_{K_{1}, K}$ admits a
 smallest sub-field of definition (the two sub-fields being necessarily the same), as one has seen in `(4.8.4)`.
 
-### 4.9. Field of definition of a part of a prescheme
+## 4.9. Field of definition of a part of a prescheme
 
 **Proposition (4.9.1).**
 

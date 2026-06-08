@@ -1,10 +1,8 @@
-# Chapter 0 — Preliminaries
-
-## §3. Complements on Sheaves
+# §3. Complements on Sheaves
 
 <!-- label: 0.3 -->
 
-### 3.1. Sheaves with values in a category
+## 3.1. Sheaves with values in a category
 
 <!-- label: 0.3.1 -->
 
@@ -102,7 +100,7 @@ When $\mathit{K}$ is defined by a species of structure with morphisms, _we syste
 space (nor even as the disjoint union of its stalks), and we shall not view a morphism $u : \mathcal{F} \to \mathcal{G}$
 of such sheaves on $X$ as a continuous map of topological spaces.
 
-### 3.2. Presheaves on a basis of open sets
+## 3.2. Presheaves on a basis of open sets
 
 <!-- label: 0.3.2 -->
 
@@ -199,7 +197,7 @@ $\mathcal{H}_{\lambda}$ a _subsheaf_ of $\mathcal{F}_{\lambda}$ for each $\lambd
 $\mathit{K}$ is the category of abelian groups, the covariant functor $\varprojlim_{\lambda} \mathcal{F}_{\lambda}$ is
 _additive_ and _left exact_.
 
-### 3.3. Gluing of sheaves
+## 3.3. Gluing of sheaves
 
 <!-- label: 0.3.3 -->
 
@@ -261,7 +259,7 @@ satisfying (3.3.2.1) onto $\operatorname{Hom}(\mathcal{F}, \mathcal{G})$.
 $\mathcal{F}_{\lambda}|(V \cap U_{\lambda})$, and the sheaf on $V$ obtained by gluing these is canonically identified
 with $\mathcal{F}|V$.
 
-### 3.4. Direct images of presheaves
+## 3.4. Direct images of presheaves
 
 <!-- label: 0.3.4 -->
 
@@ -325,7 +323,7 @@ $X \subset Y$, the sheaf $j_{*}(\mathcal{F})$ induces $\mathcal{F}$ on $X$; if m
 $j_{*}(\mathcal{F})$ is the sheaf on $Y$ inducing $\mathcal{F}$ on $X$ and `0` on $Y - X$ (G, II, 2.9.2); but the two
 sheaves are in general distinct when $X$ is locally closed but not closed.
 
-### 3.5. Inverse images of presheaves
+## 3.5. Inverse images of presheaves
 
 <!-- label: 0.3.5 -->
 
@@ -478,7 +476,7 @@ as
 ℱ ──ρ_ℱ──→ 1_X*(ℱ) ──u^♯──→ ℱ′.
 ```
 
-### 3.6. Simple and locally simple sheaves
+## 3.6. Simple and locally simple sheaves
 
 <!-- label: 0.3.6 -->
 
@@ -508,7 +506,7 @@ isomorphisms, giving a canonical isomorphism $\theta_{\alpha \beta} : \mathcal{F
 $(\mathcal{F}(U_{\alpha_{0}}), (\theta_{\alpha \alpha_{0}}))$ is a solution of the universal problem; by uniqueness,
 $\mathcal{F}(X) \to \mathcal{F}(U_{\alpha})$ is an isomorphism, proving _c) ⇒ a)_.
 
-### 3.7. Inverse images of presheaves of groups or rings
+## 3.7. Inverse images of presheaves of groups or rings
 
 <!-- label: 0.3.7 -->
 
@@ -554,7 +552,7 @@ $$ Supp(\psi*(\mathcal{G})) = \psi^{-1}(Supp(\mathcal{G})). $$
 An immediate consequence is that _the functor_ $\psi*(\mathcal{G})$ _is exact in_ $\mathcal{G}$ in the abelian category
 of sheaves of abelian groups.
 
-### 3.8. Sheaves of pseudo-discrete spaces
+## 3.8. Sheaves of pseudo-discrete spaces
 
 <!-- label: 0.3.8 -->
 

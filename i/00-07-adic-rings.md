@@ -1,10 +1,8 @@
-# Chapter 0 — Preliminaries
-
-## §7. Adic Rings
+# §7. Adic Rings
 
 <!-- label: 0.7 -->
 
-### 7.1. Admissible rings
+## 7.1. Admissible rings
 
 <!-- label: 0.7.1 -->
 
@@ -86,7 +84,7 @@ surjective, it is necessary and sufficient that $u \otimes 1 : M \otimes_{A} (A/
 (_Alg._, Chap. VIII). To prove (7.1.11): since $A$ is separated and complete and $(\mathfrak{J}^{n})$ tends to `0`, the
 series $\sum^{\infty}_{n=0} (-1)^{n} x^{n}$ converges in $A$; its sum $y$ satisfies $y(1 + x) = 1$.
 
-### 7.2. Adic rings and projective limits
+## 7.2. Adic rings and projective limits
 
 <!-- label: 0.7.2 -->
 
@@ -190,7 +188,7 @@ $A/\bar{\mathfrak{J}}$-module. Likewise, if $N$ is a $B$-module with $N/\mathfra
 \varprojlim_{i} N/\mathfrak{J}^{i+1} N$ is $A$-finite-type, isomorphic to the separated $\mathfrak{J}$-preadic
 completion of $N$.
 
-### 7.3. Preadic Noetherian rings
+## 7.3. Preadic Noetherian rings
 
 <!-- label: 0.7.3 -->
 
@@ -256,7 +254,7 @@ So (7.2.9) describes _all_ finite-type modules over an adic Noetherian ring.
 **Corollary (7.3.7).** Under the hypotheses of (7.3.2), the kernel of $M \to \hat{M} = M \otimes_{A} \hat{A}$ is the set
 of $x \in M$ killed by an element of $1 + \mathfrak{J}$.
 
-### 7.4. Quasi-finite modules over local rings
+## 7.4. Quasi-finite modules over local rings
 
 <!-- label: 0.7.4 -->
 
@@ -302,7 +300,7 @@ Then every $B$-module of finite type is $A$-quasi-finite.
 **Corollary (7.4.5).** Under the hypotheses of (7.4.2), if $\mathfrak{b} = Ann_{B}(M)$, then $B/\mathfrak{b}$ is
 $A$-quasi-finite.
 
-### 7.5. Rings of restricted formal series
+## 7.5. Rings of restricted formal series
 
 <!-- label: 0.7.5 -->
 
@@ -370,7 +368,7 @@ definition of $A'$, and $B/\mathfrak{J}B$ is a quotient of $(A/\mathfrak{J})[T_{
 $A/\mathfrak{J}$-algebra $B/\mathfrak{J}B$ and apply (7.5.3) to get a continuous $A$-homomorphism $u : A' \to B$;
 surjectivity is checked passing to associated graded modules.
 
-### 7.6. Completed rings of fractions
+## 7.6. Completed rings of fractions
 
 <!-- label: 0.7.6 -->
 
@@ -452,7 +450,7 @@ residue fields are canonically the field of fractions of $A/\mathfrak{p}$.
 **Corollary (7.6.18).** If moreover $A$ is adic Noetherian, then $A{S^{-1}}$ and $A_{S}$ are Noetherian local rings, and
 $A{S^{-1}}$ is a faithfully flat $A_{S}$-module.
 
-### 7.7. Completed tensor products
+## 7.7. Completed tensor products
 
 <!-- label: 0.7.7 -->
 
@@ -491,7 +489,7 @@ canonical image of $Im(\mathfrak{K} \otimes_{A} C) + Im(B \otimes_{A} \mathfrak{
 with the $\mathfrak{J}$-preadic topology. For every adic Noetherian $A$-algebra $B$, $B \otimes_{A} M$ is identified
 with $(B \otimes_{A} M)^{\wedge}$.
 
-### 7.8. Topologies on modules of homomorphisms
+## 7.8. Topologies on modules of homomorphisms
 
 <!-- label: 0.7.8 -->
 

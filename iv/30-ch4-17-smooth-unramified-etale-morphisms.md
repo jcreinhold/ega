@@ -1,13 +1,13 @@
 <!-- original page 56 -->
 
-## §17. Smooth, unramified, étale morphisms
+# §17. Smooth, unramified, étale morphisms
 
 In the present section, we take up again the notions studied in `(0, 19)`, expressed by means of the geometric language
 of schemes and from the global point of view, for preschemes locally of finite presentation over a given base prescheme.
 Most of the results (with the exception of nos. 17.7, 17.8, 17.9, 17.13, and 17.16) in fact reduce to variants of
 properties already encountered in `(0, 19)`. For more special results on étale morphisms, the reader will consult §18.
 
-### 17.1. Formally smooth, formally unramified, formally étale morphisms
+## 17.1. Formally smooth, formally unramified, formally étale morphisms
 
 **Definition (17.1.1).**
 
@@ -182,7 +182,7 @@ One can therefore say that the notions introduced in `(17.1.1)` are local on $X$
 virtue of `(17.1.2, (i))`, to reduce to the study of formally smooth (resp. formally unramified, resp. formally étale)
 algebras.
 
-### 17.2. General differential properties
+## 17.2. General differential properties
 
 **Proposition (17.2.1).**
 
@@ -299,7 +299,7 @@ $\mathcal{N}(g) = 0$ `(17.2.1)`. Moreover, $g$ is locally of finite presentation
 $\mathcal{N}(g) = 0$ implies that $g$ is an open immersion `(16.1.10)`; being surjective, this immersion is an
 isomorphism, hence $f$ is a monomorphism `(I, 5.3.8)`.
 
-### 17.3. Smooth, unramified, étale morphisms
+## 17.3. Smooth, unramified, étale morphisms
 
 **Definition (17.3.1).**
 
@@ -428,7 +428,7 @@ $S_{(f)}$ `(II, 2.2.1)` that this ring, in the case considered, is isomorphic to
 
 <!-- original page 63 -->
 
-### 17.4. Characterizations of unramified morphisms
+## 17.4. Characterizations of unramified morphisms
 
 **Theorem (17.4.1).**
 
@@ -685,7 +685,7 @@ connected component of $X$. The rest of the proposition is immediate.
 **Remark (17.4.10).** — Taking the remark `(17.4.1.2)` into account, one sees that, in the statements `(17.4.6)` to
 `(17.4.9)`, one can everywhere replace the words "unramified" by "formally unramified and locally of finite type".
 
-### 17.5. Characterizations of smooth morphisms
+## 17.5. Characterizations of smooth morphisms
 
 **Theorem (17.5.1).**
 
@@ -871,7 +871,7 @@ regular, it is necessary and sufficient that $\mathcal{O}_{Y, y}$ be so.*
 
 These are particular cases of `(6.1.2)`, `(6.3.2)`, `(6.4.1)`, and `(6.5.3)`.
 
-### 17.6. Characterizations of étale morphisms
+## 17.6. Characterizations of étale morphisms
 
 **Theorem (17.6.1).**
 
@@ -974,7 +974,7 @@ This is a particular case of `(17.5.8, (i))` since $x$ is isolated in its fibre 
 
 <!-- original page 72 -->
 
-### 17.7. Descent properties, passage to the limit, and constructibility
+## 17.7. Descent properties, passage to the limit, and constructibility
 
 **Proposition (17.7.1).**
 
@@ -1357,7 +1357,7 @@ what was seen above for the property of being étale.
 
 <!-- original page 79 -->
 
-### 17.8. Criteria for smoothness and unramifiedness by fibres
+## 17.8. Criteria for smoothness and unramifiedness by fibres
 
 **Proposition (17.8.1).**
 
@@ -1389,7 +1389,7 @@ $f^{-1}(y) = f^{-1}_{s}(y)$ if $s = g(y)$.
 are the same as above, then, for $f$ to be unramified (resp. smooth, resp. étale) at a point $x \in X$, it suffices
 that, if one sets $s = h(x)$, $f_{s}$ be unramified (resp. smooth, resp. étale) at the point $x$.
 
-### 17.9. Étale morphisms and open immersions
+## 17.9. Étale morphisms and open immersions
 
 **Theorem (17.9.1).**
 
@@ -1522,7 +1522,7 @@ $\phi : B \to B$ of the ring $B$. Now, the set $B$ is finite, hence $\phi$ is ne
 
 <!-- original page 81 -->
 
-### 17.10. Relative dimension of a smooth prescheme over another
+## 17.10. Relative dimension of a smooth prescheme over another
 
 **Definition (17.10.1).**
 
@@ -1599,7 +1599,7 @@ the exact sequence `(17.2.5.1)` is split in a suitable neighbourhood of each poi
 is locally free (Bourbaki, _Alg. comm._, chap. II, §5, n° 2, th. 1), and relation `(17.10.4.1)` follows immediately from
 the exactness of the sequence `(17.2.5.1)`.
 
-### 17.11. Smooth morphisms of smooth preschemes
+## 17.11. Smooth morphisms of smooth preschemes
 
 **Theorem (17.11.1).**
 
@@ -1778,7 +1778,7 @@ of dimension $d$, the images of the $t_{i}$ in $B$ form a regular system of para
 $(17.6.3, e'')$ is therefore verified by $g$ at the point $x$ `(0, 17.1.1` and Bourbaki, _Alg. comm._, chap. III, §2, n°
 8, cor. 3 of th. 1), which completes the proof.
 
-### 17.12. Smooth subpreschemes of a smooth prescheme. Smooth morphisms and differentially smooth morphisms
+## 17.12. Smooth subpreschemes of a smooth prescheme. Smooth morphisms and differentially smooth morphisms
 
 **Theorem (17.12.1).**
 
@@ -1998,7 +1998,7 @@ section of the scheme in groups $G$ corresponds to the homomorphism $E \to D$ wh
 $k$; it is an isomorphism of $S$ onto a connected component of $G$, and a fortiori $G$ is differentially smooth over $S$
 `(17.12.6)`, but it is clear that $G$ is not $S$-flat.*
 
-### 17.13. Transversal morphisms
+## 17.13. Transversal morphisms
 
 **(17.13.1)** Let $S$ be a prescheme, $X$, $Y$, $X'$ three $S$-preschemes, $i : Y \to X$ an $S$-immersion, $f : X' \to
 X$ an $S$-morphism. Set $Y' = Y \times_{X} X'$, and let $g : Y' \to Y$, $j : Y' \to X'$ be the canonical projections, so
@@ -2521,7 +2521,7 @@ $\sum_{i} c_{i}$ (if $c_{i}$ is the rank of $\mathcal{N}_{Y_{i}/X}$), by virtue 
 `(17.13.10)`; one concludes therefore from Bourbaki, _Alg. comm._, chap. II, §3, n° 2, cor. of prop. 6, that
 `(17.13.12.2)` is bijective, and `(17.13.12.1)` is the inverse isomorphism.
 
-### 17.14. Local and infinitesimal characterizations of smooth morphisms, unramified morphisms, and étale morphisms
+## 17.14. Local and infinitesimal characterizations of smooth morphisms, unramified morphisms, and étale morphisms
 
 **Proposition (17.14.1).**
 
@@ -2598,7 +2598,7 @@ hypothesis applied, by recurrence on $n$, to $A' = C/\mathfrak{r}^{n}$ and $\mat
 **finite** extension of $k(y)$, then the $A'$-modules $\mathfrak{m}'^{j}/\mathfrak{m}'^{j+1}$ are $k(y)$-vector spaces
 of finite rank, hence a fortiori $A'$ is a finite $\mathcal{O}_{Y, y}$-algebra.
 
-### 17.15. Case of preschemes over a base field
+## 17.15. Case of preschemes over a base field
 
 Let us first recall `(6.7.7, 6.7.8` and `6.8.1)` the
 
@@ -2988,7 +2988,7 @@ The necessity of the conditions follows from `(17.5.1)` and `(17.10.2)`. Convers
 and if $y = f(x)$, it suffices to show `(17.5.1)` that $f^{-1}(y)$ is smooth over $k(y)$ at the point $x$; but this
 follows from the definition of $\dim_{x} f$ `(17.10.1)`, from `(16.4.5)` and from `(17.15.5)`.
 
-### 17.16. Quasi-sections of flat or smooth morphisms
+## 17.16. Quasi-sections of flat or smooth morphisms
 
 The statements of this number complete those of `(14.5)`, with hypotheses of flatness.
 

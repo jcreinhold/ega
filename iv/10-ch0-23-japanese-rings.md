@@ -1,10 +1,10 @@
 <!-- original page 213 -->
 
-## §23. Japanese rings
+# §23. Japanese rings
 
 The results of this section will be completed in `(IV, 7.6)` and `(7.7)`.
 
-### 23.1. Japanese rings
+## 23.1. Japanese rings
 
 **Definition (23.1.1).**
 
@@ -192,7 +192,7 @@ prop. 11).
 (Bourbaki, _Alg._, chap. VIII, §7, n° 3, th. 1), and one may apply (i) to every finite extension $K'$ of $K$, which
 proves our assertion.
 
-### 23.2. Integral closure of an integral Noetherian local ring
+## 23.2. Integral closure of an integral Noetherian local ring
 
 **(23.2.1)**
 

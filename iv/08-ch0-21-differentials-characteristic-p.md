@@ -1,13 +1,13 @@
 <!-- original page 249 -->
 
-## §21. Differentials in characteristic-$p$ rings
+# §21. Differentials in characteristic-$p$ rings
 
 The results of the present section, of a more special and technical nature than those of §§19, 20 and 22, will be used
 only exceptionally in the course of Chap. IV. Their principal role here is in the proof of three theorems of §22
 (22.3.3, 22.5.8 and 22.7.3), the first and the last of which intervene in an essential way in the "fine" theory of
 Noetherian local rings of Chap. IV, §7.
 
-### 21.1. Systems of $p$-generators and $p$-bases
+## 21.1. Systems of $p$-generators and $p$-bases
 
 (21.1.1) Given a number $p$ which is either `0` or a prime number, we shall say that a ring $A$ is *of characteristic
 $p$* if there exists a ring homomorphism $P \to A$, where $P$ is the prime field of characteristic $p$; note that this
@@ -212,7 +212,7 @@ of the $A$-module $C$, saying that $Q$ is a free family over $C$ means that the 
 (resp. $y_{\mu}$) being pairwise distinct), is equivalent to $\sum_{\lambda} a_{\lambda \mu} x_{\lambda} = 0$ for every
 $\mu$, or again to $a_{\lambda \mu} = 0$ for every pair $(\lambda, \mu)$; whence assertion (ii).
 
-### 21.2. $p$-bases and formal smoothness
+## 21.2. $p$-bases and formal smoothness
 
 **Theorem (21.2.1).**
 
@@ -403,7 +403,7 @@ In fact, one can restrict to the case where $\mathfrak{K}^{2} = 0$; as $\operato
 $B$ into $\mathfrak{K}$ such that $D(x_{\alpha}) = t_{\alpha}$ for every family $(t_{\alpha})$ of elements of
 $\mathfrak{K}$; the conclusion follows from `(20.1.1)`.
 
-### 21.3. $p$-bases and imperfection modules
+## 21.3. $p$-bases and imperfection modules
 
 (21.3.1) Let $A$, $B$ be two rings (of characteristic $p$), $i : A \to B$, $j : B \to A$ two ring homomorphisms such
 that one has
@@ -566,7 +566,7 @@ $$ \pi_{B/A} 0 \to \Xi_{B/A} \to \Theta_{B/A} \to \Omega^{1}_{A} \downarrow \dow
   Υ_{B/A} ⊗_A A' → Υ_{B'/A'}.                                                        (21.3.6.2)
 ```
 
-### 21.4. Case of field extensions
+## 21.4. Case of field extensions
 
 (21.4.0) Let $K$ be a field of characteristic $p > 0$, $k$ a subfield of $K$; then the ring $k[K^{p}]$ is equal to the
 field $k(K^{p})$ since $k$ is algebraic over $K^{p}$. One can therefore apply the results of the preceding numbers by
@@ -704,7 +704,7 @@ of the $L$-vector space $\Upsilon_{L/K}$.*
 
 This is a particular case of `(21.3.5)`.
 
-### 21.5. Application: separability criteria
+## 21.5. Application: separability criteria
 
 In this number and the two following, we no longer suppose that the rings considered are of characteristic $p > 0$.
 
@@ -831,7 +831,7 @@ $\mathbb{Z}$, and the uniqueness of $v$ is proved as in (i).*
 
 <!-- original page 262 -->
 
-### 21.6. Admissible fields for an extension
+## 21.6. Admissible fields for an extension
 
 (21.6.1) Given four fields $k_{0} \subset k \subset K \subset L$, it follows from `(20.6.16)` and `(20.6.17)` that one
 has an exact sequence
@@ -998,7 +998,7 @@ This follows at once from the relations `(21.6.4.2)` and `(21.6.4.4)`, the value
 $L$ of $K$. Then, if $k'_{0}, k', K', L'$ are four fields such that $k_{0} \subset k'_{0} \subset k' \subset k \subset K
 \subset K' \subset L' \subset L$, $k'$ is $k'_{0}$-admissible for the extension $L'$ of $K'$.*
 
-### 21.7. Cartier's equality
+## 21.7. Cartier's equality
 
 The following result translates in terms of differentials a theorem of MacLane on derivations:
 
@@ -1134,7 +1134,7 @@ Euler-Poincaré characteristic of the complex $K.(C/B/A)$ introduced in `(20.6.3
 role will be played also by generalized Euler-Poincaré characteristics (with values in groups of classes of
 $\mathcal{O}$-Modules) of complexes generalizing the complexes $\Gamma.(C/A)$ considered in `(20.6.22)`.*
 
-### 21.8. Admissibility criteria
+## 21.8. Admissibility criteria
 
 We return to our earlier conventions and therefore suppose that all the fields considered in this number are of
 characteristic $p > 0$.
@@ -1396,7 +1396,7 @@ every $\alpha \geq \gamma$, one has
 by virtue of lemma `(21.8.8.2)`. But it is clear that the intersection of the rings $k_{\alpha}[[T_{1}, \cdots, T_{r}]]$
 is none other than $k_{0}[[T_{1}, \cdots, T_{r}]]$, and one has therefore indeed $f \in k_{0}((T_{1}, \cdots, T_{r}))$.
 
-### 21.9. Completed differential modules in formal power series rings
+## 21.9. Completed differential modules in formal power series rings
 
 In this number, the fields are no longer necessarily supposed to be of characteristic `> 0`.
 

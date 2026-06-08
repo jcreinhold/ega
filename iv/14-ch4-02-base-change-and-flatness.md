@@ -1,8 +1,6 @@
 <!-- original page 5 -->
 
-# Chapter IV (continued)
-
-## §2. Base change and flatness
+# §2. Base change and flatness
 
 This section (unlike §6) appeals only exceptionally to Noetherian techniques. Nos. 1 and 2 are scarcely more than
 translations of elementary properties of flatness from commutative algebra (cf. Bourbaki, _Alg. comm._, chap. I) and are
@@ -12,7 +10,7 @@ part of $Y$, or an $\mathcal{O}_{Y}$-Module, or a morphism $X \to Y$, has a cert
 inverse image under $g$ has that property. We restrict ourselves here to properties that do not appeal to the general
 technique of "descent", which will be developed in Chapter V.
 
-### 2.1. Flat modules on preschemes
+## 2.1. Flat modules on preschemes
 
 **(2.1.1)**
 
@@ -313,7 +311,7 @@ Indeed, every $y \in Y$ is of the form $f(x)$ for some $x \in X$ and by hypothes
 a subring of $\mathcal{O}_{x}$ $(0_{I}, 6.6.1)$; since $\mathcal{O}_{x}$ is integral, so is $\mathcal{O}_{y}$, and this
 proves the proposition `(I, 5.1.4)`.
 
-### 2.2. Faithfully flat modules on preschemes
+## 2.2. Faithfully flat modules on preschemes
 
 **Proposition (2.2.1).**
 
@@ -642,7 +640,7 @@ By virtue of Bourbaki, _Alg. comm._, chap. II, §3, n° 3, prop. 12, it suffices
 local ring; one then knows (_loc. cit._, n° 2, cor. 2 of prop. 5) that $B$ is a free $A$-module of finite type, and the
 conclusion follows from _loc. cit._, prop. 5.
 
-### 2.3. Topological properties of flat morphisms
+## 2.3. Topological properties of flat morphisms
 
 **Lemma (2.3.1).**
 
@@ -976,7 +974,7 @@ irreducible algebraic curve*
 of $Y$, $Z = {\eta}$ is not open in $Y$ `(II, 7.4.3)`, but $f^{-1}(Z) = \operatorname{Spec}(\mathcal{O}_{\eta})$ since
 $\mathcal{O}_{\eta}$ is a field, and consequently $f^{-1}(Z)$ is open in $X$.*
 
-### 2.4. Universally open morphisms and flat morphisms
+## 2.4. Universally open morphisms and flat morphisms
 
 **(2.4.1)**
 
@@ -1171,7 +1169,7 @@ $X$, $Y$ are preschemes over a field $k$ `(2.4.10)`, and then generalizes `(2.3.
 
 <!-- original page 22 -->
 
-### 2.5. Permanence of properties of Modules under faithfully flat descent
+## 2.5. Permanence of properties of Modules under faithfully flat descent
 
 **Proposition (2.5.1).**
 
@@ -1560,7 +1558,7 @@ direct sum of modules isomorphic to a minimal ideal of $B$, and two $B$-modules 
 isomorphic if and only if they have the same rank over $A$. By hypothesis, one has $[W' : A'] = [B'_{d} : A']$. But
 $[W' : A'] = [W : A]$ and $[B'_{d} : A'] = [B_{d} : A]$; hence $[W : A] = [B_{d} : A]$, which finishes the proof.
 
-### 2.6. Permanence of set-theoretic and topological properties of morphisms under faithfully flat descent
+## 2.6. Permanence of set-theoretic and topological properties of morphisms under faithfully flat descent
 
 **Proposition (2.6.1).**
 
@@ -1684,7 +1682,7 @@ locally of finite presentation, or when $g$ is surjective and $S$ discrete, one 
 
 *(iii bis) universally bicontinuous.*
 
-### 2.7. Permanence of various properties of morphisms under faithfully flat descent
+## 2.7. Permanence of various properties of morphisms under faithfully flat descent
 
 **Proposition (2.7.1).**
 
@@ -1935,7 +1933,7 @@ of $k$, distinct from $k$; then the structure morphism $f : X \to Y$, where $X =
 $Y' \to Y$ is faithfully flat and quasi-compact, and $f' = f_{(Y')}$ is a local isomorphism, since $X' = X \times_{Y}
 Y'$ is a sum of a finite number of schemes isomorphic to $Y'$.*
 
-### 2.8. Preschemes over a regular base of dimension 1; closure of a closed sub-prescheme of the generic fibre
+## 2.8. Preschemes over a regular base of dimension 1; closure of a closed sub-prescheme of the generic fibre
 
 **Proposition (2.8.1).**
 

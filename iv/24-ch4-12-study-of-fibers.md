@@ -1,8 +1,8 @@
 <!-- original page 173 -->
 
-## §12. Study of the fibres of flat morphisms of finite presentation
+# §12. Study of the fibres of flat morphisms of finite presentation
 
-### 12.0. Introduction
+## 12.0. Introduction
 
 Throughout this section we shall use the general notations of `(9.4.1)`.
 
@@ -45,7 +45,7 @@ way for the set $F \subset Y$.
 
 <!-- original page 174 -->
 
-### 12.1. Local properties of the fibres of a flat morphism locally of finite presentation
+## 12.1. Local properties of the fibres of a flat morphism locally of finite presentation
 
 **Theorem (12.1.1).**
 
@@ -377,7 +377,7 @@ fibre $X_{y}$ at the closed point $y$ of $Y$ is reduced (hence satisfies `(S_1)`
 irreducible components of dimensions `2` and `1`, while the fibre $X_{y'}$ at the generic point $y'$ of $Y$ does not
 satisfy [condition `(R_1)`].*
 
-### 12.2. Local and global properties of the fibres of a proper, flat morphism of finite presentation
+## 12.2. Local and global properties of the fibres of a proper, flat morphism of finite presentation
 
 **Theorem (12.2.1).**
 
@@ -637,7 +637,7 @@ integer $m$ such that, for every $z \in V$, $\Gamma(X_{z}, \mathcal{O}_{X_{z}})$
 virtue of `(III, 4.3.4)`, $m$ is then the geometric number of connected components of $X_{z}$, whence the conclusion.
 One will give another proof of (vi) in `(15.5.9)`.
 
-### 12.3. Local cohomological properties of the fibres of a flat morphism locally of finite presentation
+## 12.3. Local cohomological properties of the fibres of a flat morphism locally of finite presentation
 
 **Lemma (12.3.1).**
 

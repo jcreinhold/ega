@@ -1,8 +1,8 @@
 <!-- original page 225 -->
 
-## §20. Meromorphic functions; pseudo-morphisms
+# §20. Meromorphic functions; pseudo-morphisms
 
-### 20.0. Introduction
+## 20.0. Introduction
 
 Most of the notions and results of §§20 and 21 attach directly to chap. I, and depend hardly at all on chaps. II to IV,
 except for the occasional use of the notion of depth and of regular local ring (in `(20.6)`, `(21.11)`, `(21.13)` and
@@ -33,7 +33,7 @@ is scarcely used except when one is dealing with positive divisors, and in this 
 without recourse to the notion of relative meromorphic function, by means of the notion of transversely regular
 immersion of codimension `1`. The reader will therefore find it advantageous to omit these sections on a first reading.
 
-### 20.1. Meromorphic functions
+## 20.1. Meromorphic functions
 
 **(20.1.1).** Let $(X, \mathcal{O}_{X})$ be a ringed space, and let $\mathcal{S}$ be a subsheaf *of sets* of
 $\mathcal{O}_{X}$. For every open $U$ of $X$, consider the *ring of fractions* $\Gamma(U, \mathcal{O}_{X})[\Gamma(U,
@@ -301,7 +301,7 @@ $r$ over $\mathbb{C}$, $M(Y)$ identifies canonically with the field $R(Y)$ of ra
 fact, it is often preferable, in algebraic geometry, to refrain from the terminology introduced in this section, and to
 use the equivalent terminology of "pseudo-function" which will be defined below.
 
-### 20.2. Pseudo-morphisms and pseudo-functions
+## 20.2. Pseudo-morphisms and pseudo-functions
 
 *The only ringed spaces considered in this section are preschemes.*
 
@@ -621,7 +621,7 @@ with the multiplication $(b, z)(b', z') = (bb', bz' + b'z)$. If $X_{1} = \operat
 is the complement of the union of the maximal ideals of $C$ at the points $x'$, `x''`, and for $Z$ the trace of $Y$ on
 $X = \operatorname{Spec}(A)$.
 
-### 20.3. Composition of pseudo-morphisms
+## 20.3. Composition of pseudo-morphisms
 
 **(20.3.1).** Let $X$, $Y$, $Z$ be three preschemes, $\omega$ a pseudo-morphism of $X$ into $Y$, $f : Y \to Z$ a
 morphism. It is clear that if $U'$, `U''` are two schematically dense opens in $X$, $u' : U' \to Y$, $u'' : U'' \to Y$
@@ -1001,7 +1001,7 @@ identify with the meromorphic functions on $X$. By virtue of `(20.1.12)` and of 
 that the morphism $f : X' \to X$ is flat, then, for every pseudo-function $\phi$ on $X$, $\phi \circ f$ is defined and
 one has $dom(\phi \circ f) = f^{-1}(dom(\phi))$.
 
-### 20.4. Properties of the domains of definition of rational maps
+## 20.4. Properties of the domains of definition of rational maps
 
 **(20.4.1).** Let $X$, $Y$ be two $S$-preschemes, $\omega$ a pseudo-$S$-morphism of $X$ into $Y$. Let $u$ be an
 $S$-morphism $U \to Y$ belonging to $\omega$, where $U$ is schematically dense in $X$, and consider the graph
@@ -1295,7 +1295,7 @@ It amounts to the same to say that if `Z_2` is the set of $x \in X$ such that $\
 for every closed subset $Z \subset Z_{2}$ of $X$, every $S$-morphism of $X - Z$ into $Y$ extends to an $S$-morphism of
 $X$ into $Y$; now this follows from the hypothesis on $X$ `(5.7.2)` and from `(20.4.11)`.
 
-### 20.5. Relative pseudo-morphisms
+## 20.5. Relative pseudo-morphisms
 
 **(20.5.1).** Let $X$, $Y$ be two $S$-preschemes. It follows from the definitions `(11.10.8)` that the intersection of
 two opens $U$, $U'$ of $X$, *universally schematically dense relative to $S$*, again possesses this property. One
@@ -1404,7 +1404,7 @@ $S'' \to S' \to S$).
 
 <!-- original page 252 -->
 
-### 20.6. Relative meromorphic functions
+## 20.6. Relative meromorphic functions
 
 **(20.6.1).** Let $S$ be a prescheme, $X$ an $S$-prescheme which is flat and locally of finite presentation over $S$;
 for every $s \in S$, we shall denote by $X_{s}$ the fibre at the point $s$ of the structure morphism $X \to S$. In

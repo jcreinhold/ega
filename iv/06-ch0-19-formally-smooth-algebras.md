@@ -1,8 +1,8 @@
 <!-- original page 165 -->
 
-## §19. Formally smooth algebras and Cohen rings
+# §19. Formally smooth algebras and Cohen rings
 
-### 19.0. Introduction
+## 19.0. Introduction
 
 **(19.0.1)** In Chapter IV we shall introduce and study, among other things, an important class of morphisms of
 preschemes, the *smooth* morphisms.[^1] One of their fundamental properties (which, together with a finiteness
@@ -96,7 +96,7 @@ When $B$ is a topological $A$-algebra, the topology on $B$ *deduced* from that o
 topology, for, for every open ideal $\mathfrak{K}$ of $B$, there is by hypothesis an open ideal $\mathfrak{J}$ of $A$
 such that $\mathfrak{J}B \subset \mathfrak{K}$.
 
-### 19.1. Formal epimorphisms and monomorphisms
+## 19.1. Formal epimorphisms and monomorphisms
 
 **Proposition (19.1.1).**
 
@@ -545,7 +545,7 @@ and complete and that $M_{n}$ is a projective $(A/\mathfrak{J}_{n})$-module; in 
 drop the hypothesis on the $N/\mathfrak{J}_{\lambda} N$, but assume on the other hand that, for every $\lambda$,
 $M/\mathfrak{J}_{\lambda} M$ is a projective $(A/\mathfrak{J}_{\lambda})$-module).*
 
-### 19.2. Formally projective modules
+## 19.2. Formally projective modules
 
 **Definition (19.2.1).**
 
@@ -632,7 +632,7 @@ $\mathfrak{J}_{\lambda} A' \subset \mathfrak{J}'_{\mu}$. Since $(M \otimes_{A} A
 \otimes_{A/\mathfrak{J}_{\lambda}} (A'/\mathfrak{J}'_{\mu})$ and since $M/V_{\lambda}$ is a projective
 $(A/\mathfrak{J}_{\lambda})$-module, $M'/W_{\lambda \mu}$ is a projective $(A'/\mathfrak{J}'_{\mu})$-module.
 
-### 19.3. Formally smooth algebras
+## 19.3. Formally smooth algebras
 
 **Definition (19.3.1).**
 
@@ -1040,7 +1040,7 @@ compact, $C/\mathfrak{J}$ is identified with $\lim\leftarrow C_{\lambda}/\mathfr
 $\phi : C \to C/\mathfrak{J}$ with $\lim\leftarrow \psi_{\lambda}$, where $\psi_{\lambda}$ is the canonical map
 $C_{\lambda} \to C_{\lambda}/\mathfrak{J}_{\lambda}$. One then concludes as in `(19.3.10)` that $\psi \circ w = u$.
 
-### 19.4. First criteria for formal smoothness
+## 19.4. First criteria for formal smoothness
 
 **Proposition (19.4.1).**
 
@@ -1271,7 +1271,7 @@ f \circ (\phi \times \phi)$ for the canonical map $\phi : B/\mathfrak{K}'' \to B
 
 <!-- original page 186 -->
 
-### 19.5. Formal smoothness and associated graded rings
+## 19.5. Formal smoothness and associated graded rings
 
 **(19.5.1)** Let $C$ be a (commutative) topological ring, let $V$ be a topological $C$-module, and consider the
 symmetric algebra $S_{C}(V) = \oplus_{n} S^{n}_{C}(V)$, which we shall endow canonically with a linear topology
@@ -1994,7 +1994,7 @@ finite type, and one knows that when $C$ is a Zariski ring, it amounts to the sa
 bijective or that $\phi_{\lambda}$ is bijective `(Bourbaki, Alg. comm., chap. III, §3, n° 5, prop. 9)`, hence (ii) is
 equivalent to (ii').
 
-### 19.6. Case of algebras over a field
+## 19.6. Case of algebras over a field
 
 **Theorem (19.6.1) (Cohen).**
 
@@ -2230,7 +2230,7 @@ the implication b') ⇒ a).*
 *(ii) We shall later prove `(22.5.8)` that a) and c) are equivalent, without any hypothesis on the extension $K$ of
 $k$.*
 
-### 19.7. Case of local homomorphisms; existence and uniqueness theorems
+## 19.7. Case of local homomorphisms; existence and uniqueness theorems
 
 In this number, when a semi-local ring is considered as a topological ring, it is always implicit that this is its
 $\mathfrak{r}$-preadic topology, where $\mathfrak{r}$ is its radical. Every local homomorphism of local rings is
@@ -2499,7 +2499,7 @@ prime field $\mathbb{F}_{p} = \mathbb{Z}/p\mathbb{Z}$, does there exist for ever
 *(ii) Note that in general, the isomorphism $v$ whose existence is asserted in `(19.7.2)` is not unique (cf.
 `(19.8.7)`).*
 
-### 19.8. Cohen algebras and $p$-Cohen rings; application to the structure of complete local rings
+## 19.8. Cohen algebras and $p$-Cohen rings; application to the structure of complete local rings
 
 The results of this section are immediate applications of the theorems of `(19.7)`, but deserve to be made explicit
 because of their practical importance.
@@ -2754,7 +2754,7 @@ generates the maximal ideal of this ring, one deduces immediately from the hypot
 gr_{\bullet}(A)$ is surjective, and consequently so is $u$
 `(Bourbaki, Alg. comm., chap. III, §2, n° 8, cor. 2 of th. 1)`.
 
-### 19.9. Relatively formally smooth algebras
+## 19.9. Relatively formally smooth algebras
 
 **Definition (19.9.1).**
 

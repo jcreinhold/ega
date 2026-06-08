@@ -1,12 +1,10 @@
-# Chapter I — The Language of Schemes
-
-## §9. Complements on Quasi-coherent Sheaves
+# §9. Complements on Quasi-coherent Sheaves
 
 <!-- label: I.9 -->
 
 > **Translation status.** Skeleton with definitions and principal statements; full proofs reference .
 
-### 9.1. Tensor product of quasi-coherent sheaves
+## 9.1. Tensor product of quasi-coherent sheaves
 
 <!-- label: I.9.1 -->
 
@@ -30,7 +28,7 @@ $\mathcal{F}$ quasi-coherent on $Y$, $f*(\mathcal{F})$ is quasi-coherent on $X$.
 **Corollary (9.1.13).** Stalks of pullback: $(f*(\mathcal{F}))_{x} = \mathcal{F}_{f(x)} \otimes_{\mathcal{O}_{f(x)}}
 \mathcal{O}_{x}$.
 
-### 9.2. Direct image of a quasi-coherent sheaf
+## 9.2. Direct image of a quasi-coherent sheaf
 
 <!-- label: I.9.2 -->
 
@@ -40,7 +38,7 @@ $X$, the direct image $f_{*}(\mathcal{F})$ is quasi-coherent on $Y$.
 **Corollary (9.2.2).** For an affine morphism $f : X \to Y$ (i.e., the preimage of every affine open is affine), $f_{*}$
 preserves quasi-coherence.
 
-### 9.3. Extension of sections
+## 9.3. Extension of sections
 
 <!-- label: I.9.3 -->
 
@@ -55,7 +53,7 @@ preserves quasi-coherence.
 **Corollary (9.3.5).** For Noetherian $X$ and quasi-compact $U$, $\Gamma(U, \mathcal{F})$ is a localization of
 $\Gamma(X, \mathcal{F})$ in a precise functorial sense.
 
-### 9.4. Extension of quasi-coherent sheaves
+## 9.4. Extension of quasi-coherent sheaves
 
 <!-- label: I.9.4 -->
 
@@ -79,7 +77,7 @@ a quasi-coherent subsheaf of $\mathcal{F}$ on $X$.
 
 **Corollaries (9.4.8)–(9.4.10).** Consequences for closed subpreschemes, base change, and morphisms.
 
-### 9.5. Closed image of a prescheme; closure of a subprescheme
+## 9.5. Closed image of a prescheme; closure of a subprescheme
 
 <!-- label: I.9.5 -->
 
@@ -101,7 +99,7 @@ irreducible components of $Y\bar{'}$.
 **Corollary (9.5.11).** _Closure of a subprescheme_: $Y' \hookrightarrow Y$ extends uniquely (up to isomorphism) to a
 closed subprescheme of $Y$ containing $Y'$ as a dense open subprescheme.
 
-### 9.6. Quasi-coherent sheaves of algebras; change of structure sheaf
+## 9.6. Quasi-coherent sheaves of algebras; change of structure sheaf
 
 <!-- label: I.9.6 -->
 

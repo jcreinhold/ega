@@ -1,6 +1,6 @@
 <!-- original page 95 -->
 
-## §10. Jacobson preschemes
+# §10. Jacobson preschemes
 
 We have already had occasion to observe `(5.2.5)` that even excellent preschemes `(7.8.5)` do not always behave like the
 "varieties" of classical algebraic geometry, particularly as regards questions of dimension; thus if $X$ is the spectrum
@@ -14,7 +14,7 @@ these points in many proofs; one thus rejoins the classical viewpoint of "algebr
 standpoint, are the sets of closed points of algebraic preschemes over a field, and one connects the language of schemes
 with that of Serre's "varieties" or "algebraic spaces" `(10.9 and 10.10)`.
 
-### 10.1. Very dense subsets of a topological space
+## 10.1. Very dense subsets of a topological space
 
 **(10.1.1)**
 
@@ -131,7 +131,7 @@ Since every locally closed subset of $U$ is locally closed in $X$, the first ass
 `(10.1.2)`; the same is true of the second, for if $Z \neq \emptyset$ is locally closed in $X$, then $Z \cap U_{\alpha}$
 is locally closed in $U_{\alpha}$ for every $\alpha$, and $Z \cap U_{\alpha} \neq \emptyset$ for at least one $\alpha$.
 
-### 10.2. Quasi-homeomorphisms
+## 10.2. Quasi-homeomorphisms
 
 **Proposition (10.2.1).**
 
@@ -332,7 +332,7 @@ space $Y$ or on the ringed space $X$, are equivalent.
 
 <!-- original page 101 -->
 
-### 10.3. Jacobson spaces
+## 10.3. Jacobson spaces
 
 **Definition (10.3.1).**
 
@@ -372,7 +372,7 @@ closed in $U_{\alpha}$. It suffices in fact to see that this condition entails t
 $U_{\beta}$ that contain it; but $U_{\alpha} \cap U_{\beta}$ is open in $U_{\alpha}$, so $x$ is closed in $U_{\alpha}
 \cap U_{\beta}$, and by `(10.3.2)`, $x$ is also closed in $U_{\beta}$, which completes the proof.
 
-### 10.4. Jacobson preschemes and Jacobson rings
+## 10.4. Jacobson preschemes and Jacobson rings
 
 **Definition (10.4.1).**
 
@@ -574,7 +574,7 @@ $T_{p,d}$ is bijective since $T_{p,d}$ is finite, which completes the proof of t
 We shall see later `(17.9.7)` that when one further assumes, on the one hand, that $X$ is an $S$-prescheme of finite
 presentation, and on the other hand, that $g$ is a monomorphism, then one can affirm that $g$ is an automorphism of $X$.
 
-### 10.5. Noetherian Jacobson preschemes
+## 10.5. Noetherian Jacobson preschemes
 
 **Proposition (10.5.1).**
 
@@ -730,7 +730,7 @@ into discrete valuation rings $V$, making $V$ a finite $(A/\mathfrak{p})$-algebr
 the intersection of these prime ideals is reduced to `0` means that the set of these ideals is dense in $X$, or also in
 $Y$ (since $Y$ is dense in $X$), and this follows immediately from `(10.5.9)`.
 
-### 10.6. Dimension in Jacobson preschemes
+## 10.6. Dimension in Jacobson preschemes
 
 The results of this number sharpen, in certain cases, and generalize results of §5.
 
@@ -884,7 +884,7 @@ every $x \in Y$, one has*
 Indeed, this follows from `(10.6.3.1)` and from the formula $\dim(\mathcal{F}_{x}) = codim(\overline{x}, Y)$
 `(5.1.12.2)`.
 
-### 10.7. Examples and counterexamples
+## 10.7. Examples and counterexamples
 
 **(10.7.1)**
 
@@ -953,7 +953,7 @@ biequidimensional, $\mathfrak{p}'$ is then of height $n - 1$. One constructs in 
 $\mathfrak{q}'$ of $B'$ of height $n$, such that if $b$ is the corresponding point of $X'$, the closure of $b$ in $X'$
 is `{b, b'}`. This being so, $a$ and $b$ are in $S$, hence closed in $S$, and consequently answer the question.
 
-### 10.8. Rectified depth
+## 10.8. Rectified depth
 
 **Definition (10.8.1).**
 
@@ -1108,7 +1108,7 @@ $Z_{f(x)} = Supp(\mathcal{F}_{f(x)})$ `(I, 9.1.13)` and $Z$ is locally construct
 \mapsto \dim_{x}(Supp(\mathcal{F}_{f(x)}))$ and $x \mapsto coprof((\mathcal{F}_{f(x)})_{x})$ are locally constructible
 (`(9.9.1)` and `(9.9.3)`), which proves the proposition.
 
-### 10.9. Maximal spectra and ultra-preschemes
+## 10.9. Maximal spectra and ultra-preschemes
 
 *The results of this number will not be used in what follows.*
 
@@ -1275,7 +1275,7 @@ of preschemes. One verifies immediately (by virtue of 1°) that the family $(\th
 condition $(0_{I}, 4.1.7)$, and that this family therefore defines a prescheme $X$, in which the $U_{\alpha}$ are
 identified with affine open sets; it is then clear that one has $X' = S(X)$, which completes the proof.
 
-### 10.10. Serre algebraic spaces
+## 10.10. Serre algebraic spaces
 
 **(10.10.1)**
 

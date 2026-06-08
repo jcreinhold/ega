@@ -1,13 +1,13 @@
 <!-- original page 185 -->
 
-## §19. Regular and transversally regular immersions
+# §19. Regular and transversally regular immersions
 
 The present section is devoted, on the one hand, to a study of regular immersions `(16.9.2)` $Y \to X$ of preschemes,
 notably in the case where $X$ and $Y$ are flat over the same prescheme $S$; on the other hand, it gives complements on
 $M$-regular sequences and normal flatness, generalizing in particular flatness results established by H. Hironaka in his
 theory of resolution of singularities `[35]`.
 
-### 19.1. Properties of regular immersions
+## 19.1. Properties of regular immersions
 
 **Proposition (19.1.1).**
 
@@ -265,7 +265,7 @@ appear shortly.
 
 <!-- original page 190 -->
 
-### 19.2. Transversally regular immersions
+## 19.2. Transversally regular immersions
 
 **Definition (19.2.1).**
 
@@ -495,7 +495,7 @@ to $S$. This last complement is also valid for the étale quasi-section defined 
 
 <!-- original page 194 -->
 
-### 19.3. Relative complete intersections (flat case)
+## 19.3. Relative complete intersections (flat case)
 
 **Definition (19.3.1).**
 
@@ -728,7 +728,7 @@ regular ring `(0, 17.3.7)`.
 
 <!-- original page 198 -->
 
-### 19.4. Application: regularity and smoothness criteria for blow-up preschemes
+## 19.4. Application: regularity and smoothness criteria for blow-up preschemes
 
 **(19.4.1)**
 
@@ -1091,7 +1091,7 @@ $\mathfrak{J}^{n} \otimes_{B} (B/\mathfrak{m}) = \mathfrak{J}^{n}/\mathfrak{m} \
 immersion $q^{-1}(x) \to p^{-1}(x)$ is here an isomorphism; this implies *a fortiori* that the closed sub-prescheme $Z
 \cap p^{-1}(x)$ is identical to the fibre $j(q^{-1}(x))$, and terminates the proof of `(19.4.11)`.
 
-### 19.5. $M$-regularity criteria
+## 19.5. $M$-regularity criteria
 
 We resume here, in completed form, the criteria for a sequence of elements of a ring $A$ to be $M$-regular or
 $M$-quasi-regular ($M$ being an $A$-module), already studied in `(0, 15.1)`.
@@ -1438,7 +1438,7 @@ case one has the implication c) ⟹ a) in `(19.5.1)` (resp. `(19.5.5)`).*
 
 <!-- original page 209 -->
 
-### 19.6. Regular sequences relative to a quotient filtered module
+## 19.6. Regular sequences relative to a quotient filtered module
 
 **(19.6.1).**
 
@@ -1614,7 +1614,7 @@ T'$; but $T'$ is a graded module, and each $T'_{p}$ is a quotient of $gr_{p}(R)$
 $\mathfrak{J}$-preadic topology; the hypothesis $\mathfrak{J} T'_{p} = T'_{p}$ therefore entails $T'_{p} = 0$ for every
 integer $p$, hence $T' = 0$, which completes the proof of the corollary.
 
-### 19.7. Hironaka's normal flatness criterion
+## 19.7. Hironaka's normal flatness criterion
 
 **Theorem (19.7.1) (Hironaka).**
 
@@ -2122,7 +2122,7 @@ at every point $z'$ of $Z$, $gr^{\bullet}_{\mathcal{J}_{Y}}(\mathcal{F}_{z'})$ i
 then $gr^{\bullet}_{\mathcal{J}_{Y}}(\mathcal{F}_{z})$ is a flat $\mathcal{O}_{Y, z}$-module, for one may apply the
 equivalence of a) and d) in `(19.7.1)`.
 
-### 19.8. Properties of passage to projective limit
+## 19.8. Properties of passage to projective limit
 
 In this number, the notation and conventions on projective limits are those of `(8.5.1)` and `(8.8.1)`.
 
@@ -2248,7 +2248,7 @@ neighbourhood of a point $x \in X$ (resp. in a neighbourhood of $x_{\lambda}$, p
 
 <!-- original page 222 -->
 
-### 19.9. $\mathcal{F}$-regular sequences and depth
+## 19.9. $\mathcal{F}$-regular sequences and depth
 
 **(19.9.1).**
 

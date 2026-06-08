@@ -1,4 +1,4 @@
-# Chapter III — Cohomological study of coherent sheaves
+# Chapter 3 — Cohomological study of coherent sheaves
 
 <!-- original page 81 -->
 

@@ -1,12 +1,12 @@
 <!-- original page 36 -->
 
-## §3. Associated prime cycles and primary decompositions
+# §3. Associated prime cycles and primary decompositions
 
 In this section we mainly give the translation of the results on modules expounded in Bourbaki, *Alg. comm.*, chap. IV,
 which we follow very closely. The notions that follow seem to be of interest only in the case of *locally Noetherian*
 preschemes.
 
-### 3.1. Associated prime cycles of a Module
+## 3.1. Associated prime cycles of a Module
 
 **Definition (3.1.1).**
 
@@ -261,7 +261,7 @@ i_{*}(\mathcal{F}))$.
 
 <!-- original page 40 -->
 
-### 3.2. Irredundant decompositions
+## 3.2. Irredundant decompositions
 
 **Proposition (3.2.1).**
 
@@ -471,7 +471,7 @@ sub-$\mathcal{O}_{X}$-Module of $\mathcal{G}_{j}$ is zero or irredundant `(3.1.7
 \cap (\bigoplus^{n-i}_{j=1} \mathcal{G}_{j})$ answer the question, $\mathcal{F}_{i}/\mathcal{F}_{i+1}$ being isomorphic
 to a coherent sub-$\mathcal{O}_{X}$-Module of $\mathcal{G}_{n-i}$.
 
-### 3.3. Relations with flatness
+## 3.3. Relations with flatness
 
 **Proposition (3.3.1).**
 
@@ -664,7 +664,7 @@ Indeed, if $(x, y) \in Z$, one has $q(I_{x,y}) = {y} \subset Ass(\mathcal{G})$.
 
 <!-- original page 46 -->
 
-### 3.4. Properties of the sheaves $\mathcal{F}/t\mathcal{F}$
+## 3.4. Properties of the sheaves $\mathcal{F}/t\mathcal{F}$
 
 **Proposition (3.4.1).**
 

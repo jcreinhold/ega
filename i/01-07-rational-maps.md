@@ -1,12 +1,10 @@
-# Chapter I — The Language of Schemes
-
-## §7. Rational Maps
+# §7. Rational Maps
 
 <!-- label: I.7 -->
 
 > **Translation status.** Skeleton with definitions and principal statements; full proofs reference .
 
-### 7.1. Rational maps and rational functions
+## 7.1. Rational maps and rational functions
 
 <!-- label: I.7.1 -->
 
@@ -39,7 +37,7 @@ points).
 defined; the field/ring $R(X)$ is the ring of rational sections of $\mathcal{O}_{X}$ along the generic-fiber
 subprescheme.
 
-### 7.2. Domain of definition of a rational map
+## 7.2. Domain of definition of a rational map
 
 <!-- label: I.7.2 -->
 
@@ -58,7 +56,7 @@ generator $b \in B$ "extends" to a section of $\mathcal{O}_{X}$ in a neighborhoo
 **Proposition (7.2.9).** For $X$ integral and $Y$ separated, a rational map $f : X \dashrightarrow Y$ is determined by
 its restriction to any nonempty open of the domain of definition.
 
-### 7.3. Sheaf of rational functions
+## 7.3. Sheaf of rational functions
 
 <!-- label: I.7.3 -->
 
@@ -76,7 +74,7 @@ is an $\mathcal{O}_{X}$-module containing $\mathcal{O}_{X}$ as a subsheaf.
 sheafification of $U \mapsto S^{-1}_{U} \Gamma(U, \mathcal{O}_{X})$ where `S_U` is the set of non-zero-divisors in
 $\Gamma(U, \mathcal{O}_{X})$.
 
-### 7.4. Torsion and torsion-free sheaves
+## 7.4. Torsion and torsion-free sheaves
 
 <!-- label: I.7.4 -->
 

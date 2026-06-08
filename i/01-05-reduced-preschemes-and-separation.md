@@ -1,12 +1,10 @@
-# Chapter I — The Language of Schemes
-
-## §5. Reduced Preschemes; Separation Condition
+# §5. Reduced Preschemes; Separation Condition
 
 <!-- label: I.5 -->
 
 > **Translation status.** Skeleton: principal definitions and statements translated; full proofs reference .
 
-### 5.1. Reduced preschemes
+## 5.1. Reduced preschemes
 
 <!-- label: I.5.1 -->
 
@@ -38,7 +36,7 @@ $\mathcal{O}_{X,\eta}$).
 **Corollary (5.1.10).** Reducedness is preserved by open immersions, fiber products over reduced base, and base change
 to reduced bases.
 
-### 5.2. Subprescheme with a given underlying space
+## 5.2. Subprescheme with a given underlying space
 
 <!-- label: I.5.2 -->
 
@@ -53,7 +51,7 @@ subprescheme structure on its image.
 
 **Corollary (5.2.4).** Two subpreschemes with the same underlying space and the same ideal radical agree.
 
-### 5.3. Diagonal; graph of a morphism
+## 5.3. Diagonal; graph of a morphism
 
 <!-- label: I.5.3 -->
 
@@ -75,7 +73,7 @@ defined by $(1_{X}, f)$ is an immersion.
 **Corollary (5.3.13).** For composable morphisms $X \to Y \to S$, the diagonal of $X \to S$ factors through the diagonal
 of $X \to Y$ followed by the inclusion $X \times_{Y} X \to X \times_{S} X$.
 
-### 5.4. Separated morphisms and separated preschemes
+## 5.4. Separated morphisms and separated preschemes
 
 <!-- label: I.5.4 -->
 
@@ -97,7 +95,7 @@ a $\mathbb{Z}$-scheme — i.e., a separated prescheme.
 
 **Corollary (5.4.7).** A morphism is separated iff its base change to every affine open of the target is separated.
 
-### 5.5. Separation criteria
+## 5.5. Separation criteria
 
 <!-- label: I.5.5 -->
 

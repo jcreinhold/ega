@@ -1,11 +1,11 @@
 <!-- original page 255 -->
 
-## §21. Divisors
+# §21. Divisors
 
 On the content of the present section, see the comments of the introduction to §20. For the global properties of
 divisors, the reader is referred to the section devoted to them in chap. V.
 
-### 21.1. Divisors on a ringed space
+## 21.1. Divisors on a ringed space
 
 **(21.1.1).** Let $(X, \mathcal{O}_{X})$ be a ringed space, $\mathcal{M}_{X}$ the sheaf of germs of meromorphic
 functions on $X$ `(20.1.3)`, $\mathcal{M}^{\times}_{X}$ the sheaf (of multiplicative groups) of germs of regular
@@ -191,7 +191,7 @@ Indeed, to say that $\operatorname{Div}(A) = 0$ means that in $A$ every regular 
 the elements of $\mathfrak{m}$ are zero-divisors, which means that $\mathfrak{m} \in Ass(A)$ (Bourbaki, _Alg. comm._,
 chap. IV, §1, n° 1, cor. 3 of prop. 2).
 
-### 21.2. Divisors and invertible fractional Ideals
+## 21.2. Divisors and invertible fractional Ideals
 
 **(21.2.1).** Let $(X, \mathcal{O}_{X})$ be a ringed space. One calls **fractional Ideal on $X$** a
 sub-$\mathcal{O}_{X}$-Module of the $\mathcal{O}_{X}$-Module $\mathcal{M}_{X}$ of germs of meromorphic functions on $X$.
@@ -466,7 +466,7 @@ above) is not invertible, that is to say that $x \in Y(D)$.
 
 <!-- original page 262 -->
 
-### 21.3. Linear equivalence of divisors
+## 21.3. Linear equivalence of divisors
 
 **(21.3.1).** One says that a divisor $D$ on $X$ is *principal* if it is of the form $div(f)$, where $f$ is a regular
 meromorphic function on $X$; the regular meromorphic functions $f'$ such that $div(f') = D$ are then all those of the
@@ -625,7 +625,7 @@ cohomology class is the class of the invertible fractional Ideal $\mathcal{L}$ s
 $\mathcal{L} | U_{\alpha} = \mathcal{O}_{U_{\alpha}} \cdot g^{-1}_{\alpha}$, which is none other by definition than
 $\mathcal{O}_{X}(D)$ `(21.2.8)`.*
 
-### 21.4. Inverse images of divisors
+## 21.4. Inverse images of divisors
 
 **(21.4.1).** Let $f : X' \to X$ be a morphism of ringed spaces; we propose to give conditions allowing us to associate
 with a divisor $D$ on $X$ a divisor $D'$ on $X'$, *inverse image* of $D$ by $f$. Note first for this that for every
@@ -753,7 +753,7 @@ concludes that $u_{y} \mathcal{O}_{y} \subset v_{y} \mathcal{O}_{y}$ by virtue o
 is a faithfully flat $\mathcal{O}_{y}$-module and of Bourbaki, _Alg. comm._, chap. I, §3, n° 5, prop. 10, (ii); whence
 $u \mathcal{O}_{Y} \subset v \mathcal{O}_{Y}$ since $f$ is surjective, and consequently $D \geq 0$.
 
-### 21.5. Direct images of divisors
+## 21.5. Direct images of divisors
 
 **(21.5.1).** Let $X$, $X'$ be two preschemes, $f : X' \to X$ a morphism. We shall, in this n°, give sufficient
 conditions to be able to associate with every divisor $D'$ on $X'$ a divisor $D$ on $X$, *direct image* of $D'$ by $f$.
@@ -941,7 +941,7 @@ proves that $g'^{*}(D')$ and $g^{*}(D)$ are defined, whatever the divisors $D'$ 
 this follows from the hypotheses made and from `(21.4.5)`. As regards $D'$, in case (i) $g'$ is flat, hence in all the
 cases $g'^{*}(D')$ is defined by virtue of `(21.4.5)`.
 
-### 21.6. `1`-codimensional cycle associated with a divisor
+## 21.6. `1`-codimensional cycle associated with a divisor
 
 **(21.6.1).** Let $X$ be a locally Noetherian prescheme, and let $\mathfrak{J}(X)$ denote the set of irreducible closed
 parts of $X$ (which is in bijective correspondence with $X$ by the map $x \mapsto \overline{x}$). In the product group
@@ -1343,7 +1343,7 @@ conclude by `(21.6.13)` that b) entails a). By virtue of Serre's criterion `(5.8
 conditions `(R_1)` and `(S_2)`. Now, $U$ being locally factorial verifies these conditions, and the hypothesis $prof(A)
 \geq 2$ entails that $X$ verifies them also.
 
-### 21.7. Interpretation of positive `1`-codimensional cycles in terms of subpreschemes
+## 21.7. Interpretation of positive `1`-codimensional cycles in terms of subpreschemes
 
 **(21.7.1).** Let $X$ be a locally Noetherian prescheme, $C = \sum_{x \in X^{(1)}} n_{x} \cdot \overline{x}$ a positive
 `1`-codimensional cycle (so that one has $n_{x} \geq 0$ for every $x \in X^{(1)}$, and $n_{x} = 0$ except on a locally
@@ -1548,7 +1548,7 @@ equivalent to saying that $A$ is a factorial ring.*
 
 <!-- original page 280 -->
 
-### 21.8. Divisors and normalization
+## 21.8. Divisors and normalization
 
 **Lemma (21.8.1).**
 
@@ -1772,7 +1772,7 @@ $\Gamma(X, \mathcal{O}_{X}) \to \Gamma(X', \mathcal{O}_{X'})$ is bijective, one 
 (ii) that in the previous considerations one may replace the homomorphism $\operatorname{Div}(X) \to
 \operatorname{Div}(X')$ by the homomorphism $\operatorname{Pic}(X) \to \operatorname{Pic}(X')$.
 
-### 21.9. Divisors on preschemes of dimension 1
+## 21.9. Divisors on preschemes of dimension 1
 
 **(21.9.1).** Let $X$ be a topological space, $x$ a point of $X$, $i_{x} : {x} \to X$ the canonical injection. If $A(x)$
 is a commutative group, one may regard it as a sheaf of commutative groups on the space ${x}$ reduced to a single point,
@@ -2071,7 +2071,7 @@ $\mathcal{O}_{X}$-Module $\mathcal{L}$ whose inverse image in $X'_{0}$ is isomor
 ample. Since every neighbourhood of $s_{0}$ in $S$ is necessarily all of $S$, one then deduces from `(9.6.4)` that
 $\mathcal{L}$ is an ample $\mathcal{O}_{X}$-Module, whence the conclusion `(II, 5.3.1` and `II, 5.5.3)`.
 
-### 21.10. Inverse images and direct images of 1-codimensional cycles
+## 21.10. Inverse images and direct images of 1-codimensional cycles
 
 In a later chapter, devoted to intersection theory, the notions of inverse image and direct image of cycles will be
 developed systematically. In the present number, we content ourselves with defining these notions in certain useful
@@ -2878,7 +2878,7 @@ $$ (21.10.19.1) f_{*}(cyc(f^{*}(D))) = n \cdot cyc(D). $$
 
 This follows from `(21.10.18)` and `(21.10.13)`.
 
-### 21.11. Factoriality of regular local rings
+## 21.11. Factoriality of regular local rings
 
 **Theorem (21.11.1) (Auslander-Buchsbaum).**
 
@@ -2976,7 +2976,7 @@ the canonical isomorphism $r_{\alpha}$ (Bourbaki, _Alg._, chap. III, 3rd ed.).
 
 <!-- original page 304 -->
 
-### 21.12. Van der Waerden's purity theorem for the ramification locus of a birational morphism
+## 21.12. Van der Waerden's purity theorem for the ramification locus of a birational morphism
 
 **(21.12.1).** Let $X$ and $U$ be two preschemes, $f : U \to X$ a quasi-compact and quasi-separated morphism, so that
 $f_{*}(\mathcal{O}_{U})$ is a quasi-coherent $\mathcal{O}_{X}$-Algebra `(1.7.4)`. We call **affine envelope** of the
@@ -3498,7 +3498,7 @@ and $f'_{s}$ is not an isomorphism, although $f'_{\eta}$ is one.
 (iii) It is possible that the statement of proposition `(21.12.15)` remains valid when one replaces the word
 "isomorphism" by "étale morphism" (cf. `(21.12.14, (v))`). The same will then still hold for `(21.12.16)`.
 
-### 21.13. Parafactorial couples. Parafactorial local rings
+## 21.13. Parafactorial couples. Parafactorial local rings
 
 **Definition (21.13.1).**
 
@@ -4123,7 +4123,7 @@ c) *Every `1`-codimensional cycle on $X$ whose support does not contain $z$ is l
 If moreover $\operatorname{Pic}(X) = 0$, one will conclude that this condition entails that every `1`-codimensional
 cycle whose support does not contain $z$ is *principal*.
 
-### 21.14. The Ramanujam-Samuel theorem
+## 21.14. The Ramanujam-Samuel theorem
 
 **Theorem (21.14.1)** (Ramanujam-Samuel).
 
@@ -4407,7 +4407,7 @@ its fibre $X_{s}$ and which belongs to none of the "generic fibres" $X_{\eta}$ (
 \geqslant 2$ by virtue of `(6.1.1)`), the local ring $\mathcal{O}_{X,x}$ is parafactorial, by virtue of
 `(21.12.15)`.[^21.14.4-seshadri]
 
-### 21.15. Relative divisors
+## 21.15. Relative divisors
 
 **(21.15.1).** Let $S$ be a prescheme, $f : X \to S$ a flat morphism locally of finite presentation. One has defined in
 `(20.6.1)` the sheaf of rings $\mathcal{M}_{X/S}$ of germs of meromorphic functions on $X$ relative to $S$, a subsheaf

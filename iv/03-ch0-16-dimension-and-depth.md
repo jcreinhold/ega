@@ -1,8 +1,8 @@
 <!-- original page 118 -->
 
-## §16. Dimension and depth in Noetherian local rings
+# §16. Dimension and depth in Noetherian local rings
 
-### 16.1. Dimension of a ring
+## 16.1. Dimension of a ring
 
 **(16.1.1)** We call *dimension* (or *Krull dimension*) of a ring $A$, and denote $\dim(A)$, the (combinatorial)
 dimension of its spectrum $\operatorname{Spec}(A)$ `(14.2.1)`; since the irreducible closed subsets of
@@ -203,7 +203,7 @@ hence $\dim(M) = 0$ if $M \neq 0$; conversely, if $M$ is an $A$-module of finite
 point of $Supp(M)$ is closed, in other words is a maximal ideal of $A$, hence `(loc. cit., prop. 7)` $M$ is of finite
 length.
 
-### 16.2. Dimension of a Noetherian semi-local ring ¹
+## 16.2. Dimension of a Noetherian semi-local ring ¹
 
 **(16.2.1)** Let $A$ be a Noetherian semi-local ring, $\mathfrak{r}$ its radical; recall that an *ideal of definition*
 $\mathfrak{q}$ of $A$ is an ideal such that $\mathfrak{q} \subset \mathfrak{r}$ and that $\mathfrak{q}$ contains a power
@@ -419,7 +419,7 @@ $(\mathfrak{p}_{i})_{\mathfrak{q}}$ are the minimal elements of $Ass(E_{\mathfra
 `(16.3.4)`. It then suffices to apply the induction hypothesis to the graded $B$-module $E/t_{1} E$ to obtain the
 conclusion.
 
-### 16.3. Systems of parameters in a Noetherian local ring
+## 16.3. Systems of parameters in a Noetherian local ring
 
 **Proposition (16.3.1).**
 
@@ -655,7 +655,7 @@ The first assertion results from `(16.3.9)` since then $\dim(B/\mathfrak{m}B) = 
 $\phi(A)$, hence $\dim(B) \leq \dim(\phi(A))$; if $\mathfrak{a} = Ker(\phi) \neq 0$, and if $A$ is integral, one has
 `dim(φ(A)) = dim(A/𝔞) < dim(A)` `(16.1.2.2)`, hence one cannot then have $\dim(A) = \dim(B)$ unless $\mathfrak{a} = 0$.
 
-### 16.4. Depth and codepth ¹
+## 16.4. Depth and codepth ¹
 
 **Proposition (16.4.1).**
 
@@ -927,7 +927,7 @@ $$ (16.4.11.1) coprof_{A}(M_{[\rho]}) \geq coprof_{B}(M). $$
 
 This results from `(16.1.9)` and `(16.4.8)`.
 
-### 16.5. Cohen-Macaulay modules
+## 16.5. Cohen-Macaulay modules
 
 **Definition (16.5.1).**
 

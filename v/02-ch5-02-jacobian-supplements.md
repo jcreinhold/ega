@@ -1,6 +1,6 @@
 <!-- original page 73 -->
 
-## §V.2.15 and §V.2.16. Jacobian and regularity supplements (formerly EGA IV §§17.15, 17.16)
+# §V.2.15 and §V.2.16. Jacobian and regularity supplements (formerly EGA IV §§17.15, 17.16)
 
 These two short sections were originally drafted as §§17.15 and 17.16 of EGA IV, then re-allocated to Chapter V (§§2.15
 and 2.16) without ever being published in either place. They sit logically as supplements to the Jacobian/regularity
@@ -14,7 +14,7 @@ form.
 The §V↔§IV correspondence is given in the front matter; we lead with the V numbering and attach `(formerly IV, M)`
 parenthetically at the first occurrence of each cross-reference into the old numbering.
 
-### V.2.15.1. Smooth forms
+## V.2.15.1. Smooth forms
 
 > *Grothendieck note.* I have just noticed that the terminology introduced in my formulation of §V.1 for
 > supersingularity is unreasonable and conflicts in particular with the recent terminology. In any case, you must have
@@ -82,7 +82,7 @@ fails to be smooth over $\operatorname{Spec}(A)$ with relative dimension $r - 1$
 
 <!-- original page 75 -->
 
-### V.2.15.2. Elementary augmentations
+## V.2.15.2. Elementary augmentations
 
 **Definition (2.15.2).**
 
@@ -122,23 +122,23 @@ usage, the "geometric" variants for $X$ locally of finite type over a field: $x 
 elementary singularity of multiplicity $n$** if for every (or, what is the same, for some) extension $K$ of $k$ and
 every (or some) point $z$ of `X_K` over $x$ rational over $K$, $z$ is an elementary singularity of multiplicity $n$.
 
-### V.2.15.3. Generalization of Proposition (1.6) to multiplicity $n$
+## V.2.15.3. Generalization of Proposition (1.6) to multiplicity $n$
 
 > *Grothendieck note.* "Generalize" the unwritten Proposition (1.6) (cf. the marginal aside in §V.1.5) to the case of
 > multiplicity $n$.[^v-2-4]
 
-### V.2.15.4. Generalization of Proposition (1.7) and Corollary to multiplicity $n$
+## V.2.15.4. Generalization of Proposition (1.7) and Corollary to multiplicity $n$
 
 > *Grothendieck note.* "Generalize" Proposition (1.7) and its corollary to the case of multiplicity $n$. The idea is not
 > so much to generalize as to give variants.
 
-### V.2.15.5. Elementary singular zeros of a section
+## V.2.15.5. Elementary singular zeros of a section
 
 > *Grothendieck note.* Introduce the notion of an *elementary singular zero of multiplicity $n$* (for $n = 2$, a
 > *singular quadratic elementary zero*) of a section $\phi$ of $\mathcal{O}_{X}$, or more generally of a section of a
 > locally free module on an $X$ locally Noetherian, and the corresponding geometric notion (over a base field $K$).
 
-### V.2.15.6. Local characterization of elementary singularities
+## V.2.15.6. Local characterization of elementary singularities
 
 **Proposition (2.15.6).**
 
@@ -163,7 +163,7 @@ maximal ideal.
 
 <!-- original page 76 -->
 
-### V.2.15.7. Geometric variants of (2.15.6)
+## V.2.15.7. Geometric variants of (2.15.6)
 
 This is the place to state the "geometric" variants of (2.15.6). We find in particular that if $X$ is a prescheme
 locally of finite type over a field $k$, $x \in X$, and $n = \dim_{x} X$, then $x$ is an elementary singularity of
@@ -204,9 +204,9 @@ the classical terminology to a "point with $n$ distinct tangents".
 
 <!-- original page 77 -->
 
-## §V.2.16. Appendix on smooth quadratic forms (formerly EGA IV §17.16)
+# §V.2.16. Appendix on smooth quadratic forms (formerly EGA IV §17.16)
 
-### V.2.16.1. The discriminant of a quadratic form
+## V.2.16.1. The discriminant of a quadratic form
 
 Let $Q$ be a section of $Sym^{2}(E)$ (with $E$ locally free of finite rank) such that $Q$ — which one can also interpret
 as a quadratic form on $E^{\vee}$ — defines a symmetric bilinear form $B$ on $E^{\vee}$, hence a homomorphism $E^{\vee}
@@ -255,7 +255,7 @@ kernel of the homomorphism $E^{\vee} \to E$ defined by the symmetric bilinear fo
 
 <!-- original page 78 -->
 
-### V.2.16.4. The standard quadratic form and the corrected discriminant
+## V.2.16.4. The standard quadratic form and the corrected discriminant
 
 The study that follows is designed essentially to give a smoothness criterion for a quadratic form in the case not
 covered by Proposition (2.16.2), i.e. essentially the case of a vector bundle of odd rank over a field of characteristic
@@ -352,7 +352,7 @@ $E'$) is constant over $S$. Then:*
 
 The verification is trivial.
 
-### V.2.16.9. The principal smoothness theorem
+## V.2.16.9. The principal smoothness theorem
 
 **Theorem (2.16.9).**
 
@@ -389,7 +389,7 @@ replaced by the more striking condition: $Q$ is isomorphic to the standard form.
 
 <!-- original page 81 -->
 
-### V.2.16.11. Proof of Theorem (2.16.9) via principal homogeneous spaces
+## V.2.16.11. Proof of Theorem (2.16.9) via principal homogeneous spaces
 
 We may evidently suppose that $E$ has constant rank $n$. We obviously have (iii bis) ⟹ (iii) ⟹ (ii), taking into account
 that for the standard form the modified discriminant is `1`. We now prove that (ii) ⟹ (iii bis), and also that (i) ⇔
@@ -521,7 +521,7 @@ standard form. This proves (2.16.11.2) and completes the proof of (2.16.9).
 > the recent terminology, which induces an error (since until the last few days I had myself confused the discriminant
 > and the determinant).
 
-### V.2.16.12. The orthogonal-group fibration
+## V.2.16.12. The orthogonal-group fibration
 
 **Lemma (2.16.12).**
 
@@ -548,7 +548,7 @@ category of principal homogeneous fibrations under $O(n)_{S}$ over an arbitrary 
 
 <!-- original page 84 -->
 
-### V.2.16.13. Étale local triviality in good rank/characteristic
+## V.2.16.13. Étale local triviality in good rank/characteristic
 
 Let $Q$ be a smooth quadratic form on $E$ locally free of finite rank. One verifies easily that for $s \in S$, $O(Q)$ is
 smooth over an open neighbourhood of $s$, except exactly in the case where $k(s)$ is of characteristic two and the rank
@@ -559,11 +559,11 @@ anticipated above is smooth over $S$, being a principal homogeneous fibration un
 *(iii ter) As in (iii), but with $S' \to S$ étale and surjective.*
 
 Indeed, it is better — preserving always the previous hypothesis — that it follows from the general theory of reductive
-group schemes and principal homogeneous fibre bundles over them (cf. SGAD XXIV) that if $Q$ is smooth, then every point
+group schemes and principal homogeneous fibre bundles over them (cf. [SGAD XXIV](https://jcreinhold.github.io/sga/iii/24-automorphisms-of-reductive-groups.html)) that if $Q$ is smooth, then every point
 $s$ has an open neighbourhood $U$ and a finite, étale, surjective morphism $S' \to U$ such that $Q_{S'}$ has the
 standard form. If, for example, $S$ is local, we can in (iii ter) assume in addition that $S' \to S$ is finite.
 
-### V.2.16.14. Failure outside the good rank/characteristic range
+## V.2.16.14. Failure outside the good rank/characteristic range
 
 These results — those of (2.16.13), starting with condition (iii ter) for a smooth $Q$ — break down if we abandon the
 additional hypothesis on the rank and on the characteristic. For example, if $S = \operatorname{Spec}(k)$, $k$ an
@@ -615,4 +615,4 @@ ______________________________________________________________________
 
 [^v-2-9]: Translator's note: Blass-Vaiello inserts "(check reference with AG)" — Grothendieck's reminder to himself to
     check the descent reference. The planned §V on descent techniques (Bourbaki Sém. 236) never appeared as a written
-    EGA V section; the corresponding flat-descent results are now part of SGA 1 (Exposé VIII) and SGA 3.
+    EGA V section; the corresponding flat-descent results are now part of [SGA 1 (Exposé VIII)](https://jcreinhold.github.io/sga/i/08-faithfully-flat-descent.html) and SGA 3.

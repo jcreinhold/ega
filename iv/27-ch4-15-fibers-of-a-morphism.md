@@ -1,8 +1,8 @@
 <!-- original page 223 -->
 
-## §15. Study of the fibres of a universally open morphism
+# §15. Study of the fibres of a universally open morphism
 
-### 15.1. Multiplicities of the fibres of a universally open morphism
+## 15.1. Multiplicities of the fibres of a universally open morphism
 
 **Proposition (15.1.1).**
 
@@ -151,7 +151,7 @@ every point. The same example shows also that in `(15.1.2)` and `(15.1.3)`, one 
 *(ii)* It is plausible that for the validity of the inequality `(15.1.1.2)`, one cannot suppress the hypothesis that
 $\mathcal{O}_{y}$ is regular.
 
-### 15.2. Flatness of universally open morphisms with geometrically reduced fibres
+## 15.2. Flatness of universally open morphisms with geometrically reduced fibres
 
 **(15.2.1)**
 
@@ -303,7 +303,7 @@ case when $\mathcal{O}_{y}$ is a regular ring, after `(15.1.1.6)`. But, as Hiron
 integrally closed Noetherian local rings of dimension `2` (coming from algebraic schemes over imperfect fields) which do
 not satisfy the preceding condition.
 
-### 15.3. Applications: criteria of reduction and of irreducibility
+## 15.3. Applications: criteria of reduction and of irreducibility
 
 **Proposition (15.3.1).**
 
@@ -379,7 +379,7 @@ $\mathcal{O}_{y}$ is regular, $Supp(\mathcal{F}) = X$ and $\mathcal{F}_{y}$ is i
 whether in this statement, one may replace the hypothesis that $\mathcal{O}_{y}$ is regular by the hypothesis that it is
 geometrically unibranch, or even integral and integrally closed.
 
-### 15.4. Complements on Cohen-Macaulay morphisms
+## 15.4. Complements on Cohen-Macaulay morphisms
 
 **Proposition (15.4.1).**
 
@@ -468,7 +468,7 @@ $\mathcal{O}_{X_{y}}$-Module at the point $x$ and $Y'_{y}$ a regular prescheme; 
 and surjective, it satisfies condition e') of `(15.4.2)` by virtue of `(5.6.10)`; it therefore suffices to conclude to
 apply `(15.4.2)` to $g_{y}$ and to $\mathcal{F}_{y}$.
 
-### 15.5. Separable rank of the fibres of a quasi-finite and universally open morphism. Application to the geometric connected components of the fibres of a proper morphism
+## 15.5. Separable rank of the fibres of a quasi-finite and universally open morphism. Application to the geometric connected components of the fibres of a proper morphism
 
 **Proposition (15.5.1).**
 
@@ -758,7 +758,7 @@ neighbourhood of $f^{-1}(y)$; as moreover $f$ is proper, one may suppose that th
 $f^{-1}(U)$, where $U$ is an open neighbourhood of $y$ in $Y$. One then concludes by `(12.2.4, (vi))`. The demonstration
 of `(15.5.7)` given above has the advantage of bringing out the result `(15.5.6)`, which has an independent interest.
 
-### 15.6. Connected components of the fibres along a section
+## 15.6. Connected components of the fibres along a section
 
 **Proposition (15.6.1).**
 
@@ -1105,7 +1105,7 @@ such as `(15.6.1)` are given for morphisms locally of finite type, and not only 
 
 One will also note that in the case of a $Y$-prescheme in groups $G$, hypothesis β) of `(15.6.6)` is always verified.
 
-### 15.7. Appendix: Valuative criteria of local properness
+## 15.7. Appendix: Valuative criteria of local properness
 
 This number gives complements to the valuative criterion of properness demonstrated in `(II, 7.3.10)`; it is independent
 of the rest of §15.

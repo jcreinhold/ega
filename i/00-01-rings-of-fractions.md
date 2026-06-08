@@ -1,10 +1,8 @@
-# Chapter 0 — Preliminaries
-
-## §1. Rings of fractions
+# §1. Rings of fractions
 
 <!-- label: 0.1 -->
 
-### 1.0. Rings and algebras
+## 1.0. Rings and algebras
 
 <!-- label: 0.1.0 -->
 
@@ -62,7 +60,7 @@ $\mathfrak{m}$ and $\mathfrak{n}$, a homomorphism $\phi : A \to B$ is called _lo
 homomorphism then defines a monomorphism of the _residue field_ $A/\mathfrak{m}$ into the _residue field_
 $B/\mathfrak{n}$. The composite of two local homomorphisms is local.
 
-### 1.1. Radical of an ideal. Nilradical and radical of a ring
+## 1.1. Radical of an ideal. Nilradical and radical of a ring
 
 <!-- label: 0.1.1 -->
 
@@ -83,7 +81,7 @@ $A/\mathfrak{N}$ is reduced.
 **(1.1.2)** Recall that the _radical_ $\mathfrak{R}(A)$ of a ring $A$ (not necessarily commutative) is the intersection
 of the maximal left ideals of $A$ (and also of the maximal right ideals). The radical of $A/\mathfrak{R}(A)$ is `(0)`.
 
-### 1.2. Modules and rings of fractions
+## 1.2. Modules and rings of fractions
 
 <!-- label: 0.1.2 -->
 
@@ -166,7 +164,7 @@ ring containing $A$, with maximal ideal $\mathfrak{p}A_{\mathfrak{p}}$, and one 
 means that there is some $s' \in S$ with $s'x^{n} = 0$, whence $(s'x)^{n} = 0$; the hypothesis then gives $s'x = 0$, so
 $x/s = 0$.
 
-### 1.3. Functorial properties
+## 1.3. Functorial properties
 
 <!-- label: 0.1.3 -->
 
@@ -227,7 +225,7 @@ using the exact sequence $A^{p} \to A^{q} \to M \to 0$, the exactness of the fun
 of $\operatorname{Hom}_{A}(M, N)$ in $M$. Note that this situation always obtains when $A$ is _Noetherian_ and $M$ is of
 finite type.
 
-### 1.4. Change of multiplicative subset
+## 1.4. Change of multiplicative subset
 
 <!-- label: 0.1.4 -->
 
@@ -312,7 +310,7 @@ $$ S_{2}'^{-1}(S^{-1}_{1}M) \xrightarrow{\sim} (S_{1}S_{2})^{-1}M $$
 
 sending $(m/s_{1})/(s_{2}/1)$ to $m/(s_{1}s_{2})$.
 
-### 1.5. Change of ring
+## 1.5. Change of ring
 
 <!-- label: 0.1.5 -->
 
@@ -435,7 +433,7 @@ subring of $B_{\mathfrak{p}}$ (1.3.2) and has _exactly one_ prime ideal $\mathfr
 \cap A = \mathfrak{p}$, and _a fortiori_ $\mathfrak{q} \cap A = \mathfrak{p}$ for every minimal prime $\mathfrak{q}$ of
 $B$ contained in $\mathfrak{q}_{1}$.
 
-### 1.6. Identification of $M_{f}$ with an inductive limit
+## 1.6. Identification of $M_{f}$ with an inductive limit
 
 <!-- label: 0.1.6 -->
 
@@ -470,7 +468,7 @@ M_{f,n} ──ρⁿ_{fg,f}──→ M_{fg,n}
   M_f ───ρ_{fg,f}───→  M_{fg}
 ```
 
-### 1.7. Support of a module
+## 1.7. Support of a module
 
 <!-- label: 0.1.7 -->
 

@@ -1,6 +1,6 @@
 <!-- original page 109 -->
 
-## §18. Complements on étale morphisms. Henselian local rings
+# §18. Complements on étale morphisms. Henselian local rings
 
 In the present section, we study various properties special to étale morphisms. In addition, the notion of étale
 morphism allows one to develop in a very natural fashion Nagata's theory of Henselian rings, as well as that of strictly
@@ -8,7 +8,7 @@ local rings. These rings play an important role in many recent developments, by 
 "localization" procedure finer than the one provided by the Zariski topology (cf. for example `[43]`, while awaiting the
 appearance of the chapter of our Treatise devoted to the study of the "étale topology").
 
-### 18.1. A remarkable equivalence of categories
+## 18.1. A remarkable equivalence of categories
 
 **Proposition (18.1.1).**
 
@@ -104,7 +104,7 @@ $X(S'_{0})_{S} = \Gamma(X'_{0}/S'_{0})$; the corollary follows from the fact tha
 
 <!-- original page 111 -->
 
-### 18.2. Étale covers
+## 18.2. Étale covers
 
 **(18.2.1)** Given a ring $A$ and a commutative $A$-algebra $B$ which is *finite* and is a *free* $A$-module, recall
 (Bourbaki, _Alg._, chap. VIII, §12, n° 2) that one defines on $B$ an $A$-linear form $Tr_{B/A}$, the "*trace form*";
@@ -321,7 +321,7 @@ $g$ of $f^{-1}(U)$ such that $g(y) = x$. Indeed, the condition is obviously nece
 follows from the fact that every fibre $f^{-1}(y)$ is finite (`(17.6.1)` and `(I, 6.2.2)`), from the characterization of
 sections of an étale $Y$-scheme `(17.9.3)`, and from prop. `(18.2.8)`.
 
-### 18.3. Finite étale algebras
+## 18.3. Finite étale algebras
 
 **Proposition (18.3.1).**
 
@@ -514,7 +514,7 @@ $X_{0} = f^{-1}(S_{0})$ and that $\mathcal{B}_{0}$ is a finite étale $\mathcal{
 
 <!-- original page 118 -->
 
-### 18.4. Local structure of unramified and étale morphisms
+## 18.4. Local structure of unramified and étale morphisms
 
 **Lemma (18.4.1).**
 
@@ -929,7 +929,7 @@ $\Omega^{1}_{B/A}$ is a $B$-module of finite type `(0, 20.4.7)`. But since $B$ i
 is contained in the radical of $B$ (Bourbaki, _Alg. comm._, chap. V, §2, n° 1, prop. 1), hence Nakayama's lemma proves
 that $\Omega^{1}_{B/A} = 0$, and consequently $B$ is a formally unramified $A$-algebra `(17.2.1)`.
 
-### 18.5. Henselian local rings[^18.5-azumaya-nagata]
+## 18.5. Henselian local rings[^18.5-azumaya-nagata]
 
 **(18.5.1)** Let $X$ be a prescheme, $\mathcal{E}$ a locally free $\mathcal{O}_{X}$-Module of finite rank; the dual
 $\check{\mathcal{E}} = \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{E}, \mathcal{O}_{X})$ is thus a locally free
@@ -1495,7 +1495,7 @@ $S'_{2}$ (since the intersection of one of them with $g^{-1}(s)$ is reduced to a
 
 <!-- original page 135 -->
 
-### 18.6. Henselization
+## 18.6. Henselization
 
 **(18.6.1)** Given a local ring $A$, we say that a local $A$-algebra $B$ is **essentially étale** if there exist an
 étale $A$-algebra $C$ and a prime ideal $\mathfrak{n}$ of $C$ such that $B$ is $A$-isomorphic to $C_{\mathfrak{n}}$ and
@@ -1935,7 +1935,7 @@ $A$-isomorphism $X_{0} \otimes_{A_{0}} A \xrightarrow{\sim} X$.*
 
 This results from `(18.6.14)` and `(8.8.2, (ii))`.
 
-### 18.7. Henselization and excellent rings
+## 18.7. Henselization and excellent rings
 
 **(18.7.1)** We shall denote in this n° by $P(Z, k)$ a property of the form considered in `(7.3.1)`, where we suppose in
 addition that the property $Q(A, k)$ satisfies the following condition:
@@ -2055,7 +2055,7 @@ ring $R$ is universally catenary, for its quotients by its two minimal prime ide
 conclusion by `(5.6.3, (iii))`. The ring $R_{\mathfrak{r}_{1}}$ is therefore excellent, and consequently the same holds
 for ${}^{h} A$ `(18.7.6)`, whereas $A$ is not universally catenary.
 
-### 18.8. Strictly local rings and strict Henselization
+## 18.8. Strictly local rings and strict Henselization
 
 **Proposition (18.8.1).**
 
@@ -2408,7 +2408,7 @@ rings (the transition homomorphisms being local).*
 
 The proofs are modelled on those of `(18.6.14)`.
 
-### 18.9. Formal fibres of Henselian Noetherian rings
+## 18.9. Formal fibres of Henselian Noetherian rings
 
 **Theorem (18.9.1).**
 
@@ -2801,7 +2801,7 @@ y})$.
 
 <!-- original page 157 -->
 
-### 18.10. Étale preschemes over a geometrically unibranch or normal prescheme
+## 18.10. Étale preschemes over a geometrically unibranch or normal prescheme
 
 **Theorem (18.10.1).**
 
@@ -3417,7 +3417,7 @@ results from `(5.4.1)` that the restriction of $g_{y'}$ to every irreducible com
 $f^{-1}(y')$ is a dominant morphism. Now, there exists by hypothesis such a component containing a generization of $x$;
 a fortiori its generic point is a generization of $x$, whence the conclusion.
 
-### 18.11. Application to complete Noetherian local algebras over a field
+## 18.11. Application to complete Noetherian local algebras over a field
 
 The following lemma generalizes `(0, 21.9.1)` and `(0, 21.9.2)`:
 
@@ -4093,7 +4093,7 @@ to $K \otimes_{k} k^{p^{-}\infty}_{1} = (K \otimes_{k} k^{p^{-}\infty}) \otimes_
 hence $K \otimes_{k} k^{p^{-}\infty}$ is also Artinian (Bourbaki, Alg. comm., chap. I, §3, n° 5, cor. of prop. 8); one
 has thus proved that b) implies a), which finishes the proof of `(18.11.12.1)` and of `(18.11.12)`.
 
-### 18.12. Applications of étale localization to quasi-finite morphisms (generalizations of earlier results)
+## 18.12. Applications of étale localization to quasi-finite morphisms (generalizations of earlier results)
 
 The results of this number have been communicated to us by P. Deligne.
 

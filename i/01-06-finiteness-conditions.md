@@ -1,12 +1,10 @@
-# Chapter I — The Language of Schemes
-
-## §6. Finiteness Conditions
+# §6. Finiteness Conditions
 
 <!-- label: I.6 -->
 
 > **Translation status.** Skeleton with definitions and principal statements; full proofs reference .
 
-### 6.1. Noetherian and locally Noetherian preschemes
+## 6.1. Noetherian and locally Noetherian preschemes
 
 <!-- label: I.6.1 -->
 
@@ -34,7 +32,7 @@ locally.
 
 **Proposition (6.1.13).** Every open subset of a Noetherian prescheme is quasi-compact.
 
-### 6.2. Artinian preschemes
+## 6.2. Artinian preschemes
 
 <!-- label: I.6.2 -->
 
@@ -43,7 +41,7 @@ locally.
 **Proposition (6.2.2).** An Artinian prescheme is Noetherian and 0-dimensional; its underlying space is finite,
 discrete.
 
-### 6.3. Morphisms of finite type
+## 6.3. Morphisms of finite type
 
 <!-- label: I.6.3 -->
 
@@ -67,7 +65,7 @@ compatibility.
 
 **Proposition (6.3.10).** Finite-type morphisms with Noetherian target have Noetherian source.
 
-### 6.4. Algebraic preschemes
+## 6.4. Algebraic preschemes
 
 <!-- label: I.6.4 -->
 
@@ -94,7 +92,7 @@ $\bar{K}$-rational points, where $\bar{K}$ is an algebraic closure.
 
 **Proposition (6.4.11).** Properties of algebraic $K$-preschemes pass to extension fields $K \to L$.
 
-### 6.5. Local determination of a morphism
+## 6.5. Local determination of a morphism
 
 <!-- label: I.6.5 -->
 
@@ -104,7 +102,7 @@ $\bar{K}$-rational points, where $\bar{K}$ is an algebraic closure.
 **(6.5.6)** A morphism $f : X \to Y$ is _birational_ if `X, Y` have finitely many irreducible components and the induced
 map on generic points is bijective with isomorphisms of local rings; see (2.2.9).
 
-### 6.6. Quasi-compact morphisms
+## 6.6. Quasi-compact morphisms
 
 <!-- label: I.6.6 -->
 

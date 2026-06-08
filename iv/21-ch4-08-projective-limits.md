@@ -1,8 +1,8 @@
 <!-- original page 5 -->
 
-## §8. Projective limits of preschemes
+# §8. Projective limits of preschemes
 
-### 8.1. Introduction
+## 8.1. Introduction
 
 **(8.1.1)** In this section we shall systematically study the following situation. Let $I$ be a filtered (increasing)
 preordered set, $(A_{\alpha}, \phi_{\beta \alpha})$ an inductive system of rings indexed by $I$, and $A = \lim
@@ -100,7 +100,7 @@ of systematically developing *constructibility criteria* for the most important 
 
 <!-- original page 7 -->
 
-### 8.2. Projective limits of preschemes
+## 8.2. Projective limits of preschemes
 
 **(8.2.1)** Let `S_0` be a ringed space, $L$ a filtered (increasing) preordered set, $(\mathcal{A}_{\lambda}, \phi_{\mu
 \lambda})$ an inductive system of $\mathcal{O}_{S_{0}}$-Algebras (not necessarily commutative) indexed by $L$. One knows
@@ -385,7 +385,7 @@ virtue of `(8.2.12)`, and there is therefore a unique homomorphism $\omega^{\sha
 \mathcal{O}_{Y}$ such that $\omega^{\sharp}_{\lambda} = \omega^{\sharp} \circ p^{*}(\theta^{\sharp}_{\lambda})$, which proves our
 assertion.
 
-### 8.3. Constructible parts in a projective limit of preschemes
+## 8.3. Constructible parts in a projective limit of preschemes
 
 **(8.3.1)** In all that follows in this section, we suppose the conditions of `(8.2.2)` to be satisfied, and we preserve
 its notations.
@@ -689,7 +689,7 @@ $S$) is equal to $u^{-1}_{\mu \lambda}(\overline{Z}_{\lambda})$ (resp. $u^{-1}_{
 `(2.3.10)`. Since the $u^{-1}_{\mu \lambda}(\overline{Z}_{\lambda})$ and $u^{-1}_{\lambda}(\overline{Z}_{\lambda})$ are
 constructible `(1.8.2)`, the conclusion follows from `(8.3.2)`.
 
-### 8.4. Irreducibility and connectedness criteria for projective limits of preschemes
+## 8.4. Irreducibility and connectedness criteria for projective limits of preschemes
 
 **Proposition (8.4.1).**
 
@@ -835,7 +835,7 @@ that the inductive limit of this system of rings is $K$, the canonical homomorph
 projection $A \times K \to K$. One sees therefore that $S = \operatorname{Spec}(K)$ is irreducible although none of the
 $S_{n}$ is connected.
 
-### 8.5. Modules of finite presentation over a projective limit of preschemes
+## 8.5. Modules of finite presentation over a projective limit of preschemes
 
 **(8.5.1)** We continue to use the notations of `(8.2.2)`; we shall in addition restrict to the case where `S_0` is one
 of the $S_{\lambda}$, to which one may always reduce.
@@ -1205,7 +1205,7 @@ homomorphism $p_{\mu} : \mathcal{F}_{\mu} \to \mathcal{G}_{\mu}$ such that $p = 
 virtue of `(8.5.7)`, one can suppose $\mu$ chosen large enough so that $p_{\mu}$ is surjective, which finishes the
 proof.
 
-### 8.6. Sub-preschemes of finite presentation of a projective limit of preschemes
+## 8.6. Sub-preschemes of finite presentation of a projective limit of preschemes
 
 **(8.6.1)** Given a prescheme $Y$, let us denote in this number by $\mathfrak{Spr}(Y)$ the ordered set `(I, 4.1.10)` of
 sub-preschemes of $Y$ that are of finite presentation over $Y$ `(1.6.1)`, by $\mathfrak{Spr}_{o}(Y)$ (resp.
@@ -1309,7 +1309,7 @@ is open (resp. closed) in $U^{(i)}_{\mu}$, $Z_{\mu}$ is so in $S_{\mu}$. Since $
 corollary when $S_{\lambda}$ is affine, hence quasi-separated. But then the result follows from the fact that the maps
 `(8.6.2.1)`, `(8.6.2.2)` and `(8.6.2.3)` are bijective.
 
-### 8.7. Criteria for a projective limit of preschemes to be a reduced (resp. integral) prescheme
+## 8.7. Criteria for a projective limit of preschemes to be a reduced (resp. integral) prescheme
 
 We continue to use the hypotheses and notations of `(8.2.2)` and suppose always that `S_0` is one of the $S_{\lambda}$.
 
@@ -1384,7 +1384,7 @@ from `(8.7.2)` and `(8.4.3)`.
 If one makes no hypothesis on the $u_{\mu \lambda}$, it may happen that $S$ is integral although all the $S_{\lambda}$
 are non-reduced and non-connected, as the example `(8.4.6)` shows, where one takes the ring $A$ non-reduced.
 
-### 8.8. Preschemes of finite presentation over a projective limit of preschemes
+## 8.8. Preschemes of finite presentation over a projective limit of preschemes
 
 **(8.8.1)** Continuing to use the notations and hypotheses of `(8.2.2)`, we shall assume given in this section two
 $S_{\alpha}$-preschemes $X_{\alpha}$, $Y_{\alpha}$, which defines `(8.2.5)` two projective systems of preschemes
@@ -1712,7 +1712,7 @@ prescheme in groups are interpreted likewise.
 
 <!-- original page 34 -->
 
-### 8.9. First applications to the elimination of Noetherian hypotheses
+## 8.9. First applications to the elimination of Noetherian hypotheses
 
 **Proposition (8.9.1).**
 
@@ -1841,7 +1841,7 @@ X_{\lambda} \times_{S_{\lambda}} S_{\lambda,i}$ and $\mathcal{F}_{\lambda,i} = \
 $S_{\lambda,i}$. The $S_{i}' = S_{\lambda,i} \times_{S_{\lambda}} S$ are then sub-preschemes of $S$ answering the
 question, by virtue of `(2.1.4)`.
 
-### 8.10. Permanence properties of morphisms under projective passage to the limit
+## 8.10. Permanence properties of morphisms under projective passage to the limit
 
 In this section we keep the general hypotheses and notation of `(8.8.1)`.
 
@@ -2137,7 +2137,7 @@ immersion $j_{\mu} : X_{\mu} \to \mathbb{P}^{r}_{S_{\mu}} = P_{\mu}$ such that $
 to $j^{*}_{\nu}(\mathcal{O}_{P_{\nu}}(1))$, which shows that $\mathcal{L}_{\nu}$ is very ample for $f_{\nu}$
 `(II, 4.4.2)`.
 
-### 8.11. Application to quasi-finite morphisms
+## 8.11. Application to quasi-finite morphisms
 
 We propose in this section to prove the two following theorems:
 
@@ -2251,7 +2251,7 @@ Indeed, $f$ being of finite type, universally closed, and separated by virtue of
 `(II, 5.4.1)`. Since it is obviously quasi-finite `(II, 6.2.3)`, it is finite by `(8.11.1)`. One knows moreover that it
 is radicial `(2.4.4)`, and obviously surjective.
 
-### 8.12. New demonstration and generalization of Zariski's *Main Theorem*
+## 8.12. New demonstration and generalization of Zariski's *Main Theorem*
 
 **Lemma (8.12.1).**
 
@@ -2578,7 +2578,7 @@ two assertions are therefore consequences of `(8.12.10)` applied to $f'$.
 
 <!-- original page 49 -->
 
-### 8.13. Translation in terms of pro-objects
+## 8.13. Translation in terms of pro-objects
 
 The following proposition is essentially equivalent to `(8.8.2, (i))`:
 
@@ -2768,7 +2768,7 @@ The only pro-algebraic groups encountered in practice up to the present being in
 therefore no doubt be advantage in substituting for the study of general pro-algebraic groups (introduced and studied by
 Serre [40]) that of quasi-compact group schemes over $k$, whose definition is conceptually simpler.
 
-### 8.14. Characterization of a prescheme locally of finite presentation over another, in terms of the functor it represents
+## 8.14. Characterization of a prescheme locally of finite presentation over another, in terms of the functor it represents
 
 **(8.14.1)**
 

@@ -1,8 +1,8 @@
 <!-- original page 135 -->
 
-## §17. Regular rings
+# §17. Regular rings
 
-### 17.1. Definition of regular rings
+## 17.1. Definition of regular rings
 
 **Proposition (17.1.1).**
 
@@ -195,7 +195,7 @@ of $A$ and that $A/\mathfrak{J}'$ is regular and of dimension $n - r$; but since
 $A/\mathfrak{J}'$, the dimensions of $A/\mathfrak{J}$ and $A/\mathfrak{J}'$ can be equal only if $\mathfrak{J} =
 \mathfrak{J}'$ `(16.1.2.2)`.
 
-### 17.2. Recollections on the projective dimension and the injective dimension of modules
+## 17.2. Recollections on the projective dimension and the injective dimension of modules
 
 **(17.2.1)** Let $A$ be a ring, $M$ an $A$-module. Recall `(M, VI, 2)` that one calls the *projective dimension* (resp.
 *injective dimension*) of $M$, and denotes by $\dim. proj(M)$ or $\dim. proj_{A}(M)$ (resp. $\dim. inj(M)$ or $\dim.
@@ -464,7 +464,7 @@ then $Y$ is of cohomological dimension $\leq n$ at every point of $f(X)$.*
 
 This follows at once from `(17.2.13)`.
 
-### 17.3. Cohomological theory of regular rings
+## 17.3. Cohomological theory of regular rings
 
 **Theorem (17.3.1) (Hilbert-Serre).**
 

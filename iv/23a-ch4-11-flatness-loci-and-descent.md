@@ -1,6 +1,6 @@
 <!-- original page 116 -->
 
-## §11. Topological properties of flat morphisms of finite presentation; local criteria of flatness
+# §11. Topological properties of flat morphisms of finite presentation; local criteria of flatness
 
 While in §2 we considered the statements concerning flatness which do not depend on any finiteness hypothesis, and while
 §6 studies the notion of flatness in the framework of locally Noetherian preschemes (but without finiteness hypothesis
@@ -42,7 +42,7 @@ density in the topological sense, namely the notion of family of sub-preschemes 
 prescheme, and notably the study of the behaviour of this notion under base change (flat or arbitrary). This notion is
 used above all, for the moment, in the study of group schemes.
 
-### 11.1. Flatness loci (Noetherian case)
+## 11.1. Flatness loci (Noetherian case)
 
 **Theorem (11.1.1).**
 
@@ -189,7 +189,7 @@ Taking `(2.1.2)` into account, this is a consequence of `(11.1.5)` applied to $Z
 
 The results of this number will be freed of the Noetherian hypotheses in `(11.3)`.
 
-### 11.2. Flatness of a projective limit of preschemes
+## 11.2. Flatness of a projective limit of preschemes
 
 (11.2.1) Let $A$ be a ring, $M$, $N$ two $A$-modules, $A'$ an $A$-algebra; set $M' = M \otimes_{A} A'$, $N' = N
 \otimes_{A} A'$. Recall `(III, 6.3.8)` that for every $i$ one defines a canonical homomorphism of $A$-modules
@@ -1012,7 +1012,7 @@ the proof of `(11.2.9)`.
 
 We do not know whether the generalization of `(11.2.6, (i))` analogous to Raynaud's theorem is valid.
 
-### 11.3. Application to elimination of Noetherian hypotheses
+## 11.3. Application to elimination of Noetherian hypotheses
 
 **Theorem (11.3.1).**
 
@@ -1709,7 +1709,7 @@ which proves that $B$ is an $A$-algebra of finite presentation.
 
 <!-- original page 143 -->
 
-### 11.4. Descent of flatness by arbitrary morphisms: artinian base case
+## 11.4. Descent of flatness by arbitrary morphisms: artinian base case
 
 **Theorem (11.4.1).**
 
@@ -2184,7 +2184,7 @@ reduces to the case where $Y'_{\alpha}$ is affine, and it suffices then to apply
 `Bourbaki, Alg. comm., chap. II, §3, n° 3, cor. 2 of th. 1`. Replacing the family $(Y'_{\alpha})$ by the family of
 $Y''_{\alpha, y'_{\alpha}}$, one is therefore reduced to `(11.4.12)`.
 
-### 11.5. Descent of flatness by arbitrary morphisms: general case
+## 11.5. Descent of flatness by arbitrary morphisms: general case
 
 **Theorem (11.5.1).**
 
@@ -2410,7 +2410,7 @@ One then deduces from `(8.3.3)` applied to the closed quasi-compact parts $T'_{\
 $T'_{\lambda}$, that there exists $\mu \geq \lambda$ such that $T'_{\mu} = V'_{\mu}$; this means that
 $\mathcal{F}'_{\mu}$ is $f'_{\mu}$-flat at all points of $X'_{\mu}$ whose projection in $X$ is $x$. Q.E.D.
 
-### 11.6. Descent of flatness by arbitrary morphisms: case of a unibranch base prescheme
+## 11.6. Descent of flatness by arbitrary morphisms: case of a unibranch base prescheme
 
 **Theorem (11.6.1).**
 
@@ -2569,7 +2569,7 @@ $\mathcal{F}_{1}$ is $f_{1}$-flat at all points $x_{1}$ of `X_1` whose respectiv
 and $y_{1}$, then $\mathcal{F}$ is $f$-flat at the point $x$; one is thus reduced to the case where $A$ is integrally
 closed, hence geometrically unibranch, and the conclusion then results from `(11.6.1)`.
 
-### 11.7. Counter-examples
+## 11.7. Counter-examples
 
 **(11.7.1)** Let us consider first the case where $A$ is a local artinian ring, and where the hypotheses of `(11.4.11)`
 are satisfied except condition (ii) concerning the residue field $k$ of $A$. We shall see that the conclusion of
@@ -2696,7 +2696,7 @@ $\bar{A} \otimes_{A} A'$ is isomorphic to $A' \oplus (B/\mathfrak{n})$. This est
 $B/\mathfrak{n} = A'/(\mathfrak{n}/\mathfrak{p}')$ is not a flat $A'$-module (otherwise it would be a free $A'$-module
 `(Bourbaki, Alg. comm., chap. II, §3, n° 2, cor. 2 of prop. 5)`, which is absurd).
 
-### 11.8. A valuative criterion of flatness
+## 11.8. A valuative criterion of flatness
 
 **Theorem (11.8.1).**
 
@@ -2762,7 +2762,7 @@ one can in this case reduce to proving `(11.8.1)` when $A = \mathcal{O}_{y}$ is 
 one knows `(II, 7.1.7)` that such a ring $A$ is dominated by a complete discrete valuation ring; the conclusion
 therefore results directly from `(11.5.2)`.
 
-### 11.9. Separating and universally separating families of homomorphisms of sheaves of modules
+## 11.9. Separating and universally separating families of homomorphisms of sheaves of modules
 
 **(11.9.1)** Let $X$ be a prescheme, $(f_{\lambda})_{\lambda \in L}$ a family of morphisms $f_{\lambda} : Z_{\lambda}
 \to X$, $\mathcal{F}$ a quasi-coherent $\mathcal{O}_{X}$-Module; for every $\lambda \in L$, suppose given a
@@ -3297,7 +3297,7 @@ When the preceding equivalent conditions are verified, one says that $u$ is **un
 
 <!-- original page 170 -->
 
-### 11.10. Schematically dominant families of morphisms and schematically dense families of subpreschemes
+## 11.10. Schematically dominant families of morphisms and schematically dense families of subpreschemes
 
 **Proposition (11.10.1).**
 

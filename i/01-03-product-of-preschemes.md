@@ -1,6 +1,4 @@
-# Chapter I — The Language of Schemes
-
-## §3. Product of Preschemes
+# §3. Product of Preschemes
 
 <!-- label: I.3 -->
 
@@ -8,7 +6,7 @@
 > statements are translated; longer proofs are summarized or referenced. Proofs in full follow the structure of and the
 > source PDF.
 
-### 3.1. Sums of preschemes
+## 3.1. Sums of preschemes
 
 <!-- label: I.3.1 -->
 
@@ -18,7 +16,7 @@ $\mathcal{O}_{X_{\lambda}}$. The ringed space $(X, \mathcal{O}_{X})$ is a presch
 $(X_{\lambda})$. The canonical injections $X_{\lambda} \to X$ are open immersions. For an $S$-prescheme structure, the
 sum is the coproduct in the category of $S$-preschemes.
 
-### 3.2. Products of preschemes
+## 3.2. Products of preschemes
 
 <!-- label: I.3.2 -->
 
@@ -50,7 +48,7 @@ The proof glues affine local products using a cocycle argument and (3.2.4); see 
 **Corollary (3.2.7).** Products are functorial: for $S$-morphisms $u : X \to X'$, $v : Y \to Y'$, there is a unique
 $S$-morphism $u \times v : X \times_{S} Y \to X' \times_{S} Y'$ compatible with projections.
 
-### 3.3. Formal properties of the product; change of base prescheme
+## 3.3. Formal properties of the product; change of base prescheme
 
 <!-- label: I.3.3 -->
 
@@ -74,7 +72,7 @@ Y_{(S')}$.
 **Corollary (3.3.11).** Open immersions are preserved by base change: if $j : U \to X$ is an open immersion, so is $j
 \times_{S} 1_{S'} : U_{(S')} \to X_{(S')}$.
 
-### 3.4. Points of a prescheme with values in a prescheme; geometric points
+## 3.4. Points of a prescheme with values in a prescheme; geometric points
 
 <!-- label: I.3.4 -->
 
@@ -101,7 +99,7 @@ $K_{x}$ an extension of $\kappa(x)$.
 **Proposition (3.4.7).** For $f : X \to Y$ an $S$-morphism, every geometric point of $X$ maps via $f$ to a geometric
 point of $Y$ with the same value field.
 
-### 3.5. Surjections and injections
+## 3.5. Surjections and injections
 
 <!-- label: I.3.5 -->
 
@@ -123,7 +121,7 @@ every point.
 **Proposition (3.5.8).** _Geometric injection_: $f : X \to Y$ is radicial iff the diagonal $X \to X \times_{Y} X$ is
 surjective.
 
-### 3.6. Fibers
+## 3.6. Fibers
 
 <!-- label: I.3.6 -->
 
@@ -136,7 +134,7 @@ Set-theoretically, the underlying space of $X_{s}$ (where $K = \kappa(s)$) is $f
 
 **Proposition (3.6.5).** Surjectivity and radiciality of a morphism are detected fiber-by-fiber.
 
-### 3.7. Reduction mod 𝔍
+## 3.7. Reduction mod 𝔍
 
 <!-- label: I.3.7 -->
 

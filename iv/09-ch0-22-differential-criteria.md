@@ -1,6 +1,6 @@
 <!-- original page 182 -->
 
-## §22. Differential criteria for formal smoothness and regularity
+# §22. Differential criteria for formal smoothness and regularity
 
 The principal results of this section are:
 
@@ -19,7 +19,7 @@ criterion.
 
 c) Zariski's Jacobian criterion `(22.6.7)` and its variants, which are easy consequences of $(0_{IV}, 20.7.8)$.
 
-### 22.1. Lifting of formal smoothness
+## 22.1. Lifting of formal smoothness
 
 **Theorem (22.1.1).**
 
@@ -198,7 +198,7 @@ that $v$ is an $A$-isomorphism, for $B'$ is a flat $A$-module, and $B$ is comple
 topology, the ideals $\mathfrak{m}^{j} B$ being closed in $B$ for the $\mathfrak{n}$-adic topology $(0_{I}, 7.3.5)$.
 Q.E.D.
 
-### 22.2. Differential characterization of local algebras formally smooth over a field
+## 22.2. Differential characterization of local algebras formally smooth over a field
 
 (22.2.1) Let $k$ be a field, $P$ its prime subfield, $A$ a $k$-algebra which is a local ring, $\mathfrak{m}$ its maximal
 ideal, $K = A/\mathfrak{m}$ its residue field. Since $K$ is separable over $P$, $K$ is a $P$-algebra formally smooth for
@@ -508,7 +508,7 @@ satisfied.
 
 <!-- original page 191 -->
 
-### 22.3. Application to the relations between certain local rings and their completions
+## 22.3. Application to the relations between certain local rings and their completions
 
 **Lemma (22.3.1).**
 
@@ -642,7 +642,7 @@ characteristic `0`), and is such that $A$ is a finite `A_0`-algebra. Now, one kn
 $(0_{IV}, 17.3.8)$ and verifies one of the hypotheses (i), (ii) of `(22.3.2)`, by virtue of $(0_{IV}, 21.8.8)$; it
 suffices therefore to apply `(22.3.2)`, replacing $B$ by $A$ and $A$ by `A_0`.
 
-### 22.4. Preliminary results on finite extensions of local rings whose maximal ideal has square zero
+## 22.4. Preliminary results on finite extensions of local rings whose maximal ideal has square zero
 
 **Proposition (22.4.1).**
 
@@ -1177,7 +1177,7 @@ and that the $F_{i}(T_{i})$ are of the more general form `(22.4.4.1)`: indeed, $
 faithfully flat), and it suffices to take up again the reasoning of `(22.4.7)`, replacing therein `(22.4.6.2)` by
 `(22.4.8.4)` and $V''$ by $V''/p A''$.*
 
-### 22.5. Geometrically regular algebras and formally smooth algebras
+## 22.5. Geometrically regular algebras and formally smooth algebras
 
 **Proposition (22.5.1).**
 
@@ -1405,7 +1405,7 @@ for residue field, with $\chi_{A/k} = 0$, and is therefore not a $k$-algebra for
 under what conditions is the set of prime ideals $\mathfrak{p} \in \operatorname{Spec}(A)$ such that $A_{\mathfrak{p}}$
 is a $k$-algebra formally smooth open? We shall address certain particular cases of this later.*
 
-### 22.6. Zariski's Jacobian criterion
+## 22.6. Zariski's Jacobian criterion
 
 **Theorem (22.6.1)** (Jacobian criterion of formal smoothness).
 
@@ -1664,7 +1664,7 @@ finite $(0_{IV}, 21.8.6)$. We shall not prove this refinement of Zariski's crite
 use. In `(22.7)`, we shall give, for complete local rings, a variant (also due to Nagata) of Zariski's criterion, which
 is proved essentially by the same method (with somewhat greater technical difficulties).*
 
-### 22.7. Nagata's Jacobian criterion
+## 22.7. Nagata's Jacobian criterion
 
 (22.7.1) Nagata's Jacobian criterion is the analogue of Zariski's Jacobian criterion, but for quotient rings of rings of
 formal series over a field. We shall give, like Nagata `[31]`, two versions, presented here as criteria of formal

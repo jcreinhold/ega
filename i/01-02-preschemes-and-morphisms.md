@@ -1,10 +1,8 @@
-# Chapter I — The Language of Schemes
-
-## §2. Preschemes and Morphisms of Preschemes
+# §2. Preschemes and Morphisms of Preschemes
 
 <!-- label: I.2 -->
 
-### 2.1. Definition of preschemes
+## 2.1. Definition of preschemes
 
 <!-- label: I.2.1 -->
 
@@ -41,7 +39,7 @@ _induced_ prescheme (or _restriction_) on $U$.
 irreducible and reduced (cf. (5.1.4)). It is _locally integral_ if every $x \in X$ admits an open neighborhood $U$ such
 that the induced prescheme on $U$ is integral.
 
-### 2.2. Morphisms of preschemes
+## 2.2. Morphisms of preschemes
 
 <!-- label: I.2.2 -->
 
@@ -99,7 +97,7 @@ an _isomorphism_. A birational morphism is dominant (0.2.1.8), and surjective if
 sheaves) from notation. For an open $U \subset X$ of a prescheme, "the prescheme $U$" means the induced prescheme on
 $U$.
 
-### 2.3. Gluing of preschemes
+## 2.3. Gluing of preschemes
 
 <!-- label: I.2.3 -->
 
@@ -114,7 +112,7 @@ resulting prescheme $X$ is _not_ affine: $\Gamma(X, \mathcal{O}_{X}) = K$, since
 = g(t) = f(1/t)$ on the overlap, forcing $f = g \in K$. (This is the projective line $\mathbb{P}^{1}_{K}$; see
 (II.2.4.3).)
 
-### 2.4. Local schemes
+## 2.4. Local schemes
 
 <!-- label: I.2.4 -->
 
@@ -165,7 +163,7 @@ arrow given by a field monomorphism $\kappa(\psi(\xi)) \to K$. Hence `Hom(X, Y) 
 $\mathcal{O}_{X}$), since every affine open containing the closed point equals $X$. This fails for general affine
 schemes; for $A$ normal, invertibility implies triviality iff $A$ is a UFD.
 
-### 2.5. Preschemes over a prescheme
+## 2.5. Preschemes over a prescheme
 
 <!-- label: I.2.5 -->
 

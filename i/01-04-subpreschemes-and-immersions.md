@@ -1,12 +1,10 @@
-# Chapter I — The Language of Schemes
-
-## §4. Subpreschemes and Immersion Morphisms
+# §4. Subpreschemes and Immersion Morphisms
 
 <!-- label: I.4 -->
 
 > **Translation status.** Translation skeleton with key definitions and theorem statements; full proofs reference .
 
-### 4.1. Subpreschemes
+## 4.1. Subpreschemes
 
 <!-- label: I.4.1 -->
 
@@ -29,7 +27,7 @@ to ideals $\mathfrak{J} \subset A$, the closed subprescheme being $\operatorname
 **Corollary (4.1.10).** Every prescheme is a union of its open affine subpreschemes (a closed cover of finite type, if
 Noetherian).
 
-### 4.2. Immersion morphisms
+## 4.2. Immersion morphisms
 
 <!-- label: I.4.2 -->
 
@@ -48,7 +46,7 @@ is open (resp. closed).
 
 **Proposition (4.2.5).** Immersions are preserved under base change.
 
-### 4.3. Products of immersions
+## 4.3. Products of immersions
 
 <!-- label: I.4.3 -->
 
@@ -58,7 +56,7 @@ both factors are).
 
 **Corollary (4.3.2).** Open immersions and closed immersions are stable under fiber products.
 
-### 4.4. Inverse images of subpreschemes
+## 4.4. Inverse images of subpreschemes
 
 <!-- label: I.4.4 -->
 
@@ -75,7 +73,7 @@ $f*(\mathcal{J}) \cdot \mathcal{O}_{X} = \mathcal{J} \mathcal{O}_{X}$.
 **Proposition (4.4.5).** For morphisms $X \to Y \to S$ and a subprescheme $Y' \subset Y$, $X \times_{Y} Y' = X
 \times_{S} Y'$ (when $Y' \hookrightarrow Y$ is an immersion).
 
-### 4.5. Local immersions and local isomorphisms
+## 4.5. Local immersions and local isomorphisms
 
 <!-- label: I.4.5 -->
 

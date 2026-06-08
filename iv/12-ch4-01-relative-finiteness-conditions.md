@@ -1,6 +1,6 @@
 <!-- original page 224 -->
 
-## §1. Relative finiteness conditions. Constructible sets in preschemes
+# §1. Relative finiteness conditions. Constructible sets in preschemes
 
 In this section we resume, in completed form, the exposition of the "finiteness conditions" for a morphism of preschemes
 $f : X \to Y$ given in `(I, 6.3 and 6.6)`. There are essentially two notions of "finiteness" of *global* nature on $X$,
@@ -14,7 +14,7 @@ in `(I, 6.3 and 6.6)`, of course referring back to those numbers of Chapter I fo
 In nos. (1.8) and (1.9) we complete, in the framework of preschemes and making use of the preceding finiteness notions,
 the results on constructible sets given in `(0_III, §9)`.
 
-### 1.1. Quasi-compact morphisms
+## 1.1. Quasi-compact morphisms
 
 **Definition (1.1.1).**
 
@@ -119,7 +119,7 @@ $f'$ and `f''` be so.*
 
 This results immediately from the definition.
 
-### 1.2. Quasi-separated morphisms
+## 1.2. Quasi-separated morphisms
 
 **Definition (1.2.1).**
 
@@ -294,7 +294,7 @@ Indeed, $X \times_{Y} X$ is the sum of the four preschemes $X' \times_{Y} X'$, $
 and $X'' \times_{Y} X''$, and $\Delta_{f}$ is the morphism that coincides with $\Delta_{f'}$ on $X'$ and with
 $\Delta_{f''}$ on `X''`; the proposition therefore results at once from the definitions.
 
-### 1.3. Morphisms locally of finite type
+## 1.3. Morphisms locally of finite type
 
 **(1.3.1)**
 
@@ -428,7 +428,7 @@ $\mathfrak{q}'$ a prime ideal of $C'$; but $C' = C/\mathfrak{b}$, where $C = A[T
 is an ideal of $C$; so $\mathfrak{q}' = \mathfrak{q}/\mathfrak{b}$, where $\mathfrak{q}$ is a prime ideal of $C$, and
 $C'_{\mathfrak{q}'}$ is isomorphic to $C_{\mathfrak{q}} / \mathfrak{b} C_{\mathfrak{q}}$.
 
-### 1.4. Morphisms locally of finite presentation
+## 1.4. Morphisms locally of finite presentation
 
 **(1.4.1)**
 
@@ -634,7 +634,7 @@ $A$-module of finite presentation, $\mathfrak{a}$ is an $A$-module of finite typ
 $B$ is by definition a $B'$-algebra of finite presentation, and since $B'$ is an $A$-algebra of finite presentation, $B$
 is an $A$-algebra of finite presentation.
 
-### 1.5. Morphisms of finite type
+## 1.5. Morphisms of finite type
 
 **Proposition (1.5.1).**
 
@@ -721,7 +721,7 @@ finite type.*
 
 For the proof, see `(I, 6.3.3)`.
 
-### 1.6. Morphisms of finite presentation
+## 1.6. Morphisms of finite presentation
 
 **Definition (1.6.1).**
 
@@ -817,7 +817,7 @@ It suffices to show that for $f$ to possess one of the three properties of defin
 locally of finite presentation, which is local on $X$; for the property of being quasi-compact, this was seen in
 `(1.1.6)`, and for the property of being quasi-separated, in `(1.2.9)`.
 
-### 1.7. Improvements of earlier results
+## 1.7. Improvements of earlier results
 
 We give in this number a list of propositions proved in the preceding chapters whose statement may be improved by means
 of the new finiteness conditions introduced above.
@@ -911,7 +911,7 @@ quasi-compact and quasi-separated prescheme, the reasoning being the same as in 
 
 <!-- original page 238 -->
 
-### 1.8. Morphisms of finite presentation and constructible sets
+## 1.8. Morphisms of finite presentation and constructible sets
 
 **(1.8.1)**
 
@@ -1114,7 +1114,7 @@ $\operatorname{Spec}(k(s)) \to S$ `(I, 5.3.4)`. Since $f$ is of finite presentat
 \times_{Y} X \to Y$ `(1.6.2, (iv))`, hence also $\Delta_{f}$ `(1.6.2, (v))`; it therefore suffices to apply the first
 part of the proposition to $\Delta_{f}$, using lemma `(1.8.7.1)`.
 
-### 1.9. Pro-constructible and ind-constructible sets
+## 1.9. Pro-constructible and ind-constructible sets
 
 **Lemma (1.9.1).**
 
@@ -1566,7 +1566,7 @@ in his theory of the reduction of abelian varieties.
 
 <!-- original page 249 -->
 
-### 1.10. Application to open morphisms
+## 1.10. Application to open morphisms
 
 **Theorem (1.10.1).**
 

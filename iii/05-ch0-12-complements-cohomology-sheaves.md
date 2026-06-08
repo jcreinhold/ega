@@ -1,10 +1,8 @@
-# Chapter 0_III
-
-## §12. Complements on the cohomology of sheaves
+# §12. Complements on the cohomology of sheaves
 
 <!-- original page 49 -->
 
-### 12.1. Cohomology of sheaves of modules on ringed spaces
+## 12.1. Cohomology of sheaves of modules on ringed spaces
 
 **12.1.1.**
 
@@ -388,7 +386,7 @@ homomorphism; in other words, one has shown that the edge homomorphism `(12.1.7.
 `(12.1.7.3)`, which is written $H^{p}(X', \mathcal{F}') \to H^{p}(\Gamma(X, \mathcal{M}^{\bullet\bullet}))$ and which we
 have seen to be an *isomorphism*; whence our assertion.
 
-### 12.2. Higher direct images
+## 12.2. Higher direct images
 
 **12.2.1.**
 
@@ -571,7 +569,7 @@ It indeed suffices to verify this for the corresponding homomorphisms of preshea
 in `(12.2.2)` and `(12.2.5)` for these homomorphisms, one is immediately reduced, for `(12.2.6.1)`, to the commutative
 diagrams `(12.1.5.2)`; the verification is even simpler for `(12.2.6.2)`.
 
-### 12.3. Complements on the Ext functors of sheaves
+## 12.3. Complements on the Ext functors of sheaves
 
 **12.3.1.**
 
@@ -726,7 +724,7 @@ view of the induction hypothesis, the first two vertical arrows of the preceding
 on the right are `0`, hence $f^{*}(\mathcal{E}xt^{p}_{\mathcal{O}_{Y}}(\mathcal{F}, \mathcal{G})) \to
 \mathcal{E}xt^{p}_{\mathcal{O}_{X}}(f^{*}(\mathcal{F}), f^{*}(\mathcal{G}))$ is an isomorphism.
 
-### 12.4. Hypercohomology of the direct image functor
+## 12.4. Hypercohomology of the direct image functor
 
 **12.4.1.**
 

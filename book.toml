@@ -31,6 +31,7 @@ additional-css = [
   "theme/custom/theorems.css",
   "theme/custom/footnotes.css",
   "theme/custom/print.css",
+  "theme/custom/sidebar.css",
 ]
 additional-js = [
   "theme/custom/theorems.js",

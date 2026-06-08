@@ -1,6 +1,6 @@
 <!-- original page 187 -->
 
-## §13. Equidimensional morphisms
+# §13. Equidimensional morphisms
 
 This section is devoted to the study of the variation of the dimension of the fibres of a morphism locally of finite
 type $f : X \to Y$ (which has already come up in connection with the "dimension formula" in `(5.5)` and `(5.6)`). We
@@ -14,7 +14,7 @@ change;
 this is why in numerous questions it is more convenient to work with the notion of universally open morphism, the study
 of which is the object of §§14 and 15.
 
-### 13.1. Chevalley's semi-continuity theorem
+## 13.1. Chevalley's semi-continuity theorem
 
 **Lemma (13.1.1).**
 
@@ -175,7 +175,7 @@ are affine, $B$ being an $A$-algebra of finite type. If $B$ admits a system of $
 $B \otimes_{A} \mathit{k}(y)$ is a $\mathit{k}(y)$-algebra admitting $n$ generators, hence $\dim(f^{-1}(y)) \leq n$ by
 virtue of `(4.1.1)`.
 
-### 13.2. Equidimensional morphisms: case of dominant morphisms of irreducible preschemes
+## 13.2. Equidimensional morphisms: case of dominant morphisms of irreducible preschemes
 
 **(13.2.1)** Let $Y$ be an irreducible prescheme, $X$ an irreducible prescheme, $f : X \to Y$ a dominant morphism
 locally of finite type; let $\eta$ be the generic point of $Y$. One knows `(13.1.6)` that for every $x \in X$, one has
@@ -456,7 +456,7 @@ the two irreducible components `X_1`, `X_2` of $X$ are equidimensional over $Y$ 
 elements for every $y \neq y_{0}$, while $E(y_{0})$ is reduced to a *single* element, hence $E(y)$ is not constant on
 $Y$.
 
-### 13.3. Equidimensional morphisms: general case
+## 13.3. Equidimensional morphisms: general case
 
 **Proposition (13.3.1).**
 

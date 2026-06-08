@@ -1,8 +1,8 @@
 <!-- original page 102 -->
 
-## §14. Combinatorial dimension of a topological space
+# §14. Combinatorial dimension of a topological space
 
-### 14.1. Combinatorial dimension of a topological space
+## 14.1. Combinatorial dimension of a topological space
 
 **(14.1.1)** Let $I$ be an ordered set; a *chain* of elements of $I$ is by definition a finite strictly increasing
 sequence $i_{0} < i_{1} < \cdots < i_{n}$ of elements of $I$ ($n \geq 0$); by definition the *length* of this chain is
@@ -169,7 +169,7 @@ residue field of $A$, $X$ is the spectrum of the ring $k \times K$ and $f$ the c
 homomorphism $(\phi, \psi) : A \to k \times K$, where $\phi : A \to k$ and $\psi : A \to K$ are the canonical
 homomorphisms (cf. `(IV, 5.4.3)`).*
 
-### 14.2. Codimension of a closed subset
+## 14.2. Codimension of a closed subset
 
 **Definition (14.2.1).**
 
@@ -307,7 +307,7 @@ neighbourhood $V \subset U$ of $x$ in $X$, the $Y_{i} \cap V$ are then the irred
 the irreducible components of $Y$ containing $x'$ are some of the $Y_{i}$, so $codim_{x'}(Y, X) \geq codim_{x}(Y, X)$,
 which proves (ii).
 
-### 14.3. The chain condition
+## 14.3. The chain condition
 
 **(14.3.1)** In a topological space $X$, we shall say that a chain $Z_{0} \subset Z_{1} \subset \cdots \subset Z_{n}$ of
 irreducible closed subsets is *saturated* if there is no irreducible closed subset $Z'$ distinct from the $Z_{i}$ and

@@ -1,12 +1,8 @@
-# Chapter 0_III (suite)
-
-# Preliminaries
-
-## §8. Representable functors
+# §8. Representable functors
 
 <!-- original page 5 -->
 
-### 8.1. Representable functors
+## 8.1. Representable functors
 
 **8.1.1.**
 
@@ -262,7 +258,7 @@ particular the usual notion of "solution of a universal problem".
 
 <!-- original page 9 -->
 
-### 8.2. Algebraic structures in categories
+## 8.2. Algebraic structures in categories
 
 **8.2.1.**
 

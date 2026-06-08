@@ -1,6 +1,4 @@
-# Chapter I — The Language of Schemes
-
-## §10. Formal Schemes
+# §10. Formal Schemes
 
 <!-- label: I.10 -->
 
@@ -9,7 +7,7 @@
 > **Note.** The results of §10 are not used before §3 of Chapter III. Readers are encouraged to skip this section on
 > first reading.
 
-### 10.1. Formal affine schemes
+## 10.1. Formal affine schemes
 
 <!-- label: I.10.1 -->
 
@@ -30,7 +28,7 @@ rings whose sections over $D(f)$ are the completed rings of fractions $A_{\{f\}}
 **Proposition (10.1.6).** `Spf` is a functor from admissible rings to topologically ringed spaces, contravariant in the
 ring.
 
-### 10.2. Morphisms of formal affine schemes
+## 10.2. Morphisms of formal affine schemes
 
 <!-- label: I.10.2 -->
 
@@ -44,7 +42,7 @@ continuous ring homomorphism $B \to A$.
 Hom(Spf(A), Spf(B)) ≅ Hom_{cont}(B, A).
 ```
 
-### 10.3. Ideals of definition for a formal affine scheme
+## 10.3. Ideals of definition for a formal affine scheme
 
 <!-- label: I.10.3 -->
 
@@ -55,7 +53,7 @@ ideals $\mathcal{I} \subset \mathcal{O}_{X}$ such that locally $\mathcal{I}$ cor
 schemes; the _fundamental system of ideals of definition_ corresponds to a fundamental system of neighborhoods of `0` in
 $A$.
 
-### 10.4. Formal preschemes and morphisms
+## 10.4. Formal preschemes and morphisms
 
 <!-- label: I.10.4 -->
 
@@ -76,7 +74,7 @@ cover by formal affine opens $Spf(A_{\alpha})$ whose topologies are $\mathfrak{J
 **(10.4.7)** _Formal $S$-preschemes:_ for a formal prescheme $S$, a _formal $S$-prescheme_ is a formal prescheme $X$
 together with a morphism $X \to S$.
 
-### 10.5. Sheaves of ideals of definition for formal preschemes
+## 10.5. Sheaves of ideals of definition for formal preschemes
 
 <!-- label: I.10.5 -->
 
@@ -89,7 +87,7 @@ together with a morphism $X \to S$.
 **Proposition (10.5.4)–(10.5.6).** Comparison with sheaves of nilpotents, with adic completion, and with quotient-sheaf
 constructions.
 
-### 10.6. Formal preschemes as inductive limits
+## 10.6. Formal preschemes as inductive limits
 
 <!-- label: I.10.6 -->
 
@@ -101,7 +99,7 @@ of preschemes, and $X = \varinjlim_{n} X_{n}$ (in a suitable sense).
 
 **Proposition (10.6.9).** Sheafification of inductive systems.
 
-### 10.7. Products of formal preschemes
+## 10.7. Products of formal preschemes
 
 <!-- label: I.10.7 -->
 
@@ -109,7 +107,7 @@ of preschemes, and $X = \varinjlim_{n} X_{n}$ (in a suitable sense).
 \hat{\times}_{S} Y$ exists in the category of formal preschemes, computed via completed tensor products of admissible
 algebras (0.7.7).
 
-### 10.8. Formal completion of a prescheme along a closed subset
+## 10.8. Formal completion of a prescheme along a closed subset
 
 <!-- label: I.10.8 -->
 
@@ -130,7 +128,7 @@ commutation with operations on coherent sheaves.
 
 **Corollaries (10.8.12)–(10.8.14).** Affineness, Noetherianness, and topological completeness of formal completions.
 
-### 10.9. Extension of morphisms to completions
+## 10.9. Extension of morphisms to completions
 
 <!-- label: I.10.9 -->
 
@@ -139,7 +137,7 @@ commutation with operations on coherent sheaves.
 
 **Proposition (10.9.7).** Existence and uniqueness of extension under standard hypotheses.
 
-### 10.10. Coherent sheaves on formal affine schemes
+## 10.10. Coherent sheaves on formal affine schemes
 
 <!-- label: I.10.10 -->
 
@@ -147,7 +145,7 @@ commutation with operations on coherent sheaves.
 formal completion of a coherent sheaf on $\operatorname{Spec}(A_{n})$ for some $n$; the category of coherent sheaves is
 equivalent to the category of $A$-modules of finite type.
 
-### 10.11. Coherent sheaves on formal preschemes
+## 10.11. Coherent sheaves on formal preschemes
 
 <!-- label: I.10.11 -->
 
@@ -162,7 +160,7 @@ preschemes.
 
 **Proposition (10.11.7)–(10.11.9).** Functoriality of coherence and projective limits of coherent sheaves.
 
-### 10.12. Adic morphisms of formal preschemes
+## 10.12. Adic morphisms of formal preschemes
 
 <!-- label: I.10.12 -->
 
@@ -174,7 +172,7 @@ change.
 
 **Proposition (10.12.3.1).** Characterization of adic morphisms via inductive systems.
 
-### 10.13. Morphisms of finite type
+## 10.13. Morphisms of finite type
 
 <!-- label: I.10.13 -->
 
@@ -188,7 +186,7 @@ morphism is of finite type.
 **Corollaries (10.13.2), (10.13.4)–(10.13.6).** Composition, base change, and base change to ordinary preschemes
 preserve finite-type morphisms.
 
-### 10.14. Closed subpreschemes of formal preschemes
+## 10.14. Closed subpreschemes of formal preschemes
 
 <!-- label: I.10.14 -->
 
@@ -201,7 +199,7 @@ formal subprescheme of $X$.
 **Proposition (10.14.3)–(10.14.4).** Stability properties of closed immersions: composition, base change, fiber
 products.
 
-### 10.15. Separated formal preschemes
+## 10.15. Separated formal preschemes
 
 <!-- label: I.10.15 -->
 

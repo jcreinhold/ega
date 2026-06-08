@@ -1,0 +1,11 @@
+/* EGA-specific sidebar tweak (not ported from SGA).
+
+   mdBook numbers every SUMMARY entry with a single continuous counter. On EGA's
+   nested, section-numbered tree that renders as noisy, redundant prefixes —
+   e.g. "28.1. §14. Combinatorial dimension…" or "24. Front matter". The
+   installment part-titles, the "Chapter N —" group headings, and the "§N."
+   labels already carry every meaningful number, so the auto-counter adds only
+   confusion. Hide it; keep the labels. */
+#sidebar .chapter strong[aria-hidden="true"] {
+  display: none;
+}

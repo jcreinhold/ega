@@ -1,10 +1,8 @@
-# Chapter 0 — Preliminaries
-
-## §4. Ringed Spaces
+# §4. Ringed Spaces
 
 <!-- label: 0.4 -->
 
-### 4.1. Ringed spaces; $\mathcal{A}$-Modules; $\mathcal{A}$-Algebras
+## 4.1. Ringed spaces; $\mathcal{A}$-Modules; $\mathcal{A}$-Algebras
 
 <!-- label: 0.4.1 -->
 
@@ -179,7 +177,7 @@ structure of $X_{\lambda}$ to $X'_{\lambda}$; the resulting $\mathcal{A}'_{\lamb
 obtained by _gluing_ the $(X_{\lambda}, \mathcal{A}_{\lambda})$ along the $V_{\lambda \mu}$ via the $\phi_{\lambda
 \mu}$.
 
-### 4.2. Direct image of an $\mathcal{A}$-Module
+## 4.2. Direct image of an $\mathcal{A}$-Module
 
 <!-- label: 0.4.2 -->
 
@@ -275,7 +273,7 @@ $\Psi_{*}(\mathcal{H}om_{\mathcal{B}'}(\mathcal{M}, \mathcal{N}))$.
 **(4.2.6)** Let $(Z, \mathcal{C})$ be a third ringed space and $\Psi' = (\psi', \theta') : (Y, \mathcal{B}) \to (Z,
 \mathcal{C})$ a morphism; if $\Psi'' = \Psi' \circ \Psi$, then plainly $\Psi''_{*} = \Psi'_{*} \circ \Psi_{*}$.
 
-### 4.3. Inverse image of a $\mathcal{B}$-Module
+## 4.3. Inverse image of a $\mathcal{B}$-Module
 
 <!-- label: 0.4.3 -->
 
@@ -364,7 +362,7 @@ $\mathcal{JF} = (\mathcal{JA}) \mathcal{F}$.
 \mathcal{C})$ a morphism. If $\Psi'' = \Psi' \circ \Psi$, then by the definition (4.3.1) and (4.3.3.1), $\Psi''* = \Psi*
 \circ \Psi'*$.
 
-### 4.4. Relations between direct and inverse images
+## 4.4. Relations between direct and inverse images
 
 <!-- label: 0.4.4 -->
 

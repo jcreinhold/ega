@@ -1,10 +1,8 @@
-# Chapter 0 — Preliminaries
-
-## §5. Quasi-coherent and Coherent Sheaves
+# §5. Quasi-coherent and Coherent Sheaves
 
 <!-- label: 0.5 -->
 
-### 5.1. Quasi-coherent sheaves
+## 5.1. Quasi-coherent sheaves
 
 <!-- label: 0.5.1 -->
 
@@ -51,7 +49,7 @@ $\mathcal{O}^{(I)}_{Y}|V \to \mathcal{O}^{(J)}_{Y}|V$. Set $U = f^{-1}(V)$ and l
 $f*(\mathcal{G})|U = f_{U}*(\mathcal{G}|V)$. Since $f_{U}*$ is right exact and commutes with direct sums,
 $f_{U}*(\mathcal{G}|V)$ is the cokernel of $\mathcal{O}^{(I)}_{X}|U \to \mathcal{O}^{(J)}_{X}|U$.
 
-### 5.2. Sheaves of finite type
+## 5.2. Sheaves of finite type
 
 <!-- label: 0.5.2 -->
 
@@ -118,7 +116,7 @@ neighborhood $U$ of $x$ such that $\mathcal{F}|U$ and $\mathcal{G}|U$ are _isomo
 $v_{x} = \psi$). Since $(u \circ v)_{x}$ and $(v \circ u)_{x}$ are the identity automorphisms, there is an open $U
 \subset V$ containing $x$ on which $(u \circ v)|U$ and $(v \circ u)|U$ are identities, whence the assertion.
 
-### 5.3. Coherent sheaves
+## 5.3. Coherent sheaves
 
 <!-- label: 0.5.3 -->
 
@@ -195,7 +193,7 @@ rings on $Y$, and $\mathcal{O}_{X} = j_{*}(\mathcal{O}_{Y})$. An $\mathcal{O}_{Y
 type (resp. quasi-coherent, coherent) if and only if $j_{*}(\mathcal{G})$ is of finite type (resp. quasi-coherent,
 coherent) as an $\mathcal{O}_{X}$-Module.
 
-### 5.4. Locally free sheaves
+## 5.4. Locally free sheaves
 
 <!-- label: 0.5.4 -->
 
@@ -399,7 +397,7 @@ question being local on $Y$, reduce to $\mathcal{L} = \mathcal{O}^{n}_{Y}$; sinc
 direct sums, reduce to $n = 1$, where the assertion follows immediately from the definitions and $f*(\mathcal{O}_{Y}) =
 \mathcal{O}_{X}$.
 
-### 5.5. Sheaves on a space ringed in local rings
+## 5.5. Sheaves on a space ringed in local rings
 
 <!-- label: 0.5.5 -->
 

@@ -1,13 +1,11 @@
-# Chapter 0_III
-
-## §11. Complements on homological algebra
+# §11. Complements on homological algebra
 
 > _Translator's note._ In the OCR'd French source, the content of §11 is housed inside the file named for §10
 > (`03-c0-s10-complements-modules-plats.md`, lines 266–1485). It is given its own translated file here.
 
 <!-- original page 367 -->
 
-### 11.1. Recall on spectral sequences
+## 11.1. Recall on spectral sequences
 
 **11.1.1.**
 
@@ -248,7 +246,7 @@ $Z_{s}(E^{p,q}_{2}) = Z_{r}(E^{p,q}_{2})$ for $s \geq r \geq r(n)$.
 equivalent to saying that $d^{p,q}_{r} = 0$, and to say that $B_{r+1}(E^{p+r, q-r+1}_{2}) = B_{r}(E^{p+r, q-r+1}_{2})$
 is also equivalent to saying that $d^{p,q}_{r} = 0$; the lemma follows at once from this remark.
 
-### 11.2. The spectral sequence of a filtered complex
+## 11.2. The spectral sequence of a filtered complex
 
 **11.2.1.**
 
@@ -375,7 +373,7 @@ particular when the filtration of $K^{\bullet}$ is discrete. When the filtration
 exhaustive, and filtered inductive limits in $\mathcal{C}$ are exact, one shows `(M, XV, 4)` that the spectral sequence
 $E(K^{\bullet})$ is regular.
 
-### 11.3. The spectral sequences of a bicomplex
+## 11.3. The spectral sequences of a bicomplex
 
 **11.3.1.**
 
@@ -572,7 +570,7 @@ there exists $j_{0}$ such that $K_{i,j} = 0$ for $j > j_{0}$.
 The sequence $''E(K_{\bullet,\bullet})$ is regular if there exists $i_{0}$ such that $K_{i,j} = 0$ for $i > i_{0}$, or
 if there exists $j_{0}$ such that $K_{i,j} = 0$ for $j < j_{0}$.
 
-### 11.4. Hypercohomology of a functor with respect to a complex $K^{\bullet}$
+## 11.4. Hypercohomology of a functor with respect to a complex $K^{\bullet}$
 
 **11.4.1.**
 
@@ -797,7 +795,7 @@ it is not necessary to replace *all* the complexes by a Cartan–Eilenberg resol
 that when one fixes any $n - 1$ arguments giving them as values injective objects, the covariant functor in the
 remaining argument is *exact*.
 
-### 11.5. Passage to the inductive limit in hypercohomology
+## 11.5. Passage to the inductive limit in hypercohomology
 
 **Lemma (11.5.1).**
 
@@ -1043,7 +1041,7 @@ supposes that every object of $\mathcal{C}$ (resp. $\mathcal{C}'$) admits an inj
 that in `(11.5.6)` the bicomplexes $L^{\bullet,\bullet}$ and $L'^{\bullet,\bullet}$ have their second degree bounded
 above.
 
-### 11.6. Hyperhomology of a functor with respect to a complex $K_{\bullet}$
+## 11.6. Hyperhomology of a functor with respect to a complex $K_{\bullet}$
 
 **11.6.1.**
 
@@ -1161,7 +1159,7 @@ isomorphisms
 
 The proofs are analogous to those of `(11.5.5)` and `(11.5.6)`.
 
-### 11.7. Hyperhomology of a functor with respect to a bicomplex $K_{\bullet,\bullet}$
+## 11.7. Hyperhomology of a functor with respect to a bicomplex $K_{\bullet,\bullet}$
 
 **11.7.1.**
 
@@ -1264,7 +1262,7 @@ respect to the two bicomplexes $K_{\bullet,\bullet}$, $K_{\bullet,\bullet}'$ as 
 }T(L_{\bullet}, L_{\bullet}')$; applying `(11.6.4)` and `(11.6.5)`, one has, as in `(11.7.2)`, six spectral sequences
 abutting to this hyperhomology, which we leave the reader to write out.
 
-### 11.8. Complements on the cohomology of simplicial complexes
+## 11.8. Complements on the cohomology of simplicial complexes
 
 **11.8.1.**
 
@@ -1479,7 +1477,7 @@ Likewise, with the notation of `(11.8.6)`, one has canonical homomorphisms of bi
 \mathcal{S}^{\bullet}) \to P^{\bullet}(A, B; \mathcal{S}^{\bullet})$ (with obvious notation), and the same reasoning as
 in `(11.8.9)`, based this time on `(11.8.6)`, shows that this homomorphism again gives an isomorphism in cohomology.
 
-### 11.9. A lemma on complexes of finite type
+## 11.9. A lemma on complexes of finite type
 
 **Proposition (11.9.1).**
 
@@ -1620,7 +1618,7 @@ comm._, chap. I, § 2, exerc. 6).
 However, instead of supposing $A$ Noetherian, one may suppose only that the $H_{i}(P_{\bullet})$ have an
 $\infty$-presentation finite (cf. chap. IV).
 
-### 11.10. Euler–Poincaré characteristic of a complex of modules of finite length
+## 11.10. Euler–Poincaré characteristic of a complex of modules of finite length
 
 **11.10.1.**
 

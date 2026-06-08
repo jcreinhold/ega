@@ -1,6 +1,6 @@
 <!-- original page 1 -->
 
-## §V.1. Singular and supersingular zeros of a function; differential criteria (formerly EGA IV §16)
+# §V.1. Singular and supersingular zeros of a function; differential criteria (formerly EGA IV §16)
 
 This section was originally drafted as §16 of EGA IV, then re-allocated to EGA V (Chapter V §1) without ever being
 published in either place. Grothendieck remarks at its head: *"This section will be used in §V.5 (formerly EGA IV §20)
@@ -9,7 +9,7 @@ on hyperplane sections, but its natural place seems to me to be here."*
 The §V↔§IV correspondence is given in the front matter; we lead with the V numbering and attach `(formerly IV, M)`
 parenthetically at the first occurrence of each cross-reference into the old numbering.
 
-### V.1.1. The singular and supersingular zero of a section
+## V.1.1. The singular and supersingular zero of a section
 
 **Definition (1.1).**
 
@@ -61,7 +61,7 @@ invertible module $L$ (in such a way as to recover the original definition when 
 
 <!-- original page 2 -->
 
-### V.1.5. Differential criteria; the zero set of $d^{0}\phi$ and $d^{1}\phi$
+## V.1.5. Differential criteria; the zero set of $d^{0}\phi$ and $d^{1}\phi$
 
 Let $X$ be a prescheme smooth over another prescheme $Y$, and let $\phi$ be a section of $\mathcal{O}_{X}$. Then $\phi$
 gives rise to a section $d^{2}_{X/Y} \phi$ of $\mathcal{P}^{2}_{X/Y}$, which reduces to a section $d^{1}_{X/Y} \phi$ of
@@ -118,7 +118,7 @@ special case that is interesting for certain applications.
 
 <!-- original page 3 -->
 
-### V.1.7. The supersingular set as a ramification locus
+## V.1.7. The supersingular set as a ramification locus
 
 Assume that $Y$ is also smooth over a prescheme $S$, with constant relative dimension $m$ (to fix our ideas), and that
 $V(\phi)_{sing}$, which we denote $V'$ for short — defined by the vanishing of the section $d^{1}$ of the locally free
@@ -210,7 +210,7 @@ description of $\mu$ given above. We are thus reduced to the following general s
 
 <!-- original page 5 -->
 
-### V.1.8. A general lemma on locally free modules
+## V.1.8. A general lemma on locally free modules
 
 We have on a ringed space $W$ a locally free module $M$ of rank $m$, and two locally free submodules $P$ and $Q$ of
 respective ranks $p$ and $q$ with $p + q = m + 1$. Using the previous construction, applied to the morphisms $P \to M/Q

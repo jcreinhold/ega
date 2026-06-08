@@ -1,11 +1,27 @@
 #!/usr/bin/env python3
-"""Generate SUMMARY.md for mdBook from the volume directories.
+"""Generate SUMMARY.md for the EGA mdBook from the installment directories.
 
-Walks ``i/`` … ``v/`` in order, derives a short human title for each
-chapter file from its filename (with a small special-case map for
-front-matter / bibliography / index pages), and writes ``SUMMARY.md``
-at the repo root. With ``--check`` the script exits non-zero if the
-committed file is stale; this is the drift gate run in CI.
+The top level is the published installment (EGA I … EGA V). Within each
+installment, section files are grouped under their chapter as a nested,
+collapsible list so the two-level structure of the work is visible in the
+sidebar. Chapter numbers are arabic (0–5); the installment numerals stay roman
+because that is how the work is cited.
+
+A chapter that has an intro / landing page links its heading to that page; a
+chapter without one — the Chapter 0 continuations carried by EGA III and IV, and
+the single-chapter installments — renders as a non-clickable heading (an mdBook
+"draft" item) that still groups its sections.
+
+Two filename schemes coexist and both are parsed here:
+
+  * EGA I, II      ``CC-SS-slug.md``      CC = chapter, SS = section (00 = landing)
+  * EGA III, IV, V ``NN-chC-SS-slug.md``  NN = reading order, chC = chapter,
+                                          SS = section (00 = intro)
+
+Section labels are read from each file's own ``§N.`` heading so the sidebar entry
+matches the page heading exactly, whatever level that heading sits at. With
+``--check`` the script exits non-zero if the committed SUMMARY.md is stale; this
+is the drift gate run in CI.
 """
 
 from __future__ import annotations
@@ -13,18 +29,34 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+from collections import OrderedDict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SUMMARY = ROOT / "SUMMARY.md"
 
-VOLUMES: list[tuple[str, str]] = [
-    ("i", "Volume I — The Language of Schemes"),
-    ("ii", "Volume II — Some Classes of Morphisms"),
-    ("iii", "Volume III — Cohomology of Coherent Sheaves"),
-    ("iv", "Volume IV — Local Study of Schemes and Morphisms"),
-    ("v", "Volume V — Construction of Schemes (unpublished)"),
+# Installment directory → top-level (part) header. The title is the official
+# title of the installment, which coincides with its principal chapter's title.
+INSTALLMENTS: list[tuple[str, str]] = [
+    ("i", "EGA I — The Language of Schemes"),
+    ("ii", "EGA II — Some Classes of Morphisms"),
+    ("iii", "EGA III — Cohomology of Coherent Sheaves"),
+    ("iv", "EGA IV — Local Study of Schemes and Morphisms"),
+    ("v", "EGA V — Construction of Schemes (unpublished)"),
 ]
+
+# Chapter number → chapter title (used for the grouping heading in the sidebar).
+CHAPTER_TITLES: dict[int, str] = {
+    0: "Preliminaries",
+    1: "The Language of Schemes",
+    2: "Some Classes of Morphisms",
+    3: "Cohomology of Coherent Sheaves",
+    4: "Local Study of Schemes and Morphisms",
+    5: "Construction of Schemes",
+}
+
+# Chapter 0 is carried across several installments; mark the later slices.
+CONTINUATION = {("iii", 0), ("iv", 0)}
 
 SPECIAL_TITLES: dict[str, str] = {
     "00-front-matter": "Front matter",
@@ -42,24 +74,6 @@ SPECIAL_TITLES: dict[str, str] = {
     "index-of-terminology": "Index of terminology",
 }
 
-PREFIX_RE = re.compile(r"^\d+[a-z]?-")
-
-
-def derive_title(stem: str) -> str:
-    if stem in SPECIAL_TITLES:
-        return SPECIAL_TITLES[stem]
-    body = stem
-    while PREFIX_RE.match(body):
-        body = PREFIX_RE.sub("", body, count=1)
-    # ``ch0-08-representable-functors`` → ``Ch.0 §8. Representable functors``
-    m = re.match(r"ch(\d+)-(\d+)-(.+)$", body)
-    if m:
-        chap, sec, rest = m.groups()
-        prefix = f"Ch.{chap} §{int(sec)}."
-        return f"{prefix} {rest.replace('-', ' ').capitalize()}"
-    return body.replace("-", " ").capitalize()
-
-
 BACK_MATTER_STEMS = {
     "bibliography",
     "glossary",
@@ -71,35 +85,103 @@ BACK_MATTER_STEMS = {
     "index-of-terminology",
 }
 
-
-def sort_key(path: Path) -> tuple[int, str]:
-    stem = path.stem
-    if "front-matter" in stem:
-        bucket = 0
-    elif stem in BACK_MATTER_STEMS:
-        bucket = 2
-    else:
-        bucket = 1
-    return bucket, stem
+SCHEME_B = re.compile(r"^\d+[a-z]?-ch(\d+)-(\d+)-")  # NN-chC-SS-slug (EGA III/IV/V)
+SCHEME_A = re.compile(r"^(\d+)-(\d+)-")  # CC-SS-slug (EGA I/II)
+SECTION_HEADING = re.compile(r"^#{1,6}\s*(§.*\S)\s*$")
 
 
-def volume_entries(vol: str) -> list[tuple[str, Path]]:
+def chapter_section(stem: str) -> tuple[int | None, int | None]:
+    """(chapter, section) from a filename stem, or (None, None) if not a chapter file."""
+    m = SCHEME_B.match(stem) or SCHEME_A.match(stem)
+    if m:
+        return int(m.group(1)), int(m.group(2))
+    return None, None
+
+
+def section_label(path: Path) -> str | None:
+    """The first ``§…`` heading's text, ignoring fenced code. Matches the page."""
+    in_fence = False
+    for line in path.read_text().splitlines():
+        stripped = line.lstrip()
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        m = SECTION_HEADING.match(line)
+        if m:
+            return m.group(1).strip()
+    return None
+
+
+def slug_label(stem: str) -> str:
+    """Fallback title for a file with no ``§`` heading (e.g. a split part 2)."""
+    body = re.sub(r"^\d+[a-z]?-", "", stem)  # leading NN- / CC-
+    body = re.sub(r"^ch\d+-", "", body)  # chC-
+    body = re.sub(r"^\d+-", "", body)  # SS-
+    return body.replace("-", " ").strip().capitalize()
+
+
+def loose_title(path: Path) -> str:
+    """Title for a front/back-matter page (special-cased, else slug-derived)."""
+    return SPECIAL_TITLES.get(path.stem, slug_label(path.stem))
+
+
+def installment(vol: str) -> tuple[list[Path], "OrderedDict[int, dict]", list[Path]]:
+    """Partition an installment's files into front matter, chapters, back matter."""
     vol_dir = ROOT / vol
-    skip = {"README.md"}
-    paths = sorted(
-        (p for p in vol_dir.glob("*.md") if p.name not in skip),
-        key=sort_key,
-    )
-    return [(derive_title(p.stem), p.relative_to(ROOT)) for p in paths]
+    front: list[Path] = []
+    back: list[Path] = []
+    chapters: "OrderedDict[int, dict]" = OrderedDict()
+    for path in sorted(vol_dir.glob("*.md"), key=lambda p: p.stem):
+        stem = path.stem
+        if stem == "README":
+            continue
+        if "front-matter" in stem:
+            front.append(path)
+            continue
+        if stem in BACK_MATTER_STEMS:
+            back.append(path)
+            continue
+        chap, sec = chapter_section(stem)
+        if chap is None:
+            # Not a recognised chapter file; keep it visible as a loose entry.
+            chapters.setdefault(-1, {"landing": None, "sections": []})["sections"].append(
+                (10**6, loose_title(path), path)
+            )
+            continue
+        entry = chapters.setdefault(chap, {"landing": None, "sections": []})
+        if sec == 0:
+            entry["landing"] = path
+        else:
+            label = section_label(path) or slug_label(stem)
+            entry["sections"].append((sec, label, path))
+    return front, chapters, back
 
 
 def render() -> str:
     lines: list[str] = ["# Summary", "", "[Introduction](index.md)", ""]
-    for vol, label in VOLUMES:
-        lines.append(f"# {label}")
+    for vol, header in INSTALLMENTS:
+        lines.append(f"# {header}")
         lines.append("")
-        for title, rel in volume_entries(vol):
-            lines.append(f"- [{title}]({rel.as_posix()})")
+        front, chapters, back = installment(vol)
+        for path in front:
+            rel = path.relative_to(ROOT).as_posix()
+            lines.append(f"- [{loose_title(path)}]({rel})")
+        for chap, data in chapters.items():
+            cont = " (cont.)" if (vol, chap) in CONTINUATION else ""
+            title = f"Chapter {chap} — {CHAPTER_TITLES.get(chap, '')}{cont}"
+            if data["landing"] is not None:
+                rel = data["landing"].relative_to(ROOT).as_posix()
+                lines.append(f"- [{title}]({rel})")
+            else:
+                lines.append(f"- [{title}]()")  # mdBook draft: groups, not clickable
+            for _sec, label, path in sorted(data["sections"], key=lambda t: (t[0], t[2].stem)):
+                rel = path.relative_to(ROOT).as_posix()
+                lines.append(f"  - [{label}]({rel})")
+        for path in back:
+            rel = path.relative_to(ROOT).as_posix()
+            lines.append(f"- [{loose_title(path)}]({rel})")
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 
