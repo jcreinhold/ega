@@ -559,9 +559,10 @@ anticipated above is smooth over $S$, being a principal homogeneous fibration un
 *(iii ter) As in (iii), but with $S' \to S$ étale and surjective.*
 
 Indeed, it is better — preserving always the previous hypothesis — that it follows from the general theory of reductive
-group schemes and principal homogeneous fibre bundles over them (cf. [SGAD XXIV](https://jcreinhold.github.io/sga/iii/24-automorphisms-of-reductive-groups.html)) that if $Q$ is smooth, then every point
-$s$ has an open neighbourhood $U$ and a finite, étale, surjective morphism $S' \to U$ such that $Q_{S'}$ has the
-standard form. If, for example, $S$ is local, we can in (iii ter) assume in addition that $S' \to S$ is finite.
+group schemes and principal homogeneous fibre bundles over them (cf.
+[SGAD XXIV](https://jcreinhold.github.io/sga/iii/24-automorphisms-of-reductive-groups.html)) that if $Q$ is smooth, then
+every point $s$ has an open neighbourhood $U$ and a finite, étale, surjective morphism $S' \to U$ such that $Q_{S'}$ has
+the standard form. If, for example, $S$ is local, we can in (iii ter) assume in addition that $S' \to S$ is finite.
 
 ## V.2.16.14. Failure outside the good rank/characteristic range
 
@@ -615,4 +616,5 @@ ______________________________________________________________________
 
 [^v-2-9]: Translator's note: Blass-Vaiello inserts "(check reference with AG)" — Grothendieck's reminder to himself to
     check the descent reference. The planned §V on descent techniques (Bourbaki Sém. 236) never appeared as a written
-    EGA V section; the corresponding flat-descent results are now part of [SGA 1 (Exposé VIII)](https://jcreinhold.github.io/sga/i/08-faithfully-flat-descent.html) and SGA 3.
+    EGA V section; the corresponding flat-descent results are now part of
+    [SGA 1 (Exposé VIII)](https://jcreinhold.github.io/sga/i/08-faithfully-flat-descent.html) and SGA 3.
