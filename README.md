@@ -29,6 +29,9 @@ The French source text was drawn from the Grothendieck Circle's archive of Groth
 
 ## Related projects
 
+- [SGA — English translation](https://jcreinhold.github.io/sga/) — a companion translation, by the same author, of the
+  *Séminaire de Géométrie Algébrique du Bois-Marie* (SGA 1–3). EGA and SGA cite each other throughout; citations between
+  the two translations are hyperlinked.
 - [ryankeleti/ega](https://github.com/ryankeleti/ega) — a community LaTeX English translation of EGA. EGA I and II are
   complete; EGA III and IV are partial. Cross-referenced here for technical accuracy.
 - [The Stacks Project](https://stacks.math.columbia.edu/) — an open-source modernized reference covering much of the
