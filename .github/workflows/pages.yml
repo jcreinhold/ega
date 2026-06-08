@@ -17,6 +17,9 @@ concurrency:
 
 env:
   MDBOOK_VERSION: "0.5.3"
+  # First mdbook-katex release built against mdbook 0.5 (mdbook-preprocessor
+  # 0.5.1). Pre-release, so it must be pinned exactly — see Makefile.
+  MDBOOK_KATEX_VERSION: "0.10.0-alpha"
 
 jobs:
   deploy:
@@ -37,11 +40,19 @@ jobs:
         with:
           tool: mdbook@${{ env.MDBOOK_VERSION }}
 
+      # mdbook-katex 0.10.0-alpha has no prebuilt binary in install-action, and
+      # it is a pre-release, so build it from crates.io with the version pinned.
+      - name: Install mdbook-katex
+        run: cargo install mdbook-katex --version "${MDBOOK_KATEX_VERSION}" --locked
+
       - name: Check SUMMARY.md is up to date
         run: python3 scripts/generate-summary.py --check
 
       - name: Build site
-        run: mdbook build
+        # mdbook-katex 0.10.0-alpha (newest release, built against mdbook 0.5.1)
+        # prints a benign cross-version WARN under the 0.5.3 we pin; quiet just
+        # that preprocessor's sub-error logs. Real katex errors still surface.
+        run: RUST_LOG=info,mdbook_katex=error mdbook build
 
       - uses: actions/configure-pages@v5
 
