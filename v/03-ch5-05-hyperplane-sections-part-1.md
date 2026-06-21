@@ -12,8 +12,8 @@ of the set of exceptional hyperplanes); **part 2** (the companion file `04-ch5-0
 Artin's theorem on elementary morphisms, conic projections, axiomatization, and translation into the language of linear
 systems).
 
-The §V↔§IV correspondence is given in the front matter; we lead with the V numbering and attach `(formerly IV, M)`
-parenthetically at the first occurrence of each cross-reference into the old numbering.
+The §V $\leftrightarrow$ §IV correspondence is given in the front matter; we lead with the V numbering and attach
+`(formerly IV, M)` parenthetically at the first occurrence of each cross-reference into the old numbering.
 
 > *Grothendieck note (placed at the head of the prenote as a summary).* This formulation gives, pell-mell,[^v-5p1-1] a
 > detailed summary of the set of results that should appear in a final formulation. To arrive at the latter we need to
@@ -37,35 +37,35 @@ parenthetically at the first occurrence of each cross-reference into the old num
 
 1. Preliminaries and notation (§V.5.1).
 
-1. Generic hyperplane section: local properties (§V.5.2).
+2. Generic hyperplane section: local properties (§V.5.2).
 
-1. Generic hyperplane section: geometric irreducibility and connectedness (§V.5.3).
+3. Generic hyperplane section: geometric irreducibility and connectedness (§V.5.3).
 
-1. Variable hyperplane section: "sufficiently general" sections (§V.5.4).
+4. Variable hyperplane section: "sufficiently general" sections (§V.5.4).
 
-1. Theorems of Seidenberg type (§V.5.5).
+5. Theorems of Seidenberg type (§V.5.5).
 
-1. Connectedness of an arbitrary hyperplane section (§V.5.6).
+6. Connectedness of an arbitrary hyperplane section (§V.5.6).
 
-1. Application to the construction of special hyperplane sections and multisections (§V.5.7).
+7. Application to the construction of special hyperplane sections and multisections (§V.5.7).
 
-1. Dimension of the set of exceptional hyperplanes (§V.5.8).
+8. Dimension of the set of exceptional hyperplanes (§V.5.8).
 
-1. Change of projective embedding (§V.5.9).
+9. Change of projective embedding (§V.5.9).
 
-1. Pencils of hyperplane sections and fibrations of blown-up varieties (§V.5.10).
+10. Pencils of hyperplane sections and fibrations of blown-up varieties (§V.5.10).
 
-1. Grassmannians (§V.5.11).
+11. Grassmannians (§V.5.11).
 
-1. Generalization of the previously mentioned results to linear sections (§V.5.12).
+12. Generalization of the previously mentioned results to linear sections (§V.5.12).
 
-1. Elementary morphisms and a theorem of M. Artin (§V.5.13).
+13. Elementary morphisms and a theorem of M. Artin (§V.5.13).
 
-1. Conic projections (§V.5.14).
+14. Conic projections (§V.5.14).
 
-1. Axiomatization of some of the previous results (§V.5.15).
+15. Axiomatization of some of the previous results (§V.5.15).
 
-1. Translation into the language of linear systems (§V.5.16).
+16. Translation into the language of linear systems (§V.5.16).
 
 Items 1-8 are treated in the present part 1; items 9-16 are treated in part 2.
 
@@ -77,22 +77,20 @@ Let $S$ be a prescheme, let $E$ be a locally free module of finite type over $S$
 denote by $P = P(E) = \mathbb{P}(E)$ the projective fibration defined by $E$, and by $P^{\vee} = \mathbb{P}(E^{\vee})$
 the projective fibration defined by $E^{\vee}$. We shall call $P^{\vee}$ the **scheme of hyperplanes** of $P$. This
 terminology can be justified as follows. Let $\xi$ be a section of $P^{\vee}$ over $S$, determined by an invertible
-quotient module $L$ of $E^{\vee}$. From it we obtain an invertible quotient module `L_P` of $(E^{\vee})_{P} =
-(E_{P})^{\vee}$; on the other hand, we have the invertible quotient module $\mathcal{O}_{P}(1)$ of `E_P`. Passing to
-duals, we may take $L^{-1}_{P}$ and $\mathcal{O}_{P}(-1)$ to be invertible submodules (locally direct factors) of `E_P`
-and of $(E_{P})^{\vee}$ respectively, and the pairing $E_{P} \otimes E^{\vee}_{P} \to \mathcal{O}_{P}$ defines therefore
-a natural pairing
+quotient module $L$ of $E^{\vee}$. From it we obtain an invertible quotient module $L_{P}$ of $(E^{\vee})_{P} =
+(E_{P})^{\vee}$; on the other hand, we have the invertible quotient module $\mathcal{O}_{P}(1)$ of $E_{P}$. Passing to
+duals, we may take $L^{-1}_{P}$ and $\mathcal{O}_{P}(-1)$ to be invertible submodules (locally direct factors) of
+$E_{P}$ and of $(E_{P})^{\vee}$ respectively, and the pairing $E_{P} \otimes E^{\vee}_{P} \to \mathcal{O}_{P}$ defines
+therefore a natural pairing
 
 $$ (*) \mathcal{O}_{P}(-1) \otimes L^{-1}_{P} \longrightarrow \mathcal{O}_{P}, $$
 
 or equivalently the transposed homomorphism
 
-```text
-  (**)                           𝒪_P ⟶ 𝒪_P(1) ⊗ L_P = L_P(1),
-```
+$$ (**) \quad \mathcal{O}_{P} \longrightarrow \mathcal{O}_{P}(1) \otimes L_{P} = L_{P}(1), $$
 
 that is, a section of $L_{P}(1)$ canonically defined by $\xi$. The "divisor" of this section, i.e. the closed subscheme
-$H_{\xi}$ of $P$ defined by the image ideal of `(*)`, is called the **hyperplane in $P$ defined by the element** $\xi
+$H_{\xi}$ of $P$ defined by the image ideal of $(*)$, is called the **hyperplane in $P$ defined by the element** $\xi
 \in P^{\vee}(S)$. We could describe it by noting that, locally over $S$, $\xi$ is given by a section $\phi$ of $E$ such
 that $\phi(s) \neq 0$ for all $s$ ($\phi$ is determined by $\xi$ up to multiplication by an invertible section of
 $\mathcal{O}_{S}$); since $E = p_{*}(\mathcal{O}_{P}(1))$ ($p : P \to S$ being the projection), $\phi$ can be considered
@@ -117,7 +115,7 @@ Without a doubt it would be better to begin with this description.*
 $$ P^{\vee} \longrightarrow \operatorname{Div}(P/S), $$
 
 *where the second term denotes the functor of "relative divisors" of $P/S$, whose value at an arbitrary $S$-prescheme
-$S'$ is the set of closed subschemes of $P_{S'}$ which are complete intersections, transversal to and of codimension `1`
+$S'$ is the set of closed subschemes of $P_{S'}$ which are complete intersections, transversal to and of codimension $1$
 relative to $S'$ (compare §V.19, formerly IV, 19).[^v-5p1-3]*
 
 <!-- original page 4 -->
@@ -135,9 +133,7 @@ $P^{\vee}_{S'} = \mathbb{P}(E^{\vee}_{S'})$ over $S'$: we find a closed subschem
 P^{\vee}$ — sometimes called the **incidence scheme** between $P$ and $P^{\vee}$ — defined by the image ideal of the
 canonical homomorphism
 
-```text
-  𝒪_P(-1) ⊗_S 𝒪_{P^∨}(-1) ⟶ 𝒪_{P ×_S P^∨},
-```
+$$ \mathcal{O}_{P}(-1) \otimes_{S} \mathcal{O}_{P^{\vee}}(-1) \longrightarrow \mathcal{O}_{P \times_{S} P^{\vee}}, $$
 
 from which we see that it is a projective fibration over $P^{\vee}$; by symmetry it is also a projective fibration over
 $P$. Note that one recovers the "special" hyperplanes $H_{\xi}$ (for $\xi$ a section of $P^{\vee}$ over $S$) by starting
@@ -151,16 +147,12 @@ In what follows we assume given a prescheme $X$ of finite type over $P$,[^v-5p1-
 \to P$. One of the main objectives of this paragraph is to study, for every hyperplane $H_{\xi}$ of $P$, its inverse
 image
 
-```text
-  Y_ξ = f^{-1}(H_ξ) = X ×_P H_ξ,
-```
+$$ Y_{\xi} = f^{-1}(H_{\xi}) = X \times_{P} H_{\xi}, $$
 
 and especially to relate the properties of $X$ and $Y_{\xi}$. As usual, one also has to consider the $P^{\vee}(S')$ for
 an arbitrary $S$-scheme $S'$; in that case $H_{\xi}$ is a hyperplane in $P_{S'}$, and we put again
 
-```text
-  Y_ξ = f_{S'}^{-1}(H_ξ) = X_{S'} ×_{P_{S'}} H_ξ = X ×_P H_ξ,
-```
+$$ Y_{\xi} = f_{S'}^{-1}(H_{\xi}) = X_{S'} \times_{P_{S'}} H_{\xi} = X \times_{P} H_{\xi}, $$
 
 where the subscript $S'$ denotes as usual the effect of the base change $S' \to S$, and where in the last expression we
 consider $H_{\xi}$ as a $P$-scheme via the combined morphism $H_{\xi} \to P_{S'} \to P$. It is therefore again
@@ -175,15 +167,17 @@ Let us summarize in a small diagram the essential constructions and notation.
 
 <!-- original page 5 -->
 
-```text
-        F                          G              G_η
-        ↓                          ↓                ↓
-        X  ⟵  X ×_S P^∨  ⟵        Y    ⟵        Y_η
-        ↓        ↓                 ↓                ↓
-        P  ⟵  P ×_S P^∨  ⟵        H    ⟵        H_η
-        ↓        ↓                 ↘                ↓
-        S  ⟵     P^∨           ⟵          ⟵      S'
-```
+$$
+\begin{array}{ccccccc}
+F & & & & G & & G_{\eta} \\
+\downarrow & & & & \downarrow & & \downarrow \\
+X & \longleftarrow & X \times_{S} P^{\vee} & \longleftarrow & Y & \longleftarrow & Y_{\eta} \\
+\downarrow & & \downarrow & & \downarrow & & \downarrow \\
+P & \longleftarrow & P \times_{S} P^{\vee} & \longleftarrow & H & \longleftarrow & H_{\eta} \\
+\downarrow & & \downarrow & & \searrow & & \downarrow \\
+S & \longleftarrow & P^{\vee} & \longleftarrow & & \longleftarrow & S'
+\end{array}
+$$
 
 (The squares and diamonds appearing in this diagram are Cartesian.)
 
@@ -251,7 +245,7 @@ that $Y_{\eta}$ be empty, it is necessary and sufficient that $f(X)$ be finite.*
 
 <!-- label: V.5.2.4 -->
 
-*Let `Z, Z'` be two closed subsets of $X$ with $Z$ irreducible, and let $Z_{\eta}$ and $Z'_{\eta}$ be their inverse
+*Let $Z, Z'$ be two closed subsets of $X$ with $Z$ irreducible, and let $Z_{\eta}$ and $Z'_{\eta}$ be their inverse
 images in $Y_{\eta}$. In order to have $Z_{\eta} \subset Z'_{\eta}$, it is necessary and sufficient that $f(Z)$ be
 finite, or that $Z \subset Z'$. In order that $Z_{\eta} = Z'_{\eta}$, it is necessary and sufficient that both $f(Z)$
 and $f(Z')$ be finite, or that $Z = Z'$.*
@@ -289,8 +283,8 @@ starting from $X_{k(\eta)}$ as the divisor of a section of an invertible module 
 $\mathcal{O}_{P}(1)$). On the other hand, $X_{k(\eta)}$ is irreducible (because $X$ is such and $k(\eta)$ is a purely
 transcendental extension of $k$, which fact one should have indicated at the beginning of the subsection), and $Y_{\eta}
 \neq X_{k(\eta)}$, since the image of $Y_{\eta}$ in $X$ (contrary to that of $X_{k(\eta)}$, which is faithfully flat
-over $X$) is not equal to $X$: indeed, it does not contain the closed points of $X$, by (5.2.3). It follows that
-`dim Y_η = dim X_{k(η)} − 1 = dim X − 1`.
+over $X$) is not equal to $X$: indeed, it does not contain the closed points of $X$, by (5.2.3). It follows that $\dim
+Y_{\eta} = \dim X_{k(\eta)} - 1 = \dim X - 1$.
 
 **Proposition (5.2.7).**
 
@@ -302,14 +296,14 @@ Then the $Z_{i,\eta}$ are exactly all the prime cycles associated to $G_{\eta}$.
 the same as those among the $Z_{i}$.*
 
 The last assertion is contained in (5.2.4). On the other hand, since $Y \to X$ is a projective fibration — hence flat
-with fibres `(S_1)` and irreducible — it follows from §IV.3 that the prime cycles associated to the inverse image $G$ of
-$F$ over $Y$ are the inverse images of the prime cycles associated to $F$. Restricting to the generic fibre $Y_{\eta}$
-of $Y$ over $P^{\vee}$, we obtain that the prime cycles associated to $G_{\eta}$ are the non-empty inverse images of the
-$Z_{i}$, which proves (5.2.7) by means of (5.2.3).
+with fibres $(S_{1})$ and irreducible — it follows from §IV.3 that the prime cycles associated to the inverse image $G$
+of $F$ over $Y$ are the inverse images of the prime cycles associated to $F$. Restricting to the generic fibre
+$Y_{\eta}$ of $Y$ over $P^{\vee}$, we obtain that the prime cycles associated to $G_{\eta}$ are the non-empty inverse
+images of the $Z_{i}$, which proves (5.2.7) by means of (5.2.3).
 
 To tell the truth, the passage through $Y$ is unnecessary: we can use directly the fact that $Y_{\eta} \to X$ is flat
-with fibres `(S_1)` and irreducible (in fact even geometrically regular, and with geometrically irreducible fibres, the
-latter being localizations of projective schemes); this is the remark to make for the proof of (5.2.1).
+with fibres $(S_{1})$ and irreducible (in fact even geometrically regular, and with geometrically irreducible fibres,
+the latter being localizations of projective schemes); this is the remark to make for the proof of (5.2.1).
 
 <!-- original page 8 -->
 
@@ -396,25 +390,19 @@ $S_{1}, \cdots, S_{n}$ in $P^{\vee}$ and the affine coordinates $T_{1}, T_{2}, \
 (by choosing a hyperplane $H_{\infty}$ at infinity not containing $x$), the immersion $Y_{\eta} \hookrightarrow
 U_{k(\eta)}$ is then given by
 
-```text
-  Y_η = V(f_1, …, f_p, ∑ S_i T_i − 1),
-```
+$$ Y_{\eta} = V(f_{1}, \ldots, f_{p}, \sum S_{i} T_{i} - 1), $$
 
 and it suffices to verify that the differentials (relative to $k(\eta)$) of $f_{1}, \cdots, f_{p}, \sum S_{i} T_{i} - 1$
 are linearly independent. These differentials are nothing else but the sections
 
-```text
-  df_1, …, df_p, ∑ S_i dT_i
-```
+$$ df_{1}, \ldots, df_{p}, \sum S_{i} dT_{i} $$
 
 of $\Omega^{1}_{U/k} \otimes_{k} k(\eta)$. Since the $df_{i}$ are linearly independent at every point of $U$, and since
 the $dT_{i}$ form a basis of $\Omega^{1}_{U/S}$ at every point of $U$ (and a fortiori a system of generators), we
 conclude immediately the linear independence of the displayed quantities at every point of $U_{k(\eta)}$ — at least when
 $p < n$, i.e. when
 
-```text
-  E = Ω^1_{U/k} / ∑_{1 ≤ i ≤ p} 𝒪_U df_i ≠ 0.
-```
+$$ E = \Omega^{1}_{U/k} / \sum_{1 \le i \le p} \mathcal{O}_{U} df_{i} \neq 0. $$
 
 This is a small lemma about a family of generators $a_{i}$, $1 \leq i \leq n$, of a non-zero locally free module $E$:
 the section $\sum S_{i} a_{i}$ of $E \otimes_{k} k(\eta)$ does not vanish at any point. On the other hand, the case $p =
@@ -528,9 +516,7 @@ identified with $k(S_{1}, \cdots, S_{n})$, and the canonical inclusion $k' \to L
 its image in $L$;[^v-5p1-10] that is, $k'$ as a subextension of $L$ is generated by the $S_{i}$ ($1 \leq i \leq n$), or,
 what is the same, by the $S_{i}$ ($1 \leq i \leq n - 1$) together with
 
-```text
-  S_n = a_0 + a_1 S_1 + ⋯ + a_{n-1} S_{n-1},
-```
+$$ S_{n} = a_{0} + a_{1} S_{1} + \cdots + a_{n-1} S_{n-1}, $$
 
 where $a_{0} = t^{-1}_{n}$ and $a_{i} = - t_{i} t^{-1}_{n}$ for $1 \leq i \leq n - 1$.
 
@@ -553,9 +539,7 @@ elements of $K$ such that the transcendence degree of $k(a_{0}, \cdots, a_{m})$ 
 
 *let $k'$ be the subfield*
 
-```text
-  k' = k(S_1, …, S_m, a_0 + ∑_{1 ≤ i ≤ m} a_i S_i)
-```
+$$ k' = k(S_{1}, \ldots, S_{m}, a_{0} + \sum_{1 \le i \le m} a_{i} S_{i}) $$
 
 *of $L$, the $S_{i}$ being indeterminates. If $K$ is a primary extension of $k$, then $L$ is a primary extension of
 $k'$.*[^v-5p1-11]
@@ -583,7 +567,7 @@ $\dim f(Z) = 0$ (i.e. for every such $Z$, $X - Z$ is connected). Under these con
 connected over $k(\eta)$.*
 
 Indeed, by a lemma that ought to appear in §IV.6 together with Hartshorne's theorem,[^v-5p1-12] the hypothesis signifies
-that we can join any two irreducible components $X'$ and `X''` of $X$ by a chain of irreducible components $X_{0} = X',
+that we can join any two irreducible components $X'$ and $X''$ of $X$ by a chain of irreducible components $X_{0} = X',
 X_{1}, \cdots, X_{n} = X''$ such that two consecutive ones have an intersection not in $\sigma$; consequently the
 inverse images $X_{i,\eta}$ are joined by a chain of components which are geometrically connected over $k(\eta)$ by
 (5.3.1) and have pairwise non-empty intersection by (5.2.3).
@@ -732,11 +716,9 @@ $F$ is a sheaf of modules over $X$, then its inverse image over $Y$, i.e. the in
 \otimes_{\mathcal{O}_{S}} \mathcal{O}_{P^{\vee}} = F_{P^{\vee}}$ over the subscheme $Y$ of $X_{P^{\vee}}$, is nothing
 else but the cokernel of the homomorphism
 
-```text
-  (φ ⊗ id_{F_{P^∨}})^{-1} : F_{P^∨}(-1, -1) ⟶ F_{P^∨},
-```
+$$ (\varphi \otimes \operatorname{id}_{F_{P^{\vee}}})^{-1} : F_{P^{\vee}}(-1, -1) \longrightarrow F_{P^{\vee}}, $$
 
-where the notation `(-1, -1)` explains itself (as M. Artin says[^v-5p1-20]). Also, $G_{\xi}$ is the cokernel of the
+where the notation $(-1, -1)$ explains itself (as M. Artin says[^v-5p1-20]). Also, $G_{\xi}$ is the cokernel of the
 analogous homomorphism
 
 $$ F_{k(\xi)}(-1, -1) \longrightarrow F_{k(\xi)}, $$
@@ -794,7 +776,7 @@ other hand, if also $X$ is proper over $S$ and $F$ is flat over $S$, then the se
 $H_{\xi}$ (and somewhat less evidently, in this criterion we may replace $k(\xi)$ by an arbitrary extension of
 $k(\xi)$).*
 
-Let us note that the hypothesis `(S_1)` about $F_{s}$ just made is satisfied notably if $F_{s}$ is Cohen-Macaulay (a
+Let us note that the hypothesis $(S_{1})$ about $F_{s}$ just made is satisfied notably if $F_{s}$ is Cohen-Macaulay (a
 fortiori if $F$ is CM over $S$); also in this case $G_{s}$ is CM (since locally it is deduced from $F_{k(s)}$, which is
 such, by dividing by $\phi \cdot F_{k(s)}$ where $\phi$ is $F_{k(s)}$-regular). The same remarks should (and will have
 to) be made locally above to characterize the points of $U$ (in place of those of $V$).
@@ -806,10 +788,10 @@ Using now §§IV.12.1.1 and IV.12.1.4, we obtain:
 <!-- label: V.5.5.6 -->
 
 *Assume that $F$ is of finite presentation and flat relative to $S$. Let $P$ be one of the properties (i)-(viii) of
-§IV.12.1.1, or (if we assume $F = \mathcal{O}_{X}$) one of the properties (i)-(iv) of §IV.12.1.4.[^v-5p1-21] Let `U_P`
+§IV.12.1.1, or (if we assume $F = \mathcal{O}_{X}$) one of the properties (i)-(iv) of §IV.12.1.4.[^v-5p1-21] Let $U_{P}$
 be the set of $x \in X_{P^{\vee}}$ such that, if $\xi$ denotes the image of $x$ in $P^{\vee}$, the property $P$ is
 satisfied by $G_{\xi}$ (resp. $Y_{\xi}$) at the point $x$, and such that $\phi_{\xi}$ is $F_{k(\xi)}$-regular at $x$.
-Then `U_P` is open and $G | U_{P}$ is flat relative to $S$.*
+Then $U_{P}$ is open and $G | U_{P}$ is flat relative to $S$.*
 
 Indeed, by the very definition we have $U_{P} \subset U$ (notation of (5.5.3) (a)), and we apply §IV.12 to $U \to
 P^{\vee}$ and $F_{P^{\vee}} | U$.
@@ -818,18 +800,18 @@ P^{\vee}$ and $F_{P^{\vee}} | U$.
 
 <!-- label: V.5.5.7 -->
 
-*Suppose that $F$ is of finite presentation and flat relative to $S$, and that `supp F` is proper over $S$ (e.g. $X$
-proper over $S$). Let `V_P` be the set of $\xi \in P^{\vee}$ such that $G_{\xi}$*
+*Suppose that $F$ is of finite presentation and flat relative to $S$, and that $\operatorname{supp} F$ is proper over
+$S$ (e.g. $X$ proper over $S$). Let $V_{P}$ be the set of $\xi \in P^{\vee}$ such that $G_{\xi}$*
 
 <!-- original page 17 -->
 
-*(resp. $Y_{\xi}$) satisfies the property $P$ and $\phi_{\xi}$ is $F_{k(\xi)}$-regular. Under these conditions, `V_P` is
-open (and is constructible in every case, even without any flatness or properness assumption).*
+*(resp. $Y_{\xi}$) satisfies the property $P$ and $\phi_{\xi}$ is $F_{k(\xi)}$-regular. Under these conditions, $V_{P}$
+is open (and is constructible in every case, even without any flatness or properness assumption).*
 
 It seems to me that from the point of view of presentation we cannot leave (5.5.6) as is with a simple reference to the
-conditions enumerated in another volume; it requires an explicit list (i), (ii), … of properties which we have in view.
-Remark also (in (5.5.1) perhaps) that the case $P =$ geometrically normal (with $S = \operatorname{Spec}(k)$, to be
-sure[^v-5p1-22]) is due to Seidenberg.
+conditions enumerated in another volume; it requires an explicit list (i), (ii), $\ldots$ of properties which we have in
+view. Remark also (in (5.5.1) perhaps) that the case $P =$ geometrically normal (with $S = \operatorname{Spec}(k)$, to
+be sure[^v-5p1-22]) is due to Seidenberg.
 
 ## V.5.6. Connectedness of an arbitrary hyperplane section
 
@@ -887,7 +869,7 @@ If $k(s)$ is finite, we may be forced to do an étale and surjective base change
 of $s$) before being able to apply the preceding constructions. Indeed, under the conditions from the start of §V.5.6,
 if $k$ is finite, there does not necessarily exist a rational point over $k$ in the open non-empty set $U$; but there
 certainly exists a closed point of $U$, hence a point with values in a finite extension $k'$ (necessarily separable) of
-$k$. When $k = k(s)$, we may therefore, after making a suitable finite étale extension `S''` over a neighbourhood $U$ of
+$k$. When $k = k(s)$, we may therefore, after making a suitable finite étale extension $S''$ over a neighbourhood $U$ of
 $s$, corresponding to the residual extension $k'$ (i.e. such that $S''_{s'} \cong \operatorname{Spec}(k')$), restrict
 ourselves to the favourable situation of the unique point $s' \in S''$ over $s$ after the base change $S'' \to S$.
 
@@ -933,8 +915,8 @@ $s \in S$ and every irreducible component $Z$ of $X_{s}$, we have $\dim f(Z) \ge
 *Let $g : X \to S$ be a flat proper morphism, let $s \in S$, put $n = \dim X_{s}$, and suppose that the dimension of the
 set of points of $X_{s}$ where $X_{s}$ is not separable over $k(s)$ is $< n$ (for example, $X_{s}$ separable). Then
 there exists an open neighbourhood $U$ of $s$ and an étale finite surjective morphism $S'' \to U$ such that $X
-\times_{S} S''$ admits a section over `S''`. If $k(s)$ is infinite, we may take for `S''` a closed subscheme of
-`X_U`.*[^v-5p1-25]
+\times_{S} S''$ admits a section over $S''$. If $k(s)$ is infinite, we may take for $S''$ a closed subscheme of
+$X_{U}$.*[^v-5p1-25]
 
 *Proof.* Assume to start with that $k(s)$ is infinite. We proceed by induction on $n$, the case $n = 0$ being trivial:
 in that case there exists an open neighbourhood $U$ of $s$ such that $X | U$ itself is étale, finite, and surjective
@@ -957,12 +939,12 @@ for example, by taking $X$ étale and not finite over $S$.*[^v-5p1-26]
 
 **(5.8.1).** In the previous subsections, and notably in §§V.5.2 and V.5.3, we have given statements asserting that the
 set of $\xi \in P^{\vee}$ such that $Y_{\xi}$ has a certain property $P$ is constructible and that it contains the
-generic point $\eta$; or, equivalently, that the set `Z_P` of $\xi \in P^{\vee}$ "exceptional for $P$" is constructible
-and rare — i.e. its closure is of codimension $\geq 1$. (N.B. We suppose $S = \operatorname{Spec}(k)$.)
+generic point $\eta$; or, equivalently, that the set $Z_{P}$ of $\xi \in P^{\vee}$ "exceptional for $P$" is
+constructible and rare — i.e. its closure is of codimension $\geq 1$. (N.B. We suppose $S = \operatorname{Spec}(k)$.)
 
 In certain cases we can make this statement more precise by giving a better upper bound on this codimension, which is
 important for certain questions. For example, if we see that this codimension is $\geq 2$, it follows that a
-"sufficiently general" straight line $D$ of $P^{\vee}$ does not intersect `Z_P`, whence the existence (if $k$ is
+"sufficiently general" straight line $D$ of $P^{\vee}$ does not intersect $Z_{P}$, whence the existence (if $k$ is
 infinite) of "linear pencils" of hyperplane sections $Y_{\xi}$ ($\xi$ a geometric point of $D$) all of which have the
 property $P$. (See the subsection on pencils of hyperplane sections for examples.[^v-5p1-27])
 
@@ -1002,9 +984,9 @@ $$ X \subset \mathbb{P}^{r} $$
 
 over $k$ algebraically closed having a point $x$ where $X$ is not Cohen-Macaulay; then for every hyperplane passing
 through $x$, the corresponding hyperplane section $Y_{\xi}$ admits $x$ as an associated embedded cycle. (Respectively,
-we start from a normal — hence `(S_2)` — integral variety $X \subset \mathbb{P}^{r}$ of dimension three having a point
-$x \in X$ where $X$ is not Cohen-Macaulay; then the $Y_{\xi}$ passing through $x$ are not CM, i.e. they fail `(S_2)` at
-$x$.)
+we start from a normal — hence $(S_{2})$ — integral variety $X \subset \mathbb{P}^{r}$ of dimension three having a point
+$x \in X$ where $X$ is not Cohen-Macaulay; then the $Y_{\xi}$ passing through $x$ are not CM, i.e. they fail $(S_{2})$
+at $x$.)
 
 In these examples the set of "exceptional" $\xi$ for the property $(S_{k})$ contains the hyperplane of $P^{\vee}$
 defined by $x \in P$ and is of codimension one (and not of codimension $\geq 2$). Compare (5.8.5) below for a general
@@ -1044,21 +1026,19 @@ V(\phi)$, and $T$ a closed subset of $X$. Assume that $codim(Y, X) \geq k$. Then
 there should exist an irreducible component $T_{i}$ of $T$ contained in $Y$ such that $codim(T_{i}, X) = k$ and such
 that for every irreducible component $X_{j}$ of $X$ containing $T_{i}$ with*
 
-```text
-  dim 𝒪_{X_j, T_i} = dim 𝒪_{X, T_i}  ( = k),
-```
+$$ \dim \mathcal{O}_{X_{j}, T_{i}} = \dim \mathcal{O}_{X, T_{i}} \quad ( = k), $$
 
 *we have $X_{j} \not\subset Y$.*
 
 The verification of this lemma is immediate, given the general facts in §0_IV (Chapter IV) about dimension.
 
 With the assumptions of (5.8.4), and by (5.8.4.1) (b), we see which are the exceptional hyperplanes $H_{\xi}$. If we
-exclude the set `Z_0` of $\xi \in P^{\vee}$ such that there is an irreducible component $R$ of $T$ or of $X$ with $\dim
-f(R) > 0$ and such that $R_{\xi}$ is of "dimension too large" (a set which is of codimension $\geq 2$ and in what
+exclude the set $Z_{0}$ of $\xi \in P^{\vee}$ such that there is an irreducible component $R$ of $T$ or of $X$ with
+$\dim f(R) > 0$ and such that $R_{\xi}$ is of "dimension too large" (a set which is of codimension $\geq 2$ and in what
 follows does not count), the exceptional $H_{\xi}$ are those for which there exists a $T_{i}$ with $codim(T_{i}, X) = k$
 and $\dim f(T_{i}) = 0$, $f(T_{i}) \subset H_{\xi}$, and such that for every irreducible component $X_{j} \supset T_{i}$
-of $X$ with $codim(T_{i}, X_{j}) = k$, we have $f(X_{j}) \not\subset H_{\xi}$. For a given $T_{i}$ with $codim(T_{i}, X) =
-k$, if there exists an $X_{j}$ with $codim(T_{i}, X_{j}) = k$ and such that $\dim f(X_{j}) = 0$, then we will have
+of $X$ with $codim(T_{i}, X_{j}) = k$, we have $f(X_{j}) \not\subset H_{\xi}$. For a given $T_{i}$ with $codim(T_{i}, X)
+= k$, if there exists an $X_{j}$ with $codim(T_{i}, X_{j}) = k$ and such that $\dim f(X_{j}) = 0$, then we will have
 $f(X_{j}) = f(T_{i}) \subset H_{\xi}$, and consequently $\xi$ would not be exceptional relative to the $T_{i}$. If, on
 the other hand, for every $X_{j} \supset T_{i}$ such that $codim(T_{i}, X_{j}) = k$ we have $\dim f(X_{j}) > 0$, then
 for $\xi \in P^{\vee} - Z_{0}$, $\xi$ is exceptional relative to $T_{i}$ if and only if $f(T_{i}) \subset H_{\xi}$; the
@@ -1103,9 +1083,7 @@ the following simple way:
 The sufficiency is seen immediately by putting $Z = {x}$. The necessity is seen by noticing that for every $\xi$ such
 that $\phi_{\xi}$ is $F_{k(\xi)}$-regular and $x \in Y_{\xi}$, we have
 
-```text
-  dim G_{ξ, x} = dim F_x − 1,   prof G_{ξ, x} = prof F_x − 1,
-```
+$$ \dim G_{\xi, x} = \dim F_{x} - 1, \quad \operatorname{prof} G_{\xi, x} = \operatorname{prof} F_{x} - 1, $$
 
 so that $x$ fails by default the above condition: we have $prof G_{\xi, x} \geq k$ but $\dim G_{\xi, x} \geq k$, which
 shows that $G_{\xi}$ does not satisfy condition $(S_{k})$ at $x$; but the set
@@ -1124,26 +1102,23 @@ kernel is a locally free module over $X$, which we denote $\nu^{\vee}_{X/P}$; wh
 else but the conormal module $J/J^{2}$ defined by the ideal $J$ of $X$ in $P$, and we call it in every case the
 **conormal module**. Thus we have the exact sequence
 
-```text
-  (a)        0 ⟶ ν^∨_{X/P} ⟶ f^*(Ω^1_{P/S}) ⟶ Ω^1_{X/S} ⟶ 0.
-```
+$$ 0 \longrightarrow \nu^{\vee}_{X/P} \longrightarrow f^{*}(\Omega^{1}_{P/S}) \longrightarrow \Omega^{1}_{X/S}
+\longrightarrow 0. \tag{a} $$
 
 Let us observe that we also have over $P$ an exact canonical sequence (which should appear as an example in §IV.16, for
 example)
 
-```text
-  (b)        0 ⟶ Ω^1_{P/S}(1) ⟶ E_P ⟶ 𝒪_P(1) ⟶ 0
-```
+$$ 0 \longrightarrow \Omega^{1}_{P/S}(1) \longrightarrow E_{P} \longrightarrow \mathcal{O}_{P}(1) \longrightarrow 0
+\tag{b} $$
 
 — i.e. $\Omega^{1}_{P/S}(1)$ is canonically isomorphic to the kernel of the canonical homomorphism $E_{P}(-1) \to
 \mathcal{O}_{P}$ deduced from $E_{P} \to \mathcal{O}_{P}(1)$. Applying $f^{*}$:
 
-```text
-  (b₁)       0 ⟶ f^*(Ω^1_{P/S})(1) ⟶ E_X ⟶ 𝒪_X(1) ⟶ 0,
-```
+$$ 0 \longrightarrow f^{*}(\Omega^{1}_{P/S})(1) \longrightarrow E_{X} \longrightarrow \mathcal{O}_{X}(1) \longrightarrow
+0, \tag{$b_{1}$} $$
 
 which gives an explicit description of $f^{*}(\Omega^{1}_{P/S})(1)$ over $X$ and allows therefore to identify
-$\nu^{\vee}_{X/P}(1)$ with a submodule locally a direct factor of `E_X` — or, dually, $\nu_{X/P}(-1)$ is canonically
+$\nu^{\vee}_{X/P}(1)$ with a submodule locally a direct factor of $E_{X}$ — or, dually, $\nu_{X/P}(-1)$ is canonically
 isomorphic to a quotient module of $E^{\vee}_{X}$. Consequently $\mathbb{P}(\nu_{X/P}(-1)) = \mathbb{P}(\nu_{X/P})$ can
 be canonically embedded in $\mathbb{P}(E^{\vee}_{X}) = X \times_{S} P^{\vee} = X_{P^{\vee}}$ as a projective
 subfibration over $X$, hence as a closed subscheme. The latter is necessarily contained in $Y$ (from the fact that
@@ -1180,9 +1155,8 @@ being the relative dimension of $P^{\vee}$ over $S$), we are under the favourabl
 In order to verify them, let us notice that by definition $Y^{sing}$ is nothing else but the subprescheme of $Y$ of
 zeros of the section $\Psi = (d\phi) |_{Y}$ of
 
-```text
-  Ω^1_{X_{P^∨} / P^∨}(1, 1) ⊗ 𝒪_Y = Ω^1_{X/S} ⊗ 𝒪_Y(1, 1).
-```
+$$ \Omega^{1}_{X_{P^{\vee}} / P^{\vee}}(1, 1) \otimes \mathcal{O}_{Y} = \Omega^{1}_{X/S} \otimes \mathcal{O}_{Y}(1, 1).
+$$
 
 We shall give another interpretation of this section, from which the conclusion follows immediately. To do this,
 consider the following diagram of exact sequences over $X_{P^{\vee}}$, or more generally over any prescheme $Z$ over
@@ -1190,21 +1164,23 @@ $X_{P^{\vee}}$:
 
 <!-- original page 26 -->
 
-```text
-                                            0
-                                            ↓
-                                     𝒢_{P^∨/S} ⊗ 𝒪_Z(0, -1)
-                                            ↓
-              Ω^1_{X/Y} ⊗ 𝒪_Z(1, 0)
-                     ↑
-   0 → Ω^1_{P/S} ⊗ 𝒪_Z(1, 0) → E ⊗ 𝒪_Z → 𝒪_Z(1, 0) → 0
-                     ↑                        ↑
-                     β                        α
-                     ↑                        ↑
-              ν^∨_{X/P} ⊗ 𝒪_Z(1, 0)      𝒪_Z(0, -1)
-                     ↑                        ↑
-                     0                        0
-```
+$$
+\begin{array}{ccccccc}
+ & & & 0 & & & \\
+ & & & \downarrow & & & \\
+ & & & \mathcal{G}_{P^{\vee}/S} \otimes \mathcal{O}_{Z}(0, -1) & & & \\
+ & & & \downarrow & & & \\
+ & \Omega^{1}_{X/Y} \otimes \mathcal{O}_{Z}(1, 0) & & & & & \\
+ & \uparrow & & & & & \\
+0 \to & \Omega^{1}_{P/S} \otimes \mathcal{O}_{Z}(1, 0) & \to & E \otimes \mathcal{O}_{Z} & \to & \mathcal{O}_{Z}(1, 0) & \to 0 \\
+ & \uparrow & & \uparrow & & & \\
+ & \beta & & \alpha & & & \\
+ & \uparrow & & \uparrow & & & \\
+ & \nu^{\vee}_{X/P} \otimes \mathcal{O}_{Z}(1, 0) & & \mathcal{O}_{Z}(0, -1) & & & \\
+ & \uparrow & & \uparrow & & & \\
+ & 0 & & 0 & & &
+\end{array}
+$$
 
 [^v-5p1-37] — where the first column is deduced from (a) by tensoring with $\mathcal{O}_{Z}(1, 0)$, the row is deduced
 from (b) by tensoring with $\mathcal{O}_{Z}$, and the second column is deduced from the analogous sequence $(b^{\vee})$
@@ -1276,11 +1252,11 @@ $Y^{supsing}$ in $P^{\vee}$ has codimension $\geq 2$; and they imply also*
 <!-- original page 28 -->
 
 *Proof.* The equivalence of (i) and (i bis) is trivial; its equivalence with (ii) is a trivial consequence of (5.8.7)
-(b); finally, the equivalence of (ii) and (ii bis) is practically the definition of $Y^{supsing}$. Evidently (i ter) ⟹
-(i). It remains to prove that (i) ⟹ (i ter). We may evidently suppose that $K$ is algebraically closed and we are
-reduced to proving (taking into account the hypothesis (i)) that there exists an open set $U \neq \emptyset$ such that
-$\xi \in U(K)$ implies that there exists exactly one point of $Y^{sing}(K)$ over $\xi$. This will follow from the next
-corollary, which says more.
+(b); finally, the equivalence of (ii) and (ii bis) is practically the definition of $Y^{supsing}$. Evidently (i ter)
+$\Rightarrow$ (i). It remains to prove that (i) $\Rightarrow$ (i ter). We may evidently suppose that $K$ is
+algebraically closed and we are reduced to proving (taking into account the hypothesis (i)) that there exists an open
+set $U \neq \emptyset$ such that $\xi \in U(K)$ implies that there exists exactly one point of $Y^{sing}(K)$ over $\xi$.
+This will follow from the next corollary, which says more.
 
 **Corollary (5.8.9).**[^v-5p1-39]
 
@@ -1317,7 +1293,8 @@ is smooth, it follows that $U'$ is smooth, hence $U' \subset U$. This proves (5.
 The final assertions of (5.8.7) — $Y^{supsing} = \emptyset$ or $\dim Y^{supsing} = r - 2$, and $\dim T = r - 1$ — are
 trivial: the first follows from the fact that $Y^{sing}$ is irreducible of dimension $r$ and from the fact that
 $Y^{supsing}$ is defined inside $Y^{sing}$ by the vanishing of a section $D$ of an invertible module; the second from
-the fact that, $L$ being finite over $K$, we have $\deg.tr_{k} L = \deg.tr_{k} K$, i.e. `dim T = dim Y^{sing} = r − 1`.
+the fact that, $L$ being finite over $K$, we have $\deg.tr_{k} L = \deg.tr_{k} K$, i.e. $\dim T = \dim Y^{sing} = r -
+1$.
 
 **Remark (5.8.10).**
 
@@ -1442,7 +1419,7 @@ hypothesis in question, then (by §V.5.5) if there exists a closed point $x$ whe
 $\xi$ such that $\phi_{\xi}$ is $F_{k(\xi)}$-regular (a condition that only eliminates a set of codimension
 one)[^v-5p1-46] and such that $x \in Y_{\xi}$ (a condition that describes a set of exact codimension one), $Y_{\xi}$
 does not satisfy the said hypothesis at $x$; the exceptional set $Z \subset P^{\vee}$ is of codimension one and not two.
-(I may have somewhat exaggerated the case $(R_{k})$ where we still need some condition: `(S_1)` and perhaps
+(I may have somewhat exaggerated the case $(R_{k})$ where we still need some condition: $(S_{1})$ and perhaps
 equidimensionality.)
 
 > *Grothendieck note (regret).* In (5.8.13) and (5.8.14) it suffices to suppose that $f : X \to P$ is unramified at the
@@ -1537,26 +1514,22 @@ It is for the case of geometric irreducibility that it may be better not to requ
 It remains to make explicit the conditions (a) and (b) of (5.8.18). This leads us to examine in a general way the
 following situation. Suppose that $X$ is geometrically irreducible over $k$, and consider a linear subvariety $L$ of $P$
 (corresponding to the question of studying the hyperplane sections of $X$ passing through a given point $x$, or tangent
-to $X$ at a given smooth point), formed therefore by the hyperplanes containing a linear subvariety `L_0` of $P$
+to $X$ at a given smooth point), formed therefore by the hyperplanes containing a linear subvariety $L_{0}$ of $P$
 (respectively a point, or the image of a tangent space to $X$ at a smooth point, in the two cases considered). We ask
 the question whether for the generic point of $L$ (and hence for all points of a non-empty open subset of $L$), $Y$ is
 geometrically irreducible of dimension $\dim X - 1$.
 
 This is a variant of Bertini's theorem, which must appear in §V.5.3, and is treated by exactly the same method (or, if
-one likes, reduces to it).[^v-5p1-51] The dimension question is settled simply by $f(X) \not\subset L_{0}$, i.e. by $X' =
-f^{-1}(P - L_{0})$ being a dense open subset of $X$. Let $Q$ be the projective space of hyperplanes passing through
-`L_0`. (N.B. If `L_0` is defined by a vector subspace `F_0` of $E$, we have $Q = \mathbb{P}(F_{0})$, and we consider the
-canonical morphism (deduced from $F_{0} \to E$, cf. Chapter II)
+one likes, reduces to it).[^v-5p1-51] The dimension question is settled simply by $f(X) \not\subset L_{0}$, i.e. by $X'
+= f^{-1}(P - L_{0})$ being a dense open subset of $X$. Let $Q$ be the projective space of hyperplanes passing through
+$L_{0}$. (N.B. If $L_{0}$ is defined by a vector subspace $F_{0}$ of $E$, we have $Q = \mathbb{P}(F_{0})$, and we
+consider the canonical morphism (deduced from $F_{0} \to E$, cf. Chapter II)
 
-```text
-  u : P − L_0 ⟶ Q,
-```
+$$ u : P - L_{0} \longrightarrow Q, $$
 
 and we consider
 
-```text
-  g = u f' : f^{-1}(P − L_0) = X' ⟶ Q,
-```
+$$ g = u f' : f^{-1}(P - L_{0}) = X' \longrightarrow Q, $$
 
 so that $L \cong Q^{\vee}$ and the family of $X'_{\xi}$ ($\xi \in L$) is nothing else than the family of hyperplane
 sections relative to the morphism $g$. On the other hand, we see immediately that for every $\xi \in L$, "general" $X'$
@@ -1569,24 +1542,24 @@ version with $L$, to have a necessary and sufficient condition for geometric irr
 in $L$.
 
 From the cohomological[^v-5p1-52] point of view and in terms of field theory, we can express the condition in terms of
-transcendence degree in the following fashion. We choose a "hyperplane at infinity" containing neither `L_0` nor $X$,
+transcendence degree in the following fashion. We choose a "hyperplane at infinity" containing neither $L_{0}$ nor $X$,
 and we place ourselves in its complement, i.e. over a scheme of affine type essentially. We choose a basis of the space
-of linear forms vanishing on `L_0`, say $T_{1}, \cdots, T_{p}$ ($p = codim(L_{0}, P)$), and we consider their inverse
+of linear forms vanishing on $L_{0}$, say $T_{1}, \cdots, T_{p}$ ($p = codim(L_{0}, P)$), and we consider their inverse
 images $t_{1}, \cdots, t_{p}$ in the field of fractions $K$ of $X$ ($X$ assumed integral). At least one of the $t_{i}$,
 say $t_{1}$, is $\neq 0$. Consider therefore $a_{1} = t_{2} / t_{1}, \cdots, a_{p-1} = t_{p} / t_{1}$; then $\dim g(X')$
 is nothing else but the transcendence degree of $K(a_{1}, \cdots, a_{p-1}) \subset K$ over $k$. Therefore, if the
 transcendence degree is $\geq 2$, we are okay. If it is one, then we must require that, over $\overline{k}$, $f(X)$ be
-contained in a linear subvariety of $P$ containing `L_0` and of
+contained in a linear subvariety of $P$ containing $L_{0}$ and of
 
 <!-- original page 35 -->
 
 dimension at most one, and that the generic fibre of $g : X' \to g(X')$ should be geometrically irreducible.
 
-Suppose that `L_0` is of dimension $q$, so that the fibres of $u : P - L_{0} \to Q$ are of dimension $q + 1$, and hence
-those of $g$ are of dimension $\leq q + 1$. Consequently we have $\dim g(X') \geq \dim f(X) - (q + 1)$, so that the
-dimension condition for $g(X')$ is verified provided $\dim f(X) \geq q + 3$. If $q = 0$, we find the fact indicated in
-(5.8.17) (a). Returning to the conditions of (5.8.18), we see that condition (a), relative to an $x \in T$, is satisfied
-provided that $X$ is not "conical at $x$ relative to $f$" in an obvious sense.
+Suppose that $L_{0}$ is of dimension $q$, so that the fibres of $u : P - L_{0} \to Q$ are of dimension $q + 1$, and
+hence those of $g$ are of dimension $\leq q + 1$. Consequently we have $\dim g(X') \geq \dim f(X) - (q + 1)$, so that
+the dimension condition for $g(X')$ is verified provided $\dim f(X) \geq q + 3$. If $q = 0$, we find the fact indicated
+in (5.8.17) (a). Returning to the conditions of (5.8.18), we see that condition (a), relative to an $x \in T$, is
+satisfied provided that $X$ is not "conical at $x$ relative to $f$" in an obvious sense.
 
 > *Grothendieck note.* Maybe it will be better to introduce these latest Bertinisque developments in the next
 > subsection, "Change of projective immersion".
@@ -1694,7 +1667,7 @@ ______________________________________________________________________
     every $s \in S$ and every irreducible component $Z$ of $X_{s}$, $\dim f(Z) \geq 2$".
 
 [^v-5p1-25]: Translator's note: Blass adds the marginal "Unclear, ask AG.". The statement is clear in the Vaiello
-    edition: when $k(s)$ is infinite, the multisection $S'$ may be realized inside `X_U` as a closed subscheme; in the
+    edition: when $k(s)$ is infinite, the multisection $S'$ may be realized inside $X_{U}$ as a closed subscheme; in the
     finite-residue-field case one needs an étale extension first.
 
 [^v-5p1-26]: Translator's note: Blass marks "by taking $X$ étale non-finite over $S$ …" with "Illegible". The intended
@@ -1735,7 +1708,7 @@ ______________________________________________________________________
     just later part of these notes". The reference is to §V.1 of these notes (the singular-zeros subsection), where the
     locally-free-module diagram is set up.
 
-[^v-5p1-37]: Translator's note: Blass writes "\[Note to AG, the upper G is really an illegible letter `P^{\vee}/S` what is
+[^v-5p1-37]: Translator's note: Blass writes "\[Note to AG, the upper G is really an illegible letter $P^{\vee}/S$ what is
     this?\]". The intended object is the relative tangent sheaf $\mathcal{G}_{P^{\vee}/S}$ (kernel of the augmentation
     $\mathcal{P}^{1}_{P^{\vee}/S} \to \mathcal{O}_{P^{\vee}}$), in line with the §V.1 conventions; we render it $\mathcal{G}_{P^{\vee}/S}$.
 
