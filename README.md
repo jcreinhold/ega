@@ -1,7 +1,7 @@
 # EGA — English translation
 
-An idiomatic, LLM-generated English translation (Markdown, Unicode mathematics) of Grothendieck and Dieudonné's
-*Éléments de Géométrie Algébrique* (*Publications mathématiques de l'IHÉS*, 1960–1967).
+An idiomatic, LLM-generated English translation (Markdown, LaTeX mathematics rendered with KaTeX) of Grothendieck and
+Dieudonné's *Éléments de Géométrie Algébrique* (*Publications mathématiques de l'IHÉS*, 1960–1967).
 
 ## Volumes
 

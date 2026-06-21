@@ -41,5 +41,5 @@ of Schemes_. Originally published as _Publications mathématiques de l'IHÉS_, t
 - [Terminological index](index-terminology.md)
 - [Glossary and translation ledger](glossary.md)
 
-Coverage: Chapter 0 (§§1–7) and Chapter I (§§1–10) are fully translated, with proofs rendered in full. Chapter 0 §§1–6
-and §7 use Unicode mathematics for some displayed formulas; Chapter I uses LaTeX throughout.
+Coverage: Chapter 0 (§§1–7) and Chapter I (§§1–10) are fully translated, with proofs rendered in full. All mathematics
+is written in LaTeX (rendered with KaTeX) throughout.
