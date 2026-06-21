@@ -109,8 +109,8 @@ admits an inductive limit $\mathcal{A}$; let us denote by $\phi_{\lambda} : \mat
 canonical homomorphism (of $\mathcal{O}_{S_{0}}$-Modules). Let $m_{\lambda} : \mathcal{A}_{\lambda} \otimes
 \mathcal{A}_{\lambda} \to \mathcal{A}_{\lambda}$ be the homomorphism of $\mathcal{O}_{S_{0}}$-Modules that defines the
 multiplication in the $\mathcal{O}_{S_{0}}$-Algebra $\mathcal{A}_{\lambda}$; the hypothesis on the $\phi_{\mu \lambda}$
-entails that the $m_{\lambda}$ form an inductive system of homomorphisms, and since the functor `lim` commutes with
-tensor product, $m = \lim m_{\lambda}$ is a homomorphism $\mathcal{A} \otimes \mathcal{A} \to \mathcal{A}$ of
+entails that the $m_{\lambda}$ form an inductive system of homomorphisms, and since the functor $\varinjlim$ commutes
+with tensor product, $m = \lim m_{\lambda}$ is a homomorphism $\mathcal{A} \otimes \mathcal{A} \to \mathcal{A}$ of
 $\mathcal{O}_{S_{0}}$-Modules; by passage to the limit on the commutative diagrams expressing the associativity of
 $m_{\lambda}$ and the existence of a unit section in $\mathcal{A}_{\lambda}$, one sees that $m$ defines on $\mathcal{A}$
 a structure of $\mathcal{O}_{S_{0}}$-Algebra and that $\phi_{\lambda}$ is a homomorphism of
@@ -118,19 +118,19 @@ $\mathcal{O}_{S_{0}}$-Algebras for every $\lambda \in L$. Moreover $\mathcal{A}$
 $(\mathcal{A}_{\lambda}, \phi_{\mu \lambda})$ in the category of $\mathcal{O}_{S_{0}}$-Algebras; in other words, for
 every $\mathcal{O}_{S_{0}}$-Algebra $\mathcal{B}$, the canonical map
 
-```text
-  (8.2.1.1)    Hom_{S_0-Alg.}(𝒜, ℬ) → lim Hom_{S_0-Alg.}(𝒜_λ, ℬ)
-```
+$$ \operatorname{Hom}_{S_{0}\text{-Alg.}}(\mathcal{A}, \mathcal{B}) \to \varinjlim
+\operatorname{Hom}_{S_{0}\text{-Alg.}}(\mathcal{A}_{\lambda}, \mathcal{B}) \tag{8.2.1.1} $$
 
 which to every homomorphism $f : \mathcal{A} \to \mathcal{B}$ of $\mathcal{O}_{S_{0}}$-Algebras associates the family
 $(f \circ \phi_{\lambda})$, is bijective. Indeed, one already knows that it is injective and identifies
-$\operatorname{Hom}_{S_{0}-Alg.}(\mathcal{A}, \mathcal{B})$ with a part of `lim Hom_{S_0-Mod.}(𝒜_λ, ℬ)`; everything
-comes down to seeing that if $(f_{\lambda})$ is an inductive system of homomorphisms of $\mathcal{O}_{S_{0}}$-Algebras,
-$f_{\lambda} : \mathcal{A}_{\lambda} \to \mathcal{B}$, its inductive limit $f : \mathcal{A} \to \mathcal{B}$, which by
-definition is a homomorphism of $\mathcal{O}_{S_{0}}$-Modules, is also a homomorphism of $\mathcal{O}_{S_{0}}$-Algebras;
-but this results from passage to the inductive limit in the commutative diagram of homomorphisms of
-$\mathcal{O}_{S_{0}}$-Modules expressing that the $f_{\lambda}$ are Algebra homomorphisms, and from the fact that the
-functor `lim` commutes with tensor products.
+$\operatorname{Hom}_{S_{0}-Alg.}(\mathcal{A}, \mathcal{B})$ with a part of $\varinjlim
+\operatorname{Hom}_{S_{0}\text{-Mod.}}(\mathcal{A}_{\lambda}, \mathcal{B})$; everything comes down to seeing that if
+$(f_{\lambda})$ is an inductive system of homomorphisms of $\mathcal{O}_{S_{0}}$-Algebras, $f_{\lambda} :
+\mathcal{A}_{\lambda} \to \mathcal{B}$, its inductive limit $f : \mathcal{A} \to \mathcal{B}$, which by definition is a
+homomorphism of $\mathcal{O}_{S_{0}}$-Modules, is also a homomorphism of $\mathcal{O}_{S_{0}}$-Algebras; but this
+results from passage to the inductive limit in the commutative diagram of homomorphisms of $\mathcal{O}_{S_{0}}$-Modules
+expressing that the $f_{\lambda}$ are Algebra homomorphisms, and from the fact that the functor $\varinjlim$ commutes
+with tensor products.
 
 One will note finally that if the $\mathcal{A}_{\lambda}$ are commutative $\mathcal{O}_{S_{0}}$-Algebras, the same is
 true of $\mathcal{A}$.
@@ -160,9 +160,7 @@ Let us first prove the second assertion of the statement in the case $T = S_{0}$
 
 Everything comes down to showing that if $X$ is an arbitrary `S_0`-prescheme, the canonical map
 
-```text
-  (8.2.3.1)    Hom_{S_0}(X, S) → lim Hom_{S_0}(X, S_λ)
-```
+$$ \operatorname{Hom}_{S_{0}}(X, S) \to \varinjlim \operatorname{Hom}_{S_{0}}(X, S_{\lambda}) \tag{8.2.3.1} $$
 
 which to every `S_0`-morphism $v : X \to S$ associates the family $(u_{\lambda} \circ v)$, is bijective. Now, if $g : X
 \to S_{0}$ is the structure morphism and if one sets $\mathcal{B} = g_{*}(\mathcal{O}_{X})$, which is an
@@ -231,13 +229,13 @@ limit of $(S'_{\lambda}, u'_{\mu \lambda})$ in $\mathcal{C}_{T'}$.*
 
 One has by hypothesis, for every $\lambda$, a commutative diagram
 
-```text
-  S'  ──u'_λ──→  S'_λ  ──h'_λ──→  T'
-   │              │                │
-   p│            p_λ│               q
-   ↓              ↓                ↓
-   S   ──u_λ───→  S_λ  ───f_λ───→  T
-```
+$$
+\begin{array}{ccccc}
+S' & \xrightarrow{u'_{\lambda}} & S'_{\lambda} & \xrightarrow{h'_{\lambda}} & T' \\
+\downarrow{\scriptstyle p} & & \downarrow{\scriptstyle p_{\lambda}} & & \downarrow{\scriptstyle q} \\
+S & \xrightarrow{u_{\lambda}} & S_{\lambda} & \xrightarrow{f_{\lambda}} & T
+\end{array}
+$$
 
 where one has set $S' = S \times_{T} T'$, $u'_{\lambda} = u_{\lambda} \times 1_{T'}$, $h'_{\lambda} = f_{\lambda} \times
 1_{T'}$. Let $Y$ be a $T'$-object, $g' : Y \to T'$ the corresponding morphism, and consider a projective system of
@@ -337,10 +335,11 @@ set $L$ is filtered.
 
 <!-- label: IV.8.2.12 -->
 
-*With the notations of `(8.2.8)`, the inductive limit of the inductive system of homomorphisms $\theta^{\sharp}_{\lambda} :
-\psi^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) \to \mathcal{O}_{S}$ of sheaves of rings on $S$ is an isomorphism*
+*With the notations of `(8.2.8)`, the inductive limit of the inductive system of homomorphisms
+$\theta^{\sharp}_{\lambda} : \psi^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) \to \mathcal{O}_{S}$ of sheaves of rings on
+$S$ is an isomorphism*
 
-$$ (8.2.12.1) \lim \psi^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) \xrightarrow{\sim} \mathcal{O}_{S}. $$
+$$ \varinjlim \psi^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) \xrightarrow{\sim} \mathcal{O}_{S}. \tag{8.2.12.1} $$
 
 One can evidently suppose the $S_{\lambda}$ affine; with the notations of the proof of `(8.2.9)`, everything comes down
 to seeing that the inductive limit of the system of canonical maps $(A_{\lambda})_{\mathfrak{p}_{\lambda}} \to
@@ -377,13 +376,13 @@ u_{\mu \lambda})$ in the category of all ringed spaces (or of all ringed spaces 
 ringed space, and consider a projective system of morphisms of ringed spaces $w_{\lambda} : Y \to S_{\lambda}$. If one
 sets $w_{\lambda} = (p_{\lambda}, \omega_{\lambda})$, the $p_{\lambda}$ form a projective system of continuous maps and,
 by virtue of `(8.2.9)`, their projective limit $p$ is identified with a continuous map $Y \to S$ such that $p_{\lambda}
-= \psi_{\lambda} \circ p$. On the other hand, the $\omega^{\sharp}_{\lambda} : p^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) \to
-\mathcal{O}_{Y}$ form an inductive system of homomorphisms of sheaves of rings; since one may write
-$p^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) = p^{*}(\psi^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}))$ and the functor
-$p^{*}$ is exact, the inductive limit of the $p^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}})$ is $p^{*}(\mathcal{O}_{S})$ by
-virtue of `(8.2.12)`, and there is therefore a unique homomorphism $\omega^{\sharp} : p^{*}(\mathcal{O}_{S}) \to
-\mathcal{O}_{Y}$ such that $\omega^{\sharp}_{\lambda} = \omega^{\sharp} \circ p^{*}(\theta^{\sharp}_{\lambda})$, which proves our
-assertion.
+= \psi_{\lambda} \circ p$. On the other hand, the $\omega^{\sharp}_{\lambda} :
+p^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) \to \mathcal{O}_{Y}$ form an inductive system of homomorphisms of sheaves of
+rings; since one may write $p^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}) =
+p^{*}(\psi^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}}))$ and the functor $p^{*}$ is exact, the inductive limit of the
+$p^{*}_{\lambda}(\mathcal{O}_{S_{\lambda}})$ is $p^{*}(\mathcal{O}_{S})$ by virtue of `(8.2.12)`, and there is therefore
+a unique homomorphism $\omega^{\sharp} : p^{*}(\mathcal{O}_{S}) \to \mathcal{O}_{Y}$ such that
+$\omega^{\sharp}_{\lambda} = \omega^{\sharp} \circ p^{*}(\theta^{\sharp}_{\lambda})$, which proves our assertion.
 
 ## 8.3. Constructible parts in a projective limit of preschemes
 
@@ -396,9 +395,8 @@ its notations.
 
 *For every $\lambda$, let $E_{\lambda}$, $F_{\lambda}$ be two parts of $S_{\lambda}$. Set*
 
-```text
-  (8.3.2.1)    E = ⋂_λ u_λ⁻¹(E_λ),    F = ⋃_λ u_λ⁻¹(F_λ).
-```
+$$ E = \bigcap_{\lambda} u^{-1}_{\lambda}(E_{\lambda}), \qquad F = \bigcup_{\lambda} u^{-1}_{\lambda}(F_{\lambda}).
+\tag{8.3.2.1} $$
 
 *Assume the following conditions:*
 
@@ -424,9 +422,7 @@ F_{\mu}$ for $\mu \geq \lambda$).*
 
 The remarks in parentheses in b) and c) result from (ii). Set
 
-```text
-  G_λ = E_λ ∩ (S_λ − F_λ),    G = E ∩ (S − F).
-```
+$$ G_{\lambda} = E_{\lambda} \cap (S_{\lambda} - F_{\lambda}), \qquad G = E \cap (S - F). $$
 
 Then $G_{\lambda}$ is a pro-constructible part of $S_{\lambda}$ `(1.9.5, (i))`, and by virtue of `(8.3.2.1)` and (ii),
 one has $G = \bigcap_{\lambda} u^{-1}_{\lambda}(G_{\lambda})$.
@@ -458,9 +454,7 @@ Finally, let us show that b) entails c). Since $S_{\alpha}$ is quasi-compact and
 $S_{\alpha}$ by an affine open set, so one can suppose `(8.2.2)` that $S$ and the $S_{\lambda}$ for $\lambda \geq
 \alpha$ are affine; one has then `(1.9.2.1)`, for $\mu \geq \lambda$,
 
-```text
-  u_λ⁻¹(E_λ) = ⋂_{μ ≥ λ} (E_λ ∩ u_{μλ}(S_μ)),
-```
+$$ u^{-1}_{\lambda}(E_{\lambda}) = \bigcap_{\mu \geq \lambda} (E_{\lambda} \cap u_{\mu \lambda}(S_{\mu})), $$
 
 whence $E_{\lambda} \cap u_{\lambda}(S) = \bigcap_{\mu \geq \lambda} (E_{\lambda} \cap u_{\mu \lambda}(S_{\mu}))$.
 
@@ -518,9 +512,7 @@ necessary and sufficient that there exist $\lambda$ such that $S_{\lambda} = \em
 
 *One has, for every $\lambda$,*
 
-```text
-  (8.3.7.1)    u_λ(S) = ⋂_{μ ≥ λ} u_{μλ}(S_μ).
-```
+$$ u_{\lambda}(S) = \bigcap_{\mu \geq \lambda} u_{\mu \lambda}(S_{\mu}). \tag{8.3.7.1} $$
 
 It is clear that the first member of `(8.3.7.1)` is contained in the second. Let $s$ be a point of $S_{\lambda}$ and set
 $X_{\lambda} = \operatorname{Spec}(k(s))$; consider the projective system $(X_{\mu}, z_{\nu \mu})$ where $X_{\mu} =
@@ -558,7 +550,7 @@ then from `(2.1.2)` and $(0_{I}, 6.2.3)$.
 
 (iii) By virtue of `(8.2.5)` and `(I, 3.5.2)`, it suffices to treat the case of open morphisms. Since $u_{\lambda} =
 u_{\mu \lambda} \circ u_{\mu}$ and $u_{\mu}$ is surjective, one knows that if $u_{\lambda}$ is open so is $u_{\mu
-\lambda}$ for $\mu \geq \lambda$ `(Bourbaki, Top. gén., chap. I, 3rd ed., §5, n° 1, prop. 1)`.
+\lambda}$ for $\mu \geq \lambda$ `(Bourbaki, Top. gén., chap. I, 3rd ed., §5, n`$^{\circ}$` 1, prop. 1)`.
 
 <!-- original page 14 -->
 
@@ -581,7 +573,7 @@ parts of $X$. It is clear that $(\mathfrak{P}(S_{\lambda}), u^{-1}_{\mu \lambda}
 that the maps $u^{-1}_{\lambda} : \mathfrak{P}(S_{\lambda}) \to \mathfrak{P}(S)$ form an inductive system of maps,
 whence, by passage to the inductive limit, a canonical map
 
-$$ (8.3.9.1) \lim \mathfrak{P}(S_{\lambda}) \to \mathfrak{P}(S). $$
+$$ \varinjlim \mathfrak{P}(S_{\lambda}) \to \mathfrak{P}(S). \tag{8.3.9.1} $$
 
 Moreover, it follows from `(1.8.2)` that $u^{-1}_{\mu \lambda}$ carries $\mathfrak{E}(S_{\lambda})$ (resp.
 $\mathfrak{Oc}(S_{\lambda})$, $\mathfrak{Fc}(S_{\lambda})$, $\mathfrak{LFc}(S_{\lambda})$) into $\mathfrak{E}(S_{\mu})$
@@ -590,9 +582,13 @@ carries $\mathfrak{E}(S_{\lambda})$ (resp. $\mathfrak{Oc}(S_{\lambda})$, $\mathf
 $\mathfrak{LFc}(S_{\lambda})$) into $\mathfrak{E}(S)$ (resp. $\mathfrak{Oc}(S)$, $\mathfrak{Fc}(S)$,
 $\mathfrak{LFc}(S)$). One therefore has by restriction of `(8.3.9.1)` canonical maps
 
-$$ (8.3.9.2) \lim \mathfrak{E}(S_{\lambda}) \to \mathfrak{E}(S) (8.3.9.3) \lim \mathfrak{Oc}(S_{\lambda}) \to
-\mathfrak{Oc}(S) (8.3.9.4) \lim \mathfrak{Fc}(S_{\lambda}) \to \mathfrak{Fc}(S) (8.3.9.5) \lim
-\mathfrak{LFc}(S_{\lambda}) \to \mathfrak{LFc}(S). $$
+$$ \varinjlim \mathfrak{E}(S_{\lambda}) \to \mathfrak{E}(S) \tag{8.3.9.2} $$
+
+$$ \varinjlim \mathfrak{Oc}(S_{\lambda}) \to \mathfrak{Oc}(S) \tag{8.3.9.3} $$
+
+$$ \varinjlim \mathfrak{Fc}(S_{\lambda}) \to \mathfrak{Fc}(S) \tag{8.3.9.4} $$
+
+$$ \varinjlim \mathfrak{LFc}(S_{\lambda}) \to \mathfrak{LFc}(S). \tag{8.3.9.5} $$
 
 **(8.3.10)** Let $g_{\alpha} : X_{\alpha} \to S_{\alpha}$ be a morphism; with the notations of `(8.2.5)` one has as
 above a canonical map $v^{-1}_{\alpha} : \lim \mathfrak{P}(X_{\lambda}) \to \mathfrak{P}(X)$; on the other hand, one has
@@ -600,22 +596,23 @@ projection morphisms $g_{\lambda} : X_{\lambda} \to S_{\lambda}$ for every $\lam
 morphism $g : X \to S$. It is clear that the $g^{-1}_{\lambda} : \mathfrak{P}(S_{\lambda}) \to
 \mathfrak{P}(X_{\lambda})$ form an inductive system of maps, and that the diagrams
 
-```text
-  𝔓(S_λ)  ──g_λ⁻¹──→  𝔓(X_λ)
-    │                    │
-    u_{μλ}⁻¹            v_{μλ}⁻¹
-    ↓                    ↓
-  𝔓(S_μ)  ──g_μ⁻¹──→  𝔓(X_μ)
-```
+$$
+\begin{array}{ccc}
+\mathfrak{P}(S_{\lambda}) & \xrightarrow{g^{-1}_{\lambda}} & \mathfrak{P}(X_{\lambda}) \\
+\downarrow{\scriptstyle u^{-1}_{\mu \lambda}} & & \downarrow{\scriptstyle v^{-1}_{\mu \lambda}} \\
+\mathfrak{P}(S_{\mu}) & \xrightarrow{g^{-1}_{\mu}} & \mathfrak{P}(X_{\mu})
+\end{array}
+$$
 
 are commutative; one therefore deduces by passage to the inductive limit a commutative diagram
 
-```text
-  (8.3.10.1)    lim 𝔓(S_λ)  ───→  lim 𝔓(X_λ)
-                    │                  │
-                    ↓                  ↓
-                  𝔓(S)    ──g⁻¹──→  𝔓(X)
-```
+$$
+\begin{array}{ccc}
+\varinjlim \mathfrak{P}(S_{\lambda}) & \longrightarrow & \varinjlim \mathfrak{P}(X_{\lambda}) \\
+\downarrow & & \downarrow \\
+\mathfrak{P}(S) & \xrightarrow{g^{-1}} & \mathfrak{P}(X)
+\end{array} \tag{8.3.10.1}
+$$
 
 <!-- original page 15 -->
 
@@ -828,12 +825,12 @@ $u_{\lambda} : S \to S_{\lambda}$ are dominant.
 
 (ii) By contrast, the conclusion of `(8.4.2)` can fail when the $u_{\lambda}$ are not dominant for $\lambda$ large
 enough, even when the $S_{\lambda}$ and $S$ are Noetherian, as the following example shows. Take for index set
-$\mathbb{N}$, all the $S_{n}$ equal to `Spec(A × K) = Spec(A) ⨿ Spec(K)`, where $K$ is a field, $A$ an arbitrary
-$K$-algebra, and all the morphisms $u_{n, n+1}$ equal to the same morphism corresponding to the homomorphism $(x, y)
-\mapsto (j(y), y)$ of $A \times K$ into itself, where $j : K \to A$ is the canonical homomorphism. One verifies easily
-that the inductive limit of this system of rings is $K$, the canonical homomorphism $u_{n}$ corresponding to the second
-projection $A \times K \to K$. One sees therefore that $S = \operatorname{Spec}(K)$ is irreducible although none of the
-$S_{n}$ is connected.
+$\mathbb{N}$, all the $S_{n}$ equal to $\operatorname{Spec}(A \times K) = \operatorname{Spec}(A) \sqcup
+\operatorname{Spec}(K)$, where $K$ is a field, $A$ an arbitrary $K$-algebra, and all the morphisms $u_{n, n+1}$ equal to
+the same morphism corresponding to the homomorphism $(x, y) \mapsto (j(y), y)$ of $A \times K$ into itself, where $j : K
+\to A$ is the canonical homomorphism. One verifies easily that the inductive limit of this system of rings is $K$, the
+canonical homomorphism $u_{n}$ corresponding to the second projection $A \times K \to K$. One sees therefore that $S =
+\operatorname{Spec}(K)$ is irreducible although none of the $S_{n}$ is connected.
 
 ## 8.5. Modules of finite presentation over a projective limit of preschemes
 
@@ -844,13 +841,11 @@ When, in this section, we consider a family $(\mathcal{F}_{\lambda})$, where, fo
 $\mathcal{F}_{\lambda}$ is an $\mathcal{O}_{S_{\lambda}}$-Module, it shall be understood that this family satisfies the
 condition
 
-```text
-  (8.5.1.1)    ℱ_μ = u_{μλ}^*(ℱ_λ)    for λ ≤ μ.
-```
+$$ \mathcal{F}_{\mu} = u_{\mu \lambda}^{*}(\mathcal{F}_{\lambda}) \quad \text{for } \lambda \leq \mu. \tag{8.5.1.1} $$
 
 We shall then set
 
-$$ (8.5.1.2) \mathcal{F} = u^{*}_{\lambda}(\mathcal{F}_{\lambda}), $$
+$$ \mathcal{F} = u^{*}_{\lambda}(\mathcal{F}_{\lambda}), \tag{8.5.1.2} $$
 
 which is an $\mathcal{O}_{S}$-Module not depending on the index $\lambda \in L$, by virtue of hypothesis `(8.5.1.1)`.
 
@@ -862,17 +857,14 @@ $(\operatorname{Hom}_{S_{\lambda}}(\mathcal{F}_{\lambda}, \mathcal{G}_{\lambda})
 maps $f_{\lambda} \mapsto u^{*}_{\lambda}(f_{\lambda})$ form an inductive system of homomorphisms of abelian groups,
 whence, by passing to the inductive limit, a canonical homomorphism of abelian groups
 
-```text
-  (8.5.1.3)    u_λ^* : lim Hom_{S_λ}(ℱ_λ, 𝒢_λ) → Hom_S(ℱ, 𝒢).
-```
+$$ u_{\lambda}^{*} : \varinjlim \operatorname{Hom}_{S_{\lambda}}(\mathcal{F}_{\lambda}, \mathcal{G}_{\lambda}) \to
+\operatorname{Hom}_{S}(\mathcal{F}, \mathcal{G}). \tag{8.5.1.3} $$
 
 Let us note that when $\mathcal{F}_{\lambda} = \mathcal{O}_{S_{\lambda}}$ condition `(8.5.1.1)` is satisfied, and one
 has $\mathcal{F} = \mathcal{O}_{S}$; homomorphism `(8.5.1.3)` thus gives $(0_{I}, 5.1.1)$ a canonical homomorphism of
 abelian groups
 
-```text
-  (8.5.1.4)    lim Γ(S_λ, 𝒢_λ) → Γ(S, 𝒢).
-```
+$$ \varinjlim \Gamma(S_{\lambda}, \mathcal{G}_{\lambda}) \to \Gamma(S, \mathcal{G}). \tag{8.5.1.4} $$
 
 **Theorem (8.5.2).**
 
@@ -902,25 +894,23 @@ N_{\lambda}$. If `M_0` is of finite type (resp. of finite presentation), the can
 
 <!-- original page 20 -->
 
-```text
-  (8.5.2.2)    lim Hom_{A_λ}(M_λ, N_λ) → Hom_A(M, N)
-```
+$$ \varinjlim \operatorname{Hom}_{A_{\lambda}}(M_{\lambda}, N_{\lambda}) \to \operatorname{Hom}_{A}(M, N) \tag{8.5.2.2}
+$$
 
 *is injective (resp. bijective).*
 
-One knows indeed `(Bourbaki, Alg., chap. II, 3rd ed., §5, n° 1)` that one has canonical functorial isomorphisms
+One knows indeed `(Bourbaki, Alg., chap. II, 3rd ed., §5, n`$^{\circ}$` 1)` that one has canonical functorial
+isomorphisms
 
-```text
-  Hom_{A_λ}(M_λ, N_λ) ⥲ Hom_{A_0}(M_0, N_λ),    Hom_A(M, N) ⥲ Hom_{A_0}(M_0, N)
-```
+$$ \operatorname{Hom}_{A_{\lambda}}(M_{\lambda}, N_{\lambda}) \xrightarrow{\sim} \operatorname{Hom}_{A_{0}}(M_{0},
+N_{\lambda}), \qquad \operatorname{Hom}_{A}(M, N) \xrightarrow{\sim} \operatorname{Hom}_{A_{0}}(M_{0}, N) $$
 
 <!-- original page 21 -->
 
 so that the homomorphism `(8.5.2.2)` is none other, up to canonical isomorphisms, than the canonical homomorphism
 
-```text
-  (8.5.2.3)    lim Hom_{A_0}(M_0, N_λ) → Hom_{A_0}(M_0, lim N_λ),
-```
+$$ \varinjlim \operatorname{Hom}_{A_{0}}(M_{0}, N_{\lambda}) \to \operatorname{Hom}_{A_{0}}(M_{0}, \varinjlim
+N_{\lambda}), \tag{8.5.2.3} $$
 
 which, to every inductive system of homomorphisms of `A_0`-modules $\theta_{\lambda} : M_{0} \to N_{\lambda}$,
 associates its inductive limit.
@@ -928,7 +918,7 @@ associates its inductive limit.
 Now, if `M_0` is of finite type (resp. of finite presentation), one has an exact sequence $A^{m}_{0} \to M_{0} \to 0$
 (resp. $A^{n}_{0} \to A^{m}_{0} \to M_{0} \to 0$); since it is clear that `(8.5.2.3)` is bijective when `M_0` is of the
 form $A^{m}_{0}$, it suffices to use the left-exactness of the functor $M_{0} \mapsto \operatorname{Hom}_{A_{0}}(M_{0},
-P)$ and the exactness of the functor `lim` (in the category of abelian groups) to conclude.
+P)$ and the exactness of the functor $\varinjlim$ (in the category of abelian groups) to conclude.
 
 Let us pass to the case where `S_0` is quasi-compact, and let $(U_{i})$ be a finite cover of `S_0` by affine open sets;
 for every $\lambda$, the $U_{i\lambda} = u^{-1}_{0\lambda}(U_{i})$ form an affine open cover of $S_{\lambda}$, and the
@@ -1125,7 +1115,7 @@ u^{*}_{\lambda}(f_{\lambda}) : \mathcal{F} \to \mathcal{G}$ be injective, it is 
 exist $\mu \geq \lambda$ such that $f_{\mu} = u^{*}_{\mu \lambda}(f_{\lambda}) : \mathcal{F}_{\mu} \to
 \mathcal{G}_{\mu}$ be so.*
 
-(i) Taking into account `(8.3.8, (ii))`, note that, by flatness, `Im f` and `Ker g` (resp. $Im f_{\mu}$ and $Ker
+(i) Taking into account `(8.3.8, (ii))`, note that, by flatness, $Im f$ and $Ker g$ (resp. $Im f_{\mu}$ and $Ker
 g_{\mu}$ for $\mu \geq \lambda$) are the inverse images of $Im f_{\lambda}$ and $Ker g_{\lambda}$ $(0_{I}, 6.7.2)$.
 Suppose that the sequence $\mathcal{F} \to \mathcal{G} \to \mathcal{H}$ is exact. Since $Im f_{\lambda}$ is of finite
 type, there exists $\mu \geq \lambda$ such that the composite $\mathcal{F}_{\mu} \to \mathcal{G}_{\mu} \to
@@ -1170,9 +1160,7 @@ $(\mathcal{Q}(\mathcal{F}_{\lambda}), u^{*}_{\mu \lambda})$ is an inductive syst
 $u^{*}_{\lambda} : \mathcal{Q}(\mathcal{F}_{\lambda}) \to \mathcal{Q}(\mathcal{F})$ form an inductive system of maps,
 whence, by passage to the inductive limit, a canonical map
 
-```text
-  (8.5.10.1)    u_𝒬 : lim 𝒬(ℱ_λ) → 𝒬(ℱ).
-```
+$$ u_{\mathcal{Q}} : \varinjlim \mathcal{Q}(\mathcal{F}_{\lambda}) \to \mathcal{Q}(\mathcal{F}). \tag{8.5.10.1} $$
 
 Moreover, if $(\mathcal{F}'_{\lambda})$ is a second family of quasi-coherent $\mathcal{O}_{S_{\lambda}}$-Modules and if,
 for every $\lambda$, $\mathcal{F}'_{\lambda}$ is a quotient of $\mathcal{F}_{\lambda}$, then $\mathcal{F}'$ is a
@@ -1180,12 +1168,13 @@ quotient of $\mathcal{F}$ and one has a commutative diagram
 
 <!-- original page 25 -->
 
-```text
-  (8.5.10.2)    lim 𝒬(ℱ_λ)  ──→  𝒬(ℱ)
-                    │              │
-                    ↓              ↓
-                lim 𝒬(ℱ'_λ)  ──→  𝒬(ℱ').
-```
+$$
+\begin{array}{ccc}
+\varinjlim \mathcal{Q}(\mathcal{F}_{\lambda}) & \longrightarrow & \mathcal{Q}(\mathcal{F}) \\
+\downarrow & & \downarrow \\
+\varinjlim \mathcal{Q}(\mathcal{F}'_{\lambda}) & \longrightarrow & \mathcal{Q}(\mathcal{F}').
+\end{array} \tag{8.5.10.2}
+$$
 
 **Proposition (8.5.11).**
 
@@ -1227,8 +1216,11 @@ $(\mathfrak{Spr}_{f}(S_{\lambda}), u^{-1}_{\mu \lambda})$) is an inductive syste
 $\mathfrak{Spr}_{f}(S_{\lambda}) \to \mathfrak{Spr}_{f}(S)$) form an inductive system of maps; whence, by passage to the
 inductive limit, canonical maps
 
-$$ (8.6.2.1) \lim \mathfrak{Spr}(S_{\lambda}) \to \mathfrak{Spr}(S) (8.6.2.2) \lim \mathfrak{Spr}_{o}(S_{\lambda}) \to
-\mathfrak{Spr}_{o}(S) (8.6.2.3) \lim \mathfrak{Spr}_{f}(S_{\lambda}) \to \mathfrak{Spr}_{f}(S). $$
+$$ \varinjlim \mathfrak{Spr}(S_{\lambda}) \to \mathfrak{Spr}(S) \tag{8.6.2.1} $$
+
+$$ \varinjlim \mathfrak{Spr}_{o}(S_{\lambda}) \to \mathfrak{Spr}_{o}(S) \tag{8.6.2.2} $$
+
+$$ \varinjlim \mathfrak{Spr}_{f}(S_{\lambda}) \to \mathfrak{Spr}_{f}(S). \tag{8.6.2.3} $$
 
 <!-- original page 26 -->
 
@@ -1404,9 +1396,8 @@ Similarly, one has a canonical map $e_{\lambda} : \operatorname{Hom}_{S_{\lambda
 \times_{S_{\lambda}} S \to Y_{\lambda} \times_{S_{\lambda}} S$ and $(e_{\lambda})$ is an inductive system of maps;
 whence, by passage to the inductive limit, a canonical map, functorial in $S_{\alpha}$, $X_{\alpha}$ and $Y_{\alpha}$:
 
-```text
-  (8.8.1.1)    e : lim Hom_{S_λ}(X_λ, Y_λ) → Hom_S(X, Y).
-```
+$$ e : \varinjlim \operatorname{Hom}_{S_{\lambda}}(X_{\lambda}, Y_{\lambda}) \to \operatorname{Hom}_{S}(X, Y).
+\tag{8.8.1.1} $$
 
 **Theorem (8.8.2).**
 
@@ -1434,18 +1425,20 @@ to the
 $B_{\alpha}$ be an $A_{\alpha}$-algebra, $C_{\alpha}$ an $A_{\alpha}$-algebra of finite type (resp. of finite
 presentation). Then the canonical homomorphism*
 
-```text
-  (8.8.2.2)    lim Hom_{A_λ-alg.}(C_α ⊗_{A_α} A_λ, B_α ⊗_{A_α} A_λ) → Hom_{A-alg.}(C_α ⊗_{A_α} A, B_α ⊗_{A_α} A)
-```
+$$ \varinjlim \operatorname{Hom}_{A_{\lambda}\text{-alg.}}(C_{\alpha} \otimes_{A_{\alpha}} A_{\lambda}, B_{\alpha}
+\otimes_{A_{\alpha}} A_{\lambda}) \to \operatorname{Hom}_{A\text{-alg.}}(C_{\alpha} \otimes_{A_{\alpha}} A, B_{\alpha}
+\otimes_{A_{\alpha}} A) \tag{8.8.2.2} $$
 
 *is injective (resp. bijective).*
 
 One knows that one has canonical functorial isomorphisms
 
-```text
-  Hom_{A_λ-alg.}(C_α ⊗_{A_α} A_λ, B_α ⊗_{A_α} A_λ) ⥲ Hom_{A_α-alg.}(C_α, B_α ⊗_{A_α} A_λ)
-  Hom_{A-alg.}(C_α ⊗_{A_α} A, B_α ⊗_{A_α} A) ⥲ Hom_{A_α-alg.}(C_α, B_α ⊗_{A_α} A)
-```
+$$
+\begin{aligned}
+\operatorname{Hom}_{A_{\lambda}\text{-alg.}}(C_{\alpha} \otimes_{A_{\alpha}} A_{\lambda}, B_{\alpha} \otimes_{A_{\alpha}} A_{\lambda}) &\xrightarrow{\sim} \operatorname{Hom}_{A_{\alpha}\text{-alg.}}(C_{\alpha}, B_{\alpha} \otimes_{A_{\alpha}} A_{\lambda}) \\
+\operatorname{Hom}_{A\text{-alg.}}(C_{\alpha} \otimes_{A_{\alpha}} A, B_{\alpha} \otimes_{A_{\alpha}} A) &\xrightarrow{\sim} \operatorname{Hom}_{A_{\alpha}\text{-alg.}}(C_{\alpha}, B_{\alpha} \otimes_{A_{\alpha}} A)
+\end{aligned}
+$$
 
 by virtue of the universal property of the tensor product of two algebras. It therefore suffices to prove the
 
@@ -1456,9 +1449,8 @@ by virtue of the universal property of the tensor product of two algebras. It th
 *Let $E$ be a ring, $G$ an $E$-algebra of finite type (resp. of finite presentation), $(F_{\lambda})$ an inductive
 system of $E$-algebras. Then the canonical homomorphism*
 
-```text
-  lim Hom_{E-alg.}(G, F_λ) → Hom_{E-alg.}(G, lim F_λ)
-```
+$$ \varinjlim \operatorname{Hom}_{E\text{-alg.}}(G, F_{\lambda}) \to \operatorname{Hom}_{E\text{-alg.}}(G, \varinjlim
+F_{\lambda}) $$
 
 *which, to every inductive system of homomorphisms $\theta_{\lambda} : G \to F_{\lambda}$ of $E$-algebras, associates
 its inductive limit, is injective (resp. bijective).*
@@ -1497,12 +1489,13 @@ system of $Z_{\lambda} = Z_{\alpha} \times_{S_{\alpha}} S_{\lambda} = X_{\lambda
 its limit $Z = Z_{\alpha} \times_{S_{\alpha}} S = X \times_{S} Y$; the canonical bijections `(I, 3.3.14)` give
 commutative diagrams
 
-```text
-  Hom_{S_λ}(X_λ, Y_λ)  ─────→  Hom_S(X, Y)
-        │                          │
-        ↓                          ↓
-  Hom_{X_λ}(X_λ, Z_λ)  ─────→  Hom_X(X, Z)
-```
+$$
+\begin{array}{ccc}
+\operatorname{Hom}_{S_{\lambda}}(X_{\lambda}, Y_{\lambda}) & \longrightarrow & \operatorname{Hom}_{S}(X, Y) \\
+\downarrow & & \downarrow \\
+\operatorname{Hom}_{X_{\lambda}}(X_{\lambda}, Z_{\lambda}) & \longrightarrow & \operatorname{Hom}_{X}(X, Z)
+\end{array}
+$$
 
 and consequently one is reduced to proving that `(8.8.1.1)` is injective in the particular case where $S_{\alpha} =
 X_{\alpha}$ (taking into account `(1.3.4)`). Moreover, since $X_{\alpha}$ is quasi-compact, hence a finite union of
@@ -1566,15 +1559,14 @@ $S_{\alpha} = \operatorname{Spec}(A_{\alpha})$, $Y_{\alpha} = \operatorname{Spec
 $A_{\alpha}$-algebra of finite presentation, $S = \operatorname{Spec}(A)$, $Y = \operatorname{Spec}(C)$, with $A = \lim
 A_{\lambda}$, $C = C_{\alpha} \otimes_{A_{\alpha}} A$. One has then
 
-```text
-  Hom_S(X, Y) = Hom_{A-alg.}(C, Γ(X, 𝒪_X)) = Hom_{A_α-alg.}(C_α, Γ(X, 𝒪_X))
-```
+$$ \operatorname{Hom}_{S}(X, Y) = \operatorname{Hom}_{A\text{-alg.}}(C, \Gamma(X, \mathcal{O}_{X})) =
+\operatorname{Hom}_{A_{\alpha}\text{-alg.}}(C_{\alpha}, \Gamma(X, \mathcal{O}_{X})) $$
 
 `(I, 2.2.4)` and likewise
 
-```text
-  Hom_{S_λ}(X_λ, Y_λ) = Hom_{A_λ-alg.}(C_α ⊗_{A_α} A_λ, Γ(X_λ, 𝒪_{X_λ})) = Hom_{A_α-alg.}(C_α, Γ(X_λ, 𝒪_{X_λ})).
-```
+$$ \operatorname{Hom}_{S_{\lambda}}(X_{\lambda}, Y_{\lambda}) = \operatorname{Hom}_{A_{\lambda}\text{-alg.}}(C_{\alpha}
+\otimes_{A_{\alpha}} A_{\lambda}, \Gamma(X_{\lambda}, \mathcal{O}_{X_{\lambda}})) =
+\operatorname{Hom}_{A_{\alpha}\text{-alg.}}(C_{\alpha}, \Gamma(X_{\lambda}, \mathcal{O}_{X_{\lambda}})). $$
 
 But since $X_{\alpha}$ is quasi-compact and quasi-separated, one knows `(8.5.4)` that one has $\lim \Gamma(X_{\lambda},
 \mathcal{O}_{X_{\lambda}}) = \Gamma(X, \mathcal{O}_{X})$; since $C_{\alpha}$ is an $A_{\alpha}$-algebra of finite
@@ -1773,8 +1765,8 @@ exists one of these sub-algebras `A_0` and an `A_0`-module `M_0` of finite prese
 to $M_{0} \otimes_{A_{0}} A$; moreover, if $f : M \to M$ is a surjective $A$-endomorphism, one may suppose
 `(8.5.2, (i))` that there exists an `A_0`-endomorphism $f_{0} : M_{0} \to M_{0}$ such that $f = f_{0} \otimes 1_{A}$;
 finally `(8.5.7)` one may suppose $f_{0}$ to be surjective. But since `A_0` is Noetherian and `M_0` is an `A_0`-module
-of finite type, `M_0` is a Noetherian `A_0`-module, hence (Bourbaki, *Alg.*, chap. VIII, §2, n° 2, lemma 3) $f_{0}$ is
-bijective, and consequently so is $f$.
+of finite type, `M_0` is a Noetherian `A_0`-module, hence (Bourbaki, *Alg.*, chap. VIII, §2, n$^{\circ}$ 2, lemma 3)
+$f_{0}$ is bijective, and consequently so is $f$.
 
 **Proposition (8.9.4) ("generic flatness theorem").**
 
@@ -1885,11 +1877,11 @@ the fact that $f'$ is an open morphism results from what precedes and from `(8.1
 
 <!-- label: IV.8.10.3 -->
 
-*Suppose there exists $\alpha$ such that: 1° $S_{\alpha}$ is quasi-compact; 2° the morphisms $X_{\alpha} \to
-S_{\alpha}$, $Y_{\alpha} \to S_{\alpha}$ are quasi-compact and the morphism $Y_{\alpha} \to S_{\alpha}$ is
-quasi-separated; 3° for $\alpha \leq \lambda \leq \mu$, the morphisms $u_{\lambda \mu} : S_{\mu} \to S_{\lambda}$ are
-flat; 4° $f_{\alpha}(X_{\alpha})$ is constructible in $Y_{\alpha}$. Then, in order that $f$ be dominant, it is necessary
-and sufficient that there exist $\lambda \geq \alpha$ such that $f_{\lambda}$ be dominant.*
+*Suppose there exists $\alpha$ such that: $1^{\circ}$ $S_{\alpha}$ is quasi-compact; $2^{\circ}$ the morphisms
+$X_{\alpha} \to S_{\alpha}$, $Y_{\alpha} \to S_{\alpha}$ are quasi-compact and the morphism $Y_{\alpha} \to S_{\alpha}$
+is quasi-separated; $3^{\circ}$ for $\alpha \leq \lambda \leq \mu$, the morphisms $u_{\lambda \mu} : S_{\mu} \to
+S_{\lambda}$ are flat; $4^{\circ}$ $f_{\alpha}(X_{\alpha})$ is constructible in $Y_{\alpha}$. Then, in order that $f$ be
+dominant, it is necessary and sufficient that there exist $\lambda \geq \alpha$ such that $f_{\lambda}$ be dominant.*
 
 The hypotheses entail that $Y_{\alpha}$ is quasi-compact and that the morphism $f_{\alpha}$ is quasi-compact `(1.2.4)`;
 consequently $f_{\alpha}(X_{\alpha}) = Z_{\alpha}$ is pro-constructible `(1.9.5, (v"))` in $Y_{\alpha}$. If one sets
@@ -2054,28 +2046,29 @@ To prove the theorem in case (xii), we first prove the following proposition:
 *an $A$-morphism, separated. Then there exist two $A$-preschemes $X'$, $P$ of finite presentation, and $A$-morphisms
 $p : P \to Y$, $j : X' \to P$, $g : X' \to X$, such that the diagram*
 
-```text
-                          X' ───j──→ P
-                          │           │
-                          g           p
-                          ↓           ↓
-                          X ────f──→ Y
-```
+$$
+\begin{array}{ccc}
+X' & \xrightarrow{j} & P \\
+\downarrow{\scriptstyle g} & & \downarrow{\scriptstyle p} \\
+X & \xrightarrow{f} & Y
+\end{array}
+$$
 
-*is commutative, and: 1° $p$ is projective; 2° $g$ is projective and surjective; 3° $j$ is an open immersion.*
+*is commutative, and: $1^{\circ}$ $p$ is projective; $2^{\circ}$ $g$ is projective and surjective; $3^{\circ}$ $j$ is an
+open immersion.*
 
 Indeed, let $A_{0} \subset A$, `X_0`, `Y_0` and $f_{0}$ be determined as in `(8.9.1)` so that `Y_0` is Noetherian and
 $f_{0}$ is of finite type; one may moreover suppose $f_{0}$ separated by `(8.10.4)`. Chow's lemma `(II, 5.6.1)` then
 shows the existence of three morphisms $p_{0} : P_{0} \to Y_{0}$, $g_{0} : X_{0}' \to X_{0}$ and $j_{0} : X_{0}' \to
 P_{0}$, of finite type, such that the diagram
 
-```text
-                          X_0' ──j_0──→ P_0
-                          │              │
-                          g_0            p_0
-                          ↓              ↓
-                          X_0 ───f_0──→ Y_0
-```
+$$
+\begin{array}{ccc}
+X_{0}' & \xrightarrow{j_{0}} & P_{0} \\
+\downarrow{\scriptstyle g_{0}} & & \downarrow{\scriptstyle p_{0}} \\
+X_{0} & \xrightarrow{f_{0}} & Y_{0}
+\end{array}
+$$
 
 is commutative, and $p_{0}$ is projective, $g_{0}$ projective and surjective, and $j_{0}$ an open immersion. The
 properties of the statement then result from the invariance of the preceding properties under base change
@@ -2084,13 +2077,13 @@ properties of the statement then result from the invariance of the preceding pro
 *Case (xii):* Apply to the morphism $f_{0} : X_{0} \to S_{0}$ proposition `(8.10.5.1)`: one then has a commutative
 diagram
 
-```text
-                          X_0' ──j_0──→ P_0
-                          │              │
-                          g_0            p_0
-                          ↓              ↓
-                          X_0 ───f_0──→ S_0
-```
+$$
+\begin{array}{ccc}
+X_{0}' & \xrightarrow{j_{0}} & P_{0} \\
+\downarrow{\scriptstyle g_{0}} & & \downarrow{\scriptstyle p_{0}} \\
+X_{0} & \xrightarrow{f_{0}} & S_{0}
+\end{array}
+$$
 
 where $p_{0}$ is projective, $g_{0}$ projective and surjective, and $j_{0}$ an open immersion; one deduces for each
 $\lambda$ an analogous diagram where the morphisms $p_{\lambda} = p_{0} \times 1_{S_{\lambda}}$, $g_{\lambda} = g_{0}
@@ -2192,13 +2185,13 @@ closure of every point of $Y$, hence $f(X'') = \emptyset$, and consequently `X''
 
 Place ourselves now in the hypotheses of `(8.11.2)` and, restricting (as one may do by what precedes) to the case where
 $Y = \operatorname{Spec}(A)$ is affine and Noetherian of finite dimension, reason moreover by induction on the dimension
-of $Y$. Reducing as above to the case where $A$ is in addition local and complete, one has `dim(𝒪_y) = dim(A) = dim(Y)`
-and for every $\xi \neq y$, $\dim(\mathcal{O}_{\xi}) < \dim(\mathcal{O}_{y})$, hence $\dim(Y - {y}) < \dim(Y)$. Now, by
-hypothesis one has $f(X'') \subset Y - {y}$ and the restriction of $f$ to `X''` is obviously a quasi-finite and
-separated morphism; applying to $Y - {y}$ and `X''` the inductive hypothesis, one sees that `X''` is quasi-affine over
-$Y - {y}$; but the open $Y - {y}$ being quasi-affine over $Y$ since $Y$ is Noetherian, `X''` is also quasi-affine over
-$Y$ `(II, 5.1.10, (ii))`; since moreover $X'$ is finite (and a fortiori affine) over $Y$, $X$ is quasi-affine over $Y$
-`(II, 4.6.17` and `5.1.2, c'))`.
+of $Y$. Reducing as above to the case where $A$ is in addition local and complete, one has $\dim(\mathcal{O}_{y}) =
+\dim(A) = \dim(Y)$ and for every $\xi \neq y$, $\dim(\mathcal{O}_{\xi}) < \dim(\mathcal{O}_{y})$, hence $\dim(Y - {y}) <
+\dim(Y)$. Now, by hypothesis one has $f(X'') \subset Y - {y}$ and the restriction of $f$ to `X''` is obviously a
+quasi-finite and separated morphism; applying to $Y - {y}$ and `X''` the inductive hypothesis, one sees that `X''` is
+quasi-affine over $Y - {y}$; but the open $Y - {y}$ being quasi-affine over $Y$ since $Y$ is Noetherian, `X''` is also
+quasi-affine over $Y$ `(II, 5.1.10, (ii))`; since moreover $X'$ is finite (and a fortiori affine) over $Y$, $X$ is
+quasi-affine over $Y$ `(II, 4.6.17` and `5.1.2, c'))`.
 
 **Proposition (8.11.5).**
 
@@ -2315,10 +2308,7 @@ sub-$\mathcal{O}_{Y}$-Algebras of finite type of $\mathcal{C}$ (of which $\mathc
 
 *a) There exists a factorization of $f$ as*
 
-```text
-                                    f'        u
-                                X ───→ Y' ───→ Y
-```
+$$ X \xrightarrow{f'} Y' \xrightarrow{u} Y $$
 
 *where $f'$ is an immersion and $u$ a finite morphism.*
 
@@ -2413,9 +2403,7 @@ shall moreover generalize the statement of the theorem by ridding it of Noetheri
 *Let $Y$ be a quasi-compact and quasi-separated prescheme. If a morphism $f : X \to Y$ is quasi-finite, separated and of
 finite presentation, there exists a factorization of $f$*
 
-```text
-(8.12.6.1)                          X ──f'──→ Y' ──u──→ Y
-```
+$$ X \xrightarrow{f'} Y' \xrightarrow{u} Y \tag{8.12.6.1} $$
 
 *where $f'$ is an open immersion and $u$ a finite morphism.*
 
@@ -2477,9 +2465,7 @@ shows that, in the factorization `(8.12.6.1)`, the morphisms $f'$ and $u$ are al
 *Let $Y$ be a quasi-compact scheme such that there exists an ample $\mathcal{O}_{Y}$-Module `(II, 4.5.3)`, $f : X \to Y$
 a quasi-finite and quasi-projective morphism. Then there exists a factorization of $f$ as*
 
-```text
-                                X ──f'──→ Y' ──u──→ Y
-```
+$$ X \xrightarrow{f'} Y' \xrightarrow{u} Y $$
 
 *where $f'$ is an open immersion and $u$ a finite morphism.*
 
@@ -2503,9 +2489,7 @@ $E_{\lambda} = Y$ `(1.9.9)`, and for this index $\lambda$, the morphism $f_{\lam
 of $g$ to $X_{\lambda}$, is therefore quasi-finite. Since it is of finite presentation and separated, one may apply
 `(8.12.6)` to it, and $f_{\lambda}$ factors therefore as
 
-```text
-                                X_λ ──j_λ──→ Y_λ ──u_λ──→ Y
-```
+$$ X_{\lambda} \xrightarrow{j_{\lambda}} Y_{\lambda} \xrightarrow{u_{\lambda}} Y $$
 
 where $j_{\lambda}$ is an immersion and $u_{\lambda}$ a finite morphism. Since $X$ is a closed sub-prescheme of
 $X_{\lambda}$, one has thus proved that $f$ has property `(8.12.3, a))`, whence the corollary by virtue of the
@@ -2522,9 +2506,7 @@ The reader will verify that the corollaries `(8.12.8)` to `(8.12.11)` are not us
 *Let $f : X \to Y$ be a locally quasi-finite morphism (Errm, 20). For every $x \in X$ there exists an open neighbourhood
 $U$ of $x$ in $X$, an open neighbourhood $V$ of $y = f(x)$ in $Y$, such that $f(U) \subset V$ and a factorization*
 
-```text
-                                U ──f'──→ V' ──u──→ V
-```
+$$ U \xrightarrow{f'} V' \xrightarrow{u} V $$
 
 *of the restriction of $f$ to $U$, where $f'$ is an open immersion and $u$ a finite morphism.*
 
@@ -2595,9 +2577,7 @@ be the application which, to every $S$-morphism $f_{\lambda} : X_{\lambda} \to Y
 \circ v_{\lambda}$, where $v_{\lambda} : X \to X_{\lambda}$ is the canonical morphism. The family $(\theta_{\lambda})$
 is an inductive system of applications, which therefore defines a canonical application*
 
-```text
-(8.13.1.1)                lim Hom_S(X_λ, Y) → Hom_S(X, Y).
-```
+$$ \varinjlim \operatorname{Hom}_{S}(X_{\lambda}, Y) \to \operatorname{Hom}_{S}(X, Y). \tag{8.13.1.1} $$
 
 *Suppose $X_{\alpha}$ quasi-compact (resp. quasi-compact and quasi-separated), and the structure morphism $Y \to S$
 locally of finite type (resp. locally of finite presentation). Then the application `(8.13.1.1)` is injective (resp.
@@ -2611,9 +2591,8 @@ $Z$ is projective limit of the projective system $(Z_{\lambda}, w_{\lambda \mu})
 corresponding canonical morphisms. Note on the other hand that the morphism $Z_{\alpha} \to X_{\alpha}$ is locally of
 finite type (resp. locally of finite presentation) `(1.3.4` and `1.4.3)`. Finally, one knows that one has
 
-```text
-            Hom_S(X_λ, Y) = Hom_{X_λ}(X_λ, Z_λ)    and    Hom_S(X, Y) = Hom_X(X, Z)
-```
+$$ \operatorname{Hom}_{S}(X_{\lambda}, Y) = \operatorname{Hom}_{X_{\lambda}}(X_{\lambda}, Z_{\lambda}) \quad \text{and}
+\quad \operatorname{Hom}_{S}(X, Y) = \operatorname{Hom}_{X}(X, Z) $$
 
 `(I, 3.3.14)`. It now suffices to apply `(8.8.2, (i))` taking $X_{\lambda} = S_{\lambda}$ and replacing $Y_{\lambda}$ by
 $Z_{\lambda}$.
@@ -2627,14 +2606,14 @@ affine for $\alpha \leq \lambda$; suppose moreover that $Y = \lim Y_{\rho}$, whe
 filtered projective system of $S$-preschemes such that, for each $\rho$, the structure morphism $Y_{\rho} \to S$ is
 locally of finite presentation. One then has a canonical bijection*
 
-```text
-(8.13.2.1)              Hom_S(X, Y) ⥲ lim_ρ (lim_λ Hom_S(X_λ, Y_ρ)).
-```
+$$ \operatorname{Hom}_{S}(X, Y) \xrightarrow{\sim} \varprojlim_{\rho} \left( \varinjlim_{\lambda}
+\operatorname{Hom}_{S}(X_{\lambda}, Y_{\rho}) \right). \tag{8.13.2.1} $$
 
 Indeed, the fact that $Y$ is projective limit of the $Y_{\rho}$ entails in particular that the canonical application
-`Hom_S(X, Y) → lim_ρ Hom_S(X, Y_ρ)` is bijective; and on the other hand, the hypotheses entail, for each $\rho$, the
-existence of a canonical bijection `Hom_S(X, Y_ρ) ⥲ lim_λ Hom_S(X_λ, Y_ρ)` by virtue of `(8.13.1)`; whence the
-conclusion.
+$\operatorname{Hom}_{S}(X, Y) \to \varprojlim_{\rho} \operatorname{Hom}_{S}(X, Y_{\rho})$ is bijective; and on the other
+hand, the hypotheses entail, for each $\rho$, the existence of a canonical bijection $\operatorname{Hom}_{S}(X,
+Y_{\rho}) \xrightarrow{\sim} \varinjlim_{\lambda} \operatorname{Hom}_{S}(X_{\lambda}, Y_{\rho})$ by virtue of
+`(8.13.1)`; whence the conclusion.
 
 **(8.13.3)**
 
@@ -2652,11 +2631,12 @@ omit until then the reading of the end of this number). Given a category $\mathc
 of pro-objects of $\mathcal{C}$ has as objects the projective systems (in the universe in which one places oneself) $X =
 (X_{\mu})_{\mu \in M}$ of objects of $\mathcal{C}$ whose index sets (depending on the projective system considered) are
 assumed pre-ordered filtered. Given two such pro-objects $X = (X_{\mu})_{\mu \in M}$, $X' = (X_{\mu'}')_{\mu' \in M'}$,
-the morphisms from $X$ to $X'$ are by definition the elements of the set `lim_{μ'}(lim_μ Hom(X_μ, X_{μ'}'))`; the
-verification of the fact that one may take these sets for sets of morphisms is immediate, the composition of systems of
-morphisms $u^{\mu}_{\mu'} : X_{\mu} \to X_{\mu'}'$, $u^{\mu'}_{\mu''} : X_{\mu'}' \to X_{\mu''}''$, which are inductive
-in the upper index and projective in the lower index, being done "argument by argument", in other words by considering
-the system of the $u^{\mu}_{\mu''} = u^{\mu'}_{\mu''} \circ u^{\mu}_{\mu'}$.
+the morphisms from $X$ to $X'$ are by definition the elements of the set $\varprojlim_{\mu'}(\varinjlim_{\mu}
+\operatorname{Hom}(X_{\mu}, X_{\mu'}'))$; the verification of the fact that one may take these sets for sets of
+morphisms is immediate, the composition of systems of morphisms $u^{\mu}_{\mu'} : X_{\mu} \to X_{\mu'}'$,
+$u^{\mu'}_{\mu''} : X_{\mu'}' \to X_{\mu''}''$, which are inductive in the upper index and projective in the lower
+index, being done "argument by argument", in other words by considering the system of the $u^{\mu}_{\mu''} =
+u^{\mu'}_{\mu''} \circ u^{\mu}_{\mu'}$.
 
 **(8.13.4)**
 
@@ -2682,28 +2662,25 @@ $\mathcal{C}'$, the $S$-prescheme $X = \lim X_{\mu}$ exists; moreover, since, fo
 \to X_{\mu}$ is affine `(8.2.2)`, $X$ is essentially affine over $S$ by definition. Set $X = L(X)$; let us show that one
 has thus defined a *canonical functor*
 
-$$ (8.13.4.1) L : \mathcal{C}' \to \mathcal{C}. $$
+$$ L : \mathcal{C}' \to \mathcal{C}. \tag{8.13.4.1} $$
 
 One has in effect, for two objects $X = (X_{\mu})$, $X' = (X_{\mu'}')$ of $\mathcal{C}'$, a canonical application for
 each $\mu'$
 
-```text
-                       lim_μ Hom_S(X_μ, X_{μ'}') → Hom_S(lim X_μ, X_{μ'}')
-```
+$$ \varinjlim_{\mu} \operatorname{Hom}_{S}(X_{\mu}, X_{\mu'}') \to \operatorname{Hom}_{S}(\varprojlim X_{\mu},
+X_{\mu'}') $$
 
 defined in `(8.13.1.1)`, and on the other hand, by definition of the projective limit, a canonical bijection
 
-```text
-                lim_{μ'} Hom_S(lim X_μ, X_{μ'}') ⥲ Hom_S(lim X_μ, lim X_{μ'}')
-```
+$$ \varprojlim_{\mu'} \operatorname{Hom}_{S}(\varprojlim X_{\mu}, X_{\mu'}') \xrightarrow{\sim}
+\operatorname{Hom}_{S}(\varprojlim X_{\mu}, \varprojlim X_{\mu'}') $$
 
 <!-- original page 51 -->
 
 whence a canonical application
 
-```text
-(8.13.4.2)        lim_{μ'}(lim_μ Hom_S(X_μ, X_{μ'}')) → Hom(lim X_μ, lim X_{μ'}')
-```
+$$ \varprojlim_{\mu'}(\varinjlim_{\mu} \operatorname{Hom}_{S}(X_{\mu}, X_{\mu'}')) \to \operatorname{Hom}(\varprojlim
+X_{\mu}, \varprojlim X_{\mu'}') \tag{8.13.4.2} $$
 
 obviously functorial in $X$ and $X'$, and which completes the definition of the functor $L$.
 
@@ -2798,9 +2775,7 @@ equivalent:*
 *b) For every filtered projective system $(Z_{\lambda})$ of $S$-preschemes, essentially affine `(8.13.4)` and formed of
 quasi-compact and quasi-separated preschemes, the canonical application `(8.13.1.1)`*
 
-```text
-(8.14.2.1)                          lim h_X(Z_λ) → h_X(lim Z_λ)
-```
+$$ \varinjlim h_{X}(Z_{\lambda}) \to h_{X}(\varprojlim Z_{\lambda}) \tag{8.14.2.1} $$
 
 *is bijective.*
 
@@ -2825,9 +2800,8 @@ Suppose first that $X$ is also affine; the assertion to be proved is then equiva
 *Let $A$ be a ring, $B$ an $A$-algebra. In order that, for every filtered inductive system $(C_{\lambda})$ of
 $A$-algebras, the canonical application*
 
-```text
-(8.14.2.3)             lim Hom_{A-alg.}(B, C_λ) → Hom_{A-alg.}(B, lim C_λ)
-```
+$$ \varinjlim \operatorname{Hom}_{A\text{-alg.}}(B, C_{\lambda}) \to \operatorname{Hom}_{A\text{-alg.}}(B, \varinjlim
+C_{\lambda}) \tag{8.14.2.3} $$
 
 *be bijective, it is necessary and sufficient that $B$ be an $A$-algebra of finite presentation.*
 
@@ -2837,8 +2811,8 @@ in particular that the identity application `1_B` factors as $B \to C_{\lambda} 
 entails $C_{\lambda} = B$, hence $B$ is an $A$-algebra of finite type. Set then $B = C/\mathfrak{J}$, where $C =
 A[T_{1}, \cdots, T_{n}]$ and $\mathfrak{J}$ is an ideal of $C$. Then $\mathfrak{J}$ is the filtered inductive limit of
 the ideals of finite type $\mathfrak{J}_{\lambda} \subset \mathfrak{J}$ of $C$; setting $C_{\lambda} =
-C/\mathfrak{J}_{\lambda}$, and using the exactness of the functor `lim`, one sees that $B$ is again isomorphic to the
-inductive limit of the filtered inductive system $(C_{\lambda})$. There exists therefore a $\lambda$ and an
+C/\mathfrak{J}_{\lambda}$, and using the exactness of the functor $\varinjlim$, one sees that $B$ is again isomorphic to
+the inductive limit of the filtered inductive system $(C_{\lambda})$. There exists therefore a $\lambda$ and an
 $A$-homomorphism $u : B \to C_{\lambda}$ such that the composite $B \to^{u} C_{\lambda} \to^{p_{\lambda}} B$ (where
 $p_{\lambda}$ is the canonical homomorphism) is the identity. Let $q_{\lambda} : C \to C_{\lambda}$ be the canonical
 homomorphism, and set $t_{i} = p_{\lambda}(q_{\lambda}(T_{i}))$; one has therefore $p_{\lambda}(u(t_{i})) =
@@ -2856,23 +2830,19 @@ Let us pass now to the case where $S$ is affine and $X$ arbitrary; everything co
 $V$ of $X$ is of finite presentation over $S$, and by virtue of what has just been demonstrated, it suffices to prove
 that for every filtered projective system $(Z_{\lambda})$ of affine $S$-preschemes, the application
 
-```text
-(8.14.2.4)                Hom_S(Z_λ, V) → Hom_S(lim Z_λ, V)
-```
+$$ \operatorname{Hom}_{S}(Z_{\lambda}, V) \to \operatorname{Hom}_{S}(\varprojlim Z_{\lambda}, V) \tag{8.14.2.4} $$
 
 is bijective. It is immediate that this application is injective, for if $(v_{\lambda})$, $(v_{\lambda}')$ are two
 inductive systems of $S$-homomorphisms $v_{\lambda} : Z_{\lambda} \to V$, $v_{\lambda}' : Z_{\lambda} \to V$ such that
 the corresponding morphisms
 
-```text
-                 Z ──u_λ──→ Z_λ ──v_λ──→ V,        Z ──u_λ──→ Z_λ ──v_λ'──→ V
-```
+$$ Z \xrightarrow{u_{\lambda}} Z_{\lambda} \xrightarrow{v_{\lambda}} V, \qquad Z \xrightarrow{u_{\lambda}} Z_{\lambda}
+\xrightarrow{v_{\lambda}'} V $$
 
 are equal ($u_{\lambda}$ being the canonical morphism), then the morphisms
 
-```text
-              Z ──u_λ──→ Z_λ ──v_λ──→ V ──j──→ X,      Z ──u_λ──→ Z_λ ──v_λ'──→ V ──j──→ X
-```
+$$ Z \xrightarrow{u_{\lambda}} Z_{\lambda} \xrightarrow{v_{\lambda}} V \xrightarrow{j} X, \qquad Z
+\xrightarrow{u_{\lambda}} Z_{\lambda} \xrightarrow{v_{\lambda}'} V \xrightarrow{j} X $$
 
 (where $j$ is the canonical injection) are equal, which entails $j \circ v_{\lambda} = j \circ v_{\lambda}'$ by
 hypothesis for a suitable $\lambda$, hence $v_{\lambda} = v_{\lambda}'$.
@@ -2884,9 +2854,7 @@ exist a $\lambda$ and an $S$-morphism $w_{\lambda} : Z_{\lambda} \to X$ such tha
 \to^{u_{\lambda}} Z_{\lambda} \to^{w_{\lambda}} X$, and everything comes down to proving that there exists $\mu \geq
 \lambda$ such that the morphism
 
-```text
-                            Z_μ ──w_λ ∘ u_{λμ}──→ X
-```
+$$ Z_{\mu} \xrightarrow{w_{\lambda} \circ u_{\lambda \mu}} X $$
 
 (where $u_{\lambda \mu}$ is the transition morphism) factors as $Z_{\mu} \to^{v_{\mu}} V \to^{j} X$. Set, for every
 $\lambda$, $U_{\lambda} = w^{-1}_{\lambda}(V)$. One has $u^{-1}_{\lambda}(U_{\lambda}) = u^{-1}_{\lambda}(U_{\lambda}) =
