@@ -21,42 +21,34 @@ completion along $X'$ `(I, 10.8.4)`, which is a coherent $\mathcal{O}_{\mathfrak
 
 <!-- label: III.4.1.2 -->
 
-Let $\mathcal{J}$ be a coherent ideal of $\mathcal{O}_{Y}$ such that $Supp(\mathcal{O}_{Y}/\mathcal{J}) = Y'$
-`(I, 5.2.1)`; we know `(I, 4.4.5)` that $\mathcal{K} = f^{*}(\mathcal{J}) \mathcal{O}_{X}$ is a coherent ideal of
+Let $\mathcal{J}$ be a coherent ideal of $\mathcal{O}_{Y}$ such that $\operatorname{Supp}(\mathcal{O}_{Y}/\mathcal{J}) =
+Y'$ `(I, 5.2.1)`; we know `(I, 4.4.5)` that $\mathcal{K} = f^{*}(\mathcal{J}) \mathcal{O}_{X}$ is a coherent ideal of
 $\mathcal{O}_{X}$ such that
 
-$$ Supp(\mathcal{O}_{X} / \mathcal{K}) = X'. $$
+$$ \operatorname{Supp}(\mathcal{O}_{X} / \mathcal{K}) = X'. $$
 
 We consider, for every $k \geq 0$, the coherent $\mathcal{O}_{X}$-modules
 
-```text
-  ℱ_k = ℱ / 𝒦^{k+1} ℱ.
-```
+$$ \mathcal{F}_k = \mathcal{F} / \mathcal{K}^{k+1} \mathcal{F}. $$
 
 The $\mathcal{O}_{Y}$-modules $R^{n} f_{*}(\mathcal{F})$ and $R^{n} f_{*}(\mathcal{F}_{k})$ are coherent for every $n$
 (3.2.1). For every $k' \geq k$ and every $n$, the canonical homomorphism $\mathcal{F}_{k'} \to \mathcal{F}_{k}$ defines
 by functoriality a homomorphism
 
-```text
-  R^n f_*(ℱ_{k'}) → R^n f_*(ℱ_k).                                            (4.1.2.1)
-```
+$$ R^n f_*(\mathcal{F}_{k'}) \to R^n f_*(\mathcal{F}_k). \tag{4.1.2.1} $$
 
 Moreover, since $\mathcal{F}_{k}$ is an $\mathcal{O}_{X} / \mathcal{K}^{k+1}$-module, $R^{n} f_{*}(\mathcal{F}_{k})$ is
 an $\mathcal{O}_{Y} / \mathcal{J}^{k+1}$-module $(0_{III}, 12.2.1)$, and one deduces from (4.1.2.1) a homomorphism
 
-```text
-  R^n f_*(ℱ_{k'}) ⊗_{𝒪_Y} (𝒪_Y / 𝒥^{k+1}) → R^n f_*(ℱ_k).                    (4.1.2.2)
-```
+$$ R^n f_*(\mathcal{F}_{k'}) \otimes_{\mathcal{O}_Y} (\mathcal{O}_Y / \mathcal{J}^{k+1}) \to R^n f_*(\mathcal{F}_k).
+\tag{4.1.2.2} $$
 
 The two sides of (4.1.2.2) form two projective systems, and the projective limit of the first side is none other than
 the completion $(R^{n} f_{*}(\mathcal{F}))_{/Y'}$ which we shall denote $(R^{n} f_{*}(\mathcal{F}))^{\wedge}$.
 Furthermore, it is immediate that the homomorphisms (4.1.2.2) form a projective system, whence by passage to the limit a
 canonical homomorphism
 
-```text
-  φ_n : (R^n f_*(ℱ))^∧ → lim_← R^n f_*(ℱ_k).                                 (4.1.2.3)
-                          k
-```
+$$ \varphi_n : (R^n f_*(\mathcal{F}))^{\wedge} \to \varprojlim_k R^n f_*(\mathcal{F}_k). \tag{4.1.2.3} $$
 
 Moreover, (4.1.2.2) is a homomorphism of $(\mathcal{O}_{Y} / \mathcal{J}^{k+1})$-modules, and therefore `(I, 10.8.3)`
 may be considered as a continuous homomorphism of pseudo-discrete topological $\mathcal{O}_{\mathfrak{Y}}$-modules
@@ -77,41 +69,28 @@ injection, $h_{k}$ the morphism of ringed spaces corresponding to the identity o
 canonical homomorphism $\mathcal{O}_{X} \to \mathcal{O}_{X} / \mathcal{K}^{k+1}$ `(I, 10.5.2)`. Moreover, we have
 $\hat{\mathcal{F}} = i^{*}(\mathcal{F})$ `(I, 10.8.8)` up to canonical isomorphism. We know that
 
-```text
-  H^n(X_k, ℱ_k) = H^n(X, ℱ_k)                                                (4.1.3.2)
-```
+$$ H^n(X_k, \mathcal{F}_k) = H^n(X, \mathcal{F}_k) \tag{4.1.3.2} $$
 
 up to canonical isomorphism, since $\mathcal{F}_{k} = (h_{k})_{*}((i_{k})^{*}(\mathcal{F}_{k}))$ $(0_{I}, 4.9.1)$; the
 canonical homomorphism $H^{n}(X, \mathcal{F}) \to H^{n}(X_{k}, \mathcal{F}_{k})$ $(0_{III}, 12.1.3.5)$ thus also reads
 
-```text
-  H^n(X, ℱ) → H^n(X, ℱ_k),                                                   (4.1.3.3)
-```
+$$ H^n(X, \mathcal{F}) \to H^n(X, \mathcal{F}_k), \tag{4.1.3.3} $$
 
 and these homomorphisms obviously form a projective system, whence by passage to the limit a canonical homomorphism
 
-```text
-  ψ_X : H^n(X, ℱ) → lim_← H^n(X, ℱ_k).                                       (4.1.3.4)
-                      k
-```
+$$ \psi_X : H^n(X, \mathcal{F}) \to \varprojlim_k H^n(X, \mathcal{F}_k). \tag{4.1.3.4} $$
 
 <!-- original page 124 -->
 
 Replacing $X$ by an open set of the form $f^{-1}(V)$, where $V$ is an affine open set of $Y$, and taking (1.4.11) into
 account, we have homomorphisms
 
-```text
-  ψ_V : H^n(X ∩ f^{-1}(V), ℱ) → lim_← Γ(V, R^n f_*(ℱ_k));                    (4.1.3.5)
-                                  k
-```
+$$ \psi_V : H^n(X \cap f^{-1}(V), \mathcal{F}) \to \varprojlim_k \Gamma(V, R^n f_*(\mathcal{F}_k)); \tag{4.1.3.5} $$
 
 these homomorphisms obviously commute with restriction from $V$ to a smaller affine open set, and therefore finally
 define a canonical homomorphism of sheaves
 
-```text
-  ψ : R^n f_*(ℱ) → lim_← R^n f_*(ℱ_k).                                       (4.1.3.6)
-                     k
-```
+$$ \psi : R^n f_*(\mathcal{F}) \to \varprojlim_k R^n f_*(\mathcal{F}_k). \tag{4.1.3.6} $$
 
 **(4.1.4)**
 
@@ -121,37 +100,40 @@ Let finally $j : \mathfrak{Y} \to Y$ be the canonical morphism of ringed spaces 
 f_{*}(\mathcal{F})$ is a coherent $\mathcal{O}_{Y}$-module (3.2.1), we have $j^{*}(R^{n} f_{*}(\mathcal{F})) = (R^{n}
 f_{*}(\mathcal{F}))^{\wedge}$ up to canonical isomorphism `(I, 10.8.8)`, and we therefore have a canonical homomorphism
 
-```text
-  ρ_n : (R^n f_*(ℱ))^∧ = j^*(R^n f_*(ℱ)) → R^n 𝑓̂_*(j^*(ℱ)) = R^n 𝑓̂_*(ℱ̂),     (4.1.4.1)
-```
+$$ \rho_n : (R^n f_*(\mathcal{F}))^{\wedge} = j^*(R^n f_*(\mathcal{F})) \to R^n \hat{\mathit{f}}_*(j^*(\mathcal{F})) =
+R^n \hat{\mathit{f}}_*(\hat{\mathcal{F}}), \tag{4.1.4.1} $$
 
 defined in general for ringed spaces (see the proof of `(1.4.15)`). We show that the diagram
 
-```text
-  (R^n f_*(ℱ))^∧ ────→ R^n 𝑓̂_*(ℱ̂)
-        ↓ φ_n             ↑ ψ_n                                              (4.1.4.2)
-        lim_← R^n f_*(ℱ_k)
-          k
-```
+$$
+\begin{array}{ccc}
+(R^n f_*(\mathcal{F}))^{\wedge} & \longrightarrow & R^n \hat{\mathit{f}}_*(\hat{\mathcal{F}}) \\
+\downarrow{\scriptstyle \varphi_n} & & \uparrow{\scriptstyle \psi_n} \\
+\varprojlim_k R^n f_*(\mathcal{F}_k) & &
+\end{array} \tag{4.1.4.2}
+$$
 
 is commutative. It clearly suffices to prove the commutativity of the corresponding diagram of homomorphisms of
 presheaves, so we may restrict to the case where $Y$ is affine, and everything reduces to proving that the diagram
 
-```text
-  (H^n(X, ℱ))^∧ ────→ H^n(𝔛, ℱ̂)
-        ↓ φ_n           ↑ ψ_{n,𝔛}                                            (4.1.4.3)
-        lim_← H^n(X, ℱ_k)
-          k
-```
+$$
+\begin{array}{ccc}
+(H^n(X, \mathcal{F}))^{\wedge} & \longrightarrow & H^n(\mathfrak{X}, \hat{\mathcal{F}}) \\
+\downarrow{\scriptstyle \varphi_n} & & \uparrow{\scriptstyle \psi_{n,\mathfrak{X}}} \\
+\varprojlim_k H^n(X, \mathcal{F}_k) & &
+\end{array} \tag{4.1.4.3}
+$$
 
 is commutative. But the commutativity of (4.1.3.1) and the relations seen in (4.1.3) between the cohomology groups give
 at once the commutative diagram
 
-```text
-  H^n(X, ℱ) ────→ H^n(𝔛, ℱ̂) = H^n(𝔛, i^*(ℱ))
-         ╲         ╱
-          H^n(X_k, ℱ_k) = H^n(X, ℱ_k)
-```
+$$
+\begin{array}{ccc}
+H^n(X, \mathcal{F}) & \longrightarrow & H^n(\mathfrak{X}, \hat{\mathcal{F}}) = H^n(\mathfrak{X}, i^*(\mathcal{F})) \\
+& \searrow \quad \swarrow & \\
+& H^n(X_k, \mathcal{F}_k) = H^n(X, \mathcal{F}_k) &
+\end{array}
+$$
 
 whence we deduce immediately the commutativity of (4.1.4.3).
 
@@ -176,10 +158,8 @@ f_{*}(\mathcal{F})$ is coherent (3.2.1), it will follow that $(R^{n} f_{*}(\math
 that $\hat{\mathcal{F}}_{k} = i^{*}(\mathcal{F}_{k})$, and the canonical homomorphism (4.1.3.6) is none other than the
 homomorphism already defined in (3.4.2.2)
 
-```text
-  R^n 𝑓̂_*(ℱ̂) → lim_← R^n 𝑓̂_*(ℱ̂_k);                                          (4.1.6.1)
-                 k
-```
+$$ R^n \hat{\mathit{f}}_*(\hat{\mathcal{F}}) \to \varprojlim_k R^n \hat{\mathit{f}}_*(\hat{\mathcal{F}}_k);
+\tag{4.1.6.1} $$
 
 <!-- original page 125 -->
 
@@ -202,19 +182,13 @@ We shall begin by establishing the affine form of (4.1.5):
 and $\mathcal{J} = \tilde{\mathfrak{J}}$, where $\mathfrak{J}$ is an ideal of $A$, so that $\mathcal{F}_{k} =
 \mathcal{F} / \mathfrak{J}^{k+1} \mathcal{F}$. The canonical homomorphism*
 
-```text
-  φ_n : (H^n(X, ℱ))^∧ → lim_← H^n(X, ℱ_k)                                    (4.1.7.1)
-                          k
-```
+$$ \varphi_n : (H^n(X, \mathcal{F}))^{\wedge} \to \varprojlim_k H^n(X, \mathcal{F}_k) \tag{4.1.7.1} $$
 
 *(where the first member is the Hausdorff completion of $H^{n}(X, \mathcal{F})$ for the $\mathfrak{J}$-preadic topology)
 is an isomorphism. The projective system $(H^{n}(X, \mathcal{F}_{k}))_{k \geq 0}$ satisfies condition (ML) for every
 $n$, and the canonical homomorphism*
 
-```text
-  ψ_n : H^n(X, ℱ) → lim_← H^n(X, ℱ_k)                                        (4.1.7.2)
-                       k
-```
+$$ \psi_n : H^n(X, \mathcal{F}) \to \varprojlim_k H^n(X, \mathcal{F}_k) \tag{4.1.7.2} $$
 
 *is an isomorphism. Finally, the filtration on $H^{n}(X, \mathcal{F})$ defined by the kernels of the canonical
 homomorphisms*
@@ -229,37 +203,34 @@ topological isomorphism* (1).
 
 **Proof.** The integer $n \geq 0$ being fixed in this proof, we shall set for simplicity
 
-```text
-  H = H^n(X, ℱ),    H_k = H^n(X, ℱ_k),                                       (4.1.7.3)
-  R_k = Ker(H → H_k),     a sub-`A`-module of `H`.                           (4.1.7.4)
-```
+$$ H = H^n(X, \mathcal{F}), \quad H_k = H^n(X, \mathcal{F}_k), \tag{4.1.7.3} $$
+
+$$ R_k = \operatorname{Ker}(H \to H_k), \quad \text{a sub-$A$-module of } H. \tag{4.1.7.4} $$
 
 The exact sequence of cohomology
 
-```text
-  H^n(X, 𝔍^{k+1} ℱ) → H^n(X, ℱ) → H^n(X, ℱ_k) → H^{n+1}(X, 𝔍^{k+1} ℱ) → H^{n+1}(X, ℱ)
-```
+$$ H^n(X, \mathfrak{J}^{k+1} \mathcal{F}) \to H^n(X, \mathcal{F}) \to H^n(X, \mathcal{F}_k) \to H^{n+1}(X,
+\mathfrak{J}^{k+1} \mathcal{F}) \to H^{n+1}(X, \mathcal{F}) $$
 
-shows that we also have $R_{k} = Im(H^{n}(X, \mathfrak{J}^{k+1} \mathcal{F}) \to H^{n}(X, \mathcal{F}))$; we shall set
+shows that we also have $R_{k} = \operatorname{Im}(H^{n}(X, \mathfrak{J}^{k+1} \mathcal{F}) \to H^{n}(X, \mathcal{F}))$;
+we shall set
 
-```text
-  Q_k = Ker(H^{n+1}(X, 𝔍^{k+1} ℱ) → H^{n+1}(X, ℱ))
-      = Im(H^n(X, ℱ_k) → H^{n+1}(X, 𝔍^{k+1} ℱ)).                             (4.1.7.5)
-```
+$$
+\begin{aligned}
+Q_k &= \operatorname{Ker}(H^{n+1}(X, \mathfrak{J}^{k+1} \mathcal{F}) \to H^{n+1}(X, \mathcal{F})) \\
+&= \operatorname{Im}(H^n(X, \mathcal{F}_k) \to H^{n+1}(X, \mathfrak{J}^{k+1} \mathcal{F})).
+\end{aligned} \tag{4.1.7.5}
+$$
 
 We thus have the exact sequence
 
-```text
-  0 → R_k → H → H_k → Q_k → 0.                                               (4.1.7.6)
-```
+$$ 0 \to R_k \to H \to H_k \to Q_k \to 0. \tag{4.1.7.6} $$
 
 **(4.1.7.7).** Let $x$ be an element of $\mathfrak{J}^{r}$ ($r \geq 0$); multiplication by $x$ in $\mathfrak{J}^{k}
 \mathcal{F}$ is a homomorphism $\mathfrak{J}^{k} \mathcal{F} \to \mathfrak{J}^{k+r} \mathcal{F}$ and consequently gives
 rise to a homomorphism
 
-```text
-  μ_x : H^n(X, 𝔍^k ℱ) → H^n(X, 𝔍^{k+r} ℱ).                                   (4.1.7.8)
-```
+$$ \mu_x : H^n(X, \mathfrak{J}^k \mathcal{F}) \to H^n(X, \mathfrak{J}^{k+r} \mathcal{F}). \tag{4.1.7.8} $$
 
 If we denote by $S$ the graded $A$-algebra $\oplus \mathfrak{J}^{k}$, we know that the multiplications $\mu_{x}$ endow
 $E = \oplus H^{n}(X, \mathfrak{J}^{k} \mathcal{F})$ with a structure of graded module of finite type over the graded
@@ -269,27 +240,31 @@ ring $S$ (3.3.2), which is Noetherian `(II, 2.1.5)`.
 
 **Proof.** First, we show that we have
 
-$$ \mathfrak{J} R_{k} \subset R_{k+1}, (4.1.7.10) $$
+$$ \mathfrak{J} R_{k} \subset R_{k+1}, \tag{4.1.7.10} $$
 
 multiplication in $H = H^{n}(X, \mathcal{F})$ by an element $x \in \mathfrak{J}$ being therefore the map $\mu_{x}$ for
 $r = 1$. For every $x \in \mathfrak{J}$, the diagram
 
-```text
-  𝔍^{k+1} ℱ ────→ 𝔍^{k+2} ℱ
-       ↓             ↓
-       ℱ   ────→     ℱ
-```
+$$
+\begin{array}{ccc}
+\mathfrak{J}^{k+1} \mathcal{F} & \longrightarrow & \mathfrak{J}^{k+2} \mathcal{F} \\
+\downarrow & & \downarrow \\
+\mathcal{F} & \longrightarrow & \mathcal{F}
+\end{array}
+$$
 
 <!-- original page 127 -->
 
 (where the horizontal arrows are multiplication by $x$, and the vertical arrows the canonical injections) is
 commutative; hence the corresponding diagram
 
-```text
-  H^n(X, 𝔍^{k+1} ℱ) ──^{μ_{x,n}}──→ H^n(X, 𝔍^{k+2} ℱ)
-           ↓                                ↓                                (4.1.7.11)
-         H^n(X, ℱ)  ──^{μ_{x,0}}──→  H^n(X, ℱ)
-```
+$$
+\begin{array}{ccc}
+H^n(X, \mathfrak{J}^{k+1} \mathcal{F}) & \xrightarrow{\mu_{x,n}} & H^n(X, \mathfrak{J}^{k+2} \mathcal{F}) \\
+\downarrow & & \downarrow \\
+H^n(X, \mathcal{F}) & \xrightarrow{\mu_{x,0}} & H^n(X, \mathcal{F})
+\end{array} \tag{4.1.7.11}
+$$
 
 is commutative, which, taking into account the interpretation of $R_{k}$ as the image of $H^{n}(X, \mathfrak{J}^{k+1}
 \mathcal{F}) \to H^{n}(X, \mathcal{F})$, proves (4.1.7.10) and shows in addition that the graded $S$-module $R = \oplus
@@ -308,35 +283,30 @@ In other words, $Q = \oplus Q_{k}$ is a graded sub-$S$-module of $N$, and is the
 $H^{n}(X, \mathcal{F}_{k}) \to H^{n+1}(X, \mathfrak{J}^{k+1} \mathcal{F})$, $Q_{k}$, as an $A$-module, is also
 annihilated by $S_{k+1}$. This still means that, in the $S$-module $Q$, we have
 
-$$ a_{k+1}(S_{k+1}) Q_{k} = 0. (4.1.7.14) $$
+$$ a_{k+1}(S_{k+1}) Q_{k} = 0. \tag{4.1.7.14} $$
 
 Since $Q$ is an $S$-module of finite type, there exist an integer $k_{0}$ and an integer $h$ such that $Q_{k+h} = S_{h}
 Q_{k}$ for $k \geq k_{0}$ `(II, 2.1.6, (ii))`; from this relation and (4.1.7.14), one deduces that there exists an
 integer $r > 0$ such that
 
-$$ a_{r}(S_{r}) Q = 0. (4.1.7.15) $$
+$$ a_{r}(S_{r}) Q = 0. \tag{4.1.7.15} $$
 
 **(4.1.7.16).** Note now that the canonical injection $\mathfrak{J}^{k+1} \mathcal{F} \to \mathfrak{J}^{k} \mathcal{F}$
 gives, on passage to cohomology, an $A$-homomorphism
 
-```text
-  v_k : H^{n+1}(X, 𝔍^{k+1} ℱ) → H^{n+1}(X, 𝔍^k ℱ),                           (4.1.7.17)
-```
+$$ v_k : H^{n+1}(X, \mathfrak{J}^{k+1} \mathcal{F}) \to H^{n+1}(X, \mathfrak{J}^k \mathcal{F}), \tag{4.1.7.17} $$
 
 and, for every $x \in \mathfrak{J}$, we have the obvious factorization
 
-```text
-  μ_{x,0} : H^{n+1}(X, ℱ) → H^{n+1}(X, 𝔍^{k+1} ℱ) →^{v_k} H^{n+1}(X, 𝔍^k ℱ), (4.1.7.18)
-```
+$$ \mu_{x,0} : H^{n+1}(X, \mathcal{F}) \to H^{n+1}(X, \mathfrak{J}^{k+1} \mathcal{F}) \xrightarrow{v_k} H^{n+1}(X,
+\mathfrak{J}^k \mathcal{F}), \tag{4.1.7.18} $$
 
 <!-- original page 128 -->
 
 from which we conclude that, for every sub-$A$-module $P$ of $H^{n+1}(X, \mathfrak{J}^{k+1} \mathcal{F})$, we have, in
 the $S$-module $N$,
 
-```text
-  v_k(S_1 P) = a_1(S_1) P.                                                   (4.1.7.19)
-```
+$$ v_k(S_1 P) = a_1(S_1) P. \tag{4.1.7.19} $$
 
 **Lemma (4.1.7.20).** *There exists an integer $m > 0$ such that $v_{k}(Q_{k+m}) = 0$ for every $k \geq k_{0}$.*
 
@@ -345,42 +315,48 @@ virtue of (4.1.7.19) and (4.1.7.15) $v_{k}(Q_{k+m}) = a_{m}(S_{m}) Q \subset a_{
 
 **(4.1.7.21).** Note that from the commutative diagram
 
-```text
-  H^n(X, ℱ) ──→ H^n(X, ℱ_k) ──→ H^{n+1}(X, 𝔍^{k+1} ℱ) ──→ H^{n+1}(X, ℱ)
-      ║              ↓                       ↓                  ║
-  H^n(X, ℱ) ──→ H^n(X, ℱ_{k+m}) → H^{n+1}(X, 𝔍^{k+m+1} ℱ) → H^{n+1}(X, ℱ)
-```
+$$
+\begin{array}{ccccccc}
+H^n(X, \mathcal{F}) & \to & H^n(X, \mathcal{F}_k) & \to & H^{n+1}(X, \mathfrak{J}^{k+1} \mathcal{F}) & \to & H^{n+1}(X, \mathcal{F}) \\
+\| & & \downarrow & & \downarrow & & \| \\
+H^n(X, \mathcal{F}) & \to & H^n(X, \mathcal{F}_{k+m}) & \to & H^{n+1}(X, \mathfrak{J}^{k+m+1} \mathcal{F}) & \to & H^{n+1}(X, \mathcal{F})
+\end{array}
+$$
 
 itself coming from the commutative diagram
 
-```text
-  0 → 𝔍^{k+1} ℱ ──→ ℱ ──→ ℱ_k ──→ 0
-        ↑          ║      ↑
-  0 → 𝔍^{k+m+1} ℱ → ℱ → ℱ_{k+m} → 0
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & \mathfrak{J}^{k+1} \mathcal{F} & \to & \mathcal{F} & \to & \mathcal{F}_k & \to & 0 \\
+& & \uparrow & & \| & & \uparrow & & \\
+0 & \to & \mathfrak{J}^{k+m+1} \mathcal{F} & \to & \mathcal{F} & \to & \mathcal{F}_{k+m} & \to & 0
+\end{array}
+$$
 
 where the vertical arrows are the canonical maps, one deduces a commutative diagram
 
-```text
-  0 → R_k    ──→ H ──→ H_k    ──→ Q_k    → 0
-       ↓        id      ↓           ↓
-  0 → R_{k+m} → H → H_{k+m} ──→ Q_{k+m} → 0
-```
+$$
+\begin{array}{ccccccccccc}
+0 & \to & R_k & \to & H & \to & H_k & \to & Q_k & \to & 0 \\
+& & \downarrow & & \|{\scriptstyle \mathrm{id}} & & \downarrow & & \downarrow & & \\
+0 & \to & R_{k+m} & \to & H & \to & H_{k+m} & \to & Q_{k+m} & \to & 0
+\end{array}
+$$
 
 where the rows are exact. Since the last vertical arrow is zero for $k \geq k_{0}$ (4.1.7.20), the image of $H_{k+m}$ in
-$H_{k}$ is contained in $Ker(H_{k} \to Q_{k}) = Im(H \to H_{k})$, but moreover it contains $Im(H \to H_{k})$ by the
-commutativity of the diagram, so it is equal to it; the same therefore holds for the images in $H_{k}$ of the $H_{k'}$
-for $k' \geq k + m$, which proves condition (ML) for the projective system $(H_{k})_{k \geq 0}$. Moreover, for every
-affine open set $U$ of $X$, we have $H^{i}(U, \mathcal{F}) = 0$ for $i > 0$ (1.3.1), and for $m > 0$, the map $H^{0}(U,
-\mathcal{F}_{k+m}) \to H^{0}(U, \mathcal{F}_{k})$ is surjective `(I, 1.3.9)`. We may therefore apply $(0_{III},
-13.3.1)$, and the canonical homomorphism $H^{n}(X, \mathcal{F}) \to \varprojlim H^{n}(X, \mathcal{F}_{k})$ is bijective
-for every $n \geq 0$.
+$H_{k}$ is contained in $\operatorname{Ker}(H_{k} \to Q_{k}) = \operatorname{Im}(H \to H_{k})$, but moreover it contains
+$\operatorname{Im}(H \to H_{k})$ by the commutativity of the diagram, so it is equal to it; the same therefore holds for
+the images in $H_{k}$ of the $H_{k'}$ for $k' \geq k + m$, which proves condition (ML) for the projective system
+$(H_{k})_{k \geq 0}$. Moreover, for every affine open set $U$ of $X$, we have $H^{i}(U, \mathcal{F}) = 0$ for $i > 0$
+(1.3.1), and for $m > 0$, the map $H^{0}(U, \mathcal{F}_{k+m}) \to H^{0}(U, \mathcal{F}_{k})$ is surjective
+`(I, 1.3.9)`. We may therefore apply $(0_{III}, 13.3.1)$, and the canonical homomorphism $H^{n}(X, \mathcal{F}) \to
+\varprojlim H^{n}(X, \mathcal{F}_{k})$ is bijective for every $n \geq 0$.
 
 <!-- original page 129 -->
 
 Since the projective system $(H/R_{k})_{k \geq 0}$ is strict, we may pass to the projective limit in the exact sequences
 
-$$ 0 \to H/R_{k} \to H_{k} \to Q_{k} \to 0 (4.1.7.22) $$
+$$ 0 \to H/R_{k} \to H_{k} \to Q_{k} \to 0 \tag{4.1.7.22} $$
 
 $(0_{III}, 13.2.2)$; since $v_{k}(Q_{k+m}) = 0$, we have $\varprojlim Q_{k} = 0$, whence a topological isomorphism
 $\varprojlim (H/R_{k}) \xrightarrow{\sim} \varprojlim H_{k}$. But since the filtration $(R_{k})$ of $H$ is
@@ -406,9 +382,8 @@ homomorphism $\psi_{n}$ of (4.1.3.3) is an isomorphism, hence $\psi_{n}$ is an i
 
 *Under the hypotheses of (4.1.4), for every affine open set $V$ of $Y$, the canonical homomorphism*
 
-```text
-  H^n(𝔛 ∩ 𝑓̂^{-1}(V), ℱ̂) → Γ(𝔜 ∩ V, R^n 𝑓̂_*(ℱ̂))
-```
+$$ H^n(\mathfrak{X} \cap \hat{\mathit{f}}^{-1}(V), \hat{\mathcal{F}}) \to \Gamma(\mathfrak{Y} \cap V, R^n
+\hat{\mathit{f}}_*(\hat{\mathcal{F}})) $$
 
 *is bijective.*
 
@@ -420,15 +395,13 @@ Let $f : X \to Y$ be a morphism of finite type of (usual) Noetherian preschemes,
 $\mathcal{O}_{X}$-module whose support is proper over $Y$ `(II, 5.4.10)`. We then know (3.2.4) that $R^{n}
 f_{*}(\mathcal{F})$ is a coherent $\mathcal{O}_{Y}$-module for every $n \geq 0$. Moreover, we may always assume that
 $\mathcal{F} = u_{*}(\mathcal{G})$, where $\mathcal{G} = u^{*}(\mathcal{F})$ is a coherent $\mathcal{O}_{Z}$-module, $Z$
-denoting a suitable closed subprescheme of $X$ whose underlying space is $Supp(\mathcal{F})$, and $u : Z \to X$ the
-canonical injection `(I, 9.3.5)`. If we set $\mathcal{G}_{k} = \mathcal{G} / \mathfrak{J}^{k+1} \mathcal{G}$ (with
-$\mathfrak{J} = u^{*}(\mathcal{J}) \mathcal{O}_{Z}$), we have $\mathcal{F}_{k} = u_{*}(\mathcal{G}_{k})$, $R^{n}
+denoting a suitable closed subprescheme of $X$ whose underlying space is $\operatorname{Supp}(\mathcal{F})$, and $u : Z
+\to X$ the canonical injection `(I, 9.3.5)`. If we set $\mathcal{G}_{k} = \mathcal{G} / \mathfrak{J}^{k+1} \mathcal{G}$
+(with $\mathfrak{J} = u^{*}(\mathcal{J}) \mathcal{O}_{Z}$), we have $\mathcal{F}_{k} = u_{*}(\mathcal{G}_{k})$, $R^{n}
 f_{*}(\mathcal{F}) = R^{n} (f \circ u)_{*}(\mathcal{G})$, and $R^{n} f_{*}(\mathcal{F}_{k}) = R^{n} (f \circ
 u)_{*}(\mathcal{G}_{k})$ (1.3.4), and finally, taking `(I, 10.9.5)` into account,
 
-```text
-  R^n 𝑓̂_*(ℱ̂) = R^n (f ∘ u)^∧_*(𝒢̂).
-```
+$$ R^n \hat{\mathit{f}}_*(\hat{\mathcal{F}}) = R^n (f \circ u)^{\wedge}_*(\hat{\mathcal{G}}). $$
 
 We may then apply (4.1.5) to $\mathcal{G}$ and to the proper morphism $f \circ u$, and we conclude that under these
 hypotheses, the results of (4.1.5) are valid for $\mathcal{F}$ and $f$.
@@ -449,10 +422,8 @@ $\mathcal{O}_{X}$-module. Then, for every $y \in Y$ and every $p$, $(R^{p} f_{*}
 *an $\mathcal{O}_{y}$-module of finite type, hence separated for the $\mathfrak{m}_{y}$-preadic topology, and we have a
 canonical topological isomorphism*
 
-```text
-  ((R^p f_*(ℱ))_y)^∧ ⥲ lim_← H^p(f^{-1}(y), ℱ ⊗_{𝒪_Y} (𝒪_y / 𝔪_y^{k+1}))      (4.2.1.1)
-                         k
-```
+$$ ((R^p f_*(\mathcal{F}))_y)^{\wedge} \xrightarrow{\sim} \varprojlim_k H^p(f^{-1}(y), \mathcal{F}
+\otimes_{\mathcal{O}_Y} (\mathcal{O}_y / \mathfrak{m}_y^{k+1})) \tag{4.2.1.1} $$
 
 *where the first member is the completion of $(R^{p} f_{*}(\mathcal{F}))_{y}$ for the $\mathfrak{m}_{y}$-preadic
 topology, and at the second member $f^{-1}(y)$ is considered, for every $k \geq 0$, as the underlying space of the
@@ -498,10 +469,8 @@ f_{*}(\mathcal{F}))_{y} = 0$; whence the conclusion, since $R^{p} f_{*}(\mathcal
 
 *Under the hypotheses of (4.2.1), we have a canonical topological isomorphism*
 
-```text
-  ((f_*(ℱ))_y)^∧ ⥲ lim_← Γ(f^{-1}(y), ℱ ⊗_{𝒪_Y} (𝒪_y / 𝔪_y^{k+1})).           (4.2.4.1)
-                     k
-```
+$$ ((f_*(\mathcal{F}))_y)^{\wedge} \xrightarrow{\sim} \varprojlim_k \Gamma(f^{-1}(y), \mathcal{F}
+\otimes_{\mathcal{O}_Y} (\mathcal{O}_y / \mathfrak{m}_y^{k+1})). \tag{4.2.4.1} $$
 
 ## 4.3. Zariski's connection theorem
 
@@ -763,9 +732,9 @@ The fact that (4.3.7) is established in the framework of schemes permits applica
 <!-- label: III.4.3.13 -->
 
 *Let $A$ be a Noetherian unibranch local ring, $\mathfrak{a}$ an ideal of definition of $A$, $A_{0} = A/\mathfrak{a}$,
-$S = gr_{\mathfrak{a}}(A)$ the graded ring associated to $A$ for the $\mathfrak{a}$-preadic filtration; $S$ is a graded
-`A_0`-algebra generated by `S_1`, `S_1` being a finitely generated `A_0`-module. Then $\operatorname{Proj}(S)$ is a
-connected `A_0`-scheme.*
+$S = \operatorname{gr}_{\mathfrak{a}}(A)$ the graded ring associated to $A$ for the $\mathfrak{a}$-preadic filtration;
+$S$ is a graded `A_0`-algebra generated by `S_1`, `S_1` being a finitely generated `A_0`-module. Then
+$\operatorname{Proj}(S)$ is a connected `A_0`-scheme.*
 
 **Proof.** Let $\mathfrak{m}$ be the maximal ideal of $A$; $Y = \operatorname{Spec}(A)$ is an integral scheme whose
 point corresponding to $\mathfrak{m}$ is the unique closed point. By hypothesis, we have $\mathfrak{m}^{p} \subset
@@ -1011,25 +980,25 @@ $E^{p,q}_{2}(\hat{\mathcal{F}}, \hat{\mathcal{G}}) = E^{p,q}_{2}(\mathcal{F}, \m
 
 This being so, we know that the data of the flat morphism $i$ defines a canonical homomorphism of spectral sequences
 
-```text
-  φ : E(ℱ, 𝒢) → E(ℱ̂, 𝒢̂) = E(i^*(ℱ), i^*(𝒢))
-```
+$$ \varphi : E(\mathcal{F}, \mathcal{G}) \to E(\hat{\mathcal{F}}, \hat{\mathcal{G}}) = E(i^*(\mathcal{F}),
+i^*(\mathcal{G})) $$
 
 which, for the `E_2`-terms (resp. the abutment), reduces to the homomorphism
 
-```text
-  ω_q^♯♯ : H^p(X, 𝓔𝓍𝓉_{𝒪_X}^q(ℱ, 𝒢)) → H^p(𝔛, 𝓔𝓍𝓉_{𝒪_𝔛}^q(ℱ̂, 𝒢̂))
-```
+$$ \omega^{\sharp}_q\sharp : H^p(X, \mathcal{E}xt_{\mathcal{O}_X}^q(\mathcal{F}, \mathcal{G})) \to H^p(\mathfrak{X},
+\mathcal{E}xt_{\mathcal{O}_{\mathfrak{X}}}^q(\hat{\mathcal{F}}, \hat{\mathcal{G}})) $$
 
 (resp. $u_{n} : Ext^{n}_{\mathcal{O}_{X}}(X; \mathcal{F}, \mathcal{G}) \to
 Ext^{n}_{\mathcal{O}_{\mathfrak{X}}}(\mathfrak{X}; \hat{\mathcal{F}}, \hat{\mathcal{G}})$) deduced from $\omega_{q}$
 (resp. $u_{0}$) by functoriality $(0_{III}, 12.3.4)$. By tensoring with `Â`, the $\omega^{\sharp}_{q}\sharp$ and $u_{n}$
 give homomorphisms of $A$-modules
 
-```text
-  ω̃_q^♯♯ : E_2^{p,q}(ℱ, 𝒢) ⊗_A Â → E_2^{p,q}(ℱ̂, 𝒢̂),
-  ũ_n   : Ext_{𝒪_X}^n(X; ℱ, 𝒢) ⊗_A Â → Ext_{𝒪_𝔛}^n(𝔛; ℱ̂, 𝒢̂).
-```
+$$
+\begin{aligned}
+\tilde{\omega}^{\sharp}_q\sharp &: E_2^{p,q}(\mathcal{F}, \mathcal{G}) \otimes_A \hat{A} \to E_2^{p,q}(\hat{\mathcal{F}}, \hat{\mathcal{G}}), \\
+\tilde{u}_n &: \operatorname{Ext}_{\mathcal{O}_X}^n(X; \mathcal{F}, \mathcal{G}) \otimes_A \hat{A} \to \operatorname{Ext}_{\mathcal{O}_{\mathfrak{X}}}^n(\mathfrak{X}; \hat{\mathcal{F}}, \hat{\mathcal{G}}).
+\end{aligned}
+$$
 
 Since `Â` is a flat $A$-module $(0_{I}, 7.3.3)$, the $A$-modules $E^{p,q}_{r}(\mathcal{F}, \mathcal{G}) \otimes_{A}
 \hat{A}$ form a biregular spectral sequence with abutment the $Ext^{n}_{\mathcal{O}_{X}}(X; \mathcal{F}, \mathcal{G})
@@ -1056,9 +1025,8 @@ The particular case $n = 0$ of (4.5.1) is stated as follows:
 *Under the hypotheses of (4.5.1), for every homomorphism $u : \mathcal{F} \to \mathcal{G}$, denote by `û` the completed
 homomorphism $\hat{\mathcal{F}} \to \hat{\mathcal{G}}$ `(I, 10.8.4)`. Then we have a canonical isomorphism*
 
-```text
-  (Hom_{𝒪_X}(ℱ, 𝒢))^∧ ⥲ Hom_{𝒪_𝔛}(ℱ̂, 𝒢̂)                                     (4.5.3.1)
-```
+$$ (\operatorname{Hom}_{\mathcal{O}_X}(\mathcal{F}, \mathcal{G}))^{\wedge} \xrightarrow{\sim}
+\operatorname{Hom}_{\mathcal{O}_{\mathfrak{X}}}(\hat{\mathcal{F}}, \hat{\mathcal{G}}) \tag{4.5.3.1} $$
 
 *where the first member is the Hausdorff completion for the $\mathfrak{J}$-preadic topology of the $A$-module
 $\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{F}, \mathcal{G})$, this isomorphism being obtained by passage to
@@ -1079,9 +1047,8 @@ $\mathcal{O}_{X}$-module and $f$-flat, $y$ a point of $Y$. Suppose that for some
 neighbourhood $U$ of $y$ in $Y$ such that $R^{n} f_{*}(\mathcal{F}) \mid U = 0$, and for every integer $p \geq 0$, the
 canonical homomorphism*
 
-```text
-  (R^{n-1} f_*(ℱ))_y → H^{n-1}(f^{-1}(y), ℱ ⊗_{𝒪_Y} (𝒪_y / 𝔪_y^{p+1}))
-```
+$$ (R^{n-1} f_*(\mathcal{F}))_y \to H^{n-1}(f^{-1}(y), \mathcal{F} \otimes_{\mathcal{O}_Y} (\mathcal{O}_y /
+\mathfrak{m}_y^{p+1})) $$
 
 *of (4.2.1.1) is surjective.*
 
@@ -1095,21 +1062,17 @@ $X_{p}$, having the same underlying space `(I, 3.6.1)`; the induction hypothesis
 \otimes_{\mathcal{O}_{Y}} (\mathcal{O}_{y} / \mathfrak{m}^{p}_{y})) = 0$; on the other hand, the exact sequence in
 cohomology gives, from the exact sequence
 
-```text
-  0 → 𝔪_y^p ℱ / 𝔪_y^{p+1} ℱ → ℱ / 𝔪_y^{p+1} ℱ → ℱ / 𝔪_y^p ℱ → 0
-```
+$$ 0 \to \mathfrak{m}_y^p \mathcal{F} / \mathfrak{m}_y^{p+1} \mathcal{F} \to \mathcal{F} / \mathfrak{m}_y^{p+1}
+\mathcal{F} \to \mathcal{F} / \mathfrak{m}_y^p \mathcal{F} \to 0 $$
 
 of $\mathcal{O}_{X}$-modules, the exact sequence
 
-```text
-  H^n(X_p, 𝔪_y^p ℱ / 𝔪_y^{p+1} ℱ) → H^n(X_p, ℱ / 𝔪_y^{p+1} ℱ) → H^n(X_p, ℱ / 𝔪_y^p ℱ)
-```
+$$ H^n(X_p, \mathfrak{m}_y^p \mathcal{F} / \mathfrak{m}_y^{p+1} \mathcal{F}) \to H^n(X_p, \mathcal{F} /
+\mathfrak{m}_y^{p+1} \mathcal{F}) \to H^n(X_p, \mathcal{F} / \mathfrak{m}_y^p \mathcal{F}) $$
 
 and it will suffice to show that we have
 
-```text
-  H^n(X_p, 𝔪_y^p ℱ / 𝔪_y^{p+1} ℱ) = 0                                        (4.6.1.1)
-```
+$$ H^n(X_p, \mathfrak{m}_y^p \mathcal{F} / \mathfrak{m}_y^{p+1} \mathcal{F}) = 0 \tag{4.6.1.1} $$
 
 for then $H^{n}(X_{p}, \mathcal{F} / \mathfrak{m}^{p+1}_{y} \mathcal{F})$ will be a submodule of $H^{n}(X_{p},
 \mathcal{F} / \mathfrak{m}^{p}_{y} \mathcal{F})$, hence `0` by virtue of the induction hypothesis.
@@ -1120,16 +1083,14 @@ $\mathfrak{m}_{y}$, hence may be considered as an $\mathcal{O}_{Z}$-module, so t
 \mathcal{F} / \mathfrak{m}^{p+1}_{y} \mathcal{F}) = H^{n}(X_{p}, \mathfrak{m}^{p}_{y} \mathcal{F} /
 \mathfrak{m}^{p+1}_{y} \mathcal{F})$. This being so, we shall show that the canonical $\mathcal{O}_{Z}$-homomorphism
 
-```text
-  (ℱ / 𝔪_y ℱ) ⊗_{κ(y)} (𝔪_y^p / 𝔪_y^{p+1}) → 𝔪_y^p ℱ / 𝔪_y^{p+1} ℱ           (4.6.1.2)
-```
+$$ (\mathcal{F} / \mathfrak{m}_y \mathcal{F}) \otimes_{\kappa(y)} (\mathfrak{m}_y^p / \mathfrak{m}_y^{p+1}) \to
+\mathfrak{m}_y^p \mathcal{F} / \mathfrak{m}_y^{p+1} \mathcal{F} \tag{4.6.1.2} $$
 
 is bijective; this established, it will follow, since $\mathfrak{m}^{p}_{y} / \mathfrak{m}^{p+1}_{y}$ is a free
 $\kappa(y)$-module, that we have
 
-```text
-  H^n(Z, 𝔪_y^p ℱ / 𝔪_y^{p+1} ℱ) = H^n(Z, ℱ / 𝔪_y ℱ) ⊗_{κ(y)} (𝔪_y^p / 𝔪_y^{p+1}) = 0
-```
+$$ H^n(Z, \mathfrak{m}_y^p \mathcal{F} / \mathfrak{m}_y^{p+1} \mathcal{F}) = H^n(Z, \mathcal{F} / \mathfrak{m}_y
+\mathcal{F}) \otimes_{\kappa(y)} (\mathfrak{m}_y^p / \mathfrak{m}_y^{p+1}) = 0 $$
 
 $(0_{III}, 12.2.3)$, since $H^{n}(Z, \mathcal{F} / \mathfrak{m}_{y} \mathcal{F}) = 0$ by hypothesis, whence (4.6.1.1).
 To establish the first assertion, it remains therefore to prove that (4.6.1.2) is bijective; since the question is
@@ -1140,34 +1101,29 @@ over the field $\kappa(y) = \mathcal{O}_{y} / \mathfrak{m}_{y}$.
 To prove the second assertion of (4.6.1), we reduce at once, as in (4.2.1), to the case where $Y$ is affine and $y$
 closed. Note that (4.6.1.1) gives, by an analogous reasoning, for every $k > 0$, the relation
 
-```text
-  H^n(X_{p+k}, 𝔪_y^p ℱ / 𝔪_y^{p+k+1} ℱ) = 0                                  (4.6.1.3)
-```
+$$ H^n(X_{p+k}, \mathfrak{m}_y^p \mathcal{F} / \mathfrak{m}_y^{p+k+1} \mathcal{F}) = 0 \tag{4.6.1.3} $$
 
 <!-- original page 141 -->
 
 whence one deduces, by (4.2.1), that we also have
 
-$$ (R^{n} f_{*}(\mathfrak{m}^{p}_{y} \mathcal{F}))_{y} = 0. (4.6.1.4) $$
+$$ (R^{n} f_{*}(\mathfrak{m}^{p}_{y} \mathcal{F}))_{y} = 0. \tag{4.6.1.4} $$
 
 This being so, one draws from the exact sequence in cohomology the exactness of the sequence
 
-```text
-  (R^{n-1} f_*(ℱ))_y → (R^{n-1} f_*(ℱ / 𝔪_y^p ℱ))_y → (R^n f_*(𝔪_y^p ℱ))_y = 0
-```
+$$ (R^{n-1} f_*(\mathcal{F}))_y \to (R^{n-1} f_*(\mathcal{F} / \mathfrak{m}_y^p \mathcal{F}))_y \to (R^n
+f_*(\mathfrak{m}_y^p \mathcal{F}))_y = 0 $$
 
 and since $y$ is closed and $Y$ affine, we have (1.4.11)
 
-```text
-  R^{n-1} f_*(ℱ / 𝔪_y^p ℱ) = (H^{n-1}(X, ℱ / 𝔪_y^p ℱ))^∼ = (H^{n-1}(f^{-1}(y), ℱ / 𝔪_y^p ℱ))^∼
-```
+$$ R^{n-1} f_*(\mathcal{F} / \mathfrak{m}_y^p \mathcal{F}) = (H^{n-1}(X, \mathcal{F} / \mathfrak{m}_y^p
+\mathcal{F}))^{\sim} = (H^{n-1}(f^{-1}(y), \mathcal{F} / \mathfrak{m}_y^p \mathcal{F}))^{\sim} $$
 
 `(G, II, 4.9.1)`; now $H^{n-1}(f^{-1}(y), \mathcal{F} / \mathfrak{m}^{p}_{y} \mathcal{F})$ is an $(\mathcal{O}_{y} /
 \mathfrak{m}^{p}_{y})$-module, whence
 
-```text
-  (R^{n-1} f_*(ℱ / 𝔪_y^p ℱ))_y = H^{n-1}(f^{-1}(y), ℱ / 𝔪_y^p ℱ)
-```
+$$ (R^{n-1} f_*(\mathcal{F} / \mathfrak{m}_y^p \mathcal{F}))_y = H^{n-1}(f^{-1}(y), \mathcal{F} / \mathfrak{m}_y^p
+\mathcal{F}) $$
 
 and this completes the proof of (4.6.1).
 
@@ -1180,7 +1136,7 @@ locally free $\mathcal{O}_{X}$-modules, $y$ a point of $Y$. Set $X_{y} = f^{-1}(
 \kappa(y)$, $\mathcal{F}_{y} = \mathcal{F} \otimes_{\mathcal{O}_{Y}} \kappa(y)$, $\mathcal{G}_{y} = \mathcal{G}
 \otimes_{\mathcal{O}_{Y}} \kappa(y)$, and suppose that*
 
-$$ H^{1}(X_{y}, \operatorname{Hom}_{\mathcal{O}_{X_{y}}}(\mathcal{F}_{y}, \mathcal{G}_{y})) = 0. (4.6.2.1) $$
+$$ H^{1}(X_{y}, \operatorname{Hom}_{\mathcal{O}_{X_{y}}}(\mathcal{F}_{y}, \mathcal{G}_{y})) = 0. \tag{4.6.2.1} $$
 
 *Then, for every homomorphism $u_{0} : \mathcal{F}_{y} \to \mathcal{G}_{y}$, there exists an open neighbourhood $U$ of
 $y$ and a homomorphism $u : \mathcal{F} \mid f^{-1}(U) \to \mathcal{G} \mid f^{-1}(U)$ such that $u_{y}$ is equal to the
@@ -1194,9 +1150,8 @@ We may suppose $Y = \operatorname{Spec}(A)$ affine, and then (1.4.11) $R^{0} f_{
 (\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{F}, \mathcal{G}))^{\sim}$, hence $(R^{0} f_{*}(\mathcal{H}))_{y} =
 \operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{F}, \mathcal{G}) \otimes_{A} \mathcal{O}_{y}$; the canonical homomorphism
 
-```text
-  Hom_{𝒪_X}(ℱ, 𝒢) ⊗_A 𝒪_y → Hom_{𝒪_{X_y}}(ℱ_y, 𝒢_y)
-```
+$$ \operatorname{Hom}_{\mathcal{O}_X}(\mathcal{F}, \mathcal{G}) \otimes_A \mathcal{O}_y \to
+\operatorname{Hom}_{\mathcal{O}_{X_y}}(\mathcal{F}_y, \mathcal{G}_y) $$
 
 being surjective by (4.6.1), this establishes the corollary, since every element of
 $\operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{F}, \mathcal{G}) \otimes_{A} \mathcal{O}_{y}$ may always be put under the
@@ -1238,7 +1193,7 @@ One deduces in particular from (4.6.3):
 *Let $Y$ be a locally Noetherian prescheme, $f : X \to Y$ a proper and flat morphism, $y$ a point of $Y$, $X_{y} = X
 \otimes_{Y} \kappa(y)$. Let $\mathcal{E}_{y}$ be a locally free $\mathcal{O}_{X_{y}}$-module such that*
 
-$$ H^{1}(X_{y}, \operatorname{Hom}_{\mathcal{O}_{X_{y}}}(\mathcal{E}_{y}, \mathcal{E}_{y})) = 0. (4.6.4.1) $$
+$$ H^{1}(X_{y}, \operatorname{Hom}_{\mathcal{O}_{X_{y}}}(\mathcal{E}_{y}, \mathcal{E}_{y})) = 0. \tag{4.6.4.1} $$
 
 *Let $\mathcal{F}$, $\mathcal{G}$ be two locally free $\mathcal{O}_{X}$-modules such that $\mathcal{F}_{y}$ and
 $\mathcal{G}_{y}$ (with the notation of (4.6.2)) are isomorphic to $\mathcal{E}_{y}$. Then there exists an open
@@ -1322,42 +1277,46 @@ and $u$ is injective.*
 every injective $A$-homomorphism $v : P \to Q$, $1_{N} \otimes v : N \otimes_{A} P \to N \otimes_{A} Q$ is injective.
 Now, we have the commutative diagram
 
-```text
-  N ⊗_A P ───^{1_N ⊗ v}───→ N ⊗_A Q
-      ↓ u ⊗ 1_P                  ↓ u ⊗ 1_Q
-  M ⊗_A P ───^{1_M ⊗ v}───→ M ⊗_A Q
-```
+$$
+\begin{array}{ccc}
+N \otimes_A P & \xrightarrow{1_N \otimes v} & N \otimes_A Q \\
+\downarrow{\scriptstyle u \otimes 1_P} & & \downarrow{\scriptstyle u \otimes 1_Q} \\
+M \otimes_A P & \xrightarrow{1_M \otimes v} & M \otimes_A Q
+\end{array}
+$$
 
 and since $1_{M} \otimes v$ is injective by hypothesis, it suffices to prove the same for $u \otimes 1_{P}$. Let
 $\mathfrak{m}$ be the maximal ideal of $A$; the $\mathfrak{m}$-adic filtration on the $A$-module $N \otimes_{A} P$ is
 also its $\mathfrak{m}B$-adic filtration as a $B$-module; the topology defined by this filtration is therefore
 separated, since $B$ is Noetherian, $\mathfrak{m}B$ is contained in the radical of $B$, and $N \otimes_{A} P$ is a
 $B$-module of finite type, $N$ being a $B$-module of finite type and $P$ an $A$-module of finite type $(0_{I}, 7.3.5)$.
-It therefore suffices to prove that the homomorphism $gr(u \otimes 1_{P}) : gr_{\bullet}(N \otimes_{A} P) \to
-gr_{\bullet}(M \otimes_{A} P)$ (where the graded modules are relative to the $\mathfrak{m}$-adic filtrations) is
-injective (Bourbaki, *Alg. comm.*, chap. III, § 2, n° 8, cor. 1 of th. 1). Note now that since $M$ is a flat $A$-module,
-the homomorphisms $M \otimes_{A} (\mathfrak{m}^{n} P) \to \mathfrak{m}^{n}(M \otimes_{A} P)$ are bijective; the same
-therefore holds for the canonical homomorphism
+It therefore suffices to prove that the homomorphism $\operatorname{gr}(u \otimes 1_{P}) : \operatorname{gr}_{\bullet}(N
+\otimes_{A} P) \to \operatorname{gr}_{\bullet}(M \otimes_{A} P)$ (where the graded modules are relative to the
+$\mathfrak{m}$-adic filtrations) is injective (Bourbaki, *Alg. comm.*, chap. III, § 2, n° 8, cor. 1 of th. 1). Note now
+that since $M$ is a flat $A$-module, the homomorphisms $M \otimes_{A} (\mathfrak{m}^{n} P) \to \mathfrak{m}^{n}(M
+\otimes_{A} P)$ are bijective; the same therefore holds for the canonical homomorphism
 
-```text
-  φ_M : gr_0(M) ⊗_A gr_•(P) → gr_•(M ⊗_A P).
-```
+$$ \varphi_M : \operatorname{gr}_0(M) \otimes_A \operatorname{gr}_{\bullet}(P) \to \operatorname{gr}_{\bullet}(M
+\otimes_A P). $$
 
 <!-- original page 144 -->
 
 Now we have a commutative diagram
 
-```text
-  gr_0(N) ⊗_A gr_•(P) ──^{gr(u) ⊗ 1}──→ gr_0(M) ⊗_A gr_•(P)
-        ↓ φ_N                                      ↓ φ_M
-  gr_•(N ⊗_A P)       ──^{gr(u ⊗ 1_P)}──→ gr_•(M ⊗_A P)
-```
+$$
+\begin{array}{ccc}
+\operatorname{gr}_0(N) \otimes_A \operatorname{gr}_{\bullet}(P) & \xrightarrow{\operatorname{gr}(u) \otimes 1} & \operatorname{gr}_0(M) \otimes_A \operatorname{gr}_{\bullet}(P) \\
+\downarrow{\scriptstyle \varphi_N} & & \downarrow{\scriptstyle \varphi_M} \\
+\operatorname{gr}_{\bullet}(N \otimes_A P) & \xrightarrow{\operatorname{gr}(u \otimes 1_P)} & \operatorname{gr}_{\bullet}(M \otimes_A P)
+\end{array}
+$$
 
-in which $\phi_{M}$ is bijective, $\phi_{N}$ surjective; moreover, $gr(u)$ is injective by hypothesis, and since
-$gr_{0}(N) \otimes_{A} gr_{\bullet}(P) = gr_{0}(N) \otimes_{k} gr_{\bullet}(P)$, $gr_{0}(M) \otimes_{A} gr_{\bullet}(P)
-= gr_{0}(M) \otimes_{k} gr_{\bullet}(P)$, $gr(u) \otimes 1$ is also injective. We conclude that $gr(u \otimes 1)$ is
-injective, which completes the proof of the first assertion. The second is deduced from the preceding reasoning on
-taking $P = A$.
+in which $\phi_{M}$ is bijective, $\phi_{N}$ surjective; moreover, $\operatorname{gr}(u)$ is injective by hypothesis,
+and since $\operatorname{gr}_{0}(N) \otimes_{A} \operatorname{gr}_{\bullet}(P) = \operatorname{gr}_{0}(N) \otimes_{k}
+\operatorname{gr}_{\bullet}(P)$, $\operatorname{gr}_{0}(M) \otimes_{A} \operatorname{gr}_{\bullet}(P) =
+\operatorname{gr}_{0}(M) \otimes_{k} \operatorname{gr}_{\bullet}(P)$, $\operatorname{gr}(u) \otimes 1$ is also
+injective. We conclude that $\operatorname{gr}(u \otimes 1)$ is injective, which completes the proof of the first
+assertion. The second is deduced from the preceding reasoning on taking $P = A$.
 
 **Proposition (4.6.8).**
 
@@ -1379,15 +1338,16 @@ are thus reduced to the case where $Y = Z$, $Y = \operatorname{Spec}(A)$ being a
 `(II, 5.4.3)`, there exists an open neighbourhood $U$ of $y$ such that the restriction $f^{-1}(U) \to U$ of $f$ is a
 finite morphism (4.4.11). We may therefore already suppose that $f$ is a finite morphism, hence $X =
 \operatorname{Spec}(B)$, where $B$ is an $A$-algebra finite over $A$. If $Y' = V(\mathfrak{J})$, we then have
-$\mathfrak{Y} = Spf(\hat{A})$, $\mathfrak{X} = Spf(\hat{B})$, `Â` being the Hausdorff completion of $A$ for the
-$\mathfrak{J}$-preadic topology, $\hat{B}$ the Hausdorff completion of $B$ for the $\mathfrak{J}B$-preadic topology, or
-(which amounts to the same thing), the Hausdorff completion of the $A$-module $B$ for the $\mathfrak{J}$-preadic
-topology; moreover, $\hat{\mathit{f}}$ is the morphism of affine formal schemes corresponding to the continuous
-extension $\hat{\phi} : \hat{A} \to \hat{B}$ of the canonical homomorphism of rings $\phi : A \to B$, and the hypothesis
-is that $\hat{\phi}$ is surjective (resp. bijective) `(I, 10.14.2)`. Now, $\hat{\phi}$ is also the continuous extension
-of $\phi$ considered as a homomorphism of $A$-modules; we know then `(I, 10.8.14)` that there exists an open
-neighbourhood $U$ of $Y'$ such that the restriction to $U$ of the homomorphism $\tilde{\phi} : \tilde{A} \to \tilde{B}$
-of $\mathcal{O}_{Y}$-modules is surjective (resp. bijective), which completes the proof.
+$\mathfrak{Y} = \operatorname{Spf}(\hat{A})$, $\mathfrak{X} = \operatorname{Spf}(\hat{B})$, `Â` being the Hausdorff
+completion of $A$ for the $\mathfrak{J}$-preadic topology, $\hat{B}$ the Hausdorff completion of $B$ for the
+$\mathfrak{J}B$-preadic topology, or (which amounts to the same thing), the Hausdorff completion of the $A$-module $B$
+for the $\mathfrak{J}$-preadic topology; moreover, $\hat{\mathit{f}}$ is the morphism of affine formal schemes
+corresponding to the continuous extension $\hat{\phi} : \hat{A} \to \hat{B}$ of the canonical homomorphism of rings
+$\phi : A \to B$, and the hypothesis is that $\hat{\phi}$ is surjective (resp. bijective) `(I, 10.14.2)`. Now,
+$\hat{\phi}$ is also the continuous extension of $\phi$ considered as a homomorphism of $A$-modules; we know then
+`(I, 10.8.14)` that there exists an open neighbourhood $U$ of $Y'$ such that the restriction to $U$ of the homomorphism
+$\tilde{\phi} : \tilde{A} \to \tilde{B}$ of $\mathcal{O}_{Y}$-modules is surjective (resp. bijective), which completes
+the proof.
 
 <!-- original page 145 -->
 
@@ -1409,11 +1369,13 @@ I) Set $Y' = \operatorname{Spec}(\mathcal{O}_{y})$, $X' = X \times_{Y} Y'$, and 
 \otimes_{\mathcal{O}_{X}} \mathcal{L}$; we shall first prove that $\mathcal{L}'$ is ample for $f' = f_{(Y')}$. We have
 the commutative diagram
 
-```text
-  X ←──── X' ←──── X_y
-  ↓ f      ↓ f'      ↓
-  Y ←──── Y' ←──── Spec(κ(y))
-```
+$$
+\begin{array}{ccccc}
+X & \leftarrow & X' & \leftarrow & X_y \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle f'} & & \downarrow \\
+Y & \leftarrow & Y' & \leftarrow & \operatorname{Spec}(\kappa(y))
+\end{array}
+$$
 
 Since $f'$ is proper `(II, 5.4.2, (iii))` and $\mathcal{O}_{y}$ Noetherian, we see that we may restrict to the case
 where $Y = Y' = \operatorname{Spec}(\mathcal{O}_{y})$, hence $X = X'$, suppose $\mathcal{L}_{y}$ ample for $f_{y}$, and
@@ -1423,19 +1385,19 @@ show that for every coherent $\mathcal{O}_{X}$-module $\mathcal{F}$, there exist
 \mathcal{L}^{\otimes n}$. Note that $y$ is a closed point of $Y$ corresponding to the maximal ideal $\mathfrak{m}$ of
 $\mathcal{O}_{y}$; $X_{y}$ is therefore a closed subprescheme of $X$ defined by the coherent ideal $\mathcal{J} =
 f^{*}(\tilde{\mathfrak{m}}) \mathcal{O}_{X} = \mathfrak{m} \mathcal{O}_{X}$ of $\mathcal{O}_{X}$ `(I, 4.4.5)`, and $q$
-the canonical injection. Consider then the graded $\kappa(y)$-algebra $S = gr(\mathcal{O}_{y}) = \oplus_{k \geq 0}
-\mathfrak{m}^{k} / \mathfrak{m}^{k+1}$, which is of finite type since $\mathcal{O}_{y}$ is Noetherian; the
-$\mathcal{O}_{X}$-algebra $\mathcal{S} = f^{*}(\tilde{S})$ is therefore quasi-coherent and of finite type, and it is
+the canonical injection. Consider then the graded $\kappa(y)$-algebra $S = \operatorname{gr}(\mathcal{O}_{y}) =
+\oplus_{k \geq 0} \mathfrak{m}^{k} / \mathfrak{m}^{k+1}$, which is of finite type since $\mathcal{O}_{y}$ is Noetherian;
+the $\mathcal{O}_{X}$-algebra $\mathcal{S} = f^{*}(\tilde{S})$ is therefore quasi-coherent and of finite type, and it is
 obviously annihilated by $\mathcal{J}$, so if we set $\mathcal{S}_{y} = q^{*}(\mathcal{S})$, $\mathcal{S}_{y}$ is a
 quasi-coherent $\mathcal{O}_{X_{y}}$-algebra of finite type, and $\mathcal{S}_{y} = \tilde{q}^{*}(\tilde{S})$. Set, on
 the other hand, $\mathcal{M}_{k} = \mathfrak{m}^{k} \mathcal{F} / \mathfrak{m}^{k+1} \mathcal{F}$ and $\mathcal{M} =
-\oplus_{k \geq 0} \mathcal{M}_{k} = gr(\mathcal{F})$; since $\mathcal{F}$ is coherent, $\mathcal{M}$ is a quasi-coherent
-$\mathcal{O}_{X}$-module of finite type $(0_{III}, 10.1.1)$ which is also annihilated by $\mathcal{J}$, so if we set
-$\mathcal{M}_{y} = q^{*}(\mathcal{M})$, $\mathcal{M}_{y} = q^{*}(\mathcal{M}) = \oplus_{j} \mathcal{M}'_{j}$ is a
-quasi-coherent graded $\mathcal{S}_{y}$-module of finite type such that $\mathcal{M} = q_{*}(\mathcal{M}_{y})$.
-Moreover, if we set $\mathcal{M}_{y}(n) = \mathcal{M}_{y} \otimes_{\mathcal{O}_{X_{y}}} \mathcal{L}^{\otimes n}_{y}$, we
-have $\mathcal{M}_{y}(n) = q^{*}(\mathcal{M}(n))$. This being so, $f_{y}$ is proper `(II, 5.4.2, (iii))` and
-$\mathcal{L}_{y}$ ample, so $f_{y}$ is projective `(II, 5.5.4 and 4.6.11)`, and we may apply to
+\oplus_{k \geq 0} \mathcal{M}_{k} = \operatorname{gr}(\mathcal{F})$; since $\mathcal{F}$ is coherent, $\mathcal{M}$ is a
+quasi-coherent $\mathcal{O}_{X}$-module of finite type $(0_{III}, 10.1.1)$ which is also annihilated by $\mathcal{J}$,
+so if we set $\mathcal{M}_{y} = q^{*}(\mathcal{M})$, $\mathcal{M}_{y} = q^{*}(\mathcal{M}) = \oplus_{j}
+\mathcal{M}'_{j}$ is a quasi-coherent graded $\mathcal{S}_{y}$-module of finite type such that $\mathcal{M} =
+q_{*}(\mathcal{M}_{y})$. Moreover, if we set $\mathcal{M}_{y}(n) = \mathcal{M}_{y} \otimes_{\mathcal{O}_{X_{y}}}
+\mathcal{L}^{\otimes n}_{y}$, we have $\mathcal{M}_{y}(n) = q^{*}(\mathcal{M}(n))$. This being so, $f_{y}$ is proper
+`(II, 5.4.2, (iii))` and $\mathcal{L}_{y}$ ample, so $f_{y}$ is projective `(II, 5.5.4 and 4.6.11)`, and we may apply to
 $\operatorname{Spec}(\kappa(y))$, $f_{y}$, $\mathcal{S}_{y}$, $\mathcal{L}_{y}$ and $\mathcal{M}_{y}$ the theorem
 `(2.4.1, (ii))`: there exists an integer $N$ such that for $n \geq N$, we have $H^{q}(X_{y}, \mathcal{M}_{y}(n)) = 0$
 for every $q > 0$ and every $j$; consequently, we also have $H^{q}(X, \mathcal{M}_{j}(n)) = 0$ for every $q > 0$ and
@@ -1466,10 +1428,10 @@ $\mathfrak{p}_{y}$; we conclude that there exists an affine open neighbourhood $
 $f_{*}(\mathcal{L}) \mid V$ such that $s'_{i} = s_{i} / 1$ (recall that the space $Y'$ is contained in $V$, cf.
 `I, 2.4.2`). The $s_{i}$ are then sections of $\mathcal{L}$ over $f^{-1}(V)$, defining therefore a homomorphism $v :
 (\mathcal{O}_{X} \mid f^{-1}(V))^{r+1} \to \mathcal{L} \mid f^{-1}(V)$ which, by hypothesis, is surjective at every
-point of $f^{-1}(y)$; since $Coker(v)$ is coherent $(0_{I}, 5.3.4)$, its support is closed $(0_{I}, 5.2.2)$ and
-consequently there exists an open neighbourhood $W \subset f^{-1}(V)$ of $f^{-1}(y)$ such that the restriction of $v$ to
-$W$ is a surjective homomorphism. Since the morphism $f$ is closed, we may suppose that $W$ is of the form $f^{-1}(U)$,
-where $U$ is an open neighbourhood of $y$, and the conclusion then follows from `(II, 4.2.3)`.
+point of $f^{-1}(y)$; since $\operatorname{Coker}(v)$ is coherent $(0_{I}, 5.3.4)$, its support is closed $(0_{I},
+5.2.2)$ and consequently there exists an open neighbourhood $W \subset f^{-1}(V)$ of $f^{-1}(y)$ such that the
+restriction of $v$ to $W$ is a surjective homomorphism. Since the morphism $f$ is closed, we may suppose that $W$ is of
+the form $f^{-1}(U)$, where $U$ is an open neighbourhood of $y$, and the conclusion then follows from `(II, 4.2.3)`.
 
 ## 4.8. Finite morphisms of formal preschemes
 
@@ -1492,18 +1454,18 @@ an affine formal open set and that $\Gamma(f^{-1}(V), \mathcal{O}_{\mathfrak{X}}
 \mathcal{O}_{\mathfrak{Y}})$-module of finite type.*
 
 **Proof.** It is immediate that a) implies b) by virtue of `(I, 10.12.3)`. To see that b) implies c), we may suppose
-that $\mathfrak{Y} = Spf(B)$, where $B$ is adic Noetherian and $\mathcal{K} = \tilde{\mathfrak{J}}$, where
-$\mathfrak{J}$ is an ideal of definition of $B$. By hypothesis, `X_0` is an affine scheme whose ring `A_0` is a
+that $\mathfrak{Y} = \operatorname{Spf}(B)$, where $B$ is adic Noetherian and $\mathcal{K} = \tilde{\mathfrak{J}}$,
+where $\mathfrak{J}$ is an ideal of definition of $B$. By hypothesis, `X_0` is an affine scheme whose ring `A_0` is a
 $B/\mathfrak{J}$-module of finite type `(II, 6.1.3)`. By virtue of `(I, 5.1.9)`, each of the $X_{n}$ is an affine
 scheme, and if $A_{n}$ is its ring, hypothesis b) implies that for $m \leq n$, $A_{m}$ is isomorphic to $A_{n} /
-\mathfrak{J}^{m+1} A_{n}$. We deduce that $\mathfrak{X}$ is isomorphic to $Spf(A)$, where $A = \varprojlim A_{n}$; one
-concludes by virtue of $(0_{I}, 7.2.9)$. Finally, to prove that c)
+\mathfrak{J}^{m+1} A_{n}$. We deduce that $\mathfrak{X}$ is isomorphic to $\operatorname{Spf}(A)$, where $A =
+\varprojlim A_{n}$; one concludes by virtue of $(0_{I}, 7.2.9)$. Finally, to prove that c)
 
 <!-- original page 147 -->
 
-implies a), we may again restrict to the case where $\mathfrak{Y} = Spf(B)$, $\mathfrak{X} = Spf(A)$, $A$ being a finite
-$B$-algebra; since $A / \mathfrak{J}A$ is then a finite $B/\mathfrak{J}$-algebra, it follows from `(I, 10.10.9)` that
-the conditions of a) are satisfied.
+implies a), we may again restrict to the case where $\mathfrak{Y} = \operatorname{Spf}(B)$, $\mathfrak{X} =
+\operatorname{Spf}(A)$, $A$ being a finite $B$-algebra; since $A / \mathfrak{J}A$ is then a finite
+$B/\mathfrak{J}$-algebra, it follows from `(I, 10.10.9)` that the conditions of a) are satisfied.
 
 **Definition (4.8.2).**
 
@@ -1562,10 +1524,10 @@ $f_{*}(\mathcal{O}_{\mathfrak{X}})$ is a coherent $\mathcal{O}_{\mathfrak{Y}}$-a
 **Proof.** One may consider $f$ as the inductive limit of an inductive system $(f_{n})$ of morphisms $f_{n} : X_{n} \to
 Y_{n}$; we shall show that the $f_{n}$ are finite morphisms and that $f_{*}(\mathcal{O}_{\mathfrak{X}})$ is isomorphic
 to the projective limit of the $(f_{n})_{*}(\mathcal{O}_{X_{n}})$, which will establish our assertion `(I, 10.10.5)`. It
-suffices to restrict to the case where $\mathfrak{Y} = Spf(B)$, $\mathfrak{X} = Spf(A)$, and to remark that if
-$\mathfrak{J}$ is an ideal of definition of $B$ and $A$ a $B$-module of finite type, $A / \mathfrak{J}^{n+1} A$ is a
-module of finite type over $B / \mathfrak{J}^{n+1} B$, and that $A$ is the projective limit of the $A /
-\mathfrak{J}^{n+1} A$.
+suffices to restrict to the case where $\mathfrak{Y} = \operatorname{Spf}(B)$, $\mathfrak{X} = \operatorname{Spf}(A)$,
+and to remark that if $\mathfrak{J}$ is an ideal of definition of $B$ and $A$ a $B$-module of finite type, $A /
+\mathfrak{J}^{n+1} A$ is a module of finite type over $B / \mathfrak{J}^{n+1} B$, and that $A$ is the projective limit
+of the $A / \mathfrak{J}^{n+1} A$.
 
 Conversely:
 
@@ -1588,11 +1550,13 @@ $Y_{n}$-prescheme finite $X_{n} = \operatorname{Spec}(\mathcal{A}_{n})$ `(II, 6.
 surjective homomorphism $h_{nm} : \mathcal{A}_{n} \to \mathcal{A}_{m}$ defines a morphism $u_{nm} : X_{m} \to X_{n}$
 such that the diagram
 
-```text
-  X_m ──^{u_{nm}}──→ X_n
-   ↓ f_m              ↓ f_n
-  Y_m ──────────────→ Y_n
-```
+$$
+\begin{array}{ccc}
+X_m & \xrightarrow{u_{nm}} & X_n \\
+\downarrow{\scriptstyle f_m} & & \downarrow{\scriptstyle f_n} \\
+Y_m & \longrightarrow & Y_n
+\end{array}
+$$
 
 ($f_{n}$ being the structure morphism) is commutative and identifies $X_{m}$ with the product $X_{n} \times_{Y_{n}}
 Y_{m}$, as one sees immediately `(II, 1.4.6)`. The formal prescheme $\mathfrak{X}$, inductive limit of the inductive
@@ -1615,13 +1579,14 @@ f_{*}(\mathcal{O}_{\mathfrak{X}}))$ (1).*
 > $f'_{*}(\mathcal{O}_{\mathfrak{X}'}) \to f_{*}(\mathcal{O}_{\mathfrak{X}})$.
 
 **Proof.** The definition of this map $h \mapsto \mathcal{A}(h)$ is the same as in `(II, 1.1.2)`, and to see that it is
-bijective, we are immediately reduced to the case where $\mathfrak{Y} = Spf(B)$ is a Noetherian affine formal scheme.
-But then $\mathfrak{X} = Spf(A)$, $\mathfrak{X}' = Spf(A')$, where $A$ and $A'$ are two finite $B$-algebras and
-$f_{*}(\mathcal{O}_{\mathfrak{X}}) = A^{\Delta}$, $f'_{*}(\mathcal{O}_{\mathfrak{X}'}) = A'^{\Delta}$. The conclusion
-then results from the one-to-one correspondence, on the one hand between the $\mathfrak{Y}$-morphisms $\mathfrak{X} \to
-\mathfrak{X}'$ and the $B$-homomorphisms (necessarily continuous) $A' \to A$ which are homomorphisms of algebras
-`(I, 10.2.2)`, and on the other hand between the homomorphisms of $B$-modules $A' \to A$ and the homomorphisms of
-$\mathcal{O}_{\mathfrak{Y}}$-modules $A'^{\Delta} \to A^{\Delta}$ `(I, 10.10.2.3)`.
+bijective, we are immediately reduced to the case where $\mathfrak{Y} = \operatorname{Spf}(B)$ is a Noetherian affine
+formal scheme. But then $\mathfrak{X} = \operatorname{Spf}(A)$, $\mathfrak{X}' = \operatorname{Spf}(A')$, where $A$ and
+$A'$ are two finite $B$-algebras and $f_{*}(\mathcal{O}_{\mathfrak{X}}) = A^{\Delta}$,
+$f'_{*}(\mathcal{O}_{\mathfrak{X}'}) = A'^{\Delta}$. The conclusion then results from the one-to-one correspondence, on
+the one hand between the $\mathfrak{Y}$-morphisms $\mathfrak{X} \to \mathfrak{X}'$ and the $B$-homomorphisms
+(necessarily continuous) $A' \to A$ which are homomorphisms of algebras `(I, 10.2.2)`, and on the other hand between the
+homomorphisms of $B$-modules $A' \to A$ and the homomorphisms of $\mathcal{O}_{\mathfrak{Y}}$-modules $A'^{\Delta} \to
+A^{\Delta}$ `(I, 10.10.2.3)`.
 
 **Corollary (4.8.9).**
 

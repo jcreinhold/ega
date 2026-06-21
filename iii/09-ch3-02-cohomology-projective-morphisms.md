@@ -11,32 +11,24 @@
 Let $X$ be a prescheme and $\mathcal{L}$ an invertible $\mathcal{O}_{X}$-module; consider the graded ring $(0_{I},
 5.4.6)$
 
-```text
-  S = Γ_*(X, ℒ) = ⊕_{n ∈ ℤ} Γ(X, ℒ^{⊗n}).                                    (2.1.1.1)
-```
+$$ S = \Gamma_{*}(X, \mathcal{L}) = \bigoplus_{n \in \mathbf{Z}} \Gamma(X, \mathcal{L}^{\otimes n}). \tag{2.1.1.1} $$
 
 Let $(f_{i})_{1 \leq i \leq r}$ be a finite family of homogeneous elements of $S$, with $f_{i} \in S_{d_{i}}$; set
 
-```text
-  U_i = X_{f_i},   U = ⋃_i U_i,
-```
+$$ U_i = X_{f_i}, \quad U = \bigcup_i U_i, $$
 
 and denote by $\mathfrak{U}$ the cover $(U_{i})$ of $U$. For every quasi-coherent $\mathcal{O}_{X}$-module
 $\mathcal{F}$, set
 
-```text
-  H^•(𝔘, ℱ(*)) = ⊕_{n ∈ ℤ} H^•(𝔘, ℱ ⊗ ℒ^{⊗n})                                (2.1.1.2)
-```
+$$ H^{\bullet}(\mathfrak{U}, \mathcal{F}(*)) = \bigoplus_{n \in \mathbf{Z}} H^{\bullet}(\mathfrak{U}, \mathcal{F}
+\otimes \mathcal{L}^{\otimes n}) \tag{2.1.1.2} $$
 
-```text
-  H^•(U, ℱ(*)) = ⊕_{n ∈ ℤ} H^•(U, ℱ ⊗ ℒ^{⊗n}).                               (2.1.1.3)
-```
+$$ H^{\bullet}(U, \mathcal{F}(*)) = \bigoplus_{n \in \mathbf{Z}} H^{\bullet}(U, \mathcal{F} \otimes \mathcal{L}^{\otimes
+n}). \tag{2.1.1.3} $$
 
 The abelian groups `(2.1.1.2)` and `(2.1.1.3)` are *bigraded*, by setting
 
-```text
-  (H^•(𝔘, ℱ(*)))^{m,n} = H^m(𝔘, ℱ ⊗ ℒ^{⊗n})
-```
+$$ (H^{\bullet}(\mathfrak{U}, \mathcal{F}(*)))^{m,n} = H^m(\mathfrak{U}, \mathcal{F} \otimes \mathcal{L}^{\otimes n}) $$
 
 and an analogous definition for `(2.1.1.3)`. For the second degree, it is clear that these groups are graded
 $S$-modules, as follows for instance from the fact that $\mathcal{F} \mapsto H^{p}(\mathfrak{U}, \mathcal{F})$ and
@@ -48,18 +40,15 @@ $\mathcal{F} \mapsto H^{p}(U, \mathcal{F})$ are functors.
 
 Consider now the graded $S$-module $(0_{I}, 5.4.6)$
 
-```text
-  M = Γ_*(ℱ) = H^0(X, ℱ(*)) = ⊕_{n ∈ ℤ} Γ(X, ℱ ⊗ ℒ^{⊗n}).                    (2.1.2.1)
-```
+$$ M = \Gamma_{*}(\mathcal{F}) = H^0(X, \mathcal{F}(*)) = \bigoplus_{n \in \mathbf{Z}} \Gamma(X, \mathcal{F} \otimes
+\mathcal{L}^{\otimes n}). \tag{2.1.2.1} $$
 
 <!-- original page 96 -->
 
 If $X$ is a prescheme whose underlying space is Noetherian, or a quasi-compact scheme, it follows from `(I, 9.3.1)`
 that, setting as usual $U_{i_{0} \cdots i_{p}} = \bigcap^{p}_{k=0} U_{i_{k}}$, we have, up to a canonical isomorphism,
 
-```text
-  Γ(U_{i_0 … i_p}, ℱ(*)) = H^0(U_{i_0 … i_p}, ℱ(*)) = M_{f_{i_0} … f_{i_p}}.
-```
+$$ \Gamma(U_{i_0 \ldots i_p}, \mathcal{F}(*)) = H^0(U_{i_0 \ldots i_p}, \mathcal{F}(*)) = M_{f_{i_0} \ldots f_{i_p}}. $$
 
 One can also, with the notation of `(1.2.2)`, identify $M_{f_{i_{0}} \cdots f_{i_{p}}}$ with $\varinjlim M^{(n)}_{i_{0}
 \cdots i_{p}}$. This identification is an isomorphism of graded $S$-modules, provided that one defines the degree of a
@@ -71,15 +60,11 @@ definition does not depend on the "representative" $x$ of $\xi$ chosen. Denoting
 set of alternating maps from $[1, r]^{p+1}$ to $M$ (for every $n$), one defines in the same way as above a structure of
 graded $S$-module on $\varinjlim C^{p}_{a}(M)$; one has again as in `(1.2.2)`
 
-```text
-  C^p(𝔘, ℱ(*)) = lim_→ C^p_a(M),                                              (2.1.2.2)
-```
+$$ C^p(\mathfrak{U}, \mathcal{F}(*)) = \varinjlim C^p_a(M), \tag{2.1.2.2} $$
 
 the isomorphism of the two sides preserving degrees. One then has, as in `(1.2.2)`,
 
-```text
-  C'^p(𝔘, ℱ(*)) = C^{p+1}_a(𝐟, M) = lim_→ K^{p+1}(𝐟^n, M),                    (2.1.2.3)
-```
+$$ C'^p(\mathfrak{U}, \mathcal{F}(*)) = C^{p+1}_a(\mathbf{f}, M) = \varinjlim K^{p+1}(\mathbf{f}^n, M), \tag{2.1.2.3} $$
 
 the isomorphism preserving degrees: the degree of an element of $\varinjlim K^{p+1}(\mathbf{f}^{n}, M)$, the canonical
 image of a cochain $\zeta \in K^{p+1}(\mathbf{f}^{n}, M)$ whose values $\zeta(i_{0}, \cdots, i_{p})$ lie in a single
@@ -96,15 +81,12 @@ following.
 *Let $X$ be a prescheme whose underlying space is Noetherian, or a quasi-compact scheme. There exists a canonical
 isomorphism, functorial in $\mathcal{F}$,*
 
-```text
-  H^p(𝔘, ℱ(*)) ⥲ H^{p+1}(𝐟, M)                              for every p ≥ 1.   (2.1.3.1)
-```
+$$ H^p(\mathfrak{U}, \mathcal{F}(*)) \xrightarrow{\sim} H^{p+1}(\mathbf{f}, M) \quad \text{for every } p \ge 1.
+\tag{2.1.3.1} $$
 
 *Moreover, one has an exact sequence functorial in $\mathcal{F}$*
 
-```text
-  0 → H^0(𝐟, M) → M → H^0(𝔘, ℱ(*)) → H^1(𝐟, M) → 0.                          (2.1.3.2)
-```
+$$ 0 \to H^0(\mathbf{f}, M) \to M \to H^0(\mathfrak{U}, \mathcal{F}(*)) \to H^1(\mathbf{f}, M) \to 0. \tag{2.1.3.2} $$
 
 *Furthermore, all the homomorphisms introduced are of degree `0` for the graded $S$-module structures ($S$ being the
 ring `(2.1.1.1)`).*
@@ -118,15 +100,11 @@ ring `(2.1.1.1)`).*
 *If $X$ is a quasi-compact scheme and the $U_{i} = X_{f_{i}}$ are affine, there exists a canonical isomorphism,
 functorial in $\mathcal{F}$, of degree `0`,*
 
-```text
-  H^p(U, ℱ(*)) ⥲ H^{p+1}(𝐟, M)                              for p ≥ 1         (2.1.4.1)
-```
+$$ H^p(U, \mathcal{F}(*)) \xrightarrow{\sim} H^{p+1}(\mathbf{f}, M) \quad \text{for } p \ge 1 \tag{2.1.4.1} $$
 
 *and an exact sequence functorial in $\mathcal{F}$*
 
-```text
-  0 → H^0(𝐟, M) → M → H^0(U, ℱ(*)) → H^1(𝐟, M) → 0                           (2.1.4.2)
-```
+$$ 0 \to H^0(\mathbf{f}, M) \to M \to H^0(U, \mathcal{F}(*)) \to H^1(\mathbf{f}, M) \to 0 \tag{2.1.4.2} $$
 
 *where all homomorphisms are of degree `0`.*
 
@@ -143,15 +121,11 @@ $d_{i}$, $M$ a graded $S$-module. Let $X = \operatorname{Proj}(S)$ be the homoge
 $U_{i} = D_{+}(f_{i})$, $U = \bigcup U_{i}$, $H^{\bullet}(U, \tilde{M}(*)) = \oplus_{n} H^{\bullet}(U, (M(n))\sim)$.
 There then exist canonical isomorphisms functorial in $M$, of degree `0` for the graded $S$-module structures,*
 
-```text
-  H^p(U, M̃(*)) ⥲ H^{p+1}(𝐟, M)                             for p ≥ 1         (2.1.5.1)
-```
+$$ H^p(U, \tilde{M}(*)) \xrightarrow{\sim} H^{p+1}(\mathbf{f}, M) \quad \text{for } p \ge 1 \tag{2.1.5.1} $$
 
 *and an exact sequence functorial in $M$*
 
-```text
-  0 → H^0(𝐟, M) → M → H^0(U, M̃(*)) → H^1(𝐟, M) → 0                          (2.1.5.2)
-```
+$$ 0 \to H^0(\mathbf{f}, M) \to M \to H^0(U, \tilde{M}(*)) \to H^1(\mathbf{f}, M) \to 0 \tag{2.1.5.2} $$
 
 *where all homomorphisms are of degree `0`.*
 
@@ -168,13 +142,13 @@ virtue of $(0_{I}, 1.3.2)$; the same reasoning as in `(1.2.5)` then shows that i
 exact sequence of graded $S$-modules (where the homomorphisms are of degree `0`), one has commutative diagrams for every
 $p \geq 0$
 
-```text
-  H^p(U, M̃''(*))    →    H^{p+1}(U, M̃'(*))
-
-      ↓                          ↓
-
-  H^{p+1}(𝐟, M'')   →    H^{p+2}(𝐟, M')                                      (2.1.6.1)
-```
+$$
+\begin{array}{ccc}
+H^p(U, \tilde{M}''(*)) & \to & H^{p+1}(U, \tilde{M}'(*)) \\
+\downarrow & & \downarrow \\
+H^{p+1}(\mathbf{f}, M'') & \to & H^{p+2}(\mathbf{f}, M')
+\end{array} \tag{2.1.6.1}
+$$
 
 (ii) Proposition `(2.1.5)` will be especially interesting when $S$ is an $A$-algebra generated by a finite number of
 elements of degree `1`, $A$ being assumed Noetherian; for
@@ -197,11 +171,9 @@ $H^{\bullet}(\mathbf{T}, S)$, where $\mathbf{T} = (T_{i})_{0 \leq i \leq r}$.
 
 *If $S = A[T_{0}, \cdots, T_{r}]$, one has, with $\mathbf{T} = (T_{i})_{0 \leq i \leq r}$,*
 
-```text
-  H^i(𝐓^n, S) = 0                                          if i ≠ r + 1      (2.1.8.1)
-```
+$$ H^i(\mathbf{T}^n, S) = 0 \quad \text{if } i \neq r + 1 \tag{2.1.8.1} $$
 
-$$ H^{r+1}(\mathbf{T}^{n}, S) = S/(\mathbf{T}^{n}). (2.1.8.2) $$
+$$ H^{r+1}(\mathbf{T}^{n}, S) = S/(\mathbf{T}^{n}). \tag{2.1.8.2} $$
 
 *The $A$-module $H^{r+1}(\mathbf{T}^{n}, S)$ thus has a basis over $A$ formed of the classes mod. $(\mathbf{T}^{n})$ of
 the monomials $\mathbf{T}^{\mathbf{p}} = T^{p_{0}}_{0} \cdots T^{p_{r}}_{r}$ with $\mathbf{p} = (p_{0}, \cdots, p_{r})$,
@@ -231,9 +203,7 @@ for $0 < p_{i} \leq n$ and $0 \leq i \leq r$ form a basis of $S/(\mathbf{T}^{n})
 
 *With the notation of `(2.1.8)`, one has*
 
-```text
-  H^i(𝐓, S) = 0                                            for i ≠ r + 1     (2.1.10.1)
-```
+$$ H^i(\mathbf{T}, S) = 0 \quad \text{for } i \neq r + 1 \tag{2.1.10.1} $$
 
 *and $H^{r+1}(\mathbf{T}, S)$ is a free $A$-module with a basis formed of the elements $\xi_{p_{0}, \cdots, p_{r}}$ such
 that $p_{i} > 0$ for $0 \leq i \leq r$.*
@@ -245,13 +215,9 @@ that $p_{i} > 0$ for $0 \leq i \leq r$.*
 Let $N$ be an arbitrary $A$-module and set $M = S \otimes_{A} N$; the reasoning of `(2.1.8)` shows that one has more
 generally
 
-```text
-  H^i(𝐓^n, M) = 0                                          if i ≠ r + 1      (2.1.11.1)
-```
+$$ H^i(\mathbf{T}^n, M) = 0 \quad \text{if } i \neq r + 1 \tag{2.1.11.1} $$
 
-```text
-  H^{r+1}(𝐓^n, M) = (S/(𝐓^n)) ⊗_A N,                                         (2.1.11.2)
-```
+$$ H^{r+1}(\mathbf{T}^n, M) = (S/(\mathbf{T}^n)) \otimes_A N, \tag{2.1.11.2} $$
 
 since the latter formula follows directly from `(1.1.3.5)`, and on the other hand it is clear that $M / (T^{n}_{0} M +
 \cdots + T^{n}_{r-1} M)$ is identified with the tensor product $(S/(T^{n}_{0} S + \cdots + T^{n}_{r-1} S)) \otimes_{A}
@@ -310,9 +276,8 @@ In the applications which will be made in this chapter, we shall mostly use the 
 values of $i$ and $n$ for which $R^{i} f_{*}(\mathcal{O}_{X}(n)) \neq 0$ are $i = 0$ and $n \geq 0$, $i = r$ and $n \leq
 -(r + 1)$; in addition, the canonical homomorphism `(II, 3.3.2)`*
 
-```text
-  α : 𝐒_{𝒪_Y}(ℰ) → 𝚪_*(𝒪_X) = R^0 f_*(𝒪_X(*)) = ⊕_{n ∈ ℤ} f_*(𝒪_X(n))
-```
+$$ \alpha : \mathbf{S}_{\mathcal{O}_Y}(\mathcal{E}) \to \Gamma_{*}(\mathcal{O}_X) = R^0 f_*(\mathcal{O}_X(*)) =
+\bigoplus_{n \in \mathbf{Z}} f_*(\mathcal{O}_X(n)) $$
 
 *is an isomorphism.*
 
@@ -328,22 +293,17 @@ f^{*}(\bigwedge^{r+1} \mathcal{E})(-r-1)$, which is an invertible $\mathcal{O}_{
 
 (i) One has a canonical isomorphism
 
-```text
-  ρ : R^r f_*(ω) ⥲ 𝒪_Y.                                                      (2.1.16.1)
-```
+$$ \rho : R^r f_*(\omega) \xrightarrow{\sim} \mathcal{O}_Y. \tag{2.1.16.1} $$
 
 (ii) The cup-product pairing `(0, 12.2.2)`
 
-```text
-  R^r f_*(𝒪_X(n)) × R^0 f_*(ω(−n)) → R^r f_*(ω)                              (2.1.16.2)
-```
+$$ R^r f_*(\mathcal{O}_X(n)) \times R^0 f_*(\omega(-n)) \to R^r f_*(\omega) \tag{2.1.16.2} $$
 
 composed with the isomorphism $\rho^{-1}$, defines an isomorphism of $R^{r} f_{*}(\mathcal{O}_{X}(n))$ onto the *dual*
 of the locally free $\mathcal{O}_{Y}$-module
 
-```text
-  R^0 f_*(ω(−n)) = (⋀^{r+1} ℰ) ⊗_{𝒪_Y} (𝐒_{𝒪_Y}(ℰ))_{−n}.
-```
+$$ R^0 f_*(\omega(-n)) = (\bigwedge^{r+1} \mathcal{E}) \otimes_{\mathcal{O}_Y}
+(\mathbf{S}_{\mathcal{O}_Y}(\mathcal{E}))_{-n}. $$
 
 <!-- original page 100 -->
 
@@ -426,9 +386,7 @@ $$ 0 \to \mathcal{R}(n) \to \mathcal{E}(n) \to \mathcal{F}(n) \to 0 $$
 
 for every $n \in \mathbb{Z}$. One deduces the exact cohomology sequence
 
-```text
-  H^{q−1}(X, ℰ(n)) → H^{q−1}(X, ℱ(n)) → H^q(X, ℛ(n)).
-```
+$$ H^{q-1}(X, \mathcal{E}(n)) \to H^{q-1}(X, \mathcal{F}(n)) \to H^q(X, \mathcal{R}(n)). $$
 
 Since $\mathcal{E}(n)$ is a direct sum of the $\mathcal{O}_{X}(n + m_{j})$ `(II, 2.5.14)`, $H^{q-1}(X, \mathcal{E}(n))$
 is of finite type, and so is $H^{q}(X, \mathcal{R}(n))$ by the induction hypothesis; since $A$ is Noetherian, one
@@ -455,16 +413,16 @@ $\mathcal{H}''$ be the cokernel of this homomorphism; all these $\mathcal{O}_{X}
 Since $\mathcal{F} \mapsto \mathcal{F}(n)$ is an exact functor in $\mathcal{F}$, it suffices to show that for $n$ large
 enough, each of the sequences
 
-$$ 0 \to f_{*}(\mathcal{F}'(n)) \to f_{*}(\mathcal{F}(n)) \to f_{*}(\mathcal{G}'(n)) \to 0 0 \to f_{*}(\mathcal{G}'(n))
-\to f_{*}(\mathcal{G}(n)) \to f_{*}(\mathcal{G}''(n)) \to 0 0 \to f_{*}(\mathcal{G}''(n)) \to f_{*}(\mathcal{H}(n)) \to
-f_{*}(\mathcal{H}''(n)) \to 0 $$
+$$ 0 \to f_{*}(\mathcal{F}'(n)) \to f_{*}(\mathcal{F}(n)) \to f_{*}(\mathcal{G}'(n)) \to 0 $$
+
+$$ 0 \to f_{*}(\mathcal{G}'(n)) \to f_{*}(\mathcal{G}(n)) \to f_{*}(\mathcal{G}''(n)) \to 0 $$
+
+$$ 0 \to f_{*}(\mathcal{G}''(n)) \to f_{*}(\mathcal{H}(n)) \to f_{*}(\mathcal{H}''(n)) \to 0 $$
 
 is exact; consequently, one may assume that $0 \to \mathcal{F} \to \mathcal{G} \to \mathcal{H} \to 0$ is exact. One then
 has the exact cohomology sequence
 
-```text
-  0 → f_*(ℱ(n)) → f_*(𝒢(n)) → f_*(ℋ(n)) → R^1 f_*(ℱ(n)) → ⋯
-```
+$$ 0 \to f_*(\mathcal{F}(n)) \to f_*(\mathcal{G}(n)) \to f_*(\mathcal{H}(n)) \to R^1 f_*(\mathcal{F}(n)) \to \cdots $$
 
 and the conclusion follows from `(2.2.1, (ii))`.
 
@@ -531,9 +489,7 @@ positive degrees, $X = \operatorname{Proj}(\mathcal{S})$, $q : X \to Y$ the stru
 quasi-coherent graded $\mathcal{S}$-module satisfying condition `(TF)`. Then there exists an integer $N$ such that, for
 $n \geq N$, the canonical homomorphism `(II, 8.14.5.1)`*
 
-```text
-  α_n : ℳ_n → q_*(𝒫roj(ℳ(n))) = q_*((𝒫roj(ℳ))_n)
-```
+$$ \alpha_n : \mathcal{M}_n \to q_*(\mathcal{P}roj(\mathcal{M}(n))) = q_*((\mathcal{P}roj(\mathcal{M}))_n) $$
 
 <!-- original page 103 -->
 
@@ -560,11 +516,12 @@ it then suffices to prove the theorem when $M = S$. Indeed, in the general case,
 M \to 0$, where $L$ and $L'$ are direct sums of graded modules of the form $S(m)$. If the result is true for $M = S$, it
 is also true for $M = S(m)$, hence for $L$ and $L'$. Consider then the commutative diagram
 
-$$ \tilde{L}'_{n} \to \tilde{L}_{n} \to \tilde{M}_{n} \to 0
-
-   \downarrow \alpha_{n}              \downarrow \alpha_{n}              \downarrow \alpha_{n}
-
-  q_{*}(\tilde{L}'(n))   \to    q_{*}(\tilde{L}(n))    \to    q_{*}(\tilde{M}(n))    \to    0
+$$
+\begin{array}{ccccccc}
+\tilde{L}'_{n} & \to & \tilde{L}_{n} & \to & \tilde{M}_{n} & \to & 0 \\
+\downarrow{\scriptstyle \alpha_{n}} & & \downarrow{\scriptstyle \alpha_{n}} & & \downarrow{\scriptstyle \alpha_{n}} & & \\
+q_{*}(\tilde{L}'(n)) & \to & q_{*}(\tilde{L}(n)) & \to & q_{*}(\tilde{M}(n)) & \to & 0
+\end{array}
 $$
 
 The second line is exact by virtue of `(2.2.3)` as soon as $n$ is large enough; as the same holds for the first, and as
@@ -670,15 +627,15 @@ q'_{*}(\mathcal{O}_{P'}(n))$, where $q' : P' \to Y$ is the structure morphism, a
 $n$ large enough, the canonical homomorphism $\alpha_{n} : \mathcal{T}_{n} \to \mathcal{S}_{n} =
 q'_{*}(\mathcal{O}_{P'}(n))$ is bijective; as $\mathcal{T}_{n} = \mathcal{T}^{n}_{1}$, one has *a fortiori*
 $\mathcal{S}_{n} = \mathcal{S}^{n}_{1}$ as soon as $n$ is large enough. In addition, as the canonical homomorphism
-$\alpha : \mathcal{T} \to \mathcal{S}$ of graded $\mathcal{O}_{Y}$-algebras is a `(TN)`-isomorphism,
-`Φ = Proj(α) : Proj(𝒮) → Proj(𝒯)` is an isomorphism `(II, 3.6.1)` and one has $\Phi_{*}(\mathcal{O}_{P}(n)) =
-(\mathcal{O}_{P'}(n))_{[\alpha]}$ `(II, 3.5.2)`; but since the $\mathcal{T}$-graded modules
-$(\mathcal{S}(n))_{[\alpha]}$ and $\mathcal{T}(n)$ are `(TN)`-isomorphic, one has $\Phi_{*}(\mathcal{O}_{P}(n)) =
-\mathcal{O}_{P'}(n)$ for every $n$ `(II, 3.4.2)`; to complete the proof of `(2.3.4.1)`, it remains to show that
-$\mathcal{S}$ is an $\mathcal{O}_{Y}$-algebra of finite type; now the $\mathcal{S}_{n} = q'_{*}(\mathcal{O}_{P'}(n))$
-are coherent $\mathcal{O}_{Y}$-modules by virtue of `(2.2.1)` and, since $\mathcal{S}_{n} = \mathcal{S}^{n}_{1}$ for $n
-\geq n_{0}$, $\mathcal{S}$ is generated by $\oplus_{i \leq n_{0}} \mathcal{S}_{i}$, which is coherent, whence our
-assertion `(I, 9.6.2)`.
+$\alpha : \mathcal{T} \to \mathcal{S}$ of graded $\mathcal{O}_{Y}$-algebras is a `(TN)`-isomorphism, $\Phi =
+\operatorname{Proj}(\alpha) : \operatorname{Proj}(\mathcal{S}) \to \operatorname{Proj}(\mathcal{T})$ is an isomorphism
+`(II, 3.6.1)` and one has $\Phi_{*}(\mathcal{O}_{P}(n)) = (\mathcal{O}_{P'}(n))_{[\alpha]}$ `(II, 3.5.2)`; but since the
+$\mathcal{T}$-graded modules $(\mathcal{S}(n))_{[\alpha]}$ and $\mathcal{T}(n)$ are `(TN)`-isomorphic, one has
+$\Phi_{*}(\mathcal{O}_{P}(n)) = \mathcal{O}_{P'}(n)$ for every $n$ `(II, 3.4.2)`; to complete the proof of `(2.3.4.1)`,
+it remains to show that $\mathcal{S}$ is an $\mathcal{O}_{Y}$-algebra of finite type; now the $\mathcal{S}_{n} =
+q'_{*}(\mathcal{O}_{P'}(n))$ are coherent $\mathcal{O}_{Y}$-modules by virtue of `(2.2.1)` and, since $\mathcal{S}_{n} =
+\mathcal{S}^{n}_{1}$ for $n \geq n_{0}$, $\mathcal{S}$ is generated by $\oplus_{i \leq n_{0}} \mathcal{S}_{i}$, which is
+coherent, whence our assertion `(I, 9.6.2)`.
 
 Let us return to the proof of `(2.3.4)`, whose notation we resume. We have proved the existence of a $Y$-isomorphism
 $r'' : X \xrightarrow{\sim} X''$ such that $r''^{*}(\mathcal{L}^{\otimes n}) = \mathcal{O}_{X''}(nd)$ for every $n \in
@@ -745,9 +702,8 @@ is always satisfied if there exists an ample $\mathcal{O}_{Y}$-module.*
 
 **Proof.** Indeed, one has $(0_{I}, 5.4.2)$
 
-```text
-  ℒ ⊗ ℋom(𝒥, 𝒪_Y) = ℋom(ℒ^{−1}, ℋom(𝒥, 𝒪_Y)) = ℋom(𝒥 ⊗ ℒ^{−1}, 𝒪_Y);
-```
+$$ \mathcal{L} \otimes \mathcal{H}om(\mathcal{J}, \mathcal{O}_Y) = \mathcal{H}om(\mathcal{L}^{-1},
+\mathcal{H}om(\mathcal{J}, \mathcal{O}_Y)) = \mathcal{H}om(\mathcal{J} \otimes \mathcal{L}^{-1}, \mathcal{O}_Y); $$
 
 the hypothesis thus signifies that there is a nonzero homomorphism $u$ of $\mathcal{J} \otimes \mathcal{L}^{-1}$ into
 $\mathcal{O}_{Y}$. As, for every $y \in Y$, $(\mathcal{J} \otimes \mathcal{L}^{-1})_{y}$ identifies with a
@@ -799,7 +755,7 @@ $\mathcal{S}'$-module of finite type. Then:*
 \mathcal{M} \otimes \mathcal{L}^{\otimes n}$ for every $n \in \mathbb{Z}$. There exists an integer $N$ such that, for $n
 \geq N$, one has*
 
-$$ R^{p} f_{*}(\mathcal{M}(n)) = 0 (2.4.1.1) $$
+$$ R^{p} f_{*}(\mathcal{M}(n)) = 0 \tag{2.4.1.1} $$
 
 *for every $p > 0$, and the canonical homomorphism $f^{*}(f_{*}(\mathcal{M}(n))) \to \mathcal{M}(n)$ $(0_{I}, 4.4.3)$ is
 surjective.*
@@ -808,15 +764,13 @@ surjective.*
 \times_{Y} Y'$ `(II, 1.5.5)`; let $g : Y' \to Y$, $g' : X' \to X$ be the structure morphisms, which are affine by
 definition, and $f' = f_{(Y')} : X' \to Y'$; one therefore has a commutative diagram
 
-```text
-        g'
-   X ←──── X'
-   |       |
- f |  ↘ h  | f'
-   ↓       ↓
-   Y ←──── Y'
-        g
-```
+$$
+\begin{array}{ccc}
+X & \xleftarrow{g'} & X' \\
+\downarrow{\scriptstyle f} & \searrow{\scriptstyle h} & \downarrow{\scriptstyle f'} \\
+Y & \xleftarrow{g} & Y'
+\end{array}
+$$
 
 and the morphism $f'$ is projective `(II, 5.5.5, (iii))`; set $h = f \circ g' = g \circ f'$.
 
@@ -829,16 +783,12 @@ This being so, as $g'$ is affine, the canonical homomorphism $R^{p} f_{*}(\mathc
 h_{*}(\tilde{\mathcal{M}})$ is bijective `(1.3.4)`. In addition, this homomorphism is a homomorphism of
 $\mathcal{S}$-modules; indeed, from the canonical homomorphism
 
-```text
-  g^*(𝒮) ⊗_{𝒪_{X'}} g'^*(ℳ) → g'^*(ℳ)                                       (2.4.1.2)
-```
+$$ g^*(\mathcal{S}) \otimes_{\mathcal{O}_{X'}} g'^*(\mathcal{M}) \to g'^*(\mathcal{M}) \tag{2.4.1.2} $$
 
 which defines the $\mathcal{S}'$-module structure of $\mathcal{M}$ (recalling that $\mathcal{S}' =
 g'^{*}(\mathcal{O}_{X'})$), one canonically deduces a homomorphism
 
-```text
-  f_*(g^*(𝒮)) ⊗ R^p f_*(g'^*(ℳ)) → R^p f_*(g'^*(ℳ))
-```
+$$ f_*(g^*(\mathcal{S})) \otimes R^p f_*(g'^*(\mathcal{M})) \to R^p f_*(g'^*(\mathcal{M})) $$
 
 <!-- original page 108 -->
 
@@ -846,13 +796,13 @@ g'^{*}(\mathcal{O}_{X'})$), one canonically deduces a homomorphism
 $\mathcal{O}_{X'} \otimes \tilde{\mathcal{M}} \to \tilde{\mathcal{M}}$ defining the $\mathcal{O}_{X'}$-module structure
 of $\tilde{\mathcal{M}}$, the diagram
 
-```text
-  f_*(g'_*(𝒪_{X'})) ⊗ R^p f_*(g'_*(ℳ̃))    →    R^p f_*(g'_*(ℳ̃))
-
-           ↓                                            ↓
-
-  h_*(𝒪_{X'}) ⊗ R^p h_*(ℳ̃)                →    R^p h_*(ℳ̃)
-```
+$$
+\begin{array}{ccc}
+f_*(g'_*(\mathcal{O}_{X'})) \otimes R^p f_*(g'_*(\tilde{\mathcal{M}})) & \to & R^p f_*(g'_*(\tilde{\mathcal{M}})) \\
+\downarrow & & \downarrow \\
+h_*(\mathcal{O}_{X'}) \otimes R^p h_*(\tilde{\mathcal{M}}) & \to & R^p h_*(\tilde{\mathcal{M}})
+\end{array}
+$$
 
 is commutative `(0, 12.2.6)`; composing the horizontal arrows with the homomorphism coming from the canonical
 homomorphism $\mathcal{S} \to f_{*}(f^{*}(\mathcal{S})) = f_{*}(\mathcal{S}') = f_{*}(g'_{*}(\mathcal{O}_{X'})) =
@@ -876,17 +826,15 @@ N$, the canonical homomorphism $f'^{*}(f'_{*}(\tilde{\mathcal{M}} \otimes \mathc
 \tilde{\mathcal{M}} \otimes \mathcal{L}'^{\otimes n}$ is surjective; as $g'_{*}$ is an exact functor `(II, 1.4.4)`, the
 corresponding homomorphism
 
-```text
-  g'_*(f'^*(f'_*(ℳ̃ ⊗ ℒ'^{⊗n}))) → g'_*(ℳ̃ ⊗ ℒ'^{⊗n}) = ℳ(n)
-```
+$$ g'_*(f'^*(f'_*(\tilde{\mathcal{M}} \otimes \mathcal{L}'^{\otimes n}))) \to g'_*(\tilde{\mathcal{M}} \otimes
+\mathcal{L}'^{\otimes n}) = \mathcal{M}(n) $$
 
 is surjective. Now, one has $g'_{*}(f'^{*}(f'_{*}(\tilde{\mathcal{M}} \otimes \mathcal{L}'^{\otimes n}))) =
 f^{*}(g_{*}(f'_{*}(\tilde{\mathcal{M}} \otimes \mathcal{L}'^{\otimes n})))$ `(II, 1.5.2)` and since $g \circ f' = f
 \circ g'$, one finally sees that one has
 
-```text
-  g'_*(f'^*(f'_*(ℳ̃ ⊗ ℒ'^{⊗n}))) = f^*(f_*(g'_*(ℳ̃ ⊗ ℒ'^{⊗n}))) = f^*(f_*(ℳ(n))),
-```
+$$ g'_*(f'^*(f'_*(\tilde{\mathcal{M}} \otimes \mathcal{L}'^{\otimes n}))) = f^*(f_*(g'_*(\tilde{\mathcal{M}} \otimes
+\mathcal{L}'^{\otimes n}))) = f^*(f_*(\mathcal{M}(n))), $$
 
 which completes the proof.
 
@@ -916,9 +864,7 @@ $\mathcal{O}_{X}$-module $\mathcal{F}$, the $H^{i}(X, \mathcal{F})$ ($i \geq 0$)
 `(2.2.1)`, hence here of *finite length* since $A$ is Artinian. One knows in addition `(2.2.1)` that $H^{i}(X,
 \mathcal{F}) = 0$ except for a finite number of values of $i \geq 0$; the integer
 
-```text
-  χ_A(ℱ) = Σ_{i=0}^∞ (−1)^i long(H^i(X, ℱ))                                  (2.5.1.1)
-```
+$$ \chi_A(\mathcal{F}) = \sum_{i=0}^{\infty} (-1)^i \operatorname{long}(H^i(X, \mathcal{F})) \tag{2.5.1.1} $$
 
 is thus defined for every coherent $\mathcal{O}_{X}$-module $\mathcal{F}$. When $A$ is an Artinian *local* ring, one
 says that $\chi_{A}(\mathcal{F})$ is the *Euler–Poincaré characteristic of $\mathcal{F}$* (with respect to the ring
@@ -932,15 +878,17 @@ $A$). For $\mathcal{F} = \mathcal{O}_{X}$, one says that $\chi_{A}(\mathcal{O}_{
 *Let $0 \to \mathcal{F}' \to \mathcal{F} \to \mathcal{F}'' \to 0$ be an exact sequence of coherent
 $\mathcal{O}_{X}$-modules; one then has*
 
-$$ \chi_{A}(\mathcal{F}) = \chi_{A}(\mathcal{F}') + \chi_{A}(\mathcal{F}''). (2.5.2.1) $$
+$$ \chi_{A}(\mathcal{F}) = \chi_{A}(\mathcal{F}') + \chi_{A}(\mathcal{F}''). \tag{2.5.2.1} $$
 
 **Proof.** As the cohomology modules of $\mathcal{F}'$, $\mathcal{F}$, $\mathcal{F}''$ are zero except for a finite
 number of them, there is an integer $r > 0$ such that the exact cohomology sequence is written
 
-```text
-  0 → H^0(X, ℱ') → H^0(X, ℱ) → H^0(X, ℱ'') → H^1(X, ℱ') → ⋯
-       ⋯ → H^r(X, ℱ') → H^r(X, ℱ) → H^r(X, ℱ'') → 0.
-```
+$$
+\begin{aligned}
+0 \to H^0(X, \mathcal{F}') &\to H^0(X, \mathcal{F}) \to H^0(X, \mathcal{F}'') \to H^1(X, \mathcal{F}') \to \cdots \\
+\cdots &\to H^r(X, \mathcal{F}') \to H^r(X, \mathcal{F}) \to H^r(X, \mathcal{F}'') \to 0.
+\end{aligned}
+$$
 
 Now, we know that in an exact sequence of $A$-modules of finite length, with `0` at both ends, the alternating sum of
 the lengths is zero `(0, 11.10.1)`; applying this result, one immediately finds the formula `(2.5.2.1)`.
@@ -980,15 +928,12 @@ Let us first show that one may suppose $\mathfrak{m} \mathcal{F} = 0$, where $\m
 Indeed, there exists an integer $s > 0$ such that $\mathfrak{m}^{s} = 0$, and $\mathcal{F}(n)$ thus admits a finite
 filtration
 
-```text
-  ℱ(n) ⊃ 𝔪 ℱ(n) ⊃ ⋯ ⊃ 𝔪^{s−1} ℱ(n) ⊃ 0.
-```
+$$ \mathcal{F}(n) \supset \mathfrak{m} \mathcal{F}(n) \supset \cdots \supset \mathfrak{m}^{s-1} \mathcal{F}(n) \supset
+0. $$
 
 By induction, one deduces from `(2.5.2.1)` that
 
-```text
-  χ_A(ℱ(n)) = Σ_{k=1}^s χ_A(𝔪^{k−1} ℱ(n) / 𝔪^k ℱ(n));
-```
+$$ \chi_A(\mathcal{F}(n)) = \sum_{k=1}^s \chi_A(\mathfrak{m}^{k-1} \mathcal{F}(n) / \mathfrak{m}^k \mathcal{F}(n)); $$
 
 since $\mathfrak{m}^{k-1} \mathcal{F}(n) / \mathfrak{m}^{k} \mathcal{F}(n) = \mathcal{F}'_{k}(n)$, where
 $\mathcal{F}'_{k} = \mathfrak{m}^{k-1} \mathcal{F} / \mathfrak{m}^{k} \mathcal{F}$, this proves our assertion.
@@ -1010,28 +955,20 @@ $\chi_{A}(\mathcal{F}(n)) = \chi_{A}(i_{*}(\mathcal{F})(n))$, so that one may re
 This being so, one has $\mathcal{F} = \tilde{M}$, where $M$ is a graded $S$-module of finite type `(II, 2.7.8)`; there
 exists consequently a finite resolution of $M$ by graded free $S$-modules of finite type
 
-```text
-  0 → L_q → L_{q−1} → ⋯ → L_1 → M → 0
-```
+$$ 0 \to L_q \to L_{q-1} \to \cdots \to L_1 \to M \to 0 $$
 
 by virtue of Hilbert's syzygy theorem `(M, VIII, 6.5)`; as $M \mapsto \tilde{M}$ is an exact functor in $M$
 `(II, 2.5.4)`, one also has an exact sequence
 
-```text
-  0 → L̃_q → L̃_{q−1} → ⋯ → L̃_1 → M̃ → 0
-```
+$$ 0 \to \tilde{L}_q \to \tilde{L}_{q-1} \to \cdots \to \tilde{L}_1 \to \tilde{M} \to 0 $$
 
 and consequently, for every $n \in \mathbb{Z}$, the sequence
 
-```text
-  0 → L̃_q(n) → L̃_{q−1}(n) → ⋯ → L̃_1(n) → M̃(n) → 0
-```
+$$ 0 \to \tilde{L}_q(n) \to \tilde{L}_{q-1}(n) \to \cdots \to \tilde{L}_1(n) \to \tilde{M}(n) \to 0 $$
 
 is exact; applying by induction on $q$ Proposition `(2.5.1)`, it comes
 
-```text
-  χ_A(M̃(n)) = Σ_{i=1}^q (−1)^{i+1} χ_A(L̃_i(n))
-```
+$$ \chi_A(\tilde{M}(n)) = \sum_{i=1}^q (-1)^{i+1} \chi_A(\tilde{L}_i(n)) $$
 
 and to prove (i), one is therefore reduced to the case where $M$ is free and graded of finite type, hence to the case
 where $M = S(h)$ for an $h \in \mathbb{Z}$. As we then have $\tilde{M}(n) = (M(n))\sim = (S(n + h))\sim$ `(II, 2.5.15)`,
@@ -1050,10 +987,10 @@ one finally sees that the theorem will follow from the following.
 the number of monomials in the $T_{i}$ of total degree $n$, that is, $(n+r choose r)$ `(2.1.12)`. For $n \leq -r - 1$,
 one has similarly $\chi_{A}(\mathcal{O}_{X}(n)) = (-1)^{r} long H^{r}(X, \mathcal{O}_{X}(n))$; if $n = -r - h$, the
 dimension of $H^{r}(X, \mathcal{O}_{X}(n))$ over $A$ is the number of sequences $(p_{i})_{0 \leq i \leq r}$ of integers
-$p_{i} > 0$ such that $\Sigma^{r}_{i=0} p_{i} = r + h$ `(2.1.12)`, or equivalently the number of sequences of integers
-$q_{i} \geq 0$ ($0 \leq i \leq r$) such that $\Sigma^{r}_{i=0} q_{i} = h - 1$; this is therefore the number $(h-1+r
-choose r) = (-1)^{r} (n+r choose r)$. Finally, for $-r \leq n \leq 0$, one has $(n+r choose r) = 0$ and on the other
-hand $H^{i}(X, \mathcal{O}_{X}(n)) = 0$ for every $i \geq 0$ `(2.1.12)`, which proves the lemma.
+$p_{i} > 0$ such that $\sum^{r}_{i=0} p_{i} = r + h$ `(2.1.12)`, or equivalently the number of sequences of integers
+$q_{i} \geq 0$ ($0 \leq i \leq r$) such that $\sum^{r}_{i=0} q_{i} = h - 1$; this is therefore the number $(h-1+r choose
+r) = (-1)^{r} (n+r choose r)$. Finally, for $-r \leq n \leq 0$, one has $(n+r choose r) = 0$ and on the other hand
+$H^{i}(X, \mathcal{O}_{X}(n)) = 0$ for every $i \geq 0$ `(2.1.12)`, which proves the lemma.
 
 **Corollary (2.5.4).**
 
@@ -1130,17 +1067,13 @@ Since $g$ is affine, the condition is necessary `(II, 5.1.12)`. To see that it i
 X$ be the canonical injection, and set $X_{1} = X_{red}$, $X'_{1} = X' \times_{X} X_{1}$, so that one has the
 commutative diagram
 
-```text
-         j'
-    X' ←───── X'_1
-    |          |
-  g |          | g_1
-    ↓          ↓
-    X  ←───── X_1
-         j
-
-                                                                              (2.6.2.2)
-```
+$$
+\begin{array}{ccc}
+X' & \xleftarrow{j'} & X'_1 \\
+\downarrow{\scriptstyle g} & & \downarrow{\scriptstyle g_1} \\
+X & \xleftarrow{j} & X_1
+\end{array} \tag{2.6.2.2}
+$$
 
 The morphism $f \circ j$ is then of finite type `(I, 6.3.4)` and $g_{1}$ is a finite morphism `(II, 6.1.5, (iii))`; if
 $\mathcal{L}'$ is ample for $f \circ g$, $j'^{*}(\mathcal{L}')$ is ample for $f \circ g \circ j'$ since $j'$ is a closed
@@ -1209,36 +1142,37 @@ This being so, we must prove that for every $x \in X$ and every open neighbourho
 $s$ of an $\mathcal{L}^{\otimes n}$ ($n > 0$) over $X$ such that $x \in X_{s} \subset U$ `(II, 4.5.2)`; we distinguish
 two cases:
 
-1° One has $x \in X - Z$; one may evidently then suppose that one also has $U \subset X - Z$, so the open set $U' =
-g^{-1}(U)$ does not meet $Z'$. As $\mathcal{L}'$ is ample by hypothesis, there exist an $n > 0$ and a section $s'$ of
-$\mathcal{L}'^{\otimes n}$ over $X'$ such that $x' = g^{-1}(x) \in X'_{s'} \subset g^{-1}(U)$ `(II, 4.5.2)`. In
+$1^{\circ}$ One has $x \in X - Z$; one may evidently then suppose that one also has $U \subset X - Z$, so the open set
+$U' = g^{-1}(U)$ does not meet $Z'$. As $\mathcal{L}'$ is ample by hypothesis, there exist an $n > 0$ and a section $s'$
+of $\mathcal{L}'^{\otimes n}$ over $X'$ such that $x' = g^{-1}(x) \in X'_{s'} \subset g^{-1}(U)$ `(II, 4.5.2)`. In
 addition, one may suppose that $\mathcal{K}' \otimes \mathcal{L}'^{\otimes n}$ is generated by its sections over $X'$
 `(II, 4.5.5)`, so, since $\mathcal{K}'_{x'} = \mathcal{O}_{x'}$, there is a section `s''` of these such that $s''(x')
 \neq 0$; multiplying it by $s'$ (which amounts to replacing $n$ by `2n`), one sees that one may also suppose that $x'
 \in X'_{s''} \subset g^{-1}(U)$. This being so, it follows from $(0_{I}, 5.4.10)$ that one has a canonical isomorphism
 
-```text
-  Γ(X, 𝒦 ⊗ ℒ^{⊗n}) ⥲ Γ(X', 𝒦' ⊗ ℒ'^{⊗n}).
-```
+$$ \Gamma(X, \mathcal{K} \otimes \mathcal{L}^{\otimes n}) \xrightarrow{\sim} \Gamma(X', \mathcal{K}' \otimes
+\mathcal{L}'^{\otimes n}). $$
 
 The section $s$ of $\mathcal{K} \otimes \mathcal{L}^{\otimes n}$ corresponding to `s''` under this isomorphism evidently
 has the desired properties.
 
-2° One has $x \in Z$. Let $\mathcal{J}$ be the coherent ideal sheaf of $\mathcal{O}_{X}$ defining the closed reduced
-sub-prescheme of $X$ having for underlying space $X - U$, and consider in $\mathcal{B}$ the coherent ideals
+$2^{\circ}$ One has $x \in Z$. Let $\mathcal{J}$ be the coherent ideal sheaf of $\mathcal{O}_{X}$ defining the closed
+reduced sub-prescheme of $X$ having for underlying space $X - U$, and consider in $\mathcal{B}$ the coherent ideals
 
 <!-- original page 114 -->
 
 $\mathcal{J} \mathcal{B}$ and $\mathcal{J}_{1} = \mathcal{J} \mid (\mathcal{J} \mathcal{B} \cap \mathcal{A}) =
 \mathcal{J}(\mathcal{J} \mathcal{B})$, so that one has the diagram of inclusions
 
-```text
-   𝒥 ℬ    →    ℬ
-   ↑           ↑
-   𝒥     →    𝒜
-   ↑           ↑
-   𝒥 𝒦 ℬ = 𝒥 𝒦  →   𝒦                                                       (2.6.2.6)
-```
+$$
+\begin{array}{ccc}
+\mathcal{J} \mathcal{B} & \to & \mathcal{B} \\
+\uparrow & & \uparrow \\
+\mathcal{J} & \to & \mathcal{A} \\
+\uparrow & & \uparrow \\
+\mathcal{J} \mathcal{K} \mathcal{B} = \mathcal{J} \mathcal{K} & \to & \mathcal{K}
+\end{array} \tag{2.6.2.6}
+$$
 
 Let $\mathcal{J}'$ be the coherent ideal sheaf $(\mathcal{J} \mathcal{B})\sim$ of $\mathcal{O}_{X'}$, so that
 $\mathcal{J} \mathcal{B} = g_{*}(\mathcal{J}')$, $\mathcal{J} \mathcal{K} = (\mathcal{J} \mathcal{K}')\sim$, and
@@ -1247,32 +1181,28 @@ consequently $\mathcal{J}' / \mathcal{J}' \mathcal{K}' = (\mathcal{J} \mathcal{B
 meeting $Z$, one sees that the support of $\mathcal{J}' / \mathcal{J}' \mathcal{K}'$ is contained in $Z'$. As $Z'$ is
 proper over $Y$, one may apply `(2.2.4)` and one sees that for $n$ large enough, the canonical map
 
-```text
-  Γ(X', 𝒥' ⊗ ℒ'^{⊗n}) → Γ(X', (𝒥' / 𝒥' 𝒦') ⊗ ℒ'^{⊗n})
-```
+$$ \Gamma(X', \mathcal{J}' \otimes \mathcal{L}'^{\otimes n}) \to \Gamma(X', (\mathcal{J}' / \mathcal{J}' \mathcal{K}')
+\otimes \mathcal{L}'^{\otimes n}) $$
 
 is surjective.
 
 But by virtue of $(0_{I}, 5.4.10)$, one concludes that the canonical map
 
-```text
-  Γ(X, 𝒥 ℬ ⊗ ℒ^{⊗n}) → Γ(X, (𝒥 ℬ / 𝒥 𝒦 ℬ) ⊗ ℒ^{⊗n})
-```
+$$ \Gamma(X, \mathcal{J} \mathcal{B} \otimes \mathcal{L}^{\otimes n}) \to \Gamma(X, (\mathcal{J} \mathcal{B} /
+\mathcal{J} \mathcal{K} \mathcal{B}) \otimes \mathcal{L}^{\otimes n}) $$
 
 is surjective.
 
 This being so, let $i : Z \to X$ be the canonical injection, $i' : Z' \to X'$ the canonical injection, so that one has
 the commutative diagram
 
-```text
-         i'
-    X' ←───── Z'
-    |          |
-  g |          | h
-    ↓          ↓
-    X  ←───── Z
-         i
-```
+$$
+\begin{array}{ccc}
+X' & \xleftarrow{i'} & Z' \\
+\downarrow{\scriptstyle g} & & \downarrow{\scriptstyle h} \\
+X & \xleftarrow{i} & Z
+\end{array}
+$$
 
 Let $\mathcal{M} = i^{*}(\mathcal{L})$, $\mathcal{M}' = i'^{*}(\mathcal{L}')$; as $\mathcal{L}'$ is ample,
 $\mathcal{M}'$ is ample `(II, 5.1.12)`, and on the other hand $\mathcal{M}' = h^{*}(\mathcal{M})$; one concludes
