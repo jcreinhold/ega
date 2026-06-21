@@ -101,9 +101,8 @@ so does $f*(\mathcal{G})$, by the argument of (5.1.4).
 **(5.2.6)** Let $\mathcal{F}$ be an $\mathcal{O}_{X}$-Module admitting a finite presentation (5.2.5). Then for every
 $\mathcal{O}_{X}$-Module $\mathcal{H}$, the canonical functorial homomorphism
 
-```
-(ℋom_{𝒪_X}(ℱ, ℋ))_x → Hom_{𝒪_x}(ℱ_x, ℋ_x)
-```
+$$ (\mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{F}, \mathcal{H}))_{x} \to
+\operatorname{Hom}_{\mathcal{O}_{x}}(\mathcal{F}_{x}, \mathcal{H}_{x}) $$
 
 is _bijective_ (T, 4.1.1).
 
@@ -217,9 +216,9 @@ without qualification, _of finite rank_ is to be understood.
 **(5.4.2)** If $\mathcal{L}$, $\mathcal{F}$ are two $\mathcal{O}_{X}$-Modules, there is a canonical functorial
 homomorphism
 
-```
-(5.4.2.1)    ℒ̌ ⊗_{𝒪_X} ℱ = ℋom_{𝒪_X}(ℒ, 𝒪_X) ⊗_{𝒪_X} ℱ → ℋom_{𝒪_X}(ℒ, ℱ)
-```
+$$ \check{\mathcal{L}} \otimes_{\mathcal{O}_{X}} \mathcal{F} = \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{L},
+\mathcal{O}_{X}) \otimes_{\mathcal{O}_{X}} \mathcal{F} \to \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{L}, \mathcal{F})
+\tag{5.4.2.1} $$
 
 defined as follows: for $U$ open and $(u, t)$ with $u \in \Gamma(U, \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{L},
 \mathcal{O}_{X})) = \operatorname{Hom}(\mathcal{L}|U, \mathcal{O}_{X}|U)$ and $t \in \Gamma(U, \mathcal{F})$, send $(u,
@@ -233,9 +232,8 @@ $\mathcal{O}_{X}$-Module $\mathcal{G}$, the assertion reduces to $\mathcal{L} = 
 \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{L}, \mathcal{O}_{X})$, as one sees locally by reducing to $\mathcal{L} =
 \mathcal{O}_{X}$. Moreover, there is a canonical isomorphism
 
-```
-(5.4.3.1)    ℋom_{𝒪_X}(ℒ, 𝒪_X) ⊗_{𝒪_X} ℒ ⥲ 𝒪_X.
-```
+$$ \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{L}, \mathcal{O}_{X}) \otimes_{\mathcal{O}_{X}} \mathcal{L}
+\xrightarrow{\sim} \mathcal{O}_{X}. \tag{5.4.3.1} $$
 
 Indeed, by (5.4.2) it suffices to define a canonical isomorphism $\mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{L},
 \mathcal{L}) \xrightarrow{\sim} \mathcal{O}_{X}$. For _any_ $\mathcal{O}_{X}$-Module $\mathcal{F}$ there is a canonical
@@ -262,9 +260,8 @@ concludes that $\mathcal{L}$ is invertible by (5.2.7).
 $\mathcal{L}^{\otimes 0} = \mathcal{O}_{X}$ and $\mathcal{L}^{\otimes(-n)} = (\mathcal{L}^{-1})^{\otimes n}$. There is a
 canonical functorial isomorphism
 
-```
-(5.4.4.1)    ℒ^{⊗m} ⊗_{𝒪_X} ℒ^{⊗n} ⥲ ℒ^{⊗(n+m)}
-```
+$$ \mathcal{L}^{\otimes m} \otimes_{\mathcal{O}_{X}} \mathcal{L}^{\otimes n} \xrightarrow{\sim}
+\mathcal{L}^{\otimes(n+m)} \tag{5.4.4.1} $$
 
 for any integers `m, n`: by the definitions one reduces to $m = -1, n = 1$, the case treated in (5.4.3).
 
@@ -285,9 +282,8 @@ with values in graded rings.
 
 For any $\mathcal{O}_{X}$-Module $\mathcal{F}$, set
 
-```
-Γ_*(ℒ, ℱ) = ⊕_{n ∈ ℤ} Γ(X, ℱ ⊗_{𝒪_X} ℒ^{⊗n}),
-```
+$$ \Gamma_{*}(\mathcal{L}, \mathcal{F}) = \bigoplus_{n \in \mathbb{Z}} \Gamma(X, \mathcal{F} \otimes_{\mathcal{O}_{X}}
+\mathcal{L}^{\otimes n}), $$
 
 made a _graded module_ over $\Gamma_{*}(\mathcal{L})$ by sending $(s_{n}, u_{m}) \in \Gamma(X, \mathcal{L}^{\otimes n})
 \times \Gamma(X, \mathcal{F} \otimes \mathcal{L}^{\otimes m})$ to the section of $\mathcal{F} \otimes
@@ -303,9 +299,8 @@ homomorphisms (4.4.3.2) and (5.4.4.1) yield a _functorial homomorphism of graded
 \Gamma_{*}(f*(\mathcal{L}))$. The same canonical homomorphism (4.4.3) similarly yields $\Gamma(X, \mathcal{F} \otimes
 \mathcal{L}^{\otimes n}) \to \Gamma(Y, f*(\mathcal{F} \otimes \mathcal{L}^{\otimes n}))$; using
 
-```
-f*(ℱ ⊗ ℒ^{⊗n}) = f*(ℱ) ⊗ (f*(ℒ))^{⊗n}    (4.3.3.1),
-```
+$$ f*(\mathcal{F} \otimes \mathcal{L}^{\otimes n}) = f*(\mathcal{F}) \otimes (f*(\mathcal{L}))^{\otimes n} \tag{4.3.3.1}
+$$
 
 these (for varying $n$) define a _di-homomorphism of graded modules_ $\Gamma_{*}(\mathcal{L}, \mathcal{F}) \to
 \Gamma_{*}(f*(\mathcal{L}), f*(\mathcal{F}))$.
@@ -331,12 +326,13 @@ by gluing via the $(\theta_{\lambda \mu})$; cohomologous cocycles yield the same
 defines $\phi_{\mathfrak{U}} : H^{1}(\mathfrak{U}, \mathcal{O}^{*}_{X}) \to \mathfrak{M}$. If $\mathfrak{V}$ refines
 $\mathfrak{U}$, the diagram
 
-```
-H¹(𝔘, 𝒪_X^*) ──φ_𝔘──→ 𝔐
-     │              ↗
-     ↓           φ_𝔙
-H¹(𝔙, 𝒪_X^*)
-```
+$$
+\begin{array}{ccc}
+H^{1}(\mathfrak{U}, \mathcal{O}^{*}_{X}) & \xrightarrow{\varphi_{\mathfrak{U}}} & \mathfrak{M} \\
+\downarrow & \nearrow{\scriptstyle \varphi_{\mathfrak{V}}} & \\
+H^{1}(\mathfrak{V}, \mathcal{O}^{*}_{X}) & &
+\end{array}
+$$
 
 (left arrow the canonical homomorphism (G, II, 5.7)) commutes, by (3.3.3). Passage to the inductive limit gives
 $H^{1}(X, \mathcal{O}^{*}_{X}) \to \mathfrak{M}$, since Čech $\check{H}^{1}$ agrees with derived $H^{1}$ here (G, II,
@@ -356,9 +352,7 @@ $\mathcal{L} \otimes_{\mathcal{O}_{X}} \mathcal{L}'$, completing the proof.[^5-2
 invertible $\mathcal{O}_{X}$-Modules defines (by abuse of language, still written $f*$) a map $\mathfrak{M}(X) \to
 \mathfrak{M}(Y)$. There is also a canonical homomorphism (T, 3.2.2)
 
-```
-(5.4.8.1)    H¹(X, 𝒪_X^*) → H¹(Y, 𝒪_Y^*).
-```
+$$ H^{1}(X, \mathcal{O}^{*}_{X}) \to H^{1}(Y, \mathcal{O}^{*}_{Y}). \tag{5.4.8.1} $$
 
 Under the canonical identifications (5.4.7) $\mathfrak{M}(X) \cong H^{1}(X, \mathcal{O}^{*}_{X})$ (resp.
 $\mathfrak{M}(Y) \cong H^{1}(Y, \mathcal{O}^{*}_{Y})$), the homomorphism (5.4.8.1) _is identified with_ $f*$. Indeed, if
@@ -382,15 +376,14 @@ sections $s_{i} \in \Gamma(U, \mathcal{G})$ with $p(s_{i}|U) = e_{i}|U$ ($1 \leq
 **(5.4.10)** Let $f : X \to Y$ be a morphism of ringed spaces, $\mathcal{F}$ an $\mathcal{O}_{X}$-Module, and
 $\mathcal{L}$ a locally free $\mathcal{O}_{Y}$-Module of finite rank. There is a canonical isomorphism
 
-```
-(5.4.10.1)    f_*(ℱ) ⊗_{𝒪_Y} ℒ ⥲ f_*(ℱ ⊗_{𝒪_X} f*(ℒ)).
-```
+$$ f_{*}(\mathcal{F}) \otimes_{\mathcal{O}_{Y}} \mathcal{L} \xrightarrow{\sim} f_{*}(\mathcal{F}
+\otimes_{\mathcal{O}_{X}} f*(\mathcal{L})). \tag{5.4.10.1} $$
 
 Indeed, for any $\mathcal{O}_{Y}$-Module $\mathcal{L}$ there is a canonical homomorphism
 
-```
-f_*(ℱ) ⊗_{𝒪_Y} ℒ ──1⊗ρ──→ f_*(ℱ) ⊗_{𝒪_Y} f_*(f*(ℒ)) ──α──→ f_*(ℱ ⊗_{𝒪_X} f*(ℒ))
-```
+$$ f_{*}(\mathcal{F}) \otimes_{\mathcal{O}_{Y}} \mathcal{L} \xrightarrow{1 \otimes \rho} f_{*}(\mathcal{F})
+\otimes_{\mathcal{O}_{Y}} f_{*}(f*(\mathcal{L})) \xrightarrow{\alpha} f_{*}(\mathcal{F} \otimes_{\mathcal{O}_{X}}
+f*(\mathcal{L})) $$
 
 ($\rho$ from (4.4.3.2), $\alpha$ from (4.2.2.1)). To see this is an isomorphism when $\mathcal{L}$ is locally free, the
 question being local on $Y$, reduce to $\mathcal{L} = \mathcal{O}^{n}_{Y}$; since $f_{*}$ and $f*$ commute with finite
@@ -418,9 +411,9 @@ section of $\mathcal{L}$ over $X$. At a point $x \in X$, the following are equiv
 > \otimes g$ in $\Gamma(V, \mathcal{O}_{X})$ (5.4.3) is the unit section.
 
 Indeed, the question being local, reduce to $\mathcal{L} = \mathcal{O}_{X}$. Equivalence of a) and b) is then immediate,
-and c) ⟹ b). For b) ⟹ c): if $f_{x} \notin \mathfrak{m}_{x}$, $f_{x}$ is invertible in $\mathcal{O}_{x}$, say $f_{x}
-\cdot g_{x} = 1_{x}$; by the definition of germs, there is a neighborhood $V \ni x$ and a section $g$ over $V$ with $fg
-= 1$ on $V$.
+and c) $\Rightarrow$ b). For b) $\Rightarrow$ c): if $f_{x} \notin \mathfrak{m}_{x}$, $f_{x}$ is invertible in
+$\mathcal{O}_{x}$, say $f_{x} \cdot g_{x} = 1_{x}$; by the definition of germs, there is a neighborhood $V \ni x$ and a
+section $g$ over $V$ with $fg = 1$ on $V$.
 
 By c), the set $X_{f}$ of $x$ satisfying the equivalent conditions a)–c) is _open_ in $X$; in the terminology of
 (5.5.1), it is the set of $x$ _where_ $f$ _does not vanish_.
@@ -428,9 +421,7 @@ By c), the set $X_{f}$ of $x$ satisfying the equivalent conditions a)–c) is _o
 **(5.5.3)** Under the hypotheses of (5.5.2), let $\mathcal{L}'$ be a second invertible $\mathcal{O}_{X}$-Module. For $f
 \in \Gamma(X, \mathcal{L})$, $g \in \Gamma(X, \mathcal{L}')$,
 
-```
-X_f ∩ X_g = X_{f ⊗ g}.
-```
+$$ X_{f} \cap X_{g} = X_{f \otimes g}. $$
 
 Reduce locally to $\mathcal{L} = \mathcal{L}' = \mathcal{O}_{X}$; then $f \otimes g$ is canonically identified with the
 product `fg`, and the assertion is obvious.

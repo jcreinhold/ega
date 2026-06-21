@@ -27,19 +27,19 @@ if and only if each $M_{\lambda}$ is flat. In particular, every projective $A$-m
 
 Let $0 \to M' \to M \to M'' \to 0$ be an exact sequence with $M''$ _flat_. Then for every $A$-module $N$,
 
-```
-0 → M′ ⊗ N → M ⊗ N → M″ ⊗ N → 0
-```
+$$ 0 \to M' \otimes N \to M \otimes N \to M'' \otimes N \to 0 $$
 
 is exact. Moreover, for $M$ to be flat, it is necessary and sufficient that $M'$ be flat (but $M$ and $M'$ may both be
 flat without $M'' = M/M'$ being flat).
 
 **(6.1.3)** Let $M$ be a flat $A$-module and $N$ an arbitrary $A$-module. For two submodules $N', N''$ of $N$,
 
-```
-Im(M ⊗ (N′ + N″)) = Im(M ⊗ N′) + Im(M ⊗ N″)
-Im(M ⊗ (N′ ∩ N″)) = Im(M ⊗ N′) ∩ Im(M ⊗ N″)
-```
+$$
+\begin{aligned}
+\operatorname{Im}(M \otimes (N' + N'')) &= \operatorname{Im}(M \otimes N') + \operatorname{Im}(M \otimes N'') \\
+\operatorname{Im}(M \otimes (N' \cap N'')) &= \operatorname{Im}(M \otimes N') \cap \operatorname{Im}(M \otimes N'')
+\end{aligned}
+$$
 
 (images taken in $M \otimes N$).
 
@@ -63,9 +63,8 @@ $A$-flat.
 **(6.2.2)** Let $A$ be a ring and $B$ an $A$-algebra which is flat as an $A$-module. Let `M, N` be $A$-modules with $M$
 admitting a finite presentation. The canonical homomorphism
 
-```
-(6.2.2.1)    Hom_A(M, N) ⊗_A B → Hom_B(M ⊗_A B, N ⊗_A B)
-```
+$$ \operatorname{Hom}_{A}(M, N) \otimes_{A} B \to \operatorname{Hom}_{B}(M \otimes_{A} B, N \otimes_{A} B) \tag{6.2.2.1}
+$$
 
 sending $u \otimes b$ to the homomorphism $m \otimes b' \mapsto u(m) \otimes b'b$ is an isomorphism.
 
@@ -79,9 +78,8 @@ with $\mathfrak{J} = \mathfrak{J}_{\lambda} A$. Setting $\mathfrak{J}'_{\mu} = \
 \geq \lambda$, also $\mathfrak{J} = \varinjlim \mathfrak{J}'_{\mu}$ (over $\mu \geq \lambda$). Since $\varinjlim$ is
 exact and commutes with tensor products,
 
-```
-M ⊗_A 𝔍 = lim⃗ (M_μ ⊗_{A_μ} 𝔍′_μ) = lim⃗ 𝔍′_μ M_μ = 𝔍 M.
-```
+$$ M \otimes_{A} \mathfrak{J} = \varinjlim (M_{\mu} \otimes_{A_{\mu}} \mathfrak{J}'_{\mu}) = \varinjlim
+\mathfrak{J}'_{\mu} M_{\mu} = \mathfrak{J} M. $$
 
 ## 6.3. Localization of flatness
 
@@ -97,9 +95,8 @@ $A$-flat if and only if it is $S^{-1}A$-flat.
 **(6.3.2)** Let $A$ be a ring, $B$ an $A$-algebra, and $T$ a multiplicative subset of $B$. If $P$ is a $B$-module which
 is $A$-_flat_, then $T^{-1}P$ is $A$-flat. Indeed, for every $A$-module $N$,
 
-```
-(T⁻¹P) ⊗_A N = (T⁻¹B ⊗_B P) ⊗_A N = T⁻¹B ⊗_B (P ⊗_A N) = T⁻¹(P ⊗_A N);
-```
+$$ (T^{-1}P) \otimes_{A} N = (T^{-1}B \otimes_{B} P) \otimes_{A} N = T^{-1}B \otimes_{B} (P \otimes_{A} N) = T^{-1}(P
+\otimes_{A} N); $$
 
 $T^{-1}(P \otimes_{A} N)$ is exact in $N$ as the composite of two exact functors $P \otimes_{A} N$ (in $N$) and
 $T^{-1}Q$ (in $Q$). If $S \subset A$ is multiplicative with its image in $B$ _contained_ in $T$, then $T^{-1}P =
@@ -112,13 +109,12 @@ S^{-1}(T^{-1}P)$, so also $S^{-1}A$-flat by (6.3.1).
 > $A_{\mathfrak{m}}$-flat.
 
 Indeed, since $M_{\mathfrak{n}} = (M_{\mathfrak{n}})_{\mathfrak{m}}$, the equivalence of _b)_ and _c)_ follows from
-(6.3.1), and _a)_ ⟹ _b)_ is (6.3.2). For _b)_ ⟹ _a)_: given an injective $u : N' \to N$ of $A$-modules, we must show $v
-= 1 \otimes u : M \otimes_{A} N' \to M \otimes_{A} N$ is injective. Since $v$ is also a $B$-module homomorphism, it
-suffices that $v_{\mathfrak{n}}$ be injective for every maximal $\mathfrak{n}$. But
+(6.3.1), and _a)_ $\implies$ _b)_ is (6.3.2). For _b)_ $\implies$ _a)_: given an injective $u : N' \to N$ of
+$A$-modules, we must show $v = 1 \otimes u : M \otimes_{A} N' \to M \otimes_{A} N$ is injective. Since $v$ is also a
+$B$-module homomorphism, it suffices that $v_{\mathfrak{n}}$ be injective for every maximal $\mathfrak{n}$. But
 
-```
-(M ⊗_A N)_𝔫 = B_𝔫 ⊗_B (M ⊗_A N) = M_𝔫 ⊗_A N,
-```
+$$ (M \otimes_{A} N)_{\mathfrak{n}} = B_{\mathfrak{n}} \otimes_{B} (M \otimes_{A} N) = M_{\mathfrak{n}} \otimes_{A} N,
+$$
 
 so $v_{\mathfrak{n}}$ is $1 \otimes u : M_{\mathfrak{n}} \otimes_{A} N' \to M_{\mathfrak{n}} \otimes_{A} N$, injective
 since $M_{\mathfrak{n}}$ is $A$-flat.
@@ -172,9 +168,8 @@ flat $S^{-1}A$-module (since $S^{-1}M = M \otimes_{A} S^{-1}A$, by (6.4.4)). Con
 faithfully flat over $A_{\mathfrak{m}}$ for every maximal $\mathfrak{m}$, then $M$ is faithfully flat over $A$: it is
 $A$-flat by (6.3.3), and
 
-```
-M_𝔪 / 𝔪 M_𝔪 = (M ⊗_A A_𝔪) ⊗_{A_𝔪} (A_𝔪 / 𝔪 A_𝔪) = M ⊗_A (A/𝔪) = M / 𝔪 M,
-```
+$$ M_{\mathfrak{m}} / \mathfrak{m} M_{\mathfrak{m}} = (M \otimes_{A} A_{\mathfrak{m}}) \otimes_{A_{\mathfrak{m}}}
+(A_{\mathfrak{m}} / \mathfrak{m} A_{\mathfrak{m}}) = M \otimes_{A} (A/\mathfrak{m}) = M / \mathfrak{m} M, $$
 
 so the hypothesis gives $M / \mathfrak{m} M \neq 0$ for every maximal $\mathfrak{m}$, whence (6.4.1).
 
@@ -252,9 +247,8 @@ ideal $\mathfrak{J} \subset \mathcal{O}_{y}$, the canonical map $\mathfrak{J} \o
 If $0 \to \mathcal{F}' \to \mathcal{F} \to \mathcal{F}'' \to 0$ is exact and $\mathcal{F}''$ is $f$-flat at $x$, then
 for every open $U \ni y = f(x)$ and every $(\mathcal{O}_{Y}|U)$-Module $\mathcal{G}$, the sequence
 
-```
-0 → (f*(𝒢) ⊗_{𝒪_X} ℱ′)_x → (f*(𝒢) ⊗_{𝒪_X} ℱ)_x → (f*(𝒢) ⊗_{𝒪_X} ℱ″)_x → 0
-```
+$$ 0 \to (f^{*}(\mathcal{G}) \otimes_{\mathcal{O}_{X}} \mathcal{F}')_{x} \to (f^{*}(\mathcal{G})
+\otimes_{\mathcal{O}_{X}} \mathcal{F})_{x} \to (f^{*}(\mathcal{G}) \otimes_{\mathcal{O}_{X}} \mathcal{F}'')_{x} \to 0 $$
 
 is exact. For $\mathcal{F}$ to be $f$-flat at $x$, it is necessary and sufficient that $\mathcal{F}'$ be. Analogous
 statements hold for $f$-flatness over $y \in Y$ and $f$-flatness on $X$.
@@ -266,9 +260,8 @@ f)$-flat at $x$ (6.2.1). In particular, if $f$ and $g$ are flat, so is $g \circ 
 **(6.7.6)** Let `X, Y` be ringed spaces and $f : X \to Y$ a _flat_ morphism. The canonical homomorphism of bifunctors
 (4.4.6)
 
-```
-(6.7.6.1)    f*(ℋom_{𝒪_Y}(ℱ, 𝒢)) → ℋom_{𝒪_X}(f*(ℱ), f*(𝒢))
-```
+$$ f^{*}(\mathcal{H}om_{\mathcal{O}_{Y}}(\mathcal{F}, \mathcal{G})) \to
+\mathcal{H}om_{\mathcal{O}_{X}}(f^{*}(\mathcal{F}), f^{*}(\mathcal{G})) \tag{6.7.6.1} $$
 
 is an _isomorphism_ when $\mathcal{F}$ admits a finite presentation (5.2.5).
 

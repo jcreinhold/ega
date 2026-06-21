@@ -20,12 +20,12 @@ Since in this treatise we shall mainly consider sheaves of _commutative_ rings, 
 
 Ringed spaces with structure sheaf not necessarily commutative (resp. topologically ringed spaces) form a _category_,
 with morphisms $(X, \mathcal{A}) \to (Y, \mathcal{B})$ defined as pairs $(\psi, \theta) = \Psi$ consisting of a
-continuous map $\psi : X \to Y$ and a _ψ-morphism_ $\theta : \mathcal{B} \to \mathcal{A}$ (3.5.1) of sheaves of rings
-(resp. sheaves of topological rings). The _composite_ of a second morphism $\Psi' = (\psi', \theta') : (Y, \mathcal{B})
-\to (Z, \mathcal{C})$ with $\Psi$, written $\Psi'' = \Psi' \circ \Psi$, is $(\psi'', \theta'')$ with $\psi'' = \psi'
-\circ \psi$ and $\theta''$ the composite of $\theta$ and $\theta'$ (equal to $\psi'_{*}(\theta) \circ \theta'$; cf.
-3.5.2). For ringed spaces, recall that $\theta''^{\sharp} = \theta^{\sharp} \circ \psi*(\theta'^{\sharp})$ (3.5.5);
-hence if $\theta^{\sharp}$ and $\theta'^{\sharp}$ are _injective_ (resp. _surjective_) homomorphisms, so is
+continuous map $\psi : X \to Y$ and a _$\psi$-morphism_ $\theta : \mathcal{B} \to \mathcal{A}$ (3.5.1) of sheaves of
+rings (resp. sheaves of topological rings). The _composite_ of a second morphism $\Psi' = (\psi', \theta') : (Y,
+\mathcal{B}) \to (Z, \mathcal{C})$ with $\Psi$, written $\Psi'' = \Psi' \circ \Psi$, is $(\psi'', \theta'')$ with
+$\psi'' = \psi' \circ \psi$ and $\theta''$ the composite of $\theta$ and $\theta'$ (equal to $\psi'_{*}(\theta) \circ
+\theta'$; cf. 3.5.2). For ringed spaces, recall that $\theta''^{\sharp} = \theta^{\sharp} \circ \psi*(\theta'^{\sharp})$
+(3.5.5); hence if $\theta^{\sharp}$ and $\theta'^{\sharp}$ are _injective_ (resp. _surjective_) homomorphisms, so is
 $\theta''^{\sharp}$, using that $\psi_{x} \circ \rho_{\psi(x)}$ is an isomorphism for every $x \in X$ (3.7.2). One
 checks at once that when $\psi$ is _injective_ and $\theta^{\sharp}$ is _surjective_, the morphism $(\psi, \theta)$ is a
 _monomorphism_ (T, 1.1) in the category of ringed spaces.
@@ -53,14 +53,13 @@ section $e$ over $X$ such that:
 
 1° the diagram
 
-```
-𝒞 ⊗_𝒜 𝒞 ⊗_𝒜 𝒞 ──φ⊗1──→ 𝒞 ⊗_𝒜 𝒞
-        │                         │
-      1⊗φ                         φ
-        │                         │
-        ↓                         ↓
-   𝒞 ⊗_𝒜 𝒞 ─────φ────→         𝒞
-```
+$$
+\begin{array}{ccc}
+\mathcal{C} \otimes_{\mathcal{A}} \mathcal{C} \otimes_{\mathcal{A}} \mathcal{C} & \xrightarrow{\varphi \otimes 1} & \mathcal{C} \otimes_{\mathcal{A}} \mathcal{C} \\
+\downarrow{\scriptstyle 1 \otimes \varphi} & & \downarrow{\scriptstyle \varphi} \\
+\mathcal{C} \otimes_{\mathcal{A}} \mathcal{C} & \xrightarrow{\varphi} & \mathcal{C}
+\end{array}
+$$
 
 commutes;
 
@@ -69,11 +68,13 @@ commutes;
 
 To say that $\mathcal{C}$ is a _commutative_ $\mathcal{A}$-Algebra is to say in addition that the diagram
 
-```
-𝒞 ⊗_𝒜 𝒞 ──σ──→ 𝒞 ⊗_𝒜 𝒞
-       ↘φ      ↙φ
-          𝒞
-```
+$$
+\begin{array}{ccc}
+\mathcal{C} \otimes_{\mathcal{A}} \mathcal{C} & \xrightarrow{\sigma} & \mathcal{C} \otimes_{\mathcal{A}} \mathcal{C} \\
+& \searrow{\scriptstyle \varphi} \quad \swarrow{\scriptstyle \varphi} & \\
+& \mathcal{C} &
+\end{array}
+$$
 
 commutes, where $\sigma$ is the canonical symmetry of the tensor product $\mathcal{C} \otimes_{\mathcal{A}}
 \mathcal{C}$.
@@ -120,22 +121,19 @@ functors $\mathcal{H}om_{\mathcal{A}}(\mathcal{F}, \mathcal{G})$ and $\operatorn
 \mathcal{G})$ are _left exact_ in $\mathcal{F}$ and $\mathcal{G}$; precisely, given an exact sequence $0 \to
 \mathcal{G}' \to \mathcal{G} \to \mathcal{G}''$, the sequence
 
-```
-0 → ℋom_𝒜(ℱ, 𝒢′) → ℋom_𝒜(ℱ, 𝒢) → ℋom_𝒜(ℱ, 𝒢″)
-```
+$$ 0 \to \mathcal{H}om_{\mathcal{A}}(\mathcal{F}, \mathcal{G}') \to \mathcal{H}om_{\mathcal{A}}(\mathcal{F},
+\mathcal{G}) \to \mathcal{H}om_{\mathcal{A}}(\mathcal{F}, \mathcal{G}'') $$
 
 is exact; given an exact sequence $\mathcal{F}' \to \mathcal{F} \to \mathcal{F}'' \to 0$, the sequence
 
-```
-0 → ℋom_𝒜(ℱ″, 𝒢) → ℋom_𝒜(ℱ, 𝒢) → ℋom_𝒜(ℱ′, 𝒢)
-```
+$$ 0 \to \mathcal{H}om_{\mathcal{A}}(\mathcal{F}'', \mathcal{G}) \to \mathcal{H}om_{\mathcal{A}}(\mathcal{F},
+\mathcal{G}) \to \mathcal{H}om_{\mathcal{A}}(\mathcal{F}', \mathcal{G}) $$
 
 is exact; analogous properties hold for `Hom`. Moreover, $\mathcal{H}om_{\mathcal{A}}(\mathcal{A}, \mathcal{G})$ is
 canonically identified with $\mathcal{G}$; finally, for every open $U \subset X$,
 
-```
-Γ(U, ℋom_𝒜(ℱ, 𝒢)) = Hom_{𝒜|U}(ℱ|U, 𝒢|U).
-```
+$$ \Gamma(U, \mathcal{H}om_{\mathcal{A}}(\mathcal{F}, \mathcal{G})) = \operatorname{Hom}_{\mathcal{A}|U}(\mathcal{F}|U,
+\mathcal{G}|U). $$
 
 For any left (resp. right) $\mathcal{A}$-Module $\mathcal{F}$, the _dual_ of $\mathcal{F}$, written
 $\check{\mathcal{F}}$, is the right (resp. left) $\mathcal{A}$-Module $\mathcal{H}om_{\mathcal{A}}(\mathcal{F},
@@ -186,9 +184,7 @@ obtained by _gluing_ the $(X_{\lambda}, \mathcal{A}_{\lambda})$ along the $V_{\l
 \to \psi_{*}(\mathcal{A})$ is a sheaf-of-rings homomorphism. Let $\mathcal{F}$ be an $\mathcal{A}$-Module; its direct
 image $\psi_{*}(\mathcal{F})$ is a sheaf of abelian groups on $Y$. Moreover, for every open $U \subset Y$,
 
-```
-Γ(U, ψ_*(ℱ)) = Γ(ψ⁻¹(U), ℱ)
-```
+$$ \Gamma(U, \psi_{*}(\mathcal{F})) = \Gamma(\psi^{-1}(U), \mathcal{F}) $$
 
 is equipped with a module structure over the ring $\Gamma(U, \psi_{*}(\mathcal{A})) = \Gamma(\psi^{-1}(U),
 \mathcal{A})$; the bilinear maps defining these structures are compatible with restriction, giving
@@ -208,31 +204,30 @@ structure of $\mathcal{B}$-Algebra; this $\mathcal{B}$-Algebra is written $\Psi_
 **(4.2.2)** Let $\mathcal{M}$, $\mathcal{N}$ be two $\mathcal{A}$-Modules. For every open $U \subset Y$, there is a
 canonical map
 
-```
-Γ(ψ⁻¹(U), ℳ) × Γ(ψ⁻¹(U), 𝒩) → Γ(ψ⁻¹(U), ℳ ⊗_𝒜 𝒩)
-```
+$$ \Gamma(\psi^{-1}(U), \mathcal{M}) \times \Gamma(\psi^{-1}(U), \mathcal{N}) \to \Gamma(\psi^{-1}(U), \mathcal{M}
+\otimes_{\mathcal{A}} \mathcal{N}) $$
 
 which is bilinear over $\Gamma(\psi^{-1}(U), \mathcal{A}) = \Gamma(U, \psi_{*}(\mathcal{A}))$, and _a fortiori_ over
 $\Gamma(U, \mathcal{B})$; it defines a homomorphism
 
-```
-Γ(U, Ψ_*(ℳ)) ⊗_{Γ(U, ℬ)} Γ(U, Ψ_*(𝒩)) → Γ(U, Ψ_*(ℳ ⊗_𝒜 𝒩))
-```
+$$ \Gamma(U, \Psi_{*}(\mathcal{M})) \otimes_{\Gamma(U, \mathcal{B})} \Gamma(U, \Psi_{*}(\mathcal{N})) \to \Gamma(U,
+\Psi_{*}(\mathcal{M} \otimes_{\mathcal{A}} \mathcal{N})) $$
 
 which is compatible with restriction; the result is a canonical functorial homomorphism of $\mathcal{B}$-Modules
 
-```
-(4.2.2.1)    Ψ_*(ℳ) ⊗_ℬ Ψ_*(𝒩) → Ψ_*(ℳ ⊗_𝒜 𝒩),
-```
+$$ \Psi_{*}(\mathcal{M}) \otimes_{\mathcal{B}} \Psi_{*}(\mathcal{N}) \to \Psi_{*}(\mathcal{M} \otimes_{\mathcal{A}}
+\mathcal{N}), \tag{4.2.2.1} $$
 
 in general neither injective nor surjective. If $\mathcal{P}$ is a third $\mathcal{A}$-Module, the diagram
 
-```
-(4.2.2.2)    Ψ_*(ℳ) ⊗_ℬ Ψ_*(𝒩) ⊗_ℬ Ψ_*(𝒫) → Ψ_*(ℳ ⊗_𝒜 𝒩) ⊗_ℬ Ψ_*(𝒫)
-                        │                                    │
-                        ↓                                    ↓
-             Ψ_*(ℳ) ⊗_ℬ Ψ_*(𝒩 ⊗_𝒜 𝒫) ─────────────→  Ψ_*(ℳ ⊗_𝒜 𝒩 ⊗_𝒜 𝒫)
-```
+$$
+\begin{array}{ccc}
+\Psi_{*}(\mathcal{M}) \otimes_{\mathcal{B}} \Psi_{*}(\mathcal{N}) \otimes_{\mathcal{B}} \Psi_{*}(\mathcal{P}) & \to & \Psi_{*}(\mathcal{M} \otimes_{\mathcal{A}} \mathcal{N}) \otimes_{\mathcal{B}} \Psi_{*}(\mathcal{P}) \\
+\downarrow & & \downarrow \\
+\Psi_{*}(\mathcal{M}) \otimes_{\mathcal{B}} \Psi_{*}(\mathcal{N} \otimes_{\mathcal{A}} \mathcal{P}) & \to & \Psi_{*}(\mathcal{M} \otimes_{\mathcal{A}} \mathcal{N} \otimes_{\mathcal{A}} \mathcal{P})
+\end{array}
+\tag{4.2.2.2}
+$$
 
 commutes.
 
@@ -241,22 +236,19 @@ $\Gamma(\psi^{-1}(U), \mathcal{H}om_{\mathcal{A}}(\mathcal{M}, \mathcal{N})) =
 \operatorname{Hom}_{\mathcal{A}|V}(\mathcal{M}|V, \mathcal{N}|V)$ with $V = \psi^{-1}(U)$. The map $u \mapsto
 \psi_{*}(u)$ is a homomorphism
 
-```
-Hom_{𝒜|V}(ℳ|V, 𝒩|V) → Hom_{ℬ|U}(Ψ_*(ℳ)|U, Ψ_*(𝒩)|U)
-```
+$$ \operatorname{Hom}_{\mathcal{A}|V}(\mathcal{M}|V, \mathcal{N}|V) \to
+\operatorname{Hom}_{\mathcal{B}|U}(\Psi_{*}(\mathcal{M})|U, \Psi_{*}(\mathcal{N})|U) $$
 
 for the $\Gamma(U, \mathcal{B})$-module structures. These homomorphisms are compatible with restriction, so they define
 a canonical functorial homomorphism of $\mathcal{B}$-Modules
 
-```
-(4.2.3.1)    Ψ_*(ℋom_𝒜(ℳ, 𝒩)) → ℋom_ℬ(Ψ_*(ℳ), Ψ_*(𝒩)).
-```
+$$ \Psi_{*}(\mathcal{H}om_{\mathcal{A}}(\mathcal{M}, \mathcal{N})) \to
+\mathcal{H}om_{\mathcal{B}}(\Psi_{*}(\mathcal{M}), \Psi_{*}(\mathcal{N})). \tag{4.2.3.1} $$
 
 **(4.2.4)** If $\mathcal{C}$ is an $\mathcal{A}$-Algebra, the composite
 
-```
-Ψ_*(𝒞) ⊗_ℬ Ψ_*(𝒞) → Ψ_*(𝒞 ⊗_𝒜 𝒞) → Ψ_*(𝒞)
-```
+$$ \Psi_{*}(\mathcal{C}) \otimes_{\mathcal{B}} \Psi_{*}(\mathcal{C}) \to \Psi_{*}(\mathcal{C} \otimes_{\mathcal{A}}
+\mathcal{C}) \to \Psi_{*}(\mathcal{C}) $$
 
 equips $\Psi_{*}(\mathcal{C})$ with a $\mathcal{B}$-Algebra structure, by (4.2.2.2). Similarly, if $\mathcal{M}$ is a
 $\mathcal{C}$-Module, $\Psi_{*}(\mathcal{M})$ is canonically equipped with a $\Psi_{*}(\mathcal{C})$-Module structure.
@@ -293,9 +285,7 @@ $\mathcal{A}$ being a right-exact functor on $\psi*(\mathcal{B})$-Modules.
 
 For every $x \in X$, by (3.7.2),
 
-```
-(Ψ*(𝒢))_x = 𝒢_{ψ(x)} ⊗_{ℬ_{ψ(x)}} 𝒜_x.
-```
+$$ (\Psi^{*}(\mathcal{G}))_{x} = \mathcal{G}_{\psi(x)} \otimes_{\mathcal{B}_{\psi(x)}} \mathcal{A}_{x}. $$
 
 The support of $\Psi*(\mathcal{G})$ is therefore contained in $\psi^{-1}(Supp(\mathcal{G}))$.
 
@@ -306,33 +296,27 @@ homomorphism $\varinjlim \psi*(\mathcal{G}_{\lambda}) \to \psi*(\mathcal{G})$. S
 sheaves is the inductive limit of stalks (G, II, 1.11), this map is _bijective_ (3.7.2). Tensor product also commutes
 with inductive limits, so there is a _canonical functorial isomorphism_ of $\mathcal{A}$-Modules
 
-```
-lim⃗ Ψ*(𝒢_λ) ⥲ Ψ*(lim⃗ 𝒢_λ).
-```
+$$ \varinjlim \Psi^{*}(\mathcal{G}_{\lambda}) \xrightarrow{\sim} \Psi^{*}(\varinjlim \mathcal{G}_{\lambda}). $$
 
 For a finite direct sum $\oplus_{i} \mathcal{G}_{i}$ of $\mathcal{B}$-Modules, plainly $\psi*(\oplus_{i}
 \mathcal{G}_{i}) = \oplus_{i} \psi*(\mathcal{G}_{i})$, so tensoring with $\mathcal{A}_{[\theta]}$ gives
 
-```
-(4.3.2.1)    Ψ*(⊕_i 𝒢_i) = ⊕_i Ψ*(𝒢_i).
-```
+$$ \Psi^{*}(\oplus_{i} \mathcal{G}_{i}) = \oplus_{i} \Psi^{*}(\mathcal{G}_{i}). \tag{4.3.2.1} $$
 
 By passage to inductive limit, the equality extends to arbitrary direct sums.
 
 **(4.3.3)** Let $\mathcal{G}_{1}, \mathcal{G}_{2}$ be $\mathcal{B}$-Modules. From the construction of inverse images of
 sheaves of abelian groups (3.7.1) one obtains at once a canonical homomorphism
 
-```
-ψ*(𝒢_1) ⊗_{ψ*(ℬ)} ψ*(𝒢_2) → ψ*(𝒢_1 ⊗_ℬ 𝒢_2)
-```
+$$ \psi^{*}(\mathcal{G}_{1}) \otimes_{\psi^{*}(\mathcal{B})} \psi^{*}(\mathcal{G}_{2}) \to \psi^{*}(\mathcal{G}_{1}
+\otimes_{\mathcal{B}} \mathcal{G}_{2}) $$
 
 of $\psi*(\mathcal{B})$-Modules; since the stalk of a tensor product of sheaves is the tensor product of stalks (G, II,
 2.8), (3.7.2) shows that this map is an _isomorphism_. Tensoring with $\mathcal{A}$ gives a canonical functorial
 isomorphism
 
-```
-(4.3.3.1)    Ψ*(𝒢_1) ⊗_𝒜 Ψ*(𝒢_2) ⥲ Ψ*(𝒢_1 ⊗_ℬ 𝒢_2).
-```
+$$ \Psi^{*}(\mathcal{G}_{1}) \otimes_{\mathcal{A}} \Psi^{*}(\mathcal{G}_{2}) \xrightarrow{\sim} \Psi^{*}(\mathcal{G}_{1}
+\otimes_{\mathcal{B}} \mathcal{G}_{2}). \tag{4.3.3.1} $$
 
 **(4.3.4)** Let $\mathcal{C}$ be a $\mathcal{B}$-Algebra; giving $\mathcal{C}$ an algebra structure amounts to giving a
 $\mathcal{B}$-homomorphism $\mathcal{C} \otimes_{\mathcal{B}} \mathcal{C} \to \mathcal{C}$ satisfying associativity and
@@ -380,17 +364,14 @@ restrictions.
 **(4.4.2)** Under the hypotheses of (4.2.1) and (4.2.6), let $\mathcal{H}$ be a $\mathcal{C}$-Module and $v :
 \mathcal{H} \to \Psi'_{*}(\mathcal{G})$ a $\Psi'$-morphism; then
 
-```
-w : ℋ ──v──→ Ψ′_*(𝒢) ──Ψ′_*(u)──→ Ψ′_*(Ψ_*(ℱ))
-```
+$$ w : \mathcal{H} \xrightarrow{v} \Psi'_{*}(\mathcal{G}) \xrightarrow{\Psi'_{*}(u)} \Psi'_{*}(\Psi_{*}(\mathcal{F})) $$
 
 is a $\Psi''$-morphism, called the _composite_ of $u$ and $v$.
 
 **(4.4.3)** We now show that there is a _canonical isomorphism of bifunctors in_ $\mathcal{F}$ _and_ $\mathcal{G}$
 
-```
-(4.4.3.1)    Hom_𝒜(Ψ*(𝒢), ℱ) ⥲ Hom_ℬ(𝒢, Ψ_*(ℱ)),
-```
+$$ \operatorname{Hom}_{\mathcal{A}}(\Psi^{*}(\mathcal{G}), \mathcal{F}) \xrightarrow{\sim}
+\operatorname{Hom}_{\mathcal{B}}(\mathcal{G}, \Psi_{*}(\mathcal{F})), \tag{4.4.3.1} $$
 
 written $v \mapsto v^{\flat}$ (or simply $v \mapsto v^{\flat}$); the inverse is written $u \mapsto u^{\sharp}$. The
 definition is as follows: composing $v : \Psi*(\mathcal{G}) \to \mathcal{F}$ with the canonical map $\psi*(\mathcal{G})
@@ -429,9 +410,8 @@ $\mathcal{B}$-Modules, with $u_{i} : \mathcal{G}_{i} \to \mathcal{F}_{i}$ a homo
 \otimes_{\mathcal{A}} \mathcal{F}_{2}$ with $u^{\sharp} = (u_{1})^{\sharp} \otimes (u_{2})^{\sharp}$ (using (4.3.3.1));
 one checks that $u$ is also the composite
 
-```
-𝒢_1 ⊗_ℬ 𝒢_2 → Ψ_*(ℱ_1) ⊗_ℬ Ψ_*(ℱ_2) → Ψ_*(ℱ_1 ⊗_𝒜 ℱ_2),
-```
+$$ \mathcal{G}_{1} \otimes_{\mathcal{B}} \mathcal{G}_{2} \to \Psi_{*}(\mathcal{F}_{1}) \otimes_{\mathcal{B}}
+\Psi_{*}(\mathcal{F}_{2}) \to \Psi_{*}(\mathcal{F}_{1} \otimes_{\mathcal{A}} \mathcal{F}_{2}), $$
 
 where the first arrow is the ordinary tensor product $u_{1} \otimes u_{2}$ and the second is the canonical map
 (4.2.2.1).
@@ -445,24 +425,21 @@ inductive limit is $u^{\sharp}$.
 **(4.4.6)** Let $\mathcal{M}$, $\mathcal{N}$ be $\mathcal{B}$-Modules, $V \subset Y$ open, $U = \psi^{-1}(V)$. The map
 $v \mapsto \Psi*(v)$ is a homomorphism
 
-```
-Hom_{ℬ|V}(ℳ|V, 𝒩|V) → Hom_{𝒜|U}(Ψ*(ℳ)|U, Ψ*(𝒩)|U)
-```
+$$ \operatorname{Hom}_{\mathcal{B}|V}(\mathcal{M}|V, \mathcal{N}|V) \to
+\operatorname{Hom}_{\mathcal{A}|U}(\Psi^{*}(\mathcal{M})|U, \Psi^{*}(\mathcal{N})|U) $$
 
 for the $\Gamma(V, \mathcal{B})$-module structures ($\operatorname{Hom}_{\mathcal{A}|U}(\Psi*(\mathcal{M})|U,
 \Psi*(\mathcal{N})|U)$ is naturally a $\Gamma(U, \psi*(\mathcal{B}))$-module, hence a $\Gamma(V, \mathcal{B})$-module
 via the canonical homomorphism $\Gamma(V, \mathcal{B}) \to \Gamma(U, \psi*(\mathcal{B}))$ of (3.7.2)). These
 homomorphisms are compatible with restriction, so they define a canonical functorial homomorphism
 
-```
-γ : ℋom_ℬ(ℳ, 𝒩) → Ψ_*(ℋom_𝒜(Ψ*(ℳ), Ψ*(𝒩))),
-```
+$$ \gamma : \mathcal{H}om_{\mathcal{B}}(\mathcal{M}, \mathcal{N}) \to
+\Psi_{*}(\mathcal{H}om_{\mathcal{A}}(\Psi^{*}(\mathcal{M}), \Psi^{*}(\mathcal{N}))), $$
 
 corresponding to a homomorphism
 
-```
-γ^♯ : Ψ*(ℋom_ℬ(ℳ, 𝒩)) → ℋom_𝒜(Ψ*(ℳ), Ψ*(𝒩)),
-```
+$$ \gamma^{\sharp} : \Psi^{*}(\mathcal{H}om_{\mathcal{B}}(\mathcal{M}, \mathcal{N})) \to
+\mathcal{H}om_{\mathcal{A}}(\Psi^{*}(\mathcal{M}), \Psi^{*}(\mathcal{N})), $$
 
 both functorial in $\mathcal{M}$ and $\mathcal{N}$.
 
@@ -470,12 +447,13 @@ both functorial in $\mathcal{M}$ and $\mathcal{N}$.
 $u : \mathcal{G} \to \Psi_{*}(\mathcal{F})$ is a $\mathcal{B}$-Algebra homomorphism, then $u^{\sharp} :
 \Psi*(\mathcal{G}) \to \mathcal{F}$ is an $\mathcal{A}$-Algebra homomorphism; this follows from the commutativity of
 
-```
-𝒢 ⊗_ℬ 𝒢 ────────────→ 𝒢
-    │                    │
-    ↓                    ↓ u
-Ψ_*(ℱ ⊗_𝒜 ℱ) ────→ Ψ_*(ℱ)
-```
+$$
+\begin{array}{ccc}
+\mathcal{G} \otimes_{\mathcal{B}} \mathcal{G} & \to & \mathcal{G} \\
+\downarrow & & \downarrow{\scriptstyle u} \\
+\Psi_{*}(\mathcal{F} \otimes_{\mathcal{A}} \mathcal{F}) & \to & \Psi_{*}(\mathcal{F})
+\end{array}
+$$
 
 and (4.4.4). Similarly, if $v : \Psi*(\mathcal{G}) \to \mathcal{F}$ is an $\mathcal{A}$-Algebra homomorphism, then
 $v^{\flat} : \mathcal{G} \to \Psi_{*}(\mathcal{F})$ is a $\mathcal{B}$-Algebra homomorphism.
@@ -485,12 +463,9 @@ $v^{\flat} : \mathcal{G} \to \Psi_{*}(\mathcal{F})$ is a $\mathcal{B}$-Algebra h
 a $\mathcal{C}$-Module and $v' : \mathcal{H} \to \Psi'_{*}(\mathcal{G})$ a homomorphism. The composite $v'' = v \circ
 v'$ is defined as the homomorphism
 
-```
-ℋ ──v′──→ Ψ′_*(𝒢) ──Ψ′_*(v)──→ Ψ′_*(Ψ_*(ℱ));
-```
+$$ \mathcal{H} \xrightarrow{v'} \Psi'_{*}(\mathcal{G}) \xrightarrow{\Psi'_{*}(v)} \Psi'_{*}(\Psi_{*}(\mathcal{F})); $$
 
 one checks that $v''^{\sharp}$ is
 
-```
-Ψ*(Ψ′*(ℋ)) ──Ψ*(v′^♯)──→ Ψ*(𝒢) ──v^♯──→ ℱ.
-```
+$$ \Psi^{*}(\Psi'^{*}(\mathcal{H})) \xrightarrow{\Psi^{*}(v'^{\sharp})} \Psi^{*}(\mathcal{G}) \xrightarrow{v^{\sharp}}
+\mathcal{F}. $$

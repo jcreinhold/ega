@@ -18,9 +18,9 @@ left (resp. right) $B$-module $M$ can be equipped with the structure of a left (
 \cdot m = \phi(a) \cdot m$ (resp. $m \cdot a = m \cdot \phi(a)$); when it is necessary to distinguish the $A$-module and
 $B$-module structures on $M$, we shall denote by $M_{\phi}$ the left (resp. right) $A$-module so defined. If $L$ is an
 $A$-module, a homomorphism $u : L \to M_{\phi}$ is therefore a homomorphism of abelian groups such that $u(a \cdot x) =
-\phi(a) \cdot u(x)$ for $a \in A$, $x \in L$; one also calls such a $u$ a _φ-homomorphism_ $L \to M$, and one calls the
-pair $(\phi, u)$ (or, by abuse of language, $u$ itself) a _di-homomorphism_ from $(A, L)$ to $(B, M)$. The pairs $(A,
-L)$ consisting of a ring $A$ and an $A$-module $L$ therefore form a _category_, whose morphisms are the
+\phi(a) \cdot u(x)$ for $a \in A$, $x \in L$; one also calls such a $u$ a _$\phi$-homomorphism_ $L \to M$, and one calls
+the pair $(\phi, u)$ (or, by abuse of language, $u$ itself) a _di-homomorphism_ from $(A, L)$ to $(B, M)$. The pairs
+$(A, L)$ consisting of a ring $A$ and an $A$-module $L$ therefore form a _category_, whose morphisms are the
 di-homomorphisms.
 
 **(1.0.3)** Under the hypotheses of (1.0.2), if $\mathfrak{J}$ is a left (resp. right) ideal of $A$, we shall denote by
@@ -89,7 +89,7 @@ of the maximal left ideals of $A$ (and also of the maximal right ideals). The ra
 $S$ lies in $S$. The examples that will matter most in what follows are:
 
 1. the set $S_{f}$ of powers $f^{n}$ ($n \geq 0$) of an element $f \in A$;
-1. the complement $A - \mathfrak{p}$ of a prime ideal $\mathfrak{p}$ of $A$.
+2. the complement $A - \mathfrak{p}$ of a prime ideal $\mathfrak{p}$ of $A$.
 
 **(1.2.2)** Let $S$ be a multiplicative subset of a ring $A$ and $M$ an $A$-module. On the set $M \times S$, the
 relation between pairs $(m_{1}, s_{1})$ and $(m_{2}, s_{2})$
@@ -97,15 +97,13 @@ relation between pairs $(m_{1}, s_{1})$ and $(m_{2}, s_{2})$
 > "there exists $s \in S$ such that $s(s_{1}m_{2} - s_{2}m_{1}) = 0$"
 
 is an equivalence relation. We write $S^{-1}M$ for the quotient set, and $m/s$ for the canonical image in $S^{-1}M$ of
-the pair $(m, s)$; the _canonical map_ of $M$ into $S^{-1}M$ is the map $i^{s}_{M} : m \mapsto m/1$ (also written `iˢ`).
-This map is in general neither injective nor surjective; its kernel is the set of $m \in M$ such that $sm = 0$ for some
-$s \in S$.
+the pair $(m, s)$; the _canonical map_ of $M$ into $S^{-1}M$ is the map $i^{s}_{M} : m \mapsto m/1$ (also written
+$i^{S}$). This map is in general neither injective nor surjective; its kernel is the set of $m \in M$ such that $sm = 0$
+for some $s \in S$.
 
 On $S^{-1}M$ we define an additive group law by
 
-```
-(m₁/s₁) + (m₂/s₂) = (s₂m₁ + s₁m₂)/(s₁s₂)
-```
+$$ (m_{1}/s_{1}) + (m_{2}/s_{2}) = (s_{2}m_{1} + s_{1}m_{2})/(s_{1}s_{2}) $$
 
 (one checks that this is independent of the representatives chosen). On $S^{-1}A$ we define in addition a multiplicative
 law by $(a_{1}/s_{1})(a_{2}/s_{2}) = (a_{1}a_{2})/(s_{1}s_{2})$, and an external law on $S^{-1}M$ with ring of operators
@@ -130,17 +128,13 @@ $A_{\mathfrak{p}}/\mathfrak{q}$, which is canonically identified with the field 
 problem_: every homomorphism $u$ from $A$ to a ring $B$ such that $u(S)$ consists of invertible elements of $B$ factors
 uniquely as
 
-```
-u : A ──iˢ_A──→ S⁻¹A ──u*──→ B
-```
+$$ u : A \xrightarrow{i^{S}_{A}} S^{-1}A \xrightarrow{u^{*}} B $$
 
 where $u*$ is a ring homomorphism. Under the same hypotheses, let $M$ be an $A$-module, $N$ a $B$-module, and $v : M \to
 N$ an $A$-module homomorphism (for the $B$-module structure on $N$ defined by $u : A \to B$); then $v$ factors uniquely
 as
 
-```
-v : M ──iˢ_M──→ S⁻¹M ──v*──→ N
-```
+$$ v : M \xrightarrow{i^{S}_{M}} S^{-1}M \xrightarrow{v^{*}} N $$
 
 where $v*$ is an $S^{-1}A$-module homomorphism (for the $S^{-1}A$-module structure on $N$ defined by $u*$).
 
@@ -177,47 +171,35 @@ category of $A$-modules to the category of $S^{-1}A$-modules ($A$ and $S$ being 
 
 **(1.3.2)** The functor $S^{-1}M$ is _exact_; that is, if
 
-```
-M ──u──→ N ──v──→ P
-```
+$$ M \xrightarrow{u} N \xrightarrow{v} P $$
 
 is exact, so is
 
-```
-S⁻¹M ──S⁻¹u──→ S⁻¹N ──S⁻¹v──→ S⁻¹P.
-```
+$$ S^{-1}M \xrightarrow{S^{-1}u} S^{-1}N \xrightarrow{S^{-1}v} S^{-1}P. $$
 
 In particular, if $u : M \to N$ is injective (resp. surjective), so is $S^{-1}u$; if $N$ and $P$ are submodules of $M$,
 then $S^{-1}N$ and $S^{-1}P$ are canonically identified with submodules of $S^{-1}M$, and one has
 
-```
-S⁻¹(N + P) = S⁻¹N + S⁻¹P    and    S⁻¹(N ∩ P) = (S⁻¹N) ∩ (S⁻¹P).
-```
+$$ S^{-1}(N + P) = S^{-1}N + S^{-1}P \quad\text{and}\quad S^{-1}(N \cap P) = (S^{-1}N) \cap (S^{-1}P). $$
 
 **(1.3.3)** Let $(M_{\alpha}, \phi_{\beta \alpha})$ be an inductive limit [modern: direct limit] system of $A$-modules;
 then $(S^{-1}M_{\alpha}, S^{-1}\phi_{\beta \alpha})$ is an inductive system of $S^{-1}A$-modules. Expressing
 $S^{-1}M_{\alpha}$ and $S^{-1}\phi_{\beta \alpha}$ via tensor products (1.2.5 and 1.3.1), and using the fact that tensor
 product commutes with inductive limits, one obtains a canonical isomorphism
 
-```
-S⁻¹(lim⃗ M_α) ⥲ lim⃗ S⁻¹M_α,
-```
+$$ S^{-1}(\varinjlim M_{\alpha}) \xrightarrow{\sim} \varinjlim S^{-1}M_{\alpha}, $$
 
 which one also expresses by saying that the functor $S^{-1}M$ (in $M$) _commutes with inductive limits_.
 
 **(1.3.4)** Let $M$, $N$ be two $A$-modules; there is a canonical _functorial_ isomorphism (in $M$ and $N$)
 
-```
-(S⁻¹M) ⊗_{S⁻¹A} (S⁻¹N) ⥲ S⁻¹(M ⊗_A N)
-```
+$$ (S^{-1}M) \otimes_{S^{-1}A} (S^{-1}N) \xrightarrow{\sim} S^{-1}(M \otimes_{A} N) $$
 
 sending $(m/s) \otimes (n/t)$ to $(m \otimes n)/(st)$.
 
 **(1.3.5)** Similarly one has a _functorial_ homomorphism (in $M$ and $N$)
 
-```
-S⁻¹Hom_A(M, N) → Hom_{S⁻¹A}(S⁻¹M, S⁻¹N)
-```
+$$ S^{-1}\operatorname{Hom}_{A}(M, N) \to \operatorname{Hom}_{S^{-1}A}(S^{-1}M, S^{-1}N) $$
 
 sending $u/s$ to the homomorphism $m/t \mapsto u(m)/(st)$. When $M$ has a _finite presentation_, this homomorphism is an
 _isomorphism_: this is immediate when $M$ is of the form $A^{r}$, and one reduces from there to the general case by
@@ -238,14 +220,13 @@ $i^{T}_{M} = \rho^{T,S}_{M} \circ i^{s}_{M}$. Under the canonical identification
 with $\rho^{T,S}_{A} \otimes 1$. The map $\rho^{T,S}_{M}$ is a _functorial morphism_ (or _natural transformation_) from
 the functor $S^{-1}M$ to the functor $T^{-1}M$; that is, the diagram
 
-```
-S⁻¹M ─S⁻¹u─→ S⁻¹N
-  │            │
-ρ^{T,S}_M     ρ^{T,S}_N
-  │            │
-  ↓            ↓
-T⁻¹M ─T⁻¹u─→ T⁻¹N
-```
+$$
+\begin{array}{ccc}
+S^{-1}M & \xrightarrow{S^{-1}u} & S^{-1}N \\
+\downarrow{\scriptstyle \rho^{T,S}_{M}} & & \downarrow{\scriptstyle \rho^{T,S}_{N}} \\
+T^{-1}M & \xrightarrow{T^{-1}u} & T^{-1}N
+\end{array}
+$$
 
 commutes for every homomorphism $u : M \to N$. Note moreover that $T^{-1}u$ is entirely determined by $S^{-1}u$, since
 for $m \in M$ and $t \in T$ one has
@@ -254,12 +235,19 @@ $$ (T^{-1}u)(m/t) = (t/1)^{-1} \cdot \rho^{T,S}((S^{-1}u)(m/1)). $$
 
 **(1.4.2)** With the same notation, for two $A$-modules $M$, $N$, the diagrams (cf. (1.3.4) and (1.3.5))
 
-```
-(S⁻¹M) ⊗_{S⁻¹A} (S⁻¹N) ⥲ S⁻¹(M ⊗_A N)       S⁻¹Hom_A(M, N) → Hom_{S⁻¹A}(S⁻¹M, S⁻¹N)
-        │                       │                       │                            │
-        ↓                       ↓                       ↓                            ↓
-(T⁻¹M) ⊗_{T⁻¹A} (T⁻¹N) ⥲ T⁻¹(M ⊗_A N)       T⁻¹Hom_A(M, N) → Hom_{T⁻¹A}(T⁻¹M, T⁻¹N)
-```
+$$
+\begin{array}{ccc}
+(S^{-1}M) \otimes_{S^{-1}A} (S^{-1}N) & \xrightarrow{\sim} & S^{-1}(M \otimes_{A} N) \\
+\downarrow & & \downarrow \\
+(T^{-1}M) \otimes_{T^{-1}A} (T^{-1}N) & \xrightarrow{\sim} & T^{-1}(M \otimes_{A} N)
+\end{array}
+\qquad
+\begin{array}{ccc}
+S^{-1}\operatorname{Hom}_{A}(M, N) & \to & \operatorname{Hom}_{S^{-1}A}(S^{-1}M, S^{-1}N) \\
+\downarrow & & \downarrow \\
+T^{-1}\operatorname{Hom}_{A}(M, N) & \to & \operatorname{Hom}_{T^{-1}A}(T^{-1}M, T^{-1}N)
+\end{array}
+$$
 
 commute.
 
@@ -281,14 +269,16 @@ $\rho_{\beta \alpha}$ define a ring $A'$ as the _inductive limit_ of the inducti
 \rho^{S, S_{\alpha}}_{A}$; since $\phi_{\alpha} = \phi_{\beta} \circ \rho_{\beta \alpha}$ for $\alpha \leq \beta$ by
 (1.4.4), there is a unique homomorphism $\phi : A' \to S^{-1}A$ such that the diagram
 
-```
-                  S_α⁻¹A
-                ρ_α ↙ ↘ φ_α
-              A′ ────φ──── S⁻¹A
-                ↖  ρ_β    φ_β ↗
-                  S_β⁻¹A
-                    (α ≤ β)
-```
+$$
+\begin{array}{ccccc}
+ & & S_{\alpha}^{-1}A & & \\
+ & {\scriptstyle \rho_{\alpha}}\swarrow & & \searrow{\scriptstyle \varphi_{\alpha}} & \\
+A' & & \xrightarrow{\ \varphi\ } & & S^{-1}A \\
+ & {\scriptstyle \rho_{\beta}}\nwarrow & & \nearrow{\scriptstyle \varphi_{\beta}} & \\
+ & & S_{\beta}^{-1}A & & \\
+ & & {\scriptstyle (\alpha \le \beta)} & &
+\end{array}
+$$
 
 commutes. In fact $\phi$ is an _isomorphism_: it is plainly surjective by construction. On the other hand, if
 $\rho_{\alpha}(a/s_{\alpha}) \in A'$ satisfies $\phi(\rho_{\alpha}(a/s_{\alpha})) = 0$, then $a/s_{\alpha} = 0$ in
@@ -296,9 +286,8 @@ $S^{-1}A$, so there is $s \in S$ with $sa = 0$; pick $\beta \geq \alpha$ with $s
 $\rho_{\alpha}(a/s_{\alpha}) = \rho_{\beta}(sa/(ss_{\alpha})) = 0$, showing $\phi$ injective. One handles an $A$-module
 $M$ in the same way, obtaining canonical isomorphisms
 
-```
-lim⃗_α S_α⁻¹A ⥲ (lim⃗ S_α)⁻¹A,    lim⃗_α S_α⁻¹M ⥲ (lim⃗ S_α)⁻¹M,
-```
+$$ \varinjlim_{\alpha} S_{\alpha}^{-1}A \xrightarrow{\sim} (\varinjlim S_{\alpha})^{-1}A, \quad \varinjlim_{\alpha}
+S_{\alpha}^{-1}M \xrightarrow{\sim} (\varinjlim S_{\alpha})^{-1}M, $$
 
 the second functorial in $M$.
 
@@ -333,24 +322,20 @@ with $(\phi(S'))^{-1}A$), and $\sigma : S'^{-1}(A_{\phi}) \to S^{-1}A$ is a homo
 
 **(1.5.3)** Let $M$, $N$ be two $A$-modules. Composing (1.3.4) with (1.5.2) yields a homomorphism
 
-```
-(S⁻¹M ⊗_{S⁻¹A} S⁻¹N)_[φ^{S′}] ← S′⁻¹((M ⊗_A N)_[φ])
-```
+$$ (S^{-1}M \otimes_{S^{-1}A} S^{-1}N)_{[\varphi^{S'}]} \leftarrow S'^{-1}((M \otimes_{A} N)_{[\varphi]}) $$
 
 which is an isomorphism when $\phi(S') = S$. Similarly, composing (1.3.5) with (1.5.2) gives a homomorphism
 
-```
-S′⁻¹((Hom_A(M, N))_[φ]) → (Hom_{S⁻¹A}(S⁻¹M, S⁻¹N))_[φ^{S′}]
-```
+$$ S'^{-1}((\operatorname{Hom}_{A}(M, N))_{[\varphi]}) \to (\operatorname{Hom}_{S^{-1}A}(S^{-1}M,
+S^{-1}N))_{[\varphi^{S'}]} $$
 
 which is an isomorphism when $\phi(S') = S$ and $M$ admits a finite presentation.
 
 **(1.5.4)** Now consider an $A'$-module $N'$, and form the tensor product $N' \otimes_{A'} A_{\phi}$, which becomes an
 $A$-module via $a \cdot (n' \otimes b) = n' \otimes (ab)$. There is a functorial isomorphism of $S^{-1}A$-modules
 
-```
-τ : (S′⁻¹N′) ⊗_{S′⁻¹A′} (S⁻¹A)_[φ^{S′}] ⥲ S⁻¹(N′ ⊗_{A′} A_[φ])
-```
+$$ \tau : (S'^{-1}N') \otimes_{S'^{-1}A'} (S^{-1}A)_{[\varphi^{S'}]} \xrightarrow{\sim} S^{-1}(N' \otimes_{A'}
+A_{[\varphi]}) $$
 
 sending $(n'/s') \otimes (a/s)$ to $(n' \otimes a)/(\phi(s')s)$; one checks separately that replacing $n'/s'$ (resp.
 $a/s$) by another expression of the same element leaves $(n' \otimes a)/(\phi(s')s)$ unchanged. An inverse for $\tau$ is
@@ -360,48 +345,44 @@ given by sending $(n' \otimes a)/s$ to $(n'/1) \otimes (a/s)$; one uses the cano
 
 **(1.5.5)** If $M'$ and $N'$ are two $A'$-modules, composing (1.3.4) with (1.5.4) yields an isomorphism
 
-```
-S′⁻¹M′ ⊗_{S′⁻¹A′} S′⁻¹N′ ⊗_{S′⁻¹A′} S⁻¹A ⥲ S⁻¹(M′ ⊗_{A′} N′ ⊗_{A′} A).
-```
+$$ S'^{-1}M' \otimes_{S'^{-1}A'} S'^{-1}N' \otimes_{S'^{-1}A'} S^{-1}A \xrightarrow{\sim} S^{-1}(M' \otimes_{A'} N'
+\otimes_{A'} A). $$
 
 Similarly, if $M'$ admits a finite presentation, then by (1.3.5) and (1.5.4) one has an isomorphism
 
-```
-Hom_{S′⁻¹A′}(S′⁻¹M′, S′⁻¹N′) ⊗_{S′⁻¹A′} S⁻¹A ⥲ S⁻¹(Hom_{A′}(M′, N′) ⊗_{A′} A).
-```
+$$ \operatorname{Hom}_{S'^{-1}A'}(S'^{-1}M', S'^{-1}N') \otimes_{S'^{-1}A'} S^{-1}A \xrightarrow{\sim}
+S^{-1}(\operatorname{Hom}_{A'}(M', N') \otimes_{A'} A). $$
 
 **(1.5.6)** Under the hypotheses of (1.5.1), let $T$ (resp. $T'$) be a second multiplicative subset of $A$ (resp. $A'$)
 such that $S \subset T$ (resp. $S' \subset T'$) and $\phi(T') \subset T$. Then the diagram
 
-```
-S′⁻¹A′ ──φ^{S′}──→ S⁻¹A
-  │                  │
-ρ^{T′,S′}          ρ^{T,S}
-  │                  │
-  ↓                  ↓
-T′⁻¹A′ ──φ^{T′}──→ T⁻¹A
-```
+$$
+\begin{array}{ccc}
+S'^{-1}A' & \xrightarrow{\varphi^{S'}} & S^{-1}A \\
+\downarrow{\scriptstyle \rho^{T',S'}} & & \downarrow{\scriptstyle \rho^{T,S}} \\
+T'^{-1}A' & \xrightarrow{\varphi^{T'}} & T^{-1}A
+\end{array}
+$$
 
 commutes. For an $A$-module $M$, the diagram
 
-```
-S′⁻¹(M_[φ]) ──σ──→ (S⁻¹M)_[φ^{S′}]
-    │                    │
- ρ^{T′,S′}             ρ^{T,S}
-    │                    │
-    ↓                    ↓
-T′⁻¹(M_[φ]) ──σ──→ (T⁻¹M)_[φ^{T′}]
-```
+$$
+\begin{array}{ccc}
+S'^{-1}(M_{[\varphi]}) & \xrightarrow{\sigma} & (S^{-1}M)_{[\varphi^{S'}]} \\
+\downarrow{\scriptstyle \rho^{T',S'}} & & \downarrow{\scriptstyle \rho^{T,S}} \\
+T'^{-1}(M_{[\varphi]}) & \xrightarrow{\sigma} & (T^{-1}M)_{[\varphi^{T'}]}
+\end{array}
+$$
 
 commutes. Finally, for an $A'$-module $N'$, the diagram
 
-```
-(S′⁻¹N′) ⊗_{S′⁻¹A′} (S⁻¹A)_[φ^{S′}] ──τ──→ S⁻¹(N′ ⊗_{A′} A_[φ])
-    │                                              │
-    ↓                                            ρ^{T,S}
-    ↓                                              ↓
-(T′⁻¹N′) ⊗_{T′⁻¹A′} (T⁻¹A)_[φ^{T′}] ──τ──→ T⁻¹(N′ ⊗_{A′} A_[φ])
-```
+$$
+\begin{array}{ccc}
+(S'^{-1}N') \otimes_{S'^{-1}A'} (S^{-1}A)_{[\varphi^{S'}]} & \xrightarrow{\tau} & S^{-1}(N' \otimes_{A'} A_{[\varphi]}) \\
+\downarrow & & \downarrow{\scriptstyle \rho^{T,S}} \\
+(T'^{-1}N') \otimes_{T'^{-1}A'} (T^{-1}A)_{[\varphi^{T'}]} & \xrightarrow{\tau} & T^{-1}(N' \otimes_{A'} A_{[\varphi]})
+\end{array}
+$$
 
 commutes, where the left-hand vertical arrow is obtained by applying $\rho^{T',S'}_{N'}$ to $S'^{-1}N'$ and
 $\rho^{T,S}_{A}$ to $S^{-1}A$.
@@ -451,22 +432,19 @@ $\varinjlim M_{n}$ are identified via $\theta$.
 **(1.6.2)** Write $M_{f,n}$, $\phi^{f}_{nm}$, and $\phi^{f}_{n}$ in place of $M_{n}$, $\phi_{nm}$, and $\phi_{n}$. Let
 $g$ be a second element of $A$. Since $f^{n}$ divides $f^{n}g^{n}$, there is a functorial homomorphism
 
-```
-ρ_{fg, f} : M_f → M_{fg}    (1.4.1 and 1.4.3);
-```
+$$ \rho_{fg, f} : M_{f} \to M_{fg} \quad (1.4.1 \text{ and } 1.4.3); $$
 
 if $M_{f}$ and $M_{fg}$ are identified with $\varinjlim M_{f,n}$ and $\varinjlim M_{fg,n}$ respectively, then $\rho_{fg,
 f}$ is the _inductive limit_ of the maps $\rho^{n}_{fg, f} : M_{f,n} \to M_{fg,n}$ defined by $\rho^{n}_{fg, f}(z) =
 g^{n}z$. Indeed, this follows at once from commutativity of the diagram
 
-```
-M_{f,n} ──ρⁿ_{fg,f}──→ M_{fg,n}
-   │                       │
- φ^f_n                  φ^{fg}_n
-   │                       │
-   ↓                       ↓
-  M_f ───ρ_{fg,f}───→  M_{fg}
-```
+$$
+\begin{array}{ccc}
+M_{f,n} & \xrightarrow{\rho^{n}_{fg,f}} & M_{fg,n} \\
+\downarrow{\scriptstyle \varphi^{f}_{n}} & & \downarrow{\scriptstyle \varphi^{fg}_{n}} \\
+M_{f} & \xrightarrow{\rho_{fg,f}} & M_{fg}
+\end{array}
+$$
 
 ## 1.7. Support of a module
 
@@ -479,9 +457,7 @@ ideal, hence equals $A$.
 
 **(1.7.2)** If $0 \to N \to M \to P \to 0$ is an exact sequence of $A$-modules, then
 
-```
-Supp(M) = Supp(N) ∪ Supp(P),
-```
+$$ \operatorname{Supp}(M) = \operatorname{Supp}(N) \cup \operatorname{Supp}(P), $$
 
 since for every prime $\mathfrak{p}$ of $A$ the sequence $0 \to N_{\mathfrak{p}} \to M_{\mathfrak{p}} \to
 P_{\mathfrak{p}} \to 0$ is exact (1.3.2), and $M_{\mathfrak{p}} = 0$ iff $N_{\mathfrak{p}} = P_{\mathfrak{p}} = 0$.
@@ -499,9 +475,7 @@ $\mathfrak{p}$ containing $\mathfrak{a} = \bigcap_{i} \mathfrak{a}_{i}$, the ann
 
 **(1.7.5)** If $M$ and $N$ are two $A$-modules _of finite type_, then
 
-```
-Supp(M ⊗_A N) = Supp(M) ∩ Supp(N).
-```
+$$ \operatorname{Supp}(M \otimes_{A} N) = \operatorname{Supp}(M) \cap \operatorname{Supp}(N). $$
 
 It suffices to see, using (1.3.4), that for every prime $\mathfrak{p}$ of $A$, the condition $M_{\mathfrak{p}}
 \otimes_{A_{\mathfrak{p}}} N_{\mathfrak{p}} \neq 0$ is equivalent to "$M_{\mathfrak{p}} \neq 0$ and $N_{\mathfrak{p}}

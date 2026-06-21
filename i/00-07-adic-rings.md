@@ -58,10 +58,11 @@ of definition $\mathfrak{J}'$.
 powers $\mathfrak{J}^{n}$ form a fundamental system of neighborhoods of `0` (equivalently, the $\mathfrak{J}^{n}$ are
 open). An _adic_ ring is a separated and complete preadic ring.
 
-If $\mathfrak{J}$ is an ideal of definition of a preadic (resp. adic) ring $A$, we also say $A$ is _𝔍-preadic_ (resp.
-_𝔍-adic_), and its topology is the _𝔍-preadic_ (resp. _𝔍-adic_) topology. For an $A$-module $M$, the topology with
-fundamental system of neighborhoods the submodules $\mathfrak{J}^{n}M$ is called the _𝔍-preadic_ (resp. _𝔍-adic_)
-topology. By (7.1.8), these topologies are independent of the choice of ideal of definition $\mathfrak{J}$.
+If $\mathfrak{J}$ is an ideal of definition of a preadic (resp. adic) ring $A$, we also say $A$ is
+_$\mathfrak{J}$-preadic_ (resp. _$\mathfrak{J}$-adic_), and its topology is the _$\mathfrak{J}$-preadic_ (resp.
+_$\mathfrak{J}$-adic_) topology. For an $A$-module $M$, the topology with fundamental system of neighborhoods the
+submodules $\mathfrak{J}^{n}M$ is called the _$\mathfrak{J}$-preadic_ (resp. _$\mathfrak{J}$-adic_) topology. By
+(7.1.8), these topologies are independent of the choice of ideal of definition $\mathfrak{J}$.
 
 **Proposition (7.1.10).** Let $A$ be an admissible ring and $\mathfrak{J}$ an ideal of definition. Then $\mathfrak{J}$
 is contained in the radical of $A$.
@@ -99,18 +100,18 @@ $\varprojlim A/\mathfrak{J}_{\lambda}$.
 \varprojlim A_{\lambda}$ of discrete rings indexed by a filtered ordered set $L$ with smallest element `0`, such that:
 
 > 1. each $u_{\lambda} : A \to A_{\lambda}$ is surjective;
-> 1. the kernel $\mathfrak{J}_{\lambda}$ of $u_{0\lambda} : A_{\lambda} \to A_{0}$ is nilpotent.
+> 2. the kernel $\mathfrak{J}_{\lambda}$ of $u_{0\lambda} : A_{\lambda} \to A_{0}$ is nilpotent.
 
 When this holds, the kernel $\mathfrak{J}$ of $u_{0} : A \to A_{0}$ equals $\varprojlim \mathfrak{J}_{\lambda}$.
 
 **(7.2.3)** Let $A$ be admissible and $\mathfrak{J} \subset A$ an ideal contained in an ideal of definition
 (equivalently, $(\mathfrak{J}^{n})$ tends to `0`). The ring topology on $A$ having the $\mathfrak{J}^{n}$ ($n > 0$) as
-fundamental system of neighborhoods of `0` — also called the _𝔍-preadic_ topology — is separated, since $\bigcap_{n}
-\mathfrak{J}^{n} = 0$. Let $\hat{A} = \varprojlim A/\mathfrak{J}^{n}$ (the $A/\mathfrak{J}^{n}$ discrete) be the
-completion for this topology, and let $u : A \to \hat{A}$ be the (possibly discontinuous) projective limit of $u_{n} : A
-\to A/\mathfrak{J}^{n}$. The $\mathfrak{J}$-preadic topology is finer than the given topology $\mathcal{T}$; extending
-the identity of $A$ (with $\mathfrak{J}$-preadic topology) by continuity to $\mathcal{T}$ gives a continuous map $v :
-\hat{A} \to A$.
+fundamental system of neighborhoods of `0` — also called the _$\mathfrak{J}$-preadic_ topology — is separated, since
+$\bigcap_{n} \mathfrak{J}^{n} = 0$. Let $\hat{A} = \varprojlim A/\mathfrak{J}^{n}$ (the $A/\mathfrak{J}^{n}$ discrete)
+be the completion for this topology, and let $u : A \to \hat{A}$ be the (possibly discontinuous) projective limit of
+$u_{n} : A \to A/\mathfrak{J}^{n}$. The $\mathfrak{J}$-preadic topology is finer than the given topology $\mathcal{T}$;
+extending the identity of $A$ (with $\mathfrak{J}$-preadic topology) by continuity to $\mathcal{T}$ gives a continuous
+map $v : \hat{A} \to A$.
 
 **Proposition (7.2.4).** If $A$ is admissible and $\mathfrak{J}$ is contained in an ideal of definition, then $A$ is
 separated and complete for the $\mathfrak{J}$-preadic topology.
@@ -147,13 +148,13 @@ kernel. Then:
 > hence finite-type over $A_{0} = A / \mathfrak{J}$.
 
 **Proof.** The surjectivity of the $u_{ij}$ makes each $u_{n}$ surjective; (a) gives $\mathfrak{J}^{j+1}_{j} = 0$, so
-$A$ is admissible by (7.2.2). The $\mathfrak{J}^{(n)}$ form a fundamental system of neighborhoods of `0`, so (ii) ⟹ (i).
-Since $\mathfrak{J} = \varprojlim_{i} \mathfrak{J}_{i}$ with surjective maps to $\mathfrak{J}_{i}$, (ii) ⟹ (iii). For
-(ii): $\mathfrak{J}^{(n)}$ consists of $(x_{k})$ with $x_{k} = 0$ for $k < n$, so $\mathfrak{J}^{(n)} \cdot
-\mathfrak{J}^{(m)} \subset \mathfrak{J}^{(n+m)}$ — a filtration. Also $\mathfrak{J}^{(n)} / \mathfrak{J}^{(n+1)}$
-projects to $\mathfrak{J}^{n}_{n}$ (an `A_0`-module). Choose $r$ elements $a_{j} = (a_{jk})$ of $\mathfrak{J}$ whose
-$a_{j1}$ generate $\mathfrak{J}_{1}$ over `A_0`. We show by induction that monomials of degree $n$ in the $a_{j}$
-generate $\mathfrak{J}^{(n)}$; the same argument (passage to graded modules) closes the induction.
+$A$ is admissible by (7.2.2). The $\mathfrak{J}^{(n)}$ form a fundamental system of neighborhoods of `0`, so (ii)
+$\implies$ (i). Since $\mathfrak{J} = \varprojlim_{i} \mathfrak{J}_{i}$ with surjective maps to $\mathfrak{J}_{i}$, (ii)
+$\implies$ (iii). For (ii): $\mathfrak{J}^{(n)}$ consists of $(x_{k})$ with $x_{k} = 0$ for $k < n$, so
+$\mathfrak{J}^{(n)} \cdot \mathfrak{J}^{(m)} \subset \mathfrak{J}^{(n+m)}$ — a filtration. Also $\mathfrak{J}^{(n)} /
+\mathfrak{J}^{(n+1)}$ projects to $\mathfrak{J}^{n}_{n}$ (an `A_0`-module). Choose $r$ elements $a_{j} = (a_{jk})$ of
+$\mathfrak{J}$ whose $a_{j1}$ generate $\mathfrak{J}_{1}$ over `A_0`. We show by induction that monomials of degree $n$
+in the $a_{j}$ generate $\mathfrak{J}^{(n)}$; the same argument (passage to graded modules) closes the induction.
 
 **Corollary (7.2.8).** Under the hypotheses of (7.2.7), $A$ is Noetherian if and only if `A_0` is.
 
@@ -198,9 +199,10 @@ completion of $A$ (resp. $M$). For an exact sequence $M' \xrightarrow{u} M \xrig
 $M'/\mathfrak{J}^{n} M' \to M/\mathfrak{J}^{n} M \to M''/\mathfrak{J}^{n} M'' \to 0$ is exact for each $n$. Since
 $v(\mathfrak{J}^{n} M) = \mathfrak{J}^{n} M''$, the limit $\hat{v} = \varprojlim v_{n}$ is surjective. For $z = (z_{k})
 \in Ker \hat{v}$, lift each $z_{k}$ to $z_{k}' \in M'/\mathfrak{J}^{k} M'$; we find $z' = (z_{n}') \in \hat{M}'$ whose
-first $k$ components under `û` match $z$. So $Im(\hat{u})$ is _dense_ in $Ker \hat{v}$.
+first $k$ components under $\widehat{u}$ match $z$. So $Im(\hat{u})$ is _dense_ in $Ker \hat{v}$.
 
-If $A$ is _Noetherian_, so is `Â` by (7.2.12), and $\mathfrak{J}/\mathfrak{J}^{2}$ is $A$-finite-type. We also have:
+If $A$ is _Noetherian_, so is $\widehat{A}$ by (7.2.12), and $\mathfrak{J}/\mathfrak{J}^{2}$ is $A$-finite-type. We also
+have:
 
 **Theorem (7.3.2) (Krull).** Let $A$ be a Noetherian ring, $\mathfrak{J} \subset A$ an ideal, $M$ an $A$-module of
 finite type, and $M' \subset M$ a submodule. Then the topology on $M'$ induced from the $\mathfrak{J}$-preadic topology
@@ -212,35 +214,34 @@ This follows from:
 = \mathfrak{J}^{n-p}(M' \cap \mathfrak{J}^{p} M)$ for $n \geq p$. (Bourbaki, _Alg. comm._)
 
 **Corollary (7.3.3).** Under the hypotheses of (7.3.2), the canonical map $M \otimes_{A} \hat{A} \to \hat{M}$ is
-bijective, and $M \otimes_{A} \hat{A}$ is exact in $M$ on $A$-modules of finite type; consequently `Â` is a flat
-$A$-module (6.1.1).
+bijective, and $M \otimes_{A} \hat{A}$ is exact in $M$ on $A$-modules of finite type; consequently $\widehat{A}$ is a
+flat $A$-module (6.1.1).
 
 **Proof.** First, $\hat{M}$ is exact on $A$-modules of finite type: for $0 \to M' \to M \to M'' \to 0$ exact, Krull
-(7.3.2) shows the closure of the image of $M'$ in $\hat{M}$ is the completion of $M'$, so `û` is injective. The
-canonical $M \otimes_{A} \hat{A} \to \hat{M}$ is bijective when $M = A^{p}$; for general $M$ of finite type, take a
+(7.3.2) shows the closure of the image of $M'$ in $\hat{M}$ is the completion of $M'$, so $\widehat{u}$ is injective.
+The canonical $M \otimes_{A} \hat{A} \to \hat{M}$ is bijective when $M = A^{p}$; for general $M$ of finite type, take a
 presentation $A^{p} \to A^{q} \to M \to 0$ and apply right exactness of both functors.
 
 **Corollary (7.3.4).** For $A$ Noetherian, $\mathfrak{J} \subset A$ an ideal, and `M, N` of finite type, there are
 canonical functorial isomorphisms
 
-```
-(M ⊗_A N)^∧ ≅ M̂ ⊗_Â N̂,    (Hom_A(M, N))^∧ ≅ Hom_Â(M̂, N̂).
-```
+$$ (M \otimes_{A} N)^{\wedge} \cong \widehat{M} \otimes_{\widehat{A}} \widehat{N}, \qquad (\operatorname{Hom}_{A}(M,
+N))^{\wedge} \cong \operatorname{Hom}_{\widehat{A}}(\widehat{M}, \widehat{N}). $$
 
 This follows from (7.3.3), (6.2.1), and (6.2.2).
 
 **Corollary (7.3.5).** Let $A$ be Noetherian and $\mathfrak{J} \subset A$ an ideal. The following are equivalent:
 
-> (a) $\mathfrak{J}$ is contained in the radical of $A$; (b) `Â` is a faithfully flat $A$-module (6.4.1); (c) Every
-> $A$-module of finite type is separated for the $\mathfrak{J}$-preadic topology; (d) Every submodule of an $A$-module
-> of finite type is closed for the $\mathfrak{J}$-preadic topology.
+> (a) $\mathfrak{J}$ is contained in the radical of $A$; (b) $\widehat{A}$ is a faithfully flat $A$-module (6.4.1); (c)
+> Every $A$-module of finite type is separated for the $\mathfrak{J}$-preadic topology; (d) Every submodule of an
+> $A$-module of finite type is closed for the $\mathfrak{J}$-preadic topology.
 
-**Proof.** (b) ⟺ (c) by flatness of `Â` and (6.6.1). (c) ⟹ (d): if $N \subset M$ with $M$ of finite type, $M/N$ is
-separated. (d) ⟹ (a): for $\mathfrak{m} \subset A$ maximal, $\mathfrak{m} = \bigcap_{p} (\mathfrak{m} +
-\mathfrak{J}^{p})$; for large $p$, $\mathfrak{m} + \mathfrak{J}^{p} = \mathfrak{m}$, so $\mathfrak{J}^{p} \subset
-\mathfrak{m}$, hence $\mathfrak{J} \subset \mathfrak{m}$. (a) ⟹ (b): let $P$ be the closure of `{0}` in an $M$ of finite
-type for the $\mathfrak{J}$-preadic topology; by Krull, the induced topology on $P$ is the $\mathfrak{J}$-preadic, so
-$\mathfrak{J} P = P$; Nakayama gives $P = 0$.
+**Proof.** (b) $\iff$ (c) by flatness of $\widehat{A}$ and (6.6.1). (c) $\implies$ (d): if $N \subset M$ with $M$ of
+finite type, $M/N$ is separated. (d) $\implies$ (a): for $\mathfrak{m} \subset A$ maximal, $\mathfrak{m} = \bigcap_{p}
+(\mathfrak{m} + \mathfrak{J}^{p})$; for large $p$, $\mathfrak{m} + \mathfrak{J}^{p} = \mathfrak{m}$, so
+$\mathfrak{J}^{p} \subset \mathfrak{m}$, hence $\mathfrak{J} \subset \mathfrak{m}$. (a) $\implies$ (b): let $P$ be the
+closure of `{0}` in an $M$ of finite type for the $\mathfrak{J}$-preadic topology; by Krull, the induced topology on $P$
+is the $\mathfrak{J}$-preadic, so $\mathfrak{J} P = P$; Nakayama gives $P = 0$.
 
 The conditions hold when $A$ is local Noetherian and $\mathfrak{J} \neq A$.
 
@@ -261,8 +262,8 @@ of $x \in M$ killed by an element of $1 + \mathfrak{J}$.
 **Definition (7.4.1).** Let $A$ be a local ring with maximal ideal $\mathfrak{m}$. An $A$-module $M$ is _quasi-finite_
 (over $A$) if $M/\mathfrak{m}M$ is of finite rank over the residue field $k = A/\mathfrak{m}$.
 
-When $A$ is Noetherian, the $\mathfrak{m}$-preadic completion $\hat{M}$ is then an `Â`-module of finite type; this
-follows from (7.2.12) and the hypothesis on $M/\mathfrak{m}M$.
+When $A$ is Noetherian, the $\mathfrak{m}$-preadic completion $\hat{M}$ is then an $\widehat{A}$-module of finite type;
+this follows from (7.2.12) and the hypothesis on $M/\mathfrak{m}M$.
 
 In particular, if $A$ is also complete and $M$ is separated for the $\mathfrak{m}$-preadic topology (i.e. $\bigcap_{n}
 \mathfrak{m}^{n} M = 0$), then $M$ is $A$-finite-type: $\hat{M}$ is $A$-finite-type, $M \hookrightarrow \hat{M}$, and so
@@ -280,9 +281,7 @@ $\mathfrak{m}B + \mathfrak{b}$, where $\mathfrak{b} = Ann_{B} M$. Since $B$ is N
 \mathfrak{b}$ is an ideal of definition for $B$; so for some $k > 0$, $\mathfrak{n}^{k} \subset \mathfrak{m}B +
 \mathfrak{b} \subset \mathfrak{n}$, giving for every $h > 0$
 
-```
-𝔫^{hk} ⊂ (𝔪B + 𝔟)^h M = 𝔪^h M ⊂ 𝔫^h M.
-```
+$$ \mathfrak{n}^{hk} \subset (\mathfrak{m}B + \mathfrak{b})^{h} M = \mathfrak{m}^{h} M \subset \mathfrak{n}^{h} M. $$
 
 Hence the two topologies agree; separation follows from (7.3.5).
 
@@ -309,9 +308,7 @@ fundamental system of open ideals with $A \cong \varprojlim A/\mathfrak{J}_{\lam
 $B_{\lambda} = (A/\mathfrak{J}_{\lambda})[T_{1}, \cdots, T_{r}]$; the $B_{\lambda}$ form a projective system of discrete
 rings. Set
 
-```
-A{T_1, …, T_r} = lim⃖ B_λ.
-```
+$$ A\{T_{1}, \ldots, T_{r}\} = \varprojlim B_{\lambda}. $$
 
 This ring is independent of $(\mathfrak{J}_{\lambda})$. Concretely, let $A'$ be the subring of $A[[T_{1}, \cdots,
 T_{r}]]$ consisting of formal series $\sum_{\alpha} c_{\alpha} T^{\alpha}$ ($\alpha = (\alpha_{1}, \cdots, \alpha_{r})
@@ -327,17 +324,14 @@ vanish in each $A/\mathfrak{J}_{\lambda}$).
 isomorphisms $(A/\mathfrak{J}_{\lambda})[T_{1}, \cdots, T_{r}][T_{r+1}, \cdots, T_{s}] \cong
 (A/\mathfrak{J}_{\lambda})[T_{1}, \cdots, T_{s}]$ give a canonical isomorphism
 
-```
-(A{T_1, …, T_r}){T_{r+1}, …, T_s} ≅ A{T_1, …, T_s}.
-```
+$$ (A\{T_{1}, \ldots, T_{r}\})\{T_{r+1}, \ldots, T_{s}\} \cong A\{T_{1}, \ldots, T_{s}\}. $$
 
 **(7.5.3) Universal property.** For every continuous homomorphism $u : A \to B$ to a linearly topologized, separated,
 complete ring $B$, and every system $(b_{1}, \cdots, b_{r})$ in $B$, there is a _unique_ continuous homomorphism
 $\bar{u} : A{T_{1}, \cdots, T_{r}} \to B$ with $\bar{u}|A = u$ and $\bar{u}(T_{j}) = b_{j}$, namely
 
-```
-ū(∑_α c_α T^α) = ∑_α u(c_α) b_1^{α_1} ⋯ b_r^{α_r}.
-```
+$$ \bar{u}\left(\sum_{\alpha} c_{\alpha} T^{\alpha}\right) = \sum_{\alpha} u(c_{\alpha}) b_{1}^{\alpha_{1}} \cdots
+b_{r}^{\alpha_{r}}. $$
 
 This characterizes $A{T_{1}, \cdots, T_{r}}$ up to unique isomorphism.
 
@@ -362,11 +356,11 @@ $\phi : A \to B$ be a continuous homomorphism making $B$ an $A$-algebra. The fol
 > $m \geq n$, and `B_1` is a finite-type $A_{1} = A/\mathfrak{J}^{2}$-algebra. (c) $B$ is topologically $A$-isomorphic
 > to a quotient of some $A{T_{1}, \cdots, T_{r}}$ by a (necessarily closed) ideal.
 
-**Proof sketch.** (c) ⟹ (a): $A' = A{T_{1}, \cdots, T_{r}}$ is Noetherian (7.5.4); $\mathfrak{J} A'$ is an ideal of
-definition of $A'$, and $B/\mathfrak{J}B$ is a quotient of $(A/\mathfrak{J})[T_{1}, \cdots, T_{r}]$. (a) ⟹ (b): by
-(7.2.11), $B \cong \varprojlim B/\mathfrak{J}^{n+1} B$. (b) ⟹ (c): choose generators $(c_{i})$ of the
-$A/\mathfrak{J}$-algebra $B/\mathfrak{J}B$ and apply (7.5.3) to get a continuous $A$-homomorphism $u : A' \to B$;
-surjectivity is checked passing to associated graded modules.
+**Proof sketch.** (c) $\implies$ (a): $A' = A{T_{1}, \cdots, T_{r}}$ is Noetherian (7.5.4); $\mathfrak{J} A'$ is an
+ideal of definition of $A'$, and $B/\mathfrak{J}B$ is a quotient of $(A/\mathfrak{J})[T_{1}, \cdots, T_{r}]$. (a)
+$\implies$ (b): by (7.2.11), $B \cong \varprojlim B/\mathfrak{J}^{n+1} B$. (b) $\implies$ (c): choose generators
+$(c_{i})$ of the $A/\mathfrak{J}$-algebra $B/\mathfrak{J}B$ and apply (7.5.3) to get a continuous $A$-homomorphism $u :
+A' \to B$; surjectivity is checked passing to associated graded modules.
 
 ## 7.6. Completed rings of fractions
 
@@ -377,16 +371,14 @@ surjectivity is checked passing to associated graded modules.
 $S_{\lambda} = u_{\lambda}(S)$; the $u_{\lambda \mu}$ give surjective $S^{-1}_{\mu} A_{\mu} \to S^{-1}_{\lambda}
 A_{\lambda}$, a projective system. Write
 
-```
-A{S⁻¹} = lim⃖ S_λ⁻¹ A_λ.
-```
+$$ A\{S^{-1}\} = \varprojlim S_{\lambda}^{-1} A_{\lambda}. $$
 
 This is independent of $(\mathfrak{J}_{\lambda})$:
 
 **Proposition (7.6.2).** $A{S^{-1}}$ is topologically isomorphic to the separated completion of $S^{-1}A$ for the
 topology with fundamental system of neighborhoods of `0` the $S^{-1} \mathfrak{J}_{\lambda}$.
 
-**Corollary (7.6.3).** If $S'$ is the canonical image of $S$ in `Â`, then $A{S^{-1}} \cong \hat{A}{S'^{-1}}$.
+**Corollary (7.6.3).** If $S'$ is the canonical image of $S$ in $\widehat{A}$, then $A{S^{-1}} \cong \hat{A}{S'^{-1}}$.
 
 If $A$ is separated and complete, $S^{-1}A$ need not be: take $S = {f^{n}}$ with $f$ topologically nilpotent but not
 nilpotent; then $S^{-1}A \neq 0$ but $S^{-1} \mathfrak{J}_{\lambda} = S^{-1}A$ for each $\lambda$.
@@ -456,9 +448,9 @@ $A{S^{-1}}$ is a faithfully flat $A_{S}$-module.
 
 **(7.7.1)** Let $A$ be linearly topologized and `M, N` two linearly topologized $A$-modules. Let $\mathfrak{J} \subset
 A$, $V \subset M$, $W \subset N$ be open submodules with $\mathfrak{J} M \subset V$, $\mathfrak{J} N \subset W$. The
-$(M/V) \otimes_{A/\mathfrak{J}} (N/W)$ form a projective system; their limit is an `Â`-module, the _completed tensor
-product_, written $(M \otimes_{A} N)^{\wedge}$. In terms of completions, $(M \otimes_{A} N)^{\wedge} \cong \hat{M}
-\hat{\otimes}_{\hat{A}} \hat{N}$.
+$(M/V) \otimes_{A/\mathfrak{J}} (N/W)$ form a projective system; their limit is an $\widehat{A}$-module, the _completed
+tensor product_, written $(M \otimes_{A} N)^{\wedge}$. In terms of completions, $(M \otimes_{A} N)^{\wedge} \cong
+\hat{M} \hat{\otimes}_{\hat{A}} \hat{N}$.
 
 **(7.7.2)** $(M \otimes_{A} N)^{\wedge}$ is the separated completion of $M \otimes_{A} N$ for the topology whose
 fundamental system of neighborhoods of `0` consists of $Im(V \otimes_{A} N) + Im(M \otimes_{A} W)$ (`V, W` open in
@@ -472,7 +464,7 @@ N)^{\wedge} \to (M' \otimes_{A} N')^{\wedge}$. Thus $(M \otimes_{A} N)^{\wedge}$
 **(7.7.5)** For $A$-algebras `B, C` linearly topologized, $B \otimes_{A} C$ carries a tensor-product ring topology whose
 fundamental system of neighborhoods of `0` consists of ideals $Im(\mathfrak{K} \otimes_{A} C) + Im(B \otimes_{A}
 \mathfrak{L})$ ($\mathfrak{K}, \mathfrak{L}$ open ideals of `B, C`). $(B \otimes_{A} C)^{\wedge}$ is a topological
-`Â`-algebra.
+$\widehat{A}$-algebra.
 
 **(7.7.6) Universal property.** For every separated, complete $A$-algebra $D$ and every pair $(u, v)$ of continuous
 $A$-homomorphisms $u : B \to D$, $v : C \to D$, there is a unique continuous $A$-homomorphism $w : (B \otimes_{A}
@@ -497,7 +489,8 @@ with $(B \otimes_{A} M)^{\wedge}$.
 $\mathfrak{J}$-preadic topology. By (7.3.6), they are separated and complete; every $A$-homomorphism $M \to N$ is
 continuous, and $\operatorname{Hom}_{A}(M, N)$ is $A$-finite-type. With $A_{i} = A/\mathfrak{J}^{i+1}$, $M_{i} =
 M/\mathfrak{J}^{i+1} M$, $N_{i} = N/\mathfrak{J}^{i+1} N$, the $\operatorname{Hom}_{A_{i}}(M_{i}, N_{i})$ form a
-projective system, and by (7.2.10) there is a canonical `φ : Hom_A(M, N) ⥲ lim⃖_i Hom_{A_i}(M_i, N_i)`.
+projective system, and by (7.2.10) there is a canonical $\varphi : \operatorname{Hom}_{A}(M, N) \xrightarrow{\sim}
+\varprojlim_{i} \operatorname{Hom}_{A_{i}}(M_{i}, N_{i})$.
 
 **Proposition (7.8.2).** Under the hypotheses of (7.8.1), the submodules $\operatorname{Hom}_{A}(M, \mathfrak{J}^{i+1}
 N)$ form a fundamental system of neighborhoods of `0` in $\operatorname{Hom}_{A}(M, N)$ for the $\mathfrak{J}$-adic

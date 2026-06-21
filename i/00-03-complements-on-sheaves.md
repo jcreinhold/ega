@@ -24,9 +24,8 @@ if it satisfies the following axiom:
 > (F) _For every cover_ $(U_{\alpha})$ _of an open set_ $U \subset X$ _by open sets_ $U_{\alpha} \subset U$, _if_
 > $\rho_{\alpha}$ (resp. $\rho_{\alpha \beta}$) _denotes the restriction morphism_
 >
-> ```
-> ℱ(U) → ℱ(U_α)    (resp. ℱ(U_α) → ℱ(U_α ∩ U_β)),
-> ```
+> $$ \mathcal{F}(U) \to \mathcal{F}(U_{\alpha}) \quad (\text{resp. } \mathcal{F}(U_{\alpha}) \to \mathcal{F}(U_{\alpha}
+> \cap U_{\beta})), $$
 >
 > _then the pair_ $(\mathcal{F}(U), (\rho_{\alpha}))$ _is a solution of the universal problem for_
 > $(\mathcal{F}(U_{\alpha}))$, $(\mathcal{F}(U_{\alpha} \cap U_{\beta}))$, _and_ $(\rho_{\alpha \beta})$
@@ -112,9 +111,7 @@ defined for every pair $(U, V)$ of elements of $\mathfrak{B}$ with $U \subset V$
 $\rho^{W}_{U} = \rho^{V}_{U} \circ \rho^{W}_{V}$ whenever $U \subset V \subset W$ in $\mathfrak{B}$. To such a family we associate a _presheaf with values in_ $\mathit{K}$,
 $U \mapsto \mathcal{F}'(U)$ in the usual sense, by setting
 
-```
-ℱ′(U) = lim⃖_{V ∈ 𝔅, V ⊂ U} ℱ(V),
-```
+$$ \mathcal{F}'(U) = \varprojlim_{V \in \mathfrak{B}, V \subset U} \mathcal{F}(V), $$
 
 where $V$ ranges over the (in general non-filtered) ordered set of $V \in \mathfrak{B}$ with $V \subset U$; the
 $\mathcal{F}(V)$ form a projective system for the $\rho^{W}_{V}$ ($V \subset W \subset U$, $V, W \in \mathfrak{B}$).
@@ -128,12 +125,12 @@ identify these two objects.[^3-4]
 **(3.2.2)** For the presheaf $\mathcal{F}'$ defined above to be a _sheaf_, it is necessary and sufficient that the
 presheaf $\mathcal{F}$ on $\mathfrak{B}$ satisfy:
 
-> (F₀) _For every cover_ $(U_{\alpha})$ _of_ $U \in \mathfrak{B}$ _by sets_ $U_{\alpha} \in \mathfrak{B}$ _contained in_
-> $U$, _and for every object_ $T \in \mathit{K}$, _the map sending_ $f \in \operatorname{Hom}(T, \mathcal{F}(U))$ _to_
-> $(\rho^{U}_{U_{\alpha}} \circ f) \in \prod_{\alpha} \operatorname{Hom}(T, \mathcal{F}(U_{\alpha}))$ _is a bijection
-> of_ $\operatorname{Hom}(T, \mathcal{F}(U))$ _onto the set of_ $(f_{\alpha})$ _such that_ $\rho^{U_{\alpha}}_{V} \circ
-> f_{\alpha} = \rho^{U_{\beta}}_{V} \circ f_{\beta}$ _for every pair_ $(\alpha, \beta)$ _and every_ $V \in \mathfrak{B}$
-> _with_ $V \subset U_{\alpha} \cap U_{\beta}$.[^3-5]
+> (F$_{0}$) _For every cover_ $(U_{\alpha})$ _of_ $U \in \mathfrak{B}$ _by sets_ $U_{\alpha} \in \mathfrak{B}$
+> _contained in_ $U$, _and for every object_ $T \in \mathit{K}$, _the map sending_ $f \in \operatorname{Hom}(T,
+> \mathcal{F}(U))$ _to_ $(\rho^{U}_{U_{\alpha}} \circ f) \in \prod_{\alpha} \operatorname{Hom}(T,
+> \mathcal{F}(U_{\alpha}))$ _is a bijection of_ $\operatorname{Hom}(T, \mathcal{F}(U))$ _onto the set of_ $(f_{\alpha})$
+> _such that_ $\rho^{U_{\alpha}}_{V} \circ f_{\alpha} = \rho^{U_{\beta}}_{V} \circ f_{\beta}$ _for every pair_ $(\alpha,
+> \beta)$ _and every_ $V \in \mathfrak{B}$ _with_ $V \subset U_{\alpha} \cap U_{\beta}$.[^3-5]
 
 The condition is plainly necessary. For sufficiency, consider a second basis $\mathfrak{B}'$ for the topology of $X$
 with $\mathfrak{B}' \subset \mathfrak{B}$, and let $\mathcal{F}''$ denote the presheaf obtained from the subfamily
@@ -154,8 +151,8 @@ $U_{\alpha}$. Plainly $\mathfrak{B}'$ is still a basis for the topology of $X$, 
 $\mathcal{F}'(U_{\alpha})$) is the projective limit of the $\mathcal{F}(V)$ for $V \in \mathfrak{B}'$, $V \subset U$
 (resp. $V \subset U_{\alpha}$); axiom (F) is then verified at once, by the definition of projective limit.
 
-When (F₀) holds, we shall say by abuse of language that the presheaf $\mathcal{F}$ on the basis $\mathfrak{B}$ _is a
-sheaf_.
+When (F$_{0}$) holds, we shall say by abuse of language that the presheaf $\mathcal{F}$ on the basis $\mathfrak{B}$ _is
+a sheaf_.
 
 **(3.2.3)** Let $\mathcal{F}$, $\mathcal{G}$ be two presheaves on the basis $\mathfrak{B}$ with values in $\mathit{K}$.
 A _morphism_ $u : \mathcal{F} \to \mathcal{G}$ is a family $(u_{V})_{V \in \mathfrak{B}}$ of morphisms $u_{V} :
@@ -217,8 +214,8 @@ $\eta_{\lambda}$ are determined up to unique isomorphism by these conditions. Un
 For existence, let $\mathfrak{B}$ be the basis of open sets contained in some $U_{\lambda}$; choose (via Hilbert's
 $\tau$-function) one of the $\mathcal{F}_{\lambda}(U)$ for some $\lambda$ with $U \subset U_{\lambda}$; call this object
 $\mathcal{F}(U)$. The $\rho^{V}_{U}$ for $U \subset V$, $U, V \in \mathfrak{B}$, are defined in the obvious way (using
-the $\theta_{\lambda \mu}$), and transitivity follows from the gluing condition. Axiom (F₀) is then immediate, so the
-presheaf on $\mathfrak{B}$ so defined is a sheaf; from it the general construction (3.2.1) yields an ordinary sheaf,
+the $\theta_{\lambda \mu}$), and transitivity follows from the gluing condition. Axiom (F$_{0}$) is then immediate, so
+the presheaf on $\mathfrak{B}$ so defined is a sheaf; from it the general construction (3.2.1) yields an ordinary sheaf,
 again written $\mathcal{F}$, with the required property. We say that $\mathcal{F}$ is obtained by _gluing the_
 $\mathcal{F}_{\lambda}$ _via the_ $\theta_{\lambda \mu}$, and we ordinarily identify $\mathcal{F}_{\lambda}$ and
 $\mathcal{F}|U_{\lambda}$ via $\eta_{\lambda}$.
@@ -233,22 +230,25 @@ identity isomorphisms $\theta_{\lambda \mu}$.
 satisfying the gluing condition. Suppose finally given for each $\lambda$ a morphism $u_{\lambda} :
 \mathcal{F}_{\lambda} \to \mathcal{G}_{\lambda}$ such that the diagrams
 
-```
-(3.3.2.1)    ℱ_μ|(U_λ ∩ U_μ) ──u_μ──→ 𝒢_μ|(U_λ ∩ U_μ)
-                   │                          │
-                   ↓                          ↓
-             ℱ_λ|(U_λ ∩ U_μ) ──u_λ──→ 𝒢_λ|(U_λ ∩ U_μ)
-```
+$$
+\begin{array}{ccc}
+\mathcal{F}_{\mu}|(U_{\lambda} \cap U_{\mu}) & \xrightarrow{u_{\mu}} & \mathcal{G}_{\mu}|(U_{\lambda} \cap U_{\mu}) \\
+\downarrow & & \downarrow \\
+\mathcal{F}_{\lambda}|(U_{\lambda} \cap U_{\mu}) & \xrightarrow{u_{\lambda}} & \mathcal{G}_{\lambda}|(U_{\lambda} \cap U_{\mu})
+\end{array}
+\tag{3.3.2.1}
+$$
 
 commute. Then if $\mathcal{G}$ is obtained by gluing the $\mathcal{G}_{\lambda}$ via the $\omega_{\lambda \mu}$, there
 is a unique morphism $u : \mathcal{F} \to \mathcal{G}$ such that the diagrams
 
-```
-ℱ|U_λ ──u|U_λ──→ 𝒢|U_λ
-  │                 │
-  ↓                 ↓
- ℱ_λ ────u_λ───→  𝒢_λ
-```
+$$
+\begin{array}{ccc}
+\mathcal{F}|U_{\lambda} & \xrightarrow{u|U_{\lambda}} & \mathcal{G}|U_{\lambda} \\
+\downarrow & & \downarrow \\
+\mathcal{F}_{\lambda} & \xrightarrow{u_{\lambda}} & \mathcal{G}_{\lambda}
+\end{array}
+$$
 
 commute; this follows at once from (3.2.3). The correspondence between the family $(u_{\lambda})$ and $u$ is a
 functorial bijection of the subset of $\prod_{\lambda} \operatorname{Hom}(\mathcal{F}_{\lambda}, \mathcal{G}_{\lambda})$
@@ -283,9 +283,7 @@ has $\psi''_{*}(\mathcal{F}) = \psi'_{*}(\psi_{*}(\mathcal{F}))$ for every presh
 $\mathit{K}$; for every morphism $u : \mathcal{F} \to \mathcal{G}$, $\psi''_{*}(u) = \psi'_{*}(\psi_{*}(u))$. In other
 words, $\psi''_{*}$ is the _composite_ of $\psi'_{*}$ and $\psi_{*}$:
 
-```
-(ψ′ ∘ ψ)_* = ψ′_* ∘ ψ_*.
-```
+$$ (\psi' \circ \psi)_{*} = \psi'_{*} \circ \psi_{*}. $$
 
 Moreover, for every open $U \subset Y$, the direct image by the restriction $\psi|\psi^{-1}(U)$ of the induced presheaf
 $\mathcal{F}|\psi^{-1}(U)$ is none other than the induced presheaf $\psi_{*}(\mathcal{F})|U$.
@@ -299,14 +297,13 @@ $$ \psi_{x} : (\psi_{*}(\mathcal{F}))_{\psi(x)} \to \mathcal{F}_{x}. $$
 In general, $\psi_{x}$ is _neither injective nor surjective_. It is functorial: for $u : \mathcal{F}_{1} \to
 \mathcal{F}_{2}$, the diagram
 
-```
-(ψ_*(ℱ_1))_{ψ(x)} ──ψ_x──→ (ℱ_1)_x
-        │                       │
-(ψ_*(u))_{ψ(x)}                u_x
-        │                       │
-        ↓                       ↓
-(ψ_*(ℱ_2))_{ψ(x)} ──ψ_x──→ (ℱ_2)_x
-```
+$$
+\begin{array}{ccc}
+(\psi_{*}(\mathcal{F}_{1}))_{\psi(x)} & \xrightarrow{\psi_{x}} & (\mathcal{F}_{1})_{x} \\
+\downarrow{\scriptstyle (\psi_{*}(u))_{\psi(x)}} & & \downarrow{\scriptstyle u_{x}} \\
+(\psi_{*}(\mathcal{F}_{2}))_{\psi(x)} & \xrightarrow{\psi_{x}} & (\mathcal{F}_{2})_{x}
+\end{array}
+$$
 
 commutes. If $Z$ is a third topological space, $\psi' : Y \to Z$ continuous, and $\psi'' = \psi' \circ \psi$, then
 $\psi''_{x} = \psi_{x} \circ \psi'_{\psi(x)}$ for $x \in X$.
@@ -329,19 +326,21 @@ sheaves are in general distinct when $X$ is locally closed but not closed.
 
 **(3.5.1)** Under the hypotheses of (3.4.1), if $\mathcal{F}$ (resp. $\mathcal{G}$) is a presheaf on $X$ (resp. $Y$)
 with values in $\mathit{K}$, every morphism $u : \mathcal{G} \to \psi_{*}(\mathcal{F})$ of presheaves on $Y$ is called a
-_ψ-morphism_ of $\mathcal{G}$ into $\mathcal{F}$, also written $\mathcal{G} \to \mathcal{F}$. We write
+_$\psi$-morphism_ of $\mathcal{G}$ into $\mathcal{F}$, also written $\mathcal{G} \to \mathcal{F}$. We write
 $\operatorname{Hom}_{\psi}(\mathcal{G}, \mathcal{F})$ for $\operatorname{Hom}_{Y}(\mathcal{G}, \psi_{*}(\mathcal{F}))$.
 For every pair $(U, V)$ with $U$ open in $X$, $V$ open in $Y$, and $\psi(U) \subset V$, one has a morphism $u_{U,V} :
 \mathcal{G}(V) \to \mathcal{F}(U)$ obtained by composing the restriction $\mathcal{F}(\psi^{-1}(V)) \to \mathcal{F}(U)$
 with $u_{V} : \mathcal{G}(V) \to \psi_{*}(\mathcal{F})(V) = \mathcal{F}(\psi^{-1}(V))$. These morphisms make the
 diagrams
 
-```
-(3.5.1.1)    𝒢(V) ──u_{U,V}──→ ℱ(U)
-               │                  │
-               ↓                  ↓
-             𝒢(V′) ──u_{U′,V′}──→ ℱ(U′)
-```
+$$
+\begin{array}{ccc}
+\mathcal{G}(V) & \xrightarrow{u_{U,V}} & \mathcal{F}(U) \\
+\downarrow & & \downarrow \\
+\mathcal{G}(V') & \xrightarrow{u_{U',V'}} & \mathcal{F}(U')
+\end{array}
+\tag{3.5.1.1}
+$$
 
 (for $U' \subset U$, $V' \subset V$, $\psi(U') \subset V'$) commute. Conversely, a family $(u_{U,V})$ making (3.5.1.1)
 commute defines a $\psi$-morphism $u$: take $u_{V} = u_{\psi^{-1}(V), V}$.
@@ -360,9 +359,8 @@ inductive system whose limit is a stalk morphism $\mathcal{G}_{\psi(x)} \to \mat
 $Z$ with values in $\mathit{K}$, and let $u : \mathcal{G} \to \psi_{*}(\mathcal{F})$, $v : \mathcal{H} \to
 \psi'_{*}(\mathcal{G})$ be a $\psi$-morphism and a $\psi'$-morphism. One obtains a $\psi''$-morphism
 
-```
-w : ℋ ──v──→ ψ′_*(𝒢) ──ψ′_*(u)──→ ψ′_*(ψ_*(ℱ)) = ψ″_*(ℱ),
-```
+$$ w : \mathcal{H} \xrightarrow{v} \psi'_{*}(\mathcal{G}) \xrightarrow{\psi'_{*}(u)} \psi'_{*}(\psi_{*}(\mathcal{F})) =
+\psi''_{*}(\mathcal{F}), $$
 
 called by definition the _composite_ of $u$ and $v$. One may therefore regard pairs $(X, \mathcal{F})$ of a topological
 space $X$ and a presheaf $\mathcal{F}$ on $X$ (with values in $\mathit{K}$) as forming a _category_, with morphisms the
@@ -375,9 +373,8 @@ $\mathcal{G}'$ on $X$ with values in $\mathit{K}$ and a $\psi$-morphism $\rho : 
 (equivalently, a homomorphism $\mathcal{G} \to \psi_{*}(\mathcal{G}')$) such that, for every _sheaf_ $\mathcal{F}$ on
 $X$ with values in $\mathit{K}$, the map
 
-```
-(3.5.3.1)    Hom_X(𝒢′, ℱ) → Hom_ψ(𝒢, ℱ) = Hom_Y(𝒢, ψ_*(ℱ))
-```
+$$ \operatorname{Hom}_{X}(\mathcal{G}', \mathcal{F}) \to \operatorname{Hom}_{\psi}(\mathcal{G}, \mathcal{F}) =
+\operatorname{Hom}_{Y}(\mathcal{G}, \psi_{*}(\mathcal{F})) \tag{3.5.3.1} $$
 
 sending $v$ to $\psi_{*}(v) \circ \rho$ is a _bijection_; this map being functorial in $\mathcal{F}$, it then defines an
 isomorphism of functors in $\mathcal{F}$. As a solution of a universal problem, the pair $(\mathcal{G}', \rho)$, when it
@@ -394,9 +391,8 @@ $\mathit{K}$), set $v^{\flat} = \psi_{*}(v) \circ \rho_{\mathcal{G}} : \mathcal{
 definition, _every_ morphism $u : \mathcal{G} \to \psi_{*}(\mathcal{F})$ of presheaves is of the form $v^{\flat}$ for a
 unique $v$, which we write $u^{\sharp}$. In other words, every such $u$ factors uniquely as
 
-```
-(3.5.3.3)    u : 𝒢 ──ρ_𝒢──→ ψ_*(ψ*(𝒢)) ──ψ_*(u^♯)──→ ψ_*(ℱ).
-```
+$$ u : \mathcal{G} \xrightarrow{\rho_{\mathcal{G}}} \psi_{*}(\psi*(\mathcal{G})) \xrightarrow{\psi_{*}(u^{\sharp})}
+\psi_{*}(\mathcal{F}). \tag{3.5.3.3} $$
 
 **(3.5.4)** Suppose now that the category $\mathit{K}$ is such[^3-6] that _every_ presheaf $\mathcal{G}$ on $Y$ with
 values in $\mathit{K}$ admits an inverse image by $\psi$, denoted $\psi*(\mathcal{G})$.
@@ -404,9 +400,8 @@ values in $\mathit{K}$ admits an inverse image by $\psi$, denoted $\psi*(\mathca
 We shall see that $\psi*(\mathcal{G})$ may be defined as a _covariant functor in_ $\mathcal{G}$, from presheaves on $Y$
 to sheaves on $X$, in such a way that the isomorphism $v \mapsto v^{\flat}$ is an _isomorphism of bifunctors_
 
-```
-(3.5.4.1)    Hom_X(ψ*(𝒢), ℱ) ⥲ Hom_Y(𝒢, ψ_*(ℱ))
-```
+$$ \operatorname{Hom}_{X}(\psi*(\mathcal{G}), \mathcal{F}) \xrightarrow{\sim} \operatorname{Hom}_{Y}(\mathcal{G},
+\psi_{*}(\mathcal{F})) \tag{3.5.4.1} $$
 
 in $\mathcal{G}$ and $\mathcal{F}$.
 
@@ -415,22 +410,17 @@ $\mathcal{G}_{1} \xrightarrow{w} \mathcal{G}_{2} \xrightarrow{\rho_{\mathcal{G}_
 to it corresponds a morphism $(\rho_{\mathcal{G}_{2}} \circ w)^{\sharp} : \psi*(\mathcal{G}_{1}) \to
 \psi*(\mathcal{G}_{2})$, which we write $\psi*(w)$. By (3.5.3.3),
 
-```
-(3.5.4.2)    ψ_*(ψ*(w)) ∘ ρ_{𝒢_1} = ρ_{𝒢_2} ∘ w.
-```
+$$ \psi_{*}(\psi*(w)) \circ \rho_{\mathcal{G}_{1}} = \rho_{\mathcal{G}_{2}} \circ w. \tag{3.5.4.2} $$
 
 For every morphism $u : \mathcal{G}_{2} \to \psi_{*}(\mathcal{F})$ (with $\mathcal{F}$ a sheaf on $X$ with values in
 $\mathit{K}$), by (3.5.3.3), (3.5.4.2), and the definition of $u^{\flat}$,
 
-```
-(u^♯ ∘ ψ*(w))^♭ = ψ_*(u^♯) ∘ ψ_*(ψ*(w)) ∘ ρ_{𝒢_1} = ψ_*(u^♯) ∘ ρ_{𝒢_2} ∘ w = u ∘ w,
-```
+$$ (u^{\sharp} \circ \psi*(w))^{\flat} = \psi_{*}(u^{\sharp}) \circ \psi_{*}(\psi*(w)) \circ \rho_{\mathcal{G}_{1}} =
+\psi_{*}(u^{\sharp}) \circ \rho_{\mathcal{G}_{2}} \circ w = u \circ w, $$
 
 that is,
 
-```
-(3.5.4.3)    (u ∘ w)^♯ = u^♯ ∘ ψ*(w).
-```
+$$ (u \circ w)^{\sharp} = u^{\sharp} \circ \psi*(w). \tag{3.5.4.3} $$
 
 Taking in particular $u = \rho_{\mathcal{G}_{3}} \circ w'$ for a morphism $w' : \mathcal{G}_{2} \to \mathcal{G}_{3}$,
 one gets $\psi*(w' \circ w) = (\rho_{\mathcal{G}_{3}} \circ w' \circ w)^{\sharp} = (\rho_{\mathcal{G}_{3}} \circ
@@ -439,15 +429,12 @@ w')^{\sharp} \circ \psi*(w) = \psi*(w') \circ \psi*(w)$, proving functoriality.
 Finally, for a sheaf $\mathcal{F}$ on $X$ with values in $\mathit{K}$, let $i_{\mathcal{F}}$ be the identity of
 $\psi_{*}(\mathcal{F})$ and set
 
-```
-σ_ℱ = (i_ℱ)^♯ : ψ*(ψ_*(ℱ)) → ℱ;
-```
+$$ \sigma_{\mathcal{F}} = (i_{\mathcal{F}})^{\sharp} : \psi*(\psi_{*}(\mathcal{F})) \to \mathcal{F}; $$
 
 (3.5.4.3) then gives the factorization
 
-```
-(3.5.4.4)    u^♯ : ψ*(𝒢) ──ψ*(u)──→ ψ*(ψ_*(ℱ)) ──σ_ℱ──→ ℱ
-```
+$$ u^{\sharp} : \psi*(\mathcal{G}) \xrightarrow{\psi*(u)} \psi*(\psi_{*}(\mathcal{F}))
+\xrightarrow{\sigma_{\mathcal{F}}} \mathcal{F} \tag{3.5.4.4} $$
 
 for every morphism $u : \mathcal{G} \to \psi_{*}(\mathcal{F})$. We call $\sigma_{\mathcal{F}}$ the _canonical morphism_.
 
@@ -463,18 +450,15 @@ This follows at once from the definitions, given that $\psi''_{*} = \psi'_{*} \c
 $\psi'$-morphism, and $w = \psi'_{*}(u) \circ v$ their composite (3.5.2), one checks at once that $w^{\sharp}$ is the
 composite
 
-```
-w^♯ : ψ*(ψ′*(ℋ)) ──ψ*(v^♯)──→ ψ*(𝒢) ──u^♯──→ ℱ.
-```
+$$ w^{\sharp} : \psi*(\psi'*(\mathcal{H})) \xrightarrow{\psi*(v^{\sharp})} \psi*(\mathcal{G}) \xrightarrow{u^{\sharp}}
+\mathcal{F}. $$
 
 **(3.5.6)** Take in particular $\psi = 1_{X} : X \to X$. If an inverse image by $\psi$ of a presheaf $\mathcal{F}$ on
 $X$ exists, this inverse image is called the _sheaf associated with the presheaf_ $\mathcal{F}$. Every morphism $u :
 \mathcal{F} \to \mathcal{F}'$ from $\mathcal{F}$ to a sheaf $\mathcal{F}'$ with values in $\mathit{K}$ factors uniquely
 as
 
-```
-ℱ ──ρ_ℱ──→ 1_X*(ℱ) ──u^♯──→ ℱ′.
-```
+$$ \mathcal{F} \xrightarrow{\rho_{\mathcal{F}}} 1_{X}*(\mathcal{F}) \xrightarrow{u^{\sharp}} \mathcal{F}'. $$
 
 ## 3.6. Simple and locally simple sheaves
 
@@ -495,7 +479,7 @@ Indeed, let $\mathcal{F}$ be a constant presheaf on $X$. If `U, V` are nonempty 
 nonempty; so $\mathcal{F}(X) \to \mathcal{F}(U) \to \mathcal{F}(U \cap V)$ and $\mathcal{F}(X) \to \mathcal{F}(V) \to
 \mathcal{F}(U \cap V)$ are isomorphisms, whence so are $\mathcal{F}(U) \to \mathcal{F}(U \cap V)$ and $\mathcal{F}(V)
 \to \mathcal{F}(U \cap V)$. One concludes at once that axiom (F) of (3.1.2) holds, so $\mathcal{F}$ is isomorphic to its
-associated sheaf, proving _a) ⇒ b)_.
+associated sheaf, proving _a) $\Rightarrow$ b)_.
 
 Now let $(U_{\alpha})$ be an open cover of $X$ by nonempty open sets and $\mathcal{F}$ a sheaf on $X$ with
 $\mathcal{F}|U_{\alpha}$ simple for every $\alpha$. Since $U_{\alpha}$ is irreducible, $\mathcal{F}|U_{\alpha}$ is a
@@ -504,7 +488,7 @@ constant presheaf by the above. Since $U_{\alpha} \cap U_{\beta} \neq \emptyset$
 isomorphisms, giving a canonical isomorphism $\theta_{\alpha \beta} : \mathcal{F}(U_{\alpha}) \to
 \mathcal{F}(U_{\beta})$ for every pair. Applying (F) with $U = X$, one sees that for every index $\alpha_{0}$, the pair
 $(\mathcal{F}(U_{\alpha_{0}}), (\theta_{\alpha \alpha_{0}}))$ is a solution of the universal problem; by uniqueness,
-$\mathcal{F}(X) \to \mathcal{F}(U_{\alpha})$ is an isomorphism, proving _c) ⇒ a)_.
+$\mathcal{F}(X) \to \mathcal{F}(U_{\alpha})$ is an isomorphism, proving _c) $\Rightarrow$ a)_.
 
 ## 3.7. Inverse images of presheaves of groups or rings
 
@@ -561,10 +545,10 @@ Let $\mathcal{F}$ be a sheaf of sets on $X$. Endowing each $\mathcal{F}(U)$ with
 \mapsto \mathcal{F}(U)$ a _presheaf of topological spaces_. We shall see that there exists a _sheaf of topological
 spaces_ $\mathcal{F}'$ associated with $\mathcal{F}$ (3.5.6) such that $\Gamma(U, \mathcal{F}')$ is the discrete space
 $\mathcal{F}(U)$ for every _quasi-compact_ open $U$. For this, it suffices to show that the presheaf $U \mapsto
-\mathcal{F}(U)$ of topological spaces _on_ $\mathfrak{B}$ satisfies (F₀) of (3.2.2), and more generally that if $U$ is a
-quasi-compact open set and $(U_{\alpha})$ is a cover of $U$ by elements of $\mathfrak{B}$, then the coarsest topology
-$\mathcal{T}$ on $\Gamma(U, \mathcal{F})$ making the maps $\Gamma(U, \mathcal{F}) \to \Gamma(U_{\alpha}, \mathcal{F})$
-continuous is the _discrete_ topology. There is a finite set of indices $\alpha_{i}$ with $U = \bigcup_{i}
+\mathcal{F}(U)$ of topological spaces _on_ $\mathfrak{B}$ satisfies (F$_{0}$) of (3.2.2), and more generally that if $U$
+is a quasi-compact open set and $(U_{\alpha})$ is a cover of $U$ by elements of $\mathfrak{B}$, then the coarsest
+topology $\mathcal{T}$ on $\Gamma(U, \mathcal{F})$ making the maps $\Gamma(U, \mathcal{F}) \to \Gamma(U_{\alpha},
+\mathcal{F})$ continuous is the _discrete_ topology. There is a finite set of indices $\alpha_{i}$ with $U = \bigcup_{i}
 U_{\alpha_{i}}$. Let $s \in \Gamma(U, \mathcal{F})$ and let $s_{i}$ be its image in $\Gamma(U_{\alpha_{i}},
 \mathcal{F})$; the intersection of the inverse images of ${s_{i}}$ is by definition a $\mathcal{T}$-neighborhood of $s$.
 But since $\mathcal{F}$ is a sheaf of sets and the $U_{\alpha_{i}}$ cover $U$, this intersection reduces to ${s}$,

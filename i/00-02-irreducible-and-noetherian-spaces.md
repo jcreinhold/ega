@@ -20,7 +20,7 @@ generic point.
 
 **(2.1.3)** Recall that a topological space $X$ is called a _Kolmogorov space_ if it satisfies the separation axiom:
 
-> (T₀) If $x \neq y$ are two distinct points of $X$, there is an open set containing exactly one of $x$, $y$.
+> (T$_{0}$) If $x \neq y$ are two distinct points of $X$, there is an open set containing exactly one of $x$, $y$.
 
 If an irreducible Kolmogorov space admits a generic point, it admits exactly _one_, since every nonempty open set
 contains every generic point.

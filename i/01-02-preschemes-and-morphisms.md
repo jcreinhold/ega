@@ -154,7 +154,8 @@ gives the morphism $\operatorname{Spec}(\kappa(y)) \to Y$.
 
 **Corollary (2.4.6).** Let $X = \operatorname{Spec}(K)$ for $K$ a field with unique point $\xi$, and $Y$ a prescheme.
 Every morphism $u : X \to Y$ factors uniquely as $X \to \operatorname{Spec}(\kappa(\psi(\xi))) \to Y$, with the first
-arrow given by a field monomorphism $\kappa(\psi(\xi)) \to K$. Hence `Hom(X, Y) ↔ ⨆_{y ∈ Y} Hom_{field}(κ(y), K)`.
+arrow given by a field monomorphism $\kappa(\psi(\xi)) \to K$. Hence $\operatorname{Hom}(X, Y) \leftrightarrow
+\bigsqcup_{y \in Y} \operatorname{Hom}_{\text{field}}(\kappa(y), K)$.
 
 **Corollary (2.4.7).** For every $y \in Y$, the canonical morphism $\operatorname{Spec}(\mathcal{O}_{y} /
 \mathfrak{a}_{y}) \to Y$ is a monomorphism of ringed spaces.
