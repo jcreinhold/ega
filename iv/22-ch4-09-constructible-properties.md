@@ -44,7 +44,7 @@ conditions are equivalent:*
 Condition (i) evidently implies that b) entails c), and c) entails trivially a); let us prove that a) entails b). By
 virtue of (ii) and (iii) there exists an extension $K' \in \mathcal{C}$ of the form $A/\mathfrak{m}$, where $A$ is a
 $k$-algebra of finite type over $k$ and $\mathfrak{m}$ is a maximal ideal of $A$. One knows, by Hilbert's
-Nullstellensatz `(Bourbaki, Alg. comm., chap. V, §3, n° 1, cor. 2 of th. 1)`, that $K'$ is a finite extension of $k$.
+Nullstellensatz `(Bourbaki, Alg. comm., chap. V, §3, n$^{\circ}$ 1, cor. 2 of th. 1)`, that $K'$ is a finite extension of $k$.
 
 **Corollary (9.1.2).**
 
@@ -171,16 +171,16 @@ $k$-morphisms between these preschemes, coherent Modules on these preschemes, or
 Z, k)$ be a relation; we shall say (by abuse of language) that $P$ is a **constructible** (resp. **ind-constructible**)
 **property of the constructible part $Z$ of $X$** if the following two conditions are satisfied:
 
-1° If $k$ is a field, $X$ an algebraic prescheme over $k$, $Z$ a constructible part of $X$, $k'$ an extension of $k$,
+$1^{\circ}$ If $k$ is a field, $X$ an algebraic prescheme over $k$, $Z$ a constructible part of $X$, $k'$ an extension of $k$,
 then, for $P(X, Z, k)$ to be true, it is necessary and sufficient that $P(X_{(k')}, p^{-1}(Z), k')$ be true ($p :
 X_{(k')} \to X$ being the canonical projection).
 
-2° Let $S$ be an integral Noetherian prescheme, of generic point $\eta$, $u : X \to S$ a morphism of finite type, $Z$ a
+$2^{\circ}$ Let $S$ be an integral Noetherian prescheme, of generic point $\eta$, $u : X \to S$ a morphism of finite type, $Z$ a
 constructible part of $X$. For every $s \in S$, set $X_{s} = u^{-1}(s)$, $Z_{s} = Z \cap X_{s}$. Let $E$ be the set of
 $s \in S$ such that $P(X_{s}, Z_{s}, k(s))$ is true. Then one of the sets $E$, $S - E$ (resp. the set $E$) contains a
 non-empty open set (resp. contains a non-empty open set if it contains $\eta$).
 
-One should note that in condition 2° one must assume that $Z$ is a constructible part *of $X$*, and not only that
+One should note that in condition $2^{\circ}$ one must assume that $Z$ is a constructible part *of $X$*, and not only that
 $Z_{s}$ is a constructible part of $X_{s}$ for every $s$; the former of these two properties entails the latter
 `(1.8.2)`, but not conversely.
 
@@ -220,10 +220,10 @@ ind-constructible). Moreover, if $S$ is irreducible of generic point $\eta$, the
 neighbourhood of $\eta$ in $S$ (resp. $E$ is a neighbourhood of $\eta$ if it contains this point).*
 
 To prove these assertions, one may restrict to the case where $S = \operatorname{Spec}(A)$ is affine. One then knows
-that there exists a sub-ring `A_0` of $A$ which is a $\mathbb{Z}$-algebra of finite type, an `A_0`-prescheme of finite
-type `X_0`, and a coherent $\mathcal{O}_{X_{0}}$-Module $\mathcal{F}_{0}$ such that $X$ is isomorphic to $X_{0}
+that there exists a sub-ring $A_{0}$ of $A$ which is a $\mathbb{Z}$-algebra of finite type, an $A_{0}$-prescheme of
+finite type $X_{0}$, and a coherent $\mathcal{O}_{X_{0}}$-Module $\mathcal{F}_{0}$ such that $X$ is isomorphic to $X_{0}
 \otimes_{A_{0}} A$ and $\mathcal{F}$ to $\mathcal{F}_{0} \otimes_{A_{0}} A$ `(8.9.1)`. Let $p : S \to S_{0} =
-\operatorname{Spec}(A_{0})$ be the morphism corresponding to the injection $A_{0} \to A$, and let `E_0` be the set of
+\operatorname{Spec}(A_{0})$ be the morphism corresponding to the injection $A_{0} \to A$, and let $E_{0}$ be the set of
 $s_{0} \in S_{0}$ such that $P((X_{0})_{s_{0}}, (\mathcal{F}_{0})_{s_{0}}, k(s_{0}))$ is true; then, by virtue of
 `(9.2.2, (iv))`, one has $E = p^{-1}(E_{0})$; one may therefore `(1.8.2)` restrict to the case where $S$ is the spectrum
 of a $\mathbb{Z}$-algebra of finite type, hence a Noetherian scheme. Let us use the constructibility criterion
@@ -239,7 +239,7 @@ Modules on these preschemes, morphisms of preschemes, or homomorphisms of Module
 (finitely many) parts of the preschemes considered figure in it, provided that one imposes on these parts the condition
 of being *locally constructible*. Indeed, the restriction to the case where $S$ is affine shows that one may restrict to
 the case where these parts are constructible: one then applies `(8.3.11)`, which shows (with the notation above) that a
-constructible part of $X$ is the inverse image of a constructible part of `X_0` for a suitable choice of `A_0`.
+constructible part of $X$ is the inverse image of a constructible part of $X_{0}$ for a suitable choice of $A_{0}$.
 
 **Corollary (9.2.4).**
 
@@ -315,7 +315,7 @@ The images by $f$ of the irreducible components (finitely many) of $X$ which do 
 closed parts of $S$ not containing $\eta$ (since $S$ is integral $(0_{I}, 2.1.5)$), so (replacing $S$ by an open
 neighbourhood of $\eta$) one may restrict to the case where all the irreducible components $X_{i}$ of $X$ meet
 $X_{\eta}$; denote again by $X_{i}$ the reduced closed sub-prescheme of $X$ having $X_{i}$ as underlying space; since
-`dim(X_s) = sup_i dim((X_i)_s)` `(4.1.1)`, one may restrict
+$\dim(X_{s}) = \sup_{i} \dim((X_{i})_{s})$ `(4.1.1)`, one may restrict
 
 <!-- original page 60 -->
 
@@ -509,9 +509,7 @@ $Im(u_{s}) = (Im(u))_{s}$ `(9.4.2)`; the conclusion then results from `(9.4.2)` 
 Im(u) \to Ker(v) \to Ker(v)/Im(u) \to 0$, taking account of the fact that $\mathcal{O}_{\eta} = k(\eta)$ (since $S$ is
 integral) and consequently the sequence
 
-```text
-  0 → (Im u)_η → (Ker v)_η → (Ker v / Im u)_η → 0
-```
+$$ 0 \to (Im\ u)_{\eta} \to (Ker\ v)_{\eta} \to (Ker\ v / Im\ u)_{\eta} \to 0 $$
 
 is exact.
 
@@ -533,7 +531,7 @@ may therefore restrict to the case where $\eta \notin E$, that is, the sequence 
 \xrightarrow{u_{\eta}} \mathcal{G}_{\eta} \xrightarrow{v_{\eta}} \mathcal{H}_{\eta}$ is not exact. Let us distinguish
 two cases.
 
-1° Set $w = v \circ u$, and suppose first that $w_{\eta} = v_{\eta} \circ u_{\eta} \neq 0$. Since $\mathcal{F}$,
+$1^{\circ}$ Set $w = v \circ u$, and suppose first that $w_{\eta} = v_{\eta} \circ u_{\eta} \neq 0$. Since $\mathcal{F}$,
 $\mathcal{G}$, $\mathcal{H}$ are coherent, the same is true of $\mathcal{N} = Ker(w)$ $(0_{I}, 5.3.4)$; it then follows
 from `(9.4.2)` applied to the exact sequence $0 \to \mathcal{N} \to \mathcal{F} \to \mathcal{F}$ that there is a
 neighbourhood $U$ of $\eta$ in $S$ such that, for $s \in S$, $Ker(w_{s}) = \mathcal{N}_{s}$; by restricting $S$, one may
@@ -544,7 +542,7 @@ $\mathcal{M}_{\eta} \neq 0$; since $\mathcal{M}$ is coherent $(0_{I}, 5.3.4)$, i
 an open neighbourhood $U$ of $\eta$ in $S$ such that $\mathcal{M}_{s} \neq 0$ for $s \in U$, hence $w_{s} \neq 0$ for $s
 \in U$, and *a fortiori* $S - E$ is a neighbourhood of $\eta$.
 
-2° Suppose that $w_{\eta} = 0$; by virtue of `(8.5.2, (i))`, applied following the general method of `(8.1.2, a))`,
+$2^{\circ}$ Suppose that $w_{\eta} = 0$; by virtue of `(8.5.2, (i))`, applied following the general method of `(8.1.2, a))`,
 there exists an open neighbourhood $U$ of $\eta$ such that $w|f^{-1}(U) = 0$; replacing $S$ by $U$, one may already
 suppose $w = 0$ in $X$. Then $\mathcal{F} \xrightarrow{u} \mathcal{G} \xrightarrow{v} \mathcal{H}$ is a complex with
 three terms $\mathcal{L}\bullet$, to which one may apply `(9.4.3)`; by hypothesis one has
@@ -596,15 +594,15 @@ the same be true of $\mathcal{F} \otimes_{k} k'$, since the projection $X_{(k')}
 prove, and it remains to verify `(9.2.1, (ii))`; one may therefore again suppose that $S$ is affine, Noetherian, and
 integral. There are once more four cases to envisage.
 
-1° $\eta \in E$. It follows from `(8.5.5)`, applied following the general method of `(8.1.2, a))`, that there exists an
+$1^{\circ}$ $\eta \in E$. It follows from `(8.5.5)`, applied following the general method of `(8.1.2, a))`, that there exists an
 open neighbourhood $U$ of $\eta$ in $S$ such that $\mathcal{F}|f^{-1}(U)$ is locally free; *a fortiori*
 $\mathcal{F}_{s}$ is locally free for every $s \in U$.
 
-2° $\eta \in E'$. Same reasoning as in 1°.
+$2^{\circ}$ $\eta \in E'$. Same reasoning as in $1^{\circ}$.
 
-3° $\eta \in S - E$. Since $\mathcal{F}_{\eta}$ is a coherent $\mathcal{O}_{X_{\eta}}$-Module, to say that it is not
+$3^{\circ}$ $\eta \in S - E$. Since $\mathcal{F}_{\eta}$ is a coherent $\mathcal{O}_{X_{\eta}}$-Module, to say that it is not
 locally free is equivalent to saying that it is *not flat* over $\mathcal{O}_{X_{\eta}}$
-`(Bourbaki, Alg. comm., chap. II, §5, n° 2, cor. 2 of th. 1)`. The fact that $S - E$ is a neighbourhood of $\eta$ will
+`(Bourbaki, Alg. comm., chap. II, §5, n$^{\circ}$ 2, cor. 2 of th. 1)`. The fact that $S - E$ is a neighbourhood of $\eta$ will
 therefore result from the more general lemma below (applied to the case where $g$ is the identity).
 
 **Lemma (9.4.7.1).**
@@ -616,19 +614,19 @@ $S$, $g : X \to Y$ an $S$-morphism, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-M
 $g_{\eta}$-flat, then there exists an open neighbourhood $U$ of $\eta$ in $S$ such that for every $s \in U$,
 $\mathcal{F}_{s}$ is not $g_{s}$-flat.*
 
-Taking account of `(2.1.2)` and of `Bourbaki, Alg. comm., chap. I, §2, n° 3, Remark 1`, the hypothesis means that there
+Taking account of `(2.1.2)` and of `Bourbaki, Alg. comm., chap. I, §2, n$^{\circ}$ 3, Remark 1`, the hypothesis means that there
 exists a non-empty open set $V$ of $Y_{\eta}$ and an injective homomorphism $v : \mathcal{M} \to \mathcal{N}$ of
 coherent $\mathcal{O}_{V}$-Modules, such that the homomorphism $1 \otimes v : \mathcal{F}_{\eta}
 \otimes_{\mathcal{O}_{V}} \mathcal{M} \to \mathcal{F}_{\eta} \otimes_{\mathcal{O}_{V}} \mathcal{N}$ is not injective.
 One has $V = Y_{\eta} \cap W$, where $W$ is open in $Y$ `(I, 3.6.1)`, and it follows from `(8.5.2, (i) and (ii))`,
-applied following the method of `(8.1.2, a))`, that there exists an open neighbourhood `U_0` of $\eta$ in $S$, two
+applied following the method of `(8.1.2, a))`, that there exists an open neighbourhood $U_{0}$ of $\eta$ in $S$, two
 coherent $\mathcal{O}_{Z}$-Modules
 
 <!-- original page 65 -->
 
 $\mathcal{M}'$, $\mathcal{N}'$ (where $Z = W \cap h^{-1}(U_{0})$, $h : Y \to S$ being the structure morphism) and an
 $\mathcal{O}_{Z}$-homomorphism $u : \mathcal{M}' \to \mathcal{N}'$ such that $\mathcal{M}'_{\eta} = \mathcal{M}$,
-$\mathcal{N}'_{\eta} = \mathcal{N}$ and $v = u_{\eta}$; one may therefore suppose `U_0` taken such that for $s \in
+$\mathcal{N}'_{\eta} = \mathcal{N}$ and $v = u_{\eta}$; one may therefore suppose $U_{0}$ taken such that for $s \in
 U_{0}$, $u_{s} : \mathcal{M}'_{s} \to \mathcal{N}'_{s}$ is injective `(9.4.5)`. But for every $s \in U_{0}$, the
 homomorphism $1 \otimes u_{s} : \mathcal{F}_{s} \otimes_{\mathcal{O}_{Y_{s}}} \mathcal{M}'_{s} \to \mathcal{F}_{s}
 \otimes_{\mathcal{O}_{Y_{s}}} \mathcal{N}'_{s}$ is none other than $(1 \otimes u)_{s}$; the hypothesis that $(1 \otimes
@@ -636,14 +634,14 @@ u)_{\eta}$ is non-injective therefore entails `(9.4.5)` the existence of a non-e
 that for every $s \in U$, $(1 \otimes u)_{s}$ is non-injective, and consequently $\mathcal{F}_{s}$ is not $g_{s}$-flat
 for every $s \in U$.
 
-4° $\eta \in S - E'$. It is clear that $S - E \subset S - E'$, and if $\eta \in S - E$, $S - E'$ is *a fortiori* a
-neighbourhood of $\eta$ by 3°. Suppose therefore that $\eta \in E$, hence $\mathcal{F}_{\eta}$ locally free; these
+$4^{\circ}$ $\eta \in S - E'$. It is clear that $S - E \subset S - E'$, and if $\eta \in S - E$, $S - E'$ is *a fortiori* a
+neighbourhood of $\eta$ by $3^{\circ}$. Suppose therefore that $\eta \in E$, hence $\mathcal{F}_{\eta}$ locally free; these
 hypotheses entail that $X_{\eta}$ is disconnected, and that the ranks of the locally free
 $\mathcal{O}_{X_{\eta}}$-Module $\mathcal{F}_{\eta}$ are not the same on the various connected components of $X_{\eta}$.
 Now it follows from `(8.4.2)`, applied following the method of `(8.1.2, a))`, that one may suppose (replacing $S$ by an
 open neighbourhood of $\eta$) that $X$ and $X_{\eta}$ have the same number of connected components, the connected
 components of $X_{\eta}$ being the intersections of $X_{\eta}$ with the connected components of $X$. The conclusion then
-results from the reasoning made in 2°, applied to each of the connected components of $X$ (which are finite in number).
+results from the reasoning made in $2^{\circ}$, applied to each of the connected components of $X$ (which are finite in number).
 
 **Remark (9.4.7.2).**
 
@@ -675,7 +673,7 @@ One is therefore reduced to the case where $X = \operatorname{Spec}(B)$ is affin
 $M$ is a $B$-module of finite type; one sets $B_{s} = B \otimes_{A} k(s)$, $M_{s} = M \otimes_{A} k(s)$, and one may
 suppose $B_{\eta}$ integral. We have four cases to envisage.
 
-1° $\eta \in E$; $M_{\eta}$ is then a torsion $B_{\eta}$-module of finite type, and there is consequently $h \neq 0$ in
+$1^{\circ}$ $\eta \in E$; $M_{\eta}$ is then a torsion $B_{\eta}$-module of finite type, and there is consequently $h \neq 0$ in
 $B_{\eta}$ such that $hM_{\eta} = 0$; by virtue of `(8.5.2, (i))`, applied following the method
 
 <!-- original page 66 -->
@@ -690,7 +688,7 @@ injective, and it therefore follows from `(9.4.5)` that $v_{s}$ is an injective 
 for $s$ close to $\eta$, in other words, $g_{s}$ is an $\mathcal{O}_{X_{s}}$-regular element for these values of $s$;
 hence $\mathcal{F}_{s}$ is torsion in a neighbourhood of $\eta$.
 
-2° $\eta \in S - E$. To say that a $B_{\eta}$-module $M_{\eta}$ of finite type is not a torsion module means that its
+$2^{\circ}$ $\eta \in S - E$. To say that a $B_{\eta}$-module $M_{\eta}$ of finite type is not a torsion module means that its
 quotient $M_{\eta}/T$ by its torsion sub-module is $\neq 0$, and since it is a torsion-free $B_{\eta}$-module of finite
 type, it is isomorphic to a sub-module of a $B_{\eta}$-module $B^{n}_{\eta}$; there is consequently a homomorphism $w :
 M_{\eta} \to B^{n}_{\eta}$ which is $\neq 0$. Applying `(8.5.2, (i))` following the method of `(8.1.2, a))`, one deduces
@@ -699,17 +697,17 @@ M_{\eta} \to B^{n}_{\eta}$ which is $\neq 0$. Applying `(8.5.2, (i))` following 
 \neq 0$ in a neighbourhood of $\eta$, and since $X_{s}$ is locally integral, $\mathcal{F}_{s}$ is not torsion for these
 values of $s$.
 
-3° $\eta \in E'$. Since $M_{\eta}$ is a torsion-free $B_{\eta}$-module of finite type, there exists an injective
-homomorphism $w : M_{\eta} \to B^{n}_{\eta}$. Using `(8.5.2, (i))` and `(9.4.5)` as in 2° (restricting $S$ if
+$3^{\circ}$ $\eta \in E'$. Since $M_{\eta}$ is a torsion-free $B_{\eta}$-module of finite type, there exists an injective
+homomorphism $w : M_{\eta} \to B^{n}_{\eta}$. Using `(8.5.2, (i))` and `(9.4.5)` as in $2^{\circ}$ (restricting $S$ if
 necessary), one deduces that there exists a homomorphism $v : \mathcal{F} \to \mathcal{O}^{n}_{X}$ such that $v_{\eta} =
 w$ and that for $s$ close to $\eta$, $v_{s} : \mathcal{F}_{s} \to \mathcal{O}^{n}_{X_{s}}$ is injective; for these
 values of $s$, $\mathcal{F}_{s}$ is therefore torsion-free.
 
-4° $\eta \in S - E'$. Let $T$ be the torsion sub-module of $M_{\eta}$; by hypothesis $T \neq 0$, and $T$ is of finite
+$4^{\circ}$ $\eta \in S - E'$. Let $T$ be the torsion sub-module of $M_{\eta}$; by hypothesis $T \neq 0$, and $T$ is of finite
 type since $M_{\eta}$ is Noetherian. Using this time `(8.5.2, (i) and (ii))` one sees (restricting $S$ if necessary)
 that there exists a coherent $\mathcal{O}_{X}$-Module $\mathcal{G}$ and an injective homomorphism $u : \mathcal{G} \to
 \mathcal{F}$ such that $\mathcal{G}_{\eta} = \tilde{T}$ and $u_{\eta}$ is the canonical injection $\tilde{T} \to
-\mathcal{F}_{\eta}$. It then follows from 1° and from `(1.8.6)` that in a neighbourhood of $\eta$, $\mathcal{G}_{s}$ is
+\mathcal{F}_{\eta}$. It then follows from $1^{\circ}$ and from `(1.8.6)` that in a neighbourhood of $\eta$, $\mathcal{G}_{s}$ is
 a torsion $\mathcal{O}_{X_{s}}$-Module $\neq 0$, and on the other hand it follows from `(9.4.5)` that in a neighbourhood
 of $\eta$, $u_{s}$ is injective. One concludes that in a neighbourhood of $\eta$, the torsion sub-Module of
 $\mathcal{F}_{s}$ is non-zero. C.Q.F.D.
@@ -721,7 +719,7 @@ $\mathcal{F}_{s}$ is non-zero. C.Q.F.D.
 The property "$X$ is a locally integral algebraic $k$-prescheme" does not verify condition `(9.2.1, (i))`, and it is
 therefore not certain that the statement `(9.4.8)` remains valid when one makes no hypothesis on $S$ and one supposes
 only that $f$ is a morphism of finite presentation and $\mathcal{F}$ an $\mathcal{O}_{X}$-Module of finite presentation.
-Let us nevertheless consider the following particular case: `S_0` being a locally Noetherian prescheme, let $f_{0} :
+Let us nevertheless consider the following particular case: $S_{0}$ being a locally Noetherian prescheme, let $f_{0} :
 X_{0} \to S_{0}$ be a morphism of finite type, such that the fibres $(X_{0})_{s_{0}}$ are locally integral (for every
 $s_{0} \in S_{0}$), and $\mathcal{F}_{0}$ a coherent $\mathcal{O}_{X_{0}}$-Module; let $g : S \to S_{0}$ be an arbitrary
 morphism, set $X = X_{0} \times_{S_{0}} S$, $\mathcal{F} = \mathcal{F}_{0} \otimes_{\mathcal{O}_{S_{0}}}
@@ -782,7 +780,7 @@ $p^{-1}(\overline{Z}) = \overline{p^{-1}(Z)}$ and $p^{-1}(\overline{Z}') = \over
 Let us now verify the second condition, and suppose therefore $S$ affine, Noetherian, and integral, of generic point
 $\eta$. Let us distinguish two cases.
 
-1° $\eta \in S - E$, in other words, $Z_{\eta}$ is not dense in $Z'_{\eta}$; there exists therefore in $X$ an open set
+$1^{\circ}$ $\eta \in S - E$, in other words, $Z_{\eta}$ is not dense in $Z'_{\eta}$; there exists therefore in $X$ an open set
 $V$ such that $V \cap Z_{\eta} = \emptyset$ and $V \cap Z'_{\eta} \neq \emptyset$. As $X$ is Noetherian, $V$ is locally
 constructible, hence so is $V \cap Z$, and by virtue of `(9.5.1)`, there is a neighbourhood $U$ of $\eta$ in $S$ such
 that for every $s \in U$, one has $(V \cap Z)_{s} = \emptyset$ and $(V \cap Z')_{s} \neq \emptyset$; this entails that
@@ -790,7 +788,7 @@ $Z_{s}$ is not dense in $Z'_{s}$ for $s \in U$, in other words $U \subset S - E$
 
 <!-- original page 68 -->
 
-2° $\eta \in E$, hence $Z_{\eta}$ is dense in $Z'_{\eta}$. Let us first show that one may suppose $Z'$ closed. Indeed,
+$2^{\circ}$ $\eta \in E$, hence $Z_{\eta}$ is dense in $Z'_{\eta}$. Let us first show that one may suppose $Z'$ closed. Indeed,
 $Z_{\eta}$ is dense in $\overline{Z'_{\eta}}$ (closure taken in $X_{\eta}$); set $V_{\eta} = X_{\eta} -
 \overline{Z'_{\eta}}$, which is open in $X_{\eta}$ and does not meet $Z_{\eta}$; one may suppose $V_{\eta}$ of the form
 $V \cap X_{\eta}$, where $V$ is open (hence constructible) in $X$, and the hypothesis $V_{\eta} \cap Z'_{\eta} =
@@ -916,19 +914,19 @@ that $\dim(Z_{i}) = n$, which completes the proof.
 One will take care to note that under the hypotheses of `(9.5.6)` it may happen that $X_{s}$ is irreducible for no $s
 \neq \eta$ in a neighbourhood of $\eta$; in other words, the property "$X$ is an irreducible algebraic $k$-prescheme" is
 not constructible. Take for example $S = \operatorname{Spec}(k[T])$, where $k$ is an algebraically closed field, $T$ an
-indeterminate; one therefore has $k(\eta) = K = k(T)$. Let $L$ be a finite separable extension of $K$ of degree `> 1`,
+indeterminate; one therefore has $k(\eta) = K = k(T)$. Let $L$ be a finite separable extension of $K$ of degree $> 1$,
 and let $X$ be the integral closure of $S$ in $L$ `(II, 6.3.4)`; one has therefore $X = \operatorname{Spec}(B)$, where
-$B$ is the integral closure of `k[T]` in $L$. One knows that $B$ is a Dedekind ring, and that all the maximal ideals of
-`k[T]`, except a finite number, are unramified in $B$; since in addition the residue field of every maximal ideal of $B$
+$B$ is the integral closure of $k[T]$ in $L$. One knows that $B$ is a Dedekind ring, and that all the maximal ideals of
+$k[T]$, except a finite number, are unramified in $B$; since in addition the residue field of every maximal ideal of $B$
 is necessarily $k$ (since it is a finite extension of $k$), one sees that for almost all the maximal ideals
-$\mathfrak{j}_{s}$ of `k[T]`, $B_{s} = B/\mathfrak{j}_{s} B$ is a direct sum of $[L : K]$ fields isomorphic to $k$, in
+$\mathfrak{j}_{s}$ of $k[T]$, $B_{s} = B/\mathfrak{j}_{s} B$ is a direct sum of $[L : K]$ fields isomorphic to $k$, in
 other words $X_{s}$ is not irreducible, although $X_{\eta} = \operatorname{Spec}(L)$ is.
 
 The same example shows that the property "$X$ is an integral algebraic $k$-prescheme" is not constructible. Finally, the
 same is true of the property "$X$ is a reduced algebraic $k$-prescheme". To see this it suffices to take again $S =
 \operatorname{Spec}(k[T])$, where this time $k$ is an algebraically closed field of characteristic $p > 0$, and for $X$
 the integral closure of $S$ in $L = K^{1/p}$ (where $K = k(T)$), so that $X = \operatorname{Spec}(B)$ with $B =
-k[T^{1/p}]$ ($k$ being perfect); every maximal ideal of `k[T]` is of the form $(T - \alpha)$ with $\alpha \in k$; the
+k[T^{1/p}]$ ($k$ being perfect); every maximal ideal of $k[T]$ is of the form $(T - \alpha)$ with $\alpha \in k$; the
 unique ideal of $B$ above the ideal $(T - \alpha)$ is the principal ideal $(T^{1/p} - \alpha^{1/p})$ and it is immediate
 
 <!-- original page 71 -->
@@ -999,10 +997,10 @@ may
 suppose that $f$ is itself a proper morphism; one then knows that the same is true of $f_{s}$ for every $s \in S$
 `(II, 5.4.2, (iii))`. Suppose on the contrary that $\eta \in S - E$, and let us distinguish two cases.
 
-1° Suppose that $f_{\eta}$ is not separated; then it follows from (iii) that $f_{s}$ is non-separated (and *a fortiori*
+$1^{\circ}$ Suppose that $f_{\eta}$ is not separated; then it follows from (iii) that $f_{s}$ is non-separated (and *a fortiori*
 not proper) in a neighbourhood of $\eta$.
 
-2° Suppose $f_{\eta}$ separated; $Y$ is a finite union of affine open sets $V_{i}$, and for $f_{s}$ to be proper, it is
+$2^{\circ}$ Suppose $f_{\eta}$ separated; $Y$ is a finite union of affine open sets $V_{i}$, and for $f_{s}$ to be proper, it is
 necessary and sufficient that each of its restrictions $f^{-1}_{s}((V_{i})_{s}) \to (V_{i})_{s}$ be so `(II, 5.4.1)`;
 one may therefore restrict to the case where $Y$ is affine, hence a scheme. To say that $f_{\eta}$ is not proper means
 `(II, 5.6.3)` that there exists a morphism of finite type $h : Z \to Y_{\eta}$ such that the morphism
@@ -1011,7 +1009,7 @@ $(f_{\eta})_{(Z)} : X_{\eta} \times_{Y_{\eta}} Z \to Z$ is not closed. As $Y$ is
 finite type $g : Y' \to Y$ such that $Z$ is isomorphic to $Y'_{\eta}$ and $g_{\eta} = h$; if one sets
 $X' = X \times_{Y} Y'$, $f' = f_{(Y')} : X' \to Y'$, one has $(f_{\eta})_{(Z)} = f'_{\eta}$, and by hypothesis there
 exists therefore a closed part $M'$ of $X'_{\eta}$ such that $f'_{\eta}(M')$ is not closed in $Y'_{\eta}$. Now $M'$ is
-the trace on $X'_{\eta}$ of a closed part $N'$ of $X'$; since $X'$ is Noetherian and $f'$ of finite type, `f'(N')` is
+the trace on $X'_{\eta}$ of a closed part $N'$ of $X'$; since $X'$ is Noetherian and $f'$ of finite type, $f'(N')$ is
 constructible in $Y'$ `(1.8.4)`, and by hypothesis $(f'(N'))_{\eta} = f'_{\eta}(N'_{\eta}) = f'_{\eta}(M')$ is not
 closed in $Y'_{\eta}$. One then concludes from `(9.5.4)` that there exists a neighbourhood $U$ of $\eta$ in $S$ such
 that for $s \in U$, $(f'(N'))_{s} = f'_{s}(N'_{s})$ is not closed in $Y'_{s}$; in other words, the morphism $f'_{s}$ is
@@ -1026,10 +1024,10 @@ neighbourhood of $\eta$. If $\eta \in E$, one may (by replacing $S$ by a neighbo
 closed immersion by virtue of `(8.10.5, (iv))`, and then it is clear that $f_{s}$ is a closed immersion for every $s \in
 S$ `(I, 4.3.2)`. Suppose therefore that $\eta \in S - E$ and let us distinguish two cases.
 
-1° $f_{\eta}$ is not a finite morphism. Then it follows from (vi) that in a neighbourhood of $\eta$, $f_{s}$ is not
+$1^{\circ}$ $f_{\eta}$ is not a finite morphism. Then it follows from (vi) that in a neighbourhood of $\eta$, $f_{s}$ is not
 finite, nor *a fortiori* a closed immersion.
 
-2° $f_{\eta}$ is finite; then, by virtue of `(8.10.5, (x))`, one may suppose (by restricting $S$ if necessary) that $f$
+$2^{\circ}$ $f_{\eta}$ is finite; then, by virtue of `(8.10.5, (x))`, one may suppose (by restricting $S$ if necessary) that $f$
 itself is a finite morphism. In this case $\mathcal{A} = \mathcal{A}(X) = f_{*}(\mathcal{O}_{X})$ is a coherent
 $\mathcal{O}_{Y}$-Module `(II, 6.1.3)` and $f = \mathcal{A}(u)$, where $u : \mathcal{O}_{Y} \to \mathcal{A}$ is a
 homomorphism of $\mathcal{O}_{Y}$-Algebras `(II, 1.1.2)`; since $f_{\eta}$ is not a closed immersion by hypothesis,
@@ -1044,11 +1042,11 @@ distinguishes once again two cases.
 
 <!-- original page 73 -->
 
-1° $f_{\eta}(X_{\eta})$ is not a locally closed part of $Y_{\eta}$. As $f(X)$ is constructible in $Y$ `(1.8.4)` and
+$1^{\circ}$ $f_{\eta}(X_{\eta})$ is not a locally closed part of $Y_{\eta}$. As $f(X)$ is constructible in $Y$ `(1.8.4)` and
 $f_{s}(X_{s}) = (f(X))_{s}$, one deduces from `(9.5.4)` that for $s$ close to $\eta$, $f_{s}(X_{s})$ is not locally
 closed in $Y_{s}$, and *a fortiori* $f_{s}$ is not an immersion.
 
-2° $f_{\eta}(X_{\eta})$ is locally closed in $Y_{\eta}$. As $f(X)$ is constructible in $Y$ `(1.8.4)`, and the same is
+$2^{\circ}$ $f_{\eta}(X_{\eta})$ is locally closed in $Y_{\eta}$. As $f(X)$ is constructible in $Y$ `(1.8.4)`, and the same is
 true of $\overline{f(X)}$ since $Y$ is Noetherian, it follows from `(8.3.11)` that by restricting $S$ if necessary, one
 may suppose that $f(X)$ is locally closed in $Y$. There is then an open set $V$ of $Y$ containing $f(X)$ and in which
 $f(X)$ is closed. Since $Y$ is Noetherian, $V$ is of finite type over $S$, and by replacing $Y$ by $V$, one may
@@ -1059,14 +1057,14 @@ one is therefore reduced to what was proved in (ix).
 (x): Using this time `(2.7.1, (ix))` and `(8.10.5, (iii))`, one is reduced to the case where $S$ is affine, Noetherian,
 integral of generic point $\eta$, and where $\eta \in S - E$. Let us distinguish three cases.
 
-1° $f_{\eta}(X_{\eta})$ is not open in $Y_{\eta}$. As $f(X)$ is constructible in $Y$ `(1.8.4)`, one deduces from
+$1^{\circ}$ $f_{\eta}(X_{\eta})$ is not open in $Y_{\eta}$. As $f(X)$ is constructible in $Y$ `(1.8.4)`, one deduces from
 `(9.5.4)` that $f_{s}(X_{s})$ is not open in $Y_{s}$ for $s$ close to $\eta$, and *a fortiori* $f_{s}$ is not an open
 immersion.
 
-2° $f_{\eta}(X_{\eta})$ is open in $Y_{\eta}$ but $f_{\eta}$ is not an immersion. It then follows from (viii) that for
+$2^{\circ}$ $f_{\eta}(X_{\eta})$ is open in $Y_{\eta}$ but $f_{\eta}$ is not an immersion. It then follows from (viii) that for
 $s$ close to $\eta$ in $S$, $f_{s}$ is not an immersion, nor *a fortiori* an open immersion.
 
-3° $f_{\eta}(X_{\eta})$ is open in $Y_{\eta}$ and $f_{\eta}$ is an immersion. As $f(X)$ is constructible in $Y$, it
+$3^{\circ}$ $f_{\eta}(X_{\eta})$ is open in $Y_{\eta}$ and $f_{\eta}$ is an immersion. As $f(X)$ is constructible in $Y$, it
 follows from `(8.3.11)` that by restricting $S$ if necessary, one may already suppose that $f(X)$ is open in $Y$. Since
 $Y$ is Noetherian, the sub-prescheme induced on $f(X)$ is of finite type over $S$, so one may reduce to the case where
 $f$ is *surjective* by replacing $Y$ by $f(X)$. By hypothesis, $f_{\eta}$ is a closed immersion, hence one may, as in
@@ -1144,9 +1142,7 @@ zero except for a finite number of values of $q$, the generic flatness theorem `
 to a neighbourhood of $\eta$, one may suppose that $\mathcal{L}$ and the $R^{q} f_{*}(\mathcal{L})$ are all $S$-flat.
 One then concludes from `(III, 6.9.9)` that the canonical homomorphism
 
-```text
-  (9.6.3.1)        f_*(ℒ) ⊗_{𝒪_S} k(s) → (f_s)_*(ℒ_s)
-```
+$$ f_{*}(\mathcal{L}) \otimes_{\mathcal{O}_{S}} k(s) \to (f_{s})_{*}(\mathcal{L}_{s}) \tag{9.6.3.1} $$
 
 *is an isomorphism*.
 
@@ -1156,7 +1152,7 @@ This being so, it follows from `(II, 4.4.4)` that to say $\mathcal{L}_{s}$ is no
 either the canonical homomorphism $(f_{s})*((f_{s})_{*}(\mathcal{L}_{s})) \to \mathcal{L}_{s}$ is not surjective; or the
 preceding homomorphism is surjective and the canonical morphism $r : X_{s} \to \mathbf{P}((f_{s})_{*}(\mathcal{L}_{s}))$
 is not an immersion. Taking into account the isomorphism `(9.6.3.1)`, these conditions are written respectively in the
-form: 1° the canonical homomorphism $(f*(f_{*}(\mathcal{L})))_{s} \to \mathcal{L}_{s}$ is not surjective; 2° the
+form: $1^{\circ}$ the canonical homomorphism $(f*(f_{*}(\mathcal{L})))_{s} \to \mathcal{L}_{s}$ is not surjective; $2^{\circ}$ the
 preceding homomorphism is surjective and the canonical morphism $X_{s} \to \mathbf{P}((f_{*}(\mathcal{L}))_{s})$ is not
 an immersion.
 
@@ -1222,9 +1218,9 @@ and denote by $Z_{s}$ the sub-prescheme of $X_{s}$ induced on the open set $Z \c
 Then, in propositions `(9.6.1)` and `(9.6.2, (I))`, one may everywhere replace $f_{s}$ by its restriction $f_{s}|Z_{s} :
 Z_{s} \to Y_{s}$ without changing the conclusions. Indeed, the verification of `(9.2.1, (i))` is done as in `(9.6.1)`
 and `(9.6.2)`. On the other hand, in the reduction to the case where $S$ is Noetherian, done in `(9.2.3)`, if $Z =
-q^{-1}(Z_{0})$, where $q : X \to X_{0}$ is the canonical projection and `Z_0` a constructible part of `X_0` `(8.3.11)`,
-the fact that $(Z_{0})_{s_{0}}$ is open in $(X_{0})_{s_{0}}$, for $s_{0} = p(s)$, follows from `(2.4.10)` and from the
-fact that the projection $X_{s} \to (X_{0})_{s_{0}}$ is surjective. One is therefore reduced to verifying
+q^{-1}(Z_{0})$, where $q : X \to X_{0}$ is the canonical projection and $Z_{0}$ a constructible part of $X_{0}$
+`(8.3.11)`, the fact that $(Z_{0})_{s_{0}}$ is open in $(X_{0})_{s_{0}}$, for $s_{0} = p(s)$, follows from `(2.4.10)`
+and from the fact that the projection $X_{s} \to (X_{0})_{s_{0}}$ is surjective. One is therefore reduced to verifying
 `(9.2.1, (ii))` under the new hypotheses. Now, since $Z_{\eta}$ is open in $X_{\eta}$, there exists an open set $Z'
 \subset X$ such that $Z_{\eta} = Z' \cap X_{\eta}$; as $X$ is then Noetherian, $Z'$ is constructible, and the same is
 true of $Z$ by hypothesis; one therefore concludes from `(9.5.2)` and $(0_{III}, 9.2.2)$ that there is a neighbourhood
@@ -1289,9 +1285,9 @@ Given a polynomial $F \in A[T_{1}, \cdots, T_{n}]$, where $A$ is a ring and the 
 ring homomorphism $\rho : A \to B$, we denote by $F^{\rho}$ or $F^{B}$ the polynomial of $B[T_{1}, \cdots, T_{n}]$
 obtained by replacing each coefficient of $F$ by its image under $\rho$. If $k$ is a field, $F \in k[T_{1}, \cdots,
 T_{n}]$ a non-constant polynomial, and $X = \operatorname{Spec}(k[T_{1}, \cdots, T_{n}]/(F))$, to say that $X$ is
-integral (or that the ideal `(F)` is prime) means that $F$ is irreducible (that is, in every factorization $F = F_{1}
-F_{2}$ into polynomials of $k[T_{1}, \cdots, T_{n}]$, `F_1` or `F_2` is of degree `0`); this follows from the fact that
-the ring $k[T_{1}, \cdots, T_{n}]$ is factorial. From this one deduces immediately (`(4.6.2)` and `(4.5.2)`):
+integral (or that the ideal $(F)$ is prime) means that $F$ is irreducible (that is, in every factorization $F = F_{1}
+F_{2}$ into polynomials of $k[T_{1}, \cdots, T_{n}]$, $F_{1}$ or $F_{2}$ is of degree $0$); this follows from the fact
+that the ring $k[T_{1}, \cdots, T_{n}]$ is factorial. From this one deduces immediately (`(4.6.2)` and `(4.5.2)`):
 
 **Lemma (9.7.4).**
 
@@ -1342,25 +1338,23 @@ finite presentation, the conclusion of the lemma follows from `(9.5.1)` and `(9.
 
 <!-- original page 78 -->
 
-Let $(p, q)$ be a pair of integers `> 0` with $p + q = d$; introduce indeterminates $T'_{\beta}$, $T''_{\gamma}$ for all
+Let $(p, q)$ be a pair of integers $> 0$ with $p + q = d$; introduce indeterminates $T'_{\beta}$, $T''_{\gamma}$ for all
 systems of integers $\beta$, $\gamma$ with $|\beta| \leq p$ and $|\gamma| \leq q$; for every system of integers $\alpha$
 with $|\alpha| \leq d$, consider the polynomial of $B = A[T'_{\beta}, T''_{\gamma}]_{|\beta| \leq p, |\gamma| \leq q}$:
 
-```text
-                P_α(T'_β, T''_γ) = ∑_{β + γ = α} T'_β T''_γ − c_α.
-```
+$$ P_{\alpha}(T'_{\beta}, T''_{\gamma}) = \sum_{\beta + \gamma = \alpha} T'_{\beta} T''_{\gamma} - c_{\alpha}. $$
 
-Let $\Omega$ be an algebraic closure of $K$; to say that there exist two polynomials `F_1`, `F_2` of $\Omega[T_{1},
+Let $\Omega$ be an algebraic closure of $K$; to say that there exist two polynomials $F_{1}$, $F_{2}$ of $\Omega[T_{1},
 \cdots, T_{n}]$, of respective degrees $p$ and $q$, such that $F_{1} F_{2} = F^{\Omega}$, is to say that the system of
 equations $P_{\alpha}(\xi, \zeta) = 0$ ($|\alpha| \leq d$) admits a solution $(\xi, \zeta)$ ($|\beta| \leq p$, $|\gamma|
 \leq q$) formed of elements of $\Omega$. Let $\mathfrak{a}$ be the ideal of $B$ generated by the $P_{\alpha}$; the
 preceding interpretation, and Hilbert's Nullstellensatz, show that the hypothesis on $F^{K}$ implies that
 $V(\mathfrak{a}_{\eta}) = \emptyset$, where $\eta$ denotes the generic point of $\operatorname{Spec}(A)$; lemma
 `(9.7.5.1)` therefore proves that in a neighbourhood of $\eta$, one has $V(\mathfrak{a}_{s}) = \emptyset$, and
-consequently, for these values of $x$, $F^{k(x)}$ admits no factorization $F^{k(x)} = G_{1} G_{2}$ where `G_1`, `G_2`
-are polynomials of respective degrees $p$ and $q$ whose coefficients lie in an algebraic closure of $k(x)$. It suffices
-to apply this result to all pairs of integers $(p, q)$ with $p > 0$, $q > 0$, and $p + q = d$ to obtain the conclusion
-of lemma `(9.7.5)`.
+consequently, for these values of $x$, $F^{k(x)}$ admits no factorization $F^{k(x)} = G_{1} G_{2}$ where $G_{1}$,
+$G_{2}$ are polynomials of respective degrees $p$ and $q$ whose coefficients lie in an algebraic closure of $k(x)$. It
+suffices to apply this result to all pairs of integers $(p, q)$ with $p > 0$, $q > 0$, and $p + q = d$ to obtain the
+conclusion of lemma `(9.7.5)`.
 
 **Proposition (9.7.6).**
 
@@ -1405,9 +1399,9 @@ $B^{k(s)}/\mathfrak{p}^{k(s)} = (B/\mathfrak{p})^{k(s)}$. Taking `(3.1.7)` into 
 proving, with the same notations, that if $B$ is integral, then $B^{k(s)}$ has no embedded associated prime ideals for
 $s$ near $\eta$. Now, replacing $A$ if necessary by $A_{g}$ and $B$ by $B_{g}$ (where $g$ is an element $\neq 0$ of
 $A$), one may suppose that $B$ contains a polynomial $A$-algebra $C = A[T_{1}, \cdots, T_{n}]$ such that $B$ is a
-finitely generated $C$-module (Bourbaki, *Alg. comm.*, chap. V, §3, n° 1, cor. 1 of th. 1). Since $B^{K}$ is a
+finitely generated $C$-module (Bourbaki, *Alg. comm.*, chap. V, §3, n$^{\circ}$ 1, cor. 1 of th. 1). Since $B^{K}$ is a
 torsion-free $C^{K}$-module, one may apply again the reasoning made above by replacing $B$, $M$, and $\mathfrak{q}$ by
-$C$, $B$, and `(0)` respectively, and it therefore suffices to see that for $s$ near $\eta$, $C^{k(s)}$ has no embedded
+$C$, $B$, and $(0)$ respectively, and it therefore suffices to see that for $s$ near $\eta$, $C^{k(s)}$ has no embedded
 associated prime ideals. But this is evident since $C^{k(s)} = k(s)[T_{1}, \cdots, T_{n}]$ is an integral ring. Q.E.D.
 
 **Theorem (9.7.7).**
@@ -1439,7 +1433,7 @@ fractions. Set $S' = \operatorname{Spec}(A')$; the morphism $g : S' \to S$ is fi
 $X'_{\eta'} = (X_{\eta})_{(K')}$; the set $E'$ of $s' \in S'$ such that $X'_{s'}$ has one of properties (i), (ii),
 (iii), or (iv) is equal to $g^{-1}(E)$ `(9.2.2, (iv))` ($E$ corresponding of course to the same property); since $g$ is
 surjective, one has $E = g(E')$ and $S - E = g(S' - E')$; moreover, $g$ is closed and $g^{-1}(\eta) = {\eta'}$ since
-$A'$ is integral and finite over $A$ (Bourbaki, *Alg. comm.*, chap. V, §2, n° 1, cor. 1 of prop. 1), so the image under
+$A'$ is integral and finite over $A$ (Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 1, cor. 1 of prop. 1), so the image under
 $g$ of every neighbourhood of $\eta'$ is a neighbourhood of $\eta$. The theorem will therefore be proved if we show that
 $E'$ or $S' - E'$ is a neighbourhood of $\eta'$. Otherwise put, we may henceforth suppose that the irreducible (resp.
 connected) components of $X_{\eta}$ are geometrically irreducible (resp. geometrically connected) and that
@@ -1460,7 +1454,7 @@ then true of $X_{s}$ for $s$ near $\eta$; *a fortiori* $X_{s}$ is not geometrica
 
 We shall therefore henceforth suppose that $\eta \in E$ and examine separately each of the properties considered.
 
-**1°** Suppose $X_{\eta}$ is geometrically integral. Let $L$ be the field of rational functions on $X_{\eta}$; the
+**$1^{\circ}$** Suppose $X_{\eta}$ is geometrically integral. Let $L$ be the field of rational functions on $X_{\eta}$; the
 hypothesis on $X_{\eta}$ implies that $L$ is a separable extension of $K$ `(4.6.3)`, hence a finite separable extension
 of a pure extension $K(T_{1}, \cdots, T_{n})$ ($T_{i}$ indeterminates); there is therefore an element $z \in L$,
 integral over the ring $K[T_{1}, \cdots, T_{n}]$, such that $L = K(T_{1}, \cdots, T_{n})(z)$; let $G \in K[T_{1},
@@ -1495,29 +1489,29 @@ projection; $p^{-1}(W_{s})$ is a dense open in $(X_{s})_{(\Omega)}$ `(2.3.10)` a
 $(X_{s})_{(\Omega)}$ has no embedded associated prime cycle `(4.2.7)`, so one concludes from `(3.2.1)` that
 $(X_{s})_{(\Omega)}$ is reduced; this completes the proof that $X_{s}$ is geometrically integral `(4.6.1)`.
 
-**2°** Suppose $X_{\eta}$ is geometrically irreducible; since $X_{red}$ is also of finite type over $S$ `(1.5.4, (vi))`
+**$2^{\circ}$** Suppose $X_{\eta}$ is geometrically irreducible; since $X_{red}$ is also of finite type over $S$ `(1.5.4, (vi))`
 one may, taking `(I, 5.1.8)` into account, replace $X$ by $X_{red}$; then $X_{\eta}$ is also integral, and since by
-hypothesis $X_{\eta}$ is geometrically reduced, it is geometrically integral. One is then in the conditions of 1°, and
+hypothesis $X_{\eta}$ is geometrically reduced, it is geometrically integral. One is then in the conditions of $1^{\circ}$, and
 one concludes (returning to the initial hypotheses) that $X_{s}$ is geometrically irreducible for $s$ near $\eta$.
 
-**3°** Suppose $X_{\eta}$ is geometrically connected, and let $Z_{i}$ ($1 \leq i \leq n$) be the irreducible components
+**$3^{\circ}$** Suppose $X_{\eta}$ is geometrically connected, and let $Z_{i}$ ($1 \leq i \leq n$) be the irreducible components
 of $X_{\eta}$; there exists (by virtue of `(5.10.8.1)` applied to $\Sigma = {\emptyset}$) a surjective map $j \mapsto
 \nu(j)$ from an interval `[1, m]` of $\mathbb{N}$ onto `[1, n]` such that $Z_{\nu(j)} \cap Z_{\nu(j+1)} \neq \emptyset$
 for $1 \leq j \leq m$. For each $i$, let $X_{i}$ be the closure of $Z_{i}$ in $X$, and let $Y$ be the union of the
 $X_{i}$; since $Y_{\eta} = X_{\eta}$ by definition, we may suppose, by virtue of `(9.5.1)`, that $Y_{s} = X_{s}$ for
 every $s \in S$, hence that $X_{s}$ is the union of the $(X_{i})_{s}$. But, considering the reduced closed
-sub-preschemes of $X$ having the $X_{i}$ as underlying spaces, one sees by 2° that there exists a neighbourhood $U$ of
+sub-preschemes of $X$ having the $X_{i}$ as underlying spaces, one sees by $2^{\circ}$ that there exists a neighbourhood $U$ of
 $\eta$ in $S$ such that for $s \in U$ the $(X_{i})_{s}$ are geometrically irreducible (since the $(X_{i})_{\eta}$ may be
 supposed geometrically irreducible, as we saw at the start). Moreover, we may also suppose that for $s \in U$, one has
 $(X_{\nu(j)})_{s} \cap (X_{\nu(j+1)})_{s} \neq \emptyset$ `(9.5.1)` for $1 \leq j \leq m$; one concludes at once that
 $X_{s}$ is connected, hence `(4.5.13.1)` geometrically connected for $s \in U$.
 
-**4°** Suppose $X_{\eta}$ is geometrically reduced; let $Z_{i}$ be the irreducible components of $X_{\eta}$, $W_{i}$ the
+**$4^{\circ}$** Suppose $X_{\eta}$ is geometrically reduced; let $Z_{i}$ be the irreducible components of $X_{\eta}$, $W_{i}$ the
 interior of $Z_{i}$ in $X_{\eta}$; there is for each $i$ an open $V_{i}$ of $X$ such that $W_{i} = V_{i} \cap X_{\eta}$
 for every $i$; since the $W_{i}$ are open and pairwise disjoint and their union is dense in $X_{\eta}$, we may
 (`(9.5.1)`, `(9.5.3)`, and `(9.5.4)`) suppose that for $s$ near $\eta$, the $(V_{i})_{s}$ are pairwise disjoint opens in
 $X_{s}$ and that their union is dense in $X_{s}$. Moreover, since the $W_{i}$ are geometrically reduced and were
-supposed at the start geometrically irreducible, it follows from 1° that for $s$ near $\eta$, the $(V_{i})_{s}$ are
+supposed at the start geometrically irreducible, it follows from $1^{\circ}$ that for $s$ near $\eta$, the $(V_{i})_{s}$ are
 geometrically integral, and *a fortiori* reduced. On the other hand, one draws from `(9.7.6)` that for $s$ near $\eta$,
 $X_{s}$ has no embedded associated prime cycle, since this is so for $X_{\eta}$, which is reduced `(3.2.1)`; one
 concludes from `(3.2.1)` that $X_{s}$ is reduced, and from `(4.6.1)` that it is geometrically reduced.
@@ -1570,7 +1564,7 @@ $f : X' \to X$ is finite. Then the set of points $x \in X$ such that $X$ is geom
 locally constructible in $X$.*
 
 Indeed, this set is by definition the set of points $x \in X$ such that the number of geometric points of $f^{-1}(x)$ is
-equal to `1`. But since $f$ is finite, this number is also the geometric number of irreducible components of the
+equal to $1$. But since $f$ is finite, this number is also the geometric number of irreducible components of the
 discrete space $f^{-1}(x)$ (taking into account the definition of the normalization `(II, 6.3.8)` and `(4.5.11)`); the
 conclusion therefore follows from `(9.7.9)`.
 
@@ -1596,8 +1590,8 @@ of the $X^{\circ}_{s}$ for $s \in S$ is a locally constructible part of $X$.*
 
 Let us first show that one may reduce to the case where $S$ is affine and Noetherian. One may always suppose $S =
 \operatorname{Spec}(A)$ affine; with the notations of `(9.2.3)`, one has $f = (f_{0})_{(S)}$, where $f_{0} : X_{0} \to
-S_{0}$ is a morphism of finite type, and one may moreover suppose that there exists an `S_0`-section $g_{0} : S_{0} \to
-X_{0}$ such that $g = (g_{0})_{(S)}$ `(8.9.1)`. Note now that if $p$ is the morphism $S \to S_{0}$, then, for every
+S_{0}$ is a morphism of finite type, and one may moreover suppose that there exists an $S_{0}$-section $g_{0} : S_{0}
+\to X_{0}$ such that $g = (g_{0})_{(S)}$ `(8.9.1)`. Note now that if $p$ is the morphism $S \to S_{0}$, then, for every
 $s_{0} \in S_{0}$, the connected component $(X_{0})^{\circ}_{s_{0}}$ of $f^{-1}_{0}(s_{0})$ containing $g_{0}(s_{0})$ is
 geometrically connected `(4.5.13)`, and consequently, if $s_{0} = p(s)$, one has $X^{\circ}_{s} =
 q^{-1}((X_{0})^{\circ}_{s_{0}})$ where $q : X_{s} \to (X_{0})_{s_{0}}$ is the canonical projection (`(4.5.8)` and
@@ -1798,7 +1792,7 @@ $B$, inverse image of $\mathfrak{q}$. Using `(5.11.1.1)` as in the proof of `(9.
 is integral and $M$ a non-zero sub-module of $B$; then $\mathcal{F}$ is a non-zero sub-$\mathcal{O}_{X}$-Module of
 $\mathcal{O}_{Z}$, and by virtue of `(9.4.5)`, for $s$ near $\eta$, $\mathcal{F}_{s}$ is isomorphic to a non-zero sub-
 $\mathcal{O}_{X_{s}}$-Module of $\mathcal{O}_{Z_{s}}$; since $Z_{s}$ is geometrically integral, the lengths of
-$(\mathcal{F}_{\eta})_{x}$ and of $(\mathcal{F}_{s})_{x_{s}}$ are both equal to `1`, which completes the proof.
+$(\mathcal{F}_{\eta})_{x}$ and of $(\mathcal{F}_{s})_{x_{s}}$ are both equal to $1$, which completes the proof.
 
 <!-- original page 87 -->
 
@@ -1897,14 +1891,14 @@ One will note that properties (i) and (ii) may also be expressed by saying that 
 \dim_{x}(Z_{f(x)})$ and $x \mapsto codim_{x}(Z_{f(x)}, X_{f(x)})$ are locally constructible in $X$ $(0_{III}, 9.3.1)$.
 
 The questions being local on $X$, we may restrict to the case where $S = \operatorname{Spec}(A)$ and $X =
-\operatorname{Spec}(B)$ are affine and where $f$ is a morphism of finite presentation; there then exists a subring `A_0`
-of $A$ which is a finitely generated $\mathbb{Z}$-algebra, an `A_0`-prescheme of finite type `X_0`, and a constructible
-part `Z_0` of `X_0` such that $X = X_{0} \otimes_{A_{0}} A$ and $Z = h^{-1}(Z_{0})$, where $h : X \to X_{0}$ is the
-canonical projection (`(8.9.1)` and `(8.3.11)`). Moreover, for every $s \in S$, if $s_{0}$ is the projection of $s$ in
-$S_{0} = \operatorname{Spec}(A_{0})$, one has $X_{s} = (X_{0})_{s_{0}} \otimes_{k(s_{0})} k(s)$, and if $h_{s}$ is the
-projection $X_{s} \to (X_{0})_{s_{0}}$, one has $Z_{s} = h^{-1}_{s}((Z_{0})_{s_{0}})$. Since the morphism $h_{s}$ is
-faithfully flat and quasi-compact, the hypothesis that $Z_{s}$ is closed in $X_{s}$ entails that $(Z_{0})_{s_{0}}$ is
-closed in $(X_{0})_{s_{0}}$ `(2.3.12)`.
+\operatorname{Spec}(B)$ are affine and where $f$ is a morphism of finite presentation; there then exists a subring
+$A_{0}$ of $A$ which is a finitely generated $\mathbb{Z}$-algebra, an $A_{0}$-prescheme of finite type $X_{0}$, and a
+constructible part $Z_{0}$ of $X_{0}$ such that $X = X_{0} \otimes_{A_{0}} A$ and $Z = h^{-1}(Z_{0})$, where $h : X \to
+X_{0}$ is the canonical projection (`(8.9.1)` and `(8.3.11)`). Moreover, for every $s \in S$, if $s_{0}$ is the
+projection of $s$ in $S_{0} = \operatorname{Spec}(A_{0})$, one has $X_{s} = (X_{0})_{s_{0}} \otimes_{k(s_{0})} k(s)$,
+and if $h_{s}$ is the projection $X_{s} \to (X_{0})_{s_{0}}$, one has $Z_{s} = h^{-1}_{s}((Z_{0})_{s_{0}})$. Since the
+morphism $h_{s}$ is faithfully flat and quasi-compact, the hypothesis that $Z_{s}$ is closed in $X_{s}$ entails that
+$(Z_{0})_{s_{0}}$ is closed in $(X_{0})_{s_{0}}$ `(2.3.12)`.
 
 This being so, the transitivity of fibres `(I, 3.6.4)` and proposition `(4.2.7)` entail that the set of dimensions of
 the irreducible components of $Z_{s}$ containing $x$ is the same as the set of dimensions of the irreducible components
@@ -1914,13 +1908,13 @@ containing $x$ and $X^{(\alpha)}_{s}$ the irreducible components of $X_{s}$
 
 <!-- original page 89 -->
 
-containing $x$, one has `codim_x(Z_s, X_s) = inf_β(sup_α(codim(Z_s^{(β)}, X_s^{(α)})))`, $(\alpha, \beta)$ varying over
-the set of pairs such that $x \in Z^{(\beta)}_{s} \subset X^{(\alpha)}_{s}$ `(0, 14.2.6)`. Since irreducible algebraic
-preschemes are biequidimensional `(5.2.1)`, one may write, by virtue of `(0, 14.3.3.1)`:
+containing $x$, one has $codim_{x}(Z_{s}, X_{s}) = \inf_{\beta}(\sup_{\alpha}(codim(Z_{s}^{(\beta)},
+X_{s}^{(\alpha)})))$, $(\alpha, \beta)$ varying over the set of pairs such that $x \in Z^{(\beta)}_{s} \subset
+X^{(\alpha)}_{s}$ `(0, 14.2.6)`. Since irreducible algebraic preschemes are biequidimensional `(5.2.1)`, one may write,
+by virtue of `(0, 14.3.3.1)`:
 
-```text
-(9.9.1.1)        codim_x(Z_s, X_s) = inf_β(sup_α(dim(X_s^{(α)}) − dim(Z_s^{(β)})))
-```
+$$ codim_{x}(Z_{s}, X_{s}) = \inf_{\beta}(\sup_{\alpha}(\dim(X_{s}^{(\alpha)}) - \dim(Z_{s}^{(\beta)}))) \tag{9.9.1.1}
+$$
 
 with the same choice of pairs $(\alpha, \beta)$. Since $h_{s}$ is faithfully flat and quasi-compact, for every pair
 formed of an irreducible component $(X_{0})^{(\alpha)}_{s_{0}}$ of $(X_{0})_{s_{0}}$ containing $x_{0}$ and of an
@@ -1930,11 +1924,9 @@ such that $Z^{(\beta)}_{s}$ dominates $(Z_{0})^{(\beta)}_{s_{0}}$ and $X^{(\alph
 $(X_{0})^{(\alpha)}_{s_{0}}$ `(2.3.5)`. Formula `(9.9.1.1)` (and the analogous formula applied to $(X_{0})_{s_{0}}$)
 then show, by virtue of `(4.2.7)`, that one has
 
-```text
-                  codim_x(Z_s, X_s) = codim_{x_0}((Z_0)_{s_0}, (X_0)_{s_0}).
-```
+$$ codim_{x}(Z_{s}, X_{s}) = codim_{x_{0}}((Z_{0})_{s_{0}}, (X_{0})_{s_{0}}). $$
 
-One sees thus that if $E$ (resp. `E_0`) is the set of $x \in X$ (resp. of $x_{0} \in X_{0}$) verifying one of the
+One sees thus that if $E$ (resp. $E_{0}$) is the set of $x \in X$ (resp. of $x_{0} \in X_{0}$) verifying one of the
 conditions (i), (ii), (iii) of the statement (resp. the same condition), one has $E = h^{-1}(E_{0})$, and by virtue of
 `(1.8.2)`, one sees that one may restrict to the case where $A$ is Noetherian, and hence so is $B$. Taking $(0_{III},
 9.2.3)$ into account, as well as `(9.9.1.1)`, one is reduced to seeing that for every $x \in X$, there is a
@@ -2002,18 +1994,18 @@ that assertion (i) is a special case of `(9.9.1, (iii))`.
 
 **(ii)** All the properties considered are local on $X$, and we shall therefore restrict to the case where $X =
 \operatorname{Spec}(B)$ and $S = \operatorname{Spec}(A)$ are affine and $f$ a morphism of finite presentation. We keep
-the notations of the start of the proof of `(9.9.1)`, and moreover suppose `A_0` chosen so that there exists a coherent
-$\mathcal{O}_{X_{0}}$-Module $\mathcal{F}_{0}$ such that $\mathcal{F}$ is isomorphic to $\mathcal{F}_{0} \otimes_{A_{0}}
-A$. Then (`(4.2.7)` and `(4.7.9)`) the set of geometric lengths of $(\mathcal{F}_{0})_{f(x_{0})}$ at the generic points
-of the irreducible components of $Supp((\mathcal{F}_{0})_{f(x_{0})})$ which contain $x_{0}$ is the same as the analogous
-set for $x$ and $\mathcal{F}_{f(x)}$; otherwise put, if $E$ (resp. `E_0`) is the set of $x \in X$ (resp. of $x_{0} \in
-X_{0}$) verifying condition (ii) of the statement, one has $E = h^{-1}(E_{0})$, and by virtue of `(1.8.2)`, one sees
-that one may restrict to considering the case where $A$ is Noetherian. As in the proof of `(9.9.1)`, one sees that one
-is reduced to showing that, for every $x \in X$, there exists a neighbourhood $V$ of $x$ in $\overline{x}$ such that,
-for every $x' \in V$, the set of geometric lengths of $\mathcal{F}_{f(x')}$ at the generic points of the irreducible
-components of its support containing $x'$ is the same. Moreover, if $S'$ is the reduced sub-prescheme of $S$ having
-$\overline{f(x)}$ as underlying space, and if $X' = f^{-1}(S')$, the fibres of $X$ and of $X'$ at points of $S'$ are the
-same,
+the notations of the start of the proof of `(9.9.1)`, and moreover suppose $A_{0}$ chosen so that there exists a
+coherent $\mathcal{O}_{X_{0}}$-Module $\mathcal{F}_{0}$ such that $\mathcal{F}$ is isomorphic to $\mathcal{F}_{0}
+\otimes_{A_{0}} A$. Then (`(4.2.7)` and `(4.7.9)`) the set of geometric lengths of $(\mathcal{F}_{0})_{f(x_{0})}$ at the
+generic points of the irreducible components of $Supp((\mathcal{F}_{0})_{f(x_{0})})$ which contain $x_{0}$ is the same
+as the analogous set for $x$ and $\mathcal{F}_{f(x)}$; otherwise put, if $E$ (resp. $E_{0}$) is the set of $x \in X$
+(resp. of $x_{0} \in X_{0}$) verifying condition (ii) of the statement, one has $E = h^{-1}(E_{0})$, and by virtue of
+`(1.8.2)`, one sees that one may restrict to considering the case where $A$ is Noetherian. As in the proof of `(9.9.1)`,
+one sees that one is reduced to showing that, for every $x \in X$, there exists a neighbourhood $V$ of $x$ in
+$\overline{x}$ such that, for every $x' \in V$, the set of geometric lengths of $\mathcal{F}_{f(x')}$ at the generic
+points of the irreducible components of its support containing $x'$ is the same. Moreover, if $S'$ is the reduced
+sub-prescheme of $S$ having $\overline{f(x)}$ as underlying space, and if $X' = f^{-1}(S')$, the fibres of $X$ and of
+$X'$ at points of $S'$ are the same,
 
 <!-- original page 91 -->
 
@@ -2066,17 +2058,18 @@ geometrically reduced at this point and moreover that $y$ belongs to only one of
 conclusion therefore follows on the one hand from (iv) and on the other from `(9.5.1)` applied to the intersection of
 $\overline{x}$ and each $Z_{i}$.
 
-**(vi)** Keeping the same notations as in (ii), it follows from `(6.2.1)` that one has
-`dim. proj((ℱ_s)_x) = dim. proj(((ℱ_0)_{s_0})_{x_0})`; one may therefore again restrict to the case where $A$ is
-Noetherian. Moreover, one reduces again to showing that, for every $x \in X$, there exists a neighbourhood $V$ of $x$ in
-$\overline{x}$ such that, for every $x' \in V$, one has `dim. proj((ℱ_{f(x')})_{x'}) = dim. proj((ℱ_{f(x)})_x)`; and as
-above, we may suppose that $S$ is integral and that $\eta = f(x)$ is its generic point, so that one has
-$(\mathcal{F}_{\eta})_{x} = \mathcal{F}_{x}$. By virtue of the generic flatness theorem `(6.9.1)`, we may, by replacing
-$S$ if necessary by an open neighbourhood of $\eta$, suppose that the morphism $f$ is flat and that $\mathcal{F}$ is
-$f$-flat; one then has `dim. proj((ℱ_{f(x')})_{x'}) = dim. proj(ℱ_{x'})` for every $x' \in X$ by virtue of `(6.2.3)`.
-This being so, by virtue of `(6.11.1)`, we may (by replacing $X$ if necessary by an open neighbourhood of $x$) suppose
-that `dim. proj(ℱ_{x'}) ≤ dim. proj(ℱ_x)` for every $x' \in X$. On the other hand, if $\dim. proj(\mathcal{F}_{x}) = n$,
-there is by hypothesis a finitely generated $\mathcal{O}_{x}$-module $M$ such that
+**(vi)** Keeping the same notations as in (ii), it follows from `(6.2.1)` that one has $\dim.
+proj((\mathcal{F}_{s})_{x}) = \dim. proj(((\mathcal{F}_{0})_{s_{0}})_{x_{0}})$; one may therefore again restrict to the
+case where $A$ is Noetherian. Moreover, one reduces again to showing that, for every $x \in X$, there exists a
+neighbourhood $V$ of $x$ in $\overline{x}$ such that, for every $x' \in V$, one has $\dim.
+proj((\mathcal{F}_{f(x')})_{x'}) = \dim. proj((\mathcal{F}_{f(x)})_{x})$; and as above, we may suppose that $S$ is
+integral and that $\eta = f(x)$ is its generic point, so that one has $(\mathcal{F}_{\eta})_{x} = \mathcal{F}_{x}$. By
+virtue of the generic flatness theorem `(6.9.1)`, we may, by replacing $S$ if necessary by an open neighbourhood of
+$\eta$, suppose that the morphism $f$ is flat and that $\mathcal{F}$ is $f$-flat; one then has $\dim.
+proj((\mathcal{F}_{f(x')})_{x'}) = \dim. proj(\mathcal{F}_{x'})$ for every $x' \in X$ by virtue of `(6.2.3)`. This being
+so, by virtue of `(6.11.1)`, we may (by replacing $X$ if necessary by an open neighbourhood of $x$) suppose that $\dim.
+proj(\mathcal{F}_{x'}) \le \dim. proj(\mathcal{F}_{x})$ for every $x' \in X$. On the other hand, if $\dim.
+proj(\mathcal{F}_{x}) = n$, there is by hypothesis a finitely generated $\mathcal{O}_{x}$-module $M$ such that
 $Ext^{n}_{\mathcal{O}_{x}}(\mathcal{F}_{x}, M) \neq 0$ `(0, 17.2.4)`. Now, there exists a coherent
 $\mathcal{O}_{X}$-Module $\mathcal{G}$ such that $M = \mathcal{G}_{x}$ (by replacing $X$ if necessary by an open
 neighbourhood of $x$ $(0_{I}, 5.3.8)$); by virtue of `(T, 4.2.2)`, one therefore has
@@ -2094,9 +2087,8 @@ suppose that $B = A[T_{1}, \cdots, T_{r}]$, so that each of the schemes $X_{s} =
 T_{r}])$ is regular `(0, 17.3.7)`. Let then $W = Supp(\mathcal{F})$, so that $W_{s} = Supp(\mathcal{F}_{s})$
 `(I, 9.1.13)`; one has, by `(6.11.2.1)`:
 
-```text
-(9.9.2.1)     coprof((ℱ_{f(x)})_x) = dim. proj((ℱ_{f(x)})_x) − codim_x(W_{f(x)}, X_{f(x)}).
-```
+$$ coprof((\mathcal{F}_{f(x)})_{x}) = \dim. proj((\mathcal{F}_{f(x)})_{x}) - codim_{x}(W_{f(x)}, X_{f(x)}).
+\tag{9.9.2.1} $$
 
 But since $W$ is constructible `(8.9.1)` and each $W_{s}$ is closed, it follows from (vi) and from `(9.9.1, (ii))` that
 the two functions in the right-hand side of `(9.9.2.1)` are constructible; the same is therefore true of their
@@ -2109,14 +2101,12 @@ U_{n}$; it follows from (vii) that the $Z_{n}$ are constructible; moreover, sinc
 
 $x \mapsto \dim_{x}(W_{f(x)})$ is constructible by virtue of `(9.9.1, (i))`, it takes only finitely many values, hence
 the numbers $\dim(W_{f(x)})$ have a finite upper bound $m$ as $x$ ranges over $X$; since
-`coprof((ℱ_{f(x)})_x) ≤ dim((ℱ_{f(x)})_x) ≤ dim(W_{f(x)})`, one sees that $Z_{n} = \emptyset$ for $n \geq m$. Finally,
-it follows from `(6.11.2, (i))` that for every $n$ and every $s \in S$, $(Z_{n})_{s}$ is closed in $X_{s}$. According to
-`(5.7.4)`, the set of $x \in X$ where $(\mathcal{F}_{f(x)})_{x}$ possesses property $(S_{k})$ is the set of $x \in X$
-verifying all the relations
+$coprof((\mathcal{F}_{f(x)})_{x}) \le \dim((\mathcal{F}_{f(x)})_{x}) \le \dim(W_{f(x)})$, one sees that $Z_{n} =
+\emptyset$ for $n \geq m$. Finally, it follows from `(6.11.2, (i))` that for every $n$ and every $s \in S$,
+$(Z_{n})_{s}$ is closed in $X_{s}$. According to `(5.7.4)`, the set of $x \in X$ where $(\mathcal{F}_{f(x)})_{x}$
+possesses property $(S_{k})$ is the set of $x \in X$ verifying all the relations
 
-```text
-(9.9.2.2)               codim_x((Z_n)_{f(x)}, W_{f(x)}) ≥ n + k
-```
+$$ codim_{x}((Z_{n})_{f(x)}, W_{f(x)}) \ge n + k \tag{9.9.2.2} $$
 
 for every $n \geq 0$; since this relation is automatically verified for $n \geq m$, one only has to consider relations
 `(9.9.2.2)` for $0 \leq n < m$. But by virtue of `(9.9.1, (ii))`, the set $V_{n,k}$ of $x$ verifying `(9.9.2.2)` is
@@ -2197,17 +2187,17 @@ be the complex $\mathcal{L}_{\bullet} \otimes k(s)$ of $\mathcal{O}_{X_{s}}$-Mod
 integer $n$, the set of $x \in X$ such that $(\mathcal{H}_{n}((\mathcal{L}_{\bullet})_{f(x)}))_{x} = 0$ is locally
 constructible in $X$.*
 
-We may restrict to the case where $\mathcal{L}_{i} = 0$ except for $i = 0$, `1`, or `2`, and where $n = 1$. Moreover,
+We may restrict to the case where $\mathcal{L}_{i} = 0$ except for $i = 0$, $1$, or $2$, and where $n = 1$. Moreover,
 the question being local on $X$, we may restrict to the case where $S = \operatorname{Spec}(A)$ and $X =
 \operatorname{Spec}(B)$ are affine, $B$ being an $A$-algebra of finite presentation. There then exists a Noetherian
-subring `A_0` of $A$, an `A_0`-prescheme of finite type `X_0`, and a complex $\mathcal{L}^{(0)}_{\bullet}$ of coherent
-$\mathcal{O}_{X_{0}}$-Modules, zero except in dimensions `0`, `1`, and `2`, such that $X = X_{0} \otimes_{A_{0}} A$ and
-$\mathcal{L}_{\bullet} = \mathcal{L}^{(0)}_{\bullet} \otimes_{A_{0}} A$. For every $s \in S$, if $s_{0}$ is the
-projection of $s$ in $S_{0} = \operatorname{Spec}(A_{0})$, one has $X_{s} = (X_{0})_{s_{0}} \otimes_{k(s_{0})} k(s)$,
-and the projection morphism $X_{s} \to (X_{0})_{s_{0}}$ is faithfully flat; one concludes that one has
-$\mathcal{H}_{n}((\mathcal{L}_{\bullet})_{s}) = \mathcal{H}_{n}((\mathcal{L}^{(0)}_{\bullet})_{s_{0}})
-\otimes_{k(s_{0})} k(s)$, and consequently, if $E$ (resp. `E_0`) is the set of $x \in X$ (resp. $x_{0} \in X_{0}$) such
-that $(\mathcal{H}_{n}((\mathcal{L}_{\bullet})_{f(x)}))_{x} = 0$ (resp.
+subring $A_{0}$ of $A$, an $A_{0}$-prescheme of finite type $X_{0}$, and a complex $\mathcal{L}^{(0)}_{\bullet}$ of
+coherent $\mathcal{O}_{X_{0}}$-Modules, zero except in dimensions $0$, $1$, and $2$, such that $X = X_{0}
+\otimes_{A_{0}} A$ and $\mathcal{L}_{\bullet} = \mathcal{L}^{(0)}_{\bullet} \otimes_{A_{0}} A$. For every $s \in S$, if
+$s_{0}$ is the projection of $s$ in $S_{0} = \operatorname{Spec}(A_{0})$, one has $X_{s} = (X_{0})_{s_{0}}
+\otimes_{k(s_{0})} k(s)$, and the projection morphism $X_{s} \to (X_{0})_{s_{0}}$ is faithfully flat; one concludes that
+one has $\mathcal{H}_{n}((\mathcal{L}_{\bullet})_{s}) = \mathcal{H}_{n}((\mathcal{L}^{(0)}_{\bullet})_{s_{0}})
+\otimes_{k(s_{0})} k(s)$, and consequently, if $E$ (resp. $E_{0}$) is the set of $x \in X$ (resp. $x_{0} \in X_{0}$)
+such that $(\mathcal{H}_{n}((\mathcal{L}_{\bullet})_{f(x)}))_{x} = 0$ (resp.
 $(\mathcal{H}_{n}((\mathcal{L}^{(0)}_{\bullet})_{f(x_{0})}))_{x_{0}} = 0$), one has $E = h^{-1}(E_{0})$, where $h : X
 \to X_{0}$ is the canonical projection. By virtue of `(1.8.2)`, we may therefore restrict to the case where $A$ is
 Noetherian; the question is to see $(0_{III}, 9.2.3)$ that if $x \in X$ is such that
