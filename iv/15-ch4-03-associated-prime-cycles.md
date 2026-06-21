@@ -28,7 +28,7 @@ prime cycles associated to $X$.
 
 It is clear that if $x \in Ass(\mathcal{F})$, then $\mathcal{F}_{x} \neq 0$; in other words
 
-$$ (3.1.1.1) Ass(\mathcal{F}) \subset Supp(\mathcal{F}). $$
+$$ \operatorname{Ass}(\mathcal{F}) \subset \operatorname{Supp}(\mathcal{F}). \tag{3.1.1.1} $$
 
 If $x \in X$ is associated to $\mathcal{F}$, it is evidently associated to $\mathcal{F}|U$ for every open neighbourhood
 $U$ of $x$, and conversely, if it is associated to $\mathcal{F}|U$ for one of these neighbourhoods, it is associated to
@@ -46,8 +46,8 @@ every neighbourhood of $y$ contains $z$.
 $x \in X$ to be associated to $\mathcal{F}$, it is necessary and sufficient that the prime ideal $\mathfrak{j}_{x}$ of
 $A$ be associated to the module $M$ (in other words, be the annihilator of an element $f \in M$).*
 
-This results from the definition `(3.1.1)` and from Bourbaki, *loc. cit.*, §1, n° 2, cor. of prop. 5, applied to
-$S = A - \mathfrak{j}_{x}$.
+This results from the definition `(3.1.1)` and from Bourbaki, *loc. cit.*, §1, n$^{\circ}$ 2, cor. of prop. 5, applied
+to $S = A - \mathfrak{j}_{x}$.
 
 **Proposition (3.1.3).**
 
@@ -79,10 +79,10 @@ implies c') since $\mathcal{O}_{X}$ is coherent $(0_{I}, 5.3.4)$. To see that c'
 case where $U = X = \operatorname{Spec}(A)$ is affine, $A$ therefore Noetherian, and where $\mathcal{F} = \tilde{M}$,
 $M$ being an $A$-module, and $\mathcal{G} = \tilde{N}$, where $N$ is a sub-module of $M$, of finite type. We then know
 that the minimal elements of $Supp(\mathcal{G})$ are the maximal points of $V(Ann(N))$ $(0_{I}, 1.7.4)$, and these are
-also the minimal elements of $Ass(N)$ (Bourbaki, *Alg. comm.*, chap. IV, §1, n° 3, cor. 1 of prop. 7); since
-`Ass(N) ⊂ Ass(M) = Ass(ℱ)`, we see that c') implies a). Finally, a) implies c) by virtue of `(3.1.2)`, taking again $X$
-affine, $\mathcal{F} = \tilde{M}$, and $Z$ defined by the ideal $\mathfrak{j}_{x} \cdot A$ (with the notation of
-`(3.1.2)`).
+also the minimal elements of $Ass(N)$ (Bourbaki, *Alg. comm.*, chap. IV, §1, n$^{\circ}$ 3, cor. 1 of prop. 7); since
+$\operatorname{Ass}(N) \subset \operatorname{Ass}(M) = \operatorname{Ass}(\mathcal{F})$, we see that c') implies a).
+Finally, a) implies c) by virtue of `(3.1.2)`, taking again $X$ affine, $\mathcal{F} = \tilde{M}$, and $Z$ defined by
+the ideal $\mathfrak{j}_{x} \cdot A$ (with the notation of `(3.1.2)`).
 
 **Corollary (3.1.4).**
 
@@ -96,7 +96,8 @@ and $\neq 0$.*
 Indeed, if $x$ is the generic point of one of the irreducible components $Z$ of $Supp(\mathcal{F})$, it follows from the
 equivalence of a) and c') in `(3.1.3)` that $x$ belongs to $Ass(\mathcal{F})$, and $Z$ is an associated prime cycle of
 $\mathcal{F}$, necessarily maximal by virtue of `(3.1.1.1)`; the converse follows trivially from `(3.1.1.1)`. Finally,
-the last assertion, being evidently local, follows from Bourbaki, *Alg. comm.*, chap. IV, §2, n° 5, cor. 2 of prop. 7.
+the last assertion, being evidently local, follows from Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 5, cor. 2 of
+prop. 7.
 
 **Corollary (3.1.5).**
 
@@ -106,7 +107,7 @@ the last assertion, being evidently local, follows from Bourbaki, *Alg. comm.*, 
 0$, it is necessary and sufficient that $Ass(\mathcal{F}) = \emptyset$.*
 
 The question being local, we are reduced to the case where $X$ is affine, and the conclusion follows immediately from
-`(3.1.2)` and from Bourbaki, *Alg. comm.*, chap. IV, §1, n° 1, cor. 1 of prop. 2.
+`(3.1.2)` and from Bourbaki, *Alg. comm.*, chap. IV, §1, n$^{\circ}$ 1, cor. 1 of prop. 2.
 
 **Proposition (3.1.6).**
 
@@ -117,7 +118,7 @@ is locally finite (that is to say, every point of $X$ admits a neighbourhood who
 is finite).*
 
 It suffices to consider the case where $X$ is affine, hence Noetherian, and then the proposition follows from `(3.1.2)`
-and from Bourbaki, *Alg. comm.*, chap. IV, §1, n° 4, cor. of th. 2.
+and from Bourbaki, *Alg. comm.*, chap. IV, §1, n$^{\circ}$ 4, cor. of th. 2.
 
 <!-- original page 38 -->
 
@@ -128,7 +129,8 @@ and from Bourbaki, *Alg. comm.*, chap. IV, §1, n° 4, cor. of th. 2.
 *Let $X$ be a prescheme.*
 
 *(i) Let $0 \to \mathcal{F}' \to \mathcal{F} \to \mathcal{F}'' \to 0$ be an exact sequence of quasi-coherent
-$\mathcal{O}_{X}$-Modules. Then `Ass(ℱ') ⊂ Ass(ℱ) ⊂ Ass(ℱ') ∪ Ass(ℱ'')`.*
+$\mathcal{O}_{X}$-Modules. Then $\operatorname{Ass}(\mathcal{F}') \subset \operatorname{Ass}(\mathcal{F}) \subset
+\operatorname{Ass}(\mathcal{F}') \cup \operatorname{Ass}(\mathcal{F}'')$.*
 
 *(ii) Let $\mathcal{F}$ be a quasi-coherent $\mathcal{O}_{X}$-Module, $(\mathcal{F}_{\alpha})$ a family of
 quasi-coherent sub-$\mathcal{O}_{X}$-Modules of $\mathcal{F}$ such that $\mathcal{F}$ is the union of the
@@ -137,8 +139,8 @@ $\mathcal{F}_{\alpha}$. Then $Ass(\mathcal{F}) = \bigcup_{\alpha} Ass(\mathcal{F
 *(iii) For every family $(\mathcal{F}_{\alpha})$ of quasi-coherent $\mathcal{O}_{X}$-Modules, one has
 $Ass(\bigoplus_{\alpha} \mathcal{F}_{\alpha}) = \bigcup_{\alpha} Ass(\mathcal{F}_{\alpha})$.*
 
-One is immediately reduced to the corresponding propositions for modules (Bourbaki, *loc. cit.*, §1, n° 1, formula (1),
-prop. 3 and cor. 1 of prop. 3).
+One is immediately reduced to the corresponding propositions for modules (Bourbaki, *loc. cit.*, §1, n$^{\circ}$ 1,
+formula (1), prop. 3 and cor. 1 of prop. 3).
 
 **Proposition (3.1.8).**
 
@@ -212,11 +214,11 @@ Indeed, if $\mathfrak{q} \in Ass(M)$, $\mathfrak{q}$ is the annihilator in $B$ o
 $\rho^{-1}(\mathfrak{q})$ is the annihilator in $A$ of $x$. Conversely, let $\mathfrak{p} \in Ass(M_{[\rho]})$, so that
 $\mathfrak{p}$ is the inverse image by $\rho$ of the annihilator $\mathfrak{b}$ in $B$ of an element $x \in M$; it
 follows from the first theorem of Cohen-Seidenberg that there exists a prime ideal $\mathfrak{q}$ of $B$ containing
-$\mathfrak{b}$ and whose inverse image is $\mathfrak{p}$ (Bourbaki, *Alg. comm.*, chap. V, §2, n° 1, cor. 2 of th. 1);
-on considering one of the prime ideals minimal among those contained in $\mathfrak{q}$ and containing $\mathfrak{b}$, we
-may evidently suppose that $\mathfrak{q}$ itself is one of these minimal ideals. But as $B \cdot x \subset M$ is
-isomorphic to $B/\mathfrak{b}$, we know that one then has $\mathfrak{q} \in Ass(B/\mathfrak{b}) \subset Ass(M)$
-(Bourbaki, *Alg. comm.*, chap. IV, §1, n° 4, th. 2).
+$\mathfrak{b}$ and whose inverse image is $\mathfrak{p}$ (Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 1, cor. 2 of
+th. 1); on considering one of the prime ideals minimal among those contained in $\mathfrak{q}$ and containing
+$\mathfrak{b}$, we may evidently suppose that $\mathfrak{q}$ itself is one of these minimal ideals. But as $B \cdot x
+\subset M$ is isomorphic to $B/\mathfrak{b}$, we know that one then has $\mathfrak{q} \in Ass(B/\mathfrak{b}) \subset
+Ass(M)$ (Bourbaki, *Alg. comm.*, chap. IV, §1, n$^{\circ}$ 4, th. 2).
 
 **Corollary (3.1.11).**
 
@@ -226,8 +228,8 @@ isomorphic to $B/\mathfrak{b}$, we know that one then has $\mathfrak{q} \in Ass(
 the same be true of $f_{*}(\mathcal{F})$.*
 
 Suppose indeed that $f_{*}(\mathcal{F})$ has no embedded associated prime cycle. Note that if $A$ is an integral algebra
-over a field $k$, all the prime ideals of $A$ are maximal (Bourbaki, *Alg. comm.*, chap. V, §2, n° 1, prop. 1); it
-follows from `(I, 6.2.2)` that the fibres of $f$ are *discrete* spaces. If $x$, $x'$ are two distinct points of
+over a field $k$, all the prime ideals of $A$ are maximal (Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 1, prop. 1);
+it follows from `(I, 6.2.2)` that the fibres of $f$ are *discrete* spaces. If $x$, $x'$ are two distinct points of
 $Ass(\mathcal{F})$, neither of them can be adherent to the other if $f(x) = f(x')$; and if $f(x) \neq f(x')$, `(3.1.10)`
 and the hypothesis entail that neither of the two points $f(x)$, $f(x')$ can be adherent to the other, hence the same is
 true of $x$ and $x'$.
@@ -281,26 +283,26 @@ $long(\mathcal{O}_{x}) = 1$.*
 It is clear that if $X$ is reduced, the same is true of the sub-prescheme induced on $U$. Moreover, the existence of
 embedded prime cycles being local, we may restrict to the case where $X = \operatorname{Spec}(A)$ is affine, $A$
 Noetherian. If $A$ is reduced, we know that the minimal prime ideals of $A$ form a reduced primary decomposition of
-`(0)` (Bourbaki, *Alg. comm.*, chap. IV, §2, n° 5, prop. 10) and are the elements of $Ass(A)$, hence there exist no
-embedded prime ideals associated to $A$, which shows that a) implies b). It is immediate that b) entails c), since a
-generic point $x$ of an irreducible component of $X$ belongs to $U$, hence $\mathcal{O}_{x}$ is a field. Finally, c)
-entails a): it suffices indeed to note that if $\mathcal{N}$ is the Nilradical of $\mathcal{O}_{X}$, which is a coherent
-Ideal, $Supp(\mathcal{N})$ cannot contain any of the generic points of the irreducible components of $X$ by hypothesis;
-if $Supp(\mathcal{N})$ were not empty and if $x$ were one of the maximal points of this closed set, the criterion
-`(3.1.3, c'))` would show that $x \in Ass(\mathcal{O}_{X})$, and $\overline{x}$ would therefore be an *embedded* prime
-cycle of $X$, contrary to the hypothesis; hence $\mathcal{N} = 0$.
+`(0)` (Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 5, prop. 10) and are the elements of $Ass(A)$, hence there
+exist no embedded prime ideals associated to $A$, which shows that a) implies b). It is immediate that b) entails c),
+since a generic point $x$ of an irreducible component of $X$ belongs to $U$, hence $\mathcal{O}_{x}$ is a field.
+Finally, c) entails a): it suffices indeed to note that if $\mathcal{N}$ is the Nilradical of $\mathcal{O}_{X}$, which
+is a coherent Ideal, $Supp(\mathcal{N})$ cannot contain any of the generic points of the irreducible components of $X$
+by hypothesis; if $Supp(\mathcal{N})$ were not empty and if $x$ were one of the maximal points of this closed set, the
+criterion `(3.1.3, c'))` would show that $x \in Ass(\mathcal{O}_{X})$, and $\overline{x}$ would therefore be an
+*embedded* prime cycle of $X$, contrary to the hypothesis; hence $\mathcal{N} = 0$.
 
 **Definition (3.2.2).**
 
 <!-- label: IV.3.2.2 -->
 
 *Let $X$ be a locally Noetherian prescheme, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module. We say that $\mathcal{F}$
-is **reduced** if it satisfies the two following conditions: 1° $\mathcal{F}$ is without embedded associated prime
-cycle; 2° for every maximal point $x$ of $Supp(\mathcal{F})$, one has $long(\mathcal{F}_{x}) = 1$.*
+is **reduced** if it satisfies the two following conditions: $1^{\circ}$ $\mathcal{F}$ is without embedded associated
+prime cycle; $2^{\circ}$ for every maximal point $x$ of $Supp(\mathcal{F})$, one has $long(\mathcal{F}_{x}) = 1$.*
 
-Condition 1° means that the associated prime cycles of $\mathcal{F}$ are the irreducible components of
-$Supp(\mathcal{F})$ `(3.1.4)`, and condition 2° means that for every generic point $x$ of such a component one has
-$long(\mathcal{F}_{x}) = 1$.
+Condition $1^{\circ}$ means that the associated prime cycles of $\mathcal{F}$ are the irreducible components of
+$Supp(\mathcal{F})$ `(3.1.4)`, and condition $2^{\circ}$ means that for every generic point $x$ of such a component one
+has $long(\mathcal{F}_{x}) = 1$.
 
 For an affine scheme $X$, this definition gives in particular the notion of *reduced module* on a Noetherian ring $A$;
 an $A$-module of finite type $M$ is said to be *reduced* if it has no embedded associated prime ideals and if, for every
@@ -407,7 +409,7 @@ If $(\mathcal{F}_{\alpha})$ is an irredundant decomposition of $\mathcal{F}$, to
 saying that the $Ass(\mathcal{F}_{\alpha})$ are pairwise distinct and contained in $Ass(\mathcal{F})$; if
 $Ass(\mathcal{F}_{\alpha}) = {x_{\alpha}}$ for every $\alpha \in I$, $\alpha \mapsto x_{\alpha}$ is a bijection of $I$
 onto $Ass(\mathcal{F})$: these properties are indeed local and therefore result from Bourbaki, *Alg. comm.*, chap. IV,
-§2, n° 3, prop. 4.
+§2, n$^{\circ}$ 3, prop. 4.
 
 **Proposition (3.2.6).**
 
@@ -422,16 +424,13 @@ $\operatorname{Spec}(k(x)) \to X$.*
 
 For every $x \in Ass(\mathcal{F})$, let $U$ be an affine open neighbourhood of $x$, with ring $A$, and let
 $\mathcal{F}|U = \tilde{M}$, where $M$ is an $A$-module of finite type. We know (Bourbaki, *Alg. comm.*, chap. IV, §1,
-n° 1, prop. 4) that there exists a sub-module $N$ of $M$ such that, if one sets $P = M/N$, one has $Ass(P) = {x}$ and
-$Ass(N) = Ass(M) - {x}$. Let $\mathcal{G} = \tilde{P}$, which is a quasi-coherent $\mathcal{O}_{U}$-Module, and let $j$
-be the canonical injection $U \to X$; let $u : j*(\mathcal{F}) \to \mathcal{G}$ be the surjective homomorphism
+n$^{\circ}$ 1, prop. 4) that there exists a sub-module $N$ of $M$ such that, if one sets $P = M/N$, one has $Ass(P) =
+{x}$ and $Ass(N) = Ass(M) - {x}$. Let $\mathcal{G} = \tilde{P}$, which is a quasi-coherent $\mathcal{O}_{U}$-Module, and
+let $j$ be the canonical injection $U \to X$; let $u : j*(\mathcal{F}) \to \mathcal{G}$ be the surjective homomorphism
 corresponding to the homomorphism $M \to P$; from this one deduces a homomorphism $j_{*}(u) : j_{*}(j*(\mathcal{F})) \to
 j_{*}(\mathcal{G})$, whence by composition a homomorphism
 
-```text
-                            ρ_ℱ                j_*(u)
-                  v : ℱ ──────→ j_*(j*(ℱ)) ────────→ j_*(𝒢)
-```
+$$ v : \mathcal{F} \xrightarrow{\rho_{\mathcal{F}}} j_{*}(j*(\mathcal{F})) \xrightarrow{j_{*}(u)} j_{*}(\mathcal{G}) $$
 
 of which $u$ is the restriction to $U$; we shall designate by $\mathcal{F}^{(x)}$ the image of $\mathcal{F}$ by this
 homomorphism, which is a coherent $\mathcal{O}_{X}$-Module `(I, 6.1.1)`. One has $Ass(j_{*}(\mathcal{G})) = {x}$ by
@@ -447,7 +446,7 @@ intersection of the $Ass(\mathcal{N}^{(x)})$, which is empty; consequently `(3.1
 account that $Ass(\mathcal{F})$ is locally finite `(3.1.6)`, it is clear that $(\mathcal{F}^{(x)})_{x \in
 Ass(\mathcal{F})}$ is a reduced irredundant decomposition of $\mathcal{F}$ verifying the conditions of the statement.
 The characterization of $\mathcal{F}^{(x)}$ when $\overline{x}$ is not embedded follows from Bourbaki, *Alg. comm.*,
-chap. IV, §2, n° 3, prop. 5, the question being local, and taking account of `(I, 1.6.7)`.
+chap. IV, §2, n$^{\circ}$ 3, prop. 5, the question being local, and taking account of `(I, 1.6.7)`.
 
 **Corollary (3.2.7).**
 
@@ -481,15 +480,14 @@ to a coherent sub-$\mathcal{O}_{X}$-Module of $\mathcal{G}_{n-i}$.
 quasi-coherent $\mathcal{O}_{Y}$-Module. If, for every $y \in Y$, one sets $\mathcal{F}_{y} = \mathcal{F}
 \otimes_{\mathcal{O}_{Y}} k(y)$, one has*
 
-```text
-(3.3.1.1)                       Ass(ℱ ⊗_{𝒪_Y} 𝒢) ⊃ ⋃_{y ∈ Ass(𝒢)} Ass(ℱ_y)
-```
+$$ \operatorname{Ass}(\mathcal{F} \otimes_{\mathcal{O}_{Y}} \mathcal{G}) \supset \bigcup_{y \in
+\operatorname{Ass}(\mathcal{G})} \operatorname{Ass}(\mathcal{F}_{y}) \tag{3.3.1.1} $$
 
 *and the two sides are equal if $Y$ is locally Noetherian.*
 
 (Of course, $\mathcal{F}_{y}$ is a sheaf on the fibre $f^{-1}(y)$, and one identifies this fibre with a subspace of $X$
 `(I, 3.6.1)`.) The question being local on $X$ and on $Y$, one is reduced to the case where $X$ and $Y$ are affine, and
-the proposition is then proved in Bourbaki, *Alg. comm.*, chap. IV, §2, n° 6, th. 2.
+the proposition is then proved in Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 6, th. 2.
 
 **Corollary (3.3.2).**
 
@@ -549,8 +547,9 @@ prime cycle of $\mathcal{E}$, $long(\mathcal{E}_{y}) = 1$ and $\mathcal{F}_{y}$ 
 Suppose a) verified. We already know `(3.3.3)` that for every $y \in Ass(\mathcal{E}) \cap f(Supp(\mathcal{F}))$,
 $\overline{y}$ is a non-embedded associated prime cycle of $\mathcal{E}$ and $\mathcal{F}_{y}$ is without embedded
 associated prime cycle. Moreover `(2.5.5)`, for every $x \in Ass(\mathcal{E} \otimes_{Y} \mathcal{F}) \cap f^{-1}(y)$,
-one has `1 = long((ℰ ⊗_Y ℱ)_x) = long(ℰ_y) · long((ℱ_y)_x)`, hence $long(\mathcal{E}_{y}) = long((\mathcal{F}_{y})_{x})
-= 1$, which proves b).
+one has $1 = \operatorname{long}((\mathcal{E} \otimes_{Y} \mathcal{F})_{x}) = \operatorname{long}(\mathcal{E}_{y}) \cdot
+\operatorname{long}((\mathcal{F}_{y})_{x})$, hence $long(\mathcal{E}_{y}) = long((\mathcal{F}_{y})_{x}) = 1$, which
+proves b).
 
 Conversely, suppose b) verified; we already know that every point $x \in Ass(\mathcal{E} \otimes_{Y} \mathcal{F})$ is a
 maximal point of $Supp(\mathcal{E} \otimes_{Y} \mathcal{F})$, that $y = f(x)$ is a maximal point of $Supp(\mathcal{E})$
@@ -573,55 +572,52 @@ one may restrict to the case where $Y$ is reduced. It then suffices to apply `(3
 <!-- label: IV.3.3.6 -->
 
 *Let $f : X \to S$, $g : Y \to S$ be two morphisms, $\mathcal{F}$ a quasi-coherent $\mathcal{O}_{X}$-Module,
-$\mathcal{G}$ a quasi-coherent $\mathcal{O}_{Y}$-Module. Suppose that: 1° $\mathcal{G}$ is $g$-flat; 2° $X$ is locally
-Noetherian, and for every $s \in S$, $g^{-1}(s)$ is locally Noetherian (which will be the case if $Y$ is also locally
-Noetherian). Let $Z = X \times_{S} Y$; for every couple $(x, y)$ such that $x \in X$, $y \in Y$ and*
+$\mathcal{G}$ a quasi-coherent $\mathcal{O}_{Y}$-Module. Suppose that: $1^{\circ}$ $\mathcal{G}$ is $g$-flat;
+$2^{\circ}$ $X$ is locally Noetherian, and for every $s \in S$, $g^{-1}(s)$ is locally Noetherian (which will be the
+case if $Y$ is also locally Noetherian). Let $Z = X \times_{S} Y$; for every couple $(x, y)$ such that $x \in X$, $y \in
+Y$ and*
 
 <!-- original page 45 -->
 
 *$f(x) = g(y) = s$, let $T_{x,y}$ be the prescheme $\operatorname{Spec}(k(x) \otimes_{k(s)} k(y))$, and let $I_{x,y}$ be
 the image of $Ass(\mathcal{O}_{T_{x,y}})$ by the canonical monomorphism $T_{x,y} \to Z$ `(I, 3.4.9)`. One then has*
 
-```text
-(3.3.6.1)              Ass(ℱ ⊗_S 𝒢) = ⋃_{x ∈ Ass(ℱ)} ( ⋃_{y ∈ Ass(𝒢_{f(x)})} I_{x,y} )
-```
+$$ \operatorname{Ass}(\mathcal{F} \otimes_{S} \mathcal{G}) = \bigcup_{x \in \operatorname{Ass}(\mathcal{F})} \left(
+\bigcup_{y \in \operatorname{Ass}(\mathcal{G}_{f(x)})} I_{x,y} \right) \tag{3.3.6.1} $$
 
 *where for every $s \in S$, $\mathcal{G}_{s} = \mathcal{G} \otimes_{\mathcal{O}_{S}} k(s)$.*
 
 Let $p : Z \to X$, $q : Z \to Y$ be the canonical projections, so that one has the commutative diagram
 
-```text
-                                X ←─── Z
-                                       p
-                                ↓ f    ↓ q
-                                S ←─── Y
-                                   g
-```
+$$
+\begin{array}{ccc}
+X & \xleftarrow{p} & Z \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle q} \\
+S & \xleftarrow{g} & Y
+\end{array}
+$$
 
 Set $\mathcal{G}' = q*(\mathcal{G})$, so that $\mathcal{F} \otimes_{S} \mathcal{G} = \mathcal{F} \otimes_{X}
 \mathcal{G}'$; as $\mathcal{G}'$ is $p$-flat `(2.1.4)`, it follows from `(3.3.1)` that one has
 
-```text
-(3.3.6.2)                       Ass(ℱ ⊗_X 𝒢') = ⋃_{x ∈ Ass(ℱ)} Ass(𝒢'_x)
-```
+$$ \operatorname{Ass}(\mathcal{F} \otimes_{X} \mathcal{G}') = \bigcup_{x \in \operatorname{Ass}(\mathcal{F})}
+\operatorname{Ass}(\mathcal{G}'_{x}) \tag{3.3.6.2} $$
 
 with $\mathcal{G}'_{x} = \mathcal{G}' \otimes_{\mathcal{O}_{X}} k(x)$. If $s = f(x)$, one has $\mathcal{G}_{s} =
 \mathcal{G} \otimes_{\mathcal{O}_{S}} k(s)$, and $p^{-1}(x) = g^{-1}(s) \otimes_{k(s)} k(x)$; moreover, since the field
 $k(x)$ is a flat $k(s)$-module, the morphism $p^{-1}(x) \to g^{-1}(s)$ is flat `(2.1.4)`; applying `(3.3.1)` to this
 morphism, it comes
 
-```text
-(3.3.6.3)                       Ass(𝒢'_x) = ⋃_{y ∈ Ass(𝒢_s)} Ass(𝒪_{T_{x,y}})
-```
+$$ \operatorname{Ass}(\mathcal{G}'_{x}) = \bigcup_{y \in \operatorname{Ass}(\mathcal{G}_{s})}
+\operatorname{Ass}(\mathcal{O}_{T_{x,y}}) \tag{3.3.6.3} $$
 
 whence the proposition.
 
-We note that if, in the statement, one suppresses hypothesis 2°, one may still conclude, by virtue of `(3.3.1)`, the
-relation
+We note that if, in the statement, one suppresses hypothesis $2^{\circ}$, one may still conclude, by virtue of
+`(3.3.1)`, the relation
 
-```text
-(3.3.6.4)             Ass(ℱ ⊗_S 𝒢) ⊃ ⋃_{x ∈ Ass(ℱ)} ( ⋃_{y ∈ Ass(𝒢_{f(x)})} I_{x,y} ).
-```
+$$ \operatorname{Ass}(\mathcal{F} \otimes_{S} \mathcal{G}) \supset \bigcup_{x \in \operatorname{Ass}(\mathcal{F})}
+\left( \bigcup_{y \in \operatorname{Ass}(\mathcal{G}_{f(x)})} I_{x,y} \right). \tag{3.3.6.4} $$
 
 **Corollary (3.3.7).**
 
@@ -630,9 +626,7 @@ relation
 *Under the hypotheses of `(3.3.6)`, suppose in addition that $S$ is locally Noetherian and that $f(Ass(\mathcal{F}))
 \subset Ass(\mathcal{O}_{S})$. Then one has*
 
-```text
-(3.3.7.1)                             Ass(ℱ ⊗_S 𝒢) = ⋃_{(x,y) ∈ C} I_{x,y}
-```
+$$ \operatorname{Ass}(\mathcal{F} \otimes_{S} \mathcal{G}) = \bigcup_{(x,y) \in C} I_{x,y} \tag{3.3.7.1} $$
 
 *where $C$ is the set of couples $(x, y)$ such that $x \in Ass(\mathcal{F})$, $y \in Ass(\mathcal{G})$ and $f(x) =
 g(y)$.*
@@ -654,9 +648,7 @@ prime cycle, the same is true of $\mathcal{F} \otimes_{S} \mathcal{G}$.*
 
 *Under the conditions of `(3.3.7)`, one has*
 
-```text
-(3.3.9.1)                             q(Ass(ℱ ⊗_S 𝒢)) ⊂ Ass(𝒢)
-```
+$$ q(\operatorname{Ass}(\mathcal{F} \otimes_{S} \mathcal{G})) \subset \operatorname{Ass}(\mathcal{G}) \tag{3.3.9.1} $$
 
 *(where $q : X \times_{S} Y \to Y$ is the canonical projection).*
 
@@ -681,16 +673,17 @@ $Supp(\mathcal{F}/t\mathcal{F}) = S \cap Y$, $z$ its generic point.*
 
 *(ii) If $Z$ is not equal to any of the $S_{i}$, one has*
 
-$$ (3.4.1.1) long((\mathcal{F}/t\mathcal{F})_{z}) \geq \sum_{i} long(\mathcal{F}_{s_{i}}) $$
+$$ \operatorname{long}((\mathcal{F}/t\mathcal{F})_{z}) \geq \sum_{i} \operatorname{long}(\mathcal{F}_{s_{i}})
+\tag{3.4.1.1} $$
 
 *where the sum on the right-hand side is extended to all $i$ such that $Z \subset S_{i}$.*
 
 *(iii) Suppose that $Z$ is equal to none of the $S_{i}$. For the two sides of `(3.4.1.1)` to be equal, it is necessary
 and sufficient that the two following conditions be satisfied:*
 
-*α) $t_{z}$ is $\mathcal{F}_{z}$-regular `(0, 15.1.4)`.*
+*$\alpha$) $t_{z}$ is $\mathcal{F}_{z}$-regular `(0, 15.1.4)`.*
 
-*β) For every $i$ such that $Z \subset S_{i}$, the canonical image of the germ $t_{z}$ in $\mathcal{O}_{S_{i}, z}$
+*$\beta$) For every $i$ such that $Z \subset S_{i}$, the canonical image of the germ $t_{z}$ in $\mathcal{O}_{S_{i}, z}$
 generates the maximal ideal of this ring (which entails that $\mathcal{O}_{S_{i}, z}$ is a discrete valuation ring and
 the image of $t_{z}$ a uniformizer of this ring).*
 
@@ -720,16 +713,16 @@ following statement:
 $\mathfrak{m}$ its maximal ideal, $t$ an element of $\mathfrak{m}$ such that $A/tA$ is Artinian. Then, for every
 $A$-module of finite type $M$, one has*
 
-$$ (3.4.1.3) long(M/tM) \geq \sum_{i} long(M_{\mathfrak{p}_{i}}); $$
+$$ \operatorname{long}(M/tM) \geq \sum_{i} \operatorname{long}(M_{\mathfrak{p}_{i}}); \tag{3.4.1.3} $$
 
 *moreover, for the two sides of `(3.4.1.3)` to be equal, it is necessary and sufficient that the following conditions be
 satisfied:*
 
 <!-- original page 47 -->
 
-*α) $t$ is $M$-regular;*
+*$\alpha$) $t$ is $M$-regular;*
 
-*β) for every $i$ such that $M_{\mathfrak{p}_{i}} \neq 0$, the image of $t$ in $A/\mathfrak{p}_{i}$ generates the
+*$\beta$) for every $i$ such that $M_{\mathfrak{p}_{i}} \neq 0$, the image of $t$ in $A/\mathfrak{p}_{i}$ generates the
 maximal ideal of this ring (which entails that $A/\mathfrak{p}_{i}$ is a discrete valuation ring).*
 
 As $A$ is not of dimension `0` and $A/tA$ is Artinian, one has necessarily $\dim(A) = 1$ `(0, 16.3.4)` and $t \notin
@@ -760,9 +753,7 @@ the relation $x = ty$ entails $x' = ty'$ since $M' \to M$ is injective.
 
 This lemma established, one derives from it the relation
 
-```text
-(3.4.1.5)                       long(M/tM) = long(N/tN) + long(P/tP).
-```
+$$ \operatorname{long}(M/tM) = \operatorname{long}(N/tN) + \operatorname{long}(P/tP). \tag{3.4.1.5} $$
 
 On the other hand, for every $i$, one has $N_{\mathfrak{p}_{i}} = 0$ since $t \notin \mathfrak{p}_{i}$, hence
 $M_{\mathfrak{p}_{i}} = P_{\mathfrak{p}_{i}}$; to prove `(3.4.1.3)`, it suffices to do so by replacing $M$ by $P$; on
@@ -775,10 +766,10 @@ annihilate an element $\neq 0$ of $M$. As $A$ is of dimension `1`, one therefore
 
 Let us then proceed by induction on $n = \sum_{i} long(M_{\mathfrak{p}_{i}})$. If $n = 0$, one has necessarily
 $M_{\mathfrak{p}_{i}} = 0$ for every $i$, hence $M = 0$ since none of the $\mathfrak{p}_{i}$ belongs to $Ass(M)$; the
-two sides of `(3.4.1.3)` are then zero, and assertion β) of `(3.4.1.2)` is trivial. If $n > 0$, the reasoning at the
-beginning of the proof of `(3.4.1)` allows us to suppose moreover that the $A$-module $M$ is faithful: this entails
-$M_{\mathfrak{p}_{i}} \neq 0$ for every $i$ (Bourbaki, *Alg. comm.*, chap. II, §2, n° 2, cor. 2 of prop. 4), and
-consequently $Ass(M) = \bigcup_{i} {\mathfrak{p}_{i}}$.
+two sides of `(3.4.1.3)` are then zero, and assertion $\beta$) of `(3.4.1.2)` is trivial. If $n > 0$, the reasoning at
+the beginning of the proof of `(3.4.1)` allows us to suppose moreover that the $A$-module $M$ is faithful: this entails
+$M_{\mathfrak{p}_{i}} \neq 0$ for every $i$ (Bourbaki, *Alg. comm.*, chap. II, §2, n$^{\circ}$ 2, cor. 2 of prop. 4),
+and consequently $Ass(M) = \bigcup_{i} {\mathfrak{p}_{i}}$.
 
 Suppose first $n = 1$; there is then only a single minimal prime ideal $\mathfrak{p}$ of $A$,
 
@@ -787,28 +778,29 @@ Suppose first $n = 1$; there is then only a single minimal prime ideal $\mathfra
 and to say that $M_{\mathfrak{p}}$ is of length `1` means that $M_{\mathfrak{p}}$ is isomorphic to the residue field $k
 = A_{\mathfrak{p}}/\mathfrak{p} A_{\mathfrak{p}}$ as an $A_{\mathfrak{p}}$-module. Consequently $M_{\mathfrak{p}}$ is
 annihilated by $\mathfrak{p} A_{\mathfrak{p}}$, hence $\mathfrak{p}$ is the annihilator of $M$ (Bourbaki, *Alg. comm.*,
-chap. II, §2, n° 4, formula (9)), which entails $\mathfrak{p} = 0$ since $M$ is supposed faithful; the ring $A$ is
-therefore integral. This being so, the hypothesis $M \neq 0$ entails $M/tM \neq 0$ by Nakayama's lemma, and consequently
-$long(M/tM) \geq 1$, which proves `(3.4.1.3)` in this case. Moreover, if $long(M/tM) = 1$, $M$ is necessarily monogenic
-(Bourbaki, *Alg. comm.*, chap. II, §3, n° 2, cor. 2 of prop. 4), hence isomorphic to a quotient $A/\mathfrak{b}$; since
-it is faithful, one necessarily has $\mathfrak{b} = 0$ and $M$ is isomorphic to $A$; as $long(A/tA) = 1$, `tA` is
-necessarily equal to the maximal ideal $\mathfrak{m}$, and as $A$ is a Noetherian integral local ring, this proves that
-$A$ is a discrete valuation ring (Bourbaki, *Alg. comm.*, chap. VI, §3, n° 6, prop. 9), of which $t$ is the uniformizer.
-Conversely, if $A$ is a discrete valuation ring, $t$ its uniformizer, $long(M_{\mathfrak{p}}) = 1$ and if $t$ is
-$M$-regular, then $M$ is torsion-free, hence isomorphic to a sub-module of $A$ ($M$ being of finite type), and
-consequently isomorphic to $A$ itself, whence $long(M/tM) = long(A/tA) = 1$.
+chap. II, §2, n$^{\circ}$ 4, formula (9)), which entails $\mathfrak{p} = 0$ since $M$ is supposed faithful; the ring $A$
+is therefore integral. This being so, the hypothesis $M \neq 0$ entails $M/tM \neq 0$ by Nakayama's lemma, and
+consequently $long(M/tM) \geq 1$, which proves `(3.4.1.3)` in this case. Moreover, if $long(M/tM) = 1$, $M$ is
+necessarily monogenic (Bourbaki, *Alg. comm.*, chap. II, §3, n$^{\circ}$ 2, cor. 2 of prop. 4), hence isomorphic to a
+quotient $A/\mathfrak{b}$; since it is faithful, one necessarily has $\mathfrak{b} = 0$ and $M$ is isomorphic to $A$; as
+$long(A/tA) = 1$, `tA` is necessarily equal to the maximal ideal $\mathfrak{m}$, and as $A$ is a Noetherian integral
+local ring, this proves that $A$ is a discrete valuation ring (Bourbaki, *Alg. comm.*, chap. VI, §3, n$^{\circ}$ 6,
+prop. 9), of which $t$ is the uniformizer. Conversely, if $A$ is a discrete valuation ring, $t$ its uniformizer,
+$long(M_{\mathfrak{p}}) = 1$ and if $t$ is $M$-regular, then $M$ is torsion-free, hence isomorphic to a sub-module of
+$A$ ($M$ being of finite type), and consequently isomorphic to $A$ itself, whence $long(M/tM) = long(A/tA) = 1$.
 
 Suppose now $n \geq 2$; there then exists an exact sequence
 
 $$ 0 \to M' \to M \to M'' \to 0 $$
 
-with $M' \neq 0$, $M'' \neq 0$ and `Ass(M) = Ass(M') ∪ Ass(M'')`; indeed, if $Ass(M)$ is not reduced to a single
-element, this follows from Bourbaki, *Alg. comm.*, chap. IV, §1, n° 1, prop. 4; if on the contrary $Ass(M)$ is reduced
-to a single prime ideal, this latter is necessarily the unique minimal prime ideal $\mathfrak{p}$ of $A$; the hypothesis
-then entails $long(M_{\mathfrak{p}}) \geq 2$ and it suffices to take for $M'$ the inverse image of a submodule of
-$M_{\mathfrak{p}}$ distinct from `0` and from $M_{\mathfrak{p}}$. As $t$ is $M$-regular, $t$ does not belong to any of
-the prime ideals of $Ass(M)$ (Bourbaki, *Alg. comm.*, chap. IV, §1, n° 1, cor. 2 of prop. 2), hence, for the same
-reason, $t$ is $M'$-regular and `M''`-regular. This last property entails by `(3.4.1.4)` that the sequence
+with $M' \neq 0$, $M'' \neq 0$ and $\operatorname{Ass}(M) = \operatorname{Ass}(M') \cup \operatorname{Ass}(M'')$;
+indeed, if $Ass(M)$ is not reduced to a single element, this follows from Bourbaki, *Alg. comm.*, chap. IV, §1,
+n$^{\circ}$ 1, prop. 4; if on the contrary $Ass(M)$ is reduced to a single prime ideal, this latter is necessarily the
+unique minimal prime ideal $\mathfrak{p}$ of $A$; the hypothesis then entails $long(M_{\mathfrak{p}}) \geq 2$ and it
+suffices to take for $M'$ the inverse image of a submodule of $M_{\mathfrak{p}}$ distinct from `0` and from
+$M_{\mathfrak{p}}$. As $t$ is $M$-regular, $t$ does not belong to any of the prime ideals of $Ass(M)$ (Bourbaki, *Alg.
+comm.*, chap. IV, §1, n$^{\circ}$ 1, cor. 2 of prop. 2), hence, for the same reason, $t$ is $M'$-regular and
+`M''`-regular. This last property entails by `(3.4.1.4)` that the sequence
 
 $$ 0 \to M'/tM' \to M/tM \to M''/tM'' \to 0 $$
 
@@ -818,15 +810,17 @@ $$ 0 \to M'_{\mathfrak{p}_{i}} \to M_{\mathfrak{p}_{i}} \to M''_{\mathfrak{p}_{i
 
 for every $i$, one has
 
-```text
-                  long(M/tM)     = long(M'/tM') + long(M''/tM'')
-                  long(M_{𝔭_i})  = long(M'_{𝔭_i}) + long(M''_{𝔭_i})
-```
+$$
+\begin{aligned}
+\operatorname{long}(M/tM) &= \operatorname{long}(M'/tM') + \operatorname{long}(M''/tM'') \\
+\operatorname{long}(M_{\mathfrak{p}_{i}}) &= \operatorname{long}(M'_{\mathfrak{p}_{i}}) + \operatorname{long}(M''_{\mathfrak{p}_{i}})
+\end{aligned}
+$$
 
 and the induction hypothesis therefore entails the inequality `(3.4.1.3)`. Moreover the two sides cannot be equal unless
 the analogous inequalities for $M'$ and `M''` are also equalities. By virtue of the induction hypothesis, this is
-equivalent to property β) for the $\mathfrak{p}_{i}$ such that $M'_{\mathfrak{p}_{i}} \neq 0$ or $M''_{\mathfrak{p}_{i}}
-\neq 0$; but these ideals are precisely those for which $M_{\mathfrak{p}_{i}} \neq 0$. Q.E.D.
+equivalent to property $\beta$) for the $\mathfrak{p}_{i}$ such that $M'_{\mathfrak{p}_{i}} \neq 0$ or
+$M''_{\mathfrak{p}_{i}} \neq 0$; but these ideals are precisely those for which $M_{\mathfrak{p}_{i}} \neq 0$. Q.E.D.
 
 <!-- original page 49 -->
 
@@ -928,8 +922,9 @@ $A$-module `(3.2.2)`. Then $t$ is $M$-regular.*
 
 Every prime ideal $\mathfrak{p} \in Supp(M)$ contains one of the $\mathfrak{p}_{i}$; as $t$ belongs to none of the
 $\mathfrak{p}_{i}$, the homothety of ratio $t$ in $M_{\mathfrak{p}}$ is not nilpotent (Bourbaki, *Alg. comm.*, chap. IV,
-§1, n° 4, cor. of prop. 9). Let us designate by $N$ the submodule of $M$ formed of elements annihilated by a power of
-$t$, and set $P = M/N$; we shall show that $N = 0$. Since $t$ is $P$-regular, one has an exact sequence `(3.4.1.4)`
+§1, n$^{\circ}$ 4, cor. of prop. 9). Let us designate by $N$ the submodule of $M$ formed of elements annihilated by a
+power of $t$, and set $P = M/N$; we shall show that $N = 0$. Since $t$ is $P$-regular, one has an exact sequence
+`(3.4.1.4)`
 
 $$ 0 \to N/tN \to M/tM \to P/tP \to 0. $$
 
@@ -1006,9 +1001,8 @@ Everything reduces to showing that the $\mathfrak{p}_{i}$ are also the prime ide
 then the saturates of $f^{n} M$ for the $\mathfrak{p}_{i}$ are the submodules of the reduced primary decomposition
 (necessarily unique) of $f^{n} M$ in $M$. Now, one has
 
-```text
-        Ass(f^{n-1} M/f^n M) ⊂ Ass(M/f^n M) ⊂ Ass(M/f^{n-1} M) ∪ Ass(f^{n-1} M/f^n M)
-```
+$$ \operatorname{Ass}(f^{n-1} M/f^{n} M) \subset \operatorname{Ass}(M/f^{n} M) \subset \operatorname{Ass}(M/f^{n-1} M)
+\cup \operatorname{Ass}(f^{n-1} M/f^{n} M) $$
 
 by `(3.1.7)`, and since $f$ is $M$-regular, $f^{n-1} M/f^{n} M$ is isomorphic to $M/fM$; it then suffices to reason by
 induction on $n$.
