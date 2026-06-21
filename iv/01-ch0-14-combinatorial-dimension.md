@@ -26,9 +26,7 @@ $$ \dim(\emptyset) = -\infty $$
 (the supremum in $\bar{R}$ of the empty subset being $-\infty$). If $(X_{\alpha})$ is the family of irreducible
 components of $X$, one has
 
-```text
-  dim(X) = sup_α dim(X_α)                                                                  (14.1.2.1)
-```
+$$ \dim(X) = \sup_{\alpha} \dim(X_{\alpha}) \tag{14.1.2.1} $$
 
 since every chain of irreducible closed subsets of $X$ is by definition contained in an irreducible component of $X$,
 and conversely these components are closed in $X$, so every irreducible closed subset of an $X_{\alpha}$ is an
@@ -47,7 +45,7 @@ irreducible closed subset of $X$.
 
 *(i) For every subset $Y$ of a topological space $X$, one has $\dim(Y) \leq \dim(X)$.*
 
-*(ii) If a topological space $X$ is a finite union of closed subsets $X_{i}$, one has `dim(X) = sup_i dim(X_i)`.*
+*(ii) If a topological space $X$ is a finite union of closed subsets $X_{i}$, one has $\dim(X) = \sup_{i} \dim(X_{i})$.*
 
 For every irreducible closed subset $Z$ of $Y$, the closure $\bar{Z}$ of $Z$ in $X$ is irreducible $(0_{I}, 2.1.2)$ and
 $\bar{Z} \cap Y = Z$, whence (i). On the other hand, if $X = \bigcup^{n}_{i=1} X_{i}$, where the $X_{i}$ are closed,
@@ -56,9 +54,7 @@ of irreducible closed subsets of $X$ is contained in one of the $X_{i}$; whence 
 
 From `(14.1.4, (i))` one deduces that for every $x \in X$, one can also write
 
-```text
-  dim_x(X) = lim_U dim(U)                                                                  (14.1.4.1)
-```
+$$ \dim_{x}(X) = \lim_{U} \dim(U) \tag{14.1.4.1} $$
 
 the limit being taken along the decreasing filtered set of open neighbourhoods of $x$ in $X$.
 
@@ -71,13 +67,11 @@ the limit being taken along the decreasing filtered set of open neighbourhoods o
 *Let $X$ be a topological space, $x$ a point of $X$, $U$ a neighbourhood of $x$, $Y_{i}$ $(1 \leq i \leq n)$ closed
 subsets of $U$ such that $x \in Y_{i}$ for every $i$ and such that $U$ is the union of the $Y_{i}$. Then one has*
 
-```text
-  dim_x(X) = sup_i (dim_x(Y_i)).                                                           (14.1.5.1)
-```
+$$ \dim_{x}(X) = \sup_{i} (\dim_{x}(Y_{i})). \tag{14.1.5.1} $$
 
-It follows from `(14.1.4, (ii))` that one has `dim_x(X) = inf_V (sup_i (dim(Y_i ∩ V)))` as $V$ ranges over the set of
-open neighbourhoods of $x$ contained in $U$; likewise one has `dim_x(Y_i) = inf_V (dim(Y_i ∩ V))` for every $i$. The
-corollary is thus obvious if
+It follows from `(14.1.4, (ii))` that one has $\dim_{x}(X) = \inf_{V} (\sup_{i} (\dim(Y_{i} \cap V)))$ as $V$ ranges
+over the set of open neighbourhoods of $x$ contained in $U$; likewise one has $\dim_{x}(Y_{i}) = \inf_{V} (\dim(Y_{i}
+\cap V))$ for every $i$. The corollary is thus obvious if
 
 $$ \sup_{i} (\dim_{x}(Y_{i})) = +\infty; $$
 
@@ -88,7 +82,7 @@ in the contrary case, there is an open neighbourhood $V_{0} \subset U$ of $x$ su
 
 <!-- label: 0_IV.14.1.6 -->
 
-*For every topological space $X$, one has `dim(X) = sup_{x ∈ X} dim_x(X)`.*
+*For every topological space $X$, one has $\dim(X) = \sup_{x \in X} \dim_{x}(X)$.*
 
 It follows from definition `(14.1.2)` and proposition `(14.1.4)` that $\dim_{x}(X) \leq \dim(X)$ for every $x \in X$. On
 the other hand, let $Z_{0} \subset Z_{1} \subset \cdots \subset Z_{n}$ be a chain of irreducible closed subsets of $X$,
@@ -100,22 +94,22 @@ $\dim(U) \geq n$, which completes the proof.
 
 <!-- label: 0_IV.14.1.7 -->
 
-*If $(X_{\alpha})$ is an open cover of $X$, or a locally finite closed cover of $X$, one has
-`dim(X) = sup_α (dim(X_α))`.*
+*If $(X_{\alpha})$ is an open cover of $X$, or a locally finite closed cover of $X$, one has $\dim(X) = \sup_{\alpha}
+(\dim(X_{\alpha}))$.*
 
 If $X_{\alpha}$ is a neighbourhood of $x \in X$, one has $\dim_{x}(X) \leq \dim(X_{\alpha})$, whence the first
 assertion. On the other hand, if the $X_{\alpha}$ are closed and if $U$ is a neighbourhood of $x \in X$ meeting only a
-finite number of the sets $X_{\alpha}$, one has `dim_x(X) ≤ dim(U) = sup_α (dim(U ∩ X_α)) ≤ sup_α (dim(X_α))` by
-`(14.1.4)`, whence the second assertion.
+finite number of the sets $X_{\alpha}$, one has $\dim_{x}(X) \leq \dim(U) = \sup_{\alpha} (\dim(U \cap X_{\alpha})) \leq
+\sup_{\alpha} (\dim(X_{\alpha}))$ by `(14.1.4)`, whence the second assertion.
 
 **Corollary (14.1.8).**
 
 <!-- label: 0_IV.14.1.8 -->
 
 *Let $X$ be a Noetherian Kolmogorov space $(0_{I}, 2.1.3)$, and let $F$ be the set of closed points of $X$. Then
-`dim(X) = sup_{x ∈ F} dim_x(X)`.*
+$\dim(X) = \sup_{x \in F} \dim_{x}(X)$.*
 
-With the notation of the proof of `(14.1.6)`, it suffices to remark that there exists in `Z_0` a closed point $(0_{I},
+With the notation of the proof of `(14.1.6)`, it suffices to remark that there exists in $Z_{0}$ a closed point $(0_{I},
 2.1.3)$.
 
 **Proposition (14.1.9).**
@@ -151,7 +145,7 @@ space, $U$ is finite and discrete.
 *The function $x \mapsto \dim_{x}(X)$ is upper semi-continuous on $X$.*
 
 It is clear that this function is upper semi-continuous at every point where it equals $+\infty$. So suppose
-$\dim_{x}(X) = n < +\infty$; then formula `(14.1.4.1)` shows that there exists an open neighbourhood `U_0` of $x$ such
+$\dim_{x}(X) = n < +\infty$; then formula `(14.1.4.1)` shows that there exists an open neighbourhood $U_{0}$ of $x$ such
 that $\dim(U) = n$ for every open neighbourhood $U \subset U_{0}$ of $x$. Granting that, for every $y \in U_{0}$ and
 every open neighbourhood $V \subset U_{0}$ of $y$, one has $\dim(V) \leq \dim(U_{0}) = n$ `(14.1.4)`; one then deduces
 from `(14.1.4.1)` that $\dim_{y}(X) \leq n$.
@@ -161,10 +155,10 @@ from `(14.1.4.1)` that $\dim_{y}(X) \leq n$.
 <!-- label: 0_IV.14.1.12 -->
 
 *If $X$, $Y$ are two topological spaces, and $f : X \to Y$ a continuous map, one can have $\dim(f(X)) > \dim(X)$; an
-example is obtained by taking for $X$ a discrete space with two elements $a$, $b$, for $Y$ the set `{a, b}` equipped
-with the topology for which the closed sets are $\emptyset$, ${a}$ and `{a, b}`; if $f : X \to Y$ is the identity map,
-one has $\dim(Y) = 1$ and $\dim(X) = 0$. One will note that $Y$ is the spectrum of a discrete valuation ring $A$, of
-which $a$ is the unique closed point and $b$ the generic point; if $K$ and $k$ are the field of fractions and the
+example is obtained by taking for $X$ a discrete space with two elements $a$, $b$, for $Y$ the set $\{a, b\}$ equipped
+with the topology for which the closed sets are $\emptyset$, $\{a\}$ and $\{a, b\}$; if $f : X \to Y$ is the identity
+map, one has $\dim(Y) = 1$ and $\dim(X) = 0$. One will note that $Y$ is the spectrum of a discrete valuation ring $A$,
+of which $a$ is the unique closed point and $b$ the generic point; if $K$ and $k$ are the field of fractions and the
 residue field of $A$, $X$ is the spectrum of the ring $k \times K$ and $f$ the continuous map corresponding to the
 homomorphism $(\phi, \psi) : A \to k \times K$, where $\phi : A \to k$ and $\psi : A \to K$ are the canonical
 homomorphisms (cf. `(IV, 5.4.3)`).*
@@ -176,21 +170,20 @@ homomorphisms (cf. `(IV, 5.4.3)`).*
 <!-- label: 0_IV.14.2.1 -->
 
 *Given an irreducible closed subset $Y$ of a topological space $X$, we call **combinatorial codimension** (or simply
-**codimension**) of $Y$ in $X$, and denote $codim(Y, X)$, the supremum of the lengths of chains of irreducible closed
-subsets of $X$ of which $Y$ is the smallest element. If $Y$ is an arbitrary closed subset of $X$, we call **codimension
-of $Y$ in $X$**, and again denote $codim(Y, X)$, the infimum of the codimensions in $X$ of the irreducible components of
-$Y$. We say that $X$ is **equicodimensional** if all the minimal irreducible closed subsets of $X$ have the same
-codimension in $X$.*
+**codimension**) of $Y$ in $X$, and denote $\operatorname{codim}(Y, X)$, the supremum of the lengths of chains of
+irreducible closed subsets of $X$ of which $Y$ is the smallest element. If $Y$ is an arbitrary closed subset of $X$, we
+call **codimension of $Y$ in $X$**, and again denote $\operatorname{codim}(Y, X)$, the infimum of the codimensions in
+$X$ of the irreducible components of $Y$. We say that $X$ is **equicodimensional** if all the minimal irreducible closed
+subsets of $X$ have the same codimension in $X$.*
 
-It follows from this definition that $codim(\emptyset, X) = +\infty$, the infimum in $\bar{R}$ of the empty subset being
-$+\infty$. If $Y$ is closed in $X$ and if $(X_{\alpha})$ (resp. $(Y_{\beta})$) is the family of irreducible components
-of $X$ (resp. $Y$), every $Y_{\beta}$ is contained in some $X_{\alpha}$, and more generally every chain of irreducible
-closed subsets of $X$ of which $Y_{\beta}$ is the smallest element consists of subsets of some $X_{\alpha}$; one
-therefore has
+It follows from this definition that $\operatorname{codim}(\emptyset, X) = +\infty$, the infimum in $\bar{R}$ of the
+empty subset being $+\infty$. If $Y$ is closed in $X$ and if $(X_{\alpha})$ (resp. $(Y_{\beta})$) is the family of
+irreducible components of $X$ (resp. $Y$), every $Y_{\beta}$ is contained in some $X_{\alpha}$, and more generally every
+chain of irreducible closed subsets of $X$ of which $Y_{\beta}$ is the smallest element consists of subsets of some
+$X_{\alpha}$; one therefore has
 
-```text
-  codim(Y, X) = inf_β (sup_α (codim(Y_β, X_α)))                                            (14.2.1.1)
-```
+$$ \operatorname{codim}(Y, X) = \inf_{\beta} (\sup_{\alpha} (\operatorname{codim}(Y_{\beta}, X_{\alpha})))
+\tag{14.2.1.1} $$
 
 where for each $\beta$, $\alpha$ ranges over the set of indices such that $Y_{\beta} \subset X_{\alpha}$.
 
@@ -202,34 +195,30 @@ where for each $\beta$, $\alpha$ ranges over the set of indices such that $Y_{\b
 
 *(i) If $\Phi$ is the set of irreducible closed subsets of $X$, one has*
 
-```text
-  dim(X) = sup_{Y ∈ Φ} (codim(Y, X)).                                                      (14.2.2.1)
-```
+$$ \dim(X) = \sup_{Y \in \Phi} (\operatorname{codim}(Y, X)). \tag{14.2.2.1} $$
 
 <!-- original page 105 -->
 
 *(ii) For every non-empty closed subset $Y$ of $X$, one has*
 
-```text
-  dim(Y) + codim(Y, X) ≤ dim(X).                                                           (14.2.2.2)
-```
+$$ \dim(Y) + \operatorname{codim}(Y, X) \leq \dim(X). \tag{14.2.2.2} $$
 
 *(iii) If $Y$, $Z$, $T$ are three closed subsets of $X$ such that $Y \subset Z \subset T$, one has*
 
-```text
-  codim(Y, Z) + codim(Z, T) ≤ codim(Y, T).                                                 (14.2.2.3)
-```
+$$ \operatorname{codim}(Y, Z) + \operatorname{codim}(Z, T) \leq \operatorname{codim}(Y, T). \tag{14.2.2.3} $$
 
-*(iv) For a closed subset $Y$ of $X$ to be such that $codim(Y, X) = 0$, it is necessary and sufficient that $Y$ contain
-an irreducible component of $X$.*
+*(iv) For a closed subset $Y$ of $X$ to be such that $\operatorname{codim}(Y, X) = 0$, it is necessary and sufficient
+that $Y$ contain an irreducible component of $X$.*
 
 Assertions (i) and (iv) are immediate consequences of the definition `(14.2.1)`. To prove (ii), one can restrict to the
 case where $Y$ is irreducible, and then the formula follows from the definitions `(14.1.1)` and `(14.2.1)`. Finally, to
 prove (iii), one can, by virtue of definition `(14.2.1)`, first restrict to the case where $Y$ is irreducible; then
-`codim(Y, Z) = sup_α (codim(Y, Z_α))` for the irreducible components $Z_{\alpha}$ of $Z$ containing $Y$; it is clear
-that $codim(Y, T) \geq codim(Y, Z)$, so the inequality is true if $codim(Y, Z) = +\infty$; otherwise, there exists an
-$\alpha$ such that $codim(Y, Z) = codim(Y, Z_{\alpha})$ and by virtue of `(14.2.1)`, one can restrict to the case where
-$Z$ is also irreducible; but then the inequality `(14.2.2.3)` is an obvious consequence of definition `(14.2.1)`.
+$\operatorname{codim}(Y, Z) = \sup_{\alpha} (\operatorname{codim}(Y, Z_{\alpha}))$ for the irreducible components
+$Z_{\alpha}$ of $Z$ containing $Y$; it is clear that $\operatorname{codim}(Y, T) \geq \operatorname{codim}(Y, Z)$, so
+the inequality is true if $\operatorname{codim}(Y, Z) = +\infty$; otherwise, there exists an $\alpha$ such that
+$\operatorname{codim}(Y, Z) = \operatorname{codim}(Y, Z_{\alpha})$ and by virtue of `(14.2.1)`, one can restrict to the
+case where $Z$ is also irreducible; but then the inequality `(14.2.2.3)` is an obvious consequence of definition
+`(14.2.1)`.
 
 **Proposition (14.2.3).**
 
@@ -237,37 +226,33 @@ $Z$ is also irreducible; but then the inequality `(14.2.2.3)` is an obvious cons
 
 *Let $X$ be a topological space, $Y$ a closed subset of $X$. For every open set $U$ in $X$, one has*
 
-```text
-  codim(Y ∩ U, U) ≥ codim(Y, X).                                                           (14.2.3.1)
-```
+$$ \operatorname{codim}(Y \cap U, U) \geq \operatorname{codim}(Y, X). \tag{14.2.3.1} $$
 
 *Moreover, for the two members of `(14.2.3.1)` to be equal, it is necessary and sufficient that, if $(Y_{\alpha})$ is
-the family of irreducible components of $Y$ meeting $U$, one have `codim(Y, X) = inf_α (codim(Y_α, X))`.*
+the family of irreducible components of $Y$ meeting $U$, one have $\operatorname{codim}(Y, X) = \inf_{\alpha}
+(\operatorname{codim}(Y_{\alpha}, X))$.*
 
 We know $(0_{I}, 2.1.6)$ that $Z \mapsto \bar{Z}$ is a bijection from the set of irreducible closed subsets of $U$ onto
 the set of irreducible closed subsets of $X$ meeting $U$, and in particular makes the irreducible components of $Y \cap
 U$ correspond to the irreducible components of $Y$ meeting $U$; if $Y_{\alpha}$ is one of the latter, one therefore has
-$codim(Y_{\alpha}, X) = codim(Y_{\alpha} \cap U, U)$, and the proposition then follows from definition `(14.2.1)`.
+$\operatorname{codim}(Y_{\alpha}, X) = \operatorname{codim}(Y_{\alpha} \cap U, U)$, and the proposition then follows
+from definition `(14.2.1)`.
 
 **Definition (14.2.4).**
 
 <!-- label: 0_IV.14.2.4 -->
 
 *Let $X$ be a topological space, $Y$ a closed subset of $X$, $x$ a point of $X$. We call **codimension of $Y$ in $X$ at
-the point $x$** and denote $codim_{x}(Y, X)$ the number $\sup_{U} (codim(Y \cap U, U))$, where $U$ ranges over the set
-of open neighbourhoods of $x$ in $X$.*
+the point $x$** and denote $\operatorname{codim}_{x}(Y, X)$ the number $\sup_{U} (\operatorname{codim}(Y \cap U, U))$,
+where $U$ ranges over the set of open neighbourhoods of $x$ in $X$.*
 
 By virtue of `(14.2.3)`, one can also write
 
-```text
-  codim_x(Y, X) = lim_U (codim(Y ∩ U, U))                                                  (14.2.4.1)
-```
+$$ \operatorname{codim}_{x}(Y, X) = \lim_{U} (\operatorname{codim}(Y \cap U, U)) \tag{14.2.4.1} $$
 
 the limit being taken along the decreasing filtered set of open neighbourhoods of $x$ in $X$. One will note that one has
 
-```text
-  codim_x(Y, X) = +∞    if    x ∈ X − Y.
-```
+$$ \operatorname{codim}_{x}(Y, X) = +\infty \quad \text{if} \quad x \in X - Y. $$
 
 <!-- original page 106 -->
 
@@ -278,9 +263,7 @@ the limit being taken along the decreasing filtered set of open neighbourhoods o
 *If $(Y_{i})_{1 \leq i \leq n}$ is a finite family of closed subsets of a topological space $X$, and $Y$ the union of
 this family, one has*
 
-```text
-  codim(Y, X) = inf_i (codim(Y_i, X)).                                                     (14.2.5.1)
-```
+$$ \operatorname{codim}(Y, X) = \inf_{i} (\operatorname{codim}(Y_{i}, X)). \tag{14.2.5.1} $$
 
 Indeed, every irreducible component of one of the $Y_{i}$ is contained in an irreducible component of $Y$, and
 conversely every irreducible component of $Y$ is also an irreducible component of one of the $Y_{i}$ $(0_{I}, 2.1.1)$;
@@ -293,19 +276,19 @@ the conclusion thus follows from definition `(14.2.1)` and inequality `(14.2.2.3
 *Let $X$ be a topological space, $Y$ a locally Noetherian closed subspace of $X$.*
 
 *(i) For every $x \in X$, there exist only a finite number of irreducible components $Y_{i}$ $(1 \leq i \leq n)$ of $Y$
-containing $x$, and one has `codim_x(Y, X) = inf_i (codim(Y_i, X))`.*
+containing $x$, and one has $\operatorname{codim}_{x}(Y, X) = \inf_{i} (\operatorname{codim}(Y_{i}, X))$.*
 
-*(ii) The function $x \mapsto codim_{x}(Y, X)$ is lower semi-continuous on $X$.*
+*(ii) The function $x \mapsto \operatorname{codim}_{x}(Y, X)$ is lower semi-continuous on $X$.*
 
-Indeed, by hypothesis there is an open neighbourhood `U_0` of $x$ in $X$ such that $Y \cap U_{0}$ is Noetherian, hence
-has only a finite number of irreducible components, which are traces on `U_0` of irreducible components of $Y$; a
+Indeed, by hypothesis there is an open neighbourhood $U_{0}$ of $x$ in $X$ such that $Y \cap U_{0}$ is Noetherian, hence
+has only a finite number of irreducible components, which are traces on $U_{0}$ of irreducible components of $Y$; a
 fortiori, there are only a finite number of irreducible components $Y_{i}$ $(1 \leq i \leq n)$ of $Y$ containing $x$,
-and one can, by replacing `U_0` by an open neighbourhood $U \subset U_{0}$ of $x$ meeting none of the $Y_{i}$ that do
+and one can, by replacing $U_{0}$ by an open neighbourhood $U \subset U_{0}$ of $x$ meeting none of the $Y_{i}$ that do
 not contain $x$, assume that the $Y_{i} \cap U$ are the irreducible components of $Y \cap U$; for every open
 neighbourhood $V \subset U$ of $x$ in $X$, the $Y_{i} \cap V$ are then the irreducible components of $Y \cap V$, and
-`(14.2.3)` then shows that $codim(Y_{i}, X) = codim(Y_{i} \cap V, V)$, which proves (i). Moreover, for every $x' \in U$,
-the irreducible components of $Y$ containing $x'$ are some of the $Y_{i}$, so $codim_{x'}(Y, X) \geq codim_{x}(Y, X)$,
-which proves (ii).
+`(14.2.3)` then shows that $\operatorname{codim}(Y_{i}, X) = \operatorname{codim}(Y_{i} \cap V, V)$, which proves (i).
+Moreover, for every $x' \in U$, the irreducible components of $Y$ containing $x'$ are some of the $Y_{i}$, so
+$\operatorname{codim}_{x'}(Y, X) \geq \operatorname{codim}_{x}(Y, X)$, which proves (ii).
 
 ## 14.3. The chain condition
 
@@ -318,15 +301,13 @@ such that $Z_{k} \subset Z' \subset Z_{k+1}$ for some index $k$.
 <!-- label: 0_IV.14.3.2 -->
 
 *Let $X$ be a topological space such that, for any two irreducible closed subsets $Y$, $Z$ of $X$ with $Y \subset Z$,
-one has $codim(Y, Z) < +\infty$. The two following conditions are equivalent:*
+one has $\operatorname{codim}(Y, Z) < +\infty$. The two following conditions are equivalent:*
 
 *a) Two saturated chains of irreducible closed subsets of $X$, having the same extremities, have the same length.*
 
 *b) If $Y$, $Z$, $T$ are three irreducible closed subsets of $X$ such that $Y \subset Z \subset T$, one has*
 
-```text
-  codim(Y, T) = codim(Y, Z) + codim(Z, T).                                                 (14.3.2.1)
-```
+$$ \operatorname{codim}(Y, T) = \operatorname{codim}(Y, Z) + \operatorname{codim}(Z, T). \tag{14.3.2.1} $$
 
 It is immediate that a) entails b). Conversely, suppose b) verified, and let us show that if two saturated chains with
 the same extremities have lengths $m$ and $n \leq m$, one necessarily has $m = n$. We argue by induction on $n$, the
@@ -335,9 +316,10 @@ Z_{n}$ be a
 
 <!-- original page 107 -->
 
-saturated chain such that there exists another saturated chain with extremities `Z_0`, $Z_{n}$ and of length $m$. Since
-$codim(Z_{0}, Z_{n}) \geq m > n$ and $codim(Z_{0}, Z_{1}) = 1$, it follows from b) that $codim(Z_{1}, Z_{n}) =
-codim(Z_{0}, Z_{n}) - 1 > n - 1$, which contradicts the induction hypothesis.
+saturated chain such that there exists another saturated chain with extremities $Z_{0}$, $Z_{n}$ and of length $m$.
+Since $\operatorname{codim}(Z_{0}, Z_{n}) \geq m > n$ and $\operatorname{codim}(Z_{0}, Z_{1}) = 1$, it follows from b)
+that $\operatorname{codim}(Z_{1}, Z_{n}) = \operatorname{codim}(Z_{0}, Z_{n}) - 1 > n - 1$, which contradicts the
+induction hypothesis.
 
 When the conditions of `(14.3.2)` are satisfied, one says that $X$ satisfies the *chain condition*, or also is a
 *catenary space*. It is clear that every closed subspace of a catenary space is catenary.
@@ -354,16 +336,12 @@ When the conditions of `(14.3.2)` are satisfied, one says that $X$ satisfies the
 
 *c) $X$ is equidimensional, and for any two irreducible closed subsets $Y$, $Z$ of $X$ such that $Y \subset Z$, one has*
 
-```text
-  dim(Z) = dim(Y) + codim(Y, Z).                                                           (14.3.3.1)
-```
+$$ \dim(Z) = \dim(Y) + \operatorname{codim}(Y, Z). \tag{14.3.3.1} $$
 
 *d) $X$ is equicodimensional and for any two irreducible closed subsets $Y$, $Z$ of $X$ such that $Y \subset Z$, one
 has*
 
-```text
-  codim(Y, X) = codim(Y, Z) + codim(Z, X).                                                 (14.3.3.2)
-```
+$$ \operatorname{codim}(Y, X) = \operatorname{codim}(Y, Z) + \operatorname{codim}(Z, X). \tag{14.3.3.2} $$
 
 The hypotheses on $X$ entail that the extremities of a maximal chain of irreducible closed subsets of $X$ are
 necessarily a closed point and an irreducible component of $X$ $(0_{I}, 2.1.3)$; moreover, every saturated chain with
@@ -371,17 +349,15 @@ extremities $Y$, $Z$ (with $Y \subset Z$) is contained in a maximal chain whose 
 chain are either contained in $Y$ or contain $Z$. These remarks at once establish the equivalence of a) and b), and also
 prove that if a) is verified, one has, for every irreducible closed subset $Y$ of $X$,
 
-```text
-  dim(Y) + codim(Y, X) = dim(X);                                                           (14.3.3.3)
-```
+$$ \dim(Y) + \operatorname{codim}(Y, X) = \dim(X); \tag{14.3.3.3} $$
 
 since `(14.3.2.1)` holds, one deduces `(14.3.3.1)` and `(14.3.3.2)` at once from `(14.3.3.3)`. Conversely, `(14.3.3.1)`
 entails `(14.3.2.1)`, hence `(14.3.3.1)` entails the chain condition by virtue of `(14.3.2)`; moreover, applying
 `(14.3.3.1)` to the case where $Y$ is reduced to a closed point $x$ of $X$ and $Z$ to an irreducible component of $X$,
-one obtains $codim({x}, X) = \dim(Z)$; one concludes that c) entails b). Similarly, `(14.3.3.2)` entails `(14.3.2.1)`,
-hence the chain condition; moreover, with the same choice of $Y$ and $Z$ as above, `(14.3.3.2)` again entails
-$codim({x}, X) = \dim(Z)$, so (since every irreducible component of $X$ contains a closed point by virtue of $(0_{I},
-2.1.3)$), d) entails b).
+one obtains $\operatorname{codim}(\{x\}, X) = \dim(Z)$; one concludes that c) entails b). Similarly, `(14.3.3.2)`
+entails `(14.3.2.1)`, hence the chain condition; moreover, with the same choice of $Y$ and $Z$ as above, `(14.3.3.2)`
+again entails $\operatorname{codim}(\{x\}, X) = \dim(Z)$, so (since every irreducible component of $X$ contains a closed
+point by virtue of $(0_{I}, 2.1.3)$), d) entails b).
 
 One says that a Noetherian Kolmogorov space is *biequidimensional* if it is of finite dimension and if it verifies the
 equivalent conditions of `(14.3.3)`.
@@ -393,13 +369,11 @@ equivalent conditions of `(14.3.3)`.
 *Let $X$ be a biequidimensional Noetherian Kolmogorov space; then, for every closed point $x$ of $X$ and every
 irreducible component $Z$ of $X$, one has*
 
-```text
-  dim(X) = dim(Z) = codim({x}, X) = dim_x(X).                                              (14.3.4.1)
-```
+$$ \dim(X) = \dim(Z) = \operatorname{codim}(\{x\}, X) = \dim_{x}(X). \tag{14.3.4.1} $$
 
 <!-- original page 108 -->
 
-The last equality follows from the fact that if $Y_{0} = {x} \subset Y_{1} \subset \cdots \subset Y_{m}$ is a maximal
+The last equality follows from the fact that if $Y_{0} = \{x\} \subset Y_{1} \subset \cdots \subset Y_{m}$ is a maximal
 chain of irreducible closed subsets of $X$ and $U$ an open neighbourhood of $x$, the $U \cap Y_{i}$ are pairwise
 distinct irreducible closed subsets of $U$ (since $U \cap Y_{i} \overline{=} Y_{i}$), whence $\dim(U) = \dim(X)$ by
 virtue of `(14.1.4)`.
@@ -411,9 +385,7 @@ virtue of `(14.1.4)`.
 *Let $X$ be a Noetherian Kolmogorov space; if $X$ is biequidimensional, so is every union of irreducible components of
 $X$ and every irreducible closed subset of $X$. Moreover, for every closed subset $Y$ of $X$, one then has*
 
-```text
-  dim(Y) + codim(Y, X) = dim(X).                                                           (14.3.5.1)
-```
+$$ \dim(Y) + \operatorname{codim}(Y, X) = \dim(X). \tag{14.3.5.1} $$
 
 Every chain of irreducible closed subsets of $X$ being contained in an irreducible component of $X$, the first assertion
 follows at once from `(14.3.3)`. Moreover, if $X'$ is an irreducible closed subset of $X$, $X'$ trivially verifies
@@ -421,8 +393,8 @@ conditions `(14.3.3, c))`, whence the second assertion.
 
 Finally, to prove `(14.3.5.1)`, we remark that we have seen in the proof of `(14.3.3)` that this relation is verified
 when $Y$ is irreducible; if $Y_{i}$ $(1 \leq i \leq m)$ are the irreducible components of $Y$, the one among the $Y_{i}$
-for which $\dim(Y_{i})$ is greatest is also the one for which $codim(Y_{i}, X)$ is smallest; hence `(14.3.5.1)` follows
-from the definitions of $\dim(Y)$ and $codim(Y, X)$.
+for which $\dim(Y_{i})$ is greatest is also the one for which $\operatorname{codim}(Y_{i}, X)$ is smallest; hence
+`(14.3.5.1)` follows from the definitions of $\dim(Y)$ and $\operatorname{codim}(Y, X)$.
 
 **Remark (14.3.6).**
 

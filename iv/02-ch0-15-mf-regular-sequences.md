@@ -11,9 +11,7 @@ n$) elements of $A$, $\mathfrak{J} = \sum^{n}_{i=1} f_{i} A$ the ideal of $A$ ge
 with the $\mathfrak{J}$-preadic filtration; one then defines a *surjective graded homomorphism of graded $A$-modules*,
 of degree `0`,
 
-```text
-(15.1.1.1)              φ : (gr_0(M))[T_1, …, T_n] → gr_•(M)
-```
+$$ \phi : (gr_{0}(M))[T_{1}, \ldots, T_{n}] \to gr_{\bullet}(M) \tag{15.1.1.1} $$
 
 in the following way: if $\xi \in gr_{0}(M)$ is the class mod $\mathfrak{J}M$ of an element $x \in M$, then to the pair
 formed by $\xi$ and a polynomial $P[T_{1}, \cdots, T_{n}]$ homogeneous of degree $k$, one associates the class mod
@@ -21,9 +19,7 @@ $\mathfrak{J}^{k+1}M$ of $P(f_{1}, \cdots, f_{n})x$; it is immediate that this c
 if $S_{k}$ is the set of homogeneous polynomials of degree $k$ in $A[T_{1}, \cdots, T_{n}]$, one has thus defined an
 $A$-linear map
 
-```text
-                        φ_k : gr_0(M) ⊗_A S_k → gr_k(M),
-```
+$$ \phi_{k} : gr_{0}(M) \otimes_{A} S_{k} \to gr_{k}(M), $$
 
 which is surjective by the definition of $\mathfrak{J}^{k} M$.
 
@@ -84,9 +80,7 @@ zero-divisor in $M$.
 $gr_{\bullet}(M) = \bigoplus_{k \geq 0} M_{k}/M_{k+1}$ the associated graded $A$-module. With the notations of
 `(15.1.1)`, let us set, for every $k \geq 0$,
 
-```text
-(15.1.5.1)              M'_k = M_k + 𝔍 M_{k-1} + … + 𝔍^{k-1} M_1 + 𝔍^k M_0.
-```
+$$ M'_{k} = M_{k} + \mathfrak{J} M_{k-1} + \ldots + \mathfrak{J}^{k-1} M_{1} + \mathfrak{J}^{k} M_{0}. \tag{15.1.5.1} $$
 
 It is clear that $(M'_{k})$ is a filtration on $M$. When $M_{k} = \mathfrak{L}^{k} M$, where $\mathfrak{L}$ is an ideal
 of $A$, the filtration $(M'_{k})$ is none other than the $(\mathfrak{J} + \mathfrak{L})$-preadic filtration. We shall
@@ -95,9 +89,7 @@ $(gr_{\bullet}(M) \otimes_{A} (A/\mathfrak{J}))[T_{1}, \cdots, T_{n}]$ the tenso
 `(II, 2.1.2)` $(gr_{\bullet}(M) \otimes_{A} (A/\mathfrak{J})) \otimes_{A} A[T_{1}, \cdots, T_{n}]$. One defines a
 *surjective graded homomorphism of graded $A$-modules, of degree* `0`,
 
-```text
-(15.1.5.2)              ψ : (gr_•(M) ⊗_A (A/𝔍))[T_1, …, T_n] → gr'_•(M)
-```
+$$ \psi : (gr_{\bullet}(M) \otimes_{A} (A/\mathfrak{J}))[T_{1}, \ldots, T_{n}] \to gr'_{\bullet}(M) \tag{15.1.5.2} $$
 
 in the following way: if $\alpha \in A/\mathfrak{J}$ is the class of an element $a \in A$, $\xi \in M_{k}/M_{k+1}$ the
 class of an element $x \in M_{k}$ and $P[T_{1}, \cdots, T_{n}]$ a polynomial homogeneous of degree $h$, one associates
@@ -116,30 +108,22 @@ $gr_{\bullet}(M)$-regular, the homomorphism `(15.1.5.2)` is bijective.*
 Let $Q_{k}$ (resp. $Q'_{k}$) be the sub-$A$-module of terms of degree $k$ in the first (resp. second) member of
 `(15.1.5.2)`. Equip $Q_{k}$ with the filtration
 
-```text
-(15.1.6.1)              (Q_k)_i = ∑_{j ≤ k-i} (gr_{k-j}(M) ⊗_A (A/fA)) T^j
-```
+$$ (Q_{k})_{i} = \sum_{j \le k-i} (gr_{k-j}(M) \otimes_{A} (A/fA)) T^{j} \tag{15.1.6.1} $$
 
 so that $(Q_{k})_{0} = Q_{k}$ and $(Q_{k})_{k+1} = 0$, and for this filtration one has
 
-```text
-                        gr_i(Q_k) = (gr_i(M) ⊗_A (A/fA)) T^{k-i}.
-```
+$$ gr_{i}(Q_{k}) = (gr_{i}(M) \otimes_{A} (A/fA)) T^{k-i}. $$
 
 Equip $Q'_{k}$ with the filtration formed by the $\psi((Q_{k})_{i}) = (Q'_{k})_{i}$. Since these filtrations are finite,
 it suffices to prove that the homomorphisms $\psi_{ki} : gr_{i}(Q_{k}) \to gr_{i}(Q'_{k})$ deduced from $\psi$ are
 injective `(Bourbaki, Alg. comm., chap. III, §3, n° 8, cor. 1 of th. 1)`. Now one has $gr_{i}(Q_{k}) = ((M_{i}/M_{i+1})
 \otimes_{A} (A/fA)) T^{k-i} = (M_{i}/(fM_{i} + M_{i+1})) T^{k-i}$; on the other hand, $(Q'_{k})_{i}$ is the image of
 
-```text
-                        M_k + fM_{k-1} + … + f^{k-i-1} M_{i+1}
-```
+$$ M_{k} + fM_{k-1} + \ldots + f^{k-i-1} M_{i+1} $$
 
 in $M'_{k}/M'_{k+1}$. One is thus reduced to writing that, for $x \in M_{i}$, the relation
 
-```text
-(15.1.6.2)              f^{k-i} x ∈ f M_i + f^2 M_{i-1} + … + f^{k-i-1} M_{i+1} + M'_{k+1}
-```
+$$ f^{k-i} x \in f M_{i} + f^{2} M_{i-1} + \ldots + f^{k-i-1} M_{i+1} + M'_{k+1} \tag{15.1.6.2} $$
 
 implies $x \in fM_{i} + M_{i+1}$. Now, the second member of `(15.1.6.2)` is contained in $M'_{k+1} + M_{i+1}$, and by
 virtue of `(15.1.5.1)`, $M'_{k+1}$ is contained in $M_{i+1} + f^{k+1-i} M$. The hypothesis on $f$ implies that $f$ is
@@ -171,36 +155,34 @@ Then the canonical homomorphism `(15.1.5.2)` is bijective.*
 The proposition is none other than `(15.1.6)` for $n = 1$; we reason by induction on $n$. Set $\mathfrak{J}'' =
 \sum^{n-1}_{i=1} f_{i} A$, so that $\mathfrak{J} = \mathfrak{J}'' + f_{n} A$, and let
 
-```text
-                        M''_k = M_k + 𝔍'' M_{k-1} + … + 𝔍''^{k-1} M_1 + 𝔍''^k M_0;
-```
+$$ M''_{k} = M_{k} + \mathfrak{J}'' M_{k-1} + \ldots + \mathfrak{J}''^{k-1} M_{1} + \mathfrak{J}''^{k} M_{0}; $$
 
 one can then write
 
-```text
-                        M'_k = M''_k + f_n M''_{k-1} + … + f_n^{k-1} M''_1 + f_n^k M''_0.
-```
+$$ M'_{k} = M''_{k} + f_{n} M''_{k-1} + \ldots + f_{n}^{k-1} M''_{1} + f_{n}^{k} M''_{0}. $$
 
 Denote by $gr''_{\bullet}(M)$ the graded $A$-module associated with the filtration $(M''_{k})$ of $M$. One can write, up
 to canonical isomorphisms,
 
-```text
-        (gr_•(M) ⊗ (A/𝔍)) ⊗_A A[T_1, …, T_n]
-                = (gr_•(M) ⊗ (A/𝔍''))[T_1, …, T_{n-1}] ⊗ (A/f_n A) ⊗ A[T_n]
-```
+$$
+\begin{aligned}
+&(gr_{\bullet}(M) \otimes (A/\mathfrak{J})) \otimes_{A} A[T_{1}, \ldots, T_{n}] \\
+&\qquad = (gr_{\bullet}(M) \otimes (A/\mathfrak{J}''))[T_{1}, \ldots, T_{n-1}] \otimes (A/f_{n} A) \otimes A[T_{n}]
+\end{aligned}
+$$
 
 and consequently `(15.1.5.2)` factors as
 
-```text
-(15.1.8.1)              (gr''_•(M) ⊗ (A/f_n A))[T_n] → gr'_•(M)
-```
+$$ (gr''_{\bullet}(M) \otimes (A/f_{n} A))[T_{n}] \to gr'_{\bullet}(M) \tag{15.1.8.1} $$
 
 and
 
-```text
-        ((gr_•(M) ⊗ (A/𝔍''))[T_1, …, T_{n-1}]) ⊗ (A/f_n A) ⊗ A[T_n]
-                ──ψ' ⊗ 1──→ gr''_•(M) ⊗ (A/f_n A) ⊗ A[T_n]
-```
+$$
+\begin{aligned}
+&((gr_{\bullet}(M) \otimes (A/\mathfrak{J}''))[T_{1}, \ldots, T_{n-1}]) \otimes (A/f_{n} A) \otimes A[T_{n}] \\
+&\qquad \xrightarrow{\psi' \otimes 1} gr''_{\bullet}(M) \otimes (A/f_{n} A) \otimes A[T_{n}]
+\end{aligned}
+$$
 
 where $\psi'$ is the map `(15.1.5.2)` in which one replaces $n$ by $n - 1$, $\mathfrak{J}$ by $\mathfrak{J}''$ and
 $gr'_{\bullet}(M)$ by $gr''_{\bullet}(M)$. The induction hypothesis implies that $\psi'$ is bijective, and it remains
@@ -216,8 +198,8 @@ since $A[T_{1}, \cdots, T_{n-1}]$ is a free $A$-module.
 
 *Let $M$ be an $A$-module, $(f_{i})_{1 \leq i \leq n}$ a sequence of elements of $A$. If the sequence $(f_{i})$ is
 $M$-regular, it is $M$-quasi-regular. The converse holds if one assumes in addition that the $A$-modules $M$, $M/f_{1}
-M$, …, $M/(\sum_{1 \leq j \leq n-1} f_{j} M)$ are separated for the $\mathfrak{J}$-preadic topology (where $\mathfrak{J}
-= \sum^{n}_{i=1} f_{i} A$).*
+M$, $\ldots$, $M/(\sum_{1 \leq j \leq n-1} f_{j} M)$ are separated for the $\mathfrak{J}$-preadic topology (where
+$\mathfrak{J} = \sum^{n}_{i=1} f_{i} A$).*
 
 The first assertion follows from `(15.1.8)`, where one takes $M_{1} = 0$, so that the homomorphism `(15.1.5.2)` reduces
 to `(15.1.1.1)`. Conversely, suppose the homomorphism $\phi$ of `(15.1.1.1)` is bijective. Note that if one sets
@@ -228,9 +210,7 @@ $\mathfrak{J}'' = \sum^{n-1}_{i=1} f_{i} A$,
 and if one denotes by $gr''_{\bullet}(M)$ the graded $A$-module associated with $M$ filtered by the
 $\mathfrak{J}''$-preadic filtration, then $\phi$ factors as
 
-```text
-(15.1.9.1)              (gr''_0(M) ⊗ (A/f_n A))[T_n] → gr_•(M)
-```
+$$ (gr''_{0}(M) \otimes (A/f_{n} A))[T_{n}] \to gr_{\bullet}(M) \tag{15.1.9.1} $$
 
 and as $\phi' \otimes 1$, where $\phi'$ is the canonical homomorphism
 
@@ -238,7 +218,7 @@ $$ (gr''_{0}(M))[T_{1}, \cdots, T_{n-1}] \to gr''_{\bullet}(M). $$
 
 Since both these homomorphisms are surjective, they are bijective if $\phi$ is assumed bijective; hence $\phi'$ is
 necessarily injective, and consequently bijective since it is surjective. One can then reason by induction on $n$ (the
-case $n = 1$ resulting from `(15.1.2)`), since on $M$, $M/f_{1} M$, …, $M/(\sum^{n-2}_{j=1} f_{j} M)$ the
+case $n = 1$ resulting from `(15.1.2)`), since on $M$, $M/f_{1} M$, $\ldots$, $M/(\sum^{n-2}_{j=1} f_{j} M)$ the
 $\mathfrak{J}''$-preadic topology is finer than the $\mathfrak{J}$-preadic topology, and is consequently separated. One
 thus sees that the sequence $(f_{i})_{1 \leq i \leq n-1}$ is $M$-regular. On the other hand, let us show that the
 hypothesis implies that if $y \in M/\mathfrak{J}'' M$ is such that $f_{n} y \in f^{k+1}_{n}(M/\mathfrak{J}'' M)$, then
@@ -336,16 +316,12 @@ $M'$-regular and the $A'$-modules $M'/(\sum^{i-1}_{j=1} f'_{j} M')$ ($1 \leq i \
 
 Consider the sequence (exact by hypothesis)
 
-```text
-                        0 → M ──f_1──→ M → M/f_1 M → 0
-```
+$$ 0 \to M \xrightarrow{f_{1}} M \to M/f_{1} M \to 0 $$
 
 (the arrow $M \to M$ being the homothety of ratio $f_{1}$ in $M$). The hypothesis that $M/f_{1} M$ is $A$-flat implies
 that the sequence
 
-```text
-                        0 → M ⊗_A A' ──f_1 ⊗ 1──→ M ⊗_A A' → (M/f_1 M) ⊗_A A' → 0
-```
+$$ 0 \to M \otimes_{A} A' \xrightarrow{f_{1} \otimes 1} M \otimes_{A} A' \to (M/f_{1} M) \otimes_{A} A' \to 0 $$
 
 <!-- original page 113 -->
 
@@ -428,9 +404,7 @@ therefore canonically isomorphic to $M_{k}/fM_{k}$.*
 
 *(iii) The sequence*
 
-```text
-        0 → M_{k+1}/fM_{k+1} → M_k/fM_k → gr_k(M)/f · gr_k(M) → 0
-```
+$$ 0 \to M_{k+1}/fM_{k+1} \to M_{k}/fM_{k} \to gr_{k}(M)/f \cdot gr_{k}(M) \to 0 $$
 
 *is exact, and if one equips `M''` with the quotient filtration $(M''_{k})$, $gr_{\bullet}(M'')$ is therefore
 canonically isomorphic to $gr_{\bullet}(M)/f \cdot gr_{\bullet}(M)$.*
@@ -456,9 +430,7 @@ For $n = 1$, the proposition follows from Lemma `(15.1.18)`. We reason by induct
 n-1} f_{i} M)$ and denoting by $(N_{k})$ the quotient filtration of $(M_{k})$ on $N$, which is separated by hypothesis;
 in addition $gr_{\bullet}(N)$ is isomorphic to
 
-```text
-                        gr_•(M)/(∑_{i ≤ n-1} f_i gr_•(M)).
-```
+$$ gr_{\bullet}(M)/(\sum_{i \le n-1} f_{i} gr_{\bullet}(M)). $$
 
 By hypothesis $f_{n}$ is therefore $gr_{\bullet}(N)$-regular, and it therefore follows from Lemma `(15.1.18)` applied to
 $N$ that $f_{n}$ is $N$-regular and $gr_{\bullet}(M')$ isomorphic to $gr_{\bullet}(N)/f_{n} gr_{\bullet}(N)$, which
@@ -467,10 +439,10 @@ proves the proposition.
 The proposition `(15.1.19)` will apply in particular for filtrations satisfying one or the other of the following
 hypotheses:
 
-1° The filtration $(M_{k})$ is finite and separated (since this implies $M_{k} = 0$ for $k$ large enough);
+$1^{\circ}$ The filtration $(M_{k})$ is finite and separated (since this implies $M_{k} = 0$ for $k$ large enough);
 
-2° $A$ is a Noetherian ring, $\mathfrak{J}$ an ideal contained in the radical of $A$, $M$ an $A$-module of finite type
-and $(M_{k})$ the $\mathfrak{J}$-preadic filtration $(0_{I}, 7.3.5)$.
+$2^{\circ}$ $A$ is a Noetherian ring, $\mathfrak{J}$ an ideal contained in the radical of $A$, $M$ an $A$-module of
+finite type and $(M_{k})$ the $\mathfrak{J}$-preadic filtration $(0_{I}, 7.3.5)$.
 
 <!-- original page 115 -->
 
@@ -511,9 +483,7 @@ sequence $(f_{i})_{1 \leq i \leq n}$ is also assumed to be $A$-regular, it is $A
 corresponding canonical homomorphism `(15.1.1.1)` $(A/\mathfrak{J})[T_{1}, \cdots, T_{n}] \to gr_{\bullet}(A)$ is
 bijective. One concludes that the canonical homomorphism $(0_{III}, 10.1.1.2)$
 
-```text
-                        gr_0(M) ⊗_{A/𝔍} gr_•(A) → gr_•(M)
-```
+$$ gr_{0}(M) \otimes_{A/\mathfrak{J}} gr_{\bullet}(A) \to gr_{\bullet}(M) $$
 
 is bijective. The conclusion then follows from $(0_{III}, 10.2.2)$, the $f_{i}$ being in the maximal ideal of $A$ and
 the homomorphism $\phi$ being local.
@@ -529,18 +499,14 @@ $\mathcal{F}$ a *filtration*, and one further sets $gr_{k}(\mathcal{F}) = \mathc
 $\mathbb{Z}[T_{1}, \cdots, T_{n}]$, $S_{k}$ can be considered as a simple sheaf on $X$, and one defines as in `(15.1.1)`
 a *canonical homomorphism*
 
-```text
-(15.2.1.1)              φ_k : gr_0(ℱ) ⊗_ℤ S_k → gr_k(ℱ)
-```
+$$ \phi_{k} : gr_{0}(\mathcal{F}) \otimes_{\mathbf{Z}} S_{k} \to gr_{k}(\mathcal{F}) \tag{15.2.1.1} $$
 
 <!-- original page 116 -->
 
 in the following way: for every open set $U$ of $X$ (or of a basis of the topology of $X$), one considers the
 homomorphism `(15.1.1.1)`
 
-```text
-                        φ_{k, U} : gr_0(Γ(U, ℱ)) ⊗_ℤ S_k → gr_k(Γ(U, ℱ))
-```
+$$ \phi_{k, U} : gr_{0}(\Gamma(U, \mathcal{F})) \otimes_{\mathbf{Z}} S_{k} \to gr_{k}(\Gamma(U, \mathcal{F})) $$
 
 defined by the $n$ sections $f_{i} | U \in \Gamma(U, \mathcal{O}_{X})$, the $\Gamma(U, \mathcal{O}_{X})$-module
 $\Gamma(U, \mathcal{F})$ being filtered by the submodules $(\Gamma(U, \mathcal{J}))^{k} \Gamma(U, \mathcal{F})$. The
@@ -550,9 +516,7 @@ virtue of the exactness properties of inductive limits of modules and of their c
 follows from what precedes that for every $x \in X$, the homomorphism $(\phi_{k})_{x}$ on the fibres of the two members
 of `(15.2.1.1)` at the point $x$ is identified with the homomorphism of `(15.1.1)`
 
-```text
-(15.2.1.2)              gr_0(ℱ_x) ⊗_ℤ S_k → gr_k(ℱ_x)
-```
+$$ gr_{0}(\mathcal{F}_{x}) \otimes_{\mathbf{Z}} S_{k} \to gr_{k}(\mathcal{F}_{x}) \tag{15.2.1.2} $$
 
 defined by the sequence $((f_{i})_{x})_{1 \leq i \leq n}$ of elements of $\mathcal{O}_{x}$.
 
@@ -611,9 +575,8 @@ sequence $(g_{i})$ is $\mathcal{G}$-regular. The converse holds if $u$ is a fait
 
 Let $x$ be a point of $X$, $y = u(x) = \psi(x)$; one has
 
-```text
-                        𝒢_x = ψ_x^*(ℱ_y) ⊗_{ψ_x^*(𝒪_y)} 𝒪_x      and      (g_i)_x = θ_x^♯(ψ_x^*((f_i)_y));
-```
+$$ \mathcal{G}_{x} = \psi_{x}^{*}(\mathcal{F}_{y}) \otimes_{\psi_{x}^{*}(\mathcal{O}_{y})} \mathcal{O}_{x} \quad
+\text{and} \quad (g_{i})_{x} = \theta_{x}^{\sharp}(\psi_{x}^{*}((f_{i})_{y})); $$
 
 since by hypothesis $\theta^{\sharp}_{x} : \psi^{*}_{x}(\mathcal{O}_{y}) \to \mathcal{O}_{x}$ makes $\mathcal{O}_{x}$ a
 flat $\psi^{*}_{x}(\mathcal{O}_{y})$-module, and since the functor $\psi^{*}$ is exact, the first assertion follows from
