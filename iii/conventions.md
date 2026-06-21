@@ -23,12 +23,12 @@ EGA III uses the running Chapter 0 (suite) — call it Chapter 0_III — and cit
 
 EGA III also routinely cites four external classics, which we render literally:
 
-| Source key in EGA III | Work                                                                                  |
-| --------------------- | ------------------------------------------------------------------------------------- |
-| $(M, \cdots)$         | H. Cartan and S. Eilenberg, *Homological Algebra* (Princeton, 1956).                  |
-| $(G, \cdots)$         | R. Godement, *Topologie algébrique et théorie des faisceaux* (Hermann, 1958).         |
-| $(T, \cdots)$         | A. Grothendieck, *Sur quelques points d'algèbre homologique* (Tôhoku Math. J., 1957). |
-| $(FAC, \cdots)$       | J.-P. Serre, *Faisceaux algébriques cohérents* (Annals of Math., 1955).               |
+| Source key in EGA III | Work |
+| --- | --- |
+| $(M, \cdots)$ | H. Cartan and S. Eilenberg, *Homological Algebra* (Princeton, 1956). |
+| $(G, \cdots)$ | R. Godement, *Topologie algébrique et théorie des faisceaux* (Hermann, 1958). |
+| $(T, \cdots)$ | A. Grothendieck, *Sur quelques points d'algèbre homologique* (Tôhoku Math. J., 1957). |
+| $(FAC, \cdots)$ | J.-P. Serre, *Faisceaux algébriques cohérents* (Annals of Math., 1955). |
 
 Where the source spells these out (e.g. "Cartan–Eilenberg, *loc. cit.*"), we keep the spelling and add the bracketed key
 in the bibliography.
@@ -65,15 +65,15 @@ EGA III's central objects. We render every spectral sequence in the canonical "p
 
 ````
 ```text
-  E_2^{p,q} = H^p(Y, R^q f_* ℱ) ⟹ H^{p+q}(X, ℱ).
+  E_2^{p,q} = H^p(Y, R^q f_* \mathcal{F}) \implies H^{p+q}(X, \mathcal{F}).
 ````
 
 ````
 
 - The page index is the subscript: `E_r^{p,q}` (cohomological) or `E^r_{p,q}` (homological).
-- The differential is `d_r : E_r^{p,q} → E_r^{p+r, q-r+1}`.
-- Abutment uses `⟹` ("abuts to" / "converges to" — both English forms occur in EGA; we render either by `⟹` when the
-  source uses `⟹` or the equivalent French "aboutit à"; we keep "abuts to" in prose since it's the canonical English
+- The differential is $d_r : E_r^{p,q} \to E_r^{p+r, q-r+1}$.
+- Abutment uses $\implies$ ("abuts to" / "converges to" — both English forms occur in EGA; we render either by $\implies$ when the
+  source uses $\implies$ or the equivalent French "aboutit à"; we keep "abuts to" in prose since it's the canonical English
   form).
 - For filtered complexes we name the filtration: `F^p H^n` is the `p`th piece of the filtration on `H^n` induced by the
   filtration on the complex.
@@ -82,19 +82,19 @@ EGA III's central objects. We render every spectral sequence in the canonical "p
 
 ## 5. Cech cohomology
 
-- `C^•(𝔘, ℱ)` for the Čech cochain complex of `ℱ` with respect to the cover `𝔘`.
-- `Ȟ^•(X, ℱ)` (with caron) when EGA distinguishes Čech from derived cohomology; otherwise `H^•(𝔘, ℱ)` for the Čech
-  cohomology of the cover `𝔘`.
+- $C^{\bullet}(\mathfrak{U}, \mathcal{F})$ for the Čech cochain complex of $\mathcal{F}$ with respect to the cover $\mathfrak{U}$.
+- $\check{H}^{\bullet}(X, \mathcal{F})$ (with caron) when EGA distinguishes Čech from derived cohomology; otherwise $H^{\bullet}(\mathfrak{U}, \mathcal{F})$ for the Čech
+  cohomology of the cover $\mathfrak{U}$.
 - We never silently identify Čech and derived cohomology; preserve EGA's bookkeeping.
 
 ## 6. Modules and sheaves
 
-- `𝒪_X`-module: `𝒪_X`-module (lowercase per EGA II convention; the type comes from the prefix).
+- $\mathcal{O}_X$-module: $\mathcal{O}_X$-module (lowercase per EGA II convention; the type comes from the prefix).
 - Quasi-coherent / coherent: as in EGA II.
-- A module on a topological space `X` whose support is at most `n`-dimensional: EGA writes `dim ≤ n`; render as
-  `cohomological dimension ≤ n` when EGA does, and `dim_X ℱ ≤ n` for support otherwise.
-- Filtered, graded, bigraded `𝒮`–C-module, `gr^•(𝒮)`-C-module: render `S`-`C`-module filtré, etc., in the form
-  `𝒮`-`𝒞`-module filtered, `gr^•(𝒮)`-`𝒞`-module graded — following the EGA convention of attaching the module species
+- A module on a topological space `X` whose support is at most `n`-dimensional: EGA writes $\dim \le n$; render as
+  $\text{cohomological dimension} \le n$ when EGA does, and $\dim_X \mathcal{F} \le n$ for support otherwise.
+- Filtered, graded, bigraded $\mathcal{S}$–C-module, $gr^{\bullet}(\mathcal{S})$-C-module: render `S`-`C`-module filtré, etc., in the form
+  $\mathcal{S}$-$\mathcal{C}$-module filtered, $gr^{\bullet}(\mathcal{S})$-$\mathcal{C}$-module graded — following the EGA convention of attaching the module species
   to the ambient structure.
 
 ## 7. The Mittag–Leffler condition
@@ -113,9 +113,9 @@ EGA III §0_III.13 introduces condition `(ML)` for projective systems. We keep t
 EGA III §III.3 and §III.4 use formal preschemes (`préschémas formels`) and properness relative to a formal base,
 anticipating EGA I, ch. I §10 (formal preschemes) and forthcoming material. Render:
 
-- `préschéma formel` → formal prescheme.
-- `fini sur 𝔇`, `𝔇-fini` → finite over `𝔇`, `𝔇`-finite.
-- `propre sur 𝔇` → proper over `𝔇`.
+- `préschéma formel` $\to$ formal prescheme.
+- `fini sur` $\mathfrak{D}$, $\mathfrak{D}$`-fini` $\to$ finite over $\mathfrak{D}$, $\mathfrak{D}$-finite.
+- `propre sur` $\mathfrak{D}$ $\to$ proper over $\mathfrak{D}$.
 - Stein factorization, geometric fiber, geometric number of connected components: standard English terms.
 
 ## 9. Spectral-sequence-specific terminology
@@ -152,7 +152,7 @@ These extend the EGA II terminology table; they first appear in the §III.1 cali
 
 | French                                             | English                                        |
 | -------------------------------------------------- | ---------------------------------------------- |
-| algébrisable (`𝒪_X`-Module)                        | algebraizable (`𝒪_X`-module)                   |
+| algébrisable ($\mathcal{O}_X$-Module)                        | algebraizable ($\mathcal{O}_X$-module)                   |
 | algébrisable (schéma formel)                       | algebraizable (formal scheme)                  |
 | analytiquement intègre                             | analytically integral                          |
 | application quasi-compacte                         | quasi-compact map                              |
@@ -168,7 +168,7 @@ These extend the EGA II terminology table; they first appear in the §III.1 cali
 | filtration                                         | filtration                                     |
 | fini (morphisme de préschémas formels)             | finite (morphism of formal preschemes)         |
 | foncteur représentable                             | representable functor                          |
-| foncteur covariant canonique `C → Hom(C°, Ens)`    | canonical covariant functor `C → Hom(C°, Set)` |
+| foncteur covariant canonique $C \to \operatorname{Hom}(C^{\circ}, \mathrm{Ens})$    | canonical covariant functor $C \to \operatorname{Hom}(C^{\circ}, \mathrm{Set})$ |
 | genre arithmétique                                 | arithmetic genus                               |
 | géométriquement connexe                            | geometrically connected                        |
 | localement constructible                           | locally constructible                          |
@@ -178,7 +178,7 @@ These extend the EGA II terminology table; they first appear in the §III.1 cali
 | `C`-objet en groupes                               | `C`-object in groups                           |
 | `C`-groupe, `C`-anneau, `C`-module                 | `C`-group, `C`-ring, `C`-module                |
 | objet final d'une catégorie                        | final object of a category                     |
-| partie propre (sur 𝔇)                              | proper part (over `𝔇`)                         |
+| partie propre (sur $\mathfrak{D}$)                              | proper part (over $\mathfrak{D}$)                         |
 | pleine (sous-catégorie)                            | full (subcategory)                             |
 | pleinement fidèle (foncteur)                       | fully faithful (functor)                       |
 | polynôme de Hilbert                                | Hilbert polynomial                             |
