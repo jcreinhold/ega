@@ -49,10 +49,10 @@ EGA IV cites several external classics. We extend the EGA III table:
 | $(Bourbaki, Alg., \cdots)$ | N. Bourbaki, _Éléments de mathématique : Algèbre_ (Hermann, 1942-). |
 | $(Bourbaki, Top. g\acute{e}n., \cdots)$ | N. Bourbaki, _Éléments de mathématique : Topologie générale_ (Hermann, 1940-). |
 
-Bourbaki citations are rendered in the EGA form `(Bourbaki, Alg. comm., chap. II, §3, n$^{\circ}$ 4)` or shorter
-`(Bourbaki, Alg. comm., II, §3, n$^{\circ}$ 4)` when that matches the source. Page numbers are kept when present;
-chapter/section/n$^{\circ}$ structure is preserved verbatim. Where EGA spells out the title (e.g. "Bourbaki, _Algèbre
-commutative_, chap. II, §3, n$^{\circ}$ 4"), we keep the spelling and add the bracketed key in the bibliography.
+Bourbaki citations are rendered in the EGA form `(Bourbaki, Alg. comm., chap. II, §3, nÂ° 4)` or shorter
+`(Bourbaki, Alg. comm., II, §3, nÂ° 4)` when that matches the source. Page numbers are kept when present;
+chapter/section/nÂ° structure is preserved verbatim. Where EGA spells out the title (e.g. "Bourbaki, _Algèbre
+commutative_, chap. II, §3, nÂ° 4"), we keep the spelling and add the bracketed key in the bibliography.
 
 The Nagata text *Local Rings* (Interscience, 1962) is cited as $(Nagata, \cdots)$ with chapter and section number.
 Zariski- Samuel *Commutative Algebra* (Van Nostrand, 1958-1960) is cited as $(Zariski-Samuel, \cdots)$ with volume,

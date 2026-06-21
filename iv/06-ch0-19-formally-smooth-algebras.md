@@ -377,10 +377,10 @@ $$
 
 where the horizontal arrows are *surjective*, and since $gr^{0}(w) = w_{0}$ is the *identity*, so is $gr^{n}(w)$, which
 a fortiori is bijective. The $\mathfrak{J}$-preadic filtration on $M$ being finite since $\mathfrak{J}$ is nilpotent,
-one concludes that $w$ is bijective (Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1).
+one concludes that $w$ is bijective (Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 3 of th. 1).
 
 (ii) It suffices to show that for every maximal ideal $\mathfrak{m}$ of $A$, the endomorphism $w_{\mathfrak{m}}$ of
-$M_{\mathfrak{m}}$ is bijective (Bourbaki, Alg. comm., chap. II, §3, n$^{\circ}$ 3, th. 1) and since $\mathfrak{J}
+$M_{\mathfrak{m}}$ is bijective (Bourbaki, Alg. comm., chap. II, §3, nÂ° 3, th. 1) and since $\mathfrak{J}
 A_{\mathfrak{m}} \subset \mathfrak{m} A_{\mathfrak{m}}$ and $A_{\mathfrak{m}}/\mathfrak{J} A_{\mathfrak{m}} =
 (A/\mathfrak{J})_{\mathfrak{m}}$, one is reduced to proving the proposition when $A$ is a *local* ring. Moreover, one
 may suppose that $\mathfrak{J}$ is the maximal ideal of $A$, for if $u_{0}$ is left-invertible,
@@ -396,7 +396,7 @@ consequently invertible. Now, the $(A/\mathfrak{J})$-vector space $M/\mathfrak{J
 an $A$-module $L$ of finite type and an $A$-homomorphism $f : L \to M$ such that the homomorphism $f_{0} :
 L/\mathfrak{J}L \to M/\mathfrak{J}M$ deduced from $f$ by passage to the quotients is bijective. Since $M$ is of finite
 type, one concludes first of all that $f$ is *surjective* by Nakayama's lemma (Bourbaki, Alg. comm., chap. II, §3,
-n$^{\circ}$ 2, cor. 1 of prop. 4); furthermore, if $g = u \circ f$, the homomorphism $g_{0} : L/\mathfrak{J}L \to
+nÂ° 2, cor. 1 of prop. 4); furthermore, if $g = u \circ f$, the homomorphism $g_{0} : L/\mathfrak{J}L \to
 N/\mathfrak{J}N$ deduced by passage to the quotients is left-invertible, and since here $L$ is free, the remark at the
 beginning proves that $g$ is itself left-invertible; but this clearly entails that $f$ is *injective*, which completes
 the proof.
@@ -454,7 +454,7 @@ $A_{\mathfrak{p}}$-module $N_{\mathfrak{p}}$ is written $u^{*} = v^{*}/f$, where
 is a linear form on the $A$-module $N$. It is clear that c) implies b), and it remains to see that a) implies d). Now,
 since $N$ is of finite presentation, $(\operatorname{Hom}_{A}(N, M))_{\mathfrak{p}}$ is canonically identified with
 $\operatorname{Hom}_{A_{\mathfrak{p}}}(N_{\mathfrak{p}}, M_{\mathfrak{p}})$ (Bourbaki, Alg. comm., chap. II, §2,
-n$^{\circ}$ 7, prop. 19). If $w_{\mathfrak{p}}$ is a left inverse of $u_{\mathfrak{p}}$, there exists thus a
+nÂ° 7, prop. 19). If $w_{\mathfrak{p}}$ is a left inverse of $u_{\mathfrak{p}}$, there exists thus a
 homomorphism $w : N \to M$ and an element $f \in A - \mathfrak{p}$ such that $w_{\mathfrak{p}} = w \otimes (1/f)
 1_{A_{\mathfrak{p}}}$. The relation $w_{\mathfrak{p}} \circ u_{\mathfrak{p}} = 1_{M_{\mathfrak{p}}}$ thus also reads $(w
 \circ u) \otimes 1_{A_{\mathfrak{p}}} = f \cdot 1_{M_{\mathfrak{p}}}$. But since $M$ is an $A$-module of finite type,
@@ -496,14 +496,14 @@ then means that $u$ is injective and that the quotient module $P = N/u(M)$ is pr
 direct factor of $N$. Note further that since $M$ is of finite type, $P$ is of *finite presentation*. This being so:
 
 (i) The condition is obviously necessary. Conversely, if it is satisfied, one knows that $u$ is injective (Bourbaki,
-Alg. comm., chap. II, §3, n$^{\circ}$ 3, th. 1) and since $P_{\mathfrak{m}} =
+Alg. comm., chap. II, §3, nÂ° 3, th. 1) and since $P_{\mathfrak{m}} =
 N_{\mathfrak{m}}/u_{\mathfrak{m}}(M_{\mathfrak{m}})$ is projective for every $\mathfrak{m}$, one knows that this implies
-that $P$ is projective (*loc. cit.*, §5, n$^{\circ}$ 2, th. 1).
+that $P$ is projective (*loc. cit.*, §5, nÂ° 2, th. 1).
 
 (ii) Here again, the condition is trivially necessary. Conversely, if it is satisfied, one knows that $u$ is injective
 $(0_{I}, 6.4.1)$ and since $P \otimes_{A} A' = Coker(u \otimes 1)$ is projective, hence flat, one deduces that $P$ is a
 flat $A$-module $(0_{I}, 6.6.3)$, hence projective since it is of finite presentation (Bourbaki, Alg. comm., chap. II,
-§5, n$^{\circ}$ 2, cor. 2 of th. 1).
+§5, nÂ° 2, cor. 2 of th. 1).
 
 <!-- original page 174 -->
 
@@ -872,9 +872,9 @@ homomorphisms under more general conditions than those of definition `(19.3.1)`.
 *Let $A$ be a topological ring, $B$ a formally smooth $A$-algebra. Let $C$ be a topological $A$-algebra, $\mathfrak{J}$
 an ideal of $C$, satisfying the following conditions:*
 
-*$1^{\circ}$ $C$ is metrizable and complete.*
+*1Â° $C$ is metrizable and complete.*
 
-*$2^{\circ}$ $\mathfrak{J}$ is closed and the sequence $(\mathfrak{J}^{n})$ tends to `0`.*
+*2Â° $\mathfrak{J}$ is closed and the sequence $(\mathfrak{J}^{n})$ tends to `0`.*
 
 *Then every continuous $A$-homomorphism $u : B \to C/\mathfrak{J}$ factors as $B \xrightarrow{v} C \to C/\mathfrak{J}$,
 where $v$ is a continuous $A$-homomorphism.*
@@ -980,13 +980,13 @@ All the conditions of `(19.3.10)` are indeed satisfied $(0_{I}, 7.3.5)$.
 *Let $A$ be a topological ring, $B$ a formally smooth $A$-algebra, $C$ a topological $A$-algebra, $\mathfrak{J}$ an
 ideal of $C$, satisfying the following conditions:*
 
-*$1^{\circ}$ There exists a fundamental system of open ideals $\mathfrak{L}_{\lambda}$ of $C$ such that the $C_{\lambda}
+*1Â° There exists a fundamental system of open ideals $\mathfrak{L}_{\lambda}$ of $C$ such that the $C_{\lambda}
 = C/\mathfrak{L}_{\lambda}$ are Artinian rings and that the canonical homomorphism $C \to \lim\leftarrow C_{\lambda}$ is
 an isomorphism of topological rings.*
 
-*$2^{\circ}$ The ideal $\mathfrak{J}$ is closed in $C$ and topologically nilpotent.*
+*2Â° The ideal $\mathfrak{J}$ is closed in $C$ and topologically nilpotent.*
 
-*$3^{\circ}$ The square of every open ideal of $B$ is open.*
+*3Â° The square of every open ideal of $B$ is open.*
 
 *Under these conditions, every continuous $A$-homomorphism $u : B \to C/\mathfrak{J}$ factors as $B \to C \to
 C/\mathfrak{J}$, where $v$ is a continuous $A$-homomorphism.*
@@ -1030,9 +1030,9 @@ $C_{\lambda} \to C_{\lambda}/\mathfrak{J}_{\lambda}$. One then concludes as in `
 
 *Let $A$ be a topological ring, $B$ a topological $A$-algebra; suppose that there exist two decreasing filtering
 families $(\mathfrak{J}_{\alpha})_{\alpha \in I}$, $(\mathfrak{K}_{\alpha})_{\alpha \in I}$ of ideals of $A$ and $B$
-respectively, such that: $1^{\circ}$ $(\mathfrak{J}_{\alpha})$ tends to `0` in $A$ and $(\mathfrak{K}_{\alpha})$ tends
-to `0` in $B$; $2^{\circ}$ for every $\alpha \in I$ one has $\mathfrak{J}_{\alpha} B \subset \mathfrak{K}_{\alpha}$ (so
-that $B/\mathfrak{K}_{\alpha}$ is a topological $(A/\mathfrak{J}_{\alpha})$-algebra); $3^{\circ}$ for every $\alpha \in
+respectively, such that: 1Â° $(\mathfrak{J}_{\alpha})$ tends to `0` in $A$ and $(\mathfrak{K}_{\alpha})$ tends
+to `0` in $B$; 2Â° for every $\alpha \in I$ one has $\mathfrak{J}_{\alpha} B \subset \mathfrak{K}_{\alpha}$ (so
+that $B/\mathfrak{K}_{\alpha}$ is a topological $(A/\mathfrak{J}_{\alpha})$-algebra); 3Â° for every $\alpha \in
 I$, $B/\mathfrak{K}_{\alpha}$ is a formally smooth $(A/\mathfrak{J}_{\alpha})$-algebra. Then $B$ is a formally smooth
 $A$-algebra.*
 
@@ -1145,18 +1145,18 @@ $A$-trivial. Q.E.D.
 $A$-algebra equipped with the topology deduced from that of $A$. Suppose furthermore that $A'$ is a faithfully flat
 $A$-module, and that one of the following conditions is satisfied:*
 
-*$1^{\circ}$ There exists a fundamental system $(\mathfrak{J}_{\lambda})$ of open ideals of $A$ and a fundamental system
+*1Â° There exists a fundamental system $(\mathfrak{J}_{\lambda})$ of open ideals of $A$ and a fundamental system
 $(\mathfrak{M}_{\lambda})$ of open ideals of $B$, having the same set of indices and such that, for every $\lambda$, one
 has $\mathfrak{J}_{\lambda} B \subset \mathfrak{M}_{\lambda}$ and that $B/\mathfrak{M}_{\lambda}$ is a projective
 $(A/\mathfrak{J}_{\lambda})$-module of finite type.*
 
-*$2^{\circ}$ $A'$ is a projective $A$-module of finite type.*
+*2Â° $A'$ is a projective $A$-module of finite type.*
 
 *Then, for $B' = B \otimes_{A} A'$ (equipped with the tensor product topology) to be a formally smooth $A'$-algebra, it
 is necessary and sufficient that $B$ be a formally smooth $A$-algebra.*
 
 The sufficiency of the condition is contained in `(19.3.5, (iii))`, without any further hypothesis on $B$ or $A'$. To
-prove the converse, we shall apply criterion `(19.4.5)`; under hypothesis $2^{\circ}$, we still denote by
+prove the converse, we shall apply criterion `(19.4.5)`; under hypothesis 2Â°, we still denote by
 $(\mathfrak{M}_{\lambda})$ a fundamental system of open ideals of $B$, and, for every $\lambda$, by
 $\mathfrak{J}_{\lambda}$ an open ideal of $A$ such that $\mathfrak{J}_{\lambda} B \subset \mathfrak{M}_{\lambda}$; in
 both cases, we shall set $A_{\lambda} = A/\mathfrak{J}_{\lambda}$, $B_{\lambda} = B/\mathfrak{M}_{\lambda}$,
@@ -1172,8 +1172,8 @@ is the canonical homomorphism, and $c$ the class of $f \circ (\phi \times \phi)$
 $H^{2}_{A_{\mu}}(B_{\mu}, L)^{s}$, $c'$ is the canonical image of $c$. Now, if $P_{\bullet}$ is the complex relative to
 the rings $A_{\mu}$ and $B_{\mu}$ defined in `(18.4.5)`, serving for the computation of $H^{2}_{A_{\mu}}(B_{\mu},
 L)^{s}$, the analogous complex relative to the rings $A'_{\mu}$ and $B'_{\mu}$ is evidently $P_{\bullet} \otimes_{A}
-A'$; under hypothesis $1^{\circ}$, the construction of $P_{\bullet}$ shows that this is an $A_{\mu}$-projective module
-of finite type. One concludes therefore from Bourbaki, Alg., chap. II, 3rd ed., §5, n$^{\circ}$ 3, prop. 7 that, under
+A'$; under hypothesis 1Â°, the construction of $P_{\bullet}$ shows that this is an $A_{\mu}$-projective module
+of finite type. One concludes therefore from Bourbaki, Alg., chap. II, 3rd ed., §5, nÂ° 3, prop. 7 that, under
 both hypotheses, one has $\operatorname{Hom}_{A'_{\mu}}(P_{\bullet} \otimes_{A} A', L \otimes_{A} A') =
 (\operatorname{Hom}_{A_{\mu}}(P_{\bullet}, L)) \otimes_{A} A'$ up to a canonical isomorphism; since $A'$ is a flat
 $A$-module, one has therefore `(18.4.5)`
@@ -1408,7 +1408,7 @@ $\phi_{n}$ is injective, which completes the proof that a) implies b).
 existence of a surjective $A$-homomorphism of algebras $\mathit{v} : F_{n} \to E_{n}$ such that $gr^{j}(\mathit{v}) =
 \phi_{j}$ for every $j$; since $\phi_{j}$ is bijective for every $j$ and the filtrations of $F_{n}$ and $E_{n}$ are
 finite, one concludes that $\mathit{v}$ is bijective
-`(Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1)`. Now let $G$ be a discrete topological
+`(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 3 of th. 1)`. Now let $G$ be a discrete topological
 $A$-algebra, $\mathfrak{N}$ an ideal of square zero in $G$, $f : B \to G/\mathfrak{N}$ a continuous $A$-homomorphism of
 algebras. Since $G$ is discrete, there exists an integer $m$ such that $f$ vanishes on $\mathfrak{J}^{m}$, so $f$
 factors as $B \to E_{m} \to G/\mathfrak{N}$, where one takes $n = 2m$. One thus obtains by composition a continuous
@@ -1447,7 +1447,7 @@ bijective for
 
 <!-- original page 189 -->
 
-every $n$ `(Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1)`; whence c) by passage to the
+every $n$ `(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 3 of th. 1)`; whence c) by passage to the
 projective limit.
 
 **Remark (19.5.5).**
@@ -1643,7 +1643,7 @@ and $g_{\alpha \beta}$; the surjectivity of $\mathit{v}_{\alpha \beta}$ follows 
 homomorphisms $gr^{0}(\mathit{v}_{\alpha \beta})$ and $gr^{1}(\mathit{v}_{\alpha \beta})$, since this entails that
 $gr(\mathit{v}_{\alpha \beta})$ is surjective (the algebra $gr^{\bullet}(E_{\alpha,n})$ being generated by
 $gr^{0}(E_{\alpha,n})$ and $gr^{1}(E_{\alpha,n})$), and since the filtrations considered are finite, one may apply
-`Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1`.
+`Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 3 of th. 1`.
 
 (ii) The hypothesis that $B$ is preadmissible means that one may suppose all the $\mathfrak{b}_{\alpha}$ contained in a
 single $\mathfrak{b}_{\alpha_{0}}$ whose powers tend to `0`. This entails in particular that the kernel of the
@@ -1694,9 +1694,9 @@ homomorphism $\mathit{v}_{\alpha \beta}$ satisfying the conditions of `(19.5.6.3
 
 $$ w_{\beta \lambda} : E_{\lambda,n} \to F_{\beta,n} $$
 
-*such that: $1^{\circ}$ $gr^{0}(w_{\beta \lambda}) : C_{\lambda} \to C_{\beta}$ and $gr^{1}(w_{\beta \lambda}) :
+*such that: 1Â° $gr^{0}(w_{\beta \lambda}) : C_{\lambda} \to C_{\beta}$ and $gr^{1}(w_{\beta \lambda}) :
 \mathfrak{J}_{\lambda}/\mathfrak{J}^{2}_{\lambda} \to \mathfrak{J}_{\beta}/\mathfrak{J}^{2}_{\beta}$ are the transition
-homomorphisms; $2^{\circ}$ the composite $E_{\lambda,n} \to F_{\beta,n} \to E_{\alpha,n}$ is the transition
+homomorphisms; 2Â° the composite $E_{\lambda,n} \to F_{\beta,n} \to E_{\alpha,n}$ is the transition
 homomorphism.*
 
 Apply lemma `(19.5.6.3, (ii))` with $\gamma = \beta$, which gives a $\delta \geq \beta$ and a
@@ -1887,10 +1887,10 @@ The proof of theorem `(19.5.3)` is thus complete.
 
 *Let $A$ be a topological ring, $B$ a topological $A$-algebra, $(\mathfrak{b}_{\lambda})$ a fundamental system of open
 ideals in $B$, $\mathfrak{J}$ an ideal of $B$, $C = B/\mathfrak{J}$ the quotient topological $A$-algebra. Set
-$C_{\lambda} = B/(\mathfrak{b}_{\lambda} + \mathfrak{J})$. Assume that: $1^{\circ}$ for every $n$, the topology induced
+$C_{\lambda} = B/(\mathfrak{b}_{\lambda} + \mathfrak{J})$. Assume that: 1Â° for every $n$, the topology induced
 on $\mathfrak{J}^{n}$ by that of $B$ is also the topology of the $C$-module $\mathfrak{J}^{n}$ deduced from the topology
 of $C$ `(19.0.2)` (this condition will be satisfied in particular if $B$ is Noetherian and its topology preadic $(0_{I},
-7.3.2)$); $2^{\circ}$ $C$ is a formally smooth $A$-algebra. Under these conditions:*
+7.3.2)$); 2Â° $C$ is a formally smooth $A$-algebra. Under these conditions:*
 
 *(i) If $B$ is a formally smooth $A$-algebra, then, for every $\lambda$, $(\mathfrak{J}/\mathfrak{J}^{2}) \otimes_{C}
 C_{\lambda}$ is a projective $C_{\lambda}$-module.*
@@ -1932,10 +1932,10 @@ $(\mathfrak{J}/\mathfrak{J}^{2}) \otimes_{C} C_{\lambda}$ is a projective $C_{\l
 $(\mathfrak{J}/\mathfrak{J}^{2}) \otimes_{C} (C/\mathfrak{r}^{n})$ is a $(C/\mathfrak{r}^{n})$-module that is projective
 (hence flat) for every $n$; one concludes that $\mathfrak{J}/\mathfrak{J}^{2}$ is a flat $C$-module $(0_{III}, 10.2.2)$,
 hence projective since it is of finite presentation
-`(Bourbaki, Alg. comm., chap. II, §5, n$^{\circ}$ 2, cor. 2 of th. 1)`. On the other hand, the $C$-modules
+`(Bourbaki, Alg. comm., chap. II, §5, nÂ° 2, cor. 2 of th. 1)`. On the other hand, the $C$-modules
 $S_{C}(\mathfrak{J}/\mathfrak{J}^{2})$ and $gr^{\bullet}_{\mathfrak{J}}(B)$ are of finite type, and one knows that when
 $C$ is a Zariski ring, it amounts to the same thing to say that $\phi_{n}$ is bijective or that $\phi_{\lambda}$ is
-bijective `(Bourbaki, Alg. comm., chap. III, §3, n$^{\circ}$ 5, prop. 9)`, hence (ii) is equivalent to (ii').
+bijective `(Bourbaki, Alg. comm., chap. III, §3, nÂ° 5, prop. 9)`, hence (ii) is equivalent to (ii').
 
 ## 19.6. Case of algebras over a field
 
@@ -1950,7 +1950,7 @@ The necessity of the condition will be established in `(19.6.5.1)` (and naturall
 confine ourselves here to proving that the condition is sufficient. Let us distinguish two cases:
 
 I. — *$K$ is a separable extension of finite type of $k$.* One then knows
-`(Bourbaki, Alg., chap. V, §9, n$^{\circ}$ 3, th. 2)` that there exists a pure subextension $K' = k(T_{1}, \cdots,
+`(Bourbaki, Alg., chap. V, §9, nÂ° 3, th. 2)` that there exists a pure subextension $K' = k(T_{1}, \cdots,
 T_{n})$ of $K$ such that $K$ is a finite separable algebraic extension of $K'$. Taking `(19.3.5, (ii))` into account,
 one may therefore restrict to the case where $K = K'$ or to the case where $K$ is finite algebraic over $k$. In the
 first case, one knows that $A = k[T_{1}, \cdots, T_{n}]$ is a formally smooth $k$-algebra `(19.3.3)`, and so is
@@ -2026,7 +2026,7 @@ a system of elements of $\mathfrak{m}$ such that the classes mod $\mathfrak{m}^{
 $k$) of $\mathfrak{m}/\mathfrak{m}^{2}$. Since $A$ is complete, there is then a continuous ring homomorphism $u :
 k[[T_{1}, \cdots, T_{n}]] \to A$ such that $u$ is equal to $f$ on $k$ and $u(T_{i}) = x_{i}$ for every $i$, and this
 homomorphism is surjective by virtue of the choice of the $x_{i}$
-`(Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 9, prop. 11)`.
+`(Bourbaki, Alg. comm., chap. III, §2, nÂ° 9, prop. 11)`.
 
 **Theorem (19.6.4).**
 
@@ -2084,7 +2084,7 @@ preadic topology). Then every field $K$ such that $k \subset K \subset A$ is a s
 
 Indeed, for every finite extension $k'$ of $k$, the ring $K \otimes_{k} k'$ is identified with a subring of $A' = A
 \otimes_{k} k'$; since $A'$ is a regular ring, it is reduced, hence so is $K \otimes_{k} k'$, which proves that $K$ is a
-separable extension of $k$ `(Bourbaki, Alg., chap. VIII, §7, n$^{\circ}$ 3, th. 1)`.
+separable extension of $k$ `(Bourbaki, Alg., chap. VIII, §7, nÂ° 3, th. 1)`.
 
 Note that this proves that the condition of the statement of `(19.6.1)` is necessary.
 
@@ -2125,11 +2125,11 @@ is a separable extension of $k'$.*
 
 Let us first note that if $k'$ is a radicial extension of $k$, there is only one ideal of $A' = A \otimes_{k} k'$ above
 $\mathfrak{m}$, formed of the elements of which some $p^{h}$-th power ($p$ the characteristic exponent of $k$) is in
-$\mathfrak{m}$ for some suitable $h$ `(Bourbaki, Alg. comm., chap. V, §2, n$^{\circ}$ 3, lemma 4)`; $A'$ is thus a local
+$\mathfrak{m}$ for some suitable $h$ `(Bourbaki, Alg. comm., chap. V, §2, nÂ° 3, lemma 4)`; $A'$ is thus a local
 ring, and so is $K \otimes_{k} k' = (A \otimes_{k} k')/(\mathfrak{m} \otimes_{k} k')$; moreover the residue fields of
 these two rings are identical. Recall on the other hand that if $K$ is a separable extension of $k$, then, for every
 finite extension `k''` of $k$, $K \otimes_{k} k''$ is a direct composite of fields
-`(Bourbaki, Alg., chap. VIII, §7, n$^{\circ}$ 3, cor. 1 of th. 1)`, and consequently $\mathfrak{m} \otimes_{k} k''$ is
+`(Bourbaki, Alg., chap. VIII, §7, nÂ° 3, cor. 1 of th. 1)`, and consequently $\mathfrak{m} \otimes_{k} k''$ is
 the radical of $A \otimes_{k} k''$, and the field components of $K \otimes_{k} k''$ are the residue fields at the
 maximal ideals of $A \otimes_{k} k''$; in
 
@@ -2279,7 +2279,7 @@ I) *$K$ is a separable extension of $k$.* By virtue of `(19.6.4)`, $B_{0}$ is $k
 ring $K[[T_{1}, \cdots, T_{n}]]$. When $B_{0} = K$, the lemma has already been proved $(0_{III}, 10.3.1)$; let $C$ be a
 complete Noetherian local ring which is a flat $A$-module and such that $C \otimes_{A} k$ is isomorphic to $K$. For $n
 \geq 1$, it suffices to take (with the preceding notation) $B = C[[T_{1}, \cdots, T_{n}]]$; one indeed knows
-`(Bourbaki, Alg. comm., chap. III, §3, n$^{\circ}$ 4, cor. 3 of th. 1)` that $B$ is a flat $C$-module, hence also a flat
+`(Bourbaki, Alg. comm., chap. III, §3, nÂ° 4, cor. 3 of th. 1)` that $B$ is a flat $C$-module, hence also a flat
 $A$-module, and on the other hand, it is immediate that $C[[T_{1}, \cdots, T_{n}]] \otimes_{A} k$ is isomorphic to
 $(C/\mathfrak{m}C)[[T_{1}, \cdots, T_{n}]] = B_{0}$.
 
@@ -2300,7 +2300,7 @@ since
 <!-- original page 202 -->
 
 $W(k)/pW(k) = k$, $pW(k)$ is the maximal ideal of $W(k)$, which entails that this last ring is a complete discrete
-valuation ring `(Bourbaki, Alg. comm., chap. VI, §3, n$^{\circ}$ 5, prop. 9)`. By `(19.7.1.1)` one sees in addition
+valuation ring `(Bourbaki, Alg. comm., chap. VI, §3, nÂ° 5, prop. 9)`. By `(19.7.1.1)` one sees in addition
 (since $k$ is separable over $P$, hence a formally smooth $P$-algebra `(19.6.1)`) that $W(k)$ is a formally smooth
 $W(P)$-algebra. The continuous $W(P)$-homomorphism $W(k) \to k$ thus factors as $W(k) \to A \to k$ `(19.3.11)`, which
 allows one to consider $A$ as a topological $W(k)$-algebra. Applying now case I) to $B_{0}$ considered as a $P$-algebra
@@ -2335,7 +2335,7 @@ $A$-module. Let $u : N \to M$ be an $A$-homomorphism; if $u \otimes 1 : N \otime
 The associated graded modules being taken relative to the $\mathfrak{J}$-preadic filtrations, it follows from the
 hypotheses on $M$ and $N$ relative to the $\mathfrak{J}$-preadic topologies that it suffices to prove that $gr(u) :
 gr_{\bullet}(N) \to gr_{\bullet}(M)$ is bijective
-`(Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1)`. Now, one has a commutative diagram
+`(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 3 of th. 1)`. Now, one has a commutative diagram
 
 $$
 \begin{array}{ccc}
@@ -2358,8 +2358,8 @@ $gr(u)$ is bijective.
 
 *Let $A$ be a Noetherian ring, $\mathfrak{J}$ an ideal of $A$, $B$, $B'$ two $A$-algebras which are Noetherian local
 rings, the homomorphisms $A \to B$, $A \to B'$ being continuous for the $\mathfrak{J}$-preadic topology on $A$. Suppose
-that: $1^{\circ}$ $B$ and $B'$ are complete for the $\mathfrak{J}$-preadic topologies; $2^{\circ}$ $B$ is a formally
-smooth $A$-algebra; $3^{\circ}$ $B'$ is a flat $A$-module. Set $A_{0} = A/\mathfrak{J}$, and let $u_{0} : B \otimes_{A}
+that: 1Â° $B$ and $B'$ are complete for the $\mathfrak{J}$-preadic topologies; 2Â° $B$ is a formally
+smooth $A$-algebra; 3Â° $B'$ is a flat $A$-module. Set $A_{0} = A/\mathfrak{J}$, and let $u_{0} : B \otimes_{A}
 A_{0} \to B' \otimes_{A} A_{0}$ be an $A_{0}$-isomorphism; then there exists an $A$-isomorphism $u : B \to B'$ such that
 $u_{0} = u \otimes 1$ (which entails that $B'$ is a formally smooth $A$-algebra and $B$ a flat $A$-module).*
 
@@ -2374,7 +2374,7 @@ entails the same for $u$ by virtue of `(19.7.1.4)`.
 **(19.7.1.6)** *End of the proof.* To complete the proof of `(19.7.1)`, one must show that a) implies b); one already
 knows that a) entails that $B_{0}$ is a formally smooth $k$-algebra `(19.3.5, (iii))`, so everything boils down to
 proving that $B$ is a flat $A$-module. It amounts to the same to establish that $\hat{B}$ is a flat $\hat{A}$-module
-`(Bourbaki, Alg. comm., chap. III, §5, n$^{\circ}$ 4, prop. 4)`, and one knows that $\hat{B}$ is a formally smooth
+`(Bourbaki, Alg. comm., chap. III, §5, nÂ° 4, prop. 4)`, and one knows that $\hat{B}$ is a formally smooth
 $\hat{A}$-algebra `(19.3.6)`; one may therefore restrict to the case where $A$ and $B$ are complete. Since $B_{0}$ is a
 formally smooth $k$-algebra, it is a regular ring `(19.6.5)` and complete $(0_{I}, 6.3.5)$; applying `(19.7.1.3)`, one
 sees that there exists an $A$-algebra $B'$ which is a complete Noetherian local ring and a flat $A$-module, a local
@@ -2418,7 +2418,7 @@ $A_{0}$-module by virtue of the hypothesis and of `(19.7.1)`; since one has a $k
 $A_{0}$-isomorphism $u : B \otimes_{A} A_{0} \xrightarrow{\sim} B_{0}$ such that $u_{00} = u \otimes 1$. As for the
 uniqueness assertion, note that the ideals $\mathfrak{J}B$ (resp. $\mathfrak{J}B'$) are closed in $B$ (resp. $B'$)
 $(0_{I}, 7.3.5)$, hence $B$ and $B'$ are separated and complete for the $\mathfrak{J}$-preadic topologies
-`(Bourbaki, Top. gén., chap. III, 3rd ed., §3, n$^{\circ}$ 5, cor. 2 of prop. 9)`; by hypothesis, one has an
+`(Bourbaki, Top. gén., chap. III, 3rd ed., §3, nÂ° 5, cor. 2 of prop. 9)`; by hypothesis, one has an
 $A_{0}$-isomorphism $v_{0} : B \otimes_{A} A_{0} \xrightarrow{\sim} B' \otimes_{A} A_{0}$ such that $u' \circ v_{0} =
 u$; since $B$ is a formally smooth $A$-algebra and $B'$ a flat $A$-module, one may apply `(19.7.1.5)`, whence the
 existence of the $A$-isomorphism $v$ answering the question.
@@ -2489,11 +2489,11 @@ of $\mathbb{Z}$. We call **complete prime local ring** the completion of a prime
 
 The prime local rings are therefore of two kinds:
 
-$1^{\circ}$ Those which correspond to the maximal ideals $p\mathbb{Z}$ where $p \neq 0$ is a prime number;
+1Â° Those which correspond to the maximal ideals $p\mathbb{Z}$ where $p \neq 0$ is a prime number;
 $\mathbb{Z}_{p\mathbb{Z}}$ is a discrete valuation ring, whose completion is *the ring of $p$-adic integers*, usually
 denoted $\mathbb{Z}_{p}$ $^{(1)}$.
 
-$2^{\circ}$ For the prime ideal $p\mathbb{Z} = (0)$, $\mathbb{Z}_{(0)}$ is the field of rational numbers $\mathbb{Q}$,
+2Â° For the prime ideal $p\mathbb{Z} = (0)$, $\mathbb{Z}_{(0)}$ is the field of rational numbers $\mathbb{Q}$,
 identical to its completion (the topology being naturally the topology of Noetherian local ring, hence here the discrete
 topology).
 
@@ -2528,18 +2528,18 @@ latter ring.
 of the residue fields of $P$ and $A$. We say that $A$ is a **Cohen ring** if it is a Cohen $P$-algebra, that is to say
 `(19.8.1)` if:*
 
-*$1^{\circ}$ $A$ is Noetherian and complete.*
+*1Â° $A$ is Noetherian and complete.*
 
-*$2^{\circ}$ $A$ is a flat $P$-module (which is also equivalent to saying that $A$ is a flat $\hat{P}$-module
-`(Bourbaki, Alg. comm., chap. III, §5, n$^{\circ}$ 4, prop. 4)`).*
+*2Â° $A$ is a flat $P$-module (which is also equivalent to saying that $A$ is a flat $\hat{P}$-module
+`(Bourbaki, Alg. comm., chap. III, §5, nÂ° 4, prop. 4)`).*
 
-*$3^{\circ}$ $A/pA$ is a field (necessarily separable over the residue field of $P$, this field being prime).*
+*3Â° $A/pA$ is a field (necessarily separable over the residue field of $P$, this field being prime).*
 
 If $p = 0$, these conditions are equivalent to saying that $A$ is a field of characteristic `0`. If $p > 0$, one
-necessarily has $pA \neq 0$; condition $3^{\circ}$ means that $pA$ is the maximal ideal $\mathfrak{m}$ of $A$; condition
-$2^{\circ}$ means that $p$ is $A$-regular, since $P$ is a discrete valuation ring $(0_{I}, 6.3.4)$. Hence $A$ is a
+necessarily has $pA \neq 0$; condition 3Â° means that $pA$ is the maximal ideal $\mathfrak{m}$ of $A$; condition
+2Â° means that $p$ is $A$-regular, since $P$ is a discrete valuation ring $(0_{I}, 6.3.4)$. Hence $A$ is a
 regular ring `(17.1.1, d)` of dimension `1`, and consequently a complete discrete valuation ring by virtue of
-$1^{\circ}$; in summary:
+1Â°; in summary:
 
 **Proposition (19.8.5).**
 
@@ -2594,24 +2594,24 @@ Witt vectors of infinite length over $K$.*
 $W[[T_{1}, \cdots, T_{n}]]$ (and in particular $A$ is isomorphic to a quotient of a complete regular local ring
 `(17.3.8)`). If $A$ contains a field, it is isomorphic to a quotient ring of $k[[T_{1}, \cdots, T_{n}]]$.*
 
-*(ii) Suppose in addition that $A$ is integral. Then there exists a subring $B$ of $A$ such that: $1^{\circ}$ $B$ is
+*(ii) Suppose in addition that $A$ is integral. Then there exists a subring $B$ of $A$ such that: 1Â° $B$ is
 isomorphic to a formal power series ring over a ring $C$ which is a field or a Cohen ring (which entails that $B$ is a
-complete regular local ring `(17.3.8)`); $2^{\circ}$ $B$ has the same residue field as $A$ and the injection $B \to A$
-is a local homomorphism; $3^{\circ}$ $A$ is a finite $B$-algebra.*
+complete regular local ring `(17.3.8)`); 2Â° $B$ has the same residue field as $A$ and the injection $B \to A$
+is a local homomorphism; 3Â° $A$ is a finite $B$-algebra.*
 
 Let $\mathfrak{m}$ be the maximal ideal of $A$. There exists a Cohen ring $W$ whose residue field is isomorphic to $k$
 `(19.8.6, (ii))`; one therefore has a local homomorphism $W \to A/\mathfrak{m}$, which consequently factors as $W \to A
 \to A/\mathfrak{m}$, where $u$ is a local homomorphism `(19.8.6, (i))`. For every finite family $(x_{i})_{1 \leq i \leq
 n}$ of elements of $\mathfrak{m}$, there then exists a local homomorphism $v : W[[T_{1}, \cdots, T_{n}]] \to A$
 extending $u$ and such that $v(T_{i}) = x_{i}$ for every $i$
-`(Bourbaki, Alg. comm., chap. III, §4, n$^{\circ}$ 5, prop. 6)`. When $A$ contains a field, it contains a prime field
+`(Bourbaki, Alg. comm., chap. III, §4, nÂ° 5, prop. 6)`. When $A$ contains a field, it contains a prime field
 $P$, of which $k$ is a (necessarily separable) extension, and consequently $A$ contains a field isomorphic to $k$
 `(19.6.2)`; one may then replace $W$ by $k$ in the preceding definition of $v$.
 
 (i) Let us first take for the $x_{i}$ a system of generators of $\mathfrak{m}$. Since $W$ has the same residue field as
 $A$, and the classes of the $x_{i}$ in the graded ring $gr_{\bullet}(A)$ generate $gr_{\bullet}(A)$ as a $k$-algebra,
 $gr(v) : gr_{\bullet}(W[[T_{1}, \cdots, T_{n}]]) \to gr_{\bullet}(A)$ is surjective; one deduces that $v$ itself is
-surjective `(Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 8, cor. 2 of th. 1)`. Recall that the case where $A$
+surjective `(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 2 of th. 1)`. Recall that the case where $A$
 contains a field has already been seen and only figures here for reference `(19.6.3)`.
 
 (ii) If $A$ contains a field, it contains a field $k'$ isomorphic to $k$ as one has seen; one then considers a system of
@@ -2644,8 +2644,8 @@ which completes the proof.
 <!-- label: 0_IV.19.8.9 -->
 
 *Let $A$ be a complete integral Noetherian local ring containing a field $k_{0}$; let $k$ be the residue field of $A$,
-and suppose that $k$ is finite over $k_{0}$. Then, in the conclusion of `(19.8.8, (ii))`, one may replace $1^{\circ}$
-and $2^{\circ}$ by the condition that $B$ is of the form $k_{0}[[T_{1}, \cdots, T_{m}]]$, the canonical injection $B \to
+and suppose that $k$ is finite over $k_{0}$. Then, in the conclusion of `(19.8.8, (ii))`, one may replace 1Â°
+and 2Â° by the condition that $B$ is of the form $k_{0}[[T_{1}, \cdots, T_{m}]]$, the canonical injection $B \to
 A$ being a $k_{0}$-local homomorphism (for the usual $k_{0}$-algebra structure on $B$).*
 
 Indeed, taking up the proof of `(19.8.8, (ii))`, one defines this time $w : k_{0}[[T_{1}, \cdots, T_{m}]] \to A$ as
@@ -2694,7 +2694,7 @@ A$ (which is necessarily the unique homomorphism of $\mathbb{Z}_{p\mathbb{Z}}$ i
 under $u$ of the element $p \cdot 1$ of $W$ is the element $p \cdot 1$ of $A$; since the element $p \cdot 1$ of $W$
 generates the maximal ideal of this ring, one deduces immediately from the hypothesis that $gr(u) : gr_{\bullet}(W) \to
 gr_{\bullet}(A)$ is surjective, and consequently so is $u$
-`(Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 8, cor. 2 of th. 1)`.
+`(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 2 of th. 1)`.
 
 ## 19.9. Relatively formally smooth algebras
 

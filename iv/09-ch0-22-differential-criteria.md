@@ -335,7 +335,7 @@ $$
 where the horizontal arrows are the canonical homomorphisms, and $w$ arises from $v^{0}$ and $v^{1}$; since $v^{0}$ and
 $v^{1}$ are bijective, the same holds for $w$, and since $A$ and $A'$ are $k$-algebras formally smooth, one deduces from
 `(22.2.2, (i))` that $gr^{\bullet}(u)$ is bijective. But since $A$ and $A'$ are separated and complete, this entails
-that $u$ itself is bijective (Bourbaki, *Alg. comm.*, chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1).
+that $u$ itself is bijective (Bourbaki, *Alg. comm.*, chap. III, §2, nÂ° 8, cor. 3 of th. 1).
 
 (ii) It remains to show that the image of `(22.2.4.1)` is the set of *injective* homomorphisms of $\Upsilon_{K/k}$ into
 $V$; we already know by `(22.2.2, (ii))` that it is contained in this set; it will then suffice to prove the
@@ -521,12 +521,12 @@ satisfied.
 <!-- label: 0_IV.22.3.1 -->
 
 *Let `A_0` be a Noetherian semi-local ring, $A$ a finite `A_0`-algebra (which is thus a Noetherian semi-local ring, cf.
-Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 5, cor. 3 of prop. 9). If $\hat{A}_{0}$ and $\hat{A}$ are the completions of
+Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, cor. 3 of prop. 9). If $\hat{A}_{0}$ and $\hat{A}$ are the completions of
 `A_0` and $A$ for their respective preadic topologies, then, when one equips `A_0`, $A$ and $\hat{A}$ with the discrete
 topologies, $\hat{A}$ is a $A$-algebra formally smooth relative to `A_0` $(0_{IV}, 19.9.1)$.*
 
-We know indeed that $\hat{A} = A \otimes_{A_{0}} \hat{A}_{0}$ (Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 5, cor.
-3 of prop. 9 and chap. III, §3, n$^{\circ}$ 4, th. 1), so the proposition results from $(0_{IV}, 19.9.3)$.
+We know indeed that $\hat{A} = A \otimes_{A_{0}} \hat{A}_{0}$ (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, cor.
+3 of prop. 9 and chap. III, §3, nÂ° 4, th. 1), so the proposition results from $(0_{IV}, 19.9.3)$.
 
 **Proposition (22.3.2).**
 
@@ -551,16 +551,16 @@ over $L$ $(0_{IV}, 19.6.5)$.*
 Let us distinguish two cases.
 
 I) Suppose that $\mathfrak{n}$ contains the maximal ideal $\mathfrak{m}$ of $A$, and consequently $\mathfrak{n} \cap A =
-\mathfrak{m}$. Then $\mathfrak{n}$ is maximal (Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 1, prop. 1) and if
+\mathfrak{m}$. Then $\mathfrak{n}$ is maximal (Bourbaki, *Alg. comm.*, chap. V, §2, nÂ° 1, prop. 1) and if
 $\mathfrak{r}$ is the radical of the semi-local ring $B$, $\hat{C}$ is the separated completion of $B$ for the
 $\mathfrak{n}$-preadic topology, and one of the components of the semi-local ring $\hat{B}$, the completion of $B$ for
-the $\mathfrak{r}$-preadic topology (Bourbaki, *Alg. comm.*, chap. III, §3, n$^{\circ}$ 4, prop. 8); one may therefore
+the $\mathfrak{r}$-preadic topology (Bourbaki, *Alg. comm.*, chap. III, §3, nÂ° 4, prop. 8); one may therefore
 write $\hat{C}_{\mathfrak{q}} = \hat{B}_{\mathfrak{q}'}$, where $\mathfrak{q}'$ is the prime ideal of $\hat{B}$ inverse
 image of $\mathfrak{q}$. Note now that $B$ is a subring of $\hat{B}$ and the hypothesis $\mathfrak{q} \cap C = 0$
 entails $\mathfrak{q}' \cap B = 0$, hence $\hat{B}_{\mathfrak{q}'}$ is also the localization of the ring $\hat{B}
 \otimes_{B} L$ at one of its prime ideals $\mathfrak{q}''$, of which $\mathfrak{q}'$ is the inverse image in $\hat{B}$.
-Moreover one has $\hat{B} = \hat{A} \otimes_{A} B$ (Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 5, cor. of prop. 9
-and chap. III, §3, n$^{\circ}$ 4, th. 1), hence $\hat{B} \otimes_{B} L = \hat{A} \otimes_{A} L$; finally, if
+Moreover one has $\hat{B} = \hat{A} \otimes_{A} B$ (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, cor. of prop. 9
+and chap. III, §3, nÂ° 4, th. 1), hence $\hat{B} \otimes_{B} L = \hat{A} \otimes_{A} L$; finally, if
 $\mathfrak{p}$ is the prime ideal of $\hat{A}$, inverse image of $\mathfrak{q}''$, the fact that $A \to B$ is injective and
 the commutativity of the diagram
 
@@ -849,7 +849,7 @@ $$ N \to \Upsilon_{K'/K} \quad \text{and} \quad \Omega^{1}_{A'/A} \otimes_{A'} K
 
 *of the diagram `(22.4.4.6)` are bijective.*
 
-Indeed, the snake-diagram (Bourbaki, *Alg. comm.*, chap. I, §1, n$^{\circ}$ 4, prop. 2) applied to the two middle
+Indeed, the snake-diagram (Bourbaki, *Alg. comm.*, chap. I, §1, nÂ° 4, prop. 2) applied to the two middle
 columns of `(22.4.4.6)` gives an exact sequence
 
 $$ 0 \to N \to \Upsilon_{K'/K} \to 0 \to \Omega^{1}_{A'/A} \otimes_{A'} K' \to \Omega^{1}_{K'/K} \to 0. $$
@@ -1213,7 +1213,7 @@ and `(22.4.7.4)`, using remark `(22.4.8)` when `A_1` is not of characteristic $p
 (22.5.5) Let $k$ be a field of characteristic $p > 0$, $A$ a local ring, $k'$ a finite radicial extension of $k$ such
 that $k'^{p} \subset k$, $\mathfrak{m}$ the maximal ideal of $A$, $K = A/\mathfrak{m}$ its residue field; recall that
 $A' = A \otimes_{k} k'$ is a local ring whose residue field is the same as that of the local ring $K \otimes_{k} k'$
-(Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 3, lemma 4). Note that one has $A'_{(K)} = A' \otimes_{A'} K = K
+(Bourbaki, *Alg. comm.*, chap. V, §2, nÂ° 3, lemma 4). Note that one has $A'_{(K)} = A' \otimes_{A'} K = K
 \otimes_{k} k'$, and consequently $(0_{IV}, 21.3.6)$
 
 $$ \Theta_{A'_{(K)}/K} = \Theta_{k'/k} \otimes_{k} K \tag{22.5.5.1} $$
@@ -1717,11 +1717,11 @@ the rank over $L$ of $(\mathfrak{p}/\mathfrak{p}^{2}) \otimes_{A} L$, which comp
 
 *Let $k$ be a field, $A$ a complete Noetherian local ring with residue field $K$. Suppose that:*
 
-*$1^{\circ}$ $[k : k^{p}] < +\infty$ (where $p$ is the characteristic exponent of $k$);*
+*1Â° $[k : k^{p}] < +\infty$ (where $p$ is the characteristic exponent of $k$);*
 
-*$2^{\circ}$ $K$ is a finite extension of a separable extension `K_0` of $k$;*
+*2Â° $K$ is a finite extension of a separable extension `K_0` of $k$;*
 
-*$3^{\circ}$ $A$ is equipped with a structure of `K_0`-algebra formally smooth (for the preadic topology).*
+*3Â° $A$ is equipped with a structure of `K_0`-algebra formally smooth (for the preadic topology).*
 
 *Let $\mathfrak{q}$ be an ideal of $A$, $B = A/\mathfrak{q}$, $\mathfrak{p}$ a prime ideal of $A$ containing
 $\mathfrak{q}$. The following conditions are equivalent:*
@@ -1847,7 +1847,7 @@ $\operatorname{Spec}(A)$. Now, if the $k$-derivations $D_{i}$ and the elements $
 criterion b) of `(22.7.3)`, one has also $f = det(D_{i} f_{j}) \notin \mathfrak{p}'$ for $\mathfrak{p}' \in D(f)$; on
 the other hand, there exists a $g \notin \mathfrak{p}$ such that the images of the $f_{i}$ in $\mathfrak{q}
 A_{\mathfrak{p}'}$ generate $\mathfrak{q} A_{\mathfrak{p}'}$ for $\mathfrak{p}' \in D(g)$ (Bourbaki, *Alg. comm.*, chap.
-II, §5, n$^{\circ}$ 1, prop. 2), which completes proving the corollary.
+II, §5, nÂ° 1, prop. 2), which completes proving the corollary.
 
 **Corollary (22.7.6)** (Nagata).
 

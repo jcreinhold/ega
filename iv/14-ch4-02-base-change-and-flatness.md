@@ -107,7 +107,7 @@ As in `(2.1.4)`, one reduces to the case where $X = \operatorname{Spec}(\mathcal
 
 $Y' = \operatorname{Spec}(\mathcal{O}_{y'})$ and $Z = \operatorname{Spec}(\mathcal{O}_{z})$, and it then suffices to
 prove that $\mathcal{F} \otimes_{\mathcal{O}_{Y}} \mathcal{G}'$ is $(h \circ f')$-flat. Taking `(2.1.2)` into account,
-the proposition follows from Bourbaki, _Alg. comm._, chap. I, §2, n$^{\circ}$ 7, prop. 8.
+the proposition follows from Bourbaki, _Alg. comm._, chap. I, §2, nÂ° 7, prop. 8.
 
 **Corollary (2.1.6).**
 
@@ -271,7 +271,7 @@ $(\mathcal{O}_{X}|U)$-Module.*
 
 Indeed, $\mathcal{F}_{x}$ is an $\mathcal{O}_{x}$-module of finite presentation and $\mathcal{O}_{x}$ a local ring; it
 therefore amounts to the same to say that $\mathcal{F}_{x}$ is a flat $\mathcal{O}_{x}$-module or a free
-$\mathcal{O}_{x}$-module (Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 2, cor. 2 of prop. 5); whence the
+$\mathcal{O}_{x}$-module (Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 2, cor. 2 of prop. 5); whence the
 conclusion, taking account of $(0_{I}, 5.2.7)$. We note that the proposition is valid for an arbitrary ringed space in
 local rings.
 
@@ -291,7 +291,7 @@ Set $\mathcal{O}_{f(x)} = A$, $\mathcal{O}_{x} = B$. If $B$ is a flat $A$-module
 $A$-module $(0_{I}, 6.6.2)$, so $A$ is identified with a subring of $B$; if $B$ is reduced, so therefore is $A$. Suppose
 now that $B$ is integral and integrally closed, and let $L$ be its field of fractions; then $A \subset B$ is integral;
 denote by $K \subset L$ its field of fractions. The hypothesis entails that $B \cap K = A$ (Bourbaki, _Alg. comm._,
-chap. I, §3, n$^{\circ}$ 5, prop. 10). If then $t \in K$ is integral over $A$, it is also integral over $B$, hence
+chap. I, §3, nÂ° 5, prop. 10). If then $t \in K$ is integral over $A$, it is also integral over $B$, hence
 belongs to $B$ by hypothesis, and consequently $t \in A$, which proves that $A$ is integrally closed.
 
 **Proposition (2.1.14).**
@@ -624,8 +624,8 @@ element of $B$.*
 
 <!-- original page 14 -->
 
-By virtue of Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 3, prop. 12, it suffices to prove the proposition when
-$A$ is a local ring; one then knows (_loc. cit._, n$^{\circ}$ 2, cor. 2 of prop. 5) that $B$ is a free $A$-module of
+By virtue of Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 3, prop. 12, it suffices to prove the proposition when
+$A$ is a local ring; one then knows (_loc. cit._, nÂ° 2, cor. 2 of prop. 5) that $B$ is a free $A$-module of
 finite type, and the conclusion follows from _loc. cit._, prop. 5.
 
 ## 2.3. Topological properties of flat morphisms
@@ -799,17 +799,17 @@ since $\mathcal{O}_{y}$ is a field `(2.1.2)`, and the same is true of $f'$ `(2.1
 *Let $A$, $B$ be two Noetherian local rings, $\mathfrak{m}$, $\mathfrak{n}$ their respective maximal ideals, $\phi : A
 \to B$ a local homomorphism. Suppose the following hypotheses are satisfied:*
 
-*$1^{\circ}$ $B$ is an $A$-algebra essentially of finite type `(1.3.8)`.*
+*1Â° $B$ is an $A$-algebra essentially of finite type `(1.3.8)`.*
 
-*$2^{\circ}$ The completion $\hat{A}$ of $A$ for the $\mathfrak{m}$-adic topology is integral.*
+*2Â° The completion $\hat{A}$ of $A$ for the $\mathfrak{m}$-adic topology is integral.*
 
-*$3^{\circ}$ $\phi$ is injective.*
+*3Â° $\phi$ is injective.*
 
 *Then the $\mathfrak{m}$-adic topology of $A$ is induced by the $\mathfrak{n}$-adic topology of $B$.*
 
-Set $B' = B \otimes_{A} \hat{A}$; by virtue of $1^{\circ}$, $B'$ is of the form $S^{-1}(C \otimes_{A} \hat{A})$, where
+Set $B' = B \otimes_{A} \hat{A}$; by virtue of 1Â°, $B'$ is of the form $S^{-1}(C \otimes_{A} \hat{A})$, where
 $C$ is an $A$-algebra of finite type and $S$ a multiplicative subset of $C$, so $B'$ is a Noetherian ring. Since $A$ is
-identified with a subring of $\hat{A}$ $(0_{I}, 7.3.5)$, $A$ is integral by $2^{\circ}$. Hypothesis $3^{\circ}$ then
+identified with a subring of $\hat{A}$ $(0_{I}, 7.3.5)$, $A$ is integral by 2Â°. Hypothesis 3Â° then
 entails that there exists a prime ideal $\mathfrak{q}$ of $B$ inducing the ideal `0` of $A$ $(0_{I}, 1.5.8)$, and
 consequently the local homomorphism $A \to B/\mathfrak{q}$ is injective. One may therefore restrict to proving the
 conclusion of `(2.3.8)` by adding the hypothesis that $B$ is an integral local ring. Apply `(2.3.7, (ii))` to $Y =
@@ -835,7 +835,7 @@ $$
 such that $u$ and $v$ are injective `(I, 1.2.7)`; identifying $A$ and $\hat{A}$ with subrings of $\mathcal{O}_{x'}$, and
 denoting by $\mathfrak{r}$ the maximal ideal of $\mathcal{O}_{x'}$, the intersection of the ideals $\mathfrak{r}^{k}
 \cap \hat{A}$ is therefore zero $(0_{I}, 7.3.5)$; since $\hat{A}$ is complete and these ideals are open in $\hat{A}$,
-this entails (Bourbaki, _Alg. comm._, chap. III, §2, n$^{\circ}$ 7, prop. 8) that the topology of $\hat{A}$ is induced
+this entails (Bourbaki, _Alg. comm._, chap. III, §2, nÂ° 7, prop. 8) that the topology of $\hat{A}$ is induced
 by the $\mathfrak{r}$-preadic topology of $\mathcal{O}_{x'}$; a fortiori the same is true of the topology of $A$
 $(0_{I}, 7.3.5)$. Moreover one has $\mathfrak{n}^{k} \cap A \subset \mathfrak{r}^{k} \cap A$, so the
 $\mathfrak{n}$-preadic topology of $B$ induces on $A$ a topology finer than the $\mathfrak{m}$-preadic topology; but
@@ -1018,7 +1018,7 @@ resp. a
 
 homeomorphism onto its image, resp. a bijective homeomorphism), so is $g$, and so the matter is a purely topological
 question. For the case where $g \circ f$ is open (resp. closed), the fact that $g$ is then open (resp. closed) results
-from Bourbaki, _Top. gén._, chap. I, 3rd ed., §5, n$^{\circ}$ 1, prop. 1; for the two other cases, one may restrict to
+from Bourbaki, _Top. gén._, chap. I, 3rd ed., §5, nÂ° 1, prop. 1; for the two other cases, one may restrict to
 supposing that $g(f(X)) = g(Y) = Z$, in other words to the case where $g \circ f$ is a homeomorphism of $X$ onto $Z$;
 since $f$ is surjective, $g$ is necessarily bijective, and since $g$ is a continuous open map by what precedes, $g$ is
 indeed a homeomorphism of $Y$ onto $Z$.
@@ -1149,7 +1149,7 @@ It suffices to apply `(2.4.9)` to the structure morphism $Y \to \operatorname{Sp
 <!-- label: IV.2.4.11 -->
 
 *If $f : X \to Y$ is an open morphism, one knows that, for every part $E$ of $Y$, one has $f^{-1}(\overline{E}) =
-\overline{f^{-1}(E)}$ (Bourbaki, _Top. gén._, chap. I, 3rd ed., §5, n$^{\circ}$ 4, prop. 7). This remark applies for
+\overline{f^{-1}(E)}$ (Bourbaki, _Top. gén._, chap. I, 3rd ed., §5, nÂ° 4, prop. 7). This remark applies for
 example when $f$ is a flat morphism locally of finite presentation `(2.4.6)`, or a projection morphism $X \times_{k} Y
 \to X$ where $X$, $Y$ are preschemes over a field $k$ `(2.4.10)`, and then generalizes `(2.3.10)`.*
 
@@ -1193,7 +1193,7 @@ being:*
 sufficient that $\mathcal{F}'$ possess it.*
 
 For a quasi-coherent $\mathcal{O}_{X}$-Module to be locally free of finite type, it is necessary and sufficient that it
-be flat over $X$ and of finite presentation (Bourbaki, *Alg. comm.*, chap. II, §5, n$^{\circ}$ 2, cor. 2 of th. 1,
+be flat over $X$ and of finite presentation (Bourbaki, *Alg. comm.*, chap. II, §5, nÂ° 2, cor. 2 of th. 1,
 taking `(2.1.2)` into account); since $\mathcal{F}$ is flat over $X$ if and only if $\mathcal{F}'$ is flat over $X'$ by
 virtue of `(2.5.1)` (applied with $f$ taken to be the identity), one sees that in order to prove the proposition in case
 (iii) it suffices to have proved it in cases (i) and (ii); the same holds for (iv), since $f*(\mathcal{O}_{X}) =
@@ -1216,7 +1216,7 @@ $g*(f*(\mathcal{F}))$ does. We are thus reduced to the case where $X = \operator
 *Let $A$ be a ring, $A'$ a faithfully flat $A$-algebra, $M$ an $A$-module, $M' = M \otimes_{A} A'$. For $M$ to be of
 finite type (resp. of finite presentation), it is necessary and sufficient that $M'$ be so.*
 
-For the proof, see Bourbaki, *Alg. comm.*, chap. I, §3, n$^{\circ}$ 6, prop. 11.
+For the proof, see Bourbaki, *Alg. comm.*, chap. I, §3, nÂ° 6, prop. 11.
 
 **Remark (2.5.4).**
 
@@ -1244,7 +1244,7 @@ N')_{\mathfrak{q}}$ is surjective, and it can be written $u_{\mathfrak{p}} \otim
 $\mathfrak{p} N'_{\mathfrak{q}} \neq N'_{\mathfrak{q}}$, so $N'_{\mathfrak{q}}$ is a faithfully flat
 $A_{\mathfrak{p}}$-module $(0_{I}, 6.4.1)$. It follows that $u_{\mathfrak{p}}$ is surjective $(0_{I}, 6.4.1)$, and since
 this holds for every $\mathfrak{p} \in \operatorname{Spec}(A)$, $f$ being surjective, one finally concludes that $u$ is
-surjective (Bourbaki, *Alg. comm.*, chap. II, §3, n$^{\circ}$ 3, th. 1).
+surjective (Bourbaki, *Alg. comm.*, chap. II, §3, nÂ° 3, th. 1).
 
 **Proposition (2.5.5).**
 
@@ -1351,8 +1351,8 @@ holds:*
 
 *b') $u$ is an epimorphism of $V$ onto $W$.*
 
-One knows that an epimorphism of an $A$-module $E$ onto itself is bijective in the following two cases: $1^{\circ}$ $E$
-is a Noetherian $A$-module (Bourbaki, *Alg.*, chap. VIII, §2, n$^{\circ}$ 2, lemma 3); $2^{\circ}$ $A$ is commutative
+One knows that an epimorphism of an $A$-module $E$ onto itself is bijective in the following two cases: 1Â° $E$
+is a Noetherian $A$-module (Bourbaki, *Alg.*, chap. VIII, §2, nÂ° 2, lemma 3); 2Â° $A$ is commutative
 and $E$ is an $A$-module of finite presentation `(8.9.3)` (${}^{1}$); hence b) and b') are equivalent. On the other
 hand, if $u$ generates $M$
 
@@ -1382,7 +1382,7 @@ presentation.*
 *Then, if $V'$ and $W'$ are isomorphic as $B'$-modules, $V$ and $W$ are isomorphic as $B$-modules.*
 
 We note that in case (ii), $W'$, being $A'$-isomorphic to $V'$, is an $A'$-module of finite type, from which it follows
-that $W$ is an $A$-module of finite type (Bourbaki, *Alg. comm.*, chap. I, §3, n$^{\circ}$ 6, prop. 11); hence in all
+that $W$ is an $A$-module of finite type (Bourbaki, *Alg. comm.*, chap. I, §3, nÂ° 6, prop. 11); hence in all
 cases $V$ and $W$ are $A$-modules of finite type. Furthermore:
 
 *(2.5.8.1) Under either of the hypotheses (i), (ii), $\operatorname{Hom}_{B}(V, W)$ is an $A$-module of finite type.*
@@ -1402,7 +1402,7 @@ canonical homomorphism
 
 $$ \operatorname{Hom}_{A}(V, W) \otimes_{A} A' \to \operatorname{Hom}_{A'}(V', W') \tag{2.5.8.2} $$
 
-is bijective (Bourbaki, *Alg. comm.*, chap. II, §2, n$^{\circ}$ 10, prop. 11). Since $A'$ is a flat $A$-module,
+is bijective (Bourbaki, *Alg. comm.*, chap. II, §2, nÂ° 10, prop. 11). Since $A'$ is a flat $A$-module,
 $\operatorname{Hom}_{B}(V, W) \otimes_{A} A'$ is canonically identified with a sub-$A'$-module of
 $\operatorname{Hom}_{A}(V, W) \otimes_{A} A'$. The image of this sub-module under the homomorphism `(2.5.8.2)` is
 contained in $\operatorname{Hom}_{B'}(V', W')$, for if $u \in \operatorname{Hom}_{B}(V, W)$ and $a' \in A'$, the image
@@ -1442,7 +1442,7 @@ where $r$ is the homomorphism `(2.5.8.4)`, $s$ is the homomorphism `(2.5.8.2)`, 
 $$ (\operatorname{Hom}_{A}(V, W))^{I} \otimes_{A} A' \xrightarrow{w} (\operatorname{Hom}_{A}(V, W) \otimes_{A} A')^{I}
 \xrightarrow{s^{I}} (\operatorname{Hom}_{A'}(V', W'))^{I}, $$
 
-$w$ being the canonical homomorphism (Bourbaki, *Alg.*, chap. II, 3rd ed., §3, n$^{\circ}$ 7). One verifies at once that
+$w$ being the canonical homomorphism (Bourbaki, *Alg.*, chap. II, 3rd ed., §3, nÂ° 7). One verifies at once that
 the diagram `(2.5.8.5)` is commutative, and since $A'$ is a flat $A$-module its rows are exact. Finally, we have seen
 
 <!-- original page 26 -->
@@ -1483,7 +1483,7 @@ W$, it gives by composition a homomorphism $B_{d} \to B_{d}/\mathfrak{r} B_{d} \
 (since $B_{d}$ is a free $B$-module) can be written $B_{d} \to W \to W/\mathfrak{r} W$, so that the surjective
 homomorphism considered is $f \otimes 1 : B_{d} \otimes_{A} (A/\mathfrak{r}) \to W \otimes_{A} (A/\mathfrak{r})$. Since
 $W$ is an $A$-module of finite type, Nakayama's lemma shows that $f$ is surjective (Bourbaki, *Alg. comm.*, chap. II,
-§3, n$^{\circ}$ 2, cor. 1 of prop. 4). If one puts $A_{1} = A/\mathfrak{r}$, $A'_{1} = A' \otimes_{A} A_{1} =
+§3, nÂ° 2, cor. 1 of prop. 4). If one puts $A_{1} = A/\mathfrak{r}$, $A'_{1} = A' \otimes_{A} A_{1} =
 A'/\mathfrak{r} A'$, $B_{1} = B/\mathfrak{r} B = B \otimes_{A} A_{1}$, $W_{1} = W/\mathfrak{r} W = W \otimes_{A} A_{1}$,
 the hypotheses (i) (resp. (ii)) remain satisfied when one replaces in them $A$, $A'$, $B$, $V = B_{d}$, $W$ by `A_1`,
 $A'_{1}$, `B_1`, $V_{1} = (B_{1})_{d}$, `W_1` respectively; furthermore, $V'_{1} = V' \otimes_{A} A_{1} = V_{1}
@@ -1741,7 +1741,7 @@ sequence $0 \to \mathfrak{j} \to C \to B \to 0$, and therefore also an exact seq
 $\mathfrak{j}'$ is a $C'$-module of finite type `(1.4.4)`; but one has $\mathfrak{j}' = \mathfrak{j} \otimes_{C} C'$,
 and $C'$ is a faithfully flat $C$-module `(2.2.13` and `2.2.3)`; one knows then that the hypothesis that $\mathfrak{j}'$
 is a $C'$-module of finite type implies that $\mathfrak{j}$ is a $C$-module of finite type (Bourbaki, *Alg. comm.*,
-chap. I, §3, n$^{\circ}$ 6, prop. 11); hence $B$ is an $A$-algebra of finite presentation.
+chap. I, §3, nÂ° 6, prop. 11); hence $B$ is an $A$-algebra of finite presentation.
 
 (v) follows from (iii) and from `(2.6.2, (v))` by virtue of `(1.5.2)`.
 

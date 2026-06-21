@@ -110,8 +110,8 @@ More particularly:
 <!-- label: 0_IV.20.1.6 -->
 
 *Let $A$ be a ring, $B$ an $A$-ring, $L$ a $B$-bimodule. If, to every derivation $D \in \operatorname{Der}_{A}(B, L)$,
-one associates: $1^{\circ}$ the $A$-equivalence $(x, y) \mapsto (x, y + D(x))$ of the extension $D_{B}(L)$ with itself;
-$2^{\circ}$ the $A$-homomorphism $x \mapsto (x, D(x))$ of $B$ into $D_{B}(L)$, a right inverse of the augmentation
+one associates: 1Â° the $A$-equivalence $(x, y) \mapsto (x, y + D(x))$ of the extension $D_{B}(L)$ with itself;
+2Â° the $A$-homomorphism $x \mapsto (x, D(x))$ of $B$ into $D_{B}(L)$, a right inverse of the augmentation
 homomorphism $D_{B}(L) \to B$, one defines canonical bijective correspondences between:*
 
 *(i) the set $\operatorname{Der}_{A}(B, L)$;*
@@ -497,7 +497,7 @@ $$ \Omega^{1}_{B/A} = \mathfrak{J}_{B/A} / (\mathfrak{J}_{B/A})^{2} \tag{20.4.3.
 called the $B$-module of `1`-differentials (or simply of differentials) of $B$ relative to $A$.*
 
 It is to be noted that the topology of $\Omega_{B/A}$ is also the quotient topology of the topology induced on
-$\mathfrak{J}_{B/A}$ by that of $B \otimes_{A} B$ (Bourbaki, _Top. gén._, chap. III, 3rd ed., §2, n$^{\circ}$ 7, prop.
+$\mathfrak{J}_{B/A}$ by that of $B \otimes_{A} B$ (Bourbaki, _Top. gén._, chap. III, 3rd ed., §2, nÂ° 7, prop.
 20). If $B$ is discrete the same holds for $\Omega_{B/A}$. We denote by $\hat{\Omega}_{B/A}$ the separated completion of
 the topological $B$-module $\Omega_{B/A}$.
 
@@ -975,13 +975,13 @@ $$ 0 \to \operatorname{Hom}_{C}(\Omega_{C/B}, L) \to \operatorname{Hom}_{C}(\Ome
 \operatorname{Hom}_{B}(\Omega_{B/A}, L) $$
 
 is exact for every $C$-module $L$. One knows that this implies the exactness of the sequence `(20.5.7.1)` (Bourbaki,
-_Alg._, chap. II, 3rd ed., §2, n$^{\circ}$ 1, th. 1).
+_Alg._, chap. II, 3rd ed., §2, nÂ° 1, th. 1).
 
 (ii) By virtue of the exactness of `(20.5.7.1)`, to say that $v_{C/B/A}$ is left-invertible means that the sequence
 
 $$ 0 \to \Omega_{B/A} \otimes_{B} C \to \Omega_{C/A} \to \Omega_{C/B} \to 0 \tag{20.5.7.2} $$
 
-is exact *and split*; one knows (Bourbaki, _loc. cit._, n$^{\circ}$ 1, prop. 1) that this is equivalent to saying that
+is exact *and split*; one knows (Bourbaki, _loc. cit._, nÂ° 1, prop. 1) that this is equivalent to saying that
 for every $C$-module $L$, the sequence
 
 $$ 0 \to \operatorname{Hom}_{C}(\Omega_{C/B}, L) \to \operatorname{Hom}_{C}(\Omega_{C/A}, L) \to
@@ -1144,7 +1144,7 @@ with $\phi = \eta \circ \partial^{-1}$ and $\psi = v^{1} \circ \eta^{-1}$. Going
 `(20.2.2)` and of $\eta$ `(18.3.8)`, one sees at once that $\phi$ is precisely the homomorphism
 $\operatorname{Hom}(\delta_{C/B/A}, 1_{L})$. The existence of the exact sequence formed by the first four terms of
 `(20.5.12.3)` shows therefore that the sequence `(20.5.12.1)` is exact (Bourbaki, _Alg._, chap. II, 3rd ed., §2,
-n$^{\circ}$ 1, th. 1).
+nÂ° 1, th. 1).
 
 (ii) Apply to $B$ and to the ideal $\mathfrak{K}^{2}$ the exact sequence `(20.5.12.1)`, which gives
 
@@ -1511,7 +1511,7 @@ $$ \operatorname{Exalcom}_{B/A}(C, L) \to \operatorname{Hom}_{C}(\Upsilon_{C/B/A
 
 The fact that each of conditions (i), (ii) entails that `(20.6.7.1)` is bijective follows in both cases from the
 definition of $\alpha_{1}$. One will note moreover that condition (ii) is *necessary and sufficient* for the
-homomorphism `(20.6.7.1)` to be bijective for *every* $C$-module $L$ (Bourbaki, Alg., chap. II, 3rd ed., §2, n$^{\circ}$
+homomorphism `(20.6.7.1)` to be bijective for *every* $C$-module $L$ (Bourbaki, Alg., chap. II, 3rd ed., §2, nÂ°
 1, prop. 1). If one supposes that $\Omega^{1}_{C/B}$ and $\Omega^{1}_{C/A}$ are projective $C$-modules, then, in the
 exact sequence `(20.6.1.1)`, $Ker(u_{C/B/A})$ is a projective $C$-module, since the exact sequence
 
@@ -1787,9 +1787,9 @@ $$ 0 \to \Upsilon_{B/A/\Lambda} \otimes_{B} C \to \Omega^{1}_{A/\Lambda} \otimes
 
 *is exact, which occurs in the following cases:*
 
-*$1^{\circ}$ $C$ is a flat $B$-module.*
+*1Â° $C$ is a flat $B$-module.*
 
-*$2^{\circ}$ The $B$-modules $\Omega^{1}_{B/A}$ and $\Omega^{1}_{B/\Lambda}$ are flat; for then so is
+*2Â° The $B$-modules $\Omega^{1}_{B/A}$ and $\Omega^{1}_{B/\Lambda}$ are flat; for then so is
 $\operatorname{Ker}(\Omega^{1}_{B/A} \to \Omega^{1}_{B/\Lambda})$ $(0_{I}, 6.1.2)$, and the sequence `(20.6.21.2)` is
 then exact by virtue of $(0_{I}, 6.1.2)$.*
 

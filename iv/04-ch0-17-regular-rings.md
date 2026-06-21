@@ -67,14 +67,14 @@ equal to $n-1$ whose leading coefficient is $> 0$ `(16.2.1)`, which contradicts 
 The last assertion follows from `(17.1.1, d))`; on the other hand, if $A$ is regular, $\operatorname{gr}_{\mathfrak{m}}(A)$ is an
 integral domain and completely integrally closed, being isomorphic to $k[T_{1}, \cdots, T_{n}]$; one concludes that $A$
 also possesses these two properties
-`(Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 3, cor. of prop. 1 and chap. V, §1, n$^{\circ}$ 5, prop. 15)`.
+`(Bourbaki, Alg. comm., chap. III, §2, nÂ° 3, cor. of prop. 1 and chap. V, §1, nÂ° 5, prop. 15)`.
 
 **Examples (17.1.4).** — (i) A regular local ring of dimension $0$, being an integral domain by `(17.1.3)`, is
 necessarily a field, and conversely.
 
 (ii) For a Noetherian local ring of dimension $1$ to be regular, it is necessary and sufficient that it be a *discrete
 valuation ring*: indeed, to say that a Noetherian local ring of dimension $1$ is regular means that its maximal ideal is
-principal, and the conclusion follows from `Bourbaki, Alg. comm., chap. VI, §3, n$^{\circ}$ 6, prop. 9`.
+principal, and the conclusion follows from `Bourbaki, Alg. comm., chap. VI, §3, nÂ° 6, prop. 9`.
 
 (iii) Let $k$ be a field; the ring of formal power series $A = k[[T_{1}, \cdots, T_{n}]]$ is a *regular ring of
 dimension $n$*; indeed, it is clear that the $T_{i}$ $(1 \leq i \leq n)$ generate the maximal ideal $\mathfrak{m}$ of
@@ -221,7 +221,7 @@ T(M) = 0$) for every $i > n$.
 `(17.2.1)` shows that if $\operatorname{dim{.}\,proj}(M) = n$, then $M$ admits a left resolution of length $n$ formed of projective
 modules *of finite type*. If moreover $A$ is a Noetherian local ring, $M$ admits a resolution of length $n$ by *free
 modules of finite type*, a projective $A$-module of finite type being then free
-`(Bourbaki, Alg. comm., chap. II, §3, n$^{\circ}$ 2, cor. 2 of prop. 5)`.
+`(Bourbaki, Alg. comm., chap. II, §3, nÂ° 2, cor. 2 of prop. 5)`.
 
 **Lemma (17.2.3).**
 
@@ -270,7 +270,7 @@ $S$ of $A$ and every $i \geq 0$,
 $$ S^{-1} \operatorname{Ext}^i_A(N, M) \cong \operatorname{Ext}^i_{S^{-1} A}(S^{-1} N, S^{-1} M) $$
 
 by flatness, considering a free resolution of $M$ and using the fact that the preceding relation is true for $i = 0$
-`(Bourbaki, Alg. comm., chap. II, §2, n$^{\circ}$ 7, prop. 19)`. In particular
+`(Bourbaki, Alg. comm., chap. II, §2, nÂ° 7, prop. 19)`. In particular
 $\operatorname{Ext}^{i}_{A_{\mathfrak{m}}}(A_{\mathfrak{m}}/\mathfrak{J} A_{\mathfrak{m}}, M_{\mathfrak{m}}) =
 (\operatorname{Ext}^{i}_{A}(A/\mathfrak{J}, M))_{\mathfrak{m}}$ for every prime ideal $\mathfrak{m}$ and every ideal $\mathfrak{J}$ of
 $A$; taking `(17.2.3)` into account, and the fact that every
@@ -278,7 +278,7 @@ $A$; taking `(17.2.3)` into account, and the fact that every
 <!-- original page 140 -->
 
 ideal of $A_{\mathfrak{m}}$ is of the form $\mathfrak{J} A_{\mathfrak{m}}$ for a suitable ideal $\mathfrak{J}$ of $A$,
-one deduces formula `(17.2.5.1)` from what precedes and from `Bourbaki, Alg. comm., chap. II, §3, n$^{\circ}$ 3, th. 1`. One
+one deduces formula `(17.2.5.1)` from what precedes and from `Bourbaki, Alg. comm., chap. II, §3, nÂ° 3, th. 1`. One
 proceeds similarly for `(17.2.5.2)`, this time using `(17.2.4)` and exchanging the roles of $M$ and $N$.
 
 For Noetherian rings and modules of finite type, the study of projective dimension or injective dimension is therefore
@@ -295,7 +295,7 @@ Necessity is a special case of remark `(17.2.2, (ii))`, applied to the covariant
 prove that the condition is sufficient, one must, with the notations of `(17.2.1)`, establish that $R$ is projective
 when the $P_{i}$ are assumed of finite type; now $\operatorname{Tor}^{A}_{n+1}(M, k)$ is isomorphic to $\operatorname{Tor}^{A}_{1}(R, k)$ `(M, V, 7)`;
 and one knows that, since $R$ is of finite type, the condition $\operatorname{Tor}^{A}_{1}(R, k) = 0$ implies that $R$ is free
-`(Bourbaki, Alg. comm., chap. II, §3, n$^{\circ}$ 2, cor. 2 of prop. 5)`.
+`(Bourbaki, Alg. comm., chap. II, §3, nÂ° 2, cor. 2 of prop. 5)`.
 
 **Corollary (17.2.7).**
 
@@ -473,13 +473,13 @@ that $c\mathfrak{m} = 0$ (in other words, one has $\mathfrak{m} \in \operatornam
 
 One can restrict to the case where $\mathfrak{m} \neq 0$, hence $\mathfrak{m} \neq \mathfrak{m}^{2}$. The hypothesis
 implies that $\mathfrak{m} - \mathfrak{m}^{2}$ is contained in the union of the ideals $\mathfrak{p}_{i}$ of $\operatorname{Ass}(A)$
-`(Bourbaki, Alg. comm., chap. IV, §1, n$^{\circ}$ 1, cor. 3 of prop. 2)`; hence $\mathfrak{m}$ is contained in the union of
+`(Bourbaki, Alg. comm., chap. IV, §1, nÂ° 1, cor. 3 of prop. 2)`; hence $\mathfrak{m}$ is contained in the union of
 $\mathfrak{m}^{2}$
 
 <!-- original page 143 -->
 
 and the $\mathfrak{p}_{i}$, hence in one of the $\mathfrak{p}_{i}$ since $\mathfrak{m} \neq \mathfrak{m}^{2}$
-`(Bourbaki, Alg. comm., chap. II, §1, n$^{\circ}$ 1, prop. 2)`; $\mathfrak{m}$ being maximal, this proves the lemma.
+`(Bourbaki, Alg. comm., chap. II, §1, nÂ° 1, prop. 2)`; $\mathfrak{m}$ being maximal, this proves the lemma.
 
 **Lemma (17.3.1.3).**
 
@@ -526,7 +526,7 @@ Let us now examine two cases:
 I. — Suppose first that every element of $\mathfrak{m} - \mathfrak{m}^{2}$ is a zero-divisor in $A$, in which case
 `(17.3.1.2)` there exists $c \neq 0$ in $A$ such that $c\mathfrak{m} = 0$. Let us show that then $\mathfrak{m} = 0$.
 Were this not so, let us first note that $\mathfrak{m}$ could not be a projective $A$-module, for it would be free
-`(Bourbaki, Alg. comm., chap. II, §3, n$^{\circ}$ 2, cor. 2 of prop. 5)`, which contradicts the relation $c\mathfrak{m} = 0$. One
+`(Bourbaki, Alg. comm., chap. II, §3, nÂ° 2, cor. 2 of prop. 5)`, which contradicts the relation $c\mathfrak{m} = 0$. One
 would therefore have $n = \operatorname{dim{.}\,coh}(A) \geq 1$. Since $\mathfrak{m} \in \operatorname{Ass}(A)$, there would exist an exact sequence of
 $A$-homomorphisms
 
@@ -670,7 +670,7 @@ of finite type. For $B$ to be a free $A$-module, it is necessary and sufficient 
 that $\rho$ be injective (or, what comes to the same thing `(16.1.5)`, that $\dim(B) = \dim(A)$).*
 
 (i) This follows from `(17.3.4.1)` and from the fact that for an $A$-module of finite type, it comes to the same to say
-that this module is projective or free `(Bourbaki, Alg. comm., chap. II, §3, n$^{\circ}$ 2, cor. 2 of prop. 5)`; the free
+that this module is projective or free `(Bourbaki, Alg. comm., chap. II, §3, nÂ° 2, cor. 2 of prop. 5)`; the free
 $A$-modules of finite type $M$ are therefore characterized by the relation $\operatorname{dim{.}\,proj}(M) = 0$ `(17.2.2, (i))`.
 
 (ii) To say that $B$ is a Cohen-Macaulay ring is equivalent to saying that $B$ is a Cohen-Macaulay $A$-module
@@ -705,7 +705,7 @@ hence regular `(17.1.4)`, which completes the proof.
 
 Let $\mathfrak{J}$ be the ideal generated by the $T_{i}$ in the polynomial ring $A[T_{1}, \cdots, T_{n}]$; since the
 latter is regular by `(17.3.7)`, and $A[[T_{1}, \cdots, T_{n}]]$ is the completion of $A[T_{1}, \cdots, T_{n}]$ for the
-$\mathfrak{J}$-preadic topology `(Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 12, Example 1)`, the conclusion follows from
+$\mathfrak{J}$-preadic topology `(Bourbaki, Alg. comm., chap. III, §2, nÂ° 12, Example 1)`, the conclusion follows from
 the:
 
 **Lemma (17.3.8.1).**
@@ -716,7 +716,7 @@ the:
 $\mathfrak{J}$-preadic topology. Then $\hat{A}$ is regular.*
 
 It suffices indeed `(17.3.6)` to see that for every maximal ideal $\mathfrak{n}$ of $\hat{A}$, the local ring
-$\hat{A}_{\mathfrak{n}}$ is regular; one knows `(Bourbaki, Alg. comm., chap. III, §3, n$^{\circ}$ 4, prop. 8)` that
+$\hat{A}_{\mathfrak{n}}$ is regular; one knows `(Bourbaki, Alg. comm., chap. III, §3, nÂ° 4, prop. 8)` that
 $\mathfrak{n}$
 
 <!-- original page 147 -->

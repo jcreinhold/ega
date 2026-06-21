@@ -24,8 +24,8 @@ is flat over $Y$, the functor $\mathcal{G} \mapsto \mathcal{F} \otimes_{\mathcal
 \mathcal{G})$ is again a cohomological functor. But this is no longer the case in general; in order to be able to apply
 the cohomological methods, one is led to substitute for $\mathcal{G} \mapsto R^{n} f_{*}(\mathcal{F}
 \otimes_{\mathcal{O}_{Y}} \mathcal{G})$ other functors which this time are *always* cohomological functors. These
-functors, which generalize the "Tor" functors of module theory, are defined in n$^{\circ}$s `6.3` to `6.7`; there are moreover
-two such generalizations, one "local" and the other "global", related by spectral sequences that will be discussed in n$^{\circ}$
+functors, which generalize the "Tor" functors of module theory, are defined in nÂ°s `6.3` to `6.7`; there are moreover
+two such generalizations, one "local" and the other "global", related by spectral sequences that will be discussed in nÂ°
 `6.7`; as an application of these spectral sequences, one obtains in particular, under certain conditions, a "Künneth
 formula" expressing $R^{n} (f_{1} \times f_{2})_{*}(\mathcal{F}_{1} \otimes_{Y} \mathcal{F}_{2})$ by means of the higher
 direct images $R^{p} f_{1*}(\mathcal{F}_{1})$ and $R^{q} f_{2*}(\mathcal{F}_{2})$. Other spectral sequences `(6.8)`
@@ -1670,8 +1670,8 @@ once from $(0_{III}, 11.1.6)$, this sequence being biregular `(6.7.3)`.
 
 <!-- label: III.6.7.8 -->
 
-— *Suppose that: $1^{\circ}$ the complexes $\mathcal{P}^{(1)}_{\bullet}$ and $\mathcal{P}^{(2)}_{\bullet}$ are bounded below; $2^{\circ}$
-the complex $\mathcal{P}^{(1)}_{\bullet}$ or the complex $\mathcal{P}^{(2)}_{\bullet}$ is formed of $S$-flat modules; $3^{\circ}$
+— *Suppose that: 1Â° the complexes $\mathcal{P}^{(1)}_{\bullet}$ and $\mathcal{P}^{(2)}_{\bullet}$ are bounded below; 2Â°
+the complex $\mathcal{P}^{(1)}_{\bullet}$ or the complex $\mathcal{P}^{(2)}_{\bullet}$ is formed of $S$-flat modules; 3Â°
 all the*
 
 <!-- original page 30 -->
@@ -1705,12 +1705,12 @@ by the procedure defined in `(G, I, 2.7)`, as follows from `(G, I, 5.5)`.
 
 — *Suppose the following three conditions verified:*
 
-*$1^{\circ}$ $S$, $Y^{(1)}$ and $Y^{(2)}$ are locally Noetherian, $f_{1}$ and $f_{2}$ are proper, $Y^{(1)}$ or $Y^{(2)}$ of
+*1Â° $S$, $Y^{(1)}$ and $Y^{(2)}$ are locally Noetherian, $f_{1}$ and $f_{2}$ are proper, $Y^{(1)}$ or $Y^{(2)}$ of
 finite type over $S$.*
 
-*$2^{\circ}$ $\mathcal{P}^{(1)}_{\bullet}$ and $\mathcal{P}^{(2)}_{\bullet}$ are bounded below.*
+*2Â° $\mathcal{P}^{(1)}_{\bullet}$ and $\mathcal{P}^{(2)}_{\bullet}$ are bounded below.*
 
-*$3^{\circ}$ For every $n \in \mathbb{Z}$, $\mathcal{H}_{n}(\mathcal{P}^{(i)}_{\bullet})$ is a coherent module $(i = 1, 2)$.*
+*3Â° For every $n \in \mathbb{Z}$, $\mathcal{H}_{n}(\mathcal{P}^{(i)}_{\bullet})$ is a coherent module $(i = 1, 2)$.*
 
 *Under these conditions, $\mathcal{T}or^{S}_{n}(f_{1}, f_{2}; \mathcal{P}^{(1)}_{\bullet}, \mathcal{P}^{(2)}_{\bullet})$
 is a coherent $\mathcal{O}_{Y}$-module (with $Y = Y^{(1)} \times_{S} Y^{(2)}$).*
@@ -1720,7 +1720,7 @@ It follows from `(6.5.13)` that the local hypertor $\mathcal{T}or^{S}_{n}(\mathc
 Noetherian, since one of the $X^{(i)}$ is by hypothesis of finite type over $S$ `(I, 6.3.4 and 6.3.8)`). Since $Y$ is
 locally Noetherian and $f_{1} \times_{S} f_{2}$ is proper `(II, 5.4.2)`, it follows from `(6.2.5)` that the terms
 ${}^{(b)}\mathcal{E}^{2}_{pq}$ of `(6.7.3)` are coherent $\mathcal{O}_{Y}$-modules. Since all the spectral sequences of
-`(6.7.3)` are biregular by virtue of hypothesis $2^{\circ}$, one concludes by $(0_{III}, 11.1.8)$.
+`(6.7.3)` are biregular by virtue of hypothesis 2Â°, one concludes by $(0_{III}, 11.1.8)$.
 
 **6.7.10.**
 
@@ -2162,13 +2162,13 @@ result of `(6.7.6)` and the regularity of the sequence `(f)`.
 
 — *Under the conditions of `(6.9.1)`, suppose that:*
 
-*$1^{\circ}$ The complexes $\mathcal{P}^{(i)}_{\bullet}$ are formed of modules flat over $S$, and the $\mathcal{O}_{Y}$-modules*
+*1Â° The complexes $\mathcal{P}^{(i)}_{\bullet}$ are formed of modules flat over $S$, and the $\mathcal{O}_{Y}$-modules*
 
 $$ \mathcal{T}or^{S}_{n}(f_{1}, \ldots, f_{m}; \mathcal{P}_{\bullet}^{(1)}, \ldots, \mathcal{P}_{\bullet}^{(m)}) $$
 
 *are flat over $S$.*
 
-*$2^{\circ}$ The $\mathcal{P}^{(i)}_{\bullet}$ and $\mathcal{Q}_{\bullet}'$ are bounded below.*
+*2Â° The $\mathcal{P}^{(i)}_{\bullet}$ and $\mathcal{Q}_{\bullet}'$ are bounded below.*
 
 <!-- original page 37 -->
 
@@ -2203,7 +2203,7 @@ $$
 
 The flatness hypothesis on the modules composing the $\mathcal{P}^{(i)}_{\bullet}$ entails that the complexes
 $\mathcal{T}or^{S}_{q_{i}}(\mathcal{P}^{(i)}_{\bullet}, \mathcal{O}_{S'})$ are zero for $q_{i} \neq 0$ `(6.5.8)`. The
-sequence `(f')` is therefore degenerate; hypothesis $2^{\circ}$ entails moreover that it is biregular `(6.9.3)`, so the edge
+sequence `(f')` is therefore degenerate; hypothesis 2Â° entails moreover that it is biregular `(6.9.3)`, so the edge
 homomorphism
 
 $$
@@ -2239,8 +2239,8 @@ isomorphism `(6.9.6.2)` is deduced trivially, since one has then $\mathcal{H}_{n
 — *Under the conditions of `(6.9.1)`, suppose $S$ and $S'$ affine, and suppose given for each $i$ an integer $d_{i}$ $(1
 \leq i \leq m)$. There then exists an integer $N$ depending only on $S$, the $X^{(i)}$ and the $d_{i}$, having the
 following property: for every integer $n_{0}$, one has canonical isomorphisms `(6.9.6.3)` for $n \leq n_{0}$ and for
-every system of complexes $\mathcal{P}^{(i)}_{\bullet}$ verifying the following conditions: $1^{\circ}$ $\mathcal{P}^{(i)}_{k} =
-0$ for $k < d_{i}$; $2^{\circ}$ $\mathcal{P}^{(i)}_{k}$ is flat over $S$ for $k < n_{0} + N$; $3^{\circ}$ $\mathcal{T}or^{S}_{q}(f_{1},
+every system of complexes $\mathcal{P}^{(i)}_{\bullet}$ verifying the following conditions: 1Â° $\mathcal{P}^{(i)}_{k} =
+0$ for $k < d_{i}$; 2Â° $\mathcal{P}^{(i)}_{k}$ is flat over $S$ for $k < n_{0} + N$; 3Â° $\mathcal{T}or^{S}_{q}(f_{1},
 \cdots, f_{m}; \mathcal{P}^{(1)}_{\bullet}, \cdots, \mathcal{P}^{(m)}_{\bullet})$ is flat over $S$ for $q < n_{0} + N$.*
 
 Suppose $\mathcal{P}^{(i)}_{k}$ flat over $S$ for $k < r$; then $\mathcal{T}or^{S}_{q_{i}}(\mathcal{P}^{(i)}_{k},

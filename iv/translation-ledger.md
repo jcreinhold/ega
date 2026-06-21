@@ -1012,7 +1012,7 @@ Locked piecewise as each section lands. §IV.1 establishes the relative-finitene
   without isolated points carries a positive divisor $D$ meeting every irreducible component; this is the input to the
   Riemann-Roch ampleness proof of chap. V and to the quasi-projectivity of separated $k$-curves.
 - **`(21.9.11)`–`(21.9.12)`: extending divisors and Picard classes from a closed subprescheme.** Under the locally-
-  closed-$Y$ condition $2^{\circ}$, every $D_{0} \geq 0$ on `X_0` of support disjoint from $Z_{0} = \bigcup_{x \in
+  closed-$Y$ condition 2Â°, every $D_{0} \geq 0$ on `X_0` of support disjoint from $Z_{0} = \bigcup_{x \in
   Ass(\mathcal{O}_{X})} \overline{x} \cap X_{0}$ extends to a divisor on $X$. With an ample sheaf on `X_0`, the
   canonical $\operatorname{Pic}(X) \to \operatorname{Pic}(X_{0})$ is surjective. `(21.9.12)` packages this into the
   Henselian case: for $A$ Henselian local and $f : X \to S$ separated of finite presentation with $\dim(X_{0}) \leq 1$,

@@ -162,7 +162,7 @@ whose images $\bar{f}_{j}$ in $\mathfrak{K}/\mathfrak{K}^{2}$ form a basis of th
 that moreover the $f_{j}$ of index $j \leqslant r$ belong to $\mathfrak{J}$ and are such that their images in
 $\mathfrak{J}/\mathfrak{J}^{2}$ form a basis of this $(A/\mathfrak{J})$-module. The $f_{j}$ for $1 \leqslant j \leqslant
 r + s$ therefore generate $\mathfrak{K}$, and the $f_{j}$ for $1 \leqslant j \leqslant r$ generate $\mathfrak{J}$ since
-$A$ is Noetherian (Bourbaki, *Alg. comm.*, chap. II, §3, n$^{\circ}$ 2, prop. 5); as $\mathfrak{K}$ is a regular ideal,
+$A$ is Noetherian (Bourbaki, *Alg. comm.*, chap. II, §3, nÂ° 2, prop. 5); as $\mathfrak{K}$ is a regular ideal,
 it follows from `(16.9.5)` that the sequence $(f_{j})_{1 \leqslant j \leqslant r + s}$ is regular. By definition, the
 images of $f_{r+1}, \cdots, f_{r+s}$ in $\mathfrak{K}/\mathfrak{J}$ therefore form a regular sequence in this
 $(A/\mathfrak{J})$-module, which completes the proof that c) entails a) in (iv).
@@ -189,7 +189,7 @@ Assertion (i) is a particular case of `(19.1.5, (iii))`. To prove (ii), consider
 $u : \mathfrak{K}/\mathfrak{K}^{2} \to \mathfrak{K}'/\mathfrak{K}'^{2} = \mathfrak{K}/(\mathfrak{K}^{2} +
 \mathfrak{J})$. As by hypothesis $\mathfrak{K}/\mathfrak{K}^{2}$ and $\mathfrak{K}'/\mathfrak{K}'^{2}$ are free
 $(A/\mathfrak{K})$-modules, whose respective ranks we denote $p + q$ and $q$, the kernel of $u$ is a projective
-$(A/\mathfrak{K})$-module (Bourbaki, *Alg.*, chap. II, 3rd ed., §2, n$^{\circ}$ 2, prop. 4), hence free of rank $p$
+$(A/\mathfrak{K})$-module (Bourbaki, *Alg.*, chap. II, 3rd ed., §2, nÂ° 2, prop. 4), hence free of rank $p$
 since $A/\mathfrak{K}$ is a Noetherian local ring $(0_{III}, 10.1.3)$; in other words, there exists a basis of
 $\mathfrak{K}/\mathfrak{K}^{2}$ whose $p$ first elements form a basis of $(\mathfrak{K}^{2} +
 \mathfrak{J})/\mathfrak{K}^{2}$. This means again (by virtue of Nakayama's lemma) that there exists a system of
@@ -1584,7 +1584,7 @@ $(A/\mathfrak{K})$-regular, $\mathfrak{J} = f_{1} A + \cdots + f_{n} A$ the idea
 \otimes_{A} (A/\mathfrak{L}) = (gr^{\bullet}_{\mathfrak{L}}(M)) \otimes_{A} (A/\mathfrak{L})$, because
 $(\mathfrak{J}^{n} M / \mathfrak{J}^{n+1} M) \otimes_{A} (A/\mathfrak{K}) = \mathfrak{J}^{n} M / (\mathfrak{J}^{n+1} +
 \mathfrak{K} \mathfrak{J}^{n}) M = \mathfrak{L}^{n} M / (\mathfrak{L}^{n+1} + \mathfrak{K} \mathfrak{L}^{n}) M$, the
-last equality following from Bourbaki, *Alg.*, chap. II, 3rd ed., §3, n$^{\circ}$ 7, cor. 2 of prop. 6.*
+last equality following from Bourbaki, *Alg.*, chap. II, 3rd ed., §3, nÂ° 7, cor. 2 of prop. 6.*
 
 *Consider the following conditions:*
 
@@ -1614,7 +1614,7 @@ a) \Rightarrow c) \Rightarrow b) \\
 $$
 
 *When every quotient of a submodule of a $gr^{k}_{\mathfrak{J}}(M)$ $(k \geq 0)$ is ideally separated for $\mathfrak{J}$
-(Bourbaki, *Alg. comm.*, chap. III, §5, n$^{\circ}$ 1), the conditions a), b) and c) are equivalent.*
+(Bourbaki, *Alg. comm.*, chap. III, §5, nÂ° 1), the conditions a), b) and c) are equivalent.*
 
 <!-- original page 213 -->
 
@@ -1645,7 +1645,7 @@ By hypothesis there exists a free $A$-module of finite type $N$ and an exact seq
 suffices to prove that d) entails b), since every quotient of a submodule of a $gr^{k}_{\mathfrak{J}}(M)$ is then
 ideally separated for $\mathfrak{J}$, by virtue of the fact that $gr^{k}_{\mathfrak{J}}(M)$ is an $A$-module of finite
 type, that $\mathfrak{J}$ is contained in the radical of $A$, and that $A$ is Noetherian (Bourbaki, *Alg. comm.*, chap.
-III, §5, n$^{\circ}$ 1); in other words, the question is to see that $\psi_{M}$ is bijective.
+III, §5, nÂ° 1); in other words, the question is to see that $\psi_{M}$ is bijective.
 
 As by hypothesis the sequence $f$ is $gr^{\bullet}_{\mathfrak{K}}(A)$-regular, it is also
 $gr^{\bullet}_{\mathfrak{K}}(N)$-regular; one may therefore apply `(19.6.3)`, for every quotient module of a submodule
@@ -1699,7 +1699,7 @@ $$ \operatorname{Ass}_{A}(Z) \subset \operatorname{Ass}_{A}(\operatorname{gr}'_{
 But each of the $gr^{k}_{\mathfrak{L}}(M)$ is, by hypothesis, a flat $(A/\mathfrak{L})$-module of finite type, hence
 projective since $A/\mathfrak{L}$ is Noetherian, and one has consequently $Ass_{A}(gr^{\bullet}_{\mathfrak{L}}(M))
 \subset Ass_{A}(A/\mathfrak{L})$. To see that $Z = 0$, it suffices therefore (Bourbaki, *Alg. comm.*, chap. IV, §1,
-n$^{\circ}$ 1, cor. 1 of prop. 2 and n$^{\circ}$ 3, prop. 7) to see that for every $\mathfrak{q} \in
+nÂ° 1, cor. 1 of prop. 2 and nÂ° 3, prop. 7) to see that for every $\mathfrak{q} \in
 Ass_{A/\mathfrak{K}}(A/\mathfrak{L})$, one has $Z_{\mathfrak{q}} = 0$. But the ideals of
 $Ass_{A/\mathfrak{K}}(A/\mathfrak{L})$ are the ideals of the form $\mathfrak{p}/(\mathfrak{K}/\mathfrak{K})$, where
 $\mathfrak{p} \in Ass_{A}(A/\mathfrak{L})$, and it amounts therefore to the same to see that $Z_{\mathfrak{p}} = 0$ for
@@ -1908,7 +1908,7 @@ N))_{\mathfrak{r}}$, where $\mathfrak{q} = \mathfrak{r}/\mathfrak{L}$. In other 
 canonical map $(gr^{h}_{\mathfrak{J}}(N))_{\mathfrak{q}} \to (gr^{h}_{\mathfrak{J}}(M))_{\mathfrak{q}}$ is zero for
 every $\mathfrak{q} \in Ass_{A/\mathfrak{L}}(A/\mathfrak{L})$. As one has seen in the proof of `(19.7.1.3)` that
 $Ass_{A/\mathfrak{L}}(gr^{h}_{\mathfrak{J}}(M)) \subset Ass_{A}(A/\mathfrak{L})$, one deduces (Bourbaki, *Alg. comm.*,
-chap. IV, §1, n$^{\circ}$ 1, cor. 1 of prop. 2 and n$^{\circ}$ 3, prop. 7) that the image of $\hat{z}$ by the canonical
+chap. IV, §1, nÂ° 1, cor. 1 of prop. 2 and nÂ° 3, prop. 7) that the image of $\hat{z}$ by the canonical
 map $gr^{h}_{\mathfrak{J}}(N) \to gr^{h}_{\mathfrak{J}}(M)$ is zero, that is, one has the relation `(19.7.1.20)`.
 
 This being so, one may write by definition
@@ -2060,15 +2060,15 @@ In this number, the notation and conventions on projective limits are those of `
 *Suppose that the transition morphisms $S_{\mu} \to S_{\lambda}$ ($\lambda \leq \mu$) are flat, and moreover that one of
 the two following hypotheses is satisfied:*
 
-- *$1^{\circ}$ The preschemes $S_{\lambda}$ are locally Noetherian.*
-- *$2^{\circ}$ The transition morphisms $S_{\mu} \to S_{\lambda}$ are surjective (hence faithfully flat).*
+- *1Â° The preschemes $S_{\lambda}$ are locally Noetherian.*
+- *2Â° The transition morphisms $S_{\mu} \to S_{\lambda}$ are surjective (hence faithfully flat).*
 
 <!-- original page 220 -->
 
 *Under these conditions:*
 
 *(i) Suppose $S_{\alpha}$ quasi-compact. Let $\mathcal{F}_{\alpha}$ be a quasi-coherent
-$\mathcal{O}_{S_{\alpha}}$-Module, which is moreover supposed of finite type when hypothesis $1^{\circ}$ is satisfied.
+$\mathcal{O}_{S_{\alpha}}$-Module, which is moreover supposed of finite type when hypothesis 1Â° is satisfied.
 Let $(f_{i, \alpha})_{1 \leq i \leq n}$ be a finite sequence of sections of $\mathcal{O}_{S_{\alpha}}$ above
 $S_{\alpha}$. In order for the sequence of sections $f_{i}$ of the $\mathcal{O}_{S}$-Module $\mathcal{F}$ above $S$,
 corresponding to the $f_{i, \alpha}$ ($1 \leq i \leq n$), to be $\mathcal{F}$-regular, it is necessary and sufficient
@@ -2076,15 +2076,15 @@ that there exist $\lambda \geq \alpha$ such that the sequence of sections $f_{i,
 above $S_{\lambda}$ be $\mathcal{F}_{\lambda}$-regular.*
 
 *(ii) Suppose $X_{\alpha}$ quasi-compact, and let $j_{\alpha} : X_{\alpha} \to S_{\alpha}$ be an immersion, which one
-supposes locally of finite presentation when hypothesis $2^{\circ}$ is satisfied. Then, in order for the corresponding
+supposes locally of finite presentation when hypothesis 2Â° is satisfied. Then, in order for the corresponding
 immersion $j : X \to S$ to be regular, it is necessary and sufficient that there exist $\lambda \geq \alpha$ such that
 $j_{\lambda} : X_{\lambda} \to S_{\lambda}$ be regular.*
 
 (i) If $p_{\alpha} : S \to S_{\alpha}$ is the canonical projection, one has $\mathcal{F}/(\Sigma f_{i} \mathcal{F}) =
 p^{*}_{\alpha}(\mathcal{F}_{\alpha}/(\Sigma f_{i, \alpha} \mathcal{F}_{\alpha}))$, hence one is reduced to the case $n =
 1$, in which case one suppresses the index $i$. The fact that the condition is sufficient follows from the fact that
-$p_{\alpha}$ is flat `(8.3.8)` and from `(0, 15.1.5)`. In case $2^{\circ}$, $p_{\alpha}$ is faithfully flat `(8.3.8)`
-and the necessity of the condition still follows from `(0, 15.2.5)`, with $\lambda = \alpha$. In case $1^{\circ}$,
+$p_{\alpha}$ is flat `(8.3.8)` and from `(0, 15.1.5)`. In case 2Â°, $p_{\alpha}$ is faithfully flat `(8.3.8)`
+and the necessity of the condition still follows from `(0, 15.2.5)`, with $\lambda = \alpha$. In case 1Â°,
 denote by $\mathcal{N}_{\alpha}$ (resp. $\mathcal{N}$) the kernel of the homomorphism $\mathcal{F}_{\alpha} \to
 \mathcal{F}_{\alpha}$ (resp. $\mathcal{F} \to \mathcal{F}$), multiplication by $f_{\alpha}$ (resp. by $f$); since
 $\mathcal{F}_{\alpha}$ is coherent by hypothesis, so is $\mathcal{N}_{\alpha}$, hence the hypothesis $\mathcal{N} = 0$
@@ -2094,8 +2094,8 @@ entails $\mathcal{N}_{\lambda} = 0$ for a $\lambda \geq \alpha$ by virtue of `(8
 note that, since $j_{\alpha}(X_{\alpha})$ is quasi-compact, it is contained in a quasi-compact open of $S_{\alpha}$ and
 one may therefore limit oneself to the case where $S_{\alpha}$ is also quasi-compact and $j_{\alpha}$ a closed
 immersion, so that the image of $X_{\alpha}$ is defined by a quasi-coherent Ideal $\mathcal{J}_{\alpha}$ of
-$\mathcal{O}_{S_{\alpha}}$, which one may moreover suppose of finite type in cases $1^{\circ}$ and $2^{\circ}$
-($j_{\alpha}$ being locally of finite presentation in case $2^{\circ}$); the image of $X_{\alpha}$ (resp. $X$) in
+$\mathcal{O}_{S_{\alpha}}$, which one may moreover suppose of finite type in cases 1Â° and 2Â°
+($j_{\alpha}$ being locally of finite presentation in case 2Â°); the image of $X_{\alpha}$ (resp. $X$) in
 $S_{\alpha}$ (resp. $S$) is then defined by $\mathcal{J}_{\lambda} = (\mathcal{J}_{\alpha})_{\lambda}$ (resp.
 $\mathcal{J} = (\mathcal{J}_{\alpha})$) which is still of finite type. One may moreover, taking account of `(8.2.11)`,
 suppose that $\mathcal{J}$ is generated by a regular sequence $(f_{i})_{1 \leq i \leq n}$ of sections above $S$, which
@@ -2216,10 +2216,10 @@ $\mathfrak{p} A_{\mathfrak{p}}$, and form an $M_{\mathfrak{p}}$-regular sequence
 from `(0, 16.4.6)` that one has $prof(N_{\mathfrak{p}}) = prof(M_{\mathfrak{p}}) - (r - 1) \geq 1$, and one sees that
 everything reduces to proving the lemma for $r = 1$. Now the hypothesis then signifies that, for every $\mathfrak{p}
 \supset \mathfrak{J}$, $\mathfrak{p} A_{\mathfrak{p}}$ is not associated to $M_{\mathfrak{p}}$ `(0, 16.4.6)`, hence
-(Bourbaki, *Alg. comm.*, chap. IV, §1, n$^{\circ}$ 2, prop. 5), $\mathfrak{p}$ is not associated to $M$. In other words,
+(Bourbaki, *Alg. comm.*, chap. IV, §1, nÂ° 2, prop. 5), $\mathfrak{p}$ is not associated to $M$. In other words,
 $\mathfrak{J}$ is not contained in any of the prime ideals of $Ass(M)$, hence it is not contained in their union
-(Bourbaki, *Alg. comm.*, chap. II, §1, n$^{\circ}$ 1, prop. 2). But as this union is the set of elements which are not
-$M$-regular (Bourbaki, *Alg. comm.*, chap. IV, §1, n$^{\circ}$ 1, cor. 2 of prop. 2), this proves the lemma.
+(Bourbaki, *Alg. comm.*, chap. II, §1, nÂ° 1, prop. 2). But as this union is the set of elements which are not
+$M$-regular (Bourbaki, *Alg. comm.*, chap. IV, §1, nÂ° 1, cor. 2 of prop. 2), this proves the lemma.
 
 **Proposition (19.9.3).**
 

@@ -300,10 +300,10 @@ $$
 
 One may evidently suppose $X$ reduced and affine, hence integral with ring $A$, an algebra of finite type over $k$. Let
 $n = \operatorname{deg.tr}_{k} k(\xi)$, with $k(\xi) = K$ the field of fractions of $A$. One knows (Bourbaki, *Alg. comm.*, chap. V,
-§3, n$^{\circ}$ 1, th. 1) that there exists a sub-$k$-algebra $B = k[t_{1}, \cdots, t_{n}]$ of $A$, where the $t_{i}$ are
+§3, nÂ° 1, th. 1) that there exists a sub-$k$-algebra $B = k[t_{1}, \cdots, t_{n}]$ of $A$, where the $t_{i}$ are
 algebraically independent over $k$, such that $A$ be a *finite* $B$-algebra. Let $\mathfrak{m} = j_{x}$, which by
 hypothesis is a maximal ideal of $A$; $\mathfrak{n} = B \cap \mathfrak{m}$ is therefore a maximal ideal of $B$
-(Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 1, prop. 1), and $A_{\mathfrak{m}}$ is a local ring of the finite
+(Bourbaki, *Alg. comm.*, chap. V, §2, nÂ° 1, prop. 1), and $A_{\mathfrak{m}}$ is a local ring of the finite
 $B_{\mathfrak{n}}$-algebra $S^{-1}A$, where $S = B - \mathfrak{n}$; as $B_{\mathfrak{n}}$ is integrally closed and
 $S^{-1}A$ integral, one has $\dim(A_{\mathfrak{m}}) = \dim(B_{\mathfrak{n}})$ `(0, 16.1.6)`. One may therefore restrict
 to the case where $A = k[t_{1}, \cdots, t_{n}]$; one knows then that $k' = k(x)$ is a finite extension of $k$
@@ -524,7 +524,7 @@ closure of ${f(x_{m+1})} = {y_{m+1}}$ since $f$
 
 <!-- original page 94 -->
 
-is closed (Bourbaki, *Top. gén.*, chap. I, 3rd ed., §5, n$^{\circ}$ 4, prop. 9); there therefore exists $x_{m} \in
+is closed (Bourbaki, *Top. gén.*, chap. I, 3rd ed., §5, nÂ° 4, prop. 9); there therefore exists $x_{m} \in
 \overline{x_{m+1}}$ such that $f(x_{m}) = y_{m}$ and the descending induction can continue.
 
 **Corollary (5.4.2).**
@@ -551,7 +551,7 @@ uniformizer of $A$, so $K$ is an $A$-algebra of finite type. However one has $\d
 
 *(ii) If $A$ and $B$ are two Noetherian rings such that $A \subset B$ and that $B$ is a finite $A$-algebra, the
 corollary `(5.4.2)` shows again that $\dim(B) = \dim(A)$ `(0, 16.1.5)`. Suppose moreover that $A$ is a Noetherian local
-ring; then $B$ is a Noetherian semi-local ring (Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 5, cor. 3 of prop. 9); if
+ring; then $B$ is a Noetherian semi-local ring (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, cor. 3 of prop. 9); if
 $\mathfrak{n}_{i}$ ($1 \leq i \leq r$) are the maximal ideals of $B$, one has therefore*
 
 $$
@@ -622,7 +622,7 @@ $A[T]/\mathfrak{p} A[T] = (A/\mathfrak{p})[T]$, to the case $\mathfrak{p} = 0$; 
 prime ideals of $B = A[T]$ whose intersection with $A$ reduces to $0$ are exactly those which do not meet the
 multiplicative part $S = A - {0}$ of the integral ring $A$; now one knows that there is an increasing bijection of the
 set of these ideals onto the set of prime ideals of $S^{-1}A[T] = K[T]$, where $K$ is the field of fractions of $A$
-(Bourbaki, *Alg. comm.*, chap. II, §2, n$^{\circ}$ 5, prop. 11). Moreover, one has, according to `(5.5.1.2)`,
+(Bourbaki, *Alg. comm.*, chap. II, §2, nÂ° 5, prop. 11). Moreover, one has, according to `(5.5.1.2)`,
 $\dim(B_\mathfrak{q}) \le \dim(A_\mathfrak{p}) + \dim(B_\mathfrak{q}/\mathfrak{p} B_\mathfrak{q})$, and if $k$ is the field of fractions of $A/\mathfrak{p}$,
 $B_{\mathfrak{q}}/\mathfrak{p} B_{\mathfrak{q}}$ is canonically identified with $(k[T])_{\mathfrak{q}}$, hence is a
 discrete valuation ring, so of dimension $1$. Finally, if
@@ -1140,7 +1140,7 @@ $E$ above $\mathfrak{p}$ and it follows from the Cohen-Seidenberg theorem that s
 <!-- original page 103 -->
 
 an ideal is necessarily of height $1$; moreover, as $E$ is a finite $C$-algebra and $\mathfrak{p} \neq \mathfrak{n}$,
-$C_{\mathfrak{p}}$ is integrally closed (Bourbaki, *Alg. comm.*, chap. V, §1, n$^{\circ}$ 5, cor. 5 of prop. 16), hence
+$C_{\mathfrak{p}}$ is integrally closed (Bourbaki, *Alg. comm.*, chap. V, §1, nÂ° 5, cor. 5 of prop. 16), hence
 $E_{\mathfrak{p}} = C_{\mathfrak{p}}$, which proves our assertions.
 
 It would be interesting to know whether every integral Noetherian local ring verifying the conclusion of `(5.6.10)` is
@@ -1516,7 +1516,7 @@ The conditions are *necessary*. Indeed, to say that $X$ is normal means that for
 an integrally closed Noetherian local ring. If $\dim(\mathcal{O}_{x}) = 0$ (resp. $\dim(\mathcal{O}_{x}) = 1$), one
 concludes that $\mathcal{O}_{x}$ is a field since $\mathcal{O}_{x}$ is integral (resp. that $\mathcal{O}_{x}$ is a
 discrete valuation ring, by virtue of `(II, 7.1.6)`). On the other hand, for every element $f_{x} \neq 0$ of
-$\mathcal{O}_{x}$, one knows (Bourbaki, *Alg. comm.*, chap. VII, §1, n$^{\circ}$ 4, prop. 8) that the prime ideals associated to
+$\mathcal{O}_{x}$, one knows (Bourbaki, *Alg. comm.*, chap. VII, §1, nÂ° 4, prop. 8) that the prime ideals associated to
 $\mathcal{O}_{x} / f_{x} \mathcal{O}_{x}$ are non-embedded, so $\mathcal{O}_{x}$ verifies $(S_2)$ `(5.7.7)`.
 
 The conditions are *sufficient*. Indeed, it follows first from `(5.8.5)` that $X$ is reduced. The question being local,
@@ -1539,7 +1539,7 @@ $f_{\mathfrak{p}}/g_{\mathfrak{p}} \in A_{\mathfrak{p}}$. In other terms, one ha
 has only non-embedded associated prime ideals $\mathfrak{p}_{i}$ ($1 \leq i \leq n$); now, $gA$ is the intersection of
 primary ideals $\mathfrak{q}_{i}$ corresponding to the $\mathfrak{p}_{i}$, and from what has just been seen, the
 $\mathfrak{q}_{i}$ are the inverse images in $A$, by the homomorphisms $A \to A_{\mathfrak{p}_{i}}$, of the ideals
-$(gA)_{\mathfrak{p}_{i}}$ (Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 3, prop. 5). But by virtue of the Hauptidealsatz
+$(gA)_{\mathfrak{p}_{i}}$ (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 3, prop. 5). But by virtue of the Hauptidealsatz
 `(0, 16.3.2)` one has $\dim(A_{\mathfrak{p}_{i}}) = 1$ for $1 \leq i \leq n$, hence $(fA)_{\mathfrak{p}_{i}} \subset
 (gA)_{\mathfrak{p}_{i}}$ for every $i$ according to what precedes; as $fA$ is contained in the intersection of the
 inverse images of the $(fA)_{\mathfrak{p}_{i}}$ ($1 \leq i \leq n$), one has $fA \subset gA$, that is to say $f/g \in
@@ -2439,7 +2439,7 @@ finite filtration $(M_{i})_{0 \leq i \leq r}$ of $M$ such that $M_{0} = M$, $M_{
 isomorphic to a submodule of $A/\mathfrak{p}$.*
 
 Note first that the canonical homomorphism $M \to M_{\mathfrak{p}} = N$ is injective (Bourbaki, Alg. comm., chap. IV,
-§1, n$^{\circ}$ 2, prop. 6). Set $B = A_{\mathfrak{p}}$, $\mathfrak{m} = \mathfrak{p}A_{\mathfrak{p}}$, the maximal ideal of $B$;
+§1, nÂ° 2, prop. 6). Set $B = A_{\mathfrak{p}}$, $\mathfrak{m} = \mathfrak{p}A_{\mathfrak{p}}$, the maximal ideal of $B$;
 one has $\operatorname{Ass}(N) = {\mathfrak{m}}$ (loc. cit., prop. 5), and since $N$ is a $B$-module of finite type,
 
 <!-- original page 123 -->
@@ -2491,7 +2491,7 @@ $\mathcal{O}_{U}$; on the other hand, since $\operatorname{codim}(Z, X) \geq 2$,
 $j_{*}(\mathcal{O}_{U})$ is a coherent $\mathcal{O}_{X}$-Module, which proves the proposition in case (i).
 
 (ii) The ring $A'$ is, by virtue of hypothesis (ii), a Noetherian integral and integrally closed ring, hence (Bourbaki,
-Alg. comm., chap. VII, §1, n$^{\circ}$ 6, th. 4) the intersection of its local rings $A'_{\mathfrak{p}'}$, where $\mathfrak{p}'$
+Alg. comm., chap. VII, §1, nÂ° 6, th. 4) the intersection of its local rings $A'_{\mathfrak{p}'}$, where $\mathfrak{p}'$
 runs through the set of prime ideals of height $1$ of $A'$. Now, for such a prime ideal $\mathfrak{p}'$, if one sets
 $\mathfrak{p} = \mathfrak{p}' \cap A$ and $S = A - \mathfrak{p}$, $A'_{\mathfrak{p}'}$ is a local ring at the prime
 ideal $S^{-1}\mathfrak{p}'$ of $S^{-1}A'$, and $S^{-1}A'$ is by hypothesis
@@ -2830,7 +2830,7 @@ $A/tA$).*
 If $Z = V(tA)$, hypothesis (i) entails that $Z$ is an irreducible closed part of $X = \operatorname{Spec}(A)$, whose
 generic point $z$ is such that $\mathfrak{j}_{z} = \mathfrak{p}$. Hypothesis (ii) shows that the maximal ideal
 $\mathfrak{p}A_{\mathfrak{p}}$ of the Noetherian local ring $A_{\mathfrak{p}}$ is generated by a single element, hence
-$A_{\mathfrak{p}}$ is a discrete valuation ring of which $t/1$ is a uniformizer (Bourbaki, Alg. comm., chap. VI, §3, n$^{\circ}$
+$A_{\mathfrak{p}}$ is a discrete valuation ring of which $t/1$ is a uniformizer (Bourbaki, Alg. comm., chap. VI, §3, nÂ°
 6, prop. 9); $A_{\mathfrak{p}}/tA_{\mathfrak{p}}$ is the residue field of $A_{\mathfrak{p}}$, hence an
 $A_{\mathfrak{p}}$-module of length $1$. By virtue of `(3.4.2)`, this entails that $Z$ is contained in only one of the
 irreducible components $X_{i}$ of $X$; for every other irreducible component $X_{j}$ of $X$, one consequently has
@@ -2844,8 +2844,8 @@ prime ideal of $A^{(1)}/tA^{(1)}$ is therefore of height $1$ by virtue of the Ha
 such an ideal $\mathfrak{r}$, $\mathfrak{r} \cap A$ is of height $1$ by virtue of `(5.10.17, (iv))` and since it
 contains $tA$, it can only be $\mathfrak{p}$ by virtue of hypothesis (i). On the other hand, $A^{(1)}$ is contained in
 the integral closure $A'$ of $A$; setting $S = A - \mathfrak{p}$, the integral closure of $A_{\mathfrak{p}}$ is
-$S^{-1}A'$ (Bourbaki, Alg. comm., chap. V, §1, n$^{\circ}$ 5, prop. 17), hence $S^{-1}A' = A_{\mathfrak{p}}$ since
-$A_{\mathfrak{p}}$ is a discrete valuation ring; it follows (loc. cit., §2, n$^{\circ}$ 1, lemme 1) that there exists only one
+$S^{-1}A'$ (Bourbaki, Alg. comm., chap. V, §1, nÂ° 5, prop. 17), hence $S^{-1}A' = A_{\mathfrak{p}}$ since
+$A_{\mathfrak{p}}$ is a discrete valuation ring; it follows (loc. cit., §2, nÂ° 1, lemme 1) that there exists only one
 prime ideal $\mathfrak{p}'$ of $A'$ above $\mathfrak{p}$, and a fortiori only one prime ideal $\mathfrak{p}^{(1)}$ of
 $A^{(1)}$ above $\mathfrak{p}$, and one has $A_{\mathfrak{p}} = A'_{\mathfrak{p}'} = A^{(1)}_{\mathfrak{p}^{(1)}}$. Note
 now that $A^{(1)}$ verifies $(S_2)$ `(5.10.17, (i))` and since $t$ is not a zero-divisor in $A^{(1)}$,

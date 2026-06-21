@@ -130,18 +130,18 @@ other words, the objects $B_{\infty}(E^{p,q}_{2})$ and $Z_{\infty}(E^{p,q}_{2})$
 the spectral sequence $E$). We shall say that the spectral sequence $E$ is *regular* if it is weakly convergent and
 moreover:
 
-$1^{\circ}$ For every pair $(p, q)$, the decreasing sequence $(Z_{k}(E^{p,q}_{2}))_{k \geq 2}$ is stationary; the
+1Â° For every pair $(p, q)$, the decreasing sequence $(Z_{k}(E^{p,q}_{2}))_{k \geq 2}$ is stationary; the
 hypothesis that $E$ is weakly convergent then implies $Z_{\infty}(E^{p,q}_{2}) = Z_{k}(E^{p,q}_{2})$ for $k$
 sufficiently large (depending on $p$ and $q$).
 
-$2^{\circ}$ For every $n$, the filtration $(F^{p}(E^{n}))_{p \in \mathbb{Z}}$ of $E^{n}$ is discrete and exhaustive.
+2Â° For every $n$, the filtration $(F^{p}(E^{n}))_{p \in \mathbb{Z}}$ of $E^{n}$ is discrete and exhaustive.
 
 One says that the spectral sequence $E$ is *co-regular* if it is weakly convergent and moreover:
 
-$3^{\circ}$ For every pair $(p, q)$, the increasing sequence $(B_{k}(E^{p,q}_{2}))_{k \geq 2}$ is stationary, which
+3Â° For every pair $(p, q)$, the increasing sequence $(B_{k}(E^{p,q}_{2}))_{k \geq 2}$ is stationary, which
 entails $B_{\infty}(E^{p,q}_{2}) = B_{k}(E^{p,q}_{2})$, and consequently $E^{p,q}_{\infty} = \inf_{k} E^{p,q}_{k}$.
 
-$4^{\circ}$ For every $n$, the filtration of $E^{n}$ is co-discrete.
+4Â° For every $n$, the filtration of $E^{n}$ is co-discrete.
 
 Finally, one says that $E$ is *biregular* if it is both regular and co-regular; in other words, if the following
 conditions hold:
@@ -392,8 +392,8 @@ $E(K^{\bullet})$ is regular.
 
 As regards the conventions on bicomplexes, we follow those of `(T, 2.4)` rather than those of `(M)`, the two derivations
 $d'$, $d''$ (of degree `+1`) of such a bicomplex $K^{\bullet,\bullet} = (K^{i,j})$ being therefore *assumed to commute*.
-Suppose that *one of the two following conditions* is verified: $1^{\circ}$ infinite direct sums exist in $\mathcal{C}$;
-$2^{\circ}$ for every $n \in \mathbb{Z}$, there are only finitely many pairs $(p, q)$ such that $p + q = n$ and $K^{p,q}
+Suppose that *one of the two following conditions* is verified: 1Â° infinite direct sums exist in $\mathcal{C}$;
+2Â° for every $n \in \mathbb{Z}$, there are only finitely many pairs $(p, q)$ such that $p + q = n$ and $K^{p,q}
 \neq 0$. Then the bicomplex $K^{\bullet,\bullet}$ defines a (simple) complex $(K^{(n)})_{n \in \mathbb{Z}}$ with
 $K^{(n)} = \oplus_{i+j=n} K^{i,j}$, the derivation operator $d$ (of degree `+1`) of this complex being given by $dx =
 d'x + (-1)^{i} d''x$ for $x \in K^{i,j}$. *Whenever in what follows we speak of the (simple) complex defined by a
@@ -479,23 +479,23 @@ Suppose moreover that in $\mathcal{C}$ filtered inductive limits exist and are e
 following observations concerning the filtration `F_I` (and the analogous observations one deduces for $F_{II}$ by
 exchanging the roles of the two indices in $K^{\bullet,\bullet}$):
 
-$1^{\circ}$ If there exists $i_{0}$ such that $K^{i,j} = 0$ for $i > i_{0}$, the filtration $F_{I}(K^{\bullet,\bullet})$
+1Â° If there exists $i_{0}$ such that $K^{i,j} = 0$ for $i > i_{0}$, the filtration $F_{I}(K^{\bullet,\bullet})$
 is *discrete*.
 
-$2^{\circ}$ If there exists $i_{0}$ such that $K^{i,j} = 0$ for $i < i_{0}$, the filtration $F_{I}(K^{\bullet,\bullet})$
+2Â° If there exists $i_{0}$ such that $K^{i,j} = 0$ for $i < i_{0}$, the filtration $F_{I}(K^{\bullet,\bullet})$
 is *co-discrete*. One deduces at once that the same holds for the corresponding filtration
 $F_{I}(H^{n}(K^{\bullet,\bullet}))$ for every $n$; moreover, the definition of $B^{p,q}_{r}$ corresponding to the
 filtration $F_{I}(K^{\bullet,\bullet})$ `(11.2.2)` shows that for every pair $(p, q)$, the sequence $(B^{p,q}_{r})_{r
 \geq 2}$ is stationary.
 
-$3^{\circ}$ If there exists $j_{0}$ such that $K^{i,j} = 0$ for $j < j_{0}$, one has
+3Â° If there exists $j_{0}$ such that $K^{i,j} = 0$ for $j < j_{0}$, one has
 
 $$ F^{p+r}_{I}(K^{\bullet,\bullet}) \cap (\oplus_{i+j=n} K^{i,j}) = 0 $$
 
 whenever $p + r + j_{0} > n$, hence $Z^{p,q}_{r} = Z_{\infty}(E^{p,q}_{2})$ for $r > q - j_{0} + 1$; on the other hand,
 $H^{n}(F^{p}_{I}(K^{\bullet,\bullet})) = 0$ for $p > n - j_{0} + 1$.
 
-$4^{\circ}$ If there exists $j_{0}$ such that $K^{i,j} = 0$ for $j > j_{0}$, one has
+4Â° If there exists $j_{0}$ such that $K^{i,j} = 0$ for $j > j_{0}$, one has
 
 $$ F_I^{p-r+1}(K^{\bullet,\bullet}) \cap (\oplus_{i+j=n} K^{i,j}) = \oplus_{i+j=n} K^{i,j} $$
 
@@ -703,7 +703,7 @@ the complex $(R^{pT}(K^{i}))_{p \in \mathbb{Z}}$. Unless expressly stated otherw
 every object of $\mathcal{C}$ is a subobject of an injective object of $\mathcal{C}$*, so that injective
 Cartan–Eilenberg resolutions exist for every complex of $\mathcal{C}$. Since $L^{i,j} = 0$ for $j < 0$, the criteria of
 `(11.3.3)` show that the two hypercohomology spectral sequences of $T$ with respect to $K^{\bullet}$ exist and are
-*biregular* in each of the two following cases: $1^{\circ}$ $K^{\bullet}$ is bounded below; $2^{\circ}$ every object of
+*biregular* in each of the two following cases: 1Â° $K^{\bullet}$ is bounded below; 2Â° every object of
 $\mathcal{C}$ admits an injective resolution of length at most equal to an integer $n$ (independent of the object
 considered). Indeed, in the first case, one may suppose `(11.4.2)` that there exists $i_{0}$ such that $L^{i,j} = 0$ for
 $i < i_{0}$, and in the second that there exists $j_{1}$ such that $L^{i,j} = 0$ for $j > j_{1}$; in each of the two
@@ -882,7 +882,7 @@ In $\mathcal{K}$, let $\mathcal{J}$ be the set of complexes $Q^{\bullet} = (Q^{i
 
 <!-- original page 381 -->
 
-following properties: $1^{\circ}$ Every $Q^{i}$ is an injective object of $\mathcal{C}$; $2^{\circ}$ For every $i \geq
+following properties: 1Â° Every $Q^{i}$ is an injective object of $\mathcal{C}$; 2Â° For every $i \geq
 0$, one has $Z^{i}(Q^{\bullet}) = B^{i}(Q^{\bullet})$, and $Z^{i}(Q^{\bullet})$ is a direct factor of $Q^{i}$. Then:
 
 (i) Every $Q^{\bullet} \in \mathcal{J}$ is an injective object of $\mathcal{K}$.
@@ -896,8 +896,8 @@ shall use the language of the category of modules for simplicity (cf. `[27]`).
 
 We identify $Q^{i}$ with $B^{i}(Q^{\bullet}) \oplus B^{i+1}(Q^{\bullet})$; we proceed by induction on $i$, supposing
 therefore the $g^{j}$ defined for $j < i$, compatible with the derivation operators $d^{j} : A^{j} \to A^{j+1}$ and
-$d^{j} : Q^{j} \to Q^{j+1}$ for $j < i - 1$ and such moreover that: $1^{\circ}$ $g^{i-1}(Z^{i-1}(A^{\bullet})) \subset
-Z^{i-1}(Q^{\bullet})$; $2^{\circ}$ If one sets $C^{j} = (d^{j})^{-1}(A'^{j+1})$ for every $j$, then $d^{i-1} \circ
+$d^{j} : Q^{j} \to Q^{j+1}$ for $j < i - 1$ and such moreover that: 1Â° $g^{i-1}(Z^{i-1}(A^{\bullet})) \subset
+Z^{i-1}(Q^{\bullet})$; 2Â° If one sets $C^{j} = (d^{j})^{-1}(A'^{j+1})$ for every $j$, then $d^{i-1} \circ
 g^{i-1}$ coincides with $f^{i} \circ d^{i-1}$ on $C^{i-1}$. The morphism $f^{i} : A'^{i} \to Q^{i}$ gives, by
 composition with the projections, two morphisms $f^{i'} : A'^{i} \to B^{i}(Q^{\bullet})$ and $f^{ii} : A'^{i} \to
 B^{i+1}(Q^{\bullet})$. Since $d^{i-1} \circ g^{i-1}$ carries $A^{i-1}$ into $B^{i}(Q^{\bullet})$ and vanishes on

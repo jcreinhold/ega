@@ -1117,8 +1117,8 @@ $$ f : X' \to X $$
 a morphism, $\mathcal{B}$ an $\mathcal{A}$-algebra, $\mathcal{B}' = f*(\mathcal{B})$ the inverse image
 $\mathcal{A}'$-algebra. One supposes that one of the following hypotheses is satisfied:
 
-- $1^{\circ}$ $\mathcal{B}$ satisfies hypothesis (I) of (6.5.1).
-- $2^{\circ}$ $(X, \mathcal{A})$ and $\mathcal{B}$ satisfy hypothesis (II) of (6.5.1), $(X', \mathcal{A}')$ is a locally
+- 1Â° $\mathcal{B}$ satisfies hypothesis (I) of (6.5.1).
+- 2Â° $(X, \mathcal{A})$ and $\mathcal{B}$ satisfy hypothesis (II) of (6.5.1), $(X', \mathcal{A}')$ is a locally
   Noetherian reduced prescheme, and, if one denotes by $X_{\alpha}$ and $X'_{\beta}$ the closed reduced subpreschemes of
   $X$ and $X'$ respectively having as underlying spaces the irreducible components of these spaces, the restriction of
   $f$ to each $X'_{\beta}$ is a dominant morphism from $X'_{\beta}$ into some $X_{\alpha}$.

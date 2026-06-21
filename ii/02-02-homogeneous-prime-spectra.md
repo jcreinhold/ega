@@ -185,21 +185,21 @@ Let $n_{0}$ be an integer `> 0`; for every $n \geq n_{0}$, let $\mathfrak{p}_{n}
 exist a graded prime ideal $\mathfrak{p}$ of $S$ not containing $S_{+}$ and such that $\mathfrak{p} \cap S_{n} =
 \mathfrak{p}_{n}$ for every $n \geq n_{0}$, it is necessary and sufficient that the following conditions be satisfied:
 
-$1^{\circ}$ $S_{m} \mathfrak{p}_{n} \subset \mathfrak{p}_{m + n}$ for every $m \geq 0$ and every $n \geq n_{0}$.
+1Â° $S_{m} \mathfrak{p}_{n} \subset \mathfrak{p}_{m + n}$ for every $m \geq 0$ and every $n \geq n_{0}$.
 
-$2^{\circ}$ For $m \geq n_{0}$, $n \geq n_{0}$, $f \in S_{m}$, $g \in S_{n}$, the relation $fg \in \mathfrak{p}_{m + n}$
+2Â° For $m \geq n_{0}$, $n \geq n_{0}$, $f \in S_{m}$, $g \in S_{n}$, the relation $fg \in \mathfrak{p}_{m + n}$
 implies $f \in \mathfrak{p}_{m}$ or $g \in \mathfrak{p}_{n}$.
 
-$3^{\circ}$ $\mathfrak{p}_{n} \neq S_{n}$ for at least one $n \geq n_{0}$.
+3Â° $\mathfrak{p}_{n} \neq S_{n}$ for at least one $n \geq n_{0}$.
 
 Moreover, _the graded prime ideal $\mathfrak{p}$ is then unique_.
 
-**Proof.** It is evident that conditions $1^{\circ}$ and $2^{\circ}$ are necessary. Moreover, if $\mathfrak{p}
+**Proof.** It is evident that conditions 1Â° and 2Â° are necessary. Moreover, if $\mathfrak{p}
 \not\supset S_{+}$, there exists at least one $k > 0$ such that $\mathfrak{p} \cap S_{k} \neq S_{k}$; if $f \in S_{k}$
 is not in $\mathfrak{p}$, the relation $\mathfrak{p} \cap S_{n} = S_{n}$ implies $\mathfrak{p} \cap S_{n - mk} = S_{n -
 mk}$ by (2.1.8); hence, if $\mathfrak{p} \cap S_{n} = S_{n}$ from some value of $n$ onwards, we would have $\mathfrak{p}
-\supset S_{+}$ contrary to the hypothesis, which proves that $3^{\circ}$ is necessary. Conversely, suppose conditions
-$1^{\circ}$, $2^{\circ}$, and $3^{\circ}$ are satisfied. Note that if for an integer $d \geq n_{0}$, $f \in S_{d}$ is
+\supset S_{+}$ contrary to the hypothesis, which proves that 3Â° is necessary. Conversely, suppose conditions
+1Â°, 2Â°, and 3Â° are satisfied. Note that if for an integer $d \geq n_{0}$, $f \in S_{d}$ is
 not in $\mathfrak{p}_{d}$, then, if $\mathfrak{p}$ exists, $\mathfrak{p}_{m}$, for $m < n_{0}$, is necessarily equal to
 the set of $x \in S_{m}$ such that $f^{r} x \in \mathfrak{p}_{m + rd}$, except for finitely many values of $r$. This
 already proves that if $\mathfrak{p}$ exists, it is unique. It remains to show
@@ -207,7 +207,7 @@ already proves that if $\mathfrak{p}$ exists, it is unique. It remains to show
 <!-- original page 23 -->
 
 that if we define the $\mathfrak{p}_{m}$ for $m < n_{0}$ by the previous condition, then $\mathfrak{p} =
-\sum^{\infty}_{n = 0} \mathfrak{p}_{n}$ is a prime ideal. Note first that by virtue of $2^{\circ}$, for $m \geq n_{0}$,
+\sum^{\infty}_{n = 0} \mathfrak{p}_{n}$ is a prime ideal. Note first that by virtue of 2Â°, for $m \geq n_{0}$,
 $\mathfrak{p}_{m}$ is also defined as the set of $x \in S_{m}$ such that $f^{r} x \in \mathfrak{p}_{m + rd}$ except for
 finitely many values of $r$. This being so, if $g \in S_{m}$, $x \in \mathfrak{p}_{n}$, we have $f^{r} gx \in
 \mathfrak{p}_{m + n + rd}$ except for finitely many values of $r$, so $gx \in \mathfrak{p}_{m + n}$, which proves that
@@ -216,7 +216,7 @@ graded by the subgroups $S_{n}/\mathfrak{p}_{n}$, is an integral domain, it suff
 highest degree of two elements of $S/\mathfrak{p}$) to prove that if $x \in S_{m}$, $y \in S_{n}$ are such that $x
 \notin \mathfrak{p}_{m}$, $y \notin \mathfrak{p}_{n}$, then $xy \notin \mathfrak{p}_{m + n}$. Otherwise, for $r$ large
 enough, we would have $f^{2r} xy \in \mathfrak{p}_{m + n + 2rd}$; but $f^{r} y \notin \mathfrak{p}_{n + rd}$ for every
-$r > 0$; it follows from $2^{\circ}$ that, except for finitely many values of $r$, we have $f^{r} x \in \mathfrak{p}_{m + rd}$,
+$r > 0$; it follows from 2Â° that, except for finitely many values of $r$, we have $f^{r} x \in \mathfrak{p}_{m + rd}$,
 and we conclude that $x \in \mathfrak{p}_{m}$ contrary to the hypothesis.
 
 **(2.1.10)**

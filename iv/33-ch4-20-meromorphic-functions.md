@@ -37,7 +37,7 @@ immersion of codimension `1`. The reader will therefore find it advantageous to 
 
 **(20.1.1).** Let $(X, \mathcal{O}_{X})$ be a ringed space, and let $\mathcal{S}$ be a subsheaf *of sets* of
 $\mathcal{O}_{X}$. For every open $U$ of $X$, consider the *ring of fractions* $\Gamma(U, \mathcal{O}_{X})[\Gamma(U,
-\mathcal{S})^{-1}]$ (Bourbaki, _Alg. comm._, chap. II, §2, n$^{\circ}$ 1). It is immediate that the map $U \mapsto
+\mathcal{S})^{-1}]$ (Bourbaki, _Alg. comm._, chap. II, §2, nÂ° 1). It is immediate that the map $U \mapsto
 \Gamma(U, \mathcal{O}_{X})[\Gamma(U, \mathcal{S})^{-1}]$ is a *presheaf of rings* $(0_{I}, 1.5.1 and 1.5.7)$. We denote
 by $\mathcal{O}_{X}[\mathcal{S}^{-1}]$ the *sheaf of rings* associated to this presheaf and we say that this is the
 *sheaf of rings of fractions of $\mathcal{O}_{X}$ with denominators in $\mathcal{S}$*; it is a *flat*
@@ -96,7 +96,7 @@ case where $U$ is affine, and an element of a reduced ring belonging to every mi
 The converse is true if the set of irreducible components of $X$ is *locally finite*. One is at once reduced to the case
 where $X = \operatorname{Spec}(A)$ is affine; if $\mathfrak{p}_{i}$ ($1 \leq i \leq n$) are the minimal prime ideals of
 $A$ and $s \in \mathfrak{p}_{i}$ for some index $i$, then there exists $t \in A$ such that $t \in \mathfrak{p}_{j}$ for
-$j \neq i$ and $t \notin \mathfrak{p}_{i}$ (Bourbaki, _Alg. comm._, chap. II, §1, n$^{\circ}$ 1, prop. 1); one therefore
+$j \neq i$ and $t \notin \mathfrak{p}_{i}$ (Bourbaki, _Alg. comm._, chap. II, §1, nÂ° 1, prop. 1); one therefore
 has $st \in \mathfrak{p}_{i}$ for every $i$, hence $st = 0$ since $A$ is reduced; so $s$ is not regular.
 
 **(20.1.4).** For every open $U$ of $X$, the homomorphism $t \mapsto t/1$ from $\Gamma(U, \mathcal{O}_{X})$ to
@@ -133,7 +133,7 @@ to be strictly torsion-free, it is necessary and sufficient that $Ass(\mathcal{F
 
 One is at once reduced to the case where $X = \operatorname{Spec}(A)$ is affine, $\mathcal{F} = \tilde{M}$, and one
 knows that the elements $s$ of $A$ belonging to an ideal of $Ass(M)$ are exactly those for which the homothety $z
-\mapsto sz$ is not injective (Bourbaki, _Alg. comm._, chap. IV, §1, n$^{\circ}$ 1, cor. 2 of prop. 2).
+\mapsto sz$ is not injective (Bourbaki, _Alg. comm._, chap. IV, §1, nÂ° 1, cor. 2 of prop. 2).
 
 **(20.1.7).** If $u$ is a section of $\mathcal{M}_{X}(\mathcal{F})$ over $X$, one says that $u$ is *defined* at a point
 $x \in X$ if there exists an open neighbourhood $V$ of $x$ in $X$ such that $u | V$ is the image of a section of
@@ -211,7 +211,7 @@ $\mathcal{S}(\mathcal{O}_{X})$, which one denotes $\mathcal{S}_{f}$. One sets $\
 
 of rings of $\mathcal{M}_{X}$, and one canonically deduces from $\theta\sharp : \psi*(\mathcal{O}_{X}) \to
 \mathcal{O}_{X'}$ a homomorphism of sheaves of rings $\theta'\sharp : \psi*(\mathcal{M}_{f}) \to \mathcal{M}_{X'}$
-extending $\theta\sharp$ (Bourbaki, _Alg. comm._, chap. II, §2, n$^{\circ}$ 1, prop. 2); whence, recalling that
+extending $\theta\sharp$ (Bourbaki, _Alg. comm._, chap. II, §2, nÂ° 1, prop. 2); whence, recalling that
 $f*(\mathcal{M}_{f}) = \psi*(\mathcal{M}_{f}) \otimes_{\psi*(\mathcal{O}_{X})} \mathcal{O}_{X'}$, a canonical
 homomorphism of $\mathcal{O}_{X'}$-Algebras
 
@@ -493,7 +493,7 @@ ideals $\mathfrak{p}_{i}$; as $A$ is reduced, the intersection of the $\mathfrak
 $t$ is regular is therefore equivalent to saying that $t$ does not belong to any of the $\mathfrak{p}_{i}$; one
 concludes by the reasoning of `(I, 7.1.9.1)`. When $A$ is Noetherian, saying that $U = X - Y$ (where $Y =
 V(\mathfrak{i})$ is closed in $X$) is schematically dense means `(5.10.2)` that $Y$ does not meet
-$Ass(\mathcal{O}_{X})$, and by virtue of Bourbaki, _Alg. comm._, chap. IV, §1, n$^{\circ}$ 4, prop. 8, this entails the
+$Ass(\mathcal{O}_{X})$, and by virtue of Bourbaki, _Alg. comm._, chap. IV, §1, nÂ° 4, prop. 8, this entails the
 existence of a $t \in \mathfrak{i}$ such that $t$ is $A$-regular, hence $U \supset D(t)$.
 
 One has moreover proved in the course of this proof the
@@ -529,7 +529,7 @@ where $S$ is the set of regular elements of $A$, the complement of the union of 
 the other hand, $R(X)$ identifies with $Q^{-1}A$, where $Q$ is the complement of the union of the minimal prime ideals
 of $A$ `(I, 7.1.9)`, and the canonical homomorphism $A \to Q^{-1}A$ (and *a fortiori* $S^{-1}A \to Q^{-1}A$) is
 therefore not injective, since there exist in $A - Q$ elements $\neq 0$ of $A$ annihilated by elements of $Q$ (Bourbaki,
-_Alg. comm._, chap. IV, §1, n$^{\circ}$ 1, cor. 2 of prop. 1).
+_Alg. comm._, chap. IV, §1, nÂ° 1, cor. 2 of prop. 1).
 
 (iii) One will note that even when $X$ is locally Noetherian, the $\mathcal{O}_{X}$-Module $\mathcal{M}_{X}$ is not
 necessarily quasi-coherent. Consider for example a Noetherian local ring $A$ of dimension $\geq 2$, whose maximal ideal
@@ -792,7 +792,7 @@ the underlying sets of the $S_{\lambda}$ `(8.2.9)`. Conversely, let $s$ be a max
 belongs to $\lim M_{\lambda}$. Let $s_{\lambda}$ be the image of $s$ in $S_{\lambda}$, $M'_{\lambda}$ the set of maximal
 points of $S_{\lambda}$ which are generizations of $s_{\lambda}$; the $M'_{\lambda}$ are non-empty finite sets, which
 form a projective system, so $M' = \lim M'_{\lambda}$ is non-empty and the map $M' \to M'_{\lambda}$ is surjective
-(Bourbaki, _Ens._, chap. III, 2nd ed., §7, n$^{\circ}$ 4, Example I). On the other hand, one has
+(Bourbaki, _Ens._, chap. III, 2nd ed., §7, nÂ° 4, Example I). On the other hand, one has
 $\operatorname{Spec}(\mathcal{O}_{S,s}) = \varprojlim \operatorname{Spec}(\mathcal{O}_{S_{\lambda}, s_{\lambda}})$ by
 virtue of `(8.2.12)` and `(8.2.9)`, so the points of $\lim M'_{\lambda}$ are also maximal points of
 $\operatorname{Spec}(\mathcal{O}_{S,s})$ by the first part of the reasoning. Hence $M' = \lim M'_{\lambda}$ necessarily
@@ -1448,7 +1448,7 @@ $dom(\phi) \cap X_{s}$ is schematically dense in the locally Noetherian preschem
 contains $Ass(\mathcal{O}_{X_{s}})$; this implies that the ideal $\mathcal{J}_{x}$ of $\mathcal{O}_{X,x}$ has an image
 in $\mathcal{O}_{X_{s}, x} = \mathcal{O}_{X,x} / \mathfrak{m}_{s} \mathcal{O}_{X,x}$ which is not contained in any of
 the prime ideals $\mathfrak{p}_{i} \in Ass(\mathcal{O}_{X_{s}, x})$ (finite in number); hence (Bourbaki, _Alg. comm._,
-chap. II, §1, n$^{\circ}$ 1, prop. 2) there exists an element $t_{x} \in \mathcal{J}_{x}$ whose image in
+chap. II, §1, nÂ° 1, prop. 2) there exists an element $t_{x} \in \mathcal{J}_{x}$ whose image in
 $\mathcal{O}_{X_{s}, x}$ does not belong to any of the $\mathfrak{p}_{i}$, and is consequently regular in this
 Noetherian ring. Let $t$ be a section of $\mathcal{J}$ over an affine open neighbourhood $U$ of $x$ whose germ at the
 point $x$ is $t_{x}$; since $X$ is flat and locally of finite presentation over $S$, one may suppose `(11.3.8)` that $t$

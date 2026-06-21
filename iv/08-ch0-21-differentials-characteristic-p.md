@@ -116,7 +116,7 @@ then the structural homomorphism $u : R \to S$ is surjective.*
 
 It suffices to show that for every maximal ideal $\mathfrak{m}$ of $R$, if one sets $T = R - \mathfrak{m}$, the
 homomorphism $u_{\mathfrak{m}} : R_{\mathfrak{m}} \to T^{-1} S$ is surjective (Bourbaki, Alg. comm., chap. II, §3,
-n$^{\circ}$ 3, th. 1); now the hypothesis entails that the homomorphism $(T^{-1} S) \otimes_{R_{\mathfrak{m}}} (T^{-1}
+nÂ° 3, th. 1); now the hypothesis entails that the homomorphism $(T^{-1} S) \otimes_{R_{\mathfrak{m}}} (T^{-1}
 S) \to T^{-1} S$ is bijective $(0_{I}, 1.3.4)$, and since $T^{-1} S$ is a finite $R_{\mathfrak{m}}$-algebra,
 
 <!-- original page 251 -->
@@ -559,7 +559,7 @@ $k$, it is necessary and sufficient that $x \notin k(K^{p})$.*
 <!-- original page 258 -->
 
 In fact, $x$ is a root of the polynomial $X^{p} - x^{p}$ of $k(K^{p})[X]$, and one knows (Bourbaki, Alg., chap. V, §8,
-n$^{\circ}$ 1, prop. 1) that if $x \notin k(K^{p})$, this polynomial is irreducible, so that the elements $1, x, \cdots,
+nÂ° 1, prop. 1) that if $x \notin k(K^{p})$, this polynomial is irreducible, so that the elements $1, x, \cdots,
 x^{p-1}$ form a basis of the $k(K^{p})$-module $k(K^{p})(x)$.
 
 **Theorem (21.4.2).**
@@ -683,7 +683,7 @@ In this number and the two following, we no longer suppose that the rings consid
 (21.5.1) Note first that the criterion `(21.2.7)` permits proving a part of Cohen's theorem on separable extensions
 `(19.6.1)`, namely that if $k$ is of characteristic $p > 0$ and if $K$ is a separable extension of $k$, then $K$ is an
 $A$-algebra formally smooth. In fact, $K$ admits a $p$-basis over $k$ `(21.4.2)`, and on the other hand, it follows from
-MacLane's criterion (Bourbaki, Alg., chap. V, §8, n$^{\circ}$ 2, prop. 3) that in an algebraic closure of $K$, $k^{1/p}$
+MacLane's criterion (Bourbaki, Alg., chap. V, §8, nÂ° 2, prop. 3) that in an algebraic closure of $K$, $k^{1/p}$
 and $K$ are linearly disjoint over $k$, and consequently the canonical homomorphism $k^{1/p} \otimes_{k} K \to
 k^{1/p}(K)$ is bijective, which is precisely condition (i) of `(21.2.7)`, after transport of structure by the
 isomorphism $k^{1/p} \xrightarrow{\sim} k$.
@@ -1319,7 +1319,7 @@ $$ k'[[T_{1}, \ldots, T_{r}]] \cap k((T_{1}, \ldots, T_{r})) = k[[T_{1}, \ldots,
 
 In fact, set $C = k[[T_{1}, \cdots, T_{r}]]$, $D = k'[[T_{1}, \cdots, T_{r}]]$; as $k((T_{1}, \cdots, T_{r}))$ is the
 field of fractions of $C$, it will suffice to prove that $D$ is a faithfully flat $C$-module (Bourbaki, Alg. comm.,
-chap. I, §3, n$^{\circ}$ 5, prop. 10). Now, $C$ and $D$ are Noetherian local rings, and if $\mathfrak{m}$ is the maximal
+chap. I, §3, nÂ° 5, prop. 10). Now, $C$ and $D$ are Noetherian local rings, and if $\mathfrak{m}$ is the maximal
 ideal of $C$, one has $D/\mathfrak{m} D = (C/\mathfrak{m}) \otimes_{k} k'$, hence $D/\mathfrak{m} D$
 
 <!-- original page 271 -->
@@ -1457,8 +1457,8 @@ $$ \operatorname{rg}_{A} \hat{\Omega}^{1}_{A/A_{0}} = \operatorname{rg}_{E}(\hat
 \dim(A). \tag{21.9.5.1} $$
 
 Note that if $\mathfrak{m}_{0}$ is the maximal ideal of $A_{0}$, the topology of $A$ is the $\mathfrak{m}_{0}$-adic
-topology since $A$ is a finite $A_{0}$-algebra (Bourbaki, Alg. comm., chap. IV, §2, n$^{\circ}$ 5, cor. 3 of prop. 9)
-and induces on $A_{0}$ the $\mathfrak{m}_{0}$-adic topology (Bourbaki, Alg. comm., chap. III, §3, n$^{\circ}$ 4, th. 3).
+topology since $A$ is a finite $A_{0}$-algebra (Bourbaki, Alg. comm., chap. IV, §2, nÂ° 5, cor. 3 of prop. 9)
+and induces on $A_{0}$ the $\mathfrak{m}_{0}$-adic topology (Bourbaki, Alg. comm., chap. III, §3, nÂ° 4, th. 3).
 One knows `(21.9.1)` that $\hat{\Omega}^{1}_{A/A_{0}}$ is an $A$-module of finite type, and
 
 <!-- original page 273 -->
@@ -1574,7 +1574,7 @@ Let us note now the classical lemma:
 
 *For every field $k$, the formal power series field $K = k((T_{1}, \cdots, T_{r}))$ is a separable extension of $k$.*
 
-Let us briefly recall the proof of this lemma for completeness. It suffices (Bourbaki, Alg., chap. VIII, §7, n$^{\circ}$
+Let us briefly recall the proof of this lemma for completeness. It suffices (Bourbaki, Alg., chap. VIII, §7, nÂ°
 3, proof of th. 1) to prove that for every finite extension $k'$ of $k$, $K \otimes_{k} k'$ is without nilpotent
 element; but if one sets $A = k[[T_{1}, \cdots, T_{r}]]$ and $S = A - \{0\}$, $K \otimes_{k} k'$ is equal to $S^{-1}(A
 \otimes_{k} k')$, and $A \otimes_{k} k'$ is identified canonically with the integral ring $A' = k'[[T_{1}, \cdots,

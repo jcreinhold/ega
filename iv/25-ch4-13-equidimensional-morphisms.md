@@ -493,7 +493,7 @@ $g_{y}$ is necessarily surjective and there exists an open neighbourhood $U$ of 
 quasi-finite.*
 
 Set $\mathfrak{p} = j_{y}$; the ring $B \otimes_{A} \mathit{k}(\mathfrak{p})$ is a $\mathit{k}(\mathfrak{p})$-algebra of
-finite type, hence the normalization lemma (Bourbaki, *Alg. comm.*, chap. V, §3, n$^{\circ}$ 1, th. 1) proves that there
+finite type, hence the normalization lemma (Bourbaki, *Alg. comm.*, chap. V, §3, nÂ° 1, th. 1) proves that there
 is in $B \otimes_{A} \mathit{k}(\mathfrak{p})$ a finite sequence $(t_{i})_{1 \leq i \leq r}$ of elements algebraically
 independent over $\mathit{k}(\mathfrak{p})$ and such that, if one sets $C' = \mathit{k}(\mathfrak{p})[t_{1}, \cdots,
 t_{r}]$, $B \otimes_{A} \mathit{k}(\mathfrak{p})$ is a *finite* $C'$-algebra; one therefore has $\dim(B \otimes_{A}

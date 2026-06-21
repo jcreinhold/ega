@@ -801,7 +801,7 @@ generic point of $\mathbb{P}^{1}_{k}$ if and only if it corresponds to an
 
 <!-- original page 151 → 152 -->
 
-element transcendental over $k$. Now, this verification is immediate from (4.2.6, example $1^{\circ}$).
+element transcendental over $k$. Now, this verification is immediate from (4.2.6, example 1Â°).
 
 **Corollary.**
 

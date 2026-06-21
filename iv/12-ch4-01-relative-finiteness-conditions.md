@@ -627,7 +627,7 @@ $\mathfrak{a}$) is the kernel of $w$ (resp. $u$), one has $\mathfrak{a} = v(\mat
 $\mathfrak{a}$ is an ideal of finite type of $B'$, hence an $A$-module of finite type since $B'$ is a finite
 $A$-algebra; since $B'$ is a free $A$-module, $B$ is an $A$-module of finite presentation. Conversely, if $B$ is an
 $A$-module of finite presentation, $\mathfrak{a}$ is an $A$-module of finite type
-`(Bourbaki, Alg. comm., chap. I, §2, n$^{\circ}$ 8, lemme 9)`, and *a fortiori* an ideal of finite type of $B'$;
+`(Bourbaki, Alg. comm., chap. I, §2, nÂ° 8, lemme 9)`, and *a fortiori* an ideal of finite type of $B'$;
 consequently, $B$ is by definition a $B'$-algebra of finite presentation, and since $B'$ is an $A$-algebra of finite
 presentation, $B$ is an $A$-algebra of finite presentation.
 
@@ -1050,7 +1050,7 @@ homomorphism of $A$ into an algebraically closed field $\Omega$, non-zero on $g$
 $\Omega$.*
 
 Now, this is a classical result of commutative algebra
-`(Bourbaki, Alg. comm., chap. V, §3, n$^{\circ}$ 1, cor. 3 du th. 1)`.
+`(Bourbaki, Alg. comm., chap. V, §3, nÂ° 1, cor. 3 du th. 1)`.
 
 **Corollary (1.8.6).**
 
@@ -1539,7 +1539,7 @@ $$ Z = f^{-1}(y) = X \times_{Y} \operatorname{Spec}(k(y)); $$
 $Z$ is quasi-compact `(1.1.2, (iii))` and as the canonical morphism $p : Z \to X$ is injective, it results from (i) and
 from the fact that the map $p^{cons}$ is continuous that the topology induced on $f^{-1}(y)$ by that of $X^{cons}$ makes
 $f^{-1}(y)$ a quasi-compact space. This proves that $f^{cons}$ is a proper map
-`(Bourbaki, Top. gén., chap. I, 3e éd., §10, n$^{\circ}$ 2, th. 1)`. Conversely, suppose the continuous map $f^{cons}$
+`(Bourbaki, Top. gén., chap. I, 3e éd., §10, nÂ° 2, th. 1)`. Conversely, suppose the continuous map $f^{cons}$
 is proper, and let $V$ be a quasi-compact open of $Y$; if $h : V \to Y$ is the canonical injection, $h^{cons} : V^{cons}
 \to Y^{cons}$ is continuous and injective and $V^{cons}$ is quasi-compact by (i), so the topology induced on $V$ by that
 of $Y^{cons}$ makes $V$ a quasi-compact space. The hypothesis that $f^{cons}$ is proper then entails that the topology

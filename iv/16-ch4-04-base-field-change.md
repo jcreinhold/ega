@@ -421,7 +421,7 @@ follows from `(4.3.2)`.
 reduced. Conversely, if for every finite radicial extension $K$ of $k$, the ring $L \otimes_{k} K$ is reduced, $L$ is a
 separable extension of $k$.*
 
-For the proof, see Bourbaki, Alg., chap. VIII, §7, n$^{\circ}$ 3, th. 1.
+For the proof, see Bourbaki, Alg., chap. VIII, §7, nÂ° 3, th. 1.
 
 **Corollary (4.3.6).**
 
@@ -511,7 +511,7 @@ $X'$ by the equivalence relation defined by $f$).*
 
 *Then for $X'$ to be irreducible (resp. connected), it is necessary and sufficient that $X$ be so.*
 
-The assertion relative to connectedness is none other than Bourbaki, Top. gén., chap. 1, 3rd ed., §11, n$^{\circ}$ 3,
+The assertion relative to connectedness is none other than Bourbaki, Top. gén., chap. 1, 3rd ed., §11, nÂ° 3,
 prop. 7. Let us prove the assertion relative to irreducibility; the condition being trivially necessary since $f$ is
 surjective, let us prove that it is sufficient. Let $X'_{1}$, $X'_{2}$ be two closed parts of $X'$ such that $X' =
 X'_{1} \cup X'_{2}$, and denote by $X_{i}$ $(i = 1, 2)$ the set of $x \in X$ such that $f^{-1}(x) \subset X'_{i}$; one
@@ -1065,7 +1065,7 @@ that this definition coincides with that of Bourbaki, Alg., chap. VIII,
 
 <!-- original page 69 -->
 
-§7, n$^{\circ}$ 5, def. 1, when $A$ is of finite rank over $k$ (loc. cit., cor. of prop. 7), but not in general, a
+§7, nÂ° 5, def. 1, when $A$ is of finite rank over $k$ (loc. cit., cor. of prop. 7), but not in general, a
 $k$-algebra being able to have a radical $\neq 0$ even if it is integral.
 
 **Corollary (4.6.3).**
@@ -1639,7 +1639,7 @@ $long(\mathcal{F}'_{x})$ and $long(\mathcal{F}''_{x})$ are finite, and one has $
 
 Under the hypotheses of `(4.7.5)`, the only points $x \in X$ such that $\mathcal{F}_{x}$ is an $\mathcal{O}_{x}$-module
 of non-zero finite length are (by virtue of `(3.1.2)`) the maximal points of $Supp(\mathcal{F})$, as follows from
-Bourbaki, Alg. comm., chap. IV, §2, n$^{\circ}$ 5, cor. 2 of prop. 7, the question being local on $X$. One knows that
+Bourbaki, Alg. comm., chap. IV, §2, nÂ° 5, cor. 2 of prop. 7, the question being local on $X$. One knows that
 there exists a closed sub-prescheme $Y$ having $Supp(\mathcal{F})$ as underlying space, and a coherent
 $\mathcal{O}_{Y}$-Module $\mathcal{G}$ such that $\mathcal{F} = j_{*}(\mathcal{G})$, $j : Y \to X$ being the canonical
 injection. If $x$ is a maximal point of $Y$, one sees that the geometric lengths of $\mathcal{F}$ and of $\mathcal{G}$
@@ -1895,7 +1895,7 @@ Since $N$ and $M_{(K')}$ are by hypothesis $A_{(K')}$-modules, the same holds fo
 *Under the hypotheses of `(4.8.6)`, there exists a smallest sub-field $K'$ of $K$ containing $k$ such that the
 equivalent conditions of `(4.8.6)` are satisfied.*
 
-It suffices to see this for condition c), where it follows from Bourbaki, Alg., chap. II, 3rd ed., §8, n$^{\circ}$ 6,
+It suffices to see this for condition c), where it follows from Bourbaki, Alg., chap. II, 3rd ed., §8, nÂ° 6,
 prop. 6.
 
 **Lemma (4.8.8).**

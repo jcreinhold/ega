@@ -37,7 +37,7 @@ Since $A$ is Noetherian, in order to verify that $A$ is a Japanese ring, it suff
 quasi-Galois extension $L$ of $K$, the integral closure $B$ of $A$ in $L$ is an $A$-module of finite type. Now $L$ is a
 Galois extension of the greatest radicial extension $K'$ of $K$ contained in $L$; and if $A'$ is the integral closure of
 $A$ in $K'$, then $B$ is the integral closure of $A'$ in $L$. But we know that in a separable extension of $K'$, the
-integral closure of $A'$ is an $A'$-module of finite type (Bourbaki, _Alg. comm._, chap. V, §1, n$^{\circ}$ 6, cor. 1 of
+integral closure of $A'$ is an $A'$-module of finite type (Bourbaki, _Alg. comm._, chap. V, §1, nÂ° 6, cor. 1 of
 prop. 20), whence the proposition.
 
 It follows from `(23.1.2)` that when $K$ is of characteristic `0`, to say that $A$ is a Japanese ring means that its
@@ -82,10 +82,10 @@ $V$ is integrally closed, the same
 <!-- original page 215 -->
 
 reasoning as above shows that the integral closure $V'$ of $V$ in $K'$ is the set of $x' \in K'$ such that $x'^{q} \in
-V$; we know (Bourbaki, _Alg. comm._, chap. VI, §8, n$^{\circ}$ 6, prop. 6, and chap. V, §2, n$^{\circ}$ 3, lemma 4) that
+V$; we know (Bourbaki, _Alg. comm._, chap. VI, §8, nÂ° 6, prop. 6, and chap. V, §2, nÂ° 3, lemma 4) that
 $V'$ is a discrete valuation ring, whose maximal ideal $\mathfrak{m}'$ is the set of $x' \in K'$ such that $x'^{q} \in
 \mathfrak{m}$, and moreover the residue field $V'/\mathfrak{m}'$ is a finite extension of $V/\mathfrak{m}$ (_loc. cit._,
-chap. VI, §8, n$^{\circ}$ 1, lemma 2). Let us show that, for every integer $n > 0$, we have
+chap. VI, §8, nÂ° 1, lemma 2). Let us show that, for every integer $n > 0$, we have
 
 $$ \mathfrak{m}'^{n} \cap A' = y^{n}A'. \tag{23.1.3.2} $$
 
@@ -121,7 +121,7 @@ topology, $\hat{A}'$ is an $A$-module of finite type by virtue of $(0_{I}, 7.2.9
 T_{r}]]$ is a Japanese ring.*
 
 We know that for every Noetherian integrally closed ring $B$, the ring of formal power series $B[[T]]$ is Noetherian and
-integrally closed (Bourbaki, _Alg. comm._, chap. V, §1, n$^{\circ}$ 4, prop. 14); we may therefore, by induction on $n$,
+integrally closed (Bourbaki, _Alg. comm._, chap. V, §1, nÂ° 4, prop. 14); we may therefore, by induction on $n$,
 restrict to proving that $A[[T]]$ is a Japanese ring. Now the element $x = T$ verifies all the conditions of `(23.1.3)`,
 whence the conclusion.
 
@@ -162,7 +162,7 @@ integral closure of $A$ in $K'$. Suppose that the completion $\hat{A}$ is reduce
 fractions.*
 
 *(i) If the ring $R \otimes_{K} K'$ is reduced (which will happen in particular when $K'$ is a separable extension of
-$K$, $R$ being a direct composite of fields, extensions of $K$ (Bourbaki, _Alg._, chap. VIII, §7, n$^{\circ}$ 3, cor. 1
+$K$, $R$ being a direct composite of fields, extensions of $K$ (Bourbaki, _Alg._, chap. VIII, §7, nÂ° 3, cor. 1
 of th. 1)), then $A'$ is an $A$-module of finite type.*
 
 *(ii) If in particular $R$ is a separable $K$-algebra, then $A$ is a Japanese ring.*
@@ -184,12 +184,12 @@ R$ which is integral over $A_{1}$ is also integral over $B_{i}$ (being annihilat
 conclude that the integral closure of $A_{1}$ in $K' \otimes_{K} R$ is an $A_{1}$-module of finite type. But since
 $A'_{1}$ is contained in this integral closure and $A_{1}$ is Noetherian, $A'_{1}$ is also an $A_{1}$-module of finite
 type. Finally, since $A_{1}$ is a faithfully flat $A$-module $(0_{I}, 7.3.5)$, we conclude that $A'$ is an $A$-module of
-finite type (Bourbaki, _Alg. comm._, chap. I, §3, n$^{\circ}$ 6, prop. 11).
+finite type (Bourbaki, _Alg. comm._, chap. I, §3, nÂ° 6, prop. 11).
 
 <!-- original page 217 -->
 
 (ii) The hypothesis entails that the $L_{i}$ are separable extensions of $K$, hence $K' \otimes_{K} R$ is reduced
-(Bourbaki, _Alg._, chap. VIII, §7, n$^{\circ}$ 3, th. 1), and one may apply (i) to every finite extension $K'$ of $K$,
+(Bourbaki, _Alg._, chap. VIII, §7, nÂ° 3, th. 1), and one may apply (i) to every finite extension $K'$ of $K$,
 which proves our assertion.
 
 ## 23.2. Integral closure of an integral Noetherian local ring
@@ -216,8 +216,8 @@ unibranch; it follows from `(23.1.6)` that a complete integral Noetherian local 
 \operatorname{Spec}(A)$, $A_{\mathfrak{p}}$ be geometrically unibranch; when this is the case, $f$ is a homeomorphism.*
 
 Indeed, for every $\mathfrak{p} \in \operatorname{Spec}(A)$, the integral closure of $A_{\mathfrak{p}}$ is
-$A'_{\mathfrak{p}}$ (Bourbaki, _Alg. comm._, chap. V, §1, n$^{\circ}$ 5, prop. 16), and all the prime ideals of
-$A'_{\mathfrak{p}}$ above $\mathfrak{p}A_{\mathfrak{p}}$ are maximal (_loc. cit._, §2, n$^{\circ}$ 1, prop. 1). To say
+$A'_{\mathfrak{p}}$ (Bourbaki, _Alg. comm._, chap. V, §1, nÂ° 5, prop. 16), and all the prime ideals of
+$A'_{\mathfrak{p}}$ above $\mathfrak{p}A_{\mathfrak{p}}$ are maximal (_loc. cit._, §2, nÂ° 1, prop. 1). To say
 that $f$ is injective therefore means that for every $\mathfrak{p} \in \operatorname{Spec}(A)$, $A'_{\mathfrak{p}}$ is a
 local ring, that is to say that the $A_{\mathfrak{p}}$ are unibranch. To say that every $A_{\mathfrak{p}}$ is
 geometrically unibranch then means that $f$ is radicial by virtue of `(I, 3.5.8)`. When this is the case, $f$ is
@@ -300,7 +300,7 @@ to the same `(I, 5.1.6)`, that the morphism $\operatorname{Spec}(A' \otimes_{A} 
 
 *Let $A$ be an integral Noetherian local ring, $K$ its field of fractions, $K'$ a finite extension of $K$. Let
 $(C_{\lambda})$ be the increasing filtering family of subrings of $K'$ which are finite $A$-algebras (hence Noetherian
-semi-local rings (Bourbaki, _Alg. comm._, chap. IV, §2, n$^{\circ}$ 5, cor. 3 of prop. 9)) and admit $K'$ for field of
+semi-local rings (Bourbaki, _Alg. comm._, chap. IV, §2, nÂ° 5, cor. 3 of prop. 9)) and admit $K'$ for field of
 fractions. Then there exists $\alpha$ such that the homomorphism $(\hat{C}_{\alpha})_{red} \to
 (\hat{C}_{\lambda})_{red}$ is an isomorphism for $\lambda \geq \alpha$, and if $A'$ is the integral closure of $A$ in
 $K'$, the morphism $\operatorname{Spec}(\hat{A}') \to \operatorname{Spec}(\hat{C}_{\alpha})$ is radicial (cf.
@@ -310,8 +310,8 @@ $K'$, the morphism $\operatorname{Spec}(\hat{A}') \to \operatorname{Spec}(\hat{C
 
 We apply `(23.2.4)` taking $B = \hat{A}$; since the $B/\mathfrak{q}_{i}$ are complete Noetherian local rings, they are
 Japanese rings `(23.1.5)` and $B$ is a faithfully flat $A$-module $(0_{I}, 7.3.5)$; moreover one has $C_{\lambda}
-\otimes_{A} B = \hat{C}_{\lambda}$ (Bourbaki, _Alg. comm._, chap. III, §3, n$^{\circ}$ 4, th. 3 and chap. IV, §2,
-n$^{\circ}$ 5, cor. 3 of prop. 9).
+\otimes_{A} B = \hat{C}_{\lambda}$ (Bourbaki, _Alg. comm._, chap. III, §3, nÂ° 4, th. 3 and chap. IV, §2,
+nÂ° 5, cor. 3 of prop. 9).
 
 **Corollary (23.2.6).**
 
@@ -361,7 +361,7 @@ into $R$. To prove the last assertion, note that it is clear that the integral c
 \cap K$. Conversely, let $x \in C' \cap K$; $x$ is therefore integral over $C$, and _a fortiori_ over $B$, in other
 words $B[x]$ is a finite $B$-algebra; moreover, $K$ identifies with a subring of $B \otimes_{A} K$, and the subring
 $B[x]$ of $B \otimes_{A} K$ identifies with $B \otimes_{A} A[x]$ by flatness; we conclude that $A[x]$ is an $A$-module
-of finite type (Bourbaki, _Alg. comm._, chap. I, §3, n$^{\circ}$ 6, prop. 11), hence that $x \in A'$.
+of finite type (Bourbaki, _Alg. comm._, chap. I, §3, nÂ° 6, prop. 11), hence that $x \in A'$.
 
 This lemma being established, we shall apply it to the canonical injection of $A$ into its completion $\hat{A}$, which
 is a faithfully flat $A$-module; $B = (\hat{A})_{red} = \hat{A}/\mathfrak{N}$ (where $\mathfrak{N}$ is the nilradical of
@@ -373,7 +373,7 @@ fractions $R$ is therefore a direct composite of a finite number of fields $L_{i
 in $L_{i}$ is an integral and complete Noetherian local ring, of which $L_{i}$ is the field of fractions, and the
 integral closure $B'$ of $B$ in $R$ is the direct composite of the $B'_{i}$, where $B'_{i}$ is the integral closure of
 $B_{i}$. But by virtue of `(23.1.5)`, $B'_{i}$ is a finite $B_{i}$-algebra, hence an integrally closed Noetherian local
-ring. We know (Bourbaki, _Alg. comm._, chap. VII, §1, n$^{\circ}$ 3, cor. of th. 2) that $B'_{i}$ is a Krull ring. Now,
+ring. We know (Bourbaki, _Alg. comm._, chap. VII, §1, nÂ° 3, cor. of th. 2) that $B'_{i}$ is a Krull ring. Now,
 for every $i$, we have a homomorphism $\phi_{i} : K \to L_{i}$, which is injective, and consequently
 $\phi^{-1}_{i}(B'_{i})$ is a Krull ring in $K$. But since $A' = B' \cap K$ by virtue of the lemma and $B' = \bigcap_{i}
 \phi^{-1}_{i}(B'_{i})$, $A'$ is the intersection of a finite number of Krull rings and is consequently a Krull ring. To
@@ -384,7 +384,7 @@ $\mathfrak{p} = \mathfrak{p}' \cap C$ and $A'_{\mathfrak{p}'}$ the integral clos
 hand, the fact that $\operatorname{Spec}(A') \to \operatorname{Spec}(C)$ is a homeomorphism entails that the map
 $\mathfrak{p}' \mapsto \mathfrak{p}' \cap C$ is a bijection from the set of prime ideals of height `1` of $A'$ onto the
 set of prime ideals of height `1` of $C$; whence the conclusion, taking account of Bourbaki, _Alg. comm._, chap. VII,
-§1, n$^{\circ}$ 6, th. 4.
+§1, nÂ° 6, th. 4.
 
 **Remarks (23.2.8).**
 
@@ -397,7 +397,7 @@ a Noetherian ring, as an example of Nagata with $\dim(A) = 3$ shows `[30]`.*
 $K$; it suffices in fact to consider a finite $A$-algebra $B$ of which $K'$ is the field of fractions; $B$ is a
 Noetherian semi-local ring, hence an intersection of a finite number of Noetherian local rings $B_{\mathfrak{m}_{i}}$
 ($\mathfrak{m}_{i}$ maximal ideals of $B$), and its integral closure (which is equal to $A'$) is the intersection of the
-$A'_{\mathfrak{m}_{i}}$ (Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 3, cor. 4 of th. 1) which are the integral
+$A'_{\mathfrak{m}_{i}}$ (Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 3, cor. 4 of th. 1) which are the integral
 closures of the $B_{\mathfrak{m}_{i}}$, hence Krull rings by `(23.2.7)`; consequently $A'$ is a Krull ring.*
 
 *(iii) One can show (`[30]`, 3.3.10) that for every integral Noetherian ring $A$ (not necessarily local), the integral
@@ -415,7 +415,7 @@ then one has*
 $$ A' = \bigcap_{\mathfrak{p} \in P} A'_{\mathfrak{p}}. $$
 
 Since $A'$ is a torsion-free $A$-module, one has $A' = \bigcap_{\mathfrak{m}} A'_{\mathfrak{m}}$, where $\mathfrak{m}$
-runs through the set of maximal ideals of $A$ (Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 3, cor. 4 of th. 1); it
+runs through the set of maximal ideals of $A$ (Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 3, cor. 4 of th. 1); it
 will therefore suffice to prove that $A'_{\mathfrak{m}}$ is the intersection of the $A'_{\mathfrak{p}}$ for the prime
 ideals $\mathfrak{p} \subset \mathfrak{m}$ of height `1`. Since $A'_{\mathfrak{m}}$ is the integral closure of
 $A_{\mathfrak{m}}$, we see that we may restrict to demonstrating the corollary for $A_{\mathfrak{m}}$. Now there is
@@ -446,6 +446,6 @@ closure $A'$ is a finite $A$-algebra, but such that there is a prime ideal $\mat
 the maximal ideal $\mathfrak{m}$ (of height `2`) of $A$, and such moreover that for every prime ideal $\mathfrak{p}$ of
 height `1` in $A$, $A_{\mathfrak{p}}$ is integrally closed `(IV, 5.6.11)`; the intersection of these rings
 $A_{\mathfrak{p}}$ cannot then be equal to $A'$ since $A'$ is a Krull ring (Bourbaki, _Alg. comm._, chap. VII, §1,
-n$^{\circ}$ 5, prop. 9).*
+nÂ° 5, prop. 9).*
 
 (_To be continued._)

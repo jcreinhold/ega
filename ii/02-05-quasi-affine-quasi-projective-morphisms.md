@@ -613,9 +613,9 @@ g \circ v$; it then follows from (5.4.3, (ii)) that $g$ is proper, whence our as
 
 It follows in particular from these remarks that if $Z$ is a $Y$-proper subset of $X$, then:
 
-$1^{\circ}$ For every closed subprescheme $X'$ of $X$, $Z \cap X'$ is a $Y$-proper subset of $X'$.
+1Â° For every closed subprescheme $X'$ of $X$, $Z \cap X'$ is a $Y$-proper subset of $X'$.
 
-$2^{\circ}$ If $X$ is a subprescheme of a $Y$-scheme of finite type `X''`, then $Z$ is also a $Y$-proper subset of `X''` (and in
+2Â° If $X$ is a subprescheme of a $Y$-scheme of finite type `X''`, then $Z$ is also a $Y$-proper subset of `X''` (and in
 particular is closed in `X''`).
 
 ## 5.5. Projective morphisms
@@ -684,12 +684,12 @@ $\mathcal{O}_{Y}$-module $\mathcal{E}$ of finite type and of a $Y$-immersion $j 
 
 <!-- label: II.5.5.4 -->
 
-(i) Let $f : X \to Y$ be a morphism such that: $1^{\circ}$ $f$ is proper; $2^{\circ}$ there exists an $\mathcal{O}_{X}$-module
-$\mathcal{L}$ very ample relative to $f$; $3^{\circ}$ the quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{E} =
+(i) Let $f : X \to Y$ be a morphism such that: 1Â° $f$ is proper; 2Â° there exists an $\mathcal{O}_{X}$-module
+$\mathcal{L}$ very ample relative to $f$; 3Â° the quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{E} =
 f_{*}(\mathcal{L})$ is of finite type. Then $f$ is a projective morphism: indeed (4.4.4), there is then a $Y$-immersion
 $r : X \to \mathbb{P}(\mathcal{E})$, and since $f$ is proper, $r$ is a closed immersion (5.4.4). We will see in Chapter
-III, §3, that when $Y$ is locally Noetherian, condition $3^{\circ}$ above is a consequence of the other two, hence conditions $1^{\circ}$
-and $2^{\circ}$ characterize, in this case, the projective morphisms, and if $Y$ is quasi-compact, one may replace condition $2^{\circ}$
+III, §3, that when $Y$ is locally Noetherian, condition 3Â° above is a consequence of the other two, hence conditions 1Â°
+and 2Â° characterize, in this case, the projective morphisms, and if $Y$ is quasi-compact, one may replace condition 2Â°
 by the hypothesis of the existence of an $\mathcal{O}_{X}$-module ample for $f$ (4.6.11).
 
 (ii) Let $Y$ be a quasi-compact scheme such that there exists an ample $\mathcal{O}_{Y}$-module. For a $Y$-scheme $X$ to

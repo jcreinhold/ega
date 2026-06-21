@@ -253,9 +253,9 @@ Let $\mathfrak{X}$ and $\mathfrak{S}$ be two locally Noetherian formal prescheme
 \mathfrak{S}$ a morphism of formal preschemes. We say that $f$ is a *proper morphism* if it satisfies the following
 conditions:
 
-$1^{\circ}$ *$f$ is a morphism of finite type `(I, 10.13.3)`*.
+1Â° *$f$ is a morphism of finite type `(I, 10.13.3)`*.
 
-$2^{\circ}$ *If $\mathcal{K}$ is a sheaf of ideals of definition of $\mathfrak{S}$ and if we set $\mathcal{J} =
+2Â° *If $\mathcal{K}$ is a sheaf of ideals of definition of $\mathfrak{S}$ and if we set $\mathcal{J} =
 f^{*}(\mathcal{K}) \mathcal{O}_{\mathfrak{X}}$, $X_{0} = (\mathfrak{X}, \mathcal{O}_{\mathfrak{X}} / \mathcal{J})$,
 $S_{0} = (\mathfrak{S}, \mathcal{O}_{\mathfrak{S}} / \mathcal{K})$, the morphism $f_{0} : X_{0} \to S_{0}$ deduced from
 $f$ `(I, 10.5.6)` is proper.*
@@ -396,12 +396,12 @@ $(F_{n})$ of $(0_{III}, 13.7.7)$ is satisfied for every $n \geq 0$, when we cons
 $(\mathcal{F} / \mathfrak{J}^{k} \mathcal{F})_{k \geq 0}$ of sheaves of abelian groups on $X_{0}$, each equipped with
 its natural structure of "filtered $A$-module". We may therefore apply $(0_{III}, 13.7.7)$, which proves that:
 
-$1^{\circ}$ The projective system $(H^{n}(\mathfrak{X}, \mathcal{F}_{k}))_{k \geq 0}$ satisfies the (ML)-condition.
+1Â° The projective system $(H^{n}(\mathfrak{X}, \mathcal{F}_{k}))_{k \geq 0}$ satisfies the (ML)-condition.
 
-$2^{\circ}$ If $H'^{n} = \varprojlim H^{n}(\mathfrak{X}, \mathcal{F}_{k})$, then $H'^{n}$ is an $A$-module of finite
+2Â° If $H'^{n} = \varprojlim H^{n}(\mathfrak{X}, \mathcal{F}_{k})$, then $H'^{n}$ is an $A$-module of finite
 type.
 
-$3^{\circ}$ The filtration defined on $H'^{n}$ by the kernels of the canonical homomorphisms $H'^{n} \to
+3Â° The filtration defined on $H'^{n}$ by the kernels of the canonical homomorphisms $H'^{n} \to
 H^{n}(\mathfrak{X}, \mathcal{F}_{k})$ is $\mathfrak{J}$-good.
 
 Note on the other hand that if we set $X_{k} = (\mathfrak{X}, \mathcal{O}_{\mathfrak{X}} / \mathcal{K}^{k+1})$,

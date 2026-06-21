@@ -245,10 +245,10 @@ affine open in each of the $X_{k}$ `(I, 10.5.2)`, hence one has $H^{q}(U, \mathc
 `(I, 1.3.9)`. The conditions of application of $(0_{III}, 13.3.1)$ are consequently fulfilled, and we conclude that, for
 $n \geq n_{0}$:
 
-$1^{\circ}$ For every $q > 0$, $H^{q}(\mathfrak{X}, \mathcal{F}(n)) \to \varprojlim H^{q}(\mathfrak{X},
+1Â° For every $q > 0$, $H^{q}(\mathfrak{X}, \mathcal{F}(n)) \to \varprojlim H^{q}(\mathfrak{X},
 \mathcal{F}_{k}(n))$ is bijective, hence, by virtue of (5.2.3.3), $H^{q}(\mathfrak{X}, \mathcal{F}(n)) = 0$.
 
-$2^{\circ}$ The homomorphism $H^{0}(\mathfrak{X}, \mathcal{F}(n)) \to \varprojlim H^{0}(\mathfrak{X},
+2Â° The homomorphism $H^{0}(\mathfrak{X}, \mathcal{F}(n)) \to \varprojlim H^{0}(\mathfrak{X},
 \mathcal{F}_{k}(n))$ is bijective; moreover, since the homomorphisms (5.2.3.5) are surjective, so is each of the
 homomorphisms
 

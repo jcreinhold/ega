@@ -380,7 +380,7 @@ ideal equal to its radical, and the set $X_{0}$ of closed points of $X$ is the s
 $Z \cap X_{0}$ is dense in $Z$ means therefore that $\mathfrak{a}$ is an intersection of maximal ideals `(I, 1.1.4)`;
 since $\mathfrak{a}$ is an intersection of prime ideals, this amounts to saying that every prime ideal of $A$ is an
 intersection of maximal ideals; by virtue of `(10.3.1)` and `(10.1.2)`, the usual definition of Jacobson rings
-(Bourbaki, Alg. comm., chap. V, §3, n$^{\circ}$ 4, déf. 1) therefore coincides with definition `(10.4.1)`.
+(Bourbaki, Alg. comm., chap. V, §3, nÂ° 4, déf. 1) therefore coincides with definition `(10.4.1)`.
 
 <!-- original page 102 -->
 
@@ -418,7 +418,7 @@ Jacobson prescheme is a Jacobson prescheme by virtue of `(10.3.2)`.
 
 It is clear that d) is equivalent to a), since d) means that there exists $f \neq 0$ in $B$ such that $D(f)$ is reduced
 to the generic point of $\operatorname{Spec}(B)$. It is trivial that a) entails b) and that b) entails c). Finally, c)
-entails a), by virtue of (Bourbaki, Alg. comm., chap. V, §3, n$^{\circ}$ 1, cor. 2 of th. 1).
+entails a), by virtue of (Bourbaki, Alg. comm., chap. V, §3, nÂ° 1, cor. 2 of th. 1).
 
 **Proposition (10.4.5).**
 
@@ -433,7 +433,7 @@ a field.*
 
 *b') Every $A$-algebra of finite type $K$ which is a field is a finite $A$-algebra.*
 
-It is known that a) entails b') (Bourbaki, Alg. comm., chap. V, §3, n$^{\circ}$ 4, cor. 3 of th. 3). Moreover, the
+It is known that a) entails b') (Bourbaki, Alg. comm., chap. V, §3, nÂ° 4, cor. 3 of th. 3). Moreover, the
 kernel of the homomorphism $A \to K$ is then a maximal ideal $\mathfrak{m}$ of $A$, and $K$ is a finite extension of
 $A/\mathfrak{m}$ (loc. cit.). It is trivial that b') entails b), since $A/\mathfrak{p} = B$ is not a field, every
 $B$-algebra of finite type is an $A$-algebra of finite type, and $B_{f}$ is a $B$-algebra of finite type. It remains to
@@ -511,7 +511,7 @@ particularly important, in view of the possibility of reducing many questions of
 
 Let $k$ be a separably closed field, $X$ a $k$-prescheme locally of finite type over $k$ and unibranch. It is known that
 the integral closure of an integral $k$-algebra of finite type $A$ in a finite extension of its field of fractions is a
-finite $A$-algebra (Bourbaki, Alg. comm., chap. V, §3, n$^{\circ}$ 2, th. 2), so every $A$-algebra of finite type is a
+finite $A$-algebra (Bourbaki, Alg. comm., chap. V, §3, nÂ° 2, th. 2), so every $A$-algebra of finite type is a
 universally Japanese ring; one concludes that the set of points $x \in X$ where $X$ is geometrically unibranch is
 locally constructible `(9.7.10)`. But the hypothesis and the lemma `(6.15.8)` entail that this set contains all closed
 points of $X$. The conclusion therefore results from `(10.4.6)`, `(10.3.1)`, and the bijectivity of the canonical map
@@ -707,7 +707,7 @@ dimension, means that $\dim(A/\mathfrak{p}) = 1$.
 of the local homomorphisms of $A$ into discrete valuation rings $V$ making $V$ a finite $A$-algebra form a filter base
 tending to `0` for the adic topology of $A$.*
 
-It suffices (Bourbaki, Alg. comm., chap. III, §2, n$^{\circ}$ 7, prop. 8) to prove that the intersection of the kernels
+It suffices (Bourbaki, Alg. comm., chap. III, §2, nÂ° 7, prop. 8) to prove that the intersection of the kernels
 considered in the statement is reduced to `0`. Suppose first that $A$ is integral and of dimension `1`; by virtue of
 Nagata's theorem `(0, 23.1.5 and 23.1.6)`, the integral closure $A'$ of $A$ is an integral complete local ring,
 
@@ -732,14 +732,14 @@ The results of this number sharpen, in certain cases, and generalize results of 
 
 <!-- label: IV.10.6.1 -->
 
-*Let $S$ be a locally Noetherian prescheme satisfying in addition the following conditions: $1^{\circ}$ $S$ is a
-Jacobson prescheme; $2^{\circ}$ for every $s \in S$, $\mathcal{O}_{S,s}$ is universally catenary `(5.6.2)`; $3^{\circ}$
+*Let $S$ be a locally Noetherian prescheme satisfying in addition the following conditions: 1Â° $S$ is a
+Jacobson prescheme; 2Â° for every $s \in S$, $\mathcal{O}_{S,s}$ is universally catenary `(5.6.2)`; 3Â°
 every irreducible component $S'$ of $S$ is equicodimensional (in other words, for every closed point $s$ of $S'$ and
 every subprescheme of $S$ having $S'$ as underlying space, one has $\dim(S') = \dim(\mathcal{O}_{S',s})$). One then has
 the following properties:*
 
-*(i) For every morphism $g : X \to S$ locally of finite type, $X$ satisfies the preceding conditions $1^{\circ}$,
-$2^{\circ}$, and $3^{\circ}$. In particular, if $X$ is equidimensional (for example if $X$ is irreducible), then $X$ is
+*(i) For every morphism $g : X \to S$ locally of finite type, $X$ satisfies the preceding conditions 1Â°,
+2Â°, and 3Â°. In particular, if $X$ is equidimensional (for example if $X$ is irreducible), then $X$ is
 biequidimensional (in other words, $X$ is catenary and for every closed point $x$ of $X$, one has
 $\dim(\mathcal{O}_{X,x}) = \dim(X)$ `(0, 14.3.3)`).*
 
@@ -759,18 +759,18 @@ $$ \dim(X) \leqslant \dim(Y) + n \tag{10.6.1.2} $$
 
 $$ \dim(X) \geqslant \dim(Y) + n). \tag{10.6.1.3} $$
 
-(i) Property $1^{\circ}$ for $X$ follows from `(10.4.7)`. For every $x \in X$, $\mathcal{O}_{X,x}$ is the local ring at
+(i) Property 1Â° for $X$ follows from `(10.4.7)`. For every $x \in X$, $\mathcal{O}_{X,x}$ is the local ring at
 a prime ideal of an $\mathcal{O}_{S,g(x)}$-algebra of finite type, and the homomorphism $\mathcal{O}_{S,g(x)} \to
 \mathcal{O}_{X,x}$
 
 <!-- original page 108 -->
 
 is local; so `(5.6.3, (iv))` $\mathcal{O}_{X,x}$ is universally catenary. To prove that $X$ satisfies condition
-$3^{\circ}$, consider several cases:
+3Â°, consider several cases:
 
 (a) $X$ is a closed irreducible subprescheme of $S$; let $S'$ be an irreducible component of $S$ containing $X$, $\xi$
 the generic point of $X$, $x$ a closed point of $X$; for every $s \in S'$, $\mathcal{O}_{S',s}$, a quotient of
-$\mathcal{O}_{S,s}$, is catenary `(5.6.1)`, so conditions $2^{\circ}$ and $3^{\circ}$ entail that $S'$ is
+$\mathcal{O}_{S,s}$, is catenary `(5.6.1)`, so conditions 2Â° and 3Â° entail that $S'$ is
 biequidimensional `(0, 14.3.3)`. By virtue of `(5.1.2)` and `(0, 14.3.3.2)`, one therefore has
 
 $$ \dim(\mathcal{O}_{X,x}) = \dim(\mathcal{O}_{S,x}) - \dim(\mathcal{O}_{S,\xi}) = \dim(S') - \dim(\mathcal{O}_{S,\xi})
@@ -785,8 +785,8 @@ since $\mathcal{O}_{S,g(x)}$ is universally catenary, it follows from `(5.6.5.3)
 $$ \dim(\mathcal{O}_{X,x}) = \dim(\mathcal{O}_{S,g(x)}) + e $$
 
 where $e = \dim(g^{-1}(\zeta))$, $\zeta$ being the generic point of $S$. Since $\dim(S) = \dim(\mathcal{O}_{S,s})$ by
-virtue of condition $3^{\circ}$ for $S$, one has $\dim(\mathcal{O}_{X,x}) = \dim(S) + e$ for every closed point $x \in
-X$; this proves condition $3^{\circ}$ for $X$ `(5.1.4)`, and at the same time the formula
+virtue of condition 3Â° for $S$, one has $\dim(\mathcal{O}_{X,x}) = \dim(S) + e$ for every closed point $x \in
+X$; this proves condition 3Â° for $X$ `(5.1.4)`, and at the same time the formula
 
 $$ \dim(X) = \dim(S) + e. \tag{10.6.1.4} $$
 
@@ -812,7 +812,7 @@ subpreschemes of $X$, $Y$ having respectively $X'$, $Y'$ as underlying spaces, a
 
 <!-- label: IV.10.6.2 -->
 
-*Suppose that $X$ satisfies conditions $1^{\circ}$, $2^{\circ}$, and $3^{\circ}$ of `(10.6.1)`. Then, for every open $U$
+*Suppose that $X$ satisfies conditions 1Â°, 2Â°, and 3Â° of `(10.6.1)`. Then, for every open $U$
 dense in $X$, one has $\dim(U) = \dim(X)$.*
 
 <!-- original page 109 -->
@@ -825,7 +825,7 @@ contains a closed point of every irreducible component of $X$, so $\dim(U) = \di
 
 <!-- label: IV.10.6.3 -->
 
-*Suppose that $X$ satisfies conditions $1^{\circ}$, $2^{\circ}$, and $3^{\circ}$ of `(10.6.1)`, and let $Y$ be a closed
+*Suppose that $X$ satisfies conditions 1Â°, 2Â°, and 3Â° of `(10.6.1)`, and let $Y$ be a closed
 subset of $X$. Then, for every $x \in Y$, and every open neighbourhood $U$ of $x$ in $X$ not meeting the irreducible
 components of $Y$ which do not contain $x$, one has*
 
@@ -876,7 +876,7 @@ Indeed, this follows from `(10.6.3.1)` and from the formula $\dim(\mathcal{F}_{x
 Let $S$ be a locally Noetherian prescheme of dimension $\geqslant 1$ and suppose that $S$ is a Jacobson prescheme; when
 $S$ is Noetherian, this amounts to saying that the irreducible components of $S$ of dimension `1` are infinite, for
 every $x \in S$ that is not closed is the generic point of such a component `(10.4.5 and 10.5.4)`. Then $S$ also
-satisfies conditions $2^{\circ}$ and $3^{\circ}$ of `(10.6.1)`: indeed, every local ring $\mathcal{O}_{S,s}$ is of
+satisfies conditions 2Â° and 3Â° of `(10.6.1)`: indeed, every local ring $\mathcal{O}_{S,s}$ is of
 dimension `0` or `1`, and consequently is universally catenary `(7.2.9)`; on the other hand, an irreducible component
 $S'$ of $S$ is either reduced
 
@@ -886,7 +886,7 @@ to a point or of dimension `1`, and for every closed point $s \in S'$, $\mathcal
 `1`.
 
 One deduces from these remarks and from `(10.6.1)` that every prescheme locally of finite type over $S$ also satisfies
-properties $1^{\circ}$, $2^{\circ}$, and $3^{\circ}$ of `(10.6.1)`: this is so in particular for preschemes locally of
+properties 1Â°, 2Â°, and 3Â° of `(10.6.1)`: this is so in particular for preschemes locally of
 finite type over a field or over $\mathbb{Z}$.
 
 **(10.7.2)**
@@ -894,7 +894,7 @@ finite type over a field or over $\mathbb{Z}$.
 <!-- label: IV.10.7.2 -->
 
 Let $A$ be a local Noetherian universally catenary ring and let $S$ be the complement in $X = \operatorname{Spec}(A)$ of
-the closed point $a$. Then $S$ satisfies conditions $1^{\circ}$, $2^{\circ}$, and $3^{\circ}$ of `(10.6.1)`: indeed, it
+the closed point $a$. Then $S$ satisfies conditions 1Â°, 2Â°, and 3Â° of `(10.6.1)`: indeed, it
 was already seen that $S$ is a Jacobson prescheme `(10.5.9)`; since $A$ is universally catenary, so are the local rings
 $A_{\mathfrak{p}}$ at the prime ideals of $A$ `(5.6.3)`. On the other hand, an irreducible component $S'$ of $S$ is the
 complement of $a$ in an irreducible component $X'$ of $X$; for every closed point $x$ of $S$, the closure of $x$ in $X$
@@ -915,14 +915,14 @@ moreover, according to `(5.5.3)`, these ideals are necessarily of heights $n + 1
 assertion. Assume $n \geqslant 2$ in what follows. Let $\mathfrak{J}$ be the ideal $\mathfrak{m} \cap \mathfrak{n} =
 \mathfrak{mn}$, and $R = 1 + \mathfrak{J}$, which is a multiplicative subset of $B$; if one sets $B' = R^{-1}B$, the
 ideal $\mathfrak{J}' = R^{-1}\mathfrak{J}$ is contained in the radical of $B'$ (Bourbaki, Alg. comm., chap. III, §3,
-n$^{\circ}$ 5, prop. 12); one knows that $X' = \operatorname{Spec}(B')$ is identified as a topological space with a
+nÂ° 5, prop. 12); one knows that $X' = \operatorname{Spec}(B')$ is identified as a topological space with a
 subspace of $X = \operatorname{Spec}(B)$, and that at the points $x$ of $X'$, the local rings $\mathcal{O}_{X,x}$ and
 $\mathcal{O}_{X',x}$ are the same `(I, 1.6.2)`. Consider then in $X'$ the closed set $Y' = V(\mathfrak{J}')$, and set $S
 = X' - Y'$; one knows `(10.5.7)` that $S$ is a Jacobson prescheme, obviously irreducible and Noetherian; moreover the
 local rings $\mathcal{O}_{S,s} = \mathcal{O}_{X,s}$ are universally catenary for every $s \in S$ by virtue of `(5.6.3)`,
 since $A$ is universally catenary `(5.6.4)`. Yet there are two closed points $a$, $b$ of $S$ such that
 $\mathcal{O}_{S,a}$ and $\mathcal{O}_{S,b}$ do not have the same dimension, in other words $S$ does not satisfy
-condition $3^{\circ}$ of `(10.6.1)`. To see this, consider the two maximal ideals $\mathfrak{m}' = R^{-1}\mathfrak{m}$,
+condition 3Â° of `(10.6.1)`. To see this, consider the two maximal ideals $\mathfrak{m}' = R^{-1}\mathfrak{m}$,
 $\mathfrak{n}' = R^{-1}\mathfrak{n}$ of $B'$, which are of heights $n$ and $n + 1$ respectively; one has $\mathfrak{J}'
 = \mathfrak{m}' \cap \mathfrak{n}'$, and $\mathfrak{J}'$ is therefore contained in no prime ideal of $B'$ distinct from
 $\mathfrak{m}'$ and $\mathfrak{n}'$, which are consequently the only maximal ideals of $B'$. Let $a'$, $b'$ be the only
@@ -975,7 +975,7 @@ Y$.
 on replacing $X$ by an arbitrary open neighbourhood $U$ of $x$. This evidently requires that $x$ not be isolated in
 $\overline{x}$ when $x$ is not closed, and consequently that $X$ be a Jacobson prescheme `(10.4.5.1)`; most often, it
 will also be necessary to know that $\dim(U) = \dim(X)$ for every open $U$ dense in $X$, and one will therefore have to
-suppose that $X$ also satisfies conditions $2^{\circ}$ and $3^{\circ}$ of `(10.6.1)`.
+suppose that $X$ also satisfies conditions 2Â° and 3Â° of `(10.6.1)`.
 
 **Lemma (10.8.3).**
 
@@ -1009,25 +1009,25 @@ This follows from `(10.8.3.1)`, since $x \mapsto \dim. proj(\mathcal{F}_{x})$ is
 <!-- label: IV.10.8.5 -->
 
 *Let $S$ be a locally Noetherian prescheme, $X$ a prescheme locally of finite type over $S$, $\mathcal{F}$ a coherent
-$\mathcal{O}_{X}$-Module. Suppose that $S$ satisfies the following conditions: $1^{\circ}$ $S$ is a Jacobson prescheme;
-$2^{\circ}$ $S$ is regular; $3^{\circ}$ the irreducible components of $S$ are equicodimensional. Then the function $x
+$\mathcal{O}_{X}$-Module. Suppose that $S$ satisfies the following conditions: 1Â° $S$ is a Jacobson prescheme;
+2Â° $S$ is regular; 3Â° the irreducible components of $S$ are equicodimensional. Then the function $x
 \mapsto prof*_{x}(\mathcal{F})$ is lower semi-continuous in $X$; in other words, for every integer $n$, the set $U_{n}$
 of $x \in X$ such that $prof*_{x}(\mathcal{F}) \geqslant n$ is open.*
 
 Since the local rings $\mathcal{O}_{S,s}$ of $S$ are regular, they are universally catenary `(5.6.4)`; in other words,
-$S$ satisfies conditions $1^{\circ}$, $2^{\circ}$, and $3^{\circ}$ of `(10.6.1)`, so the same holds for $X$
+$S$ satisfies conditions 1Â°, 2Â°, and 3Â° of `(10.6.1)`, so the same holds for $X$
 `(10.6.1, (i))`. The notion of rectified depth then being of local character `(10.8.2, (iii))`, one may restrict to the
 case where $S = \operatorname{Spec}(A)$ and $X = \operatorname{Spec}(B)$ are affine, $A$ being a regular ring and $B$ an
 $A$-algebra of finite type, hence a quotient of a polynomial ring $C = A[T_{1}, \cdots, T_{n}]$, and the latter is
 regular `(0, 17.3.7)`. One may therefore suppose that $X$ is a closed subprescheme of a regular prescheme $Y$ also
-satisfying conditions $1^{\circ}$, $2^{\circ}$, and $3^{\circ}$ of `(10.6.1)`; taking remark `(10.8.2, (ii))` into
+satisfying conditions 1Â°, 2Â°, and 3Â° of `(10.6.1)`; taking remark `(10.8.2, (ii))` into
 account, one is thus reduced to the case where $X$ is in addition regular and Noetherian. But since the local rings of
 $X$ are then integral, the irreducible components of $X$ are
 
 <!-- original page 112 -->
 
 open `(I, 6.1.10)`, and one may consequently also suppose $X$ irreducible. Then, since the local rings of $X$ are
-catenary `(0, 16.5.12)`, hypothesis $3^{\circ}$ of `(10.6.1)` entails that $X$ is biequidimensional (`(5.1.5)` and
+catenary `(0, 16.5.12)`, hypothesis 3Â° of `(10.6.1)` entails that $X$ is biequidimensional (`(5.1.5)` and
 `(0, 14.3.3)`); it therefore suffices to apply `(10.8.4)`.
 
 One notes that if $S$ is the spectrum of a field or of $\mathbb{Z}$, it satisfies the conditions of `(10.8.5)`.
@@ -1057,7 +1057,7 @@ $X$).
 
 <!-- label: IV.10.8.7 -->
 
-*Let $S$ be a locally Noetherian prescheme satisfying conditions $1^{\circ}$, $2^{\circ}$, and $3^{\circ}$ of
+*Let $S$ be a locally Noetherian prescheme satisfying conditions 1Â°, 2Â°, and 3Â° of
 `(10.6.1)`. Let $X$ be a prescheme locally of finite type over $S$, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module,
 $Y = Supp(\mathcal{F})$. Then, for every $x \in Y$, one has*
 
@@ -1145,9 +1145,9 @@ preschemes.
 
 Let us propose to determine the subcategory $\mathcal{C}''$ of $\mathcal{C}'$ formed by the ringed spaces isomorphic to
 the $S(X)$ and whose morphisms come from the $S(f)$. Suppose first that $X = \operatorname{Spec}(A)$, where $A$ is a
-Jacobson ring; then $S(X)$ is the set of maximal ideals of $A$, equipped with: $1^{\circ}$ the topology induced by that
+Jacobson ring; then $S(X)$ is the set of maximal ideals of $A$, equipped with: 1Â° the topology induced by that
 of $X$, so that a base of this topology is formed by the $D_{\mathfrak{m}}(h) = D(h) \cap S(X)$, the set of maximal
-ideals $\mathfrak{m}$ of $A$ such that $h \notin \mathfrak{m}$, where $h$ runs through $A$; $2^{\circ}$ the sheaf of
+ideals $\mathfrak{m}$ of $A$ such that $h \notin \mathfrak{m}$, where $h$ runs through $A$; 2Â° the sheaf of
 rings $\mathcal{O}_{S(X)}$ such that $\Gamma(D_{\mathfrak{m}}(h), \mathcal{O}_{S(X)}) = A_{h}$. We shall say that this
 ringed space is the **maximal spectrum** of the Jacobson ring $A$ and we shall denote it by $Spm(A)$.
 
@@ -1191,8 +1191,8 @@ Let us now consider a ringed space $(X, \mathcal{O}_{X})$; we shall say that an 
 where $A$ is a Jacobson ring. We shall say that $X$ is an **ultra-prescheme** if every point of $X$ admits an
 ultra-affine open neighbourhood. One shows, as in `(I, 2.1.3 and 2.1.4)`, that the ultra-affine open sets form a base of
 the topology of $X$ and that $X$ is a Kolmogorov space. If $Y$ is a second ultra-prescheme, we shall say that a morphism
-of ringed spaces $f : X \to Y$ is a *morphism of ultra-preschemes* if it satisfies the following conditions: $1^{\circ}$
-$f$ is a morphism of ringed spaces in local rings; $2^{\circ}$ for every $x \in X$, there is an ultra-affine open
+of ringed spaces $f : X \to Y$ is a *morphism of ultra-preschemes* if it satisfies the following conditions: 1Â°
+$f$ is a morphism of ringed spaces in local rings; 2Â° for every $x \in X$, there is an ultra-affine open
 neighbourhood $V$ of $f(x)$ in $Y$ and an ultra-affine open neighbourhood $U$ of $x$ in $X$ such that $f(U) \subset V$
 and such that the homomorphism $\Gamma(V, \mathcal{O}_{Y}) \to \Gamma(U, \mathcal{O}_{X})$ corresponding to $f$ makes
 $\Gamma(U, \mathcal{O}_{X})$ a $\Gamma(V, \mathcal{O}_{Y})$-algebra of finite type.
@@ -1207,7 +1207,7 @@ contains $\mathcal{C}''$; we propose to show that $\mathcal{C}'' = \mathcal{C}''
 
 *The functor $X \mapsto S(X)$ from $\mathcal{C}$ to $\mathcal{C}''_{0}$ is an equivalence of categories.*
 
-$1^{\circ}$ Let us first show that the functor $X \mapsto S(X)$ is fully faithful, in other words that for $X$, $Y$ in
+1Â° Let us first show that the functor $X \mapsto S(X)$ is fully faithful, in other words that for $X$, $Y$ in
 $\mathcal{C}$, the canonical map
 
 $$ \operatorname{Hom}_{\mathcal{C}}(X, Y) \to \operatorname{Hom}_{\mathcal{C}''_0}(S(X), S(Y)) $$
@@ -1234,13 +1234,13 @@ to $U_{\alpha} \cap U_{\beta}$, that the $f_{\lambda}$ are the restrictions of a
 will evidently have $h = S(f)$. One is thus reduced to the case where $X$ and $Y$ are affine, and the conclusion then
 follows from `(10.9.4)`.
 
-$2^{\circ}$ It remains to prove that every ultra-prescheme $X'$ is of the form $S(X)$ for a Jacobson prescheme $X$
-(which will necessarily be unique up to isomorphism, by virtue of $1^{\circ}$). There is a cover $(U'_{\alpha})$ of $X'$
+2Â° It remains to prove that every ultra-prescheme $X'$ is of the form $S(X)$ for a Jacobson prescheme $X$
+(which will necessarily be unique up to isomorphism, by virtue of 1Â°). There is a cover $(U'_{\alpha})$ of $X'$
 by ultra-affine open sets, each of which is of the form $S(U_{\alpha})$, $U_{\alpha}$ being the spectrum of a Jacobson
 ring. For every pair of indices $\alpha$, $\beta$, consider the unique open $U_{\alpha \beta}$ of $U_{\alpha}$ whose
-trace on $U'_{\alpha}$ is $U'_{\alpha} \cap U'_{\beta}$; by virtue of $1^{\circ}$, the identity automorphism of
+trace on $U'_{\alpha}$ is $U'_{\alpha} \cap U'_{\beta}$; by virtue of 1Â°, the identity automorphism of
 $U'_{\alpha} \cap U'_{\beta}$ is of the form $S(\theta_{\alpha \beta})$, where $\theta_{\alpha \beta} : U_{\alpha \beta}
-\to U_{\beta \alpha}$ is an isomorphism of preschemes. One verifies immediately (by virtue of $1^{\circ}$) that the
+\to U_{\beta \alpha}$ is an isomorphism of preschemes. One verifies immediately (by virtue of 1Â°) that the
 family $(\theta_{\alpha \beta})$ satisfies the gluing condition $(0_{I}, 4.1.7)$, and that this family therefore defines
 a prescheme $X$, in which the $U_{\alpha}$ are identified with affine open sets; it is then clear that one has $X' =
 S(X)$, which completes the proof.
@@ -1327,8 +1327,8 @@ Serre in fact restricts to reduced pre-algebraic spaces, which allows him to def
 $\mathcal{A}(X')$. Note that if $X'$ and $Y'$ are reduced $k$-pre-algebraic spaces, so is $X' \times_{k} Y'$: indeed,
 everything reduces to seeing that if $A$ and $B$ are two reduced $k$-algebras of finite type, so is $A \otimes_{k} B$;
 but we have seen that the radicals of $A$ and $B$ are then reduced to `0`, and since $k$ is algebraically closed, $A$
-and $B$ are "separable" algebras over $k$ in the sense of Bourbaki (Bourbaki, Alg., chap. VIII, §7, n$^{\circ}$ 5, prop.
-5); so $A \otimes_{k} B$ has no radical (loc. cit., n$^{\circ}$ 6, cor. 3 of th. 3), and since it is a Jacobson ring, it
+and $B$ are "separable" algebras over $k$ in the sense of Bourbaki (Bourbaki, Alg., chap. VIII, §7, nÂ° 5, prop.
+5); so $A \otimes_{k} B$ has no radical (loc. cit., nÂ° 6, cor. 3 of th. 3), and since it is a Jacobson ring, it
 is reduced. However, if $Z'$ is a third pre-algebraic space over $k$, the "fibre product" $X' \times_{Z'} Y'$ of two
 reduced pre-algebraic spaces over $Z'$ is in general not reduced, which implies that the category of these spaces is
 insufficient in many questions (in particular in the theory of algebraic groups). But as was seen above, one may keep

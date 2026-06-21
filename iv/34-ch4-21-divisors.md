@@ -177,7 +177,7 @@ definition of $S$.
 
 Indeed, to say that $\operatorname{Div}(A) = 0$ means that in $A$ every regular element is invertible, or also that all
 the elements of $\mathfrak{m}$ are zero-divisors, which means that $\mathfrak{m} \in Ass(A)$ (Bourbaki, _Alg. comm._,
-chap. IV, §1, n$^{\circ}$ 1, cor. 3 of prop. 2).
+chap. IV, §1, nÂ° 1, cor. 3 of prop. 2).
 
 ## 21.2. Divisors and invertible fractional Ideals
 
@@ -538,7 +538,7 @@ of rank `1`. If $S$ is the set of regular elements of $A$, one has $\Gamma(X, \m
 and $\Gamma(X, \mathcal{M}_{X}(\mathcal{L})) = S^{-1} P$. But $S$ is the set of elements not belonging to any of the
 ideals associated to $A$, hence $S^{-1} A$ is a semi-local ring whose maximal ideals come from the maximal elements of
 $Ass(A)$, and $S^{-1} P$ is a projective $S^{-1} A$-module of rank `1`, hence here free of rank `1` (Bourbaki, _Alg.
-comm._, chap. II, §5, n$^{\circ}$ 3, prop. 5); an element forming a basis of this $S^{-1} A$-module is therefore
+comm._, chap. II, §5, nÂ° 3, prop. 5); an element forming a basis of this $S^{-1} A$-module is therefore
 `(20.1.8)` a regular meromorphic section of $\mathcal{L}$ over $X$.
 
 **Corollary (21.3.5).**
@@ -712,12 +712,12 @@ The question being local on $Y$, one may restrict to the case where $D = div(w)$
 two regular sections of $\mathcal{O}_{Y}$ over $Y$. By hypothesis one has $u\mathcal{O}_{X} \subset v\mathcal{O}_{X}$,
 hence, for every $x \in X$, if one sets $y = f(x)$, one has $u_{y} \mathcal{O}_{x} \subset v_{y} \mathcal{O}_{x}$; one
 concludes that $u_{y} \mathcal{O}_{y} \subset v_{y} \mathcal{O}_{y}$ by virtue of the hypothesis that $\mathcal{O}_{x}$
-is a faithfully flat $\mathcal{O}_{y}$-module and of Bourbaki, _Alg. comm._, chap. I, §3, n$^{\circ}$ 5, prop. 10, (ii);
+is a faithfully flat $\mathcal{O}_{y}$-module and of Bourbaki, _Alg. comm._, chap. I, §3, nÂ° 5, prop. 10, (ii);
 whence $u \mathcal{O}_{Y} \subset v \mathcal{O}_{Y}$ since $f$ is surjective, and consequently $D \geq 0$.
 
 ## 21.5. Direct images of divisors
 
-**(21.5.1).** Let $X$, $X'$ be two preschemes, $f : X' \to X$ a morphism. We shall, in this n$^{\circ}$, give sufficient
+**(21.5.1).** Let $X$, $X'$ be two preschemes, $f : X' \to X$ a morphism. We shall, in this nÂ°, give sufficient
 conditions to be able to associate with every divisor $D'$ on $X'$ a divisor $D$ on $X$, *direct image* of $D'$ by $f$.
 We shall restrict to the case where $f$ is a *finite* morphism (for more general conditions, see the chapter of this
 Treatise devoted to intersection theory).
@@ -729,7 +729,7 @@ Treatise devoted to intersection theory).
 *Let $A$ be a ring, $E$ a free $A$-module of finite rank. For an endomorphism $u$ of $E$ to be injective, it is
 necessary and sufficient that $det(u)$ be a regular element of $A$.*
 
-This is proved in Bourbaki, _Alg._, chap. III, 3rd ed., §8, n$^{\circ}$ 2, prop. 3.
+This is proved in Bourbaki, _Alg._, chap. III, 3rd ed., §8, nÂ° 2, prop. 3.
 
 **(21.5.3).** Suppose now that the morphism $f : X' \to X$ is finite, and moreover that $f$ verifies one of the two
 following properties:
@@ -862,7 +862,7 @@ affine; one then has $X' = \operatorname{Spec}(A')$ and $X'' = \operatorname{Spe
 is a projective $A'$-module of rank $n$. When $f$ is locally free, one may suppose that $A'$ is a free $A$-module of
 rank $m$, and then `A''` is a projective $A$-module of rank `mn`, and by restricting $X$ to a suitable open, one may
 suppose that `A''` is a free $A$-module of rank `mn`; formula `(21.5.7.4)` then follows from the transitivity of the
-norm (Bourbaki, _Alg._, chap. VIII, §12, n$^{\circ}$ 2, prop. 7). When $f$ verifies hypothesis II), $A$ is Noetherian
+norm (Bourbaki, _Alg._, chap. VIII, §12, nÂ° 2, prop. 7). When $f$ verifies hypothesis II), $A$ is Noetherian
 reduced, and if $R$ is its total ring of fractions, $A' \otimes_{A} R$ is a free $R$-module of rank $m$, hence $A''
 \otimes_{A} R = A'' \otimes_{A'} (A' \otimes_{A} R)$ is a projective $R$-module of rank `mn`, and since $R$ is then a
 semi-local ring, this $R$-module is free; the proposition follows again from the transitivity of norms.
@@ -1090,13 +1090,13 @@ equivalent**.
 **(21.6.8).** Consider in particular the case where $X = \operatorname{Spec}(A)$, where $A$ is an integrally closed
 Noetherian integral domain. Then $X^{(1)}$ is the set of prime ideals of height `1` of $A$, and $\mathfrak{z}^{1}(X)$ is
 therefore identified with the group of divisors (in the sense of N. Bourbaki) of the Krull ring $A$ (Bourbaki, _Alg.
-comm._, chap. VII, §1, n$^{\circ}$ 3, cor. of th. 2 and n$^{\circ}$ 6, th. 3).
+comm._, chap. VII, §1, nÂ° 3, cor. of th. 2 and nÂ° 6, th. 3).
 
 Since on the other hand, the regular meromorphic functions on $X$ are then identified with the elements $\neq 0$ of the
 fraction field $K$ of $A$, the map $f \mapsto cyc(div(f))$ from $M(X)^{\times}$ into $\mathfrak{z}^{1}(X)$ is identified
-with the map denoted $f \mapsto div(f)$ in Bourbaki (_loc. cit._, §1, n$^{\circ}$ 1); $\mathfrak{z}^{1}_{princ}(X)$ is therefore
+with the map denoted $f \mapsto div(f)$ in Bourbaki (_loc. cit._, §1, nÂ° 1); $\mathfrak{z}^{1}_{princ}(X)$ is therefore
 identified with the group of principal divisors of $A$ in the sense of Bourbaki, and $Cl(X)$ with the group of divisor
-classes of $A$ in the sense of Bourbaki (_loc. cit._, §1, n$^{\circ}$ 2 and n$^{\circ}$ 10).
+classes of $A$ in the sense of Bourbaki (_loc. cit._, §1, nÂ° 2 and nÂ° 10).
 
 **Theorem (21.6.9).**
 
@@ -1137,13 +1137,13 @@ $prof(\mathcal{O}_{X,x}) \leq 1$ are therefore the points of $X^{(1)}$, and the 
 cycles given in `(21.6.7)`, and the relation between `1`-codimensional cycles on $\operatorname{Spec}(A)$ and divisors
 (in the sense of Bourbaki) of the ring $A$ when $A$ is an integrally closed Noetherian ring `(21.6.8)`, condition b) is
 equivalent to saying that for every $x \in X$, every divisor of the ring $\mathcal{O}_{X,x}$ is principal, in other
-words that the ring $\mathcal{O}_{X,x}$ is factorial (Bourbaki, _Alg. comm._, chap. VII, §3, n$^{\circ}$ 1), whence the
+words that the ring $\mathcal{O}_{X,x}$ is factorial (Bourbaki, _Alg. comm._, chap. VII, §3, nÂ° 1), whence the
 equivalence of b) and c).
 
 **(21.6.9.2).** When $A$ is a factorial Noetherian ring, it is clear that $X = \operatorname{Spec}(A)$ is locally
-factorial (Bourbaki, _Alg. comm._, chap. VII, §3, n$^{\circ}$ 4, prop. 3). If, in this case, one writes an element $f \neq 0$ of
+factorial (Bourbaki, _Alg. comm._, chap. VII, §3, nÂ° 4, prop. 3). If, in this case, one writes an element $f \neq 0$ of
 the fraction field $K$ of $A$ in the form $r/s$, where $r$ and $s$ are two coprime elements of $A$, whose divisors are
-well determined (_loc. cit._, §3, n$^{\circ}$ 3), these divisors are identified respectively with the *cycle of zeros* and the
+well determined (_loc. cit._, §3, nÂ° 3), these divisors are identified respectively with the *cycle of zeros* and the
 *cycle of poles* of $f$ `(21.6.7)`.
 
 **Corollary (21.6.10).**
@@ -1186,9 +1186,9 @@ $\operatorname{Pic}(X) \to \operatorname{Pic}(U)$ is canonically identified with
 *Let $X$ be a Noetherian reduced prescheme. Let $(U_{\lambda})_{\lambda \in L}$ be a decreasing filtered family of opens
 of $X$ verifying the following conditions:*
 
-*$1^{\circ}$ If $Y_{\lambda} = X - U_{\lambda}$, one has $codim(Y_{\lambda}, X) \geq 2$ for every $\lambda \in L$.*
+*1Â° If $Y_{\lambda} = X - U_{\lambda}$, one has $codim(Y_{\lambda}, X) \geq 2$ for every $\lambda \in L$.*
 
-*$2^{\circ}$ For every $x \in \bigcap_{\lambda \in L} U_{\lambda}$, the ring $\mathcal{O}_{X,x}$ is factorial.*
+*2Â° For every $x \in \bigcap_{\lambda \in L} U_{\lambda}$, the ring $\mathcal{O}_{X,x}$ is factorial.*
 
 <!-- original page 275 -->
 
@@ -1218,13 +1218,13 @@ $$
 
 *are commutative.*
 
-Hypothesis $1^{\circ}$ on $U_{\lambda}$ implies that for every $\lambda \in L$, one has $X^{(1)} \subset U_{\lambda}$
+Hypothesis 1Â° on $U_{\lambda}$ implies that for every $\lambda \in L$, one has $X^{(1)} \subset U_{\lambda}$
 `(5.1.3.1)`; hence the restriction homomorphism $\mathfrak{z}^{1}(X) \to \mathfrak{z}^{1}(U_{\lambda})$ is bijective and
 consequently one has a canonical isomorphism $\lim \mathfrak{z}^{1}(U_{\lambda}) \xrightarrow{\sim}
 \mathfrak{z}^{1}(X)$. The canonical homomorphisms $cyc : \operatorname{Div}(U_{\lambda}) \to
 \mathfrak{z}^{1}(U_{\lambda})$ define therefore, by passage to the inductive limit, the first of the canonical
 homomorphisms `(21.6.12.1)`, and the second one is deduced from it by passage to the quotients. Moreover, it follows
-from condition $1^{\circ}$ that the $U_{\lambda}$ are dense in $X$, hence schematically dense since $X$ is reduced `(11.10.4)`,
+from condition 1Â° that the $U_{\lambda}$ are dense in $X$, hence schematically dense since $X$ is reduced `(11.10.4)`,
 and consequently every meromorphic function on $X$ is entirely determined by its restriction to each $U_{\lambda}$; one
 deduces at once from this that in the isomorphism $\mathfrak{z}^{1}(X) \xrightarrow{\sim}
 \mathfrak{z}^{1}(U_{\lambda})$, the image of $\mathfrak{z}^{1}_{princ}(X)$ is $\mathfrak{z}^{1}_{princ}(U_{\lambda})$,
@@ -1259,7 +1259,7 @@ that $U_{\lambda}$ is contained in the union of the $W(x_{i})$, one sees that th
 \cap U_{\lambda})$ are the restrictions of one and the same divisor $D \in \operatorname{Div}(U_{\lambda})$ which will
 be such that $cyc(D) = Z | U_{\lambda}$. One is therefore reduced again to the case where $X =
 \operatorname{Spec}(\mathcal{O}_{X,x})$ with $x \in T$; but since $\mathcal{O}_{X,x}$ is factorial, so are its
-localizations (Bourbaki, _Alg. comm._, chap. VII, §3, n$^{\circ}$ 4, prop. 3), and it suffices to apply `(21.6.9, (ii))`.
+localizations (Bourbaki, _Alg. comm._, chap. VII, §3, nÂ° 4, prop. 3), and it suffices to apply `(21.6.9, (ii))`.
 
 **Corollary (21.6.13).**
 
@@ -1269,8 +1269,8 @@ localizations (Bourbaki, _Alg. comm._, chap. VII, §3, n$^{\circ}$ 4, prop. 3), 
 and let $a$ be the closed point of $X$, $U = X - {a}$. For $A$ to be factorial, it is necessary and sufficient that $U$
 be locally factorial and that $\operatorname{Pic}(U) = 0$.*
 
-Indeed, to say that $A$ is factorial is equivalent to saying that $Cl(X) = 0$ (Bourbaki, _Alg. comm._, chap. VII, §1, n$^{\circ}$
-4, cor. of th. 2 and §3, n$^{\circ}$ 2, th. 1); it therefore suffices to use the existence of the second isomorphism
+Indeed, to say that $A$ is factorial is equivalent to saying that $Cl(X) = 0$ (Bourbaki, _Alg. comm._, chap. VII, §1, nÂ°
+4, cor. of th. 2 and §3, nÂ° 2, th. 1); it therefore suffices to use the existence of the second isomorphism
 `(21.6.12.1)`, taking the family $(U_{\lambda})$ restricted to the single open $U$.
 
 **Corollary (21.6.14).**
@@ -1515,9 +1515,9 @@ $\mathcal{E}' = p^{*}_{\lambda}(\mathcal{E}'_{\lambda})$; it will evidently suff
 $X'_{\lambda}$ and $\mathcal{E}'_{\lambda}$, in other words, one may restrict to the case where the morphism $f$ is
 finite. Set $B = \mathcal{O}_{X,x}$ and let $B'$ be the ring of the affine scheme $X'_{0} = X' \times_{X}
 \operatorname{Spec}(\mathcal{O}_{X,x})$; since $B$ is a local ring and $B'$ is a finite $B$-algebra, $B'$ is a
-semi-local ring (Bourbaki, _Alg. comm._, chap. V, §2, n$^{\circ}$ 1, prop. 3); one concludes that the locally free
+semi-local ring (Bourbaki, _Alg. comm._, chap. V, §2, nÂ° 1, prop. 3); one concludes that the locally free
 $\mathcal{O}_{X'_{0}}$-Module $\mathcal{E}'_{0} = \mathcal{E}' \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X,x}$ is
-isomorphic to $\mathcal{O}^{n}_{X'_{0}}$ (Bourbaki, _Alg. comm._, chap. II, §5, n$^{\circ}$ 3, prop. 5). Considering $X'_{0}$ as
+isomorphic to $\mathcal{O}^{n}_{X'_{0}}$ (Bourbaki, _Alg. comm._, chap. II, §5, nÂ° 3, prop. 5). Considering $X'_{0}$ as
 the projective limit
 
 <!-- original page 281 -->
@@ -1596,7 +1596,7 @@ $\theta^{*} : \mathcal{O}^{\times}_{X} \to f_{*}(\mathcal{O}^{\times}_{X'})$ is 
 \mathcal{D}iv_{X} \to f_{*}(\mathcal{D}iv_{X'})$ is surjective and $Ker({\theta''}^{*})$ is isomorphic to
 $Coker(\theta^{*})$.*
 
-This is an immediate consequence of the snake-diagram lemma (Bourbaki, _Alg. comm._, chap. I, §2, n$^{\circ}$ 4, prop. 2) applied
+This is an immediate consequence of the snake-diagram lemma (Bourbaki, _Alg. comm._, chap. I, §2, nÂ° 4, prop. 2) applied
 to the diagram `(21.8.3.1)`.
 
 **Proposition (21.8.5).**
@@ -1805,7 +1805,7 @@ $$ \mathcal{D}iv_{X} \xrightarrow{\sim} \bigoplus_{x \in X^{(1)}} (i_{x})_{*}(\o
 
 Taking the isomorphism `(21.4.6.1)` into account, the homomorphism `(21.9.4.1)` is defined by `(21.9.1.2)`: let us prove
 that it is a bijection. Since $\dim(X) \leq 1$, the points of $X^{(1)}$ are the non-isolated closed points of $X$. One
-is reduced to proving that: $1^{\circ}$ $\mathcal{D}iv_{X}$ verifies condition b) of `(21.9.2)`; $2^{\circ}$ for every isolated point $x
+is reduced to proving that: 1Â° $\mathcal{D}iv_{X}$ verifies condition b) of `(21.9.2)`; 2Â° for every isolated point $x
 \in X$, one has $(\mathcal{D}iv_{X})_{x} = 0$. The second point follows from the fact that $\mathcal{O}_{X,x}$ is then
 an Artinian ring and so every regular element of $\mathcal{O}_{X,x}$ is invertible. For the first, it suffices to note
 that for every open $U$ of $X$ and every divisor $D \in \operatorname{Div}(U)$, the maximal points of the support $S$ of
@@ -1871,7 +1871,7 @@ group $\mathbb{Z}$ considered as a sheaf of groups on the space ${x}$.*
 
 **(21.9.10).** Assume only that the Noetherian local ring $A$ of dimension `1` is reduced; then, if $A'$ is the
 normalization of $A$ (integral closure of $A$ in its total ring of fractions), $A'$ is Noetherian in virtue of the
-Krull-Akizuki theorem (Bourbaki, _Alg. comm._, chap. VII, §2, n$^{\circ}$ 5, prop. 5), and one saw in `(21.8.6)` how
+Krull-Akizuki theorem (Bourbaki, _Alg. comm._, chap. VII, §2, nÂ° 5, prop. 5), and one saw in `(21.8.6)` how
 
 <!-- original page 287 -->
 
@@ -1884,9 +1884,9 @@ form $\mathbb{Z}^{r}$.
 
 *Let $X$ be a Noetherian prescheme, `X_0` a closed subprescheme of $X$ having the following properties:*
 
-*$1^{\circ}$ $\dim(X_{0}) \leq 1$.*
+*1Â° $\dim(X_{0}) \leq 1$.*
 
-*$2^{\circ}$ For every locally closed part $Y$ of $X$ such that $Y \cap X_{0}$ is discrete, there exists a part $Y'$ of $Y$,
+*2Â° For every locally closed part $Y$ of $X$ such that $Y \cap X_{0}$ is discrete, there exists a part $Y'$ of $Y$,
 closed in $X$ and open in $Y$, containing $Y \cap X_{0}$.*
 
 *Under these conditions:*
@@ -1922,7 +1922,7 @@ Ass(\mathcal{O}_{X}) = \emptyset$.
 By virtue of the choice of $U^{(x)}$, one may define a divisor ${D'}^{(x)}$ on $U^{(x)}$ by ${D'}^{(x)} = div(g^{(x)})$;
 moreover, one saw above that $x$ is necessarily isolated in $V^{(x)} \cap X_{0}$, so by replacing $U^{(x)}$ again by a
 smaller open neighbourhood of $x$, one may suppose that $V^{(x)} \cap X_{0}$ is reduced to the point $x$. But there
-exists then, in virtue of condition $2^{\circ}$, a part $W^{(x)}$ of $V^{(x)}$, closed in $X$ and open in $V^{(x)}$, such that
+exists then, in virtue of condition 2Â°, a part $W^{(x)}$ of $V^{(x)}$, closed in $X$ and open in $V^{(x)}$, such that
 $W^{(x)} \cap X_{0} = {x}$. Replacing $U^{(x)}$ again by a smaller open neighbourhood of $x$, one may therefore suppose
 
 <!-- original page 288 -->
@@ -1986,7 +1986,7 @@ to take the invertible $\mathcal{O}_{X}$-Module $\mathcal{L}$ deduced from $\mat
 in virtue of the commutativity of the preceding diagram, $cl(\mathcal{L}'_{0})$ will be the image of $cl(\mathcal{L})$.
 
 Therefore assume $A$ Noetherian, hence so is $X$, and verify that $X$ and $X'_{0}$ satisfy the conditions of
-`(21.9.11, (ii))`. One has by hypothesis $\dim(X'_{0}) \leq 1$; on the other hand, to verify condition $2^{\circ}$ of
+`(21.9.11, (ii))`. One has by hypothesis $\dim(X'_{0}) \leq 1$; on the other hand, to verify condition 2Â° of
 `(21.9.11)`, consider a subprescheme $Y$ of $X$ having $Y$ as underlying set; the morphism $g : Y \to S$, restriction of
 $f$, being quasi-finite at each of the points $x_{i}$ of $Y \cap X_{0}$ ($1 \leq i \leq n$), one may apply
 `(18.5.11, c)` and one sees that $Y$ is the sum of the open subpreschemes $Y_{i} =
@@ -2041,14 +2041,14 @@ $$ Z = \sum_{x \in T \cap X^{(1)}} n_{x} \cdot \{x\} \tag{21.10.1.1} $$
 where the family of $x \in T \cap X^{(1)}$ such that $n_{x} \neq 0$ is locally finite. For every $x' \in {X'}^{(1)}$, let
 us define an integer $n_{x'}$ in the following way, setting $x = f(x')$:
 
-$1^{\circ}$ if $x \notin T$, take $n_{x'} = 0$;
+1Â° if $x \notin T$, take $n_{x'} = 0$;
 
-$2^{\circ}$ if $x \in X^{(1)}$ and $\mathcal{O}_{X',x'}$ is a flat $\mathcal{O}_{X,x}$-module, one knows `(6.1.1)` that
+2Â° if $x \in X^{(1)}$ and $\mathcal{O}_{X',x'}$ is a flat $\mathcal{O}_{X,x}$-module, one knows `(6.1.1)` that
 $\dim(\mathcal{O}_{X',x'} / \mathfrak{m}_{x} \mathcal{O}_{X',x'}) = 0$; in other words $\mathcal{O}_{X',x'} /
 \mathfrak{m}_{x} \mathcal{O}_{X',x'}$ is an $\mathcal{O}_{X',x'}$-module of finite length $\lambda_{x'}$, and one takes
 $n_{x'} = \lambda_{x'} n_{x}$;
 
-$3^{\circ}$ if $\mathcal{O}_{X,x}$ is factorial and $\mathfrak{m}_{x} \notin Ass(\mathcal{O}_{X',x'})$, one knows `(21.6.9)` that
+3Â° if $\mathcal{O}_{X,x}$ is factorial and $\mathfrak{m}_{x} \notin Ass(\mathcal{O}_{X',x'})$, one knows `(21.6.9)` that
 the canonical homomorphism $cyc : \operatorname{Div}(\mathcal{O}_{X,x}) \to
 \mathfrak{J}^{1}(\operatorname{Spec}(\mathcal{O}_{X,x}))$ is bijective, and on the other hand since
 $\dim(\mathcal{O}_{X',x'}) = 1$ and $\mathfrak{m}_{x} \notin Ass(\mathcal{O}_{X',x'})$, $Ass(\mathcal{O}_{X',x'})$
@@ -2069,14 +2069,14 @@ of $Z_{x}$ under the homomorphism `(21.10.1.2)`.
 
 **(21.10.2).** We propose to show that:
 
-A) When two of the conditions $1^{\circ}$, $2^{\circ}$, $3^{\circ}$ of `(21.10.1)` are simultaneously satisfied, the corresponding values of
+A) When two of the conditions 1Â°, 2Â°, 3Â° of `(21.10.1)` are simultaneously satisfied, the corresponding values of
 $n_{x'}$ coincide.
 
 B) The set of $x' \in {X'}^{(1)}$ such that $n_{x'} \neq 0$ is locally finite in $X'$.
 
-To prove A), assume first that $x \notin T$ and that $x$ verifies one of conditions $2^{\circ}$ or $3^{\circ}$ of `(21.10.1)`; then $n_{x}
-= 0$ and if one is in case $2^{\circ}$, one has $n_{x'} = 0$; if one is in case $3^{\circ}$, one has $Z_{x} = 0$ since $Supp(Z) \subset
-T$, so again $n_{x'} = 0$. It remains to consider the case where one is at once in case $2^{\circ}$ and in case $3^{\circ}$; then, since
+To prove A), assume first that $x \notin T$ and that $x$ verifies one of conditions 2Â° or 3Â° of `(21.10.1)`; then $n_{x}
+= 0$ and if one is in case 2Â°, one has $n_{x'} = 0$; if one is in case 3Â°, one has $Z_{x} = 0$ since $Supp(Z) \subset
+T$, so again $n_{x'} = 0$. It remains to consider the case where one is at once in case 2Â° and in case 3Â°; then, since
 $\dim(\mathcal{O}_{X,x}) = 1$, $\mathcal{O}_{X,x}$ is a discrete valuation ring; if $t$ is a uniformizer of this ring,
 the divisor corresponding to $Z_{x}$ is $div(t^{n_{x}})$ in $\operatorname{Div}(\mathcal{O}_{X,x})$, and its image in
 $\operatorname{Div}(\mathcal{O}_{X',x'})$ is the divisor of ${t'}^{n_{x}}$, where $t'$ is the (regular) element of
@@ -2128,9 +2128,9 @@ The question being local on $X$, one may restrict to the case where $X = \operat
 div(t)$, $t$ a regular non-invertible element of $A$, and where the subprescheme $Y(D)$ `(21.2.12)` has a single maximal
 point $y$, so that $cyc(D) = n_{y} \cdot {y}$, where $n_{y}$ is the length of $\mathcal{O}_{X,y} / t \mathcal{O}_{X,y}$
 `(21.6.5.1)`. One saw in the proof of `(21.10.2, B)` that the points $x' \in X'$ such that $mult_{x'}(f^{*}(cyc(D)))
-\neq 0$ are maximal points of $f^{-1}({y})$. If the point $x'$ is in case $3^{\circ}$ of `(21.10.1)`, the equality of the
+\neq 0$ are maximal points of $f^{-1}({y})$. If the point $x'$ is in case 3Â° of `(21.10.1)`, the equality of the
 multiplicities at $x'$ of the two members of `(21.10.4.1)` follows from the definition of $n_{x'}$ by means of the
-homomorphism `(21.10.1.1)`. Suppose on the contrary that $x'$ is in case $2^{\circ}$ of `(21.10.1)`, and let $x = f(x')$; since
+homomorphism `(21.10.1.1)`. Suppose on the contrary that $x'$ is in case 2Â° of `(21.10.1)`, and let $x = f(x')$; since
 $x \in X^{(1)} \cap {y}$, one necessarily has $x = y$. Let us remark now that $f^{*}(D) = div(t')$, where $t'$ is the
 image of $t$ in $\Gamma(X', \mathcal{O}_{X'})$, and $Y(f^{*}(D)) = f^{-1}(Y(D))$; the multiplicity of $f^{*}(D)$ at the
 point $x'$ is therefore the length $n_{x'}$ of the $\mathcal{O}_{X',x'}$-module $\mathcal{O}_{X',x'} / t'
@@ -2227,15 +2227,15 @@ $A'$ is a finite $A$-algebra and $K' = A' \otimes_{A} K$ is a free $K$-module.
 Let us denote then by $r_{x'}$ the rank of the free $K$-module $K'$, by $q_{x'}$ the degree of $k(x') = k(A')$ over
 $k(x) = k(A)$, and set $\mu_{x'} = r_{x'} / q_{x'}$. For a 1-codimensional cycle with support contained in $T$, given by
 `(21.10.1.1)`, and every $x' \in {X'}^{(1)}$, one defines $c_{x'} \in \mathbb{Q}$ as equal to the number $n_{x'} \in
-\mathbb{Z}$ when one is in one of cases $1^{\circ}$, $2^{\circ}$, $3^{\circ}$ of `(21.10.1)`; but there remains here a fourth possibility:
+\mathbb{Z}$ when one is in one of cases 1Â°, 2Â°, 3Â° of `(21.10.1)`; but there remains here a fourth possibility:
 
-$4^{\circ}$ if $x'$ verifies condition (iv) above, take $c_{x'} = \mu_{x'} n_{x} \in \mathbb{Q}$.
+4Â° if $x'$ verifies condition (iv) above, take $c_{x'} = \mu_{x'} n_{x} \in \mathbb{Q}$.
 
-**(21.10.11).** It remains to prove that when condition $4^{\circ}$ of `(21.10.10)` is verified simultaneously with one of
-conditions $1^{\circ}$, $2^{\circ}$, $3^{\circ}$ of `(21.10.1)`, one has $n_{x'} = c_{x'}$. This is evident if $x \notin T$ since then $n_{x} = 0$.
+**(21.10.11).** It remains to prove that when condition 4Â° of `(21.10.10)` is verified simultaneously with one of
+conditions 1Â°, 2Â°, 3Â° of `(21.10.1)`, one has $n_{x'} = c_{x'}$. This is evident if $x \notin T$ since then $n_{x} = 0$.
 To study the two other cases, note that $\mathfrak{m}_{x} \mathcal{O}_{X',x'}$ is closed for the
 $\mathfrak{m}_{x'}$-preadic topology, so the completion of $\mathcal{O}_{X',x'} / \mathfrak{m}_{x} \mathcal{O}_{X',x'}$
-for the latter topology is $A' / \mathfrak{m}_{x} A'$. If one is at once in case $2^{\circ}$ and case $4^{\circ}$, $\mathcal{O}_{X',x'} /
+for the latter topology is $A' / \mathfrak{m}_{x} A'$. If one is at once in case 2Â° and case 4Â°, $\mathcal{O}_{X',x'} /
 \mathfrak{m}_{x} \mathcal{O}_{X',x'}$ is discrete for the $\mathfrak{m}_{x'}$-preadic topology, so isomorphic to $A' /
 \mathfrak{m}_{x} A'$. Since $A'$ is a finite and flat $A$-algebra $(0_{III}, 10.2.3)$, it is a free $A$-module
 $(0_{III}, 10.1.3)$, and the rank of $A' / \mathfrak{m}_{x} A'$ over $A / \mathfrak{m}_{x} A = k(x)$ is equal to the
@@ -2244,13 +2244,13 @@ the length $\lambda_{x'}$ of $\mathcal{O}_{X',x'} / \mathfrak{m}_{x} \mathcal{O}
 $\mathcal{O}_{X',x'}$-module, or as $k(x')$-module) by the rank $[k(x') : k(x)] = q_{x'}$, which proves the relation
 $\mu_{x'} = r_{x'} / q_{x'} = \lambda_{x'}$ in this case.
 
-Assume finally that one is at once in case $3^{\circ}$ and case $4^{\circ}$. Then, since $\dim(\mathcal{O}_{X,x}) = 1$,
+Assume finally that one is at once in case 3Â° and case 4Â°. Then, since $\dim(\mathcal{O}_{X,x}) = 1$,
 $\mathcal{O}_{X,x}$ is a discrete valuation ring, hence regular. On the other hand, $\mathcal{O}_{X',x'}$ is of
 dimension `1`, and since $\mathfrak{m}_{x} \notin Ass(\mathcal{O}_{X',x'})$, $\mathcal{O}_{X',x'}$ is a Cohen-Macaulay
 ring `(0, 16.4.6)`; finally, since $A'$ is an $A$-module of finite type, $A' / \mathfrak{m}_{x} A'$ is a $k(x)$-vector
 space of finite rank; since $\mathcal{O}_{X',x'} / \mathfrak{m}_{x} \mathcal{O}_{X',x'}$ is contained in $A' /
 \mathfrak{m}_{x} A'$, it is also a $k(x)$-vector space of finite rank, hence an Artinian ring. Applying `(6.1.5)` then
-shows that $\mathcal{O}_{X',x'}$ is a flat $\mathcal{O}_{X,x}$-module, so one is also in case $2^{\circ}$, and one concludes by
+shows that $\mathcal{O}_{X',x'}$ is a flat $\mathcal{O}_{X,x}$-module, so one is also in case 2Â°, and one concludes by
 what was seen above.
 
 This being so, in the case under consideration, one will set
@@ -2310,7 +2310,7 @@ $d_{t}(M) = n \cdot d_{t}(A) = n \cdot long(A / tA)$.*
 tA)$.*
 
 (i) $\operatorname{Spec}(A)$ consists of the point $\mathfrak{m}$ and the minimal prime ideals $\mathfrak{p}_{i}$; since
-by hypothesis $t \notin \mathfrak{p}_{i}$ for every $i$ (Bourbaki, _Alg. comm._, chap. IV, §1, n$^{\circ}$ 1, cor. 3 of prop. 2),
+by hypothesis $t \notin \mathfrak{p}_{i}$ for every $i$ (Bourbaki, _Alg. comm._, chap. IV, §1, nÂ° 1, cor. 3 of prop. 2),
 the image of $t$ in each of the $A_{\mathfrak{p}_{i}}$ is invertible, and the supports of the $A$-modules of finite type
 $N_{t}(M)$ and $P_{t}(M)$ are therefore empty or reduced to $\mathfrak{m}$; one concludes `(0, 16.1.10)` that these
 modules are of finite length.
@@ -2346,7 +2346,7 @@ $$ 0 \to N_{t}(M') \to N_{t}(M) \to N_{t}(M'') \to P_{t}(M') \to P_{t}(M) \to P_
 which proves (ii).
 
 To prove (iii), note that there is a composition series $(M_{k})$ of $M$ whose quotients $M_{k} / M_{k+1}$ are
-isomorphic to $A / \mathfrak{m}$ or to one of the $A / \mathfrak{p}_{i}$ (Bourbaki, _Alg. comm._, chap. IV, §1, n$^{\circ}$ 4,
+isomorphic to $A / \mathfrak{m}$ or to one of the $A / \mathfrak{p}_{i}$ (Bourbaki, _Alg. comm._, chap. IV, §1, nÂ° 4,
 th. 1), and for $M$ to be of finite length, it is necessary and sufficient that all these quotients be isomorphic to $A
 / \mathfrak{m}$. Everything therefore reduces (in virtue of (ii)) to proving that $d_{t}(A / \mathfrak{m}) = 0$ and
 $d_{t}(A / \mathfrak{p}_{i}) > 0$. Now, the image of $t$ in $A / \mathfrak{m}$ being `0`, one has $N_{t}(A /
@@ -2377,7 +2377,7 @@ T$ and that $f^{*}(D)$ is defined, one has*
 
 $$ (21.10.13.1) cyc(f^{*}(D)) = f^{*}(cyc(D)). $$
 
-Reasoning as in `(21.10.4)`, everything reduces to seeing (with the same notation) that if $x'$ is in case $4^{\circ}$ of
+Reasoning as in `(21.10.4)`, everything reduces to seeing (with the same notation) that if $x'$ is in case 4Â° of
 `(21.10.10)` and if $n_{y}$ is the length of $\mathcal{O}_{X,y} / t \mathcal{O}_{X,y}$, then the
 
 <!-- original page 296 -->
@@ -2523,18 +2523,18 @@ Let us distinguish several cases.
 I) $A$ is a discrete valuation ring. Indeed, let $\pi$ be a uniformizer of $A$, and remark that $long_{A}(A / \pi^{k} A)
 = k$; if $n$ is the rank of $M$ and $\pi^{m_{i}}$ ($1 \leq i \leq n$) are the invariant factors of $u$, $Coker(u)$ is
 the direct sum of the $A$-modules $A / \pi^{m_{i}} A$, so has length $m = \sum^{n}_{i=1} m_{i}$, and $det(u)$ is the
-product of an invertible element and $\pi^{m}$, whence the conclusion in this case (Bourbaki, _Alg._, chap. VII, §4, n$^{\circ}$
+product of an invertible element and $\pi^{m}$, whence the conclusion in this case (Bourbaki, _Alg._, chap. VII, §4, nÂ°
 5, cor. 1 of prop. 4).
 
 II) $A$ is a complete integral ring (of dimension `1`). One knows then `(0, 19.8.8, (ii))` that there is a subring $B$
 of $A$ which is a discrete valuation ring, such that $B \to A$ is a local homomorphism making $A$ a $B$-module of finite
-type; since this $B$-module is evidently torsion-free, it is free (Bourbaki, _Alg. comm._, chap. VI, §3, n$^{\circ}$ 6, lemma 1).
+type; since this $B$-module is evidently torsion-free, it is free (Bourbaki, _Alg. comm._, chap. VI, §3, nÂ° 6, lemma 1).
 Denote by $M'$ the set $M$ endowed with its (free) $B$-module structure, by $u'$ the endomorphism $u$ regarded as a
 $B$-endomorphism. It follows from I) that one has
 
 $$ long_{B}(Coker\, u') = long_{B}(B / (det\, u') B). \tag{21.10.17.5} $$
 
-But one has (Bourbaki, _Alg._, chap. VIII, §12, n$^{\circ}$ 2, prop. 7)
+But one has (Bourbaki, _Alg._, chap. VIII, §12, nÂ° 2, prop. 7)
 
 $$ det\, u' = N_{A/B}(det\, u), $$
 
@@ -2603,7 +2603,7 @@ $$ 0 \to M \to \bigoplus_{i} M'_{i} \to M'' \to 0 $$
 
 of $A$-modules, where `M''` is of finite length: indeed, localizing the preceding exact sequence at each of the
 $\mathfrak{p}_{i}$, one obtains $M''_{\mathfrak{p}_{i}} = 0$, since $(\mathfrak{q}_{i})_{\mathfrak{p}_{i}} = 0$ and
-$(\mathfrak{q}_{j})_{\mathfrak{p}_{i}} = A_{\mathfrak{p}_{i}}$ for $j \neq i$ (Bourbaki, _Alg. comm._, chap. IV, §2, n$^{\circ}$
+$(\mathfrak{q}_{j})_{\mathfrak{p}_{i}} = A_{\mathfrak{p}_{i}}$ for $j \neq i$ (Bourbaki, _Alg. comm._, chap. IV, §2, nÂ°
 4, prop. 6), so $(M'_{i})_{\mathfrak{p}_{i}} = M_{\mathfrak{p}_{i}}$ and $(M'_{j})_{\mathfrak{p}_{i}} = 0$;
 
 <!-- original page 300 -->
@@ -3366,7 +3366,7 @@ equivalence of categories.*
 To say that the couple $(X, Y)$ is parafactorial means therefore that, for every open $V$ of $X$, the following
 conditions are verified:
 
-$1^{\circ}$ the functor $\mathcal{L} \mapsto \mathcal{L} | (U \cap V)$ is fully faithful, in other words, for two invertible
+1Â° the functor $\mathcal{L} \mapsto \mathcal{L} | (U \cap V)$ is fully faithful, in other words, for two invertible
 $\mathcal{O}_{V}$-Modules $\mathcal{L}$, $\mathcal{L}'$, the restriction map
 
 $$ \operatorname{Hom}_{\mathcal{O}_{V}}(\mathcal{L}, \mathcal{L}') \to \operatorname{Hom}_{\mathcal{O}_{U \cap
@@ -3374,7 +3374,7 @@ V}}(\mathcal{L} | (U \cap V), \mathcal{L}' | (U \cap V)) $$
 
 is bijective;
 
-$2^{\circ}$ the functor $\mathcal{L} \mapsto \mathcal{L} | (U \cap V)$ is essentially surjective, in other words, for every
+2Â° the functor $\mathcal{L} \mapsto \mathcal{L} | (U \cap V)$ is essentially surjective, in other words, for every
 
 <!-- original page 314 -->
 
@@ -3659,23 +3659,23 @@ there are Noetherian local rings of dimension `2` which are parafactorial and no
 Noetherian local ring $A$ of dimension `2` to be parafactorial and non-factorial, it is necessary and sufficient that it
 satisfy the three following conditions:
 
-$1^{\circ}$ $A$ is a Cohen-Macaulay ring (in other words $prof(A) = 2$).
+1Â° $A$ is a Cohen-Macaulay ring (in other words $prof(A) = 2$).
 
-$2^{\circ}$ $A$ is integral and if $A'$ is its integral closure, $A'$ is factorial and is a finite $A$-algebra.
+2Â° $A$ is integral and if $A'$ is its integral closure, $A'$ is factorial and is a finite $A$-algebra.
 
-$3^{\circ}$ Let $\mathcal{J}$ be the conductor of $A$ in $A'$ (annihilator of the $A$-module $A'/A$, or also the largest ideal of
+3Â° Let $\mathcal{J}$ be the conductor of $A$ in $A'$ (annihilator of the $A$-module $A'/A$, or also the largest ideal of
 $A'$ contained in $A$); set $B = A/\mathcal{J}$, $B' = A'/\mathcal{J}$; then $\dim(B) = 1$ (which implies $A' \neq A$,
 in other words $A$ is not integrally closed), and the canonical map $D(B) \to D(B')$ `(21.4.5)` is surjective.
 
 One can show moreover that these conditions entail the following property:
 
-$4^{\circ}$ The ring $B'$ (and a fortiori $B \subset B'$) is reduced, and the morphism $\operatorname{Spec}(B') \to
+4Â° The ring $B'$ (and a fortiori $B \subset B'$) is reduced, and the morphism $\operatorname{Spec}(B') \to
 \operatorname{Spec}(B)$ is bijective.
 
 If one sets $X = \operatorname{Spec}(A)$, $X' = \operatorname{Spec}(A')$, $Y = \operatorname{Spec}(B)$, $Y' =
 \operatorname{Spec}(B')$, so that $Y$ (resp. $Y'$) is defined by the ideal $\mathcal{J}$ of $A$ (resp. $A'$), the
-structural morphism $f : X' \to X$ is an isomorphism of $X' - Y'$ onto $X - Y$ (Bourbaki, _Alg. comm._, chap. V, §1, n$^{\circ}$
-5, cor. 5 of prop. 16). One sees therefore by virtue of $4^{\circ}$ that $f$ is a bijective morphism; in other words, $X$ is a
+structural morphism $f : X' \to X$ is an isomorphism of $X' - Y'$ onto $X - Y$ (Bourbaki, _Alg. comm._, chap. V, §1, nÂ°
+5, cor. 5 of prop. 16). One sees therefore by virtue of 4Â° that $f$ is a bijective morphism; in other words, $X$ is a
 unibranch prescheme `(6.15.1)` (and in particular $A'$ is a Noetherian local ring); in general $X$ is not geometrically
 unibranch. The space $Y$, of dimension `1`, is constituted by the closed point $x$ of $X$ and the maximal points $y_{i}$
 ($1 \leqslant i \leqslant r$) of $Y$, and the unique point $y'_{i}$ of $Y'$ above $y_{i}$ is also a maximal point of
@@ -3684,13 +3684,13 @@ y_{i}$ and $z' = y'_{i}$; this relation is also evidently verified for $z \in Y$
 $f^{-1}(z)$, hence for every $z \in U = X - {x}$ and $z'$ the unique point of $f^{-1}(z)$. In particular, if the ring
 $A$ is of characteristic `0` `(0, 21.1.1)` one sees that $U'$ is unramified over $U$ (but not étale in general).
 
-We shall restrict ourselves here to demonstrating that conditions $1^{\circ}$, $2^{\circ}$, $3^{\circ}$ above are sufficient for $A$ to be
+We shall restrict ourselves here to demonstrating that conditions 1Â°, 2Â°, 3Â° above are sufficient for $A$ to be
 
 <!-- original page 319 -->
 
-parafactorial. Now, by virtue of condition $1^{\circ}$ and of `(21.13.8)`, it suffices to show that $\operatorname{Pic}(U) = 0$.
+parafactorial. Now, by virtue of condition 1Â° and of `(21.13.8)`, it suffices to show that $\operatorname{Pic}(U) = 0$.
 
-Since $A'$ is factorial by virtue of $2^{\circ}$, one has $\operatorname{Pic}(U') = 0$, and one deduces from `(21.8.5, (ii))` an
+Since $A'$ is factorial by virtue of 2Â°, one has $\operatorname{Pic}(U') = 0$, and one deduces from `(21.8.5, (ii))` an
 exact sequence
 
 $$ 1 \to \left(\bigoplus_{s \in S} (A'_{p'_{s}})^{\times} / (A_{p_{s}})^{\times}\right) / \operatorname{Im}(\Gamma(U',
@@ -3715,14 +3715,14 @@ ${A'}^{\times}_{p'_{i}} / A^{\times}_{p_{i}}$ are the same, which completes the 
 To have an explicit example of a parafactorial ring of dimension `2` obtained in this manner and *non-factorial*,
 consider the ring $E = \mathbb{R}[[U, V]]/(U^{2} + V^{2})$, whose integral closure $E'$ identifies with
 $\mathbb{C}[[U]]$ `(6.15.11)`. If one sets $A = E[[T]]$, the integral closure of $A$ is the ring $A' = E'[[T]]$
-(Bourbaki, _Alg. comm._, chap. V, §1, n$^{\circ}$ 4, prop. 14); one verifies at once that the conductor of $E$ in $E'$ is the
+(Bourbaki, _Alg. comm._, chap. V, §1, nÂ° 4, prop. 14); one verifies at once that the conductor of $E$ in $E'$ is the
 maximal ideal $\mathfrak{n}$ of $E$, hence the conductor $\mathcal{J}$ of $A$ in $A'$ is $\mathfrak{n}[[T]]$, and one
 has $B = A/\mathcal{J} \simeq \mathbb{R}[[T]]$, $B' = A'/\mathcal{J} \simeq \mathbb{C}[[T]]$. It is then immediate that
-conditions $1^{\circ}$, $2^{\circ}$ and $3^{\circ}$ stated above are indeed verified, but $A$ is not even integrally closed.
+conditions 1Â°, 2Â° and 3Â° stated above are indeed verified, but $A$ is not even integrally closed.
 
 One can vary this example, and the reader will see without difficulty that if $k$ is an algebraically closed field, the
 ring $A$, localization of the ring $k[U, V, W]/(U^{2} - WV^{2})$ at the maximal ideal generated by the images of $U$,
-$V$ and $W$, verifies also conditions $1^{\circ}$, $2^{\circ}$ and $3^{\circ}$ above.
+$V$ and $W$, verifies also conditions 1Â°, 2Â° and 3Â° above.
 
 It could be that these three conditions imply even that each of the rings $B'/p'_{i}$ is a discrete valuation ring,
 which would entail that $A'$ is even a regular ring.
@@ -3785,7 +3785,7 @@ contradicts the definition of $V$, and therefore concludes the proof of `(21.13.
 
 *Let $X$ be a locally Noetherian prescheme, $Y$ a closed part of $X$, $U = X - Y$. Suppose that the couple $(X, Y)$ is
 parafactorial and that $U$ is locally factorial; in other words `(21.13.10)`, for every $x \in X$, the ring
-$\mathcal{O}_{X,x}$ is: $1^{\circ}$ parafactorial if $x \in Y$; $2^{\circ}$ factorial if $x \notin Y$. Then $X$ is locally factorial (in
+$\mathcal{O}_{X,x}$ is: 1Â° parafactorial if $x \in Y$; 2Â° factorial if $x \notin Y$. Then $X$ is locally factorial (in
 other words, $\mathcal{O}_{X,x}$ is in fact factorial for every $x \in X$).*
 
 Suppose indeed the contrary, and let $y$ be a point of $Y$ such that $\mathcal{O}_{X,y}$ is not factorial and has
@@ -3998,15 +3998,15 @@ residue field $k'$ (since $k' \otimes_{k} k'$ is direct composite of local rings
 Since $D$ is formally smooth over $C$, the same is true of `D_0`; consequently $D_{0}/\mathfrak{m}D_{0}$ is a formally
 smooth $k'$-algebra, of residue field $k'$, which entails that it is $k'$-isomorphic to a formal series algebra
 $k'[[T_{1}, \cdots, T_{n}]]$ `(0, 19.6.4)`; one concludes, by `(0, 19.7.1.5)`, that `D_0` is $C$-isomorphic to
-$C[[T_{1}, \cdots, T_{n}]]$, and consequently integral and integrally closed (Bourbaki, _Alg. comm._, chap. V, §1, n$^{\circ}$ 4,
+$C[[T_{1}, \cdots, T_{n}]]$, and consequently integral and integrally closed (Bourbaki, _Alg. comm._, chap. V, §1, nÂ° 4,
 prop. 14). Since the morphisms $\operatorname{Spec}(D_{0}) \to \operatorname{Spec}(\hat{B})$ and
 $\operatorname{Spec}(D_{0}) \to \operatorname{Spec}(B)$ are faithfully flat, one deduces that $\hat{B}$ and $B$ are also
 integral and integrally closed `(2.1.13)`. This proves that the ideal $qD_{0}$ is divisorial (Bourbaki, _Alg. comm._,
-chap. VII, §1, n$^{\circ}$ 10, prop. 15) and not contained in $\mathfrak{m}D_{0}$, otherwise one would have $q = (qD_{0}) \cap B
+chap. VII, §1, nÂ° 10, prop. 15) and not contained in $\mathfrak{m}D_{0}$, otherwise one would have $q = (qD_{0}) \cap B
 \subset (\mathfrak{m}D_{0}) \cap B = \mathfrak{m}B = p$ by faithful flatness $(0_{I}, 6.5.1)$. One concludes that none
 of the prime ideals $r_{i}$ of height `1` in `D_0` which contain $qD_{0}$ can be contained in $\mathfrak{m}D_{0}$; if
 one proves that these ideals are principal, it will follow that $qD_{0}$ is principal, the divisors (in Bourbaki's
-sense) of $qD_{0}$ and of a product of powers of the $r_{i}$ being equal (Bourbaki, _Alg. comm._, chap. VII, §1, n$^{\circ}$ 4,
+sense) of $qD_{0}$ and of a product of powers of the $r_{i}$ being equal (Bourbaki, _Alg. comm._, chap. VII, §1, nÂ° 4,
 prop. 5). Since $qD_{0} \cap B = q$, one deduces by faithful flatness that $q$ is principal `(2.5.2)`, using the fact
 that $B$ is a local ring.
 
@@ -4018,7 +4018,7 @@ BT_{n-1}$: indeed, if $B' = A[[T_{1}, \cdots, T_{n-1}]]$, $B'$ is complete and h
 B'T_{1} + \cdots + B'T_{n-1} = \mathfrak{m}'$. Since one has $B = B'[[T_{n}]]$ and $p' = \mathfrak{m}'B$, it will follow
 from the recurrence hypothesis (taking into account that $B'$ is integral and integrally closed) that the ideal
 $\sigma(q)$ is principal in $B$, hence so is $q$. Now, if $\bar{f} \in k[[T_{1}, \cdots, T_{n}]]$ is the image of $f$
-("reduced series" of $f$), one knows (Bourbaki, _Alg. comm._, chap. VII, §3, n$^{\circ}$ 7, lemma 3) that there is an
+("reduced series" of $f$), one knows (Bourbaki, _Alg. comm._, chap. VII, §3, nÂ° 7, lemma 3) that there is an
 $A$-automorphism $\sigma$ of $B$ such that $(\sigma(\bar{f}))(0, \cdots, 0, T_{n}) \neq 0$, which evidently implies
 $\sigma(f) \notin p'$.
 
@@ -4028,12 +4028,12 @@ ring `A[T]`, the ideal $q \cap A[T]$ is principal;
 <!-- original page 325 -->
 
 in fact, let $f$ be an element of $q$ not belonging to $\mathfrak{m}B$; it is a formal series whose reduced series
-$\bar{f}_{0}$ is not zero; hence, by virtue of the preparation theorem (Bourbaki, _Alg. comm._, chap. VII, §3, n$^{\circ}$ 8,
+$\bar{f}_{0}$ is not zero; hence, by virtue of the preparation theorem (Bourbaki, _Alg. comm._, chap. VII, §3, nÂ° 8,
 prop. 5), for every $f \in q$, there exist $g \in B$ and a polynomial $r \in A[T]$ such that $f = gf + r$, and one has
 therefore $r \in q \cap A[T]$; on the other hand (loc. cit., prop. 6) there exist a non-constant distinguished
 polynomial $F_{0} \in A[T]$ and an invertible element $u \in B$ such that $f_{0} = uF_{0}$, hence one also has $F_{0}
 \in q \cap A[T]$, which proves that $q$ is generated by $q \cap A[T] = q_{1}$. Since $B$ is flat over `A[T]` $(0_{I},
-7.3.3)$, it follows from Bourbaki, _Alg. comm._, chap. VII, §1, n$^{\circ}$ 10, prop. 15, that $q_{1}$ is a prime ideal of height
+7.3.3)$, it follows from Bourbaki, _Alg. comm._, chap. VII, §1, nÂ° 10, prop. 15, that $q_{1}$ is a prime ideal of height
 `1` in `A[T]`. Moreover, one has necessarily $q_{1} \cap A = 0$; otherwise, $q_{1} \cap A$ would necessarily be of
 height `> 1`, and it would follow from `(5.5.3)` that one would have $q_{1} = (q_{1} \cap A)A[T]$. But then, since
 $q_{1} \cap A \subset \mathfrak{m}$, one would have $q_{1} \subset \mathfrak{m}A[T]$ contrary to the hypothesis on $q$.
@@ -4042,9 +4042,9 @@ If $K$ is the field of fractions of $A$, $q_{1}K[T]$ is therefore a prime ideal 
 the $a_{i} \in K$, $h$ being irreducible in `K[T]`. But one has seen above that there exists in $q_{1}$ a non-constant
 distinguished polynomial $F_{0} \in A[T]$. If $t$ is the class of $T$ in $K[T]/q_{1}K[T]$, $t$ is therefore a root of
 the polynomial `F_0` in an extension of $K$ and consequently $h$ divides `F_0` in `K[T]`; but since $h$ and `F_0` are
-monic, this entails that the coefficients $a_{i}$ of $h$ are integral over $A$ (Bourbaki, _Alg. comm._, chap. V, §1, n$^{\circ}$
+monic, this entails that the coefficients $a_{i}$ of $h$ are integral over $A$ (Bourbaki, _Alg. comm._, chap. V, §1, nÂ°
 3, prop. 11), hence belong to $A$ since $A$ is integrally closed. In other words, one has $h \in A[T] \cap q_{1} K[T] =
-q_{1}$ (Bourbaki, _Alg. comm._, chap. II, §1, n$^{\circ}$ 5, prop. 11); since every polynomial $g \in q_{1}$ is divisible by $h$
+q_{1}$ (Bourbaki, _Alg. comm._, chap. II, §1, nÂ° 5, prop. 11); since every polynomial $g \in q_{1}$ is divisible by $h$
 in `K[T]` and $h$ is monic, the coefficients of $g/h$ belong to $A$, hence $q_{1} = h\cdot A[T]$. **Q.E.D.**
 
 The statement `(21.14.1)` is equivalent to the following:
@@ -4114,8 +4114,8 @@ can suppose that $Y$ is defined by an ideal of finite type of the ring of $X$, h
 quasi-compact and quasi-separated and the closed set $Y$ is constructible.
 
 To prove (ii), it suffices, for every invertible $\mathcal{O}_{U}$-Module $\mathcal{L}$ and every point $x \in Y$ given,
-to establish the existence of an open neighbourhood $V$ of $x$ in $X$ such that: $1^{\circ}$ the canonical homomorphism
-$\mathcal{O}_{V} \to (j_{V})_{*}(\mathcal{L} | (U \cap V))$ is surjective; $2^{\circ}$ there exists an invertible
+to establish the existence of an open neighbourhood $V$ of $x$ in $X$ such that: 1Â° the canonical homomorphism
+$\mathcal{O}_{V} \to (j_{V})_{*}(\mathcal{L} | (U \cap V))$ is surjective; 2Â° there exists an invertible
 $\mathcal{O}_{V}$-Module $\mathcal{L}_{V}$ such that $\mathcal{L}_{V} | (U \cap V) = \mathcal{L} | (U \cap V)$
 (`(21.13.5)` and `(21.13.3)`).
 
@@ -4237,13 +4237,13 @@ gives moreover (loc. cit.) results such as the following (for which one does not
 means). Let $S$, $T$ be two preschemes locally of finite type over a field $k$, $X = S \times_{k} T$, $Z$ a
 `1`-codimensional cycle on $X$ (considered as $S$-prescheme); suppose the following conditions are verified:
 
-$1^{\circ}$ $S$ and $T$ are geometrically normal over $k$ `(6.7.6)`;
+1Â° $S$ and $T$ are geometrically normal over $k$ `(6.7.6)`;
 
-$2^{\circ}$ For every maximal point $\eta$ of $S$, the `1`-codimensional cycle $Z_{\eta}$ on the fibre $X_{\eta}$, having the
+2Â° For every maximal point $\eta$ of $S$, the `1`-codimensional cycle $Z_{\eta}$ on the fibre $X_{\eta}$, having the
 same multiplicity as $Z$ at every point of $X_{\eta} \cap X_{(s_{\eta})}$, is locally principal (in other words, is the
 image of a divisor of $X_{\eta}$, since $X_{\eta}$ is normal);
 
-$3^{\circ}$ For every $s \in S$, $Z$ is principal at the maximal points of the fibre $X_{s}$.
+3Â° For every $s \in S$, $Z$ is principal at the maximal points of the fibre $X_{s}$.
 
 Then $Z$ is locally principal. In other words, $X$ being normal `(6.14.1)`, for every $x \in X$ which is not maximal in
 its fibre $X_{s}$ and which belongs to none of the "generic fibres" $X_{\eta}$ (which implies $\dim(\mathcal{O}_{X,x})
@@ -4419,8 +4419,8 @@ positive divisors.
 
 [^21.14.4-seshadri]: In fact, in the article cited above, Seshadri supposes that $k$ is algebraically closed, $T$
     separated and "semi-complete" (i.e. such that $\Gamma(T, \mathcal{O}_{T})$ is $k$-isomorphic to $k$) and replaces
-    hypothesis $3^{\circ}$ by the stronger hypothesis that $Supp(Z)$ contains none of the fibres $X_{s}$ for $s \in S$. But since
-    the statement is local on $S$, one concludes at once that it suffices to make hypothesis $3^{\circ}$, and this proves that
+    hypothesis 3Â° by the stronger hypothesis that $Supp(Z)$ contains none of the fibres $X_{s}$ for $s \in S$. But since
+    the statement is local on $S$, one concludes at once that it suffices to make hypothesis 3Â°, and this proves that
     the conclusion (interpreted as above in terms of the parafactoriality property of the rings $\mathcal{O}_{X,x}$) is
     local on $S$ and on $T$, which allows one to eliminate completely the hypothesis that $T$ is "semi-complete" and
     that $k$ is algebraically closed, since (by passing first to the algebraic closure of $k$) one can suppose first $T$

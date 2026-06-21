@@ -1124,7 +1124,7 @@ $$ rang_k(T_p(A) \otimes_A k) \ge rang_A T_p(A) = rang_K(T_p(A) \otimes_A K) \ta
 and moreover the two members of `(7.6.5.2)` are equal if and only if $T_{p}(A)$ is a free $A$-module (*loc. cit.*, prop.
 7). One will note moreover that since $K$ is a flat $A$-module, one has by definition $T_{p}(A) \otimes_{A} K =
 H_{p}(P_{\bullet}) \otimes_{A} K = H_{p}(P_{\bullet} \otimes_{A} K) = T_{p}(K)$. One has therefore indeed the inequality
-`(7.6.5.1)`, and one sees moreover that equality is possible only if: $1^{\circ}$ $T_{p}(A)$ is free; $2^{\circ}$
+`(7.6.5.1)`, and one sees moreover that equality is possible only if: 1Â° $T_{p}(A)$ is free; 2Â°
 $Tor^{A}_{1}(T_{p-1}(A), k) = 0$, a condition which is equivalent, as one knows `(0, 10.1.3)`, to the fact that
 $T_{p-1}(A)$ is a free $A$-module. Finally, since the $T_{i}(A)$ are $A$-modules of finite type, it amounts to the same
 to say that they are flat or free (Bourbaki, *Alg. comm.*, chap. II, § 3, n° 2, cor. 2 of prop. 5), and one concludes by

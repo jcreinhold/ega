@@ -503,7 +503,7 @@ such that if $a$ (resp. $b$) is the closed point (resp. the generic point) of $S
 Moreover, the projection morphism $p : X_{s} \otimes_{k(s)} k(a) \to X_{s}$ is surjective and open `(2.4.10)`, hence
 makes $X_{s}$ a quotient space of $X_{s} \otimes_{k(s)} k(a)$ by an open equivalence relation; for every part $M$ of
 $X_{s}$, $p^{-1}(\bar{M})$ is therefore equal to the closure $\overline{p^{-1}(M)}$ (Bourbaki, *Top. gén.*, chap. I, 4th
-ed., §5, n$^{\circ}$ 3, prop. 7); one reasons similarly for $X_{s'}$, and taking into account `(I, 3.4.8)`, `(4.2.7)`
+ed., §5, nÂ° 3, prop. 7); one reasons similarly for $X_{s'}$, and taking into account `(I, 3.4.8)`, `(4.2.7)`
 and the fact that the $g_{\lambda}$ are universally open, one sees that one may reduce to proving the proposition in the
 situation obtained after base change $S' \to S$. Suppose therefore $S' = S$, $s$ being the closed point and $s'$ the
 generic point of $S$. The hypothesis that $g_{\lambda}$ is open entails that every irreducible component of
@@ -646,11 +646,11 @@ A & \longrightarrow & A'
 $$
 
 As $B'$ is integral over $B$, there exists a prime ideal $\mathfrak{n}'$ of $B'$ such that $\mathfrak{n}' \cap B =
-\mathfrak{n}$ (Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 1, th. 1), and (for the same reason)
+\mathfrak{n}$ (Bourbaki, *Alg. comm.*, chap. V, §2, nÂ° 1, th. 1), and (for the same reason)
 $\operatorname{Spec}(A') \to \operatorname{Spec}(A)$ is surjective. On the other hand, since $A$ is unibranch, $A'$ is a
 local ring; hence $\mathfrak{n}' \cap A'$, which is above the maximal ideal $\mathfrak{m}$ of $A$, is necessarily equal
 to the unique maximal ideal $\mathfrak{m}'$ of $A'$. By virtue of the second Cohen-Seidenberg theorem (*loc. cit.*, §2,
-n$^{\circ}$ 4, th. 3), the morphism $\operatorname{Spec}(B'_{\mathfrak{n}'}) \to \operatorname{Spec}(A')$ is surjective,
+nÂ° 4, th. 3), the morphism $\operatorname{Spec}(B'_{\mathfrak{n}'}) \to \operatorname{Spec}(A')$ is surjective,
 hence so is the composite $\operatorname{Spec}(B'_{\mathfrak{n}'}) \to \operatorname{Spec}(A') \to
 \operatorname{Spec}(A)$; but this morphism is also the composite $\operatorname{Spec}(B'_{\mathfrak{n}'}) \to
 \operatorname{Spec}(B_{\mathfrak{n}}) \to \operatorname{Spec}(A)$, hence the morphism
@@ -869,7 +869,7 @@ therefore to show that a'') entails a) and b). Taking `(1.10.3)` into account, o
 is universally bicontinuous `(I, 3.6.5)`, and on the other hand that $Y'' \times_{Y}
 \operatorname{Spec}(\mathcal{O}_{y})$ is the normalization of $(\operatorname{Spec}(\mathcal{O}_{y}))_{red}$ as it
 results from the permutability of the operations of integral closure and of localization (Bourbaki, *Alg. comm.*, chap.
-V, §1, n$^{\circ}$ 5, prop. 16). Supposing therefore $Y = \operatorname{Spec}(A)$, where $A$ is a Noetherian local ring,
+V, §1, nÂ° 5, prop. 16). Supposing therefore $Y = \operatorname{Spec}(A)$, where $A$ is a Noetherian local ring,
 and $y$ the closed point of $Y$, one knows `(0, 23.2.5)` that there exists a factorization
 
 $$ Y'' \xrightarrow{v} Y_{1} \xrightarrow{u} Y $$
@@ -1026,7 +1026,7 @@ $$ \dim_{x}(X' \cap f^{-1}(y)) = e - 1 \quad \text{and} \quad \operatorname{codi
 One may restrict to the case where $X = U$ is an affine open neighbourhood of $x$ such that all the irreducible
 components of $f^{-1}(y)$ contain $x$. These components correspond to the minimal prime ideals of $\mathcal{O}_{x}|y =
 \mathcal{O}_{x}/\mathfrak{m}_{y} \mathcal{O}_{x}$, and by hypothesis these ideals are distinct from
-$\mathfrak{m}_{x}/\mathfrak{m}_{y} \mathcal{O}_{x}$ (Bourbaki, *Alg. comm.*, chap. II, §1, n$^{\circ}$ 1, prop. 2); to
+$\mathfrak{m}_{x}/\mathfrak{m}_{y} \mathcal{O}_{x}$ (Bourbaki, *Alg. comm.*, chap. II, §1, nÂ° 1, prop. 2); to
 obtain a $g \in \Gamma(U, \mathcal{O}_{X})$ satisfying the conditions of the statement, it suffices to take $g \in
 \mathfrak{m}_{x}$ such that the image of $g$ in $\mathfrak{m}_{x}$ does not belong to any of the preceding prime ideals.
 Moreover, one has $codim(X', X) \leq 1$ `(5.1.8)`, and as $X'$ contains none of the irreducible components of
@@ -1140,7 +1140,7 @@ $$
 *is commutative.*
 
 Note that if $A$ and $B$ satisfy the conditions of the statement, $B$ is a complete discrete valuation ring (Bourbaki,
-*Alg. comm.*, chap. III, §3, n$^{\circ}$ 3, prop. 7 and chap. IV, §2, n$^{\circ}$ 2, cor. 3 of prop. 9) with residue
+*Alg. comm.*, chap. III, §3, nÂ° 3, prop. 7 and chap. IV, §2, nÂ° 2, cor. 3 of prop. 9) with residue
 field isomorphic to that of $A$, hence
 
 <!-- original page 219 -->

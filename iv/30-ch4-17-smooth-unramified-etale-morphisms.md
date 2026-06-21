@@ -1275,14 +1275,14 @@ $\overline{g(x)}$ as underlying space, $X$ by $g^{-1}(S')$, $Y$ by $h^{-1}(S')$,
 and $Y'$) at the points of $S'$ being the same. In other words one can restrict to the case where $S$ is integral and
 where $\eta = g(x) = h(y)$ (where $y = f(x)$) is its generic point.
 
-$1^{\circ}$ Suppose first that $x \in E$. The local rings $\mathcal{O}_{X_{\eta}, x}$ and $\mathcal{O}_{Y_{\eta}, y}$
+1Â° Suppose first that $x \in E$. The local rings $\mathcal{O}_{X_{\eta}, x}$ and $\mathcal{O}_{Y_{\eta}, y}$
 are respectively equal to $\mathcal{O}_{X, x}$ and $\mathcal{O}_{Y, y}$; since the smoothness property of a morphism of
 finite presentation at a point depends only on the local ring of that point and on the local ring of its image
 `(17.5.1)`, one sees that the hypothesis $x \in E$ amounts to saying that the morphism $f$ is smooth at the point $x$;
 it still possesses this property at the points of an open neighbourhood of $x$ in $X$, and it suffices to apply
 `(17.3.3, (iii))` to obtain the conclusion.
 
-$2^{\circ}$ Suppose secondly that $x \in X - E$, and that the morphism $f_{\eta}$ is not flat at the point $x$. The
+2Â° Suppose secondly that $x \in X - E$, and that the morphism $f_{\eta}$ is not flat at the point $x$. The
 conclusion then results from the following lemma which makes `(11.2.8)` more precise:
 
 **Lemma (17.7.11.1).**
@@ -1312,7 +1312,7 @@ $\operatorname{Supp}(\operatorname{Ker}(1 \otimes u_{s})) = (\operatorname{Supp}
 `(I, 9.1.13.1)`; it follows finally from `(9.5.2)` that for $s$ in a neighbourhood of $\eta$, one has $(Supp(Ker(1
 \otimes u_{s})))_{s} \supset T_{s}$, which establishes the lemma.
 
-$3^{\circ}$ Suppose now that $x \in X - E$, that the morphism $f_{\eta}$ is flat at the point $x$, but that $f_{\eta}$
+3Â° Suppose now that $x \in X - E$, that the morphism $f_{\eta}$ is flat at the point $x$, but that $f_{\eta}$
 is not smooth at the point $x$. Note that to say that $f_{\eta}$ is flat at the point $x$ amounts to saying that $f$
 itself is flat at the point $x$ and replacing $X$ by a neighbourhood of $x$, one can suppose that $f$ is flat
 `(11.1.1)`; one concludes that the same is true of $f_{s}$ for every $s \in S$, and since for every $y \in Y$,
@@ -1410,7 +1410,7 @@ is an isomorphism, one can restrict to the case
 
 where $Y = \operatorname{Spec}(A)$, $A$ being a local ring. Since $f$ is of finite presentation, one has $X =
 \operatorname{Spec}(B)$, where $B$ is a flat $A$-module of finite presentation `(1.4.7)`, hence free (Bourbaki, Alg.
-comm., chap. II, §5, n$^{\circ}$ 2, cor. 2 of th. 1). In addition, if $\mathfrak{m}$ is the maximal ideal of $A$ and $k$
+comm., chap. II, §5, nÂ° 2, cor. 2 of th. 1). In addition, if $\mathfrak{m}$ is the maximal ideal of $A$ and $k$
 its residue field, $B/\mathfrak{m} B$ is by hypothesis a field, at once radicial extension and finite separable
 extension of $k$, since $f$ is étale and radicial `(17.6.1)`; hence $B/\mathfrak{m} B$ is isomorphic to $k$, and since
 $B$ is a free $A$-module, $B$ is isomorphic to $A$. Q.E.D.
@@ -1523,7 +1523,7 @@ $\phi : B \to B$ of the ring $B$. Now, the set $B$ is finite, hence $\phi$ is ne
 (or **relative dimension of $X$ over $Y$ at the point $x$**) and one denotes by $\dim_{x} f$ the positive integer
 $\dim_{x}(f^{-1}(f(x)))$.*
 
-To say that $f$ is quasi-finite at the point $x$ (II, §1, n$^{\circ}$ 20) thus amounts to saying that $\dim_{x} f = 0$.
+To say that $f$ is quasi-finite at the point $x$ (II, §1, nÂ° 20) thus amounts to saying that $\dim_{x} f = 0$.
 We have seen `(13.1.3)` that the function $x \mapsto \dim_{x} f$ is upper semi-continuous. One will note that, even when
 the morphism $f$ has property $(S_{1})$ (in other words `(6.8.1)` is flat and such that its fibres have no immersed
 associated prime cycle), the function $x \mapsto \dim_{x} f$ is not necessarily continuous, as shown by the example
@@ -1583,7 +1583,7 @@ $$ \dim_{x} f = \dim_{x}(j \circ f) + \operatorname{rg}_{k(x)}(\mathcal{N}_{X'/X
 
 Indeed, $\Omega^{1}_{X/Y} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X'}$ and $\Omega^{1}_{X'/Y}$ are both locally free and
 the exact sequence `(17.2.5.1)` is split in a suitable neighbourhood of each point of $X'$, hence $\mathcal{N}_{X'/X}$
-is locally free (Bourbaki, _Alg. comm._, chap. II, §5, n$^{\circ}$ 2, th. 1), and relation `(17.10.4.1)` follows
+is locally free (Bourbaki, _Alg. comm._, chap. II, §5, nÂ° 2, th. 1), and relation `(17.10.4.1)` follows
 immediately from the exactness of the sequence `(17.2.5.1)`.
 
 ## 17.11. Smooth morphisms of smooth preschemes
@@ -1637,7 +1637,7 @@ $\mathcal{O}_{X}$-Module) of finite presentation `(16.4.22)`, one can, by replac
 affine open neighbourhoods of $x$ and $y$ respectively, suppose that $\Omega^{1}_{C/A}$ is a free $C$-module and that
 the $t_{i}$ are the images of elements $s_{i} (1 \leqslant i \leqslant r)$ of $B$ such that the $d_{B/A}(s_{i})$
 generate the $B$-module $\Omega^{1}_{B/A}$ and their images in $\Omega^{1}_{C/A}$ form part of a basis of this
-$C$-module (Bourbaki, _Alg. comm._, chap. II, §5, n$^{\circ}$ 1, prop. 2). Let $\phi$ be the $A$-homomorphism of $B' =
+$C$-module (Bourbaki, _Alg. comm._, chap. II, §5, nÂ° 1, prop. 2). Let $\phi$ be the $A$-homomorphism of $B' =
 A[T_{1}, \cdots, T_{r}]$ into $B$ such that $\phi(T_{i}) = s_{i}$ for every $i$; the corresponding di-homomorphism
 $\Omega^{1}_{B'/A} \to \Omega^{1}_{B/A}$ `(0, 20.5.2)` transforms the $d_{B'/A}(T_{i})$, which form a basis of
 $\Omega^{1}_{B'/A}$ `(0, 20.4.13)`, into the $d_{B/A}(s_{i})$ and is consequently surjective; if $Y' =
@@ -1759,7 +1759,7 @@ $\operatorname{Spec}(C) \to \operatorname{Spec}(k(y)) = \operatorname{Spec}(k)$ 
 admits a left inverse $v : C \to k$, and $u \circ v$ and the identity of $C$, composed with $u$, give the same morphism
 $u : k \to C$. As by hypothesis $B$ is a regular ring of dimension $d$, the images of the $t_{i}$ in $B$ form a regular
 system of parameters for $B$ `(0, 17.1.7)`; condition $(17.6.3, e'')$ is therefore verified by $g$ at the point $x$
-`(0, 17.1.1` and Bourbaki, _Alg. comm._, chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1), which completes the proof.
+`(0, 17.1.1` and Bourbaki, _Alg. comm._, chap. III, §2, nÂ° 8, cor. 3 of th. 1), which completes the proof.
 
 ## 17.12. Smooth subpreschemes of a smooth prescheme. Smooth morphisms and differentially smooth morphisms
 
@@ -1848,7 +1848,7 @@ j(Y)$.*
 
 Since $(g_{i}')_{x}$ is the canonical image of $(g_{i})_{x}$, the equivalence of a) and b) results from Nakayama's
 lemma, $\mathcal{I}_{x}$ being of finite type and $\mathcal{I}_{x}/\mathcal{I}^{2}_{x}$ an $(\mathcal{O}_{X,
-x}/\mathcal{I}_{x})$-free module `(17.10.4)` (Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 2, prop. 5). By virtue
+x}/\mathcal{I}_{x})$-free module `(17.10.4)` (Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 2, prop. 5). By virtue
 of `(17.12.1, b))`, $\mathcal{I}_{x}/\mathcal{I}^{2}_{x}$ is canonically identified with a direct factor of the
 $(\mathcal{O}_{X, x}/\mathcal{I}_{x})$-free module of rank $n$, $(\Omega^{1}_{X/S})_{x} \otimes_{\mathcal{O}_{x}}
 (\mathcal{O}_{X, x}/\mathcal{I}_{x})$, and the equivalence of b) and c) results from Bourbaki, _loc. cit._. Moreover, if
@@ -2076,7 +2076,7 @@ conditions are equivalent to saying that this homomorphism is
 
 <!-- original page 91 -->
 
-bijective at the point $x'$ (Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 2, cor. of prop. 6), hence also in a
+bijective at the point $x'$ (Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 2, cor. of prop. 6), hence also in a
 neighbourhood of $x'$ $(0_{I}, 5.2.7)$; this evidently entails b), as well as the last assertion of the statement, by
 virtue of the exactness of `(17.13.2.2)`. Conversely, since $\alpha \otimes 1$ factors as
 
@@ -2464,7 +2464,7 @@ $$ \bigoplus_{i} (\mathcal{N}_{Y_{i}/X} \otimes_{\mathcal{O}_{Y_{i}}} \mathcal{O
 
 But here the $\mathcal{O}_{T}$-Modules of the two sides of `(17.13.12.2)` are locally free and of the same rank
 $\sum_{i} c_{i}$ (if $c_{i}$ is the rank of $\mathcal{N}_{Y_{i}/X}$), by virtue of `(17.2.5)` and of condition a) of
-`(17.13.10)`; one concludes therefore from Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 2, cor. of prop. 6, that
+`(17.13.10)`; one concludes therefore from Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 2, cor. of prop. 6, that
 `(17.13.12.2)` is bijective, and `(17.13.12.1)` is the inverse isomorphism.
 
 ## 17.14. Local and infinitesimal characterizations of smooth morphisms, unramified morphisms, and étale morphisms
@@ -2589,7 +2589,7 @@ If $f$ is étale at the point $x$, $X$ is smooth over $k$ at the point $x$ since
 
 that the hypothesis entails that the homomorphism $(f*(\Omega^{1}_{Y/k}))_{x} \to (\Omega^{1}_{X/k})_{x}$ is surjective,
 hence, by replacing $X$ by an open neighbourhood of $x$, one can suppose that the homomorphism $f*(\Omega^{1}_{Y/k}) \to
-\Omega^{1}_{X/k}$ is surjective (Bourbaki, _Alg. comm._, chap. II, §5, n$^{\circ}$ 1, prop. 2); consequently $f$ is
+\Omega^{1}_{X/k}$ is surjective (Bourbaki, _Alg. comm._, chap. II, §5, nÂ° 1, prop. 2); consequently $f$ is
 unramified `(17.2.2)`. We shall see first that one can restrict to the case where $x$ is rational over $k$. Indeed, if
 one sets $k' = k(x)$, and $X' = X \otimes_{k} k'$, $Y' = Y \otimes_{k} k' = \operatorname{Spec}(k'[T_{1}, \cdots,
 T_{n}])$, there exists a point $x' \in X'$ above $x$, such that $k(x') = k'$. To prove that $f$ is étale at the point

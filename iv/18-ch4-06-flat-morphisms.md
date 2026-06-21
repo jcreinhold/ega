@@ -36,7 +36,7 @@ $\mathfrak{q}_{i}$ ($1 \leq i \leq s$) be the minimal prime ideals of $B$, and s
 there would exist a prime ideal $\mathfrak{p} \neq \mathfrak{m}$ contained in $\mathfrak{p}_{i}$, and since
 $\mathfrak{q}_{i}$ is minimal among prime ideals of $B$ containing $\mathfrak{p}B$, one would reach a contradiction with
 the hypothesis. Consequently $\mathfrak{m}$ is distinct from the union of the $\mathfrak{p}_{i}$ and of the minimal
-prime ideals $\mathfrak{p}'_{j}$ ($1 \leq j \leq r$) of $A$ (Bourbaki, *Alg. comm.*, chap. II, §1, n$^{\circ}$ 1, prop.
+prime ideals $\mathfrak{p}'_{j}$ ($1 \leq j \leq r$) of $A$ (Bourbaki, *Alg. comm.*, chap. II, §1, nÂ° 1, prop.
 2), and there exists $a \in \mathfrak{m}$ belonging to none of the $\mathfrak{p}_{i}$ nor the $\mathfrak{p}'_{j}$. Set
 $A' = A/aA$, $B' = B/aB$; one has (0, 16.3.4)
 
@@ -113,11 +113,11 @@ Proposition (6.1.1) admits the following partial converse:
 *Let $A$, $B$ be two Noetherian local rings, $k$ the residue field of $A$, $\phi : A \to B$ a local homomorphism, $M$ a
 $B$-module of finite type. Suppose that:*
 
-*$1^{\circ}$ $A$ is a regular ring.*
+*1Â° $A$ is a regular ring.*
 
-*$2^{\circ}$ $M$ is a Cohen-Macaulay $B$-module.*
+*2Â° $M$ is a Cohen-Macaulay $B$-module.*
 
-*$3^{\circ}$ One has $\dim_{B}(M) = \dim(A) + \dim_{B \otimes_{A} k}(M \otimes_{A} k)$.*
+*3Â° One has $\dim_{B}(M) = \dim(A) + \dim_{B \otimes_{A} k}(M \otimes_{A} k)$.*
 
 *Then $M$ is a flat $A$-module.*
 
@@ -187,7 +187,7 @@ $$ 0 \to R \otimes_{A} B \to P_{m-1} \otimes_{A} B \to \cdots \to P_{0} \otimes_
 
 and the hypothesis on $M \otimes_{A} B$ implies that $R \otimes_{A} B$ is a projective $B$-module (0, 17.2.1). Since $B$
 is a faithfully flat $A$-module, one concludes that $R$ is a projective $A$-module (Bourbaki, *Alg. comm.*, chap. I, §3,
-n$^{\circ}$ 6, prop. 12); hence $\dim. proj_{A}(M) \leq m$, which completes the proof.
+nÂ° 6, prop. 12); hence $\dim. proj_{A}(M) \leq m$, which completes the proof.
 
 **Corollary (6.2.2).**
 
@@ -616,7 +616,7 @@ V, where this operation will be discussed in general). There are therefore two m
 $\mathfrak{r}_{2}$ of $B$ above the maximal ideal $\mathfrak{m}$ of $A$. Moreover, since the process of "gluing"
 commutes with localization and completion, one verifies easily that the canonical homomorphisms $\hat{A}_{\mathfrak{m}}
 \to \hat{B}_{\mathfrak{r}_{1}}$ and $\hat{A}_{\mathfrak{m}} \to \hat{B}_{\mathfrak{r}_{2}}$ are bijective, and
-consequently (Bourbaki, *Alg. comm.*, chap. III, §3, n$^{\circ}$ 5, prop. 10) $B_{\mathfrak{r}_{1}}$ and
+consequently (Bourbaki, *Alg. comm.*, chap. III, §3, nÂ° 5, prop. 10) $B_{\mathfrak{r}_{1}}$ and
 $B_{\mathfrak{r}_{2}}$ are flat $A_{\mathfrak{m}}$-modules, having moreover the same residue field as
 $A_{\mathfrak{m}}$. For every other maximal ideal $\mathfrak{p}$ of $A$, it is immediate that there are two maximal
 ideals $\mathfrak{q}_{1}$, $\mathfrak{q}_{2}$ of $B$ above $\mathfrak{p}$, and that the homomorphisms $A_{\mathfrak{p}}
@@ -855,7 +855,7 @@ If $X = \operatorname{Spec}(K)$, where $K$ is an extension of $k$, it amounts to
 geometrically regular, or geometrically normal, or geometrically reduced, or that $K$ is a separable extension of $k$:
 this follows from (4.6.1) and from the fact that if $K$ is a separable extension of $k$ and $k'$ a finite extension of
 $k$, $K \otimes_{k} k'$ is a direct composite of a finite number of fields (Bourbaki, *Alg.*, chap. VIII, §7,
-n$^{\circ}$ 3, cor. 1 of th. 1).
+nÂ° 3, cor. 1 of th. 1).
 
 <!-- original page 149 -->
 
@@ -1166,13 +1166,13 @@ $B$-module $M$, there exists therefore an $f \neq 0$ in $A$ such that $fm_{i} = 
 0$ and the lemma is true in this case. Suppose now $n \geq 0$. One knows that there exists a composition series $M =
 M_{1} \supset M_{2} \supset \cdots \supset M_{q} = 0$ of the $B$-module $M$ such that each of the quotients $N_{i} =
 M_{i}/M_{i+1}$ is isomorphic to a $B$-module of the form $B/\mathfrak{p}_{i}$, where $\mathfrak{p}_{i}$ is a prime ideal
-of $B$ (Bourbaki, *Alg. comm.*, chap. IV, §1, n$^{\circ}$ 4, th. 1). If the theorem is true for each of the $N_{i}$,
+of $B$ (Bourbaki, *Alg. comm.*, chap. IV, §1, nÂ° 4, th. 1). If the theorem is true for each of the $N_{i}$,
 there is for each $i$ an $f_{i} \neq 0$ in $A$ such that $(N_{i})_{f_{i}}$ is free over $A_{f_{i}}$; setting $f = f_{1}
 f_{2} \cdots f_{q-1}$, it follows that $(N_{i})_{f}$ is a free $A_{f}$-module for $1 \leq i \leq q - 1$. But
 $(N_{i})_{f} = (M_{i})_{f}/(M_{i+1})_{f}$ (0_I, 1.3.2) and since an extension of free modules is free, one then deduces
 that $M_{f}$ is a free $A_{f}$-module. Replacing $B$ by $B/\mathfrak{p}$ ($\mathfrak{p}$ prime ideal of $B$), which is
 still of finite type over $A$, one sees that one may restrict to the case where $M = B$ and $B$ is integral. One then
-knows (Bourbaki, *Alg. comm.*, chap. V, §3, n$^{\circ}$ 1, cor. 1 of th. 1) that there exists an element $g \neq 0$ in
+knows (Bourbaki, *Alg. comm.*, chap. V, §3, nÂ° 1, cor. 1 of th. 1) that there exists an element $g \neq 0$ in
 $A$ and elements $t_{i}$ ($1 \leq i \leq m$) of $B$, algebraically independent over $A$ and such that $B_{g}$ is
 integral over $A_{g}[t_{1}, \cdots, t_{m}]$. One may replace $A$ by $A_{g}$, $B$ by $B_{g}$, and consequently suppose
 that $B$ is integral over $C = A[t_{1}, \cdots, t_{m}]$, hence a $C$-module of finite type and torsion-free. One also
@@ -1642,7 +1642,7 @@ such that $\mathcal{F}$ satisfies $(S_{n})$ at the point $y$ and at all points o
 there exists in $X$ an open neighbourhood of $y$ such that $\mathcal{F}$ satisfies $(S_{n})$ in this neighbourhood. Let
 us then distinguish two cases:
 
-*$1^{\circ}$* $y$ is a maximal point of $X$; since there exists an open neighbourhood of $y$ meeting no irreducible
+*1Â°* $y$ is a maximal point of $X$; since there exists an open neighbourhood of $y$ meeting no irreducible
 component of $X$ other than $\bar{y}$, one may suppose that $X$ is irreducible, hence has the same underlying space as
 $Y$, so that $Y$ is defined by the Nilradical of $\mathcal{O}_{X}$, which is nilpotent. On the other hand, one may,
 replacing $X$ by an open neighbourhood of $y$, suppose that $\mathcal{F}$ is normally flat along $Y$ (6.9.1); it then
@@ -1651,7 +1651,7 @@ a neighbourhood of $y$ in $X$, this proves the proposition in this case.
 
 <!-- original page 162 -->
 
-*$2^{\circ}$* $y$ is not a maximal point of $X$, in other words (since $Supp(\mathcal{F}) = X$), $\dim(\mathcal{F}_{y})
+*2Â°* $y$ is not a maximal point of $X$, in other words (since $Supp(\mathcal{F}) = X$), $\dim(\mathcal{F}_{y})
 \geq 1$, hence also $prof(\mathcal{F}_{y}) \geq 1$ since $\mathcal{F}$ satisfies by hypothesis $(S_{n})$ (and *a
 fortiori* $(S_{1})$) at the point $y$. Replacing $X$ if necessary by an open neighbourhood of $y$, one may therefore
 suppose that there exists a section $f$ of $\mathcal{O}_{X}$ above $X$, $\mathcal{F}$-regular and such that $f \in
@@ -1681,9 +1681,9 @@ Since one has supposed that $\mathcal{F}$ satisfies $(S_{n})$ at every point of 
 *(ii) For the set $U_{S_{2}}(\mathcal{F})$ to be open, it suffices that every maximal point $x$ of $Supp(\mathcal{F})$
 belonging to $U_{S_{1}}(\mathcal{F})$ be interior to $U_{S_{1}}(\mathcal{F})$.*
 
-Assertion (i) was proved in the course of the proof of (6.11.6); on the other hand, for $n = 2$ case *$2^{\circ}$* of
+Assertion (i) was proved in the course of the proof of (6.11.6); on the other hand, for $n = 2$ case *2Â°* of
 the proof of (6.11.6) is valid without any hypothesis on $X$, since (with the same notation) $U_{S_{1}}(\mathcal{F})$
-and $U_{S_{1}}(\mathcal{F}/f\mathcal{F})$ are open in $X$. As to case *$1^{\circ}$* of this proof, the hypothesis
+and $U_{S_{1}}(\mathcal{F}/f\mathcal{F})$ are open in $X$. As to case *1Â°* of this proof, the hypothesis
 precisely assures that it is unnecessary to consider it.
 
 **Proposition (6.11.8).**
@@ -1726,10 +1726,10 @@ integral ring
 
 containing $A$ and which is an $A$-algebra of finite type. Replacing $A$ if necessary by a ring of fractions $A_{f}$
 (with $f \neq 0$), one may moreover suppose that $A'$ contains a polynomial ring $A[T_{1}, \cdots, T_{n}] = A''$, and is
-a finite $A''$-algebra (Bourbaki, *Alg. comm.*, chap. V, §3, n$^{\circ}$ 1, cor. 1 of th. 1). But $A''$ is a
+a finite $A''$-algebra (Bourbaki, *Alg. comm.*, chap. V, §3, nÂ° 1, cor. 1 of th. 1). But $A''$ is a
 Cohen-Macaulay ring (6.3.6); so one may restrict to the case where moreover $A'$ is a finite $A$-algebra. There is then
 $g \neq 0$ in $A$ such that $A'_{g}$ is a free $A_{g}$-module of finite type (Bourbaki, *Alg. comm.*, chap. II, §5,
-n$^{\circ}$ 1, cor. of prop. 2), hence one may suppose moreover that $A'$ is a free $A$-module. But then $A'$ is a
+nÂ° 1, cor. of prop. 2), hence one may suppose moreover that $A'$ is a free $A$-module. But then $A'$ is a
 Cohen-Macaulay $A$-module (0, 16.5.1), and since $A'$ is an $A$-module of finite type, $A'$ is also a Cohen-Macaulay
 $A'$-module (0, 16.5.3), hence a Cohen-Macaulay ring.
 
@@ -1855,7 +1855,7 @@ set $U'_{1} \subset X'_{1}$ which are $A$-isomorphic (I, 6.5.5). One is therefor
 contains a non-empty open set; in other words one may suppose that $A'$ is a finite $A_{1}$-algebra. Now one knows (0,
 17.3.7) that $A_{1}$ is a regular ring, and one may therefore restrict to the case where $A'$ is a finite $A$-algebra
 and $K'$ a finite separable extension of $K$. If $\xi$ is the generic point of $X$, $A'_{\xi} = K'$ is then a free
-module over $A_{\xi} = K$, hence (Bourbaki, *Alg. comm.*, chap. II, §5, n$^{\circ}$ 1, cor. of prop. 2\) one may,
+module over $A_{\xi} = K$, hence (Bourbaki, *Alg. comm.*, chap. II, §5, nÂ° 1, cor. of prop. 2\) one may,
 replacing $A$ if necessary by an $A_{f}$, suppose that $A'$ is a free $A$-module of finite type. Let then $(x_{i})_{1
 \leq i \leq r}$ be a basis of this $A$-module, and set
 
@@ -1971,7 +1971,7 @@ open in $X$.*
 Let us verify condition c) of (6.12.4). If $\mathfrak{p}$ is prime in $A$, $A/\mathfrak{p}$ is still a complete
 Noetherian local ring; if $K'$ is a finite extension of the fraction field $K$ of $A/\mathfrak{p}$, then $K'$ is the
 fraction field of a finite sub-$A$-algebra $A'$ of $K'$, generated by a system of generators of $K'$ over $K$, integral
-over $A$. One knows then that $A'$ is a complete semi-local ring (Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 5,
+over $A$. One knows then that $A'$ is a complete semi-local ring (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5,
 cor. 3 of prop. 9), hence a product of complete local rings, and since $A'$ is integral, it is a complete local ring; by
 virtue of (6.12.7), if $X' = \operatorname{Spec}(A')$, $Reg(X')$ is open and non-empty, whence the conclusion.
 
@@ -2129,7 +2129,7 @@ is open in $\operatorname{Spec}(A)$, $Nor(\operatorname{Spec}(A'))$ is open in $
 It is a question of proving (in view of (6.13.2)) that the generic point of $\operatorname{Spec}(A')$ is interior to
 $Nor(\operatorname{Spec}(A'))$. The proof follows the same course as that of (6.12.4.1), whose notations we retain. One
 remarks first that one may suppose that $A$ is integrally closed, and then one knows that $A_{1} = A[t_{1}, \cdots,
-t_{n}]$ is integrally closed (Bourbaki, *Alg. comm.*, chap. V, §1, n$^{\circ}$ 3, cor. 2 of prop. 13); one then reduces
+t_{n}]$ is integrally closed (Bourbaki, *Alg. comm.*, chap. V, §1, nÂ° 3, cor. 2 of prop. 13); one then reduces
 to the case where $A'$ is a free $A$-module of finite type; the reasoning of (6.12.4.1) then proves (replacing $A$ if
 necessary by a ring $A_{f}$ with $f \neq 0$) that the fibres $g^{-1}(x)$ of the morphism $g : X' \to X$ are regular and
 *a fortiori* normal. Moreover $g$ is flat and $X$ is normal, hence (6.5.4, (ii)) $X'$ is normal.
@@ -2175,11 +2175,11 @@ and integrally closed, which by definition means that $A$ is normal. Conversely,
 the total ring of fractions of an integral ring $A_{\mathfrak{p}}$, is a field, and $A_{\mathfrak{p}}$ is integrally
 closed in $R_{\mathfrak{p}}$; if $x \in R$ is an element integral over $A$, its image in each $R_{\mathfrak{p}}$ is
 integral over $A_{\mathfrak{p}}$, hence belongs to $A_{\mathfrak{p}}$; one concludes that $x \in A$ (Bourbaki, *Alg.
-comm.*, chap. II, §3, n$^{\circ}$ 3, cor. 1 of th. 1), and consequently $A$ is integrally closed in $R$.
+comm.*, chap. II, §3, nÂ° 3, cor. 1 of th. 1), and consequently $A$ is integrally closed in $R$.
 
 (ii) Since $A \subset A_{\lambda} \subset R$ for every $\lambda$, $R$ is also the total ring of fractions of each
 $A_{\lambda}$. In view of the characterization of normal rings having $R$ as total ring of fractions given in (i),
-assertion (ii) follows from Bourbaki, *Alg. comm.*, chap. V, §1, n$^{\circ}$ 3, prop. 12.
+assertion (ii) follows from Bourbaki, *Alg. comm.*, chap. V, §1, nÂ° 3, prop. 12.
 
 This lemma being proved, the proof of (6.14.1) proceeds in several steps.
 
@@ -2295,7 +2295,7 @@ A'_{\mathfrak{p}'}$; whence $x' \in a^{n}A'$ and $y' \in A'$, which completes th
 This lemma being established, in the case to which we are reduced at the end of II), $B'$ is radicial over $A'$ (I,
 3.5.7) and consequently is also a *local* ring; moreover $B'$ is integral over $A'$, hence, if $\mathfrak{q}'$ is the
 unique prime ideal of $B'$ above $\mathfrak{p}'$, $\mathfrak{q}' B'_{\mathfrak{p}'}$ is the only maximal ideal of
-$B'_{\mathfrak{p}'}$ (Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 1, prop. 1), hence $B'_{\mathfrak{q}'} =
+$B'_{\mathfrak{p}'}$ (Bourbaki, *Alg. comm.*, chap. V, §2, nÂ° 1, prop. 1), hence $B'_{\mathfrak{q}'} =
 B'_{\mathfrak{p}'} = B \otimes_{A} A'_{\mathfrak{p}'}$. We shall first show that $B'_{\mathfrak{p}'}$ is a Noetherian
 and normal ring. Now, since $B$ contains $A$ and is contained in $K$ and $A'_{\mathfrak{p}'}$ is a flat $A$-module,
 $B'_{\mathfrak{p}'}$ contains $A'_{\mathfrak{p}'}$ and is contained in $K'_{\mathfrak{p}'}$, hence in the product $L''$
@@ -2310,7 +2310,7 @@ Let $\mathfrak{r}'_{j} = B'_{\mathfrak{p}'} \cap \mathfrak{d}'_{j}$, so that $B'
 isomorphic to the projection of $B'_{\mathfrak{p}'}$ in $L'_{j}$; hence $B'_{\mathfrak{p}'}/\mathfrak{r}'_{j}$ contains
 the integral local ring of dimension $1$, $A'_{\mathfrak{p}'}/\mathfrak{q}'_{j} A'_{\mathfrak{p}'}$, and is contained in
 its fraction field $L'_{j}$; it is consequently Noetherian by virtue of the Krull-Akizuki theorem (Bourbaki, *Alg.
-comm.*, chap. VII, §2, n$^{\circ}$ 5, prop. 5).
+comm.*, chap. VII, §2, nÂ° 5, prop. 5).
 
 <!-- original page 173 -->
 
@@ -2551,7 +2551,7 @@ fraction field of $B$, and consider in $R$ the element $t = v(u + w)/u$, which d
 B[t]$ is the integral closure of $B$. Indeed, one has $t^{2} = u^{2} - w^{2}$, hence $t$ is integral over $B$, and $v =
 tu/(u + w)$; the ring $C_{1} = K[t, u, w]$ is integrally closed, for it is isomorphic to $K[T, U, W]/(T^{2} - U^{2} +
 W^{2})$ and is therefore the integral closure of the integrally closed ring $K[U, W]$ in the quadratic extension $K(U,
-W)(\sqrt{(U^{2} - W^{2})})$ of its fraction field (Bourbaki, *Alg. comm.*, chap. V, §1, n$^{\circ}$ 6, prop. 18). The
+W)(\sqrt{(U^{2} - W^{2})})$ of its fraction field (Bourbaki, *Alg. comm.*, chap. V, §1, nÂ° 6, prop. 18). The
 ring of fractions $K[t, u, w, 1/(u + w)]$ of $C_{1}$ is therefore also integrally closed. In the same way, one sees that
 the ring $C_{2} = K[t, v, w]$ is integrally closed, for $t$ satisfies an integral dependence equation over $K[v, w]$ (an
 explicit polynomial relation deducible from $t^{2} = u^{2} - w^{2}$ and $v = tu/(u + w)$ by eliminating $u$), and
@@ -2685,7 +2685,7 @@ a local ring whose nilradical $\mathfrak{N}'$ is the unique minimal prime ideal,
 \operatorname{Spec}(A_{0})$, where $A_{0} = A'/\mathfrak{N}'$ is an integral local ring; moreover, if $K$ is the
 fraction field of $A$, the fraction field $K_{0}$ of $A_{0}$ is radicial over $K$, since the morphism $f$ is radicial.
 As $A_{0}$ is integral over $A$, its integral closure $B$ is also the integral closure of $A$ in $K_{0}$. But as $A$ is
-integrally closed, one knows (Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 3, lemma 3) that $B$ is the set of $x \in
+integrally closed, one knows (Bourbaki, *Alg. comm.*, chap. V, §2, nÂ° 3, lemma 3) that $B$ is the set of $x \in
 K_{0}$ of which some $p^{m}$-th power (for $m$ sufficiently large) belongs to $A$ ($p$ being the characteristic exponent
 of $K$); moreover there exists only one prime ideal of $B$ above each prime ideal of $A$; in particular $B$ is a local
 ring and its residue field is a radicial extension of that of $A$, and *a fortiori* of that of $A_{0}$, which proves

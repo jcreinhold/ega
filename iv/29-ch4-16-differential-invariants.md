@@ -949,7 +949,7 @@ that they are isomorphisms, it suffices to
 <!-- original page 20 -->
 
 show that `(16.4.8.1)` is an isomorphism, the filtrations of the two sides of `(16.4.7.3)` being finite (Bourbaki, *Alg.
-comm.*, chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1). For this, consider the split exact sequence of
+comm.*, chap. III, §2, nÂ° 8, cor. 3 of th. 1). For this, consider the split exact sequence of
 $\mathcal{O}_{S}$-Modules
 
 $$ 0 \to \mathcal{E} \xrightarrow{u} \mathcal{E} \oplus \mathcal{E} \xrightarrow{v} \mathcal{E} \to 0 \tag{16.4.8.2} $$
@@ -1622,7 +1622,7 @@ $$ \Omega_{X/S}^1 \otimes_{\mathcal{O}_S} \mathcal{O}_{S'} \xrightarrow{\sim} \O
 <!-- original page 30 -->
 
 from which one deduces, by virtue of `(16.5.10.1)`, a canonical homomorphism (Bourbaki, *Alg.*, chap. II, 3rd ed., §5,
-n$^{\circ}$ 3)
+nÂ° 3)
 
 $$ \mathcal{T}_{X/S} \otimes_{\mathcal{O}_S} \mathcal{O}_{S'} \to \mathcal{T}_{X'/S'} \tag{16.5.10.2} $$
 
@@ -1638,8 +1638,8 @@ homomorphism `(16.5.10.2)` is injective (resp. bijective).*
 *(ii) If $\Omega^{1}_{X/S}$ is a locally free $\mathcal{O}_{X}$-Module of finite type, the homomorphism `(16.5.10.2)` is
 bijective.*
 
-Indeed, assertion (ii) follows from Bourbaki, *Alg.*, chap. II, 3rd ed., §5, n$^{\circ}$ 3, prop. 7. Assertion (i)
-follows similarly from Bourbaki, *Alg. comm.*, chap. I, §2, n$^{\circ}$ 10, prop. 11 and from the fact that if $f$ is
+Indeed, assertion (ii) follows from Bourbaki, *Alg.*, chap. II, 3rd ed., §5, nÂ° 3, prop. 7. Assertion (i)
+follows similarly from Bourbaki, *Alg. comm.*, chap. I, §2, nÂ° 10, prop. 11 and from the fact that if $f$ is
 locally of finite type (resp. locally of finite presentation), $\Omega^{1}_{X/S}$ is an $\mathcal{O}_{X}$-Module of
 finite type (resp. of finite presentation) (`(16.3.9)` and `(16.4.22)`).
 
@@ -2210,7 +2210,7 @@ that there is a canonical isomorphism of $\mathcal{P}^{n}_{X/S}$-Modules
 $$ \mathcal{P}^n_{X/S}(\mathcal{F} \otimes_{\mathcal{O}_X} \mathcal{G}) \xrightarrow{\sim}
 \mathcal{P}^n_{X/S}(\mathcal{F}) \otimes_{\mathcal{P}^n_{X/S}} \mathcal{P}^n_{X/S}(\mathcal{G}) \tag{16.7.8.1} $$
 
-(Bourbaki, *Alg.*, chap. II, 3rd ed., §5, n$^{\circ}$ 1, prop. 3).
+(Bourbaki, *Alg.*, chap. II, 3rd ed., §5, nÂ° 1, prop. 3).
 
 One concludes in particular (or one sees directly from the definition `(16.7.2.1)`) that if $\mathcal{F}$ is endowed
 with an $\mathcal{O}_{X}$-Algebra structure (not necessarily associative), then $\mathcal{P}^{n}_{X/S}(\mathcal{F})$ is
@@ -2227,7 +2227,7 @@ $$ \mathcal{P}^n_{X/S}(\mathcal{H}om_{\mathcal{O}_X}(\mathcal{F}, \mathcal{G})) 
 \mathcal{H}om_{\mathcal{P}^n_{X/S}}(\mathcal{P}^n_{X/S}(\mathcal{F}), \mathcal{P}^n_{X/S}(\mathcal{G})) \tag{16.7.8.2}
 $$
 
-(Bourbaki, *Alg.*, chap. II, 3rd ed., §5, n$^{\circ}$ 3), which is bijective when $\mathcal{F}$ is a locally free
+(Bourbaki, *Alg.*, chap. II, 3rd ed., §5, nÂ° 3), which is bijective when $\mathcal{F}$ is a locally free
 $\mathcal{O}_{X}$-Module of finite type (*loc. cit.*, prop. 7).
 
 **(16.7.9).**
@@ -2785,7 +2785,7 @@ $\mathcal{J}_{x}/\mathcal{J}^{2}_{x}$.*
 
 By hypothesis, $\mathcal{O}_{x}$ is a local ring and $\mathcal{J}_{x}$ is an ideal of finite type of $\mathcal{O}_{x}$
 contained in the maximal ideal of $\mathcal{O}_{x}$; the equivalence of b), b') and c) thus follows from Nakayama's
-lemma (Bourbaki, *Alg. comm.*, chap. II, §3, n$^{\circ}$ 2, prop. 5). It is clear that a) implies c) by virtue of
+lemma (Bourbaki, *Alg. comm.*, chap. II, §3, nÂ° 2, prop. 5). It is clear that a) implies c) by virtue of
 `(16.9.3)`; on the other hand, it follows from $(0_{I}, 5.2.2)$ that, if condition c) is verified (hence also b)), there
 exists an open neighbourhood $U$ of $x$ in $X$ such that $(\mathcal{J}/\mathcal{J}^{2}) | U$ has constant rank $n$, and
 such that the $f_{i} | U$ generate $\mathcal{J} | U$; it suffices then to apply, in $U$, the last assertion of
@@ -2988,7 +2988,7 @@ $\mathfrak{K}$ is contained in the radical of $A$. Then for every integer $n > 0
 $$ \mathfrak{J} \cap \mathfrak{K}^n = \mathfrak{J} \mathfrak{K}^n. \tag{16.9.13.6} $$
 
 Indeed, the right-hand side of `(16.9.13.4)` is then zero, since $A/\mathfrak{J} \mathfrak{K}^{n}$ is an $A$-module of
-finite type (Bourbaki, *Alg. comm.*, chap. III, §3, n$^{\circ}$ 3, prop. 6).
+finite type (Bourbaki, *Alg. comm.*, chap. III, §3, nÂ° 3, prop. 6).
 
 Taking in particular $n = 2$ in `(16.9.13.6)`, and noting that one has $\mathfrak{L}^{2} = \mathfrak{J}^{2} +
 \mathfrak{JK} + \mathfrak{K}^{2} = \mathfrak{JL} + \mathfrak{K}^{2}$; since $\mathfrak{JL} \subset \mathfrak{L}^{2}$,
@@ -3025,7 +3025,7 @@ $$ 0 \to \mathfrak{J}/\mathfrak{JL} \to \mathfrak{L}/\mathfrak{L}^{2} \to
 
 is exact (see the proof of `(16.2.7)`), and the modules figuring in this sequence are precisely the stalks at $x$ of the
 sheaves in `(16.9.13.1)`. The second assertion follows from the fact that $\mathcal{N}_{Y'/Y}$ is a locally free
-$\mathcal{O}_{Y'}$-Module `(16.9.8)` and from Bourbaki, *Alg.*, chap. II, 3rd ed., §1, n$^{\circ}$ 11, prop. 21.
+$\mathcal{O}_{Y'}$-Module `(16.9.8)` and from Bourbaki, *Alg.*, chap. II, 3rd ed., §1, nÂ° 11, prop. 21.
 
 ## 16.10. Differentially smooth morphisms
 
@@ -3184,7 +3184,7 @@ d^m(\mathbf{z}^{\mathbf{q}}). \tag{16.11.1.6} $$
 
 Since the $dz_{\lambda}$ generate $\Omega^{1}_{X/S}$ and are the images of the $\delta z_{\lambda}$, and the canonical
 homomorphism `(16.3.1.1)` is surjective, one concludes that, for finite $m$, the $\delta z_{\lambda}$ generate the
-$\mathcal{O}_{U}$-Algebra $\mathcal{P}^{m}_{U/S}$ (Bourbaki, *Alg. comm.*, chap. III, §2, n$^{\circ}$ 8, cor. 2 of th.
+$\mathcal{O}_{U}$-Algebra $\mathcal{P}^{m}_{U/S}$ (Bourbaki, *Alg. comm.*, chap. III, §2, nÂ° 8, cor. 2 of th.
 1). Therefore the $\epsilon^{\mathbf{p}}$ (for $|\mathbf{p}| \leq m$) generate the $\mathcal{O}_{U}$-Module
 $\mathcal{P}^{m}_{U/S}$. A differential operator $D \in Diff^{m}_{U/S}$ is consequently entirely determined by the
 values of $\langle \epsilon^{\mathbf{p}}, D\rangle$ for $|\mathbf{p}| \leq m$, or, what amounts to the same by

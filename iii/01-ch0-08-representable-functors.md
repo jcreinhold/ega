@@ -188,8 +188,8 @@ representable functor. Recall that in a category $\mathcal{C}$, one defines a *p
 preordered set $I$, a family $(A_{\alpha})_{\alpha \in I}$ of objects of $\mathcal{C}$, and, for every pair of indices
 $(\alpha, \beta)$ such that $\alpha \leq \beta$, a morphism $u_{\alpha \beta} : A_{\beta} \to A_{\alpha}$. A *projective
 limit* of this system in $\mathcal{C}$ consists of an object $B$ of $\mathcal{C}$ (denoted $\lim A_{\alpha}$), and, for
-each $\alpha \in I$, a morphism $u_{\alpha} : B \to A_{\alpha}$, such that: $1^{\circ}$ $u_{\alpha} = u_{\alpha \beta}
-\circ u_{\beta}$ for $\alpha \leq \beta$; $2^{\circ}$ For every object $X$ of $\mathcal{C}$ and every family
+each $\alpha \in I$, a morphism $u_{\alpha} : B \to A_{\alpha}$, such that: 1Â° $u_{\alpha} = u_{\alpha \beta}
+\circ u_{\beta}$ for $\alpha \leq \beta$; 2Â° For every object $X$ of $\mathcal{C}$ and every family
 $(v_{\alpha})_{\alpha \in I}$ of morphisms $v_{\alpha} : X \to A_{\alpha}$ such that $v_{\alpha} = u_{\alpha \beta}
 \circ v_{\beta}$ for $\alpha \leq \beta$, there exists a unique morphism $v : X \to B$ (denoted $\lim v_{\alpha}$) such
 that $v_{\alpha} = u_{\alpha} \circ v$ for every $\alpha \in I$ `(T, 1.8)`. This is interpreted as follows: the
