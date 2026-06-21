@@ -57,7 +57,9 @@ already-translated sections.
 
 ## 2. Mathematical glyphs
 
-Wrap exact mathematical strings in backticks. Use Unicode, never LaTeX.
+All mathematics is written in LaTeX and rendered with KaTeX: inline math in `$...$`, displayed math in `$$...$$`. Do not
+use raw Unicode mathematical symbols (script/Fraktur/Greek letters, arrows, relations, operators) in running text —
+write the LaTeX command instead.
 
 - Structure sheaves and standard sheaves: $\mathcal{O}_{X}$, $\mathcal{O}_{Y}$, $\mathcal{O}_{S}$, $\mathcal{O}_{X}(1)$,
   $\mathcal{O}(n)$, $\mathcal{M}$, $\mathcal{F}$, $\mathcal{G}$, $\mathcal{S}$, $\mathcal{A}$, $\mathcal{B}$,
@@ -71,23 +73,21 @@ Wrap exact mathematical strings in backticks. Use Unicode, never LaTeX.
 
 - Operators: $\otimes$, $\oplus$, $\prod$, $\coprod$, $\cap$, $\cup$, $\bigcap$, $\bigcup$, $\perp$.
 
-- Functors: write `Hom`, `Spec`, `Proj`, $\Gamma$, `Sym`, `det`, `Pic`, `End`, `Aut` in upright Roman.
+- Functors: write $\operatorname{Hom}$, $\operatorname{Spec}$, $\operatorname{Proj}$, $\Gamma$, $\operatorname{Sym}$,
+  $\det$, $\operatorname{Pic}$, $\operatorname{End}$, $\operatorname{Aut}$ — use `\operatorname{...}` so they render
+  upright.
 
 - Specs: $\operatorname{Spec}(A)$, $\operatorname{Proj}(S)$, $\operatorname{Spec}(\mathcal{S})$ for the relative Spec,
   $\operatorname{Proj}(\mathcal{S})$ similarly.
 
-- Greek letters as plain Unicode in backticks: $\phi$, $\psi$, $\rho$, $\sigma$, $\tau$, $\theta$, $\omega$, $\Delta$,
-  $\Gamma$, $\Omega$, $\Sigma$.
+- Greek letters as LaTeX commands: $\phi$, $\psi$, $\rho$, $\sigma$, $\tau$, $\theta$, $\omega$, $\Delta$, $\Gamma$,
+  $\Omega$, $\Sigma$.
 
-- Display equations: a fenced ```` ```text ```` block, contents indented two spaces:
+- Display equations: a `$$...$$` block, e.g.
 
-    ````
-    ```text
-        \Delta_{X/Y} : X \to X \times_Y X
-    ```
-    ````
-
-    matching the SGA I model.
+    $$
+    \Delta_{X/Y} : X \to X \times_{Y} X
+    $$
 
 ## 3. Block labels
 
@@ -102,11 +102,11 @@ Every `S`-prescheme that is affine over `S` is separated over `S` (in other word
 an `S`-scheme).
 ```
 
-Available labels: $**Theorem.**$, $**Proposition.**$, $**Lemma.**$, $**Corollary.**$, $**Definition.**$, $**Example.**$,
-$**Remark.**$, $**Notation.**$, $**Reminder.**$. The HTML label uses the form `II.N.M.K` (volume prefix `II`, then EGA's
+Available labels: **Theorem.**, **Proposition.**, **Lemma.**, **Corollary.**, **Definition.**, **Example.**,
+**Remark.**, **Notation.**, **Reminder.**. The HTML label uses the form `II.N.M.K` (volume prefix `II`, then EGA's
 decimal address).
 
-Proofs follow immediately as a $**Proof.**$ paragraph; no $**Proof.**$ HTML label needed unless the proof is itself a
+Proofs follow immediately as a **Proof.** paragraph; no **Proof.** HTML label needed unless the proof is itself a
 numbered display.
 
 ## 4. Numbered displays and cross-references
@@ -127,23 +127,23 @@ the break, and note the page change in the comment if useful.
 
 ## 6. Proof idioms (French → English)
 
-- $Soient X, Y \cdots$ $\to$ "Let $X$, $Y$ $\ldots$"
+- `Soient X, Y …` $\to$ "Let $X$, $Y$ …"
 - `On a` $\to$ "We have"
 - `Posons` $\to$ "Set"
 - `Démontrons` $\to$ "We show"
 - `Montrons` $\to$ "We show"
 - `Il suffit de` $\to$ "It suffices to"
-- $Cela r\acute{e}sulte aussit\hat{o}t de \cdots$ $\to$ "This follows immediately from $\ldots$"
-- $Cela r\acute{e}sulte de \cdots$ $\to$ "This follows from $\ldots$"
-- $D'apr\grave{e}s \cdots$ $\to$ "By $\ldots$"
-- $En vertu de \cdots$ $\to$ "By virtue of $\ldots$" or "By $\ldots$" depending on register
-- $Compte tenu de \cdots$ $\to$ "Taking $\ldots$ into account"
+- `Cela résulte aussitôt de …` $\to$ "This follows immediately from …"
+- `Cela résulte de …` $\to$ "This follows from …"
+- `D'après …` $\to$ "By …"
+- `En vertu de …` $\to$ "By virtue of …" or "By …" depending on register
+- `Compte tenu de …` $\to$ "Taking … into account"
 - `Réciproquement` $\to$ "Conversely"
 - `On notera que` $\to$ "Note that"
 - `On dit que` $\to$ "We say that" (in definitions); "One says that" only when the source is being deliberately
   impersonal in a way that matters
-- $Il est imm\acute{e}diat que$ $\to$ "It is immediate that"
-- $Tout revient \grave{a} \cdots$ $\to$ "It comes down to $\ldots$"
+- `Il est immédiat que` $\to$ "It is immediate that"
+- `Tout revient à …` $\to$ "It comes down to …"
 - `D'autre part` $\to$ "On the other hand"
 - `En particulier` $\to$ "In particular"
 
@@ -160,7 +160,7 @@ Each translated section ends with:
 
 ## 8. Translator notes
 
-A short $> {}_{Translator}'s note._{\cdots}$ quoted block, used only when:
+A short `> _Translator's note._ …` quoted block, used only when:
 
 - A 1961 term differs from current usage and a reader could misread the math.
 - The OCR was unsalvageable and a small reconstruction was needed.
@@ -173,7 +173,7 @@ Do not silently modernize. Do not interpolate exposition.
 Preserve modal weight:
 
 - `il semble` $\to$ "it seems"
-- $on s'attend \grave{a} ce que$ $\to$ "one expects that"
+- `on s'attend à ce que` $\to$ "one expects that"
 - `conjecturalement` $\to$ "conjecturally"
 - `vraisemblablement` $\to$ "presumably"
 - `manifestement` $\to$ "manifestly"

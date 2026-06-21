@@ -1,28 +1,27 @@
 # Translation conventions — EGA V
 
 These conventions are locked after the §V.1 calibration pass. They **inherit** the EGA IV conventions at
-$docs/books/ega/iv/conventions.md$ verbatim (which in turn inherit EGA II and EGA III); only the EGA-V-specific
-additions for *prenote character*, V$\leftrightarrow$IV renumbering, and the differences in source pathology
-(digital-LaTeX OCR rather than scan OCR; English-source rather than French-source) are recorded here.
+`../iv/conventions.md` verbatim (which in turn inherit EGA II and EGA III); only the EGA-V-specific additions for
+*prenote character*, V$\leftrightarrow$IV renumbering, and the differences in source pathology (digital-LaTeX OCR rather
+than scan OCR; English-source rather than French-source) are recorded here.
 
 ## 1. Inherited from EGA IV
 
-The full EGA IV conventions transfer unchanged: the terminology table, math glyphs and Unicode policy, block label
-format (`<!-- label: V.N.M.K -->`), numbered display blocks in fenced ```` ```text ```` blocks, page-break comments
-(`<!-- original page N -->`), source-trace footer format, translator-note guidance, modality preservation, cohomology
-and spectral-sequence rendering, differential and formal-smoothness notation, regular-immersion and divisor vocabulary,
-and the citation forms for $(I, \cdots)$, $(II, \cdots)$, $(III, \cdots)$, $(IV, \cdots)$, $(0_{III}, \cdots)$,
-$(0_{IV}, \cdots)$, $(M, \cdots)$, $(G, \cdots)$, $(T, \cdots)$, $(FAC, \cdots)$, `(Bourbaki, Alg. comm., $\ldots$)`,
-$(Nagata, \cdots)$, $(Zariski-Samuel, \cdots)$. Re-read those sections in $docs/books/ega/iv/conventions.md$ before
-extending the ledger or making a stylistic choice here.
+The full EGA IV conventions transfer unchanged: the terminology table, math glyphs and LaTeX policy, block label format
+(`<!-- label: V.N.M.K -->`), numbered displays in `$$...$$`, page-break comments (`<!-- original page N -->`),
+source-trace footer format, translator-note guidance, modality preservation, cohomology and spectral-sequence rendering,
+differential and formal-smoothness notation, regular-immersion and divisor vocabulary, and the citation forms for $(I,
+\cdots)$, $(II, \cdots)$, $(III, \cdots)$, $(IV, \cdots)$, $(0_{III}, \cdots)$, $(0_{IV}, \cdots)$, $(M, \cdots)$, $(G,
+\cdots)$, $(T, \cdots)$, $(FAC, \cdots)$, `(Bourbaki, Alg. comm., …)`, $(Nagata, \cdots)$, $(Zariski-Samuel, \cdots)$.
+Re-read those sections in `../iv/conventions.md` before extending the ledger or making a stylistic choice here.
 
-**Block labels.** English: $**Proposition (1.1).**$, $**Definition (1.3).**$, $**Corollary (1.4).**$, $**Theorem
-(5.3.2).**$, $**Lemma (5.3.4).**$, $**Remark (1.2).**$, $**Scholium (5.8).**$. Never French. Each labeled block is
-followed by a blank line, the `<!-- label: V.N.M.K -->` comment, another blank line, then the italicized body.
+**Block labels.** English: **Proposition (1.1).**, **Definition (1.3).**, **Corollary (1.4).**, **Theorem (5.3.2).**,
+**Lemma (5.3.4).**, **Remark (1.2).**, **Scholium (5.8).**. Never French. Each labeled block is followed by a blank
+line, the `<!-- label: V.N.M.K -->` comment, another blank line, then the italicized body.
 
 **Proofs.** EGA V inherits EGA IV's inline-prose convention: a proof begins immediately after the labeled italic body,
-in ordinary (non-italic) prose, *without* an explicit $**Proof.**$ marker. Long multi-step proofs may use sub-paragraph
-markers like "Step 1.", "(a)", or "(i)" inline; do not insert a $**Proof.**$ header retroactively.
+in ordinary (non-italic) prose, *without* an explicit **Proof.** marker. Long multi-step proofs may use sub-paragraph
+markers like "Step 1.", "(a)", or "(i)" inline; do not insert a **Proof.** header retroactively.
 
 ## 2. EGA V citation form
 
@@ -35,8 +34,7 @@ EGA V is the never-published fifth volume; we cite it as Chapter V. The §V.N.M.
 - `(IV, 17.6.2)`, $(0_{IV}, 19.3.5)$, etc. cite the published EGA IV and earlier volumes as in the EGA IV conventions.
 - $(Mumford, \cdots)$ cites D. Mumford, _Lectures on curves on an algebraic surface_ (Princeton, 1966). Used in §V.5 and
   §V.6.
-- $(Bourbaki S\acute{e}m. N)$ cites Séminaire Bourbaki exposé number $N$. EGA V references Sém. 232, 236, and 261 in
-  particular.
+- `(Bourbaki Sém. N)` cites Séminaire Bourbaki exposé number $N$. EGA V references Sém. 232, 236, and 261 in particular.
 
 ## 3. V↔IV renumbering map
 
@@ -75,7 +73,7 @@ For longer asides (a sentence or more set off in the source), use an italicized 
 > *Grothendieck note.* In the language of the fathers (which we should give as a remark) a point $\ldots$
 ```
 
-The marker $*Grothendieck note*$ distinguishes these from the surrounding mathematical prose. Never merge them silently;
+The marker *Grothendieck note* distinguishes these from the surrounding mathematical prose. Never merge them silently;
 that is the prenote character the reader needs.
 
 ### `[Tr.]` translator queries
@@ -110,12 +108,11 @@ a tilde. The PDF does not resolve it. We follow the Vaiello edition in dropping 
 ### French residue
 
 The Blass translation leaves French interjections at points where the prenotes' bilingual working notes surface:
-`en termes de papa Fr`, `sous-entendu Fr`, $p\hat{e}le m\hat{e}le Fr$, `confondus Fr`. These are retired into idiomatic
-English:
+`en termes de papa Fr`, `sous-entendu Fr`, `pêle mêle Fr`, `confondus Fr`. These are retired into idiomatic English:
 
 - `en termes de papa Fr` $\to$ "in the old language" (translator footnote at first occurrence quoting the original).
 - `sous-entendu Fr` $\to$ "tacitly assumed", "understood".
-- $p\hat{e}le m\hat{e}le Fr$ $\to$ "pell-mell", "jumbled together", or restructure the sentence.
+- `pêle mêle Fr` $\to$ "pell-mell", "jumbled together", or restructure the sentence.
 - `confondus Fr` $\to$ "coinciding".
 
 When the French carries information the English alone cannot (a Bourbaki-style aside, a deliberate stylistic choice),
@@ -129,17 +126,17 @@ All math notation inherits EGA IV. The Blass files render OCR fragments in non-s
 | Blass OCR form | Normalized rendering | Notes |
 | --- | --- | --- |
 | $\Omega 1X/k$ | $\Omega^{1}_{X/k}$ | Subscripts via underscores; superscripts via `^`. |
-| $mX /m2X$ | $\mathfrak{m}_{X} / \mathfrak{m}^{2}_{X}$ | Fraktur for local maximal ideals; Unicode ${}^{2}$. |
+| $mX /m2X$ | $\mathfrak{m}_{X} / \mathfrak{m}^{2}_{X}$ | Fraktur for local maximal ideals; superscripts via `^`. |
 | $m2X /m3X$ | $\mathfrak{m}^{2}_{X} / \mathfrak{m}^{3}_{X}$ |  |
 | $Sym(mX /m2X)$ | $Sym(\mathfrak{m}_{X} / \mathfrak{m}^{2}_{X})$ |  |
 | $Sym2 (\Omega 1X/Y)$ | $Sym^{2}(\Omega^{1}_{X/Y})$ |  |
 | `OX`, `OY` | $\mathcal{O}_{X}$, $\mathcal{O}_{Y}$ | Script $\mathcal{O}$. |
 | $d2X/Y \phi$ | $d^{2}_{X/Y} \phi$ |  |
 | $PX/Y2$ | $\mathcal{P}^{2}_{X/Y}$ | Script $\mathcal{P}$ for principal parts (cf. EGA IV §0_IV.20). |
-| $d0\phi$, $d1\phi$, $d2\phi$ | $d^{0}\phi$, $d^{1}\phi$, $d^{2}\phi$ | Unicode superscripts. |
+| $d0\phi$, $d1\phi$, $d2\phi$ | $d^{0}\phi$, $d^{1}\phi$, $d^{2}\phi$ | Superscripts via `^`. |
 | $V (\phi)sing$ | $V(\phi)_{sing}$ |  |
 | $V (\phi)\sup sing$ | $V(\phi)_{\sup sing}$ | Or $V(\phi)_{supsing}$ for compactness; both acceptable. |
-| $\Lambda 1$, $\Lambda$ | $\Lambda^{1}$, $\Lambda$ | Use Unicode superscripts; reserve `^` for arbitrary exponents. |
+| $\Lambda 1$, $\Lambda$ | $\Lambda^{1}$, $\Lambda$ | Superscripts via `^`. |
 | `det`, `Sym` | `det`, `Sym` | Unaltered. |
 | $\simeq (\approx)$ | $\cong$ | Blass uses both $\simeq$ and $\approx$ inconsistently; standardize to $\cong$ for isomorphism. |
 | $\to$, $\mapsto$ | $\to$, $\mapsto$ | Unaltered. |

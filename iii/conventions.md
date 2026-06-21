@@ -1,15 +1,15 @@
 # Translation conventions — EGA III
 
 These conventions are locked after the §III.1 calibration pass. They **inherit** the EGA II conventions at
-$docs/books/ega/ii/conventions.md$ verbatim; only the EGA-III-specific additions for cohomology, derived functors,
-spectral sequences, and the running Chapter 0_III preliminaries are recorded here.
+`../ii/conventions.md` verbatim; only the EGA-III-specific additions for cohomology, derived functors, spectral
+sequences, and the running Chapter 0_III preliminaries are recorded here.
 
 ## 1. Inherited from EGA II
 
-Terminology table (§1), math glyphs and Unicode policy (§2), block labels (§3), numbered displays and cross-references
+Terminology table (§1), math glyphs and LaTeX policy (§2), block labels (§3), numbered displays and cross-references
 (§4), pagination comments (§5), proof idioms (§6), source-trace footer format (§7), translator-note guidance (§8), and
-modality preservation (§9) all transfer unchanged. Re-read those sections in $docs/books/ega/ii/conventions.md$ before
-extending the ledger or making a stylistic choice here.
+modality preservation (§9) all transfer unchanged. Re-read those sections in `../ii/conventions.md` before extending the
+ledger or making a stylistic choice here.
 
 ## 2. Cross-volume citations specific to EGA III
 
@@ -36,8 +36,7 @@ in the bibliography.
 ## 3. Complex and cohomology notation
 
 EGA III routinely manipulates chain and cochain complexes, bicomplexes, total complexes, derived and hyper-derived
-functors. We fix the following Unicode rendering; display long expressions in fenced ```` ```text ```` blocks as in EGA
-II.
+functors. We fix the following LaTeX rendering; display long expressions in `$$...$$` blocks as in EGA II.
 
 - Complexes: $K\bullet$ and $K_{\bullet}$ (lower-degree boundary) for chain complexes, $K\bullet$ and $K^{\bullet}$
   (upper-degree boundary) for cochain complexes. EGA's $K^{\bullet}$ and $K_{\bullet}$ are rendered with explicit
@@ -63,18 +62,13 @@ II.
 
 EGA III's central objects. We render every spectral sequence in the canonical "page, indices, abutment" form:
 
-````
-```text
-  E_2^{p,q} = H^p(Y, R^q f_* \mathcal{F}) \implies H^{p+q}(X, \mathcal{F}).
-````
-
-````
+$$ E_2^{p,q} = H^p(Y, R^q f_* \mathcal{F}) \implies H^{p+q}(X, \mathcal{F}). $$
 
 - The page index is the subscript: `E_r^{p,q}` (cohomological) or `E^r_{p,q}` (homological).
 - The differential is $d_r : E_r^{p,q} \to E_r^{p+r, q-r+1}$.
-- Abutment uses $\implies$ ("abuts to" / "converges to" — both English forms occur in EGA; we render either by $\implies$ when the
-  source uses $\implies$ or the equivalent French "aboutit à"; we keep "abuts to" in prose since it's the canonical English
-  form).
+- Abutment uses $\implies$ ("abuts to" / "converges to" — both English forms occur in EGA; we render either by
+  $\implies$ when the source uses $\implies$ or the equivalent French "aboutit à"; we keep "abuts to" in prose since
+  it's the canonical English form).
 - For filtered complexes we name the filtration: `F^p H^n` is the `p`th piece of the filtration on `H^n` induced by the
   filtration on the complex.
 - Convergence properties: `weakly convergent`, `regular`, `coregular`, `biregular`, `degenerate` — match
@@ -82,9 +76,10 @@ EGA III's central objects. We render every spectral sequence in the canonical "p
 
 ## 5. Cech cohomology
 
-- $C^{\bullet}(\mathfrak{U}, \mathcal{F})$ for the Čech cochain complex of $\mathcal{F}$ with respect to the cover $\mathfrak{U}$.
-- $\check{H}^{\bullet}(X, \mathcal{F})$ (with caron) when EGA distinguishes Čech from derived cohomology; otherwise $H^{\bullet}(\mathfrak{U}, \mathcal{F})$ for the Čech
-  cohomology of the cover $\mathfrak{U}$.
+- $C^{\bullet}(\mathfrak{U}, \mathcal{F})$ for the Čech cochain complex of $\mathcal{F}$ with respect to the cover
+  $\mathfrak{U}$.
+- $\check{H}^{\bullet}(X, \mathcal{F})$ (with caron) when EGA distinguishes Čech from derived cohomology; otherwise
+  $H^{\bullet}(\mathfrak{U}, \mathcal{F})$ for the Čech cohomology of the cover $\mathfrak{U}$.
 - We never silently identify Čech and derived cohomology; preserve EGA's bookkeeping.
 
 ## 6. Modules and sheaves
@@ -93,20 +88,20 @@ EGA III's central objects. We render every spectral sequence in the canonical "p
 - Quasi-coherent / coherent: as in EGA II.
 - A module on a topological space `X` whose support is at most `n`-dimensional: EGA writes $\dim \le n$; render as
   $\text{cohomological dimension} \le n$ when EGA does, and $\dim_X \mathcal{F} \le n$ for support otherwise.
-- Filtered, graded, bigraded $\mathcal{S}$–C-module, $gr^{\bullet}(\mathcal{S})$-C-module: render `S`-`C`-module filtré, etc., in the form
-  $\mathcal{S}$-$\mathcal{C}$-module filtered, $gr^{\bullet}(\mathcal{S})$-$\mathcal{C}$-module graded — following the EGA convention of attaching the module species
-  to the ambient structure.
+- Filtered, graded, bigraded $\mathcal{S}$–C-module, $gr^{\bullet}(\mathcal{S})$-C-module: render `S`-`C`-module filtré,
+  etc., in the form $\mathcal{S}$-$\mathcal{C}$-module filtered, $gr^{\bullet}(\mathcal{S})$-$\mathcal{C}$-module graded
+  — following the EGA convention of attaching the module species to the ambient structure.
 
 ## 7. The Mittag–Leffler condition
 
 EGA III §0_III.13 introduces condition `(ML)` for projective systems. We keep the EGA abbreviation. Related vocabulary:
 
-| French                                     | English                                   |
-| ------------------------------------------ | ----------------------------------------- |
-| condition `(ML)`                           | condition (ML) / Mittag–Leffler condition |
-| système projectif strict                   | strict projective system                  |
-| système projectif essentiellement constant | essentially constant projective system    |
-| objet des images universelles              | object of universal images                |
+| French | English |
+| --- | --- |
+| condition `(ML)` | condition (ML) / Mittag–Leffler condition |
+| système projectif strict | strict projective system |
+| système projectif essentiellement constant | essentially constant projective system |
+| objet des images universelles | object of universal images |
 
 ## 8. Formal preschemes (forward references)
 
@@ -120,73 +115,73 @@ anticipating EGA I, ch. I §10 (formal preschemes) and forthcoming material. Ren
 
 ## 9. Spectral-sequence-specific terminology
 
-| French                                 | English                             |
-| -------------------------------------- | ----------------------------------- |
-| aboutissement                          | abutment                            |
-| bicomplexe                             | bicomplex                           |
-| caractéristique d'Euler–Poincaré       | Euler–Poincaré characteristic       |
-| co-séparé, co-discrète                 | co-separated, co-discrete           |
-| cohomologiquement plat                 | cohomologically flat                |
-| complexe défini par un bicomplexe      | complex defined by a bicomplex      |
-| cup-produit                            | cup product                         |
-| cochaîne bi-alternée                   | bi-alternating cochain              |
-| filtration co-discrète                 | co-discrete filtration              |
-| hypercohomologie                       | hypercohomology                     |
-| hyperhomologie                         | hyperhomology                       |
-| polynôme de Hilbert                    | Hilbert polynomial                  |
-| résolution de Cartan–Eilenberg         | Cartan–Eilenberg resolution         |
-| résolution cohomologique               | cohomological resolution            |
-| résolution droite / gauche             | right resolution / left resolution  |
-| résolution injective / projective      | injective / projective resolution   |
-| résolution libre / plate               | free / flat resolution              |
-| résolution homologique                 | homological resolution              |
-| suite spectrale                        | spectral sequence                   |
-| suite spectrale dégénérée              | degenerate spectral sequence        |
+| French | English |
+| --- | --- |
+| aboutissement | abutment |
+| bicomplexe | bicomplex |
+| caractéristique d'Euler–Poincaré | Euler–Poincaré characteristic |
+| co-séparé, co-discrète | co-separated, co-discrete |
+| cohomologiquement plat | cohomologically flat |
+| complexe défini par un bicomplexe | complex defined by a bicomplex |
+| cup-produit | cup product |
+| cochaîne bi-alternée | bi-alternating cochain |
+| filtration co-discrète | co-discrete filtration |
+| hypercohomologie | hypercohomology |
+| hyperhomologie | hyperhomology |
+| polynôme de Hilbert | Hilbert polynomial |
+| résolution de Cartan–Eilenberg | Cartan–Eilenberg resolution |
+| résolution cohomologique | cohomological resolution |
+| résolution droite / gauche | right resolution / left resolution |
+| résolution injective / projective | injective / projective resolution |
+| résolution libre / plate | free / flat resolution |
+| résolution homologique | homological resolution |
+| suite spectrale | spectral sequence |
+| suite spectrale dégénérée | degenerate spectral sequence |
 | suite spectrale faiblement convergente | weakly convergent spectral sequence |
-| suite spectrale régulière              | regular spectral sequence           |
-| système de coefficients                | system of coefficients              |
+| suite spectrale régulière | regular spectral sequence |
+| système de coefficients | system of coefficients |
 
 ## 10. EGA-III-specific terminology
 
 These extend the EGA II terminology table; they first appear in the §III.1 calibration and the Chap 0_III preliminaries.
 
-| French                                             | English                                        |
-| -------------------------------------------------- | ---------------------------------------------- |
-| algébrisable ($\mathcal{O}_X$-Module)                        | algebraizable ($\mathcal{O}_X$-module)                   |
-| algébrisable (schéma formel)                       | algebraizable (formal scheme)                  |
-| analytiquement intègre                             | analytically integral                          |
-| application quasi-compacte                         | quasi-compact map                              |
-| augmentation d'une résolution                      | augmentation of a resolution                   |
-| complexe de l'algèbre extérieure                   | exterior algebra complex                       |
-| complexe de Koszul                                 | Koszul complex                                 |
-| condition (TF), condition (TN)                     | condition (TF), condition (TN)                 |
-| constructible (partie, ensemble)                   | constructible (subset, set)                    |
-| constructible (fonction)                           | constructible (function)                       |
-| dihomomorphisme                                    | di-homomorphism                                |
-| exact (sous-ensemble) dans une catégorie abélienne | exact (subset) in an abelian category          |
-| factorisation de Stein                             | Stein factorization                            |
-| filtration                                         | filtration                                     |
-| fini (morphisme de préschémas formels)             | finite (morphism of formal preschemes)         |
-| foncteur représentable                             | representable functor                          |
-| foncteur covariant canonique $C \to \operatorname{Hom}(C^{\circ}, \mathrm{Ens})$    | canonical covariant functor $C \to \operatorname{Hom}(C^{\circ}, \mathrm{Set})$ |
-| genre arithmétique                                 | arithmetic genus                               |
-| géométriquement connexe                            | geometrically connected                        |
-| localement constructible                           | locally constructible                          |
-| loi de composition externe / interne               | external / internal composition law            |
-| morphisme de suites spectrales                     | morphism of spectral sequences                 |
-| nombre géométrique de composantes connexes         | geometric number of connected components       |
-| `C`-objet en groupes                               | `C`-object in groups                           |
-| `C`-groupe, `C`-anneau, `C`-module                 | `C`-group, `C`-ring, `C`-module                |
-| objet final d'une catégorie                        | final object of a category                     |
-| partie propre (sur $\mathfrak{D}$)                              | proper part (over $\mathfrak{D}$)                         |
-| pleine (sous-catégorie)                            | full (subcategory)                             |
-| pleinement fidèle (foncteur)                       | fully faithful (functor)                       |
-| polynôme de Hilbert                                | Hilbert polynomial                             |
-| propre (morphisme de préschémas formels)           | proper (morphism of formal preschemes)         |
-| représentable (foncteur)                           | representable (functor)                        |
-| rétrocompact                                       | retrocompact                                   |
-| unibranche (anneau, point)                         | unibranch (ring, point)                        |
-| universellement ouvert                             | universally open                               |
+| French | English |
+| --- | --- |
+| algébrisable ($\mathcal{O}_X$-Module) | algebraizable ($\mathcal{O}_X$-module) |
+| algébrisable (schéma formel) | algebraizable (formal scheme) |
+| analytiquement intègre | analytically integral |
+| application quasi-compacte | quasi-compact map |
+| augmentation d'une résolution | augmentation of a resolution |
+| complexe de l'algèbre extérieure | exterior algebra complex |
+| complexe de Koszul | Koszul complex |
+| condition (TF), condition (TN) | condition (TF), condition (TN) |
+| constructible (partie, ensemble) | constructible (subset, set) |
+| constructible (fonction) | constructible (function) |
+| dihomomorphisme | di-homomorphism |
+| exact (sous-ensemble) dans une catégorie abélienne | exact (subset) in an abelian category |
+| factorisation de Stein | Stein factorization |
+| filtration | filtration |
+| fini (morphisme de préschémas formels) | finite (morphism of formal preschemes) |
+| foncteur représentable | representable functor |
+| foncteur covariant canonique $C \to \operatorname{Hom}(C^{\circ}, \mathrm{Ens})$ | canonical covariant functor $C \to \operatorname{Hom}(C^{\circ}, \mathrm{Set})$ |
+| genre arithmétique | arithmetic genus |
+| géométriquement connexe | geometrically connected |
+| localement constructible | locally constructible |
+| loi de composition externe / interne | external / internal composition law |
+| morphisme de suites spectrales | morphism of spectral sequences |
+| nombre géométrique de composantes connexes | geometric number of connected components |
+| `C`-objet en groupes | `C`-object in groups |
+| `C`-groupe, `C`-anneau, `C`-module | `C`-group, `C`-ring, `C`-module |
+| objet final d'une catégorie | final object of a category |
+| partie propre (sur $\mathfrak{D}$) | proper part (over $\mathfrak{D}$) |
+| pleine (sous-catégorie) | full (subcategory) |
+| pleinement fidèle (foncteur) | fully faithful (functor) |
+| polynôme de Hilbert | Hilbert polynomial |
+| propre (morphisme de préschémas formels) | proper (morphism of formal preschemes) |
+| représentable (foncteur) | representable (functor) |
+| rétrocompact | retrocompact |
+| unibranche (anneau, point) | unibranch (ring, point) |
+| universellement ouvert | universally open |
 
 ## 11. Two-part packaging
 
@@ -208,4 +203,4 @@ Each translated section ends with:
 
 ````
 
-When no LaTeX cross-reference exists (e.g. for §III.6 and §III.7), the $cross-ref:$ line is omitted.
+When no LaTeX cross-reference exists (e.g. for §III.6 and §III.7), the `cross-ref:` line is omitted.

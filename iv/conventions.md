@@ -1,30 +1,30 @@
 # Translation conventions — EGA IV
 
 These conventions are locked after the §IV.1 calibration pass. They **inherit** the EGA III conventions at
-$docs/books/ega/iii/conventions.md$ verbatim (which in turn inherit EGA II); only the EGA-IV-specific additions for
-commutative algebra, formal smoothness, derivations and differentials, Jacobson preschemes, étale morphisms, regular
-immersions, meromorphic functions, and divisors are recorded here.
+`../iii/conventions.md` verbatim (which in turn inherit EGA II); only the EGA-IV-specific additions for commutative
+algebra, formal smoothness, derivations and differentials, Jacobson preschemes, étale morphisms, regular immersions,
+meromorphic functions, and divisors are recorded here.
 
 ## 1. Inherited from EGA III
 
-The full EGA III conventions transfer unchanged: the terminology table, math glyphs and Unicode policy, block label
-format (`<!-- label: IV.N.M.K -->`), numbered display blocks in fenced ```` ```text ```` blocks, page-break comments
-(`<!-- original page N -->`), source-trace footer format, translator-note guidance, modality preservation, cohomology
-and spectral-sequence rendering, Čech cohomology bookkeeping, condition (ML) terminology, formal-prescheme vocabulary,
-and the citation forms for $(I, \cdots)$, $(II, \cdots)$, $(III, \cdots)$, $(0, \cdots)$, $(0_{III}, \cdots)$, $(M,
-\cdots)$, $(G, \cdots)$, $(T, \cdots)$, $(FAC, \cdots)$. Re-read those sections in $docs/books/ega/iii/conventions.md$
-before extending the ledger or making a stylistic choice here.
+The full EGA III conventions transfer unchanged: the terminology table, math glyphs and LaTeX policy, block label format
+(`<!-- label: IV.N.M.K -->`), numbered displays in `$$...$$`, page-break comments (`<!-- original page N -->`),
+source-trace footer format, translator-note guidance, modality preservation, cohomology and spectral-sequence rendering,
+Čech cohomology bookkeeping, condition (ML) terminology, formal-prescheme vocabulary, and the citation forms for $(I,
+\cdots)$, $(II, \cdots)$, $(III, \cdots)$, $(0, \cdots)$, $(0_{III}, \cdots)$, $(M, \cdots)$, $(G, \cdots)$, $(T,
+\cdots)$, $(FAC, \cdots)$. Re-read those sections in `../iii/conventions.md` before extending the ledger or making a
+stylistic choice here.
 
-**Block labels.** English: $**Proposition (1.1.4).**$, $**Definition (1.2.1).**$, $**Corollary (1.2.3).**$, $**Theorem
-(1.8.4) (Chevalley).**$, $**Lemma (3.2.1).**$, $**Remark (1.6.4).**$, $**Scholium (2.3.3).**$. Never French
-("Définition", "Corollaire", etc.). Each labeled block is followed by a blank line, the `<!-- label: IV.N.M.K -->`
-comment, another blank line, then the italicized body.
+**Block labels.** English: **Proposition (1.1.4).**, **Definition (1.2.1).**, **Corollary (1.2.3).**, **Theorem (1.8.4)
+(Chevalley).**, **Lemma (3.2.1).**, **Remark (1.6.4).**, **Scholium (2.3.3).**. Never French ("Définition",
+"Corollaire", etc.). Each labeled block is followed by a blank line, the `<!-- label: IV.N.M.K -->` comment, another
+blank line, then the italicized body.
 
 **Proofs.** EGA IV follows the inline-prose convention: a proof begins immediately after the labeled italic body, in
-ordinary (non-italic) prose, *without* an explicit $**Proof.**$ marker. (This is a deliberate divergence from EGA III's
+ordinary (non-italic) prose, *without* an explicit **Proof.** marker. (This is a deliberate divergence from EGA III's
 explicit-marker convention; it matches the typographical style of the printed EGA IV, where short proofs are not always
 marked "Démonstration." in the source.) Long, multi-step proofs may use sub-paragraph markers like "Step 1.", "(a)", or
-"(i)" inline; do not insert a $**Proof.**$ header retroactively.
+"(i)" inline; do not insert a **Proof.** header retroactively.
 
 ## 2. Cross-volume citations specific to EGA IV
 
@@ -45,14 +45,14 @@ EGA IV cites several external classics. We extend the EGA III table:
 | $(G, \cdots)$ | R. Godement, _Topologie algébrique et théorie des faisceaux_ (Hermann, 1958). |
 | $(T, \cdots)$ | A. Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku Math. J., 1957). |
 | $(FAC, \cdots)$ | J.-P. Serre, _Faisceaux algébriques cohérents_ (Annals of Math., 1955). |
-| `(Bourbaki, Alg. comm., \cdots)` | N. Bourbaki, _Éléments de mathématique : Algèbre commutative_ (Hermann, 1961-1965). |
-| $(Bourbaki, Alg., \cdots)$ | N. Bourbaki, _Éléments de mathématique : Algèbre_ (Hermann, 1942-). |
-| $(Bourbaki, Top. g\acute{e}n., \cdots)$ | N. Bourbaki, _Éléments de mathématique : Topologie générale_ (Hermann, 1940-). |
+| `(Bourbaki, Alg. comm., …)` | N. Bourbaki, _Éléments de mathématique : Algèbre commutative_ (Hermann, 1961-1965). |
+| `(Bourbaki, Alg., …)` | N. Bourbaki, _Éléments de mathématique : Algèbre_ (Hermann, 1942-). |
+| `(Bourbaki, Top. gén., …)` | N. Bourbaki, _Éléments de mathématique : Topologie générale_ (Hermann, 1940-). |
 
-Bourbaki citations are rendered in the EGA form `(Bourbaki, Alg. comm., chap. II, §3, nÂ° 4)` or shorter
-`(Bourbaki, Alg. comm., II, §3, nÂ° 4)` when that matches the source. Page numbers are kept when present;
-chapter/section/nÂ° structure is preserved verbatim. Where EGA spells out the title (e.g. "Bourbaki, _Algèbre
-commutative_, chap. II, §3, nÂ° 4"), we keep the spelling and add the bracketed key in the bibliography.
+Bourbaki citations are rendered in the EGA form `(Bourbaki, Alg. comm., chap. II, §3, n° 4)` or shorter
+`(Bourbaki, Alg. comm., II, §3, n° 4)` when that matches the source. Page numbers are kept when present;
+chapter/section/n° structure is preserved verbatim. Where EGA spells out the title (e.g. "Bourbaki, _Algèbre
+commutative_, chap. II, §3, n° 4"), we keep the spelling and add the bracketed key in the bibliography.
 
 The Nagata text *Local Rings* (Interscience, 1962) is cited as $(Nagata, \cdots)$ with chapter and section number.
 Zariski- Samuel *Commutative Algebra* (Van Nostrand, 1958-1960) is cited as $(Zariski-Samuel, \cdots)$ with volume,
@@ -61,8 +61,7 @@ chapter, section.
 ## 3. Differential and formal-smoothness notation
 
 EGA IV §§0_IV.19-22 and §§IV.16-18 work systematically with derivations, differentials, and the family of formal-
-smoothness conditions. We fix the following Unicode rendering; display long expressions in fenced ```` ```text ````
-blocks.
+smoothness conditions. We fix the following LaTeX rendering; display long expressions in `$$...$$` blocks.
 
 - Module of relative differentials (rings): $\Omega_{B/A}$. EGA writes $\Omega^{1}_{B/A}$; we render as $\Omega_{B/A}$
   when no higher differentials are in play and as $\Omega^{1}_{B/A}$ when the source needs the index for disambiguation.
@@ -81,8 +80,8 @@ blocks.
 
 ## 4. Formal smoothness / étaleness / unramifiedness
 
-EGA IV §0_IV.19 and §IV.17 introduce the family of "formally $P$" properties ($P \in {smooth, \acute{e}tale,
-unramified}$). We fix the terminology as follows:
+EGA IV §0_IV.19 and §IV.17 introduce the family of "formally $P$" properties ($P \in \{\text{smooth}, \text{étale},
+\text{unramified}\}$). We fix the terminology as follows:
 
 | French | English | Note |
 | --- | --- | --- |
@@ -113,10 +112,10 @@ EGA IV §§0_IV.14-17 fix the combinatorial-dimension and depth machinery. We fi
 - Cohen-Macaulay: EGA's "anneau de Cohen-Macaulay" $\to$ "Cohen-Macaulay ring"; the abbreviation `(CM)` is preserved
   where used.
 - Regular: EGA's "régulier" $\to$ "regular".
-- $M$-regular sequence ($suite M-r\acute{e}guli\grave{e}re$): a sequence $(f_{1}, \cdots, f_{n})$ such that each $f_{i}$
-  is a non-zero-divisor on $M / (f_{1}, \cdots, f_{i-1})M$.
-- $\mathcal{F}$-regular sequence ($suite \mathcal{F}-r\acute{e}guli\grave{e}re$): the sheaf-of-modules version; rendered
-  with the script $\mathcal{F}$.
+- $M$-regular sequence (suite $M$-régulière): a sequence $(f_{1}, \cdots, f_{n})$ such that each $f_{i}$ is a
+  non-zero-divisor on $M / (f_{1}, \cdots, f_{i-1})M$.
+- $\mathcal{F}$-regular sequence (suite $\mathcal{F}$-régulière): the sheaf-of-modules version; rendered with the script
+  $\mathcal{F}$.
 
 ## 6. Jacobson preschemes and constructibility (§§IV.9-10)
 
@@ -173,8 +172,8 @@ keep:
 - one merged notation index, source-ordered with subheadings for Chap 0 (continued) and Chap IV Parts 1-4,
 - one merged bibliography.
 
-The merged back matter is the reader's surface. Each translated file's $<!-- source: \cdots -->$ footer still points to
-its original Part 1, 2, 3, or 4 OCR file.
+The merged back matter is the reader's surface. Each translated file's `<!-- source: … -->` footer still points to its
+original Part 1, 2, 3, or 4 OCR file.
 
 ## 12. §IV.11
 
@@ -194,5 +193,5 @@ Each translated section ends with:
 
 ```
 
-When no LaTeX cross-reference exists, the $cross-ref:$ line is omitted. The PDF entry is narrowed to the relevant part
+When no LaTeX cross-reference exists, the `cross-ref:` line is omitted. The PDF entry is narrowed to the relevant part
 (e.g. `EGA-IV-1.pdf` for Part 1 sections).
