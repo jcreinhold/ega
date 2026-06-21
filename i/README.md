@@ -41,5 +41,5 @@ of Schemes_. Originally published as _Publications mathématiques de l'IHÉS_, t
 - [Terminological index](index-terminology.md)
 - [Glossary and translation ledger](glossary.md)
 
-Coverage is uneven: Chapter 0 §§1–6 and Chapter I §§1–2 carry full prose; Chapter 0 §7 and the remainder of Chapter I
-are at skeleton or compact level (definitions and statements present, proofs sketched or deferred).
+Coverage: Chapter 0 §§1–6 and all of Chapter I (§§1–10) carry full prose, with proofs translated in full. Chapter 0 §7
+(adic rings) remains at compact/skeleton level (definitions and statements present, proofs sketched or deferred).
