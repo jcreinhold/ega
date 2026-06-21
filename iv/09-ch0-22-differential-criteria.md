@@ -30,31 +30,31 @@ $B/\mathfrak{J}$. Suppose that $C$ is a $\Lambda$-algebra formally smooth for th
 
 *(i) Suppose the following conditions are satisfied:*
 
-*α) $\mathfrak{J}/\mathfrak{J}^{2}$ is a projective $C$-module.*
+*$\alpha$) $\mathfrak{J}/\mathfrak{J}^{2}$ is a projective $C$-module.*
 
-*β) The canonical homomorphism $S^{\bullet}_{C}(\mathfrak{J}/\mathfrak{J}^{2}) \to gr^{\bullet}_{\mathfrak{J}}(B)$
+*$\beta$) The canonical homomorphism $S^{\bullet}_{C}(\mathfrak{J}/\mathfrak{J}^{2}) \to gr^{\bullet}_{\mathfrak{J}}(B)$
 $(0_{IV}, 19.5.2)$ is bijective.*
 
-*γ) The characteristic homomorphism $\chi : \Upsilon_{C/A/\Lambda} \to \mathfrak{J}/\mathfrak{J}^{2}$ $(0_{IV},
+*$\gamma$) The characteristic homomorphism $\chi : \Upsilon_{C/A/\Lambda} \to \mathfrak{J}/\mathfrak{J}^{2}$ $(0_{IV},
 20.6.20)$ is injective.*
 
-*δ) The $C$-module $\Omega^{1}_{B/\Lambda} \otimes_{B} C$ is projective.*
+*$\delta$) The $C$-module $\Omega^{1}_{B/\Lambda} \otimes_{B} C$ is projective.*
 
 *Then $B$, equipped with the $\mathfrak{J}$-preadic topology, is a $\Lambda$-algebra formally smooth.*
 
 *(ii) Conversely, suppose that $B$ is a $\Lambda$-algebra formally smooth for the $\mathfrak{J}$-preadic topology, and
-that $A$ is a $\Lambda$-algebra formally smooth for the discrete topology. Then the conditions α), β), γ), δ) of (i) are
+that $A$ is a $\Lambda$-algebra formally smooth for the discrete topology. Then the conditions $\alpha$), $\beta$), $\gamma$), $\delta$) of (i) are
 satisfied.*
 
 By virtue of the exact sequence $(0_{IV}, 20.6.22.1)$ (which is applicable, since $B/\mathfrak{J}^{2}$ is a
 $\Lambda$-trivial extension of $C$ by $\mathfrak{J}/\mathfrak{J}^{2}$, $C$ being supposed to be a $\Lambda$-algebra
-formally smooth $(0_{IV}, 19.4.4)$), the condition γ) is equivalent to $\Upsilon^{C}_{B/A/\Lambda} = 0$, or equivalently
+formally smooth $(0_{IV}, 19.4.4)$), the condition $\gamma$) is equivalent to $\Upsilon^{C}_{B/A/\Lambda} = 0$, or equivalently
 to the following:
 
-γ′) *The homomorphism $u_{B/A/\Lambda} \otimes 1_{C} : \Omega^{1}_{A/\Lambda} \otimes_{A} C \to \Omega^{1}_{B/\Lambda}
+$\gamma'$) *The homomorphism $u_{B/A/\Lambda} \otimes 1_{C} : \Omega^{1}_{A/\Lambda} \otimes_{A} C \to \Omega^{1}_{B/\Lambda}
 \otimes_{B} C$ is injective.*
 
-(i) The conditions α) and β) entail that $B$ is a $\Lambda$-algebra formally smooth for the $\mathfrak{J}$-preadic
+(i) The conditions $\alpha$) and $\beta$) entail that $B$ is a $\Lambda$-algebra formally smooth for the $\mathfrak{J}$-preadic
 topology $(0_{IV}, 19.5.4)$. It therefore amounts to the same to say that $B$ is (for the $\mathfrak{J}$-preadic
 topology) a $\Lambda$-algebra formally smooth, or a $\Lambda$-algebra formally smooth relative to $A$. To see that $B$
 is a $\Lambda$-algebra formally smooth, it suffices, by virtue of $(0_{IV}, 20.7.2)$, to prove that the continuous
@@ -62,19 +62,18 @@ homomorphism of topological $B$-modules $u_{B/A/\Lambda} : \Omega^{1}_{A/\Lambda
 \Omega^{1}_{B/\Lambda}$ is formally left-invertible. Now, since $B$ is a $\Lambda$-algebra formally smooth, the
 topological $B$-module $\Omega^{1}_{B/\Lambda}$ is formally projective $(0_{IV}, 20.4.9)$ and its topology is deduced
 from that of $B$ $(0_{IV}, 20.4.5)$. By virtue of $(0_{IV}, 19.1.9)$, it therefore suffices, for $u_{B/A/\Lambda}$ to be
-formally left-invertible, that $u_{B/A/\Lambda} \otimes 1_{C}$ be left-invertible. But by virtue of γ′), this last map
+formally left-invertible, that $u_{B/A/\Lambda} \otimes 1_{C}$ be left-invertible. But by virtue of $\gamma'$), this last map
 is injective, so one has the exact sequence $(0_{IV}, 20.6.14.7)$
 
-```text
-  0 → Ω^1_{A/Λ} ⊗_A C → Ω^1_{B/Λ} ⊗_B C → Ω^1_{B/A} ⊗_B C → 0.
-```
+$$ 0 \to \Omega^{1}_{A/\Lambda} \otimes_{A} C \to \Omega^{1}_{B/\Lambda} \otimes_{B} C \to \Omega^{1}_{B/A} \otimes_{B}
+C \to 0. $$
 
-Finally, by virtue of δ), the $C$-module $\Omega^{1}_{B/\Lambda} \otimes_{B} C$ is projective, so the preceding exact
+Finally, by virtue of $\delta$), the $C$-module $\Omega^{1}_{B/\Lambda} \otimes_{B} C$ is projective, so the preceding exact
 sequence is *split*, which completes the proof of (i).
 
 (ii) If $B$ is a $\Lambda$-algebra formally smooth for the $\mathfrak{J}$-preadic topology, and $A$ is a
 $\Lambda$-algebra formally smooth for the discrete topology, then $B$ is a $A$-algebra formally smooth for the
-$\mathfrak{J}$-preadic topology $(0_{IV}, 19.3.5, (ii))$; the conditions α) and β) therefore result from $(0_{IV},
+$\mathfrak{J}$-preadic topology $(0_{IV}, 19.3.5, (ii))$; the conditions $\alpha$) and $\beta$) therefore result from $(0_{IV},
 19.5.6)$. Moreover, $(0_{IV}, 20.7.2)$ shows that $u_{B/A/\Lambda}$ is formally left-invertible, hence $u_{B/A/\Lambda}
 \otimes 1_{C}$ is left-invertible $(0_{IV}, 19.1.7)$, and *a fortiori* injective.
 
@@ -103,7 +102,7 @@ $$ (22.1.2.2) \chi : \Upsilon_{K/A/\Lambda} \to \mathfrak{m}/\mathfrak{m}^{2} $$
 
 *is injective.*
 
-This follows immediately from `(22.1.1)`, the conditions α) and δ) being here trivially satisfied, since $K$ is a field.
+This follows immediately from `(22.1.1)`, the conditions $\alpha$) and $\delta$) being here trivially satisfied, since $K$ is a field.
 
 **Remark (22.1.3).**
 
@@ -155,7 +154,7 @@ C/\mathfrak{J}$ such that the homomorphism $K \to K$ obtained by passage to the 
 \xrightarrow{f} C \to C/\mathfrak{J}$, where $f$ is a local $A$-homomorphism.*
 
 The condition being necessary by definition $(0_{IV}, 19.3.1)$, we show that it is sufficient. Since the
-$A$-homomorphisms of $B$ into a discrete local `Â`-algebra arise by extension from local $A$-homomorphisms of $B$ into
+$A$-homomorphisms of $B$ into a discrete local $\hat{A}$-algebra arise by extension from local $A$-homomorphisms of $B$ into
 this algebra, one may reduce to the case where $A$ and $B$ are complete, by virtue of $(0_{IV}, 19.3.6)$. When $A$ is a
 field $k$, the proposition follows from `(22.1.3.3)`, where one takes the prime subfield of $k$ for $\Lambda$, and from
 $(0_{IV}, 19.6.1)$. In the general case, set $B_{0} = B \otimes_{A} k = B/\mathfrak{m}B$ ($\mathfrak{m}$ maximal ideal
@@ -163,9 +162,7 @@ of $A$), which is complete. If `C_0` is a local Artinian $k$-algebra with residu
 a nilpotent ideal of `C_0`, every local $k$-homomorphism $g_{0} : B_{0} \to C_{0}/\mathfrak{J}_{0}$ giving the identity
 on $K$ by passage to the quotients, gives by composition a local $A$-homomorphism
 
-```text
-  g : B → B_0 → C_0/𝔍_0
-```
+$$ g : B \to B_0 \to C_0/\mathfrak{J}_0 $$
 
 which by hypothesis therefore factors as $B \to C_{0} \to C_{0}/\mathfrak{J}_{0}$, where $f$ is a local
 $A$-homomorphism; but since `C_0` is a $k$-algebra, $f$ factors as $B \to B_{0} \xrightarrow{f_{0}} C_{0}$, where
@@ -180,12 +177,19 @@ and $B'$, and, for each $j$, let $w_{j} : B/(\mathfrak{n}^{j+1} + \mathfrak{m}B)
 \mathfrak{m}B')$ be the homomorphism deduced from $v_{0}$ by passage to the quotients; it will suffice to form for each
 $j$ a local $A$-homomorphism $v_{j} : B/\mathfrak{n}^{j+1} \to B'/\mathfrak{n}'^{j+1}$ such that the diagrams
 
-```text
-  B/𝔫^{j+1} ──v_j──▸ B′/𝔫′^{j+1}              B/𝔫^{j+1} ────v_j────▸ B′/𝔫′^{j+1}
-       │                  │                          │                       │
-       ▼                  ▼                          ▼                       ▼
-  B/𝔫^j ──v_{j-1}──▸ B′/𝔫′^j         B/(𝔫^{j+1} + 𝔪B) ─w_j─▸ B′/(𝔫′^{j+1} + 𝔪B′)
-```
+$$
+\begin{array}{ccc}
+B/\mathfrak{n}^{j+1} & \xrightarrow{v_{j}} & B'/\mathfrak{n}'^{j+1} \\
+\downarrow & & \downarrow \\
+B/\mathfrak{n}^{j} & \xrightarrow{v_{j-1}} & B'/\mathfrak{n}'^{j}
+\end{array}
+\qquad
+\begin{array}{ccc}
+B/\mathfrak{n}^{j+1} & \xrightarrow{v_{j}} & B'/\mathfrak{n}'^{j+1} \\
+\downarrow & & \downarrow \\
+B/(\mathfrak{n}^{j+1} + \mathfrak{m}B) & \xrightarrow{w_{j}} & B'/(\mathfrak{n}'^{j+1} + \mathfrak{m}B')
+\end{array}
+$$
 
 be commutative; $B$ and $B'$ being complete, the homomorphism $v = \lim v_{j}$ will answer the question. Now, the
 recursive formation of $v_{j}$ results from the hypothesis on $B$ and from the
@@ -256,14 +260,19 @@ $\alpha$). Given two such triples $(A, \alpha, \beta)$, $(A', \alpha', \beta')$,
 second is a $k$-isomorphism $u : A \xrightarrow{\sim} A'$ such that (if $\mathfrak{m}'$ is the maximal ideal of $A'$)
 the diagrams
 
-```text
-       gr^0(u)                         gr^1(u)
-  A/𝔪 ────────▸ A′/𝔪′             𝔪/𝔪² ────────▸ 𝔪′/𝔪′²
-    │              │                  │                │
-   α│              │α′               β│                │β′
-    ▼              ▼                  ▼                ▼
-    K ───1_K────▸ K                   V ────1_V────▸ V
-```
+$$
+\begin{array}{ccc}
+A/\mathfrak{m} & \xrightarrow{gr^{0}(u)} & A'/\mathfrak{m}' \\
+\downarrow{\scriptstyle \alpha} & & \downarrow{\scriptstyle \alpha'} \\
+K & \xrightarrow{1_{K}} & K
+\end{array}
+\qquad
+\begin{array}{ccc}
+\mathfrak{m}/\mathfrak{m}^{2} & \xrightarrow{gr^{1}(u)} & \mathfrak{m}'/\mathfrak{m}'^{2} \\
+\downarrow{\scriptstyle \beta} & & \downarrow{\scriptstyle \beta'} \\
+V & \xrightarrow{1_{V}} & V
+\end{array}
+$$
 
 are commutative. It is immediate that the equivalence classes of triples $(A, \alpha, \beta)$ form a set, which we
 denote $FL(K/k, V)$. We now remark that to every triple $(A, \alpha, \beta)$ is associated the composite
@@ -272,9 +281,7 @@ $K$-homomorphism of vector spaces $\Upsilon_{K/k} \xrightarrow{\chi_{A/k}} \math
 definition proves (by $(0_{IV}, 20.6.22.2)$) that this $K$-homomorphism *depends only on the equivalence class* of $(A,
 \alpha, \beta)$ in $FL(K/k, V)$; in other words one has defined a canonical map
 
-```text
-  (22.2.4.1)   FL(K/k, V) → Hom_K(Υ_{K/k}, V).
-```
+$$ FL(K/k, V) \to \operatorname{Hom}_{K}(\Upsilon_{K/k}, V). \tag{22.2.4.1} $$
 
 **Proposition (22.2.5).**
 
@@ -289,14 +296,20 @@ $k$-algebras formally smooth, $\mathfrak{m}$, $\mathfrak{m}'$ their respective m
 $k$-isomorphisms $v^{0} : A/\mathfrak{m} \xrightarrow{\sim} A'/\mathfrak{m}'$, $v^{1} : \mathfrak{m}/\mathfrak{m}^{2}
 \xrightarrow{\sim} \mathfrak{m}'/\mathfrak{m}'^{2}$ such that the diagrams
 
-```text
-                    v^0                                       v^1
-  (22.2.5.1)   A/𝔪 ────▸ A′/𝔪′                 𝔪/𝔪² ────▸ 𝔪′/𝔪′²
-                ╲       ╱                          ↖             ↗
-                 α     α′                        χ_A         χ_{A′}
-                  ╲   ╱                              ╲         ╱
-                    K                                  Υ_{K/k}
-```
+$$
+\begin{array}{ccc}
+A/\mathfrak{m} & \xrightarrow{v^{0}} & A'/\mathfrak{m}' \\
+{\scriptstyle \alpha} \searrow & & \swarrow {\scriptstyle \alpha'} \\
+& K &
+\end{array}
+\qquad
+\begin{array}{ccc}
+\mathfrak{m}/\mathfrak{m}^{2} & \xrightarrow{v^{1}} & \mathfrak{m}'/\mathfrak{m}'^{2} \\
+{\scriptstyle \chi_{A}} \nwarrow & & \nearrow {\scriptstyle \chi_{A'}} \\
+& \Upsilon_{K/k} &
+\end{array}
+\tag{22.2.5.1}
+$$
 
 are commutative. It is required to prove that there exists a $k$-isomorphism $u : A \xrightarrow{\sim} A'$ such that
 $gr^{0}(u) = v^{0}$ and $gr^{1}(u) = v^{1}$. Note first that since $K$ is a field, the canonical homomorphism $(0_{IV},
@@ -311,18 +324,18 @@ where $u$ is
 a $k$-homomorphism $(0_{IV}, 19.3.11)$, and we therefore already have $gr^{0}(u) = v^{0}$ and $gr^{1}(u) = v^{1}$. Now,
 one has the commutative diagram
 
-```text
-  S_K^•(𝔪/𝔪²)  ────────▸  gr_𝔪^•(A)
-       │                         │
-       │ w                       │ gr^•(u)
-       ▼                         ▼
-  S_K^•(𝔪′/𝔪′²) ───────▸  gr_{𝔪′}^•(A′)
-```
+$$
+\begin{array}{ccc}
+S^{\bullet}_{K}(\mathfrak{m}/\mathfrak{m}^{2}) & \longrightarrow & gr^{\bullet}_{\mathfrak{m}}(A) \\
+\downarrow{\scriptstyle w} & & \downarrow{\scriptstyle gr^{\bullet}(u)} \\
+S^{\bullet}_{K}(\mathfrak{m}'/\mathfrak{m}'^{2}) & \longrightarrow & gr^{\bullet}_{\mathfrak{m}'}(A')
+\end{array}
+$$
 
 where the horizontal arrows are the canonical homomorphisms, and $w$ arises from $v^{0}$ and $v^{1}$; since $v^{0}$ and
 $v^{1}$ are bijective, the same holds for $w$, and since $A$ and $A'$ are $k$-algebras formally smooth, one deduces from
 `(22.2.2, (i))` that $gr^{\bullet}(u)$ is bijective. But since $A$ and $A'$ are separated and complete, this entails
-that $u$ itself is bijective (Bourbaki, *Alg. comm.*, chap. III, §2, n° 8, cor. 3 of th. 1).
+that $u$ itself is bijective (Bourbaki, *Alg. comm.*, chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1).
 
 (ii) It remains to show that the image of `(22.2.4.1)` is the set of *injective* homomorphisms of $\Upsilon_{K/k}$ into
 $V$; we already know by `(22.2.2, (ii))` that it is contained in this set; it will then suffice to prove the
@@ -399,9 +412,7 @@ decreasing filtered family of subfields of $k$, such that $\bigcap_{\alpha} k_{\
 
 *a) There exists $\alpha_{0}$ such that the canonical homomorphism*
 
-```text
-  Ω^1_{k/k_α} ⊗_k K → Ω^1_{A/k_α} ⊗_A K
-```
+$$ \Omega^{1}_{k/k_\alpha} \otimes_{k} K \to \Omega^{1}_{A/k_\alpha} \otimes_{A} K $$
 
 *is injective for every $\alpha \geq \alpha_{0}$.*
 
@@ -410,9 +421,8 @@ relative to $k_{\alpha}$, for every $\alpha \geq \alpha_{0}$.*
 
 *c) For every $\alpha$ and every integer $n \geq 0$, the canonical homomorphism*
 
-```text
-  Ω^1_{k/k_α} ⊗_k (A/𝔪^{n+1}) → Ω^1_{A/k_α} ⊗_A (A/𝔪^{n+1})
-```
+$$ \Omega^{1}_{k/k_\alpha} \otimes_{k} (A/\mathfrak{m}^{n+1}) \to \Omega^{1}_{A/k_\alpha} \otimes_{A}
+(A/\mathfrak{m}^{n+1}) $$
 
 *is left-invertible.*
 
@@ -422,13 +432,13 @@ and that b) implies a). Finally, taking account of `(22.2.3)`, it remains to pro
 homomorphism $u : \Omega^{1}_{k} \otimes_{k} K \to \Omega^{1}_{A} \otimes_{A} K$ is *injective*. Now, for every $\alpha$
 one has a commutative diagram
 
-```text
-  Ω^1_k ⊗_k K ──────u──────▸ Ω^1_A ⊗_A K
-       │                            │
-       │ v_α                        │
-       ▼                            ▼
-  Ω^1_{k/k_α} ⊗_k K ──u_α──▸ Ω^1_{A/k_α} ⊗_A K
-```
+$$
+\begin{array}{ccc}
+\Omega^{1}_{k} \otimes_{k} K & \xrightarrow{u} & \Omega^{1}_{A} \otimes_{A} K \\
+\downarrow{\scriptstyle v_\alpha} & & \downarrow \\
+\Omega^{1}_{k/k_\alpha} \otimes_{k} K & \xrightarrow{u_\alpha} & \Omega^{1}_{A/k_\alpha} \otimes_{A} K
+\end{array}
+$$
 
 <!-- original page 190 -->
 
@@ -448,15 +458,11 @@ the hypothesis $\bigcap_{\alpha} k_{\alpha}(k^{p}) = k^{p}$, which completes the
 
 *c) The canonical homomorphism (0_IV, 20.5.11.2)*
 
-```text
-  δ_{K/A/k} : 𝔪/𝔪² → Ω^1_A ⊗_A K
-```
+$$ \delta_{K/A/k} : \mathfrak{m}/\mathfrak{m}^{2} \to \Omega^{1}_{A} \otimes_{A} K $$
 
 *is injective (in other words, the sequence*
 
-```text
-  (22.2.9.1)   0 → 𝔪/𝔪² → Ω^1_A ⊗_A K → Ω^1_K → 0
-```
+$$ 0 \to \mathfrak{m}/\mathfrak{m}^{2} \to \Omega^{1}_{A} \otimes_{A} K \to \Omega^{1}_{K} \to 0 \tag{22.2.9.1} $$
 
 *is exact).*
 
@@ -515,12 +521,12 @@ satisfied.
 <!-- label: 0_IV.22.3.1 -->
 
 *Let `A_0` be a Noetherian semi-local ring, $A$ a finite `A_0`-algebra (which is thus a Noetherian semi-local ring, cf.
-Bourbaki, *Alg. comm.*, chap. IV, §2, n° 5, cor. 3 of prop. 9). If $\hat{A}_{0}$ and `Â` are the completions of `A_0`
-and $A$ for their respective preadic topologies, then, when one equips `A_0`, $A$ and `Â` with the discrete topologies,
-`Â` is a $A$-algebra formally smooth relative to `A_0` $(0_{IV}, 19.9.1)$.*
+Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 5, cor. 3 of prop. 9). If $\hat{A}_{0}$ and $\hat{A}$ are the completions of
+`A_0` and $A$ for their respective preadic topologies, then, when one equips `A_0`, $A$ and $\hat{A}$ with the discrete
+topologies, $\hat{A}$ is a $A$-algebra formally smooth relative to `A_0` $(0_{IV}, 19.9.1)$.*
 
-We know indeed that $\hat{A} = A \otimes_{A_{0}} \hat{A}_{0}$ (Bourbaki, *Alg. comm.*, chap. IV, §2, n° 5, cor. 3 of
-prop. 9 and chap. III, §3, n° 4, th. 1), so the proposition results from $(0_{IV}, 19.9.3)$.
+We know indeed that $\hat{A} = A \otimes_{A_{0}} \hat{A}_{0}$ (Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 5, cor.
+3 of prop. 9 and chap. III, §3, n$^{\circ}$ 4, th. 1), so the proposition results from $(0_{IV}, 19.9.3)$.
 
 **Proposition (22.3.2).**
 
@@ -537,7 +543,7 @@ $h(\alpha)$, and that, if $K_{\alpha}$ denotes the field of fractions of $A_{\al
 K_{\alpha}(K^{p}) = K^{p}$.*
 
 *Let then $B$ be an integral finite $A$-algebra containing $A$, $\mathfrak{n}$ a prime ideal of $B$, $C$ the local ring
-$B_{\mathfrak{n}}$, $\mathfrak{q}$ a prime ideal of the completion `Ĉ` such that $\mathfrak{q} \cap C = 0$, so that the
+$B_{\mathfrak{n}}$, $\mathfrak{q}$ a prime ideal of the completion $\hat{C}$ such that $\mathfrak{q} \cap C = 0$, so that the
 local ring $\hat{C}_{\mathfrak{q}}$ is an algebra over the field of fractions $L$ of $B$. Then $\hat{C}_{\mathfrak{q}}$
 is an $L$-algebra formally smooth for its $\mathfrak{q}$-adic topology, and consequently a geometrically regular ring
 over $L$ $(0_{IV}, 19.6.5)$.*
@@ -545,40 +551,40 @@ over $L$ $(0_{IV}, 19.6.5)$.*
 Let us distinguish two cases.
 
 I) Suppose that $\mathfrak{n}$ contains the maximal ideal $\mathfrak{m}$ of $A$, and consequently $\mathfrak{n} \cap A =
-\mathfrak{m}$. Then $\mathfrak{n}$ is maximal (Bourbaki, *Alg. comm.*, chap. V, §2, n° 1, prop. 1) and if $\mathfrak{r}$
-is the radical of the semi-local ring $B$, `Ĉ` is the separated completion of $B$ for the $\mathfrak{n}$-preadic
-topology, and one of the components of the semi-local ring $\hat{B}$, the completion of $B$ for the
-$\mathfrak{r}$-preadic topology (Bourbaki, *Alg. comm.*, chap. III, §3, n° 4, prop. 8); one may therefore write
-$\hat{C}_{\mathfrak{q}} = \hat{B}_{\mathfrak{q}'}$, where $\mathfrak{q}'$ is the prime ideal of $\hat{B}$ inverse image
-of $\mathfrak{q}$. Note now that $B$ is a subring of $\hat{B}$ and the hypothesis $\mathfrak{q} \cap C = 0$ entails
-$\mathfrak{q}' \cap B = 0$, hence $\hat{B}_{\mathfrak{q}'}$ is also the localization of the ring $\hat{B} \otimes_{B} L$
-at one of its prime ideals $\mathfrak{q}''$, of which $\mathfrak{q}'$ is the inverse image in $\hat{B}$. Moreover one
-has $\hat{B} = \hat{A} \otimes_{A} B$ (Bourbaki, *Alg. comm.*, chap. IV, §2, n° 5, cor. of prop. 9 and chap. III, §3, n°
-4, th. 1), hence $\hat{B} \otimes_{B} L = \hat{A} \otimes_{A} L$; finally, if $\mathfrak{p}$ is the prime ideal of `Â`,
-inverse image of $\mathfrak{q}''$, the fact that $A \to B$ is injective and the commutativity of the diagram
+\mathfrak{m}$. Then $\mathfrak{n}$ is maximal (Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 1, prop. 1) and if
+$\mathfrak{r}$ is the radical of the semi-local ring $B$, $\hat{C}$ is the separated completion of $B$ for the
+$\mathfrak{n}$-preadic topology, and one of the components of the semi-local ring $\hat{B}$, the completion of $B$ for
+the $\mathfrak{r}$-preadic topology (Bourbaki, *Alg. comm.*, chap. III, §3, n$^{\circ}$ 4, prop. 8); one may therefore
+write $\hat{C}_{\mathfrak{q}} = \hat{B}_{\mathfrak{q}'}$, where $\mathfrak{q}'$ is the prime ideal of $\hat{B}$ inverse
+image of $\mathfrak{q}$. Note now that $B$ is a subring of $\hat{B}$ and the hypothesis $\mathfrak{q} \cap C = 0$
+entails $\mathfrak{q}' \cap B = 0$, hence $\hat{B}_{\mathfrak{q}'}$ is also the localization of the ring $\hat{B}
+\otimes_{B} L$ at one of its prime ideals $\mathfrak{q}''$, of which $\mathfrak{q}'$ is the inverse image in $\hat{B}$.
+Moreover one has $\hat{B} = \hat{A} \otimes_{A} B$ (Bourbaki, *Alg. comm.*, chap. IV, §2, n$^{\circ}$ 5, cor. of prop. 9
+and chap. III, §3, n$^{\circ}$ 4, th. 1), hence $\hat{B} \otimes_{B} L = \hat{A} \otimes_{A} L$; finally, if
+$\mathfrak{p}$ is the prime ideal of $\hat{A}$, inverse image of $\mathfrak{q}''$, the fact that $A \to B$ is injective and
+the commutativity of the diagram
 
-```text
-  B ────▸ B̂
-  ▲       ▲
-  │       │
-  A ────▸ Â
-```
+$$
+\begin{array}{ccc}
+B & \longrightarrow & \hat{B} \\
+\uparrow & & \uparrow \\
+A & \longrightarrow & \hat{A}
+\end{array}
+$$
 
 entail that $\mathfrak{p} \cap A = 0$, hence $(\hat{A} \otimes_{A} L)_{\mathfrak{q}''}$ is also localized of the ring
 
-```text
-  Â ⊗_A L = (Â ⊗_A K) ⊗_K L
-```
+$$ \hat{A} \otimes_{A} L = (\hat{A} \otimes_{A} K) \otimes_{K} L $$
 
 <!-- original page 192 -->
 
 at one of its prime ideals. To show that this local ring is an $L$-algebra formally smooth, it therefore suffices to
 prove that $\hat{A}_{\mathfrak{p}} \otimes_{A} K$ is a $K$-algebra formally smooth $(0_{IV}, 19.3.5, (iii) and (iv))$;
 moreover $\hat{A}_{\mathfrak{p}} \otimes_{A} K = \hat{A}_{\mathfrak{p}}$ since $\mathfrak{p} \cap A = 0$. We are going
-to apply the criteria `(22.2.2)` and `(22.2.8)`. In the first place, since $A$ is regular, so is `Â` $(0_{IV}, 17.1.5)$,
+to apply the criteria `(22.2.2)` and `(22.2.8)`. In the first place, since $A$ is regular, so is $\hat{A}$ $(0_{IV}, 17.1.5)$,
 hence so is $\hat{A}_{\mathfrak{p}}$ $(0_{IV}, 17.3.2)$, and condition (i) of `(22.2.2)` is satisfied $(0_{IV},
 17.1.1)$. It therefore suffices (when $p > 0$) to verify condition b) of `(22.2.8)`. Now, `(22.3.1)` shows that, for
-every $\alpha$, `Â` is an $A$-algebra formally smooth relative to $A_{\alpha}$ (for the discrete topologies);
+every $\alpha$, $\hat{A}$ is an $A$-algebra formally smooth relative to $A_{\alpha}$ (for the discrete topologies);
 consequently $\hat{A} \otimes_{A_{\alpha}} K_{\alpha} = \hat{A} \otimes_{A} (A \otimes_{A_{\alpha}} K_{\alpha})$ is a
 $(A \otimes_{A_{\alpha}} K_{\alpha})$-algebra formally smooth relative to $K_{\alpha}$, for the discrete topologies
 $(0_{IV}, 19.9.2, (iii))$. But since $A$ is a finite $A_{\alpha}$-algebra, one has $A \otimes_{A_{\alpha}} K_{\alpha} =
@@ -684,9 +690,7 @@ can be equal without one having $\mathfrak{m}' = \mathfrak{m} A'$.*
 
 *The hypotheses on $A$ and the notations being those of `(22.4.1)`, suppose that the $F_{i}$ are of the form*
 
-```text
-  (22.4.3.1)   F_i(T_i) = T_i^{d_i} + ∑_{1 ≤ k ≤ d_i} c_{ik} T_i^{d_i − k}
-```
+$$ F_i(T_i) = T_i^{d_i} + \sum_{1 \le k \le d_i} c_{ik} T_i^{d_i - k} \tag{22.4.3.1} $$
 
 *where $d_{i} \geq 2$ for every $i$, and $c_{ik} \in \mathfrak{m}$ ("Eisenstein polynomials"). Then:*
 
@@ -698,9 +702,7 @@ can be equal without one having $\mathfrak{m}' = \mathfrak{m} A'$.*
 of $A$ generated by the $\xi_{i} = c_{i, d_{i}}$ ("constant terms" of the $F_{i}$), and the cokernel of this
 homomorphism has for basis over $K'$ the images of the $T_{i}$; in particular, one has*
 
-```text
-  (22.4.3.2)   rg_{K′}(V′) = rg_K(V) + r − r′
-```
+$$ rg_{K'}(V') = rg_{K}(V) + r - r' \tag{22.4.3.2} $$
 
 *where $r' = rg_{K}(\mathfrak{n})$. When $rg_{K}(V)$ is finite (in other words when $A$ is Artinian), for $rg_{K'}(V') =
 rg_{K}(V)$, it is necessary and sufficient that the $\xi_{i}$ be linearly independent over $K$.*
@@ -712,29 +714,23 @@ residue field $K$, whose maximal ideal is generated by the classes of the $T_{i}
 (ii) Let $t_{i}$ ($1 \leq i \leq r$) be the class of $T_{i}$ mod. $\mathfrak{b}$; it follows from (i) that the maximal
 ideal $\mathfrak{m}'$ of $A'$ is given by
 
-```text
-  𝔪′ = 𝔪 A′ + ∑_{i=1}^r t_i A′
-```
+$$ \mathfrak{m}' = \mathfrak{m} A' + \sum_{i=1}^r t_i A' $$
 
 whence, taking account of $\mathfrak{m}^{2} = 0$,
 
-```text
-  𝔪′² = ∑_{i,j} t_i t_j A′ + ∑_i t_i 𝔪 A′.
-```
+$$ \mathfrak{m}'^{2} = \sum_{i,j} t_i t_j A' + \sum_i t_i \mathfrak{m} A'. $$
 
 One concludes that $A'/\mathfrak{m}'^{2}$ is isomorphic to the ring $A[T_{1}, \cdots, T_{r}]/\mathfrak{c}$, where
 $\mathfrak{c}$ is the ideal generated by the elements
 
-```text
-  F_i  (1 ≤ i ≤ r),   T_i T_j  (1 ≤ i ≤ r, 1 ≤ j ≤ r),   x T_i  (1 ≤ i ≤ r, x ∈ 𝔪).
-```
+$$ F_i \quad (1 \le i \le r), \quad T_i T_j \quad (1 \le i \le r, 1 \le j \le r), \quad x T_i \quad (1 \le i \le r, x
+\in \mathfrak{m}). $$
 
 Since $d_{i} \geq 2$ and the $T^{d_{i}}_{i}$ belong to $\mathfrak{c}$, the hypotheses made entail that $\mathfrak{c}$ is
 also generated by the elements
 
-```text
-  ξ_i  (1 ≤ i ≤ r),   T_i T_j  (1 ≤ i ≤ r, 1 ≤ j ≤ r),   T_i x  (1 ≤ i ≤ r, x ∈ 𝔪).
-```
+$$ \xi_i \quad (1 \le i \le r), \quad T_i T_j \quad (1 \le i \le r, 1 \le j \le r), \quad T_i x \quad (1 \le i \le r, x
+\in \mathfrak{m}). $$
 
 Let $\mathfrak{c}_{1} = \sum_{i,j} T_{i} T_{j} A[T_{1}, \cdots, T_{r}]$, $\mathfrak{c}_{2} = \mathfrak{c}_{1} + \sum_{i}
 \mathfrak{m} T_{i} A[T_{1}, \cdots, T_{r}]$, so that $\mathfrak{c} = \mathfrak{c}_{2} + \sum_{i} \xi_{i} A[T_{1},
@@ -753,9 +749,7 @@ $V$ identifies with $\mathfrak{m}/\mathfrak{n}$, and what precedes therefore pro
 *The hypotheses on $A$ and the notations being those of `(22.4.1)`, suppose that $K$ is of characteristic $p > 0$ (hence
 $p \cdot 1 \in \mathfrak{m}$ in $A$) and that the $F_{i}$ are of the form*
 
-```text
-  (22.4.4.1)   F_i(T_i) = T_i^p + p ∑_{k=1}^{p−1} c_{ik} T_i^{p−k} − f_i
-```
+$$ F_i(T_i) = T_i^p + p \sum_{k=1}^{p-1} c_{ik} T_i^{p-k} - f_i \tag{22.4.4.1} $$
 
 *with $c_{ik} \in A$ and $f_{i} \in A$ for every $i$ and every $k$ such that $1 \leq k \leq p - 1$; moreover, if $a_{i}$
 is the class of $f_{i}$ mod. $\mathfrak{m}$, suppose that the family $(a_{i})_{1 \leq i \leq r}$ is $p$-free over
@@ -784,9 +778,8 @@ A/\mathfrak{J}$ is of characteristic $p > 0$ (which is equivalent to saying that
 Let $\pi$ be the canonical image of $p \cdot 1$ in $\mathfrak{J}/\mathfrak{J}^{2}$. If $C$ is a $(\Lambda/p
 \Lambda)$-algebra formally smooth for the discrete topologies, one has a canonical exact sequence*
 
-```text
-  (22.4.4.3)   0 → (𝔍/𝔍²)/C · π → Ω^1_{A/Λ} ⊗_A C → Ω^1_{C/Λ} → 0.
-```
+$$ 0 \to (\mathfrak{J}/\mathfrak{J}^{2})/C \cdot \pi \to \Omega^{1}_{A/\Lambda} \otimes_{A} C \to \Omega^{1}_{C/\Lambda}
+\to 0. \tag{22.4.4.3} $$
 
 Set indeed $A' = A/p A$, $\mathfrak{J}' = \mathfrak{J}/p A$, so that $C = A'/\mathfrak{J}'$. Since $A' = A
 \otimes_{\Lambda} (\Lambda/p \Lambda)$, one has $\Omega^{1}_{A/\Lambda} \otimes_{A} A' = \Omega^{1}_{A'/\Lambda'}$ up to
@@ -794,9 +787,8 @@ a canonical isomorphism, $\Lambda'$ denoting the ring $\Lambda/p \Lambda$ $(0_{I
 sequence $(0_{IV}, 20.5.14.1)$ to the $\Lambda'$-algebra $C = A'/\mathfrak{J}'$ formally smooth, one obtains the exact
 sequence
 
-```text
-  0 → 𝔍′/𝔍′² → Ω^1_{A′/Λ′} ⊗_{A′} C → Ω^1_{C/Λ′} → 0
-```
+$$ 0 \to \mathfrak{J}'/\mathfrak{J}'^{2} \to \Omega^{1}_{A'/\Lambda'} \otimes_{A'} C \to \Omega^{1}_{C/\Lambda'} \to 0
+$$
 
 and since the homomorphism $\Lambda \to \Lambda'$ is surjective, one has $\Omega^{1}_{C/\Lambda'} =
 \Omega^{1}_{C/\Lambda}$ up to a canonical isomorphism $(0_{IV}, 20.5.15)$; whence the exact sequence `(22.4.4.3)` by
@@ -805,18 +797,16 @@ virtue of what precedes.
 (ii) Since one has $\mathfrak{m}^{2} = 0$, we shall again denote by $V'$ the ideal $\mathfrak{m}'$ regarded as a
 $K'$-vector space, and we set
 
-```text
-  (22.4.4.4)   V_0 = V/K · p = 𝔪/(𝔪² + p A),   V′_0 = V′/K′ · p = 𝔪′/(𝔪′² + p A′).
-```
+$$ V_0 = V/K \cdot p = \mathfrak{m}/(\mathfrak{m}^{2} + p A), \quad V'_0 = V'/K' \cdot p =
+\mathfrak{m}'/(\mathfrak{m}'^{2} + p A'). \tag{22.4.4.4} $$
 
 Applying the exact sequence `(22.4.4.3)` to the case $\Lambda = \mathbb{Z}$, to the $\mathbb{Z}$-algebra $A$ (resp.
 $A'$) and to its ideal $\mathfrak{m}$ (resp. $\mathfrak{m}'$), there arises, since $K$ (resp. $K'$) is separable over
 the prime field $\mathbb{Z}/p \mathbb{Z}$, hence a $(\mathbb{Z}/p \mathbb{Z})$-algebra formally smooth $(0_{IV},
 19.6.1)$, the exact sequences
 
-```text
-  (22.4.4.5)   0 → V_0 → Ω^1_A ⊗_A K → Ω^1_K → 0,    0 → V′_0 → Ω^1_{A′} ⊗_{A′} K′ → Ω^1_{K′} → 0.
-```
+$$ 0 \to V_0 \to \Omega^{1}_{A} \otimes_{A} K \to \Omega^{1}_{K} \to 0, \quad 0 \to V'_0 \to \Omega^{1}_{A'}
+\otimes_{A'} K' \to \Omega^{1}_{K'} \to 0. \tag{22.4.4.5} $$
 
 Consider then the diagram `(22.4.4.6)` whose two middle columns are the second sequence `(22.4.4.5)` and the first
 tensored by $K'$; since the first exact sequence `(22.4.4.5)` is formed of vector spaces over $K$, the two middle
@@ -831,21 +821,20 @@ the upper line of the diagram `(22.4.4.6)` is exact; the extreme columns of the 
 
 <!-- original page 196 -->
 
-```text
-                              0                       0
-                              │                       │
-                              ▼                       ▼
-  (22.4.4.6)            V_0 ⊗_K K′ ───────────────▸ V′_0
-                              │                       │
-                              ▼                       ▼
-  0 ──▸ N ──▸ Ω^1_A ⊗_A K′ ─────────────▸ Ω^1_{A′} ⊗_{A′} K′ ──▸ Ω^1_{A′/A} ⊗_{A′} K′ ──▸ 0
-                              │                       │                        ║
-                              ▼                       ▼                        ▼
-  0 ──▸ Υ_{K′/K} ──▸ Ω^1_K ⊗_K K′ ────────────────▸ Ω^1_{K′} ───────────────▸ Ω^1_{K′/K} ──▸ 0
-                              │                       │
-                              ▼                       ▼
-                              0                       0
-```
+$$
+\begin{array}{ccccccccc}
+& & 0 & & 0 & & & & \\
+& & \downarrow & & \downarrow & & & & \\
+& & V_0 \otimes_{K} K' & \longrightarrow & V'_0 & & & & \\
+& & \downarrow & & \downarrow & & & & \\
+0 \to & N \to & \Omega^{1}_{A} \otimes_{A} K' & \longrightarrow & \Omega^{1}_{A'} \otimes_{A'} K' & \to & \Omega^{1}_{A'/A} \otimes_{A'} K' & \to & 0 \\
+& & \downarrow & & \downarrow & & \| & & \\
+0 \to & \Upsilon_{K'/K} \to & \Omega^{1}_{K} \otimes_{K} K' & \longrightarrow & \Omega^{1}_{K'} & \to & \Omega^{1}_{K'/K} & \to & 0 \\
+& & \downarrow & & \downarrow & & & & \\
+& & 0 & & 0 & & & &
+\end{array}
+\tag{22.4.4.6}
+$$
 
 are thus formed respectively of the kernels and cokernels of the middle horizontal arrows, which completes proving that
 the diagram is commutative. Moreover:
@@ -856,18 +845,14 @@ the diagram is commutative. Moreover:
 
 *The homomorphisms*
 
-```text
-  N → Υ_{K′/K}    and    Ω^1_{A′/A} ⊗_{A′} K′ → Ω^1_{K′/K}
-```
+$$ N \to \Upsilon_{K'/K} \quad \text{and} \quad \Omega^{1}_{A'/A} \otimes_{A'} K' \to \Omega^{1}_{K'/K} $$
 
 *of the diagram `(22.4.4.6)` are bijective.*
 
-Indeed, the snake-diagram (Bourbaki, *Alg. comm.*, chap. I, §1, n° 4, prop. 2) applied to the two middle columns of
-`(22.4.4.6)` gives an exact sequence
+Indeed, the snake-diagram (Bourbaki, *Alg. comm.*, chap. I, §1, n$^{\circ}$ 4, prop. 2) applied to the two middle
+columns of `(22.4.4.6)` gives an exact sequence
 
-```text
-  0 → N → Υ_{K′/K} → 0 → Ω^1_{A′/A} ⊗_{A′} K′ → Ω^1_{K′/K} → 0.
-```
+$$ 0 \to N \to \Upsilon_{K'/K} \to 0 \to \Omega^{1}_{A'/A} \otimes_{A'} K' \to \Omega^{1}_{K'/K} \to 0. $$
 
 Now, if $t_{i}$ is the canonical image of $T_{i}$ in $A'$, the relation $F_{i}(t_{i}) = 0$, together with the fact that
 in $A'$ one has $p \cdot 1 \in \mathfrak{m} A' \subset \mathfrak{m}'$, shows at once that $d_{A'} f_{i} \in
@@ -878,23 +863,17 @@ basis of $\Upsilon_{K'/K}$ over $K'$ $(0_{IV}, 21.4.7)$; taking account of `(22.
 
 (22.4.5) Consider now two rings $A$, $B$ of characteristic $p > 0$, and two homomorphisms
 
-```text
-  A ─i→ B ─j→ A
-```
+$$ A \xrightarrow{i} B \xrightarrow{j} A $$
 
 <!-- original page 197 -->
 
 verifying the conditions of $(0_{IV}, 21.3.1)$. Let furthermore $\mathfrak{m}$ be an ideal of square zero in $A$; set
 
-```text
-  K = A/𝔪,   B_{(K)} = B ⊗_A K = B/B i(𝔪)
-```
+$$ K = A/\mathfrak{m}, \quad B_{(K)} = B \otimes_{A} K = B/B i(\mathfrak{m}) $$
 
 and let
 
-```text
-  φ : A → K,   ψ : B → B_{(K)}
-```
+$$ \varphi : A \to K, \quad \psi : B \to B_{(K)} $$
 
 be the canonical homomorphisms.
 
@@ -906,15 +885,12 @@ $$ j' : B_{(K)} \to A $$
 
 such that, if $i' = \psi \circ i : A \to B_{(K)}$, one has
 
-```text
-  j′(i′(x)) = x^p   and   i′(j′(y)) = y^p   for x ∈ A and y ∈ B_{(K)}.
-```
+$$ j'(i'(x)) = x^p \quad \text{and} \quad i'(j'(y)) = y^p \quad \text{for } x \in A \text{ and } y \in B_{(K)}. $$
 
 On setting, following the notations of $(0_{IV}, 21.3.2)$,
 
-```text
-  Θ_{B_{(K)}/A} = Ω^1_{B_{(K)}/A} ⊗_{B_{(K)}} A_{[j′]} = Ω^1_{B_{(K)}/K} ⊗_{B_{(K)}} A_{[j′]},
-```
+$$ \Theta_{B_{(K)}/A} = \Omega^{1}_{B_{(K)}/A} \otimes_{B_{(K)}} A_{[j']} = \Omega^{1}_{B_{(K)}/K} \otimes_{B_{(K)}}
+A_{[j']}, $$
 
 one has $(0_{IV}, 21.3.2.2)$ a canonical homomorphism
 
@@ -923,57 +899,49 @@ $$ (22.4.5.1) \pi_{B_{(K)}/A} : \Theta_{B_{(K)}/A} \to \Omega^{1}_{A}. $$
 On the other hand, one deduces from $i$ and $j$, by passage to the quotients (taking account of the fact that
 $j(i(\mathfrak{m})) = 0$), homomorphisms
 
-```text
-  K ─i_0→ B_{(K)} ─j_0→ K
-```
+$$ K \xrightarrow{i_0} B_{(K)} \xrightarrow{j_0} K $$
 
 so that one has the commutative diagram
 
-```text
-  A ─i→ B ─j→ A
-  │     │    │
-  φ▼   ψ▼  ▼φ
-  K ─i_0→ B_{(K)} ─j_0→ K
-```
+$$
+\begin{array}{ccccc}
+A & \xrightarrow{i} & B & \xrightarrow{j} & A \\
+\downarrow{\scriptstyle \varphi} & & \downarrow{\scriptstyle \psi} & & \downarrow{\scriptstyle \varphi} \\
+K & \xrightarrow{i_0} & B_{(K)} & \xrightarrow{j_0} & K
+\end{array}
+$$
 
 Clearly furthermore one has
 
-```text
-  j_0(i_0(s)) = s^p   and   i_0(j_0(t)) = t^p   for s ∈ K and t ∈ B_{(K)}.
-```
+$$ j_0(i_0(s)) = s^p \quad \text{and} \quad i_0(j_0(t)) = t^p \quad \text{for } s \in K \text{ and } t \in B_{(K)}. $$
 
 One thus defines similarly
 
-```text
-  Θ_{B_{(K)}/K} = Ω^1_{B_{(K)}/K} ⊗_{B_{(K)}} K_{[j_0]} = Θ_{B_{(K)}/A} ⊗_A K
-```
+$$ \Theta_{B_{(K)}/K} = \Omega^{1}_{B_{(K)}/K} \otimes_{B_{(K)}} K_{[j_0]} = \Theta_{B_{(K)}/A} \otimes_{A} K $$
 
 hence, on tensoring `(22.4.5.1)` with $K$, one obtains a canonical $K$-homomorphism
 
-```text
-  (22.4.5.2)   π′_{B_{(K)}/K} = π_{B_{(K)}/A} ⊗ 1_K : Θ_{B_{(K)}/K} → Ω^1_A ⊗_A K.
-```
+$$ \pi'_{B_{(K)}/K} = \pi_{B_{(K)}/A} \otimes 1_K : \Theta_{B_{(K)}/K} \to \Omega^{1}_{A} \otimes_{A} K. \tag{22.4.5.2}
+$$
 
 <!-- original page 198 -->
 
 It results at once from the definitions that the diagram
 
-```text
-                  π_{B_{(K)}/K}
-  Θ_{B_{(K)}/K} ─────────────▸ Ω^1_A ⊗_A K
-            ╲                       │
-   π_{B_{(K)}/K}                    │ φ_{K/A}
-              ╲                     ▼
-                Ω^1_K
-```
+$$
+\begin{array}{ccc}
+\Theta_{B_{(K)}/K} & \xrightarrow{\pi_{B_{(K)}/K}} & \Omega^{1}_{A} \otimes_{A} K \\
+{\scriptstyle \pi_{B_{(K)}/K}} \searrow & & \downarrow{\scriptstyle \varphi_{K/A}} \\
+& \Omega^{1}_{K} &
+\end{array}
+$$
 
 is commutative, $\pi_{B_{(K)}/K}$ being the canonical homomorphism corresponding to $i_{0}$ and $j_{0}$ $(0_{IV},
 21.3.2.2)$. By restriction to $\Xi_{B_{(K)}/K} = Ker(\pi_{B_{(K)}/K})$, the homomorphism $\pi'_{B_{(K)}/K}$ therefore
 defines a canonical homomorphism
 
-```text
-  (22.4.5.3)   Ξ_{B_{(K)}/K} → Ker(Ω^1_A ⊗_A K → Ω^1_K) = Υ_{K/A}.
-```
+$$ \Xi_{B_{(K)}/K} \to \operatorname{Ker}(\Omega^{1}_{A} \otimes_{A} K \to \Omega^{1}_{K}) = \Upsilon_{K/A}.
+\tag{22.4.5.3} $$
 
 (22.4.6) The hypotheses and notations being those of `(22.4.5)`, suppose moreover that $\mathfrak{m}$ is a maximal ideal
 of square zero, hence $K$ a field, and denote by $V$ the ideal $\mathfrak{m}$ regarded as a $K$-vector space. Since $K$
@@ -981,9 +949,7 @@ is a formally smooth algebra over its prime field $\mathbb{F}_{p}$ $(0_{IV}, 21.
 $\mathbb{F}_{p}$ (so that $\Omega^{1}_{A} = \Omega^{1}_{A/\mathbb{F}_{p}}$), one deduces from $(0_{IV}, 20.5.14)$ that
 one has an exact sequence
 
-```text
-  (22.4.6.1)   0 → V → Ω^1_A ⊗_A K → Ω^1_K → 0.
-```
+$$ 0 \to V \to \Omega^{1}_{A} \otimes_{A} K \to \Omega^{1}_{K} \to 0. \tag{22.4.6.1} $$
 
 One has therefore by `(22.4.5.3)` a homomorphism denoted
 
@@ -1000,9 +966,7 @@ $\pi'_{B_{(K)}/K}$ be injective, the kernel of the latter being evidently contai
 *Let $A$ be a local Artinian ring whose maximal ideal $\mathfrak{m}$ has square zero, $K = A/\mathfrak{m}$ its residue
 field, $V$ the ideal $\mathfrak{m}$ regarded as a $K$-vector space; suppose that $A$ is of characteristic $p > 0$; let*
 
-```text
-  (22.4.7.1)   F_i(T_i) = T_i^p − f_i    with f_i ∈ A (1 ≤ i ≤ r)
-```
+$$ F_i(T_i) = T_i^p - f_i \quad \text{with } f_i \in A \quad (1 \le i \le r) \tag{22.4.7.1} $$
 
 *and denote by $B$ the quotient ring of $A[T_{1}, \cdots, T_{r}]$ by the ideal generated by the $r$ polynomials $F_{i}$.
 Then:*
@@ -1025,9 +989,7 @@ necessarily $p$-independent over $K^{p}$, but one may always suppose that the su
 $(a_{i})_{s+1 \leq i \leq r}$ is $p$-free over $K^{p}$ and forms a $p$-basis over $K^{p}$ of the field $K^{p}(a_{1},
 \cdots, a_{r})$, so that one has
 
-```text
-  a_i ∈ K^p(a_{s+1}, …, a_r)   for 1 ≤ i ≤ s.
-```
+$$ a_i \in K^p(a_{s+1}, \ldots, a_r) \quad \text{for } 1 \le i \le s. $$
 
 Denote by $A''$ the quotient ring of $A[T_{s+1}, \cdots, T_{r}]$ by the ideal generated by the $F_{i}$ of index $i \geq
 s + 1$; then, by `(22.4.4)`, $A''$ is a local ring whose maximal ideal is $\mathfrak{m}'' = \mathfrak{m} A''$ (hence of
@@ -1040,9 +1002,7 @@ where $g_{i} \in A''$ and $h_{i} \in \mathfrak{m}''$ (since $\mathfrak{m}''^{2} 
 immediate that $h_{i}$ is determined uniquely by these conditions). Replacing $T_{i}$ by $T_{i} + g_{i}$, one sees
 therefore that if one sets
 
-```text
-  G_i(T_i) = T_i^p + ∑_{k=1}^{p−1} (p choose k) g_i^{p−k} T_i^k − h_i    (1 ≤ i ≤ s)
-```
+$$ G_i(T_i) = T_i^p + \sum_{k=1}^{p-1} \binom{p}{k} g_i^{p-k} T_i^k - h_i \quad (1 \le i \le s) $$
 
 $B$ is the quotient ring of $A''[T_{1}, \cdots, T_{s}]$ by the ideal generated by the $G_{i}$; now, all the coefficients
 of $G_{i}$ except the leading coefficient belong to $\mathfrak{m}''$, hence one is in the situation of `(22.4.3)`, $B$
@@ -1051,9 +1011,7 @@ from $B^{p} \subset A$, and consequently there is only one ideal of $B$ over $\m
 
 Note now that for `(22.4.7.2)` to be injective, it is necessary and sufficient that the same hold for
 
-```text
-  π′_{B_{(K)}/K} : Ω^1_{B_{(K)}/B_{(K)}} K → Ω^1_A ⊗_A K
-```
+$$ \pi'_{B_{(K)}/K} : \Omega^{1}_{B_{(K)}/B_{(K)}} K \to \Omega^{1}_{A} \otimes_{A} K $$
 
 (by `(22.4.6)`). Now $B_{(K)} = B/\mathfrak{m} B$ is the quotient algebra of $C = K[T_{1}, \cdots, T_{r}]$ by the ideal
 generated by the polynomials $\bar{F}_{i} = T^{p}_{i} - a_{i}$, and since $d_{C/K} \bar{F}_{i} = 0$ it follows from
@@ -1098,9 +1056,7 @@ $\mathfrak{m}$ an ideal of square zero in $A$, $K = A/\mathfrak{m}$, $p$ a prime
 \mathfrak{m}$ (in other words $K$ is of characteristic $p$, but not necessarily $A$). Let on the other hand $B$ be an
 $A$-algebra which is a faithfully flat $A$-module (so that $A \subset B$), and suppose one has*
 
-```text
-  (22.4.8.1)   y^p ∈ A + p B ⊂ A + 𝔪 B
-```
+$$ y^p \in A + p B \subset A + \mathfrak{m} B \tag{22.4.8.1} $$
 
 *for every $y \in B$. If $y^{p} = x + p z$ with $x \in A$, $z \in B$, the class mod. $(A \cap p B)$ of $x$ is well
 determined, and since $A \cap p B = p A$ (since $B$ is a faithfully flat $A$-module), one has thus defined a canonical
@@ -1114,16 +1070,12 @@ map, $i_{0}$ and $j_{0}$ verify the conditions of $(0_{IV}, 21.3.1)$ for the rin
 $B_{(K)}$. This being so, to define a $K$-homomorphism $\pi'_{B_{(K)}/K} : \Omega^{1}_{B_{(K)}/K} \otimes_{B_{(K)}}
 K_{[j_{0}]} \to \Omega^{1}_{A} \otimes_{A} K$, it suffices $(0_{IV}, 20.4.8)$ to define a $K$-derivation*
 
-```text
-  (22.4.8.2)   D_0 : B_{(K)} → Ω^1_A ⊗_A K
-```
+$$ D_0 : B_{(K)} \to \Omega^{1}_{A} \otimes_{A} K \tag{22.4.8.2} $$
 
 *where the second member is regarded as a $B_{(K)}$-module by means of $j_{0}$. For this, it suffices to define an
 $A$-derivation*
 
-```text
-  (22.4.8.3)   D : B → Ω^1_A ⊗_A K
-```
+$$ D : B \to \Omega^{1}_{A} \otimes_{A} K \tag{22.4.8.3} $$
 
 *which vanishes in $\mathfrak{m} B$ (the second member being regarded as $B$-module by means of $j'$). Now, if one has
 the relation $y^{p} = x + p z$ with $y \in B$, $x \in A$, $z \in B$, the element $d_{A} x \otimes 1_{K}$ of
@@ -1131,9 +1083,7 @@ $\Omega^{1}_{A} \otimes_{A} K$ depends only on the class $j(y)$ mod. `p A` of $x
 A$ one has $d_{A}(p t) = p d_{A}(t)$, hence $d_{A}(p t) \otimes 1 = 0$ in $\Omega^{1}_{A} \otimes_{A} K = \Omega^{1}_{A}
 / \mathfrak{m} \Omega^{1}_{A}$, since $p \cdot 1 \in \mathfrak{m}$. One may therefore take*
 
-```text
-  D(y) = d_A x ⊗ 1_K.
-```
+$$ D(y) = d_A x \otimes 1_K. $$
 
 *The fact that $D$ is a derivation results easily from the fact that $j$ is a ring homomorphism; moreover, for $t \in
 A$, one has $d_{A}(t^{p} x) = t^{p} d_{A}(x) + p t^{p-1} x d_{A}(t)$ and one extracts from this that $D(t y) = t D(y)$,
@@ -1144,32 +1094,23 @@ hence $D$ is an $A$-derivation; finally, if one has moreover $t \in \mathfrak{m}
 *$D(t y) = t D(y) = 0$ since $\Omega^{1}_{A} \otimes_{A} K$ is annihilated by $\mathfrak{m}$. One has thus defined the
 homomorphism `(22.4.5.2)` sought, and it is immediate to verify that the composite homomorphism*
 
-```text
-                          π_{B_{(K)}/K}
-  Θ_{B_{(K)}/K} ─────────────────────────▸ Ω^1_A ⊗_A K → Ω^1_K
-```
+$$ \Theta_{B_{(K)}/K} \xrightarrow{\pi_{B_{(K)}/K}} \Omega^{1}_{A} \otimes_{A} K \to \Omega^{1}_{K} $$
 
 *is still the canonical homomorphism $\pi_{B_{(K)}/K}$ (relative to $i_{0}$ and $j_{0}$). One has therefore also a
 canonical homomorphism analogous to `(22.4.5.3)`.*
 
 *If now $K$ is a field, $A/p A$ is an $\mathbb{F}_{p}$-algebra, and one has the exact sequence (0_IV, 20.5.14)*
 
-```text
-  0 → V/p A → Ω^1_{A/p A} ⊗_{A/p A} K → Ω^1_K → 0
-```
+$$ 0 \to V/p A \to \Omega^{1}_{A/p A} \otimes_{A/p A} K \to \Omega^{1}_{K} \to 0 $$
 
 *and on the other hand one has the exact sequence (0_IV, 20.5.12.1)*
 
-```text
-  p A → Ω^1_A ⊗_A (A/p A) → Ω^1_{A/p A} → 0
-```
+$$ p A \to \Omega^{1}_{A} \otimes_{A} (A/p A) \to \Omega^{1}_{A/p A} \to 0 $$
 
 *which shows, on tensoring with $K$, that the $K$-vector spaces $\Omega^{1}_{A} \otimes_{A} K$ and $\Omega^{1}_{A/p A}
 \otimes_{A/p A} K$ are isomorphic. The analogue of `(22.4.6.2)` is therefore here a homomorphism*
 
-```text
-  (22.4.8.4)   Ξ_{B_{(K)}/K} → V/p A = 𝔪/(𝔪² + p A).
-```
+$$ \Xi_{B_{(K)}/K} \to V/p A = \mathfrak{m}/(\mathfrak{m}^{2} + p A). \tag{22.4.8.4} $$
 
 *This said, the criterion `(22.4.7)`, where one replaces $V$ and $V'$ by $V/p A$ and $V'/p B$ respectively, remains
 valid supposing only that $K$ is of characteristic $p > 0$ (in other words, that $p \cdot 1 \in \mathfrak{m}$ in $A$),
@@ -1227,9 +1168,7 @@ $$ (22.5.2.2) rg_{K}(V) \leq rg_{K'}(\mathfrak{m}'/\mathfrak{m}'^{2}). $$
 *Let $A$ be a regular local ring, $\mathfrak{m}$ its maximal ideal, $T_{i}$ ($1 \leq i \leq r$) indeterminates, and for
 each $i$, let*
 
-```text
-  (22.5.3.1)   F_i(T_i) = T_i^{d_i} + ∑_{1 ≤ k ≤ d_i} c_{ik} T_i^{d_i − k}
-```
+$$ F_i(T_i) = T_i^{d_i} + \sum_{1 \le k \le d_i} c_{ik} T_i^{d_i - k} \tag{22.5.3.1} $$
 
 *be a unitary polynomial of $A[T_{i}]$, such that $d_{i} \geq 2$ for every $i$ and $c_{ik} \in \mathfrak{m}$. Let $A'$
 be the quotient of the polynomial ring $A[T_{1}, \cdots, T_{r}]$ by the ideal generated by the $r$ polynomials $F_{i}$.
@@ -1250,9 +1189,7 @@ polynomials $\bar{F}_{i}$ as in `(22.4.1)`, and the conclusion therefore results
 
 *Let $A$ be a regular local ring, $K$ its residue field; suppose that $K$ is of characteristic $p > 0$; let*
 
-```text
-  (22.5.4.1)   F_i(T_i) = T_i^p + p ∑_{k=1}^{p−1} c_{ik} T_i^{p−k} − f_i
-```
+$$ F_i(T_i) = T_i^p + p \sum_{k=1}^{p-1} c_{ik} T_i^{p-k} - f_i \tag{22.5.4.1} $$
 
 *with $c_{ik} \in A$ and $f_{i} \in A$ ($1 \leq i \leq r$); let $B$ be the quotient ring of $A[T_{1}, \cdots, T_{r}]$ by
 the ideal generated by the $r$ polynomials $F_{i}$. Then $B$ is a local ring, and the following conditions are
@@ -1276,12 +1213,10 @@ and `(22.4.7.4)`, using remark `(22.4.8)` when `A_1` is not of characteristic $p
 (22.5.5) Let $k$ be a field of characteristic $p > 0$, $A$ a local ring, $k'$ a finite radicial extension of $k$ such
 that $k'^{p} \subset k$, $\mathfrak{m}$ the maximal ideal of $A$, $K = A/\mathfrak{m}$ its residue field; recall that
 $A' = A \otimes_{k} k'$ is a local ring whose residue field is the same as that of the local ring $K \otimes_{k} k'$
-(Bourbaki, *Alg. comm.*, chap. V, §2, n° 3, lemma 4). Note that one has $A'_{(K)} = A' \otimes_{A'} K = K \otimes_{k}
-k'$, and consequently $(0_{IV}, 21.3.6)$
+(Bourbaki, *Alg. comm.*, chap. V, §2, n$^{\circ}$ 3, lemma 4). Note that one has $A'_{(K)} = A' \otimes_{A'} K = K
+\otimes_{k} k'$, and consequently $(0_{IV}, 21.3.6)$
 
-```text
-  (22.5.5.1)   Θ_{A′_{(K)}/K} = Θ_{k′/k} ⊗_k K
-```
+$$ \Theta_{A'_{(K)}/K} = \Theta_{k'/k} \otimes_{k} K \tag{22.5.5.1} $$
 
 up to a canonical isomorphism. Moreover, one knows $(0_{IV}, 21.4.7)$ that one has $\Xi_{k'/k} = 0$, in other words the
 canonical homomorphism $(0_{IV}, 21.3.2.2)$
@@ -1290,9 +1225,7 @@ $$ \pi_{k'/k} : \Theta_{k'/k} \to \Omega^{1}_{k} $$
 
 is injective, so one has a canonical injection
 
-```text
-  (22.5.5.2)   Θ_{A′_{(K)}/K} → Ω^1_k ⊗_k K
-```
+$$ \Theta_{A'_{(K)}/K} \to \Omega^{1}_{k} \otimes_{k} K \tag{22.5.5.2} $$
 
 which is made explicit as follows (taking account of `(22.5.5.1)`): for every $x' \in k'$, to the element
 $d_{A'_{(K)}/K}(x' \otimes 1_{K}) \otimes 1_{K}$ of $\Omega^{1}_{A'_{(K)}/A'_{(K)}} K$, one makes correspond the element
@@ -1358,18 +1291,18 @@ equivalent:*
 
 *b) $A$ is geometrically regular over $k$.*
 
-*b′) For every finite extension $k'$ of $k$ such that $k'^{p} \subset k$, $A' = A \otimes_{k} k'$ is a regular ring.*
+*$b'$) For every finite extension $k'$ of $k$ such that $k'^{p} \subset k$, $A' = A \otimes_{k} k'$ is a regular ring.*
 
 Taking account of $(0_{IV}, 19.6.6)$, one may reduce to the case $p > 1$.
 
-The fact that a) implies b) is none other than $(0_{IV}, 19.6.5)$, and b) trivially entails b′). We show that b′)
-entails that the conditions of `(22.2.2)` are satisfied; this is evident for the first $(0_{IV}, 17.1.1)$ since b′)
+The fact that a) implies b) is none other than $(0_{IV}, 19.6.5)$, and b) trivially entails $b'$). We show that $b'$)
+entails that the conditions of `(22.2.2)` are satisfied; this is evident for the first $(0_{IV}, 17.1.1)$ since $b'$)
 implies first that $A$ is regular. On the other hand, let $(x_{\alpha})_{\alpha \in I}$ be a $p$-basis of $k^{1/p}$ over
 $k$; one knows that the elements $d_{k}(x^{p}_{\alpha})$ form a basis of the $k$-vector space $\Omega^{1}_{k}$ $(0_{IV},
 21.4.5)$, hence the elements $d_{k}(x^{p}_{\alpha}) \otimes 1_{K}$ form a basis of the $K$-vector space $\Omega^{1}_{k}
 \otimes_{k} K$. One concludes (cf. `(22.5.5)`) that when $k'$ runs through the set of subextensions of $k^{1/p}$, finite
 over $k$, the family of subspaces $\Theta_{k'/k} \otimes_{k} K$ of $\Omega^{1}_{k} \otimes_{k} K$ is filtering
-increasing and has for union $\Omega^{1}_{k} \otimes_{k} K$. It follows then from `(22.5.7)` that condition b′) entails
+increasing and has for union $\Omega^{1}_{k} \otimes_{k} K$. It follows then from `(22.5.7)` that condition $b'$) entails
 that $\chi_{A/k}$ is injective, which is none other than condition (ii) of `(22.2.2)`.
 
 **Corollary (22.5.9).**
@@ -1387,7 +1320,7 @@ hypothesis, the same holds of $A_{\mathfrak{p}} \otimes_{k} k'$ $(0_{IV}, 17.3.6
 
 <!-- label: 0_IV.22.5.10 -->
 
-*(i) The conclusion of `(22.5.8)` is in default when, in condition b′), one restricts to monogenic extensions $k' =
+*(i) The conclusion of `(22.5.8)` is in default when, in condition $b'$), one restricts to monogenic extensions $k' =
 k(x)$ of $k$ (with $x^{p} \in k$). It may indeed happen that for *all* these extensions $k'$, one has $\Upsilon_{K/k}
 \cap (\Theta_{k'/k} \otimes_{k} K) = 0$, even though $\Upsilon_{K/k} \neq 0$; this means that for every $x \in k^{1/p}$
 such that $x \notin k$, one must have $d_{k}(x^{p}) \otimes 1 \notin \Upsilon_{K/k}$, or equivalently $d_{K}(x^{p}) \neq
@@ -1416,9 +1349,7 @@ smooth, $\mathfrak{J}$ an ideal of $B$ (not necessarily closed), $C = B/\mathfra
 $A$-algebra. For $C$ to be a $A$-algebra formally smooth, it is necessary and sufficient that the canonical homomorphism
 (cf. $(0_{IV}, 20.5.11.2)$)*
 
-```text
-  (22.6.1.1)   δ_{C/B/A} : 𝔍/𝔍² → Ω^1_{B/A} ⊗_B C
-```
+$$ \delta_{C/B/A} : \mathfrak{J}/\mathfrak{J}^{2} \to \Omega^{1}_{B/A} \otimes_{B} C \tag{22.6.1.1} $$
 
 *be formally left-invertible (cf. $(0_{IV}, 19.1.5)$).*
 
@@ -1450,9 +1381,7 @@ fundamental system of open ideals of $B$ and set $B_{\lambda} = B/\mathfrak{b}_{
 
 *b) For every $\lambda$, the homomorphism of $B_{\lambda}$-modules*
 
-```text
-  (22.6.2.1)   (𝔍/𝔍²) ⊗_B B_λ → Ω^1_{B/A} ⊗_B B_λ
-```
+$$ (\mathfrak{J}/\mathfrak{J}^{2}) \otimes_{B} B_\lambda \to \Omega^{1}_{B/A} \otimes_{B} B_\lambda \tag{22.6.2.1} $$
 
 *deduced from $\delta_{C/B/A}$ by tensorisation, is left-invertible (in other words an isomorphism onto a direct factor
 of $\Omega^{1}_{B/A} \otimes_{B} B_{\lambda}$).*
@@ -1465,9 +1394,7 @@ of $\Omega^{1}_{B/A} \otimes_{B} B_{\lambda}$).*
 
 *c) The homomorphism of $(C/\mathfrak{L})$-modules*
 
-```text
-  (𝔍/𝔍²) ⊗_C (C/𝔏) → Ω^1_{B/A} ⊗_B (C/𝔏)
-```
+$$ (\mathfrak{J}/\mathfrak{J}^{2}) \otimes_{C} (C/\mathfrak{L}) \to \Omega^{1}_{B/A} \otimes_{B} (C/\mathfrak{L}) $$
 
 *is left-invertible.*
 
@@ -1503,13 +1430,12 @@ are equivalent:*
 
 *a) $C_{\mathfrak{p}}$ is a $A_{\mathfrak{q}}$-algebra formally smooth (for the discrete topologies).*
 
-*a′) $C_{\mathfrak{p}}$ is a $A$-algebra formally smooth (for the discrete topologies).*
+*$a'$) $C_{\mathfrak{p}}$ is a $A$-algebra formally smooth (for the discrete topologies).*
 
 *b) The canonical homomorphism*
 
-```text
-  (22.6.4.1)   (𝔍/𝔍²) ⊗_C k(𝔭) → Ω^1_{B/A} ⊗_B k(𝔭)
-```
+$$ (\mathfrak{J}/\mathfrak{J}^{2}) \otimes_{C} k(\mathfrak{p}) \to \Omega^{1}_{B/A} \otimes_{B} k(\mathfrak{p})
+\tag{22.6.4.1} $$
 
 *is injective.*
 
@@ -1521,10 +1447,10 @@ are equivalent:*
 $C_{\mathfrak{p}}$ and the discrete topology (or the $\mathfrak{q}$-preadic topology) on $A_{\mathfrak{q}}$.*
 
 Since $A_{\mathfrak{q}}$ is a $A$-algebra formally smooth $(0_{IV}, 19.3.5, (iv) and (ii))$, one already knows that a)
-and a′) are equivalent $(0_{IV}, 19.3.5, (ii))$. One has $C_{\mathfrak{p}} = B_{\mathfrak{p}'}/\mathfrak{J}
+and $a'$) are equivalent $(0_{IV}, 19.3.5, (ii))$. One has $C_{\mathfrak{p}} = B_{\mathfrak{p}'}/\mathfrak{J}
 B_{\mathfrak{p}'}$ and $B_{\mathfrak{p}'}$ is a $A$-algebra formally smooth for the discrete topology $(0_{IV}, 19.3.5,
 (iv))$; moreover $\Omega^{1}_{B_{\mathfrak{p}'}/A} = (\Omega^{1}_{B/A})_{\mathfrak{p}'}$ $(0_{IV}, 20.5.9)$. The
-equivalence of a′) and b) then results from the application of `(22.6.3)` to $B_{\mathfrak{p}'}$ and $C_{\mathfrak{p}}$,
+equivalence of $a'$) and b) then results from the application of `(22.6.3)` to $B_{\mathfrak{p}'}$ and $C_{\mathfrak{p}}$,
 taking account of the fact that $\Omega^{1}_{B/A}$ is a projective $B$-module ($(0_{IV}, 20.4.9)$ and $(0_{IV},
 19.2.1)$) and $\mathfrak{J}/\mathfrak{J}^{2}$ a $B$-module of finite type, and using $(0_{IV}, 19.1.12)$. The
 application of $(0_{IV}, 19.1.12)$ also proves the equivalence of b) and c). Finally, note that since
@@ -1697,17 +1623,15 @@ conditions properties a) and c) are equivalent $(0_{IV}, 19.6.4)$. Moreover $A_{
 $A_{\mathfrak{p}}$ is formally smooth over $k$ for the $\mathfrak{p}$-preadic topology $(0_{IV}, 19.6.4)$. It therefore
 results from `(22.6.2, (ii))` that condition a) amounts to the fact that the homomorphism of $L$-vector spaces
 
-```text
-  (22.7.2.1)   j_0 : (𝔮/𝔮²) ⊗_A L → Ω^1_{A_𝔭} ⊗_{A_𝔭} L = Ω̂^1_{A/k} ⊗_A L
-```
+$$ j_0 : (\mathfrak{q}/\mathfrak{q}^{2}) \otimes_{A} L \to \Omega^{1}_{A_\mathfrak{p}} \otimes_{A_\mathfrak{p}} L =
+\hat{\Omega}^{1}_{A/k} \otimes_{A} L \tag{22.7.2.1} $$
 
 is injective.
 
 Consider on the other hand the composite homomorphism
 
-```text
-  (22.7.2.2)   j : (𝔮/𝔮²) ⊗_A L ─j_∗→ Ω^1_{A/k} ⊗_A L → Ω̂^1_{A/k} ⊗_A L
-```
+$$ j : (\mathfrak{q}/\mathfrak{q}^{2}) \otimes_{A} L \xrightarrow{j_{*}} \Omega^{1}_{A/k} \otimes_{A} L \to
+\hat{\Omega}^{1}_{A/k} \otimes_{A} L \tag{22.7.2.2} $$
 
 and let us show that condition b) is equivalent to saying that $j$ is injective. Note indeed that
 $(\mathfrak{q}/\mathfrak{q}^{2}) \otimes_{A} L = (\mathfrak{q} A_{\mathfrak{p}}/\mathfrak{q}^{2} A_{\mathfrak{p}})
@@ -1729,15 +1653,14 @@ $(\langle F_{i}, D_{j} \otimes 1\rangle)$ be invertible, in other words conditio
 These remarks already show that b) entails a). To prove conversely that condition a) entails that $j$ is injective,
 consider the commutative diagram
 
-```text
-                              j
-  (22.7.2.3)   (𝔮/𝔮²) ⊗_A L ─────▸ Ω̂^1_{A/k} ⊗_A L
-                       │                  ║
-                       α                  ║
-                       ▼                  ║
-              (𝔭/𝔭²) ⊗_A L ─────▸ Ω̂^1_{A/k} ⊗_A L
-                              i
-```
+$$
+\begin{array}{ccc}
+(\mathfrak{q}/\mathfrak{q}^{2}) \otimes_{A} L & \xrightarrow{j} & \hat{\Omega}^{1}_{A/k} \otimes_{A} L \\
+\downarrow{\scriptstyle \alpha} & & \| \\
+(\mathfrak{p}/\mathfrak{p}^{2}) \otimes_{A} L & \xrightarrow{i} & \hat{\Omega}^{1}_{A/k} \otimes_{A} L
+\end{array}
+\tag{22.7.2.3}
+$$
 
 and note the following lemma:
 
@@ -1748,9 +1671,8 @@ and note the following lemma:
 *Let $R$ be a regular local ring, $\mathfrak{m}$ its maximal ideal, $K = R/\mathfrak{m}$ its residue field. If
 $\mathfrak{n}$ is an ideal of $R$ such that $R/\mathfrak{n}$ is regular, then the canonical homomorphism*
 
-```text
-  (22.7.2.5)   α : (𝔫/𝔫²) ⊗_R K → (𝔪/𝔪²) ⊗_R K
-```
+$$ \alpha : (\mathfrak{n}/\mathfrak{n}^{2}) \otimes_{R} K \to (\mathfrak{m}/\mathfrak{m}^{2}) \otimes_{R} K
+\tag{22.7.2.5} $$
 
 *is injective.*
 
@@ -1763,9 +1685,8 @@ lemma.
 This lemma and the diagram `(22.7.2.3)` therefore reduce (by virtue of hypothesis a)) to proving that $i$ is injective.
 Now, in the sequence
 
-```text
-  (22.7.2.6)   𝔭/𝔭² ─h→ Ω̂^1_{A/k} ⊗̂_A (A/𝔭) ─g→ Ω̂^1_{(A/𝔭)/k} → 0
-```
+$$ \mathfrak{p}/\mathfrak{p}^{2} \xrightarrow{h} \hat{\Omega}^{1}_{A/k} \hat{\otimes}_{A} (A/\mathfrak{p})
+\xrightarrow{g} \hat{\Omega}^{1}_{(A/\mathfrak{p})/k} \to 0 \tag{22.7.2.6} $$
 
 one knows $(0_{IV}, 20.7.20)$ that $g$ is surjective and that the image of $h$ is *dense* in the kernel of $g$ for the
 $\mathfrak{m}$-adic topology ($\mathfrak{m}$ being the maximal ideal of $A$); since $\hat{\Omega}^{1}_{A/k}$ is an
@@ -1773,9 +1694,8 @@ $A$-module of finite type, all the submodules of the $(A/\mathfrak{p})$-module $
 (A/\mathfrak{p}) = \hat{\Omega}^{1}_{A/k} \hat{\otimes}_{A} (A/\mathfrak{p})$ are closed for the $\mathfrak{m}$-adic
 topology $(0_{I}, 7.3.5)$, hence the sequence `(22.7.2.6)` is exact. Tensoring by $L$, there arises the exact sequence
 
-```text
-  (𝔭/𝔭²) ⊗_A L ─i→ Ω̂^1_{A/k} ⊗_A L → Ω̂^1_{(A/𝔭)/k} ⊗_A L → 0.
-```
+$$ (\mathfrak{p}/\mathfrak{p}^{2}) \otimes_{A} L \xrightarrow{i} \hat{\Omega}^{1}_{A/k} \otimes_{A} L \to
+\hat{\Omega}^{1}_{(A/\mathfrak{p})/k} \otimes_{A} L \to 0. $$
 
 Now, the hypothesis of separability made on $L$ entails, by virtue of $(0_{IV}, 21.9.5)$, that
 $\hat{\Omega}^{1}_{(A/\mathfrak{p})/k} \otimes_{A/\mathfrak{p}} L$ is of rank $s$ over $L$; since
@@ -1783,9 +1703,7 @@ $\hat{\Omega}^{1}_{A/k} \otimes_{A} L$ is of rank $r$ over $L$ $(0_{IV}, 21.9.3)
 since $A/\mathfrak{p}$ is finite over a subalgebra isomorphic to $k[[T_{1}, \cdots, T_{s}]]$, one has
 $\dim(A/\mathfrak{p}) = s$ ($(0_{IV}, 17.1.4)$ and $(0_{IV}, 16.1.5)$); hence
 
-```text
-  r − s = dim(A) − dim(A/𝔭) = dim(A_𝔭)
-```
+$$ r - s = \dim(A) - \dim(A/\mathfrak{p}) = \dim(A_\mathfrak{p}) $$
 
 <!-- original page 211 -->
 
@@ -1799,11 +1717,11 @@ the rank over $L$ of $(\mathfrak{p}/\mathfrak{p}^{2}) \otimes_{A} L$, which comp
 
 *Let $k$ be a field, $A$ a complete Noetherian local ring with residue field $K$. Suppose that:*
 
-*1° $[k : k^{p}] < +\infty$ (where $p$ is the characteristic exponent of $k$);*
+*$1^{\circ}$ $[k : k^{p}] < +\infty$ (where $p$ is the characteristic exponent of $k$);*
 
-*2° $K$ is a finite extension of a separable extension `K_0` of $k$;*
+*$2^{\circ}$ $K$ is a finite extension of a separable extension `K_0` of $k$;*
 
-*3° $A$ is equipped with a structure of `K_0`-algebra formally smooth (for the preadic topology).*
+*$3^{\circ}$ $A$ is equipped with a structure of `K_0`-algebra formally smooth (for the preadic topology).*
 
 *Let $\mathfrak{q}$ be an ideal of $A$, $B = A/\mathfrak{q}$, $\mathfrak{p}$ a prime ideal of $A$ containing
 $\mathfrak{q}$. The following conditions are equivalent:*
@@ -1814,7 +1732,7 @@ $\mathfrak{q}$. The following conditions are equivalent:*
 of $\mathfrak{q}$, such that the images of the $f_{i}$ in $\mathfrak{q} A_{\mathfrak{p}}$ generate this ideal of
 $A_{\mathfrak{p}}$, and that one has $det(D_{i} f_{j}) \notin \mathfrak{p}$.*
 
-*b′) There exists a subextension $k'$ of `K_0`, containing $K^{p}_{0}$, such that $[K_{0} : k'] < +\infty$,
+*$b'$) There exists a subextension $k'$ of `K_0`, containing $K^{p}_{0}$, such that $[K_{0} : k'] < +\infty$,
 $k'$-derivations $D_{i}$ of $A$ into itself ($1 \leq i \leq m$) and elements $f_{i}$ of $\mathfrak{q}$ ($1 \leq i \leq
 m$), such that the images of the $f_{i}$ in $\mathfrak{q} A_{\mathfrak{p}}$ generate this ideal of $A_{\mathfrak{p}}$
 and that one has $det(D_{i} f_{j}) \notin \mathfrak{p}$.*
@@ -1827,38 +1745,36 @@ $K$-algebra. But then, taking account of $(0_{IV}, 19.8.8, (ii))$ applied to $A/
 conditions of `(22.7.2)` are satisfied by replacing therein $k$ by $K$. Moreover, by virtue of $(0_{IV}, 19.6.4)$, it
 amounts to the same to say that $B_{\mathfrak{p}}$ is a $k$-algebra formally smooth or a $K$-algebra formally smooth,
 the two conditions being equivalent to the fact that $B_{\mathfrak{p}}$ is a regular ring. One may therefore apply the
-conclusions of `(22.7.2)`, and it is immediate that this proves the equivalence of a), b) and b′) (with $k' = K_{0}$ in
-b′)).
+conclusions of `(22.7.2)`, and it is immediate that this proves the equivalence of a), b) and $b'$) (with $k' = K_{0}$ in
+$b'$)).
 
 B) $k$ is of characteristic $p > 0$. Since $A$ is a `K_0`-algebra formally smooth and `K_0` is separable over $k$, it
 follows from $(0_{IV}, 19.3.5, (ii))$ and $(0_{IV}, 19.6.1)$ that $A$ is a $k$-algebra formally smooth; by virtue of
 `(22.5.9)`, $A_{\mathfrak{p}}$ is also a $k$-algebra formally smooth for the $\mathfrak{p}$-preadic topology. It results
 then again from `(22.6.2, (ii))` that condition a) amounts to the fact that the homomorphism $j_{0}$ defined in
 `(22.7.2.1)` (where $L = k(\mathfrak{p})$) is injective. Hence `(0_IV, 19.1.12, c))` already shows that b) implies a);
-since on the other hand b′) trivially implies b), all reduces to showing that the hypothesis that $j_{0}$ is injective
-entails b′).
+since on the other hand $b'$) trivially implies b), all reduces to showing that the hypothesis that $j_{0}$ is injective
+entails $b'$).
 
 Denote first by $k'$ any subextension of `K_0` such that $[K_{0} : k'] < +\infty$. Note that $\hat{\Omega}^{1}_{A/k'}$
 is a free $A$-module of finite type. By the reasoning of `(22.7.2)`, it suffices to show that (for a suitable choice of
 $k'$), the composite homomorphism
 
-```text
-  (22.7.3.1)   j′ : (𝔮/𝔮²) ⊗_A L ─j_∗→ Ω^1_{A/k′} ⊗_A L → Ω̂^1_{A/k′} ⊗_A L
-```
+$$ j' : (\mathfrak{q}/\mathfrak{q}^{2}) \otimes_{A} L \xrightarrow{j_{*}} \Omega^{1}_{A/k'} \otimes_{A} L \to
+\hat{\Omega}^{1}_{A/k'} \otimes_{A} L \tag{22.7.3.1} $$
 
 <!-- original page 212 -->
 
 is injective. Consider once more the commutative diagram
 
-```text
-                                       i_∗
-  (22.7.3.2)   (𝔮/𝔮²) ⊗_A L ─────▸ Ω̂^1_{A/k′} ⊗_A L ─────▸ Ω̂^1_{A/k} ⊗_A L
-                       │                    ║                       ║
-                       α                    ║                       ║
-                       ▼                    ║                       ║
-              (𝔭/𝔭²) ⊗_A L ─────▸ Ω̂^1_{A/k′} ⊗_A L ─────▸ Ω̂^1_{A/k} ⊗_A L
-                                       i_∗
-```
+$$
+\begin{array}{ccccc}
+(\mathfrak{q}/\mathfrak{q}^{2}) \otimes_{A} L & \xrightarrow{i_{*}} & \hat{\Omega}^{1}_{A/k'} \otimes_{A} L & \longrightarrow & \hat{\Omega}^{1}_{A/k} \otimes_{A} L \\
+\downarrow{\scriptstyle \alpha} & & \| & & \| \\
+(\mathfrak{p}/\mathfrak{p}^{2}) \otimes_{A} L & \xrightarrow{i_{*}} & \hat{\Omega}^{1}_{A/k'} \otimes_{A} L & \longrightarrow & \hat{\Omega}^{1}_{A/k} \otimes_{A} L
+\end{array}
+\tag{22.7.3.2}
+$$
 
 Since $j_{0}$ is injective, one has $Ker(i_{0} \circ \alpha) = 0$. But since $A_{\mathfrak{p}}$ is a regular ring and
 hypothesis a) implies that $B_{\mathfrak{p}} = A_{\mathfrak{p}}/\mathfrak{q} A_{\mathfrak{p}}$ is also a regular ring
@@ -1870,34 +1786,26 @@ $$ (22.7.3.3) Ker(i') = Ker(i). $$
 
 But the same reasoning as in `(22.7.2)` shows that one has an exact sequence
 
-```text
-  (𝔭/𝔭²) ⊗_A L ─i′→ Ω̂^1_{A/k′} ⊗_A L → Ω̂^1_{(A/𝔭)/k′} ⊗_{A/𝔭} L → 0.
-```
+$$ (\mathfrak{p}/\mathfrak{p}^{2}) \otimes_{A} L \xrightarrow{i'} \hat{\Omega}^{1}_{A/k'} \otimes_{A} L \to
+\hat{\Omega}^{1}_{(A/\mathfrak{p})/k'} \otimes_{A/\mathfrak{p}} L \to 0. $$
 
 Now, the hypotheses made permit applying $(0_{IV}, 21.9.8)$, hence there exists a subextension $k'$ of `K_0` containing
 $K^{p}_{0}$, such that $[K_{0} : k'] < +\infty$, and for which one has
 
-```text
-  rg_L(Ω̂^1_{(A/𝔭)/k′} ⊗_{A/𝔭} L) = dim(A/𝔭) + rg_L Υ_{L/k} + rg_K Ω^1_{K_0/k′}.
-```
+$$ rg_{L}(\hat{\Omega}^{1}_{(A/\mathfrak{p})/k'} \otimes_{A/\mathfrak{p}} L) = \dim(A/\mathfrak{p}) + rg_{L}
+\Upsilon_{L/k} + rg_{K} \Omega^{1}_{K_0/k'}. $$
 
 But one has
 
-```text
-  dim(A/𝔭) = dim(A) − dim(A_𝔭)
-```
+$$ \dim(A/\mathfrak{p}) = \dim(A) - \dim(A_\mathfrak{p}) $$
 
 by $(0_{IV}, 16.5.11)$,
 
-```text
-  dim(A_𝔭) = rg_L((𝔭/𝔭²) ⊗_A L)
-```
+$$ \dim(A_\mathfrak{p}) = rg_{L}((\mathfrak{p}/\mathfrak{p}^{2}) \otimes_{A} L) $$
 
 since $A_{\mathfrak{p}}$ is regular $(0_{IV}, 17.1.1)$, and finally
 
-```text
-  dim(A) + rg_K Ω^1_{K_0/k′} = rg_L(Ω̂^1_{A/k′} ⊗_A L)
-```
+$$ \dim(A) + rg_{K} \Omega^{1}_{K_0/k'} = rg_{L}(\hat{\Omega}^{1}_{A/k'} \otimes_{A} L) $$
 
 by virtue of $(0_{IV}, 21.9.2)$; one therefore obtains
 
@@ -1906,9 +1814,8 @@ $$ (22.7.3.4) rg_{L}(Ker(i')) = rg_{L} \Upsilon_{L/k}. $$
 On the other hand, the residue field of $A_{\mathfrak{p}}$ being formally smooth over the prime field of $k$, one has an
 exact sequence $(0_{IV}, 20.6.22.1)$
 
-```text
-  Υ_{L/k} ─χ_{A_𝔭/k}→ (𝔭 A_𝔭)/(𝔭 A_𝔭)² ─i→ Ω^1_{A_𝔭/k} ⊗_{A_𝔭} L
-```
+$$ \Upsilon_{L/k} \xrightarrow{\chi_{A_\mathfrak{p}/k}} (\mathfrak{p} A_\mathfrak{p})/(\mathfrak{p} A_\mathfrak{p})^{2}
+\xrightarrow{i} \Omega^{1}_{A_\mathfrak{p}/k} \otimes_{A_\mathfrak{p}} L $$
 
 and since $A_{\mathfrak{p}}$ is a $k$-algebra formally smooth for the $\mathfrak{p}$-preadic topology, it follows from
 `(22.2.2)` that $\chi_{A_{\mathfrak{p}}/k}$ is an injective homomorphism, hence $Ker(i)$ is isomorphic to
@@ -1921,7 +1828,7 @@ $\Upsilon_{L/k}$, and taking account of `(22.7.3.4)` and the fact that $Ker(i) \
 
 <!-- label: 0_IV.22.7.4 -->
 
-*One has in fact shown (using $(0_{IV}, 21.9.6)$) that condition b′) is still equivalent to the other conditions of
+*One has in fact shown (using $(0_{IV}, 21.9.6)$) that condition $b'$) is still equivalent to the other conditions of
 `(22.7.3)` when one subjects $k'$ to being one of the fields of a decreasing filtered family $(k_{\alpha})$ of subfields
 of `K_0` containing $K^{p}_{0}$, such that $[K_{0} : k_{\alpha}] < +\infty$ for every $\alpha$ and $\bigcap_{\alpha}
 k_{\alpha} = K^{p}_{0}$.*
@@ -1940,7 +1847,7 @@ $\operatorname{Spec}(A)$. Now, if the $k$-derivations $D_{i}$ and the elements $
 criterion b) of `(22.7.3)`, one has also $f = det(D_{i} f_{j}) \notin \mathfrak{p}'$ for $\mathfrak{p}' \in D(f)$; on
 the other hand, there exists a $g \notin \mathfrak{p}$ such that the images of the $f_{i}$ in $\mathfrak{q}
 A_{\mathfrak{p}'}$ generate $\mathfrak{q} A_{\mathfrak{p}'}$ for $\mathfrak{p}' \in D(g)$ (Bourbaki, *Alg. comm.*, chap.
-II, §5, n° 1, prop. 2), which completes proving the corollary.
+II, §5, n$^{\circ}$ 1, prop. 2), which completes proving the corollary.
 
 **Corollary (22.7.6)** (Nagata).
 
@@ -1969,4 +1876,4 @@ element, for it is extremal in the polynomial ring `k((T))[U]`, hence also in th
 $B_{\mathfrak{p}}$ is the field denoted $E$ in $(0_{IV}, 21.9.7)$, which is separable over $k$ (*loc. cit.*), hence a
 $k$-algebra formally smooth. But one has here, with the notations of `(22.7.3)`, $k = K_{0} = K$, and the
 $k$-derivations of $A$ into itself are the linear combinations of $\partial/\partial T$ and $\partial/\partial U$; since
-one has $\partial f/\partial T = \partial f/\partial U = 0$, the criteria b) and b′) of `(22.7.3)` are not satisfied.*
+one has $\partial f/\partial T = \partial f/\partial U = 0$, the criteria b) and $b'$) of `(22.7.3)` are not satisfied.*
