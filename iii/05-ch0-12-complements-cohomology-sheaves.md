@@ -28,9 +28,8 @@ these endomorphisms equip each $H^{p}(X, \mathcal{F})$ with a structure of $A$-m
 $A$-linear. Moreover, for any two non-negative integers $p$, $q$ and any two $\mathcal{O}_{X}$-modules $\mathcal{F}$,
 $\mathcal{G}$, one has a homomorphism of $A$-modules, called the *cup product*
 
-```text
-  H^p(X, ℱ) ⊗_A H^q(X, 𝒢) → H^{p+q}(X, ℱ ⊗_{𝒪_X} 𝒢)                          (12.1.2.1)
-```
+$$ H^{p}(X, \mathcal{F}) \otimes_{A} H^{q}(X, \mathcal{G}) \to H^{p+q}(X, \mathcal{F} \otimes_{\mathcal{O}_{X}}
+\mathcal{G}) \tag{12.1.2.1} $$
 
 `(G, II, 6.6)`. These homomorphisms make the direct sum $S$ of the $H^{p}(X, \mathcal{O}_{X})$ (for $p \geq 0$) into a
 graded anticommutative $A$-algebra, and the direct sum of the $H^{p}(X, \mathcal{F})$ into a graded $S$-module.
@@ -53,27 +52,25 @@ A'$. Let $\mathcal{F}$ be an $\mathcal{O}_{X}$-module and $\mathcal{F}'$ an $\ma
 $f$-morphism $u : \mathcal{F} \to \mathcal{F}'$ $(0_{I}, 4.4.1)$ we shall see that one can define, for every $p \geq 0$,
 a di-homomorphism
 
-```text
-  u_p : H^p(X, ℱ) → H^p(X', ℱ').                                             (12.1.3.1)
-```
+$$ u_{p} : H^{p}(X, \mathcal{F}) \to H^{p}(X', \mathcal{F}'). \tag{12.1.3.1} $$
 
 Indeed, since $\psi^{*}$ is exact in the category of sheaves of abelian groups on $X$, $\mathcal{F} \mapsto
 H^{\bullet}(X', \psi^{*}(\mathcal{F}))$ is a $\partial$-functor in this category, and one knows that one has a canonical
 homomorphism of $\partial$-functors
 
-```text
-  H^•(X, ℱ) → H^•(X', ψ^*(ℱ))                                                (12.1.3.2)
-```
+$$ H^{\bullet}(X, \mathcal{F}) \to H^{\bullet}(X', \psi^{*}(\mathcal{F})) \tag{12.1.3.2} $$
 
 uniquely determined by the condition of reducing to the canonical homomorphism $\Gamma(X, \mathcal{F}) \to \Gamma(X',
 \psi^{*}(\mathcal{F}))$ in degree `0` `(T, 3.2.2)`. Moreover, every element of $A$ determines an endomorphism $\mu$ of
 $\Gamma(X, \mathcal{F})$ and an endomorphism $\mu'$ of $\Gamma(X', \psi^{*}(\mathcal{F}))$ such that the diagram
 
-```text
-                 Γ(X, ℱ)   →   Γ(X', ψ^*(ℱ))
-                    ↓μ              ↓μ'                                       (12.1.3.3)
-                 Γ(X, ℱ)   →   Γ(X', ψ^*(ℱ))
-```
+$$
+\begin{array}{ccc}
+\Gamma(X, \mathcal{F}) & \to & \Gamma(X', \psi^{*}(\mathcal{F})) \\
+\downarrow{\scriptstyle \mu} & & \downarrow{\scriptstyle \mu'} \\
+\Gamma(X, \mathcal{F}) & \to & \Gamma(X', \psi^{*}(\mathcal{F}))
+\end{array} \tag{12.1.3.3}
+$$
 
 <!-- original page 51 -->
 
@@ -84,16 +81,12 @@ commutative, which means that `(12.1.3.2)` is a homomorphism of $A$-modules. Now
 $\psi^{*}(\mathcal{F}) \to f^{*}(\mathcal{F})$ of the $\psi^{*}(\mathcal{O}_{X})$-module $\psi^{*}(\mathcal{F})$ into
 the $\mathcal{O}_{X'}$-module $f^{*}(\mathcal{F})$. By functoriality, one therefore deduces a functorial di-homomorphism
 
-```text
-  H^p(X', ψ^*(ℱ)) → H^p(X', f^*(ℱ))                                          (12.1.3.4)
-```
+$$ H^{p}(X', \psi^{*}(\mathcal{F})) \to H^{p}(X', f^{*}(\mathcal{F})) \tag{12.1.3.4} $$
 
 with corresponding rings $A$ and $A'$; composing this di-homomorphism with `(12.1.3.2)`, one obtains a canonical
 di-homomorphism functorial in $\mathcal{F}$
 
-```text
-  θ_p : H^p(X, ℱ) → H^p(X', f^*(ℱ)).                                         (12.1.3.5)
-```
+$$ \theta_{p} : H^{p}(X, \mathcal{F}) \to H^{p}(X', f^{*}(\mathcal{F})). \tag{12.1.3.5} $$
 
 Finally, by functoriality, one deduces from the homomorphism $u^{\flat} : f^{*}(\mathcal{F}) \to \mathcal{F}'$ a
 homomorphism of $A'$-modules $H^{p}(X', f^{*}(\mathcal{F})) \to H^{p}(X', \mathcal{F}')$, which, composed with
@@ -117,9 +110,8 @@ in the category of sheaves of abelian groups on $X'$, there is therefore a morph
 \mathcal{L}'^{\bullet}$ of complexes of sheaves of abelian groups, compatible with the augmentations `(M, V, 1.1 a))`,
 well-determined up to homotopy. One thus deduces homomorphisms
 
-```text
-  Γ(X, ℒ^•) → Γ(X', ψ^*(ℒ^•)) → Γ(X', ℒ'^•)
-```
+$$ \Gamma(X, \mathcal{L}^{\bullet}) \to \Gamma(X', \psi^{*}(\mathcal{L}^{\bullet})) \to \Gamma(X',
+\mathcal{L}'^{\bullet}) $$
 
 of complexes of abelian groups, whose composite, by passage to cohomology, gives a morphism of $\partial$-functors
 $H^{\bullet}(X, \mathcal{F}) \to H^{\bullet}(X', \psi^{*}(\mathcal{F}))$; since it coincides with `(12.1.3.2)` in degree
@@ -131,19 +123,19 @@ the open cover of $X'$ obtained as the inverse image of $\mathfrak{U}$. The cano
 homomorphism of complexes $C^{\bullet}(\mathfrak{U}, \mathcal{F}) \to C^{\bullet}(\mathfrak{U}', f^{*}(\mathcal{F}))$,
 whence the canonical homomorphisms
 
-```text
-  θ_p : H^p(𝔘, ℱ) → H^p(𝔘', f^*(ℱ)).                                         (12.1.4.1)
-```
+$$ \theta_{p} : H^{p}(\mathfrak{U}, \mathcal{F}) \to H^{p}(\mathfrak{U}', f^{*}(\mathcal{F})). \tag{12.1.4.1} $$
 
 <!-- original page 52 -->
 
 Moreover, one has commutative diagrams
 
-```text
-              H^p(𝔘, ℱ)    →^{θ_p}    H^p(𝔘', f^*(ℱ))
-                  ↓                       ↓                                   (12.1.4.2)
-              H^p(X, ℱ)    →^{θ_p}    H^p(X', f^*(ℱ))
-```
+$$
+\begin{array}{ccc}
+H^{p}(\mathfrak{U}, \mathcal{F}) & \xrightarrow{\theta_{p}} & H^{p}(\mathfrak{U}', f^{*}(\mathcal{F})) \\
+\downarrow & & \downarrow \\
+H^{p}(X, \mathcal{F}) & \xrightarrow{\theta_{p}} & H^{p}(X', f^{*}(\mathcal{F}))
+\end{array} \tag{12.1.4.2}
+$$
 
 where the vertical arrows are the canonical homomorphisms of `(G, II, 5.2)`. To establish the commutativity of
 `(12.1.4.2)`, consider the complex of sheaves of (alternating) cochains of $\mathcal{F}$ relative to $\mathfrak{U}$,
@@ -153,28 +145,34 @@ $\mathcal{C}^{\bullet}(\mathfrak{U}, \mathcal{F})$, such that $\Gamma(X, \mathca
 $\mathcal{C}^{\bullet}(\mathfrak{U}, \mathcal{F}) \to \mathcal{C}^{\bullet}(\mathfrak{U}', \psi^{*}(\mathcal{F}))$, and
 one has, with the notation above, a commutative diagram
 
-```text
-   Γ(X, 𝒞^•(𝔘, ℱ))   →   Γ(X', 𝒞^•(𝔘', ψ^*(ℱ)))
-         ↓                          ↓
-   Γ(X, ℒ^•)         →   Γ(X', ψ^*(ℒ^•))   →   Γ(X', ℒ'^•)
-```
+$$
+\begin{array}{ccccc}
+\Gamma(X, \mathcal{C}^{\bullet}(\mathfrak{U}, \mathcal{F})) & \to & \Gamma(X', \mathcal{C}^{\bullet}(\mathfrak{U}', \psi^{*}(\mathcal{F}))) & & \\
+\downarrow & & \downarrow & & \\
+\Gamma(X, \mathcal{L}^{\bullet}) & \to & \Gamma(X', \psi^{*}(\mathcal{L}^{\bullet})) & \to & \Gamma(X', \mathcal{L}'^{\bullet})
+\end{array}
+$$
 
 which, on passing to cohomology, gives commutative diagrams
 
-```text
-              H^p(𝔘, ℱ)    →    H^p(𝔘', ψ^*(ℱ))
-                  ↓                  ↓
-              H^p(X, ℱ)    →    H^p(X', ψ^*(ℱ))
-```
+$$
+\begin{array}{ccc}
+H^{p}(\mathfrak{U}, \mathcal{F}) & \to & H^{p}(\mathfrak{U}', \psi^{*}(\mathcal{F})) \\
+\downarrow & & \downarrow \\
+H^{p}(X, \mathcal{F}) & \to & H^{p}(X', \psi^{*}(\mathcal{F}))
+\end{array}
+$$
 
 where the vertical arrows are the canonical homomorphisms of `(G, II, 5.2)`. It then suffices to combine these diagrams
 with the commutative diagrams
 
-```text
-              H^p(𝔘', ψ^*(ℱ))   →   H^p(𝔘', f^*(ℱ))
-                  ↓                       ↓
-              H^p(X', ψ^*(ℱ))   →   H^p(X', f^*(ℱ))
-```
+$$
+\begin{array}{ccc}
+H^{p}(\mathfrak{U}', \psi^{*}(\mathcal{F})) & \to & H^{p}(\mathfrak{U}', f^{*}(\mathcal{F})) \\
+\downarrow & & \downarrow \\
+H^{p}(X', \psi^{*}(\mathcal{F})) & \to & H^{p}(X', f^{*}(\mathcal{F}))
+\end{array}
+$$
 
 <!-- original page 53 -->
 
@@ -196,18 +194,18 @@ Let $\mathcal{F}$, $\mathcal{G}$, $\mathcal{H}$ be three $\mathcal{O}_{X}$-modul
 $\mathcal{O}_{X}$-homomorphism $u : \mathcal{F} \otimes_{\mathcal{O}_{X}} \mathcal{G} \to \mathcal{H}$, which gives, for
 cohomology, homomorphisms
 
-```text
-  H^p(X, ℱ) ⊗_A H^q(X, 𝒢) → H^{p+q}(X, 𝓗)                                    (12.1.5.1)
-```
+$$ H^{p}(X, \mathcal{F}) \otimes_{A} H^{q}(X, \mathcal{G}) \to H^{p+q}(X, \mathcal{H}) \tag{12.1.5.1} $$
 
 deduced from the cup product `(12.1.2.1)`. We show that, with the hypotheses and notation of `(12.1.3)`, one has
 commutative diagrams
 
-```text
-   H^p(X, ℱ) ⊗_A H^q(X, 𝒢)                  →   H^{p+q}(X, 𝓗)
-            ↓                                          ↓                      (12.1.5.2)
-   H^p(X', f^*(ℱ)) ⊗_{A'} H^q(X', f^*(𝒢))   →   H^{p+q}(X', f^*(𝓗))
-```
+$$
+\begin{array}{ccc}
+H^{p}(X, \mathcal{F}) \otimes_{A} H^{q}(X, \mathcal{G}) & \to & H^{p+q}(X, \mathcal{H}) \\
+\downarrow & & \downarrow \\
+H^{p}(X', f^{*}(\mathcal{F})) \otimes_{A'} H^{q}(X', f^{*}(\mathcal{G})) & \to & H^{p+q}(X', f^{*}(\mathcal{H}))
+\end{array} \tag{12.1.5.2}
+$$
 
 where the vertical arrows come from the canonical homomorphisms `(12.1.3.5)`. For this, recall that `(12.1.5.1)` can be
 obtained by starting from the *canonical* resolutions `(G, II, 4.3)` $\mathcal{L}^{\bullet}$, $\mathcal{M}^{\bullet}$,
@@ -219,39 +217,47 @@ of complexes of $A$-modules $\Gamma(X, \mathcal{L}^{\bullet}) \otimes_{A} \Gamma
 \otimes_{A} H^{q}(\Gamma(X, \mathcal{M}^{\bullet})) \to H^{p+q}(\Gamma(X, \mathcal{N}^{\bullet}))$ `(G, II, 6.6)`. Now,
 one clearly has a commutative diagram
 
-```text
-   Γ(X, ℒ^•) ⊗_A Γ(X, ℳ^•)                                              →   Γ(X, 𝒩^•)
-            ↓                                                                  ↓        (12.1.5.3)
-   Γ(X', ψ^*(ℒ^•)) ⊗_{Γ(X', ψ^*(𝒪_X))} Γ(X', ψ^*(ℳ^•))                  →   Γ(X', ψ^*(𝒩^•))
-```
+$$
+\begin{array}{ccc}
+\Gamma(X, \mathcal{L}^{\bullet}) \otimes_{A} \Gamma(X, \mathcal{M}^{\bullet}) & \to & \Gamma(X, \mathcal{N}^{\bullet}) \\
+\downarrow & & \downarrow \\
+\Gamma(X', \psi^{*}(\mathcal{L}^{\bullet})) \otimes_{\Gamma(X', \psi^{*}(\mathcal{O}_{X}))} \Gamma(X', \psi^{*}(\mathcal{M}^{\bullet})) & \to & \Gamma(X', \psi^{*}(\mathcal{N}^{\bullet}))
+\end{array} \tag{12.1.5.3}
+$$
 
 <!-- original page 54 -->
 
 which gives, on passing to cohomology, the commutative diagrams
 
-```text
-   H^p(X, ℱ) ⊗_A H^q(X, 𝒢)                                                                                →   H^{p+q}(X, 𝓗)
-            ↓                                                                                                       ↓                        (12.1.5.4)
-   H^p(Γ(X', ψ^*(ℒ^•))) ⊗_{Γ(X', ψ^*(𝒪_X))} H^q(Γ(X', ψ^*(ℳ^•)))                                       →   H^{p+q}(Γ(X', ψ^*(𝒩^•))).
-```
+$$
+\begin{array}{ccc}
+H^{p}(X, \mathcal{F}) \otimes_{A} H^{q}(X, \mathcal{G}) & \to & H^{p+q}(X, \mathcal{H}) \\
+\downarrow & & \downarrow \\
+H^{p}(\Gamma(X', \psi^{*}(\mathcal{L}^{\bullet}))) \otimes_{\Gamma(X', \psi^{*}(\mathcal{O}_{X}))} H^{q}(\Gamma(X', \psi^{*}(\mathcal{M}^{\bullet}))) & \to & H^{p+q}(\Gamma(X', \psi^{*}(\mathcal{N}^{\bullet}))).
+\end{array} \tag{12.1.5.4}
+$$
 
 But since $\psi^{*}(\mathcal{L}^{\bullet})$, $\psi^{*}(\mathcal{M}^{\bullet})$ and $\psi^{*}(\mathcal{N}^{\bullet})$ are
 *resolutions* of $\psi^{*}(\mathcal{F})$, $\psi^{*}(\mathcal{G})$, $\psi^{*}(\mathcal{H})$ respectively, one has a
 commutative diagram `(G, II, 6.6.1)`
 
-```text
-   H^p(Γ(X', ψ^*(ℒ^•))) ⊗_{Γ(X', ψ^*(𝒪_X))} H^q(Γ(X', ψ^*(ℳ^•)))   →   H^{p+q}(Γ(X', ψ^*(𝒩^•)))
-            ↓                                                                  ↓                                 (12.1.5.5)
-   H^p(X', ψ^*(ℱ)) ⊗_{Γ(X', ψ^*(𝒪_X))} H^q(X', ψ^*(𝒢))            →   H^{p+q}(X', ψ^*(𝓗)).
-```
+$$
+\begin{array}{ccc}
+H^{p}(\Gamma(X', \psi^{*}(\mathcal{L}^{\bullet}))) \otimes_{\Gamma(X', \psi^{*}(\mathcal{O}_{X}))} H^{q}(\Gamma(X', \psi^{*}(\mathcal{M}^{\bullet}))) & \to & H^{p+q}(\Gamma(X', \psi^{*}(\mathcal{N}^{\bullet}))) \\
+\downarrow & & \downarrow \\
+H^{p}(X', \psi^{*}(\mathcal{F})) \otimes_{\Gamma(X', \psi^{*}(\mathcal{O}_{X}))} H^{q}(X', \psi^{*}(\mathcal{G})) & \to & H^{p+q}(X', \psi^{*}(\mathcal{H})).
+\end{array} \tag{12.1.5.5}
+$$
 
 Finally, by functoriality, one has a commutative diagram
 
-```text
-   H^p(X', ψ^*(ℱ)) ⊗_{Γ(X', ψ^*(𝒪_X))} H^q(X', ψ^*(𝒢))   →   H^{p+q}(X', ψ^*(𝓗))
-            ↓                                                       ↓                       (12.1.5.6)
-   H^p(X', f^*(ℱ)) ⊗_{A'} H^q(X', f^*(𝒢))                →   H^{p+q}(X', f^*(𝓗))
-```
+$$
+\begin{array}{ccc}
+H^{p}(X', \psi^{*}(\mathcal{F})) \otimes_{\Gamma(X', \psi^{*}(\mathcal{O}_{X}))} H^{q}(X', \psi^{*}(\mathcal{G})) & \to & H^{p+q}(X', \psi^{*}(\mathcal{H})) \\
+\downarrow & & \downarrow \\
+H^{p}(X', f^{*}(\mathcal{F})) \otimes_{A'} H^{q}(X', f^{*}(\mathcal{G})) & \to & H^{p+q}(X', f^{*}(\mathcal{H}))
+\end{array} \tag{12.1.5.6}
+$$
 
 and by combining the three diagrams `(12.1.5.4)`, `(12.1.5.5)` and `(12.1.5.6)`, one obtains the desired commutative
 diagram `(12.1.5.2)`.
@@ -264,27 +270,37 @@ diagram `(12.1.5.2)`.
 
 With the notation of `(12.1.3)`, suppose one has a commutative diagram
 
-```text
-   0  →  ℱ   →^r   𝒢   →^s   𝓗   →  0
-              ↓u         ↓v         ↓w                                        (12.1.6.1)
-   0  →  ℱ'  →^{r'}  𝒢'  →^{s'}  𝓗'  →  0
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & \mathcal{F} & \xrightarrow{r} & \mathcal{G} & \xrightarrow{s} & \mathcal{H} & \to & 0 \\
+& & \downarrow{\scriptstyle u} & & \downarrow{\scriptstyle v} & & \downarrow{\scriptstyle w} & & \\
+0 & \to & \mathcal{F}' & \xrightarrow{r'} & \mathcal{G}' & \xrightarrow{s'} & \mathcal{H}' & \to & 0
+\end{array} \tag{12.1.6.1}
+$$
 
 where $r$, $s$ are homomorphisms of $\mathcal{O}_{X}$-modules, $r'$, $s'$ are homomorphisms of
 $\mathcal{O}_{X'}$-modules, $u$, $v$, $w$ are $f$-morphisms, and the rows are exact. One then deduces a commutative
 diagram
 
-```text
-   ⋯ → H^p(X, ℱ)   → H^p(X, 𝒢)   → H^p(X, 𝓗)   →^∂  H^{p+1}(X, ℱ)   → ⋯
-            ↓u_p          ↓v_p          ↓w_p           ↓u_{p+1}                (12.1.6.2)
-   ⋯ → H^p(X', ℱ') → H^p(X', 𝒢') → H^p(X', 𝓗') →^∂ H^{p+1}(X', ℱ') → ⋯.
-```
+$$
+\begin{array}{ccccccccccc}
+\cdots & \to & H^{p}(X, \mathcal{F}) & \to & H^{p}(X, \mathcal{G}) & \to & H^{p}(X, \mathcal{H}) & \xrightarrow{\partial} & H^{p+1}(X, \mathcal{F}) & \to & \cdots \\
+& & \downarrow{\scriptstyle u_{p}} & & \downarrow{\scriptstyle v_{p}} & & \downarrow{\scriptstyle w_{p}} & & \downarrow{\scriptstyle u_{p+1}} & & \\
+\cdots & \to & H^{p}(X', \mathcal{F}') & \to & H^{p}(X', \mathcal{G}') & \to & H^{p}(X', \mathcal{H}') & \xrightarrow{\partial} & H^{p+1}(X', \mathcal{F}') & \to & \cdots.
+\end{array} \tag{12.1.6.2}
+$$
 
 Indeed, `(12.1.6.1)` factors as
 
-$$ 0 \to \mathcal{F} \to \mathcal{G} \to \mathcal{H} \to 0 \downarrow \downarrow \downarrow 0 \to \psi^{*}(\mathcal{F})
-\to \psi^{*}(\mathcal{G}) \to \psi^{*}(\mathcal{H}) \to 0 \downarrow \downarrow \downarrow 0 \to \mathcal{F}' \to
-\mathcal{G}' \to \mathcal{H}' \to 0 $$
+$$
+\begin{array}{ccccccccc}
+0 & \to & \mathcal{F} & \to & \mathcal{G} & \to & \mathcal{H} & \to & 0 \\
+& & \downarrow & & \downarrow & & \downarrow & & \\
+0 & \to & \psi^{*}(\mathcal{F}) & \to & \psi^{*}(\mathcal{G}) & \to & \psi^{*}(\mathcal{H}) & \to & 0 \\
+& & \downarrow & & \downarrow & & \downarrow & & \\
+0 & \to & \mathcal{F}' & \to & \mathcal{G}' & \to & \mathcal{H}' & \to & 0
+\end{array}
+$$
 
 where the middle row is exact $(0_{I}, 3.7.2)$, and it suffices to use the fact that `(12.1.3.2)` is a homomorphism of
 $\partial$-functors and that the $H^{p}(X', \mathcal{F}')$ form a $\partial$-functor in $\mathcal{F}'$.
@@ -296,9 +312,7 @@ $\partial$-functors and that the $H^{p}(X', \mathcal{F}')$ form a $\partial$-fun
 The hypotheses and notation being those of `(12.1.3)`, consider now the case where $\mathcal{F} = f_{*}(\mathcal{F}') =
 \psi_{*}(\mathcal{F}')$; we shall see that the di-homomorphism defined in `(12.1.3)`
 
-```text
-  H^p(X, f_*(ℱ')) → H^p(X', ℱ')                                              (12.1.7.1)
-```
+$$ H^{p}(X, f_{*}(\mathcal{F}')) \to H^{p}(X', \mathcal{F}') \tag{12.1.7.1} $$
 
 can be obtained (up to an automorphism of $H^{p}(X', \mathcal{F}')$) as an *edge homomorphism* of a spectral sequence of
 the composite functor $\mathcal{F}' \mapsto \Gamma(X', \psi_{*}(\mathcal{F}'))$ `(T, 2.4)`. The description of the
@@ -312,15 +326,13 @@ $\mathcal{F}'$ respectively, then one takes a homomorphism of complexes $v : \ps
 one then notes that one has $\Gamma(X', \mathcal{L}'^{\bullet}) = \Gamma(X, \psi_{*}(\mathcal{L}'^{\bullet}))$ and that
 the composite homomorphism
 
-```text
-  Γ(X, ℒ^•) → Γ(X', ψ^*(ℒ^•)) →^{Γ(v)} Γ(X', ℒ'^•)
-```
+$$ \Gamma(X, \mathcal{L}^{\bullet}) \to \Gamma(X', \psi^{*}(\mathcal{L}^{\bullet})) \xrightarrow{\Gamma(v)} \Gamma(X',
+\mathcal{L}'^{\bullet}) $$
 
 is none other than
 
-```text
-  Γ(v^♭) : Γ(X, ℒ^•) → Γ(X, ψ_*(ℒ'^•))                                       (12.1.7.2)
-```
+$$ \Gamma(v^{\flat}) : \Gamma(X, \mathcal{L}^{\bullet}) \to \Gamma(X, \psi_{*}(\mathcal{L}'^{\bullet})) \tag{12.1.7.2}
+$$
 
 $(0_{I}, 3.7.1)$, and `(12.1.7.1)` is obtained by passage to cohomology in `(12.1.7.2)`. On the other hand, the spectral
 sequences of the composite functor $\mathcal{F}' \mapsto \Gamma(X, \psi_{*}(\mathcal{F}'))$ are obtained by considering
@@ -332,22 +344,18 @@ the sheaves $\psi_{*}(\mathcal{L}'^{i})$ are flasque `(G, II, 3.1.1)`, hence $H^
 \mathcal{M}^{i\bullet})) = H^{q}(\psi_{*}(\mathcal{L}'^{i})) = 0$ for $q > 0$ `(G, II, 4.4.3)`; one therefore has
 *bijective* edge homomorphisms `(11.1.6)`
 
-```text
-  'E_2^{i,0} = H^i(H_{II}^0(Γ(X, ℳ^{••}))) → H^i(Γ(X, ℳ^{••}))               (12.1.7.3)
-```
+$$ {}'E_{2}^{i,0} = H^{i}(H_{II}^{0}(\Gamma(X, \mathcal{M}^{\bullet\bullet}))) \to H^{i}(\Gamma(X,
+\mathcal{M}^{\bullet\bullet})) \tag{12.1.7.3} $$
 
 and one knows `(11.3.4)` that this homomorphism comes, by passage to cohomology, from the augmentation
 
-```text
-  Γ(X, ψ_*(ℒ'^•)) → Γ(X, ℳ^{••})                                             (12.1.7.4)
-```
+$$ \Gamma(X, \psi_{*}(\mathcal{L}'^{\bullet})) \to \Gamma(X, \mathcal{M}^{\bullet\bullet}) \tag{12.1.7.4} $$
 
 which itself comes from the augmentation $\eta : \psi_{*}(\mathcal{L}'^{\bullet}) \to \mathcal{M}^{\bullet 0}$. On the
 other hand, for the second spectral sequence one has edge homomorphisms
 
-```text
-  ″E_2^{i,0} = H^i(H_I^0(Γ(X, ℳ^{••}))) → H^i(Γ(X, ℳ^{••}))                  (12.1.7.5)
-```
+$$ {}''E_{2}^{i,0} = H^{i}(H_{I}^{0}(\Gamma(X, \mathcal{M}^{\bullet\bullet}))) \to H^{i}(\Gamma(X,
+\mathcal{M}^{\bullet\bullet})) \tag{12.1.7.5} $$
 
 coming `(11.3.4)`, by passage to cohomology, from the homomorphism of complexes $Z^{0}_{I}(\Gamma(X,
 \mathcal{M}^{\bullet\bullet})) \to \Gamma(X, \mathcal{M}^{\bullet\bullet})$. Now, since $\psi_{*}$ is left-exact, the
@@ -359,21 +367,25 @@ is exact; by the definition of a Cartan–Eilenberg resolution `(11.4.2)`, one c
 $B^{0}_{I}(\mathcal{M}^{\bullet\bullet}) = 0$, $Z^{0}_{I}(\mathcal{M}^{\bullet\bullet}) = \mathcal{L}^{\bullet}$; since
 the diagram
 
-```text
-                    ℒ^0   →^{i^0}   ℳ^{00}
-                  ε ↓         ↗^{ε''}     ↑η^0
-                    ψ_*(ℱ')   →^{ε'}    ψ_*(ℒ'^0)
-```
+$$
+\begin{array}{ccc}
+\mathcal{L}^{0} & \xrightarrow{i^{0}} & \mathcal{M}^{00} \\
+{\scriptstyle \varepsilon} \downarrow & \nearrow{\scriptstyle \varepsilon''} & \uparrow{\scriptstyle \eta^{0}} \\
+\psi_{*}(\mathcal{F}') & \xrightarrow{\varepsilon'} & \psi_{*}(\mathcal{L}'^{0})
+\end{array}
+$$
 
 is commutative, the injection of complexes $i : \mathcal{L}^{\bullet} \to \mathcal{M}^{\bullet 0}$ is compatible with
 the augmentations $\epsilon$ and $\epsilon''$. One thus has two homomorphisms of complexes from $\mathcal{L}^{\bullet}$
 into $\mathcal{M}^{\bullet 0}$
 
-```text
-                    ℒ^•   →^i      ℳ^{•0}
-                  v^♭ ↘    ↗ η
-                    ψ_*(ℒ'^•)
-```
+$$
+\begin{array}{ccc}
+\mathcal{L}^{\bullet} & \xrightarrow{i} & \mathcal{M}^{\bullet 0} \\
+{\scriptstyle v^{\flat}} \searrow & & \nearrow{\scriptstyle \eta} \\
+& \psi_{*}(\mathcal{L}'^{\bullet}) &
+\end{array}
+$$
 
 <!-- original page 57 -->
 
@@ -426,34 +438,35 @@ concludes that the $R^{p} f_{*}$ form a *universal cohomological functor* from $
 Let $\mathcal{F}$ and $\mathcal{G}$ be two $\mathcal{O}_{X}$-modules. With the notation of `(12.2.1)`, for every open
 $V$ of $Y$ one has the cup-product homomorphism `(12.1.2.1)`
 
-```text
-  H^p(ψ^{-1}(V), ℱ) ⊗_{Γ(ψ^{-1}(V), 𝒪_X)} H^q(ψ^{-1}(V), 𝒢)
-      → H^{p+q}(ψ^{-1}(V), ℱ ⊗_{𝒪_X} 𝒢)
-```
+$$
+\begin{aligned}
+&H^{p}(\psi^{-1}(V), \mathcal{F}) \otimes_{\Gamma(\psi^{-1}(V), \mathcal{O}_{X})} H^{q}(\psi^{-1}(V), \mathcal{G}) \\
+&\quad \to H^{p+q}(\psi^{-1}(V), \mathcal{F} \otimes_{\mathcal{O}_{X}} \mathcal{G})
+\end{aligned}
+$$
 
 <!-- original page 58 -->
 
 and it follows at once from the definition of the cup product `(G, II, 6.6)` that these homomorphisms commute with
 passage from $V$ to an open subspace $V'$ of $V$. On the other hand, one has a homomorphism of rings
 
-```text
-  Γ(V, 𝒪_Y) → Γ(V, ψ_*(𝒪_X)) = Γ(ψ^{-1}(V), 𝒪_X)
-```
+$$ \Gamma(V, \mathcal{O}_{Y}) \to \Gamma(V, \psi_{*}(\mathcal{O}_{X})) = \Gamma(\psi^{-1}(V), \mathcal{O}_{X}) $$
 
 coming from $\theta$, whence a canonical homomorphism of tensor products
 
-```text
-  H^p(ψ^{-1}(V), ℱ) ⊗_{Γ(V, 𝒪_Y)} H^q(ψ^{-1}(V), 𝒢)
-      → H^p(ψ^{-1}(V), ℱ) ⊗_{Γ(ψ^{-1}(V), 𝒪_X)} H^q(ψ^{-1}(V), 𝒢)
-```
+$$
+\begin{aligned}
+&H^{p}(\psi^{-1}(V), \mathcal{F}) \otimes_{\Gamma(V, \mathcal{O}_{Y})} H^{q}(\psi^{-1}(V), \mathcal{G}) \\
+&\quad \to H^{p}(\psi^{-1}(V), \mathcal{F}) \otimes_{\Gamma(\psi^{-1}(V), \mathcal{O}_{X})} H^{q}(\psi^{-1}(V), \mathcal{G})
+\end{aligned}
+$$
 
 which is also compatible with the restriction from $V$ to $V'$. By composition, one therefore obtains a homomorphism of
 $\Gamma(V, \mathcal{O}_{Y})$-modules, which defines a canonical functorial-in-$\mathcal{F}$-and-$\mathcal{G}$
 homomorphism for the sheaves associated to the presheaves considered:
 
-```text
-  R^p f_*(ℱ) ⊗_{𝒪_Y} R^q f_*(𝒢) → R^{p+q} f_*(ℱ ⊗_{𝒪_X} 𝒢).                  (12.2.2.1)
-```
+$$ R^{p} f_{*}(\mathcal{F}) \otimes_{\mathcal{O}_{Y}} R^{q} f_{*}(\mathcal{G}) \to R^{p+q} f_{*}(\mathcal{F}
+\otimes_{\mathcal{O}_{X}} \mathcal{G}). \tag{12.2.2.1} $$
 
 Note that for $p = q = 0$, this homomorphism reduces to $(0_{I}, 4.2.2.1)$.
 
@@ -464,15 +477,13 @@ Note that for $p = q = 0$, this homomorphism reduces to $(0_{I}, 4.2.2.1)$.
 *For every $\mathcal{O}_{X}$-module $\mathcal{F}$ and every $\mathcal{O}_{Y}$-module locally free of finite rank
 $\mathcal{L}$, one has canonical functorial isomorphisms*
 
-```text
-  R^p f_*(ℱ) ⊗_{𝒪_Y} ℒ ⥲ R^p f_*(ℱ ⊗_{𝒪_X} f^*(ℒ)).                          (12.2.3.1)
-```
+$$ R^{p} f_{*}(\mathcal{F}) \otimes_{\mathcal{O}_{Y}} \mathcal{L} \xrightarrow{\sim} R^{p} f_{*}(\mathcal{F}
+\otimes_{\mathcal{O}_{X}} f^{*}(\mathcal{L})). \tag{12.2.3.1} $$
 
 **Proof.** The homomorphism `(12.2.3.1)` is obtained by composing the homomorphism, a particular case of `(12.2.2.1)`,
 
-```text
-  R^p f_*(ℱ) ⊗_{𝒪_Y} f_*(f^*(ℒ)) → R^p f_*(ℱ ⊗_{𝒪_X} f^*(ℒ))                 (12.2.3.2)
-```
+$$ R^{p} f_{*}(\mathcal{F}) \otimes_{\mathcal{O}_{Y}} f_{*}(f^{*}(\mathcal{L})) \to R^{p} f_{*}(\mathcal{F}
+\otimes_{\mathcal{O}_{X}} f^{*}(\mathcal{L})) \tag{12.2.3.2} $$
 
 with the homomorphism from the first member of `(12.2.3.1)` to that of `(12.2.3.2)` coming from the canonical
 homomorphism $(0_{I}, 4.4.3.2)$. To verify that `(12.2.3.1)` is an isomorphism when $\mathcal{L}$ is locally free, one
@@ -490,11 +501,9 @@ Let $(Z, \mathcal{O}_{Z})$ be a third ringed space, $g : Y \to Z$ a morphism of 
 flasque sheaf of abelian groups, and consequently `(12.2.1)` one has $R^{p} g_{*}(f_{*}(\mathcal{G})) = 0$ for every
 $p > 0$. It follows `(T, 2.4.1)` that the *Leray spectral sequence* of the composed functors is applicable to the
 composite functor $g_{*} f_{*}$: there is a biregular spectral sequence whose abutment is the functor
-$R^{\bullet} h_{*}$ where $h = g \circ f$, and whose `E_2` term is given by
+$R^{\bullet} h_{*}$ where $h = g \circ f$, and whose $E_{2}$ term is given by
 
-```text
-  E_2^{p,q} = R^p g_*(R^q f_*(ℱ)).                                           (12.2.4.1)
-```
+$$ E_{2}^{p,q} = R^{p} g_{*}(R^{q} f_{*}(\mathcal{F})). \tag{12.2.4.1} $$
 
 **12.2.5.**
 
@@ -502,10 +511,9 @@ $R^{\bullet} h_{*}$ where $h = g \circ f$, and whose `E_2` term is given by
 
 Under the conditions of `(12.2.4)`, we shall define directly canonical homomorphisms of $\mathcal{O}_{Z}$-modules
 
-```text
-  R^n g_*(f_*(ℱ)) → R^n h_*(ℱ)                                               (12.2.5.1)
-  R^n h_*(ℱ) → g_*(R^n f_*(ℱ))                                               (12.2.5.2)
-```
+$$ R^{n} g_{*}(f_{*}(\mathcal{F})) \to R^{n} h_{*}(\mathcal{F}) \tag{12.2.5.1} $$
+
+$$ R^{n} h_{*}(\mathcal{F}) \to g_{*}(R^{n} f_{*}(\mathcal{F})) \tag{12.2.5.2} $$
 
 <!-- original page 59 -->
 
@@ -513,16 +521,12 @@ which could be identified with the "edge homomorphisms" of the Leray spectral se
 operate on the presheaves to which the higher direct image sheaves `(12.2.1)` are associated. For this, consider any
 open set $W$ of $Z$ and its inverse image $g^{-1}(W)$ in $Y$; one has a canonical di-homomorphism
 
-```text
-  H^n(g^{-1}(W), f_*(ℱ)) → H^n(f^{-1}(g^{-1}(W)), f^*(f_*(ℱ)))                (12.2.5.3)
-```
+$$ H^{n}(g^{-1}(W), f_{*}(\mathcal{F})) \to H^{n}(f^{-1}(g^{-1}(W)), f^{*}(f_{*}(\mathcal{F}))) \tag{12.2.5.3} $$
 
 with corresponding rings $\Gamma(g^{-1}(W), \mathcal{O}_{Y})$ and $\Gamma(h^{-1}(W), \mathcal{O}_{X})$; on the other
 hand, the canonical homomorphism $(0_{I}, 4.4.3.3)$ yields by functoriality canonical homomorphisms
 
-```text
-  H^n(h^{-1}(W), f^*(f_*(ℱ))) → H^n(h^{-1}(W), ℱ)                            (12.2.5.4)
-```
+$$ H^{n}(h^{-1}(W), f^{*}(f_{*}(\mathcal{F}))) \to H^{n}(h^{-1}(W), \mathcal{F}) \tag{12.2.5.4} $$
 
 which are homomorphisms of $\Gamma(h^{-1}(W), \mathcal{O}_{X})$-modules. Taking into account the ring homomorphism
 $\Gamma(W, \mathcal{O}_{Z}) \to \Gamma(h^{-1}(W), \mathcal{O}_{X})$, one sees that by composing `(12.2.5.4)` and
@@ -532,9 +536,7 @@ The definition of `(12.2.5.2)` is even simpler; by definition, $R^{n} h_{*}(\mat
 $W \mapsto H^{n}(f^{-1}(g^{-1}(W)), \mathcal{F})$ and $R^{n} f_{*}(\mathcal{F})$ to the presheaf $V \mapsto
 H^{n}(f^{-1}(V), \mathcal{F})$; one therefore has a canonical homomorphism
 
-```text
-  H^n(f^{-1}(g^{-1}(W)), ℱ) → Γ(g^{-1}(W), R^n f_*(ℱ)),
-```
+$$ H^{n}(f^{-1}(g^{-1}(W)), \mathcal{F}) \to \Gamma(g^{-1}(W), R^{n} f_{*}(\mathcal{F})), $$
 
 and it is immediate that these homomorphisms define a homomorphism of presheaves, which in turn defines `(12.2.5.2)`.
 
@@ -546,19 +548,23 @@ Under the hypotheses of `(12.2.4)`, let $\mathcal{F}$, $\mathcal{G}$, $\mathcal{
 and $u : \mathcal{F} \otimes \mathcal{G} \to \mathcal{H}$ an $\mathcal{O}_{X}$-homomorphism. One then has commutative
 diagrams
 
-```text
-   R^p g_*(f_*(ℱ)) ⊗_{𝒪_Z} R^q g_*(f_*(𝒢))   →   R^{p+q} g_*(f_*(𝓗))
-            ↓                                          ↓                       (12.2.6.1)
-   R^p h_*(ℱ) ⊗_{𝒪_Z} R^q h_*(𝒢)             →   R^{p+q} h_*(𝓗)
-```
+$$
+\begin{array}{ccc}
+R^{p} g_{*}(f_{*}(\mathcal{F})) \otimes_{\mathcal{O}_{Z}} R^{q} g_{*}(f_{*}(\mathcal{G})) & \to & R^{p+q} g_{*}(f_{*}(\mathcal{H})) \\
+\downarrow & & \downarrow \\
+R^{p} h_{*}(\mathcal{F}) \otimes_{\mathcal{O}_{Z}} R^{q} h_{*}(\mathcal{G}) & \to & R^{p+q} h_{*}(\mathcal{H})
+\end{array} \tag{12.2.6.1}
+$$
 
 and
 
-```text
-   R^p h_*(ℱ) ⊗_{𝒪_Z} R^q h_*(𝒢)             →   R^{p+q} h_*(𝓗)
-            ↓                                          ↓                       (12.2.6.2)
-   g_*(R^p f_*(ℱ)) ⊗_{𝒪_Z} g_*(R^q f_*(𝒢))   →   g_*(R^{p+q} f_*(𝓗))
-```
+$$
+\begin{array}{ccc}
+R^{p} h_{*}(\mathcal{F}) \otimes_{\mathcal{O}_{Z}} R^{q} h_{*}(\mathcal{G}) & \to & R^{p+q} h_{*}(\mathcal{H}) \\
+\downarrow & & \downarrow \\
+g_{*}(R^{p} f_{*}(\mathcal{F})) \otimes_{\mathcal{O}_{Z}} g_{*}(R^{q} f_{*}(\mathcal{G})) & \to & g_{*}(R^{p+q} f_{*}(\mathcal{H}))
+\end{array} \tag{12.2.6.2}
+$$
 
 <!-- original page 60 -->
 
@@ -604,9 +610,7 @@ $\mathcal{E}xt^{p}_{\mathcal{O}_{X}}(\mathcal{F}, \mathcal{G})$ is a coherent $\
 contravariant in $\mathcal{F}$. Since $\mathcal{F}$ is coherent, there exist, for every $p$ and every point $x \in X$,
 an open neighborhood $U$ of $x$ and an exact sequence of $(\mathcal{O}_{X} \mid U)$-modules
 
-```text
-  0 → ℛ → ℒ_{p−1} → ⋯ → ℒ_0 → ℱ ∣ U → 0
-```
+$$ 0 \to \mathcal{R} \to \mathcal{L}_{p-1} \to \cdots \to \mathcal{L}_{0} \to \mathcal{F} \mid U \to 0 $$
 
 where each of the $\mathcal{L}_{i}$ ($0 \leq i \leq p-1$) is isomorphic to an $\mathcal{O}^{n_{i}}_{X} \mid U$ and
 $\mathcal{R}$ is coherent: this follows by induction on $p$ from $(0_{I}, 5.3.2)$ and $(0_{I}, 5.3.4)$, in view of the
@@ -618,9 +622,9 @@ for every $\mathcal{O}_{X}$-module $\mathcal{L}$ such that $\mathcal{L} \mid U$ 
 $\mathcal{F} \mapsto \mathcal{H}om_{\mathcal{O}_{X} \mid U}(\mathcal{F} \mid U, \mathcal{G} \mid U)$, and gives an exact
 sequence
 
-```text
-  ℋom_{𝒪_X ∣ U}(ℒ_{p−1}, 𝒢 ∣ U) → ℋom_{𝒪_X ∣ U}(ℛ, 𝒢 ∣ U) → ℰxt^p_{𝒪_X ∣ U}(ℱ ∣ U, 𝒢 ∣ U) → 0
-```
+$$ \mathcal{H}om_{\mathcal{O}_{X} \mid U}(\mathcal{L}_{p-1}, \mathcal{G} \mid U) \to \mathcal{H}om_{\mathcal{O}_{X} \mid
+U}(\mathcal{R}, \mathcal{G} \mid U) \to \mathcal{E}xt^{p}_{\mathcal{O}_{X} \mid U}(\mathcal{F} \mid U, \mathcal{G} \mid
+U) \to 0 $$
 
 and since the first two terms of this sequence are coherent $(\mathcal{O}_{X} \mid U)$-modules $(0_{I}, 5.3.5)$, so is
 the third $(0_{I}, 5.3.4)$.
@@ -636,23 +640,19 @@ $\mathcal{O}_{Y}$-modules.*
 
 *(i) There exists a homomorphism of cohomological bifunctors*
 
-```text
-  f^*(ℰxt^p_{𝒪_Y}(ℱ, 𝒢)) ⥲ ℰxt^p_{𝒪_X}(f^*(ℱ), f^*(𝒢))                       (12.3.4.1)
-```
+$$ f^{*}(\mathcal{E}xt^{p}_{\mathcal{O}_{Y}}(\mathcal{F}, \mathcal{G})) \xrightarrow{\sim}
+\mathcal{E}xt^{p}_{\mathcal{O}_{X}}(f^{*}(\mathcal{F}), f^{*}(\mathcal{G})) \tag{12.3.4.1} $$
 
 *reducing in degree `0` to the canonical homomorphism $(0_{I}, 4.4.6)$.*
 
 *(ii) There exists a canonical morphism of spectral sequences*
 
-```text
-  E(ℱ, 𝒢) → E(f^*(ℱ), f^*(𝒢))                                                (12.3.4.2)
-```
+$$ E(\mathcal{F}, \mathcal{G}) \to E(f^{*}(\mathcal{F}), f^{*}(\mathcal{G})) \tag{12.3.4.2} $$
 
-*which, for the `E_2` terms, reduces to the homomorphisms*
+*which, for the $E_{2}$ terms, reduces to the homomorphisms*
 
-```text
-  H^p(Y, ℰxt^q_{𝒪_Y}(ℱ, 𝒢)) → H^p(X, ℰxt^q_{𝒪_X}(f^*(ℱ), f^*(𝒢)))             (12.3.4.3)
-```
+$$ H^{p}(Y, \mathcal{E}xt^{q}_{\mathcal{O}_{Y}}(\mathcal{F}, \mathcal{G})) \to H^{p}(X,
+\mathcal{E}xt^{q}_{\mathcal{O}_{X}}(f^{*}(\mathcal{F}), f^{*}(\mathcal{G}))) \tag{12.3.4.3} $$
 
 *deduced from `(12.3.4.1)` and `(12.1.3.1)`.*
 
@@ -704,18 +704,19 @@ coherent $\mathcal{O}_{Y}$-module $\mathcal{F}$, the canonical homomorphisms `(1
 \mathcal{O}^{n}_{Y} \to \mathcal{F} \to 0$, and $\mathcal{R}$ is then also a coherent $\mathcal{O}_{Y}$-module $(0_{I},
 5.3.4)$. To prove that the homomorphisms
 
-```text
-  f^*(ℰxt^p_{𝒪_Y}(ℱ, 𝒢)) → ℰxt^p_{𝒪_X}(f^*(ℱ), f^*(𝒢))
-```
+$$ f^{*}(\mathcal{E}xt^{p}_{\mathcal{O}_{Y}}(\mathcal{F}, \mathcal{G})) \to
+\mathcal{E}xt^{p}_{\mathcal{O}_{X}}(f^{*}(\mathcal{F}), f^{*}(\mathcal{G})) $$
 
 are bijective, we argue by induction on $p$, the proposition resulting from $(0_{I}, 6.7.6.1)$ when $p = 0$. Now, one
 has the commutative diagram
 
-```text
-   f^*(ℰxt^{p−1}_{𝒪_Y}(𝒪_Y^n, 𝒢)) → f^*(ℰxt^{p−1}_{𝒪_Y}(ℛ, 𝒢)) →^∂ f^*(ℰxt^p_{𝒪_Y}(ℱ, 𝒢)) → f^*(ℰxt^p_{𝒪_Y}(𝒪_Y^n, 𝒢))
-            ↓                              ↓                              ↓                                ↓
-   ℰxt^{p−1}_{𝒪_X}(𝒪_X^n, f^*(𝒢)) → ℰxt^{p−1}_{𝒪_X}(f^*(ℛ), f^*(𝒢)) →^∂ ℰxt^p_{𝒪_X}(f^*(ℱ), f^*(𝒢)) → ℰxt^p_{𝒪_X}(𝒪_X^n, f^*(𝒢))
-```
+$$
+\begin{array}{ccccccc}
+f^{*}(\mathcal{E}xt^{p-1}_{\mathcal{O}_{Y}}(\mathcal{O}_{Y}^{n}, \mathcal{G})) & \to & f^{*}(\mathcal{E}xt^{p-1}_{\mathcal{O}_{Y}}(\mathcal{R}, \mathcal{G})) & \xrightarrow{\partial} & f^{*}(\mathcal{E}xt^{p}_{\mathcal{O}_{Y}}(\mathcal{F}, \mathcal{G})) & \to & f^{*}(\mathcal{E}xt^{p}_{\mathcal{O}_{Y}}(\mathcal{O}_{Y}^{n}, \mathcal{G})) \\
+\downarrow & & \downarrow & & \downarrow & & \downarrow \\
+\mathcal{E}xt^{p-1}_{\mathcal{O}_{X}}(\mathcal{O}_{X}^{n}, f^{*}(\mathcal{G})) & \to & \mathcal{E}xt^{p-1}_{\mathcal{O}_{X}}(f^{*}(\mathcal{R}), f^{*}(\mathcal{G})) & \xrightarrow{\partial} & \mathcal{E}xt^{p}_{\mathcal{O}_{X}}(f^{*}(\mathcal{F}), f^{*}(\mathcal{G})) & \to & \mathcal{E}xt^{p}_{\mathcal{O}_{X}}(\mathcal{O}_{X}^{n}, f^{*}(\mathcal{G}))
+\end{array}
+$$
 
 since $f^{*}(\mathcal{O}_{Y}) = \mathcal{O}_{X}$; as $f^{*}$ is exact, the two rows are exact. Moreover, one has
 $\mathcal{E}xt^{p}_{\mathcal{O}_{Y}}(\mathcal{O}^{n}_{Y}, \mathcal{G}) = 0$ for every $p > 0$ and likewise
@@ -739,17 +740,18 @@ $\mathcal{H}^{p}(\mathcal{K}^{\bullet})$. Recall that $\mathcal{H}^{\bullet}(f, 
 cohomology of the bicomplex of $\mathcal{O}_{Y}$-modules $f_{*}(\mathcal{L}^{\bullet\bullet})$, where
 $\mathcal{L}^{\bullet\bullet}$ is an injective Cartan–Eilenberg resolution of $\mathcal{K}^{\bullet}$ in the category of
 $\mathcal{O}_{X}$-modules; $\mathcal{H}^{\bullet}(f, \mathcal{K}^{\bullet})$ is the abutment of two spectral sequences
-$'\mathcal{E}(f, \mathcal{K}^{\bullet})$ and $''\mathcal{E}(f, \mathcal{K}^{\bullet})$ whose `E_2` terms are given by
+${}'\mathcal{E}(f, \mathcal{K}^{\bullet})$ and ${}''\mathcal{E}(f, \mathcal{K}^{\bullet})$ whose $E_{2}$ terms are given
+by
 
-```text
-  'E_2^{pq} = ℋ^p(ℋ^q(f, 𝒦^•))                                               (12.4.1.1)
-  ″E_2^{pq} = ℋ^p(f, ℋ^q(𝒦^•))     (= R^p f_*(ℋ^q(𝒦^•)))                     (12.4.1.2)
-```
+$$ {}'E_{2}^{pq} = \mathcal{H}^{p}(\mathcal{H}^{q}(f, \mathcal{K}^{\bullet})) \tag{12.4.1.1} $$
+
+$$ {}''E_{2}^{pq} = \mathcal{H}^{p}(f, \mathcal{H}^{q}(\mathcal{K}^{\bullet})) \quad (= R^{p}
+f_{*}(\mathcal{H}^{q}(\mathcal{K}^{\bullet}))) \tag{12.4.1.2} $$
 
 In these formulas, we have adopted the general notation $T(A^{\bullet})$ for the transform of a complex by a functor
 `(11.2.1)`, and one writes $\mathcal{H}^{p}(f, \mathcal{F})$ instead of $R^{p} f_{*}(\mathcal{F})$ for an
-$\mathcal{O}_{X}$-module $\mathcal{F}$. Recall further that the sequence $'\mathcal{E}(f, \mathcal{K}^{\bullet})$ is
-always *regular*; the two spectral sequences $'\mathcal{E}(f, \mathcal{K}^{\bullet})$ and $''\mathcal{E}(f,
+$\mathcal{O}_{X}$-module $\mathcal{F}$. Recall further that the sequence ${}'\mathcal{E}(f, \mathcal{K}^{\bullet})$ is
+always *regular*; the two spectral sequences ${}'\mathcal{E}(f, \mathcal{K}^{\bullet})$ and ${}''\mathcal{E}(f,
 \mathcal{K}^{\bullet})$ are *biregular* when $\mathcal{K}^{\bullet}$ is bounded below,
 
 <!-- original page 63 -->
@@ -821,9 +823,9 @@ hypercohomology:
 
 *Let $\mathcal{K}^{\bullet} = (\mathcal{K}^{j})$ be a complex of $\mathcal{O}_{X}$-modules. There exists a regular
 spectral functor in $\mathcal{K}^{\bullet}$ having as abutment the hypercohomology $H^{\bullet}(X,
-\mathcal{K}^{\bullet})$, and whose `E_2` term is given by*
+\mathcal{K}^{\bullet})$, and whose $E_{2}$ term is given by*
 
-$$ E^{pq}_{2} = H^{p}(\mathfrak{U}, h^{q}(\mathcal{K}^{\bullet})) (12.4.6.1) $$
+$$ E^{pq}_{2} = H^{p}(\mathfrak{U}, h^{q}(\mathcal{K}^{\bullet})) \tag{12.4.6.1} $$
 
 *where $h^{q}(\mathcal{K}^{\bullet})$ denotes the complex of presheaves $V \mapsto H^{q}(V, \mathcal{K}^{\bullet})$ on
 $X$. The preceding spectral sequence is biregular if $\mathcal{K}^{\bullet}$ is bounded below.*
@@ -854,9 +856,8 @@ complex of cochains $C^{\bullet}(\mathfrak{U}, h^{q}(\mathcal{K}^{j}))$, which c
 *If, for every simplex $\sigma$ of the nerve of $\mathfrak{U}$, and for every integer $i$, one has $H^{q}(U_{\sigma},
 \mathcal{K}^{i}) = 0$ for $q > 0$, then one has a canonical isomorphism*
 
-```text
-  H^•(𝔘, 𝒦^•) ⥲ H^•(X, 𝒦^•).                                                 (12.4.7.1)
-```
+$$ H^{\bullet}(\mathfrak{U}, \mathcal{K}^{\bullet}) \xrightarrow{\sim} H^{\bullet}(X, \mathcal{K}^{\bullet}).
+\tag{12.4.7.1} $$
 
 **Proof.** Indeed, the hypothesis entails that $C^{\bullet}(\mathfrak{U}, h^{q}(\mathcal{K}^{j})) = 0$ for $q > 0$,
 hence $E^{pq}_{2} = 0$ for $q > 0$; the sequence `(12.4.6.1)` being degenerate and regular, the conclusion follows from
@@ -870,9 +871,7 @@ Let $(X', \mathcal{O}_{X'})$ be a second ringed space, and let $f = (\psi, \thet
 the same method as in `(12.1.3)` and `(12.1.4)`, one defines a di-homomorphism for the hypercohomology of a complex
 $\mathcal{K}^{\bullet}$ of $\mathcal{O}_{X}$-modules
 
-```text
-  H^p(X, 𝒦^•) → H^p(X', f^*(𝒦^•)).                                           (12.4.8.1)
-```
+$$ H^{p}(X, \mathcal{K}^{\bullet}) \to H^{p}(X', f^{*}(\mathcal{K}^{\bullet})). \tag{12.4.8.1} $$
 
 One starts from a Cartan–Eilenberg injective resolution $\mathcal{L}^{\bullet\bullet}$ of $\mathcal{K}^{\bullet}$, and
 since $\psi^{*}$ is exact, $\psi^{*}(\mathcal{L}^{\bullet\bullet})$ is a Cartan–Eilenberg resolution of
@@ -887,9 +886,8 @@ Starting from `(12.4.8.1)` and `(12.4.3)`, one can then, reasoning as in `(12.2.
 \to Y$, $g : Y \to Z$ of ringed spaces, homomorphisms for the hypercohomology of a complex $\mathcal{K}^{\bullet}$ of
 $\mathcal{O}_{X}$-modules
 
-```text
-  ℋ^n(g, f_*(𝒦^•)) → ℋ^n(h, 𝒦^•)                                             (12.4.8.2)
-  ℋ^n(h, 𝒦^•) → g_*(ℋ^n(f, 𝒦^•)).                                            (12.4.8.3)
-```
+$$ \mathcal{H}^{n}(g, f_{*}(\mathcal{K}^{\bullet})) \to \mathcal{H}^{n}(h, \mathcal{K}^{\bullet}) \tag{12.4.8.2} $$
+
+$$ \mathcal{H}^{n}(h, \mathcal{K}^{\bullet}) \to g_{*}(\mathcal{H}^{n}(f, \mathcal{K}^{\bullet})). \tag{12.4.8.3} $$
 
 We leave the details of the definitions to the reader.

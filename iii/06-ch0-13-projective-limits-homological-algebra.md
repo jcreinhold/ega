@@ -20,9 +20,7 @@ right-filtered; set $A = \varprojlim A_{\alpha}$ and, for every $\alpha \in I$, 
 the canonical morphism. For every $\alpha \in I$, the $f_{\alpha \beta}(A_{\beta})$ for $\beta \geq \alpha$ form a
 filtered decreasing family of subobjects of $A_{\alpha}$; the subobject
 
-```text
-  A'_α = inf_{β ≥ α} f_{αβ}(A_β)
-```
+$$ A'_{\alpha} = \inf_{\beta \geq \alpha} f_{\alpha\beta}(A_{\beta}) $$
 
 is called the subobject of "universal images" in $A_{\alpha}$; it is clear that $f_{\alpha}(A) \subset A'_{\alpha}$ and
 $f_{\alpha \beta}(A'_{\beta}) \subset A'_{\alpha}$ for $\alpha \leq \beta$, so $(A'_{\alpha}, f_{\alpha
@@ -69,9 +67,7 @@ define the subset of "universal images" in $A_{\alpha}$, and the remarks made on
 
 Let
 
-```text
-  0 → A_α --u_α--> B_α --v_α--> C_α → 0
-```
+$$ 0 \to A_{\alpha} \xrightarrow{u_{\alpha}} B_{\alpha} \xrightarrow{v_{\alpha}} C_{\alpha} \to 0 $$
 
 be an exact sequence of projective systems of abelian groups (relative to the same right-filtered index set $I$).
 
@@ -110,36 +106,34 @@ completes the demonstration.
 
 Let $I$ be a right-filtered ordered set having a countable cofinal part. Let
 
-```text
-  0 → A_α --u_α--> B_α --v_α--> C_α → 0
-```
+$$ 0 \to A_{\alpha} \xrightarrow{u_{\alpha}} B_{\alpha} \xrightarrow{v_{\alpha}} C_{\alpha} \to 0 $$
 
 be an exact sequence of projective systems of abelian groups having $I$ as index set. If $(A_{\alpha})$ satisfies
 condition `(ML)`, the sequence
 
-```text
-  0 → lim_← A_α → lim_← B_α → lim_← C_α → 0
-```
+$$ 0 \to \varprojlim A_{\alpha} \to \varprojlim B_{\alpha} \to \varprojlim C_{\alpha} \to 0 $$
 
 is exact.
 
-It comes down to proving that the homomorphism `v = lim_← v_α : lim_← B_α → lim_← C_α` is surjective. Let $z =
-(z_{\alpha})$ be an element of $\varprojlim C_{\alpha}$, and set $E_{\alpha} = v^{-1}_{\alpha}(z_{\alpha})$; it is clear
-that the $E_{\alpha}$ form a projective system of non-empty sets for the restrictions of the homomorphisms $g_{\alpha
-\beta} : B_{\beta} \to B_{\alpha}$. Let us show that this projective system satisfies condition `(ML)`; identifying
-$A_{\alpha}$ with a part of $B_{\alpha}$ via $u_{\alpha}$ for every $\alpha \in I$, there exists $\beta \geq \alpha$
-such that $g_{\alpha \beta}(A_{\beta}) = g_{\alpha \lambda}(A_{\lambda})$ for $\lambda \geq \beta$; let us show that one
-also has $g_{\alpha \beta}(E_{\beta}) = g_{\alpha \lambda}(E_{\lambda})$ for $\lambda \geq \beta$. Indeed, take
-$y_{\lambda} \in E_{\lambda}$ and set $y_{\beta} = g_{\beta \lambda}(y_{\lambda})$, $y_{\alpha} = g_{\alpha
-\lambda}(y_{\lambda})$; let $y'_{\alpha} \in g_{\alpha \beta}(E_{\beta})$, so that $y'_{\alpha} = g_{\alpha
-\beta}(y'_{\beta})$ for some $y'_{\beta} \in E_{\beta}$; one has $y'_{\beta} - y_{\beta} = x_{\beta} \in A_{\beta}$, and
-by hypothesis there exists $x_{\lambda} \in A_{\lambda}$ such that $g_{\alpha \beta}(x_{\beta}) = g_{\alpha
-\lambda}(x_{\lambda})$; therefore
+It comes down to proving that the homomorphism $v = \varprojlim v_{\alpha} : \varprojlim B_{\alpha} \to \varprojlim
+C_{\alpha}$ is surjective. Let $z = (z_{\alpha})$ be an element of $\varprojlim C_{\alpha}$, and set $E_{\alpha} =
+v^{-1}_{\alpha}(z_{\alpha})$; it is clear that the $E_{\alpha}$ form a projective system of non-empty sets for the
+restrictions of the homomorphisms $g_{\alpha \beta} : B_{\beta} \to B_{\alpha}$. Let us show that this projective system
+satisfies condition `(ML)`; identifying $A_{\alpha}$ with a part of $B_{\alpha}$ via $u_{\alpha}$ for every $\alpha \in
+I$, there exists $\beta \geq \alpha$ such that $g_{\alpha \beta}(A_{\beta}) = g_{\alpha \lambda}(A_{\lambda})$ for
+$\lambda \geq \beta$; let us show that one also has $g_{\alpha \beta}(E_{\beta}) = g_{\alpha \lambda}(E_{\lambda})$ for
+$\lambda \geq \beta$. Indeed, take $y_{\lambda} \in E_{\lambda}$ and set $y_{\beta} = g_{\beta \lambda}(y_{\lambda})$,
+$y_{\alpha} = g_{\alpha \lambda}(y_{\lambda})$; let $y'_{\alpha} \in g_{\alpha \beta}(E_{\beta})$, so that $y'_{\alpha}
+= g_{\alpha \beta}(y'_{\beta})$ for some $y'_{\beta} \in E_{\beta}$; one has $y'_{\beta} - y_{\beta} = x_{\beta} \in
+A_{\beta}$, and by hypothesis there exists $x_{\lambda} \in A_{\lambda}$ such that $g_{\alpha \beta}(x_{\beta}) =
+g_{\alpha \lambda}(x_{\lambda})$; therefore
 
-```text
-  y'_α = g_{αβ}(y_β) + g_{αβ}(x_β) = g_{αλ}(y_λ) + g_{αλ}(x_λ)
-       = g_{αλ}(y_λ + x_λ) ∈ g_{αλ}(E_λ),
-```
+$$
+\begin{aligned}
+y'_{\alpha} = g_{\alpha\beta}(y_{\beta}) + g_{\alpha\beta}(x_{\beta}) &= g_{\alpha\lambda}(y_{\lambda}) + g_{\alpha\lambda}(x_{\lambda}) \\
+&= g_{\alpha\lambda}(y_{\lambda} + x_{\lambda}) \in g_{\alpha\lambda}(E_{\lambda}),
+\end{aligned}
+$$
 
 which proves our assertion. That being so, one knows (Bourbaki, _Top. gén._, ch. II, 3rd ed., §3, th. 1) that under the
 hypotheses made on $I$, a projective system of non-empty sets satisfying `(ML)` has a non-empty projective limit; in
@@ -154,9 +148,7 @@ The hypotheses on $I$ being those of `(13.2.2)`, let $(K^{\bullet}_{\alpha})_{\a
 complexes of abelian groups $K^{\bullet}_{\alpha} = (K^{n}_{\alpha})_{n \in \mathbb{Z}}$ whose differential operator is
 of degree `+1`. For each $n$, there exists a canonical functorial homomorphism
 
-```text
-  h_n : H^n(lim_← K^•_α) → lim_← H^n(K^•_α).                                  (13.2.3.1)
-```
+$$ h_n : H^n(\varprojlim K^{\bullet}_{\alpha}) \to \varprojlim H^n(K^{\bullet}_{\alpha}). \tag{13.2.3.1} $$
 
 If, for every degree $n$, the projective system of abelian groups $(K^{n}_{\alpha})_{\alpha \in I}$ satisfies `(ML)`,
 then all the homomorphisms $h_{n}$ are surjective. If in addition, for some degree $n$, the projective system
@@ -165,11 +157,13 @@ $(H^{n-1}(K^{\bullet}_{\alpha}))_{\alpha \in I}$ satisfies `(ML)`, the homomorph
 Set, for every $n$, $K^{n} = \varprojlim K^{n}_{\alpha}$; the definition of the homomorphisms $h_{n}$ comes from the
 commutativity of the diagrams
 
-```text
-  … → K^{n−1} ----> K^n ----> K^{n+1} → …
-        ↓            ↓            ↓
-  … → K^{n−1}_α → K^n_α → K^{n+1}_α → …
-```
+$$
+\begin{array}{ccccccc}
+\cdots \to & K^{n-1} & \longrightarrow & K^{n} & \longrightarrow & K^{n+1} & \to \cdots \\
+ & \downarrow & & \downarrow & & \downarrow & \\
+\cdots \to & K^{n-1}_{\alpha} & \longrightarrow & K^{n}_{\alpha} & \longrightarrow & K^{n+1}_{\alpha} & \to \cdots
+\end{array}
+$$
 
 <!-- original page 67 -->
 
@@ -178,17 +172,18 @@ $K^{\bullet}_{\alpha}$.
 
 Consider the exact sequences
 
-```text
-  (*_n)     0 → B^n(K^•_α) → Z^n(K^•_α) → H^n(K^•_α) → 0
-  (**_n)    0 → Z^{n−1}(K^•_α) → K^{n−1}_α → B^n(K^•_α) → 0
-```
+$$
+\begin{aligned}
+(*_{n}) \quad & 0 \to B^{n}(K^{\bullet}_{\alpha}) \to Z^{n}(K^{\bullet}_{\alpha}) \to H^{n}(K^{\bullet}_{\alpha}) \to 0 \\
+(**_{n}) \quad & 0 \to Z^{n-1}(K^{\bullet}_{\alpha}) \to K^{n-1}_{\alpha} \to B^{n}(K^{\bullet}_{\alpha}) \to 0
+\end{aligned}
+$$
 
 The hypothesis and Proposition `(13.2.1, (i))` show that the projective system $(B^{n}(K^{\bullet}_{\alpha}))_{\alpha
 \in I}$ satisfies `(ML)` for every $n$; it therefore results from `(13.2.2)` that the sequence
 
-```text
-  (***_n)   0 → lim_α B^n(K^•_α) → lim_α Z^n(K^•_α) → lim_α H^n(K^•_α) → 0
-```
+$$ (***_{n}) \quad 0 \to \varprojlim_{\alpha} B^{n}(K^{\bullet}_{\alpha}) \to \varprojlim_{\alpha}
+Z^{n}(K^{\bullet}_{\alpha}) \to \varprojlim_{\alpha} H^{n}(K^{\bullet}_{\alpha}) \to 0 $$
 
 is exact. Now it is clear that $\varprojlim B^{n}(K^{\bullet}_{\alpha})$ identifies with a subgroup of $K^{n+1}$
 containing $B^{n}(K^{\bullet})$, and that $\varprojlim Z^{n}(K^{\bullet}_{\alpha})$ identifies with a subgroup of
@@ -197,9 +192,8 @@ $(H^{n-1}(K^{\bullet}_{\alpha}))_{\alpha \in I}$ satisfies `(ML)`, the exact seq
 `(13.2.1, (ii))` show that the projective system $(Z^{n-1}(K^{\bullet}_{\alpha}))_{\alpha \in I}$ satisfies `(ML)`; but
 then, `(13.2.2)` applied to the exact sequences $(**_{n})$ shows that the sequence
 
-```text
-  0 → lim_α Z^{n−1}(K^•_α) → K^{n−1} --u--> lim_α B^n(K^•_α) → 0
-```
+$$ 0 \to \varprojlim_{\alpha} Z^{n-1}(K^{\bullet}_{\alpha}) \to K^{n-1} \xrightarrow{u} \varprojlim_{\alpha}
+B^{n}(K^{\bullet}_{\alpha}) \to 0 $$
 
 is exact; since $\varprojlim B^{n}(K^{\bullet}_{\alpha}) \supset B^{n}(K^{\bullet})$, and the composite of the injection
 $\varprojlim B^{n}(K^{\bullet}_{\alpha}) \to K^{n}$ with $u$ is the differential operator $K^{n-1} \to K^{n}$, the fact
@@ -250,9 +244,7 @@ on $X$, and let $\mathcal{F} = \varprojlim \mathcal{F}_{k}$. Suppose the followi
 
 Under these conditions, for every $i > 0$, the canonical homomorphism
 
-```text
-  h_i : H^i(X, ℱ) → lim_← H^i(X, ℱ_k)
-```
+$$ h_i : H^i(X, \mathcal{F}) \to \varprojlim H^i(X, \mathcal{F}_{k}) $$
 
 is surjective; if in addition, for some value of $i$, the projective system $(H^{i-1}(X, \mathcal{F}_{k}))_{k \in
 \mathbb{N}}$ satisfies `(ML)`, $h_{i}$ is bijective.
@@ -271,9 +263,7 @@ $C^{\bullet}(\mathfrak{U}, \mathcal{F}_{k}) \to C^{\bullet}(\mathfrak{U}, \mathc
 \mathcal{F}_{k}) \to \Gamma(V, \mathcal{F}_{h})$ is surjective; but the sequence $0 \to \mathcal{N}_{hk} \to
 \mathcal{F}_{k} \to \mathcal{F}_{h} \to 0$ being exact by hypothesis gives the exact cohomology sequence
 
-```text
-  Γ(V, ℱ_k) → Γ(V, ℱ_h) → H^1(V, 𝒩_{hk}) = 0
-```
+$$ \Gamma(V, \mathcal{F}_{k}) \to \Gamma(V, \mathcal{F}_{h}) \to H^1(V, \mathcal{N}_{hk}) = 0 $$
 
 since $\mathcal{N}_{hk}$ is flasque. The projective system $(C^{\bullet}(\mathfrak{U}, \mathcal{F}_{k}))_{k \in
 \mathbb{N}}$ therefore satisfies `(ML)`; the same holds for $(H^{i}(\mathfrak{U}, \mathcal{F}_{k}))_{k \in \mathbb{N}}$
@@ -300,9 +290,7 @@ for $j > 0$, the cohomology $H^{\bullet}(X, \mathcal{F})$ will equal $H^{\bullet
 
 It is clear that, by passage to the projective limit, one deduces from the exact sequences
 
-```text
-  0 → ℱ_k → 𝒞^0(X, ℱ_k) → 𝒞^1(X, ℱ_k) → …
-```
+$$ 0 \to \mathcal{F}_{k} \to \mathcal{C}^{0}(X, \mathcal{F}_{k}) \to \mathcal{C}^{1}(X, \mathcal{F}_{k}) \to \cdots $$
 
 a complex of sheaves of abelian groups
 
@@ -323,9 +311,7 @@ indeed, by definition, that the sheaves $\mathcal{H}^{i}(\mathcal{G}^{\bullet})$
 
 One has then for every $i \geq 0$, $H^{i}(X, \mathcal{F}) = H^{i}(\Gamma(X, \mathcal{G}^{\bullet}))$ and
 
-```text
-  Γ(X, 𝒢^•) = lim_← Γ(X, 𝒞^•(X, ℱ_k)).
-```
+$$ \Gamma(X, \mathcal{G}^{\bullet}) = \varprojlim \Gamma(X, \mathcal{C}^{\bullet}(X, \mathcal{F}_{k})). $$
 
 We have just remarked that the maps $\Gamma(X, \mathcal{C}^{i}(X, \mathcal{F}_{k})) \to \Gamma(X, \mathcal{C}^{i}(X,
 \mathcal{F}_{h}))$ ($h \leq k$) are all surjective; the conclusion therefore again results from `(13.2.3)`.
@@ -353,32 +339,29 @@ shall say that it is *bounded below* if there exists $k_{0}$ such that $A_{k} = 
 
 We shall define on each $A_{k}$ a filtration $(F^{p}(A_{k}))_{p \in \mathbb{Z}}$ by the formulas
 
-```text
-  F^p(A_k) = Ker(A_k → A_{p−1})    for p ≤ k+1                              (13.4.1.1)
-  F^p(A_k) = 0                      for p ≥ k+1
-```
+$$
+\begin{aligned}
+F^{p}(A_{k}) &= \operatorname{Ker}(A_{k} \to A_{p-1}) && \text{for } p \leq k+1 \\
+F^{p}(A_{k}) &= 0 && \text{for } p \geq k+1
+\end{aligned}
+\tag{13.4.1.1}
+$$
 
 <!-- original page 70 -->
 
 One has therefore by hypothesis $F^{k}(A_{k}) = A_{k}$ and $F^{k+1}(A_{k}) = 0$, in other words the filtration
 considered is *finite* `(11.1.3)`. The graded objects associated to this filtration are therefore
 
-```text
-  gr^p(A_k) = Ker(A_k → A_{p−1}) / Ker(A_k → A_p)
-```
+$$ gr^{p}(A_{k}) = \operatorname{Ker}(A_{k} \to A_{p-1}) / \operatorname{Ker}(A_{k} \to A_{p}) $$
 
 and consequently $gr^{p}(A_{k})$ is isomorphic to the image under $A_{k} \to A_{p}$ of $Ker(A_{k} \to A_{p-1})$; by
 virtue of the transitivity of the morphisms defining a projective system, one therefore has
 
-```text
-  gr^p(A_k) = Ker(A_p → A_{p−1}) ∩ Im(A_k → A_p)                            (13.4.1.2)
-```
+$$ gr^{p}(A_{k}) = \operatorname{Ker}(A_{p} \to A_{p-1}) \cap \operatorname{Im}(A_{k} \to A_{p}) \tag{13.4.1.2} $$
 
 but since, by virtue of `(13.4.1.1)`, one has $Ker(A_{p} \to A_{p-1}) = gr^{p}(A_{p})$, one also has
 
-```text
-  gr^p(A_k) = gr^p(A_p) ∩ Im(A_k → A_p).                                    (13.4.1.3)
-```
+$$ gr^{p}(A_{k}) = gr^{p}(A_{p}) \cap \operatorname{Im}(A_{k} \to A_{p}). \tag{13.4.1.3} $$
 
 The preceding definitions show, moreover, that one has for $k \leq h$
 
@@ -416,10 +399,7 @@ The following two conditions are equivalent:
 
 In addition, when these conditions are satisfied, one has for every $p \in \mathbb{Z}$ a canonical isomorphism
 
-```text
-  gr^p(𝐀) ⥲ lim_← gr^p(A_k).                                                (13.4.3.1)
-            k
-```
+$$ gr^{p}(\mathbf{A}) \xrightarrow{\sim} \varprojlim_{k} gr^{p}(A_{k}). \tag{13.4.3.1} $$
 
 It follows immediately from `(13.4.1.2)` that _a)_ implies _b)_; the same formula applied to the projective system
 $\mathbf{A}'$ (notations of `(13.4.2)`) gives the isomorphism `(13.4.3.1)` by definition. For $k \leq h$, set $A_{kh} =
@@ -427,7 +407,7 @@ Im(A_{h} \to A_{k})$; if $k \leq h \leq j$, one has $A_{kj} \subset A_{kh} \subs
 filtration induced by $(F^{p}(A_{k}))$; one verifies immediately, by virtue of the transitivity of the morphisms
 defining $\mathbf{A}$, that this filtration is also the quotient filtration of $(F^{p}(A_{h}))$; consequently, one has
 
-$$ gr^{p}(A_{kh}) = Im(gr^{p}(A_{h}) \to gr^{p}(A_{k})). (13.4.3.2) $$
+$$ gr^{p}(A_{kh}) = \operatorname{Im}(gr^{p}(A_{h}) \to gr^{p}(A_{k})). \tag{13.4.3.2} $$
 
 <!-- original page 71 -->
 
@@ -446,9 +426,7 @@ is itself bijective (Bourbaki, _Alg. comm._, ch. III, §2, n° 8, th. 1), which 
 Suppose that in $\mathcal{C}$ the projective limit $A = \varprojlim A_{k}$ exists. In the definitions of `(13.4.1)`, one
 can then replace $A_{k}$ by $A$, and the filtration thus defined on $A$ is again such that
 
-```text
-  gr^p(A) = gr^p(A_p) ∩ Im(A → A_p).                                         (13.4.4.1)
-```
+$$ gr^{p}(A) = gr^{p}(A_{p}) \cap \operatorname{Im}(A \to A_{p}). \tag{13.4.4.1} $$
 
 **Corollary (13.4.5).**
 
@@ -457,10 +435,7 @@ can then replace $A_{k}$ by $A$, and the filtration thus defined on $A$ is again
 Suppose that $\mathcal{C}$ is the category of abelian groups. If the projective system $\mathbf{A}$ satisfies `(ML)` and
 if $A = \varprojlim A_{k}$, one has for every $p \in \mathbb{Z}$ a canonical isomorphism
 
-```text
-  gr^p(A) ⥲ lim_← gr^p(A_k).                                                 (13.4.5.1)
-            k
-```
+$$ gr^{p}(A) \xrightarrow{\sim} \varprojlim_{k} gr^{p}(A_{k}). \tag{13.4.5.1} $$
 
 Indeed, one has $Im(A_{k} \to A_{p}) = Im(A \to A_{p})$ whenever $k$ is large enough (Bourbaki, _Top. gén._, ch. II, 3rd
 ed., §3, n° 5, th. 1), and the conclusion results from `(13.4.1.3)` and `(13.4.4.1)`.
@@ -523,9 +498,7 @@ $Z^{pq}_{r}(\mathbf{X}^{\bullet})$ and $B^{pq}_{r}(\mathbf{X}^{\bullet})$ identi
 $E^{pq}_{1}(\mathbf{X}^{\bullet})$. The definition of the $d^{pq}_{r}$ `(M, XV, 1)` shows that these morphisms (relative
 to the $X^{\bullet}_{k}$) are also essentially constant, and consequently define morphisms
 
-```text
-  d^{pq}_r : E^{pq}_r(𝐗^•) → E^{p+r, q−r+1}_r(𝐗^•)                          (13.5.4.1)
-```
+$$ d^{pq}_{r} : E^{pq}_{r}(\mathbf{X}^{\bullet}) \to E^{p+r, q-r+1}_{r}(\mathbf{X}^{\bullet}) \tag{13.5.4.1} $$
 
 such that $d^{p+r, q-r+1}_{r} \circ d^{pq}_{r} = 0$; moreover, one has canonical isomorphisms of $Ker(d^{pq}_{r})$ onto
 $Z^{pq}_{r+1}(\mathbf{X}^{\bullet})/B^{pq}_{r}(\mathbf{X}^{\bullet})$ and of $Im(d^{pq}_{r})$ onto $B^{p+r,
@@ -537,21 +510,22 @@ q-r+1}_{r+1}(\mathbf{X}^{\bullet})/B^{p+r, q-r+1}_{r}(\mathbf{X}^{\bullet})$.
 
 Under the hypotheses of `(13.5.3)`, one has, for $s \geq r > p - p_{0}$, a canonical monomorphism
 
-$$ i : E^{pq}_{s}(\mathbf{X}^{\bullet}) \to E^{pq}_{r}(\mathbf{X}^{\bullet}) (13.5.5.1) $$
+$$ i : E^{pq}_{s}(\mathbf{X}^{\bullet}) \to E^{pq}_{r}(\mathbf{X}^{\bullet}) \tag{13.5.5.1} $$
 
 and a canonical isomorphism
 
-$$ j_{r} : E^{pq}_{r}(\mathbf{X}^{\bullet}) \xrightarrow{\sim} E^{pq}_{\infty}(X^{\bullet}_{p+r-1}) (13.5.5.2) $$
+$$ j_{r} : E^{pq}_{r}(\mathbf{X}^{\bullet}) \xrightarrow{\sim} E^{pq}_{\infty}(X^{\bullet}_{p+r-1}) \tag{13.5.5.2} $$
 
 such that the diagram
 
-```text
-                       j_s
-  E^{pq}_s(𝐗^•) ----------> E^{pq}_∞(X^•_{p+s−1})
-       ↓ i                          ↓
-  E^{pq}_r(𝐗^•) ----------> E^{pq}_∞(X^•_{p+r−1})                           (13.5.5.3)
-                       j_r
-```
+$$
+\begin{array}{ccc}
+E^{pq}_{s}(\mathbf{X}^{\bullet}) & \xrightarrow{j_{s}} & E^{pq}_{\infty}(X^{\bullet}_{p+s-1}) \\
+\downarrow{\scriptstyle i} & & \downarrow \\
+E^{pq}_{r}(\mathbf{X}^{\bullet}) & \xrightarrow{j_{r}} & E^{pq}_{\infty}(X^{\bullet}_{p+r-1})
+\end{array}
+\tag{13.5.5.3}
+$$
 
 is commutative (the right-hand vertical arrow coming from the morphism $X^{\bullet}_{p+s-1} \to X^{\bullet}_{p+r-1}$).
 
@@ -569,9 +543,8 @@ existence of $j_{r}$ and the commutativity of `(13.5.5.3)`.
 Under the hypotheses of `(13.5.3)`, if one of the projective limits $\varprojlim E^{pq}_{r}(\mathbf{X}^{\bullet})$,
 $\varprojlim E^{pq}_{\infty}(X^{\bullet}_{k})$ exists, so does the other, and one has a canonical isomorphism
 
-```text
-  j_∞ : lim_r E^{pq}_r(𝐗^•) ⥲ lim_k E^{pq}_∞(X^•_k).                        (13.5.6.1)
-```
+$$ j_{\infty} : \varprojlim_{r} E^{pq}_{r}(\mathbf{X}^{\bullet}) \xrightarrow{\sim} \varprojlim_{k}
+E^{pq}_{\infty}(X^{\bullet}_{k}). \tag{13.5.6.1} $$
 
 In addition, for the projective system $(E^{pq}_{r}(\mathbf{X}^{\bullet}))_{r \in \mathbb{Z}}$ to be essentially
 constant `(13.4.2)`, it is necessary and sufficient that the projective system $(E^{pq}_{\infty}(X^{\bullet}_{k}))_{k
@@ -643,14 +616,17 @@ filtered by the complexes $T(F^{i}(X^{\bullet}))$, since $F^{i}(X^{\bullet})$ is
 follows from `(13.6.3)` that the spectral sequence of this filtered complex depends only on the filtered object $A$, up
 to isomorphism. Its abutment is the cohomology $R^{\bullet }T(A)$, with the filtration
 
-```text
-  F^p(R^n T(A)) = Im(R^n T(F^p(A)) → R^n T(A))
-                = Ker(R^n T(A) → R^n T(A/F^p(A)))                           (13.6.4.1)
-```
+$$
+\begin{aligned}
+F^{p}(R^{n} T(A)) &= \operatorname{Im}(R^{n} T(F^{p}(A)) \to R^{n} T(A)) \\
+&= \operatorname{Ker}(R^{n} T(A) \to R^{n} T(A/F^{p}(A)))
+\end{aligned}
+\tag{13.6.4.1}
+$$
 
 `(11.2.2)`, and its term `E_1` is given by
 
-$$ E^{pq}_{1} = R^{p+q} T(gr^{p}(A)) (13.6.4.2) $$
+$$ E^{pq}_{1} = R^{p+q} T(gr^{p}(A)) \tag{13.6.4.2} $$
 
 $gr^{p}(A)$ denoting as usual $F^{p}(A)/F^{p+1}(A)$. It is clear, by `(11.2.2)`, that the filtration of the abutment is
 finite, and that for $p$, $q$ given, the sequences of
@@ -671,34 +647,32 @@ $F^{i}(Y^{\bullet})$) is a direct factor of $X^{\bullet}$ (resp. $Y^{\bullet}$),
 r \leq +\infty$, `Tv` defines a morphism $B^{pq}_{r}(T(X^{\bullet})) \to B^{p+s, q-s}_{r}(T(Y^{\bullet}))$ and a
 morphism $Z^{pq}_{r}(T(X^{\bullet})) \to Z^{p+s, q-s}_{r}(T(Y^{\bullet}))$, whence a morphism
 
-```text
-  w_r : E^{pq}_r(A) → E^{p+s, q−s}_r(B);
-```
+$$ w_{r} : E^{pq}_{r}(A) \to E^{p+s, q-s}_{r}(B); $$
 
 similarly, one has for the abutment morphisms $u_{n} : R^{n} T(A) \to R^{n} T(B)$ such that $u_{n}(F^{p}(R^{n} T(A)))
 \subset F^{p+s}(R^{n} T(B))$.
 
 The definition of the $d^{pq}_{r}$ `(M, XV, 1)` shows moreover that the diagrams
 
-```text
-                       d^{pq}_r
-       E^{pq}_r(A) ----------------> E^{p+r, q−r+1}_r(A)
-            ↓ w_r                            ↓ w_r
-  E^{p+s, q−s}_r(B) -------------> E^{p+r+s, q−r−s+1}_r(B)
-                  d^{p+s, q−s}_r
-```
+$$
+\begin{array}{ccc}
+E^{pq}_{r}(A) & \xrightarrow{d^{pq}_{r}} & E^{p+r, q-r+1}_{r}(A) \\
+\downarrow{\scriptstyle w_{r}} & & \downarrow{\scriptstyle w_{r}} \\
+E^{p+s, q-s}_{r}(B) & \xrightarrow{d^{p+s, q-s}_{r}} & E^{p+r+s, q-r-s+1}_{r}(B)
+\end{array}
+$$
 
 are commutative; one deduces an analogous commutative diagram for the isomorphisms $\alpha^{pq}_{r}$, which we shall
 leave to the reader the care of making explicit. Finally `(loc. cit.)`, one also has commutative diagrams for the
 abutments
 
-```text
-                    β^{pq}
-       E^{pq}_∞(A) -------> gr^p(R^{p+q} T(A))
-            ↓ w_∞                  ↓ u_{p+q}
-  E^{p+s, q−s}_∞(B) ----> gr^{p+s}(R^{p+q} T(B))
-                  β^{p+s, q−s}
-```
+$$
+\begin{array}{ccc}
+E^{pq}_{\infty}(A) & \xrightarrow{\beta^{pq}} & gr^{p}(R^{p+q} T(A)) \\
+\downarrow{\scriptstyle w_{\infty}} & & \downarrow{\scriptstyle u_{p+q}} \\
+E^{p+s, q-s}_{\infty}(B) & \xrightarrow{\beta^{p+s, q-s}} & gr^{p+s}(R^{p+q} T(B))
+\end{array}
+$$
 
 **13.6.6.**
 
@@ -707,9 +681,7 @@ abutments
 Suppose in particular that there exists a ring $\mathcal{S}$, equipped with a filtration $(F^{i}(\mathcal{S}))_{i \in
 \mathbb{Z}}$, and a ring homomorphism
 
-```text
-  h : 𝒮 → Hom_𝒞(A, A)                                                       (13.6.6.1)
-```
+$$ h : \mathcal{S} \to \operatorname{Hom}_{\mathcal{C}}(A, A) \tag{13.6.6.1} $$
 
 <!-- original page 75 -->
 
@@ -719,9 +691,7 @@ filtered ring $\mathcal{S}$. By passage to the associated graded objects, every 
 defines a graded endomorphism $\bar{h}_{t}$ of $gr^{\bullet}(A)$, homogeneous of degree $j$; moreover, this morphism
 depends only on the class of $t$ in $gr^{j}(\mathcal{S})$, and one thus defines a homomorphism of graded rings
 
-```text
-  h̄ : gr^•(𝒮) → Hom_𝒞(gr^•(A), gr^•(A))
-```
+$$ \bar{h} : gr^{\bullet}(\mathcal{S}) \to \operatorname{Hom}_{\mathcal{C}}(gr^{\bullet}(A), gr^{\bullet}(A)) $$
 
 where the right-hand side is the ring of graded endomorphisms of $gr^{\bullet}(A)$. We shall say that $gr^{\bullet}(A)$
 is equipped with a structure of $gr^{\bullet}(\mathcal{S})$-$\mathcal{C}$-module graded. It follows then from `(13.6.5)`
@@ -758,9 +728,7 @@ below*; to be precise, we shall suppose that $A_{k} = 0$ for $k < k_{0}$. We ass
 filtration $(F^{p}(A_{k}))_{p \in \mathbb{Z}}$ on each $A_{k}$ by the formulas `(13.4.1.1)`, and since this is a strict
 projective system, the canonical morphisms
 
-```text
-  F^i(A_h)/F^j(A_h) → F^i(A_k)/F^j(A_k)    (h ≥ k)                           (13.7.1.1)
-```
+$$ F^{i}(A_{h})/F^{j}(A_{h}) \to F^{i}(A_{k})/F^{j}(A_{k}) \quad (h \geq k) \tag{13.7.1.1} $$
 
 for $i \leq j \leq k + 1$ are isomorphisms. Recall in addition that one has $F^{k}(A_{k}) = A_{k}$ and $F^{k+1}(A_{k}) =
 0$ for every $k$.
@@ -794,7 +762,7 @@ sequences $E(T(X^{\bullet}_{k})) = E(A_{k})$; we shall write $E^{pq}_{r}(\mathbf
 $E^{pq}_{r}(T(\mathbf{X}^{\bullet}))$ for $1 \leq r \leq +\infty$ (cf. `(13.5.7)` for $r = +\infty$) and similarly for
 analogous notations. One will note in particular that one has
 
-$$ E^{pq}_{1}(\mathbf{A}) = R^{p+q} T(gr^{p}(\mathbf{A})) (13.7.3.1) $$
+$$ E^{pq}_{1}(\mathbf{A}) = R^{p+q} T(gr^{p}(\mathbf{A})) \tag{13.7.3.1} $$
 
 by virtue of `(13.6.4.2)` and of the fact that the system $(gr^{p}(A_{k}))$ is essentially constant.
 
@@ -813,9 +781,8 @@ Let $n$ be an integer. The following two conditions are equivalent:
 
 In addition, when these conditions are satisfied, one has a canonical isomorphism
 
-```text
-  gr^p(R^n T(𝐀)) ⥲ E^{p, n−p}_∞(𝐀)    for every p ∈ ℤ.                       (13.7.4.1)
-```
+$$ gr^{p}(R^{n} T(\mathbf{A})) \xrightarrow{\sim} E^{p, n-p}_{\infty}(\mathbf{A}) \quad \text{for every } p \in
+\mathbf{Z}. \tag{13.7.4.1} $$
 
 Indeed, by virtue of `(13.5.6)`, condition _a)_ is equivalent to saying that the projective system
 $(E^{pq}_{\infty}(A_{k}))_{k \in \mathbb{Z}}$ is essentially constant for $p + q = n$, and on the other hand
@@ -834,9 +801,8 @@ functor $\mathcal{G} \mapsto \Gamma(X, \mathcal{G})$, the projective system $(E^
 $H^{n+1}(X, \mathcal{F})$ the filtration defined by $F^{p}(H^{n+1}(X, \mathcal{F})) = Ker(H^{n+1}(X, \mathcal{F}) \to
 H^{n+1}(X, \mathcal{F}_{p-1}))$. One has then a canonical isomorphism
 
-```text
-  gr^p(H^{n+1}(X, ℱ)) ⥲ E^{p, n−p+1}_∞(ℱ)    for every p ∈ ℤ.                (13.7.5.1)
-```
+$$ gr^{p}(H^{n+1}(X, \mathcal{F})) \xrightarrow{\sim} E^{p, n-p+1}_{\infty}(\mathcal{F}) \quad \text{for every } p \in
+\mathbf{Z}. \tag{13.7.5.1} $$
 
 It results from `(13.7.4)` applied to the case where $\mathcal{C}$ is the category of sheaves of abelian groups on $X$,
 $\mathcal{C}'$ the category of abelian groups, and $T = \Gamma$, that one has a canonical isomorphism
@@ -847,10 +813,7 @@ $gr^{p}(R^{n+1} \Gamma(\mathcal{F})) \xrightarrow{\sim} E^{p, n-p+1}_{\infty}(\m
 \mathbb{Z}$. On the other hand, since by virtue of `(13.7.4)`, the projective system $(H^{n}(X, \mathcal{F}_{k}))_{k \in
 \mathbb{Z}}$ satisfies `(ML)`, one deduces from `(13.3.1)` a canonical isomorphism
 
-```text
-  H^{n+1}(X, ℱ) ⥲ lim_← H^{n+1}(X, ℱ_k).                                    (13.7.5.1)
-                  k
-```
+$$ H^{n+1}(X, \mathcal{F}) \xrightarrow{\sim} \varprojlim_{k} H^{n+1}(X, \mathcal{F}_{k}). \tag{13.7.5.1} $$
 
 Since the projective system $R^{n+1} \Gamma(\mathcal{F})$ satisfies `(ML)` by virtue of `(13.7.4)`, one has a canonical
 isomorphism $gr^{p}(R^{n+1} \Gamma(\mathcal{F})) \xrightarrow{\sim} \varprojlim gr^{p}(H^{n+1}(X, \mathcal{F}_{k}))$
@@ -859,11 +822,13 @@ gr^{p}(\varprojlim H^{n+1}(X, \mathcal{F}_{k}))$ `(13.4.5)`. It therefore all co
 `(13.7.5.1)` is compatible with the filtrations of the two sides; but this results immediately from the definitions and
 from the commutativity of the diagram
 
-```text
-  H^{n+1}(X, ℱ) ⥲ lim_← H^{n+1}(X, ℱ_k)
-              ↘            ↙
-              H^{n+1}(X, ℱ_{p−1})
-```
+$$
+\begin{array}{ccc}
+H^{n+1}(X, \mathcal{F}) & \xrightarrow{\sim} & \varprojlim_{k} H^{n+1}(X, \mathcal{F}_{k}) \\
+& \searrow \quad \swarrow & \\
+& H^{n+1}(X, \mathcal{F}_{p-1}) &
+\end{array}
+$$
 
 for every $p$.
 
@@ -927,9 +892,8 @@ Under these conditions:
   $p + q = n + 1$, $E^{pq}_{\infty}(\mathbf{A})$ is therefore defined `(13.5.7)` and one has a canonical isomorphism of
   $gr^{\bullet}(S)$-modules graded
 
-```text
-  gr^p(R^n T(𝐀)) ⥲ E^{p, n−p}_∞(𝐀)    (p ∈ ℤ).                              (13.7.7.1)
-```
+$$ gr^{p}(R^{n} T(\mathbf{A})) \xrightarrow{\sim} E^{p, n-p}_{\infty}(\mathbf{A}) \quad (p \in \mathbf{Z}).
+\tag{13.7.7.1} $$
 
 One will note that the isomorphism `(13.7.7.1)` will allow one to denote $R^{n} T(\mathbf{A})$ by abuse of language the
 projective limit $R^{n} T(\mathbf{A})$ of the projective system $R^{\bullet} T(\mathbf{A})$, taking into account the
@@ -960,9 +924,7 @@ for the topology defined by the filtration $(F^{p}(M))$. Then the following cond
 - _b)_ $gr^{\bullet}(M)$ is a $gr^{\bullet}(S)$-module of finite type.
 - _c)_ The $gr^{p}(M)$ are $S$-modules of finite type and for $p$ large enough the canonical homomorphisms
 
-```text
-  𝔍 ⊗_S gr^p(M) → gr^{p+1}(M)                                                (13.7.7.3)
-```
+$$ \mathfrak{J} \otimes_{S} gr^{p}(M) \to gr^{p+1}(M) \tag{13.7.7.3} $$
 
 <!-- original page 79 -->
 
@@ -988,10 +950,8 @@ conditions of application of the lemma.
 
 If hypothesis $(F_{n})$ is satisfied, one has, for every element $f \in S$, a canonical isomorphism
 
-```text
-  lim_← ((R^n T(A_k))_f) ⥲ R^n T(𝐀) ⊗_S S_{{f}}.                            (13.7.8.1)
-    k
-```
+$$ \varprojlim_{k} ((R^{n} T(A_{k}))_{f}) \xrightarrow{\sim} R^{n} T(\mathbf{A}) \otimes_{S} S_{\{f\}}. \tag{13.7.8.1}
+$$
 
 Indeed, $R^{n} T(\mathbf{A})$ is an $S$-module of finite type, $S_{{f}}$ a noetherian adic $S$-algebra $(0_{I},
 7.6.11)$, separated completion of $S_{f}$ for the $\mathfrak{J}$-preadic topology $(0_{I}, 7.6.2)$. One concludes from
