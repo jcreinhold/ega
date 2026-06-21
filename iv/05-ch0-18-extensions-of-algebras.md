@@ -12,14 +12,14 @@ contains no non-trivial result.
 the ring homomorphisms $u : B \to C$ such that, if $\rho : A \to B$ and $\sigma : A \to C$ are the homomorphisms (called
 *structural*) defining the $A$-ring structure on $B$ and $C$ respectively, the diagram
 
-```text
-                                       u
-                                  B ───────→ C
-                                   ↖       ↗
-                                   ρ       σ
-(18.1.1.1)                            ↖   ↗
-                                        A
-```
+$$
+\begin{array}{ccc}
+B & \xrightarrow{u} & C \\
+ & \nwarrow{\scriptstyle \rho} \quad \nearrow{\scriptstyle \sigma} & \\
+ & A &
+\end{array}
+\tag{18.1.1.1}
+$$
 
 is commutative. The kernel $\mathfrak{J}$ of $u$ is a two-sided ideal which is an $A$-bimodule (for $\rho$).
 
@@ -52,22 +52,18 @@ of $p_{1} : G \to E$ is the ideal of elements `(0, y)` with $y \in \mathfrak{K}$
 of the $A$-homomorphism $q = f \circ p_{1} = g \circ p_{2}$ of $E \times_{B} F$ into $B$ is $\mathfrak{J}' \times
 \mathfrak{K}' = \mathfrak{J}' \oplus \mathfrak{K}'$, so that one has the commutative diagram
 
-```text
-                            0           0          0
-                            │           │          │
-                            ↓           ↓          ↓
-                                       i_2
-                          𝔍' ⊕ 𝔎' ───→ 𝔎' ──────→ 𝔎
-                            │           │          │
-(18.1.3.1)                  │           ↓ j        ↓
-                            │     q              p_1
-                       0 ──→𝔍' ───────→ G ───────→ F  ──→ 0
-                            │           │          │
-                          i_1│       p_1│          │ g
-                            ↓           ↓          ↓
-                       0 ──→𝔍 ────────→ E ───────→ B  ──→ 0
-                                       f
-```
+$$
+\begin{array}{ccccccccc}
+ & & 0 & & 0 & & 0 & & \\
+ & & \downarrow & & \downarrow & & \downarrow & & \\
+ & & \mathfrak{J}' \oplus \mathfrak{K}' & \xrightarrow{i_{2}} & \mathfrak{K}' & \longrightarrow & \mathfrak{K} & & \\
+ & & \downarrow & & \downarrow{\scriptstyle j} & & \downarrow & & \\
+0 & \to & \mathfrak{J}' & \xrightarrow{q} & G & \xrightarrow{p_{1}} & F & \to & 0 \\
+ & & \downarrow{\scriptstyle i_{1}} & & \downarrow{\scriptstyle p_{1}} & & \downarrow{\scriptstyle g} & & \\
+0 & \to & \mathfrak{J} & \xrightarrow{f} & E & \longrightarrow & B & \to & 0
+\end{array}
+\tag{18.1.3.1}
+$$
 
 The definitions and results of `(18.1.2)` and `(18.1.3)` extend at once to the fibre product of an *arbitrary* family
 $(E_{\lambda})_{\lambda \in I}$ of $A$-rings defined by a family of $A$-homomorphisms $f_{\lambda} : E_{\lambda} \to B$.
@@ -86,9 +82,7 @@ $$ 0 \to \mathfrak{J} \to E \to B \to 0 $$
 is then *split*; in other words, one can identify the $A$-bimodule $E$ with $B \times \mathfrak{J}$, and the
 multiplication in $E$ is then given by
 
-```text
-                       (b, z)(b', z') = (bb', bz' + zb' + zz'),
-```
+$$ (b, z)(b', z') = (bb', bz' + zb' + zz'), $$
 
 $\mathfrak{J}$ being considered as a $B$-bimodule by means of $s : B \to E$.
 
@@ -105,14 +99,13 @@ augmented ring* $E$.
 $A$-ring, it is necessary and sufficient that there exist an $A$-homomorphism $u : F \to E$ making commutative the
 diagram*
 
-```text
-                                              F
-                                            ↙ │
-                                          u   │ g
-                                          ↙   ↓
-                                         E ──→ B
-                                            f
-```
+$$
+\begin{array}{ccc}
+ & & F \\
+ & \swarrow{\scriptstyle u} & \downarrow{\scriptstyle g} \\
+E & \xrightarrow{f} & B
+\end{array}
+$$
 
 The condition is evidently necessary, taking $u = p_{1} \circ s$, where $s : F \to G$ is an $A$-homomorphism right
 inverse of $p_{2}$. Conversely, if there exists an $A$-homomorphism $u$ satisfying the condition of the statement, the
@@ -131,22 +124,20 @@ $\theta$ allows one to reconstitute the augmented ring $E$ (over $B$) from the a
 More precisely, let us give ourselves an $A$-ring $F$ augmented over $B$ and an $A$-ring $G$ augmented over $F$, the
 augmentation ideals being denoted by $\mathfrak{K}$ and $\mathfrak{J}'$ respectively:
 
-```text
-                                              0
-                                              │
-                                              ↓
-                                              𝔎
-                                          θ   │
-                                              ↓
-(18.1.7.1)               0 ──→ 𝔍' ──→ G ────→ F ──→ 0
-                                          h
-                                              │
-                                              ↓ g
-                                              B
-                                              │
-                                              ↓
-                                              0
-```
+$$
+\begin{array}{ccccccccc}
+ & & & & 0 & & & & \\
+ & & & & \downarrow & & & & \\
+ & & & & \mathfrak{K} & & & & \\
+ & & & & \downarrow{\scriptstyle \theta} & & & & \\
+0 & \to & \mathfrak{J}' & \to & G & \xrightarrow{h} & F & \to & 0 \\
+ & & & & \downarrow{\scriptstyle g} & & & & \\
+ & & & & B & & & & \\
+ & & & & \downarrow & & & & \\
+ & & & & 0 & & & &
+\end{array}
+\tag{18.1.7.1}
+$$
 
 <!-- original page 150 -->
 
@@ -164,7 +155,7 @@ suffices to prove this when $u$ is considered as a homomorphism of $A$-bimodules
 with the finite filtrations on $G'$ and $G$ formed respectively by $G'$ and $\mathfrak{J}'' = Ker(G' \to F)$, and by $G$
 and $\mathfrak{J}'$; furthermore, one has seen `(18.1.3)` that $gr_{0} u : F \to F$ is the identity and that $gr_{1} u :
 \mathfrak{J}' \to \mathfrak{J}''$ is bijective, hence $u$ itself is bijective
-`(Bourbaki, Alg. comm., chap. III, §2, n° 8, cor. 3 of th. 1)`.
+`(Bourbaki, Alg. comm., chap. III, §2, n`$^{\circ}$` 8, cor. 3 of th. 1)`.
 
 ## 18.2. Extensions of a ring by a bimodule
 
@@ -180,33 +171,27 @@ $\mathfrak{J}^{2} = 0$.
 **(18.2.2)** One calls an $A$-*extension of an $A$-ring* $B$ *by a $B$-bimodule* $L$ an exact sequence of homomorphisms
 of $A$-bimodules
 
-```text
-                              0 → L ─→ E ─→ B → 0
-                                    j     f
-```
+$$ 0 \to L \xrightarrow{j} E \xrightarrow{f} B \to 0 $$
 
 where $E$ is an $A$-ring, $f$ an $A$-homomorphism of rings, and one has, for $x \in E$ and $z \in L$,
 
-```text
-                        j(f(x) z) = x j(z),       j(z f(x)) = j(z) x,
-```
+$$ j(f(x) z) = x j(z), \qquad j(z f(x)) = j(z) x, $$
 
 whence it follows `(18.2.1)` that $j(L)$ is a two-sided ideal of square zero of $E$. By abuse of language one also says
 that $E$ is an *extension* of $B$ by $L$. One says that two $A$-extensions $E$, $E'$ of $B$ by $L$ are $A$-*equivalent*
 if there exists an isomorphism of $A$-rings $u : E \xrightarrow{\sim} E'$ (also called an $A$-*equivalence of
 $A$-extensions*) making commutative the diagram
 
-```text
-                                            E
-                                          ↗ │ ↘
-                                        j   │u  f
-                                          ↗ ↓ ↘
-(18.2.2.1)                       0 → L         B → 0
-                                          ↘ ↑ ↗
-                                        j'  │   f'
-                                          ↘ │ ↗
-                                            E'
-```
+$$
+\begin{array}{ccccc}
+ & & E & & \\
+ & j \nearrow & \downarrow{\scriptstyle u} & \searrow f & \\
+0 \to L & & & & B \to 0 \\
+ & j' \searrow & \uparrow & \nearrow f' & \\
+ & & E' & &
+\end{array}
+\tag{18.2.2.1}
+$$
 
 <!-- original page 151 -->
 
@@ -223,14 +208,14 @@ One will note that every extension of the $A$-ring $A$ itself by an $A$-bimodule
 **(18.2.4)** Given two $A$-extensions $L \to E \to B$, $L' \to E' \to B'$, a *morphism* of the first to the second is by
 definition a triple of homomorphisms of $A$-bimodules $(u, v, w)$ such that the diagram
 
-```text
-                              0 ──→ L ──→ E ──→ B ──→ 0
-                                       j      f
-(18.2.4.1)                          w │    u │    v │
-                                      ↓      ↓      ↓
-                              0 ──→ L' ─→ E' ─→ B' ─→ 0
-                                       j'      f'
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & L & \xrightarrow{j} & E & \xrightarrow{f} & B & \to & 0 \\
+ & & \downarrow{\scriptstyle w} & & \downarrow{\scriptstyle u} & & \downarrow{\scriptstyle v} & & \\
+0 & \to & L' & \xrightarrow{j'} & E' & \xrightarrow{f'} & B' & \to & 0
+\end{array}
+\tag{18.2.4.1}
+$$
 
 is commutative, $u$ and $v$ being $A$-homomorphisms of rings and $w$ being such that $w(bz) = v(b) w(z)$ and $w(zb) =
 w(z) v(b)$ for $z \in L$ and $b \in B$ (in other words, the pair $(v, w)$ constitutes a *di-homomorphism* of the
@@ -243,21 +228,18 @@ extensions of $A$-rings.
 
 **(18.2.5)** In the first place, consider an $A$-extension $E'$ of $B'$ by $L'$
 
-```text
-                              0 → L' ─→ E' ─→ B' → 0
-                                     j'     f'
-```
+$$ 0 \to L' \xrightarrow{j'} E' \xrightarrow{f'} B' \to 0 $$
 
 and an $A$-homomorphism of rings $v : B \to B'$, and let $F = E' \times_{B'} B$ be the inverse image by $v$ of the
 augmented $A$-ring $E'$ `(18.1.5)`, so that one has a commutative diagram
 
-```text
-                              0 ──→ L_0 ──→ F ──→ B ──→ 0
-                                          p_1     p_2 │
-                                        i ↓        ↓ v
-                              0 ──→ L'  ──→ E' ──→ B' ──→ 0
-                                          j'      f'
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & L_{0} & \xrightarrow{p_{1}} & F & \xrightarrow{p_{2}} & B & \to & 0 \\
+ & & \downarrow{\scriptstyle i} & & & & \downarrow{\scriptstyle v} & & \\
+0 & \to & L' & \xrightarrow{j'} & E' & \xrightarrow{f'} & B' & \to & 0
+\end{array}
+$$
 
 whose rows are exact, $p_{1}$ and $p_{2}$ being the canonical homomorphisms; one has seen `(18.1.3)` that $i$ is
 bijective, and it also follows from the definition `(18.1.2)` that $L^{2}_{0} = 0$, so that one can consider $F$ as an
@@ -269,22 +251,23 @@ $A$-extension of $B$ by $L'$, which one calls the *inverse image by* $v$ *of the
 character of the fibre product with respect to each of the factors shows furthermore that if one has a morphism between
 two extensions of $B'$
 
-```text
-                              0 ──→ L'_1 ──→ E'_1 ──→ B' ──→ 0
-                                            g'        1_{B'} │
-                                        h │       │          ↓
-                                          ↓       ↓
-                              0 ──→ L'_2 ──→ E'_2 ──→ B' ──→ 0
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & L'_{1} & \longrightarrow & E'_{1} & \xrightarrow{g'} & B' & \to & 0 \\
+ & & \downarrow{\scriptstyle h} & & \downarrow & & \downarrow{\scriptstyle 1_{B'}} & & \\
+0 & \to & L'_{2} & \longrightarrow & E'_{2} & \longrightarrow & B' & \to & 0
+\end{array}
+$$
 
 one deduces from it a morphism *inverse image by* $v$
 
-```text
-                          0 ──→ L'_1 ──→ E'_1 ×_{B'} B ──→ B ──→ 0
-                              h │       g' ×_{B'} 1_B │     1_B │
-                                ↓                     ↓         ↓
-                          0 ──→ L'_2 ──→ E'_2 ×_{B'} B ──→ B ──→ 0
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & L'_{1} & \longrightarrow & E'_{1} \times_{B'} B & \longrightarrow & B & \to & 0 \\
+ & & \downarrow{\scriptstyle h} & & \downarrow{\scriptstyle g' \times_{B'} 1_{B}} & & \downarrow{\scriptstyle 1_{B}} & & \\
+0 & \to & L'_{2} & \longrightarrow & E'_{2} \times_{B'} B & \longrightarrow & B & \to & 0
+\end{array}
+$$
 
 In particular, if $E'_{1}$ and $E'_{2}$ are $A$-equivalent $A$-extensions of $B'$ by $L'$, their inverse images by $v$
 are $A$-equivalent $A$-extensions of $B$ by $L'$.
@@ -293,16 +276,15 @@ The definition of the fibre product shows that when one has a morphism `(18.2.4.
 through the inverse image of $E'$ by $v$; more precisely, there exists a unique $A$-homomorphism $u_{0} : E \to F = E'
 \times_{B'} B$ making commutative the diagram
 
-```text
-                              0 ──→ L ──→ E ──→ B ──→ 0
-                                    w_0│   u_0│   1_B │
-                                       ↓      ↓      ↓
-                              0 ──→ L_0 ─→ F ──→ B ──→ 0
-                                          p_1     p_2 │
-                                        i ↓        ↓ v
-                              0 ──→ L' ──→ E' ──→ B' ──→ 0
-                                          j'      f'
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & L & \longrightarrow & E & \longrightarrow & B & \to & 0 \\
+ & & \downarrow{\scriptstyle w_{0}} & & \downarrow{\scriptstyle u_{0}} & & \downarrow{\scriptstyle 1_{B}} & & \\
+0 & \to & L_{0} & \xrightarrow{p_{1}} & F & \xrightarrow{p_{2}} & B & \to & 0 \\
+ & & \downarrow{\scriptstyle i} & & & & \downarrow{\scriptstyle v} & & \\
+0 & \to & L' & \xrightarrow{j'} & E' & \xrightarrow{f'} & B' & \to & 0
+\end{array}
+$$
 
 where $w_{0}$ is the restriction of $u_{0}$ to $L$ and $p_{1} \circ u_{0} = u$, $i \circ w_{0} = w$.
 
@@ -312,12 +294,13 @@ $\mathfrak{K}$ of $B$, kernel of $v$ (which can be considered as $F$-bimodule by
 one has seen `(18.1.7)` that every homomorphism of $F$-bimodules $\theta : \mathfrak{K} \to F$ making commutative the
 diagram
 
-```text
-                                              𝔎
-                                          θ   │
-                                              ↓
-                                         F ──→ B
-```
+$$
+\begin{array}{ccc}
+ & & \mathfrak{K} \\
+ & \theta \swarrow & \downarrow \\
+F & \longrightarrow & B
+\end{array}
+$$
 
 determines an extension $E'$ of $B' = B / \mathfrak{K}$ by $L$ whose inverse image by $v : B \to B'$ is equivalent to
 $F$, and that every $A$-extension $E'$ of $B'$ by $L$ having this latter property is obtained in this way (up to
@@ -358,21 +341,19 @@ by means of the canonical homomorphism $p : G \to E$). Indeed, for $(x, z') \in 
 $L'$, and $j(z)x = j(z f(x))$ and $w(z)x = w(z f(x))$; one verifies likewise that $\theta$ is a homomorphism of left
 $G$-modules. One can then apply to the commutative diagram
 
-```text
-                                              0
-                                              │
-                                              ↓
-                                              L
-                                          θ   │
-                                              ↓ j
-                              0 ──→ L' ──→ G ──→ E ──→ 0
-                                              │
-                                              ↓ f
-                                              B
-                                              │
-                                              ↓
-                                              0
-```
+$$
+\begin{array}{ccccccccc}
+ & & & & 0 & & & & \\
+ & & & & \downarrow & & & & \\
+ & & & & L & & & & \\
+ & & & & \downarrow{\scriptstyle \theta} \ \downarrow{\scriptstyle j} & & & & \\
+0 & \to & L' & \longrightarrow & G & \longrightarrow & E & \to & 0 \\
+ & & & & \downarrow{\scriptstyle f} & & & & \\
+ & & & & B & & & & \\
+ & & & & \downarrow & & & & \\
+ & & & & 0 & & & &
+\end{array}
+$$
 
 the result of `(18.1.7)`. As $H = G / \theta(L)$ by definition, our assertion is an immediate consequence of `(18.1.7)`.
 
@@ -382,21 +363,23 @@ One says that the $A$-extension $H$ of $B$ by $L'$ is *deduced from $E$ by means
 The functorial character of the amalgamated sum in each of its summands shows furthermore that if one has a morphism of
 extensions
 
-```text
-                              0 ──→ L ──→ E_1 ──→ B_1 ──→ 0
-                                    1_L│    g │     h │
-                                       ↓      ↓        ↓
-                              0 ──→ L ──→ E_2 ──→ B_2 ──→ 0
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & L & \longrightarrow & E_{1} & \longrightarrow & B_{1} & \to & 0 \\
+ & & \downarrow{\scriptstyle 1_{L}} & & \downarrow{\scriptstyle g} & & \downarrow{\scriptstyle h} & & \\
+0 & \to & L & \longrightarrow & E_{2} & \longrightarrow & B_{2} & \to & 0
+\end{array}
+$$
 
 one deduces from it canonically a morphism of extensions
 
-```text
-                          0 ──→ L' ──→ E_1 ⊕_L L' ──→ B_1 ──→ 0
-                                1_{L'}│   g ⊕ 1_{L'}│     h │
-                                      ↓             ↓        ↓
-                          0 ──→ L' ──→ E_2 ⊕_L L' ──→ B_2 ──→ 0
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & L' & \longrightarrow & E_{1} \oplus_{L} L' & \longrightarrow & B_{1} & \to & 0 \\
+ & & \downarrow{\scriptstyle 1_{L'}} & & \downarrow{\scriptstyle g \oplus 1_{L'}} & & \downarrow{\scriptstyle h} & & \\
+0 & \to & L' & \longrightarrow & E_{2} \oplus_{L} L' & \longrightarrow & B_{2} & \to & 0
+\end{array}
+$$
 
 In particular, if `E_1` and `E_2` are $A$-equivalent $A$-extensions of $B$ by $L$, the extensions of $B$ by $L'$ which
 one deduces from them by means of $w$ are $A$-equivalent.
@@ -406,17 +389,15 @@ from $E$ by means of the homomorphism $w : L \to L'$ ($L'$ being considered as $
 $v : B \to B'$): indeed, the definition of the amalgamated sum shows that there exists a unique $A$-homomorphism
 $u_{0} : H \to E'$ of $A$-bimodules, making commutative the diagram
 
-```text
-                              0 ──→ L ──→ E ──→ B ──→ 0
-                                    j_1│    u_0│   1_B │
-                                       ↓       ↓       ↓
-                              0 ──→ L' ──→ H ──→ B ──→ 0
-                                       j_0       f_0
-                                    1_{L'}│   u_0│     v │
-                                          ↓      ↓       ↓
-                              0 ──→ L' ──→ E' ──→ B' ──→ 0
-                                          j'      f'
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & L & \longrightarrow & E & \longrightarrow & B & \to & 0 \\
+ & & \downarrow{\scriptstyle j_{1}} & & \downarrow{\scriptstyle u_{0}} & & \downarrow{\scriptstyle 1_{B}} & & \\
+0 & \to & L' & \xrightarrow{j_{0}} & H & \xrightarrow{f_{0}} & B & \to & 0 \\
+ & & \downarrow{\scriptstyle 1_{L'}} & & \downarrow{\scriptstyle u_{0}} & & \downarrow{\scriptstyle v} & & \\
+0 & \to & L' & \xrightarrow{j'} & E' & \xrightarrow{f'} & B' & \to & 0
+\end{array}
+$$
 
 with $u = u_{0} \circ j_{1}$, $w = j_{0} \circ w_{0}$, $j_{1}$ and $j_{2}$ being the canonical homomorphisms; one
 verifies immediately that $u_{0}$ is also a ring homomorphism.
@@ -431,14 +412,13 @@ Let us finally note the functorial properties relative to trivial extensions:
 $w : L \to L'$ a homomorphism of $A$-bimodules such that $(v, w)$ is a di-homomorphism of bimodules. Then there exists a
 unique $A$-homomorphism of rings $u : D_{B}(L) \to D_{B'}(L')$ making commutative the diagrams*
 
-```text
-                   D_B(L) ──→ D_{B'}(L')        D_B(L) ──→ D_{B'}(L')
-                          u                            u
-                       ↑                            ↑           ↑
-                       │                            │           │
-                       B  ───→  B'                  L  ───→     L'
-                            v                            w
-```
+$$
+\begin{array}{ccccccccc}
+D_{B}(L) & \xrightarrow{u} & D_{B'}(L') & & \qquad & D_{B}(L) & \xrightarrow{u} & D_{B'}(L') \\
+\uparrow & & & & & \uparrow & & \uparrow \\
+B & \xrightarrow{v} & B' & & & L & \xrightarrow{w} & L'
+\end{array}
+$$
 
 *where the vertical arrows are the canonical injections.*
 
@@ -447,14 +427,13 @@ unique $A$-homomorphism of rings $u : D_{B}(L) \to D_{B'}(L')$ making commutativ
 Indeed, $u$ can only be the map $(x, s) \mapsto (v(x), w(s))$, and it remains to verify that this is an $A$-homomorphism
 of rings, which results trivially from the definition `(18.2.3)`. One notes that $u$ also makes commutative the diagram
 
-```text
-                              D_B(L) ──→ D_{B'}(L')
-                                     u
-                                  │      │
-                                  ↓      ↓
-                                  B ───→ B'
-                                       v
-```
+$$
+\begin{array}{ccc}
+D_{B}(L) & \xrightarrow{u} & D_{B'}(L') \\
+\downarrow & & \downarrow \\
+B & \xrightarrow{v} & B'
+\end{array}
+$$
 
 where this time the vertical arrows are the augmentations.
 
@@ -488,15 +467,11 @@ T(L')$ by making correspond to the class of an $A$-extension $E$ of $B$ by $L$ t
 \oplus_{L} L'$ deduced from it by means of $w$, by virtue of `(18.2.8)`. If $w' : L' \to L''$ is a second homomorphism
 of $B$-bimodules, one has in addition
 
-```text
-(18.3.2.1)                       T(w' ∘ w) = T(w') ∘ T(w).
-```
+$$ T(w' \circ w) = T(w') \circ T(w). \tag{18.3.2.1} $$
 
 Indeed, one knows that there exists a canonical isomorphism of $A$-bimodules
 
-```text
-                              E ⊕_L L'' ⥲ (E ⊕_L L') ⊕_{L'} L''
-```
+$$ E \oplus_{L} L'' \xrightarrow{\sim} (E \oplus_{L} L') \oplus_{L'} L'' $$
 
 by virtue of the general properties of inductive limits (cf. for example `(I, 3.3.9)`), and it is immediate to verify
 that this is indeed an $A$-equivalence of $A$-extensions, whence
@@ -513,9 +488,7 @@ $$ T(pr_{\alpha}) : T(L) \to T(L_{\alpha}), $$
 
 whence a canonical map
 
-```text
-(18.3.3.1)                ∏_α T(pr_α) : T(L) → ∏_{α ∈ I} T(L_α).
-```
+$$ \prod_{\alpha} T(pr_{\alpha}) : T(L) \to \prod_{\alpha \in I} T(L_{\alpha}). \tag{18.3.3.1} $$
 
 We shall see that this map is bijective. Indeed, for every $\alpha \in I$, let $E_{\alpha}$ be an $A$-extension of $B$
 by $L_{\alpha}$, and let $F$ be the fibre product of the $E_{\alpha}$ over $B$ `(18.1.3)`; it is immediate that $F$ is
@@ -532,9 +505,7 @@ $\prod_{\alpha \in I} T(w_{\alpha})$ when one makes the preceding identification
 $B$-bimodules, and the same holds for the symmetry $t : L \to L$ of the additive law of $L$. One deduces from this a
 composition law
 
-```text
-                              T(s) : T(L) × T(L) → T(L)
-```
+$$ T(s) : T(L) \times T(L) \to T(L) $$
 
 on $T(L)$ by virtue of `(18.3.3)`, and this law is a commutative group law of which $T(t)$ is the symmetry, as follows
 from the definition of a group object by means of commutative diagrams $(0_{III}, 8.2.5 and 8.2.6)$. We shall denote by
@@ -545,12 +516,13 @@ of $B$ by $L$*.
 $B$ an $A$-ring and $L$ a $B$-bimodule; the morphisms of this category are the triples $(u, v, w)$ where $u : A' \to A$
 and $v : B' \to B$ are two ring homomorphisms making commutative the left square of the diagram
 
-```text
-                                  A ────→  B           L
-                                u │      v │         w │
-                                  ↑        ↑           ↓
-                                  A' ───→  B'          L'
-```
+$$
+\begin{array}{ccccccc}
+A & \longrightarrow & B & & & L & \\
+\uparrow{\scriptstyle u} & & \uparrow{\scriptstyle v} & & & \downarrow{\scriptstyle w} & \\
+A' & \longrightarrow & B' & & & L' &
+\end{array}
+$$
 
 where the horizontal arrows are the structural homomorphisms; finally $w : L \to L'$ is a homomorphism of commutative
 groups such that $w(v(b') z) = b' w(z)$ and
@@ -561,55 +533,44 @@ $w(z v(b')) = w(z) b'$ whatever $z \in L$ and $b' \in B'$ (in other words, $w$ i
 one endows $L$ with the $B'$-bimodule structure defined by $v$). The composition of morphisms is defined by $(u', v',
 w') \circ (u, v, w) = (u \circ u', v \circ v', w' \circ w)$, which is justified at once. We propose to show that
 
-```text
-(18.3.5.1)                       (A, B, L) ↦ Exan_A(B, L)
-```
+$$ (A, B, L) \mapsto Exan_{A}(B, L) \tag{18.3.5.1} $$
 
 *is a covariant functor from the category $\mathcal{K}$ to the category `Ab` of commutative groups.* It is thus a matter
 of, for every triple $(u, v, w)$ as above, defining a homomorphism of commutative groups
 
-```text
-                  (u, v, w)_* : Exan_A(B, L) → Exan_{A'}(B', L').
-```
+$$ (u, v, w)_{*} : Exan_{A}(B, L) \to Exan_{A'}(B', L'). $$
 
 By virtue of the definition of morphisms in $\mathcal{K}$, one can write
 
-```text
-                  (u, v, w) = (1_{A'}, 1_{B'}, w) ∘ (1_{A'}, v, 1_L) ∘ (u, 1_B, 1_L)
-```
+$$ (u, v, w) = (1_{A'}, 1_{B'}, w) \circ (1_{A'}, v, 1_{L}) \circ (u, 1_{B}, 1_{L}) $$
 
 where, in the first factor, $L$ is endowed with its $B'$-bimodule structure defined by $v$; we shall therefore first
 define $(u, v, w)_{*}$ when two of the homomorphisms $u$, $v$, $w$ are reduced to the identity.
 
 **(18.3.6)** We shall take first for $(1_{A}, 1_{B}, w)_{*}$ the map
 
-```text
-(18.3.6.1)                 w_* : Exan_A(B, L) → Exan_A(B, L')
-```
+$$ w_{*} : Exan_{A}(B, L) \to Exan_{A}(B, L') \tag{18.3.6.1} $$
 
 denoted $T(w)$ in `(18.3.2)`; it is immediate to verify that this is a group homomorphism, this property expressing
 itself by the commutativity of diagrams, transformed by $T$ from analogous diagrams for $L$ and $L'$.
 
 The map $(1_{A}, v, 1_{L})_{*}$ is the map
 
-```text
-(18.3.6.2)                   v^* : Exan_A(B, L) → Exan_A(B', L)
-```
+$$ v^{*} : Exan_{A}(B, L) \to Exan_{A}(B', L) \tag{18.3.6.2} $$
 
 defined in the following way: if $E$ is an $A$-extension of $B$ by $L$, one has seen that $E \times_{B} B'$ is an
 $A$-extension of $B'$ by $L$ `(18.2.5)`, and that if one replaces $E$ by an $A$-equivalent $A$-extension $E'$, $E'
 \times_{B} B'$ is $A$-equivalent to $E \times_{B} B'$; the image by $v^{*}$ of the class of $E$ is the class of $E
 \times_{B} B'$. One verifies at once that if $w : L \to L'$ is a homomorphism of $B$-bimodules, the diagram
 
-```text
-                              Exan_A(B, L)  ──→ Exan_A(B', L)
-                                          v^*
-                                  w_* │              │ w_*
-                                      ↓              ↓
-(18.3.6.3)
-                              Exan_A(B, L') ──→ Exan_A(B', L')
-                                          v^*
-```
+$$
+\begin{array}{ccc}
+Exan_{A}(B, L) & \xrightarrow{v^{*}} & Exan_{A}(B', L) \\
+\downarrow{\scriptstyle w_{*}} & & \downarrow{\scriptstyle w_{*}} \\
+Exan_{A}(B, L') & \xrightarrow{v^{*}} & Exan_{A}(B', L')
+\end{array}
+\tag{18.3.6.3}
+$$
 
 is commutative, $L$ and $L'$ being considered as $B'$-bimodules by means of $v$ in the right-hand column. Replacing $L$
 and $L'$ respectively by $L \times L$ and $L$, and $w$ by the addition $s$ in $L$, one concludes that $v^{*}$ is indeed
@@ -619,24 +580,21 @@ a group homomorphism.
 
 Finally, the map $(u, 1_{B}, 1_{L})_{*}$ is the map
 
-```text
-(18.3.6.4)                   u^* : Exan_A(B, L) → Exan_{A'}(B, L)
-```
+$$ u^{*} : Exan_{A}(B, L) \to Exan_{A'}(B, L) \tag{18.3.6.4} $$
 
 obtained by making correspond to an $A$-extension $E$ of $B$ by $L$ the ring $E$ considered as $A'$-ring by means of $u$
 `(18.1.1)`, which is evidently an $A'$-extension of $B$ by $L$, $B$ being also considered as $A'$-ring by means of $u$;
 it is clear that an $A$-equivalence is also an $A'$-equivalence, whence the map `(18.3.6.4)`, which, for every
 homomorphism $w : L \to L'$ of $B$-bimodules, still makes commutative the diagram
 
-```text
-                              Exan_A(B, L) ──→ Exan_{A'}(B, L)
-                                          u^*
-                                  w_* │              │ w_*
-                                      ↓              ↓
-(18.3.6.5)
-                              Exan_A(B, L') ─→ Exan_{A'}(B, L')
-                                          u^*
-```
+$$
+\begin{array}{ccc}
+Exan_{A}(B, L) & \xrightarrow{u^{*}} & Exan_{A'}(B, L) \\
+\downarrow{\scriptstyle w_{*}} & & \downarrow{\scriptstyle w_{*}} \\
+Exan_{A}(B, L') & \xrightarrow{u^{*}} & Exan_{A'}(B, L')
+\end{array}
+\tag{18.3.6.5}
+$$
 
 from which one concludes as above that $u^{*}$ is a group homomorphism.
 
@@ -656,9 +614,7 @@ and by functoriality, these endomorphisms define on $Exan_{A}(B, L)$ a canonical
 **(18.3.7)** Let $A$, $A'$ be two rings, $u : A' \to A$ a homomorphism, $B$ an $A$-ring and $L$ a $B$-bimodule. The
 kernel of the group homomorphism
 
-```text
-                              u^* : Exan_A(B, L) → Exan_{A'}(B, L)
-```
+$$ u^{*} : Exan_{A}(B, L) \to Exan_{A'}(B, L) $$
 
 is formed by definition of the classes of $A$-extensions of $B$ by $L$ which are $A'$-trivial when one considers them as
 $A'$-extensions by means of $u$. One denotes this kernel by the notation $Exan_{A/A'}(B, L)$ when this does not lead to
@@ -666,29 +622,30 @@ confusion.
 
 If $\Lambda$ is a ring, and if one has a commutative diagram of $\Lambda$-homomorphisms of $\Lambda$-rings
 
-```text
-                                          B' ──→ B
-(18.3.7.1)                                ↑       ↑
-                                          │       │
-                                          A' ──→ A
-```
+$$
+\begin{array}{ccc}
+B' & \longrightarrow & B \\
+\uparrow & & \uparrow \\
+A' & \longrightarrow & A
+\end{array}
+\tag{18.3.7.1}
+$$
 
 <!-- original page 159 -->
 
 one deduces canonically homomorphisms
 
-```text
-(18.3.7.2)         Exan_{A/Λ}(B, L) → Exan_{A'/Λ}(B, L) → Exan_{A'/Λ}(B', L)
-```
+$$ Exan_{A/\Lambda}(B, L) \to Exan_{A'/\Lambda}(B, L) \to Exan_{A'/\Lambda}(B', L) \tag{18.3.7.2} $$
 
 which come from the commutativity of the diagram
 
-```text
-                      Exan_Λ(B, L) ──→ Exan_{A'}(B, L) ──→ Exan_{A'}(B', L)
-                            │                │                    │
-                            ↓                ↓                    ↓
-                      Exan_A(B, L)  ──→  Exan_A(B, L) ──→ Exan_A(B', L)
-```
+$$
+\begin{array}{ccccc}
+Exan_{\Lambda}(B, L) & \longrightarrow & Exan_{A'}(B, L) & \longrightarrow & Exan_{A'}(B', L) \\
+\downarrow & & \downarrow & & \downarrow \\
+Exan_{A}(B, L) & \longrightarrow & Exan_{A}(B, L) & \longrightarrow & Exan_{A}(B', L)
+\end{array}
+$$
 
 where the arrows are deduced from those of `(18.3.7.1)` by functoriality.
 
@@ -701,9 +658,8 @@ where the arrows are deduced from those of `(18.3.7.1)` by functoriality.
 $\operatorname{Hom}_{C}(\mathfrak{J} / \mathfrak{J}^{2}, L)$ be the additive group of homomorphisms of $C$-bimodules
 from $\mathfrak{J} / \mathfrak{J}^{2}$ to $L$. One then defines a canonical isomorphism of commutative groups*
 
-```text
-(18.3.8.1)                  η_L : Hom_C(𝔍 / 𝔍^2, L) ⥲ Exan_B(C, L)
-```
+$$ \eta_{L} : \operatorname{Hom}_{C}(\mathfrak{J} / \mathfrak{J}^{2}, L) \xrightarrow{\sim} Exan_{B}(C, L)
+\tag{18.3.8.1} $$
 
 *by making correspond to every $C$-homomorphism $w : \mathfrak{J} / \mathfrak{J}^{2} \to L$ (which is a fortiori a
 $B$-homomorphism) the class of the extension $(B / \mathfrak{J}^{2}) \oplus_{\mathfrak{J} / \mathfrak{J}^{2}} L$ deduced
@@ -719,22 +675,23 @@ $p \circ f$ is null, $f(\mathfrak{J})$ is contained in the kernel of $p$, that i
 zero, one has $f(\mathfrak{J}^{2}) = 0$; hence $f$ factors as $B \to B / \mathfrak{J}^{2} = F \to E$, and if $w$ is the
 restriction of $u$ to $\mathfrak{J} / \mathfrak{J}^{2}$, one has a commutative diagram
 
-```text
-                              0 ──→ 𝔍 / 𝔍^2 ──→ F ──→ C ──→ 0
-                                          w │      u │   1_C │
-                                            ↓        ↓        ↓
-                              0 ──→ L ──→ E ──→ C ──→ 0
-                                        j     p
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & \mathfrak{J} / \mathfrak{J}^{2} & \longrightarrow & F & \longrightarrow & C & \to & 0 \\
+ & & \downarrow{\scriptstyle w} & & \downarrow{\scriptstyle u} & & \downarrow{\scriptstyle 1_{C}} & & \\
+0 & \to & L & \xrightarrow{j} & E & \xrightarrow{p} & C & \to & 0
+\end{array}
+$$
 
 in other words $(u, 1_{C}, w)$ is a morphism of extensions `(18.2.4)`. One deduces from it a morphism of extensions
 
-```text
-                              0 ──→ L ──→ E' ──→ C ──→ 0
-                                    1_L│    u' │   1_C │
-                                       ↓       ↓        ↓
-                              0 ──→ L ──→ E ──→ C ──→ 0
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & L & \longrightarrow & E' & \longrightarrow & C & \to & 0 \\
+ & & \downarrow{\scriptstyle 1_{L}} & & \downarrow{\scriptstyle u'} & & \downarrow{\scriptstyle 1_{C}} & & \\
+0 & \to & L & \longrightarrow & E & \longrightarrow & C & \to & 0
+\end{array}
+$$
 
 <!-- original page 160 -->
 
@@ -747,15 +704,13 @@ by the canonical homomorphism $g : F \to C$ is $F$-trivial, which is evident sin
 It remains to see that $\eta_{L}$ is a group homomorphism; now, for every $B$-homomorphism $h : L \to L'$, it is
 immediate that the diagram
 
-```text
-                                              η_L
-                              Hom_C(𝔍 / 𝔍^2, L)  ─⥲  Exan_B(C, L)
-                                       │                   │
-                              Hom(1, h)│                h_*│
-                                       ↓                   ↓
-                              Hom_C(𝔍 / 𝔍^2, L') ─⥲  Exan_B(C, L')
-                                              η_{L'}
-```
+$$
+\begin{array}{ccc}
+\operatorname{Hom}_{C}(\mathfrak{J} / \mathfrak{J}^{2}, L) & \xrightarrow{\eta_{L}} & Exan_{B}(C, L) \\
+\downarrow{\scriptstyle \operatorname{Hom}(1, h)} & & \downarrow{\scriptstyle h_{*}} \\
+\operatorname{Hom}_{C}(\mathfrak{J} / \mathfrak{J}^{2}, L') & \xrightarrow{\eta_{L'}} & Exan_{B}(C, L')
+\end{array}
+$$
 
 is commutative. It suffices to apply this remark to the homomorphism $L \times L \to L$ defining the addition to
 conclude.
@@ -775,9 +730,7 @@ L)$, of $Exan_{A}(B, L)$. Let $\mathcal{K}'$ be the full subcategory of the cate
 `(18.3.5)`, whose objects $(A, B, L)$ are such that $A$ is commutative and $B$ an $A$-algebra. Then what precedes shows
 that
 
-```text
-                                   (A, B, L) ↦ Exal_A(B, L)
-```
+$$ (A, B, L) \mapsto Exal_{A}(B, L) $$
 
 *is a covariant functor from $\mathcal{K}'$ to `Ab`*. The results of `(18.3.7)` are unchanged when one replaces `Exan`
 by `Exal` everywhere.
@@ -792,17 +745,13 @@ thing, commutative $A$-rings) form a subgroup of $Exal_{A}(B, L)$, denoted $Exal
 the full subcategory of $\mathcal{K}'$ formed by the triples $(A, B, L)$ where $A$ and $B$ are commutative and $L$ is a
 $B$-module,
 
-```text
-                              (A, B, L) ↦ Exalcom_A(B, L)
-```
+$$ (A, B, L) \mapsto Exalcom_{A}(B, L) $$
 
 is still a covariant functor from $\mathcal{K}''$ to `Ab`. One can also in `(18.3.7)` replace `Exan` by `Exalcom`
 everywhere. Finally, if in `(18.3.8)` one supposes that $B$ is a commutative ring and that $L$ is a $C$-module, the same
 reasoning gives a canonical isomorphism
 
-```text
-(18.4.2.1)                 Hom_C(𝔍 / 𝔍^2, L) ⥲ Exalcom_B(C, L)
-```
+$$ \operatorname{Hom}_{C}(\mathfrak{J} / \mathfrak{J}^{2}, L) \xrightarrow{\sim} Exalcom_{B}(C, L) \tag{18.4.2.1} $$
 
 where the first member is the group of homomorphisms of $C$-module.
 
@@ -815,16 +764,12 @@ identify $E$ with $B \times L$, the multiplication in $E$ being given by $(x, s)
 $f(x, y) \in L$. If one writes that this multiplication defines on $B \times L$ a structure of $A$-algebra, one finds
 `(M, XIV, 2)` that $f$ must be an $A$-bilinear map of $B \times B$ into $L$, such that
 
-```text
-(18.4.3.1)                f(xy, z) + f(x, y) z = x f(y, z) + f(x, yz)
-```
+$$ f(xy, z) + f(x, y) z = x f(y, z) + f(x, yz) \tag{18.4.3.1} $$
 
 in other words, $f$ is a *2-cocycle on $B$ with values in $L$*, in the sense of Hochschild; for the extension $E$ to be
 $A$-trivial, it is necessary and sufficient that one have
 
-```text
-(18.4.3.2)                  f(x, y) = x g(y) − g(xy) + g(x) y
-```
+$$ f(x, y) = x g(y) - g(xy) + g(x) y \tag{18.4.3.2} $$
 
 where $g$ is an $A$-linear map of $B$ into $L$, in other words $f$ must be a *2-coboundary in the sense of Hochschild*.
 One deduces at once that the classes of Hochschild extensions of $B$ by $L$ form a subgroup of $Exal_{A}(B, L)$,
@@ -845,12 +790,14 @@ complex $P_{\bullet} = (P_{n})_{n \geq 0}$ of $B$-modules, where $P_{n} = B^{\ot
 by $x(y_{1} \otimes \cdots \otimes y_{n+1}) = (x y_{1}) \otimes y_{2} \otimes \cdots \otimes y_{n+1}$; the boundary, of
 degree $-1$, $d_{n} : P_{n} \to P_{n-1}$, is defined by
 
-```text
-d_n(x_1 ⊗ x_2 ⊗ ⋯ ⊗ x_{n+1}) = (x_1 x_2) ⊗ x_3 ⊗ ⋯ ⊗ x_{n+1}
-                              − x_1 ⊗ (x_2 x_3) ⊗ ⋯ ⊗ x_{n+1} + ⋯
-                              + (−1)^{n−1} x_1 ⊗ x_2 ⊗ ⋯ ⊗ (x_n x_{n+1})
-                              + (−1)^n (x_{n+1} x_1) ⊗ x_2 ⊗ ⋯ ⊗ x_n
-```
+$$
+\begin{aligned}
+d_{n}(x_{1} \otimes x_{2} \otimes \cdots \otimes x_{n+1}) = {} & (x_{1} x_{2}) \otimes x_{3} \otimes \cdots \otimes x_{n+1} \\
+& - x_{1} \otimes (x_{2} x_{3}) \otimes \cdots \otimes x_{n+1} + \cdots \\
+& + (-1)^{n-1} x_{1} \otimes x_{2} \otimes \cdots \otimes (x_{n} x_{n+1}) \\
+& + (-1)^{n} (x_{n+1} x_{1}) \otimes x_{2} \otimes \cdots \otimes x_{n}
+\end{aligned}
+$$
 
 which is indeed $B$-linear since $B$ is commutative.
 
@@ -863,46 +810,33 @@ into $L$, and on writing the preceding condition for $h$, one recovers for $f$ t
 of $B$ into $L$; one then obtains $h'(d_{2}(1 \otimes x \otimes y)) = x g(y) - g(xy) + y g(x)$, which gives `(18.4.3.2)`
 again. One proceeds likewise for every $i$, and one thus sees that one has
 
-```text
-(18.4.4.1)                      H^i_A(B, L) = H^i(Hom_B(P_•, L)).
-```
+$$ H^{i}_{A}(B, L) = H^{i}(\operatorname{Hom}_{B}(P_{\bullet}, L)). \tag{18.4.4.1} $$
 
 **(18.4.5)** Under the conditions of `(18.4.4)`, one can interpret in the same way the group $H^{2}_{A}(B, L)^{s}$
 `(18.4.3)`. For this, let us modify the complex $P_{\bullet}$ in degree `3`, by considering a new complex
 
-```text
-                                P'_• : P'_3 ──→ P_2 ──→ P_1;
-                                            d'_3      d_2
-```
+$$ P'_{\bullet} : P'_{3} \xrightarrow{d'_{3}} P_{2} \xrightarrow{d_{2}} P_{1}; $$
 
-we shall take $P'_{3} = P_{3} \oplus (B \otimes_{A} B \otimes_{A} B)$, $d'_{3}$ coinciding with $d_{3}$ on `P_3`, and
+we shall take $P'_{3} = P_{3} \oplus (B \otimes_{A} B \otimes_{A} B)$, $d'_{3}$ coinciding with $d_{3}$ on $P_{3}$, and
 being given on $B \otimes_{A} B \otimes_{A} B$ by
 
-```text
-                                d'_3(x ⊗ y ⊗ z) = x ⊗ y ⊗ z − x ⊗ z ⊗ y.
-```
+$$ d'_{3}(x \otimes y \otimes z) = x \otimes y \otimes z - x \otimes z \otimes y. $$
 
 The relation $d_{2} d'_{3} = 0$ follows from the commutativity of $B$. With the notations introduced above, a 2-cocycle
 of $P'_{\bullet}$ now corresponds to an $A$-bilinear map $f : B \times B \to L$ which is *symmetric* and satisfies
 `(18.4.3.1)`; consequently, one has
 
-```text
-                                H^2_A(B, L)^s = H^2(Hom_B(P'_•, L)).
-```
+$$ H^{2}_{A}(B, L)^{s} = H^{2}(\operatorname{Hom}_{B}(P'_{\bullet}, L)). $$
 
 **(18.4.6)** In the particular case where one considers a commutative field $k$, an extension $K$ of $k$, one has
 $Ext^{1}_{k}(M, L) = 0$ whatever the $K$-vector spaces $L$, $M$, and consequently `(M, VI, 3.3 a))`, one has a canonical
 isomorphism
 
-```text
-(18.4.6.1)                      H^i_k(K, L) ⥲ Hom_K(H_i(P_•), L)
-```
+$$ H^{i}_{k}(K, L) \xrightarrow{\sim} \operatorname{Hom}_{K}(H_{i}(P_{\bullet}), L) \tag{18.4.6.1} $$
 
 and likewise
 
-```text
-(18.4.6.2)                      H^2_k(K, L)^s ⥲ Hom_K(H_2(P'_•), L).
-```
+$$ H^{2}_{k}(K, L)^{s} \xrightarrow{\sim} \operatorname{Hom}_{K}(H_{2}(P'_{\bullet}), L). \tag{18.4.6.2} $$
 
 ## 18.5. Case of topological rings
 
@@ -920,9 +854,7 @@ furthermore, if $\mathfrak{K}' \subset \mathfrak{K}$, $\mathfrak{J}' \subset \ma
 of $A$ and $B$ respectively such that $\rho(\mathfrak{J}') \subset \mathfrak{K}'$, one has by `(18.3.5.1)` a canonical
 homomorphism
 
-```text
-(18.5.1.1)                Exan_{A/𝔍}(B / 𝔎, L) → Exan_{A/𝔍'}(B / 𝔎', L).
-```
+$$ Exan_{A/\mathfrak{J}}(B / \mathfrak{K}, L) \to Exan_{A/\mathfrak{J}'}(B / \mathfrak{K}', L). \tag{18.5.1.1} $$
 
 The set of pairs of open ideals $(\mathfrak{J}, \mathfrak{K})$ such that $\rho(\mathfrak{J}) \subset \mathfrak{K}
 \subset \mathfrak{K}_{0}$ is evidently right-filtered for the relation "$\mathfrak{J} \supset \mathfrak{J}'$ and
@@ -930,10 +862,7 @@ $\mathfrak{K} \supset \mathfrak{K}'$", and the maps `(18.5.1.1)` define an induc
 set as indexing set. One sets, by abuse of notation (for it is no longer a question of a group in natural bijective
 correspondence with a set of extensions)
 
-```text
-(18.5.1.2)               Exantop_A(B, L) = lim Exan_{A/𝔍}(B / 𝔎, L).
-                                         ─────→
-```
+$$ Exantop_{A}(B, L) = \varinjlim Exan_{A/\mathfrak{J}}(B / \mathfrak{K}, L). \tag{18.5.1.2} $$
 
 To say that the second member of `(18.5.1.2)` is zero therefore means that, for every pair of open ideals $\mathfrak{J}
 \subset A$, $\mathfrak{K} \subset B$ such that $\rho(\mathfrak{J}) \subset \mathfrak{K} \subset \mathfrak{K}_{0}$ and
@@ -947,32 +876,28 @@ case where $A$ is commutative and $B$ a topological $A$-algebra (resp. commutati
 
 **(18.5.2)** If one has a commutative diagram of continuous homomorphisms of rings
 
-```text
-                                          B' ──→ B
-                                          ↑       ↑
-                                          │       │
-                                          A' ──→ A
-```
+$$
+\begin{array}{ccc}
+B' & \longrightarrow & B \\
+\uparrow & & \uparrow \\
+A' & \longrightarrow & A
+\end{array}
+$$
 
 one deduces from it canonically two homomorphisms of additive groups
 
-```text
-                 Exantop_A(B, L) → Exantop_{A'}(B, L) → Exantop_{A'}(B', L)
-```
+$$ Exantop_{A}(B, L) \to Exantop_{A'}(B, L) \to Exantop_{A'}(B', L) $$
 
 by passage to the inductive limit starting from `(18.3.5.1)`.
 
-By virtue of the exactness of the functor `lim` in the category of commutative groups, the kernel of the homomorphism
+By virtue of the exactness of the functor $\varinjlim$ in the category of commutative groups, the kernel of the
+homomorphism
 
-```text
-                            Exantop_A(B, L) → Exantop_{A'}(B, L)
-```
+$$ Exantop_{A}(B, L) \to Exantop_{A'}(B, L) $$
 
 is the inductive limit of the kernels of the homomorphisms
 
-```text
-                          Exan_{A/𝔍}(B / 𝔎, L) → Exan_{A'/𝔍'}(B / 𝔎, L)
-```
+$$ Exan_{A/\mathfrak{J}}(B / \mathfrak{K}, L) \to Exan_{A'/\mathfrak{J}'}(B / \mathfrak{K}, L) $$
 
 where one has taken for $\mathfrak{J}'$ the inverse image of $\mathfrak{J}$; one denotes this kernel by
 $Exantop_{A/A'}(B, L)$. One defines similarly $Exaltop_{A/A'}(B, L)$ and $Exalcotop_{A/A'}(B, L)$. Finally, if one has a
@@ -982,9 +907,7 @@ homomorphism
 
 continuous of $B$-bimodules $L \to L'$, one deduces from it canonically a homomorphism of additive groups
 
-```text
-                       Exantop_A(B, L) → Exantop_A(B, L')
-```
+$$ Exantop_{A}(B, L) \to Exantop_{A}(B, L') $$
 
 by passage to the inductive limit starting from `(18.3.6.1)`.
 
@@ -998,29 +921,26 @@ $\operatorname{Hom}.cont_{C}(M, N)$ the additive group of continuous $C$-homomor
 *Let $C$ be a topological ring, $E$, $L$ two topological $C$-bimodules; one supposes that the topologies are linear,
 that $L$ is discrete and annihilated by an open two-sided ideal of $C$. Then one has a canonical isomorphism*
 
-```text
-(18.5.3.2)                lim Hom_{C/𝔎}(E / V, L) ⥲ Hom.cont_C(E, L)
-                          ─────→
-```
+$$ \varinjlim \operatorname{Hom}_{C/\mathfrak{K}}(E / V, L) \xrightarrow{\sim} \operatorname{Hom.cont}_{C}(E, L)
+\tag{18.5.3.2} $$
 
 *where in the first member the inductive limit is taken following the right-filtered ordered set of pairs
 $(\mathfrak{K}, V)$ such that $\mathfrak{K}$ is an open two-sided ideal of $C$, $V$ an open sub-$C$-bimodule of $E$,
 such that $\mathfrak{K} \cdot L = L \cdot \mathfrak{K} = 0$, $\mathfrak{K} \cdot E \subset V$, $E \cdot \mathfrak{K}
 \subset V$.*
 
-As $C / \mathfrak{K}$ and $E / V$ are discrete, one has canonical homomorphisms
-`w_{𝔎, V} : Hom_{C/𝔎}(E / V, L) → Hom.cont_C(E, L)` forming an inductive system, whence a homomorphism `(18.5.3.2)` by
-passage to the inductive limit. As the homomorphism $E / V' \to E / V$ is surjective for $V' \subset V$, it follows at
-once from the definition that the homomorphism $\operatorname{Hom}_{C/\mathfrak{K}}(E / V, L) \to
-\operatorname{Hom}_{C/\mathfrak{K}}(E / V', L)$ (with $\mathfrak{K} \cdot L = L \cdot \mathfrak{K} = 0$, $\mathfrak{K}
-\cdot E \subset V$, $E \cdot \mathfrak{K} \subset V$) is injective, and the same evidently holds for the homomorphism
+As $C / \mathfrak{K}$ and $E / V$ are discrete, one has canonical homomorphisms $w_{\mathfrak{K}, V} :
+\operatorname{Hom}_{C/\mathfrak{K}}(E / V, L) \to \operatorname{Hom.cont}_{C}(E, L)$ forming an inductive system, whence
+a homomorphism `(18.5.3.2)` by passage to the inductive limit. As the homomorphism $E / V' \to E / V$ is surjective for
+$V' \subset V$, it follows at once from the definition that the homomorphism $\operatorname{Hom}_{C/\mathfrak{K}}(E / V,
+L) \to \operatorname{Hom}_{C/\mathfrak{K}}(E / V', L)$ (with $\mathfrak{K} \cdot L = L \cdot \mathfrak{K} = 0$,
+$\mathfrak{K} \cdot E \subset V$, $E \cdot \mathfrak{K} \subset V$) is injective, and the same evidently holds for the
+homomorphism
 
-```text
-                              Hom_{C/𝔎}(E / V, L) → Hom_{C/𝔎'}(E / V, L)
-```
+$$ \operatorname{Hom}_{C/\mathfrak{K}}(E / V, L) \to \operatorname{Hom}_{C/\mathfrak{K}'}(E / V, L) $$
 
 for $\mathfrak{K}' \subset \mathfrak{K}$; one concludes that the homomorphism `(18.5.3.2)` is injective. On the other
-hand, if $u$ is a continuous $C$-homomorphism of $E$ into $L$, its kernel is an open sub-bimodule `V_0` of $E$, and if
+hand, if $u$ is a continuous $C$-homomorphism of $E$ into $L$, its kernel is an open sub-bimodule $V_{0}$ of $E$, and if
 $\mathfrak{K}_{0}$ is an open two-sided ideal of $C$ such that $\mathfrak{K}_{0} \cdot L = L \cdot \mathfrak{K}_{0} = 0$
 and $\mathfrak{K}_{0} \cdot E \subset V_{0}$, $E \cdot \mathfrak{K}_{0} \subset V_{0}$, it is clear that $u$ is the
 canonical image of a $(C / \mathfrak{K}_{0})$-homomorphism of $E / V_{0}$ into $L$, hence `(18.5.3.2)` is surjective.
@@ -1037,15 +957,13 @@ by that of $B$ and $\mathfrak{J} / \mathfrak{J}^{2}$ with the quotient topology 
 canonically endowed with a structure of topological $C$-bimodule. For every discrete $C$-bimodule $L$ annihilated by an
 open ideal of $C$, there exists then a canonical isomorphism*
 
-```text
-(18.5.4.1)                  Hom.cont_C(𝔍 / 𝔍^2, L) ⥲ Exantop_B(C, L).
-```
+$$ \operatorname{Hom.cont}_{C}(\mathfrak{J} / \mathfrak{J}^{2}, L) \xrightarrow{\sim} Exantop_{B}(C, L). \tag{18.5.4.1}
+$$
 
 Indeed, for every open ideal $\mathfrak{K}$ of $B$ such that $(\mathfrak{J} + \mathfrak{K}) / \mathfrak{J}$ annihilates
 $L$, one has, by `(18.3.9)`, a canonical isomorphism
 
-```text
-                 Hom_{B/(𝔍 + 𝔎)}((𝔍 + 𝔎) / (𝔍^2 + 𝔎), L) ⥲ Exan_B(B / (𝔍 + 𝔎), L)
-```
+$$ \operatorname{Hom}_{B/(\mathfrak{J} + \mathfrak{K})}((\mathfrak{J} + \mathfrak{K}) / (\mathfrak{J}^{2} +
+\mathfrak{K}), L) \xrightarrow{\sim} Exan_{B}(B / (\mathfrak{J} + \mathfrak{K}), L) $$
 
 and it suffices to pass to the inductive limit, taking account of `(18.5.3.1)`.
