@@ -26,32 +26,32 @@ for every $x \in X$, every irreducible component of $f^{-1}(f(x))$ is of dimensi
 
 The proposition is immediate when, for every $y \in f(X)$, $\mathcal{O}_{y}$ is a universally catenary ring: indeed, if
 $x$ is the generic point of an irreducible component $Z$ of $f^{-1}(y)$, it follows from `(5.6.5)`, joined with
-`(5.2.1)`, that one has `e + dim(𝒪_y) = dim(Z) + dim(𝒪_x)`; but by virtue of `(0, 16.3.9)` one has
-$\dim(\mathcal{O}_{x}) \leq \dim(\mathcal{O}_{y})$, whence the conclusion in this case.
+`(5.2.1)`, that one has $e + \dim(\mathcal{O}_{y}) = \dim(Z) + \dim(\mathcal{O}_{x})$; but by virtue of `(0, 16.3.9)`
+one has $\dim(\mathcal{O}_{x}) \leq \dim(\mathcal{O}_{y})$, whence the conclusion in this case.
 
 We shall reduce the general case to this particular case. The question is evidently local on $Y$, and, in view of
 `(4.1.1.3)`, it is also local on $X$; one may therefore restrict to the case where $Y = \operatorname{Spec}(A)$ and $X =
 \operatorname{Spec}(B)$ are affine and irreducible, $B$ being an $A$-algebra of finite type. Moreover `(1.5.4)`, one may
 suppose $X$ and $Y$ reduced, hence $A$ and $B$ integral, and, since $f$ is dominant, $A$ is then a sub-ring of $B$.
 Consider $A$ as the inductive limit of its sub-$\mathbb{Z}$-algebras of finite type; it then follows from `(8.9.1)` that
-there exists such a sub-algebra `A_0` and an `A_0`-algebra of finite type `B_0` such that $B = B_{0} \otimes_{A_{0}} A$.
-Set $Y_{0} = \operatorname{Spec}(A_{0})$, $X_{0} = \operatorname{Spec}(B_{0})$, and let $f_{0} : X_{0} \to Y_{0}$ be the
-morphism corresponding to the homomorphism $A_{0} \to B_{0}$, so that $f = f_{0} \times_{Y_{0}} 1_{Y}$. It is not
-evident a priori that the prescheme `X_0` is integral, but we shall see that one can reduce to this case. Let $\eta_{0}$
-be the generic point of `Y_0`, so that if $g$ is the morphism $Y \to Y_{0}$, one has $g(\eta) = \eta_{0}$; by
-transitivity of fibres `(I, 3.6.4)`, one has $f^{-1}(\eta) = f^{-1}_{0}(\eta_{0}) \otimes_{\mathit{k}(\eta_{0})}
-\mathit{k}(\eta)$, and since $f^{-1}(\eta)$ is irreducible by hypothesis, so is $f^{-1}_{0}(\eta_{0})$ `(4.4.1)`. Our
-assertion will then result from the following lemma:
+there exists such a sub-algebra $A_{0}$ and an $A_{0}$-algebra of finite type $B_{0}$ such that $B = B_{0}
+\otimes_{A_{0}} A$. Set $Y_{0} = \operatorname{Spec}(A_{0})$, $X_{0} = \operatorname{Spec}(B_{0})$, and let $f_{0} :
+X_{0} \to Y_{0}$ be the morphism corresponding to the homomorphism $A_{0} \to B_{0}$, so that $f = f_{0} \times_{Y_{0}}
+1_{Y}$. It is not evident a priori that the prescheme $X_{0}$ is integral, but we shall see that one can reduce to this
+case. Let $\eta_{0}$ be the generic point of $Y_{0}$, so that if $g$ is the morphism $Y \to Y_{0}$, one has $g(\eta) =
+\eta_{0}$; by transitivity of fibres `(I, 3.6.4)`, one has $f^{-1}(\eta) = f^{-1}_{0}(\eta_{0})
+\otimes_{\mathit{k}(\eta_{0})} \mathit{k}(\eta)$, and since $f^{-1}(\eta)$ is irreducible by hypothesis, so is
+$f^{-1}_{0}(\eta_{0})$ `(4.4.1)`. Our assertion will then result from the following lemma:
 
 **Lemma (13.1.2).**
 
 <!-- label: IV.13.1.2 -->
 
-*Let `Y_0`, $Y$ be two integral preschemes with generic points $\eta_{0}$, $\eta$, $g : Y \to Y_{0}$ a dominant
+*Let $Y_{0}$, $Y$ be two integral preschemes with generic points $\eta_{0}$, $\eta$, $g : Y \to Y_{0}$ a dominant
 morphism, $f_{0} : X_{0} \to Y_{0}$ a dominant morphism such that $f^{-1}_{0}(\eta_{0})$ is irreducible. Let $X'_{0}$ be
-the unique irreducible component of `X_0` meeting $f^{-1}_{0}(\eta_{0})$ $(0_{I}, 2.1.8)$, and denote again by $X'_{0}$
-the reduced closed sub-prescheme of `X_0` having $X'_{0}$ as underlying space. Suppose that the prescheme $X = X'_{0}
-\times_{Y_{0}} Y$ is integral; then $X$ is isomorphic to $X'_{0} \times_{Y_{0}} Y$.*
+the unique irreducible component of $X_{0}$ meeting $f^{-1}_{0}(\eta_{0})$ $(0_{I}, 2.1.8)$, and denote again by
+$X'_{0}$ the reduced closed sub-prescheme of $X_{0}$ having $X'_{0}$ as underlying space. Suppose that the prescheme $X
+= X'_{0} \times_{Y_{0}} Y$ is integral; then $X$ is isomorphic to $X'_{0} \times_{Y_{0}} Y$.*
 
 Indeed, if $j_{0} : X'_{0} \to X_{0}$ is the canonical injection, which is a closed immersion, $j = j_{0} \times_{Y_{0}}
 1_{Y} : X'_{0} \times_{Y_{0}} Y \to X_{0} \times_{Y_{0}} Y = X$ is a closed immersion. On the other hand, $X'_{0}$
@@ -60,7 +60,7 @@ $f^{-1}(\eta)$ is non-empty `(I, 3.4.7)`, hence contains the generic point of $X
 necessarily all of $X$. But since $X$ is integral, the only closed sub-prescheme of $X$ having $X$ as underlying space
 is $X$ itself, hence $j$ is an isomorphism.
 
-This lemma being established, one may therefore suppose that `X_0` is integral; for every $y_{0} \in Y_{0}$,
+This lemma being established, one may therefore suppose that $X_{0}$ is integral; for every $y_{0} \in Y_{0}$,
 $\mathcal{O}_{y_{0}}$ is a $\mathbb{Z}$-algebra essentially of finite type, hence a universally catenary ring
 
 <!-- original page 189 -->
@@ -82,14 +82,14 @@ I) Suppose first that $f$ is locally of finite presentation.
 
 The question is evidently local on $X$ and on $Y$, and one may therefore suppose $Y = \operatorname{Spec}(A)$, $X =
 \operatorname{Spec}(B)$ affine, $B$ being an $A$-algebra of finite presentation. One then knows `(8.9.1)` that there is
-a Noetherian sub-ring `A_0` of $A$ and an `A_0`-algebra of finite type `B_0` such that, if one sets $Y_{0} =
+a Noetherian sub-ring $A_{0}$ of $A$ and an $A_{0}$-algebra of finite type $B_{0}$ such that, if one sets $Y_{0} =
 \operatorname{Spec}(A_{0})$, $X_{0} = \operatorname{Spec}(B_{0})$, one has $X = X_{0} \times_{Y_{0}} Y$, $f = f_{0}
 \times_{Y_{0}} 1_{Y}$, where $f_{0} : X_{0} \to Y_{0}$ corresponds to the homomorphism $A_{0} \to B_{0}$. Let $g : Y \to
 Y_{0}$ be the morphism corresponding to the canonical injection $A_{0} \to A$, $y$ a point of $Y$, $y_{0} = g(y)$; one
 knows that $f^{-1}(y) = f^{-1}_{0}(y_{0}) \otimes_{\mathit{k}(y_{0})} \mathit{k}(y)$, and it follows from `(4.2.7)` that
 if $p$ is the canonical projection $f^{-1}(y) \to f^{-1}_{0}(y_{0})$, the irreducible components of $f^{-1}(y)$ are the
-irreducible components of the sets $p^{-1}(Z_{0})$, where `Z_0` ranges over the set of irreducible components of
-$f^{-1}_{0}(y_{0})$, and each of the irreducible components of $p^{-1}(Z_{0})$ dominates `Z_0` and has dimension equal
+irreducible components of the sets $p^{-1}(Z_{0})$, where $Z_{0}$ ranges over the set of irreducible components of
+$f^{-1}_{0}(y_{0})$, and each of the irreducible components of $p^{-1}(Z_{0})$ dominates $Z_{0}$ and has dimension equal
 to $\dim(Z_{0})$. Taking `(0, 14.1.5)` into account, one sees that if $g' : X \to X_{0}$ is the canonical projection,
 $x$ a point of $X$ and $x_{0} = g'(x)$, one has $\dim_{x}(f^{-1}(f(x))) = \dim_{x_{0}}(f^{-1}_{0}(f_{0}(x_{0})))$,
 whence $F_{n}(X) = g'^{-1}(F_{n}(X_{0}))$, and one is consequently reduced to proving the theorem when $Y$ is
@@ -209,9 +209,8 @@ and $\leq \dim_{x}(f^{-1}(f(x)))$ by virtue of `(0, 14.1.5)`.
 locally of finite type; let $\eta$ be the generic point of $Y$, $x$ a point of $X$, $y = f(x)$, and suppose that one
 has*
 
-```text
-  (13.2.3.1)            dim(𝒪_x) = dim(𝒪_y) + dim(𝒪_x ⊗_{𝒪_y} 𝒌(y)).
-```
+$$ \dim(\mathcal{O}_{x}) = \dim(\mathcal{O}_{y}) + \dim(\mathcal{O}_{x} \otimes_{\mathcal{O}_{y}} \mathit{k}(y)).
+\tag{13.2.3.1} $$
 
 *Then $f$ is equidimensional at the point $x$. The converse is true if the two sides of the inequality `(5.6.5.2)` are
 equal, in particular if $\mathcal{O}_{y}$ is universally catenary.*
@@ -225,34 +224,28 @@ respectively having $X'$ and $Y'$ as underlying spaces; the restriction $X' \to 
 \xrightarrow{f'} Y' \xrightarrow{j} Y$, where $j$ is the canonical injection `(I, 5.2.2)`, and $f'$ is of finite type
 `(1.5.4)`. Set then, to abbreviate,
 
-```text
-  (13.2.4.1)        A = 𝒪_{Y, y},   B = 𝒪_{X, x},   A' = 𝒪_{Y', y},   B' = 𝒪_{X', x}.
-```
+$$ A = \mathcal{O}_{Y, y}, \quad B = \mathcal{O}_{X, x}, \quad A' = \mathcal{O}_{Y', y}, \quad B' = \mathcal{O}_{X', x}.
+\tag{13.2.4.1} $$
 
 Formula `(5.6.5.2)` applied to the dominant morphism $f'$ and to the irreducible preschemes $X'$, $Y'$ gives
 
-```text
-  (13.2.4.2)        dim(B') ≤ dim(A') + dim(B' ⊗_{A'} 𝒌(y)) − (dim_x(f'⁻¹(y)) − dim(f'⁻¹(η'))).
-```
+$$ \dim(B') \le \dim(A') + \dim(B' \otimes_{A'} \mathit{k}(y)) - (\dim_{x}(f'^{-1}(y)) - \dim(f'^{-1}(\eta'))).
+\tag{13.2.4.2} $$
 
 On the other hand, the local ring $A'$ (resp. $B'$, $B' \otimes_{A'} \mathit{k}(y)$) is a quotient ring of $A$ (resp.
 $B$, $B \otimes_{A} \mathit{k}(y)$), hence `(0, 16.1.2.1)` one has
 
-```text
-  (13.2.4.3)    dim(A') ≤ dim(A),   dim(B') ≤ dim(B),   dim(B' ⊗_{A'} 𝒌(y)) ≤ dim(B ⊗_A 𝒌(y)).
-```
+$$ \dim(A') \le \dim(A), \quad \dim(B') \le \dim(B), \quad \dim(B' \otimes_{A'} \mathit{k}(y)) \le \dim(B \otimes_{A}
+\mathit{k}(y)). \tag{13.2.4.3} $$
 
 One deduces therefore first from `(13.2.4.3)` and `(0, 16.3.9)`
 
-```text
-  (13.2.4.4)            dim(B') ≤ dim(A') + dim(B' ⊗_{A'} 𝒌(y)) ≤ dim(A) + dim(B ⊗_A 𝒌(y)).
-```
+$$ \dim(B') \le \dim(A') + \dim(B' \otimes_{A'} \mathit{k}(y)) \le \dim(A) + \dim(B \otimes_{A} \mathit{k}(y)).
+\tag{13.2.4.4} $$
 
 Moreover, by virtue of `(0, 16.3.9)`, one also has the inequalities
 
-```text
-  (13.2.4.5)            dim(B') ≤ dim(B) ≤ dim(A) + dim(B ⊗_A 𝒌(y)).
-```
+$$ \dim(B') \le \dim(B) \le \dim(A) + \dim(B \otimes_{A} \mathit{k}(y)). \tag{13.2.4.5} $$
 
 <!-- original page 192 -->
 
@@ -264,7 +257,7 @@ The comparison of these inequalities therefore shows that:
 
 *With the notations of `(13.2.4)`, the following conditions are equivalent:*
 
-*a) `dim(B') = dim(A) + dim(B ⊗_A 𝒌(y))`.*
+*a) $\dim(B') = \dim(A) + \dim(B \otimes_{A} \mathit{k}(y))$.*
 
 *b) One has simultaneously the following relations:*
 
@@ -279,9 +272,7 @@ the point $x$.*
 
 *(iv) One has the equality*
 
-```text
-                       dim(B') = dim(A') + dim(B' ⊗_{A'} 𝒌(y))
-```
+$$ \dim(B') = \dim(A') + \dim(B' \otimes_{A'} \mathit{k}(y)) $$
 
 *(a relation which is always satisfied when $A = \mathcal{O}_{Y, y}$ is a universally catenary ring, in virtue of
 `(5.6.5)`).*
@@ -290,14 +281,12 @@ the point $x$.*
 
 *(i) $\dim(B') = \dim(B)$.*
 
-*(ii) `dim(B) = dim(A) + dim(B ⊗_A 𝒌(y))`.*
+*(ii) $\dim(B) = \dim(A) + \dim(B \otimes_{A} \mathit{k}(y))$.*
 
 **(13.2.6)** Let us now recall that the irreducible components $X_{i}$ of $X$ containing $x$ are in finite number and
 that one has (`(5.1.2.1)` and `(0, 14.2.1.1)`)
 
-```text
-  (13.2.6.1)            dim(𝒪_{X, x}) = sup_i dim(𝒪_{X_i, x}).
-```
+$$ \dim(\mathcal{O}_{X, x}) = \sup_{i} \dim(\mathcal{O}_{X_{i}, x}). \tag{13.2.6.1} $$
 
 The equivalence of conditions b) and c) in `(13.2.5)` implies consequently, in view of `(0, 16.3.9)` and `(0, 14.2.1)`:
 
@@ -308,9 +297,8 @@ The equivalence of conditions b) and c) in `(13.2.5)` implies consequently, in v
 *Let $Y$ be a locally Noetherian prescheme, $f : X \to Y$ a morphism of finite type, $x$ a point of $X$, $f(x) = y$; one
 has*
 
-```text
-  (13.2.7.1)            dim(𝒪_{X, x}) ≤ dim(𝒪_{Y, y}) + dim(𝒪_{X, x} ⊗_{𝒪_{Y, y}} 𝒌(y)).
-```
+$$ \dim(\mathcal{O}_{X, x}) \le \dim(\mathcal{O}_{Y, y}) + \dim(\mathcal{O}_{X, x} \otimes_{\mathcal{O}_{Y, y}}
+\mathit{k}(y)). \tag{13.2.7.1} $$
 
 *For the two sides of `(13.2.7.1)` to be equal, it is necessary and sufficient that there exist an irreducible closed
 subset $X'$ of $X$ containing $x$ and satisfying simultaneously the following conditions:*
@@ -324,9 +312,7 @@ that $\dim(\mathcal{O}_{X, x} \otimes_{\mathcal{O}_{Y, y}} \mathit{k}(y)) = \dim
 
 *(iii) $X'$ is equidimensional over $Y'$ at the point $x$, in other words, one has*
 
-```text
-                       dim_x(X' ∩ f⁻¹(y)) = dim(X' ∩ f'⁻¹(η')),
-```
+$$ \dim_{x}(X' \cap f^{-1}(y)) = \dim(X' \cap f'^{-1}(\eta')), $$
 
 *where $\eta'$ is the generic point of $Y'$ (and consequently, all the irreducible components of $X' \cap f^{-1}(y)$
 containing $x$ have the same dimension `(13.2.2)`).*
@@ -335,9 +321,8 @@ containing $x$ have the same dimension `(13.2.2)`).*
 
 *(iv) One has the equality*
 
-```text
-                       dim(𝒪_{X', x}) = dim(𝒪_{Y', y}) + dim(𝒪_{X', x} ⊗_{𝒪_{Y', y}} 𝒌(y))
-```
+$$ \dim(\mathcal{O}_{X', x}) = \dim(\mathcal{O}_{Y', y}) + \dim(\mathcal{O}_{X', x} \otimes_{\mathcal{O}_{Y', y}}
+\mathit{k}(y)) $$
 
 *(a condition always implied by (iii) when $\mathcal{O}_{Y, y}$ is a universally catenary ring).*
 
@@ -370,16 +355,13 @@ Suppose that $\mathcal{O}_{Y, y}$ is a universally catenary ring. Then the follo
 *b) There exists an irreducible component $Z$ of $f^{-1}(y)$ containing $x$, of dimension $\dim_{x}(f^{-1}(y))$, such
 that for every $x'$ in a neighbourhood of $x$ in $Z$, one has*
 
-```text
-  (13.2.9.1)        dim(𝒪_{X, x'}) = dim(𝒪_{Y, y}) + dim(𝒪_{X, x} ⊗_{𝒪_{Y, y}} 𝒌(y)).
-```
+$$ \dim(\mathcal{O}_{X, x'}) = \dim(\mathcal{O}_{Y, y}) + \dim(\mathcal{O}_{X, x} \otimes_{\mathcal{O}_{Y, y}}
+\mathit{k}(y)). \tag{13.2.9.1} $$
 
 *c) There exists an irreducible component $Z$ of $f^{-1}(y)$ containing $x$, of dimension $\dim_{x}(f^{-1}(y))$, such
 that for the generic point $z$ of $Z$, one has*
 
-```text
-  (13.2.9.2)            dim(𝒪_{X, z}) = dim(𝒪_{Y, y}).
-```
+$$ \dim(\mathcal{O}_{X, z}) = \dim(\mathcal{O}_{Y, y}). \tag{13.2.9.2} $$
 
 Let us show that a) entails b). Set $\dim_{x}(f^{-1}(y)) = n$; by virtue of `(13.2.7)`, there exists an irreducible
 component $X'$ of $X$ satisfying conditions (i) to (iv) of `(13.2.7)`; let $Z$ be an irreducible component of dimension
@@ -388,9 +370,9 @@ neighbourhood $U$ of $x$ in $Z$ such that $U$ meets no irreducible component of 
 contain $x$, hence `(4.1.1.3)` $\dim_{x'}(f^{-1}(y)) = n$ for every $x' \in U$; it is then clear that conditions (i) to
 (iii) of `(13.2.7)` are satisfied when one replaces $x$ by an arbitrary point $x' \in U$, and so is condition (iv) since
 $\mathcal{O}_{Y, y}$ is universally catenary; whence the conclusion by `(13.2.7)`. Condition b) trivially entails c) by
-virtue of `(5.1.2)`. Finally, if c) is satisfied and if `X''` is an irreducible component of $X$ containing $Z$ and such
-that conditions (i) to (iv) of `(13.2.7)` are satisfied when one replaces $X'$ by `X''` and $x$ by $z$, it is clear that
-these conditions are also satisfied for `X''` and $x$ since $\mathcal{O}_{Y, y}$ is universally catenary, hence c)
+virtue of `(5.1.2)`. Finally, if c) is satisfied and if $X''$ is an irreducible component of $X$ containing $Z$ and such
+that conditions (i) to (iv) of `(13.2.7)` are satisfied when one replaces $X'$ by $X''$ and $x$ by $z$, it is clear that
+these conditions are also satisfied for $X''$ and $x$ since $\mathcal{O}_{Y, y}$ is universally catenary, hence c)
 implies a).
 
 **Proposition (13.2.10).**
@@ -406,15 +388,12 @@ type, $y$ a point of $f(X)$. Let $Z_{i}$ be the*
 
 *a) For every $x \in f^{-1}(y)$, one has the relation*
 
-```text
-  (13.2.10.1)       dim(𝒪_{X, x}) = dim(𝒪_{Y, y}) + dim(𝒪_{X, x} ⊗_{𝒪_{Y, y}} 𝒌(y)).
-```
+$$ \dim(\mathcal{O}_{X, x}) = \dim(\mathcal{O}_{Y, y}) + \dim(\mathcal{O}_{X, x} \otimes_{\mathcal{O}_{Y, y}}
+\mathit{k}(y)). \tag{13.2.10.1} $$
 
 *b) For every $i$, one has*
 
-```text
-  (13.2.10.2)           dim(𝒪_{X, z_i}) = dim(𝒪_{Y, y}).
-```
+$$ \dim(\mathcal{O}_{X, z_{i}}) = \dim(\mathcal{O}_{Y, y}). \tag{13.2.10.2} $$
 
 *c) For every $i$, there exists an irreducible component $X_{i}$ of $X$ containing $Z_{i}$ and such that $\dim(X_{i}
 \cap f^{-1}(\eta)) = \dim(Z_{i})$ (in other words, such that the reduced closed sub-prescheme $X_{i}$ of $X$ is
@@ -452,7 +431,7 @@ morphism $f$ is proper; then, if the equivalent conditions a), b), c) of `(13.2.
 d(\eta)$, since it follows from `(13.1.5)` that one has $d(y) \geq d(\eta)$.
 
 (iii) The morphism of `(12.2.3, (b))` is proper and flat and all local rings of $Y$ are universally catenary; moreover,
-the two irreducible components `X_1`, `X_2` of $X$ are equidimensional over $Y$ at every point; but $E(y)$ has *two*
+the two irreducible components $X_{1}$, $X_{2}$ of $X$ are equidimensional over $Y$ at every point; but $E(y)$ has *two*
 elements for every $y \neq y_{0}$, while $E(y_{0})$ is reduced to a *single* element, hence $E(y)$ is not constant on
 $Y$.
 
@@ -514,8 +493,8 @@ $g_{y}$ is necessarily surjective and there exists an open neighbourhood $U$ of 
 quasi-finite.*
 
 Set $\mathfrak{p} = j_{y}$; the ring $B \otimes_{A} \mathit{k}(\mathfrak{p})$ is a $\mathit{k}(\mathfrak{p})$-algebra of
-finite type, hence the normalization lemma (Bourbaki, *Alg. comm.*, chap. V, §3, n° 1, th. 1) proves that there is in $B
-\otimes_{A} \mathit{k}(\mathfrak{p})$ a finite sequence $(t_{i})_{1 \leq i \leq r}$ of elements algebraically
+finite type, hence the normalization lemma (Bourbaki, *Alg. comm.*, chap. V, §3, n$^{\circ}$ 1, th. 1) proves that there
+is in $B \otimes_{A} \mathit{k}(\mathfrak{p})$ a finite sequence $(t_{i})_{1 \leq i \leq r}$ of elements algebraically
 independent over $\mathit{k}(\mathfrak{p})$ and such that, if one sets $C' = \mathit{k}(\mathfrak{p})[t_{1}, \cdots,
 t_{r}]$, $B \otimes_{A} \mathit{k}(\mathfrak{p})$ is a *finite* $C'$-algebra; one therefore has $\dim(B \otimes_{A}
 \mathit{k}(\mathfrak{p})) = \dim(C')$ `(0, 16.1.5)`, and since $\dim(C') = r$ `(5.2.1)`, one has $r = e$. Since $B
@@ -597,9 +576,8 @@ This follows at once from `(13.3.1, a')`.
 *With the notations of `(13.3.3)`, set $y = f(x)$. If $\mathcal{O}_{Y, y}$ is a universally catenary ring and if $f$ is
 equidimensional at the point $x$, one has*
 
-```text
-  (13.3.4.1)        dim(𝒪_{X_j, x}) = dim(𝒪_{Y_j, y}) + e − deg.tr_{𝒌(y)} 𝒌(x)
-```
+$$ \dim(\mathcal{O}_{X_{j}, x}) = \dim(\mathcal{O}_{Y_{j}, y}) + e - \operatorname{deg.tr}_{\mathit{k}(y)} \mathit{k}(x)
+\tag{13.3.4.1} $$
 
 *where $e$ is the common value of the numbers $\dim(f^{-1}_{j}(y_{j}))$.*
 
@@ -630,9 +608,8 @@ additional hypothesis.
 f(x)$. Suppose that the ring $\mathcal{O}_{y}$ is equidimensional. Then, if $\mathcal{O}_{x}$ is equidimensional and if
 one has the equality*
 
-```text
-  (13.3.6.1)        dim(𝒪_x) = dim(𝒪_y) + dim(𝒪_x ⊗_{𝒪_y} 𝒌(y))
-```
+$$ \dim(\mathcal{O}_{x}) = \dim(\mathcal{O}_{y}) + \dim(\mathcal{O}_{x} \otimes_{\mathcal{O}_{y}} \mathit{k}(y))
+\tag{13.3.6.1} $$
 
 *(cf. `(13.2.7.1)`), $f$ is equidimensional at the point $x$, and the converse is true if $\mathcal{O}_{y}$ is a
 universally catenary ring.*
@@ -641,17 +618,15 @@ Let us keep the notations of `(13.3.3)`; it follows from `(13.2.8)` and from the
 equidimensional, that each of the $Y_{j}$ is an irreducible component of $Y$ and that each of the $f_{j}$ is
 equidimensional at the point $x$; moreover `(13.2.8)`, one has (taking `(5.6.5)` into account)
 
-```text
-  dim(𝒪_{X_j, x}) = dim(𝒪_{Y_j, y}) + dim_x(X_j ∩ f⁻¹(y)) − deg.tr_{𝒌(y)} 𝒌(x).
-```
+$$ \dim(\mathcal{O}_{X_{j}, x}) = \dim(\mathcal{O}_{Y_{j}, y}) + \dim_{x}(X_{j} \cap f^{-1}(y)) -
+\operatorname{deg.tr}_{\mathit{k}(y)} \mathit{k}(x). $$
 
 <!-- original page 198 -->
 
 Now, since $\mathcal{O}_{y}$ is supposed equidimensional, this equality is written
 
-```text
-  (13.3.6.2)        dim_x(X_j ∩ f⁻¹(y)) = dim(𝒪_{X, x}) − dim(𝒪_{Y, y}) + deg.tr_{𝒌(y)} 𝒌(x).
-```
+$$ \dim_{x}(X_{j} \cap f^{-1}(y)) = \dim(\mathcal{O}_{X, x}) - \dim(\mathcal{O}_{Y, y}) +
+\operatorname{deg.tr}_{\mathit{k}(y)} \mathit{k}(x). \tag{13.3.6.2} $$
 
 The left-hand side of `(13.3.6.2)` is therefore independent of $j$; but since $f_{j}$ is equidimensional at the point
 $x$, one has $\dim_{x}(X_{j} \cap f^{-1}(y)) = \dim(f^{-1}_{j}(y_{j}))$, hence the criterion `(13.3.3)` shows that $f$
@@ -661,9 +636,7 @@ Conversely, suppose that $\mathcal{O}_{Y, y}$ is a universally catenary ring and
 point $x$; then `(13.3.5)` $\mathcal{O}_{X, x}$ is equidimensional, and it then follows from `(13.3.4)` that one has the
 relation
 
-```text
-  dim(𝒪_{X, x}) = dim(𝒪_{Y, y}) + e − deg.tr_{𝒌(y)} 𝒌(x)
-```
+$$ \dim(\mathcal{O}_{X, x}) = \dim(\mathcal{O}_{Y, y}) + e - \operatorname{deg.tr}_{\mathit{k}(y)} \mathit{k}(x) $$
 
 where $e$ is the common value of the numbers $\dim(f^{-1}_{j}(y_{j})) = \dim_{x}(X_{j} \cap f^{-1}(y))$; but by
 definition $e$ is also equal to $\dim_{x}(f^{-1}(y))$, whence the relation `(13.3.6.1)`, taking `(5.6.5.2)` into
@@ -676,18 +649,15 @@ account.
 *Let $Y$ be a prescheme, $f : X \to Y$ a morphism locally of finite type and equidimensional, $Z$ a closed subset of
 $X$. Then the function*
 
-```text
-  (13.3.7.1)            x ↦ codim_x(Z ∩ f⁻¹(f(x)), f⁻¹(f(x)))
-```
+$$ x \mapsto \operatorname{codim}_{x}(Z \cap f^{-1}(f(x)), f^{-1}(f(x))) \tag{13.3.7.1} $$
 
 *is lower semi-continuous in $X$.*
 
 Since all the irreducible components of $f^{-1}(f(x))$ containing $x$ have by hypothesis the same dimension `(13.3.1)`,
 one has, by virtue of `(5.2.1)`,
 
-```text
-  codim_x(Z ∩ f⁻¹(f(x)), f⁻¹(f(x))) = dim_x(f⁻¹(f(x))) − dim_x(Z ∩ f⁻¹(f(x))).
-```
+$$ \operatorname{codim}_{x}(Z \cap f^{-1}(f(x)), f^{-1}(f(x))) = \dim_{x}(f^{-1}(f(x))) - \dim_{x}(Z \cap f^{-1}(f(x))).
+$$
 
 But by hypothesis the first term of the right-hand side is a *continuous* function of $x$ `(13.3.1)` and the second is
 an upper semi-continuous function of $x$ by virtue of `(13.3.3)`; whence the conclusion.
@@ -719,7 +689,7 @@ even when $g$ is the canonical injection of an irreducible component $Y'$ of $Y$
 
 considered as a reduced closed sub-prescheme of $Y$). For example, let $k$ be a field, $A_{0} = k[S, T]$ the polynomial
 ring in two indeterminates, $\mathfrak{a} = \mathfrak{p}_{1} \mathfrak{p}_{2}$, where $\mathfrak{p}_{1}$ and
-$\mathfrak{p}_{2}$ are the prime ideals $A_{0} S$ and $A_{0} T$ of `A_0`; let $A = A_{0}/\mathfrak{a}$ and $Y =
+$\mathfrak{p}_{2}$ are the prime ideals $A_{0} S$ and $A_{0} T$ of $A_{0}$; let $A = A_{0}/\mathfrak{a}$ and $Y =
 \operatorname{Spec}(A)$, which has two irreducible components $Y_{1} = \operatorname{Spec}(A/\mathfrak{p}_{1})$, $Y_{2}
 = \operatorname{Spec}(A/\mathfrak{p}_{2})$; take $X = Y_{1}$, $f : X \to Y$ being the canonical injection, which is
 evidently an equidimensional morphism. Take on the other hand $Y' = Y_{2}$, $g : Y' \to Y$ being the canonical
@@ -730,8 +700,8 @@ dominant*, the image under $f'$ of the unique point of $X'$ being a closed point
 equidimensional.
 
 One can also give a counterexample where $X$ and $Y$ are integral, $f$ finite and birational (and a fortiori
-equidimensional by `(13.3.1, b)`), $g : Y' \to Y$ finite and dominant. Let $A$ and `Ā` be the local rings defined in
-`(11.7.5)`, and take $Y = \operatorname{Spec}(A)$, $X = \operatorname{Spec}(\bar{A})$; on the other hand, with the
+equidimensional by `(13.3.1, b)`), $g : Y' \to Y$ finite and dominant. Let $A$ and $\bar{A}$ be the local rings defined
+in `(11.7.5)`, and take $Y = \operatorname{Spec}(A)$, $X = \operatorname{Spec}(\bar{A})$; on the other hand, with the
 notations of `(11.7.5)`, take $Y' = \operatorname{Spec}(B)$; then $X' = \operatorname{Spec}(\bar{A} \otimes_{A} B) =
 \operatorname{Spec}(\bar{B} \otimes_{B} B)$; but one verifies at once that $\bar{B} \otimes_{B} B$ is the direct
 composite of the rings $\bar{B}/\mathfrak{p}'$, $\bar{B}/\mathfrak{p}''$ and of two rings isomorphic to

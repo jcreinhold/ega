@@ -480,9 +480,7 @@ proper morphism, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module that is $f$-f
 maximal points of $Supp(\mathcal{F}_{y})$ (resp. $Supp(\mathcal{F}_{y'})$). Suppose that $\mathcal{F}_{y}$ has no
 embedded associated prime cycle. Then one has*
 
-```text
-  (12.2.1.4.1)         ∑_j long((ℱ_{y'})_{z'_j}) ≤ ∑_i long((ℱ_y)_{z_i}).
-```
+$$ \sum_{j} long((\mathcal{F}_{y'})_{z'_{j}}) \le \sum_{i} long((\mathcal{F}_{y})_{z_{i}}). \tag{12.2.1.4.1} $$
 
 One has $Y = \operatorname{Spec}(A)$, where $A$ is a discrete valuation ring, of which we denote by $t$ a uniformizer,
 so that $\mathcal{F}_{y} = \mathcal{F}/t\mathcal{F}$. Since $\mathcal{F}$ is $f$-flat, the $z'_{j}$ are also the maximal
@@ -493,9 +491,7 @@ $$ long((\mathcal{F}_{y})_{z_{i}}) \geq \sum_{j} long((\mathcal{F}_{y'})_{z'_{ij
 
 whence on summing
 
-```text
-  ∑_i long((ℱ_y)_{z_i}) ≥ ∑_{i, j} long((ℱ_{y'})_{z'_{ij}}).
-```
+$$ \sum_{i} long((\mathcal{F}_{y})_{z_{i}}) \ge \sum_{i, j} long((\mathcal{F}_{y'})_{z'_{ij}}). $$
 
 The lemma will therefore be proved if we establish that for every $z'_{j}$ there is at least one index $i$ such that
 $z'_{j}$ is one of the $z'_{ij}$. Now, since $f$ is proper (hence closed) and $f(z'_{j}) = y'$, there exists $x \in X$
@@ -654,9 +650,9 @@ presentation that is a flat $A$-module. Then the following conditions are equiva
 
 <!-- original page 184 -->
 
-The equivalence of a) and b) follows from Bourbaki, *Alg. comm.*, chap. II, §5, n° 2, cor. 2 of th. 1. Since a) implies
-c) trivially, it remains to prove that c) implies b), which follows from the fibrewise flatness criterion `(11.3.10)`,
-applied with $g = h$, $f = 1_{X}$.
+The equivalence of a) and b) follows from Bourbaki, *Alg. comm.*, chap. II, §5, n$^{\circ}$ 2, cor. 2 of th. 1. Since a)
+implies c) trivially, it remains to prove that c) implies b), which follows from the fibrewise flatness criterion
+`(11.3.10)`, applied with $g = h$, $f = 1_{X}$.
 
 **Proposition (12.3.2).**
 
@@ -669,9 +665,8 @@ presentation that is a flat $A$-module. Then:*
 
 *(ii) One has*
 
-```text
-  (12.3.2.1)    dim. proj_B(M) = sup_{y ∈ Spec(A)} dim. proj_{B ⊗_A k(y)}(M ⊗_A k(y)) = Tor.dim_B(M)
-```
+$$ \dim. proj_{B}(M) = \sup_{y \in \operatorname{Spec}(A)} \dim. proj_{B \otimes_{A} k(y)}(M \otimes_{A} k(y)) =
+Tor.\dim_{B}(M) \tag{12.3.2.1} $$
 
 *where $Tor.\dim_{B}(M)$ is the smallest integer $i$ such that $Tor^{B}_{j}(M, N) = 0$ for every $j > i$ and every
 $B$-module $N$ (and $+\infty$ if no such integer $i$ exists).*
@@ -683,22 +678,21 @@ a left resolution $(L_{0})_{\bullet}$ of `M_0` formed of free `B_0`-modules of f
 $L_{0, i}$ are flat `A_0`-modules, $(L_{0})_{\bullet} \otimes_{A_{0}} A$ is a left resolution of $M$ formed of free
 $B$-modules of finite type `(2.1.10)`.
 
-(ii) By virtue of `(0, 17.2.2, (ii))`, one has `Tor.dim_B(M) ≤ dim. proj_B(M)`, and the definition of the projective
-dimension immediately shows that, for every $y \in \operatorname{Spec}(A)$, one has
-`dim. proj_{B ⊗_A k(y)}(M ⊗_A k(y)) ≤ dim. proj_B(M)`. To prove the reverse inequalities, consider a left resolution
-$(L_{i})$ of $M$ by free $B$-modules of finite type, and suppose that $Tor.\dim_{B}(M) = n$ (resp. $\dim. proj_{B
-\otimes_{A} k(y)}(M \otimes_{A} k(y)) \leq n$ for every $y \in \operatorname{Spec}(A)$). Then $R = Im(L_{n} \to L_{n-1})
-= Ker(L_{n-1} \to L_{n-2})$ is a $B$-module of finite type that is also a flat $A$-module, by virtue of the hypothesis
-on $M$ and $B$ and of `(2.1.10)`. In addition, one has $Tor^{B}_{j+1}(M, N) = Tor^{B}_{j}(R, N)$ for every $B$-module
-$N$ `(M, V, 7)`. The hypothesis $Tor.\dim_{B}(M) = n$ therefore entails $Tor^{B}_{1}(R, N) = 0$ for every $B$-module
-$N$, that is to say that $R$ is a flat $B$-module, hence projective by virtue of `(12.3.1)`; this establishes that
-$\dim. proj_{B}(M) \leq n$. The hypothesis $\dim. proj_{B \otimes_{A} k(y)}(M \otimes_{A} k(y)) \leq n$ for every $y \in
-\operatorname{Spec}(A)$ entails on the other hand, by tensorization with $k(y)$, that in each of the sequences (exact by
-virtue of the flatness over $A$ of $M$, of the $L_{i}$, and of $R$ `(2.1.10)`)
+(ii) By virtue of `(0, 17.2.2, (ii))`, one has $Tor.\dim_{B}(M) \le \dim. proj_{B}(M)$, and the definition of the
+projective dimension immediately shows that, for every $y \in \operatorname{Spec}(A)$, one has $\dim. proj_{B
+\otimes_{A} k(y)}(M \otimes_{A} k(y)) \le \dim. proj_{B}(M)$. To prove the reverse inequalities, consider a left
+resolution $(L_{i})$ of $M$ by free $B$-modules of finite type, and suppose that $Tor.\dim_{B}(M) = n$ (resp. $\dim.
+proj_{B \otimes_{A} k(y)}(M \otimes_{A} k(y)) \leq n$ for every $y \in \operatorname{Spec}(A)$). Then $R = Im(L_{n} \to
+L_{n-1}) = Ker(L_{n-1} \to L_{n-2})$ is a $B$-module of finite type that is also a flat $A$-module, by virtue of the
+hypothesis on $M$ and $B$ and of `(2.1.10)`. In addition, one has $Tor^{B}_{j+1}(M, N) = Tor^{B}_{j}(R, N)$ for every
+$B$-module $N$ `(M, V, 7)`. The hypothesis $Tor.\dim_{B}(M) = n$ therefore entails $Tor^{B}_{1}(R, N) = 0$ for every
+$B$-module $N$, that is to say that $R$ is a flat $B$-module, hence projective by virtue of `(12.3.1)`; this establishes
+that $\dim. proj_{B}(M) \leq n$. The hypothesis $\dim. proj_{B \otimes_{A} k(y)}(M \otimes_{A} k(y)) \leq n$ for every
+$y \in \operatorname{Spec}(A)$ entails on the other hand, by tensorization with $k(y)$, that in each of the sequences
+(exact by virtue of the flatness over $A$ of $M$, of the $L_{i}$, and of $R$ `(2.1.10)`)
 
-```text
-  0 → R ⊗_A k(y) → L_{n−1} ⊗_A k(y) → ⋯ → L_0 ⊗_A k(y) → M ⊗_A k(y) → 0,
-```
+$$ 0 \to R \otimes_{A} k(y) \to L_{n-1} \otimes_{A} k(y) \to \cdots \to L_{0} \otimes_{A} k(y) \to M \otimes_{A} k(y)
+\to 0, $$
 
 $R \otimes_{A} k(y)$ is a projective $(B \otimes_{A} k(y))$-module (for $y \in \operatorname{Spec}(A)$). One concludes
 once again from `(12.3.1)` that $R$ is a projective $B$-module, hence $\dim. proj_{B}(M) \leq n$.
@@ -736,9 +730,9 @@ that are $A'$-algebras of finite type; set $X_{\lambda} = X' \times_{S'} S_{\lam
 S_{\lambda}$, and let $u_{\lambda} = u' \otimes 1 : \mathcal{L}^{(\lambda)}_{2} \to \mathcal{L}^{(\lambda)}_{1}$,
 $v_{\lambda} = v' \otimes 1 : \mathcal{L}^{(\lambda)}_{1} \to \mathcal{L}^{(\lambda)}_{0}$, so that one has
 $\mathcal{H}_{1}(\mathcal{L}^{(\lambda)}_{\bullet}) = Ker(v_{\lambda})/Im(u_{\lambda})$. Now, since the functor `lim` is
-exact in the category of commutative groups, one has `Ker(v) = lim Ker(v_λ)`, $Im(u) = \lim Im(u_{\lambda})$, and
-$\mathcal{H}_{1}(\mathcal{L}_{\bullet}) = \lim \mathcal{H}_{1}(\mathcal{L}^{(\lambda)}_{\bullet})$. If one has supposed
-that $\mathcal{L}_{1}$ is $f$-flat and (by reducing to the case where $X = U$) that one has proved
+exact in the category of commutative groups, one has $Ker(v) = \lim Ker(v_{\lambda})$, $Im(u) = \lim Im(u_{\lambda})$,
+and $\mathcal{H}_{1}(\mathcal{L}_{\bullet}) = \lim \mathcal{H}_{1}(\mathcal{L}^{(\lambda)}_{\bullet})$. If one has
+supposed that $\mathcal{L}_{1}$ is $f$-flat and (by reducing to the case where $X = U$) that one has proved
 $\mathcal{H}_{1}(\mathcal{L}^{(\lambda)}_{\bullet}) = 0$ for every $\lambda$, one will indeed deduce the assertion.
 
 I) Suppose henceforth $S$ Noetherian. One knows (without flatness hypothesis on $\mathcal{L}_{0}$) that the set $U$ is
@@ -759,9 +753,7 @@ $(\mathcal{L}_{2})_{x}$, $(\mathcal{L}_{1})_{x}$, and $(\mathcal{L}_{0})_{x}$ re
 \xrightarrow{v} P$ two homomorphisms such that $v \circ u = 0$. Let $t$ be an element of the maximal ideal of $B$ such
 that $t$ is $P$-regular and such that the sequence*
 
-```text
-  (12.3.3.2)        M/tM ─u⊗1→ N/tN ─v⊗1→ P/tP
-```
+$$ M/tM \xrightarrow{u \otimes 1} N/tN \xrightarrow{v \otimes 1} P/tP \tag{12.3.3.2} $$
 
 *is exact. Then the sequence $M \to N \to P$ is exact.*
 
@@ -783,9 +775,7 @@ one sees that one may, to prove the lemma, suppose moreover $v$ surjective. The 
 *Let $B$ be a ring, $M$, $N$, $P$ three $B$-modules, $u : M \to N$, $v : N \to P$ two homomorphisms such that $u$ is
 injective, $v$ surjective, and $v \circ u = 0$. Let $t$ be an element of $B$ such that $t$ is $P$-regular. Then one has*
 
-```text
-  (12.3.3.4)        Ker(v ⊗ 1)/Im(u ⊗ 1) = (Ker(v)/Im(u)) ⊗_B (B/tB)
-```
+$$ Ker(v \otimes 1)/Im(u \otimes 1) = (Ker(v)/Im(u)) \otimes_{B} (B/tB) \tag{12.3.3.4} $$
 
 *up to a canonical isomorphism.*
 
@@ -796,17 +786,21 @@ Noetherian in `(12.3.3.1)`), Nakayama's lemma will prove that $Ker(v) = Im(u)$.
 It therefore remains to prove `(12.3.3.3)`. Set $u' = u \otimes 1$, $v' = v \otimes 1$, $Z = Ker(v)$, $H = Z/Im(u)$, so
 that one has the exact sequences
 
-```text
-  0 → M → Z → H → 0
-  0 → Z → N ─v→ P → 0
-```
+$$
+\begin{aligned}
+&0 \to M \to Z \to H \to 0 \\
+&0 \to Z \to N \xrightarrow{v} P \to 0
+\end{aligned}
+$$
 
 whence, by tensorizing with $B/tB$ and using lemma `(3.4.1.4)` and the fact that $t$ is $P$-regular, the exact sequences
 
-```text
-  M/tM ─w'→ Z/tZ → H/tH → 0
-  0 → Z/tZ → N/tN ─v'→ P/tP → 0
-```
+$$
+\begin{aligned}
+&M/tM \xrightarrow{w'} Z/tZ \to H/tH \to 0 \\
+&0 \to Z/tZ \to N/tN \xrightarrow{v'} P/tP \to 0
+\end{aligned}
+$$
 
 whence $Ker(v') = Z/tZ$, and since $Im(w') = Im(u')$, one obtains `(12.3.3.4)`.
 
@@ -848,16 +842,15 @@ x'$ with $x' \in \mathfrak{J}^{k} Q_{k}/\mathfrak{J}^{k+1} Q_{k}$. Since one has
 $v_{k}(x) = 0$ entails $v_{k}(x') = 0$, and on the other hand one evidently has $v_{k}(x') \in \mathfrak{J}^{k}
 R_{k}/\mathfrak{J}^{k+1} R_{k}$; everything therefore comes down to proving that the sequence
 
-```text
-  𝔍^k P/𝔍^{k+1} P ─u''→ 𝔍^k Q/𝔍^{k+1} Q ─v''→ 𝔍^k R/𝔍^{k+1} R
-```
+$$ \mathfrak{J}^{k} P/\mathfrak{J}^{k+1} P \xrightarrow{u''} \mathfrak{J}^{k} Q/\mathfrak{J}^{k+1} Q \xrightarrow{v''}
+\mathfrak{J}^{k} R/\mathfrak{J}^{k+1} R $$
 
 (where `u''` and `v''` come from $u$ and $v$ by restriction and passage to the quotients) is exact. Now, by hypothesis,
 $\mathfrak{J}^{k}/\mathfrak{J}^{k+1}$ is a flat $(A/\mathfrak{J})$-module, hence the sequence
 
-```text
-  (P/𝔍P) ⊗_{A/𝔍} (𝔍^k/𝔍^{k+1}) ─u''→ (Q/𝔍Q) ⊗_{A/𝔍} (𝔍^k/𝔍^{k+1}) ─v''→ (R/𝔍R) ⊗_{A/𝔍} (𝔍^k/𝔍^{k+1})
-```
+$$ (P/\mathfrak{J}P) \otimes_{A/\mathfrak{J}} (\mathfrak{J}^{k}/\mathfrak{J}^{k+1}) \xrightarrow{u''} (Q/\mathfrak{J}Q)
+\otimes_{A/\mathfrak{J}} (\mathfrak{J}^{k}/\mathfrak{J}^{k+1}) \xrightarrow{v''} (R/\mathfrak{J}R)
+\otimes_{A/\mathfrak{J}} (\mathfrak{J}^{k}/\mathfrak{J}^{k+1}) $$
 
 is exact. But $(Q/\mathfrak{J}Q) \otimes_{A/\mathfrak{J}} (\mathfrak{J}^{k}/\mathfrak{J}^{k+1}) = Q \otimes_{A}
 (\mathfrak{J}^{k}/\mathfrak{J}^{k+1})$ identifies with $\mathfrak{J}^{k} Q/\mathfrak{J}^{k+1} Q$, by virtue of the
