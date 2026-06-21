@@ -39,20 +39,20 @@ within itself) as Chapter IV. To keep the two distinguishable in print we write 
 
 EGA IV cites several external classics. We extend the EGA III table:
 
-| Source key in EGA IV                    | Work                                                                                  |
-| --------------------------------------- | ------------------------------------------------------------------------------------- |
-| $(M, \cdots)$                           | H. Cartan and S. Eilenberg, _Homological Algebra_ (Princeton, 1956).                  |
-| $(G, \cdots)$                           | R. Godement, _Topologie algébrique et théorie des faisceaux_ (Hermann, 1958).         |
-| $(T, \cdots)$                           | A. Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku Math. J., 1957). |
-| $(FAC, \cdots)$                         | J.-P. Serre, _Faisceaux algébriques cohérents_ (Annals of Math., 1955).               |
-| `(Bourbaki, Alg. comm., …)`             | N. Bourbaki, _Éléments de mathématique : Algèbre commutative_ (Hermann, 1961-1965).   |
-| $(Bourbaki, Alg., \cdots)$              | N. Bourbaki, _Éléments de mathématique : Algèbre_ (Hermann, 1942-).                   |
-| $(Bourbaki, Top. g\acute{e}n., \cdots)$ | N. Bourbaki, _Éléments de mathématique : Topologie générale_ (Hermann, 1940-).        |
+| Source key in EGA IV | Work |
+| --- | --- |
+| $(M, \cdots)$ | H. Cartan and S. Eilenberg, _Homological Algebra_ (Princeton, 1956). |
+| $(G, \cdots)$ | R. Godement, _Topologie algébrique et théorie des faisceaux_ (Hermann, 1958). |
+| $(T, \cdots)$ | A. Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku Math. J., 1957). |
+| $(FAC, \cdots)$ | J.-P. Serre, _Faisceaux algébriques cohérents_ (Annals of Math., 1955). |
+| `(Bourbaki, Alg. comm., \cdots)` | N. Bourbaki, _Éléments de mathématique : Algèbre commutative_ (Hermann, 1961-1965). |
+| $(Bourbaki, Alg., \cdots)$ | N. Bourbaki, _Éléments de mathématique : Algèbre_ (Hermann, 1942-). |
+| $(Bourbaki, Top. g\acute{e}n., \cdots)$ | N. Bourbaki, _Éléments de mathématique : Topologie générale_ (Hermann, 1940-). |
 
-Bourbaki citations are rendered in the EGA form `(Bourbaki, Alg. comm., chap. II, §3, n° 4)` or shorter
-`(Bourbaki, Alg. comm., II, §3, n° 4)` when that matches the source. Page numbers are kept when present;
-chapter/section/n° structure is preserved verbatim. Where EGA spells out the title (e.g. "Bourbaki, _Algèbre
-commutative_, chap. II, §3, n° 4"), we keep the spelling and add the bracketed key in the bibliography.
+Bourbaki citations are rendered in the EGA form `(Bourbaki, Alg. comm., chap. II, §3, n$^{\circ}$ 4)` or shorter
+`(Bourbaki, Alg. comm., II, §3, n$^{\circ}$ 4)` when that matches the source. Page numbers are kept when present;
+chapter/section/n$^{\circ}$ structure is preserved verbatim. Where EGA spells out the title (e.g. "Bourbaki, _Algèbre
+commutative_, chap. II, §3, n$^{\circ}$ 4"), we keep the spelling and add the bracketed key in the bibliography.
 
 The Nagata text *Local Rings* (Interscience, 1962) is cited as $(Nagata, \cdots)$ with chapter and section number.
 Zariski- Samuel *Commutative Algebra* (Van Nostrand, 1958-1960) is cited as $(Zariski-Samuel, \cdots)$ with volume,
@@ -73,7 +73,7 @@ blocks.
 - Derivation modules: $\operatorname{Der}_{A}(B, M)$, $\operatorname{Der}(B, M)$ (when $A$ is understood); EGA's
   $T_{B/A}(M)$ notation is preserved when used.
 - Frobenius: $F : A \to A$, $a \mapsto a^{p}$ (characteristic $p > 0$).
-- $p$-basis: a family $(b_{i})$ whose images in $A/A^{p}$ form a basis (EGA's "$p$-base"). We render $p$-base →
+- $p$-basis: a family $(b_{i})$ whose images in $A/A^{p}$ form a basis (EGA's "$p$-base"). We render $p$-base $\to$
   "$p$-basis".
 - Imperfection module: $\Upsilon_{B/A}$ (EGA's "module d'imperfection"; pronounce "upsilon" or render literally).
 - Differential criteria for smoothness, étaleness, unramifiedness: EGA's `(D_I)`, $(D_{II})$, $(D_{III})$ letter-pair
@@ -84,14 +84,14 @@ blocks.
 EGA IV §0_IV.19 and §IV.17 introduce the family of "formally $P$" properties ($P \in {smooth, \acute{e}tale,
 unramified}$). We fix the terminology as follows:
 
-| French                   | English               | Note                                                     |
-| ------------------------ | --------------------- | -------------------------------------------------------- |
-| formellement lisse       | formally smooth       | For a topology; usually $J$-adic or discrete             |
-| formellement étale       | formally étale        |                                                          |
-| formellement non ramifié | formally unramified   |                                                          |
-| lisse                    | smooth                | Locally of finite presentation + formally smooth         |
-| étale                    | étale                 | Smooth + unramified, equivalently …                      |
-| non ramifié              | unramified            | Locally of finite presentation + Ω^1 = 0                 |
+| French | English | Note |
+| --- | --- | --- |
+| formellement lisse | formally smooth | For a topology; usually $J$-adic or discrete |
+| formellement étale | formally étale |  |
+| formellement non ramifié | formally unramified |  |
+| lisse | smooth | Locally of finite presentation + formally smooth |
+| étale | étale | Smooth + unramified, equivalently $\ldots$ |
+| non ramifié | unramified | Locally of finite presentation + $\Omega^{1} = 0$ |
 | différentiellement lisse | differentially smooth | EGA IV §16; weaker than smooth in non-Noetherian setting |
 
 Where EGA writes "formellement lisse pour la topologie $\mathcal{J}$-préadique", we render "formally smooth for the
@@ -110,9 +110,9 @@ EGA IV §§0_IV.14-17 fix the combinatorial-dimension and depth machinery. We fi
   because the symbol is the entry in the notation index; the term "depth" appears in English running prose.
 - Regular system of parameters: $(t_{1}, \cdots, t_{n})$ with $(t_{1}, \cdots, t_{n})\cdot A = \mathfrak{m}$ and $n =
   \dim(A)$.
-- Cohen-Macaulay: EGA's "anneau de Cohen-Macaulay" → "Cohen-Macaulay ring"; the abbreviation `(CM)` is preserved where
-  used.
-- Regular: EGA's "régulier" → "regular".
+- Cohen-Macaulay: EGA's "anneau de Cohen-Macaulay" $\to$ "Cohen-Macaulay ring"; the abbreviation `(CM)` is preserved
+  where used.
+- Regular: EGA's "régulier" $\to$ "regular".
 - $M$-regular sequence ($suite M-r\acute{e}guli\grave{e}re$): a sequence $(f_{1}, \cdots, f_{n})$ such that each $f_{i}$
   is a non-zero-divisor on $M / (f_{1}, \cdots, f_{i-1})M$.
 - $\mathcal{F}$-regular sequence ($suite \mathcal{F}-r\acute{e}guli\grave{e}re$): the sheaf-of-modules version; rendered
@@ -127,10 +127,11 @@ EGA IV §§0_IV.14-17 fix the combinatorial-dimension and depth machinery. We fi
 
 ## 7. Étale morphisms, henselian rings (§§IV.17-18)
 
-- Étale morphism: as above. The EGA family-of-properties is rendered exactly: étale, étale at a point, locally étale, …
-- Henselian local ring: EGA's "anneau local hensélien" → "Henselian local ring" (capitalize Hensel).
-- Strict Henselization: EGA's "hensélisation stricte" → "strict Henselization".
-- Hensel's lemma: EGA's "lemme de Hensel" → "Hensel's lemma".
+- Étale morphism: as above. The EGA family-of-properties is rendered exactly: étale, étale at a point, locally étale,
+  $\ldots$
+- Henselian local ring: EGA's "anneau local hensélien" $\to$ "Henselian local ring" (capitalize Hensel).
+- Strict Henselization: EGA's "hensélisation stricte" $\to$ "strict Henselization".
+- Hensel's lemma: EGA's "lemme de Hensel" $\to$ "Hensel's lemma".
 - Étale cover (revêtement étale): "étale cover" (EGA III ledger; reinforced here).
 
 ## 8. Regular immersions, divisors (§§IV.19, IV.21)
