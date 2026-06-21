@@ -9,15 +9,14 @@
 <!-- label: III.7.1.1 -->
 
 Given a ring $A$ (not necessarily commutative), we shall denote by $Ab_{A}$ the category of left $A$-modules, and shall
-denote simply by `Ab` the category of $Z$-modules, identical with commutative groups. Let $T : Ab_{A} \to Ab$ be a
+denote simply by $Ab$ the category of $Z$-modules, identical with commutative groups. Let $T : Ab_{A} \to Ab$ be a
 *covariant additive functor*, and let $M$ be an $(A, A)$-bimodule; $T(M)$ is then naturally equipped with a structure of
 right $A$-module. Indeed, for every $a \in A$, let us denote by $h_{a, M}$ (or simply $h_{a}$) the endomorphism $x
 \mapsto xa$ of the left $A$-module $M$. By hypothesis, $T(h_{a})$ is an endomorphism of the $Z$-module $T(M)$; moreover,
 since $T$ is a covariant additive functor, we have, for $a \in A$, $b \in A$,
 
-```text
-  T(h_{ab}) = T(h_b ∘ h_a) = T(h_b) ∘ T(h_a)   and   T(h_{a+b}) = T(h_a + h_b) = T(h_a) + T(h_b);
-```
+$$ T(h_{ab}) = T(h_b \circ h_a) = T(h_b) \circ T(h_a) \quad \text{and} \quad T(h_{a+b}) = T(h_a + h_b) = T(h_a) +
+T(h_b); $$
 
 this proves that the map $(a, y) \mapsto T(h_{a})(y)$ is an external composition law of right $A$-module on $T(M)$. In
 particular, $T(A_{s})$ is a right $A$-module.
@@ -63,9 +62,7 @@ Suppose still that $A$ is commutative, and let $T$ be an $A$-linear covariant ad
 *commuting with inductive limits*. Then, for every multiplicative subset $S$ of $A$ and every $A$-module $M$, we have a
 canonical functorial isomorphism of $A$-modules
 
-```text
-  T(S⁻¹ M) ⥲ S⁻¹ T(M).                                                       (7.1.4.1)
-```
+$$ T(S^{-1} M) \xrightarrow{\sim} S^{-1} T(M). \tag{7.1.4.1} $$
 
 Suppose first that $S$ is the set of powers $f^{n}$ ($n \geq 0$) of an element $f \in A$. We know then that $M_{f} =
 \lim\to M_{n}$, where $(M_{n}, \phi_{nm})$ is the inductive system of $A$-modules $M_{n} = M$, with $\phi_{nm} : z
@@ -74,9 +71,7 @@ If next $S$ is arbitrary, $S^{-1} M$ is the inductive limit of the $M_{f}$ for $
 concludes in the same way. Moreover, the functoriality of the isomorphism `(7.1.4.1)` shows that it is an isomorphism of
 $S^{-1} A$-modules, and that one can therefore write, up to a canonical isomorphism,
 
-```text
-  T_{(S⁻¹ A)}(S⁻¹ M) = S⁻¹ T(M) = T(S⁻¹ M).                                   (7.1.4.2)
-```
+$$ T_{(S^{-1} A)}(S^{-1} M) = S^{-1} T(M) = T(S^{-1} M). \tag{7.1.4.2} $$
 
 When $S = A - \mathfrak{p}$ is the complement of a prime ideal $\mathfrak{p}$ of $A$, one writes $T_{\mathfrak{p}}$
 instead of $T_{(A_{\mathfrak{p}})}$.
@@ -115,9 +110,7 @@ $Z$-homomorphism $x \mapsto f_{x}$ of $M$ into $\operatorname{Hom}_{Z}(N, P)$ su
 Let $T : Ab_{A} \to Ab$ be a covariant additive functor. We are going to define, for every left $A$-module $M$, a
 *canonical homomorphism functorial in* $M$, of $Z$-modules
 
-```text
-  t_M : T(A_s) ⊗_A M → T(M).                                                 (7.2.2.1)
-```
+$$ t_M : T(A_s) \otimes_A M \to T(M). \tag{7.2.2.1} $$
 
 It will suffice for this, by virtue of `(7.2.1)`, to define a $Z$-homomorphism $x \mapsto t'_{M}(x)$ of $M$ into
 $\operatorname{Hom}_{Z}(T(A_{s}), T(M))$, such that $t'_{M}(ax)(y) = t'_{M}(x)(ya)$ for $a \in A$, $x \in M$ and $y \in
@@ -126,9 +119,7 @@ structure coming from the right $A$-module structure of $T(A_{s})$, the external
 \in \operatorname{Hom}_{Z}(T(A_{s}), T(M))$, then $(a \cdot v)(y) = v(ya)$ for $y \in T(A_{s})$. This being so, we
 define $t'_{M}$ as the composite of the two canonical homomorphisms
 
-```text
-  M ⥲ Hom_A(A_s, M) →^T Hom_Z(T(A_s), T(M)),
-```
+$$ M \xrightarrow{\sim} \operatorname{Hom}_A(A_s, M) \xrightarrow{T} \operatorname{Hom}_Z(T(A_s), T(M)), $$
 
 the second arrow being the map $u \mapsto T(u)$, the first the canonical isomorphism of $A$-modules $x \mapsto
 \theta_{x}$ such that $\theta_{x}(\xi) = \xi x$ for $\xi \in A$, $x \in M$. One has $\theta_{ax} = \theta_{x} \circ
@@ -141,15 +132,14 @@ by definition of the external law on $T(A_{s})$, which proves the existence of $
 this homomorphism is functorial in $M$, that is, that for every homomorphism $w : M \to M'$ of left $A$-modules, the
 diagram
 
-```text
-                       t_M
-  T(A_s) ⊗_A M  ─────────────→  T(M)
-        │                        │
-   1 ⊗ w│                        │T(w)                                       (7.2.2.2)
-        ↓                        ↓
-  T(A_s) ⊗_A M' ─────────────→  T(M')
-                      t_{M'}
-```
+$$
+\begin{array}{ccc}
+T(A_s) \otimes_A M & \xrightarrow{t_M} & T(M) \\
+\downarrow{\scriptstyle 1 \otimes w} & & \downarrow{\scriptstyle T(w)} \\
+T(A_s) \otimes_A M' & \xrightarrow{t_{M'}} & T(M')
+\end{array}
+\tag{7.2.2.2}
+$$
 
 is commutative.
 
@@ -162,9 +152,7 @@ $A$-modules (cf. `(7.1.2)`).
 
 When $A$ is commutative, one can more generally define a canonical homomorphism of $A$-modules
 
-```text
-  T(N) ⊗_A M → T(N ⊗_A M)                                                    (7.2.3.1)
-```
+$$ T(N) \otimes_A M \to T(N \otimes_A M) \tag{7.2.3.1} $$
 
 for every $A$-module $N$; it suffices in the construction of `(7.2.2)` to replace the homomorphism $\theta_{x}$ by the
 homomorphism of $A$-modules $N \to N \otimes_{A} M$ sending each $y \in N$ to $y \otimes x$. It is immediate that this
@@ -174,29 +162,24 @@ homomorphism is functorial in $M$ and $N$.
 
 In particular, if $B$ is an $A$-algebra (not necessarily commutative), one has a homomorphism functorial in $M$
 
-```text
-  (T(M))_{(B)} = T(M) ⊗_A B → T(M ⊗_A B) = T_{(B)}(M_{(B)})                  (7.2.3.2)
-```
+$$ (T(M))_{(B)} = T(M) \otimes_A B \to T(M \otimes_A B) = T_{(B)}(M_{(B)}) \tag{7.2.3.2} $$
 
 which, by virtue of the functoriality of `(7.2.3.1)` in $M$, is a homomorphism of $B$-modules.
 
 One has moreover the commutative diagram
 
-```text
-                       t_M
-   T(A) ⊗_A M  ───────────────→  T(M)
-        │                         │
-        │                         │                                          (7.2.3.3)
-        ↓                         ↓
-   T_{(B)}(B_s) ⊗_B M_{(B)} ───→ T_{(B)}(M_{(B)})
-                       t_{M_{(B)}}
-```
+$$
+\begin{array}{ccc}
+T(A) \otimes_A M & \xrightarrow{t_M} & T(M) \\
+\downarrow & & \downarrow \\
+T_{(B)}(B_s) \otimes_B M_{(B)} & \xrightarrow{t_{M_{(B)}}} & T_{(B)}(M_{(B)})
+\end{array}
+\tag{7.2.3.3}
+$$
 
 where the right vertical arrow is the composite homomorphism
 
-```text
-  T(M) → T(M) ⊗_A B → T(M ⊗_A B) = T_{(B)}(M_{(B)})
-```
+$$ T(M) \to T(M) \otimes_A B \to T(M \otimes_A B) = T_{(B)}(M_{(B)}) $$
 
 of `(7.2.3.2)` and the canonical homomorphism; as for the left vertical arrow of `(7.2.3.3)`, it is the homomorphism
 $T(A) \otimes_{A} M \to T_{(B)}(B_{s}) \otimes_{B} (B \otimes_{A} M) = T_{(B)}(B_{s}) \otimes_{A} M$, where $T(A) \to
@@ -206,16 +189,14 @@ T_{(B)}(B_{s}) = T(B)$ is $T(\rho)$, $\rho$ being considered as a homomorphism o
 
 <!-- label: III.7.2.4 -->
 
-*If $T$ is a covariant additive functor from $Ab_{A}$ into `Ab`, commuting with direct sums, the canonical homomorphism
+*If $T$ is a covariant additive functor from $Ab_{A}$ into $Ab$, commuting with direct sums, the canonical homomorphism
 $t_{L}$ `(7.2.2.1)` is an isomorphism for every free $A$-module $L$.*
 
 **Proof.** Indeed, one has $L = \oplus_{\alpha \in I} L_{\alpha}$ where $L_{\alpha}$ is isomorphic to $A_{s}$ for every
 $\alpha \in I$; the definition of $t_{M}$ given in `(7.2.2)` shows that $t_{L} = \oplus_{\alpha \in I} t_{L_{\alpha}}$,
 since
 
-```text
-  T : Hom_A(A_s, L) → Hom_Z(T(A_s), T(L))
-```
+$$ T : \operatorname{Hom}_A(A_s, L) \to \operatorname{Hom}_Z(T(A_s), T(L)) $$
 
 is the direct sum of the $Z$-linear maps $T_{\alpha} : \operatorname{Hom}_{A}(A_{s}, L_{\alpha}) \to
 \operatorname{Hom}_{Z}(T(A_{s}), T(L_{\alpha}))$ by virtue of the hypothesis on $T$. We are thus reduced to proving the
@@ -226,7 +207,7 @@ lemma for $L = A_{s}$; but $t_{L}$ is then none other than the canonical isomorp
 
 <!-- label: III.7.2.5 -->
 
-*Let $T$ be a covariant additive functor from $Ab_{A}$ into `Ab`, commuting with direct sums. The following conditions
+*Let $T$ be a covariant additive functor from $Ab_{A}$ into $Ab$, commuting with direct sums. The following conditions
 are equivalent:*
 
 - *a) $T$ is right exact.*
@@ -242,13 +223,13 @@ Set $T'(M) = T(A_{s}) \otimes_{A} M$ for every left $A$-module $M$. There exists
 0$, where $L$ and $L'$ are two free left $A$-modules; since $T$ and $T'$ are right exact, we have the commutative
 diagram
 
-```text
-  T'(L') → T'(L) → T'(M) → 0
-    │        │       │
-    │t_{L'}  │t_L    │t_M
-    ↓        ↓       ↓
-  T(L')  →  T(L)  →  T(M)  → 0
-```
+$$
+\begin{array}{ccccccc}
+T'(L') & \to & T'(L) & \to & T'(M) & \to & 0 \\
+\downarrow{\scriptstyle t_{L'}} & & \downarrow{\scriptstyle t_L} & & \downarrow{\scriptstyle t_M} & & \\
+T(L') & \to & T(L) & \to & T(M) & \to & 0
+\end{array}
+$$
 
 where the two rows are exact; since $t_{L}$ and $t_{L'}$ are isomorphisms by virtue of `(7.2.4)`, the same is true of
 $t_{M}$ by the five lemma. Finally, it is clear that b) implies b'). To show that b') implies a), it suffices to prove
@@ -265,15 +246,13 @@ $G$ is right exact.*
 **Proof.** It all comes down to showing that for every epimorphism $v : E' \to E$ in $\mathcal{K}$, $G(v) : G(E') \to
 G(E)$ is an epimorphism; one has the commutative diagram
 
-```text
-            F(v)
-  F(E') ─────────→  F(E)
-   │                 │
-   │f_{E'}           │f_E
-   ↓                 ↓
-  G(E') ─────────→  G(E)
-            G(v)
-```
+$$
+\begin{array}{ccc}
+F(E') & \xrightarrow{F(v)} & F(E) \\
+\downarrow{\scriptstyle f_{E'}} & & \downarrow{\scriptstyle f_E} \\
+G(E') & \xrightarrow{G(v)} & G(E)
+\end{array}
+$$
 
 in which $F(v)$, $f_{E'}$ and $f_{E}$ are epimorphisms; hence so is $G(v)$.
 
@@ -281,8 +260,8 @@ in which $F(v)$, $f_{E'}$ and $f_{E}$ are epimorphisms; hence so is $G(v)$.
 
 <!-- label: III.7.2.6 -->
 
-For every right $A$-module $N$, set $T_{N}(M) = N \otimes_{A} M$ for every left $A$-module $M$, so that `T_N` is a
-covariant additive functor from $Ab_{A}$ into `Ab`, right exact and commuting with direct sums. If one canonically
+For every right $A$-module $N$, set $T_{N}(M) = N \otimes_{A} M$ for every left $A$-module $M$, so that $T_N$ is a
+covariant additive functor from $Ab_{A}$ into $Ab$, right exact and commuting with direct sums. If one canonically
 identifies $T_{N}(A_{s})$ with $N$, one verifies at once that the corresponding homomorphism `(7.2.2.1)` becomes the
 identity. One concludes that the right $A$-module $N$ in the statement of `(7.2.5, c))` is determined up to unique
 isomorphism and is canonically isomorphic to $T(A_{s})$. One can also say that the functorial morphisms $T
@@ -295,7 +274,7 @@ direct sums.
 <!-- label: III.7.2.7 -->
 
 *Let $A$ be a left artinian ring whose quotient by its radical $\mathfrak{m}$ is a field $k$. Let $T$ be a covariant
-additive functor from $Ab_{A}$ into `Ab`, commuting with direct sums. The conditions of `(7.2.5)` are then also
+additive functor from $Ab_{A}$ into $Ab$, commuting with direct sums. The conditions of `(7.2.5)` are then also
 equivalent to*
 
 - *d) $T$ is semi-exact and the homomorphism $T(\epsilon) : T(A_{s}) \to T(k)$ deduced from the canonical homomorphism
@@ -308,37 +287,32 @@ integer $n$ such that $\mathfrak{m}^{n} = 0$; set, for every $A$-module $M$, $M_
 prove by descending induction on $h$ that $t_{M_{h}}$ is surjective. The proposition is evident for $h = n$; for $h <
 n$, one has an exact sequence
 
-```text
-  0 → M_{h+1} → M_h → M_h / M_{h+1} → 0
-```
+$$ 0 \to M_{h+1} \to M_h \to M_h / M_{h+1} \to 0 $$
 
 and the induction hypothesis implies that $t_{M_{h+1}}$ is surjective. On the other hand, $M_{h} / M_{h+1}$ is
 annihilated by $\mathfrak{m}$ and is therefore an $(A/\mathfrak{m})$-module, in other words a direct sum of $A$-modules
 isomorphic to $k$. To prove that $t_{M_{h} / M_{h+1}}$ is surjective, it suffices therefore to prove that $t_{k}$ is,
 since $T$ commutes with direct sums. Now, by virtue of the commutativity of the diagram
 
-```text
-                    t_{A_s}
-  T(A_s) ⊗_A A_s ───────────→  T(A_s)
-        │                        │
-   1 ⊗ ε│                        │T(ε)
-        ↓                        ↓
-  T(A_s) ⊗_A k  ───────────→  T(k)
-                     t_k
-```
+$$
+\begin{array}{ccc}
+T(A_s) \otimes_A A_s & \xrightarrow{t_{A_s}} & T(A_s) \\
+\downarrow{\scriptstyle 1 \otimes \epsilon} & & \downarrow{\scriptstyle T(\epsilon)} \\
+T(A_s) \otimes_A k & \xrightarrow{t_k} & T(k)
+\end{array}
+$$
 
 and of `(7.2.4)`, hypothesis d) implies that $t_{k}$ is indeed surjective. To finish the proof, it will suffice to show
 that if one has an exact sequence $0 \to M' \to^{u} M \to^{v} M'' \to 0$ of $A$-modules, such that $t_{M'}$ and
 $t_{M''}$ are surjective, then $t_{M}$ is surjective. Now, one has a commutative diagram
 
-```text
-  T'(M') ────→ T'(M)  ────→ T'(M'') ────→ 0
-    │           │            │
-    │t_{M'}     │t_M         │t_{M''}
-    ↓           ↓            ↓
-  T(M')  ────→ T(M)   ────→ T(M'')  ────→ Coker(T(v))
-                      T(v)
-```
+$$
+\begin{array}{ccccccc}
+T'(M') & \to & T'(M) & \to & T'(M'') & \to & 0 \\
+\downarrow{\scriptstyle t_{M'}} & & \downarrow{\scriptstyle t_M} & & \downarrow{\scriptstyle t_{M''}} & & \\
+T(M') & \to & T(M) & \xrightarrow{T(v)} & T(M'') & \to & Coker(T(v))
+\end{array}
+$$
 
 in which the two rows are exact, by virtue of the hypothesis that $T$ is semi-exact. Since by the induction hypothesis
 $t_{M'}$ and $t_{M''}$ are epimorphisms and the last vertical arrow is a monomorphism, the five lemma `(M, I, 1.1)`
@@ -351,7 +325,7 @@ shows that $t_{M}$ is an epimorphism.
 <!-- label: III.7.3.1 -->
 
 *Let $A$ be a ring (not necessarily commutative), $T_{\bullet}$ a covariant homological functor `(T, II, 2.1)` from the
-category $Ab_{A}$ into the category `Ab`, commuting with direct sums. Let $p$ be an integer such that $T_{p}$ and
+category $Ab_{A}$ into the category $Ab$, commuting with direct sums. Let $p$ be an integer such that $T_{p}$ and
 $T_{p-1}$ are defined. The following conditions are equivalent:*
 
 - *a) $T_{p}$ is right exact.*
@@ -359,11 +333,8 @@ $T_{p-1}$ are defined. The following conditions are equivalent:*
 
 <!-- original page 181 -->
 
-- *c) For every left $A$-module $M$, the canonical functorial homomorphism `(7.2.2.1)`*
-    ```text
-      T_p(A_s) ⊗_A M → T_p(M)                                                (7.3.1.1)
-    ```
-    *is an isomorphism.*
+- *c) For every left $A$-module $M$, the canonical functorial homomorphism `(7.2.2.1)`* $$ T_p(A_s) \otimes_A M \to
+  T_p(M) \tag{7.3.1.1} $$ *is an isomorphism.*
 - *d) For every left $A$-module $M$, the homomorphism `(7.3.1.1)` is an epimorphism.*
 - *e) $T_{p}$ is isomorphic to a functor $M \mapsto N \otimes_{A} M$, where $N$ is a right $A$-module.*
 
@@ -393,18 +364,15 @@ injective; hence so is $T_{p-1}(h_{f})$ by condition b) of `(7.3.1)`.
 
 <!-- label: III.7.3.3 -->
 
-*Let $A$ be a ring, $T_{\bullet}$ a covariant homological functor from $Ab_{A}$ into `Ab`, commuting with direct sums.
+*Let $A$ be a ring, $T_{\bullet}$ a covariant homological functor from $Ab_{A}$ into $Ab$, commuting with direct sums.
 Let $p$ be an integer such that $T_{p-1}$, $T_{p}$ and $T_{p+1}$ are defined. The following conditions are equivalent:*
 
 - *a) $T_{p}$ is exact.*
 - *b) $T_{p+1}$ and $T_{p}$ are right exact.*
 - *c) $T_{p}$ and $T_{p-1}$ are left exact.*
 - *d) $T_{p+1}$ is right exact and $T_{p-1}$ is left exact.*
-- *e) For every $A$-module $M$, the canonical homomorphisms*
-    ```text
-      T_i(A_s) ⊗_A M → T_i(M)                                                (7.3.3.1)
-    ```
-    *are isomorphisms for $i = p$ and $i = p + 1$.*
+- *e) For every $A$-module $M$, the canonical homomorphisms* $$ T_i(A_s) \otimes_A M \to T_i(M) \tag{7.3.3.1} $$ *are
+  isomorphisms for $i = p$ and $i = p + 1$.*
 - *e') For every $A$-module $M$, the canonical homomorphisms `(7.3.3.1)` are epimorphisms for $i = p$ and $i = p + 1$.*
 - *f) For every $A$-module $M$, the homomorphism `(7.3.3.1)` is an isomorphism for $i = p$ and $T_{p}(A_{s})$ is a flat
   right $A$-module.*
@@ -446,14 +414,8 @@ conditions of `(7.3.3)` are also equivalent to each of the following:*
 *Suppose moreover that $A$ is commutative and the $A$-module $T_{p}(k)$ of finite length $d$. Then the preceding
 conditions are also equivalent to each of the following:*
 
-- *i) For every $A$-module $M$ of finite length, one has*
-    ```text
-      long(T_p(M)) = d · long(M).                                            (7.3.5.1)
-    ```
-- *j) One has*
-    ```text
-      long(T_p(A)) = d · long(A).                                            (7.3.5.2)
-    ```
+- *i) For every $A$-module $M$ of finite length, one has* $$ long(T_p(M)) = d \cdot long(M). \tag{7.3.5.1} $$
+- *j) One has* $$ long(T_p(A)) = d \cdot long(A). \tag{7.3.5.2} $$
 
 **Proof.** The equivalence of g) and h) with the conditions of `(7.3.3)` follows immediately from `(7.2.7)`. To prove
 the other assertions, we shall use the following lemma:
@@ -468,9 +430,7 @@ finite length in $\mathcal{K}'$. Then, for every object $E$ of finite length in 
 length in $\mathcal{K}'$. For every exact sequence $0 \to E' \to^{u} E \to^{v} E'' \to 0$ of objects of finite length in
 $\mathcal{K}$, one has*
 
-```text
-  long F(E) ≤ long F(E') + long F(E'')                                       (7.3.5.4)
-```
+$$ long F(E) \le long F(E') + long F(E'') \tag{7.3.5.4} $$
 
 *and for the two members of `(7.3.5.4)` to be equal, it is necessary and sufficient that the sequence*
 
@@ -482,9 +442,7 @@ $$ 0 \to F(E') \to F(E) \to F(E'') \to 0 $$
 $F(E')$ and $F(E'')$ of finite length, the same is true of $Im(F(u))$ and $Im(F(v))$, and since $Ker(F(v)) = Im(F(u))$,
 $F(E)$ is of finite length and one has
 
-```text
-  long F(E) = long Im(F(u)) + long Im(F(v)) ≤ long F(E') + long F(E'').      (7.3.5.5)
-```
+$$ long F(E) = long Im(F(u)) + long Im(F(v)) \le long F(E') + long F(E''). \tag{7.3.5.5} $$
 
 <!-- original page 183 -->
 
@@ -496,9 +454,7 @@ We now note that if $M$ is an $A$-module of finite length ($A$ being commutative
 sequence of $M$ are necessarily isomorphic to the $A$-module $k$; therefore, by `(7.3.5.4)` and induction on the length
 of $M$,
 
-```text
-  long T_p(M) ≤ d · long(M).                                                 (7.3.5.6)
-```
+$$ long T_p(M) \le d \cdot long(M). \tag{7.3.5.6} $$
 
 Moreover, it follows from `(7.3.5.3)` that if $T_{p}$ is exact, one has the equality `(7.3.5.1)`; hence condition a) of
 `(7.3.3)` implies i); it is clear that i) implies j), and it remains to prove
@@ -513,13 +469,11 @@ flat $A$-module.*
 **Proof.** Indeed, starting from the exact sequence $0 \to \mathfrak{m} \to A \to k \to 0$, it follows from `(7.3.5.4)`
 and `(7.3.5.6)` that one has
 
-```text
-  long T_p(A) ≤ long T_p(𝔪) + long T_p(k) ≤ d(long 𝔪 + long k) = d · long A
-```
+$$ long T_p(A) \le long T_p(\mathfrak{m}) + long T_p(k) \le d(long \mathfrak{m} + long k) = d \cdot long A $$
 
 and that equality can hold `(7.3.5.3)` only if the sequence
 
-$$ 0 \to T_{p}(\mathfrak{m}) \to T_{p}(A) \to T_{p}(k) \to 0 (7.3.5.8) $$
+$$ 0 \to T_{p}(\mathfrak{m}) \to T_{p}(A) \to T_{p}(k) \to 0 \tag{7.3.5.8} $$
 
 is exact. By virtue of `(7.2.7)` and `(7.2.5)`, $T_{p}$ is isomorphic to a functor $M \mapsto N \otimes_{A} M$, and the
 exactness of the sequence `(7.3.5.8)` shows, by virtue of the exact sequence of Tor's, that one has $Tor^{A}_{1}(N, k) =
@@ -529,15 +483,13 @@ exactness of the sequence `(7.3.5.8)` shows, by virtue of the exact sequence of 
 
 <!-- label: III.7.3.6 -->
 
-*Let $A$ be a ring, $T_{\bullet}$ a covariant homological functor from $Ab_{A}$ into `Ab`, commuting with direct sums.
+*Let $A$ be a ring, $T_{\bullet}$ a covariant homological functor from $Ab_{A}$ into $Ab$, commuting with direct sums.
 Suppose $T_{p}$ and $T_{p+1}$ defined, and $T_{p}$ left exact. For $T_{p+1}$ to be exact, it is necessary and sufficient
 that $T_{p+1}(A_{s})$ be a flat right $A$-module.*
 
 **Proof.** Indeed, one knows by `(7.3.1)` that the canonical homomorphism
 
-```text
-  T_{p+1}(A_s) ⊗_A M → T_{p+1}(M)
-```
+$$ T_{p+1}(A_s) \otimes_A M \to T_{p+1}(M) $$
 
 is an isomorphism of functors; it suffices to apply the definition of a flat $A$-module.
 
@@ -545,7 +497,7 @@ is an isomorphism of functors; it suffices to apply the definition of a flat $A$
 
 <!-- label: III.7.3.7 -->
 
-*Let $A$ be a ring, $T_{\bullet}$ a covariant homological functor from $Ab_{A}$ into `Ab`, commuting with direct sums.
+*Let $A$ be a ring, $T_{\bullet}$ a covariant homological functor from $Ab_{A}$ into $Ab$, commuting with direct sums.
 Suppose there exists $i_{0}$ such that $T_{i}$ is exact for $i \leq i_{0}$. Then, for every integer $p > i_{0}$, the
 following conditions are equivalent:*
 
@@ -564,7 +516,7 @@ hypothesis; the equivalence of a) and c) results from the equivalence of conditi
 <!-- label: III.7.3.8 -->
 
 If $A$ is a commutative ring, $B$ an $A$-algebra (not necessarily commutative), $T_{\bullet}$ a covariant homological
-functor from $Ab_{A}$ into `Ab`, it follows from the definitions `(7.1.3)` that the functor from $Ab_{B}$ into `Ab`
+functor from $Ab_{A}$ into $Ab$, it follows from the definitions `(7.1.3)` that the functor from $Ab_{B}$ into $Ab$
 obtained by extension of scalars from $A$ to $B$, and which we shall denote $T^{(B)}_{\bullet} = (T_{\bullet})_{(B)}$,
 is again a *homological* functor.
 
@@ -629,16 +581,14 @@ $A_{f}$-modules of finite type for $p \leq N$, which entails the conclusion of `
 <!-- label: III.7.3.11 -->
 
 *Let $A$ be a commutative local ring, $k$ its residue field, $T_{\bullet}$ a covariant homological functor from $Ab_{A}$
-into `Ab`, commuting with direct sums. Suppose that there exists $i_{0}$ such that $T_{i}$ is exact for $i \leq i_{0}$,
+into $Ab$, commuting with direct sums. Suppose that there exists $i_{0}$ such that $T_{i}$ is exact for $i \leq i_{0}$,
 and that all the $T_{n}(A)$ are $A$-modules of finite presentation. Then the equivalent conditions a), b), c) of
 `(7.3.7)` imply the two following ones, and are equivalent to them when the ring is moreover reduced:*
 
 - *d) For every $x \in \operatorname{Spec}(A)$, one has $rang_{\kappa(x)} T_{q}(\kappa(x)) = rang_{k} T_{q}(k)$ for $q
   \leq p$.*
-- *d') For every generic point $x_{j}$ of an irreducible component of $\operatorname{Spec}(A)$, one has*
-    ```text
-      rang_{κ(x_j)} T_q(κ(x_j)) = rang_k T_q(k)   for q ≤ p.
-    ```
+- *d') For every generic point $x_{j}$ of an irreducible component of $\operatorname{Spec}(A)$, one has* $$
+  rang_{\kappa(x_j)} T_q(\kappa(x_j)) = rang_k T_q(k) \quad \text{for } q \le p. $$
 
 **Proof.** Since $T_{q}(A)$ is an $A$-module of finite presentation, condition b) of `(7.3.7)` is equivalent to saying
 that $T_{q}(A)$ is a *free* $A$-module for $q \leq p$ (Bourbaki, *Alg. comm.*, chap. II, § 3, n° 2, cor. 2 of prop. 5);
@@ -650,9 +600,7 @@ hypothesis, $T_{q+1}(A) \otimes_{A} M$ is isomorphic to $T_{q+1}(M)$ for every $
 `(7.3.7)` and `(7.3.3)`; applying this property to $M = \kappa(x_{j})$ and $M = k$, one finds, by virtue of hypothesis
 d'), that
 
-```text
-  rang_{κ(x_j)} (T_{q+1}(A) ⊗_A κ(x_j)) = rang_k T_{q+1}(k)
-```
+$$ rang_{\kappa(x_j)} (T_{q+1}(A) \otimes_A \kappa(x_j)) = rang_k T_{q+1}(k) $$
 
 for every $j$; but this implies that $T_{q+1}(A)$ is free (Bourbaki, *Alg. comm.*, chap. II, § 3, n° 2, prop. 7), which
 completes the proof.
@@ -669,29 +617,23 @@ in `(7.4)`; we shall obtain in fact exactness criteria involving only one of the
 Let $A$ be a ring (not necessarily commutative), $P_{\bullet}$ a complex of flat right $A$-modules. Since the functor $M
 \mapsto P_{k} \otimes_{A} M$ is then exact on $Ab_{A}$ for every $k$, the $\partial$-functor
 
-```text
-  T_•(M) = H_•(P_• ⊗_A M)                                                    (7.4.1.1)
-```
+$$ T_\bullet(M) = H_\bullet(P_\bullet \otimes_A M) \tag{7.4.1.1} $$
 
 <!-- original page 186 -->
 
-is a homological functor from $Ab_{A}$ into `Ab`, evidently $A$-linear when $A$ is commutative `(7.1.2)`, and commuting
+is a homological functor from $Ab_{A}$ into $Ab$, evidently $A$-linear when $A$ is commutative `(7.1.2)`, and commuting
 with inductive limits.
 
 If $A$ is commutative, then, for every $A$-algebra $B$, the homological functor $T^{(B)}_{\bullet}$ `(7.3.8)` is given
 by definition by
 
-```text
-  T_•^{(B)}(N) = H_•(P_• ⊗_A N_{[ρ]})                                        (7.4.1.2)
-```
+$$ T_\bullet^{(B)}(N) = H_\bullet(P_\bullet \otimes_A N_{[\rho]}) \tag{7.4.1.2} $$
 
 where $\rho : A \to B$ is the homomorphism defining the algebra structure of $B$; since one can also write $P_{\bullet}
 \otimes_{A} N_{[\rho]} = P_{\bullet} \otimes_{A} (B \otimes_{B} N)_{[\rho]} = (P_{\bullet} \otimes_{A} B) \otimes_{B}
 N$, one sees that one has
 
-```text
-  T_•^{(B)}(N) = H_•(P'_• ⊗_B N)                                             (7.4.1.3)
-```
+$$ T_\bullet^{(B)}(N) = H_\bullet(P'_\bullet \otimes_B N) \tag{7.4.1.3} $$
 
 for every $B$-module $N$, $P'_{\bullet}$ being the complex $P_{\bullet} \otimes_{A} B$ of flat $B$-modules $(0_{I},
 6.2.1)$.
@@ -704,29 +646,26 @@ for every $B$-module $N$, $P'_{\bullet}$ being the complex $P_{\bullet} \otimes_
 
 - *a) $T_{p}$ is left exact (or, what amounts to the same, $T_{p+1}$ is right exact).*
 - *b) $Z'_{p}(P_{\bullet}) = Coker(P_{p+1} \to P_{p})$ is a flat right $A$-module.*
-- *c) There exists a complex $P'_{\bullet}$ of flat right $A$-modules such that the differential*
-    ```text
-      d'_{p+1} : P'_{p+1} → P'_p
-    ```
-    *is zero, and an isomorphism of homological functors from $H_{\bullet}(P_{\bullet} \otimes_{A} M)$ onto $H_{\bullet}(P'_{\bullet} \otimes_{A} M)$.*
+- *c) There exists a complex $P'_{\bullet}$ of flat right $A$-modules such that the differential* $$ d'_{p+1} : P'_{p+1}
+  \to P'_p $$ *is zero, and an isomorphism of homological functors from $H_{\bullet}(P_{\bullet} \otimes_{A} M)$ onto
+  $H_{\bullet}(P'_{\bullet} \otimes_{A} M)$.*
 
 **Proof.** By definition, one has an exact sequence functorial in $M$
 
-```text
-  0 → T_p(M) → Z'_p(P_• ⊗ M) → P_{p−1} ⊗ M
-```
+$$ 0 \to T_p(M) \to Z'_p(P_\bullet \otimes M) \to P_{p-1} \otimes M $$
 
 where $Z'_{p}(P_{\bullet} \otimes M) = Coker(P_{p+1} \otimes M \to P_{p} \otimes M) = Z'_{p}(P_{\bullet}) \otimes M$ by
 virtue of the right exactness of the tensor product. For every homomorphism $f : M \to N$, one therefore has a
 commutative diagram
 
-```text
-  0 → T_p(M) ──── Z'_p(P_•) ⊗ M ──── P_{p−1} ⊗ M
-        │              │                │
-        │u             │v               │w                                   (7.4.2.1)
-        ↓              ↓                ↓
-  0 → T_p(N) ──── Z'_p(P_•) ⊗ N ──── P_{p−1} ⊗ N
-```
+$$
+\begin{array}{ccccccc}
+0 \to & T_p(M) & \to & Z'_p(P_\bullet) \otimes M & \to & P_{p-1} \otimes M \\
+& \downarrow{\scriptstyle u} & & \downarrow{\scriptstyle v} & & \downarrow{\scriptstyle w} \\
+0 \to & T_p(N) & \to & Z'_p(P_\bullet) \otimes N & \to & P_{p-1} \otimes N
+\end{array}
+\tag{7.4.2.1}
+$$
 
 whose rows are exact. If $f$ is a monomorphism, so is $w$ since $P_{p-1}$ is flat; if $T_{p}$ is left exact, $u$ is also
 a monomorphism; one concludes that $v$ is a monomorphism, which implies that $Z'_{p}(P_{\bullet})$ is flat. Conversely,
@@ -735,9 +674,7 @@ a monomorphism, and consequently $T_{p}$ (which is already semi-exact) is left e
 is immediate that c) implies a), for if $d'_{p+1} : P'_{p+1} \to P'_{p}$ is zero, and $0 \to M' \to M \to M'' \to 0$ is
 an exact sequence of $A$-modules, the boundary operator $\partial$ in the exact sequence
 
-```text
-  H_{p+1}(P'_• ⊗ M'') →^∂ H_p(P'_• ⊗ M') → H_p(P'_• ⊗ M)
-```
+$$ H_{p+1}(P'_\bullet \otimes M'') \xrightarrow{\partial} H_p(P'_\bullet \otimes M') \to H_p(P'_\bullet \otimes M) $$
 
 <!-- original page 187 -->
 
@@ -749,17 +686,15 @@ $$ 0 \to Z_{p+1}(P_{\bullet}) \to P_{p+1} \to Z'_{p}(P_{\bullet}) \to 0 $$
 in which $P_{p+1}$ and $Z'_{p}(P_{\bullet})$ are flat, hence $Z_{p+1}(P_{\bullet})$ is flat $(0_{I}, 6.1.2)$. We shall
 take
 
-```text
-  P'_i = P_i  for  i ≠ p  and  i ≠ p+1,   P'_p = Z'_p(P_•)  and  P'_{p+1} = Z_{p+1}(P_•);
-```
+$$ P'_i = P_i \quad \text{for} \quad i \neq p \quad \text{and} \quad i \neq p+1, \quad P'_p = Z'_p(P_\bullet) \quad
+\text{and} \quad P'_{p+1} = Z_{p+1}(P_\bullet); $$
 
 for the differential $d'_{i} : P'_{i} \to P'_{i-1}$, we shall take that of the complex $P_{\bullet}$ for $i \neq p$ and
 $i \neq p + 1$, `0` for $i = p + 1$ and for $i = p$ the homomorphism $Z'_{p}(P_{\bullet}) \to P_{p-1}$ deduced from
 $d_{p}$ by passage to the quotient. Since the $P_{i}$ are flat, one has
 
-```text
-  Z'_i(P_• ⊗ M) = Z'_i(P_•) ⊗ M,  Z_i(P_• ⊗ M) = Z_i(P_•) ⊗ M  and  B_i(P_• ⊗ M) = B_i(P_•) ⊗ M
-```
+$$ Z'_i(P_\bullet \otimes M) = Z'_i(P_\bullet) \otimes M, \quad Z_i(P_\bullet \otimes M) = Z_i(P_\bullet) \otimes M
+\quad \text{and} \quad B_i(P_\bullet \otimes M) = B_i(P_\bullet) \otimes M $$
 
 (setting $B_{i}(P_{\bullet}) = Im(P_{i+1} \to P_{i})$); one concludes at once for every $M$ the functorial isomorphisms
 $H_{i}(P_{\bullet} \otimes M) \xrightarrow{\sim} H_{i}(P'_{\bullet} \otimes M)$ for every $i$, and the verification of
@@ -834,10 +769,8 @@ is immediate since $A_{x}$ is a field, hence every additive functor on $Ab_{A_{x
 
 *Under the general hypotheses of `(7.4.4)`, conditions a), b) and c) of `(7.4.2)` are also equivalent to:*
 
-- *d) There exists an $A$-module $Q$ and a functorial isomorphism*
-    ```text
-      T_p(M) ⥲ Hom_A(Q, M).                                                  (7.4.6.1)
-    ```
+- *d) There exists an $A$-module $Q$ and a functorial isomorphism* $$ T_p(M) \xrightarrow{\sim} \operatorname{Hom}_A(Q,
+  M). \tag{7.4.6.1} $$
 
 *Moreover, the $A$-module $Q$ is determined up to unique isomorphism by this property, and it is of finite type.*
 
@@ -851,18 +784,15 @@ $P_{i}$ is canonically isomorphic to the dual of $\check{P}_{i}$, and the canoni
 One knows on the other hand `(7.4.2, c))` that one can suppose $d_{p+1} : P_{p+1} \to P_{p}$ is zero, hence one has an
 exact sequence
 
-```text
-  0 → T_p(M) → P_p ⊗ M →^v P_{p−1} ⊗ M
-```
+$$ 0 \to T_p(M) \to P_p \otimes M \xrightarrow{v} P_{p-1} \otimes M $$
 
 where $v = d_{p} \otimes 1$. Set then $Q' = Ker(d_{p})$, so that one has the exact sequence $0 \to Q' \to^{w} P_{p}
 \to^{d_{p}} P_{p-1}$, whence by transposition the exact sequence $\check{P}_{p-1} \to^{{}^{t}d_{p}} \check{P}_{p}
 \to^{{}^{t}w} \check{Q}' \to 0$. We shall see that $Q = \check{Q}' = Coker({}^{t}d_{p})$ answers the question. Indeed,
 one has the exact sequence
 
-```text
-  0 → Hom(Q, M) → Hom(P̌_p, M) →^{v'} Hom(P̌_{p−1}, M)
-```
+$$ 0 \to \operatorname{Hom}(Q, M) \to \operatorname{Hom}(\check{P}_p, M) \xrightarrow{v'}
+\operatorname{Hom}(\check{P}_{p-1}, M) $$
 
 <!-- original page 189 -->
 
@@ -878,11 +808,9 @@ $Q$, being a quotient of $\check{P}_{p}$, is of finite type.
 *Suppose the general conditions of `(7.4.4)` satisfied. Then, for every $A$-module $M$ of finite type:*
 
 - *(i) The $T_{i}(M)$ are $A$-modules of finite type.*
-- *(ii) For every ideal $\mathfrak{m}$ of $A$, the canonical homomorphism*
-    ```text
-      (T_i(M))^∧ → lim←_n T_i(M ⊗_A (A/𝔪^{n+1}))                             (7.4.7.1)
-    ```
-    *(where the left member is the Hausdorff completion of $T_{i}(M)$ for the $\mathfrak{m}$-preadic topology) is bijective.*
+- *(ii) For every ideal $\mathfrak{m}$ of $A$, the canonical homomorphism* $$ (T_i(M))^\wedge \to \varprojlim_n T_i(M
+  \otimes_A (A/\mathfrak{m}^{n+1})) \tag{7.4.7.1} $$ *(where the left member is the Hausdorff completion of $T_{i}(M)$
+  for the $\mathfrak{m}$-preadic topology) is bijective.*
 
 **Proof.** As in `(7.4.4)`, one reduces first to the case where the $P_{i}$ are of finite type; $A$ being noetherian,
 the submodules of $P_{i} \otimes_{A} M$ are of finite type, whence trivially assertion (i). As for assertion (ii), it
@@ -895,9 +823,7 @@ follows more generally from the following lemma:
 *Let $A$ be a noetherian ring, $u : E \to F$ a homomorphism of $A$-modules of finite type. For every $A$-module of
 finite type, set $K(M) = Ker(u \otimes 1_{M})$, $C(M) = Coker(u \otimes 1_{M})$; then the canonical homomorphisms*
 
-```text
-  (K(M))^∧ → lim←_n K(M_n),    (C(M))^∧ → lim←_n C(M_n)                      (7.4.7.3)
-```
+$$ (K(M))^\wedge \to \varprojlim_n K(M_n), \quad (C(M))^\wedge \to \varprojlim_n C(M_n) \tag{7.4.7.3} $$
 
 *(where one has set $M_{n} = M \otimes_{A} (A/\mathfrak{m}^{n+1}) = M/\mathfrak{m}^{n+1} M$) are bijective for every
 ideal $\mathfrak{m}$ of $A$.*
@@ -935,16 +861,14 @@ are no longer homological) are still isomorphic?
 Let $A$ be a noetherian local ring, $\mathfrak{m}$ its maximal ideal, and for every $A$-module $M$, denote by $\hat{M}$
 its Hausdorff completion for the $\mathfrak{m}$-preadic topology, isomorphic to $\lim\leftarrow(M \otimes_{A}
 (A/\mathfrak{m}^{n+1})) = \lim\leftarrow(M/\mathfrak{m}^{n+1} M)$. Let $T$ be a covariant additive functor from $Ab_{A}$
-into `Ab`; the canonical homomorphisms `(7.2.3.1)`
+into $Ab$; the canonical homomorphisms `(7.2.3.1)`
 
-```text
-  T(M) ⊗_A (A/𝔪^{n+1}) → T(M ⊗_A (A/𝔪^{n+1}))
-```
+$$ T(M) \otimes_A (A/\mathfrak{m}^{n+1}) \to T(M \otimes_A (A/\mathfrak{m}^{n+1})) $$
 
-evidently form a projective system of $A$-homomorphisms, which thus give in the limit an `Â`-homomorphism functorial in
-$M$
+evidently form a projective system of $A$-homomorphisms, which thus give in the limit an $\hat{A}$-homomorphism
+functorial in $M$
 
-$$ (T(M))^{\wedge} \to \lim\leftarrow_{n} T(M_{n}) (7.5.1.1) $$
+$$ (T(M))^{\wedge} \to \varprojlim_{n} T(M_{n}) \tag{7.5.1.1} $$
 
 where one has set $M_{n} = M \otimes_{A} (A/\mathfrak{m}^{n+1})$, $A_{n} = A/\mathfrak{m}^{n+1}$.
 
@@ -953,7 +877,7 @@ where one has set $M_{n} = M \otimes_{A} (A/\mathfrak{m}^{n+1})$, $A_{n} = A/\ma
 <!-- label: III.7.5.2 -->
 
 *Let $A$ be a noetherian local ring with maximal ideal $\mathfrak{m}$, $k = A/\mathfrak{m}$ its residue field, $T$ a
-covariant additive functor from $Ab_{A}$ into `Ab`, semi-exact and commuting with inductive limits. Suppose moreover
+covariant additive functor from $Ab_{A}$ into $Ab$, semi-exact and commuting with inductive limits. Suppose moreover
 that for every $A$-module of finite type $M$, $T(M)$ is an $A$-module of finite type and that the canonical homomorphism
 `(7.5.1.1)` is an isomorphism. Under these conditions, the following properties are equivalent:*
 
@@ -996,7 +920,7 @@ $M$, which completes the proof.
 <!-- label: III.7.5.4 -->
 
 *Let $A$ be a noetherian local ring with maximal ideal $\mathfrak{m}$, $k = A/\mathfrak{m}$ its residue field,
-$T_{\bullet}$ a homological functor from $Ab_{A}$ into `Ab`, commuting with inductive limits. Suppose moreover that for
+$T_{\bullet}$ a homological functor from $Ab_{A}$ into $Ab$, commuting with inductive limits. Suppose moreover that for
 every $i$ and every $A$-module $M$ of finite type, $T_{i}(M)$ is of finite type and the canonical homomorphism
 $(T_{i}(M))^{\wedge} \to \lim\leftarrow_{n} T_{i}(M_{n})$ is bijective. For a given integer $p$, the following
 conditions are then equivalent:*
@@ -1022,11 +946,8 @@ n° 2, cor. 2 of prop. 5); the equivalence of a) and b) results then from `(7.3.
 *Suppose the general conditions of `(7.5.4)` satisfied.*
 
 - *(i) If $T_{p}(k) = 0$, one has $T_{p} = 0$, $T_{p+1}$ is right exact and $T_{p-1}$ is left exact.*
-- *(ii) If $T_{p-1}(k) = T_{p+1}(k) = 0$, $T_{p}$ is exact, the canonical homomorphism*
-    ```text
-      T_p(A) ⊗_A M → T_p(M)
-    ```
-    *is bijective and $T_{p}(A)$ is a free $A$-module.*
+- *(ii) If $T_{p-1}(k) = T_{p+1}(k) = 0$, $T_{p}$ is exact, the canonical homomorphism* $$ T_p(A) \otimes_A M \to T_p(M)
+  $$ *is bijective and $T_{p}(A)$ is a free $A$-module.*
 
 **Proof.** (i) follows immediately from `(7.5.3)` since $T_{p}$ is semi-exact, the last assertion resulting from the
 definition of a homological functor. One concludes immediately from (i) the first two assertions of (ii), taking
@@ -1049,9 +970,7 @@ the same), it is necessary and sufficient that the homothety $h_{f} : x \mapsto 
 equivalent here to saying that $M$ is torsion-free $(0_{I}, 6.3.4)$. Consider then the exact sequence $0 \to A
 \to^{h_{f}} A \to k \to 0$, which provides the exact sequence of homology
 
-```text
-  T_p(A) → T_p(k) → T_{p−1}(A) →^{h_f} T_{p−1}(A).
-```
+$$ T_p(A) \to T_p(k) \to T_{p-1}(A) \xrightarrow{h_f} T_{p-1}(A). $$
 
 One sees that $T_{p-1}(A)$ is free if and only if $T_{p}(A) \to T_{p}(k)$ is surjective; the conclusion then results
 from `(7.5.2)`.
@@ -1077,9 +996,7 @@ exact), the same is true of $T^{(B)}_{p}$; the converse is true when $B$ is a fa
 $B$ is a flat $A$-module. One has then, for every $A$-module $M$, $H_{\bullet}(P_{\bullet} \otimes_{A} (M \otimes_{A}
 B)) = (H_{\bullet}(P_{\bullet} \otimes_{A} M)) \otimes_{A} B$, which can also be written, for every $p$,
 
-```text
-  T_p(M) ⊗_A B = T_p^{(B)}(M_{(B)})                                          (7.6.1.1)
-```
+$$ T_p(M) \otimes_A B = T_p^{(B)}(M_{(B)}) \tag{7.6.1.1} $$
 
 up to a canonical isomorphism. Suppose $T^{(B)}_{p}$ right exact (resp. left exact, exact); since $M \mapsto M_{(B)}$ is
 an exact functor, the first member of `(7.6.1.1)` is a functor right exact (resp. left exact, exact) in $M$; if now $B$
@@ -1100,9 +1017,7 @@ finite type; the criterion `(0, 10.2.8)` shows that it then suffices that $Z'_{p
 flat $B$-module for every $A$-algebra $B$ which is a discrete valuation ring. Now, since $P_{\bullet}$ is a complex of
 flat $A$-modules, one has
 
-```text
-  Z'_{p−1}(P_•) ⊗_A B = Z'_{p−1}(P_• ⊗_A B);
-```
+$$ Z'_{p-1}(P_\bullet) \otimes_A B = Z'_{p-1}(P_\bullet \otimes_A B); $$
 
 <!-- original page 193 -->
 
@@ -1122,41 +1037,43 @@ The preceding criterion leads to studying more closely the case of discrete valu
 noetherian and, for every $x \in \operatorname{Spec}(A)$, $A_{x}$ is a field or a discrete valuation ring). Then, for
 every integer $p$ and every $A$-module $M$, one has a canonical exact sequence functorial in $M$*
 
-```text
-  0 → T_p(A) ⊗_A M →^{t_M} T_p(M) → Tor_1^A(T_{p−1}(A), M) → 0.              (7.6.3.1)
-```
+$$ 0 \to T_p(A) \otimes_A M \xrightarrow{t_M} T_p(M) \to \operatorname{Tor}_1^A(T_{p-1}(A), M) \to 0. \tag{7.6.3.1} $$
 
 **Proof.** In what follows, we shall suppress for simplicity the mention of the complex $P_{\bullet}$ in the usual
 homological notations $H_{p}(P_{\bullet})$, $B_{p}(P_{\bullet})$, $Z_{p}(P_{\bullet})$ and $Z'_{p}(P_{\bullet})$. One
 has the three exact sequences
 
-$$ 0 \to H_{p} \to Z'_{p} \to B_{p-1} \to 0 0 \to B_{p-1} \to Z_{p-1} \to H_{p-1} \to 0 0 \to Z_{p-1} \to P_{p-1} \to
-B_{p-2} \to 0 $$
+$$
+\begin{aligned}
+& 0 \to H_{p} \to Z'_{p} \to B_{p-1} \to 0 \\
+& 0 \to B_{p-1} \to Z_{p-1} \to H_{p-1} \to 0 \\
+& 0 \to Z_{p-1} \to P_{p-1} \to B_{p-2} \to 0
+\end{aligned}
+$$
 
 Since $P_{p-1}$ and $P_{p-2}$ are flat, the same is true of their respective *submodules* $B_{p-1}$, $Z_{p-1}$ and
 $B_{p-2}$, since there is identity between flat $A_{x}$-modules and torsion-free $A_{x}$-modules (for every $x \in
 \operatorname{Spec}(A)$); by tensorization with $M$, one thus has the exact sequences
 
-```text
-  0 = Tor_1^A(B_{p−1}, M) → H_p ⊗ M → Z'_p ⊗ M →^u B_{p−1} ⊗ M → 0           (7.6.3.2)
-  0 → Tor_1^A(Z_{p−1}, M) → Tor_1^A(H_{p−1}, M) → B_{p−1} ⊗ M →^v Z_{p−1} ⊗ M  (7.6.3.3)
-  0 = Tor_1^A(B_{p−2}, M) → Z_{p−1} ⊗ M →^w P_{p−1} ⊗ M.                     (7.6.3.4)
-```
+$$ 0 = \operatorname{Tor}_1^A(B_{p-1}, M) \to H_p \otimes M \to Z'_p \otimes M \xrightarrow{u} B_{p-1} \otimes M \to 0
+\tag{7.6.3.2} $$
+
+$$ 0 \to \operatorname{Tor}_1^A(Z_{p-1}, M) \to \operatorname{Tor}_1^A(H_{p-1}, M) \to B_{p-1} \otimes M \xrightarrow{v}
+Z_{p-1} \otimes M \tag{7.6.3.3} $$
+
+$$ 0 = \operatorname{Tor}_1^A(B_{p-2}, M) \to Z_{p-1} \otimes M \xrightarrow{w} P_{p-1} \otimes M. \tag{7.6.3.4} $$
 
 By definition, $T_{p}(M) = Ker(d_{p} \otimes 1) / Im(d_{p+1} \otimes 1)$; it is therefore the kernel of the homomorphism
 $(P_{p} \otimes M) / Im(d_{p+1} \otimes 1) \to P_{p-1} \otimes M$ obtained from $d_{p} \otimes 1$ by passage to the
 quotient, a homomorphism which is also written $Z'_{p} \otimes M \to P_{p-1} \otimes M$ by definition of $Z'_{p} = P_{p}
 / B_{p}$; now, this homomorphism can be considered as the composite
 
-```text
-  Z'_p ⊗ M →^u B_{p−1} ⊗ M →^v Z_{p−1} ⊗ M →^w P_{p−1} ⊗ M.
-```
+$$ Z'_p \otimes M \xrightarrow{u} B_{p-1} \otimes M \xrightarrow{v} Z_{p-1} \otimes M \xrightarrow{w} P_{p-1} \otimes M.
+$$
 
 Since $w$ is injective by `(7.6.3.4)`, one has an exact sequence
 
-```text
-  0 → Ker u → T_p(M) → Ker v → 0,
-```
+$$ 0 \to Ker\, u \to T_p(M) \to Ker\, v \to 0, $$
 
 which is none other than `(7.6.3.1)`, taking `(7.6.3.2)` and `(7.6.3.3)` and the fact that $H_{p} = T_{p}(A)$ by
 definition into account.
@@ -1167,20 +1084,16 @@ definition into account.
 
 (i) $H_{\bullet}(P_{\bullet} \otimes_{A} M)$ is the homology of the bicomplex $P_{\bullet} \otimes_{A} M$, where $M$ is
 considered as a complex reduced to its term of degree `0`; it is consequently `(6.3.6 and 6.3.2)` the abutment of the
-regular spectral sequence whose `E_2` term is
+regular spectral sequence whose $E_2$ term is
 
-```text
-  E_2^{p,q} = Tor_p^A(H_q(P_•), M) = Tor_p^A(T_q(A), M).
-```
+$$ E_2^{p,q} = \operatorname{Tor}_p^A(H_q(P_\bullet), M) = \operatorname{Tor}_p^A(T_q(A), M). $$
 
 <!-- original page 194 -->
 
 Now, the hypothesis on the ring $A$ implies that $Tor^{A}_{p}(E, F) = 0$ for $p \geq 2$ and for arbitrary $A$-modules
 $(0_{IV}, 17.2.2)$; one knows `(M, XV)` that this implies the exactness of the sequence
 
-```text
-  0 → E_{0,q}^2 → H_q(P_• ⊗_A M) → E_{1, q−1}^2 → 0
-```
+$$ 0 \to E_{0,q}^2 \to H_q(P_\bullet \otimes_A M) \to E_{1, q-1}^2 \to 0 $$
 
 which is none other than `(7.6.3.1)`.
 
@@ -1194,33 +1107,28 @@ which is none other than `(7.6.3.1)`.
 *Under the conditions of `(7.4.1)`, suppose that $A$ is a discrete valuation ring, with fraction field $K$, residue
 field $k$, and that the $T_{i}(A)$ are $A$-modules of finite type. One has then*
 
-```text
-  rang_k T_p(k) ≥ rang_k(T_p(A) ⊗_A k) ≥ rang_A T_p(A) = rang_K T_p(K).      (7.6.5.1)
-```
+$$ rang_k T_p(k) \ge rang_k(T_p(A) \otimes_A k) \ge rang_A T_p(A) = rang_K T_p(K). \tag{7.6.5.1} $$
 
 *Moreover, for the extreme terms of this inequality to be equal, it is necessary and sufficient that $T_{p}$ be exact,
 or equivalently that $T_{p}(A)$ and $T_{p-1}(A)$ be free $A$-modules.*
 
 **Proof.** Indeed, setting $M = k$ in the exact sequence `(7.6.3.1)`, since one is dealing with vector spaces over $k$,
 
-```text
-  rang_k T_p(k) = rang_k(T_p(A) ⊗_A k) + rang_k(Tor_1^A(T_{p−1}(A), k)).
-```
+$$ rang_k T_p(k) = rang_k(T_p(A) \otimes_A k) + rang_k(\operatorname{Tor}_1^A(T_{p-1}(A), k)). $$
 
 On the other hand, since $T_{p}(A)$ is a module of finite type over the integral local ring $A$, one has (Bourbaki,
 *Alg. comm.*, chap. II, § 3, n° 2, cor. 1 of prop. 4)
 
-```text
-  rang_k(T_p(A) ⊗_A k) ≥ rang_A T_p(A) = rang_K(T_p(A) ⊗_A K)                (7.6.5.2)
-```
+$$ rang_k(T_p(A) \otimes_A k) \ge rang_A T_p(A) = rang_K(T_p(A) \otimes_A K) \tag{7.6.5.2} $$
 
 and moreover the two members of `(7.6.5.2)` are equal if and only if $T_{p}(A)$ is a free $A$-module (*loc. cit.*, prop.
 7). One will note moreover that since $K$ is a flat $A$-module, one has by definition $T_{p}(A) \otimes_{A} K =
 H_{p}(P_{\bullet}) \otimes_{A} K = H_{p}(P_{\bullet} \otimes_{A} K) = T_{p}(K)$. One has therefore indeed the inequality
-`(7.6.5.1)`, and one sees moreover that equality is possible only if: 1° $T_{p}(A)$ is free; 2° $Tor^{A}_{1}(T_{p-1}(A),
-k) = 0$, a condition which is equivalent, as one knows `(0, 10.1.3)`, to the fact that $T_{p-1}(A)$ is a free
-$A$-module. Finally, since the $T_{i}(A)$ are $A$-modules of finite type, it amounts to the same to say that they are
-flat or free (Bourbaki, *Alg. comm.*, chap. II, § 3, n° 2, cor. 2 of prop. 5), and one concludes by `(7.4.3)`.
+`(7.6.5.1)`, and one sees moreover that equality is possible only if: $1^{\circ}$ $T_{p}(A)$ is free; $2^{\circ}$
+$Tor^{A}_{1}(T_{p-1}(A), k) = 0$, a condition which is equivalent, as one knows `(0, 10.1.3)`, to the fact that
+$T_{p-1}(A)$ is a free $A$-module. Finally, since the $T_{i}(A)$ are $A$-modules of finite type, it amounts to the same
+to say that they are flat or free (Bourbaki, *Alg. comm.*, chap. II, § 3, n° 2, cor. 2 of prop. 5), and one concludes by
+`(7.4.3)`.
 
 **7.6.6.**
 
@@ -1228,9 +1136,7 @@ flat or free (Bourbaki, *Alg. comm.*, chap. II, § 3, n° 2, cor. 2 of prop. 5),
 
 The hypotheses still being those of `(7.4.1)`, we shall set, for every $x \in \operatorname{Spec}(A)$,
 
-```text
-  d_p(x) = d_p^T(x) = rang_{κ(x)} T_p(κ(x)).                                 (7.6.6.1)
-```
+$$ d_p(x) = d_p^T(x) = rang_{\kappa(x)} T_p(\kappa(x)). \tag{7.6.6.1} $$
 
 **Lemma (7.6.7).**
 
@@ -1238,21 +1144,18 @@ The hypotheses still being those of `(7.4.1)`, we shall set, for every $x \in \o
 
 *Let $\phi : A \to A'$ be a ring homomorphism, and let*
 
-```text
-  f = ᵃφ : Spec(A') → Spec(A)
-```
+$$ f = {}^{a}\varphi : \operatorname{Spec}(A') \to \operatorname{Spec}(A) $$
 
 *be the corresponding map `(I, 1.2.1)`. If one sets $T'_{\bullet} = T^{(A')}_{\bullet}$ `(7.1.3)`, one has*
 
-$$ d^{T'}_{p} = d^{T}_{p} \circ f. (7.6.7.1) $$
+$$ d^{T'}_{p} = d^{T}_{p} \circ f. \tag{7.6.7.1} $$
 
 <!-- original page 195 -->
 
 **Proof.** Indeed, for every $x' \in \operatorname{Spec}(A')$, on setting $x = f(x')$, one has
 
-```text
-  H_•(P_• ⊗_A κ(x')) = H_•((P_• ⊗_A κ(x)) ⊗_{κ(x)} κ(x')) = H_•(P_• ⊗_A κ(x)) ⊗_{κ(x)} κ(x'),
-```
+$$ H_\bullet(P_\bullet \otimes_A \kappa(x')) = H_\bullet((P_\bullet \otimes_A \kappa(x)) \otimes_{\kappa(x)} \kappa(x'))
+= H_\bullet(P_\bullet \otimes_A \kappa(x)) \otimes_{\kappa(x)} \kappa(x'), $$
 
 since $\kappa(x')$ is flat over $\kappa(x)$, whence the relation `(7.6.7.1)`.
 
@@ -1287,15 +1190,15 @@ x$ is a generization of $x$ in $\operatorname{Spec}(A)$, one has $d_{p}(x') \leq
 discrete valuation ring $B$ and a morphism $f : \operatorname{Spec}(B) \to \operatorname{Spec}(A)$ such that, if $a$
 denotes the closed point of $\operatorname{Spec}(B)$ and $b$ its generic point, one has $f(a) = x$ and $f(b) = x'$
 `(II, 7.1.9)`. By virtue of formula `(7.6.7.1)`, one sees that one is reduced to proving the inequality $d_{p}(a) \geq
-d_{p}(b)$ in $\operatorname{Spec}(B)$; but this is none other than the inequality `(7.6.5.1)` (¹).
+d_{p}(b)$ in $\operatorname{Spec}(B)$; but this is none other than the inequality `(7.6.5.1)` ($^{1}$).
 
 (ii) The first assertion was already proved `(7.3.4)`. To prove the converse, let us use the valuative criterion
 `(7.6.2)`; taking formula `(7.6.7.1)` into account, one is therefore reduced to the case where $A$ is a discrete
 valuation ring; but since $\operatorname{Spec}(A)$ comprises only two points, the hypothesis that $d_{p}$ is constant
 indeed implies that $T_{p}$ is exact, by virtue of `(7.6.5)`.
 
-> (¹) The principle of the proof of (i) by reduction to the case of a discrete valuation ring was orally communicated to
-> us by Hironaka.
+> ($^{1}$) The principle of the proof of (i) by reduction to the case of a discrete valuation ring was orally
+> communicated to us by Hironaka.
 
 **Corollary (7.6.10).**
 
@@ -1304,24 +1207,20 @@ indeed implies that $T_{p}$ is exact, by virtue of `(7.6.5)`.
 *Let $A$ be a noetherian ring, $\mathfrak{p}_{i}$ ($1 \leq i \leq r$) its minimal prime ideals, $k_{i}$ the residue
 field of $A_{\mathfrak{p}_{i}}$ ($1 \leq i \leq r$).*
 
-- *(i) For every $x \in \operatorname{Spec}(A)$, there exists an index $i$ such that*
-    ```text
-      d_p(x) ≥ rang_{k_i} T_p(k_i).                                          (7.6.10.1)
-    ```
+- *(i) For every $x \in \operatorname{Spec}(A)$, there exists an index $i$ such that* $$ d_p(x) \ge rang_{k_i} T_p(k_i).
+  \tag{7.6.10.1} $$
 
 *In particular, if $A$ is integral and $K$ is its fraction field, one has*
 
-$$ d_{p}(x) \geq rang_{K} T_{p}(K) (7.6.10.2) $$
+$$ d_{p}(x) \geq rang_{K} T_{p}(K) \tag{7.6.10.2} $$
 
 *for every $x \in \operatorname{Spec}(A)$.*
 
 <!-- original page 196 -->
 
 - *(ii) Suppose moreover that $A$ is local and reduced, and let $k$ be its residue field. Then, for $T_{p}$ to be exact,
-  it is necessary and sufficient that one have*
-    ```text
-      rang_k T_p(k) = rang_{k_i} T_p(k_i)   for 1 ≤ i ≤ r.                   (7.6.10.3)
-    ```
+  it is necessary and sufficient that one have* $$ rang_k T_p(k) = rang_{k_i} T_p(k_i) \quad \text{for } 1 \le i \le r.
+  \tag{7.6.10.3} $$
 
 **Proof.** (i) is immediate since every neighbourhood of $x$ contains one of the $\mathfrak{p}_{i}$, and it suffices to
 apply the definition of semi-continuity. On the other hand, if $A$ is local, the only neighbourhood in
@@ -1336,35 +1235,25 @@ exact by virtue of `(7.6.9, (ii))`; the converse is obvious by virtue of `(7.6.9
 
 One can ask whether the assertion of `(7.6.9, (i))` cannot be strengthened by the inequality
 
-```text
-  rang_{κ(x)} T_p(κ(x)) ≥ rang_{κ(x)} (T_p(A) ⊗_A κ(x))                      (7.6.11.1)
-```
+$$ rang_{\kappa(x)} T_p(\kappa(x)) \ge rang_{\kappa(x)} (T_p(A) \otimes_A \kappa(x)) \tag{7.6.11.1} $$
 
 for every $x \in \operatorname{Spec}(A)$, which effectively holds when $A$ is a discrete valuation ring and $x$ its
 maximal ideal `(7.6.5)`. Let us restrict to the case where $A$ is a noetherian local ring with maximal ideal
 $\mathfrak{m}$ and residue field $k$. Then, the following conditions are equivalent:
 
-- a) For every complex $P_{\bullet}$ of flat $A$-modules of finite type, one has
-    ```text
-      rang_k(T_p(k)) ≥ rang_k(T_p(A) ⊗_A k)   for every integer p.           (7.6.11.2)
-    ```
-- b) For every $A$-module $M$ of finite type, one has
-    ```text
-      rang_k(M ⊗_A k) ≥ rang_k(M̌ ⊗_A k).                                     (7.6.11.3)
-    ```
-- c) For every $A$-module $N$ of finite type, one has
-    ```text
-      rang_k(Tor_1^A(N, k)) ≥ rang_k(Tor_2^A(N, k)).                         (7.6.11.4)
-    ```
+- a) For every complex $P_{\bullet}$ of flat $A$-modules of finite type, one has $$ rang_k(T_p(k)) \ge rang_k(T_p(A)
+  \otimes_A k) \quad \text{for every integer } p. \tag{7.6.11.2} $$
+- b) For every $A$-module $M$ of finite type, one has $$ rang_k(M \otimes_A k) \ge rang_k(\check{M} \otimes_A k).
+  \tag{7.6.11.3} $$
+- c) For every $A$-module $N$ of finite type, one has $$ rang_k(\operatorname{Tor}_1^A(N, k)) \ge
+  rang_k(\operatorname{Tor}_2^A(N, k)). \tag{7.6.11.4} $$
 
 One will note that it amounts to the same, by shifting `(M, V, 7.2)`, to say that one has, for every $i \geq 1$,
 
-```text
-  rang_k(Tor_i^A(N, k)) ≥ rang_k(Tor_{i+1}^A(N, k)).                         (7.6.11.5)
-```
+$$ rang_k(\operatorname{Tor}_i^A(N, k)) \ge rang_k(\operatorname{Tor}_{i+1}^A(N, k)). \tag{7.6.11.5} $$
 
 Let us give quickly some indications on the proof. To see that a) implies b), one considers an exact sequence $L_{1}
-\to^{d} L_{0} \to M \to 0$ where `L_0` and `L_1` are free of finite type, and one applies a) to the complex $P_{1}
+\to^{d} L_{0} \to M \to 0$ where $L_0$ and $L_1$ are free of finite type, and one applies a) to the complex $P_{1}
 \to^{{}^{t}d} P_{0}$ with $P_{0} = \check{L}_{1}$, $P_{1} = \check{L}_{0}$, the other terms being zero; one has then
 $T_{1}(A) = \check{M}$ and $T_{1}(k) = \operatorname{Hom}_{k}(M, k) = \operatorname{Hom}_{k}(M/\mathfrak{m} M, k)$, that
 is, $T_{1}(k)$ is the dual of the vector space $M \otimes_{A} k$, and therefore has the same rank as the latter. To
@@ -1376,9 +1265,8 @@ prove that b) implies c), we shall first establish the following lemma:
 
 *Given a complex $\cdots \to 0 \to P_{1} \to^{d} P_{0} \to 0 \to \cdots$ of flat $A$-modules, one has an exact sequence*
 
-```text
-  0 → Tor_2^A(Z'_0, k) → T_1(A) ⊗_A k → T_1(k) → Tor_1^A(Z'_0, k) → 0.        (7.6.11.7)
-```
+$$ 0 \to \operatorname{Tor}_2^A(Z'_0, k) \to T_1(A) \otimes_A k \to T_1(k) \to \operatorname{Tor}_1^A(Z'_0, k) \to 0.
+\tag{7.6.11.7} $$
 
 <!-- original page 197 -->
 
@@ -1390,25 +1278,21 @@ and $d \otimes 1$ factors as $P_{1} \otimes k \to^{u} B_{0} \otimes k \to^{v} Z_
 has $T_{1}(k) = u^{-1}(R)$, where $R = Ker v$, and since $u$ is surjective, $R = u(T_{1}(k))$; finally, $R =
 Tor^{A}_{1}(Z'_{0}, k)$ by definition of $v$, which finishes establishing the exact sequence `(7.6.11.7)`.
 
-To deduce c) from b), one considers an exact sequence $L_{1} \to^{d} L_{0} \to N \to 0$, where `L_0` and `L_1` are free
-modules of finite type; consider the functor $T$ associated to the complex formed of `L_1` and `L_0`; since `L_0` and
-`L_1` are free, they are identified with their biduals; hence if $M = Coker({}^{t}d)$, $T_{1}(A) = Ker(d) = \check{M}$;
+To deduce c) from b), one considers an exact sequence $L_{1} \to^{d} L_{0} \to N \to 0$, where $L_0$ and $L_1$ are free
+modules of finite type; consider the functor $T$ associated to the complex formed of $L_1$ and $L_0$; since $L_0$ and
+$L_1$ are free, they are identified with their biduals; hence if $M = Coker({}^{t}d)$, $T_{1}(A) = Ker(d) = \check{M}$;
 on the other hand, $M \otimes_{A} k = Coker({}^{t}d \otimes 1_{k})$ has the same rank over $k$ as $Ker(d \otimes
 1_{k})$. The hypothesis b) implies consequently that
 
-```text
-  rang_k(T_1(A) ⊗_A k) ≤ rang_k(T_1(k));
-```
+$$ rang_k(T_1(A) \otimes_A k) \le rang_k(T_1(k)); $$
 
 since $Z'_{0} = N$, inequality `(7.6.11.4)` results from the exact sequence `(7.6.11.7)`. Finally, to prove that c)
-implies a), let us apply `(7.6.11.6)` replacing `P_0` and `P_1` by $P_{p}$ and $P_{p-1}$; hypothesis c) applied to the
+implies a), let us apply `(7.6.11.6)` replacing $P_0$ and $P_1$ by $P_{p}$ and $P_{p-1}$; hypothesis c) applied to the
 module $Z'_{p}$ gives $rang_{k} R \geq rang_{k} S$, where $R = Ker(P_{p} \otimes k \to P_{p-1} \otimes k)$ and $S =
 Z'_{p} \otimes k$. Now, if one factors $d_{p+1} : P_{p+1} \to P_{p}$ as $P_{p+1} \to^{v} Z_{p} \to^{j} P_{p}$, one has
 $Im(d_{p+1} \otimes 1) = (j \otimes 1)(Im(v \otimes 1))$. Since
 
-```text
-  T_p(A) ⊗_A k = (Z_p / B_p) ⊗_A k = (Z_p ⊗ k) / Im(v ⊗ 1),
-```
+$$ T_p(A) \otimes_A k = (Z_p / B_p) \otimes_A k = (Z_p \otimes k) / Im(v \otimes 1), $$
 
 and $T_{p}(k) = R / Im(d_{p+1} \otimes 1)$, one indeed concludes the inequality `(7.6.11.2)`.
 
@@ -1417,10 +1301,10 @@ $Tor^{A}_{i}(k, k)$ is isomorphic to the $i$th exterior power $\wedge^{i}(\mathf
 therefore that condition `(7.6.11.4)` is not satisfied for $N = k$, as soon as $n \geq 4$. On the other hand, if the
 integral local ring $A$ is such that every reflexive $A$-module of finite type is free (which is the case when $A$ is a
 regular ring of dimension 2), condition `(7.6.11.3)` is satisfied: indeed, one knows that the dual $\check{M}$ of an
-$A$-module of finite type $M$ is reflexive, hence free, and consequently `rang_k(M̌ ⊗_A k) = rang_K(M̌) = rang_K(M)` ($K$
-fraction field of $A$); on the other hand, one knows that every basis over $k$ of $M \otimes_{A} k$ is formed of images
-of a system of generators of $M$ (Bourbaki, *Alg. comm.*, chap. II, § 3, n° 2, cor. 2 of prop. 4), hence $rang_{K}(M)
-\leq rang_{k}(M \otimes_{A} k)$, which proves our assertion.
+$A$-module of finite type $M$ is reflexive, hence free, and consequently $rang_k(\check{M} \otimes_A k) =
+rang_K(\check{M}) = rang_K(M)$ ($K$ fraction field of $A$); on the other hand, one knows that every basis over $k$ of $M
+\otimes_{A} k$ is formed of images of a system of generators of $M$ (Bourbaki, *Alg. comm.*, chap. II, § 3, n° 2, cor. 2
+of prop. 4), hence $rang_{K}(M) \leq rang_{k}(M \otimes_{A} k)$, which proves our assertion.
 
 ## 7.7. Application to proper morphisms: I. The exchange property
 
@@ -1442,9 +1326,8 @@ $\mathcal{T}_{\bullet}(\mathcal{P}_{\bullet}, \mathcal{M})$) in the category of 
 $\mathcal{O}_{Y}$-modules, with values in the category of quasi-coherent $\mathcal{O}_{Y}$-modules (by virtue of
 `(6.2.3)`), defined by
 
-```text
-  𝒯_n(𝒫_•, ℳ) = 𝒯_n(ℳ) = ℋ^{−n}(f, 𝒫^• ⊗_{𝒪_X} ℳ)   for n ∈ Z,                 (7.7.1.1)
-```
+$$ \mathcal{T}_n(\mathcal{P}_\bullet, \mathcal{M}) = \mathcal{T}_n(\mathcal{M}) = \mathcal{H}^{-n}(f,
+\mathcal{P}^\bullet \otimes_{\mathcal{O}_X} \mathcal{M}) \quad \text{for } n \in Z, \tag{7.7.1.1} $$
 
 where $\mathcal{P}^{\bullet}$ is the complex whose term of degree $j$ is $P_{-j}$, the derivation operator being then of
 degree `+1`. The functor $\mathcal{T}_{\bullet}$ thus defined is a *homological functor* in $\mathcal{M}$ `(6.2.6)`.
@@ -1458,9 +1341,8 @@ quasi-compact and separated morphism; let on the other hand $\mathcal{P}'_{\bull
 \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{Y'}$; this is a complex of quasi-coherent $\mathcal{O}_{X'}$-modules which are
 $Y'$-flat by virtue of `(I, 9.1.12)` and $(0_{I}, 6.2.1)$. We shall set (with the same conventions on degrees)
 
-```text
-  𝒯'_•^{Y'}(ℳ') = ℋ^•(f', 𝒫'^• ⊗_{𝒪_{X'}} ℳ') = ℋ^•(f', 𝒫^• ⊗_{𝒪_X} ℳ')        (7.7.2.1)
-```
+$$ {\mathcal{T}'}_\bullet^{Y'}(\mathcal{M}') = \mathcal{H}^\bullet(f', {\mathcal{P}'}^\bullet \otimes_{\mathcal{O}_{X'}}
+\mathcal{M}') = \mathcal{H}^\bullet(f', \mathcal{P}^\bullet \otimes_{\mathcal{O}_X} \mathcal{M}') \tag{7.7.2.1} $$
 
 which is a homological functor in the quasi-coherent $\mathcal{O}_{Y'}$-module $\mathcal{M}'$. When $Y'$ is an affine
 scheme with ring $A'$, one will write $\mathcal{T}^{A'}_{\bullet}$ instead of $\mathcal{T}^{Y'}_{\bullet}$; for every
@@ -1480,9 +1362,7 @@ g'^{-1}(U)$, one has $\Gamma(U, \mathcal{P}_{\bullet} \otimes_{\mathcal{O}_{X}} 
 
 In particular, if $U$ is an open of $Y$, one has, for every quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{M}$,
 
-```text
-  𝒯_•^U(ℳ | U) = (𝒯_•(ℳ)) | U.                                                (7.7.2.2)
-```
+$$ \mathcal{T}_\bullet^U(\mathcal{M}|U) = (\mathcal{T}_\bullet(\mathcal{M}))|U. \tag{7.7.2.2} $$
 
 **7.7.3.**
 
@@ -1491,29 +1371,27 @@ In particular, if $U$ is an open of $Y$, one has, for every quasi-coherent $\mat
 For every quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{M}$, one has a canonical homomorphism, functorial in
 $\mathcal{M}$:
 
-```text
-  𝒯_p(𝒪_Y) ⊗_{𝒪_Y} ℳ → 𝒯_p(ℳ).                                                (7.7.3.1)
-```
+$$ \mathcal{T}_p(\mathcal{O}_Y) \otimes_{\mathcal{O}_Y} \mathcal{M} \to \mathcal{T}_p(\mathcal{M}). \tag{7.7.3.1} $$
 
 Indeed, if $Y$ is affine, this homomorphism has been defined in `(7.2.2)`; this definition extends without difficulty to
 the general case, by noting that if $U$, $V$ are two affine opens of $Y$ such that $V \subset U$, the diagram
 
 <!-- original page 199 -->
 
-```text
-  (𝒯_p(𝒪_Y) ⊗_{𝒪_Y} ℳ) | U = 𝒯_p^U(𝒪_Y | U) ⊗_{𝒪_Y | U} (ℳ | U) → 𝒯_p^U(ℳ | U) = (𝒯_p(ℳ)) | U
-                │                                                          │
-                ↓                                                          ↓
-  (𝒯_p(𝒪_Y) ⊗_{𝒪_Y} ℳ) | V = 𝒯_p^V(𝒪_Y | V) ⊗_{𝒪_Y | V} (ℳ | V) → 𝒯_p^V(ℳ | V) = (𝒯_p(ℳ)) | V
-```
+$$
+\begin{array}{ccc}
+(\mathcal{T}_p(\mathcal{O}_Y) \otimes_{\mathcal{O}_Y} \mathcal{M})|U = \mathcal{T}_p^U(\mathcal{O}_Y|U) \otimes_{\mathcal{O}_Y|U} (\mathcal{M}|U) & \to & \mathcal{T}_p^U(\mathcal{M}|U) = (\mathcal{T}_p(\mathcal{M}))|U \\
+\downarrow & & \downarrow \\
+(\mathcal{T}_p(\mathcal{O}_Y) \otimes_{\mathcal{O}_Y} \mathcal{M})|V = \mathcal{T}_p^V(\mathcal{O}_Y|V) \otimes_{\mathcal{O}_Y|V} (\mathcal{M}|V) & \to & \mathcal{T}_p^V(\mathcal{M}|V) = (\mathcal{T}_p(\mathcal{M}))|V
+\end{array}
+$$
 
 is commutative by `(7.2.3.3)`.
 
 For every morphism $g : Y' \to Y$ one has a canonical homomorphism
 
-```text
-  𝒯_p(𝒪_Y) ⊗_{𝒪_Y} 𝒪_{Y'} → 𝒯_p^{Y'}(𝒪_{Y'})                                  (7.7.3.2)
-```
+$$ \mathcal{T}_p(\mathcal{O}_Y) \otimes_{\mathcal{O}_Y} \mathcal{O}_{Y'} \to \mathcal{T}_p^{Y'}(\mathcal{O}_{Y'})
+\tag{7.7.3.2} $$
 
 which is none other than the particular case of `(6.7.11.2)` (for the abutments) in the case where $S = Y$, $v_{1} = f$,
 $v_{2} = 1_{Y}$, $\mathcal{P}'^{(2)}_{\bullet}$ reduced to the single term $\mathcal{M}$ of degree `0`.
@@ -1521,9 +1399,7 @@ $v_{2} = 1_{Y}$, $\mathcal{P}'^{(2)}_{\bullet}$ reduced to the single term $\mat
 When $Y = \operatorname{Spec}(A)$, $Y' = \operatorname{Spec}(A')$ are affine, `(7.7.3.2)` is none other than the
 homomorphism of sheaves corresponding to the canonical homomorphism of $A'$-modules defined in `(7.2.2)`
 
-```text
-  T_p^A(A) ⊗_A A' → T_p^{A'}(A') = T_p^A(A')
-```
+$$ T_p^A(A) \otimes_A A' \to T_p^{A'}(A') = T_p^A(A') $$
 
 as easily results from `(6.7.11)` (since in the case envisaged, one can take $\mathfrak{U}'^{(i)} =
 u^{-1}_{i}(\mathfrak{U}^{(i)})$ in `(6.7.11)`).
@@ -1547,11 +1423,8 @@ detail in `(7.4)` and `(7.6)`. We are going to translate the results of this stu
 $\mathcal{P}_{\bullet}$ a complex of coherent and $Y$-flat $\mathcal{O}_{X}$-modules bounded below. The homological
 functor $\mathcal{T}_{\bullet}(\mathcal{M})$ defined by `(7.7.1.1)` then has the following properties:*
 
-- *I) (The semi-continuity property) (¹). The function*
-    ```text
-      y ↦ d_p(y) = rang_{κ(y)} T_p^{κ(y)}(κ(y))                              (7.7.5.1)
-    ```
-    *is upper semi-continuous.*
+- *I) (The semi-continuity property) ($^{1}$). The function* $$ y \mapsto d_p(y) = rang_{\kappa(y)}
+  T_p^{\kappa(y)}(\kappa(y)) \tag{7.7.5.1} $$ *is upper semi-continuous.*
 
 <!-- original page 200 -->
 
@@ -1563,22 +1436,18 @@ functor $\mathcal{T}_{\bullet}(\mathcal{M})$ defined by `(7.7.1.1)` then has the
     - *a'') The canonical functorial homomorphism `(7.7.3.1)` is an isomorphism.*
     - *b) $\mathcal{T}_{p-1}$ is left exact.*
     - *b') There exists an $\mathcal{O}_{Y}$-module $\mathcal{Q}$ (necessarily coherent, and determined up to unique
-      isomorphism) and an isomorphism of functors*
-        ```text
-          𝒯_{p−1}(ℳ) ⥲ ℋom_{𝒪_Y}(𝒬, ℳ).                                       (7.7.5.2)
-        ```
+      isomorphism) and an isomorphism of functors* $$ \mathcal{T}_{p-1}(\mathcal{M}) \xrightarrow{\sim}
+      \mathcal{H}om_{\mathcal{O}_Y}(\mathcal{Q}, \mathcal{M}). \tag{7.7.5.2} $$
     - *c) Denoting by $A_{\alpha}$ the ring of the affine open $U_{\alpha}$, for every index $\alpha$ the functor of
       $A_{\alpha}$-modules $T^{A_{\alpha}}_{p}$ is right exact.*
-    - *d) For every morphism $g : Y' \to Y$, the canonical homomorphism*
-        ```text
-          𝒯_p(𝒪_Y) ⊗_{𝒪_Y} 𝒪_{Y'} → 𝒯_p^{Y'}(𝒪_{Y'})                          (7.7.5.3)
-        ```
-        *is an isomorphism.*
+    - *d) For every morphism $g : Y' \to Y$, the canonical homomorphism* $$ \mathcal{T}_p(\mathcal{O}_Y)
+      \otimes_{\mathcal{O}_Y} \mathcal{O}_{Y'} \to \mathcal{T}_p^{Y'}(\mathcal{O}_{Y'}) \tag{7.7.5.3} $$ *is an
+      isomorphism.*
 
-> (¹) A particular case of this theorem is already found in note [3] of Chow–Igusa. The semi-continuity property has
-> been discovered, in the context of analytic spaces (and under fairly particular hypotheses), by Kodaira–Spencer (*On
-> the variations of almost-complex structures*, *Algebraic Geometry and Topology, A Symposium in honor of S. Lefschetz*,
-> Princeton Series n° 12, p. 139–150, Princeton, 1957) and the general version proved by Grauert [5].
+> ($^{1}$) A particular case of this theorem is already found in note [3] of Chow–Igusa. The semi-continuity property
+> has been discovered, in the context of analytic spaces (and under fairly particular hypotheses), by Kodaira–Spencer
+> (*On the variations of almost-complex structures*, *Algebraic Geometry and Topology, A Symposium in honor of S.
+> Lefschetz*, Princeton Series n° 12, p. 139–150, Princeton, 1957) and the general version proved by Grauert [5].
 
 **Proof.** The semi-continuity property is local on $Y$ and therefore results from remark `(7.7.4)` and from `(7.6.9)`.
 It is clear that a'') implies a') and that a') implies a). The equivalence of a), a''), b) and b') has been proved in
@@ -1614,9 +1483,7 @@ isomorphism. Conversely, suppose still $Y = \operatorname{Spec}(A)$ affine and l
 where $M$ is an arbitrary $A$-module, the multiplication in $A'$ being given by $(a_{1}, m_{1})(a_{2}, m_{2}) = (a_{1}
 a_{2}, a_{1} m_{2} + a_{2} m_{1})$; then
 
-```text
-  T_p^{A'}(A') = T_p(A ⊕ M) = T_p(A) ⊕ T_p(M),
-```
+$$ T_p^{A'}(A') = T_p(A \oplus M) = T_p(A) \oplus T_p(M), $$
 
 and the hypothesis that `(7.7.5.3)` is bijective implies that the canonical map $T_{p}(A) \otimes_{A} M \to T_{p}(M)$ is
 bijective, in other words d) implies a''), which completes the proof.
@@ -1629,15 +1496,13 @@ bijective, in other words d) implies a''), which completes the proof.
 $\mathcal{O}_{X}$-module. There exists then a coherent $\mathcal{O}_{Y}$-module $\mathcal{Q}$ (determined up to unique
 isomorphism) and an isomorphism of functors in the quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{M}$:*
 
-```text
-  f_*(ℱ ⊗_{𝒪_Y} ℳ) ⥲ ℋom_{𝒪_Y}(𝒬, ℳ)                                        (7.7.6.1)
-```
+$$ f_*(\mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) \xrightarrow{\sim} \mathcal{H}om_{\mathcal{O}_Y}(\mathcal{Q},
+\mathcal{M}) \tag{7.7.6.1} $$
 
 *(whence an isomorphism of functors*
 
-```text
-  Γ(X, ℱ ⊗_{𝒪_Y} ℳ) ⥲ Hom_{𝒪_Y}(𝒬, ℳ).)                                     (7.7.6.2)
-```
+$$ \Gamma(X, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) \xrightarrow{\sim}
+\operatorname{Hom}_{\mathcal{O}_Y}(\mathcal{Q}, \mathcal{M}).) \tag{7.7.6.2} $$
 
 **Proof.** Indeed, since $\mathcal{M} \mapsto \mathcal{F} \otimes_{\mathcal{O}_{Y}} \mathcal{M}$ is exact $(0_{I},
 6.7.4)$ and $f_{*}$ is left exact, the functor $\mathcal{M} \mapsto f_{*}(\mathcal{F} \otimes_{\mathcal{O}_{Y}}
@@ -1651,16 +1516,20 @@ isomorphism) and an isomorphism of functors in the quasi-coherent $\mathcal{O}_{
 and $Y$-flat $\mathcal{O}_{X}$-modules, $u : \mathcal{F} \to \mathcal{F}'$ a homomorphism. Consider the two functors in
 the quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{M}$:*
 
-```text
-  𝒯(ℳ) = Ker(f_*(ℱ ⊗_{𝒪_Y} ℳ) → f_*(ℱ' ⊗_{𝒪_Y} ℳ))
-  T(ℳ) = Γ(Y, 𝒯(ℳ)) = Ker(Γ(X, ℱ ⊗_{𝒪_Y} ℳ) → Γ(X, ℱ' ⊗_{𝒪_Y} ℳ)).
-```
+$$
+\begin{aligned}
+\mathcal{T}(\mathcal{M}) &= Ker(f_*(\mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) \to f_*(\mathcal{F}' \otimes_{\mathcal{O}_Y} \mathcal{M})) \\
+T(\mathcal{M}) &= \Gamma(Y, \mathcal{T}(\mathcal{M})) = Ker(\Gamma(X, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) \to \Gamma(X, \mathcal{F}' \otimes_{\mathcal{O}_Y} \mathcal{M})).
+\end{aligned}
+$$
 
 *Then there exists a coherent $\mathcal{O}_{Y}$-module $\mathcal{R}$ (determined up to unique isomorphism) and
 isomorphisms of functors*
 
-$$ \mathcal{T}(\mathcal{M}) \xrightarrow{\sim} \mathcal{H}om_{\mathcal{O}_{Y}}(\mathcal{R}, \mathcal{M}) (7.7.7.1)
-T(\mathcal{M}) \xrightarrow{\sim} \operatorname{Hom}_{\mathcal{O}_{Y}}(\mathcal{R}, \mathcal{M}). (7.7.7.2) $$
+$$ \mathcal{T}(\mathcal{M}) \xrightarrow{\sim} \mathcal{H}om_{\mathcal{O}_{Y}}(\mathcal{R}, \mathcal{M}) \tag{7.7.7.1}
+$$
+
+$$ T(\mathcal{M}) \xrightarrow{\sim} \operatorname{Hom}_{\mathcal{O}_{Y}}(\mathcal{R}, \mathcal{M}). \tag{7.7.7.2} $$
 
 **Proof.** One can restrict to proving `(7.7.7.2)`; this will prove `(7.7.7.1)` in the case where $Y$ is affine, and one
 will pass from there to the general case by reasoning as in the proof of the equivalence of `(7.7.5, b)` and `b')`,
@@ -1668,27 +1537,27 @@ thanks to the uniqueness up to unique isomorphism of a representative of a repre
 follows from `(7.7.6)` that there exist two coherent $\mathcal{O}_{Y}$-modules $\mathcal{Q}$, $\mathcal{Q}'$ defining
 functorial isomorphisms
 
-```text
-  Γ(X, ℱ ⊗_{𝒪_Y} ℳ) ⥲ Hom_{𝒪_Y}(𝒬, ℳ),   Γ(X, ℱ' ⊗_{𝒪_Y} ℳ) ⥲ Hom_{𝒪_Y}(𝒬', ℳ).
-```
+$$ \Gamma(X, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) \xrightarrow{\sim}
+\operatorname{Hom}_{\mathcal{O}_Y}(\mathcal{Q}, \mathcal{M}), \quad \Gamma(X, \mathcal{F}' \otimes_{\mathcal{O}_Y}
+\mathcal{M}) \xrightarrow{\sim} \operatorname{Hom}_{\mathcal{O}_Y}(\mathcal{Q}', \mathcal{M}). $$
 
 Now, $u : \mathcal{F} \to \mathcal{F}'$ defines canonically a morphism of functors
 
-```text
-  Γ(X, ℱ ⊗_{𝒪_Y} ℳ) → Γ(X, ℱ' ⊗_{𝒪_Y} ℳ);
-```
+$$ \Gamma(X, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) \to \Gamma(X, \mathcal{F}' \otimes_{\mathcal{O}_Y}
+\mathcal{M}); $$
 
 <!-- original page 202 -->
 
 to this corresponds a unique homomorphism $v : \mathcal{Q}' \to \mathcal{Q}$ of $\mathcal{O}_{Y}$-modules such that the
 diagram
 
-```text
-  Γ(X, ℱ ⊗_{𝒪_Y} ℳ) → Γ(X, ℱ' ⊗_{𝒪_Y} ℳ)
-        │                    │
-        ↓                    ↓
-  Hom_{𝒪_Y}(𝒬, ℳ)   → Hom_{𝒪_Y}(𝒬', ℳ)
-```
+$$
+\begin{array}{ccc}
+\Gamma(X, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) & \to & \Gamma(X, \mathcal{F}' \otimes_{\mathcal{O}_Y} \mathcal{M}) \\
+\downarrow & & \downarrow \\
+\operatorname{Hom}_{\mathcal{O}_Y}(\mathcal{Q}, \mathcal{M}) & \to & \operatorname{Hom}_{\mathcal{O}_Y}(\mathcal{Q}', \mathcal{M})
+\end{array}
+$$
 
 be commutative `(0, 8.1.4)`. Since the contravariant functor $\mathcal{N} \rightsquigarrow
 \operatorname{Hom}_{\mathcal{O}_{Y}}(\mathcal{N}, \mathcal{M})$ is left exact in the category of
@@ -1703,22 +1572,27 @@ $\mathcal{O}_{X}$-modules satisfying the following conditions: (i) $\mathcal{F}$
 isomorphic to the cokernel of a homomorphism of locally free $\mathcal{O}_{X}$-modules of finite type $\mathcal{E}_{1}
 \to \mathcal{E}_{0}$. Consider the two functors in the quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{M}$:*
 
-```text
-  𝒯(ℳ) = f_*(ℋom_{𝒪_X}(𝒢, ℱ ⊗_{𝒪_Y} ℳ))
-  T(ℳ) = Γ(Y, 𝒯(ℳ)) = Hom_{𝒪_X}(𝒢, ℱ ⊗_{𝒪_Y} ℳ).
-```
+$$
+\begin{aligned}
+\mathcal{T}(\mathcal{M}) &= f_*(\mathcal{H}om_{\mathcal{O}_X}(\mathcal{G}, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M})) \\
+T(\mathcal{M}) &= \Gamma(Y, \mathcal{T}(\mathcal{M})) = \operatorname{Hom}_{\mathcal{O}_X}(\mathcal{G}, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}).
+\end{aligned}
+$$
 
 *Then there exists a coherent $\mathcal{O}_{Y}$-module $\mathcal{N}$ (determined up to unique isomorphism) and
 isomorphisms of functors*
 
-$$ \mathcal{T}(\mathcal{M}) \xrightarrow{\sim} \mathcal{H}om_{\mathcal{O}_{Y}}(\mathcal{N}, \mathcal{M}) (7.7.8.1)
-T(\mathcal{M}) \xrightarrow{\sim} \operatorname{Hom}_{\mathcal{O}_{Y}}(\mathcal{N}, \mathcal{M}). (7.7.8.2) $$
+$$ \mathcal{T}(\mathcal{M}) \xrightarrow{\sim} \mathcal{H}om_{\mathcal{O}_{Y}}(\mathcal{N}, \mathcal{M}) \tag{7.7.8.1}
+$$
+
+$$ T(\mathcal{M}) \xrightarrow{\sim} \operatorname{Hom}_{\mathcal{O}_{Y}}(\mathcal{N}, \mathcal{M}). \tag{7.7.8.2} $$
 
 **Proof.** By virtue of the functorial isomorphism $(0_{I}, 5.4.2.1)$, one has functorial isomorphisms in $\mathcal{E}$
 
-```text
-  ℋom_{𝒪_X}(ℰ_i, ℱ ⊗_{𝒪_Y} ℳ) ⥲ Ě_i ⊗_{𝒪_X} (ℱ ⊗_{𝒪_Y} ℳ) ⥲ (Ě_i ⊗_{𝒪_X} ℱ) ⊗_{𝒪_Y} ℳ ⥲ ℋom_{𝒪_X}(ℰ_i, ℱ) ⊗_{𝒪_Y} ℳ
-```
+$$ \mathcal{H}om_{\mathcal{O}_X}(\mathcal{E}_i, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) \xrightarrow{\sim}
+\check{E}_i \otimes_{\mathcal{O}_X} (\mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) \xrightarrow{\sim} (\check{E}_i
+\otimes_{\mathcal{O}_X} \mathcal{F}) \otimes_{\mathcal{O}_Y} \mathcal{M} \xrightarrow{\sim}
+\mathcal{H}om_{\mathcal{O}_X}(\mathcal{E}_i, \mathcal{F}) \otimes_{\mathcal{O}_Y} \mathcal{M} $$
 
 for $i = 0, 1$. Set $\mathcal{F}_{i} = \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{E}_{i}, \mathcal{F})$ for $i = 0, 1$;
 these are coherent $\mathcal{O}_{X}$-modules $(0_{I}, 5.3.5)$ and $Y$-flat $(0_{I}, 5.4.2)$; let $u = \mathcal{H}om(v,
@@ -1726,16 +1600,18 @@ these are coherent $\mathcal{O}_{X}$-modules $(0_{I}, 5.3.5)$ and $Y$-flat $(0_{
 \rightsquigarrow \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{H}, \mathcal{F} \otimes_{\mathcal{O}_{Y}} \mathcal{M})$, one
 has functorial isomorphisms in $\mathcal{M}$
 
-```text
-  ℋom_{𝒪_X}(𝒢, ℱ ⊗_{𝒪_Y} ℳ) ⥲ Ker(ℋom_{𝒪_X}(ℰ_0, ℱ ⊗_{𝒪_Y} ℳ) → ℋom_{𝒪_X}(ℰ_1, ℱ ⊗_{𝒪_Y} ℳ)) ⥲
-                                                                          Ker(ℱ_0 ⊗_{𝒪_Y} ℳ → ℱ_1 ⊗_{𝒪_Y} ℳ).
-```
+$$
+\begin{aligned}
+\mathcal{H}om_{\mathcal{O}_X}(\mathcal{G}, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) &\xrightarrow{\sim} Ker(\mathcal{H}om_{\mathcal{O}_X}(\mathcal{E}_0, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M}) \to \mathcal{H}om_{\mathcal{O}_X}(\mathcal{E}_1, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M})) \\
+&\xrightarrow{\sim} Ker(\mathcal{F}_0 \otimes_{\mathcal{O}_Y} \mathcal{M} \to \mathcal{F}_1 \otimes_{\mathcal{O}_Y} \mathcal{M}).
+\end{aligned}
+$$
 
 Since $f_{*}$ is left exact, one deduces a functorial isomorphism
 
-```text
-  f_*(ℋom_{𝒪_X}(𝒢, ℱ ⊗_{𝒪_Y} ℳ)) ⥲ Ker(f_*(ℱ_0 ⊗_{𝒪_Y} ℳ) → f_*(ℱ_1 ⊗_{𝒪_Y} ℳ))
-```
+$$ f_*(\mathcal{H}om_{\mathcal{O}_X}(\mathcal{G}, \mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{M})) \xrightarrow{\sim}
+Ker(f_*(\mathcal{F}_0 \otimes_{\mathcal{O}_Y} \mathcal{M}) \to f_*(\mathcal{F}_1 \otimes_{\mathcal{O}_Y} \mathcal{M}))
+$$
 
 and it then suffices to apply `(7.7.7)`.
 
@@ -1749,15 +1625,13 @@ and it then suffices to apply `(7.7.7)`.
 $\mathcal{N}$ commutes with base change*. For example (keeping the notations of `(7.7.2)`), in the case `(7.7.6)`, one
 has, for every quasi-coherent $\mathcal{O}_{Y'}$-module $\mathcal{M}'$, the isomorphism
 
-```text
-  f'_*(ℱ' ⊗_{𝒪_{Y'}} ℳ') ⥲ ℋom_{𝒪_{Y'}}(g^*(𝒬), ℳ')
-```
+$$ f'_*(\mathcal{F}' \otimes_{\mathcal{O}_{Y'}} \mathcal{M}') \xrightarrow{\sim}
+\mathcal{H}om_{\mathcal{O}_{Y'}}(g^*(\mathcal{Q}), \mathcal{M}') $$
 
 for, by virtue of the remark made in `(7.7.2)`, everything comes down to seeing that one has
 
-```text
-  Hom_{𝒪_Y}(𝒬, g_*(ℳ')) = Hom_{𝒪_{Y'}}(g^*(𝒬), ℳ')
-```
+$$ \operatorname{Hom}_{\mathcal{O}_Y}(\mathcal{Q}, g_*(\mathcal{M}')) =
+\operatorname{Hom}_{\mathcal{O}_{Y'}}(g^*(\mathcal{Q}), \mathcal{M}') $$
 
 which is none other than $(0_{I}, 4.4.3.1)$. Similarly, when in `(7.7.7)` one replaces $Y, f, \mathcal{M}, \mathcal{F},
 \mathcal{F}'$ by $Y', f', \mathcal{M}', \mathcal{F} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X'}, \mathcal{F}'
@@ -1848,9 +1722,7 @@ this case the cohomological notations, thus writing $\mathcal{T}^{-p}$ instead o
 (ii) When in the statement of `(7.7.5)` one no longer supposes that the $\mathcal{P}_{i}$ are $Y$-flat, the conclusions
 remain valid on condition that one sets this time
 
-```text
-  𝒯_p(ℰ) = 𝒯or_n^Y(f, 1_Y; 𝒫_•, ℰ).                                          (7.7.12.1)
-```
+$$ \mathcal{T}_p(\mathcal{E}) = \mathcal{T}or_n^Y(f, 1_Y; \mathcal{P}_\bullet, \mathcal{E}). \tag{7.7.12.1} $$
 
 Indeed, $\mathcal{T}or^{Y}_{n}(f, 1_{Y}; \mathcal{P}_{\bullet}, \mathcal{O}_{Y})$ is then a coherent
 $\mathcal{O}_{Y}$-module by virtue of `(6.7.9)`. The proof of `(6.10.5)` applies without change, taking `(6.10.1)` into
@@ -1918,18 +1790,14 @@ coherent and $Y$-flat $\mathcal{O}_{X}$-modules bounded below, $\mathcal{T}_{\bu
 
 - *a) $\mathcal{P}_{\bullet}$ is homologically flat over $Y$ at $y$ in dimension $p$.*
 - *b) The functor $T^{\mathcal{O}_{y}}_{p}$ is exact.*
-- *c) There exists an integer $n_{0}$ such that for $n \geq n_{0}$, one has*
-    ```text
-      long T_p^{𝒪_y}(𝒪_y / 𝔪_y^{n+1}) = long T_p^{𝒪_y}(κ(y)) · long 𝒪_y / 𝔪_y^{n+1}     (7.8.4.1)
-    ```
-    *(where one is dealing with lengths of $\mathcal{O}_{y}$-modules).*
+- *c) There exists an integer $n_{0}$ such that for $n \geq n_{0}$, one has* $$ long T_p^{\mathcal{O}_y}(\mathcal{O}_y /
+  \mathfrak{m}_y^{n+1}) = long T_p^{\mathcal{O}_y}(\kappa(y)) \cdot long \mathcal{O}_y / \mathfrak{m}_y^{n+1}
+  \tag{7.8.4.1} $$ *(where one is dealing with lengths of $\mathcal{O}_{y}$-modules).*
 - *d) There is an open neighbourhood $U$ of $y$ such that $(\mathcal{H}^{-p}(f, \mathcal{P}^{\bullet})) | U$ is
   isomorphic to a $(\mathcal{O}_{Y} | U)$-module of the form $(\mathcal{O}_{Y} | U)^{m}$ and such that, for every
-  quasi-coherent $(\mathcal{O}_{Y} | U)$-module $\mathcal{M}$, the canonical homomorphism*
-    ```text
-      ((ℋ^{−p}(f, 𝒫^•)) | U) ⊗_{𝒪_Y | U} ℳ → ℋ^{−p}(f, (𝒫^• | U) ⊗_{𝒪_Y | U} ℳ)         (7.8.4.2)
-    ```
-    *is bijective.*
+  quasi-coherent $(\mathcal{O}_{Y} | U)$-module $\mathcal{M}$, the canonical homomorphism* $$ ((\mathcal{H}^{-p}(f,
+  \mathcal{P}^\bullet))|U) \otimes_{\mathcal{O}_Y|U} \mathcal{M} \to \mathcal{H}^{-p}(f, (\mathcal{P}^\bullet|U)
+  \otimes_{\mathcal{O}_Y|U} \mathcal{M}) \tag{7.8.4.2} $$ *is bijective.*
 
 *When these conditions are satisfied, one has moreover the following property:*
 
@@ -2019,9 +1887,7 @@ that $X'_{i} = X_{i} \otimes_{Y} \kappa(y)$. One is thus finally reduced to the 
 `(7.7.10, b))`, one is reduced to proving that the canonical homomorphism $\Gamma(X, \mathcal{O}_{X}) \to \Gamma(X_{y},
 \mathcal{O}_{X_{y}})$ is surjective; but this is trivial, since the composite
 
-```text
-  Γ(Y, 𝒪_Y) = A → Γ(X, 𝒪_X) → Γ(X_y, 𝒪_{X_y}) = κ(y)
-```
+$$ \Gamma(Y, \mathcal{O}_Y) = A \to \Gamma(X, \mathcal{O}_X) \to \Gamma(X_y, \mathcal{O}_{X_y}) = \kappa(y) $$
 
 is already surjective.
 
@@ -2033,11 +1899,8 @@ is already surjective.
 
 - *(i) $f_{*}(\mathcal{O}_{X}) | U$ is isomorphic to a $(\mathcal{O}_{Y} | U)$-module of the form $(\mathcal{O}_{Y} |
   U)^{m}$.*
-- *(ii) For every $z \in U$, the canonical homomorphism*
-    ```text
-      (f_*(𝒪_X))_z ⊗_{𝒪_z} κ(z) → Γ(X_z, 𝒪_{X_z})
-    ```
-    *is bijective.*
+- *(ii) For every $z \in U$, the canonical homomorphism* $$ (f_*(\mathcal{O}_X))_z \otimes_{\mathcal{O}_z} \kappa(z) \to
+  \Gamma(X_z, \mathcal{O}_{X_z}) $$ *is bijective.*
 
 **Proof.**
 
@@ -2064,9 +1927,8 @@ to `1`.
 $\mathcal{Q}$ (determined up to unique isomorphism) and an isomorphism of functors in the quasi-coherent
 $\mathcal{O}_{U}$-module $\mathcal{M}$:*
 
-```text
-  R^1 f_*(f^*(ℳ)) ⥲ ℋom_{𝒪_U}(𝒬, ℳ).                                         (7.8.9.1)
-```
+$$ R^1 f_*(f^*(\mathcal{M})) \xrightarrow{\sim} \mathcal{H}om_{\mathcal{O}_U}(\mathcal{Q}, \mathcal{M}). \tag{7.8.9.1}
+$$
 
 **Proof.** Indeed, the hypothesis implies that $\mathcal{T}^{U}_{0}$ is exact for a suitable $U$; it therefore suffices
 to apply the equivalence of `(7.7.5, a))` and `(7.7.5, b'))` in the case $p = 0$ and taking for $\mathcal{P}_{\bullet}$
@@ -2078,9 +1940,7 @@ the complex reduced to its term of degree `0` equal to $\mathcal{O}_{X}$.
 
 (i) Under the conditions of `(7.8.6)`, consider the Stein factorization of $f$ `(4.3.3)`
 
-```text
-  X →^{f'} Y' →^g Y
-```
+$$ X \xrightarrow{f'} Y' \xrightarrow{g} Y $$
 
 <!-- original page 208 -->
 
@@ -2111,9 +1971,8 @@ $\mathfrak{p}$ and one denotes by $rang_{\mathfrak{p}}(M)$ the rank of the free 
 $M_{\mathfrak{p}}$ (or equivalently the rank at $\mathfrak{p}$ of the locally free $\mathcal{O}_{X}$-module
 $\tilde{M}$). One has therefore
 
-```text
-  rang_𝔭 M = rang_{A_𝔭}(M_𝔭) = rang_{κ(𝔭)}(M ⊗_A κ(𝔭)).                       (7.9.1.1)
-```
+$$ rang_\mathfrak{p} M = rang_{A_\mathfrak{p}}(M_\mathfrak{p}) = rang_{\kappa(\mathfrak{p})}(M \otimes_A
+\kappa(\mathfrak{p})). \tag{7.9.1.1} $$
 
 **Proposition (7.9.2).**
 
@@ -2123,9 +1982,8 @@ $\tilde{M}$). One has therefore
 $T_{\bullet}(M) = H_{\bullet}(P_{\bullet} \otimes_{A} M)$. Then, for every $\mathfrak{p} \in \operatorname{Spec}(A)$,
 one has*
 
-```text
-  Σ_i (−1)^i rang_{κ(𝔭)} T_i(κ(𝔭)) = Σ_i (−1)^i rang_𝔭(P_i).                 (7.9.2.1)
-```
+$$ \sum_i (-1)^i rang_{\kappa(\mathfrak{p})} T_i(\kappa(\mathfrak{p})) = \sum_i (-1)^i rang_\mathfrak{p}(P_i).
+\tag{7.9.2.1} $$
 
 **Proof.** Indeed, one has by definition $T_{i}(\kappa(\mathfrak{p})) = H_{i}(P_{\bullet} \otimes_{A}
 \kappa(\mathfrak{p}))$ and, taking `(7.9.1.1)` into account, formula `(7.9.2.1)` is none other than the invariance of
@@ -2138,9 +1996,7 @@ the Euler–Poincaré characteristic of a finite complex of finite-dimensional v
 
 *The function*
 
-```text
-  𝔭 ↦ Σ_i (−1)^i rang_{κ(𝔭)} T_i(κ(𝔭))
-```
+$$ \mathfrak{p} \mapsto \sum_i (-1)^i rang_{\kappa(\mathfrak{p})} T_i(\kappa(\mathfrak{p})) $$
 
 *is locally constant on $\operatorname{Spec}(A)$.*
 
@@ -2154,9 +2010,7 @@ coherent and $Y$-flat $\mathcal{O}_{X}$-modules. If one sets $\mathcal{T}_{\bull
 
 <!-- original page 209 -->
 
-```text
-  y ↦ Σ_i (−1)^i rang_{κ(y)} T_i(κ(y))                                       (7.9.4.1)
-```
+$$ y \mapsto \sum_i (-1)^i rang_{\kappa(y)} T_i(\kappa(y)) \tag{7.9.4.1} $$
 
 *is locally constant on $Y$.*
 
@@ -2183,39 +2037,42 @@ $EP(\mathcal{P}_{\bullet}; y)$ the second member of `(7.9.4.1)`.
 
 Under the hypotheses of `(7.9.4)` relative to $X$, $Y$ and $f$, let
 
-```text
-  0 → 𝒫'_• →^u 𝒫_• →^v 𝒫''_• → 0
-```
+$$ 0 \to \mathcal{P}'_\bullet \xrightarrow{u} \mathcal{P}_\bullet \xrightarrow{v} \mathcal{P}''_\bullet \to 0 $$
 
 be an exact sequence of finite complexes of coherent and $Y$-flat $\mathcal{O}_{X}$-modules, the homomorphisms $u$ and
 $v$ being of *even* degrees `2d`, `2d'` respectively. Since $\mathcal{T}_{\bullet}$ is a homological functor `(7.7.1)`,
 one has an exact sequence of homology
 
-```text
-  → 𝒯_i(𝒫'_•, κ(y)) → 𝒯_{i+2d}(𝒫_•, κ(y)) → 𝒯_{i+2d'}(𝒫''_•, κ(y)) → 𝒯_{i−1}(𝒫'_•, κ(y)) → …
-```
+$$ \to \mathcal{T}_i(\mathcal{P}'_\bullet, \kappa(y)) \to \mathcal{T}_{i+2d}(\mathcal{P}_\bullet, \kappa(y)) \to
+\mathcal{T}_{i+2d'}(\mathcal{P}''_\bullet, \kappa(y)) \to \mathcal{T}_{i-1}(\mathcal{P}'_\bullet, \kappa(y)) \to \ldots
+$$
 
 having moreover only a finite number of terms. By writing that the Euler–Poincaré characteristic of this complex is zero
 `(0, 11.10.1)`, it follows at once
 
-```text
-  EP(𝒫_•; y) = EP(𝒫'_•; y) + EP(𝒫''_•; y)                                    (7.9.6.1)
-```
+$$ EP(\mathcal{P}_\bullet; y) = EP(\mathcal{P}'_\bullet; y) + EP(\mathcal{P}''_\bullet; y) \tag{7.9.6.1} $$
 
 for every $y \in Y$. Now, if for example $\mathcal{P}_{\bullet} = (\mathcal{P}_{i})$ with $\mathcal{P}_{i} = 0$ for $i <
 0$, one has the exact sequence of complexes
 
-$$ \cdots \to 0 \to 0 \to 0 \to 0 \to \cdots \downarrow \downarrow \downarrow \cdots \to 0 \to 0 \to \mathcal{P}_{1} \to
-\mathcal{P}_{2} \to \cdots \downarrow \downarrow \downarrow \downarrow \cdots \to 0 \to \mathcal{P}_{0} \to
-\mathcal{P}_{1} \to \mathcal{P}_{2} \to \cdots \downarrow \downarrow \downarrow \downarrow \cdots \to 0 \to
-\mathcal{P}_{0} \to 0 \to 0 \to \cdots \downarrow \downarrow \downarrow \cdots \to 0 \to 0 \to 0 \to 0 \to \cdots $$
+$$
+\begin{array}{ccccccccc}
+\cdots & \to & 0 & \to & 0 & \to & 0 & \to & 0 & \to \cdots \\
+& & & & \downarrow & & \downarrow & & \downarrow & \\
+\cdots & \to & 0 & \to & 0 & \to & \mathcal{P}_{1} & \to & \mathcal{P}_{2} & \to \cdots \\
+& & & & \downarrow & & \downarrow & & \downarrow & \\
+\cdots & \to & 0 & \to & \mathcal{P}_{0} & \to & \mathcal{P}_{1} & \to & \mathcal{P}_{2} & \to \cdots \\
+& & & & \downarrow & & \downarrow & & \downarrow & \\
+\cdots & \to & 0 & \to & \mathcal{P}_{0} & \to & 0 & \to & 0 & \to \cdots \\
+& & & & \downarrow & & \downarrow & & \downarrow & \\
+\cdots & \to & 0 & \to & 0 & \to & 0 & \to & 0 & \to \cdots
+\end{array}
+$$
 
 the non-zero vertical arrows being the identity automorphisms; one can apply `(7.9.6.1)` to this exact sequence, whence,
 by induction on the length of $\mathcal{P}_{\bullet}$, the formula
 
-```text
-  EP(𝒫_•; y) = Σ_i (−1)^i EP(𝒫_i; y)                                         (7.9.6.2)
-```
+$$ EP(\mathcal{P}_\bullet; y) = \sum_i (-1)^i EP(\mathcal{P}_i; y) \tag{7.9.6.2} $$
 
 <!-- original page 210 -->
 
@@ -2233,9 +2090,7 @@ one can reduce to studying the Euler–Poincaré characteristics of complexes re
 \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{Y'}$ of $\mathcal{O}_{X'}$-modules; $\mathcal{P}'_{\bullet}$ is formed of
 coherent and $Y'$-flat $\mathcal{O}_{X'}$-modules, and for every $y' \in Y'$, one has*
 
-```text
-  EP(𝒫'_•; y') = EP(𝒫_•; g(y')).                                             (7.9.7.1)
-```
+$$ EP(\mathcal{P}'_\bullet; y') = EP(\mathcal{P}_\bullet; g(y')). \tag{7.9.7.1} $$
 
 **Proof.** The $\mathcal{O}_{X'}$-modules $\mathcal{P}'_{i}$, being inverse images of the $\mathcal{P}_{i}$ by the
 projection $X' \to X$, are coherent, they are $Y'$-flat by virtue of $(0_{I}, 6.2.1)$ and `(1.4.14.5)`, the question
@@ -2257,9 +2112,7 @@ equal to $(-1)^{i_{0}} EP(f, \mathcal{P}_{\bullet}; y)$.*
 virtue of `(7.5.3)`; in view of `(7.3.3)`, $\mathcal{T}_{i_{0}}$ is therefore also exact, and consequently `(7.8.4)`,
 $\mathcal{H}^{-i_{0}}(f, \mathcal{P}^{\bullet})$ is locally free and its rank at a point $y \in Y$ is
 
-```text
-  rang_{κ(y)} T_{i_0}(κ(y)) = EP(f, 𝒫_•; y)
-```
+$$ rang_{\kappa(y)} T_{i_0}(\kappa(y)) = EP(f, \mathcal{P}_\bullet; y) $$
 
 by definition, since $T_{i}(\kappa(y)) = 0$ for $i \neq i_{0}$.
 
@@ -2307,9 +2160,7 @@ exact for $p < 0$, and the lemma results then from the equivalence of `(7.7.5, a
 and set $\mathcal{P}_{\bullet}(n) = \mathcal{P}_{\bullet} \otimes_{\mathcal{O}_{X}} \mathcal{L}^{\otimes n}$ for every
 $n \in Z$. Then, for every $y \in Y$, the function*
 
-```text
-  n ↦ EP(f, 𝒫_•(n); y)                                                       (7.9.11.1)
-```
+$$ n \mapsto EP(f, \mathcal{P}_\bullet(n); y) \tag{7.9.11.1} $$
 
 *is a polynomial with coefficients in $Q$, which is the same for all points of one and the same connected component of
 $Y$.*
@@ -2339,22 +2190,16 @@ quotient sheaves of a given coherent sheaf.
 
 With the notations of `(7.9.6)` and `(7.9.11)`, one has
 
-```text
-  PH(𝒫_•; y) = PH(𝒫'_•; y) + PH(𝒫''_•; y)                                    (7.9.12.1)
-```
+$$ PH(\mathcal{P}_\bullet; y) = PH(\mathcal{P}'_\bullet; y) + PH(\mathcal{P}''_\bullet; y) \tag{7.9.12.1} $$
 
 and in particular
 
-```text
-  PH(𝒫_•; y) = Σ_i (−1)^i PH(𝒫_i; y);                                        (7.9.12.2)
-```
+$$ PH(\mathcal{P}_\bullet; y) = \sum_i (-1)^i PH(\mathcal{P}_i; y); \tag{7.9.12.2} $$
 
 this results trivially from `(7.9.6.1)` and `(7.9.6.2)`. Similarly, with the notations and hypotheses of `(7.9.7)`, one
 has
 
-```text
-  PH(𝒫'_•; y') = PH(𝒫_•; g(y')).                                             (7.9.12.3)
-```
+$$ PH(\mathcal{P}'_\bullet; y') = PH(\mathcal{P}_\bullet; g(y')). \tag{7.9.12.3} $$
 
 Formula `(7.9.12.2)` reduces the study of Hilbert polynomials of a complex to that of Hilbert polynomials of a single
 $Y$-flat $\mathcal{O}_{X}$-module. The latter admit a remarkable interpretation independent of homological
