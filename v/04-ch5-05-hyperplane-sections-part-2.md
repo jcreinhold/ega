@@ -56,11 +56,11 @@ independent over $k$ in $K$ (where $K$ is the function field of $X$ and $t = (t_
 elements of $K$ defined by the $T_{i}$). For (b) we require in addition that $P$, $Q$, $R$ vanish to order at least two
 on $L$, which we may furthermore suppose defined by the equations $T_{1} = \cdots = T_{s} = 0$. Finally, for (c) the
 situation is the same except that $L$ is the image of the tangent space to $X$ at $x$, and we may, if necessary, take
-$P$, $Q$, $R$ of degree `3` — i.e. one notch higher. The hypothesis that $\dim f(X) \geq 2$ says that the transcendence
+$P$, $Q$, $R$ of degree $3$ — i.e. one notch higher. The hypothesis that $\dim f(X) \geq 2$ says that the transcendence
 degree of $K(t_{1}, t_{2}, \cdots, t_{r})$ over $k$ is $\geq 2$, i.e. we can find $t_{1}, t_{2}$ algebraically
 independent. In (a) we therefore take $P = T_{1}$, $Q = T^{2}_{1}$, $R = T_{1} T_{2}$. In (b) we proceed analogously,
-noting that we may choose $t_{1}$ so that `T_1` vanishes on $L$, due to the fact that $f(x) \not\subset L^{\ast}$; this
-implies that there exists an index $i$ between `1` and $s$ such that $t_{i} \neq 0$, so that $t_{i}$ is not constant
+noting that we may choose $t_{1}$ so that $T_1$ vanishes on $L$, due to the fact that $f(x) \not\subset L^{\ast}$; this
+implies that there exists an index $i$ between $1$ and $s$ such that $t_{i} \neq 0$, so that $t_{i}$ is not constant
 (since $t_{i}$ vanishes at $x$), and hence $t_{i}$ is not algebraic over $k$.[^v-5p2-2] (We may assume $k$ algebraically
 closed.) Case (c) follows from (b) except when $f(X)$ is contained in the image $L$ (under $f$) of the tangent space to
 $X$ at $x$. If $\dim X = 2$, this case is effectively exceptional: the trace of a quadric surface tangent to a plane on
@@ -73,9 +73,7 @@ If $\dim L = 2$, take $P = T^{2}_{r}$, $Q = T^{3}_{r}$, $R = T^{2}_{r} T_{r-1}$,
 T_{r-1}$ are linear forms independent on $L$, hence algebraically independent. If $\dim L \geq 3$, then $T_{r-2},
 T_{r-1}, T_{r}$ are linearly independent on $L$ and we take
 
-```text
-  P = T_r², Q = T_{r−1}², R = T_{r−2}².
-```
+$$ P = T_r^{2}, \quad Q = T_{r-1}^{2}, \quad R = T_{r-2}^{2}. $$
 
 *Grothendieck note: combining with §V.5.8.18, we obtain a Corollary (5.9.4) — to be stated.*
 
@@ -102,15 +100,15 @@ have $codim(Z, \mathbb{P}^{\vee}) \geq 2$ it is necessary and sufficient that "e
 $\mathbb{P}^{\vee}$ not meet $Z$; or also (or even) it suffices that there exist a single line $L$ in
 $\mathbb{P}^{\vee}$ not meeting $\overline{Z}$.[^v-5p2-4] If $k$ is infinite, it is necessary and sufficient that there
 exist a single line $L$ in $\mathbb{P}^{\vee}$ that does not meet $\overline{Z}$. We call the **linear pencil of
-hyperplane sections of $X$** defined by a line $L$ in $\mathbb{P}^{\vee}$ the $L$-prescheme `Y_L` (definition valid for
-any $S$). The previous remarks together with the results of §§V.5.8 and V.5.9 then give criteria for the existence of
-such pencils having all their fibres $Y_{\xi}$ ($\xi \in L$) satisfying the property $P$, first of all in the case where
-$S$ is an infinite base field. Taking into account §V.5.8.2, if for every associated prime cycle on $X$ we have $\dim
-f(T) > 0$, then we can (by taking the property $P' = P +$ regularity condition for $\phi_{\xi}$) require that the pencil
-`Y_L` be flat over $L$. In the case where $S$ is arbitrary, we can again — proceeding by the procedure of §V.5.7.1 —
-construct such a pencil over an open neighbourhood of a given point $s$ of $S$, in view of the fact that $k(s)$ is
-infinite and provided we know $Z$ to be closed (which is assured in various miscellaneous cases by the results of §V.5.5
-and the assumption that $X \to S$ is proper).
+hyperplane sections of $X$** defined by a line $L$ in $\mathbb{P}^{\vee}$ the $L$-prescheme $Y_{L}$ (definition valid
+for any $S$). The previous remarks together with the results of §§V.5.8 and V.5.9 then give criteria for the existence
+of such pencils having all their fibres $Y_{\xi}$ ($\xi \in L$) satisfying the property $P$, first of all in the case
+where $S$ is an infinite base field. Taking into account §V.5.8.2, if for every associated prime cycle on $X$ we have
+$\dim f(T) > 0$, then we can (by taking the property $P' = P +$ regularity condition for $\phi_{\xi}$) require that the
+pencil $Y_{L}$ be flat over $L$. In the case where $S$ is arbitrary, we can again — proceeding by the procedure of
+§V.5.7.1 — construct such a pencil over an open neighbourhood of a given point $s$ of $S$, in view of the fact that
+$k(s)$ is infinite and provided we know $Z$ to be closed (which is assured in various miscellaneous cases by the results
+of §V.5.5 and the assumption that $X \to S$ is proper).
 
 To do it right it would be convenient, after a general explanation of this type,
 
@@ -121,8 +119,8 @@ this nature (and also encompassing module properties). As a minimum in this dire
 reformulation of (5.9.5) in terms of linear pencils — a fact constantly used in geometric applications.
 
 **(5.10.2).** By polarity, to a line $L$ in $\mathbb{P}^{\vee}$ there corresponds a linear subvariety $L_{0}$ of
-codimension `2` in $\mathbb{P}$ ($S$ arbitrary). Set $T = X \times_{\mathbb{P}} L_{0}$. Another way to describe $T$ is
-as follows: $L$ is defined by a locally free quotient of rank `2` of $\mathcal{E}^{\vee}$, or what is the same by a
+codimension $2$ in $\mathbb{P}$ ($S$ arbitrary). Set $T = X \times_{\mathbb{P}} L_{0}$. Another way to describe $T$ is
+as follows: $L$ is defined by a locally free quotient of rank $2$ of $\mathcal{E}^{\vee}$, or what is the same by a
 submodule $F$ of $\mathcal{E}$, locally a direct factor, everywhere of rank two. Consider the composed homomorphism
 
 $$ F_{X} \longrightarrow \mathcal{E}_{X} \longrightarrow \mathcal{O}_{X}(1); $$
@@ -142,7 +140,7 @@ regular immersion.[^v-5p2-5] We then have:
 
 <!-- label: V.5.10.2 -->
 
-*Under the above hypothesis, the linear pencil `Y_L` together with the canonical projection $Y_{L} \to X$ is
+*Under the above hypothesis, the linear pencil $Y_{L}$ together with the canonical projection $Y_{L} \to X$ is
 $X$-isomorphic in a unique fashion to the blow-up of the prescheme $X$ with centre $T$.*
 
 To understand the meaning of this theorem, it is convenient to note at the outset that, if $S = \operatorname{Spec}(k)$,
@@ -212,25 +210,21 @@ one ramification point, and it is "quadratic".\*
 
 ## V.5.11. Grassmannians
 
-Since we shall now use linear subvarieties of $\mathbb{P}$ not only of relative dimension `0` and $n - 1$, it is clear
+Since we shall now use linear subvarieties of $\mathbb{P}$ not only of relative dimension $0$ and $n - 1$, it is clear
 that we shall need some notations concerning Grassmannians and some [sorites][^v-5p2-7] (facts) of "elementary geometry"
 flavour concerning the constructions involving linear varieties; these should all come at the beginning of the
 paragraph. In addition, in practice one sometimes takes arbitrary linear sections and not only hyperplane sections, and
 it is proper to revisit, in this enlarged spirit, all the previous numbers.
 
-Let $\mathcal{E}$ be a quasi-coherent module on the prescheme $S$, and let $n$ be an integer `> 0`. Consider the functor
+Let $\mathcal{E}$ be a quasi-coherent module on the prescheme $S$, and let $n$ be an integer $> 0$. Consider the functor
 $(Sch)^{\circ}/S \to (Ens)$ defined by
 
-```text
-  Grass_n(ℰ)(S′) = {locally free quotient modules of rank n of ℰ_{S′}}.
-```
+$$ Grass_{n}(\mathcal{E})(S') = \{\text{locally free quotient modules of rank } n \text{ of } \mathcal{E}_{S'}\}. $$
 
 This functor is representable, and the prescheme over $S$ which represents it will also be denoted
 $Grass_{n}(\mathcal{E})$. To prove representability, consider the natural homomorphism of functors
 
-```text
-  Grass_n(ℰ) ⟶ Grass_1(Λ^n ℰ) = ℙ(Λ^n ℰ)
-```
+$$ Grass_{n}(\mathcal{E}) \longrightarrow Grass_{1}(\Lambda^{n} \mathcal{E}) = \mathbb{P}(\Lambda^{n} \mathcal{E}) $$
 
 defined by associating with every locally free quotient $G$ of rank $n$ of $\mathcal{E}_{S'}$ the locally free module of
 rank one $\Lambda^{n} G$, considered as a quotient of $\Lambda^{n} \mathcal{E}_{S'}$. As in Séminaire Cartan,[^v-5p2-8]
@@ -247,9 +241,7 @@ be recovered from $\binom{r}{n}$ open subsets, each of which is $S$-isomorphic t
 $n(r - n)$ over $S$. This decomposition corresponds to the choice, thanks to a basis of $\mathcal{E}$, of $\binom{r}{n}$
 decompositions of $\mathcal{E}$ by exact sequences
 
-```text
-  (s)   0 → ℰ′ → ℰ → ℰ″ → 0
-```
+$$ (s) \quad 0 \to \mathcal{E}' \to \mathcal{E} \to \mathcal{E}'' \to 0 $$
 
 <!-- original page 41 -->
 
@@ -282,7 +274,7 @@ variety $L_{0}$ of relative dimension $(r - 1) - 1 - m$ of $\mathbb{P}^{\vee}$, 
 $\mathbb{P}^{\vee}$ (N.B.: $r - 1$ is here the relative common dimension of $\mathbb{P}$ and $\mathbb{P}^{\vee}$ over
 $S$), which we may visualize geometrically as follows. Let us first take $n = r - 1$; we find an isomorphism
 $\mathbb{P}(\mathcal{E}^{\vee}) \cong Grass_{r-1}(\mathcal{E})$ that allows us to identify the points of
-$\mathbb{P}^{\vee}$ with values in $S$ (let us say) with linear subvarieties of codimension `1` of $\mathbb{P}$ (called
+$\mathbb{P}^{\vee}$ with values in $S$ (let us say) with linear subvarieties of codimension $1$ of $\mathbb{P}$ (called
 again **hyperplanes of $\mathbb{P}$**).
 
 This says that $L_{0}$ consists of hyperplanes which contain the linear subvariety $L$ of $\mathbb{P}$ (by which, of
@@ -302,9 +294,8 @@ be fixed until the other numbers of the present paragraph[^v-5p2-12] are written
 
 It seems convenient[^v-5p2-13] to introduce also the functor
 
-```text
-  Grass(ℰ)(S′) = {set of locally free quotient modules (of unspecified rank) of ℰ_{S′}};
-```
+$$ Grass(\mathcal{E})(S') = \{\text{set of locally free quotient modules (of unspecified rank) of } \mathcal{E}_{S'}\};
+$$
 
 then $Grass(\mathcal{E})$ is representable by $\bigsqcup_{n \geq 0} Grass_{n}(\mathcal{E})$. The linear subvarieties of
 $\mathbb{P}(\mathcal{E})$ are then defined by sections of $Grass(\mathcal{E})$ over $S$ (the rank, i.e. the relative
@@ -317,9 +308,7 @@ also set $Grass^{n}(\mathbb{P}) = Grass_{n+1}(\mathcal{E})$, so that $Grass^{n}(
 subvarieties of dimension $n$ in $\mathbb{P}$; this is valid for $n \geq -1$ if we agree that $\dim = -1$ means empty.
 If $\mathcal{E}$ is locally free, it is advisable to introduce
 
-```text
-  Grass_n(ℙ) = Grass^{n−1}(ℙ^∨) = Grass_n(ℰ^∨),
-```
+$$ Grass_{n}(\mathbb{P}) = Grass^{n-1}(\mathbb{P}^{\vee}) = Grass_{n}(\mathcal{E}^{\vee}), $$
 
 which corresponds to linear subvarieties of codimension $n$ in $\mathbb{P}$. If $\mathcal{E}$ is of rank $r +
 1$,[^v-5p2-15] so that $\mathbb{P}$ is of relative dimension $r$, we have a canonical isomorphism $Grass^{n}(\mathbb{P})
@@ -377,7 +366,7 @@ preferable to prove (5.2.6) at the same time, where, of course, $\dim X - 1$
 
 <!-- original page 44 -->
 
-is replaced by $\dim X - m$ (and where, by implication, dimension `< 0` in the formula means that the considered set is
+is replaced by $\dim X - m$ (and where, by implication, dimension $< 0$ in the formula means that the considered set is
 empty).
 
 Corollary (5.2.3) is read by replacing "finite" by "of dimension $\leq m - 1$". Corollary (5.2.4) is similar. The same
@@ -413,7 +402,7 @@ that we have an $F$-regular sequence of $m$ sections of $\mathcal{O}_{X}$ (and i
 is independent of the chosen basis). In the case $m = 1$ we have the intrinsic, evident interpretation mentioned in
 (5.5.2). With this language convention, (5.5.3) remains valid as such; the same is true of (5.5.4).
 
-The first part of Remark (5.5.5) admits a generalization to the case of arbitrary $m$: if `F_S` satisfies $(S_{m})$,
+The first part of Remark (5.5.5) admits a generalization to the case of arbitrary $m$: if $F_{S}$ satisfies $(S_{m})$,
 then the regularity condition mentioned for $\phi_{\xi}$ can be expressed in a purely dimensional manner.
 
 The second part of Remark (5.5.5) is valid as such for any $m$. Theorem (5.5.6) extends as such; so does (5.5.7).
@@ -472,23 +461,21 @@ This study would form one of the numbers of a "geometric" paragraph devoted to G
 If we also define $V^{(k)}$ as the subscheme of $X^{(m)}$ corresponding to $\dim T_{x} \cap L \geq n - m + k$, we find
 by an immediate calculation that
 
-```text
-  dim Grass_m(ℙ) − dim V^{(k)} = (k − 1)(n − m) + k²
-```
+$$ \dim Grass_{m}(\mathbb{P}) - \dim V^{(k)} = (k - 1)(n - m) + k^{2} $$
 
 at least for the reasonable restrictions $k \leq m$, $k \leq r - m$, up to an error of calculation. (N.B.: this follows
 more generally from a calculation of the dimensions of the "cells" entering into the filtration of the Grassmannian
 alluded to above.)
 
-For $k = 2$, we find a difference of dimension $\geq 4$, so that the image of $V''$ in `Grass`[^v-5p2-27] is of
-codimension $\geq 4$. Hence, if we are interested in what happens outside of subsets of `Grass` of codimension $\geq 2$,
+For $k = 2$, we find a difference of dimension $\geq 4$, so that the image of $V''$ in $Grass$[^v-5p2-27] is of
+codimension $\geq 4$. Hence, if we are interested in what happens outside of subsets of $Grass$ of codimension $\geq 2$,
 we may forget $V''$.
 
 On the other hand, in $X \times Grass_{m} - V''$ over $Grass_{m}$, the situation is the one of the good case anticipated
 in the supplements to §V.5.16. Relative to the base scheme $S$: $V' - V''$ is indeed smooth over $S$ (being such over
 $X$), of relative dimension equal to one less than that of $Grass_{m}$ over $S$ (as we see by putting $k = 1$ in the
 above formula). Thus the results of *loc. cit.* apply; in particular we find that the set of supersingular points of
-$\phi_{m}$ relative to $Grass_{m}$ is nothing other than $V'' \cup V_{2}$, where `V_2` is the subprescheme of
+$\phi_{m}$ relative to $Grass_{m}$ is nothing other than $V'' \cup V_{2}$, where $V_{2}$ is the subprescheme of
 ramification of $V' - V'' \to Grass_{m}$. We may therefore say that outside of $V''$, the supersingular zeros result
 from the coalescence of at least two ordinary singular zeros (but we do not have to say this).
 
@@ -528,7 +515,7 @@ is exactly one non-smooth point in $X^{(m)}_{\xi}$, and the latter is rational o
 statement that we assume $X \to \mathbb{P}$ unramified and that we have to initially replace $f$ by $\phi_{n} \circ f$,
 $n \geq 2$ (where $\phi_{n}$ is defined in (5.9.1)). The most natural way of proving this statement seems to be to use
 the subscheme $Z$ (denoted $T$ in (5.8.8)) of $Grass_{m}$ such that $X^{(m)}$ is "singular": we see that, under the
-given conditions, it is geometrically irreducible of codimension one and that the subscheme `Z_1` corresponding to
+given conditions, it is geometrically irreducible of codimension one and that the subscheme $Z_{1}$ corresponding to
 $X^{(m)}$ supersingular is nowhere dense.
 
 It remains, therefore, to prove a lemma of the following nature: let $Z$ be a closed subset of $Grass_{m}$ of
@@ -549,12 +536,10 @@ Let $C = \mathbb{P}(F)$ be a linear subvariety of $\mathbb{P}(\mathcal{E}) = \ma
 rank $r - m$, with $F = \mathcal{E}/G$ where $G$ is locally free of rank $m + 1$. We have defined in the algebraic way
 of Chapter II a morphism
 
-```text
-  p_C : ℙ − C = ℙ(ℰ) − ℙ(ℰ/G) ⟶ ℙ(G),
-```
+$$ p_{C} : \mathbb{P} - C = \mathbb{P}(\mathcal{E}) - \mathbb{P}(\mathcal{E}/G) \longrightarrow \mathbb{P}(G), $$
 
 which we shall interpret geometrically and which will be called (because of the description that follows) the **conic
-projection with centre $C$**. (N.B.: we assume $r - m - 1$ lies between $-1$ and $r - 1$, i.e. $m$ is between `0` and
+projection with centre $C$**. (N.B.: we assume $r - m - 1$ lies between $-1$ and $r - 1$, i.e. $m$ is between $0$ and
 $r$, nothing more.) For this, let us begin by interpreting $\mathbb{P}(G)$ as a closed subscheme of
 $Grass_{m}(\mathbb{P}) = Grass_{r-m+1}(\mathcal{E})$ via the obvious homomorphism of functors $\mathbb{P}(G) \to
 Grass_{r-m+1}(\mathcal{E})$ obtained by considering, for every invertible quotient $G/G'$ of $G$, the locally free
@@ -567,9 +552,7 @@ subvarieties $L$ of the desired dimension of $\mathbb{P}$ that contain $C$. Let 
 case we are studying (i.e. for the dimensions specified above), and identifying $\mathbb{P}(G)$ with $Q(C)$, the conic
 projection morphism
 
-```text
-  p_C : ℙ − C ⟶ Q(C) ⊂ Grass_m(ℙ)
-```
+$$ p_{C} : \mathbb{P} - C \longrightarrow Q(C) \subset Grass_{m}(\mathbb{P}) $$
 
 is nothing other than the one which associates with every section of $\mathbb{P} - C$ the unique linear subvariety $L$
 of $\mathbb{P}$ of codimension $m$ containing both $C$ and the given section (note, of course, that "containing a
@@ -577,9 +560,7 @@ section" means that the section factors through $L$).
 
 If now we have $f : X \to \mathbb{P}$, it makes sense to consider the composition
 
-```text
-  X − f^{−1}(C) ⟶ ℙ − C ⟶ Q(C),
-```
+$$ X - f^{-1}(C) \longrightarrow \mathbb{P} - C \longrightarrow Q(C), $$
 
 which we may call the **conic projection of $X$ relative to $f$ and with centre $C$**, denoted $p^{X}_{C}$ or simply
 $p_{C}$. We point out that it is not in general defined on all of $X$; precisely, it is so if and only if $f^{-1}(C) =
@@ -590,20 +571,17 @@ $p_{C}$. We point out that it is not in general defined on all of $X$; precisely
 give another interpretation of this morphism in terms of constructions used in previous numbers. For this, with the
 notations introduced elsewhere, consider
 
-```text
-                   q
-       X ⟵──── X^{(m)}_{Q(C)} = X^{(m)} ×_{Grass_m} Q(C)
-                              │
-                              │ p
-                              ↓
-                            Q(C).
-```
+$$
+\begin{array}{ccc}
+X & \xleftarrow{q} & X^{(m)}_{Q(C)} = X^{(m)} \times_{Grass_{m}} Q(C) \\
+& & \downarrow{\scriptstyle p} \\
+& & Q(C).
+\end{array}
+$$
 
 Note on the other hand that $q$ induces an isomorphism
 
-```text
-  q′ : q^{−1}(X − f^{−1}(C)) ⟶ X − f^{−1}(C)
-```
+$$ q' : q^{-1}(X - f^{-1}(C)) \longrightarrow X - f^{-1}(C) $$
 
 and it is immediate that $p_{C}$ is nothing other than $p' \circ q'^{-1}$, where $p'$ is the restriction of $p$ to
 $q^{-1}(X - f^{-1}(C))$. We may therefore say, using $q'$ to identify purely and simply, that $p_{C}$ is the restriction
@@ -663,11 +641,11 @@ In case (a) we have already seen (I hope) that for every point $\xi$ of $Grass_{
 $X^{(m)}_{\xi}$ is at least equal to $\dim X - m$; this is so in particular if $\xi$ gives a point of $Q(C_{\eta})$. For
 the opposite inequality, note that (working over the field $k' = k(\xi)$) since $C_{\eta} \times_{k} k' \subset L_{\xi}$
 is a hyperplane of $L_{\xi}$, the dimension of $X^{(m)} = X \times_{\mathbb{P}} C_{\eta}$ is $\geq \dim X - m$ (since
-the base change $k(\eta) \to k'$ transforms the latter prescheme into `(X ×_ℙ L_ξ) ×_{L_ξ} (C_{η,k′}))`; otherwise we
-would have, in the contrary case, $\dim X^{(m+1)} = \dim X - m - 1$ by §V.5.2 (reviewed in §V.5.10). Case (b) is treated
-analogously: if we have $\dim X_{\mathbb{P}} \times L \geq d + 1$, or what is the same, $\dim f_{k'}(X_{k'}) \cap L \geq
-1$, then we would have by the same argument as above that $X^{(m+1)} \neq \emptyset$, contrary to what we have remarked
-before (5.14.1).
+the base change $k(\eta) \to k'$ transforms the latter prescheme into $(X \times_{\mathbb{P}} L_{\xi}) \times_{L_{\xi}}
+(C_{\eta,k'}))$; otherwise we would have, in the contrary case, $\dim X^{(m+1)} = \dim X - m - 1$ by §V.5.2 (reviewed in
+§V.5.10). Case (b) is treated analogously: if we have $\dim X_{\mathbb{P}} \times L \geq d + 1$, or what is the same,
+$\dim f_{k'}(X_{k'}) \cap L \geq 1$, then we would have by the same argument as above that $X^{(m+1)} \neq \emptyset$,
+contrary to what we have remarked before (5.14.1).
 
 **Corollary (5.14.2).**
 
@@ -694,7 +672,7 @@ For the proof compare the remark above on page 21, before §V.5.5,[^v-5p2-34] wh
 (including (5.14.3)?), taking into account that the $C^{(m)}_{\xi}$ for $\xi \in \phi(\eta)$ are $F_{k(\eta)}$-regular.
 
 This corollary must be modified, but for simplicity we may assume that $f$ is quasi-finite. If $F$ is a Cohen-Macaulay
-module over $X$ and if, for every irreducible component $Z$ of `Supp F`, we have $\dim Z \geq m$, then
+module over $X$ and if, for every irreducible component $Z$ of $\operatorname{Supp} F$, we have $\dim Z \geq m$, then
 $\widetilde{F}(C_{\eta})$ is Cohen-Macaulay and a fortiori flat relative to $\phi(C_{\eta})$.
 
 We note that we cannot replace, to obtain the same conclusion $p_{C}$ flat, the Cohen-Macaulay hypothesis on $X$ by a
@@ -703,7 +681,7 @@ dimension $m$, so that $p_{C}$ is quasi-finite, and since $X_{k(\eta)}$ and $\ph
 dimension and the second one is regular, $p_{C}$ cannot be flat unless $X_{k(\eta)}$ is Cohen-Macaulay.
 
 More delicate are the differential properties of the conic projection, notably for $X$ smooth over $k$ and $f : X \to
-\mathbb{P}$ unramified, studied in §V.5.12. Let us recall that outside of a subset $Z$ of codimension `1` of $Q(C)$, the
+\mathbb{P}$ unramified, studied in §V.5.12. Let us recall that outside of a subset $Z$ of codimension $1$ of $Q(C)$, the
 morphism $p_{C_{\eta}}$ over $\widetilde{X}(C_{\eta})$ is smooth. A more detailed analysis summarized in §V.5.12 shows
 (or will show, if we do not do it) that if the dimensions of the components of $X$ are $\geq m$, then outside of a
 subset $Z' \subset Z$ of $Q(C)$ of codimension $\geq 2$, the fibres $p^{-1}_{C}(\xi) = X^{(m)}_{\xi}$ can only have at
@@ -729,21 +707,19 @@ Then:*
 
 *injective". If, in addition, $Y$ is a closed subset of $X$ of dimension $\leq m - 1$, then*
 
-```text
-  p_{C_η}^{−1}(p_{C_η}(Y_{k(η)})) ∩ T_{k(η)} = ∅.
-```
+$$ p_{C_{\eta}}^{-1}(p_{C_{\eta}}(Y_{k(\eta)})) \cap T_{k(\eta)} = \emptyset. $$
 
-*(b) If `X` is smooth at the points of `T`, then `p_{C_η}` is unramified at all the points of `T_{k(η)}` (and at the
-points of `p_{C_η}^{−1}(p_{C_η}(T_{k(η)}))`).*[^v-5p2-36]
+*(b) If $X$ is smooth at the points of $T$, then $p_{C_{\eta}}$ is unramified at all the points of $T_{k(\eta)}$ (and at
+the points of $p_{C_{\eta}}^{-1}(p_{C_{\eta}}(T_{k(\eta)}))$).*[^v-5p2-36]
 
 **Proposition (5.14.5).**
 
 <!-- label: V.5.14.5 -->
 
-*Suppose that `dim X ≤ m − 1`, `f : X → ℙ` is an immersion, and finally `X` is separable over `k`. Let `Y_η` be the
-scheme-theoretic image of `X_{k(η)}` in `Q(C_η)`. Then the induced morphism `p_{C_η} : X_{k(η)} → Y_η` is birational
-and, for every point `x` of `X_{k(η)}` over a closed point of `X`, `p_{C_η}` is étale at `x` and at the points of
-`p_{C_η}^{−1}(p_{C_η}(x))`.*
+*Suppose that $\dim X \leq m - 1$, $f : X \to \mathbb{P}$ is an immersion, and finally $X$ is separable over $k$. Let
+$Y_{\eta}$ be the scheme-theoretic image of $X_{k(\eta)}$ in $Q(C_{\eta})$. Then the induced morphism $p_{C_{\eta}} :
+X_{k(\eta)} \to Y_{\eta}$ is birational and, for every point $x$ of $X_{k(\eta)}$ over a closed point of $X$,
+$p_{C_{\eta}}$ is étale at $x$ and at the points of $p_{C_{\eta}}^{-1}(p_{C_{\eta}}(x))$.*
 
 Note the following consequence:
 
@@ -751,53 +727,57 @@ Note the following consequence:
 
 <!-- label: V.5.14.6 -->
 
-*Let `X` be a projective algebraic scheme, irreducible and separable of dimension `n`, over an infinite field `k`. Then
-there exists a birational morphism of `X` onto a hypersurface in `ℙ^{n+1}`.*
+*Let $X$ be a projective algebraic scheme, irreducible and separable of dimension $n$, over an infinite field $k$. Then
+there exists a birational morphism of $X$ onto a hypersurface in $\mathbb{P}^{n+1}$.*
 
-We must avoid believing — even if `X` is a closed smooth geometrically irreducible subset of `ℙ` of dimension
-`m − 1 = n` — that the conic projection `p_C` is necessarily an immersion. Indeed, if `k` is infinite, this would imply
-that there exists a `C` rational over `k` having the same property, i.e. that `X` is isomorphic to a non-singular
-hypersurface in `ℙ^{n+1}`. But already for `n = 1` (so `X` an algebraic projective curve, smooth and connected over an
-algebraically closed field), it is easy to construct examples where `X` cannot be embedded (*ne peut s'immerger*) in a
-`ℙ²`. Also, in (5.14.4) we must avoid confusing the given statement with the assertion (in general false) that `p_C` is
-itself a monomorphism (preceding counterexample, if `X` is smooth of dimension `m`), or that `p_C` should be unramified.
-For the latter point, to convince ourselves take `X` a closed smooth subscheme, irreducible and of dimension `m` (over
-`k` algebraically closed), such that we have an `X → Q ≅ ℙ^m` unramified: it will be étale for reasons of dimension, but
-we can prove (see Ch. VIII) that this implies `X ≅ ℙ^m` (`ℙ^m` being simply connected). The intuitive geometric meaning
-of (5.14.4) is that the ramification set of `p_{C_η}` is "variable" over `k`; more precisely, the ramification set of
-`p_{C_ξ}`, for a variable `ξ` in an open set of `Grass_{m+1}(\overline{k})`, varies in `X(\overline{k})` and does not
-admit any "fixed point". Of course, to justify in the present section the passage from `η` generic to neighbouring
-points of `Grass_{m+1}(ℙ)`, and also if needed to be able to assume responsibility for the general considerations of
+We must avoid believing — even if $X$ is a closed smooth geometrically irreducible subset of $\mathbb{P}$ of dimension
+$m - 1 = n$ — that the conic projection $p_{C}$ is necessarily an immersion. Indeed, if $k$ is infinite, this would
+imply that there exists a $C$ rational over $k$ having the same property, i.e. that $X$ is isomorphic to a non-singular
+hypersurface in $\mathbb{P}^{n+1}$. But already for $n = 1$ (so $X$ an algebraic projective curve, smooth and connected
+over an algebraically closed field), it is easy to construct examples where $X$ cannot be embedded (*ne peut
+s'immerger*) in a $\mathbb{P}^{2}$. Also, in (5.14.4) we must avoid confusing the given statement with the assertion (in
+general false) that $p_{C}$ is itself a monomorphism (preceding counterexample, if $X$ is smooth of dimension $m$), or
+that $p_{C}$ should be unramified. For the latter point, to convince ourselves take $X$ a closed smooth subscheme,
+irreducible and of dimension $m$ (over $k$ algebraically closed), such that we have an $X \to Q \cong \mathbb{P}^{m}$
+unramified: it will be étale for reasons of dimension, but we can prove (see Ch. VIII) that this implies $X \cong
+\mathbb{P}^{m}$ ($\mathbb{P}^{m}$ being simply connected). The intuitive geometric meaning of (5.14.4) is that the
+ramification set of $p_{C_{\eta}}$ is "variable" over $k$; more precisely, the ramification set of $p_{C_{\xi}}$, for a
+variable $\xi$ in an open set of $Grass_{m+1}(\overline{k})$, varies in $X(\overline{k})$ and does not admit any "fixed
+point". Of course, to justify in the present section the passage from $\eta$ generic to neighbouring points of
+$Grass_{m+1}(\mathbb{P})$, and also if needed to be able to assume responsibility for the general considerations of
 §V.5.7.1, we have to consider the diagram
 
-```text
-       X ⟵───── \widetilde{X}(C)
-       │              │
-       ↓              ↓
-       X ⟵───── Q(C)
-````
+$$
+\begin{array}{ccc}
+X & \longleftarrow & \widetilde{X}(C) \\
+\downarrow & & \downarrow \\
+X & \longleftarrow & Q(C)
+\end{array}
+$$
 
 <!-- original page 53 -->
 
 obtained, with the help of the different $C \in Grass_{m+1}(S)$, and more generally those obtained after a base change
 $T \to S$ for the points $\xi \in Grass_{m+1}(\mathbb{P})$:
 
-```text
-       X_T ⟵───── \widetilde{X}(C_ξ) = X_T(C_ξ)
-        │              │
-        ↓              ↓
-        T  ⟵───── Q(C_ξ)
-```
+$$
+\begin{array}{ccc}
+X_{T} & \longleftarrow & \widetilde{X}(C_{\xi}) = X_{T}(C_{\xi}) \\
+\downarrow & & \downarrow \\
+T & \longleftarrow & Q(C_{\xi})
+\end{array}
+$$
 
 as deduced by the base change $\xi : T \to Grass_{m+1}(\mathbb{P}) = \tilde{T}$, from the universal diagram (relative to
 the canonical point of $Grass_{m+1}$ in $\tilde{T}$):
 
-```text
-       X_T̃ ⟵───── \widetilde{X}(C)
-         │              │
-         ↓              ↓
-         T̃  ⟵───── Q(C)
-```
+$$
+\begin{array}{ccc}
+X_{\tilde{T}} & \longleftarrow & \widetilde{X}(C) \\
+\downarrow & & \downarrow \\
+\tilde{T} & \longleftarrow & Q(C)
+\end{array}
+$$
 
 where $C$ is the canonical linear subvariety of $\mathbb{P}_{\tilde{T}}$. Then the above $\widetilde{X}(C_{\eta}) \to
 Q(C_{\eta})$ is nothing other than the morphism of generic fibres for the $\tilde{T}$-morphism $\widetilde{X}(C) \to
@@ -805,9 +785,7 @@ Q(C)$ of the latter diagram, and every constructible property for the morphism o
 property for neighbouring fibres. From the notational point of view, $Q$ should be considered (and even introduced) as
 the name of the natural morphism of functors
 
-```text
-  Grass_{m+1}(ℙ) ⟶ {subschemes of Grass_m(ℙ)}.
-```
+$$ Grass_{m+1}(\mathbb{P}) \longrightarrow \{\text{subschemes of } Grass_{m}(\mathbb{P})\}. $$
 
 ## V.5.15. Axiomatization of certain of the previous results
 
@@ -822,12 +800,13 @@ the name of the natural morphism of functors
 
 We start from a commutative diagram of morphisms of finite presentation
 
-```text
-       𝒫 ⟵────── 𝒫̃
-       │              │
-       ↓              ↓
-       S ⟵────── G
-```
+$$
+\begin{array}{ccc}
+\mathcal{P} & \longleftarrow & \tilde{\mathcal{P}} \\
+\downarrow & & \downarrow \\
+S & \longleftarrow & G
+\end{array}
+$$
 
 <!-- original page 59 -->
 
@@ -846,12 +825,13 @@ above).
 If $f : X \to \mathcal{P}$ is a morphism, we put $\tilde{X} = X \times_{\mathcal{P}} \tilde{\mathcal{P}}$, and we obtain
 a diagram of the same type as the preceding square:
 
-```text
-       X ⟵────── X̃
-       │              │
-       ↓              ↓
-       S ⟵────── G.
-```
+$$
+\begin{array}{ccc}
+X & \longleftarrow & \tilde{X} \\
+\downarrow & & \downarrow \\
+S & \longleftarrow & G.
+\end{array}
+$$
 
 It is evident that all the questions studied in §§V.5.2 to V.5.8 retain meaning in the general context just enunciated,
 and there is good reason to disentangle[^v-5p2-39] the axiomatic conditions that ensure the conclusions drawn in the
@@ -875,24 +855,24 @@ $\mathcal{P}$ of dimension $m$, $\tilde{Z}_{\eta} \neq \emptyset$.
 <!-- original page 60 -->
 
 Let us again take a closed subset $Z$ of $X$ such that $\dim f(Z) \geq m$; we see that $\tilde{Z}_{\eta} \to G$ is
-dominant and consequently $\tilde{Z}$ is of dimension equal to `dim Z̃ − dim G = dim Z̃ − m`. These properties allow us to
-develop in the present context the results corresponding to (5.2.1) and (5.2.11). There is a condition over[^v-5p2-41]
-(insuring the validity of (5.2.12), i.e. that if $X$ is smooth then $\tilde{X}$ is also such if we assume $f : X \to
-\mathcal{P}$ unramified). We assume now that $\mathcal{P}$ is smooth over $k$, $\tilde{\mathcal{P}} \to \mathcal{P}_{k}
-\times G$ quasi-finite, and that the following condition is satisfied (where we assume $k$ algebraically closed): for
-every $x \in \mathcal{P}(k)$ and for every vector subspace $V$ of dimension $n \geq m$ of the tangent space
-$T_{x}(\mathcal{P})$ to $\mathcal{P}$ at $x$, we consider the set $E(x, V)$ of $\xi \in G(k)$ such that
-$\tilde{\mathcal{P}}$ has a point over $x$ not satisfying the following set of conditions: $\tilde{\mathcal{P}}_{\xi}$
-is smooth at $z$, the tangent morphism of $\tilde{\mathcal{P}}_{\xi} \to \mathcal{P}$ at $z$ mapping
-$T_{z}(\tilde{\mathcal{P}}) \to T_{x}(\mathcal{P})$ is injective (i.e. $\tilde{\mathcal{P}}_{\xi} \to \mathcal{P}$
-unramified at $z$), and its image is "transversal" to $V$, i.e. its sum with $V$ is $T_{x}(\mathcal{P})$. Then $E(x, V)$
-(which we know to be the trace of a constructible well-defined set of $G$ in $G(k)$) is of dimension $\leq N - n - 1$.
-Using[^v-5p2-42] this condition, an application of the Jacobian criterion and a dimension count shows that the closed
-subset $E$ of points $x$ of $\tilde{X}$ such that $\tilde{X} \to G$ is non-smooth at $x$, or $\tilde{\mathcal{P}} \to G$
-is not smooth at $f(x)$, or $\tilde{\mathcal{P}} \to \mathcal{P}$ is ramified at $f(x)$, is of dimension $\leq n + (N -
-n - 1) = N - 1$ ($X$ being smooth everywhere of dimension $n$). Therefore $\dim E < N = \dim G$, so that $E_{\eta} =
-\emptyset$ and a fortiori $\tilde{X}_{\eta}$ is smooth over $k(\eta)$, and the developments of §V.5.5 are evidently
-valid in this current context.
+dominant and consequently $\tilde{Z}$ is of dimension equal to $\dim \tilde{Z} - \dim G = \dim \tilde{Z} - m$. These
+properties allow us to develop in the present context the results corresponding to (5.2.1) and (5.2.11). There is a
+condition over[^v-5p2-41] (insuring the validity of (5.2.12), i.e. that if $X$ is smooth then $\tilde{X}$ is also such
+if we assume $f : X \to \mathcal{P}$ unramified). We assume now that $\mathcal{P}$ is smooth over $k$,
+$\tilde{\mathcal{P}} \to \mathcal{P}_{k} \times G$ quasi-finite, and that the following condition is satisfied (where we
+assume $k$ algebraically closed): for every $x \in \mathcal{P}(k)$ and for every vector subspace $V$ of dimension $n
+\geq m$ of the tangent space $T_{x}(\mathcal{P})$ to $\mathcal{P}$ at $x$, we consider the set $E(x, V)$ of $\xi \in
+G(k)$ such that $\tilde{\mathcal{P}}$ has a point over $x$ not satisfying the following set of conditions:
+$\tilde{\mathcal{P}}_{\xi}$ is smooth at $z$, the tangent morphism of $\tilde{\mathcal{P}}_{\xi} \to \mathcal{P}$ at $z$
+mapping $T_{z}(\tilde{\mathcal{P}}) \to T_{x}(\mathcal{P})$ is injective (i.e. $\tilde{\mathcal{P}}_{\xi} \to
+\mathcal{P}$ unramified at $z$), and its image is "transversal" to $V$, i.e. its sum with $V$ is $T_{x}(\mathcal{P})$.
+Then $E(x, V)$ (which we know to be the trace of a constructible well-defined set of $G$ in $G(k)$) is of dimension
+$\leq N - n - 1$. Using[^v-5p2-42] this condition, an application of the Jacobian criterion and a dimension count shows
+that the closed subset $E$ of points $x$ of $\tilde{X}$ such that $\tilde{X} \to G$ is non-smooth at $x$, or
+$\tilde{\mathcal{P}} \to G$ is not smooth at $f(x)$, or $\tilde{\mathcal{P}} \to \mathcal{P}$ is ramified at $f(x)$, is
+of dimension $\leq n + (N - n - 1) = N - 1$ ($X$ being smooth everywhere of dimension $n$). Therefore $\dim E < N = \dim
+G$, so that $E_{\eta} = \emptyset$ and a fortiori $\tilde{X}_{\eta}$ is smooth over $k(\eta)$, and the developments of
+§V.5.5 are evidently valid in this current context.
 
 The passage in §V.5.4 from a generic section to a general section, and the developments of §V.5.5, are evidently valid
 in the present context (but at this point are tautologies, or a reformulation of §§V.5.8, V.5.9, V.5.12 which we
@@ -911,7 +891,7 @@ recommendations, but I am ready to come back to them in more detail if you have 
 
 ______________________________________________________________________
 
-[^v-5p2-1]: Translator's note: Blass marks the right-hand side of this identity as illegible ("Illegible⁵²"). The
+[^v-5p2-1]: Translator's note: Blass marks the right-hand side of this identity as illegible ("Illegible$^{52}$"). The
     identification $p_{*}(\mathcal{O}_{\mathbb{P}}(n)) \cong Sym^{n}(\mathcal{E})$ is the standard EGA II computation
     (cf. EGA II §2.1.15); we resolve the illegible marker accordingly.
 
@@ -999,7 +979,7 @@ ______________________________________________________________________
     we render "notch".
 
 [^v-5p2-27]: Translator's note: Blass writes "(illegible ask AG)" after "Grass". The clause concerns the image of $V''$
-    in `Grass`; the PDF does not resolve the illegible mark, but the meaning is unambiguous.
+    in $Grass$; the PDF does not resolve the illegible mark, but the meaning is unambiguous.
 
 [^v-5p2-28]: Translator's note: Blass writes "[illegible]" here; the PDF resolves the surrounding context but not the
     exact word. We translate the substance.
@@ -1044,5 +1024,6 @@ ______________________________________________________________________
 [^v-5p2-42]: Translator's note: Blass writes "[(Moyennant)]" — the French *moyennant* ("by means of", "using") is a
     Grothendieckian connective; we render "using".
 
-[^v-5p2-36]: Translator's note: Blass writes "[illegible, ask A.G.]" after "Tr\_{k(η)}" and follows with the additional
-    clause $p^{-1}_{C_{\eta}}(p_{C_{\eta}}(T_{k(\eta)}))$. We integrate the additional clause as a natural extension.
+[^v-5p2-36]: Translator's note: Blass writes "[illegible, ask A.G.]" after "$\operatorname{Tr}_{k(\eta)}$" and follows
+    with the additional clause $p^{-1}_{C_{\eta}}(p_{C_{\eta}}(T_{k(\eta)}))$. We integrate the additional clause as a
+    natural extension.
