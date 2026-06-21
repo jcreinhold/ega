@@ -49,9 +49,7 @@ extension $g : S' \to S$ of the base prescheme.*
 
 *(iv) If $f : X \to X'$ and $g : Y \to Y'$ are two quasi-compact $S$-morphisms,*
 
-```text
-  f ×_S g : X ×_S Y → X' ×_S Y'
-```
+$$ f \times_{S} g : X \times_{S} Y \to X' \times_{S} Y' $$
 
 *is quasi-compact.*
 
@@ -147,16 +145,14 @@ $g : S' \to S$, the morphism $f_{(S')} : X_{(S')} \to Y_{(S')}$ is quasi-separat
 
 *(iv) If $f : X \to Y$, $f' : X' \to Y'$ are two quasi-separated $S$-morphisms, then*
 
-```text
-  f ×_S f' : X ×_S X' → Y ×_S Y'
-```
+$$ f \times_{S} f' : X \times_{S} X' \to Y \times_{S} Y' $$
 
 *is quasi-separated.*
 
 *(v) If $f : X \to Y$, $g : Y \to Z$ are two morphisms such that $g \circ f$ is quasi-separated, then $f$ is
 quasi-separated.*
 
-*(vi) If $f : X \to Y$ is a quasi-separated morphism, then `f_red : X_red → Y_red` is quasi-separated.*
+*(vi) If $f : X \to Y$ is a quasi-separated morphism, then $f_{red} : X_{red} \to Y_{red}$ is quasi-separated.*
 
 By virtue of `(I, 5.5.12)`, it suffices to prove (i), (ii), and (iii).
 
@@ -165,13 +161,13 @@ the case where $Y = S$ `(I, 3.3.11)`, and the assertion results from the fact th
 `(I, 5.3.4)` and from `(1.1.2, (iii))`. To prove (ii), consider the projections $p$ and $q$ from $X \times_{Y} X$ onto
 $X$; if $i = (p, q)_{Z}$, one knows that the diagram
 
-```text
-  X ×_Y X  ──i──→  X ×_Z X
-    │                │
-    π│              │f ×_Z f
-    ↓                ↓
-    Y    ──Δ_g──→  Y ×_Z Y
-```
+$$
+\begin{array}{ccc}
+X \times_{Y} X & \xrightarrow{i} & X \times_{Z} X \\
+\downarrow{\scriptstyle \pi} & & \downarrow{\scriptstyle f \times_{Z} f} \\
+Y & \xrightarrow{\Delta_{g}} & Y \times_{Z} Y
+\end{array}
+$$
 
 (where $\pi$ is the structure morphism) is commutative and identifies $X \times_{Y} X$ with the product of the $(Y
 \times_{Z} Y)$-preschemes $Y$ and $X \times_{Z} X$ `(I, 5.3.5)`. If $g$ is quasi-separated, $\Delta_{g}$ is
@@ -204,13 +200,14 @@ One knows that $f$ is the composite morphism $X \xrightarrow{\Gamma_{f}} X \time
 `(I, 5.3.13)`; on the other hand, $pr_{2}$ identifies with $(g \circ f) \times_{Z} 1_{Y}$ `(I, 3.3.4)`, and if $g \circ
 f$ is quasi-compact, then so is $pr_{2}$ `(1.1.2, (iv))`. Finally, one has the commutative diagram
 
-```text
-  X        ──Γ_f──→  X ×_Z Y                                    (1.2.4.1)
-  │                    │
-  f│                  │f × 1_Y
-  ↓                    ↓
-  Y        ──Δ_g──→  Y ×_Z Y
-```
+$$
+\begin{array}{ccc}
+X & \xrightarrow{\Gamma_{f}} & X \times_{Z} Y \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle f \times 1_{Y}} \\
+Y & \xrightarrow{\Delta_{g}} & Y \times_{Z} Y
+\end{array}
+\tag{1.2.4.1}
+$$
 
 which identifies $X$ with the product of the $(Y \times_{Z} Y)$-preschemes $Y$ and $X \times_{Z} Y$ `(I, 5.3.7)`. Since
 by hypothesis $\Delta_{g}$ is a quasi-compact morphism, so is $\Gamma_{f}$ `(1.1.2, (iii))`; the conclusion therefore
@@ -503,13 +500,13 @@ consequently `(1.4.1)`, $A \otimes_{B'} B_{s}$ is a $C$-algebra of finite presen
 
 One knows that (iv) results from (i), (ii), and (iii) `(I, 3.5.1)`. To prove (v), consider the commutative diagram
 
-```text
-  X        ──Γ_f──→  X ×_Z Y
-  │                    │
-  f│                  │f × 1
-  ↓                    ↓
-  Y        ──Δ_g──→  Y ×_Z Y
-```
+$$
+\begin{array}{ccc}
+X & \xrightarrow{\Gamma_{f}} & X \times_{Z} Y \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle f \times 1} \\
+Y & \xrightarrow{\Delta_{g}} & Y \times_{Z} Y
+\end{array}
+$$
 
 which identifies $X$ with the product of the $(Y \times_{Z} Y)$-preschemes $Y$ and $X \times_{Z} Y$ `(I, 5.3.7)`,
 $\Delta_{g}$ being the diagonal morphism. If we know that $\Delta_{g}$ is locally of finite presentation, it will follow
@@ -630,9 +627,9 @@ $\mathfrak{a}$) is the kernel of $w$ (resp. $u$), one has $\mathfrak{a} = v(\mat
 $\mathfrak{a}$ is an ideal of finite type of $B'$, hence an $A$-module of finite type since $B'$ is a finite
 $A$-algebra; since $B'$ is a free $A$-module, $B$ is an $A$-module of finite presentation. Conversely, if $B$ is an
 $A$-module of finite presentation, $\mathfrak{a}$ is an $A$-module of finite type
-`(Bourbaki, Alg. comm., chap. I, §2, n° 8, lemme 9)`, and *a fortiori* an ideal of finite type of $B'$; consequently,
-$B$ is by definition a $B'$-algebra of finite presentation, and since $B'$ is an $A$-algebra of finite presentation, $B$
-is an $A$-algebra of finite presentation.
+`(Bourbaki, Alg. comm., chap. I, §2, n$^{\circ}$ 8, lemme 9)`, and *a fortiori* an ideal of finite type of $B'$;
+consequently, $B$ is by definition a $B'$-algebra of finite presentation, and since $B'$ is an $A$-algebra of finite
+presentation, $B$ is an $A$-algebra of finite presentation.
 
 ## 1.5. Morphisms of finite type
 
@@ -1052,7 +1049,8 @@ $A$ and a prime ideal of $B$, for this will show that $D(g) \subset f(X)$. Final
 homomorphism of $A$ into an algebraically closed field $\Omega$, non-zero on $g$, extends to a homomorphism of $B$ into
 $\Omega$.*
 
-Now, this is a classical result of commutative algebra `(Bourbaki, Alg. comm., chap. V, §3, n° 1, cor. 3 du th. 1)`.
+Now, this is a classical result of commutative algebra
+`(Bourbaki, Alg. comm., chap. V, §3, n$^{\circ}$ 1, cor. 3 du th. 1)`.
 
 **Corollary (1.8.6).**
 
@@ -1066,7 +1064,8 @@ neighbourhood $U'$ of $\eta$ in $Y$ such that $\mathcal{F}_{y} = \mathcal{F} \ot
 for every $y \in U'$.*
 
 If $p_{y}$ is the canonical projection of the fibre $f^{-1}(y) = X \times_{Y} \operatorname{Spec}(k(y))$ into $X$, one
-has $\mathcal{F}_{y} = p^{*}_{y}(\mathcal{F})$, so `Supp(ℱ_y) = p_y⁻¹(Supp(ℱ)) = Supp(ℱ) ∩ f⁻¹(y)` by virtue of
+has $\mathcal{F}_{y} = p^{*}_{y}(\mathcal{F})$, so $\operatorname{Supp}(\mathcal{F}_{y}) =
+p_{y}^{-1}(\operatorname{Supp}(\mathcal{F})) = \operatorname{Supp}(\mathcal{F}) \cap f^{-1}(y)$ by virtue of
 `(I, 9.1.13.1)` and `(I, 3.6.1)`, since $\mathcal{F}$ is of finite type; furthermore $Supp(\mathcal{F})$ is closed in
 $X$ $(0_{I}, 5.2.2)$, and if $Z$ is a closed subprescheme of $X$ having $Supp(\mathcal{F})$ as underlying space
 `(I, 5.2.1)`, and $j$ the canonical immersion $Z \to X$, $f \circ j$ is locally of finite type `(1.3.4)`; this shows
@@ -1146,9 +1145,7 @@ be the morphisms corresponding to the structure homomorphisms $B \to A$, $B \to 
 
 *(ii) One has*
 
-```text
-  u(X) = ⋂_{α ∈ I} u_α(X_α).                                                    (1.9.2.1)
-```
+$$ u(X) = \bigcap_{\alpha \in I} u_{\alpha}(X_{\alpha}). \tag{1.9.2.1} $$
 
 Assertion (i) is nothing but the translation of `(1.9.1)`. To prove (ii), note that, since $u$ factors as $X \to
 X_{\alpha} \xrightarrow{u_{\alpha}} Y$, the first member of `(1.9.2.1)` is contained in the second. Conversely, let $y
@@ -1244,16 +1241,12 @@ It therefore suffices to prove the following lemma:
 finite subset $J$ of $L$, set $A'_{J} = \bigotimes_{\lambda \in J} A'_{\lambda}$ (tensor product of $A$-algebras),
 $X'_{J} = \operatorname{Spec}(A'_{J})$, and let $f_{J} : X'_{J} \to X$ be the structure morphism. One then has*
 
-```text
-  f_J(X'_J) = ⋂_{λ ∈ J} f_λ(X'_λ).
-```
+$$ f_{J}(X'_{J}) = \bigcap_{\lambda \in J} f_{\lambda}(X'_{\lambda}). $$
 
 *If $A' = \varinjlim A'_{J}$, $J$ running over the filtered set of finite parts of $L$, $X' = \operatorname{Spec}(A')$,
 and if $f : X' \to X$ is the structure morphism, one has*
 
-```text
-  f(X') = ⋂_{λ ∈ L} f_λ(X'_λ).
-```
+$$ f(X') = \bigcap_{\lambda \in L} f_{\lambda}(X'_{\lambda}). $$
 
 The first assertion results from `(I, 3.4.7)`; the second results from `(1.9.2, (ii))`, which gives the relation $f(X')
 = \bigcap_{J} f_{J}(X'_{J})$.
@@ -1491,7 +1484,7 @@ $U^{cons}$.*
 Indeed, (i) results from the fact that every open for $\mathcal{T}$ is an open for $\mathcal{T}_{cons}$ `(1.9.6)`, and
 (ii) is a translation of `(1.9.11)`; (iii), (iv), and (v) translate respectively `(1.9.5)`, (vi), (vii), and (viii).
 Finally to prove (vi), it suffices to remark that the canonical injection $j : U \to X$ is locally of finite
-presentation `(1.4.3)`, so `j^cons : U^cons → X^cons` is a continuous open map.
+presentation `(1.4.3)`, so $j^{cons} : U^{cons} \to X^{cons}$ is a continuous open map.
 
 **Proposition (1.9.15).**
 
@@ -1509,7 +1502,7 @@ locally compact and totally disconnected.*
 *(iv) Every point of $X$ admits, for the topology $\mathcal{T}_{cons}$, an open and compact neighbourhood.*
 
 *(v) For a morphism $f : X \to Y$ to be quasi-compact, it is necessary and sufficient that the continuous map
-`f^cons : X^cons → Y^cons` be proper.*
+$f^{cons} : X^{cons} \to Y^{cons}$ be proper.*
 
 (i) Since $\mathcal{T}_{cons}$ is finer than $\mathcal{T}$, it is clear that if $X^{cons}$ is quasi-compact, so is $X$;
 the converse results from `(1.9.9)`.
@@ -1541,19 +1534,17 @@ $\mathcal{T}_{cons}$ being identical to that of $U^{cons}$.
 (v) Suppose $f$ quasi-compact; then one already knows `(1.9.14, (iv))` that $f^{cons}$ is a closed map. Let on the other
 hand $y$ be a point of $Y$, and set
 
-```text
-  Z = f⁻¹(y) = X ×_Y Spec(k(y));
-```
+$$ Z = f^{-1}(y) = X \times_{Y} \operatorname{Spec}(k(y)); $$
 
 $Z$ is quasi-compact `(1.1.2, (iii))` and as the canonical morphism $p : Z \to X$ is injective, it results from (i) and
 from the fact that the map $p^{cons}$ is continuous that the topology induced on $f^{-1}(y)$ by that of $X^{cons}$ makes
 $f^{-1}(y)$ a quasi-compact space. This proves that $f^{cons}$ is a proper map
-`(Bourbaki, Top. gén., chap. I, 3e éd., §10, n° 2, th. 1)`. Conversely, suppose the continuous map $f^{cons}$ is proper,
-and let $V$ be a quasi-compact open of $Y$; if $h : V \to Y$ is the canonical injection, `h^cons : V^cons → Y^cons` is
-continuous and injective and $V^{cons}$ is quasi-compact by (i), so the topology induced on $V$ by that of $Y^{cons}$
-makes $V$ a quasi-compact space. The hypothesis that $f^{cons}$ is proper then entails that the topology induced on
-$f^{-1}(V)$ by that of $X^{cons}$ makes $f^{-1}(V)$ a quasi-compact space `(loc. cit., prop. 6)`, so $f^{-1}(V)$ is also
-a quasi-compact subspace of $X$, which shows that the morphism $f$ is quasi-compact.
+`(Bourbaki, Top. gén., chap. I, 3e éd., §10, n$^{\circ}$ 2, th. 1)`. Conversely, suppose the continuous map $f^{cons}$
+is proper, and let $V$ be a quasi-compact open of $Y$; if $h : V \to Y$ is the canonical injection, $h^{cons} : V^{cons}
+\to Y^{cons}$ is continuous and injective and $V^{cons}$ is quasi-compact by (i), so the topology induced on $V$ by that
+of $Y^{cons}$ makes $V$ a quasi-compact space. The hypothesis that $f^{cons}$ is proper then entails that the topology
+induced on $f^{-1}(V)$ by that of $X^{cons}$ makes $f^{-1}(V)$ a quasi-compact space `(loc. cit., prop. 6)`, so
+$f^{-1}(V)$ is also a quasi-compact subspace of $X$, which shows that the morphism $f$ is quasi-compact.
 
 **(1.9.16)**
 
@@ -1613,8 +1604,8 @@ neighbourhood of $x$ in $X$ is a neighbourhood of $f(x)$ in $Y$.
 *c) For every irreducible closed part $Y'$ of $Y$ containing $y$, there exists an irreducible component of $X' =
 f^{-1}(Y')$ containing $x$ and dominating $Y'$.*
 
-*Then one has the implications a) ⟹ b) ⟺ b') ⟸ c). If in addition $f$ is locally of finite presentation, the four
-conditions are equivalent.*
+*Then one has the implications a) $\Rightarrow$ b) $\Leftrightarrow$ b') $\Leftarrow$ c). If in addition $f$ is locally
+of finite presentation, the four conditions are equivalent.*
 
 By definition of a generization, the image under $f$ of $\operatorname{Spec}(\mathcal{O}_{X,x})$ is always contained in
 $\operatorname{Spec}(\mathcal{O}_{Y,y})$, so b) and b') are equivalent. It is immediate that c) entails b), because if
@@ -1653,15 +1644,15 @@ $\operatorname{Spec}(\mathcal{O}_{Y,f(x)})$.*
 
 *c) For every irreducible closed part $Y'$ of $Y$, every irreducible component of $f^{-1}(Y')$ dominates $Y'$.*
 
-*Then one has the implications a) ⟹ b) ⟺ b') ⟸ c). If in addition $f$ is locally of finite presentation, the four
-conditions are equivalent.*
+*Then one has the implications a) $\Rightarrow$ b) $\Leftrightarrow$ b') $\Leftarrow$ c). If in addition $f$ is locally
+of finite presentation, the four conditions are equivalent.*
 
-To say that $f$ is open means that $f$ is open at every point $x \in X$, so the implications a) ⟹ b) ⟺ b') result from
-the analogous implications in `(1.10.3)`, as does the implication b) ⟹ a) when $f$ is locally of finite presentation.
-The implication c) ⟹ b) also results from the analogous implication in `(1.10.3)`; let us finally prove that b) entails
-c). Indeed, let $x'$ be the generic point of an irreducible component of $f^{-1}(Y')$, and let us show that $y' = f(x')$
-is the generic point of $Y'$. Let `y''` be a generization of $y'$; there exists by hypothesis a generization `x''` of
-$x'$ such that $f(x'') = y''$, and as $x'' \in f^{-1}(Y')$, one has necessarily $x'' = x'$, hence $y'' = y'$, which
-completes the proof.
+To say that $f$ is open means that $f$ is open at every point $x \in X$, so the implications a) $\Rightarrow$ b)
+$\Leftrightarrow$ b') result from the analogous implications in `(1.10.3)`, as does the implication b) $\Rightarrow$ a)
+when $f$ is locally of finite presentation. The implication c) $\Rightarrow$ b) also results from the analogous
+implication in `(1.10.3)`; let us finally prove that b) entails c). Indeed, let $x'$ be the generic point of an
+irreducible component of $f^{-1}(Y')$, and let us show that $y' = f(x')$ is the generic point of $Y'$. Let `y''` be a
+generization of $y'$; there exists by hypothesis a generization `x''` of $x'$ such that $f(x'') = y''$, and as $x'' \in
+f^{-1}(Y')$, one has necessarily $x'' = x'$, hence $y'' = y'$, which completes the proof.
 
 *(To be continued.)*
