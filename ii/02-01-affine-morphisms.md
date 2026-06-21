@@ -30,14 +30,14 @@ $\mathcal{O}_{S}$-module (resp. $\mathcal{O}_{S}$-algebra).
 Let $Y$ be a second $S$-prescheme, $g : Y \to S$ its structure morphism, and $h : X \to Y$ an $S$-morphism, giving the
 commutative diagram
 
-```text
-        h
-   X ─────→ Y                                                            (1.1.2.1)
-    \      /
-   f \    / g
-      ↘  ↙
-       S
-```
+$$
+\begin{array}{ccc}
+X & \xrightarrow{h} & Y \\
+ & {\scriptstyle f}\searrow & \downarrow{\scriptstyle g} \\
+ & & S
+\end{array}
+\tag{1.1.2.1}
+$$
 
 By definition $h = (\psi, \theta)$, where $\theta : \mathcal{O}_{Y} \to h_{*}(\mathcal{O}_{X}) =
 \psi_{*}(\mathcal{O}_{X})$ is a homomorphism of sheaves of rings; we therefore obtain `(0, 4.2.2)` a homomorphism of
@@ -138,9 +138,7 @@ homomorphism $\omega : f_{*}(\mathcal{O}_{X}) \to g_{*}(\mathcal{O}_{Y})$ of $\m
 unique $S$-morphism $h : Y \to X$ via $\mathcal{A}(h) = \omega$. By definition, for every open $U \subset S$, $\omega$
 defines a homomorphism
 
-```text
-  ω_U = Γ(U, ω) : Γ(f⁻¹(U), 𝒪_X) → Γ(g⁻¹(U), 𝒪_Y)
-```
+$$ \omega_U = \Gamma(U, \omega) : \Gamma(f^{-1}(U), \mathcal{O}_X) \to \Gamma(g^{-1}(U), \mathcal{O}_Y) $$
 
 of $\Gamma(U, \mathcal{O}_{S})$-algebras. In particular, taking $U = S$, we obtain a homomorphism $\phi : \Gamma(X,
 \mathcal{O}_{X}) \to \Gamma(Y, \mathcal{O}_{Y})$ of $\Gamma(S, \mathcal{O}_{S})$-algebras, to which corresponds a
@@ -150,12 +148,13 @@ corresponding to the restriction $g^{-1}(U) \to f^{-1}(U)$ of $h$. We may take $
 then if $f = ({}^{a}\rho, \tilde{\rho})$ with $\rho : A \to B$ a ring homomorphism, $f^{-1}(U) = D(\mu)$ for $\mu =
 \rho(\lambda)$, and $\Gamma(f^{-1}(U), \mathcal{O}_{X})$ is the ring of fractions $B_{\mu}$. The diagram
 
-```text
-   B ──────φ─────→ Γ(Y, 𝒪_Y)
-   │                  │
-   ↓                  ↓
-   B_μ ────φ_U───→ Γ(g⁻¹(U), 𝒪_Y)
-```
+$$
+\begin{array}{ccc}
+B & \xrightarrow{\varphi} & \Gamma(Y, \mathcal{O}_Y) \\
+\downarrow & & \downarrow \\
+B_\mu & \xrightarrow{\varphi_U} & \Gamma(g^{-1}(U), \mathcal{O}_Y)
+\end{array}
+$$
 
 commutes, and so does the analogous diagram with $\phi_{U}$ replaced by $\omega_{U}$; the equality $\phi_{U} =
 \omega_{U}$ then follows from the universal property of rings of fractions `(0, 1.2.4)`.
@@ -378,18 +377,16 @@ $g : Y \to S$, $f : X \to Y$, $f' : X' \to Y$ be the structure morphisms, so tha
 
 $h : Z \to S$ equals $g \circ f \circ p = g \circ f' \circ p'$. We define a canonical homomorphism
 
-```text
-  𝒜(ℱ) ⊗_{𝒜(Y)} 𝒜(ℱ') → 𝒜(ℱ ⊗_Y ℱ')
-```
+$$ \mathcal{A}(\mathcal{F}) \otimes_{\mathcal{A}(Y)} \mathcal{A}(\mathcal{F}') \to \mathcal{A}(\mathcal{F} \otimes_Y
+\mathcal{F}') $$
 
 as follows: for every open $U \subset S$, the canonical homomorphisms $\Gamma(f^{-1}(g^{-1}(U)), \mathcal{F}) \to
 \Gamma(h^{-1}(U), p*(\mathcal{F}))$ and $\Gamma(f'^{-1}(g^{-1}(U)), \mathcal{F}') \to \Gamma(h^{-1}(U),
 p'*(\mathcal{F}'))$ `(0, 4.4.3)` give a canonical homomorphism
 
-```text
-  Γ(f⁻¹(g⁻¹(U)), ℱ) ⊗_{Γ(g⁻¹(U), 𝒪_Y)} Γ(f'⁻¹(g⁻¹(U)), ℱ')
-    → Γ(h⁻¹(U), p*(ℱ)) ⊗_{Γ(h⁻¹(U), 𝒪_Z)} Γ(h⁻¹(U), p'*(ℱ')).
-```
+$$ \Gamma(f^{-1}(g^{-1}(U)), \mathcal{F}) \otimes_{\Gamma(g^{-1}(U), \mathcal{O}_Y)} \Gamma(f'^{-1}(g^{-1}(U)),
+\mathcal{F}') \\ \to \Gamma(h^{-1}(U), p*(\mathcal{F})) \otimes_{\Gamma(h^{-1}(U), \mathcal{O}_Z)} \Gamma(h^{-1}(U),
+p'*(\mathcal{F}')). $$
 
 To see this is an isomorphism of $\mathcal{A}(Z)$-modules, we reduce to the affine case: $S$ (and hence $X$, $X'$, $Y$,
 $X \times_{Y} X'$) affine, and (with the notation of (1.4.6)) $\mathcal{F} = \tilde{M}$, $\mathcal{F}' = \tilde{M}'$
@@ -408,16 +405,14 @@ $\mathcal{A}(f'*(\mathcal{F}))$ identifies with $\mathcal{A}(\mathcal{F}) \otime
 In particular, when $X = X' = Y$ (with $X$ affine over $S$), for any two quasi-coherent $\mathcal{O}_{X}$-modules
 $\mathcal{F}$, $\mathcal{G}$,
 
-```text
-  𝒜(ℱ ⊗_{𝒪_X} 𝒢) = 𝒜(ℱ) ⊗_{𝒜(X)} 𝒜(𝒢)                                    (1.4.8.1)
-```
+$$ \mathcal{A}(\mathcal{F} \otimes_{\mathcal{O}_X} \mathcal{G}) = \mathcal{A}(\mathcal{F}) \otimes_{\mathcal{A}(X)}
+\mathcal{A}(\mathcal{G}) \tag{1.4.8.1} $$
 
 up to canonical functorial isomorphism. If furthermore $\mathcal{F}$ admits a finite presentation, then `(I, 1.6.3)` and
 `(I, 1.3.12)` give
 
-```text
-  𝒜(𝓗𝓸𝓶_X(ℱ, 𝒢)) = 𝓗𝓸𝓶_{𝒜(X)}(𝒜(ℱ), 𝒜(𝒢))                                  (1.4.8.2)
-```
+$$ \mathcal{A}(\mathcal{H}om_X(\mathcal{F}, \mathcal{G})) = \mathcal{H}om_{\mathcal{A}(X)}(\mathcal{A}(\mathcal{F}),
+\mathcal{A}(\mathcal{G})) \tag{1.4.8.2} $$
 
 up to canonical isomorphism.
 
@@ -441,7 +436,8 @@ it defines is canonically isomorphic to $\operatorname{Spec}(\mathcal{B}/\mathca
 `(I, 4.1.2)`.
 
 The conclusion of (1.4.10) can be restated: if $h : \mathcal{B} \to \mathcal{B}'$ is a _surjective_ homomorphism of
-quasi-coherent $\mathcal{O}_{S}$-algebras, then `Spec(h) : Spec(ℬ') → Spec(ℬ)` is a _closed immersion_.
+quasi-coherent $\mathcal{O}_{S}$-algebras, then $\operatorname{Spec}(h) : \operatorname{Spec}(\mathcal{B}') \to
+\operatorname{Spec}(\mathcal{B})$ is a _closed immersion_.
 
 **Proposition.**
 
@@ -478,26 +474,24 @@ are the rings of $S$, $S'$, $X$, then $X'$ is the affine scheme with ring $A' \o
 Under the hypotheses of (1.5.1), let $f : X \to S$ be the structure morphism and $f' : X' \to S'$, $g' : X' \to X$ the
 projections, so that the diagram
 
-```text
-   X ←─g'── X'
-   │        │
- f │        │ f'
-   ↓        ↓
-   S ←──g── S'
-```
+$$
+\begin{array}{ccc}
+X & \xleftarrow{g'} & X' \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle f'} \\
+S & \xleftarrow{g} & S'
+\end{array}
+$$
 
 is commutative. For every quasi-coherent $\mathcal{O}_{X}$-module $\mathcal{F}$, there is a canonical isomorphism of
 $\mathcal{O}_{S'}$-modules
 
-$$ u : g*(f_{*}(\mathcal{F})) \xrightarrow{\sim} f'_{*}(g'*(\mathcal{F})). (1.5.2.1) $$
+$$ u : g*(f_{*}(\mathcal{F})) \xrightarrow{\sim} f'_{*}(g'*(\mathcal{F})). \tag{1.5.2.1} $$
 
 In particular, there is a canonical isomorphism from $\mathcal{A}(X')$ to $g*(\mathcal{A}(X))$.
 
 **Proof.** To define $u$, it suffices to define a homomorphism
 
-```text
-  v : f_*(ℱ) → g_*(f'_*(g'*(ℱ))) = f_*(g'_*(g'*(ℱ)))
-```
+$$ v : f_*(\mathcal{F}) \to g_*(f'_*(g'*(\mathcal{F}))) = f_*(g'_*(g'*(\mathcal{F}))) $$
 
 and set $u = v\sharp$ `(0, 4.4.3)`. Take $v = f_{*}(\rho)$ with $\rho : \mathcal{F} \to g'_{*}(g'*(\mathcal{F}))$ the
 canonical homomorphism `(0, 4.4.3)`. To prove that $u$ is an isomorphism, we may assume $S$, $S'$ (hence $X$, $X'$) are
@@ -550,18 +544,18 @@ $\mathcal{O}_{S}$-algebra (resp. $\mathcal{O}_{S'}$-algebra), and $u : \mathcal{
 that is, a homomorphism $\mathcal{B} \to q_{*}(\mathcal{B}')$ of $\mathcal{O}_{S}$-algebras. If $X =
 \operatorname{Spec}(\mathcal{B})$ and $X' = \operatorname{Spec}(\mathcal{B}')$, we obtain canonically a morphism
 
-```text
-  v = Spec(u) : X' → X
-```
+$$ v = \operatorname{Spec}(u) : X' \to X $$
 
 such that the diagram
 
-```text
-   X' ──v──→ X
-   │         │                                                            (1.5.6.1)
-   ↓         ↓
-   S' ──q──→ S
-```
+$$
+\begin{array}{ccc}
+X' & \xrightarrow{v} & X \\
+\downarrow & & \downarrow \\
+S' & \xrightarrow{q} & S
+\end{array}
+\tag{1.5.6.1}
+$$
 
 commutes (the vertical arrows being the structure morphisms). Indeed, the datum of $u$ is equivalent to that of a
 homomorphism $u\sharp : q*(\mathcal{B}) \to \mathcal{B}'$ of quasi-coherent $\mathcal{O}_{S'}$-algebras `(0, 4.4.3)`,
@@ -585,9 +579,8 @@ restriction of $v$) corresponds `(I, 1.7.3)` to this di-homomorphism.
 Under the same hypotheses as (1.5.6), let $\mathcal{M}$ be a quasi-coherent $\mathcal{B}$-module. There is then a
 canonical isomorphism of $\mathcal{O}_{X'}$-modules
 
-```text
-  v*(ℳ̃) ⥲ (q*(ℳ) ⊗_{q*(ℬ)} ℬ')̃.                                          (1.5.7.1)
-```
+$$ v*(\tilde{\mathcal{M}}) \xrightarrow{\sim} \widetilde{(q*(\mathcal{M}) \otimes_{q*(\mathcal{B})} \mathcal{B}')}.
+\tag{1.5.7.1} $$
 
 <!-- original page 14 -->
 
@@ -609,14 +602,14 @@ properties of preschemes affine over another translate as follows in this langua
 <!-- label: II.1.6.2 -->
 
 1. A closed immersion is affine.
-1. The composition of two affine morphisms is affine.
-1. If $f : X \to Y$ is an affine $S$-morphism, then $f_{(S')} : X_{(S')} \to Y_{(S')}$ is affine for every base change
+2. The composition of two affine morphisms is affine.
+3. If $f : X \to Y$ is an affine $S$-morphism, then $f_{(S')} : X_{(S')} \to Y_{(S')}$ is affine for every base change
    $S' \to S$.
-1. If $f : X \to Y$ and $f' : X' \to Y'$ are two affine $S$-morphisms, then $f \times_{S} f' : X \times_{S} X' \to Y
+4. If $f : X \to Y$ and $f' : X' \to Y'$ are two affine $S$-morphisms, then $f \times_{S} f' : X \times_{S} X' \to Y
    \times_{S} Y'$ is affine.
-1. If $f : X \to Y$ and $g : Y \to Z$ are two morphisms such that $g \circ f$ is affine and $g$ is separated, then $f$
+5. If $f : X \to Y$ and $g : Y \to Z$ are two morphisms such that $g \circ f$ is affine and $g$ is separated, then $f$
    is affine.
-1. If $f$ is affine, so is $f_{red}$.
+6. If $f$ is affine, so is $f_{red}$.
 
 **Proof.** By `(I, 5.5.12)`, it suffices to prove (i), (ii), (iii). But (i) is just Example (1.2.2), (ii) is just
 Corollary (1.3.5), and (iii) follows from (1.5.1) since $X_{(S')}$ identifies with $X \times_{Y} Y_{(S')}$
@@ -653,9 +646,7 @@ $\mathbb{T}(E) \to \mathbb{S}(E)$), then every $A$-linear map $E \to B$ with $B$
 uniquely as $E \xrightarrow{\sigma} \mathbb{S}(E) \xrightarrow{g} B$, where $g$ is an $A$-homomorphism _of algebras_.
 From this characterization, for two $A$-modules $E$, $F$,
 
-```text
-  𝕊(E ⊕ F) = 𝕊(E) ⊗ 𝕊(F)
-```
+$$ \mathbb{S}(E \oplus F) = \mathbb{S}(E) \otimes \mathbb{S}(F) $$
 
 <!-- original page 15 -->
 
@@ -689,12 +680,13 @@ Let $R$ be a multiplicative subset of $A$. Applying (1.7.2) with $B = R^{-1}A$ a
 \otimes_{A} R^{-1}A$, we get $\mathbb{S}(R^{-1}E) = R^{-1}\mathbb{S}(E)$ up to canonical isomorphism. If $R' \supset R$
 is a second multiplicative subset, the diagram
 
-```text
-   R⁻¹E ─────→ R'⁻¹E
-     │           │
-     ↓           ↓
-   𝕊(R⁻¹E) → 𝕊(R'⁻¹E)
-```
+$$
+\begin{array}{ccc}
+R^{-1}E & \longrightarrow & R'^{-1}E \\
+\downarrow & & \downarrow \\
+\mathbb{S}(R^{-1}E) & \to & \mathbb{S}(R'^{-1}E)
+\end{array}
+$$
 
 commutes.
 
@@ -736,9 +728,8 @@ Let $(T, \mathcal{B})$ be a second ringed space and $f : (S, \mathcal{A}) \to (T
 $\mathcal{F}$ a $\mathcal{B}$-module, $\mathbb{S}(f*(\mathcal{F}))$ identifies canonically with
 $f*(\mathbb{S}(\mathcal{F}))$: with $f = (\psi, \theta)$ and by definition `(0, 4.3.1)`,
 
-```text
-  𝕊(f*(ℱ)) = 𝕊(ψ*(ℱ) ⊗_{ψ*(ℬ)} 𝒜) = 𝕊(ψ*(ℱ)) ⊗_{ψ*(ℬ)} 𝒜
-```
+$$ \mathbb{S}(f*(\mathcal{F})) = \mathbb{S}(\psi*(\mathcal{F}) \otimes_{\psi*(\mathcal{B})} \mathcal{A}) =
+\mathbb{S}(\psi*(\mathcal{F})) \otimes_{\psi*(\mathcal{B})} \mathcal{A} $$
 
 by (1.7.2). For every open $U \subset S$ and every section $h$ of $\mathbb{S}(\psi*(\mathcal{F}))$ over $U$, $h$ agrees
 in a neighbourhood $V$ of every $s \in U$ with an element of $\mathbb{S}(\Gamma(V, \psi*(\mathcal{F})))$; unfolding the
@@ -827,14 +818,14 @@ dual of the $\kappa(s)$-vector space $\mathcal{E}^{s}$.
 
 1. $\mathbb{V}(\mathcal{E})$ is a contravariant functor in $\mathcal{E}$ from quasi-coherent $\mathcal{O}_{S}$-modules
    to affine $S$-schemes.
-1. If $\mathcal{E}$ is an $\mathcal{O}_{S}$-module of finite type, then $\mathbb{V}(\mathcal{E})$ is of finite type over
+2. If $\mathcal{E}$ is an $\mathcal{O}_{S}$-module of finite type, then $\mathbb{V}(\mathcal{E})$ is of finite type over
    $S$.
-1. If $\mathcal{E}$ and $\mathcal{F}$ are two quasi-coherent $\mathcal{O}_{S}$-modules, then $\mathbb{V}(\mathcal{E}
+3. If $\mathcal{E}$ and $\mathcal{F}$ are two quasi-coherent $\mathcal{O}_{S}$-modules, then $\mathbb{V}(\mathcal{E}
    \oplus \mathcal{F})$ identifies canonically with $\mathbb{V}(\mathcal{E}) \times_{S} \mathbb{V}(\mathcal{F})$.
-1. For a morphism $g : S' \to S$ and any quasi-coherent $\mathcal{O}_{S}$-module $\mathcal{E}$,
+4. For a morphism $g : S' \to S$ and any quasi-coherent $\mathcal{O}_{S}$-module $\mathcal{E}$,
    $\mathbb{V}(g*(\mathcal{E}))$ identifies canonically with $\mathbb{V}(\mathcal{E})_{(S')} = \mathbb{V}(\mathcal{E})
    \times_{S} S'$.
-1. A surjective homomorphism $\mathcal{E} \to \mathcal{F}$ of quasi-coherent $\mathcal{O}_{S}$-modules corresponds to a
+5. A surjective homomorphism $\mathcal{E} \to \mathcal{F}$ of quasi-coherent $\mathcal{O}_{S}$-modules corresponds to a
    closed immersion $\mathbb{V}(\mathcal{F}) \to \mathbb{V}(\mathcal{E})$.
 
 **Proof.** (i) is immediate from (1.2.7), given that every homomorphism $\mathcal{E} \to \mathcal{F}$ of
@@ -861,9 +852,7 @@ identifies with the $\mathcal{O}_{S}$-algebra $\mathcal{O}_{S}[T] = \mathcal{O}_
 follows by considering the structure morphism $S \to \operatorname{Spec}(\mathbb{Z})$ and using (1.7.11)(iv). We
 therefore write $\mathbb{V}(\mathcal{O}_{S}) = S[T]$, and we have
 
-```text
-  S[T] = S ⊗_ℤ ℤ[T].                                                      (1.7.12.1)
-```
+$$ S[T] = S \otimes_{\mathbb{Z}} \mathbb{Z}[T]. \tag{1.7.12.1} $$
 
 The identification of the sheaf of germs of $S$-sections of `S[T]` with $\mathcal{O}_{S}$, already seen in
 `(I, 3.3.15)`, reappears here in a more general context, as a special case of (1.7.9).
@@ -882,9 +871,7 @@ likewise with $\operatorname{Hom}_{\mathcal{O}_{S}}(\mathcal{E}, \mathcal{A}(X))
 _$\mathcal{O}_{S}$-module_); it is therefore canonically endowed with a module structure over the ring
 $\operatorname{Hom}_{S}(X, S[T])$, and the pair
 
-```text
-  (Hom_S(X, S[T]), Hom_S(X, 𝕍(ℰ)))
-```
+$$ (\operatorname{Hom}_S(X, S[T]), \operatorname{Hom}_S(X, \mathbb{V}(\mathcal{E}))) $$
 
 is a contravariant functor in $X$ with values in the category whose objects are pairs $(A, M)$ with $A$ a ring and $M$
 an $A$-module, the morphisms being di-homomorphisms.
@@ -905,15 +892,11 @@ _$\mathcal{O}_{S}$-algebras_ identifies canonically with $\operatorname{Hom}_{\m
 set, $s_{i}$ ($1 \leq i \leq n$) sections of $\mathcal{E}$ over an open $U \subset S$, and $t$ a section of
 $\mathcal{A}(X)$ over $U$, then by definition
 
-```text
-  (h + h')(s_1 s_2 ⋯ s_n) = ∏_{i=1}^n (h(s_i) + h'(s_i))
-```
+$$ (h + h')(s_1 s_2 \cdots s_n) = \prod_{i=1}^n (h(s_i) + h'(s_i)) $$
 
 and
 
-```text
-  (t · h)(s_1 s_2 ⋯ s_n) = tⁿ ∏_{i=1}^n h(s_i).
-```
+$$ (t \cdot h)(s_1 s_2 \cdots s_n) = t^n \prod_{i=1}^n h(s_i). $$
 
 Given this, if $z$ is a section of $\mathbb{S}(\mathcal{E})$ over $U$, then $h \mapsto h(z)$ is a map from
 $\operatorname{Hom}_{S}(X, \mathbb{V}(\mathcal{E})) = \operatorname{Hom}_{\mathcal{O}_{S}}(\mathbb{S}(\mathcal{E}),

@@ -65,13 +65,9 @@ $S$-module structure.
 
 It follows immediately from these definitions that we have
 
-```text
-  M(m) ⊗_S N(n) = (M ⊗_S N)(m + n),                                       (2.1.2.1)
-```
+$$ M(m) \otimes_S N(n) = (M \otimes_S N)(m + n), \tag{2.1.2.1} $$
 
-```text
-  Hom_S(M(m), N(n)) = (Hom_S(M, N))(n − m),                               (2.1.2.2)
-```
+$$ \operatorname{Hom}_S(M(m), N(n)) = (\operatorname{Hom}_S(M, N))(n - m), \tag{2.1.2.2} $$
 
 for two graded $S$-modules $M$, $N$.
 
@@ -176,9 +172,9 @@ If $S$ is Noetherian, so is $S^{(d)}$ for every integer $d > 0$.
 <!-- label: II.2.1.8 -->
 
 Let $\mathfrak{p}$ be a _graded_ prime ideal of the graded ring $S$; $\mathfrak{p}$ is then a direct sum of the
-subgroups $\mathfrak{p}_{n} = \mathfrak{p} \cap S_{n}$. Suppose that $\mathfrak{p}$ does not contain $S_{+}$. Then if
-$f \in S_{+}$ is not in $\mathfrak{p}$, the relation $f^{n} x \in \mathfrak{p}$ is equivalent to $x \in \mathfrak{p}$;
-in particular, if $f \in S_{d}$ ($d > 0$), for every $x \in S_{m - nd}$, the relation $f^{n} x \in \mathfrak{p}_{m}$ is
+subgroups $\mathfrak{p}_{n} = \mathfrak{p} \cap S_{n}$. Suppose that $\mathfrak{p}$ does not contain $S_{+}$. Then if $f
+\in S_{+}$ is not in $\mathfrak{p}$, the relation $f^{n} x \in \mathfrak{p}$ is equivalent to $x \in \mathfrak{p}$; in
+particular, if $f \in S_{d}$ ($d > 0$), for every $x \in S_{m - nd}$, the relation $f^{n} x \in \mathfrak{p}_{m}$ is
 equivalent to $x \in \mathfrak{p}_{m - nd}$.
 
 **Proposition.**
@@ -189,29 +185,29 @@ Let $n_{0}$ be an integer `> 0`; for every $n \geq n_{0}$, let $\mathfrak{p}_{n}
 exist a graded prime ideal $\mathfrak{p}$ of $S$ not containing $S_{+}$ and such that $\mathfrak{p} \cap S_{n} =
 \mathfrak{p}_{n}$ for every $n \geq n_{0}$, it is necessary and sufficient that the following conditions be satisfied:
 
-1° $S_{m} \mathfrak{p}_{n} \subset \mathfrak{p}_{m + n}$ for every $m \geq 0$ and every $n \geq n_{0}$.
+$1^{\circ}$ $S_{m} \mathfrak{p}_{n} \subset \mathfrak{p}_{m + n}$ for every $m \geq 0$ and every $n \geq n_{0}$.
 
-2° For $m \geq n_{0}$, $n \geq n_{0}$, $f \in S_{m}$, $g \in S_{n}$, the relation $fg \in \mathfrak{p}_{m + n}$ implies
-$f \in \mathfrak{p}_{m}$ or $g \in \mathfrak{p}_{n}$.
+$2^{\circ}$ For $m \geq n_{0}$, $n \geq n_{0}$, $f \in S_{m}$, $g \in S_{n}$, the relation $fg \in \mathfrak{p}_{m + n}$
+implies $f \in \mathfrak{p}_{m}$ or $g \in \mathfrak{p}_{n}$.
 
-3° $\mathfrak{p}_{n} \neq S_{n}$ for at least one $n \geq n_{0}$.
+$3^{\circ}$ $\mathfrak{p}_{n} \neq S_{n}$ for at least one $n \geq n_{0}$.
 
 Moreover, _the graded prime ideal $\mathfrak{p}$ is then unique_.
 
-**Proof.** It is evident that conditions 1° and 2° are necessary. Moreover, if $\mathfrak{p} \not\supset S_{+}$, there
-exists at least one $k > 0$ such that $\mathfrak{p} \cap S_{k} \neq S_{k}$; if $f \in S_{k}$ is not in $\mathfrak{p}$,
-the relation $\mathfrak{p} \cap S_{n} = S_{n}$ implies $\mathfrak{p} \cap S_{n - mk} = S_{n - mk}$ by (2.1.8); hence, if
-$\mathfrak{p} \cap S_{n} = S_{n}$ from some value of $n$ onwards, we would have $\mathfrak{p} \supset S_{+}$ contrary to
-the hypothesis, which proves that 3° is necessary. Conversely, suppose conditions 1°, 2°, and 3° are satisfied. Note
-that if for an integer $d \geq n_{0}$, $f \in S_{d}$ is not in $\mathfrak{p}_{d}$, then, if $\mathfrak{p}$ exists,
-$\mathfrak{p}_{m}$, for $m < n_{0}$, is necessarily equal to the set of $x \in S_{m}$ such that $f^{r} x \in
-\mathfrak{p}_{m + rd}$, except for finitely many values of $r$. This already proves that if $\mathfrak{p}$ exists, it is
-unique. It remains to show
+**Proof.** It is evident that conditions $1^{\circ}$ and $2^{\circ}$ are necessary. Moreover, if $\mathfrak{p}
+\not\supset S_{+}$, there exists at least one $k > 0$ such that $\mathfrak{p} \cap S_{k} \neq S_{k}$; if $f \in S_{k}$
+is not in $\mathfrak{p}$, the relation $\mathfrak{p} \cap S_{n} = S_{n}$ implies $\mathfrak{p} \cap S_{n - mk} = S_{n -
+mk}$ by (2.1.8); hence, if $\mathfrak{p} \cap S_{n} = S_{n}$ from some value of $n$ onwards, we would have $\mathfrak{p}
+\supset S_{+}$ contrary to the hypothesis, which proves that $3^{\circ}$ is necessary. Conversely, suppose conditions
+$1^{\circ}$, $2^{\circ}$, and $3^{\circ}$ are satisfied. Note that if for an integer $d \geq n_{0}$, $f \in S_{d}$ is
+not in $\mathfrak{p}_{d}$, then, if $\mathfrak{p}$ exists, $\mathfrak{p}_{m}$, for $m < n_{0}$, is necessarily equal to
+the set of $x \in S_{m}$ such that $f^{r} x \in \mathfrak{p}_{m + rd}$, except for finitely many values of $r$. This
+already proves that if $\mathfrak{p}$ exists, it is unique. It remains to show
 
 <!-- original page 23 -->
 
 that if we define the $\mathfrak{p}_{m}$ for $m < n_{0}$ by the previous condition, then $\mathfrak{p} =
-\sum^{\infty}_{n = 0} \mathfrak{p}_{n}$ is a prime ideal. Note first that by virtue of 2°, for $m \geq n_{0}$,
+\sum^{\infty}_{n = 0} \mathfrak{p}_{n}$ is a prime ideal. Note first that by virtue of $2^{\circ}$, for $m \geq n_{0}$,
 $\mathfrak{p}_{m}$ is also defined as the set of $x \in S_{m}$ such that $f^{r} x \in \mathfrak{p}_{m + rd}$ except for
 finitely many values of $r$. This being so, if $g \in S_{m}$, $x \in \mathfrak{p}_{n}$, we have $f^{r} gx \in
 \mathfrak{p}_{m + n + rd}$ except for finitely many values of $r$, so $gx \in \mathfrak{p}_{m + n}$, which proves that
@@ -220,7 +216,7 @@ graded by the subgroups $S_{n}/\mathfrak{p}_{n}$, is an integral domain, it suff
 highest degree of two elements of $S/\mathfrak{p}$) to prove that if $x \in S_{m}$, $y \in S_{n}$ are such that $x
 \notin \mathfrak{p}_{m}$, $y \notin \mathfrak{p}_{n}$, then $xy \notin \mathfrak{p}_{m + n}$. Otherwise, for $r$ large
 enough, we would have $f^{2r} xy \in \mathfrak{p}_{m + n + 2rd}$; but $f^{r} y \notin \mathfrak{p}_{n + rd}$ for every
-$r > 0$; it follows from 2° that, except for finitely many values of $r$, we have $f^{r} x \in \mathfrak{p}_{m + rd}$,
+$r > 0$; it follows from $2^{\circ}$ that, except for finitely many values of $r$, we have $f^{r} x \in \mathfrak{p}_{m + rd}$,
 and we conclude that $x \in \mathfrak{p}_{m}$ contrary to the hypothesis.
 
 **(2.1.10)**
@@ -309,12 +305,13 @@ Under the hypotheses of (2.2.2), it is clear that the canonical homomorphism $S_
 sends $x/f^{k}$ to $g^{k} x/(fg)^{k}$, is of degree `0`, and so by restriction yields a _canonical homomorphism $S_{(f)}
 \to S_{(fg)}$_, such that the diagram
 
-```text
-            S_{(f)}
-           /       \
-          ↓         ↓
-   S_{(fg)} ──→ (S_{(f)})_{g^d/f^e}
-```
+$$
+\begin{array}{ccc}
+ & S_{(f)} & \\
+\swarrow & & \searrow \\
+S_{(fg)} & \xrightarrow{\quad} & (S_{(f)})_{g^d/f^e}
+\end{array}
+$$
 
 commutes. We similarly define a canonical homomorphism $M_{(f)} \to M_{(fg)}$.
 
@@ -395,22 +392,16 @@ For every subset $E$ of $S$, let $V_{+}(E)$ be the set of graded prime ideals of
 $S_{+}$; this is thus the subset $V(E) \cap \operatorname{Proj}(S)$ of $\operatorname{Spec}(S)$. From `(I, 1.1.2)` we
 deduce:
 
-```text
-  V_+(0) = Proj(S), V_+(S) = V_+(S_+) = ∅                                 (2.3.2.1)
-```
+$$ V_{+}(0) = \operatorname{Proj}(S), \quad V_{+}(S) = V_{+}(S_{+}) = \emptyset \tag{2.3.2.1} $$
 
-```text
-  V_+(⋃_λ E_λ) = ⋂_λ V_+(E_λ)                                             (2.3.2.2)
-```
+$$ V_{+}\left(\bigcup_{\lambda} E_{\lambda}\right) = \bigcap_{\lambda} V_{+}(E_{\lambda}) \tag{2.3.2.2} $$
 
-$$ V_{+}(EE') = V_{+}(E) \cup V_{+}(E') (2.3.2.3) $$
+$$ V_{+}(EE') = V_{+}(E) \cup V_{+}(E') \tag{2.3.2.3} $$
 
 We do not change $V_{+}(E)$ by replacing $E$ with the graded ideal generated by $E$; moreover, if $\mathfrak{J}$ is a
 graded ideal of $S$, we have
 
-```text
-  V_+(𝔍) = V_+(⋃_{q ≥ n} (𝔍 ∩ S_q))                                       (2.3.2.4)
-```
+$$ V_{+}(\mathfrak{J}) = V_{+}\left(\bigcup_{q \ge n} (\mathfrak{J} \cap S_{q})\right) \tag{2.3.2.4} $$
 
 <!-- original page 26 -->
 
@@ -422,7 +413,7 @@ which implies $x \in \mathfrak{p} \cap S_{m}$ (2.1.9).
 
 Finally, we have, for every graded ideal $\mathfrak{J}$ of $S$,
 
-$$ V_{+}(\mathfrak{J}) = V_{+}(\mathfrak{r}_{+}(\mathfrak{J})). (2.3.2.5) $$
+$$ V_{+}(\mathfrak{J}) = V_{+}(\mathfrak{r}_{+}(\mathfrak{J})). \tag{2.3.2.5} $$
 
 **(2.3.3)**
 
@@ -432,13 +423,11 @@ By definition, the $V_{+}(E)$ are the closed subsets of $X = \operatorname{Proj}
 spectral topology of $\operatorname{Spec}(S)$, which we will also call the _spectral topology_ on $X$. For every $f \in
 S$, we set
 
-```text
-  D_+(f) = D(f) ∩ Proj(S) = Proj(S) ∖ V_+(f)                              (2.3.3.1)
-```
+$$ D_{+}(f) = D(f) \cap \operatorname{Proj}(S) = \operatorname{Proj}(S) \setminus V_{+}(f) \tag{2.3.3.1} $$
 
 and consequently, for two elements $f$, $g$ of $S$ `(I, 1.1.9.1)`,
 
-$$ D_{+}(fg) = D_{+}(f) \cap D_{+}(g). (2.3.3.2) $$
+$$ D_{+}(fg) = D_{+}(f) \cap D_{+}(g). \tag{2.3.3.2} $$
 
 **Proposition.**
 
@@ -464,11 +453,14 @@ $$ \psi_{f} : D_{+}(f) \to \operatorname{Spec}(S_{(f)}); $$
 
 moreover, if $g \in S_{e}$ is another homogeneous element of $S_{+}$, we have a commutative diagram
 
-```text
-   D_+(f)  ──ψ_f──→  Spec(S_{(f)})                                        (2.3.5.1)
-     ↑                    ↑
-   D_+(fg) ──ψ_{fg}──→ Spec(S_{(fg)})
-```
+$$
+\begin{array}{ccc}
+D_{+}(f) & \xrightarrow{\psi_f} & \operatorname{Spec}(S_{(f)}) \\
+\uparrow & & \uparrow \\
+D_{+}(fg) & \xrightarrow{\psi_{fg}} & \operatorname{Spec}(S_{(fg)})
+\end{array}
+\tag{2.3.5.1}
+$$
 
 where the left vertical arrow is the inclusion and the right one is the map ${}^{a}\omega_{fg, f}$ deduced from the
 canonical homomorphism $\omega = \omega_{fg, f} : S_{(f)} \to S_{(fg)}$ `(I, 1.2.1)`. Indeed, if $x/f^{n} \in
@@ -488,7 +480,7 @@ topology of $D_{+}(f)$ by (2.3.4) and (2.3.3.2); the
 
 <!-- original page 27 -->
 
-above thus proves, taking into account the (T₀) axiom valid in $D_{+}(f)$ and in $\operatorname{Spec}(S_{(f)})$, that
+above thus proves, taking into account the $(T_0)$ axiom valid in $D_{+}(f)$ and in $\operatorname{Spec}(S_{(f)})$, that
 $\psi_{f}$ is injective and that the inverse map $\psi_{f}(D_{+}(f)) \to D_{+}(f)$ is continuous. Finally, to see that
 $\psi_{f}$ is surjective, we remark that if $\mathfrak{q}_{0}$ is a prime ideal of $S_{(f)}$, and if, for every $n > 0$,
 we denote by $\mathfrak{p}_{n}$ the set of $x \in S_{n}$ such that $x^{d}/f^{n} \in \mathfrak{q}_{0}$, then the
@@ -691,11 +683,13 @@ $D_{+}(\bar{f}) \to D_{+}(f)$ that identifies $D_{+}(\bar{f})$ with $(D_{+}(f))_
 particular a homeomorphism of the underlying spaces of these two affine schemes. Furthermore, if $g \notin
 \mathfrak{N}_{+}$ is another homogeneous element of $S_{+}$, the diagram
 
-```text
-   D_+(f̄)  ──→  D_+(f)
-     ↑           ↑
-   D_+(f̄ḡ) ──→  D_+(fg)
-```
+$$
+\begin{array}{ccc}
+D_{+}(\bar{f}) & \to & D_{+}(f) \\
+\uparrow & & \uparrow \\
+D_{+}(\bar{f}\bar{g}) & \to & D_{+}(fg)
+\end{array}
+$$
 
 commutes; since moreover the $D_{+}(f)$, for $f$ homogeneous of degree `> 0` and $f \notin \mathfrak{N}_{+}$, form a
 cover of $X = \operatorname{Proj}(S)$ (2.3.7), we see that the morphisms $D_{+}(\bar{f}) \to D_{+}(f)$ are the
@@ -731,11 +725,13 @@ $\operatorname{Spec}(A)$.
 **Proof.** It suffices to note that for every $f$ homogeneous in $S_{+}$, $S_{(f)}$ is an algebra over $A$, and that the
 diagram
 
-```text
-   S_{(f)} ──────→ S_{(fg)}
-        ↖        ↗
-           A
-```
+$$
+\begin{array}{ccc}
+S_{(f)} & \longrightarrow & S_{(fg)} \\
+ & \nwarrow \quad \nearrow & \\
+ & A &
+\end{array}
+$$
 
 commutes, for $f$, $g$ homogeneous in $S_{+}$.
 
@@ -808,9 +804,7 @@ $(S_{(f)})_{g^{d}/f^{e}}$ by virtue of (2.2.2), the restriction to $D_{+}(fg)$ o
 $D_{+}(f)$ canonically identifies with the sheaf associated to the module $(M_{(f)})_{g^{d}/f^{e}}$ `(I, 1.3.6)`, and so
 also with $\tilde{M_{(fg)}}$ (2.2.2); we conclude that there exists a canonical isomorphism
 
-```text
-  θ_{g, f} : (M_{(f)})̃ | D_+(fg) ≅ (M_{(g)})̃ | D_+(fg)
-```
+$$ \theta_{g, f} : \widetilde{M_{(f)}} | D_{+}(fg) \cong \widetilde{M_{(g)}} | D_{+}(fg) $$
 
 such that, if $h$ is a third homogeneous element of $S_{+}$, then $\theta_{f, h} = \theta_{f, g} \circ \theta_{g, h}$ in
 $D_{+}(fgh)$. Consequently `(0, 3.3.1)`, there exists on $X$ a quasi-coherent $\mathcal{O}_{X}$-module $\mathcal{F}$,
@@ -843,9 +837,10 @@ category of quasi-coherent $\mathcal{O}_{X}$-modules, which commutes with induct
 $P \mapsto \tilde{P}$ (in the category of $S_{(f)}$-modules) all three have the properties of exactness and of
 commutation with inductive limits and direct sums (`I, 1.3.5` and `1.3.9`); whence the proposition.
 
-We denote by `ũ` the homomorphism $\tilde{M} \to \tilde{N}$ corresponding to a homomorphism of degree `0`, $u : M \to
-N$. We deduce immediately from (2.5.4) that the results of (`I, 1.3.9` and `1.3.10`) still hold for graded $S$-modules
-and homomorphisms of degree `0` (with the meaning given here to $\tilde{M}$), the proofs being purely formal.
+We denote by $\tilde{u}$ the homomorphism $\tilde{M} \to \tilde{N}$ corresponding to a homomorphism of degree `0`, $u :
+M \to N$. We deduce immediately from (2.5.4) that the results of (`I, 1.3.9` and `1.3.10`) still hold for graded
+$S$-modules and homomorphisms of degree `0` (with the meaning given here to $\tilde{M}$), the proofs being purely
+formal.
 
 **Proposition.**
 
@@ -916,14 +911,12 @@ apply (2.5.8) with $U = X$.
 
 We set, throughout the rest of this section,
 
-$$ \mathcal{O}_{X}(n) = \tilde{S(n)} (2.5.10.1) $$
+$$ \mathcal{O}_{X}(n) = \widetilde{S(n)} \tag{2.5.10.1} $$
 
 for every $n \in \mathbb{Z}$, and for every open subset $U$ of $X$ and every $(\mathcal{O}_{X} | U)$-module
 $\mathcal{F}$,
 
-```text
-  ℱ(n) = ℱ ⊗_{𝒪_X | U} (𝒪_X(n) | U)                                     (2.5.10.2)
-```
+$$ \mathcal{F}(n) = \mathcal{F} \otimes_{\mathcal{O}_X | U} (\mathcal{O}_X(n) | U) \tag{2.5.10.2} $$
 
 for every $n \in \mathbb{Z}$. If the ideal $S_{+}$ is generated by `S_1`, the functor $\mathcal{F}(n)$ is _exact_ in
 $\mathcal{F}$ for every $n \in \mathbb{Z}$, since $\mathcal{O}_{X}(n)$ is then an _invertible_ $\mathcal{O}_{X}$-module.
@@ -935,9 +928,7 @@ $\mathcal{F}$ for every $n \in \mathbb{Z}$, since $\mathcal{O}_{X}(n)$ is then a
 Let $M$, $N$ be two graded $S$-modules. For every $f \in S_{d}$ ($d > 0$), we define a canonical functorial homomorphism
 of $S_{(f)}$-modules
 
-```text
-  λ_f : M_{(f)} ⊗_{S_{(f)}} N_{(f)} → (M ⊗_S N)_{(f)}                   (2.5.11.1)
-```
+$$ \lambda_f : M_{(f)} \otimes_{S_{(f)}} N_{(f)} \to (M \otimes_S N)_{(f)} \tag{2.5.11.1} $$
 
 <!-- original page 33 -->
 
@@ -947,46 +938,49 @@ injections $M_{(f)} \to M_{f}$, $N_{(f)} \to N_{f}$, and $S_{(f)} \to S_{f}$) an
 of two graded modules, this latter isomorphism preserves degrees; for $x \in M_{md}$, $y \in N_{nd}$ ($m \geq 0$, $n
 \geq 0$), we therefore have
 
-```text
-  λ_f((x/f^m) ⊗ (y/f^n)) = (x ⊗ y)/f^{m + n}.
-```
+$$ \lambda_f((x/f^m) \otimes (y/f^n)) = (x \otimes y)/f^{m + n}. $$
 
 It follows immediately from this definition that if $g \in S_{e}$ ($e > 0$), the diagram
 
-```text
-   M_{(f)} ⊗_{S_{(f)}} N_{(f)}   ──λ_f──→   (M ⊗_S N)_{(f)}
-       ↓                                          ↓
-   M_{(fg)} ⊗_{S_{(fg)}} N_{(fg)} ──λ_{fg}──→ (M ⊗_S N)_{(fg)}
-```
+$$
+\begin{array}{ccc}
+M_{(f)} \otimes_{S_{(f)}} N_{(f)} & \xrightarrow{\lambda_f} & (M \otimes_S N)_{(f)} \\
+\downarrow & & \downarrow \\
+M_{(fg)} \otimes_{S_{(fg)}} N_{(fg)} & \xrightarrow{\lambda_{fg}} & (M \otimes_S N)_{(fg)}
+\end{array}
+$$
 
 (where the right vertical arrow is the canonical homomorphism and the left one comes from the canonical homomorphisms)
 commutes. We thus deduce from the $\lambda_{f}$ a canonical functorial homomorphism of $\mathcal{O}_{X}$-modules
 
-```text
-  λ : M̃ ⊗_{𝒪_X} Ñ → (M ⊗_S N)̃                                          (2.5.11.2)
-```
+$$ \lambda : \widetilde{M} \otimes_{\mathcal{O}_X} \widetilde{N} \to \widetilde{M \otimes_S N} \tag{2.5.11.2} $$
 
 Consider in particular two graded ideals $\mathfrak{J}$, $\mathfrak{K}$ of $S$; since $\tilde{\mathfrak{J}}$ and
 $\tilde{\mathfrak{K}}$ are sheaves of ideals of $\mathcal{O}_{X}$, we have a canonical homomorphism
 $\tilde{\mathfrak{J}} \otimes_{\mathcal{O}_{X}} \tilde{\mathfrak{K}} \to \mathcal{O}_{X}$; the diagram
 
-```text
-   𝔍̃ ⊗_{𝒪_X} 𝔎̃ ──λ──→ (𝔍 ⊗_S 𝔎)̃                                       (2.5.11.3)
-        ↘             ↙
-              𝒪_X
-```
+$$
+\begin{array}{ccc}
+\widetilde{\mathfrak{J}} \otimes_{\mathcal{O}_X} \widetilde{\mathfrak{K}} & \xrightarrow{\lambda} & \widetilde{\mathfrak{J} \otimes_S \mathfrak{K}} \\
+& \searrow \quad \swarrow & \\
+& \mathcal{O}_X &
+\end{array}
+\tag{2.5.11.3}
+$$
 
 then commutes. Indeed, we reduce to checking this on each open $D_{+}(f)$ (with $f$ homogeneous in $S_{+}$), and this
 follows at once from the definition (2.5.11.1) of $\lambda$, and from `(I, 1.3.13)`.
 
 Note finally that if $M$, $N$, $P$ are three graded $S$-modules, the diagram
 
-```text
-   M̃ ⊗_{𝒪_X} Ñ ⊗_{𝒪_X} P̃ ──λ ⊗ 1──→ (M ⊗_S N)̃ ⊗_{𝒪_X} P̃              (2.5.11.4)
-        │                                          │
-        ↓ 1 ⊗ λ                                    ↓ λ
-   M̃ ⊗_{𝒪_X} (N ⊗_S P)̃ ──λ──→ (M ⊗_S N ⊗_S P)̃
-```
+$$
+\begin{array}{ccc}
+\widetilde{M} \otimes_{\mathcal{O}_X} \widetilde{N} \otimes_{\mathcal{O}_X} \widetilde{P} & \xrightarrow{\lambda \otimes 1} & \widetilde{M \otimes_S N} \otimes_{\mathcal{O}_X} \widetilde{P} \\
+\downarrow{\scriptstyle 1 \otimes \lambda} & & \downarrow{\scriptstyle \lambda} \\
+\widetilde{M} \otimes_{\mathcal{O}_X} \widetilde{N \otimes_S P} & \xrightarrow{\lambda} & \widetilde{M \otimes_S N \otimes_S P}
+\end{array}
+\tag{2.5.11.4}
+$$
 
 <!-- original page 34 -->
 
@@ -999,27 +993,26 @@ commutes. It again suffices to check this on each $D_{+}(f)$, and this follows a
 
 Under the hypotheses of (2.5.11), we define a canonical functorial homomorphism of $S_{(f)}$-modules
 
-```text
-  μ_f : (Hom_S(M, N))_{(f)} → Hom_{S_{(f)}}(M_{(f)}, N_{(f)})            (2.5.12.1)
-```
+$$ \mu_f : (\operatorname{Hom}_S(M, N))_{(f)} \to \operatorname{Hom}_{S_{(f)}}(M_{(f)}, N_{(f)}) \tag{2.5.12.1} $$
 
 by associating to $u/f^{n}$, where $u$ is a homomorphism of degree `nd`, the homomorphism $M_{(f)} \to N_{(f)}$ that
 sends $x/f^{m}$ (with $x \in M_{md}$) to $u(x)/f^{m + n}$. For $g \in S_{e}$ ($e > 0$), we again have a commutative
 diagram
 
-```text
-   (Hom_S(M, N))_{(f)}  ──μ_f──→  Hom_{S_{(f)}}(M_{(f)}, N_{(f)})
-        ↓                                ↓
-   (Hom_S(M, N))_{(fg)} ──μ_{fg}──→ Hom_{S_{(fg)}}(M_{(fg)}, N_{(fg)})
-```
+$$
+\begin{array}{ccc}
+(\operatorname{Hom}_S(M, N))_{(f)} & \xrightarrow{\mu_f} & \operatorname{Hom}_{S_{(f)}}(M_{(f)}, N_{(f)}) \\
+\downarrow & & \downarrow \\
+(\operatorname{Hom}_S(M, N))_{(fg)} & \xrightarrow{\mu_{fg}} & \operatorname{Hom}_{S_{(fg)}}(M_{(fg)}, N_{(fg)})
+\end{array}
+$$
 
 (the left arrow being the canonical homomorphism, the right one coming from the canonical homomorphisms). We conclude
 again (taking `(I, 1.3.8)` into account) that the $\mu_{f}$ define a canonical functorial homomorphism of
 $\mathcal{O}_{X}$-modules
 
-```text
-  μ : (Hom_S(M, N))̃ → 𝓗𝓸𝓶_{𝒪_X}(M̃, Ñ).                                 (2.5.12.2)
-```
+$$ \mu : \widetilde{\operatorname{Hom}_S(M, N)} \to \mathcal{H}om_{\mathcal{O}_X}(\widetilde{M}, \widetilde{N}).
+\tag{2.5.12.2} $$
 
 **Proposition.**
 
@@ -1054,37 +1047,31 @@ S(n)$. For every $z$ homogeneous in $N$, let $u_{z}$ be the homomorphism of $S(n
 see immediately that $\eta : z \mapsto u_{z}$ is an isomorphism of degree `0` from $N(-n)$ onto
 $\operatorname{Hom}_{S}(S(n), N)$. To it corresponds an isomorphism
 
-```text
-  η_f : (N(−n))_{(f)} ≅ (Hom_S(S(n), N))_{(f)}.
-```
+$$ \eta_f : (N(-n))_{(f)} \cong (\operatorname{Hom}_S(S(n), N))_{(f)}. $$
 
 On the other hand, let $\eta'_{f}$ be the isomorphism $N_{(f)} \cong \operatorname{Hom}_{S_{(f)}}(S(n)_{(f)}, N_{(f)})$
 that, to every $z' \in N_{(f)}$, associates the homomorphism $v_{z'}$ such that $v_{z'}(s/f^{k}) = s z'/f^{n + k}$ (for
 $s \in S_{n + k} = (S(n))_{k}$). One checks easily that the composite map
 
-```text
-  (N(−n))_{(f)}
-    ──η_f──→ (Hom_S(S(n), N))_{(f)}
-    ──μ_f──→ Hom_{S_{(f)}}(S(n)_{(f)}, N_{(f)})
-    ──η'_f⁻¹──→ N_{(f)}
-```
+$$ (N(-n))_{(f)} \xrightarrow{\eta_f} (\operatorname{Hom}_S(S(n), N))_{(f)} \xrightarrow{\mu_f}
+\operatorname{Hom}_{S_{(f)}}(S(n)_{(f)}, N_{(f)}) \xrightarrow{\eta'^{-1}_f} N_{(f)} $$
 
 is the isomorphism $z/f^{h} \mapsto z/f^{h - n}$ from $(N(-n))_{(f)}$ to $N_{(f)}$, hence $\mu_{f}$ is an isomorphism.
 
 If the ideal $S_{+}$ is generated by `S_1`, we deduce from (2.5.13) that for every graded ideal $\mathfrak{J}$ of $S$
 and every graded $S$-module $M$, we have
 
-```text
-  𝔍̃ · M̃ = (𝔍 · M)̃                                                      (2.5.13.1)
-```
+$$ \widetilde{\mathfrak{J}} \cdot \widetilde{M} = \widetilde{\mathfrak{J} \cdot M} \tag{2.5.13.1} $$
 
 up to canonical isomorphism; this follows indeed from the commutativity of the diagram
 
-```text
-   𝔍̃ ⊗_{𝒪_X} M̃ ──→ (𝔍 ⊗_S M)̃
-        ↘            ↙
-              M̃
-```
+$$
+\begin{array}{ccc}
+\widetilde{\mathfrak{J}} \otimes_{\mathcal{O}_X} \widetilde{M} & \to & \widetilde{\mathfrak{J} \otimes_S M} \\
+& \searrow \quad \swarrow & \\
+& \widetilde{M} &
+\end{array}
+$$
 
 which one verifies as for (2.5.11.3).
 
@@ -1094,11 +1081,9 @@ which one verifies as for (2.5.11.3).
 
 Suppose $S$ is generated by `S_1`. For any $m$, $n$ in $\mathbb{Z}$, we have:
 
-```text
-  𝒪_X(m) ⊗_{𝒪_X} 𝒪_X(n) = 𝒪_X(m + n)                                    (2.5.14.1)
-```
+$$ \mathcal{O}_X(m) \otimes_{\mathcal{O}_X} \mathcal{O}_X(n) = \mathcal{O}_X(m + n) \tag{2.5.14.1} $$
 
-$$ \mathcal{O}_{X}(n) = (\mathcal{O}_{X}(1))^{\otimes n} (2.5.14.2) $$
+$$ \mathcal{O}_{X}(n) = (\mathcal{O}_{X}(1))^{\otimes n} \tag{2.5.14.2} $$
 
 up to canonical isomorphism.
 
@@ -1117,7 +1102,7 @@ $S(1)$ is a monogeneous $S$-module.
 
 Suppose $S$ is generated by `S_1`. For every graded $S$-module $M$ and every $n \in \mathbb{Z}$, we have
 
-$$ \tilde{M(n)} = \tilde{M}(n) (2.5.15.1) $$
+$$ \widetilde{M(n)} = \widetilde{M}(n) \tag{2.5.15.1} $$
 
 up to canonical isomorphism.
 
@@ -1138,9 +1123,7 @@ identification.
 
 Note on the other hand that for every $d > 0$ and every $n \in \mathbb{Z}$, we have
 
-```text
-  (S^{(d)}(n))_h = S_{(n + h)d} = (S(nd))_{hd}
-```
+$$ (S^{(d)}(n))_h = S_{(n + h)d} = (S(nd))_{hd} $$
 
 so for $f \in S_{d}$, $(S^{(d)}(n))_{(f)} = (S(nd))_{(f)}$. We know that the schemes $X = \operatorname{Proj}(S)$ and
 $X^{(d)} = \operatorname{Proj}(S^{(d)})$ are canonically identified (2.4.7, (i)); the above shows that if the
@@ -1170,9 +1153,8 @@ of degree `1`._
 The $\mathcal{O}_{X}$-module $\mathcal{O}_{X}(1)$ is then _invertible_ (2.5.9); we therefore set, for every
 $\mathcal{O}_{X}$-module $\mathcal{F}$ `(0, 5.4.6)`,
 
-```text
-  Γ_•(ℱ) = Γ_•(𝒪_X(1), ℱ) = ⊕_{n ∈ ℤ} Γ(X, ℱ(n))                          (2.6.1.1)
-```
+$$ \Gamma_{\bullet}(\mathcal{F}) = \Gamma_{\bullet}(\mathcal{O}_X(1), \mathcal{F}) = \bigoplus_{n \in \mathbb{Z}}
+\Gamma(X, \mathcal{F}(n)) \tag{2.6.1.1} $$
 
 taking (2.5.14.2) into account. Recall `(0, 5.4.6)` that $\Gamma_{\bullet}(\mathcal{O}_{X})$ is endowed with a structure
 of _graded ring_, and $\Gamma_{\bullet}(\mathcal{F})$ with a structure of _graded
@@ -1194,33 +1176,31 @@ $M_{0} \to M_{(f)}$, and since $M_{(f)}$ is canonically identified
 with $\Gamma(D_{+}(f), \tilde{M})$, we obtain a homomorphism of abelian groups $\alpha^{f}_{0} : M_{0} \to
 \Gamma(D_{+}(f), \tilde{M})$. It is clear that for every $g \in S_{e}$ ($e > 0$), the diagram
 
-```text
-              Γ(D_+(f), M̃)
-          ↗         │
-   M_0                ↓
-          ↘
-              Γ(D_+(fg), M̃)
-```
+$$
+\begin{array}{ccc}
+ & & \Gamma(D_{+}(f), \widetilde{M}) \\
+ & \nearrow & \downarrow \\
+M_0 & & \\
+ & \searrow & \\
+ & & \Gamma(D_{+}(fg), \widetilde{M})
+\end{array}
+$$
 
 commutes; this means that for every $x \in M_{0}$, the sections $\alpha^{f}_{0}(x)$ and $\alpha^{g}_{0}(x)$ of
 $\tilde{M}$ agree on $D_{+}(f) \cap D_{+}(g)$, hence there exists a unique section $\alpha_{0}(x) \in \Gamma(X,
 \tilde{M})$ whose restriction to each $D_{+}(f)$ is $\alpha^{f}_{0}(x)$. We have thus defined (without using the
 hypothesis that $S$ is generated by `S_1`) a homomorphism of abelian groups
 
-```text
-  α_0 : M_0 → Γ(X, M̃).                                                   (2.6.2.1)
-```
+$$ \alpha_0 : M_0 \to \Gamma(X, \widetilde{M}). \tag{2.6.2.1} $$
 
 Applying this result to the graded $S$-module $M(n)$ (for every $n \in \mathbb{Z}$), we obtain for each $n \in
 \mathbb{Z}$ a homomorphism of abelian groups
 
-```text
-  α_n : M_n = (M(n))_0 → Γ(X, M̃(n))                                     (2.6.2.2)
-```
+$$ \alpha_n : M_n = (M(n))_0 \to \Gamma(X, \widetilde{M}(n)) \tag{2.6.2.2} $$
 
 (taking (2.5.15) into account); whence a functorial homomorphism (of degree `0`) of graded abelian groups
 
-$$ \alpha : M \to \Gamma_{\bullet}(\tilde{M}) (2.6.2.3) $$
+$$ \alpha : M \to \Gamma_{\bullet}(\widetilde{M}) \tag{2.6.2.3} $$
 
 (also denoted $\alpha_{M}$) which on each $M_{n}$ coincides with $\alpha_{n}$.
 
@@ -1263,17 +1243,20 @@ we also have $z | D_{+}(f) = 0$. This shows that we define an $S_{(f)}$-homomorp
 \Gamma(D_{+}(f), \mathcal{F})$ by associating to the element $z/f^{n}$ the section $(z | D_{+}(f))(\alpha_{d}(f^{n}) |
 D_{+}(f))^{-1}$ of $\mathcal{F}$ over $D_{+}(f)$. We further verify at once that the diagram
 
-```text
-   M_{(f)}  ──β_f──→  Γ(D_+(f), ℱ)                                       (2.6.4.1)
-       ↓                    ↓
-   M_{(fg)} ──β_{fg}──→ Γ(D_+(fg), ℱ)
-```
+$$
+\begin{array}{ccc}
+M_{(f)} & \xrightarrow{\beta_f} & \Gamma(D_{+}(f), \mathcal{F}) \\
+\downarrow & & \downarrow \\
+M_{(fg)} & \xrightarrow{\beta_{fg}} & \Gamma(D_{+}(fg), \mathcal{F})
+\end{array}
+\tag{2.6.4.1}
+$$
 
 commutes for $g \in S_{e}$ ($e > 0$). If we recall that $M_{(f)}$ is canonically identified with $\Gamma(D_{+}(f),
 \tilde{M})$ and that the $D_{+}(f)$ form a base for the topology of $X$ (2.3.4), we see that the $\beta_{f}$ come from a
 unique canonical homomorphism of $\mathcal{O}_{X}$-modules
 
-$$ \beta : \tilde{\Gamma_{\bullet}(\mathcal{F})} \to \mathcal{F} (2.6.4.2) $$
+$$ \beta : \widetilde{\Gamma_{\bullet}(\mathcal{F})} \to \mathcal{F} \tag{2.6.4.2} $$
 
 (also denoted $\beta_{\mathcal{F}}$) which is evidently functorial.
 
@@ -1283,13 +1266,11 @@ $$ \beta : \tilde{\Gamma_{\bullet}(\mathcal{F})} \to \mathcal{F} (2.6.4.2) $$
 
 Let $M$ be a graded $S$-module and $\mathcal{F}$ an $\mathcal{O}_{X}$-module; then the composite homomorphisms
 
-```text
-  M̃ ──α̃──→ (Γ_•(M̃))̃ ──β──→ M̃                                          (2.6.5.1)
-```
+$$ \widetilde{M} \xrightarrow{\widetilde{\alpha}} \widetilde{(\Gamma_{\bullet}(\widetilde{M}))} \xrightarrow{\beta}
+\widetilde{M} \tag{2.6.5.1} $$
 
-```text
-  Γ_•(ℱ) ──α──→ Γ_•((Γ_•(ℱ))̃) ──Γ_•(β)──→ Γ_•(ℱ)                         (2.6.5.2)
-```
+$$ \Gamma_{\bullet}(\mathcal{F}) \xrightarrow{\alpha} \Gamma_{\bullet}(\widetilde{(\Gamma_{\bullet}(\mathcal{F}))})
+\xrightarrow{\Gamma_{\bullet}(\beta)} \Gamma_{\bullet}(\mathcal{F}) \tag{2.6.5.2} $$
 
 are the identity isomorphisms.
 
@@ -1300,9 +1281,7 @@ $D_{+}(f)$ `(I, 1.3.8)`. The verification of (2.6.5.2) is done degree by degree:
 \Gamma(X, \tilde{M}(n)) = \Gamma(X, \tilde{M(n)})$. Now if $f \in S_{1}$ and $z \in M_{n}$, $\alpha^{f}_{n}(z)$ is the
 element $z/1$ of $(M(n))_{(f)}$, equal to $(f/1)^{n} (z/f^{n})$; via $\beta_{f}$ it corresponds to the section
 
-```text
-  ((α_1(f))^n | D_+(f)) · ((z | D_+(f)) · ((α_1(f))^n | D_+(f))⁻¹)
-```
+$$ ((\alpha_1(f))^n | D_{+}(f)) \cdot ((z | D_{+}(f)) \cdot ((\alpha_1(f))^n | D_{+}(f))^{-1}) $$
 
 over $D_{+}(f)$, that is, the restriction of $z$ to $D_{+}(f)$, which verifies (2.6.5.2).
 
@@ -1346,8 +1325,8 @@ Let $M$, $N$ be two graded $S$-modules; we say that a homomorphism $u : M \to N$
 (resp. _(TN)-surjective_, _(TN)-bijective_) if there exists an integer $n$ such that $u_{k} : M_{k} \to N_{k}$ is
 injective (resp. surjective, bijective) for $k \geq n$. To say that $u$ is (TN)-injective (resp. (TN)-surjective) thus
 amounts to saying that `Ker u` (resp. `Coker u`) satisfies (TN). By virtue of (2.5.4), if $u$ is (TN)-injective (resp.
-(TN)-surjective, (TN)-bijective), then `ũ` is injective (resp. surjective, bijective); when $u$ is (TN)-bijective, we
-also say that $u$ is a _(TN)-isomorphism_.
+(TN)-surjective, (TN)-bijective), then $\tilde{u}$ is injective (resp. surjective, bijective); when $u$ is
+(TN)-bijective, we also say that $u$ is a _(TN)-isomorphism_.
 
 **Proposition.**
 
@@ -1425,7 +1404,7 @@ $\mathcal{O}_{X}$-module of the form $\tilde{M}$, where $M$ is a graded $S$-modu
 <!-- label: II.2.7.8 -->
 
 Under the hypotheses of (2.7.5), every quasi-coherent $\mathcal{O}_{X}$-module of finite type $\mathcal{F}$ is
-isomorphic to an $\mathcal{O}_{X}$-module of the form `Ñ`, where $N$ is a graded $S$-module of finite type.
+isomorphic to an $\mathcal{O}_{X}$-module of the form $\widetilde{N}$, where $N$ is a graded $S$-module of finite type.
 
 **Proof.** We may assume $\mathcal{F} = \tilde{M}$, where $M$ is a graded $S$-module (2.7.7). Let
 $(f_{\lambda})_{\lambda \in L}$ be a system of homogeneous generators of $M$; for every finite subset $H$ of $L$, let
@@ -1482,7 +1461,8 @@ Suppose the hypotheses of (2.7.5) are satisfied, and let $M$ be a graded $S$-mod
 
 (ii) Let $\mathcal{G}$ be a quasi-coherent sub-$\mathcal{O}_{X}$-module of $\tilde{M}$, and let $N$ be the graded
 sub-$S$-module of $M$ given by the inverse image of $\Gamma_{\bullet}(\mathcal{G})$ under $\alpha$. Then $\tilde{N} =
-\mathcal{G}$ (where `Ñ` is identified, by virtue of (2.5.4), with a sub-$\mathcal{O}_{X}$-module of $\tilde{M}$).
+\mathcal{G}$ (where $\widetilde{N}$ is identified, by virtue of (2.5.4), with a sub-$\mathcal{O}_{X}$-module of
+$\tilde{M}$).
 
 **Proof.** Since $\beta : \tilde{\Gamma_{\bullet}(\tilde{M})} \to \tilde{M}$ is an isomorphism by (2.7.5),
 $\tilde{\alpha}$ is the inverse isomorphism by (2.6.5.1), whence (i). Let $P$ be the graded submodule $\alpha(M)$ of
@@ -1491,7 +1471,8 @@ $\tilde{\alpha}$ is equal to $\tilde{P}$, hence by (i), $\tilde{P} = \tilde{\Gam
 \Gamma_{\bullet}(\mathcal{G}) \cap P$; by what precedes and by (2.5.4), $\tilde{Q} =
 \tilde{\Gamma_{\bullet}(\mathcal{G})}$, so the restriction of $\beta$ to $\tilde{Q}$ is an _isomorphism_ from this
 $\mathcal{O}_{X}$-module onto $\mathcal{G}$ by (2.7.5). But by the definition of $N$ and by (2.5.4), the restriction of
-the isomorphism $\tilde{\alpha}$ to `Ñ` is an isomorphism from `Ñ` onto $\tilde{Q}$, whence the conclusion by (2.6.5.1).
+the isomorphism $\tilde{\alpha}$ to $\widetilde{N}$ is an isomorphism from $\widetilde{N}$ onto $\tilde{Q}$, whence the
+conclusion by (2.6.5.1).
 
 ## 2.8. Functorial behaviour
 
@@ -1506,7 +1487,7 @@ $G(\phi)$ of the continuous map ${}^{a}\phi$ from $\operatorname{Spec}(S)$ to $\
 therefore a continuous map from $G(\phi)$ to $\operatorname{Proj}(S')$, which we again denote, by an abuse of language,
 by ${}^{a}\phi$. If $f' \in S'_{+}$ is homogeneous, we have
 
-$$ {}^{a}\phi^{-1}(D_{+}(f')) = D_{+}(\phi(f')) (2.8.1.1) $$
+$$ {}^{a}\phi^{-1}(D_{+}(f')) = D_{+}(\phi(f')) \tag{2.8.1.1} $$
 
 taking into account the fact that ${}^{a}\phi$ sends $G(\phi)$ to $\operatorname{Proj}(S')$, and `(I, 1.2.2.2)`. On the
 other hand, the homomorphism $\phi$ canonically defines (with the same notation) a homomorphism of graded rings $S'_{f'}
@@ -1521,19 +1502,23 @@ $\operatorname{Proj}(S)$ on $D_{+}(f)$ (2.3.6), we have defined a morphism $\Phi
 ${}^{a}\phi_{(f)}$ identifies with the restriction of ${}^{a}\phi$ to $D_{+}(f)$. It is also immediate that, if $g'$ is
 another homogeneous element of $S'_{+}$ and $g = \phi(g')$, then the diagram
 
-```text
-   D_+(f)  ──Φ_f──→  D_+(f')
-     ↑                 ↑
-   D_+(fg) ──Φ_{fg}──→ D_+(f'g')
-```
+$$
+\begin{array}{ccc}
+D_{+}(f) & \xrightarrow{\Phi_f} & D_{+}(f') \\
+\uparrow & & \uparrow \\
+D_{+}(fg) & \xrightarrow{\Phi_{fg}} & D_{+}(f'g')
+\end{array}
+$$
 
 commutes, by the commutativity of the diagram
 
-```text
-   S'_{(f')}    ──φ_{(f)}──→  S_{(f)}
-       ↓ ω_{f'g', f'}             ↓ ω_{fg, f}
-   S'_{(f'g')} ──φ_{(fg)}──→ S_{(fg)}.
-```
+$$
+\begin{array}{ccc}
+S'_{(f')} & \xrightarrow{\phi_{(f)}} & S_{(f)} \\
+\downarrow{\scriptstyle \omega_{f'g', f'}} & & \downarrow{\scriptstyle \omega_{fg, f}} \\
+S'_{(f'g')} & \xrightarrow{\phi_{(fg)}} & S_{(fg)}.
+\end{array}
+$$
 
 Taking into account the definition of $G(\phi)$ and (2.3.3.2), we therefore see that:
 
@@ -1549,11 +1534,14 @@ S_{(\phi(f'))}$ corresponding to $\phi$.
 
 **Proof.** With the above notation, if $f' \in S'_{d}$, the diagram
 
-```text
-   S'_{(f')}                  ──φ_{(f)}──→  S_{(f)}                       (2.8.2.1)
-       ↓ ≅                                    ↓ ≅
-   S'^{(d)}/(f' − 1) S'^{(d)} ──────→  S^{(d)}/(f − 1) S^{(d)}
-```
+$$
+\begin{array}{ccc}
+S'_{(f')} & \xrightarrow{\phi_{(f)}} & S_{(f)} \\
+\downarrow{\scriptstyle \cong} & & \downarrow{\scriptstyle \cong} \\
+S'^{(d)}/(f' - 1) S'^{(d)} & \xrightarrow{\quad} & S^{(d)}/(f - 1) S^{(d)}
+\end{array}
+\tag{2.8.2.1}
+$$
 
 commutes (the vertical arrows being the isomorphisms (2.2.5)).
 
@@ -1593,30 +1581,37 @@ $\phi'$, $\phi''$ respectively, then $\Phi'' = \Phi' \circ (\Phi | G(\phi''))$.
 Suppose $S$ (resp. $S'$) is a graded $A$-algebra (resp. a graded $A'$-algebra), and let $\psi : A' \to A$ be a ring
 homomorphism such that the diagram
 
-```text
-   A' ──ψ──→ A                                                            (2.8.5.1)
-   ↓         ↓
-   S' ──φ──→ S
-```
+$$
+\begin{array}{ccc}
+A' & \xrightarrow{\psi} & A \\
+\downarrow & & \downarrow \\
+S' & \xrightarrow{\phi} & S
+\end{array}
+\tag{2.8.5.1}
+$$
 
 commutes. We can then consider $G(\phi)$ (resp. $\operatorname{Proj}(S')$) as a scheme over $\operatorname{Spec}(A)$
 (resp. $\operatorname{Spec}(A')$); if $\Phi$ (resp. $\Psi$) is the morphism associated to $\phi$ (resp. $\psi$), the
 diagram
 
-```text
-   G(φ)     ──Φ──→  Proj(S')
-     ↓                 ↓
-   Spec(A) ──Ψ──→ Spec(A')
-```
+$$
+\begin{array}{ccc}
+G(\phi) & \xrightarrow{\Phi} & \operatorname{Proj}(S') \\
+\downarrow & & \downarrow \\
+\operatorname{Spec}(A) & \xrightarrow{\Psi} & \operatorname{Spec}(A')
+\end{array}
+$$
 
 commutes: it suffices to prove this for the restriction of $\Phi$ to $D_{+}(f)$, where $f = \phi(f')$, $f'$ homogeneous
 in $S'_{+}$; this then follows from the commutativity of the diagram
 
-```text
-   A'         ──ψ──→  A
-   ↓                   ↓
-   S'_{(f')} ──φ_{(f)}──→ S_{(f)}.
-```
+$$
+\begin{array}{ccc}
+A' & \xrightarrow{\psi} & A \\
+\downarrow & & \downarrow \\
+S'_{(f')} & \xrightarrow{\phi_{(f)}} & S_{(f)}.
+\end{array}
+$$
 
 **(2.8.6)**
 
@@ -1633,11 +1628,13 @@ corresponds an isomorphism of sheaves $\tilde{M_{[\phi]}} | D_{+}(f') \cong (\Ph
 
 if $g'$ is another homogeneous element of $S'_{+}$ and $g = \phi(g')$, the diagram
 
-```text
-   (M_{[φ]})_{(f')}   ──≅──→  (M_{(f)})_{[φ_{(f)}]}
-       ↓                              ↓
-   (M_{[φ]})_{(f'g')} ──≅──→  (M_{(fg)})_{[φ_{(fg)}]}
-```
+$$
+\begin{array}{ccc}
+(M_{[\phi]})_{(f')} & \xrightarrow{\cong} & (M_{(f)})_{[\phi_{(f)}]} \\
+\downarrow & & \downarrow \\
+(M_{[\phi]})_{(f'g')} & \xrightarrow{\cong} & (M_{(fg)})_{[\phi_{(fg)}]}
+\end{array}
+$$
 
 commutes, whence we immediately conclude that the isomorphism $\tilde{M_{[\phi]}} | D_{+}(f'g') \cong
 (\Phi_{fg})_{*}(\tilde{M} | D_{+}(fg))$ is the restriction to $D_{+}(f'g')$ of the isomorphism $\tilde{M_{[\phi]}} |
@@ -1662,24 +1659,20 @@ G(\phi'')$ and $\tilde{M}'' \to \tilde{M}' | G(\phi')$.
 <!-- label: II.2.8.8 -->
 
 Under the hypotheses of (2.8.1), let $M'$ be a graded $S'$-module. There exists a canonical functorial homomorphism
-$\nu$ from the $(\mathcal{O}_{X} | G(\phi))$-module $\Phi*(\tilde{M}')$ to the $(\mathcal{O}_{X} | G(\phi))$-module
+$\nu$ from the $(\mathcal{O}_{X} | G(\phi))$-module $\Phi^{*}(\tilde{M}')$ to the $(\mathcal{O}_{X} | G(\phi))$-module
 $\tilde{M' \otimes_{S'} S} | G(\phi)$. If the ideal $S'_{+}$ is generated by $S'_{1}$, then $\nu$ is an isomorphism.
 
 **Proof.** Indeed, for $f' \in S'_{d}$ ($d > 0$), we define a canonical functorial homomorphism of $S_{(f)}$-modules
 (where $f = \phi(f')$)
 
-```text
-  ν_f : M'_{(f')} ⊗_{S'_{(f')}} S_{(f)} → (M' ⊗_{S'} S)_{(f)}             (2.8.8.1)
-```
+$$ \nu_f : M'_{(f')} \otimes_{S'_{(f')}} S_{(f)} \to (M' \otimes_{S'} S)_{(f)} \tag{2.8.8.1} $$
 
 by composing the homomorphism $M'_{(f')} \otimes_{S'_{(f')}} S_{(f)} \to M'_{f'} \otimes_{S'_{f'}} S_{f}$ and the
 canonical isomorphism $M'_{f'} \otimes_{S'_{f'}} S_{f} \cong (M' \otimes_{S'} S)_{f}$ `(0, 1.5.4)`, and noting that the
 latter preserves degrees. We verify at once the compatibility of the $\nu_{f}$ with the restriction operators from
 $D_{+}(f)$ to $D_{+}(fg)$ (for another $g' \in S'_{+}$ and $g = \phi(g')$), whence the definition of the homomorphism
 
-```text
-  ν : Φ*(M̃') → (M' ⊗_{S'} S)̃ | G(φ)
-```
+$$ \nu : \Phi^*(\widetilde{M}') \to \widetilde{M' \otimes_{S'} S} | G(\phi) $$
 
 taking `(I, 1.6.5)` into account. To prove the second assertion, it suffices to show that $\nu_{f}$ is an isomorphism
 for every $f' \in S'_{1}$, since $G(\phi)$ is then a union of the $D_{+}(\phi(f'))$. We first define a
@@ -1690,9 +1683,7 @@ element $(x'/f'^{m}) \otimes (s/f^{n})$ (with the convention that $x'/f'^{m}$ me
 
 when $m < 0$). One observes, as in the proof of (2.5.13), that this map gives rise to a di-homomorphism of modules
 
-```text
-  η_f : M' ⊗_{S'} S → M'_{(f')} ⊗_{S'_{(f')}} S_{(f)}.
-```
+$$ \eta_f : M' \otimes_{S'} S \to M'_{(f')} \otimes_{S'_{(f')}} S_{(f)}. $$
 
 Moreover, if for some $r > 0$ we have $f'^{r} \sum_{i} (x'_{i} \otimes s_{i}) = 0$, this can also be written $\sum_{i}
 (f'^{r} x'_{i} \otimes s_{i}) = 0$, whence by `(0, 1.5.4)`, $\sum_{i} (f'^{r} x'_{i}/f'^{m_{i} + r}) \otimes
@@ -1702,7 +1693,7 @@ $\eta'_{f}$ and $\nu_{f}$ are inverse isomorphisms of one another.
 
 In particular, it follows from (2.1.2.1) that we have a canonical homomorphism
 
-$$ \Phi*(\mathcal{O}_{X'}(n)) \cong \mathcal{O}_{X}(n) | G(\phi) (2.8.8.2) $$
+$$ \Phi^{*}(\mathcal{O}_{X'}(n)) \cong \mathcal{O}_{X}(n) | G(\phi) \tag{2.8.8.2} $$
 
 for every $n \in \mathbb{Z}$.
 
@@ -1717,11 +1708,14 @@ homomorphism of graded rings making the diagram (2.8.5.1) commute. Since here $S
 $\phi(S'_{+})$, we have $G(\phi) = \operatorname{Proj}(S) = X$; whence, setting $X' = \operatorname{Proj}(S')$, a
 commutative diagram
 
-```text
-   X  ──Φ──→  X'                                                          (2.8.9.1)
-   ↓p         ↓
-   Y  ──Ψ──→  Y'
-```
+$$
+\begin{array}{ccc}
+X & \xrightarrow{\Phi} & X' \\
+\downarrow{\scriptstyle p} & & \downarrow \\
+Y & \xrightarrow{\Psi} & Y'
+\end{array}
+\tag{2.8.9.1}
+$$
 
 Now let $M'$ be a graded $S'$-module, and set $M = M' \otimes_{A'} A = M' \otimes_{S'} S$. Under these conditions:
 
@@ -1730,7 +1724,7 @@ Now let $M'$ be a graded $S'$-module, and set $M = M' \otimes_{A'} A = M' \otime
 <!-- label: II.2.8.10 -->
 
 The diagram (2.8.9.1) identifies the scheme $X$ with the product $X' \times_{Y'} Y$; moreover, the canonical
-homomorphism $\nu : \Phi*(\tilde{M}') \to \tilde{M}$ (2.8.8) is an isomorphism.
+homomorphism $\nu : \Phi^{*}(\tilde{M}') \to \tilde{M}$ (2.8.8) is an isomorphism.
 
 **Proof.** The first assertion will be proved if we show that, for every homogeneous $f'$ in $S'_{+}$, setting $f =
 \phi(f')$, the restrictions of $\Phi$ and $p$ to $D_{+}(f)$ identify this scheme with the product $D_{+}(f') \times_{Y'}
@@ -1744,8 +1738,8 @@ with $M_{(f)}$, since $M_{f}$ identifies canonically with $M'_{f'} \otimes_{A'} 
 
 <!-- label: II.2.8.11 -->
 
-For every integer $n \in \mathbb{Z}$, $\tilde{M}(n)$ identifies with $\Phi*(\tilde{M}'(n)) = \tilde{M}'(n) \otimes_{Y'}
-\mathcal{O}_{Y}$; in particular, $\mathcal{O}_{X}(n) = \Phi*(\mathcal{O}_{X'}(n)) = \mathcal{O}_{X'}(n) \otimes_{Y'}
+For every integer $n \in \mathbb{Z}$, $\tilde{M}(n)$ identifies with $\Phi^{*}(\tilde{M}'(n)) = \tilde{M}'(n) \otimes_{Y'}
+\mathcal{O}_{Y}$; in particular, $\mathcal{O}_{X}(n) = \Phi^{*}(\mathcal{O}_{X'}(n)) = \mathcal{O}_{X'}(n) \otimes_{Y'}
 \mathcal{O}_{Y}$.
 
 **Proof.** This follows from (2.8.10) and (2.5.15).
@@ -1758,11 +1752,14 @@ For every integer $n \in \mathbb{Z}$, $\tilde{M}(n)$ identifies with $\Phi*(\til
 
 Under the hypotheses of (2.8.9), for $f' \in S'_{d}$ ($d > 0$) and $f = \phi(f')$, the diagram
 
-```text
-   M'_{(f')} ──≅──→  M'^{(d)}/(f' − 1) M'^{(d)}                          (2.8.12.1)
-       ↓                       ↓
-   M_{(f)}   ──≅──→  M^{(d)}/(f − 1) M^{(d)}
-```
+$$
+\begin{array}{ccc}
+M'_{(f')} & \xrightarrow{\cong} & M'^{(d)}/(f' - 1) M'^{(d)} \\
+\downarrow & & \downarrow \\
+M_{(f)} & \xrightarrow{\cong} & M^{(d)}/(f - 1) M^{(d)}
+\end{array}
+\tag{2.8.12.1}
+$$
 
 (cf. (2.2.5)) commutes.
 
@@ -1771,12 +1768,10 @@ Under the hypotheses of (2.8.9), for $f' \in S'_{d}$ ($d > 0$) and $f = \phi(f')
 <!-- label: II.2.8.13 -->
 
 Keep the notation and hypotheses of (2.8.9), and let $\mathcal{F}'$ be an $\mathcal{O}_{X'}$-module; setting
-$\mathcal{F} = \Phi*(\mathcal{F}')$, we have, for every $n \in \mathbb{Z}$, $\mathcal{F}(n) = \Phi*(\mathcal{F}'(n))$ by
+$\mathcal{F} = \Phi^{*}(\mathcal{F}')$, we have, for every $n \in \mathbb{Z}$, $\mathcal{F}(n) = \Phi^{*}(\mathcal{F}'(n))$ by
 virtue of (2.8.11) and `(0, 4.3.3)`. Consequently `(0, 3.7.1)` we have a canonical homomorphism
 
-```text
-  Γ(ρ) : Γ(X', ℱ'(n)) → Γ(X, ℱ(n))
-```
+$$ \Gamma(\rho) : \Gamma(X', \mathcal{F}'(n)) \to \Gamma(X, \mathcal{F}(n)) $$
 
 which gives a canonical di-homomorphism of graded modules
 
@@ -1786,30 +1781,38 @@ Suppose the ideal $S_{+}$ is generated by `S_1`, and $\mathcal{F}' = \tilde{M}'$
 M' \otimes_{A'} A$. If $f'$ is homogeneous in $S'_{+}$ and $f = \phi(f')$, we have seen that $M_{(f)} = M'_{(f')}
 \otimes_{A'} A$, and the diagram
 
-```text
-   M'_0 ──→ M'_{(f')} = Γ(D_+(f'), M̃')
-   ↓          ↓
-   M_0  ──→ M_{(f)}   = Γ(D_+(f), M̃)
-```
+$$
+\begin{array}{ccc}
+M'_0 & \to & M'_{(f')} = \Gamma(D_{+}(f'), \widetilde{M}') \\
+\downarrow & & \downarrow \\
+M_0 & \to & M_{(f)} = \Gamma(D_{+}(f), \widetilde{M})
+\end{array}
+$$
 
 therefore commutes; we conclude immediately from this remark and from the definition of the homomorphism $\alpha$
 (2.6.2) that the diagram
 
-```text
-   M' ──α_{M'}──→ Γ_•(M̃')                                                (2.8.13.1)
-   ↓                ↓
-   M  ──α_M──→ Γ_•(M̃)
-```
+$$
+\begin{array}{ccc}
+M' & \xrightarrow{\alpha_{M'}} & \Gamma_{\bullet}(\widetilde{M}') \\
+\downarrow & & \downarrow \\
+M & \xrightarrow{\alpha_M} & \Gamma_{\bullet}(\widetilde{M})
+\end{array}
+\tag{2.8.13.1}
+$$
 
 commutes. Likewise the diagram
 
-```text
-   (Γ_•(ℱ'))̃ ──β_{ℱ'}──→ ℱ'                                              (2.8.13.2)
-       ↓                  ↓
-   (Γ_•(ℱ))̃ ──β_ℱ──→ ℱ
-```
+$$
+\begin{array}{ccc}
+\widetilde{(\Gamma_{\bullet}(\mathcal{F}'))} & \xrightarrow{\beta_{\mathcal{F}'}} & \mathcal{F}' \\
+\downarrow & & \downarrow \\
+\widetilde{(\Gamma_{\bullet}(\mathcal{F}))} & \xrightarrow{\beta_{\mathcal{F}}} & \mathcal{F}
+\end{array}
+\tag{2.8.13.2}
+$$
 
-commutes (the right vertical arrow being the canonical $\Phi$-morphism $\mathcal{F}' \to \Phi*(\mathcal{F}') =
+commutes (the right vertical arrow being the canonical $\Phi$-morphism $\mathcal{F}' \to \Phi^{*}(\mathcal{F}') =
 \mathcal{F}$).
 
 <!-- original page 47 -->
@@ -1824,17 +1827,18 @@ It is immediate that the canonical di-homomorphisms $M' \to M$ and $N' \to N$ gi
 degree `0`, $(M' \otimes_{S'} N') \otimes_{A'} A \to M \otimes_{S} N$, to which corresponds (taking (2.8.10) into
 account) a homomorphism of $\mathcal{O}_{X}$-modules
 
-```text
-  Φ*((M' ⊗_{S'} N')̃) → (M ⊗_S N)̃.                                       (2.8.14.1)
-```
+$$ \Phi^{*}(\widetilde{M' \otimes_{S'} N'}) \to \widetilde{M \otimes_S N}. \tag{2.8.14.1} $$
 
 Moreover, one verifies at once that the diagram
 
-```text
-   Φ*(M̃' ⊗_{𝒪_{X'}} Ñ') ──≅──→ M̃ ⊗_{𝒪_X} Ñ = Φ*(M̃') ⊗_{𝒪_X} Φ*(Ñ')    (2.8.14.2)
-       ↓ Φ*(λ)                          ↓ λ
-   Φ*((M' ⊗_{S'} N')̃) ──→ (M ⊗_S N)̃
-```
+$$
+\begin{array}{ccc}
+\Phi^{*}(\widetilde{M}' \otimes_{\mathcal{O}_{X'}} \widetilde{N}') & \xrightarrow{\cong} & \widetilde{M} \otimes_{\mathcal{O}_X} \widetilde{N} = \Phi^{*}(\widetilde{M}') \otimes_{\mathcal{O}_X} \Phi^{*}(\widetilde{N}') \\
+\downarrow{\scriptstyle \Phi^{*}(\lambda)} & & \downarrow{\scriptstyle \lambda} \\
+\Phi^{*}(\widetilde{M' \otimes_{S'} N'}) & \to & \widetilde{M \otimes_S N}
+\end{array}
+\tag{2.8.14.2}
+$$
 
 commutes, the first line being the canonical isomorphism `(0, 4.3.3)`. If the ideal $S'_{+}$ is generated by $S'_{1}$,
 it is clear that $S_{+}$ is generated by `S_1`, and the two vertical arrows of (2.8.14.2) are then isomorphisms
@@ -1844,23 +1848,22 @@ We similarly have a canonical di-homomorphism $\operatorname{Hom}_{S'}(M', N') \
 sending a homomorphism $u'$ of degree $k$ to the homomorphism $u' \otimes 1$, which is also of degree $k$; from this we
 deduce an $S$-homomorphism of degree `0`,
 
-```text
-  (Hom_{S'}(M', N')) ⊗_{A'} A → Hom_S(M, N)
-```
+$$ (\operatorname{Hom}_{S'}(M', N')) \otimes_{A'} A \to \operatorname{Hom}_S(M, N) $$
 
 whence a homomorphism of $\mathcal{O}_{X}$-modules
 
-```text
-  Φ*((Hom_{S'}(M', N'))̃) → (Hom_S(M, N))̃.                              (2.8.14.3)
-```
+$$ \Phi^{*}(\widetilde{(\operatorname{Hom}_{S'}(M', N'))}) \to \widetilde{(\operatorname{Hom}_S(M, N))}. \tag{2.8.14.3}
+$$
 
 Moreover, the diagram
 
-```text
-   Φ*((Hom_{S'}(M', N'))̃) ──→ (Hom_S(M, N))̃
-       ↓ Φ*(μ)                          ↓ μ
-   Φ*(𝓗𝓸𝓶_{𝒪_{X'}}(M̃', Ñ')) ──→ 𝓗𝓸𝓶_{𝒪_X}(M̃, Ñ)
-```
+$$
+\begin{array}{ccc}
+\Phi^{*}(\widetilde{(\operatorname{Hom}_{S'}(M', N'))}) & \to & \widetilde{(\operatorname{Hom}_S(M, N))} \\
+\downarrow{\scriptstyle \Phi^{*}(\mu)} & & \downarrow{\scriptstyle \mu} \\
+\Phi^{*}(\mathcal{H}om_{\mathcal{O}_{X'}}(\widetilde{M}', \widetilde{N}')) & \to & \mathcal{H}om_{\mathcal{O}_X}(\widetilde{M}, \widetilde{N})
+\end{array}
+$$
 
 commutes (the second horizontal line being the canonical homomorphism `(0, 4.4.6)`).
 
@@ -1926,8 +1929,8 @@ that this relation implies $\alpha(\mathfrak{J}') \subset \Gamma_{\bullet}(\math
 <!-- label: II.2.9.3 -->
 
 Suppose the hypotheses of (2.9.2, (i)) are satisfied, and moreover that the ideal $S_{+}$ is generated by `S_1`; then
-$\Phi*(\tilde{S(n)})$ is canonically isomorphic to $\tilde{S'(n)}$ for every $n \in \mathbb{Z}$, and consequently
-$\Phi*(\mathcal{F}(n))$ is canonically isomorphic to $\Phi*(\mathcal{F})(n)$ for every $\mathcal{O}_{X}$-module
+$\Phi^{*}(\tilde{S(n)})$ is canonically isomorphic to $\tilde{S'(n)}$ for every $n \in \mathbb{Z}$, and consequently
+$\Phi^{*}(\mathcal{F}(n))$ is canonically isomorphic to $\Phi^{*}(\mathcal{F})(n)$ for every $\mathcal{O}_{X}$-module
 $\mathcal{F}$.
 
 **Proof.** This is a particular case of (2.8.8), taking (2.5.10.2) into account.
@@ -1963,7 +1966,7 @@ sections is zero in $\mathcal{L} \otimes \mathcal{L}'$ ((2.9.3) and (2.5.14.1)),
 Let $A$ be a ring, $M$ an $A$-module, $S$ a graded $A$-algebra generated by the set `S_1` of homogeneous elements of
 degree `1`, $u : M \to S_{1}$ a surjective homomorphism of $A$-modules, and $\bar{u} : \mathbb{S}(M) \to S$ the
 homomorphism (of $A$-algebras) from the symmetric algebra $\mathbb{S}(M)$ of $M$ to $S$ that extends $u$. Then the
-morphism corresponding to `ū` is a closed immersion of $\operatorname{Proj}(S)$ into
+morphism corresponding to $\bar{u}$ is a closed immersion of $\operatorname{Proj}(S)$ into
 $\operatorname{Proj}(\mathbb{S}(M))$.
 
-**Proof.** Indeed, `ū` is surjective by hypothesis, and it suffices to apply (2.9.2).
+**Proof.** Indeed, $\bar{u}$ is surjective by hypothesis, and it suffices to apply (2.9.2).
