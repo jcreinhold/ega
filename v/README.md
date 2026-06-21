@@ -21,7 +21,7 @@ were drafted under the original EGA IV numbering and reference it throughout; we
 
 ## Contents
 
-- [Front matter (publication-history note, prenote attribution, V↔IV mapping)](00-front-matter.md)
+- [Front matter (publication-history note, prenote attribution, V/IV mapping)](00-front-matter.md)
 - [§V.1. Singular and supersingular zeros of a function; differential criteria (formerly EGA IV §16)](01-ch5-01-singular-supersingular-sets.md)
 - [§V.2 supplements (§§2.15–2.16): Jacobian and regularity (formerly EGA IV §§17.15–17.16)](02-ch5-02-jacobian-supplements.md)
 - [§V.5 part 1: Hyperplane sections and conic projections (§§5.1–5.8) (formerly EGA IV §20)](03-ch5-05-hyperplane-sections-part-1.md)

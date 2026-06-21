@@ -33,7 +33,7 @@ prose is in English.
 ## V↔IV mapping
 
 Grothendieck's prenotes were drafted under the EGA IV numbering and renumbered to EGA V only after EGA IV's Part 1
-appeared in 1964. The §V↔§IV correspondence is:
+appeared in 1964. The §V$\leftrightarrow$§IV correspondence is:
 
 | EGA V (this edition) | Originally drafted as | Topic                                                   |
 | -------------------- | --------------------- | ------------------------------------------------------- |
@@ -70,7 +70,7 @@ the source PDFs where possible; where the PDF is genuinely unreadable we keep th
 naming the surrounding context.
 
 See [conventions.md](conventions.md) for the full locked house style and [translation-ledger.md](translation-ledger.md)
-for the running Blass→idiomatic-English term map.
+for the running Blass$\to$idiomatic-English term map.
 
 ## Citation form within this edition
 

@@ -42,7 +42,7 @@ $(S_{n})_{n \in \mathbb{Z}}$ when ambiguity could arise.
 - $Ram(V'/Y)$ — ramification subprescheme of $V'$ relative to $Y$. `(V, 1.7)`
 - `det F` — highest exterior power of a locally free module $F$ of finite rank. `(V, 1.8)`
 - $\Lambda^{q} Q$, $\Lambda^{r} M$ — exterior powers used to detect non-surjectivity loci. `(V, 1.7)`
-- `L = det P ⊗ det Q ⊗ det M^{−1}` — line bundle in the §V.1.8 lemma. `(V, 1.8)`
+- $L = \det P \otimes \det Q \otimes \det M^{-1}$ — line bundle in the §V.1.8 lemma. `(V, 1.8)`
 
 ## §V.2.15-§V.2.16. Smooth forms; smooth quadratic forms
 
@@ -155,7 +155,7 @@ $(S_{n})_{n \in \mathbb{Z}}$ when ambiguity could arise.
 - $Grass_{n}(s)$ — subfunctor associated to a decomposition `(s)` of $\mathcal{E}$. `(V, 5.11)`
 - $Grass^{n}(\mathbb{P}) = Grass_{n+1}(\mathcal{E})$ — Grassmannian of dimension-$n$ linear subvarieties of
   $\mathbb{P}$. `(V, 5.12)`
-- `Grass_n(ℙ) = Grass^{n−1}(ℙ^∨) = Grass_n(ℰ^∨)` — Grassmannian of codimension-$n$ linear subvarieties. `(V, 5.12)`
+- $\operatorname{Grass}_n(\mathbb{P}) = \operatorname{Grass}^{n-1}(\mathbb{P}^{\vee}) = \operatorname{Grass}_n(\mathcal{E}^{\vee})$ — Grassmannian of codimension-$n$ linear subvarieties. `(V, 5.12)`
 - $Gr_{m} = Grass_{m}(\mathbb{P})$ — abbreviation in §V.5.12. `(V, 5.12)`
 - $F$ — canonical quotient on $Grass_{m}$. `(V, 5.12)`
 - $H^{(m)}$ — incidence prescheme for codimension-$m$ linear sections. `(V, 5.12)`
