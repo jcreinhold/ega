@@ -17,9 +17,7 @@ properties already encountered in `(0, 19)`. For more special results on étale 
 resp. **formally étale**) if, for every affine scheme $Y'$, every closed subscheme `Y_0` of $Y'$ defined by a nilpotent
 Ideal $\mathcal{J}$ of $\mathcal{O}_{Y'}$, and every morphism $Y' \to Y$, the map*
 
-```text
-  (17.1.1.1)    Hom_Y(Y', X) → Hom_Y(Y_0, X)
-```
+$$ \operatorname{Hom}_{Y}(Y', X) \to \operatorname{Hom}_{Y}(Y_{0}, X) \tag{17.1.1.1} $$
 
 *deduced from the canonical injection $Y_{0} \to Y'$, is surjective (resp. injective, resp. bijective).*
 
@@ -39,9 +37,7 @@ definition `(17.1.1)` in this particular case, and if one has $\mathcal{J}^{n} =
 $Y'_{j}$ of $Y'$ defined by the Ideal $\mathcal{J}^{j+1}$ for $0 \leqslant j \leqslant n - 1$, so that $Y'_{j}$ is a
 closed subscheme of $Y'_{j+1}$ defined by an Ideal of square zero; the hypothesis implies that each of the maps
 
-```text
-  Hom_Y(Y'_{j+1}, X) → Hom_Y(Y'_j, X)    (0 ⩽ j ⩽ n − 1)
-```
+$$ \operatorname{Hom}_{Y}(Y'_{j+1}, X) \to \operatorname{Hom}_{Y}(Y'_{j}, X) \quad (0 \leqslant j \leqslant n - 1) $$
 
 <!-- original page 57 -->
 
@@ -59,9 +55,7 @@ the same source and target categories, representable or not.
 $Z$ and a closed sub-prescheme `Z_0` of $Z$ defined by a locally nilpotent Ideal $\mathcal{J}$ of $\mathcal{O}_{Z}$.
 Then the map
 
-```text
-  (17.1.2.1)    Hom_Y(Z, X) → Hom_Y(Z_0, X)
-```
+$$ \operatorname{Hom}_{Y}(Z, X) \to \operatorname{Hom}_{Y}(Z_{0}, X) \tag{17.1.2.1} $$
 
 deduced from the canonical injection $Z_{0} \to Z$, is still injective (resp. bijective). Indeed, let $(U_{\alpha})$ be
 an affine open cover of $Z$ such that the Ideals $\mathcal{J} | U_{\alpha}$ are nilpotent, and for each $\alpha$, let
@@ -90,7 +84,8 @@ $S$-morphisms, then so is $f \times_{S} g : X \times_{S} Y \to X' \times_{S} Y'$
 
 *(v) Let $f : X \to Y$, $g : Y \to Z$ be two morphisms; if $g \circ f$ is formally unramified, then so is $f$.*
 
-*(vi) If $f : X \to Y$ is a formally unramified morphism, then so is `f_red : X_red → Y_red`.*
+*(vi) If $f : X \to Y$ is a formally unramified morphism, then so is $f_{\mathrm{red}} : X_{\mathrm{red}} \to
+Y_{\mathrm{red}}$.*
 
 By virtue of `(I, 5.5.12)`, it suffices to prove (i), (ii), and (iii). The two assertions of (i) are trivial. To prove
 (ii), consider two morphisms $f : X \to Y$, $g : Y \to Z$, an affine scheme $Z'$, a closed subscheme $Z'_{0}$ of $Z'$
@@ -255,9 +250,7 @@ This results from the exactness of the sequence `(17.2.3.1)` and from the fact t
 *Let $f : X \to Y$ be a morphism, $X'$ a sub-prescheme of $X$ such that the composite morphism $X' \to^{j} X \to^{f} Y$
 (where $j$ is the canonical injection) is formally smooth. Then the sequence of $\mathcal{O}_{X'}$-Modules `(16.4.21)`*
 
-```text
-  (17.2.5.1)    0 → 𝒩_{X'/X} → Ω^1_{X/Y} ⊗ 𝒪_{X'} → Ω^1_{X'/Y} → 0
-```
+$$ 0 \to \mathcal{N}_{X'/X} \to \Omega^{1}_{X/Y} \otimes \mathcal{O}_{X'} \to \Omega^{1}_{X'/Y} \to 0 \tag{17.2.5.1} $$
 
 *is exact; moreover, for every $x \in X'$, there exists an open neighbourhood $U$ of $x$ such that the restrictions to
 $U$ of the homomorphisms of `(17.2.5.1)` form an exact and split sequence.*
@@ -488,14 +481,13 @@ the datum of a $Y'$-section $s' : Y' \to X'$ is equivalent to that of a
 $Y$-morphism $h = g' \circ s' : Y' \to X$ (where $g' : X' \to X$ is the canonical projection), so that $s' =
 (\mathbf{1}_{Y'}, h)_{X}$, and then the diagram
 
-```text
-  (17.4.1.1)
-                       Y' ──s'──→ X' ──→ Y' ×_Y X
-                       │                    │
-                       h                  𝟏_{Y'} × Δ_f
-                       ↓                    ↓
-                       X ──────Δ_f─────→ X ×_Y X
-```
+$$
+\begin{array}{ccccc}
+Y' & \xrightarrow{s'} & X' & \longrightarrow & Y' \times_{Y} X \\
+\downarrow{\scriptstyle h} & & & & \downarrow{\scriptstyle \mathbf{1}_{Y'} \times \Delta_{f}} \\
+X & & \xrightarrow{\Delta_{f}} & & X \times_{Y} X
+\end{array} \tag{17.4.1.1}
+$$
 
 identifies $Y'$ with the product of the $(X \times_{Y} X)$-preschemes $X$ and $X'$. Consequently `(I, 4.3.2)`, if
 $\Delta_{f}$ is a local isomorphism at the point $x$, $s'$ is a local isomorphism at the point $y'$ (since $x = h(y')$),
@@ -504,27 +496,25 @@ x$, $g = f$, and $s' = \Delta_{f}$.
 
 To complete the proof of `(17.4.1)`, it suffices to prove the implications
 
-```text
-  d'') ⇒ c) ⇒ b) ⇒ d'').
-```
+$$ \mathrm{d''}) \Rightarrow \mathrm{c}) \Rightarrow \mathrm{b}) \Rightarrow \mathrm{d''}). $$
 
-d'') ⇒ c): Since $\Omega^{1}_{X/Y}$ is an $\mathcal{O}_{X}$-Module of finite type, it results from Nakayama's lemma that
-the condition c) is equivalent to $(\Omega^{1}_{X/Y})_{x} \otimes_{\mathcal{O}_{X, x}} k(x) = 0$, that is `(16.4.5)`,
-$(\Omega^{1}_{X_{y}/\operatorname{Spec}(k(y))})_{x} = 0$. One is therefore reduced to the case where $Y$ is the spectrum
-of a field $k$ and $X$ a $k$-algebraic prescheme. The hypothesis that $\mathcal{O}_{X, x}$ is a field $k'$, finite
-extension of $k$, implies first that $x$ is closed in $X$ `(I, 6.4.2)`, then that $x$ is a maximal point of the
-Noetherian prescheme $X$, hence is an isolated point of $X$. Replacing $X$ by the open set ${x}$ of $X$, one can
-therefore suppose that $X = \operatorname{Spec}(k')$; but then the hypothesis that $k'$ is a finite separable extension
-of $k$ implies $\Omega^{1}_{k'/k} = 0$ `(0, 20.6.20)`, which proves c).
+d'') $\Rightarrow$ c): Since $\Omega^{1}_{X/Y}$ is an $\mathcal{O}_{X}$-Module of finite type, it results from
+Nakayama's lemma that the condition c) is equivalent to $(\Omega^{1}_{X/Y})_{x} \otimes_{\mathcal{O}_{X, x}} k(x) = 0$,
+that is `(16.4.5)`, $(\Omega^{1}_{X_{y}/\operatorname{Spec}(k(y))})_{x} = 0$. One is therefore reduced to the case where
+$Y$ is the spectrum of a field $k$ and $X$ a $k$-algebraic prescheme. The hypothesis that $\mathcal{O}_{X, x}$ is a
+field $k'$, finite extension of $k$, implies first that $x$ is closed in $X$ `(I, 6.4.2)`, then that $x$ is a maximal
+point of the Noetherian prescheme $X$, hence is an isolated point of $X$. Replacing $X$ by the open set ${x}$ of $X$,
+one can therefore suppose that $X = \operatorname{Spec}(k')$; but then the hypothesis that $k'$ is a finite separable
+extension of $k$ implies $\Omega^{1}_{k'/k} = 0$ `(0, 20.6.20)`, which proves c).
 
-c) ⇒ b): One has seen above that one then has $\Omega^{1}_{X/Y} | U = 0$ for an open neighbourhood $U$ of $x$ in $X$;
-the assertion b) results then from the definition of $\Omega^{1}_{X/Y}$ `(16.3.1)` and from `(16.1.9)`.
+c) $\Rightarrow$ b): One has seen above that one then has $\Omega^{1}_{X/Y} | U = 0$ for an open neighbourhood $U$ of
+$x$ in $X$; the assertion b) results then from the definition of $\Omega^{1}_{X/Y}$ `(16.3.1)` and from `(16.1.9)`.
 
-b) ⇒ d''): Replacing $X$ by an open neighbourhood of $x$, one can suppose that $\Delta_{f}$ is an open immersion; if one
-designates by $f_{y} : X_{y} \to \operatorname{Spec}(k(y))$ the morphism deduced from $f$ by base change,
-$\Delta_{f_{y}}$ is then also an open immersion `(I, 5.3.4)`, and since condition d'') concerns only the prescheme
-$X_{y}$, one sees that one can restrict to the case where $Y$ is the spectrum of a field $k$, $X$ the spectrum of a
-$k$-algebra $A$ of finite type; property d'') will be established if one proves that $A$ is a finite separable
+b) $\Rightarrow$ d''): Replacing $X$ by an open neighbourhood of $x$, one can suppose that $\Delta_{f}$ is an open
+immersion; if one designates by $f_{y} : X_{y} \to \operatorname{Spec}(k(y))$ the morphism deduced from $f$ by base
+change, $\Delta_{f_{y}}$ is then also an open immersion `(I, 5.3.4)`, and since condition d'') concerns only the
+prescheme $X_{y}$, one sees that one can restrict to the case where $Y$ is the spectrum of a field $k$, $X$ the spectrum
+of a $k$-algebra $A$ of finite type; property d'') will be established if one proves that $A$ is a finite separable
 $k$-algebra, such an algebra being a direct composite of finite separable extensions of $k$. If $K$ is an algebraically
 closed extension of $k$, it amounts to the same to say that $A \otimes_{k} K$ is a finite separable $K$-algebra
 `(4.6.1)`, so one sees that one can restrict to the case where $k$ is algebraically closed. Let us first show that $A$
@@ -589,7 +579,7 @@ residue field of $A$. Then the equivalent conditions a) to e) of theorem `(17.4.
 following:*
 
 *f) $\hat{B} \otimes_{\hat{A}} k$ is a field, finite separable extension of $k$ (which implies that $\hat{B}$ is a
-finite `Â`-algebra).*
+finite $\hat{A}$-algebra).*
 
 *f') $B$ is an $A$-algebra formally unramified for the adic topologies.*
 
@@ -598,8 +588,8 @@ finite `Â`-algebra).*
 *f'') The homomorphism $\hat{A} \to \hat{B}$ is surjective.*
 
 Let us first note, by the same reasoning as in `(0, 19.3.6)`, that it amounts to the same to say that $B$ is an
-$A$-algebra formally unramified for the preadic topologies, or that $\hat{B}$ is an `Â`-algebra formally unramified for
-the adic topologies. On the other hand, the hypothesis that $f$ is locally of finite type implies that
+$A$-algebra formally unramified for the preadic topologies, or that $\hat{B}$ is an $\hat{A}$-algebra formally
+unramified for the adic topologies. On the other hand, the hypothesis that $f$ is locally of finite type implies that
 $\Omega^{1}_{B/A}$
 
 <!-- original page 66 -->
@@ -607,17 +597,17 @@ $\Omega^{1}_{B/A}$
 is a $B$-module of finite type `(16.3.9)`, hence separated for the $\mathfrak{n}$-preadic topology (where $\mathfrak{n}$
 is the maximal ideal of $B$) $(0_{I}, 7.3.5)$; it amounts to the same to say that $\Omega^{1}_{B/A} = 0$ or that
 $\Omega^{1}_{\hat{B}/\hat{A}} = 0$; hence `(0, 20.7.4)`, it amounts to the same to say that $B$ is an $A$-algebra
-formally unramified for the discrete topologies, or that $\hat{B}$ is an `Â`-algebra formally unramified for the preadic
-topologies. This proves the equivalence of conditions e) and f'). If $\mathfrak{m}$ is the maximal ideal of $A$, one has
-$k = A/\mathfrak{m} = \hat{A}/\mathfrak{m} \hat{A}$, so $\hat{B} \otimes_{\hat{A}} k = \hat{B}/\mathfrak{m} \hat{B} =
-\hat{B} \otimes_{B} (B/\mathfrak{m} B)$, and consequently $(0_{I}, 7.3.5)$ $\hat{B}/\mathfrak{m} \hat{B}$ is the
-completion of $B/\mathfrak{m} B = B \otimes_{A} k$ for the $\mathfrak{n}$-preadic topology; this proves the equivalence
-of d'') and f). Finally, when $k(x) = k(y)$ or when $k$ is separably closed, the condition f) implies that the
-homomorphism $A/\mathfrak{m} A \to B/\mathfrak{n} B$ is bijective; the condition f) implies on the other hand that $B$
-is a quasi-finite `Â`-algebra $(0_{I}, 7.4.4)$, hence finite since `Â` is complete and $\hat{B}$ separated for the
-$\mathfrak{n}$-preadic topology, $\mathfrak{m} \hat{B}$ being an ideal of definition of $\hat{B}$ $(0_{I}, 7.4.1)$. The
-homomorphism $\hat{A} \to \hat{B}$ is therefore surjective by virtue of Nakayama's lemma. Hence f) implies f''), and the
-converse is evident.
+formally unramified for the discrete topologies, or that $\hat{B}$ is an $\hat{A}$-algebra formally unramified for the
+preadic topologies. This proves the equivalence of conditions e) and f'). If $\mathfrak{m}$ is the maximal ideal of $A$,
+one has $k = A/\mathfrak{m} = \hat{A}/\mathfrak{m} \hat{A}$, so $\hat{B} \otimes_{\hat{A}} k = \hat{B}/\mathfrak{m}
+\hat{B} = \hat{B} \otimes_{B} (B/\mathfrak{m} B)$, and consequently $(0_{I}, 7.3.5)$ $\hat{B}/\mathfrak{m} \hat{B}$ is
+the completion of $B/\mathfrak{m} B = B \otimes_{A} k$ for the $\mathfrak{n}$-preadic topology; this proves the
+equivalence of d'') and f). Finally, when $k(x) = k(y)$ or when $k$ is separably closed, the condition f) implies that
+the homomorphism $A/\mathfrak{m} A \to B/\mathfrak{n} B$ is bijective; the condition f) implies on the other hand that
+$B$ is a quasi-finite $\hat{A}$-algebra $(0_{I}, 7.4.4)$, hence finite since $\hat{A}$ is complete and $\hat{B}$
+separated for the $\mathfrak{n}$-preadic topology, $\mathfrak{m} \hat{B}$ being an ideal of definition of $\hat{B}$
+$(0_{I}, 7.4.1)$. The homomorphism $\hat{A} \to \hat{B}$ is therefore surjective by virtue of Nakayama's lemma. Hence f)
+implies f''), and the converse is evident.
 
 **(17.4.5)** Given an $S$-prescheme $Y$ and two $S$-morphisms $f : X \to Y$, $g : X \to Y$, one canonically deduces an
 $S$-morphism $(f, g)_{S} : X \to Y \times_{S} Y$. We shall call **prescheme of coincidences** of $f$ and $g$ the inverse
@@ -754,9 +744,8 @@ polynomials $v_{i} \in k(y)[T_{1}, \cdots, T_{n}]$ such that their images in $(\
 \mathfrak{j}_{\mathfrak{q}})/(\mathfrak{j}_{\mathfrak{q}}/\mathfrak{r} \mathfrak{j}_{\mathfrak{q}})^{2}$ generate this
 $(B_{\mathfrak{q}}/\mathfrak{r} B_{\mathfrak{q}})$-module and that one has
 
-```text
-  (17.5.1.2)    det(∂v_i/∂T_{j_k}) ∉ 𝔮 B_𝔮/𝔯 B_𝔮.
-```
+$$ \det(\partial v_{i}/\partial T_{j_{k}}) \notin \mathfrak{q} B_{\mathfrak{q}}/\mathfrak{r} B_{\mathfrak{q}}.
+\tag{17.5.1.2} $$
 
 If, for each $i$, one then designates by $g_{i}$ an element of $\mathfrak{j}$ whose $v_{i}$ is the canonical image, it
 follows from `(17.5.1.2)` that the $g_{i}$ verify condition `(17.5.1.1)`; on the other hand, by virtue of Nakayama's
@@ -787,21 +776,21 @@ conditions a) to c) of `(17.5.1)` are also equivalent to each of the following:*
 
 *d) $B$ is an $A$-algebra formally smooth for the preadic topologies.*
 
-*d') $\hat{B}$ is an `Â`-algebra formally smooth for the adic topologies.*
+*d') $\hat{B}$ is an $\hat{A}$-algebra formally smooth for the adic topologies.*
 
 *If moreover $k(x) = k(y)$, these conditions are also equivalent to:*
 
-*d'') $\hat{B}$ is an `Â`-algebra isomorphic to a formal power series algebra $\hat{A}[[T_{1}, \cdots, T_{n}]]$.*
+*d'') $\hat{B}$ is an $\hat{A}$-algebra isomorphic to a formal power series algebra $\hat{A}[[T_{1}, \cdots, T_{n}]]$.*
 
 The equivalence of condition c) of `(17.5.1)` and d) results from the equivalence of a) and d) in the Jacobian criterion
 `(0, 22.6.4)`, and the equivalence of d) and d') results from `(0, 19.3.6)`. On the other hand, d'') implies d') without
-any hypothesis on the residue fields `(0, 19.3.4)`. Finally, if $\mathfrak{m}$ designates the maximal ideal of `Â`, the
-hypothesis d') implies that $\hat{B}/\mathfrak{m} \hat{B}$ is a complete Noetherian local $k(y)$-algebra, formally
-smooth for its adic topology `(0, 19.3.5)`; the hypothesis $k(y) = k(x)$ then implies that $\hat{B}/\mathfrak{m}
-\hat{B}$ is $k(y)$-isomorphic to a formal power series algebra $k(y)[[T_{1}, \cdots, T_{n}]]$ `(0, 19.6.4)`. Since on
-the other hand, $\hat{A}[[T_{1}, \cdots, T_{n}]]$ is a flat `Â`-module and a complete Noetherian local `Â`-algebra, one
-concludes from `(0, 19.7.1.5)` that this algebra is isomorphic to $\hat{B}$. Hence d') implies d'') under the additional
-hypothesis $k(x) = k(y)$.
+any hypothesis on the residue fields `(0, 19.3.4)`. Finally, if $\mathfrak{m}$ designates the maximal ideal of
+$\hat{A}$, the hypothesis d') implies that $\hat{B}/\mathfrak{m} \hat{B}$ is a complete Noetherian local $k(y)$-algebra,
+formally smooth for its adic topology `(0, 19.3.5)`; the hypothesis $k(y) = k(x)$ then implies that
+$\hat{B}/\mathfrak{m} \hat{B}$ is $k(y)$-isomorphic to a formal power series algebra $k(y)[[T_{1}, \cdots, T_{n}]]$
+`(0, 19.6.4)`. Since on the other hand, $\hat{A}[[T_{1}, \cdots, T_{n}]]$ is a flat $\hat{A}$-module and a complete
+Noetherian local $\hat{A}$-algebra, one concludes from `(0, 19.7.1.5)` that this algebra is isomorphic to $\hat{B}$.
+Hence d') implies d'') under the additional hypothesis $k(x) = k(y)$.
 
 **Remark (17.5.4).** — Suppose that $Y$ is a locally Noetherian prescheme, and $f : X \to Y$ a morphism locally of
 finite type. The criterion `(17.5.3, d)`, together with `(0, 22.1.4)`, shows that to prove that $f$ is smooth, one can
@@ -861,7 +850,8 @@ This has indeed been proved in `(11.3.13)` and `(11.3.14)`, completed by $Err_{I
 *Let $Y$ be a locally Noetherian prescheme, $f : X \to Y$ a morphism locally of finite type, smooth at a point $x \in
 X$; set $y = f(x)$. Then:*
 
-*(i) One has `dim(𝒪_{X, x}) = dim(𝒪_{Y, y}) + dim(𝒪_{X, x} ⊗_{𝒪_{Y, y}} k(y))`.*
+*(i) One has $\dim(\mathcal{O}_{X, x}) = \dim(\mathcal{O}_{Y, y}) + \dim(\mathcal{O}_{X, x} \otimes_{\mathcal{O}_{Y, y}}
+k(y))$.*
 
 *(ii) One has $coprof(\mathcal{O}_{X, x}) = coprof(\mathcal{O}_{Y, y})$.*
 
@@ -949,8 +939,8 @@ following:*
 
 *e) $B$ is an $A$-algebra formally étale for the adic topologies.*
 
-*e') $\hat{B}$ is a free `Â`-module and $\hat{B} \otimes_{\hat{A}} k$ is a field, finite separable extension of $k$
-(which implies that $\hat{B}$ is a finite `Â`-algebra).*
+*e') $\hat{B}$ is a free $\hat{A}$-module and $\hat{B} \otimes_{\hat{A}} k$ is a field, finite separable extension of
+$k$ (which implies that $\hat{B}$ is a finite $\hat{A}$-algebra).*
 
 *If moreover $k(x) = k(y)$, or if $k$ is separably closed, these conditions are also equivalent to:*
 
@@ -958,10 +948,10 @@ following:*
 
 The equivalence of e) with each of the conditions of `(17.6.1)` results at once from `(17.4.4, f')` and `(17.5.3, d')`.
 The fact that e) implies e') results from `(17.4.4, f)` and from `(0, 19.7.1)`, taking into account that $\hat{B}$ is
-then a finite `Â`-algebra `(17.4.4)` and that it amounts to the same to say that $\hat{B}$ is a flat `Â`-module or a
-free `Â`-module $(0_{III}, 10.1.3)$. Conversely, the fact that e') implies e) results from `(17.4.4)` and from
-`(0, 19.7.1)`. Finally, e') implies that the homomorphism $\hat{A} \to \hat{B}$ is injective, and if $k(x) = k(y)$ or if
-$k$ is separably closed, this homomorphism is surjective by `(17.4.4)`. The converse is immediate.
+then a finite $\hat{A}$-algebra `(17.4.4)` and that it amounts to the same to say that $\hat{B}$ is a flat
+$\hat{A}$-module or a free $\hat{A}$-module $(0_{III}, 10.1.3)$. Conversely, the fact that e') implies e) results from
+`(17.4.4)` and from `(0, 19.7.1)`. Finally, e') implies that the homomorphism $\hat{A} \to \hat{B}$ is injective, and if
+$k(x) = k(y)$ or if $k$ is separably closed, this homomorphism is surjective by `(17.4.4)`. The converse is immediate.
 
 **Proposition (17.6.4).**
 
@@ -1285,15 +1275,15 @@ $\overline{g(x)}$ as underlying space, $X$ by $g^{-1}(S')$, $Y$ by $h^{-1}(S')$,
 and $Y'$) at the points of $S'$ being the same. In other words one can restrict to the case where $S$ is integral and
 where $\eta = g(x) = h(y)$ (where $y = f(x)$) is its generic point.
 
-1° Suppose first that $x \in E$. The local rings $\mathcal{O}_{X_{\eta}, x}$ and $\mathcal{O}_{Y_{\eta}, y}$ are
-respectively equal to $\mathcal{O}_{X, x}$ and $\mathcal{O}_{Y, y}$; since the smoothness property of a morphism of
+$1^{\circ}$ Suppose first that $x \in E$. The local rings $\mathcal{O}_{X_{\eta}, x}$ and $\mathcal{O}_{Y_{\eta}, y}$
+are respectively equal to $\mathcal{O}_{X, x}$ and $\mathcal{O}_{Y, y}$; since the smoothness property of a morphism of
 finite presentation at a point depends only on the local ring of that point and on the local ring of its image
 `(17.5.1)`, one sees that the hypothesis $x \in E$ amounts to saying that the morphism $f$ is smooth at the point $x$;
 it still possesses this property at the points of an open neighbourhood of $x$ in $X$, and it suffices to apply
 `(17.3.3, (iii))` to obtain the conclusion.
 
-2° Suppose secondly that $x \in X - E$, and that the morphism $f_{\eta}$ is not flat at the point $x$. The conclusion
-then results from the following lemma which makes `(11.2.8)` more precise:
+$2^{\circ}$ Suppose secondly that $x \in X - E$, and that the morphism $f_{\eta}$ is not flat at the point $x$. The
+conclusion then results from the following lemma which makes `(11.2.8)` more precise:
 
 **Lemma (17.7.11.1).**
 
@@ -1318,17 +1308,18 @@ one has $Ker(1 \otimes u_{s}) = (Ker(1 \otimes u))_{s}$ `(9.4.2)`, hence
 
 <!-- original page 78 -->
 
-`Supp(Ker(1 ⊗ u_s)) = (Supp(Ker(1 ⊗ u)))_s` `(I, 9.1.13.1)`; it follows finally from `(9.5.2)` that for $s$ in a
-neighbourhood of $\eta$, one has $(Supp(Ker(1 \otimes u_{s})))_{s} \supset T_{s}$, which establishes the lemma.
+$\operatorname{Supp}(\operatorname{Ker}(1 \otimes u_{s})) = (\operatorname{Supp}(\operatorname{Ker}(1 \otimes u)))_{s}$
+`(I, 9.1.13.1)`; it follows finally from `(9.5.2)` that for $s$ in a neighbourhood of $\eta$, one has $(Supp(Ker(1
+\otimes u_{s})))_{s} \supset T_{s}$, which establishes the lemma.
 
-3° Suppose now that $x \in X - E$, that the morphism $f_{\eta}$ is flat at the point $x$, but that $f_{\eta}$ is not
-smooth at the point $x$. Note that to say that $f_{\eta}$ is flat at the point $x$ amounts to saying that $f$ itself is
-flat at the point $x$ and replacing $X$ by a neighbourhood of $x$, one can suppose that $f$ is flat `(11.1.1)`; one
-concludes that the same is true of $f_{s}$ for every $s \in S$, and since for every $y \in Y$, $f^{-1}_{s}(y) =
-f^{-1}(y)$, it amounts to the same to say that $f_{g(x')}$ is smooth at the point $x'$ or to say that $f$ is smooth at
-the point $x'$. But the set of $x' \in X$ where $f$ is smooth is open in $X$ `(12.1.7)`, hence the set of $x' \in X$
-where $f$ is not smooth is closed, and since it contains $x$ by hypothesis, it also contains $\overline{x}$, which
-completes the proof for the first property considered in (i).
+$3^{\circ}$ Suppose now that $x \in X - E$, that the morphism $f_{\eta}$ is flat at the point $x$, but that $f_{\eta}$
+is not smooth at the point $x$. Note that to say that $f_{\eta}$ is flat at the point $x$ amounts to saying that $f$
+itself is flat at the point $x$ and replacing $X$ by a neighbourhood of $x$, one can suppose that $f$ is flat
+`(11.1.1)`; one concludes that the same is true of $f_{s}$ for every $s \in S$, and since for every $y \in Y$,
+$f^{-1}_{s}(y) = f^{-1}(y)$, it amounts to the same to say that $f_{g(x')}$ is smooth at the point $x'$ or to say that
+$f$ is smooth at the point $x'$. But the set of $x' \in X$ where $f$ is smooth is open in $X$ `(12.1.7)`, hence the set
+of $x' \in X$ where $f$ is not smooth is closed, and since it contains $x$ by hypothesis, it also contains
+$\overline{x}$, which completes the proof for the first property considered in (i).
 
 Let us prove secondly (i) when it is a question of the property of being étale. Note for this that this property for $f$
 at the point $x$ amounts to saying that $f$ is at the same time smooth and quasi-finite at the point $x$ `(17.6.1)`.
@@ -1418,11 +1409,11 @@ is an isomorphism, one can restrict to the case
 <!-- original page 80 -->
 
 where $Y = \operatorname{Spec}(A)$, $A$ being a local ring. Since $f$ is of finite presentation, one has $X =
-\operatorname{Spec}(B)$, where $B$ is a flat $A$-module of finite presentation `(1.4.7)`, hence free
-`(Bourbaki, Alg. comm., chap. II, §5, n° 2, cor. 2 of th. 1)`. In addition, if $\mathfrak{m}$ is the maximal ideal of
-$A$ and $k$ its residue field, $B/\mathfrak{m} B$ is by hypothesis a field, at once radicial extension and finite
-separable extension of $k$, since $f$ is étale and radicial `(17.6.1)`; hence $B/\mathfrak{m} B$ is isomorphic to $k$,
-and since $B$ is a free $A$-module, $B$ is isomorphic to $A$. Q.E.D.
+\operatorname{Spec}(B)$, where $B$ is a flat $A$-module of finite presentation `(1.4.7)`, hence free (Bourbaki, Alg.
+comm., chap. II, §5, n$^{\circ}$ 2, cor. 2 of th. 1). In addition, if $\mathfrak{m}$ is the maximal ideal of $A$ and $k$
+its residue field, $B/\mathfrak{m} B$ is by hypothesis a field, at once radicial extension and finite separable
+extension of $k$, since $f$ is étale and radicial `(17.6.1)`; hence $B/\mathfrak{m} B$ is isomorphic to $k$, and since
+$B$ is a free $A$-module, $B$ is isomorphic to $A$. Q.E.D.
 
 **Corollary (17.9.2).**
 
@@ -1532,9 +1523,9 @@ $\phi : B \to B$ of the ring $B$. Now, the set $B$ is finite, hence $\phi$ is ne
 (or **relative dimension of $X$ over $Y$ at the point $x$**) and one denotes by $\dim_{x} f$ the positive integer
 $\dim_{x}(f^{-1}(f(x)))$.*
 
-To say that $f$ is quasi-finite at the point $x$ `(II, §1, n° 20)` thus amounts to saying that $\dim_{x} f = 0$. We have
-seen `(13.1.3)` that the function $x \mapsto \dim_{x} f$ is upper semi-continuous. One will note that, even when the
-morphism $f$ has property $(S_{1})$ (in other words `(6.8.1)` is flat and such that its fibres have no immersed
+To say that $f$ is quasi-finite at the point $x$ (II, §1, n$^{\circ}$ 20) thus amounts to saying that $\dim_{x} f = 0$.
+We have seen `(13.1.3)` that the function $x \mapsto \dim_{x} f$ is upper semi-continuous. One will note that, even when
+the morphism $f$ has property $(S_{1})$ (in other words `(6.8.1)` is flat and such that its fibres have no immersed
 associated prime cycle), the function $x \mapsto \dim_{x} f$ is not necessarily continuous, as shown by the example
 where $Y = \operatorname{Spec}(k)$, with $k$ a field, and $X = \operatorname{Spec}(k[U, V, W]/\mathfrak{pq})$, where
 $\mathfrak{p} = (W)$ and $\mathfrak{q} = (U) + (V - W)$ are prime ideals of `k[U, V, W]` ($X$ being thus the union, in
@@ -1573,9 +1564,7 @@ We shall prove later a converse of this result `(17.15.5)`.
 
 *Let $f : X \to Y$, $g : Y \to Z$ be two smooth morphisms. Then, for every $x \in X$, one has*
 
-```text
-  (17.10.3.1)    dim_x(g ∘ f) = dim_x f + dim_{f(x)} g.
-```
+$$ \dim_{x}(g \circ f) = \dim_{x} f + \dim_{f(x)} g. \tag{17.10.3.1} $$
 
 Indeed, $g \circ f$ is smooth `(17.3.3)`, hence the three $\mathcal{O}_{X}$-Modules $\Omega^{1}_{X/Y}$,
 $\Omega^{1}_{X/Z}$ and $f*(\Omega^{1}_{Y/Z})$ are locally free `(17.2.3` and `0_I, 5.4.5)`; in addition the rank at $x$
@@ -1590,14 +1579,12 @@ a consequence of `(17.10.2)` and of the exactness of the sequence `(17.2.3.1)`.
 (where $j$ is the canonical injection) is smooth. Then the conormal sheaf $\mathcal{N}_{X'/X}$ is a locally free
 $\mathcal{O}_{X'}$-Module, and for every $x \in X'$, one has*
 
-```text
-  (17.10.4.1)    dim_x f = dim_x(j ∘ f) + rg_{k(x)}(𝒩_{X'/X})_x.
-```
+$$ \dim_{x} f = \dim_{x}(j \circ f) + \operatorname{rg}_{k(x)}(\mathcal{N}_{X'/X})_{x}. \tag{17.10.4.1} $$
 
 Indeed, $\Omega^{1}_{X/Y} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X'}$ and $\Omega^{1}_{X'/Y}$ are both locally free and
 the exact sequence `(17.2.5.1)` is split in a suitable neighbourhood of each point of $X'$, hence $\mathcal{N}_{X'/X}$
-is locally free (Bourbaki, _Alg. comm._, chap. II, §5, n° 2, th. 1), and relation `(17.10.4.1)` follows immediately from
-the exactness of the sequence `(17.2.5.1)`.
+is locally free (Bourbaki, _Alg. comm._, chap. II, §5, n$^{\circ}$ 2, th. 1), and relation `(17.10.4.1)` follows
+immediately from the exactness of the sequence `(17.2.5.1)`.
 
 ## 17.11. Smooth morphisms of smooth preschemes
 
@@ -1620,9 +1607,8 @@ $$ (17.11.1.1) (g*(\Omega^{1}_{Y/S}))_{x} \to (\Omega^{1}_{X/S})_{x} $$
 
 *c') $h$ is smooth at the point $x$, and the canonical homomorphism*
 
-```text
-  (17.11.1.2)    (Ω_{Y/S}^1 ⊗_{𝒪_Y} k(y)) ⊗_{k(y)} k(x) → (Ω_{X/S}^1)_x ⊗_{𝒪_x} k(x)
-```
+$$ (\Omega^{1}_{Y/S} \otimes_{\mathcal{O}_{Y}} k(y)) \otimes_{k(y)} k(x) \to (\Omega^{1}_{X/S})_{x}
+\otimes_{\mathcal{O}_{x}} k(x) \tag{17.11.1.2} $$
 
 *is injective.*
 
@@ -1651,8 +1637,8 @@ $\mathcal{O}_{X}$-Module) of finite presentation `(16.4.22)`, one can, by replac
 affine open neighbourhoods of $x$ and $y$ respectively, suppose that $\Omega^{1}_{C/A}$ is a free $C$-module and that
 the $t_{i}$ are the images of elements $s_{i} (1 \leqslant i \leqslant r)$ of $B$ such that the $d_{B/A}(s_{i})$
 generate the $B$-module $\Omega^{1}_{B/A}$ and their images in $\Omega^{1}_{C/A}$ form part of a basis of this
-$C$-module (Bourbaki, _Alg. comm._, chap. II, §5, n° 1, prop. 2). Let $\phi$ be the $A$-homomorphism of $B' = A[T_{1},
-\cdots, T_{r}]$ into $B$ such that $\phi(T_{i}) = s_{i}$ for every $i$; the corresponding di-homomorphism
+$C$-module (Bourbaki, _Alg. comm._, chap. II, §5, n$^{\circ}$ 1, prop. 2). Let $\phi$ be the $A$-homomorphism of $B' =
+A[T_{1}, \cdots, T_{r}]$ into $B$ such that $\phi(T_{i}) = s_{i}$ for every $i$; the corresponding di-homomorphism
 $\Omega^{1}_{B'/A} \to \Omega^{1}_{B/A}$ `(0, 20.5.2)` transforms the $d_{B'/A}(T_{i})$, which form a basis of
 $\Omega^{1}_{B'/A}$ `(0, 20.4.13)`, into the $d_{B/A}(s_{i})$ and is consequently surjective; if $Y' =
 \operatorname{Spec}(B')$ and if $u : Y \to Y'$ is the $S$-morphism corresponding to $\phi$, one concludes from
@@ -1684,9 +1670,7 @@ likewise, the canonical homomorphism $\mathfrak{m}_{x}/\mathfrak{m}^{2}_{x} \to 
 \otimes_{\mathcal{O}_{x}} k(x)$ is bijective. The hypothesis c'), equivalent to c), signifies therefore here that the
 canonical homomorphism
 
-```text
-  (𝔪_y/𝔪_y^2) ⊗_{k(y)} k(x) → 𝔪_x/𝔪_x^2
-```
+$$ (\mathfrak{m}_{y}/\mathfrak{m}_{y}^{2}) \otimes_{k(y)} k(x) \to \mathfrak{m}_{x}/\mathfrak{m}_{x}^{2} $$
 
 is injective. Since the ring $\mathcal{O}_{X, x}$ is regular, the conclusion follows from `(0, 17.3.3)`. Q.E.D.
 
@@ -1708,9 +1692,8 @@ $$ (g*(\Omega^{1}_{Y/S}))_{x} \to (\Omega^{1}_{X/S})_{x} $$
 
 *c') $h$ is smooth at the point $x$, and the canonical homomorphism*
 
-```text
-  (Ω_{Y/S}^1 ⊗_{𝒪_Y} k(y)) ⊗_{k(y)} k(x) → (Ω_{X/S}^1)_x ⊗_{𝒪_x} k(x)
-```
+$$ (\Omega^{1}_{Y/S} \otimes_{\mathcal{O}_{Y}} k(y)) \otimes_{k(y)} k(x) \to (\Omega^{1}_{X/S})_{x}
+\otimes_{\mathcal{O}_{x}} k(x) $$
 
 *is bijective.*
 
@@ -1771,12 +1754,12 @@ that $g$ is étale at the closed points (or again, those rational over $k$) of $
 and set $y = g(x)$, which is also rational over $k$; by hypothesis, the ring $A = \mathcal{O}_{Y, y}$ is regular and of
 residue field $k$; let $d = \dim(A)$ and $(t_{i})_{1 \leqslant i \leqslant d}$ a regular system of parameters for $A$.
 Set $B = \mathcal{O}_{X, x}$, $C = B/\mathfrak{m}_{y} B$. Since $g$ is a monomorphism, so is the morphism
-`Spec(C) → Spec(k(y)) = Spec(k)` deduced from $g$ by base change `(I, 3.3.12)`; but this means that the corresponding
-homomorphism $u : k \to C$ is surjective (hence bijective), for $u$ admits a left inverse $v : C \to k$, and $u \circ v$
-and the identity of $C$, composed with $u$, give the same morphism $u : k \to C$. As by hypothesis $B$ is a regular ring
-of dimension $d$, the images of the $t_{i}$ in $B$ form a regular system of parameters for $B$ `(0, 17.1.7)`; condition
-$(17.6.3, e'')$ is therefore verified by $g$ at the point $x$ `(0, 17.1.1` and Bourbaki, _Alg. comm._, chap. III, §2, n°
-8, cor. 3 of th. 1), which completes the proof.
+$\operatorname{Spec}(C) \to \operatorname{Spec}(k(y)) = \operatorname{Spec}(k)$ deduced from $g$ by base change
+`(I, 3.3.12)`; but this means that the corresponding homomorphism $u : k \to C$ is surjective (hence bijective), for $u$
+admits a left inverse $v : C \to k$, and $u \circ v$ and the identity of $C$, composed with $u$, give the same morphism
+$u : k \to C$. As by hypothesis $B$ is a regular ring of dimension $d$, the images of the $t_{i}$ in $B$ form a regular
+system of parameters for $B$ `(0, 17.1.7)`; condition $(17.6.3, e'')$ is therefore verified by $g$ at the point $x$
+`(0, 17.1.1` and Bourbaki, _Alg. comm._, chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1), which completes the proof.
 
 ## 17.12. Smooth subpreschemes of a smooth prescheme. Smooth morphisms and differentially smooth morphisms
 
@@ -1865,8 +1848,8 @@ j(Y)$.*
 
 Since $(g_{i}')_{x}$ is the canonical image of $(g_{i})_{x}$, the equivalence of a) and b) results from Nakayama's
 lemma, $\mathcal{I}_{x}$ being of finite type and $\mathcal{I}_{x}/\mathcal{I}^{2}_{x}$ an $(\mathcal{O}_{X,
-x}/\mathcal{I}_{x})$-free module `(17.10.4)` (Bourbaki, _Alg. comm._, chap. II, §3, n° 2, prop. 5). By virtue of
-`(17.12.1, b))`, $\mathcal{I}_{x}/\mathcal{I}^{2}_{x}$ is canonically identified with a direct factor of the
+x}/\mathcal{I}_{x})$-free module `(17.10.4)` (Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 2, prop. 5). By virtue
+of `(17.12.1, b))`, $\mathcal{I}_{x}/\mathcal{I}^{2}_{x}$ is canonically identified with a direct factor of the
 $(\mathcal{O}_{X, x}/\mathcal{I}_{x})$-free module of rank $n$, $(\Omega^{1}_{X/S})_{x} \otimes_{\mathcal{O}_{x}}
 (\mathcal{O}_{X, x}/\mathcal{I}_{x})$, and the equivalence of b) and c) results from Bourbaki, _loc. cit._. Moreover, if
 a) is verified, $(g_{i}')_{x}$ is thus identified with $(d_{X/S}(g_{i}))_{x} \otimes 1$ for $1 \leqslant i \leqslant r$;
@@ -1926,15 +1909,13 @@ us show that a) entails b); if $\Delta_{f}$ is a quasi-regular immersion, $p_{2}
 $\Delta_{f}(X)$ `(17.12.3)`. Now, if $g' : X' \to X$ is the canonical projection, and $v = (g', g)_{Y'} : X' \to X
 \times_{Y} X$, one verifies at once that the diagram
 
-```text
-                              v
-            X ×_Y X  ←——————  X'
-
-              p_2              f'
-
-              X    ←——————    Y'
-                   h = g' ∘ s'
-```
+$$
+\begin{array}{ccc}
+X \times_{Y} X & \xleftarrow{v} & X' \\
+\downarrow{\scriptstyle p_{2}} & & \downarrow{\scriptstyle f'} \\
+X & \xleftarrow{h = g' \circ s'} & Y'
+\end{array}
+$$
 
 is commutative and identifies $X'$ with the product $(X \times_{Y} X) \times_{X} Y'$ `(I, 3.3.9)`; taking into account
 that the diagram `(17.4.1.1)` identifies $Y'$ with the product of the $(X \times_{Y} X)$-preschemes $X$ and $X'$, one
@@ -2004,22 +1985,23 @@ $k$; it is an isomorphism of $S$ onto a connected component of $G$, and a fortio
 X$ an $S$-morphism. Set $Y' = Y \times_{X} X'$, and let $g : Y' \to Y$, $j : Y' \to X'$ be the canonical projections, so
 that one has the commutative diagram
 
-```text
-  (17.13.1.1)    Y  ←———  Y'
-
-                 X  ←———  X'
-                       f
-```
+$$
+\begin{array}{ccc}
+Y & \longleftarrow & Y' \\
+\downarrow & & \downarrow \\
+X & \xleftarrow{f} & X'
+\end{array} \tag{17.13.1.1}
+$$
 
 and that $j$ is an $S$-immersion. One then has a commutative diagram of quasi-coherent $\mathcal{O}_{Y'}$-Modules
 
-```text
-  (17.13.1.2)
-                  g*(𝒩_{Y/X})  ———→  g*(Ω_{X/S}^1 ⊗ 𝒪_Y)  ———→  g*(Ω_{Y/S}^1)  ———→  0
-                       gr_1(g)            ↓                       ↓
-
-                  𝒩_{Y'/X'}    ———→  Ω_{X'/S}^1 ⊗ 𝒪_{Y'}    ———→  Ω_{Y'/S}^1    ———→  0
-```
+$$
+\begin{array}{ccccccc}
+g*(\mathcal{N}_{Y/X}) & \longrightarrow & g*(\Omega^{1}_{X/S} \otimes \mathcal{O}_{Y}) & \longrightarrow & g*(\Omega^{1}_{Y/S}) & \longrightarrow & 0 \\
+\downarrow{\scriptstyle gr_{1}(g)} & & \downarrow & & \downarrow & & \\
+\mathcal{N}_{Y'/X'} & \longrightarrow & \Omega^{1}_{X'/S} \otimes \mathcal{O}_{Y'} & \longrightarrow & \Omega^{1}_{Y'/S} & \longrightarrow & 0
+\end{array} \tag{17.13.1.2}
+$$
 
 where the lower row is the exact sequence `(16.4.21)` applied to $j$, the upper row comes from the same exact sequence
 for $i$, by application of the right-exact functor $g*$ (which therefore leaves it exact); $gr_{1}(g)$ is defined in
@@ -2030,9 +2012,8 @@ for $i$, by application of the right-exact functor $g*$ (which therefore leaves 
 One has seen moreover `(16.2.2, (iii))` that $gr_{1}(g)$ is here surjective, hence one deduces from `(17.13.1.2)` the
 exact sequence
 
-```text
-  (17.13.1.3)    g*(𝒩_{Y/X}) ⟶^α Ω_{X'/S}^1 ⊗ 𝒪_{Y'} ⟶ Ω_{Y'/S}^1 ⟶ 0.
-```
+$$ g*(\mathcal{N}_{Y/X}) \xrightarrow{\alpha} \Omega^{1}_{X'/S} \otimes \mathcal{O}_{Y'} \longrightarrow
+\Omega^{1}_{Y'/S} \longrightarrow 0. \tag{17.13.1.3} $$
 
 **Proposition (17.13.2).**
 
@@ -2053,9 +2034,7 @@ are also equivalent to the following:*
 
 *b') The homomorphism transpose of $\alpha \otimes 1$*
 
-```text
-  T_{X'/S}(x') → (𝒩_{Y/X} ⊗ k(x'))* = T_{X/S}(x)/T_{Y/S}(x)
-```
+$$ T_{X'/S}(x') \to (\mathcal{N}_{Y/X} \otimes k(x'))* = T_{X/S}(x)/T_{Y/S}(x) $$
 
 *(cf. `(16.5.12)`) is surjective.*
 
@@ -2066,9 +2045,8 @@ $$ gr_{1}(g) : g*(\mathcal{N}_{Y/X}) \to \mathcal{N}_{Y'/X'} $$
 
 *is bijective, and the sequence*
 
-```text
-  (17.13.2.1)    0 ⟶ g*(𝒩_{Y/X}) ⟶ Ω_{X'/S}^1 ⊗ 𝒪_{Y'} ⟶ Ω_{Y'/S}^1 ⟶ 0
-```
+$$ 0 \longrightarrow g*(\mathcal{N}_{Y/X}) \longrightarrow \Omega^{1}_{X'/S} \otimes \mathcal{O}_{Y'} \longrightarrow
+\Omega^{1}_{Y'/S} \longrightarrow 0 \tag{17.13.2.1} $$
 
 *obtained by adjoining a `0` to `(17.13.1.3)`, is exact.*
 
@@ -2079,17 +2057,15 @@ of $x'$ in $Y'$, results from the fact that the set of points where a morphism i
 By virtue of `(17.12.1)` applied to $X'$ and $Y'$, to say that $Y'$ is smooth over $S$ at the point $x'$ amounts to
 saying that the homomorphism
 
-```text
-  δ ⊗ 1 : 𝒩_{Y'/X'} ⊗_{𝒪_{Y'}} k(x') → Ω_{X'/S}^1 ⊗_{𝒪_{X'}} k(x')
-```
+$$ \delta \otimes 1 : \mathcal{N}_{Y'/X'} \otimes_{\mathcal{O}_{Y'}} k(x') \to \Omega^{1}_{X'/S}
+\otimes_{\mathcal{O}_{X'}} k(x') $$
 
 is injective, taking into account `(0, 19.1.12)` and the fact that $\Omega^{1}_{X'/S}$ is a locally free
 $\mathcal{O}_{X'}$-Module at the point $x'$ `(17.2.3)`; since $\Omega^{1}_{Y'/S}$ is then also a locally free
 $\mathcal{O}_{Y'}$-Module in a neighbourhood of $x'$ and the sequence
 
-```text
-  (17.13.2.2)    0 → 𝒩_{Y'/X'} → Ω_{X'/S}^1 ⊗ 𝒪_{Y'} → Ω_{Y'/S}^1 → 0
-```
+$$ 0 \to \mathcal{N}_{Y'/X'} \to \Omega^{1}_{X'/S} \otimes \mathcal{O}_{Y'} \to \Omega^{1}_{Y'/S} \to 0 \tag{17.13.2.2}
+$$
 
 is exact `(17.2.5)`, to say that $Y'$ is of relative dimension $n - c$ over $S$ at the point $x'$ signifies, by
 `(17.10.2)`, that $\mathcal{N}_{Y'/X'}$ (which is locally free in a neighbourhood of $x'$) is of rank $c$ at the point
@@ -2100,13 +2076,12 @@ conditions are equivalent to saying that this homomorphism is
 
 <!-- original page 91 -->
 
-bijective at the point $x'$ (Bourbaki, _Alg. comm._, chap. II, §3, n° 2, cor. of prop. 6), hence also in a neighbourhood
-of $x'$ $(0_{I}, 5.2.7)$; this evidently entails b), as well as the last assertion of the statement, by virtue of the
-exactness of `(17.13.2.2)`. Conversely, since $\alpha \otimes 1$ factors as
+bijective at the point $x'$ (Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 2, cor. of prop. 6), hence also in a
+neighbourhood of $x'$ $(0_{I}, 5.2.7)$; this evidently entails b), as well as the last assertion of the statement, by
+virtue of the exactness of `(17.13.2.2)`. Conversely, since $\alpha \otimes 1$ factors as
 
-```text
-  g*(𝒩_{Y/X}) ⊗ k(x') ⟶^{gr_1(g) ⊗ 1} 𝒩_{Y'/X'} ⊗ k(x') ⟶^{δ ⊗ 1} Ω_{X'/S}^1 ⊗ k(x')
-```
+$$ g*(\mathcal{N}_{Y/X}) \otimes k(x') \xrightarrow{gr_{1}(g) \otimes 1} \mathcal{N}_{Y'/X'} \otimes k(x')
+\xrightarrow{\delta \otimes 1} \Omega^{1}_{X'/S} \otimes k(x') $$
 
 and $gr_{1}(g)$ is surjective, to say that $\alpha \otimes 1$ is injective entails that $\delta \otimes 1$ is and that
 $gr_{1}(g) \otimes 1$ is bijective. One concludes `(17.12.1)` that $Y'$ is smooth over $S$ at the point $x'$, and that
@@ -2119,9 +2094,7 @@ It remains to show the equivalence of b) and b') when $x'$ is rational over $k(s
 for $x$); then $g*(\mathcal{N}_{Y/X}) \otimes_{\mathcal{O}_{Y'}} k(x')$ is identified with $\mathcal{N}_{Y/X}
 \otimes_{\mathcal{O}_{Y}} k(x)$, and since the sequence
 
-```text
-  0 → 𝒩_{Y/X} → Ω_{X/S}^1 ⊗ 𝒪_Y → Ω_{Y/S}^1 → 0
-```
+$$ 0 \to \mathcal{N}_{Y/X} \to \Omega^{1}_{X/S} \otimes \mathcal{O}_{Y} \to \Omega^{1}_{Y/S} \to 0 $$
 
 is exact at the point $x$ and formed of $\mathcal{O}_{Y}$-Modules locally free, the dual of $\mathcal{N}_{Y/X}
 \otimes_{\mathcal{O}_{Y}} k(x)$ is identified with the quotient space $T_{X/S}(x)/T_{Y/S}(x)$ `(16.5.12)`; whence the
@@ -2163,14 +2136,13 @@ morphism $f : X' \to X$ of being transversal to a subprescheme of $X$ at a point
 **(17.13.5)** Let us now consider a prescheme $S$, three $S$-preschemes $X$, $Y$, $Z$, two $S$-morphisms $f : Y \to X$,
 $g : Z \to X$; set $T = Y \times_{X} Z$; one knows then `(I, 5.3.5)` that one has a commutative diagram
 
-```text
-  (17.13.5.1)
-                            X    ←———  Y ×_X Z = T
-
-                            Δ                ↓ u
-
-                       X ×_S X  ←———  Y ×_S Z
-```
+$$
+\begin{array}{ccc}
+X & \longleftarrow & Y \times_{X} Z = T \\
+\downarrow{\scriptstyle \Delta} & & \downarrow{\scriptstyle u} \\
+X \times_{S} X & \longleftarrow & Y \times_{S} Z
+\end{array} \tag{17.13.5.1}
+$$
 
 making $T$ the product of the $(X \times_{S} X)$-preschemes $X$ and $Y \times_{S} Z$, where $u = f \times_{S} g$. As
 $\Delta$ is an $S$-immersion `(I, 5.3.9)`, one is in the situation of the diagram `(17.13.1.1)`; what corresponds to
@@ -2179,9 +2151,8 @@ $\Omega^{1}_{X/S}$ in `(17.13.1)` is then $(\Omega^{1}_{Y/S} \otimes \mathcal{O}
 $\mathcal{N}_{Y/X}$ in `(17.13.1)` is here by definition $\Omega^{1}_{X/S}$ `(16.3.1)`; there corresponds therefore to
 `(17.13.1.3)` an exact sequence
 
-```text
-  (17.13.5.2)    Ω_{X/S}^1 ⊗ 𝒪_T ⟶^ρ (Ω_{Y/S}^1 ⊗ 𝒪_T) ⊕ (Ω_{Z/S}^1 ⊗ 𝒪_T) ⟶^σ Ω_{T/S}^1 ⟶ 0
-```
+$$ \Omega^{1}_{X/S} \otimes \mathcal{O}_{T} \xrightarrow{\rho} (\Omega^{1}_{Y/S} \otimes \mathcal{O}_{T}) \oplus
+(\Omega^{1}_{Z/S} \otimes \mathcal{O}_{T}) \xrightarrow{\sigma} \Omega^{1}_{T/S} \longrightarrow 0 \tag{17.13.5.2} $$
 
 where it remains to make precise the homomorphisms $\rho$ and $\sigma$. Taking into account first `(16.4.23)` and
 `(0, 20.5.2)`, one sees that if $p : T \to Y$, $q : T \to Z$ are the canonical projections, one has, with the notations
@@ -2192,9 +2163,8 @@ $$ (17.13.5.3) \sigma = h_{T/Y/S} + h_{T/Z/S}. $$
 On the other hand, to evaluate $\rho$, let us use the commutativity of the left square in `(17.13.1.2)`, which, in the
 present case, reduces first to making explicit the canonical homomorphism
 
-```text
-  ρ' : Ω_{X/S}^1 → Ω_{(X ×_S X)/S}^1 ⊗_{𝒪_{X ×_S X}} 𝒪_X
-```
+$$ \rho' : \Omega^{1}_{X/S} \to \Omega^{1}_{(X \times_{S} X)/S} \otimes_{\mathcal{O}_{X \times_{S} X}} \mathcal{O}_{X}
+$$
 
 defined in `(16.4.21)` applied to the immersion $\Delta$. One can restrict to the case where $S =
 \operatorname{Spec}(A)$, $X = \operatorname{Spec}(B)$ are affine, and then $\rho'$ corresponds to the homomorphism
@@ -2202,15 +2172,12 @@ $\delta$ of `(0, 20.5.11.2)`, where one must replace $B$ by $B \otimes_{A} B$ an
 B)/\mathfrak{j}_{B/A}$. One then sees that $\delta$ carries the class of $x \otimes 1 - 1 \otimes x$ mod.
 $\mathfrak{j}_{B/A}$ (for an $x \in B$) to the image of
 
-```text
-  (x ⊗ 1 − 1 ⊗ x) ⊗ (1 ⊗ 1) − (1 ⊗ 1) ⊗ (x ⊗ 1 − 1 ⊗ x)
-```
+$$ (x \otimes 1 - 1 \otimes x) \otimes (1 \otimes 1) - (1 \otimes 1) \otimes (x \otimes 1 - 1 \otimes x) $$
 
 in $\Omega^{1}_{(B \otimes_{A} B)/A} \otimes_{B \otimes_{A} B} B$, but the preceding element can be written
 
-```text
-  ((x ⊗ 1) ⊗ (1 ⊗ 1) − (1 ⊗ 1) ⊗ (x ⊗ 1)) − ((1 ⊗ x) ⊗ (1 ⊗ 1) − (1 ⊗ 1) ⊗ (1 ⊗ x))
-```
+$$ ((x \otimes 1) \otimes (1 \otimes 1) - (1 \otimes 1) \otimes (x \otimes 1)) - ((1 \otimes x) \otimes (1 \otimes 1) -
+(1 \otimes 1) \otimes (1 \otimes x)) $$
 
 and one therefore sees that $\rho'$ is the difference of the two homomorphisms $\pi_{1}$ and $\pi_{2}$ of
 $\Omega^{1}_{X/S}$ into $\Omega^{1}_{(X \times_{S} X)/S} \otimes_{\mathcal{O}_{X \times_{S} X}} \mathcal{O}_{X}$,
@@ -2224,9 +2191,7 @@ consider the homomorphism $\rho'' : \Omega^{1}_{(X \times_{S} X)/S} \otimes_{\ma
 `(17.13.5.1)`, then, after tensorization by $\mathcal{O}_{T}$, form the composite $(\rho'' \otimes 1) \circ (\rho'
 \otimes 1)$; it follows from what precedes that one has, with the notations of `(16.4.18)`
 
-```text
-  (17.13.5.4)    ρ = (h_{Y/X/S} ⊗ 1_{𝒪_T}, −h_{Z/X/S} ⊗ 1_{𝒪_T}).
-```
+$$ \rho = (h_{Y/X/S} \otimes 1_{\mathcal{O}_{T}}, -h_{Z/X/S} \otimes 1_{\mathcal{O}_{T}}). \tag{17.13.5.4} $$
 
 This said, the application of `(17.13.2)` to the situation of the diagram `(17.13.5.1)` (taking into account
 `(17.3.3, (iv))`, which implies that $X \times_{S} X$ is smooth over $S$ at $x$ if $X$ is so) gives the
@@ -2245,9 +2210,8 @@ being positive or negative. Then the following conditions are equivalent:*
 
 *b) The homomorphism*
 
-```text
-  ρ ⊗ 1 : Ω_{X/S}^1 ⊗_{𝒪_X} k(x) → (Ω_{Y/S}^1 ⊗_{𝒪_Y} k(y)) ⊕ (Ω_{Z/S}^1 ⊗_{𝒪_Z} k(z))
-```
+$$ \rho \otimes 1 : \Omega^{1}_{X/S} \otimes_{\mathcal{O}_{X}} k(x) \to (\Omega^{1}_{Y/S} \otimes_{\mathcal{O}_{Y}}
+k(y)) \oplus (\Omega^{1}_{Z/S} \otimes_{\mathcal{O}_{Z}} k(z)) $$
 
 *where $\rho$ is given by `(17.13.5.4)`, is injective.*
 
@@ -2259,18 +2223,15 @@ following:*
 
 *b') The homomorphism*
 
-```text
-  (17.13.6.1)    T_y(f) − T_z(g) : T_{Y/S}(y) ⊕ T_{Z/S}(z) → T_{X/S}(x)
-```
+$$ T_{y}(f) - T_{z}(g) : T_{Y/S}(y) \oplus T_{Z/S}(z) \to T_{X/S}(x) \tag{17.13.6.1} $$
 
 *(cf. `(16.5.12.5)`) is surjective.*
 
 *Moreover, when conditions a) and b) are verified at $t$, they are so in a neighbourhood of $t$ in $T$, and by
 restricting $T$ to such a neighbourhood, the sequence*
 
-```text
-  (17.13.6.2)    0 ⟶ Ω_{X/S}^1 ⊗ 𝒪_T ⟶ (Ω_{Y/S}^1 ⊗ 𝒪_T) ⊕ (Ω_{Z/S}^1 ⊗ 𝒪_T) ⟶ Ω_{T/S}^1 ⟶ 0
-```
+$$ 0 \longrightarrow \Omega^{1}_{X/S} \otimes \mathcal{O}_{T} \longrightarrow (\Omega^{1}_{Y/S} \otimes \mathcal{O}_{T})
+\oplus (\Omega^{1}_{Z/S} \otimes \mathcal{O}_{T}) \longrightarrow \Omega^{1}_{T/S} \longrightarrow 0 \tag{17.13.6.2} $$
 
 *(where $\rho$ is given by `(17.13.5.3)`) is exact.*
 
@@ -2293,9 +2254,8 @@ and taking into account `(5.2.3)`, `(5.1.9)` and `(0, 16.5.12)`, one sees that f
 smooth over $S$ at the point $x$), it is necessary and sufficient that $T$ be smooth over $S$ at the point $x$, and that
 one have the relation
 
-```text
-  (17.13.7.1)    codim_x(T_s, X_s) = codim_x(Y_s, X_s) + codim_x(Z_s, X_s).
-```
+$$ \operatorname{codim}_{x}(T_{s}, X_{s}) = \operatorname{codim}_{x}(Y_{s}, X_{s}) + \operatorname{codim}_{x}(Z_{s},
+X_{s}). \tag{17.13.7.1} $$
 
 **Proposition (17.13.8).**
 
@@ -2310,13 +2270,12 @@ equivalent:*
 
 *a') The canonical injection $j : Z \to X$ is a morphism transversal to $Y$ at the point $x$, relative to $S$.*
 
-*a″) $Y$ and $Z$ intersect transversally at the point $x$, relative to $S$.*
+*a'') $Y$ and $Z$ intersect transversally at the point $x$, relative to $S$.*
 
 *b) $X$, $Y$, $Z$ are smooth over $S$ at the point $x$, and the homomorphism $\rho$ `(17.13.5.4)` is such that*
 
-```text
-  ρ ⊗ 1 : Ω_{X/S}^1 ⊗ k(x) → (Ω_{Y/S}^1 ⊗ k(x)) ⊕ (Ω_{Z/S}^1 ⊗ k(x))
-```
+$$ \rho \otimes 1 : \Omega^{1}_{X/S} \otimes k(x) \to (\Omega^{1}_{Y/S} \otimes k(x)) \oplus (\Omega^{1}_{Z/S} \otimes
+k(x)) $$
 
 *is injective.*
 
@@ -2324,9 +2283,7 @@ equivalent:*
 
 *b') The homomorphism*
 
-```text
-  T_x(i) − T_x(j) : T_{Y/S}(x) ⊕ T_{Z/S}(x) → T_{X/S}(x)
-```
+$$ T_{x}(i) - T_{x}(j) : T_{Y/S}(x) \oplus T_{Z/S}(x) \to T_{X/S}(x) $$
 
 *is surjective.*
 
@@ -2334,16 +2291,15 @@ equivalent:*
 in $T$, and by restricting $X$ to a neighbourhood of $x$, the sequence `(17.13.6.2)` is exact, and one has a canonical
 isomorphism*
 
-```text
-  (17.13.8.1)    𝒩_{T/X} ⥲ (𝒩_{Y/X} ⊗ 𝒪_T) ⊕ (𝒩_{Z/X} ⊗ 𝒪_T).
-```
+$$ \mathcal{N}_{T/X} \xrightarrow{\sim} (\mathcal{N}_{Y/X} \otimes \mathcal{O}_{T}) \oplus (\mathcal{N}_{Z/X} \otimes
+\mathcal{O}_{T}). \tag{17.13.8.1} $$
 
-Conditions a), a'), a″) all imply that $X$, $Y$, $Z$ are smooth over $S$ at the point $x$. Let further $m$, $m - a$,
+Conditions a), a'), a'') all imply that $X$, $Y$, $Z$ are smooth over $S$ at the point $x$. Let further $m$, $m - a$,
 $m - b$ be the relative dimensions of $X$, $Y$, $Z$ over $S$ at the point $x$. It then follows from `(17.13.2)` applied
 by replacing $X'$ by $Z$ and $Y'$ by $T = Y \times_{X} Z$, that conditions a), a') are both equivalent to saying that
 $T$ is smooth over $S$ at the point $x$ and of relative dimension $m - a - b$ at this point; but by virtue of
-`(17.13.7)`, this signifies precisely that condition a″) is verified, whence the equivalence of a), a') and a″). The
-equivalence of a″) and of b) (or b') when $x$ is rational over $k(s)$) has been proved in `(17.13.6)`, as well as the
+`(17.13.7)`, this signifies precisely that condition a'') is verified, whence the equivalence of a), a') and a''). The
+equivalence of a'') and of b) (or b') when $x$ is rational over $k(s)$) has been proved in `(17.13.6)`, as well as the
 fact that if these conditions are satisfied at the point $x$, they are so in a neighbourhood of $x$, and the exactness
 of the sequence `(17.13.6.2)` in such a neighbourhood. It remains to define the canonical isomorphism `(17.13.8.1)`.
 
@@ -2352,9 +2308,8 @@ of the sequence `(17.13.6.2)` in such a neighbourhood. It remains to define the 
 Let us denote by $\alpha$ and $-\beta$ the homomorphisms appearing on the right-hand side of `(17.13.5.4)`, $\gamma$ and
 $\delta$ those appearing on the right-hand side of `(17.13.5.2)`. To say that the sequence `(17.13.6.2)`
 
-```text
-  0 → Ω_{X/S}^1 ⊗ 𝒪_T → (Ω_{Y/S}^1 ⊗ 𝒪_T) ⊕ (Ω_{Z/S}^1 ⊗ 𝒪_T) → Ω_{T/S}^1 → 0
-```
+$$ 0 \to \Omega^{1}_{X/S} \otimes \mathcal{O}_{T} \to (\Omega^{1}_{Y/S} \otimes \mathcal{O}_{T}) \oplus
+(\Omega^{1}_{Z/S} \otimes \mathcal{O}_{T}) \to \Omega^{1}_{T/S} \to 0 $$
 
 is exact means that, in the category of $\mathcal{O}_{T}$-Modules, $\Omega^{1}_{X/S} \otimes \mathcal{O}_{T}$ is
 canonically identified with the fibred product of $\Omega^{1}_{Y/S} \otimes \mathcal{O}_{T}$ and $\Omega^{1}_{Z/S}
@@ -2362,17 +2317,19 @@ canonically identified with the fibred product of $\Omega^{1}_{Y/S} \otimes \mat
 `(0, 18.1.2` and `18.1.3)`, where one replaces rings and two-sided ideals respectively by Modules and sub-Modules,
 furnishes a commutative diagram
 
-```text
-        0                                  0                  0
-        ↓                                  ↓                  ↓
-  (𝒩_{Y/X} ⊗ 𝒪_T) ⊕ (𝒩_{Z/X} ⊗ 𝒪_T)  →  𝒩_{Z/X} ⊗ 𝒪_T  →  𝒩_{T/Y}
-        ↓                                  ↓                  ↓
-  0 → 𝒩_{Y/X} ⊗ 𝒪_T   →   Ω_{X/S}^1 ⊗ 𝒪_T  →α  Ω_{Y/S}^1 ⊗ 𝒪_T → 0
-        ↓                                  ↓                  ↓
-  0 →    𝒩_{T/Z}      →   Ω_{Z/S}^1 ⊗ 𝒪_T  →   Ω_{T/S}^1     → 0
-        ↓                                  ↓                  ↓
-        0                                  0                  0
-```
+$$
+\begin{array}{ccccccc}
+ & & 0 & & 0 & & 0 \\
+ & & \downarrow & & \downarrow & & \downarrow \\
+ & & (\mathcal{N}_{Y/X} \otimes \mathcal{O}_{T}) \oplus (\mathcal{N}_{Z/X} \otimes \mathcal{O}_{T}) & \to & \mathcal{N}_{Z/X} \otimes \mathcal{O}_{T} & \to & \mathcal{N}_{T/Y} \\
+ & & \downarrow & & \downarrow & & \downarrow \\
+0 \to & & \mathcal{N}_{Y/X} \otimes \mathcal{O}_{T} \to \Omega^{1}_{X/S} \otimes \mathcal{O}_{T} & \xrightarrow{\alpha} & \Omega^{1}_{Y/S} \otimes \mathcal{O}_{T} & \to & 0 \\
+ & & \downarrow & & \downarrow & & \downarrow \\
+0 \to & & \mathcal{N}_{T/Z} \to \Omega^{1}_{Z/S} \otimes \mathcal{O}_{T} & \to & \Omega^{1}_{T/S} & \to & 0 \\
+ & & \downarrow & & \downarrow & & \downarrow \\
+ & & 0 & & 0 & & 0
+\end{array}
+$$
 
 where the 3rd and 4th rows and columns are exact by virtue of the smoothness hypotheses. The fact that the composite
 homomorphism $\mathcal{N}_{T/Y} \otimes \mathcal{O}_{T} \to \delta \circ \beta$ is the homomorphism corresponding to the
@@ -2393,15 +2350,13 @@ Let then $Y$ be the product of the $S$-preschemes $Y_{i}$ (for the composed morp
 \to S$), $T$ the product of the $X$-preschemes $Y_{i}$ (for the morphisms $f_{i}$). One proves as in `(I, 5.3.5)` that
 one has a commutative diagram
 
-```text
-  (17.13.9.1)
-                            X    ←———  T
-
-                            Δ                ↓
-
-                            X^I  ←———  Y
-                                     u
-```
+$$
+\begin{array}{ccc}
+X & \longleftarrow & T \\
+\downarrow{\scriptstyle \Delta} & & \downarrow \\
+X^{I} & \xleftarrow{u} & Y
+\end{array} \tag{17.13.9.1}
+$$
 
 (where $u$ is the product (over $S$) of the $f_{i}$), which makes $T$ the product of the $X^{I}$-preschemes $X$ and $Y$.
 
@@ -2418,9 +2373,8 @@ $$ 0 \to \mathcal{N}_{X/X^{I}} \to (\Omega^{1}_{X^{I}/S})|_{X} \to \Omega^{1}_{X
 Set $\mathcal{M} = \mathcal{N}_{X/X^{I}}$; one deduces from the preceding sequence an exact sequence of locally free
 $\mathcal{O}_{T}$-Modules
 
-```text
-  (17.13.9.1')    0 → α*(𝓜) ⟶^α (Ω_{X/S}^1)^I ⊗_{𝒪_X} 𝒪_T ⟶ Ω_{X/S}^1 ⊗_{𝒪_X} 𝒪_T → 0
-```
+$$ 0 \to \alpha*(\mathcal{M}) \xrightarrow{\alpha} (\Omega^{1}_{X/S})^{I} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{T}
+\longrightarrow \Omega^{1}_{X/S} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{T} \to 0 \tag{17.13.9.1'} $$
 
 which corresponds to the first row of the diagram `(17.13.1.2)`, and where $\alpha$ is none other than the canonical
 homomorphism which, to each family $(t_{i}')_{i \in I}$ of sections of $\Omega^{1}_{X/S} \otimes_{\mathcal{O}_{X}}
@@ -2428,9 +2382,8 @@ homomorphism which, to each family $(t_{i}')_{i \in I}$ of sections of $\Omega^{
 
 On the other hand, what corresponds here to the second vertical arrow of the diagram `(17.13.1.2)` is the homomorphism
 
-```text
-  (17.13.9.2)    τ : (Ω_{X/S}^1)^I ⊗_{𝒪_X} 𝒪_T → ⊕_{i ∈ I} (Ω_{Y_i/S}^1 ⊗_{𝒪_{Y_i}} 𝒪_T)
-```
+$$ \tau : (\Omega^{1}_{X/S})^{I} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{T} \to \bigoplus_{i \in I} (\Omega^{1}_{Y_{i}/S}
+\otimes_{\mathcal{O}_{Y_{i}}} \mathcal{O}_{T}) \tag{17.13.9.2} $$
 
 which, to every family $(t_{i}' \otimes 1)_{i \in I}$, where here the $t_{i}'$ are sections above an open of $X$ of
 $\Omega^{1}_{X/S}$, associates the sum of the $(h_{T/Y_{i}/S}(t_{i}'))_{i \in I}$, with the notation of `(16.4.18)`. The
@@ -2456,9 +2409,8 @@ conditions are equivalent:*
 
 *b) The homomorphism*
 
-```text
-  ρ ⊗ 1 : 𝓜 ⊗_{𝒪_X} k(t) → ⊕_{i ∈ I} (Ω_{Y_i/S}^1 ⊗_{𝒪_{Y_i}} k(y_i))
-```
+$$ \rho \otimes 1 : \mathcal{M} \otimes_{\mathcal{O}_{X}} k(t) \to \bigoplus_{i \in I} (\Omega^{1}_{Y_{i}/S}
+\otimes_{\mathcal{O}_{Y_{i}}} k(y_{i})) $$
 
 *is injective.*
 
@@ -2467,9 +2419,7 @@ to the following:*
 
 *b') The homomorphism transpose of $\rho \otimes 1$*
 
-```text
-  ⊕_{i ∈ I} T_{Y_i/S}(y_i) → T_{X/S}(x)^I/δ(T_{X/S}(x))
-```
+$$ \bigoplus_{i \in I} T_{Y_{i}/S}(y_{i}) \to T_{X/S}(x)^{I}/\delta(T_{X/S}(x)) $$
 
 *(where $\delta$ is the diagonal map) is surjective.*
 
@@ -2488,9 +2438,7 @@ subprescheme of the $Y_{i}$, and $t = y_{i} = x$ for every $i$; instead of sayin
 transversal morphisms at the point $x$, one says again that the **$Y_{i}$ intersect transversally at the point $x$**
 (relative to $S$). Condition a) of `(17.13.10)` is again expressed in the relation that generalizes `(17.13.7.1)`
 
-```text
-  (17.13.11.1)    codim_x(T_s, X_s) = ∑_i codim_x((Y_i)_s, X_s).
-```
+$$ \operatorname{codim}_{x}(T_{s}, X_{s}) = \sum_{i} \operatorname{codim}_{x}((Y_{i})_{s}, X_{s}). \tag{17.13.11.1} $$
 
 Moreover, one has the following property, which extends `(17.13.8.1)`, and gives another proof of it when $I$ has `2`
 elements:
@@ -2501,24 +2449,22 @@ elements:
 
 *When the $Y_{i}$ intersect transversally at the point $x$, one has a canonical isomorphism*
 
-```text
-  (17.13.12.1)    𝒩_{T/X} ⥲ ⊕_i (𝒩_{Y_i/X} ⊗_{𝒪_{Y_i}} 𝒪_T).
-```
+$$ \mathcal{N}_{T/X} \xrightarrow{\sim} \bigoplus_{i} (\mathcal{N}_{Y_{i}/X} \otimes_{\mathcal{O}_{Y_{i}}}
+\mathcal{O}_{T}). \tag{17.13.12.1} $$
 
 One can restrict to the case where the $Y_{i}$ are closed subpreschemes of $X$, defined by quasi-coherent Ideals
 $\mathcal{I}_{i}$, so that $T$ is defined by the Ideal $\mathcal{I} = \sum_{i} \mathcal{I}_{i}$. By definition of the
 conormal sheaf of an immersion `(16.1.3)`, the canonical homomorphism $\bigoplus_{i} \mathcal{I}_{i} \to \mathcal{I}$
 gives, by passage to quotients, a surjective homomorphism
 
-```text
-  (17.13.12.2)    ⨁_i (𝒩_{Y_i/X} ⊗_{𝒪_{Y_i}} 𝒪_T) → 𝒩_{T/X}.
-```
+$$ \bigoplus_{i} (\mathcal{N}_{Y_{i}/X} \otimes_{\mathcal{O}_{Y_{i}}} \mathcal{O}_{T}) \to \mathcal{N}_{T/X}.
+\tag{17.13.12.2} $$
 
 <!-- original page 98 -->
 
 But here the $\mathcal{O}_{T}$-Modules of the two sides of `(17.13.12.2)` are locally free and of the same rank
 $\sum_{i} c_{i}$ (if $c_{i}$ is the rank of $\mathcal{N}_{Y_{i}/X}$), by virtue of `(17.2.5)` and of condition a) of
-`(17.13.10)`; one concludes therefore from Bourbaki, _Alg. comm._, chap. II, §3, n° 2, cor. of prop. 6, that
+`(17.13.10)`; one concludes therefore from Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 2, cor. of prop. 6, that
 `(17.13.12.2)` is bijective, and `(17.13.12.1)` is the inverse isomorphism.
 
 ## 17.14. Local and infinitesimal characterizations of smooth morphisms, unramified morphisms, and étale morphisms
@@ -2643,12 +2589,12 @@ If $f$ is étale at the point $x$, $X$ is smooth over $k$ at the point $x$ since
 
 that the hypothesis entails that the homomorphism $(f*(\Omega^{1}_{Y/k}))_{x} \to (\Omega^{1}_{X/k})_{x}$ is surjective,
 hence, by replacing $X$ by an open neighbourhood of $x$, one can suppose that the homomorphism $f*(\Omega^{1}_{Y/k}) \to
-\Omega^{1}_{X/k}$ is surjective (Bourbaki, _Alg. comm._, chap. II, §5, n° 1, prop. 2); consequently $f$ is unramified
-`(17.2.2)`. We shall see first that one can restrict to the case where $x$ is rational over $k$. Indeed, if one sets $k'
-= k(x)$, and $X' = X \otimes_{k} k'$, $Y' = Y \otimes_{k} k' = \operatorname{Spec}(k'[T_{1}, \cdots, T_{n}])$, there
-exists a point $x' \in X'$ above $x$, such that $k(x') = k'$. To prove that $f$ is étale at the point $x$, it suffices
-to show that $f' = f_{(k')} : X' \to Y'$ is étale at the point $x'$ `(17.7.1, (ii))`; moreover, $f'$ is unramified
-`(17.3.3, (iii))` and one has $\dim_{x'}(X') = n$ `(4.2.7)`. In the same way one can, by replacing $k'$ by an
+\Omega^{1}_{X/k}$ is surjective (Bourbaki, _Alg. comm._, chap. II, §5, n$^{\circ}$ 1, prop. 2); consequently $f$ is
+unramified `(17.2.2)`. We shall see first that one can restrict to the case where $x$ is rational over $k$. Indeed, if
+one sets $k' = k(x)$, and $X' = X \otimes_{k} k'$, $Y' = Y \otimes_{k} k' = \operatorname{Spec}(k'[T_{1}, \cdots,
+T_{n}])$, there exists a point $x' \in X'$ above $x$, such that $k(x') = k'$. To prove that $f$ is étale at the point
+$x$, it suffices to show that $f' = f_{(k')} : X' \to Y'$ is étale at the point $x'$ `(17.7.1, (ii))`; moreover, $f'$ is
+unramified `(17.3.3, (iii))` and one has $\dim_{x'}(X') = n$ `(4.2.7)`. In the same way one can, by replacing $k'$ by an
 algebraically closed extension of $k'$, suppose that $k$ is algebraically closed. Set then $y = f(x)$, $A =
 \mathcal{O}_{Y, y}$, $B = \mathcal{O}_{X, x}$; since the residue field of $B$ is equal to $k$, the same holds for that
 of $A$, hence $x$ (resp. $y$) is a closed point of $X$ (resp. $Y$) `(I, 6.4.2)` and one consequently has $\dim(A) =
@@ -2674,9 +2620,8 @@ $\Upsilon_{k(x)/k} = 0$ `(0, 20.6.20)` and $k(x) = \mathcal{O}_{X, x}/\mathfrak{
 for the discrete topologies `(0, 19.6.1)`, hence the exact sequence `(0, 20.5.14.1)` applies to $A = k$, $B =
 \mathcal{O}_{X, x}$, $\mathfrak{j} = \mathfrak{m}_{x}$, and furnishes a canonical isomorphism
 
-```text
-  δ : 𝔪_x/𝔪_x^2 ⥲ (Ω_{X/k}^1)_x ⊗_{𝒪_x} k(x).
-```
+$$ \delta : \mathfrak{m}_{x}/\mathfrak{m}_{x}^{2} \xrightarrow{\sim} (\Omega^{1}_{X/k})_{x} \otimes_{\mathcal{O}_{x}}
+k(x). $$
 
 From this one deduces first the equivalence of conditions c) and d), taking into account Nakayama's lemma. On the other
 hand, if $f$ is étale at the point $x$, the ring $\mathcal{O}_{X, x}$ is regular and of dimension $n$, since $x$ is a
@@ -2771,9 +2716,8 @@ $(d_{X/k}(g_{j}))_{x}$ for $r + 1 \leqslant j \leqslant n$ generate $\Omega^{1}_
 
 One has indeed `(0, 20.5.12.1)` the exact sequence of $k(x)$-modules
 
-```text
-  (17.15.8.1)    𝔪_x/𝔪_x^2 → (Ω_{X/k}^1)_x ⊗_{𝒪_x} k(x) → Ω_{k(x)/k}^1 → 0
-```
+$$ \mathfrak{m}_{x}/\mathfrak{m}_{x}^{2} \to (\Omega^{1}_{X/k})_{x} \otimes_{\mathcal{O}_{x}} k(x) \to
+\Omega^{1}_{k(x)/k} \to 0 \tag{17.15.8.1} $$
 
 and condition b) entails consequently that the $(d_{X/k}(g_{i}))_{x}$ generate $(\Omega^{1}_{X/k})_{x}$ taking into
 account Nakayama's lemma; the fact that b) implies a) therefore results from `(17.15.3)`. Conversely, if a) is verified,
@@ -2785,9 +2729,8 @@ $\Omega^{1}_{k(x)/k}$. As $deg.tr_{k} k(x) = n - r$, it follows from Cartier's e
 $\Upsilon_{k(x)/k} = 0$, hence $k(x)$ is a separable extension of $k$ `(0, 20.6.3)`, and the sequence of $k(x)$-vector
 spaces
 
-```text
-  (17.15.8.2)    0 → 𝔪_x/𝔪_x^2 → (Ω_{X/k}^1)_x ⊗_{𝒪_x} k(x) → Ω_{k(x)/k}^1 → 0
-```
+$$ 0 \to \mathfrak{m}_{x}/\mathfrak{m}_{x}^{2} \to (\Omega^{1}_{X/k})_{x} \otimes_{\mathcal{O}_{x}} k(x) \to
+\Omega^{1}_{k(x)/k} \to 0 \tag{17.15.8.2} $$
 
 is exact (`(0, 20.5.14)` and `(0, 19.6.1)`); moreover the $dt_{i}$ for $r + 1 \leqslant i \leqslant n$ form a basis of
 $\Omega^{1}_{k(x)/k}$, hence none of the $t_{i}$ such that $r + 1 \leqslant i \leqslant n$ can be zero. This shows that
@@ -2806,9 +2749,7 @@ $\mathfrak{m}_{x}$ by virtue of Nakayama's lemma, which completes the proof that
 
 *b) $X$ is smooth over $k$ at the point $x$, and the canonical homomorphism*
 
-```text
-  𝔪_x/𝔪_x^2 → (Ω_{X/k}^1)_x ⊗_{𝒪_x} k(x)
-```
+$$ \mathfrak{m}_{x}/\mathfrak{m}_{x}^{2} \to (\Omega^{1}_{X/k})_{x} \otimes_{\mathcal{O}_{x}} k(x) $$
 
 *is injective.*
 

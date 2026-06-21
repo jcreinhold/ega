@@ -38,9 +38,7 @@ K')_{red}$ is geometrically reduced over $K'$. Moreover, the projection morphism
 f^{-1}(\eta)$ is finite, dominant and radicial `(I, 3.5.7)`, hence is a homeomorphism `(2.4.5)`. If $\zeta_{i}$ is the
 unique point of $f^{-1}(\eta) \otimes_{K} K'$ above $z_{i}$, it follows from `(4.7.9)` and `(4.7.5)` that one has
 
-```text
-  (15.1.1.3)             λ_{z_i}(ℱ_η) = λ_{ζ_i}(ℱ_η ⊗_K K').
-```
+$$ \lambda_{z_i}(\mathcal{F}_{\eta}) = \lambda_{\zeta_i}(\mathcal{F}_{\eta} \otimes_K K'). \tag{15.1.1.3} $$
 
 Let $V$ be a discrete valuation ring, of fraction field $K'$, dominating $\mathcal{O}_{y}$ `(II, 7.1.7)`; set $Y' =
 \operatorname{Spec}(V)$, $X' = X \times_{Y} Y'$, $\mathcal{F}' = \mathcal{F} \otimes_{Y} Y'$, $f' = f_{(Y')} : X' \to
@@ -84,9 +82,9 @@ regular, this algebra is isomorphic to a polynomial algebra $k[t_{1}, \cdots, t_
 $h^{-1}(s)$; if $t_{i}$ ($1 \leq i \leq e$) are the elements of $\mathfrak{m}$ whose classes mod $\mathfrak{m}^{2}$ are
 the $t_{i}$, $B_{(t_{e})}$ is the ring of an affine open neighbourhood of $\zeta$ in $P$, and one has $k(\zeta) =
 k(t_{1}, \cdots, t_{e-1})$; on the other hand, as $A$ is integrally closed, one verifies easily that the same holds for
-$B$ (Bourbaki, _Alg. comm._, chap. V, §1, n° 8, cor. 1 of prop. 21), hence $B_{(t_{e})}$ is also integrally closed, and
-consequently so is the local ring $\mathcal{O}_{P,\zeta}$. Finally, since $A = \mathcal{O}_{s}$ is regular, hence a
-universally catenary ring `(5.6.4)`, one has, by virtue of `(5.6.5)`, $\dim(\mathcal{O}_{P,\zeta}) =
+$B$ (Bourbaki, _Alg. comm._, chap. V, §1, n$^{\circ}$ 8, cor. 1 of prop. 21), hence $B_{(t_{e})}$ is also integrally
+closed, and consequently so is the local ring $\mathcal{O}_{P,\zeta}$. Finally, since $A = \mathcal{O}_{s}$ is regular,
+hence a universally catenary ring `(5.6.4)`, one has, by virtue of `(5.6.5)`, $\dim(\mathcal{O}_{P,\zeta}) =
 \dim(\mathcal{O}_{s}) - (e - 1)$, since $h$ is a birational morphism, $\dim(h^{-1}(s)) = e - 1$, and the local ring of
 the fibre $h^{-1}(s)$ at its generic point $\zeta$ is of dimension `0`. But $\dim(\mathcal{O}_{s}) = e$, hence
 $\dim(\mathcal{O}_{P,\zeta}) = 1$, and $\mathcal{O}_{P,\zeta} = V$ is a discrete valuation ring, being Noetherian, of
@@ -120,13 +118,13 @@ $(\mathcal{F}_{\eta})_{z_{i}} \neq 0$ `(I, 9.1.13)`.
 
 *Let $Y$ be an irreducible locally Noetherian prescheme with generic point $\eta$, $f : X \to Y$ a morphism locally of
 finite type, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module of support $X$, $x$ a point of $X$, $y = f(x)$. Suppose
-that: 1° $x$ belongs to only one irreducible component $Z$ of $f^{-1}(y)$; 2° $\mathcal{F}_{y} = \mathcal{F}
-\otimes_{\mathcal{O}_{Y}} k(y)$ is geometrically reduced over $k(y)$, in other words, if $z$ is the generic point of
-$Z$, $\lambda_{z}(\mathcal{F}_{y}) = 1$ (resp. $\mathcal{O}_{y}$ is regular and $long((\mathcal{F}_{y})_{z}) = 1$).
-Then, there exists at most one irreducible component $X'$ of $X$ containing $x$, such that $\dim_{x}(X' \cap f^{-1}(y))
-= \dim_{x}(f^{-1}(y))$ and that the restriction $X' \to Y$ of $f$ is universally open at the generic points of the
-irreducible components of $X' \cap f^{-1}(y)$ containing $x$. Moreover, if there exists such a component $X'$ and if
-$z'$ is its generic point, one has $\lambda_{z'}(\mathcal{F}_{\eta}) = 1$ (resp. $long((\mathcal{F}_{\eta})_{z'}) =
+that: $1^{\circ}$ $x$ belongs to only one irreducible component $Z$ of $f^{-1}(y)$; $2^{\circ}$ $\mathcal{F}_{y} =
+\mathcal{F} \otimes_{\mathcal{O}_{Y}} k(y)$ is geometrically reduced over $k(y)$, in other words, if $z$ is the generic
+point of $Z$, $\lambda_{z}(\mathcal{F}_{y}) = 1$ (resp. $\mathcal{O}_{y}$ is regular and $long((\mathcal{F}_{y})_{z}) =
+1$). Then, there exists at most one irreducible component $X'$ of $X$ containing $x$, such that $\dim_{x}(X' \cap
+f^{-1}(y)) = \dim_{x}(f^{-1}(y))$ and that the restriction $X' \to Y$ of $f$ is universally open at the generic points
+of the irreducible components of $X' \cap f^{-1}(y)$ containing $x$. Moreover, if there exists such a component $X'$ and
+if $z'$ is its generic point, one has $\lambda_{z'}(\mathcal{F}_{\eta}) = 1$ (resp. $long((\mathcal{F}_{\eta})_{z'}) =
 1$).*
 
 <!-- original page 225 -->
@@ -237,8 +235,8 @@ It suffices to apply `(15.2.2)` to $\mathcal{F} = \mathcal{O}_{X}$ `(4.6.22)`.
 
 *(i)* The first three of the conditions of `(15.2.2)` do not change when one replaces $f$ by $f_{red}$; but if
 $\mathfrak{N}$ is the nilradical of a Noetherian local ring $A$, $A/\mathfrak{N}$ is flat over $A/\mathfrak{N}$ but not
-over $A$ itself when $\mathfrak{N} \neq 0$ (Bourbaki, _Alg. comm._, chap. II, §3, n° 2, cor. 2 of prop. 5). One sees
-therefore that one cannot in `(15.2.2)` suppress condition (iv).
+over $A$ itself when $\mathfrak{N} \neq 0$ (Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 2, cor. 2 of prop. 5). One
+sees therefore that one cannot in `(15.2.2)` suppress condition (iv).
 
 *(ii)* It follows from `(2.4.6)` that if the conclusion of `(15.2.2)` is true, as well as hypothesis (i), $f$ is
 universally open in a neighbourhood of $x$, and in particular at the generic points of the irreducible components of
@@ -256,12 +254,12 @@ T^{2}))$, $K$ being an algebraically closed field, and for $X$ its normalization
 classes of $S$ and $T$ in $A = K[S, T]/(S^{3} - T^{2})$, one verifies at once that $X = \operatorname{Spec}(B)$, where
 $B = K[s, t, u]$, $u$ being the element $t/s$ of the fraction field of $A$, and as $s = u^{2}$, $t = u^{3}$, one has
 also $B = K[u]$, isomorphic to the polynomial ring in one indeterminate over $K$. The only point $x$ of $X$ above the
-point $y$ corresponding to the maximal ideal $(s) + (t)$ corresponds to the maximal ideal `(u)`; but as the class `ū` of
-$u$ in $\mathcal{O}_{x} / \mathfrak{m}_{y} \mathcal{O}_{x}$ is such that $\bar{u}^{2} = 0$, $f^{-1}(y)$ is not a reduced
-$k(y)$-prescheme. Here $f$ is a finite, surjective and radicial morphism, hence a universal homeomorphism `(2.4.5)`, but
-is not flat at the point $x$, for if $\mathcal{O}_{x}$ were a flat $\mathcal{O}_{y}$-module, it would be a free
-$\mathcal{O}_{y}$-module of rank `1` generated by the element `1` of $\mathcal{O}_{x}$ (Bourbaki, _Alg. comm._, chap.
-II, §3, n° 2, prop. 5), which is absurd.
+point $y$ corresponding to the maximal ideal $(s) + (t)$ corresponds to the maximal ideal `(u)`; but as the class
+$\bar{u}$ of $u$ in $\mathcal{O}_{x} / \mathfrak{m}_{y} \mathcal{O}_{x}$ is such that $\bar{u}^{2} = 0$, $f^{-1}(y)$ is
+not a reduced $k(y)$-prescheme. Here $f$ is a finite, surjective and radicial morphism, hence a universal homeomorphism
+`(2.4.5)`, but is not flat at the point $x$, for if $\mathcal{O}_{x}$ were a flat $\mathcal{O}_{y}$-module, it would be
+a free $\mathcal{O}_{y}$-module of rank `1` generated by the element `1` of $\mathcal{O}_{x}$ (Bourbaki, _Alg. comm._,
+chap. II, §3, n$^{\circ}$ 2, prop. 5), which is absurd.
 
 *(iv)* Let us show finally that in `(15.2.2)` or `(15.2.3)`, one cannot replace "geometrically reduced" by "reduced". We
 shall in fact define two rings $A$, $A'$ having the following properties:
@@ -269,7 +267,7 @@ shall in fact define two rings $A$, $A'$ having the following properties:
 1. $A$ is a Noetherian local ring of maximal ideal $\mathfrak{m}$, integral, complete, of dimension `1` and
    geometrically unibranch.
 
-1. $A'$ is the integral closure of $A$, a finite $A$-algebra whose maximal ideal is $\mathfrak{m} A'$, and the residue
+2. $A'$ is the integral closure of $A$, a finite $A$-algebra whose maximal ideal is $\mathfrak{m} A'$, and the residue
    field $k'$ a finite radicial non-trivial extension of the residue field $k = A/\mathfrak{m}$ of $A$.
 
 One may then take $Y = \operatorname{Spec}(A)$, $X = \operatorname{Spec}(A')$, $y = \mathcal{O}_{y}$, $y$ and $x$ being
@@ -277,8 +275,8 @@ the closed points of $Y$ and $X$ respectively; hypotheses (i) and (iv) of `(15.2
 of dimension `1`, $f : X \to Y$ is radicial, finite and surjective, hence a universal homeomorphism `(2.4.5)`, which
 proves hypothesis (i) of `(15.2.3)`. Finally, it is clear that $f^{-1}(y)$ is reduced. Nevertheless $f$ is not flat at
 the point $x$, for if $A'$ were a flat $A$-module, it would be a free $A$-module of rank `1` (since it has the same
-fraction field as $A$) generated by the element `1` of $A$ (Bourbaki, _Alg. comm._, chap. II, §3, n° 2, prop. 5), which
-is absurd.
+fraction field as $A$) generated by the element `1` of $A$ (Bourbaki, _Alg. comm._, chap. II, §3, n$^{\circ}$ 2, prop.
+5), which is absurd.
 
 To construct the rings $A$ and $A'$, start from an imperfect field $k$ of characteristic $p > 0$; let $K_{0} = k((T))$
 be the field of formal power series over $k$, `A_0` the valuation ring for `K_0` corresponding to the discrete valuation
@@ -420,9 +418,9 @@ the point $x$.*
 
 *d) $f$ is open at the generic points of the irreducible components of $X_{y}$ containing $x$.*
 
-*e) `dim(𝒪_{X_y, x}) = dim(𝒪_x) − dim(𝒪_y)`.*
+*e) $\dim(\mathcal{O}_{X_y, x}) = \dim(\mathcal{O}_x) - \dim(\mathcal{O}_y)$.*
 
-*e') `dim_x(ℱ_y) = dim_x(ℱ) − dim(𝒪_y)`.*
+*e') $\dim_x(\mathcal{F}_y) = \dim_x(\mathcal{F}) - \dim(\mathcal{O}_y)$.*
 
 Since $Supp(\mathcal{F}) = X$, conditions e) and e') are equivalent by definition `(5.1.12)`. Condition a) implies
 trivially b); b) entails that $\mathcal{F}$ is $f$-flat at the points of a neighbourhood of $x$ `(11.1.1)`, hence b)
@@ -512,8 +510,8 @@ the following lemma:
 
 *Under the general hypotheses of `(15.5.1)`, if $y$ is a point of $Y$, $y'$ a generization of $y$ distinct from $y$,
 there exists a spectrum of a discrete valuation ring $Z$, of closed point $z$ and of generic point $z'$, and a morphism
-$g : Z \to Y$ such that: 1° $g(z) = y$, $g(z') = y'$; 2° if one sets $f' = f_{(Z)}$, $n(y)$ is the number of points of
-$f'^{-1}(z)$ and $n(y')$ is the number of points of $f'^{-1}(z')$.*
+$g : Z \to Y$ such that: $1^{\circ}$ $g(z) = y$, $g(z') = y'$; $2^{\circ}$ if one sets $f' = f_{(Z)}$, $n(y)$ is the
+number of points of $f'^{-1}(z)$ and $n(y')$ is the number of points of $f'^{-1}(z')$.*
 
 Indeed, there exists a discrete valuation ring `A_1` and a morphism $g_{1}$ of $Z_{1} = \operatorname{Spec}(A_{1})$ into
 $Y$ such that if $z_{1}$ and $z'_{1}$ are the closed point and the generic point of `Z_1`,
@@ -567,9 +565,7 @@ $\operatorname{Spec}(A') \to \operatorname{Spec}(A)$ is proper
 `(2.7.1, (vii))`; one may therefore suppose that $n(y)$ and $n(y')$ are the numbers of points of the fibres $f^{-1}(y)$
 and $f^{-1}(y')$ respectively. With the notation of (i), one then has by `(15.5.2.3)` and `(15.5.2.1)`
 
-```text
-  (15.5.2.4)             n(y) ≤ ∑_i n_i(y) ≤ ∑_i n_i(y') = n(y'),
-```
+$$ n(y) \le \sum_i n_i(y) \le \sum_i n_i(y') = n(y'), \tag{15.5.2.4} $$
 
 and for the extreme terms to be equal, it is necessary that $n_{i}(y) = n_{i}(y') = 1$ for every $i$. As one has seen in
 (i), if $n_{i}(y) = 1$ for every $i$, $X_{i} \cap f^{-1}(y)$ is non-empty and the restriction $X_{i} \to Y$ of $f$ is an
@@ -925,10 +921,10 @@ $k(y_{0})$ at the point $x_{0}$, $f$ is flat at the point $x_{0}$.*
 *(iii) Conversely, suppose that $f$ is universally open at the generic point of $X^{\circ}_{y_{0}}$ and moreover that
 one of the following conditions is verified:*
 
-*α) The fibre $f^{-1}(y_{0})$ is geometrically reduced over $k(y_{0})$ at the point $g(y_{0})$ and the ring
+*$\alpha$) The fibre $f^{-1}(y_{0})$ is geometrically reduced over $k(y_{0})$ at the point $g(y_{0})$ and the ring
 $\mathcal{O}_{Y, y_{0}}$ is Noetherian.*
 
-*β) For every generic point $y'$ of an irreducible component of $Y$ containing $y_{0}$, one has*
+*$\beta$) For every generic point $y'$ of an irreducible component of $Y$ containing $y_{0}$, one has*
 
 $$ \dim(X^{\circ}_{y'}) \geq \dim(X^{\circ}_{y_{0}}). $$
 
@@ -970,7 +966,7 @@ in $Y$. Let us then apply `(1.10.1)` to $E$: it suffices to prove (taking (i) in
 \dim(X^{\circ}_{y_{0}})$ for the generic point $y'$ of an irreducible component of $Y$ containing $y_{0}$; this already
 allows us to suppose that $Y = \operatorname{Spec}(\mathcal{O}_{Y, y_{0}})$.
 
-If one is in case α), one reduces at once, by virtue of `(II, 7.1.9)`, and using `(4.5.13)` and `(4.4.1)` as in
+If one is in case $\alpha$), one reduces at once, by virtue of `(II, 7.1.9)`, and using `(4.5.13)` and `(4.4.1)` as in
 `(15.6.4)`, to the case where $Y$ is the spectrum of a discrete valuation ring, $y_{0}$ its closed point and $y'$ its
 generic point. But then the hypotheses entail, by virtue of `(15.2.2.1)`, that $f$ is flat at the point $g(y_{0})$,
 hence also in a neighbourhood $V$ of this point in $X$ `(11.1.1)`. To demonstrate our assertion, one may replace $X$ by
@@ -980,21 +976,21 @@ connected component of $f^{-1}(y')$ containing $g(y')$, one may suppose $V$ chos
 irreducible component of $f^{-1}(y_{0})$ nor of $f^{-1}(y')$, in other words one may suppose that $X^{\circ}_{y} = X$;
 but then the conclusion follows from `(12.1.1, (i))`, since by hypothesis $X^{\circ}_{y_{0}}$ is integral.
 
-Suppose now that one is in case β). Let us apply this time `(II, 7.1.4)` in the same way as `(II, 7.1.9)` in case α):
-one is then reduced to the case where $Y$ is the spectrum of a valuation ring (not necessarily discrete), $y_{0}$ its
-closed point and $y'$ its generic point. By virtue of `(14.3.13)`, there exists an irreducible component $Z$ of $X$
-containing $X^{\circ}_{y_{0}}$ and dominating $Y$, and such that $\dim(Z \cap f^{-1}(y')) = \dim(X^{\circ}_{y_{0}})$;
-but hypothesis β) and the fact that $\dim(Z \cap f^{-1}(y_{0})) \leq \dim(f^{-1}(y_{0}))$ show that
-$\dim(X^{\circ}_{y_{0}}) \leq \dim(X^{\circ}_{y'})$, whence $\dim(X^{\circ}_{y_{0}}) = \dim(X^{\circ}_{y'})$ by virtue
-of (i).
+Suppose now that one is in case $\beta$). Let us apply this time `(II, 7.1.4)` in the same way as `(II, 7.1.9)` in case
+$\alpha$): one is then reduced to the case where $Y$ is the spectrum of a valuation ring (not necessarily discrete),
+$y_{0}$ its closed point and $y'$ its generic point. By virtue of `(14.3.13)`, there exists an irreducible component $Z$
+of $X$ containing $X^{\circ}_{y_{0}}$ and dominating $Y$, and such that $\dim(Z \cap f^{-1}(y')) =
+\dim(X^{\circ}_{y_{0}})$; but hypothesis $\beta$) and the fact that $\dim(Z \cap f^{-1}(y_{0})) \leq
+\dim(f^{-1}(y_{0}))$ show that $\dim(X^{\circ}_{y_{0}}) \leq \dim(X^{\circ}_{y'})$, whence $\dim(X^{\circ}_{y_{0}}) =
+\dim(X^{\circ}_{y'})$ by virtue of (i).
 
-It remains to prove (iv). Note first that the sets envisaged do not change when one replaces $f$ by
-`f_{(Y_red)} : X ×_Y Y_red → Y_red`, the projection $X \times_{Y} Y_{red} \to X$ being a homeomorphism. In other words,
-one may suppose $Y$ reduced, and then it follows from (ii) that $f$ is flat at the points of $W$. Consider a point
-$x_{0}$ of $W$ and let us prove that $W$ is a neighbourhood of $x_{0}$; proceeding as at the beginning of the
-demonstration, and using also `(11.2.7)`, one may in addition suppose $Y$ Noetherian; it then follows from (ii) and from
-`(15.6.4)` that $X^{\circ}$ is a neighbourhood of $x_{0}$ in $X$, and from `(12.1.1, (vii))` that $W$ is also a
-neighbourhood of $x_{0}$ in $X$.
+It remains to prove (iv). Note first that the sets envisaged do not change when one replaces $f$ by $f_{(Y_{red})} : X
+\times_Y Y_{red} \to Y_{red}$, the projection $X \times_{Y} Y_{red} \to X$ being a homeomorphism. In other words, one
+may suppose $Y$ reduced, and then it follows from (ii) that $f$ is flat at the points of $W$. Consider a point $x_{0}$
+of $W$ and let us prove that $W$ is a neighbourhood of $x_{0}$; proceeding as at the beginning of the demonstration, and
+using also `(11.2.7)`, one may in addition suppose $Y$ Noetherian; it then follows from (ii) and from `(15.6.4)` that
+$X^{\circ}$ is a neighbourhood of $x_{0}$ in $X$, and from `(12.1.1, (vii))` that $W$ is also a neighbourhood of $x_{0}$
+in $X$.
 
 **Corollary (15.6.7).**
 
@@ -1005,8 +1001,8 @@ $X^{\circ}_{y}$ is geometrically integral over $k(y)$. Then the following condit
 
 *a) The function $y \mapsto \dim(X^{\circ}_{y})$ is locally constant in $Y$.*
 
-*b) The morphism `f_{(Y_red)} : X ×_Y Y_red → Y_red` deduced from $f$ by base change, is flat at the points of
-$X^{\circ}$.*
+*b) The morphism $f_{(Y_{red})} : X \times_Y Y_{red} \to Y_{red}$ deduced from $f$ by base change, is flat at the points
+of $X^{\circ}$.*
 
 <!-- original page 239 -->
 
@@ -1018,7 +1014,7 @@ are also equivalent to*
 The fact that a) entails b) follows from `(15.6.6, (ii))`, as well as the fact that $X^{\circ}$ is then open in $X$. If
 b) is verified, one may restrict to the case where $Y$ is reduced and $f$ flat; then, one reduces, as at the beginning
 of `(15.6.6)`, and using in addition `(11.2.7)`, to the case where $Y$ is Noetherian, a case where the conclusion
-follows from `(15.6.6, (iii), case α))`. The equivalence of b) and b') has already been proved when $Y$ is locally
+follows from (15.6.6, (iii), case $\alpha$)). The equivalence of b) and b') has already been proved when $Y$ is locally
 Noetherian `(15.2.2.1)`, taking into account that the morphism $X \times_{Y} Y_{red} \to X$ is a universal
 homeomorphism.
 
@@ -1086,9 +1082,9 @@ and of respective dimensions `1` and `2`. See however prop. `(15.6.9)`.
 to $X_{1} \cap f^{-1}_{0}(Y)$ is an isomorphism, hence the inverse morphism $g : Y \to X$ is a $Y$-section of $X$. One
 then has $\dim(X^{\circ}_{y_{0}}) = 1$ while $\dim(X^{\circ}_{y}) = 0$ for $y \neq y_{0}$, although $X^{\circ}_{y}$ is
 geometrically irreducible for every $y \in Y$ (but $X^{\circ}_{y_{0}}$ is not reduced); one sees therefore that in
-`(15.6.6, (iii))`, one cannot suppress the hypotheses α) and β). Moreover, $X^{\circ}$ is not a neighbourhood of
-$X^{\circ}_{y_{0}}$, which proves that in `(15.6.4)`, one cannot dispense with the hypothesis that $X^{\circ}_{y}$ is
-reduced.
+`(15.6.6, (iii))`, one cannot suppress the hypotheses $\alpha$) and $\beta$). Moreover, $X^{\circ}$ is not a
+neighbourhood of $X^{\circ}_{y_{0}}$, which proves that in `(15.6.4)`, one cannot dispense with the hypothesis that
+$X^{\circ}_{y}$ is reduced.
 
 *(iii)* In chap. VI, we shall apply the preceding results to the $Y$-preschemes in groups locally of finite type over a
 locally Noetherian prescheme $Y$. If $G$ is such a prescheme, there exists a canonical $Y$-section $g$, the "unit
@@ -1103,7 +1099,8 @@ we shall have at our disposal a general theorem assuring that, under certain con
 \dim(G_{z})$ is locally constant. Let us remark that it is in view of applications of this nature that the statements
 such as `(15.6.1)` are given for morphisms locally of finite type, and not only for morphisms of finite type.
 
-One will also note that in the case of a $Y$-prescheme in groups $G$, hypothesis β) of `(15.6.6)` is always verified.
+One will also note that in the case of a $Y$-prescheme in groups $G$, hypothesis $\beta$) of `(15.6.6)` is always
+verified.
 
 ## 15.7. Appendix: Valuative criteria of local properness
 
@@ -1142,20 +1139,19 @@ ring $\mathcal{O}_{x}$ of $X$ (in which case one has necessarily $f(x) = y$).*
 
 <!-- original page 241 -->
 
-The fact that a) implies b) follows from `(II, 5.4.2)`, and the implication b) ⟹ c) follows from `(II, 7.3.10)`. There
-remains therefore to show that c) entails a). The question being local on $Y$, one may suppose $Y$ affine, hence
-Noetherian. By virtue of Chow's lemma `(II, 5.6.1)`, there exists an integral prescheme $X'$, a projective morphism $p :
-P \to Y$, a dominant open immersion $j : X' \to P$, and a projective and birational (hence surjective) morphism $q : X'
-\to X$ such that the diagram
+The fact that a) implies b) follows from `(II, 5.4.2)`, and the implication b) $\Rightarrow$ c) follows from
+`(II, 7.3.10)`. There remains therefore to show that c) entails a). The question being local on $Y$, one may suppose $Y$
+affine, hence Noetherian. By virtue of Chow's lemma `(II, 5.6.1)`, there exists an integral prescheme $X'$, a projective
+morphism $p : P \to Y$, a dominant open immersion $j : X' \to P$, and a projective and birational (hence surjective)
+morphism $q : X' \to X$ such that the diagram
 
-```text
-                       j
-              P  ←──────────  X'
-              │                │
-            p │              q │
-              ↓                ↓
-              Y  ←─────f─────  X
-```
+$$
+\begin{array}{ccc}
+P & \xleftarrow{j} & X' \\
+\downarrow{\scriptstyle p} & & \downarrow{\scriptstyle q} \\
+Y & \xleftarrow{f} & X
+\end{array}
+$$
 
 is commutative. As $X'$ is integral and $j$ dominant, $P$ is irreducible, and one may, replacing $P$ by $P_{red}$,
 suppose $P$ integral `(I, 5.2.2 and II, 5.5.5, (vi))`. Everything comes down to proving that there exists an open

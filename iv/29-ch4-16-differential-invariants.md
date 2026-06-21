@@ -33,9 +33,7 @@ normal invariant of $f$**; the ringed space $(Y, \psi*(\mathcal{O}_{X})/\mathcal
 infinitesimal neighbourhood of $Y$ for the morphism $f$**, and denoted $Y^{(n)}_{f}$ or simply $Y^{(n)}$. The sheaf of
 graded rings associated with the sheaf of filtered rings $\psi*(\mathcal{O}_{X})$*
 
-```text
-  (16.1.2.1)    𝒢ℛ_•(f) = ⨁_{n ⩾ 0} (𝓘_f^n / 𝓘_f^{n+1})
-```
+$$ \mathcal{GR}_{\bullet}(f) = \bigoplus_{n \geqslant 0} (\mathcal{I}_{f}^{n} / \mathcal{I}_{f}^{n+1}) \tag{16.1.2.1} $$
 
 *is called the **sheaf of graded rings associated with $f$**. The sheaf $\mathcal{GR}_{1}(f) = \mathcal{I}_{f} /
 \mathcal{I}^{2}_{f}$ is called the **conormal sheaf** of $f$ (and is also denoted $\mathcal{N}_{Y/X}$ when no confusion
@@ -186,9 +184,7 @@ of $X$.*
 
 *b) There exists an integer $n > 0$ such that the canonical homomorphism*
 
-```text
-  (φ_{n-1, n})_y : 𝒪_{Y^{(n)}, y} → 𝒪_{Y^{(n-1)}, y}
-```
+$$ (\phi_{n-1, n})_{y} : \mathcal{O}_{Y^{(n)}, y} \to \mathcal{O}_{Y^{(n-1)}, y} $$
 
 *is bijective.*
 
@@ -252,48 +248,47 @@ canonical morphism on each of the $Y_{\lambda}$.
 <!-- label: IV.16.2.1 -->
 
 Let $f = (\psi, \theta) : Y \to X$ and $f' = (\psi', \theta') : Y' \to X'$ be two morphisms of ringed spaces such that
-the homomorphisms $\theta^{\sharp}$ and $\theta'^{\sharp}$ are surjective; consider a commutative diagram of morphisms
+the homomorphisms $\theta^{\sharp}$ and $\thet{a'}^{\sharp}$ are surjective; consider a commutative diagram of morphisms
 of ringed spaces
 
-```text
-  (16.2.1.1)
-                  Y  ──f──>  X
-                  ↑          ↑
-                  u          v
-                  │          │
-                  Y' ──f'─>  X'
-```
+$$
+\begin{array}{ccc}
+Y & \xrightarrow{f} & X \\
+\uparrow{\scriptstyle u} & & \uparrow{\scriptstyle v} \\
+Y' & \xrightarrow{f'} & X'
+\end{array} \tag{16.2.1.1}
+$$
 
 Set $u = (\rho, \lambda)$, $v = (\sigma, \mu)$. One has $\rho*(\psi*(\mathcal{O}_{X})) =
 \psi'*(\sigma*(\mathcal{O}_{X}))$, and consequently a commutative diagram of homomorphisms of sheaves of rings on $Y'$
 
-```text
-  ρ*(ψ*(𝒪_X)) = ψ'*(σ*(𝒪_X)) ──ψ'*(μ^#)──> ψ'*(𝒪_{X'})
-              │                                │
-              ρ*(θ^#)                          θ'^#
-              ↓                                ↓
-            ρ*(𝒪_Y) ────────λ^#──────────> 𝒪_{Y'}
-```
+$$
+\begin{array}{ccc}
+\rho*(\psi*(\mathcal{O}_{X})) = \psi'*(\sigma*(\mathcal{O}_{X})) & \xrightarrow{\psi'*(\mu^{\sharp})} & \psi'*(\mathcal{O}_{X'}) \\
+\downarrow{\scriptstyle \rho*(\theta^{\sharp})} & & \downarrow{\scriptstyle \thet{a'}^{\sharp}} \\
+\rho*(\mathcal{O}_{Y}) & \xrightarrow{\lambda^{\sharp}} & \mathcal{O}_{Y'}
+\end{array}
+$$
 
 from which one concludes, if $\mathcal{I}$ and $\mathcal{I}'$ are the kernels of $\theta^{\sharp}$ and
-$\theta'^{\sharp}$, that one has $\psi'*(\mu^{\sharp})(\rho*(\mathcal{I})) \subset \mathcal{I}'$, by exactness of the
-functor $\rho*$. One deduces at once that for every integer $n$,
-$\psi'*(\mu^{\sharp})(\rho*(\mathcal{I}^{n})) \subset \mathcal{I}'^{n}$, which shows that $\psi'*(\mu^{\sharp})$
-defines, by passage to the quotients, a homomorphism of sheaves of rings
+$\thet{a'}^{\sharp}$, that one has $\psi'*(\mu^{\sharp})(\rho*(\mathcal{I})) \subset \mathcal{I}'$, by exactness of the
+functor $\rho*$. One deduces at once that for every integer $n$, $\psi'*(\mu^{\sharp})(\rho*(\mathcal{I}^{n})) \subset
+\mathcal{I}'^{n}$, which shows that $\psi'*(\mu^{\sharp})$ defines, by passage to the quotients, a homomorphism of
+sheaves of rings
 
 $$ (16.2.1.2) \nu_{n} : \rho*(\psi*(\mathcal{O}_{X})/\mathcal{I}^{n+1}) \to \psi'*(\mathcal{O}_{X'})/\mathcal{I}'^{n+1}
 $$
 
-and consequently a morphism of ringed spaces $w_{n} = (\rho, \nu_{n}) : Y'^{(n)} \to Y^{(n)}$ (which, for $n = 0$, is
+and consequently a morphism of ringed spaces $w_{n} = (\rho, \nu_{n}) : {Y'}^{(n)} \to Y^{(n)}$ (which, for $n = 0$, is
 none other than $u$). It follows at once from this definition that the diagrams
 
-```text
-  Y^{(n)}  ──h_{mn}──>  Y^{(m)}  ──h_m──>  X
-     ↑                    ↑                ↑
-     w_n                  w_m              v        (n ⩽ m)
-     │                    │                │
-  Y'^{(n)} ──h'_{mn}──> Y'^{(m)} ──h'_m──> X'
-```
+$$
+\begin{array}{ccccc}
+Y^{(n)} & \xrightarrow{h_{mn}} & Y^{(m)} & \xrightarrow{h_m} & X \\
+\uparrow{\scriptstyle w_n} & & \uparrow{\scriptstyle w_m} & & \uparrow{\scriptstyle v} \\
+{Y'}^{(n)} & \xrightarrow{h'_{mn}} & {Y'}^{(m)} & \xrightarrow{h'_m} & X'
+\end{array} \qquad (n \leqslant m)
+$$
 
 (where the horizontal arrows are the canonical morphisms `(16.1.2)`) are commutative.
 
@@ -313,34 +308,31 @@ $$ gr_{1}(u) : \rho*(\mathcal{GR}_{1}(f)) \to \mathcal{GR}_{1}(f'). $$
 
 It is immediate, moreover, that these homomorphisms give rise to a commutative diagram
 
-```text
-  (16.2.1.4)
-       ρ*(𝐒_{𝒪_Y}^•(𝒢ℛ_1(f))) ────────> ρ*(𝒢ℛ_•(f))
-              │                              │
-              𝐒(gr_1(u))                     gr(u)
-              ↓                              ↓
-       𝐒_{𝒪_{Y'}}^•(𝒢ℛ_1(f'))  ────────>  𝒢ℛ_•(f')
-```
+$$
+\begin{array}{ccc}
+\rho*(\mathbf{S}_{\mathcal{O}_{Y}}^{\bullet}(\mathcal{GR}_{1}(f))) & \longrightarrow & \rho*(\mathcal{GR}_{\bullet}(f)) \\
+\downarrow{\scriptstyle \mathbf{S}(gr_{1}(u))} & & \downarrow{\scriptstyle gr(u)} \\
+\mathbf{S}_{\mathcal{O}_{Y'}}^{\bullet}(\mathcal{GR}_{1}(f')) & \longrightarrow & \mathcal{GR}_{\bullet}(f')
+\end{array} \tag{16.2.1.4}
+$$
 
 where the horizontal arrows are the canonical homomorphisms `(16.1.2.2)`.
 
 Finally, if one has a commutative diagram of morphisms of ringed spaces
 
-```text
-       Y   ──f──>  X
-       ↑           ↑
-       u           v
-       │           │
-       Y'  ──f'─>  X'
-       ↑           ↑
-       u'          v'
-       │           │
-       Y'' ──f''─> X''
-```
+$$
+\begin{array}{ccc}
+Y & \xrightarrow{f} & X \\
+\uparrow{\scriptstyle u} & & \uparrow{\scriptstyle v} \\
+Y' & \xrightarrow{f'} & X' \\
+\uparrow{\scriptstyle u'} & & \uparrow{\scriptstyle v'} \\
+Y'' & \xrightarrow{f''} & X''
+\end{array}
+$$
 
-where $f'' = (\psi'', \theta'')$ is such that $\theta''^{\sharp}$ is surjective, and if $w_{n}$ and $w_{n}'$ are defined from
-$u$, $v$ on the one hand, and from $u'' = u \circ u'$, $v'' = v \circ v'$ on the other, then one has $w_{n}'' = w_{n}
-\circ w_{n}'$, as follows at once from the definitions and from $(0_{I}, 3.5.5)$; likewise $gr(u'') = gr(u') \circ
+where $f'' = (\psi'', \theta'')$ is such that $\theta''^{\sharp}$ is surjective, and if $w_{n}$ and $w_{n}'$ are defined
+from $u$, $v$ on the one hand, and from $u'' = u \circ u'$, $v'' = v \circ v'$ on the other, then one has $w_{n}'' =
+w_{n} \circ w_{n}'$, as follows at once from the definitions and from $(0_{I}, 3.5.5)$; likewise $gr(u'') = gr(u') \circ
 \rho'*(gr(u))$ if $u' = (\rho', \lambda')$. One can therefore say that the $Y^{(n)}$ and the $\mathcal{GR}_{\bullet}(f)$
 *depend functorially* on $f$.
 
@@ -351,16 +343,15 @@ $u$, $v$ on the one hand, and from $u'' = u \circ u'$, $v'' = v \circ v'$ on the
 *With the notation and hypotheses of `(16.2.1)`, suppose moreover that $f$, $f'$, $u$ and $v$ are morphisms of
 preschemes. Then:*
 
-*(i) The morphisms $w_{n} : Y'^{(n)} \to Y^{(n)}$ are morphisms of preschemes.*
+*(i) The morphisms $w_{n} : {Y'}^{(n)} \to Y^{(n)}$ are morphisms of preschemes.*
 
 *(ii) If $Y' = Y \times_{X} X'$, with $u$ and $f'$ the canonical projections, and if $f$ is an immersion or $v$ is flat,
-one has $Y'^{(n)} = Y^{(n)} \times_{X} X'$.*
+one has ${Y'}^{(n)} = Y^{(n)} \times_{X} X'$.*
 
 *(iii) If $Y' = Y \times_{X} X'$ and if $v$ is flat (resp. if $f$ is an immersion), the homomorphism*
 
-```text
-  Gr(u) = gr(u) ⊗ 1 : 𝒢ℛ_•(f) ⊗_{𝒪_Y} 𝒪_{Y'} → 𝒢ℛ_•(f')
-```
+$$ Gr(u) = gr(u) \otimes 1 : \mathcal{GR}_{\bullet}(f) \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{Y'} \to
+\mathcal{GR}_{\bullet}(f') $$
 
 *is bijective (resp. surjective).*
 
@@ -382,23 +373,21 @@ taking $(0_{I}, 4.3.3)$ into account, that the $\mathcal{O}_{Y'}$-Module $\mathc
 to $(\mathcal{I}^{n}/\mathcal{I}^{n+1}) \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{Y'}$, and in particular for $n = 0$ one
 has
 
-```text
-  𝒪_{Y'} = ρ*(𝒪_Y) ⊗_{ρ*(ψ*(𝒪_X))} ψ'*(𝒪_{X'}),
-```
+$$ \mathcal{O}_{Y'} = \rho*(\mathcal{O}_{Y}) \otimes_{\rho*(\psi*(\mathcal{O}_{X}))} \psi'*(\mathcal{O}_{X'}), $$
 
-which proves (iii). Set now $C_{n} = \Gamma(Y, \mathcal{O}_{Y^{(n)}})$, $C'_{n} = \Gamma(Y', \mathcal{O}_{Y'^{(n)}})$.
-Since $Y^{(n)}$ and $Y'^{(n)}$ are affine schemes `(16.1.5)`, the kernel $\mathfrak{K}_{n}$ (resp. $\mathfrak{K}'_{n}$)
+which proves (iii). Set now $C_{n} = \Gamma(Y, \mathcal{O}_{Y^{(n)}})$, $C'_{n} = \Gamma(Y', \mathcal{O}_{{Y'}^{(n)}})$.
+Since $Y^{(n)}$ and ${Y'}^{(n)}$ are affine schemes `(16.1.5)`, the kernel $\mathfrak{K}_{n}$ (resp. $\mathfrak{K}'_{n}$)
 of the homomorphism $C_{n} \to C_{n-1}$ (resp. $C'_{n} \to C'_{n-1}$) is $\Gamma(Y, \mathcal{I}^{n}/\mathcal{I}^{n+1})$
 (resp. $\Gamma(Y', \mathcal{I}'^{n}/\mathcal{I}'^{n+1})$), so one deduces from the foregoing that $\mathfrak{K}'_{n} =
 \mathfrak{K}_{n} \otimes_{A} A'$. One has a commutative diagram
 
-```text
-  0 ──> 𝔎_n ⊗_A A' ──> C_n ⊗_A A' ──> C_{n-1} ⊗_A A' ──> 0
-         │                │                │
-         r                s_n              s_{n-1}
-         ↓                ↓                ↓
-  0 ──>  𝔎'_n   ──────> C'_n  ─────────> C'_{n-1}  ─────> 0
-```
+$$
+\begin{array}{ccccccccc}
+0 & \longrightarrow & \mathfrak{K}_n \otimes_A A' & \longrightarrow & C_n \otimes_A A' & \longrightarrow & C_{n-1} \otimes_A A' & \longrightarrow & 0 \\
+& & \downarrow{\scriptstyle r} & & \downarrow{\scriptstyle s_n} & & \downarrow{\scriptstyle s_{n-1}} & & \\
+0 & \longrightarrow & \mathfrak{K}'_n & \longrightarrow & C'_n & \longrightarrow & C'_{n-1} & \longrightarrow & 0
+\end{array}
+$$
 
 where the left vertical arrow is bijective and the two rows are exact ($A'$ being a flat $A$-module). One deduces by
 induction that $s_{n}$ is bijective for all $n$, since it is so by hypothesis for $n = 0$, and the induction step
@@ -412,26 +401,23 @@ follows from the five lemma. This proves the second assertion of (ii).
 $v : X' \to X$ be the canonical projections. Let $f : Y \to X$ be a $Y$-section of $X$ (hence an immersion), $f' =
 f_{(Y')} : Y' \to X'$ the $Y'$-section of $X'$ deduced from $f$ by the base change $u$. Then:*
 
-*(i) The morphism $w_{n} : Y'^{(n)}_{f'} \to Y^{(n)}_{f}$ corresponding to $f$, $f'$, $u$, $v$ `(16.2.1)` and the
-canonical morphism $h'_{n} : Y'^{(n)}_{f'} \to X'$ identify $Y'^{(n)}_{f'}$ with the product $Y^{(n)}_{f} \times_{X}
+*(i) The morphism $w_{n} : {Y'}^{(n)}_{f'} \to Y^{(n)}_{f}$ corresponding to $f$, $f'$, $u$, $v$ `(16.2.1)` and the
+canonical morphism $h'_{n} : {Y'}^{(n)}_{f'} \to X'$ identify ${Y'}^{(n)}_{f'}$ with the product $Y^{(n)}_{f} \times_{X}
 X'$.*
 
-*(ii) If one endows $\mathcal{O}_{Y^{(n)}_{f}}$ (resp. $\mathcal{O}_{Y'^{(n)}_{f'}}$) with the structure of
+*(ii) If one endows $\mathcal{O}_{Y^{(n)}_{f}}$ (resp. $\mathcal{O}_{{Y'}^{(n)}_{f'}}$) with the structure of
 $\mathcal{O}_{Y}$-Algebra defined by $g$ (resp. with the structure of $\mathcal{O}_{Y'}$-Algebra defined by $g'$)
 `(16.1.7)`, the homomorphism of $\mathcal{O}_{Y'}$-Algebras*
 
-```text
-  (16.2.3.1)    ρ*(𝒪_{Y_f^{(n)}}) ⊗_{𝒪_Y} 𝒪_{Y'} → 𝒪_{Y'_{f'}^{(n)}}
-```
+$$ \rho*(\mathcal{O}_{Y_f^{(n)}}) \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{Y'} \to \mathcal{O}_{{Y'_{f'}}^{(n)}}
+\tag{16.2.3.1} $$
 
 <!-- original page 12 -->
 
 *deduced from the homomorphism $\nu_{n}$ `(16.2.1.2)` is bijective. Furthermore, the homomorphism of
 $\mathcal{O}_{Y'}$-Modules*
 
-```text
-  (16.2.3.2)    Gr_1(u) : 𝒢ℛ_1(f) ⊗_{𝒪_Y} 𝒪_{Y'} → 𝒢ℛ_1(f')
-```
+$$ Gr_1(u) : \mathcal{GR}_{1}(f) \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{Y'} \to \mathcal{GR}_{1}(f') \tag{16.2.3.2} $$
 
 *is bijective.*
 
@@ -441,24 +427,23 @@ $\mathcal{O}_{Y'}$-Modules*
 
 (ii) The commutative diagram
 
-```text
-                w_n
-  Y_f^{(n)} <─────── Y'_{f'}^{(n)}
-     │ h_n               │ h'_n
-     ↓                   ↓
-     X      <─── v ───   X'
-     │ g                 │ g'
-     ↓                   ↓
-     Y      <─── u ───   Y'
-```
+$$
+\begin{array}{ccc}
+Y_f^{(n)} & \xleftarrow{w_n} & {Y'_{f'}}^{(n)} \\
+\downarrow{\scriptstyle h_n} & & \downarrow{\scriptstyle h'_n} \\
+X & \xleftarrow{v} & X' \\
+\downarrow{\scriptstyle g} & & \downarrow{\scriptstyle g'} \\
+Y & \xleftarrow{u} & Y'
+\end{array}
+$$
 
-identifies $Y'^{(n)}_{f'}$ with the product $Y^{(n)}_{f} \times_{X} X'$, so `(I, 3.3.9)` identifies (for the morphisms
-$g' \circ h'_{n}$ and $w_{n}$) $Y'^{(n)}_{f'}$ with the product $Y^{(n)}_{f} \times_{Y} Y'$. Since $Y^{(n)}_{f}$ (resp.
-$Y'^{(n)}_{f'}$) is the affine prescheme over $Y$ (resp. $Y'$) associated with the $\mathcal{O}_{Y}$-Algebra
-$\mathcal{O}_{Y^{(n)}_{f}}$ (resp. with the $\mathcal{O}_{Y'}$-Algebra $\mathcal{O}_{Y'^{(n)}_{f'}}$), the fact that the
+identifies ${Y'}^{(n)}_{f'}$ with the product $Y^{(n)}_{f} \times_{X} X'$, so `(I, 3.3.9)` identifies (for the morphisms
+$g' \circ h'_{n}$ and $w_{n}$) ${Y'}^{(n)}_{f'}$ with the product $Y^{(n)}_{f} \times_{Y} Y'$. Since $Y^{(n)}_{f}$ (resp.
+${Y'}^{(n)}_{f'}$) is the affine prescheme over $Y$ (resp. $Y'$) associated with the $\mathcal{O}_{Y}$-Algebra
+$\mathcal{O}_{Y^{(n)}_{f}}$ (resp. with the $\mathcal{O}_{Y'}$-Algebra $\mathcal{O}_{{Y'}^{(n)}_{f'}}$), the fact that the
 canonical homomorphism `(16.2.3.1)` is bijective follows from `(II, 1.5.2)`. Finally, the canonical homomorphism
 `(16.2.3.1)` is compatible with the augmentations $\mathcal{O}_{Y^{(n)}_{f}} \to \mathcal{O}_{Y}$ and
-$\mathcal{O}_{Y'^{(n)}_{f'}} \to \mathcal{O}_{Y'}$; as $\mathcal{O}_{Y^{(n)}_{f}}$ is the direct sum (as an
+$\mathcal{O}_{{Y'}^{(n)}_{f'}} \to \mathcal{O}_{Y'}$; as $\mathcal{O}_{Y^{(n)}_{f}}$ is the direct sum (as an
 $\mathcal{O}_{Y}$-Module) of $\mathcal{O}_{Y}$ and of the augmentation ideal $\mathcal{I}/\mathcal{I}^{n+1}$, one sees
 that the canonical homomorphism `(16.2.3.1)`, restricted to $(\mathcal{I}/\mathcal{I}^{n+1}) \otimes_{\mathcal{O}_{Y}}
 \mathcal{O}_{Y'}$, is a bijection of the latter onto $\mathcal{I}'/\mathcal{I}'^{n+1}$. For $n = 1$, this shows that
@@ -474,9 +459,7 @@ foregoing, but are not bijective in general for $n \geqslant 2$. However:
 *Under the hypotheses of `(16.2.3)`, suppose that $u : Y' \to Y$ is a flat morphism (resp. that the
 $\mathcal{GR}_{n}(f)$ are flat $\mathcal{O}_{Y}$-Modules for $n \leqslant m$). Then the homomorphism*
 
-```text
-  Gr_n(u) : 𝒢ℛ_n(f) ⊗_{𝒪_Y} 𝒪_{Y'} → 𝒢ℛ_n(f')
-```
+$$ Gr_n(u) : \mathcal{GR}_{n}(f) \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{Y'} \to \mathcal{GR}_{n}(f') $$
 
 *is bijective for every $n$ (resp. for $n \leqslant m$).*
 
@@ -491,12 +474,13 @@ $$ 0 \to \mathcal{I}^{n}/\mathcal{I}^{n+1} \to \mathcal{I}/\mathcal{I}^{n+1} \to
 
 $(0_{I}, 6.1.2)$; furthermore one then has commutative diagrams
 
-```text
-  0 → (𝓘^n/𝓘^{n+1}) ⊗ 𝒪_{Y'} → (𝓘/𝓘^{n+1}) ⊗ 𝒪_{Y'} → (𝓘/𝓘^n) ⊗ 𝒪_{Y'} → 0
-           │                            │                       │
-           ↓                            ↓                       ↓
-  0 ──>  𝓘'^n/𝓘'^{n+1}    ─────>    𝓘'/𝓘'^{n+1}    ─────>   𝓘'/𝓘'^n   ────> 0
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & (\mathcal{I}^n/\mathcal{I}^{n+1}) \otimes \mathcal{O}_{Y'} & \to & (\mathcal{I}/\mathcal{I}^{n+1}) \otimes \mathcal{O}_{Y'} & \to & (\mathcal{I}/\mathcal{I}^n) \otimes \mathcal{O}_{Y'} & \to & 0 \\
+& & \downarrow & & \downarrow & & \downarrow & & \\
+0 & \longrightarrow & \mathcal{I}'^n/\mathcal{I}'^{n+1} & \longrightarrow & \mathcal{I}'/\mathcal{I}'^{n+1} & \longrightarrow & \mathcal{I}'/\mathcal{I}'^n & \longrightarrow & 0
+\end{array}
+$$
 
 in which the rows are exact (the first by flatness $(0_{I}, 6.1.2)$) and the last two vertical arrows are bijective by
 virtue of `(16.2.3, (ii))`; whence the conclusion.
@@ -511,7 +495,7 @@ in local rings $(Err_{III}, (1.8.2))$.
 (ii) In `(16.2.2, (ii))`, the conclusion is no longer necessarily valid when one only supposes that $v$ and $f$ are
 morphisms of preschemes ($f$ satisfying the condition of `(16.1.1)`). For example (with the notation of the proof of
 `(16.2.2, (ii))`), it may happen that $\mathfrak{J} = 0$ while the kernel $\mathfrak{J}'$ of $A' \to B' = B \otimes_{A}
-A'$ is not zero and $B' \neq 0$, in which case one has $Y^{(n)} = Y$ for all $n$, but $Y'^{(n)} \neq Y'$. One has an
+A'$ is not zero and $B' \neq 0$, in which case one has $Y^{(n)} = Y$ for all $n$, but ${Y'}^{(n)} \neq Y'$. One has an
 example of this by taking $A = \mathbb{Z}$, $B = \mathbb{Q}$, $A' = \prod^{\infty}_{h=1} (\mathbb{Z}/m^{h} \mathbb{Z})$
 where $m > 1$.
 
@@ -611,9 +595,7 @@ to the limit, two $\mathcal{O}_{X}$-Algebra structures on $\mathcal{P}^{\infty}_
 The morphism $s = (p_{2}, p_{1})_{S} : X \times_{S} X \to X \times_{S} X$ is an involutive automorphism of $X \times_{S}
 X$, called the **canonical symmetry**, such that
 
-```text
-  (16.3.3.1)    p_1 ∘ s = p_2,   p_2 ∘ s = p_1,   s ∘ Δ_f = Δ_f.
-```
+$$ p_1 \circ s = p_2, \quad p_2 \circ s = p_1, \quad s \circ \Delta_f = \Delta_f. \tag{16.3.3.1} $$
 
 If one sets $s = (\rho, \lambda)$, $p_{i} = (\pi_{i}, \mu_{i})$ ($i = 1, 2$), $\Delta_{f} = (\delta, \nu)$, then
 $\lambda^{\sharp}$ is an isomorphism of $\rho*(\pi_{1}*(\mathcal{O}_{X}))$ onto $\pi_{2}*(\mathcal{O}_{X})$, and
@@ -660,9 +642,7 @@ called the **differential of $t$** (an element of $\Gamma(U, \Omega^{1}_{X/S})$,
 
 It follows at once from this definition that one has
 
-```text
-  (16.3.6.1)    d(t_1 t_2) = t_1 dt_2 + t_2 dt_1
-```
+$$ d(t_1 t_2) = t_1 dt_2 + t_2 dt_1 \tag{16.3.6.1} $$
 
 for any $t_{1}$, $t_{2}$ in $\Gamma(U, \mathcal{O}_{X})$, that is to say, *$d$ is a derivation* of the ring $\Gamma(U,
 \mathcal{O}_{X})$ into the $\Gamma(U, \mathcal{O}_{X})$-module $\Gamma(U, \Omega^{1}_{X/S})$.
@@ -679,16 +659,12 @@ therefore an $A$-algebra. Then $\Delta_{f}$ corresponds to the canonical surject
 \to B$ such that $\pi(b \otimes b') = b b'$, with kernel $\mathfrak{J} = \mathfrak{J}_{B/A}$ `(0, 20.4.1)`;
 $\mathcal{P}^{n}_{f}$ is the structure sheaf of the prescheme $\operatorname{Spec}(P^{n}_{B/A})$, where
 
-```text
-  P_{B/A}^n = (B ⊗_A B) / 𝔍^{n+1};
-```
+$$ P_{B/A}^n = (B \otimes_A B) / \mathfrak{J}^{n+1}; $$
 
 $\mathcal{GR}_{\bullet}(\mathcal{P}_{f})$ is the quasi-coherent $\mathcal{O}_{X}$-Module corresponding to the graded
 $B$-module
 
-```text
-  gr_𝔍^•(B ⊗_A B) = ⨁_{n ⩾ 0} (𝔍^n / 𝔍^{n+1});
-```
+$$ gr_{\mathfrak{J}}^{\bullet}(B \otimes_A B) = \bigoplus_{n \geqslant 0} (\mathfrak{J}^n / \mathfrak{J}^{n+1}); $$
 
 in particular $\Omega^{1}_{f} = \Omega^{1}_{X/S}$ is the quasi-coherent $\mathcal{O}_{X}$-Module corresponding to the
 $B$-module of `1`-differentials of $B$ with respect to $A$, namely $\Omega^{1}_{B/A}$ `(0, 20.4.3)`. The projection
@@ -703,9 +679,8 @@ $Err_{IV}, 11$).
 If $\pi_{n} : B \otimes_{A} B \to P^{n}_{B/A}$ is the canonical homomorphism, one therefore has, by virtue of the
 preceding definitions,
 
-```text
-  (16.3.7.1)    π_n(b ⊗ b') = b · π_n(1 ⊗ b') = b · d_{B/A}^n(b')   for b ∈ B, b' ∈ B.
-```
+$$ \pi_n(b \otimes b') = b \cdot \pi_n(1 \otimes b') = b \cdot d_{B/A}^n(b') \quad \text{for } b \in B, b' \in B.
+\tag{16.3.7.1} $$
 
 <!-- original page 16 -->
 
@@ -737,30 +712,28 @@ This follows from `(16.1.6)` and from the fact that $\Delta_{f}$ is locally of f
 
 Consider a commutative diagram of morphisms of preschemes
 
-```text
-  (16.4.1.1)
-                  X   <──u──   X'
-                  │            │
-                  f            f'
-                  ↓            ↓
-                  S   <──w──   S'
-```
+$$
+\begin{array}{ccc}
+X & \xleftarrow{u} & X' \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle f'} \\
+S & \xleftarrow{w} & S'
+\end{array} \tag{16.4.1.1}
+$$
 
 One deduces a commutative diagram
 
-```text
-                   X        <──u──    X'
-                   │                  │
-                   Δ_f                Δ_{f'}
-                   ↓                  ↓
-                X ×_S X   <──v──   X' ×_{S'} X'
-```
+$$
+\begin{array}{ccc}
+X & \xleftarrow{u} & X' \\
+\downarrow{\scriptstyle \Delta_f} & & \downarrow{\scriptstyle \Delta_{f'}} \\
+X \times_S X & \xleftarrow{v} & X' \times_{S'} X'
+\end{array}
+$$
 
 where $v$ is the composite morphism `(I, 5.3.5` and `5.3.15)`
 
-```text
-  (16.4.1.2)    X' ×_{S'} X' ──(p'_1, p'_2)_S──> X' ×_S X' ──u ×_S u──> X ×_S X.
-```
+$$ X' \times_{S'} X' \xrightarrow{(p'_1, p'_2)_S} X' \times_S X' \xrightarrow{u \times_S u} X \times_S X. \tag{16.4.1.2}
+$$
 
 One therefore deduces from $u$ and $v$, as was explained in `(16.2.1)`, homomorphisms of augmented sheaves of rings
 
@@ -785,23 +758,23 @@ $$
 
 If one has a commutative diagram
 
-```text
-        X   <──u──   X'  <──u'──  X''
-        │            │            │
-        f            f'           f''
-        ↓            ↓            ↓
-        S   <──w──   S'  <──w'──  S''
-```
+$$
+\begin{array}{ccccc}
+X & \xleftarrow{u} & X' & \xleftarrow{u'} & X'' \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle f'} & & \downarrow{\scriptstyle f''} \\
+S & \xleftarrow{w} & S' & \xleftarrow{w'} & S''
+\end{array}
+$$
 
 one deduces a commutative diagram
 
-```text
-              X       <──u──     X'     <──u'──     X''
-              │                  │                  │
-              Δ_f                Δ_{f'}             Δ_{f''}
-              ↓                  ↓                  ↓
-           X ×_S X   <──v──   X' ×_{S'} X'  <─v'─  X'' ×_{S''} X''
-```
+$$
+\begin{array}{ccccc}
+X & \xleftarrow{u} & X' & \xleftarrow{u'} & X'' \\
+\downarrow{\scriptstyle \Delta_f} & & \downarrow{\scriptstyle \Delta_{f'}} & & \downarrow{\scriptstyle \Delta_{f''}} \\
+X \times_S X & \xleftarrow{v} & X' \times_{S'} X' & \xleftarrow{v'} & X'' \times_{S''} X''
+\end{array}
+$$
 
 where $v'$ is defined from $u'$, $w'$, $f'$, `f''` as $v$ was from $u$, $w$, $f$, $f'$. One verifies at once that if
 $u'' = u \circ u'$, $w'' = w \circ w'$, then the composite morphism $v \circ v'$ is equal to the morphism `v''` defined
@@ -809,9 +782,8 @@ from `u''`, `w''`, $f$, `f''` as $v$ was from $u$, $w$, $f$, $f'$. If one sets $
 \lambda'')$, it then follows from `(16.2.1)` that the homomorphism $\nu''_{n} : \rho''*(\mathcal{P}^{n}_{X/S}) \to
 \mathcal{P}^{n}_{X''/S''}$ is equal to the composite
 
-```text
-  ρ'*(ρ*(𝒫_{X/S}^n)) ──ρ'*(ν_n)──> ρ'*(𝒫_{X'/S'}^n) ──ν'_n──> 𝒫_{X''/S''}^n,
-```
+$$ \rho'*(\rho*(\mathcal{P}_{X/S}^n)) \xrightarrow{\rho'*(\nu_n)} \rho'*(\mathcal{P}_{X'/S'}^n) \xrightarrow{\nu'_n}
+\mathcal{P}_{X''/S''}^n, $$
 
 and one has analogous transitivity properties for the homomorphisms `(16.4.1.4)` and `(16.4.1.5)`, which allows one to
 say that the $\mathcal{P}^{n}_{X/S}$, $\mathcal{P}^{\infty}_{X/S}$ and $\mathcal{GR}_{\bullet}(\mathcal{P}_{X/S})$
@@ -824,52 +796,47 @@ say that the $\mathcal{P}^{n}_{X/S}$, $\mathcal{P}^{\infty}_{X/S}$ and $\mathcal
 One verifies at once (for example by reducing to the affine case using `(16.3.7)`) that with the notation of `(16.4.1)`,
 the diagram
 
-```text
-  (16.4.3.1)
-              ρ*(𝒪_X)  ──λ^#──>  𝒪_{X'}
-                │                  │
-                ↓                  ↓
-            ρ*(𝒫_{X/S}^n) ──ν_n──> 𝒫_{X'/S'}^n
-```
+$$
+\begin{array}{ccc}
+\rho*(\mathcal{O}_X) & \xrightarrow{\lambda^{\sharp}} & \mathcal{O}_{X'} \\
+\downarrow & & \downarrow \\
+\rho*(\mathcal{P}_{X/S}^n) & \xrightarrow{\nu_n} & \mathcal{P}_{X'/S'}^n
+\end{array} \tag{16.4.3.1}
+$$
 
 where the vertical arrows are those defining the algebra structures chosen in `(16.3.5)` (that is to say, those coming
 from the first projections), is commutative; the same holds for the diagram
 
-```text
-  (16.4.3.2)
-              ρ*(𝒪_X)         ──λ^#──>      𝒪_{X'}
-                │                              │
-                ρ*(d_{X/S}^n)                  d_{X'/S'}^n
-                ↓                              ↓
-            ρ*(𝒫_{X/S}^n)   ──ν_n──>      𝒫_{X'/S'}^n
-```
+$$
+\begin{array}{ccc}
+\rho*(\mathcal{O}_X) & \xrightarrow{\lambda^{\sharp}} & \mathcal{O}_{X'} \\
+\downarrow{\scriptstyle \rho*(d_{X/S}^n)} & & \downarrow{\scriptstyle d_{X'/S'}^n} \\
+\rho*(\mathcal{P}_{X/S}^n) & \xrightarrow{\nu_n} & \mathcal{P}_{X'/S'}^n
+\end{array} \tag{16.4.3.2}
+$$
 
 <!-- original page 18 -->
 
 the vertical arrows here defining the algebra structures coming from the second projections; moreover, if $\sigma$ and
 $\sigma'$ are the canonical symmetries corresponding to $f$ and $f'$ `(16.3.4)`, one has
 
-```text
-  ν_n ∘ ρ*(σ) = σ' ∘ ν_n
-```
+$$ \nu_n \circ \rho*(\sigma) = \sigma' \circ \nu_n $$
 
 which lets one pass from one of the preceding diagrams to the other. One therefore deduces from `(16.4.3.1)` a canonical
 homomorphism of augmented $\mathcal{O}_{X'}$-Algebras
 
-```text
-  (16.4.3.3)    P^n(u) : u*(𝒫_{X/S}^n) = 𝒫_{X/S}^n ⊗_{𝒪_X} 𝒪_{X'} → 𝒫_{X'/S'}^n
-```
+$$ P^n(u) : u*(\mathcal{P}_{X/S}^n) = \mathcal{P}_{X/S}^n \otimes_{\mathcal{O}_X} \mathcal{O}_{X'} \to
+\mathcal{P}_{X'/S'}^n \tag{16.4.3.3} $$
 
 and it follows from `(16.4.3.2)` that the diagram
 
-```text
-  (16.4.3.4)
-              𝒪_{X'}             ──id──>          𝒪_{X'}
-                │                                  │
-                u*(d_{X/S}^n)                      d_{X'/S'}^n
-                ↓                                  ↓
-            u*(𝒫_{X/S}^n)     ──P^n(u)──>      𝒫_{X'/S'}^n
-```
+$$
+\begin{array}{ccc}
+\mathcal{O}_{X'} & \xrightarrow{id} & \mathcal{O}_{X'} \\
+\downarrow{\scriptstyle u*(d_{X/S}^n)} & & \downarrow{\scriptstyle d_{X'/S'}^n} \\
+u*(\mathcal{P}_{X/S}^n) & \xrightarrow{P^n(u)} & \mathcal{P}_{X'/S'}^n
+\end{array} \tag{16.4.3.4}
+$$
 
 is commutative. One deduces from it a homomorphism of graded $\mathcal{O}_{X'}$-Algebras
 
@@ -878,20 +845,17 @@ $$ (16.4.3.5) Gr_{\bullet}(u) : u*(\mathcal{GR}_{\bullet}(\mathcal{P}_{X/S})) \t
 
 and in particular a homomorphism of $\mathcal{O}_{X'}$-Modules
 
-```text
-  (16.4.3.6)    Gr_1(u) : Ω_{X/S}^1 ⊗_{𝒪_X} 𝒪_{X'} → Ω_{X'/S'}^1
-```
+$$ Gr_1(u) : \Omega_{X/S}^1 \otimes_{\mathcal{O}_X} \mathcal{O}_{X'} \to \Omega_{X'/S'}^1 \tag{16.4.3.6} $$
 
 giving rise to a commutative diagram
 
-```text
-  (16.4.3.7)
-              𝒪_{X'}                ──id──>               𝒪_{X'}
-                │                                            │
-                d_{X/S} ⊗ 1                                  d_{X'/S'}
-                ↓                                            ↓
-            Ω_{X/S}^1 ⊗_{𝒪_X} 𝒪_{X'}    ────────────>    Ω_{X'/S'}^1
-```
+$$
+\begin{array}{ccc}
+\mathcal{O}_{X'} & \xrightarrow{id} & \mathcal{O}_{X'} \\
+\downarrow{\scriptstyle d_{X/S} \otimes 1} & & \downarrow{\scriptstyle d_{X'/S'}} \\
+\Omega_{X/S}^1 \otimes_{\mathcal{O}_X} \mathcal{O}_{X'} & \longrightarrow & \Omega_{X'/S'}^1
+\end{array} \tag{16.4.3.7}
+$$
 
 **(16.4.4).**
 
@@ -900,11 +864,13 @@ giving rise to a commutative diagram
 When $S = \operatorname{Spec}(A)$, $S' = \operatorname{Spec}(A')$, $X = \operatorname{Spec}(B)$, $X' =
 \operatorname{Spec}(B')$ are affine, so that one has a commutative diagram of ring homomorphisms
 
-```text
-              B  ──>  B'
-              ↑       ↑
-              A  ──>  A'
-```
+$$
+\begin{array}{ccc}
+B & \longrightarrow & B' \\
+\uparrow & & \uparrow \\
+A & \longrightarrow & A'
+\end{array}
+$$
 
 the image of $\mathfrak{J}_{B/A}$ in $B' \otimes_{A'} B'$ is contained in $\mathfrak{J}_{B'/A'}$, and the homomorphism
 $\nu_{n}$ corresponds to the ring homomorphism $P^{n}_{B/A} \to P^{n}_{B'/A'}$ deduced from the homomorphism $B
@@ -952,9 +918,7 @@ open $U$ of $S$ and every section $t \in \Gamma(U, \mathcal{E})$, $t$ is identif
 $\mathbf{S}_{\mathcal{O}_{S}}(\mathcal{E})$ over $U$; let $t'$ be its image in $\Gamma(f^{-1}(U), \mathcal{O}_{X}) =
 \Gamma(U, f_{*}(\mathcal{O}_{X})) = \Gamma(U, \mathbf{S}_{\mathcal{O}_{S}}(\mathcal{E}))$, and set
 
-```text
-  (16.4.7.1)    δ(t) = d_{X/S}^n(t') - t' ∈ Γ(f^{-1}(U), 𝒫_{X/S}^n);
-```
+$$ \delta(t) = d_{X/S}^n(t') - t' \in \Gamma(f^{-1}(U), \mathcal{P}_{X/S}^n); \tag{16.4.7.1} $$
 
 it is clear that $\delta$ is a di-homomorphism of modules (corresponding to the ring homomorphism $\Gamma(U,
 \mathcal{O}_{S}) \to \Gamma(f^{-1}(U), \mathcal{O}_{X})$) of $\Gamma(U, \mathcal{E})$ into $\Gamma(f^{-1}(U),
@@ -985,27 +949,24 @@ that they are isomorphisms, it suffices to
 <!-- original page 20 -->
 
 show that `(16.4.8.1)` is an isomorphism, the filtrations of the two sides of `(16.4.7.3)` being finite (Bourbaki, *Alg.
-comm.*, chap. III, §2, n° 8, cor. 3 of th. 1). For this, consider the split exact sequence of $\mathcal{O}_{S}$-Modules
+comm.*, chap. III, §2, n$^{\circ}$ 8, cor. 3 of th. 1). For this, consider the split exact sequence of
+$\mathcal{O}_{S}$-Modules
 
-```text
-  (16.4.8.2)    0 → ℰ ──u──> ℰ ⊕ ℰ ──v──> ℰ → 0
-```
+$$ 0 \to \mathcal{E} \xrightarrow{u} \mathcal{E} \oplus \mathcal{E} \xrightarrow{v} \mathcal{E} \to 0 \tag{16.4.8.2} $$
 
 where, for every pair of sections $s$, $t$ of $\mathcal{E}$ over an open $U$ of $S$, one takes $u(s) = (-s, s)$ and
 $v(s, t) = s + t$. One has
 
-```text
-  X ×_S X = Spec(𝐒_{𝒪_S}(ℰ) ⊗_{𝒪_S} 𝐒_{𝒪_S}(ℰ)) = Spec(𝐒_{𝒪_S}(ℰ ⊕ ℰ))
-```
+$$ X \times_S X = \operatorname{Spec}(\mathbf{S}_{\mathcal{O}_S}(\mathcal{E}) \otimes_{\mathcal{O}_S}
+\mathbf{S}_{\mathcal{O}_S}(\mathcal{E})) = \operatorname{Spec}(\mathbf{S}_{\mathcal{O}_S}(\mathcal{E} \oplus
+\mathcal{E})) $$
 
 `(II, 1.4.6` and `1.7.11)`, and the diagonal morphism $X \to X \times_{S} X$ corresponds `(II, 1.2.7)` to the
 homomorphism of $\mathcal{O}_{S}$-Algebras $\mathbf{S}(v) : \mathbf{S}_{\mathcal{O}_{S}}(\mathcal{E} \oplus \mathcal{E})
 \to \mathbf{S}_{\mathcal{O}_{S}}(\mathcal{E})$ `(II, 1.7.4)`, so that if $\mathcal{I}$ is the kernel of this
 homomorphism, one has
 
-```text
-  𝒫_{X/S}^n = f*(𝐒_{𝒪_S}(ℰ ⊕ ℰ) / 𝓘^{n+1}).
-```
+$$ \mathcal{P}_{X/S}^n = f*(\mathbf{S}_{\mathcal{O}_S}(\mathcal{E} \oplus \mathcal{E}) / \mathcal{I}^{n+1}). $$
 
 The proposition will be a consequence of the following lemma:
 
@@ -1013,17 +974,17 @@ The proposition will be a consequence of the following lemma:
 
 <!-- label: IV.16.4.8.3 -->
 
-*Let $Y$ be a ringed space, `0 → ℱ' ──u──> ℱ ──v──> ℱ'' → 0` an exact sequence of $\mathcal{O}_{Y}$-Modules such that
-every point $y \in Y$ has an open neighbourhood $V$ such that the sequence $0 \to \mathcal{F}'|V \to \mathcal{F}|V \to
-\mathcal{F}''|V \to 0$ is split. Let $\mathcal{I}$ be the Ideal kernel of $\mathbf{S}(v) :
-\mathbf{S}_{\mathcal{O}_{Y}}(\mathcal{F}) \to \mathbf{S}_{\mathcal{O}_{Y}}(\mathcal{F}'')$, and let
-$gr^{\bullet}_{\mathcal{I}}(\mathbf{S}_{\mathcal{O}_{Y}}(\mathcal{F}))$ be the graded $\mathcal{O}_{Y}$-Algebra
+*Let $Y$ be a ringed space, $0 \to \mathcal{F}' \xrightarrow{u} \mathcal{F} \xrightarrow{v} \mathcal{F}'' \to 0$ an
+exact sequence of $\mathcal{O}_{Y}$-Modules such that every point $y \in Y$ has an open neighbourhood $V$ such that the
+sequence $0 \to \mathcal{F}'|V \to \mathcal{F}|V \to \mathcal{F}''|V \to 0$ is split. Let $\mathcal{I}$ be the Ideal
+kernel of $\mathbf{S}(v) : \mathbf{S}_{\mathcal{O}_{Y}}(\mathcal{F}) \to \mathbf{S}_{\mathcal{O}_{Y}}(\mathcal{F}'')$,
+and let $gr^{\bullet}_{\mathcal{I}}(\mathbf{S}_{\mathcal{O}_{Y}}(\mathcal{F}))$ be the graded $\mathcal{O}_{Y}$-Algebra
 associated with the $\mathcal{O}_{Y}$-Algebra $\mathbf{S}_{\mathcal{O}_{Y}}(\mathcal{F})$ endowed with the
 $\mathcal{I}$-preadic filtration. Then the homomorphism of graded $\mathcal{O}_{Y}$-Algebras*
 
-```text
-  (16.4.8.4)    𝐒_{𝒪_Y}^•(ℱ') ⊗_{𝒪_Y} 𝐒_{𝒪_Y}^•(ℱ'') → gr_𝓘^•(𝐒_{𝒪_Y}(ℱ))
-```
+$$ \mathbf{S}_{\mathcal{O}_Y}^{\bullet}(\mathcal{F}') \otimes_{\mathcal{O}_Y}
+\mathbf{S}_{\mathcal{O}_Y}^{\bullet}(\mathcal{F}'') \to
+gr_{\mathcal{I}}^{\bullet}(\mathbf{S}_{\mathcal{O}_Y}(\mathcal{F})) \tag{16.4.8.4} $$
 
 *(where the first member is the graded tensor product of symmetric $\mathcal{O}_{Y}$-Algebras endowed with their
 canonical gradation `(II, 1.7.4` and `2.1.2)`), arising from the canonical injection*
@@ -1099,41 +1060,50 @@ $$ (16.4.11.1) \varpi_{n} : g*(\mathcal{P}^{n}_{X/S}) \xrightarrow{\sim} \mathca
 *(for the $\mathcal{O}_{S}$-Algebra structure on $\mathcal{O}_{S^{(n)}_{g}}$ defined by $f$ `(16.1.7)`) making the
 diagram*
 
-```text
-  (16.4.11.2)
-              𝒪_S = g*(𝒪_X)  ────λ_n────>  𝒪_{S_g^{(n)}}
-                     ╲                     ╱
-            g*(d_{X/S}^n) ╲               ╱ ϖ_n
-                          ↘             ↗
-                          g*(𝒫_{X/S}^n)
-```
+$$
+\begin{array}{ccc}
+\mathcal{O}_S = g*(\mathcal{O}_X) & \xrightarrow{\lambda_n} & \mathcal{O}_{S_g^{(n)}} \\
+& \searrow{\scriptstyle g*(d_{X/S}^n)} \quad \nearrow{\scriptstyle \varpi_n} & \\
+& g*(\mathcal{P}_{X/S}^n) &
+\end{array} \tag{16.4.11.2}
+$$
 
 *commutative (where $\lambda_{n}$ is the structural homomorphism).*
 
 By virtue of `(I, 5.3.7)`, where one replaces $X$, $Y$, $S$ by $S$, $X$, $S$ respectively and $f$ by $g$, the diagrams
 
-```text
-  (16.4.11.3)
-       S  ──g──>  X                  S  ──g──>  X
-       │          │                  │          │
-       g          Δ_f                g          Δ_f
-       ↓          ↓                  ↓          ↓
-       X ──(g∘f, 1_X)_S──> X ×_S X   X ──(1_X, g∘f)_S──> X ×_S X
-```
+$$
+\begin{array}{ccc}
+S & \xrightarrow{g} & X \\
+\downarrow{\scriptstyle g} & & \downarrow{\scriptstyle \Delta_f} \\
+X & \xrightarrow{(g \circ f, 1_X)_S} & X \times_S X
+\end{array}
+\qquad
+\begin{array}{ccc}
+S & \xrightarrow{g} & X \\
+\downarrow{\scriptstyle g} & & \downarrow{\scriptstyle \Delta_f} \\
+X & \xrightarrow{(1_X, g \circ f)_S} & X \times_S X
+\end{array} \tag{16.4.11.3}
+$$
 
 <!-- original page 22 -->
 
 identify $S$ with the product of the $(X \times_{S} X)$-preschemes $X$ and $X$ for the morphisms $\Delta_{f}$ and $(g
 \circ f, 1_{X})_{S}$ (resp. $(1_{X}, g \circ f)_{S}$). On the other hand, the diagrams
 
-```text
-  (16.4.11.4)
-       X ──(g∘f, 1_X)_S──> X ×_S X    X ──(1_X, g∘f)_S──> X ×_S X
-       │                   │          │                   │
-       f                   p_1        f                   p_2
-       ↓                   ↓          ↓                   ↓
-       S ─────g─────>      X          S ─────g─────>      X
-```
+$$
+\begin{array}{ccc}
+X & \xrightarrow{(g \circ f, 1_X)_S} & X \times_S X \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle p_1} \\
+S & \xrightarrow{g} & X
+\end{array}
+\qquad
+\begin{array}{ccc}
+X & \xrightarrow{(1_X, g \circ f)_S} & X \times_S X \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle p_2} \\
+S & \xrightarrow{g} & X
+\end{array} \tag{16.4.11.4}
+$$
 
 identify $X$ with the product of the $X$-preschemes $S$ and $X \times_{S} X$ for the morphisms $g$ and $p_{1}$ (resp.
 $p_{2}$) (a particular case of the associativity formula `(I, 3.3.9.1)`). One can say that $\Delta_{f}$, considered as
@@ -1263,14 +1233,13 @@ $g$ respectively.
 
 One has a commutative diagram `(I, 5.3.5)`
 
-```text
-  (16.4.18.3)
-              X   ──Δ_f──> X ×_Y X  ──j──> X ×_Z X
-                ╲             │              │
-                f ╲           p              f ×_Z f
-                  ↘           ↓              ↓
-                              Y  ──Δ_g──>  Y ×_Z Y
-```
+$$
+\begin{array}{ccccc}
+X & \xrightarrow{\Delta_f} & X \times_Y X & \xrightarrow{j} & X \times_Z X \\
+& \searrow{\scriptstyle f} & \downarrow{\scriptstyle p} & & \downarrow{\scriptstyle f \times_Z f} \\
+& & Y & \xrightarrow{\Delta_g} & Y \times_Z Y
+\end{array} \tag{16.4.18.3}
+$$
 
 where $j = (1_{X}, 1_{X})_{Z}$ is an immersion, $j \circ \Delta_{f} = \Delta_{g \circ f}$, and $p$ is the structure
 morphism. Since one can restrict to the case where $X$, $Y$, $Z$ are affine, one can suppose the immersions
@@ -1294,9 +1263,8 @@ proposition follows.
 
 *With the notation of `(16.4.18)`, one has an exact sequence of quasi-coherent $\mathcal{O}_{X}$-Modules*
 
-```text
-  (16.4.19.1)    f*(Ω_{Y/Z}^1) ──f_{X/Y/Z}──> Ω_{X/Z}^1 ──g_{X/Y/Z}──> Ω_{X/Y}^1 → 0.
-```
+$$ f*(\Omega_{Y/Z}^1) \xrightarrow{f_{X/Y/Z}} \Omega_{X/Z}^1 \xrightarrow{g_{X/Y/Z}} \Omega_{X/Y}^1 \to 0.
+\tag{16.4.19.1} $$
 
 When $X$, $Y$, $Z$ are affine, one thus recovers the exact sequence `(0, 20.5.7.1)`.
 
@@ -1323,25 +1291,26 @@ a commutative diagram
 
 <!-- original page 25 -->
 
-```text
-              Y  <──j──   X
-              │           │
-              Δ_f         Δ_{f ∘ j}
-              ↓           ↓
-           Y ×_Z Y <─j ×_Z j── X ×_Z X
-```
+$$
+\begin{array}{ccc}
+Y & \xleftarrow{j} & X \\
+\downarrow{\scriptstyle \Delta_f} & & \downarrow{\scriptstyle \Delta_{f \circ j}} \\
+Y \times_Z Y & \xleftarrow{j \times_Z j} & X \times_Z X
+\end{array}
+$$
 
 identifying $X$ with the product of the $(Y \times_{Z} Y)$-preschemes $Y$ and $X \times_{Z} X$ `(I, 5.3.7)`. Since $j
 \times_{Z} j$ is an immersion, one deduces from this remark and from `(16.2.2)` that if $\Delta^{n}_{Y/Z}$ and
 $\Delta^{n}_{X/Z}$ denote the infinitesimal neighbourhoods of order $n$ of $Y$ and $X$ for the canonical immersions
 $\Delta_{f}$ and $\Delta_{f \circ j}$ respectively, one has a diagram
 
-```text
-              Δ_{Y/Z}^n   <───   Δ_{X/Z}^n
-                  │                  │
-                  ↓                  ↓
-               Y ×_Z Y <─j ×_Z j── X ×_Z X
-```
+$$
+\begin{array}{ccc}
+\Delta_{Y/Z}^n & \longleftarrow & \Delta_{X/Z}^n \\
+\downarrow & & \downarrow \\
+Y \times_Z Y & \xleftarrow{j \times_Z j} & X \times_Z X
+\end{array}
+$$
 
 making $\Delta^{n}_{X/Z}$ the product of the $(Y \times_{Z} Y)$-preschemes $\Delta^{n}_{Y/Z}$ and $X \times_{Z} X$. One
 can also say that $\mathcal{P}^{n}_{X/Z}$ is identified with the sheaf of rings $\mathcal{P}^{n}_{Y/Z}
@@ -1384,9 +1353,8 @@ $\mathcal{O}_{X}$-Module of finite type; whence the conclusion.
 *Let $X$, $Y$ be two $S$-preschemes, $Z = X \times_{S} Y$ their product, $p : X \times_{S} Y \to X$ and $q : X
 \times_{S} Y \to Y$ the canonical projections. Then the canonical homomorphism*
 
-```text
-  (16.4.23.1)    p_{Z/X/S} ⊕ q_{Z/Y/S} : p*(Ω_{X/S}^1) ⊕ q*(Ω_{Y/S}^1) → Ω_{(X ×_S Y)/S}^1
-```
+$$ p_{Z/X/S} \oplus q_{Z/Y/S} : p*(\Omega_{X/S}^1) \oplus q*(\Omega_{Y/S}^1) \to \Omega_{(X \times_S Y)/S}^1
+\tag{16.4.23.1} $$
 
 *is bijective.*
 
@@ -1394,13 +1362,13 @@ $\mathcal{O}_{X}$-Module of finite type; whence the conclusion.
 
 The commutative diagram
 
-```text
-              Y  <──q──  X ×_S Y  <──id──  X ×_S Y
-              │            │                  │
-              g            h                  p
-              ↓            ↓                  ↓
-              S  <──id──    S    <───f───    X
-```
+$$
+\begin{array}{ccccc}
+Y & \xleftarrow{q} & X \times_S Y & \xleftarrow{id} & X \times_S Y \\
+\downarrow{\scriptstyle g} & & \downarrow{\scriptstyle h} & & \downarrow{\scriptstyle p} \\
+S & \xleftarrow{id} & S & \xleftarrow{f} & X
+\end{array}
+$$
 
 gives a factorisation of the canonical isomorphism $P^{n}(p)$ `(16.4.5)`
 
@@ -1412,15 +1380,12 @@ $$ q*(\mathcal{P}^{n}_{Y/S}) \to \mathcal{P}^{n}_{Z/S} \to \mathcal{P}^{n}_{Z/X}
 
 This proves that the canonical homomorphism `(16.4.18.1)`
 
-```text
-  p_{Z/X/S} : p*(𝒫_{X/S}^n) → 𝒫_{Z/S}^n   (resp. q_{Z/Y/S} : q*(𝒫_{Y/S}^n) → 𝒫_{Z/S}^n)
-```
+$$ p_{Z/X/S} : p*(\mathcal{P}_{X/S}^n) \to \mathcal{P}_{Z/S}^n \quad (\text{resp. } q_{Z/Y/S} : q*(\mathcal{P}_{Y/S}^n)
+\to \mathcal{P}_{Z/S}^n) $$
 
 is injective, and that the kernel of the canonical surjective homomorphism `(16.4.18.2)`
 
-```text
-  𝒫_{Z/S}^n → 𝒫_{Z/Y}^n   (resp. 𝒫_{Z/S}^n → 𝒫_{Z/X}^n)
-```
+$$ \mathcal{P}_{Z/S}^n \to \mathcal{P}_{Z/Y}^n \quad (\text{resp. } \mathcal{P}_{Z/S}^n \to \mathcal{P}_{Z/X}^n) $$
 
 is a complement of the image of $p_{Z/X/S}$ (resp. $q_{Z/Y/S}$). On the other hand, this kernel is, by virtue of
 `(16.4.18)`, generated by the image under $q_{Z/Y/S}$ (resp. $p_{Z/X/S}$) of the augmentation ideal of
@@ -1442,9 +1407,7 @@ injective `(17.2.5)`. In Chapter V, we shall also give a variant, in the case of
 (ii) Let $X$ be a topological space, $\mathcal{A}$ a sheaf of rings on $X$, and $\mathcal{B}$ an $\mathcal{A}$-Algebra
 on $X$. Then it is clear that
 
-```text
-  U ↦ P_{Γ(U, ℬ)/Γ(U, 𝒜)}^n   (U open in X)
-```
+$$ U \mapsto P_{\Gamma(U, \mathcal{B})/\Gamma(U, \mathcal{A})}^n \quad (U \text{ open in } X) $$
 
 is a presheaf of augmented $\Gamma(U, \mathcal{B})$-algebras, so the associated sheaf
 $\mathcal{P}^{n}_{\mathcal{B}/\mathcal{A}}$ is an augmented $\mathcal{B}$-Algebra. In the particular case where $X$ is a
@@ -1473,16 +1436,12 @@ conditions:
 
 a) for every open $V$ of $X$ and every pair of sections $(t_{1}, t_{2})$ of $\mathcal{O}_{X}$ over $V$, one has
 
-```text
-  (16.5.1.1)    D(t_1 t_2) = t_1 D(t_2) + D(t_1) t_2;
-```
+$$ D(t_1 t_2) = t_1 D(t_2) + D(t_1) t_2; \tag{16.5.1.1} $$
 
 b) for every open $V$ of $X$, every section $t$ of $\mathcal{O}_{X}$ over $V$, and every section $s$ of
 $\mathcal{O}_{S}$ over an open $U$ of $S$ such that $V \subset f^{-1}(U)$, one has
 
-```text
-  (16.5.1.2)    D((s|V) t) = (s|V) D(t).
-```
+$$ D((s|V) t) = (s|V) D(t). \tag{16.5.1.2} $$
 
 It is clear that this amounts to saying that for every $x \in X$, the homomorphism of additive groups $D_{x} :
 \mathcal{O}_{x} \to \mathcal{F}_{x}$ is an $\mathcal{O}_{f(x)}$-derivation.
@@ -1534,9 +1493,8 @@ correspondence between homomorphisms of $\mathcal{O}_{X}$-Algebras and homomorph
 *(ii) For every $\mathcal{O}_{X}$-Module $\mathcal{F}$, the map $u \mapsto u \circ d_{X/S}$ is an isomorphism of
 $\Gamma(X, \mathcal{O}_{X})$-modules*
 
-```text
-  (16.5.3.1)    Hom_{𝒪_X}(Ω_{X/S}^1, ℱ) ⥲ Der_S(𝒪_X, ℱ).
-```
+$$ \operatorname{Hom}_{\mathcal{O}_X}(\Omega_{X/S}^1, \mathcal{F}) \xrightarrow{\sim}
+\operatorname{Der}_S(\mathcal{O}_X, \mathcal{F}). \tag{16.5.3.1} $$
 
 Assertion (i) has already been noted `(16.3.6)`. On the other hand, it is immediate (by virtue of `(0, 20.4.8)`) that $u
 \mapsto u \circ d_{X/S}$ is injective, by considering the restrictions to a fibre $\mathcal{O}_{x}$ of both sides and
@@ -1566,9 +1524,8 @@ into $\mathcal{F}$**, and what one has just seen is also expressed by the follow
 *For every $\mathcal{O}_{X}$-Module $\mathcal{F}$, the homomorphism of $\mathcal{O}_{X}$-Modules deduced from $u \mapsto
 u \circ d_{X/S}$*
 
-```text
-  (16.5.5.1)    ℋℴ𝓂_{𝒪_X}(Ω_{X/S}^1, ℱ) → 𝒟ℯ𝓇_S(𝒪_X, ℱ)
-```
+$$ \mathcal{H}om_{\mathcal{O}_X}(\Omega_{X/S}^1, \mathcal{F}) \to \mathcal{D}er_S(\mathcal{O}_X, \mathcal{F})
+\tag{16.5.5.1} $$
 
 *is bijective.*
 
@@ -1592,9 +1549,8 @@ follows from $(0_{I}, 5.3.5)$.
 
 One sets
 
-```text
-  (16.5.7.1)    𝒯_{X/S} = ℋℴ𝓂_{𝒪_X}(Ω_{X/S}^1, 𝒪_X) = 𝒟ℯ𝓇_S(𝒪_X, 𝒪_X)
-```
+$$ \mathcal{T}_{X/S} = \mathcal{H}om_{\mathcal{O}_X}(\Omega_{X/S}^1, \mathcal{O}_X) = \mathcal{D}er_S(\mathcal{O}_X,
+\mathcal{O}_X) \tag{16.5.7.1} $$
 
 and one says that this is the **sheaf of $S$-derivations of $\mathcal{O}_{X}$**, or also the **tangent sheaf of $X$
 relative to $S$**: it is therefore the dual of the $\mathcal{O}_{X}$-Module $\Omega^{1}_{X/S}$. If $f$ is locally of
@@ -1621,41 +1577,32 @@ restricting $U$ one can suppose that the $ds_{i}$ form a basis of the $\Gamma(U,
 one; one denotes by $(D_{i})_{1 \leqslant i \leqslant n}$ or $(\partial/\partial s_{i})_{1 \leqslant i \leqslant n}$ the
 dual basis of $(ds_{i})_{1 \leqslant i \leqslant n}$, so that, by `(16.5.3)`, one has
 
-```text
-  (16.5.8.1)    D_i s_j = ⟨D_i, ds_j⟩ = ⟨∂/∂s_i, ds_j⟩ = δ_{ij}   (Kronecker symbol).
-```
+$$ D_i s_j = \langle D_i, ds_j \rangle = \langle \partial/\partial s_i, ds_j \rangle = \delta_{ij} \quad
+(\text{Kronecker symbol}). \tag{16.5.8.1} $$
 
 Every $\Gamma(S, \mathcal{O}_{S})$-derivation of the $\Gamma(S, \mathcal{O}_{S})$-algebra $\Gamma(U, \mathcal{O}_{X})$
 is therefore written in one and only one way as
 
-```text
-  D = ∑_{i=1}^n a_i D_i = ∑_{i=1}^n a_i (∂/∂s_i),
-```
+$$ D = \sum_{i=1}^n a_i D_i = \sum_{i=1}^n a_i (\partial/\partial s_i), $$
 
 where the $a_{i}$ ($1 \leqslant i \leqslant n$) are sections of $\mathcal{O}_{X}$ over $U$. For every section $g \in
 \Gamma(U, \mathcal{O}_{X})$, if one sets $dg = \sum^{n}_{i=1} c_{i} ds_{i}$, one has $c_{i} = \langle D_{i}, dg\rangle =
 D_{i} g$ by virtue of `(16.5.8.1)`, in other words
 
-```text
-  (16.5.8.2)    dg = ∑_{i=1}^n (D_i g) ds_i = ∑_{i=1}^n (∂g/∂s_i) ds_i.
-```
+$$ dg = \sum_{i=1}^n (D_i g) ds_i = \sum_{i=1}^n (\partial g/\partial s_i) ds_i. \tag{16.5.8.2} $$
 
 **(16.5.9).**
 
 <!-- label: IV.16.5.9 -->
 
-Let `D_1`, `D_2` be two $S$-derivations of $\mathcal{O}_{X}$. For every open $U$ of $X$, if $D^{U}_{1}$, $D^{U}_{2}$ are
+Let $D_1$, $D_2$ be two $S$-derivations of $\mathcal{O}_{X}$. For every open $U$ of $X$, if $D^{U}_{1}$, $D^{U}_{2}$ are
 the corresponding derivations of the ring $\Gamma(U, \mathcal{O}_{X})$, the **bracket**
 
-```text
-  [D_1^U, D_2^U] = D_1^U ∘ D_2^U - D_2^U ∘ D_1^U
-```
+$$ [D_1^U, D_2^U] = D_1^U \circ D_2^U - D_2^U \circ D_1^U $$
 
 is also a derivation of this ring, so the $\psi*(\mathcal{O}_{S})$-endomorphism of $\mathcal{O}_{X}$
 
-```text
-  (16.5.9.1)    [D_1, D_2] = D_1 ∘ D_2 - D_2 ∘ D_1
-```
+$$ [D_1, D_2] = D_1 \circ D_2 - D_2 \circ D_1 \tag{16.5.9.1} $$
 
 is again an $S$-derivation; as one checks at once that this bracket satisfies the Jacobi identity, one sees that one has
 thus defined on $\operatorname{Der}_{S}(\mathcal{O}_{X}, \mathcal{O}_{X})$ a $\Gamma(S, \mathcal{O}_{S})$-Lie-algebra
@@ -1670,18 +1617,14 @@ $(D_{1}, D_{2}) \mapsto [D_{1}, D_{2}]$ is *not* $\Gamma(X, \mathcal{O}_{X})$-bi
 For every base change $g : S' \to S$, if one sets $X' = X \times_{S} S'$, one has seen `(16.4.5)` that one has a
 canonical isomorphism
 
-```text
-  (16.5.10.1)    Ω_{X/S}^1 ⊗_{𝒪_S} 𝒪_{S'} ⥲ Ω_{X'/S'}^1
-```
+$$ \Omega_{X/S}^1 \otimes_{\mathcal{O}_S} \mathcal{O}_{S'} \xrightarrow{\sim} \Omega_{X'/S'}^1 \tag{16.5.10.1} $$
 
 <!-- original page 30 -->
 
 from which one deduces, by virtue of `(16.5.10.1)`, a canonical homomorphism (Bourbaki, *Alg.*, chap. II, 3rd ed., §5,
-n° 3)
+n$^{\circ}$ 3)
 
-```text
-  (16.5.10.2)    𝒯_{X/S} ⊗_{𝒪_S} 𝒪_{S'} → 𝒯_{X'/S'}
-```
+$$ \mathcal{T}_{X/S} \otimes_{\mathcal{O}_S} \mathcal{O}_{S'} \to \mathcal{T}_{X'/S'} \tag{16.5.10.2} $$
 
 which is in general neither injective nor surjective. However:
 
@@ -1695,10 +1638,10 @@ homomorphism `(16.5.10.2)` is injective (resp. bijective).*
 *(ii) If $\Omega^{1}_{X/S}$ is a locally free $\mathcal{O}_{X}$-Module of finite type, the homomorphism `(16.5.10.2)` is
 bijective.*
 
-Indeed, assertion (ii) follows from Bourbaki, *Alg.*, chap. II, 3rd ed., §5, n° 3, prop. 7. Assertion (i) follows
-similarly from Bourbaki, *Alg. comm.*, chap. I, §2, n° 10, prop. 11 and from the fact that if $f$ is locally of finite
-type (resp. locally of finite presentation), $\Omega^{1}_{X/S}$ is an $\mathcal{O}_{X}$-Module of finite type (resp. of
-finite presentation) (`(16.3.9)` and `(16.4.22)`).
+Indeed, assertion (ii) follows from Bourbaki, *Alg.*, chap. II, 3rd ed., §5, n$^{\circ}$ 3, prop. 7. Assertion (i)
+follows similarly from Bourbaki, *Alg. comm.*, chap. I, §2, n$^{\circ}$ 10, prop. 11 and from the fact that if $f$ is
+locally of finite type (resp. locally of finite presentation), $\Omega^{1}_{X/S}$ is an $\mathcal{O}_{X}$-Module of
+finite type (resp. of finite presentation) (`(16.3.9)` and `(16.4.22)`).
 
 **(16.5.12).**
 
@@ -1711,18 +1654,15 @@ $$ (16.5.12.1) T_{X/S} = \mathbf{V}(\Omega^{1}_{X/S}) $$
 
 which is called the **tangent bundle of $X$ relative to $S$**. One has therefore a canonical bijection `(II, 1.7.9)`
 
-```text
-  Γ(T_{X/S}/S) ⥲ Hom_{𝒪_X}(Ω_{X/S}^1, 𝒪_X) = Γ(X, 𝒯_{X/S})
-```
+$$ \Gamma(T_{X/S}/S) \xrightarrow{\sim} \operatorname{Hom}_{\mathcal{O}_X}(\Omega_{X/S}^1, \mathcal{O}_X) = \Gamma(X,
+\mathcal{T}_{X/S}) $$
 
 by definition of $\mathcal{T}_{X/S}$, and in this isomorphism one can replace $X$ by an arbitrary open $U$ of $X$; one
 can therefore say that the tangent sheaf of $X$ relative to $S$ is isomorphic to the sheaf of germs of $S$-sections of
 the tangent bundle of $X$ relative to $S$. If $f : X \to Y$ is an $S$-morphism, one has seen `(16.4.19)` that one has a
 canonical homomorphism $f_{X/Y/S} : f*(\Omega^{1}_{Y/S}) \to \Omega^{1}_{X/S}$; this gives, taking into account that
 
-```text
-  𝐕(f*(Ω_{Y/S}^1)) = 𝐕(Ω_{Y/S}^1) ×_Y X   (II, 1.7.11),
-```
+$$ \mathbf{V}(f*(\Omega_{Y/S}^1)) = \mathbf{V}(\Omega_{Y/S}^1) \times_Y X \quad (\text{II, 1.7.11}), $$
 
 an $X$-morphism $T_{X/S}(f) : T_{X/S} \to T_{Y/S} \times_{Y} X$. If $g : Y \to Z$ is a second $S$-morphism, one has
 $T_{X/S}(g \circ f) = (T_{Y/S}(g) \times 1_{X}) \circ T_{X/S}(f)$ `(0, 20.5.4.1)`.
@@ -1730,9 +1670,7 @@ $T_{X/S}(g \circ f) = (T_{Y/S}(g) \times 1_{X}) \circ T_{X/S}(f)$ `(0, 20.5.4.1)
 It follows from `(16.5.10.1)` and from `(II, 1.7.11)` that for every base change $g : S' \to S$, one has a canonical
 isomorphism
 
-```text
-  (16.5.12.2)    T_{X'/S'} ⥲ T_{X/S} ×_S S' = T_{X/S} ×_X X'.
-```
+$$ T_{X'/S'} \xrightarrow{\sim} T_{X/S} \times_S S' = T_{X/S} \times_X X'. \tag{16.5.12.2} $$
 
 **(16.5.13).**
 
@@ -1741,9 +1679,7 @@ isomorphism
 For every point $x \in X$, one calls the **tangent space to $X$ at the point $x$** (relative to $S$) the set of points
 of the fibre $T_{X/S} \times_{X} \operatorname{Spec}(k(x))$ rational over $k(x)$, that is to say the set
 
-```text
-  (16.5.13.1)    T_{X/S}(x) = Hom_{k(x)}(Ω_{X/S}^1 ⊗_{𝒪_x} k(x), k(x))
-```
+$$ T_{X/S}(x) = \operatorname{Hom}_{k(x)}(\Omega_{X/S}^1 \otimes_{\mathcal{O}_x} k(x), k(x)) \tag{16.5.13.1} $$
 
 which is the dual of the $k(x)$-vector space $\Omega^{1}_{\mathcal{O}_{x}/\mathcal{O}_{s}}/\mathfrak{m}_{x} \cdot
 \Omega^{1}_{\mathcal{O}_{x}/\mathcal{O}_{s}}$. When $\Omega^{1}_{X/S}$ is an $\mathcal{O}_{X}$-Module of finite type,
@@ -1753,16 +1689,12 @@ $T_{X/S}(x)$ is therefore a vector space of finite rank over $k(x)$, and for eve
 
 change $g : S' \to S$ and every point $x' \in X' = X \times_{S} S'$ over $x$, one has a canonical isomorphism
 
-```text
-  (16.5.13.2)    T_{X'/S'}(x') ⥲ T_{X/S}(x) ⊗_{k(x)} k(x').
-```
+$$ T_{X'/S'}(x') \xrightarrow{\sim} T_{X/S}(x) \otimes_{k(x)} k(x'). \tag{16.5.13.2} $$
 
 If $x$ is rational over $k(s)$, where $s = f(x)$ (so that $k(s) \to k(x)$ is an isomorphism), it follows from
 `(16.4.13)` that one has a canonical isomorphism
 
-```text
-  (16.5.13.3)    T_{X/S}(x) = T_{X_s/k(s)}(x) = Hom_{k(s)}(𝔪'_x/𝔪'^2_x, k(x))
-```
+$$ T_{X/S}(x) = T_{X_s/k(s)}(x) = \operatorname{Hom}_{k(s)}(\mathfrak{m}'_x/\mathfrak{m}'^2_x, k(x)) \tag{16.5.13.3} $$
 
 where $\mathfrak{m}'_{x}$ is the maximal ideal of $\mathcal{O}_{X_{s}, x} = \mathcal{O}_{X, x}/\mathfrak{m}_{s}
 \mathcal{O}_{X, x}$. In the case where $S$ is the spectrum of a field $k$, one thus recovers the Zariski definition of
@@ -1775,22 +1707,17 @@ $$ (16.5.13.4) g_{Y/X/S} : g*(\Omega^{1}_{X/S}) \to \Omega^{1}_{Y/S}. $$
 
 Now note that if $y \in Y$ and $x = g(y)$, one has
 
-```text
-  g*(Ω_{X/S}^1) ⊗_{𝒪_Y} k(y) = (Ω_{X/S}^1 ⊗_{𝒪_X} k(x)) ⊗_{k(x)} k(y),
-```
+$$ g*(\Omega_{X/S}^1) \otimes_{\mathcal{O}_Y} k(y) = (\Omega_{X/S}^1 \otimes_{\mathcal{O}_X} k(x)) \otimes_{k(x)} k(y),
+$$
 
 and consequently, if $\Omega^{1}_{X/S}$ is an $\mathcal{O}_{X}$-Module of finite type, one can identify
 
-```text
-  Hom_{k(y)}(g*(Ω_{X/S}^1) ⊗_{𝒪_Y} k(y), k(y))
-```
+$$ \operatorname{Hom}_{k(y)}(g*(\Omega_{X/S}^1) \otimes_{\mathcal{O}_Y} k(y), k(y)) $$
 
 with $T_{X/S}(x) \otimes_{k(x)} k(y)$. One therefore deduces from the homomorphism `(16.5.13.4)` a homomorphism of
 $k(y)$-vector spaces
 
-```text
-  (16.5.13.5)    T_y(g) : T_{Y/S}(y) → T_{X/S}(x) ⊗_{k(x)} k(y)
-```
+$$ T_y(g) : T_{Y/S}(y) \to T_{X/S}(x) \otimes_{k(x)} k(y) \tag{16.5.13.5} $$
 
 called the **linear map tangent to $g$ at the point $y$**. When $y$ is rational over $k(s)$, one can identify $k(s)$,
 $k(y)$ and $k(x)$, and $T_{y}(g)$ is then a homomorphism of $k(s)$-vector spaces $T_{Y/S}(y) \to T_{X/S}(x)$; note
@@ -1806,18 +1733,17 @@ point $y$ of $T_{Y/S}$.
 The interpretation of derivations of an $A$-algebra $B$ into a $B$-module $L$, given in `(0, 20.1.1)`, translates into
 the language of preschemes in the following way.
 
-Consider two morphisms of preschemes $f : X \to S$, $g : Y \to S$, and a closed sub-prescheme `Y_0` of $Y$ defined by a
-square-zero Ideal $\mathcal{I}$ of $\mathcal{O}_{Y}$ (so that $Y$ and `Y_0` have the same underlying topological space).
+Consider two morphisms of preschemes $f : X \to S$, $g : Y \to S$, and a closed sub-prescheme $Y_0$ of $Y$ defined by a
+square-zero Ideal $\mathcal{I}$ of $\mathcal{O}_{Y}$ (so that $Y$ and $Y_0$ have the same underlying topological space).
 Suppose given an $S$-morphism $u_{0} : Y_{0} \to X$, so that one has a commutative diagram
 
-```text
-  (16.5.14.1)
-              X   <──u_0──   Y_0
-              │              │
-              f              j
-              ↓              ↓
-              S   <──g──     Y
-```
+$$
+\begin{array}{ccc}
+X & \xleftarrow{u_0} & Y_0 \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle j} \\
+S & \xleftarrow{g} & Y
+\end{array} \tag{16.5.14.1}
+$$
 
 <!-- original page 32 -->
 
@@ -1830,7 +1756,7 @@ $C$; we shall suppose $U$ small enough that $u_{0}(U_{0})$ is contained in an af
 of $X$, and $g(U) = f(u_{0}(U_{0}))$ contained in an affine open $W = \operatorname{Spec}(A)$ of $S$, so that $B$ and
 $C$ are $A$-algebras and $u_{0}|U_{0}$ corresponds to an $A$-homomorphism $\psi$ of $B$ into $C/\mathfrak{L}$; let
 $P(U_{0})$ be the set of restrictions $u|U$ of the sought-for homomorphisms, which correspond canonically to the
-$A$-homomorphisms of algebras $\phi : B \to C$ such that the composite `B ──φ──> C → C/𝔏` is equal to $\psi$. One knows
+$A$-homomorphisms of algebras $\phi : B \to C$ such that the composite $B \xrightarrow{\phi} C \to C/\mathfrak{L}$ is equal to $\psi$. One knows
 therefore `(0, 20.1.1)` that the set of these homomorphisms is empty or of the form $\phi_{1} +
 \operatorname{Der}_{A}(B, \mathfrak{L})$; when $P(U_{0})$ is not empty, the additive group $\operatorname{Der}_{A}(B,
 \mathfrak{L})$ acts by addition on $P(U_{0})$, which is then an **affine space** for the additive group
@@ -1850,17 +1776,17 @@ it follows then from the fact that $\Omega^{1}_{B/A} = \Gamma(V, \Omega^{1}_{X/S
 $\operatorname{Der}_{A}(B, \mathfrak{L}) = \Gamma(U_{0}, \mathcal{G})$.
 
 As $P(U_{0})$ is defined as the set of $S$-morphisms $U \to X$, it is clear that $U_{0} \mapsto P(U_{0})$ is a *sheaf of
-sets* $\mathcal{P}$ on `Y_0`. We use this fact to prove that the map $h : \Gamma(U_{0}, \mathcal{G}) \times P(U_{0}) \to
+sets* $\mathcal{P}$ on $Y_0$. We use this fact to prove that the map $h : \Gamma(U_{0}, \mathcal{G}) \times P(U_{0}) \to
 P(U_{0})$ defining the torsor structure on $P(U_{0})$ is independent of the choice of $V$ and $W$, and in addition that,
-if $U' \subset U$ is a second affine open of $Y$ and $U'_{0}$ is its inverse image in `Y_0`, the diagram
+if $U' \subset U$ is a second affine open of $Y$ and $U'_{0}$ is its inverse image in $Y_0$, the diagram
 
-```text
-  (16.5.14.3)
-              Γ(U_0, 𝒢) × P(U_0)   ──h──>   P(U_0)
-                   │                          │
-                   ↓                          ↓
-              Γ(U'_0, 𝒢) × P(U'_0) ──h'──>   P(U'_0)
-```
+$$
+\begin{array}{ccc}
+\Gamma(U_0, \mathcal{G}) \times P(U_0) & \xrightarrow{h} & P(U_0) \\
+\downarrow & & \downarrow \\
+\Gamma(U'_0, \mathcal{G}) \times P(U'_0) & \xrightarrow{h'} & P(U'_0)
+\end{array} \tag{16.5.14.3}
+$$
 
 is commutative (the vertical arrows being the restriction operators). By virtue of the preceding remark, one is reduced
 to proving the commutativity of the preceding diagram when $h$ is defined as above from the affine opens $V$, $W$ and
@@ -1872,7 +1798,7 @@ opens $V' \subset V$ and $W' \subset W$. But by virtue of the preceding descript
 commutativity of the diagram `(0, 20.5.4.2)`.
 
 The maps $\Gamma(U_{0}, \mathcal{G}) \times P(U_{0}) \to P(U_{0})$ therefore define a homomorphism of sheaves of sets
-$m : \mathcal{G} \times \mathcal{P} \to \mathcal{P}$ such that, for every open `U_0` for which
+$m : \mathcal{G} \times \mathcal{P} \to \mathcal{P}$ such that, for every open $U_0$ for which
 $\Gamma(U_{0}, \mathcal{P}) \neq \emptyset$,
 $m_{U_{0}} : \Gamma(U_{0}, \mathcal{G}) \times \Gamma(U_{0}, \mathcal{P}) \to \Gamma(U_{0}, \mathcal{P})$ is an external
 law defining on $\Gamma(U_{0}, \mathcal{P})$ a torsor structure under the group $\Gamma(U_{0}, \mathcal{G})$.
@@ -1938,12 +1864,12 @@ Returning to the problem considered in `(16.5.14)`, one therefore obtains:
 
 <!-- label: IV.16.5.17 -->
 
-*Let $X$, $Y$ be two $S$-preschemes, `Y_0` a closed sub-prescheme of $Y$ defined by a quasi-coherent Ideal $\mathcal{I}$
+*Let $X$, $Y$ be two $S$-preschemes, $Y_0$ a closed sub-prescheme of $Y$ defined by a quasi-coherent Ideal $\mathcal{I}$
 of $\mathcal{O}_{Y}$ such that $\mathcal{I}^{2} = 0$, $j : Y_{0} \to Y$ the canonical injection. Let $u_{0} : Y_{0} \to
 X$ be an $S$-morphism, and $\mathcal{P}$ the sheaf of sets on $Y$ such that, for every open $U$ of $Y$, $\Gamma(U,
 \mathcal{P})$ is the set of $S$-morphisms $u : U \to X$ such that $u_{0}|U_{0} = u \circ (j|U_{0})$, where $U_{0} =
 j^{-1}(U)$. Then there exists on $\mathcal{P}$ a structure of pseudo-torsor under the $\mathcal{O}_{Y_{0}}$-Module
-$\mathcal{G} = \mathcal{H}o\mathcal{m}_{\mathcal{O}_{Y_{0}}}(u_{0}*(\Omega^{1}_{X/S}), \mathcal{I})$.*
+$\mathcal{G} = \mathcal{H}om_{\mathcal{O}_{Y_{0}}}(u_{0}*(\Omega^{1}_{X/S}), \mathcal{I})$.*
 
 In particular:
 
@@ -1957,7 +1883,7 @@ such that, putting $U^{0}_{\alpha} = j^{-1}(U_{\alpha})$, one has $v_{\alpha} \c
 u_{0}|U^{0}_{\alpha}$, then there exists an $S$-morphism $u : Y \to X$ such that $u \circ j = u_{0}$.*
 
 Indeed, $\mathcal{G}$ is then a quasi-coherent $\mathcal{O}_{Y_{0}}$-Module `(I, 1.3.12)`; by virtue of `(16.5.16)` and
-of the fact that `Y_0` is then affine, the sheaf $\mathcal{P}$, which is by hypothesis a torsor under $\mathcal{G}$, and
+of the fact that $Y_0$ is then affine, the sheaf $\mathcal{P}$, which is by hypothesis a torsor under $\mathcal{G}$, and
 not only a pseudo-torsor, is trivial; but if $w$ is an isomorphism from $\mathcal{G}$ onto $\mathcal{P}$ (as torsors
 under $\mathcal{G}$), the image under $w$ of the zero section of $\mathcal{G}$ is the sought-for $S$-morphism $u$.
 
@@ -1977,9 +1903,8 @@ $$ (16.6.1.1) \Omega^{p}_{X/S} = \Lambda^{p}(\Omega^{1}_{X/S}). $$
 One thus has $\Omega^{0}_{X/S} = \mathcal{O}_{X}$ and $\Omega^{p}_{X/S} = 0$ for $p < 0$; the $\Omega^{p}_{X/S}$ are the
 homogeneous components of the exterior algebra of $\Omega^{1}_{X/S}$
 
-```text
-  (16.6.1.2)    Ω^•_{X/S} = Λ(Ω^1_{X/S}) = ⊕_{p ∈ ℤ} Λ^p(Ω^1_{X/S}),
-```
+$$ \Omega^{\bullet}_{X/S} = \Lambda(\Omega^1_{X/S}) = \bigoplus_{p \in \mathbf{Z}} \Lambda^p(\Omega^1_{X/S}),
+\tag{16.6.1.2} $$
 
 which is therefore a quasi-coherent graded $\mathcal{O}_{X}$-Algebra, anti-commutative, and whose elements of degree `1`
 are of square zero. For every affine open set $U$ of $X$, one has $\Gamma(U, \Omega^{\bullet}_{X/S}) = \Lambda(\Gamma(U,
@@ -2002,12 +1927,11 @@ following properties:*
 
 <!-- original page 35 -->
 
-*(iii) For every open set $U$ of $X$, every pair of integers `p, q` and every pair of sections $\omega'_{p} \in
+*(iii) For every open set $U$ of $X$, every pair of integers $p, q$ and every pair of sections $\omega'_{p} \in
 \Gamma(U, \Omega^{p}_{X/S})$, $\omega''_{q} \in \Gamma(U, \Omega^{q}_{X/S})$, one has*
 
-```text
-  (16.6.2.1)    d(ω'_p ∧ ω''_q) = (dω'_p) ∧ ω''_q + (−1)^p ω'_p ∧ (dω''_q).
-```
+$$ d(\omega'_p \wedge \omega''_q) = (d\omega'_p) \wedge \omega''_q + (-1)^p \omega'_p \wedge (d\omega''_q).
+\tag{16.6.2.1} $$
 
 *Moreover, $d$ is an endomorphism of graded $\psi*(\mathcal{O}_{S})$-Modules of degree `+1`.*
 
@@ -2016,44 +1940,37 @@ $\Omega^{p}_{X/S}$ over $U$ is, by virtue of (ii), a linear combination of finit
 \wedge df_{2} \wedge \cdots \wedge df_{p})$, where $g$ and the $f_{i}$ are sections of $\mathcal{O}_{X}$ over $U$
 `(0, 20.4.7)`. The conditions (i) and (iii) then show, by induction on $p$, that one necessarily has
 
-```text
-  (16.6.2.2)    d(g(df_1 ∧ df_2 ∧ ⋯ ∧ df_p)) = dg ∧ df_1 ∧ df_2 ∧ ⋯ ∧ df_p.
-```
+$$ d(g(df_1 \wedge df_2 \wedge \cdots \wedge df_p)) = dg \wedge df_1 \wedge df_2 \wedge \cdots \wedge df_p.
+\tag{16.6.2.2} $$
 
 This proves the *uniqueness* of $d$ and the last assertion of the theorem. By virtue of this uniqueness property, to
 establish the existence of $d$ one may restrict to the case where $S = \operatorname{Spec}(A)$ and $X =
 \operatorname{Spec}(B)$ are affine. Now (Bourbaki, *Alg.*, chap. III, 3rd ed., §10), to define an $A$-antiderivation $D$
-of degree `+1` of an exterior algebra $\Lambda(M)$ (where $M$ is a $B$-module and $B$ an $A$-algebra), this
+of degree $+1$ of an exterior algebra $\Lambda(M)$ (where $M$ is a $B$-module and $B$ an $A$-algebra), this
 antiderivation taking its values in a graded anti-commutative $A$-algebra $C = \oplus^{\infty}_{n=0} C_{n}$ whose
-elements of degree `1` are of square zero, it suffices to arbitrarily prescribe an $A$-derivation `D_0` of $B$ into
-`C_1` and an $A$-homomorphism `D_1` of $M$ into `C_2`; there then exists one and only one $A$-antiderivation $D$ of
-$\Lambda(M)$ into $C$ coinciding with `D_0` on $B$ and with `D_1` on $M$.
+elements of degree $1$ are of square zero, it suffices to arbitrarily prescribe an $A$-derivation $D_0$ of $B$ into
+$C_1$ and an $A$-homomorphism $D_1$ of $M$ into $C_2$; there then exists one and only one $A$-antiderivation $D$ of
+$\Lambda(M)$ into $C$ coinciding with $D_0$ on $B$ and with $D_1$ on $M$.
 
-In the present case, `D_0` is necessarily equal to $d_{B/A}$ by virtue of (ii); everything comes down to showing, taking
+In the present case, $D_0$ is necessarily equal to $d_{B/A}$ by virtue of (ii); everything comes down to showing, taking
 `(16.6.2.2)` into account, that there is an $A$-homomorphism $u$ of $\Omega^{1}_{B/A}$ into $\Omega^{2}_{B/A}$ such that
 
-```text
-  (16.6.2.3)    u(g · df) = dg ∧ df
-```
+$$ u(g \cdot df) = dg \wedge df \tag{16.6.2.3} $$
 
-for arbitrary `f, g` in $B$; for this it will suffice to show that there exists an $A$-homomorphism $v : B \otimes_{A}
+for arbitrary $f, g$ in $B$; for this it will suffice to show that there exists an $A$-homomorphism $v : B \otimes_{A}
 \Omega^{1}_{B/A} \to \Omega^{2}_{B/A}$ such that
 
-```text
-  (16.6.2.4)    v(g · ω) = dg ∧ ω
-```
+$$ v(g \cdot \omega) = dg \wedge \omega \tag{16.6.2.4} $$
 
 for $g \in B$ and $\omega \in \Omega^{1}_{B/A}$. Finally, since $\Omega^{1}_{B/A} = \mathfrak{J}/\mathfrak{J}^{2}$
 (where $\mathfrak{J} = \mathfrak{J}_{B/A}$ is the kernel of the canonical homomorphism $B \otimes_{A} B \to B$) and
 since $\Omega^{1}_{B/A}$ is generated by elements of the form $g \cdot df$, it suffices to define an $A$-homomorphism
 $w : B \otimes_{A} (B \otimes_{A} B) \to \Omega^{2}_{B/A}$ such that
 
-```text
-  (16.6.2.5)    w(g' ⊗ g ⊗ f) = dg' ∧ (g · df)
-```
+$$ w(g' \otimes g \otimes f) = dg' \wedge (g \cdot df) \tag{16.6.2.5} $$
 
 and such that $w$ vanishes on the image of $B \otimes_{A} \mathfrak{J}^{2}$. Now, since the right-hand side of
-`(16.6.2.5)` is $A$-trilinear in `g', g, f`, the existence of $w$ satisfying `(16.6.2.5)` is immediate. On the other
+`(16.6.2.5)` is $A$-trilinear in $g', g, f$, the existence of $w$ satisfying `(16.6.2.5)` is immediate. On the other
 hand, since $\mathfrak{J}$ is generated by the elements $1 \otimes x - x \otimes 1$ ($x \in B$), one is reduced to
 verifying that when $z = (1 \otimes x - x \otimes 1)(1 \otimes y - y \otimes 1)$, one has $w(g' \otimes z) = 0$. Now,
 since $z = 1 \otimes (xy) + (xy) \otimes 1 - x \otimes y - y \otimes x$, the formula `(16.6.2.4)` shows that it
@@ -2065,12 +1982,10 @@ suffices to see that one has $d(xy) - x \cdot dy - y \cdot dx = 0$, which expres
 It remains to prove that $d$ satisfies condition (i). Now, the square of an antiderivation is a derivation (Bourbaki,
 *loc. cit.*), and since $\Omega^{\bullet}_{B/A}$ is generated by $\Omega^{1}_{B/A}$ as a $B$-algebra, it suffices to
 verify that $d(dz) = 0$ for $z \in B$ and for $z \in \Omega^{1}_{B/A}$. In the first case, this follows from formula
-`(16.6.2.3)` with $g = 1$; in the second, one may restrict to the case where $z = g \cdot df$ with `f, g` in $B$, and
+`(16.6.2.3)` with $g = 1$; in the second, one may restrict to the case where $z = g \cdot df$ with $f, g$ in $B$, and
 then, by virtue of `(16.6.2.1)` and `(16.6.2.3)`, one has
 
-```text
-  d(d(g · df)) = d(dg ∧ df) = (d(dg)) ∧ (df) − (dg) ∧ (d(df)) = 0.
-```
+$$ d(d(g \cdot df)) = d(dg \wedge df) = (d(dg)) \wedge (df) - (dg) \wedge (d(df)) = 0. $$
 
 Q.E.D.
 
@@ -2087,9 +2002,7 @@ Q.E.D.
 
 *For every base change $g : S' \to S$, on setting $X' = X \times_{S} S'$, the canonical homomorphism*
 
-```text
-  (16.6.4.1)    Ω^•_{X/S} ⊗_S S' → Ω^•_{X'/S'}
-```
+$$ \Omega^{\bullet}_{X/S} \otimes_S S' \to \Omega^{\bullet}_{X'/S'} \tag{16.6.4.1} $$
 
 *deduced from the isomorphism `(16.5.9.1)` is bijective. Moreover, if $s$ is a section of $\Omega^{\bullet}_{X/S}$ over
 an open set $U$ of $X$, and $s \otimes 1$ its inverse image, a section of $\Omega^{\bullet}_{X'/S'}$ over the inverse
@@ -2107,23 +2020,23 @@ Suppose that $\Omega^{1}_{X/S}$ is a locally free $\mathcal{O}_{X}$-Module of ra
 exist $n$ sections $s_{i} \in \Gamma(U, \mathcal{O}_{X})$ such that the $ds_{i}$ form a basis of the $\Gamma(U,
 \mathcal{O}_{X})$-module $\Gamma(U, \Omega^{1}_{X/S})$ `(16.5.8)`. Then, for every integer $p \geq 1$, the
 $p$-differentials $ds_{i_{1}} \wedge ds_{i_{2}} \wedge \cdots \wedge ds_{i_{p}}$ (for $i_{1} < i_{2} < \cdots < i_{p}$,
-elements of `[1, n]`) form a basis of $binom(n, p)$ elements of $\Gamma(U, \Omega^{p}_{X/S})$ over $\Gamma(U,
+elements of $[1, n]$) form a basis of $\binom{n}{p}$ elements of $\Gamma(U, \Omega^{p}_{X/S})$ over $\Gamma(U,
 \mathcal{O}_{X})$. Moreover, formula `(16.6.2.2)` shows that for every section $g \in \Gamma(U, \mathcal{O}_{X})$, one
 has
 
-```text
-  (16.6.5.1)    d(g · ds_{i_1} ∧ ds_{i_2} ∧ ⋯ ∧ ds_{i_p})
-                  = ∑_k (−1)^r (∂g/∂s_k) ds_{i_1} ∧ ⋯ ∧ ds_{i_r} ∧ ds_k ∧ ds_{i_{r+1}} ∧ ⋯ ∧ ds_{i_p}
-```
+$$
+\begin{aligned}
+d(g \cdot ds_{i_1} \wedge ds_{i_2} \wedge \cdots \wedge ds_{i_p}) \\
+= \sum_k (-1)^r (\partial g/\partial s_k) ds_{i_1} \wedge \cdots \wedge ds_{i_r} \wedge ds_k \wedge ds_{i_{r+1}} \wedge \cdots \wedge ds_{i_p}
+\end{aligned} \tag{16.6.5.1}
+$$
 
 where, on the right-hand side, $k$ ranges over the set of $n - p$ indices distinct from the $i_{h}$, $i_{r}$ being the
 largest index $< k$.
 
 One notes that the relation $d(dg) = 0$ for every section $g \in \Gamma(U, \mathcal{O}_{X})$ is expressed in the form
 
-```text
-  D_i(D_j g) = D_j(D_i g)    for i ≠ j;
-```
+$$ D_i(D_j g) = D_j(D_i g) \quad \text{for } i \neq j; $$
 
 in other words, the derivations $D_{i}$ defined in `(16.5.7)` commute pairwise.
 
@@ -2141,10 +2054,12 @@ denote the *$n$-th infinitesimal neighbourhood* of $X$ for the diagonal morphism
 $\Delta_{f} : X \to X \times_{S} X$, let $h_{n} : X^{(n)}_{\Delta_{f}} \to X \times_{S} X$ be the canonical morphism
 `(16.1.2)`, and consider the two composite morphisms
 
-```text
-  p_1^{(n)} : X^{(n)}_{Δ_f} ──h_n──▶ X ×_S X ──p_1──▶ X,
-  p_2^{(n)} : X^{(n)}_{Δ_f} ──h_n──▶ X ×_S X ──p_2──▶ X
-```
+$$
+\begin{aligned}
+p_1^{(n)} &: X^{(n)}_{\Delta_f} \xrightarrow{h_n} X \times_S X \xrightarrow{p_1} X, \\
+p_2^{(n)} &: X^{(n)}_{\Delta_f} \xrightarrow{h_n} X \times_S X \xrightarrow{p_2} X
+\end{aligned}
+$$
 
 so that, by definition, $p^{(n)}_{1}$ corresponds to the homomorphism of sheaves of rings $\mathcal{O}_{X} \to
 \mathcal{P}^{n}_{X/S}$ that we have chosen in order to define the $\mathcal{O}_{X}$-Algebra structure on
@@ -2169,9 +2084,7 @@ Returning to the definitions of inverse images of Modules on ringed spaces $(0_{
 $X^{(n)}_{\Delta_{f}}$ and $X$ have the same underlying space, one sees that one may also write the definition
 `(16.7.1.2)` in the form
 
-```text
-  (16.7.2.1)    𝒫^n_{X/S}(ℱ) = 𝒫^n_{X/S} ⊗_{𝒪_X} ℱ,
-```
+$$ \mathcal{P}^n_{X/S}(\mathcal{F}) = \mathcal{P}^n_{X/S} \otimes_{\mathcal{O}_X} \mathcal{F}, \tag{16.7.2.1} $$
 
 but where one must take care that, in the interpretation of the symbol $\otimes$, $\mathcal{P}^{n}_{X/S}$ is endowed
 with its $\mathcal{O}_{X}$-Module structure defined by *the homomorphism of sheaves of rings $d^{n}_{X/S} :
@@ -2206,9 +2119,8 @@ It is convenient to denote on the *left* the structure coming from the structure
 $a \in \Gamma(U, \mathcal{O}_{X})$, $b \in \Gamma(U, \mathcal{P}^{n}_{X/S})$, $t \in \Gamma(U, \mathcal{F})$, one has by
 definition
 
-```text
-  (16.7.4.1)    a(b ⊗ t) = (ab) ⊗ t,    (b ⊗ t) a = (b · d^n a) ⊗ t = b ⊗ (at) = (d^n a) · (b ⊗ t).
-```
+$$ a(b \otimes t) = (ab) \otimes t, \quad (b \otimes t) a = (b \cdot d^n a) \otimes t = b \otimes (at) = (d^n a) \cdot
+(b \otimes t). \tag{16.7.4.1} $$
 
 The $\mathcal{O}_{X}$-Module structure coming from the definition `(16.7.1.2)` is, with these conventions, the *left*
 $\mathcal{O}_{X}$-Module structure.
@@ -2227,9 +2139,8 @@ finitely presented), as follows from `(16.3.9)` and `(16.4.22)`.
 
 The definition `(16.7.2.1)` entails the existence of a homomorphism of sheaves of commutative groups
 
-```text
-  (16.7.5.1)    d^n_{X/S, ℱ} : ℱ → 𝒫^n_{X/S}(ℱ)    (also written d^n_{X/S})
-```
+$$ d^n_{X/S, \mathcal{F}} : \mathcal{F} \to \mathcal{P}^n_{X/S}(\mathcal{F}) \quad (\text{also written } d^n_{X/S})
+\tag{16.7.5.1} $$
 
 such that, in the notations of `(16.7.4)`, one has
 
@@ -2237,13 +2148,10 @@ $$ (16.7.5.2) d^{n}_{X/S, \mathcal{F}}(t) = 1 \otimes t $$
 
 and consequently, by virtue of `(16.7.4.1)`,
 
-```text
-  (16.7.5.3)    d^n_{X/S, ℱ}(at) = (1 ⊗ t) a = (d^n_{X/S, ℱ}(t)) · a,
-```
+$$ d^n_{X/S, \mathcal{F}}(at) = (1 \otimes t) a = (d^n_{X/S, \mathcal{F}}(t)) \cdot a, \tag{16.7.5.3} $$
 
-```text
-  (16.7.5.4)    d^n_{X/S, ℱ}(at) = (d^n_{X/S}(a)) · (1 ⊗ t) = (d^n_{X/S}(a)) · (d^n_{X/S, ℱ}(t)).
-```
+$$ d^n_{X/S, \mathcal{F}}(at) = (d^n_{X/S}(a)) \cdot (1 \otimes t) = (d^n_{X/S}(a)) \cdot (d^n_{X/S, \mathcal{F}}(t)).
+\tag{16.7.5.4} $$
 
 It is therefore $\mathcal{O}_{X}$-linear for the right $\mathcal{O}_{X}$-Module structure on
 $\mathcal{P}^{n}_{X/S}(\mathcal{F})$, and *semilinear* (relative to the automorphism $\sigma$ `(16.3.4)`) for the left
@@ -2268,20 +2176,18 @@ $$ \phi_{nm} : \mathcal{P}^{m}_{X/S} \to \mathcal{P}^{n}_{X/S} $$
 
 for $n \leq m$ `(16.1.2)` define, by virtue of `(16.7.2.1)`, canonical homomorphisms
 
-```text
-  𝒫^m_{X/S}(ℱ) → 𝒫^n_{X/S}(ℱ)    (n ≤ m)
-```
+$$ \mathcal{P}^m_{X/S}(\mathcal{F}) \to \mathcal{P}^n_{X/S}(\mathcal{F}) \quad (n \le m) $$
 
 which are homomorphisms of $\mathcal{O}_{X}$-Bimodules by virtue of `(16.1.6)` and `(16.7.4.1)`; moreover, one has
 commutative diagrams
 
-```text
-            𝒫^m_{X/S}(ℱ) ────▶ 𝒫^n_{X/S}(ℱ)
-                ▲                  ▲
-       d^m_{X/S, ℱ}       d^n_{X/S, ℱ}
-                  ╲              ╱
-                       ℱ
-```
+$$
+\begin{array}{ccc}
+\mathcal{P}^m_{X/S}(\mathcal{F}) & \longrightarrow & \mathcal{P}^n_{X/S}(\mathcal{F}) \\
+\nwarrow{\scriptstyle d^m_{X/S, \mathcal{F}}} & & \nearrow{\scriptstyle d^n_{X/S, \mathcal{F}}} \\
+& \mathcal{F} &
+\end{array}
+$$
 
 One thus has a projective system of $\mathcal{O}_{X}$-Bimodules $(\mathcal{P}^{n}_{X/S}(\mathcal{F}))$, and one sets
 
@@ -2290,9 +2196,7 @@ $$ (16.7.7.1) \mathcal{P}^{\infty}_{X/S}(\mathcal{F}) = \varprojlim \mathcal{P}^
 Moreover, the preceding shows that the homomorphisms `(16.7.5.1)` form a projective system of homomorphisms, and
 therefore define a canonical homomorphism
 
-```text
-  (16.7.7.2)    d^∞_{X/S, ℱ} : ℱ → 𝒫^∞_{X/S}(ℱ).
-```
+$$ d^{\infty}_{X/S, \mathcal{F}} : \mathcal{F} \to \mathcal{P}^{\infty}_{X/S}(\mathcal{F}). \tag{16.7.7.2} $$
 
 <!-- original page 39 -->
 
@@ -2303,11 +2207,10 @@ therefore define a canonical homomorphism
 Let $\mathcal{F}, \mathcal{G}$ be two $\mathcal{O}_{X}$-Modules; it follows immediately from the definition `(16.7.2.1)`
 that there is a canonical isomorphism of $\mathcal{P}^{n}_{X/S}$-Modules
 
-```text
-  (16.7.8.1)    𝒫^n_{X/S}(ℱ ⊗_{𝒪_X} 𝒢) ⥲ 𝒫^n_{X/S}(ℱ) ⊗_{𝒫^n_{X/S}} 𝒫^n_{X/S}(𝒢)
-```
+$$ \mathcal{P}^n_{X/S}(\mathcal{F} \otimes_{\mathcal{O}_X} \mathcal{G}) \xrightarrow{\sim}
+\mathcal{P}^n_{X/S}(\mathcal{F}) \otimes_{\mathcal{P}^n_{X/S}} \mathcal{P}^n_{X/S}(\mathcal{G}) \tag{16.7.8.1} $$
 
-(Bourbaki, *Alg.*, chap. II, 3rd ed., §5, n° 1, prop. 3).
+(Bourbaki, *Alg.*, chap. II, 3rd ed., §5, n$^{\circ}$ 1, prop. 3).
 
 One concludes in particular (or one sees directly from the definition `(16.7.2.1)`) that if $\mathcal{F}$ is endowed
 with an $\mathcal{O}_{X}$-Algebra structure (not necessarily associative), then $\mathcal{P}^{n}_{X/S}(\mathcal{F})$ is
@@ -2320,11 +2223,11 @@ $\mathcal{O}_{X}$-Module structure.
 
 With the same notations, one also has a canonical homomorphism of $\mathcal{P}^{n}_{X/S}$-Modules
 
-```text
-  (16.7.8.2)    𝒫^n_{X/S}(ℋom_{𝒪_X}(ℱ, 𝒢)) → ℋom_{𝒫^n_{X/S}}(𝒫^n_{X/S}(ℱ), 𝒫^n_{X/S}(𝒢))
-```
+$$ \mathcal{P}^n_{X/S}(\mathcal{H}om_{\mathcal{O}_X}(\mathcal{F}, \mathcal{G})) \to
+\mathcal{H}om_{\mathcal{P}^n_{X/S}}(\mathcal{P}^n_{X/S}(\mathcal{F}), \mathcal{P}^n_{X/S}(\mathcal{G})) \tag{16.7.8.2}
+$$
 
-(Bourbaki, *Alg.*, chap. II, 3rd ed., §5, n° 3), which is bijective when $\mathcal{F}$ is a locally free
+(Bourbaki, *Alg.*, chap. II, 3rd ed., §5, n$^{\circ}$ 3), which is bijective when $\mathcal{F}$ is a locally free
 $\mathcal{O}_{X}$-Module of finite type (*loc. cit.*, prop. 7).
 
 **(16.7.9).**
@@ -2399,9 +2302,7 @@ characterize the homomorphism $D = D_{U} : \Gamma(U, \mathcal{F}) \to \Gamma(U, 
 = \mathfrak{J}_{B/A}$. Set moreover $M = \Gamma(U, \mathcal{F})$, $N = \Gamma(U, \mathcal{G})$; then the definition of
 $D$ means that, for each pair $(U, V)$ satisfying the above conditions, the $A$-homomorphism $D : M \to N$ factors as
 
-```text
-  M → ((B ⊗_A B)/𝔍^{n+1}) ⊗_B M ──v──▶ N
-```
+$$ M \to ((B \otimes_A B)/\mathfrak{J}^{n+1}) \otimes_B M \xrightarrow{v} N $$
 
 where the first arrow is the canonical homomorphism $t \mapsto 1 \otimes t$, and $v$ is a $B$-homomorphism; the
 $B$-module structure on $((B \otimes_{A} B)/\mathfrak{J}^{n+1}) \otimes_{B} M$ comes from the first factor $B$ (whereas
@@ -2423,9 +2324,7 @@ writes $Diff^{n}_{X/S}$ instead of $Diff^{n}_{X/S}(\mathcal{O}_{X}, \mathcal{O}_
 
 It has been seen `(16.8.1)` that, for two open sets $U \supset V$ of $X$, one has a canonical restriction homomorphism
 
-```text
-  Diff^n_{U/S}(ℱ | U, 𝒢 | U) → Diff^n_{V/S}(ℱ | V, 𝒢 | V),
-```
+$$ Diff^n_{U/S}(\mathcal{F} | U, \mathcal{G} | U) \to Diff^n_{V/S}(\mathcal{F} | V, \mathcal{G} | V), $$
 
 <!-- original page 41 -->
 
@@ -2433,9 +2332,8 @@ so that $U \mapsto Diff^{n}_{U/S}(\mathcal{F} | U, \mathcal{G} | U)$ is a preshe
 even a sheaf, since for $U$ ranging over the open sets of $X$, the homomorphisms $u \mapsto u \circ d^{n}_{X/S,
 \mathcal{F}}$ are *isomorphisms* of additive groups
 
-```text
-  (16.8.3.1)    Hom_{𝒪_U}(𝒫^n_{U/S}(ℱ | U), 𝒢 | U) ⥲ Diff^n_{U/S}(ℱ | U, 𝒢 | U),
-```
+$$ \operatorname{Hom}_{\mathcal{O}_U}(\mathcal{P}^n_{U/S}(\mathcal{F} | U), \mathcal{G} | U) \xrightarrow{\sim}
+Diff^n_{U/S}(\mathcal{F} | U, \mathcal{G} | U), \tag{16.8.3.1} $$
 
 by virtue of the fact that the image of $\mathcal{F}$ under $d^{n}_{X/S, \mathcal{F}}$ generates
 $\mathcal{P}^{n}_{X/S}(\mathcal{F})$ `(16.7.6)`. This sheaf is denoted $\mathcal{D}iff^{n}_{X/S}(\mathcal{F},
@@ -2447,9 +2345,8 @@ $\mathcal{P}^{n}_{X/S}(\mathcal{F})$ `(16.7.6)`. This sheaf is denoted $\mathcal
 
 *The isomorphisms `(16.8.3.1)` define an isomorphism of sheaves of additive groups*
 
-```text
-  (16.8.4.1)    ℋom_{𝒪_X}(𝒫^n_{X/S}(ℱ), 𝒢) ⥲ 𝒟iff^n_{X/S}(ℱ, 𝒢).
-```
+$$ \mathcal{H}om_{\mathcal{O}_X}(\mathcal{P}^n_{X/S}(\mathcal{F}), \mathcal{G}) \xrightarrow{\sim}
+\mathcal{D}iff^n_{X/S}(\mathcal{F}, \mathcal{G}). \tag{16.8.4.1} $$
 
 When $\mathcal{F} = \mathcal{G} = \mathcal{O}_{X}$, one also writes $\mathcal{D}iff^{n}_{X/S}$ instead of
 $\mathcal{D}iff^{n}_{X/S}(\mathcal{O}_{X}, \mathcal{O}_{X})$; it follows from `(16.8.4)` that $\mathcal{D}iff^{n}_{X/S}$
@@ -2468,19 +2365,17 @@ $\mathcal{D}iff^{n}_{X/S}(\mathcal{F}, \mathcal{G})$ by virtue of `(16.8.4.1)`. 
 $\mathcal{O}_{X}$-Module structure on $\mathcal{P}^{n}_{X/S}(\mathcal{F})$ corresponds, by virtue of the definition
 `(16.8.1)`, the left $\mathcal{O}_{X}$-Module structure on $\mathcal{D}iff^{n}_{X/S}(\mathcal{F}, \mathcal{G})$
 explicitly described as follows: for every open set $U$ of $X$, every section $a \in \Gamma(U, \mathcal{O}_{X})$ and
-every differential operator $D : \mathcal{F} | U \to \mathcal{G} | U$, `aD` is the differential operator which, to every
+every differential operator $D : \mathcal{F} | U \to \mathcal{G} | U$, $aD$ is the differential operator which, to every
 section $t \in \Gamma(U, \mathcal{F})$, associates the section
 
 $$ (16.8.5.1) (aD)(t) = a \cdot D(t) $$
 
 of $\Gamma(U, \mathcal{G})$. Similarly, to the right $\mathcal{O}_{X}$-Module structure on
 $\mathcal{P}^{n}_{X/S}(\mathcal{F})$ corresponds the right $\mathcal{O}_{X}$-Module structure on
-$\mathcal{D}iff^{n}_{X/S}(\mathcal{F}, \mathcal{G})$ explicitly described as follows: with the same notations, `Da` is
+$\mathcal{D}iff^{n}_{X/S}(\mathcal{F}, \mathcal{G})$ explicitly described as follows: with the same notations, $Da$ is
 the differential operator which, to $t \in \Gamma(U, \mathcal{F})$, associates the section
 
-```text
-  (16.8.5.2)    (Da)(t) = D(at).
-```
+$$ (Da)(t) = D(at). \tag{16.8.5.2} $$
 
 **Proposition (16.8.6).**
 
@@ -2514,13 +2409,13 @@ $\mathcal{O}_{X}$-Bimodule structure on $\mathcal{D}iff_{X/S}(\mathcal{F}, \math
 
 Note that, for $n \leq m$, one has a commutative diagram
 
-```text
-  (16.8.7.1)
-              ℋom_{𝒪_X}(𝒫^n_{X/S}(ℱ), 𝒢) ──~──▶ 𝒟iff^n_{X/S}(ℱ, 𝒢)
-                       │                              │
-                       ▼                              ▼
-              ℋom_{𝒪_X}(𝒫^m_{X/S}(ℱ), 𝒢) ──~──▶ 𝒟iff^m_{X/S}(ℱ, 𝒢)
-```
+$$
+\begin{array}{ccc}
+\mathcal{H}om_{\mathcal{O}_X}(\mathcal{P}^n_{X/S}(\mathcal{F}), \mathcal{G}) & \xrightarrow{\sim} & \mathcal{D}iff^n_{X/S}(\mathcal{F}, \mathcal{G}) \\
+\downarrow & & \downarrow \\
+\mathcal{H}om_{\mathcal{O}_X}(\mathcal{P}^m_{X/S}(\mathcal{F}), \mathcal{G}) & \xrightarrow{\sim} & \mathcal{D}iff^m_{X/S}(\mathcal{F}, \mathcal{G})
+\end{array} \tag{16.8.7.1}
+$$
 
 where the horizontal arrows are the isomorphisms `(16.8.4.1)` and the left vertical arrow comes from the canonical
 homomorphism $\mathcal{P}^{m}_{X/S}(\mathcal{F}) \to \mathcal{P}^{n}_{X/S}(\mathcal{F})$ `(16.7.7)`. For every open set
@@ -2537,9 +2432,8 @@ continuous homomorphisms from $\Gamma(U, \mathcal{P}^{\infty}_{X/S}(\mathcal{F})
 \mathcal{P}^{n}_{X/S}(\mathcal{F})) \to \Gamma(U, \mathcal{G})$. One may therefore restate `(16.8.4)` by saying that
 there is a canonical isomorphism
 
-```text
-  ℋom^{cont}_{𝒪_X}(𝒫^∞_{X/S}(ℱ), 𝒢) ⥲ 𝒟iff_{X/S}(ℱ, 𝒢)
-```
+$$ \mathcal{H}om^{cont}_{\mathcal{O}_X}(\mathcal{P}^{\infty}_{X/S}(\mathcal{F}), \mathcal{G}) \xrightarrow{\sim}
+\mathcal{D}iff_{X/S}(\mathcal{F}, \mathcal{G}) $$
 
 where the left-hand member denotes the sheaf of germs of continuous homomorphisms from
 $\mathcal{P}^{\infty}_{X/S}(\mathcal{F})$ to $\mathcal{G}$.
@@ -2556,18 +2450,15 @@ $\psi*(\mathcal{O}_{S})$-Modules, $n$ an integer $\geq 0$. The following conditi
 *b) For every section $a$ of $\mathcal{O}_{X}$ over an open set $U$, the homomorphism $D_{a} : \mathcal{F} | U \to
 \mathcal{G} | U$ such that, for every section $t$ of $\mathcal{F}$ over an open set $V \subset U$, one has*
 
-```text
-  (16.8.8.1)    D_a(t) = D(at) − a · D(t),
-```
+$$ D_a(t) = D(at) - a \cdot D(t), \tag{16.8.8.1} $$
 
 *is a differential operator of order $\leq n - 1$.*
 
 *c) For every open set $U$ of $X$, every family $(a_{i})_{1 \leq i \leq n+1}$ of $n + 1$ sections of $\mathcal{O}_{X}$
 over $U$, and every section $t$ of $\mathcal{F}$ over $U$, one has the identity*
 
-```text
-  (16.8.8.2)    ∑_{H ⊂ I_{n+1}} (−1)^{Card(H)} (∏_{i ∈ H} a_i) · D((∏_{i ∉ H} a_i) t) = 0
-```
+$$ \sum_{H \subset I_{n+1}} (-1)^{\operatorname{Card}(H)} (\prod_{i \in H} a_i) \cdot D((\prod_{i \notin H} a_i) t) = 0
+\tag{16.8.8.2} $$
 
 *(where $I_{n+1}$ denotes the interval $1 \leq i \leq n + 1$ of $\mathbb{N}$).*
 
@@ -2582,9 +2473,7 @@ $A$-homomorphism $D' : B \otimes_{A} M \to N$ such that $D'(b \otimes t) = b \cd
 $\mathfrak{J}^{n+1}(B \otimes_{A} M)$, which, by virtue of `(0, 20.4.4)`, is equivalent to saying that $D'$ vanishes on
 all elements of the form
 
-```text
-  (∏_{i=1}^{n+1} (a_i ⊗ 1 − 1 ⊗ a_i)) · (1 ⊗ t)
-```
+$$ \left( \prod_{i=1}^{n+1} (a_i \otimes 1 - 1 \otimes a_i) \right) \cdot (1 \otimes t) $$
 
 where $a_{i} \in B$ and $t \in M$. Now this element can be written $\sum_{H \subset I_{n+1}} (\prod_{i \in H} a_{i})
 \otimes ((\prod_{i \notin H} a_{i}) t)$, and the value of $D'$ on this element is exactly the left-hand side of
@@ -2595,9 +2484,8 @@ Writing $a_{n+1}$ instead of $a$ in condition b), one sees, by the induction hyp
 for every family $(a_{i})_{1 \leq i \leq n}$ of $n$ sections of $\mathcal{O}_{X}$ over $U$ and every section $t$ of
 $\mathcal{F}$ over $U$,
 
-```text
-  ∑_{H' ⊂ I_n} (−1)^{Card(H')} (∏_{i ∈ H'} a_i) · D_{a_{n+1}}((∏_{i ∉ H'} a_i) t) = 0.
-```
+$$ \sum_{H' \subset I_n} (-1)^{\operatorname{Card}(H')} (\prod_{i \in H'} a_i) \cdot D_{a_{n+1}}((\prod_{i \notin H'}
+a_i) t) = 0. $$
 
 But if in this relation one replaces $D_{a_{n+1}}$ by its definition `(16.8.8.1)`, one immediately sees that one
 obtains, up to sign, the left-hand side of `(16.8.8.2)`; whence the conclusion.
@@ -2615,15 +2503,14 @@ $u : \mathcal{P}^{n}_{X/S} \otimes_{\mathcal{O}_{X}} \mathcal{F} \to \mathcal{G}
 \otimes_{\mathcal{O}_{X}} \mathcal{G} \to \mathcal{H}$ are $\mathcal{O}_{X}$-homomorphisms. Everything comes down to
 showing that the composite homomorphism of sheaves of additive groups
 
-```text
-  ℱ ──d^n_{X/S, ℱ}──▶ 𝒫^n_{X/S} ⊗_{𝒪_X} ℱ ──u──▶ 𝒢 ──d^{n'}_{X/S, 𝒢}──▶ 𝒫^{n'}_{X/S} ⊗_{𝒪_X} 𝒢
-```
+$$ \mathcal{F} \xrightarrow{d^n_{X/S, \mathcal{F}}} \mathcal{P}^n_{X/S} \otimes_{\mathcal{O}_X} \mathcal{F}
+\xrightarrow{u} \mathcal{G} \xrightarrow{d^{n'}_{X/S, \mathcal{G}}} \mathcal{P}^{n'}_{X/S} \otimes_{\mathcal{O}_X}
+\mathcal{G} $$
 
 factors as
 
-```text
-  ℱ ──d^{n+n'}_{X/S, ℱ}──▶ 𝒫^{n+n'}_{X/S} ⊗_{𝒪_X} ℱ ──w──▶ 𝒫^{n'}_{X/S} ⊗_{𝒪_X} 𝒢
-```
+$$ \mathcal{F} \xrightarrow{d^{n+n'}_{X/S, \mathcal{F}}} \mathcal{P}^{n+n'}_{X/S} \otimes_{\mathcal{O}_X} \mathcal{F}
+\xrightarrow{w} \mathcal{P}^{n'}_{X/S} \otimes_{\mathcal{O}_X} \mathcal{G} $$
 
 where $w$ is an $\mathcal{O}_{X}$-homomorphism. It will suffice to prove the
 
@@ -2633,63 +2520,55 @@ where $w$ is an $\mathcal{O}_{X}$-homomorphism. It will suffice to prove the
 
 *There exists one and only one $\mathcal{O}_{X}$-homomorphism*
 
-```text
-  (16.8.9.2)    δ : 𝒫^{n+n'}_{X/S} → 𝒫^{n'}_{X/S}(𝒫^n_{X/S}) = 𝒫^{n'}_{X/S} ⊗_{𝒪_X} 𝒫^n_{X/S}
-```
+$$ \delta : \mathcal{P}^{n+n'}_{X/S} \to \mathcal{P}^{n'}_{X/S}(\mathcal{P}^n_{X/S}) = \mathcal{P}^{n'}_{X/S}
+\otimes_{\mathcal{O}_X} \mathcal{P}^n_{X/S} \tag{16.8.9.2} $$
 
 <!-- original page 44 -->
 
 *making the diagram*
 
-```text
-  (16.8.9.3)
-                          d^{n+n'}_{X/S}
-                𝒪_X ──────────────▶ 𝒫^{n+n'}_{X/S}
-                  │                     │
-            d^n_{X/S}                   δ
-                  ▼                     ▼
-              𝒫^n_{X/S} ────────▶ 𝒫^{n'}_{X/S}(𝒫^n_{X/S})
-                       d^{n'}_{X/S, 𝒫^n_{X/S}}
-```
+$$
+\begin{array}{ccc}
+\mathcal{O}_X & \xrightarrow{d^{n+n'}_{X/S}} & \mathcal{P}^{n+n'}_{X/S} \\
+\downarrow{\scriptstyle d^n_{X/S}} & & \downarrow{\scriptstyle \delta} \\
+\mathcal{P}^n_{X/S} & \xrightarrow{d^{n'}_{X/S, \mathcal{P}^n_{X/S}}} & \mathcal{P}^{n'}_{X/S}(\mathcal{P}^n_{X/S})
+\end{array} \tag{16.8.9.3}
+$$
 
 *commute.*
 
 One will then indeed have a commutative diagram deduced from `(16.8.9.3)` by tensoring with $\mathcal{F}$
 
-```text
-                            d^{n+n'}_{X/S, ℱ}
-                  ℱ ──────────────────▶ 𝒫^{n+n'}_{X/S}(ℱ)
-                    │                          │
-              d^n_{X/S, ℱ}                 δ ⊗ 1
-                    ▼                          ▼
-                𝒫^n_{X/S}(ℱ) ─────────▶ 𝒫^{n'}_{X/S}(𝒫^n_{X/S}(ℱ))
-                              d^{n'}_{X/S, 𝒫^n_{X/S}(ℱ)}
-```
+$$
+\begin{array}{ccc}
+\mathcal{F} & \xrightarrow{d^{n+n'}_{X/S, \mathcal{F}}} & \mathcal{P}^{n+n'}_{X/S}(\mathcal{F}) \\
+\downarrow{\scriptstyle d^n_{X/S, \mathcal{F}}} & & \downarrow{\scriptstyle \delta \otimes 1} \\
+\mathcal{P}^n_{X/S}(\mathcal{F}) & \xrightarrow{d^{n'}_{X/S, \mathcal{P}^n_{X/S}(\mathcal{F})}} & \mathcal{P}^{n'}_{X/S}(\mathcal{P}^n_{X/S}(\mathcal{F}))
+\end{array}
+$$
 
 and, on the other hand, one verifies immediately from the definition `(16.7.5)` that the diagram
 
-```text
-                                   u
-                𝒫^n_{X/S}(ℱ) ──────▶ 𝒢
-                    │                │
-        d^{n'}_{X/S, 𝒫^n_{X/S}(ℱ)}   d^{n'}_{X/S, 𝒢}
-                    ▼                ▼
-        𝒫^{n'}_{X/S}(𝒫^n_{X/S}(ℱ)) ─1 ⊗ u─▶ 𝒫^{n'}_{X/S}(𝒢)
-```
+$$
+\begin{array}{ccc}
+\mathcal{P}^n_{X/S}(\mathcal{F}) & \xrightarrow{u} & \mathcal{G} \\
+\downarrow{\scriptstyle d^{n'}_{X/S, \mathcal{P}^n_{X/S}(\mathcal{F})}} & & \downarrow{\scriptstyle d^{n'}_{X/S, \mathcal{G}}} \\
+\mathcal{P}^{n'}_{X/S}(\mathcal{P}^n_{X/S}(\mathcal{F})) & \xrightarrow{1 \otimes u} & \mathcal{P}^{n'}_{X/S}(\mathcal{G})
+\end{array}
+$$
 
 is commutative. One will therefore answer the question by taking $w$ to be the composite $\mathcal{O}_{X}$-homomorphism
 
-```text
-  𝒫^{n+n'}_{X/S}(ℱ) ──δ ⊗ 1──▶ 𝒫^{n'}_{X/S}(𝒫^n_{X/S}(ℱ)) ──1 ⊗ u──▶ 𝒫^{n'}_{X/S}(𝒢).
-```
+$$ \mathcal{P}^{n+n'}_{X/S}(\mathcal{F}) \xrightarrow{\delta \otimes 1}
+\mathcal{P}^{n'}_{X/S}(\mathcal{P}^n_{X/S}(\mathcal{F})) \xrightarrow{1 \otimes u} \mathcal{P}^{n'}_{X/S}(\mathcal{G}).
+$$
 
 It remains to prove Lemma `(16.8.9.1)`. Taking `(16.7.6)` into account, which proves the uniqueness of $\delta$, one is
 reduced to the case where $S = \operatorname{Spec}(A)$ and $X = \operatorname{Spec}(B)$ are affine; on setting
 $\mathfrak{J} = \mathfrak{J}_{B/A}$, it is a matter of defining a canonical homomorphism of $B$-modules
 
-```text
-  φ : (B ⊗_A B)/𝔍^{n+n'+1} → ((B ⊗_A B)/𝔍^{n'+1}) ⊗_B ((B ⊗_A B)/𝔍^{n+1}),
-```
+$$ \varphi : (B \otimes_A B)/\mathfrak{J}^{n+n'+1} \to ((B \otimes_A B)/\mathfrak{J}^{n'+1}) \otimes_B ((B \otimes_A
+B)/\mathfrak{J}^{n+1}), $$
 
 the $B$-module structures on both sides coming from the first factor $B$; let us recall that, in the tensor product of
 the right-hand side, $(B \otimes_{A} B)/\mathfrak{J}^{n'+1}$ is to be considered
@@ -2699,39 +2578,41 @@ the right-hand side, $(B \otimes_{A} B)/\mathfrak{J}^{n'+1}$ is to be considered
 as a right $B$-module via its second factor $B$, and $(B \otimes_{A} B)/\mathfrak{J}^{n+1}$ as a left $B$-module via its
 first factor $B$ `(16.7.2)`. It amounts to the same to define a homomorphism of $B$-modules
 
-```text
-  φ_0 : B ⊗_A B → ((B ⊗_A B)/𝔍^{n'+1}) ⊗_B ((B ⊗_A B)/𝔍^{n+1})
-```
+$$ \varphi_0 : B \otimes_A B \to ((B \otimes_A B)/\mathfrak{J}^{n'+1}) \otimes_B ((B \otimes_A B)/\mathfrak{J}^{n+1}) $$
 
 and to prove that it vanishes on $\mathfrak{J}^{n+n'+1}$. Now, such a homomorphism is immediately defined by the
 condition
 
-```text
-  φ_0(b ⊗ b') = π_{n'}(b ⊗ 1) ⊗ π_n(1 ⊗ b')    for b, b' in B
-```
+$$ \varphi_0(b \otimes b') = \pi_{n'}(b \otimes 1) \otimes \pi_n(1 \otimes b') \quad \text{for } b, b' \text{ in } B $$
 
 with the notations of `(16.3.7)`. Moreover, it is immediate that $\phi_{0}$ is a homomorphism of *rings*. Now, one can
 write
 
-```text
-  φ_0(b ⊗ 1 − 1 ⊗ b)
-        = π_{n'}(b ⊗ 1 − 1 ⊗ b) ⊗ π_n(1 ⊗ 1)
-          + π_{n'}(1 ⊗ b) ⊗ π_n(1 ⊗ 1) − π_{n'}(1 ⊗ 1) ⊗ π_n(1 ⊗ b)
-```
+$$
+\begin{aligned}
+\varphi_0(b \otimes 1 - 1 \otimes b)
+&= \pi_{n'}(b \otimes 1 - 1 \otimes b) \otimes \pi_n(1 \otimes 1) \\
+&\quad + \pi_{n'}(1 \otimes b) \otimes \pi_n(1 \otimes 1) - \pi_{n'}(1 \otimes 1) \otimes \pi_n(1 \otimes b)
+\end{aligned}
+$$
 
 and one has
 
-```text
-  π_{n'}(1 ⊗ b) ⊗ π_n(1 ⊗ 1) = π_{n'}(1 ⊗ 1) · b ⊗ π_n(1 ⊗ 1)
-        = π_{n'}(1 ⊗ 1) ⊗ b · π_n(1 ⊗ 1) = π_{n'}(1 ⊗ 1) ⊗ π_n(b ⊗ 1)
-```
+$$
+\begin{aligned}
+\pi_{n'}(1 \otimes b) \otimes \pi_n(1 \otimes 1) &= \pi_{n'}(1 \otimes 1) \cdot b \otimes \pi_n(1 \otimes 1) \\
+&= \pi_{n'}(1 \otimes 1) \otimes b \cdot \pi_n(1 \otimes 1) = \pi_{n'}(1 \otimes 1) \otimes \pi_n(b \otimes 1)
+\end{aligned}
+$$
 
 whence finally
 
-```text
-  (16.8.9.4)    φ_0(b ⊗ 1 − 1 ⊗ b)
-                  = π_{n'}(b ⊗ 1 − 1 ⊗ b) ⊗ π_n(1 ⊗ 1) + π_{n'}(1 ⊗ 1) ⊗ π_n(b ⊗ 1 − 1 ⊗ b).
-```
+$$
+\begin{aligned}
+\varphi_0(b \otimes 1 - 1 \otimes b)
+= \pi_{n'}(b \otimes 1 - 1 \otimes b) \otimes \pi_n(1 \otimes 1) + \pi_{n'}(1 \otimes 1) \otimes \pi_n(b \otimes 1 - 1 \otimes b).
+\end{aligned} \tag{16.8.9.4}
+$$
 
 A product of $n + n' + 1$ terms of the form `(16.8.9.4)` is therefore necessarily zero, since the same is true for a
 product of $n + 1$ terms of the form $\pi_{n}(b \otimes 1 - 1 \otimes b)$ and a product of $n' + 1$ terms of the form
@@ -2761,21 +2642,17 @@ functor $\mathcal{F} \mapsto \Gamma(U, \mathcal{F})$ commutes with the formation
 \mathcal{F}_{\lambda}} : \mathcal{F}_{\lambda} \to \mathcal{P}^{n}_{X/S}(\mathcal{F}_{\lambda})$; one concludes
 immediately that one has
 
-```text
-  Diff^n_{X/S}(ℱ, 𝒢) = ∏_{λ ∈ L} Diff^n_{X/S}(ℱ_λ, 𝒢),
-```
+$$ Diff^n_{X/S}(\mathcal{F}, \mathcal{G}) = \prod_{\lambda \in L} Diff^n_{X/S}(\mathcal{F}_\lambda, \mathcal{G}), $$
 
 and consequently also $(0_{I}, 3.2.6)$
 
-```text
-  𝒟iff^n_{X/S}(ℱ, 𝒢) = ∏_{λ ∈ L} 𝒟iff^n_{X/S}(ℱ_λ, 𝒢).
-```
+$$ \mathcal{D}iff^n_{X/S}(\mathcal{F}, \mathcal{G}) = \prod_{\lambda \in L} \mathcal{D}iff^n_{X/S}(\mathcal{F}_\lambda,
+\mathcal{G}). $$
 
 On the other hand, if $\mathcal{G} = \prod_{\mu \in M} \mathcal{G}_{\mu}$ $(0_{I}, 3.2.6)$, one has
 
-```text
-  Hom_{𝒪_X}(𝒫^n_{X/S}(ℱ), 𝒢) = ∏_{μ ∈ M} Hom_{𝒪_X}(𝒫^n_{X/S}(ℱ), 𝒢_μ),
-```
+$$ \operatorname{Hom}_{\mathcal{O}_X}(\mathcal{P}^n_{X/S}(\mathcal{F}), \mathcal{G}) = \prod_{\mu \in M}
+\operatorname{Hom}_{\mathcal{O}_X}(\mathcal{P}^n_{X/S}(\mathcal{F}), \mathcal{G}_\mu), $$
 
 <!-- original page 46 -->
 
@@ -2783,15 +2660,12 @@ every homomorphism $u$ from $\mathcal{P}^{n}_{X/S}(\mathcal{F})$ to $\mathcal{G}
 family of its composites $u_{\mu} : \mathcal{P}^{n}_{X/S}(\mathcal{F}) \to \mathcal{G} \to \mathcal{G}_{\mu}$. One
 therefore has
 
-```text
-  Diff^n_{X/S}(ℱ, 𝒢) = ∏_{μ ∈ M} Diff^n_{X/S}(ℱ, 𝒢_μ),
-```
+$$ Diff^n_{X/S}(\mathcal{F}, \mathcal{G}) = \prod_{\mu \in M} Diff^n_{X/S}(\mathcal{F}, \mathcal{G}_\mu), $$
 
 and consequently also
 
-```text
-  𝒟iff^n_{X/S}(ℱ, 𝒢) = ∏_{μ ∈ M} 𝒟iff^n_{X/S}(ℱ, 𝒢_μ).
-```
+$$ \mathcal{D}iff^n_{X/S}(\mathcal{F}, \mathcal{G}) = \prod_{\mu \in M} \mathcal{D}iff^n_{X/S}(\mathcal{F},
+\mathcal{G}_\mu). $$
 
 (ii) Up to now, one has hardly encountered differential operators $\mathcal{F} \to \mathcal{G}$ other than when
 $\mathcal{F}$ and $\mathcal{G}$ are locally free $\mathcal{O}_{X}$-Modules of finite rank, in which case their structure
@@ -2911,10 +2785,11 @@ $\mathcal{J}_{x}/\mathcal{J}^{2}_{x}$.*
 
 By hypothesis, $\mathcal{O}_{x}$ is a local ring and $\mathcal{J}_{x}$ is an ideal of finite type of $\mathcal{O}_{x}$
 contained in the maximal ideal of $\mathcal{O}_{x}$; the equivalence of b), b') and c) thus follows from Nakayama's
-lemma (Bourbaki, *Alg. comm.*, chap. II, §3, n° 2, prop. 5). It is clear that a) implies c) by virtue of `(16.9.3)`; on
-the other hand, it follows from $(0_{I}, 5.2.2)$ that, if condition c) is verified (hence also b)), there exists an open
-neighbourhood $U$ of $x$ in $X$ such that $(\mathcal{J}/\mathcal{J}^{2}) | U$ has constant rank $n$, and such that the
-$f_{i} | U$ generate $\mathcal{J} | U$; it suffices then to apply, in $U$, the last assertion of `(16.9.3)`.
+lemma (Bourbaki, *Alg. comm.*, chap. II, §3, n$^{\circ}$ 2, prop. 5). It is clear that a) implies c) by virtue of
+`(16.9.3)`; on the other hand, it follows from $(0_{I}, 5.2.2)$ that, if condition c) is verified (hence also b)), there
+exists an open neighbourhood $U$ of $x$ in $X$ such that $(\mathcal{J}/\mathcal{J}^{2}) | U$ has constant rank $n$, and
+such that the $f_{i} | U$ generate $\mathcal{J} | U$; it suffices then to apply, in $U$, the last assertion of
+`(16.9.3)`.
 
 **Remarks (16.9.6).**
 
@@ -2929,20 +2804,20 @@ $(f_{i})$ to generate $\mathcal{J}$. One has an example by
 taking $X = \operatorname{Spec}(A)$, where $A$ is a Dedekind ring, and $\mathcal{J} = \tilde{\mathfrak{J}}$, where
 $\mathfrak{J}$ is a *non-principal* prime ideal of $A$; then $\mathcal{J}_{y}/\mathcal{J}^{2}_{y} = 0$ at every point
 $y$ distinct from the point $x \in X$ corresponding to $\mathfrak{J}$, and $\mathcal{J}_{x}/\mathcal{J}^{2}_{x}$ has
-rank `1` over the field $\mathcal{O}_{x}/\mathcal{J}_{x}$; moreover, $\mathcal{J}$ is clearly a regular Ideal.
+rank $1$ over the field $\mathcal{O}_{x}/\mathcal{J}_{x}$; moreover, $\mathcal{J}$ is clearly a regular Ideal.
 
 (ii) In `(16.9.5)`, one cannot replace "quasi-regular" by "regular", even when $X$ is a prescheme (cf. `(16.9.12)`).
-Indeed, let $B$ denote the ring of germs of infinitely differentiable functions at the point `0` of $\mathbb{R}$; it has
-a maximal ideal $\mathfrak{m}$ generated by the germ $t$ of the identity map of $\mathbb{R}$ at the point `0`, and the
-intersection $\mathfrak{n}$ of the $\mathfrak{m}^{k}$ for $k > 0$ is not reduced to `0`. Now let $A$ be the quotient
+Indeed, let $B$ denote the ring of germs of infinitely differentiable functions at the point $0$ of $\mathbb{R}$; it has
+a maximal ideal $\mathfrak{m}$ generated by the germ $t$ of the identity map of $\mathbb{R}$ at the point $0$, and the
+intersection $\mathfrak{n}$ of the $\mathfrak{m}^{k}$ for $k > 0$ is not reduced to $0$. Now let $A$ be the quotient
 ring $B[T]/\mathfrak{n} T B[T]$, and let $f_{1}, f_{2}$ be the canonical images in $A$ of the elements $t$ and $T$ of
-`B[T]`. The sequence $(f_{1}, f_{2})$ is *regular* in $A$: indeed, $f_{1}$ is not a zero-divisor in $A$, since the
+$B[T]$. The sequence $(f_{1}, f_{2})$ is *regular* in $A$: indeed, $f_{1}$ is not a zero-divisor in $A$, since the
 relation $t P[T] \in \mathfrak{n} T B[T]$, for a polynomial $P \in B[T]$, entails that the products of $t$ by the
 coefficients of $P$ belong to the ideal $\mathfrak{n}$, and it follows immediately that these coefficients are
 themselves in $\mathfrak{n}$, hence $P[T] \in \mathfrak{n} T B[T]$. As $B/tB$ is isomorphic to $\mathbb{R}$, $A/f_{1} A$
 is isomorphic to the polynomial ring $\mathbb{R}[T]$, hence integral, and the image of $f_{2}$ in $A/f_{1} A$, being
 equal to $T$, is not a zero-divisor, which proves our assertion. However, $f_{2}$ is a zero-divisor in $A$, for, given
-any non-zero element $x \in \mathfrak{n}$, the image of $x$ in $A$ is $\neq 0$, but the image of `xT` is zero. One
+any non-zero element $x \in \mathfrak{n}$, the image of $x$ in $A$ is $\neq 0$, but the image of $xT$ is zero. One
 concludes that the sequence $(f_{2}, f_{1})$ is *not regular* in $A$; on the other hand, the ideal $\mathfrak{J} = f_{1}
 A + f_{2} A$ is distinct from $A$, so conditions b), b') and c) of `(16.9.5)` do not imply condition a) when one
 replaces "quasi-regular" by "regular".
@@ -3080,9 +2955,7 @@ elements of $A$ which is $A'$-regular, $\mathfrak{K} = \sum_{i} f_{i} A$, $\math
 $\mathfrak{K}' = \sum_{i} f'_{i} A'$ (where $f'_{i}$ is the image of $f_{i}$ in $A'$), so that $C = A/\mathfrak{L}$ is
 isomorphic to $A'/\mathfrak{K}'$. Then for every integer $n > 0$ and every integer $N \geq n$, one has the relation*
 
-```text
-  (16.9.13.3)    𝔍 ∩ 𝔎^n = 𝔍 𝔎^n + 𝔍 𝔎^N.
-```
+$$ \mathfrak{J} \cap \mathfrak{K}^n = \mathfrak{J} \mathfrak{K}^n + \mathfrak{J} \mathfrak{K}^N. \tag{16.9.13.3} $$
 
 It clearly suffices to prove that every element of the left-hand side is contained in the right-hand side, and by
 induction on $n$ one is reduced to the case $N = n + 1$. An element of the left-hand side of `(16.9.13.3)`, being in
@@ -3100,9 +2973,8 @@ $P(f_{1}, \cdots, f_{r}) \in \mathfrak{J}$, one finally has $P(f_{1}, \cdots, f_
 Taking the quotient of the two sides of `(16.9.13.3)` by $\mathfrak{J} \mathfrak{K}^{n}$, one sees that the relations
 `(16.9.13.3)` for $N \geq n$ entail
 
-```text
-  (16.9.13.4)    (𝔍 ∩ 𝔎^n)/𝔍 𝔎^n ⊂ ⋂_{N ≥ n} 𝔎^N · (A/(𝔍 𝔎^n)).
-```
+$$ (\mathfrak{J} \cap \mathfrak{K}^n)/\mathfrak{J} \mathfrak{K}^n \subset \bigcap_{N \geq n} \mathfrak{K}^N \cdot
+(A/(\mathfrak{J} \mathfrak{K}^n)). \tag{16.9.13.4} $$
 
 One deduces the
 
@@ -3113,20 +2985,17 @@ One deduces the
 *Suppose the hypotheses of `(16.9.13.2)` are verified and, moreover, that the ring $A$ is Noetherian and that
 $\mathfrak{K}$ is contained in the radical of $A$. Then for every integer $n > 0$,*
 
-```text
-  (16.9.13.6)    𝔍 ∩ 𝔎^n = 𝔍 𝔎^n.
-```
+$$ \mathfrak{J} \cap \mathfrak{K}^n = \mathfrak{J} \mathfrak{K}^n. \tag{16.9.13.6} $$
 
 Indeed, the right-hand side of `(16.9.13.4)` is then zero, since $A/\mathfrak{J} \mathfrak{K}^{n}$ is an $A$-module of
-finite type (Bourbaki, *Alg. comm.*, chap. III, §3, n° 3, prop. 6).
+finite type (Bourbaki, *Alg. comm.*, chap. III, §3, n$^{\circ}$ 3, prop. 6).
 
 Taking in particular $n = 2$ in `(16.9.13.6)`, and noting that one has $\mathfrak{L}^{2} = \mathfrak{J}^{2} +
 \mathfrak{JK} + \mathfrak{K}^{2} = \mathfrak{JL} + \mathfrak{K}^{2}$; since $\mathfrak{JL} \subset \mathfrak{L}^{2}$,
 one deduces
 
-```text
-  𝔍 ∩ 𝔏² = 𝔍𝔏 + (𝔍 ∩ 𝔎²) = 𝔍𝔏 + 𝔍 𝔎² = 𝔍𝔏,
-```
+$$ \mathfrak{J} \cap \mathfrak{L}^2 = \mathfrak{J}\mathfrak{L} + (\mathfrak{J} \cap \mathfrak{K}^2) =
+\mathfrak{J}\mathfrak{L} + \mathfrak{J} \mathfrak{K}^2 = \mathfrak{J}\mathfrak{L}, $$
 
 in other words
 
@@ -3156,7 +3025,7 @@ $$ 0 \to \mathfrak{J}/\mathfrak{JL} \to \mathfrak{L}/\mathfrak{L}^{2} \to
 
 is exact (see the proof of `(16.2.7)`), and the modules figuring in this sequence are precisely the stalks at $x$ of the
 sheaves in `(16.9.13.1)`. The second assertion follows from the fact that $\mathcal{N}_{Y'/Y}$ is a locally free
-$\mathcal{O}_{Y'}$-Module `(16.9.8)` and from Bourbaki, *Alg.*, chap. II, 3rd ed., §1, n° 11, prop. 21.
+$\mathcal{O}_{Y'}$-Module `(16.9.8)` and from Bourbaki, *Alg.*, chap. II, 3rd ed., §1, n$^{\circ}$ 11, prop. 21.
 
 ## 16.10. Differentially smooth morphisms
 
@@ -3288,41 +3157,35 @@ Let $f : X \to S$ be a morphism, $U$ an open set of $X$, and $(z_{\lambda})_{\la
 $\mathcal{O}_{X}$ over $U$ such that the $dz_{\lambda}$ form a system of generators of $\Omega^{1}_{X/S} | U =
 \Omega^{1}_{U/S}$. Let $m$ be an integer or the symbol $\infty$, and set, for every $\lambda$,
 
-```text
-  (16.11.1.1)    ζ_λ = δ z_λ = d^m z_λ − z_λ ∈ Γ(U, 𝒫^m_{X/S}).
-```
+$$ \zeta_\lambda = \delta z_\lambda = d^m z_\lambda - z_\lambda \in \Gamma(U, \mathcal{P}^m_{X/S}). \tag{16.11.1.1} $$
 
 We shall use the customary notations of analysis; for every $\mathbf{p} = (p_{\lambda}) \in \mathbb{N}^{(L)}$ (so that
 $p_{\lambda} = 0$ except for finitely many indices), we set
 
-```text
-  (16.11.1.2)    |𝐩| = ∑_λ p_λ,    𝐩! = ∏_λ (p_λ!),
-```
+$$ |\mathbf{p}| = \sum_\lambda p_\lambda, \quad \mathbf{p}! = \prod_\lambda (p_\lambda!), \tag{16.11.1.2} $$
 
-```text
-  (16.11.1.3)    binom(𝐩, 𝐪) = 𝐩!/(𝐪!(𝐩 − 𝐪)!)    for 𝐩, 𝐪 in ℕ^{(L)}, 𝐪 ≤ 𝐩,
-```
+$$ \binom{\mathbf{p}}{\mathbf{q}} = \mathbf{p}!/(\mathbf{q}!(\mathbf{p} - \mathbf{q})!) \quad \text{for } \mathbf{p},
+\mathbf{q} \text{ in } \mathbf{N}^{(L)}, \mathbf{q} \le \mathbf{p}, \tag{16.11.1.3} $$
 
-with the convention that $binom(\mathbf{p}, \mathbf{q}) = 0$ if $\mathbf{q} \nprec \mathbf{p}$,
+with the convention that $\binom{\mathbf{p}}{\mathbf{q}} = 0$ if $\mathbf{q} \nprec \mathbf{p}$,
 
-```text
-  (16.11.1.4)    𝐳^𝐩 = ∏_λ (z_λ)^{p_λ},    𝛇^𝐩 = ∏_λ (ζ_λ)^{p_λ}.
-```
+$$ \mathbf{z}^{\mathbf{p}} = \prod_\lambda (z_\lambda)^{p_\lambda}, \quad \boldsymbol{\zeta}^{\mathbf{p}} =
+\prod_\lambda (\zeta_\lambda)^{p_\lambda}. \tag{16.11.1.4} $$
 
 One thus has, with these notations,
 
-```text
-  (16.11.1.5)    d^m(𝐳^𝐩) = (d^m 𝐳)^𝐩 = (𝛇 + 𝐳)^𝐩 = ∑_{𝐪 ≤ 𝐩} binom(𝐩, 𝐪) 𝐳^{𝐩 − 𝐪} 𝛇^𝐪,
-```
+$$ d^m(\mathbf{z}^{\mathbf{p}}) = (d^m \mathbf{z})^{\mathbf{p}} = (\boldsymbol{\zeta} + \mathbf{z})^{\mathbf{p}} =
+\sum_{\mathbf{q} \le \mathbf{p}} \binom{\mathbf{p}}{\mathbf{q}} \mathbf{z}^{\mathbf{p} - \mathbf{q}}
+\boldsymbol{\zeta}^{\mathbf{q}}, \tag{16.11.1.5} $$
 
-```text
-  (16.11.1.6)    𝛇^𝐩 = (d^m 𝐳 − 𝐳)^𝐩 = ∑_{𝐪 ≤ 𝐩} (−1)^{|𝐩 − 𝐪|} binom(𝐩, 𝐪) 𝐳^{𝐩 − 𝐪} d^m(𝐳^𝐪).
-```
+$$ \boldsymbol{\zeta}^{\mathbf{p}} = (d^m \mathbf{z} - \mathbf{z})^{\mathbf{p}} = \sum_{\mathbf{q} \le \mathbf{p}}
+(-1)^{|\mathbf{p} - \mathbf{q}|} \binom{\mathbf{p}}{\mathbf{q}} \mathbf{z}^{\mathbf{p} - \mathbf{q}}
+d^m(\mathbf{z}^{\mathbf{q}}). \tag{16.11.1.6} $$
 
 Since the $dz_{\lambda}$ generate $\Omega^{1}_{X/S}$ and are the images of the $\delta z_{\lambda}$, and the canonical
 homomorphism `(16.3.1.1)` is surjective, one concludes that, for finite $m$, the $\delta z_{\lambda}$ generate the
-$\mathcal{O}_{U}$-Algebra $\mathcal{P}^{m}_{U/S}$ (Bourbaki, *Alg. comm.*, chap. III, §2, n° 8, cor. 2 of th. 1).
-Therefore the $\epsilon^{\mathbf{p}}$ (for $|\mathbf{p}| \leq m$) generate the $\mathcal{O}_{U}$-Module
+$\mathcal{O}_{U}$-Algebra $\mathcal{P}^{m}_{U/S}$ (Bourbaki, *Alg. comm.*, chap. III, §2, n$^{\circ}$ 8, cor. 2 of th.
+1). Therefore the $\epsilon^{\mathbf{p}}$ (for $|\mathbf{p}| \leq m$) generate the $\mathcal{O}_{U}$-Module
 $\mathcal{P}^{m}_{U/S}$. A differential operator $D \in Diff^{m}_{U/S}$ is consequently entirely determined by the
 values of $\langle \epsilon^{\mathbf{p}}, D\rangle$ for $|\mathbf{p}| \leq m$, or, what amounts to the same by
 `(16.11.1.5)` and `(16.11.1.6)`, by the values
@@ -3332,9 +3195,9 @@ values of $\langle \epsilon^{\mathbf{p}}, D\rangle$ for $|\mathbf{p}| \leq m$, o
 of the $\langle d^{m}(\mathbf{z}^{\mathbf{p}}), D\rangle = D(\mathbf{z}^{\mathbf{p}})$ for $|\mathbf{p}| \leq m$; more
 precisely, it follows from `(16.11.1.5)` that one has
 
-```text
-  (16.11.1.7)    D(𝐳^𝐩) = ⟨d^m(𝐳^𝐩), D⟩ = ∑_{𝐪 ≤ 𝐩} binom(𝐩, 𝐪) ⟨𝛇^𝐪, D⟩ 𝐳^{𝐩 − 𝐪}.
-```
+$$ D(\mathbf{z}^{\mathbf{p}}) = \langle d^m(\mathbf{z}^{\mathbf{p}}), D \rangle = \sum_{\mathbf{q} \le \mathbf{p}}
+\binom{\mathbf{p}}{\mathbf{q}} \langle \boldsymbol{\zeta}^{\mathbf{q}}, D \rangle \mathbf{z}^{\mathbf{p} - \mathbf{q}}.
+\tag{16.11.1.7} $$
 
 **Theorem (16.11.2).**
 
@@ -3350,33 +3213,29 @@ $\Omega^{1}_{U/S}$.*
 *b) There exists a family $(D_{\mathbf{p}})_{\mathbf{p} \in \mathbb{N}^{(L)}}$ of differential operators from
 $\mathcal{O}_{U}$ into itself satisfying the conditions*
 
-```text
-  (16.11.2.1)    D_𝐩(𝐳^𝐪) = binom(𝐪, 𝐩) 𝐳^{𝐪 − 𝐩}    (𝐩, 𝐪 in ℕ^{(L)}).
-```
+$$ D_{\mathbf{p}}(\mathbf{z}^{\mathbf{q}}) = \binom{\mathbf{q}}{\mathbf{p}} \mathbf{z}^{\mathbf{q} - \mathbf{p}} \quad
+(\mathbf{p}, \mathbf{q} \text{ in } \mathbf{N}^{(L)}). \tag{16.11.2.1} $$
 
 *Moreover, when these conditions are verified, the family $(D_{\mathbf{p}})$ is uniquely determined by the conditions
 `(16.11.2.1)` and satisfies the relations*
 
-```text
-  (16.11.2.2)    D_𝐩 ∘ D_𝐪 = D_𝐪 ∘ D_𝐩 = ((𝐩 + 𝐪)!/(𝐩! 𝐪!)) D_{𝐩 + 𝐪}    (𝐩, 𝐪 in ℕ^{(L)}).
-```
+$$ D_{\mathbf{p}} \circ D_{\mathbf{q}} = D_{\mathbf{q}} \circ D_{\mathbf{p}} = ((\mathbf{p} + \mathbf{q})!/(\mathbf{p}!
+\mathbf{q}!)) D_{\mathbf{p} + \mathbf{q}} \quad (\mathbf{p}, \mathbf{q} \text{ in } \mathbf{N}^{(L)}). \tag{16.11.2.2}
+$$
 
 *Finally, if $L$ is finite, then for every integer $m$ the $D_{\mathbf{p}}$ such that $|\mathbf{p}| \leq m$ form a basis
 of the $\mathcal{O}_{U}$-Module $\mathcal{D}iff^{m}_{U/S}$; in other words, every differential operator of order $\leq
 m$ on $U$ can be written in one and only one way in the form*
 
-```text
-  D = ∑_{|𝐩| ≤ m} a_𝐩 D_𝐩
-```
+$$ D = \sum_{|\mathbf{p}| \le m} a_{\mathbf{p}} D_{\mathbf{p}} $$
 
 *where the $a_{\mathbf{p}}$ are sections of $\mathcal{O}_{X}$ over $U$.*
 
 Note first that, by virtue of `(16.11.1.6)` and `(16.11.1.5)`, one verifies immediately that the conditions
 `(16.11.2.1)` are equivalent to
 
-```text
-  (16.11.2.3)    ⟨𝛇^𝐩, D_𝐪⟩ = δ_{𝐩 𝐪}    (Kronecker's symbol).
-```
+$$ \langle \boldsymbol{\zeta}^{\mathbf{p}}, D_{\mathbf{q}} \rangle = \delta_{\mathbf{p} \mathbf{q}} \quad
+(\text{Kronecker's symbol}). \tag{16.11.2.3} $$
 
 The existence of the family $(D_{\mathbf{p}})$ satisfying these relations first entails (on taking $|\mathbf{p}| = 1$)
 that the $dz_{\lambda}$ are linearly independent, hence form a basis of the $\mathcal{O}_{U}$-Module $\Omega^{1}_{U/S}$.
@@ -3404,11 +3263,12 @@ $\epsilon^{\mathbf{r}}$ for $|\mathbf{r}| \leq m$ generate $\mathcal{P}^{m}_{U/S
 $\mathcal{O}_{U}$-Algebra $\mathcal{D}iff_{U/S}$ is commutative, since the $D_{\mathbf{p}}$ commute with multiplication
 by sections of $\mathcal{O}_{U}$ only when $n = 0$.
 
-(ii) The indices $\mathbf{p}$ such that $|\mathbf{p}| = 1$ are the `𝛜_λ = (ε_{λμ})_{μ ∈ L}`, where $\epsilon_{\lambda
-\mu} = 0$ if $\mu \neq \lambda$ and $\epsilon_{\lambda \lambda} = 1$; when $L$ is finite, the operators `D_{𝛜_λ}` are
-none other than the $S$-derivations $D_{i}$ introduced in `(16.5.7)`. One notes that in general (and contrary to what
-happens in classical analysis), it is not the case that a differential operator of arbitrary order can be written as a
-linear combination of powers of the $D_{i}$ (cf. `(16.12)`).
+(ii) The indices $\mathbf{p}$ such that $|\mathbf{p}| = 1$ are the $\boldsymbol{\epsilon}_\lambda =
+(\epsilon_{\lambda\mu})_{\mu \in L}$, where $\epsilon_{\lambda \mu} = 0$ if $\mu \neq \lambda$ and $\epsilon_{\lambda
+\lambda} = 1$; when $L$ is finite, the operators $D_{\boldsymbol{\epsilon}_\lambda}$ are none other than the
+$S$-derivations $D_{i}$ introduced in `(16.5.7)`. One notes that in general (and contrary to what happens in classical
+analysis), it is not the case that a differential operator of arbitrary order can be written as a linear combination of
+powers of the $D_{i}$ (cf. `(16.12)`).
 
 (iii) For every integer $r \geq 1$, one can define the notion of a morphism *differentially smooth up to order $r$* by
 replacing in `(16.10.1)` condition (ii) by the requirement that the homomorphisms
@@ -3426,26 +3286,24 @@ $|\mathbf{q}| \leq r$.
 
 <!-- label: IV.16.12.1 -->
 
-We say that a prescheme $X$ is *of characteristic $p$* ($p$ equal to `0` or to a prime number) if, for every affine open
+We say that a prescheme $X$ is *of characteristic $p$* ($p$ equal to $0$ or to a prime number) if, for every affine open
 set $U$ of $X$, the ring $\Gamma(U, \mathcal{O}_{X})$ is of characteristic $p$ `(0, 21.1.1)`. It follows from
-`(0, 21.1.3)` that for $X$ to be of characteristic `0` it is necessary and sufficient that, for every closed point $x$
-of $X$, the residue field $\kappa(x)$ is of characteristic `0`, or equivalently that $X$ can be endowed with a structure
+`(0, 21.1.3)` that for $X$ to be of characteristic $0$ it is necessary and sufficient that, for every closed point $x$
+of $X$, the residue field $\kappa(x)$ is of characteristic $0$, or equivalently that $X$ can be endowed with a structure
 of $\mathbb{Q}$-prescheme (necessarily unique).
 
 **Theorem (16.12.2).**
 
 <!-- label: IV.16.12.2 -->
 
-*Let $X$ be a prescheme of characteristic `0`, $f : X \to S$ a morphism. If $\Omega^{1}_{X/S}$ is a locally free
+*Let $X$ be a prescheme of characteristic $0$, $f : X \to S$ a morphism. If $\Omega^{1}_{X/S}$ is a locally free
 $\mathcal{O}_{X}$-Module (not necessarily of finite type), then $f$ is differentially smooth.*
 
 The question being local on $X$, one may suppose that there exists a family $(z_{\lambda})$ of sections of
 $\mathcal{O}_{X}$ over $X$ such that $(dz_{\lambda})$ is a basis of the $\mathcal{O}_{X}$-Module $\Omega^{1}_{X/S}$.
 Applying criterion `(16.11.2)`, it suffices to verify that the operators
 
-```text
-  D_𝐩 = (𝐩!)^{−1} ∏_λ D_λ^{p_λ}
-```
+$$ D_{\mathbf{p}} = (\mathbf{p}!)^{-1} \prod_\lambda D_\lambda^{p_\lambda} $$
 
 (where the $D_{\lambda}$ are the coordinate forms corresponding to the basis $(dz_{\lambda})$) satisfy the relations
 `(16.11.2.1)`, which is a consequence of the fact that the $D_{\lambda}$ are derivations.
@@ -3454,13 +3312,13 @@ Applying criterion `(16.11.2)`, it suffices to verify that the operators
 
 <!-- label: IV.16.12.3 -->
 
-The preceding theorem no longer holds if one drops the hypothesis that $X$ is of characteristic `0`. For example, if $S
+The preceding theorem no longer holds if one drops the hypothesis that $X$ is of characteristic $0$. For example, if $S
 = \operatorname{Spec}(k)$, where $k$ is a field of characteristic $p > 0$, $X = \operatorname{Spec}(K)$ where $K =
 k(\alpha)$ with $\alpha \notin k$, $\alpha^{p} \in k$, one verifies immediately
 
 <!-- original page 56 -->
 
-that $\Omega^{1}_{X/S}$ is of rank `1`, and that the morphism $X \to S$ is differentially smooth up to order $p - 1$
+that $\Omega^{1}_{X/S}$ is of rank $1$, and that the morphism $X \to S$ is differentially smooth up to order $p - 1$
 `(16.11.3, (iii))`, but not up to order $p$. However, the proof of `(16.12.2)` shows that if $\Omega^{1}_{X/S}$ is
 locally free, and if $n! \cdot 1_{\mathcal{O}_{X}}$ is invertible in $\Gamma(X, \mathcal{O}_{X})$, then $X$ is
 differentially smooth over $S$ up to order $n$.
