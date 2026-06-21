@@ -14,9 +14,8 @@ _Alg. comm._, chap. II and III.
 Let $A$ be a ring, $\mathfrak{J}$ an ideal of $A$, $M$ an $A$-module; for every integer $p \geq 0$, one has a canonical
 homomorphism of $(A/\mathfrak{J})$-modules
 
-```text
-  φ_p : (M/𝔍 M) ⊗_{A/𝔍} (𝔍^p/𝔍^{p+1}) → 𝔍^p M/𝔍^{p+1} M               (10.1.1.1)
-```
+$$ \varphi_p : (M/\mathfrak{J} M) \otimes_{A/\mathfrak{J}} (\mathfrak{J}^p/\mathfrak{J}^{p+1}) \to \mathfrak{J}^p
+M/\mathfrak{J}^{p+1} M \tag{10.1.1.1} $$
 
 which is obviously surjective. We shall denote by $gr(A) = \oplus_{p\geq 0} \mathfrak{J}^{p}/\mathfrak{J}^{p+1}$ the
 graded ring associated to $A$ filtered by the $\mathfrak{J}^{p}$, and by $gr(M) = \oplus_{p\geq 0} \mathfrak{J}^{p}
@@ -24,9 +23,8 @@ M/\mathfrak{J}^{p+1} M$ the graded $gr(A)$-module associated to $M$ filtered by 
 have $gr_{p}(A) = \mathfrak{J}^{p}/\mathfrak{J}^{p+1}$, $gr_{p}(M) = \mathfrak{J}^{p} M/\mathfrak{J}^{p+1} M$; the
 $\phi_{p}$ define a surjective homomorphism of graded $gr(A)$-modules
 
-```text
-  φ : gr_0(M) ⊗_{gr_0(A)} gr(A) → gr(M).                                 (10.1.1.2)
-```
+$$ \varphi : \operatorname{gr}_0(M) \otimes_{\operatorname{gr}_0(A)} \operatorname{gr}(A) \to \operatorname{gr}(M).
+\tag{10.1.1.2} $$
 
 <!-- original page 362 -->
 
@@ -92,9 +90,7 @@ Artinian local ring).
 
 *One then has the implications*
 
-```text
-  a) ⟹ b) ⟹ c) ⟹ d)
-```
+$$ a) \Rightarrow b) \Rightarrow c) \Rightarrow d) $$
 
 *and if $\mathfrak{J}$ is nilpotent, the four conditions a), b), c), d) are equivalent. The same holds if $A$ is
 Noetherian and if moreover $M$ is **ideally separated**, that is, if for every ideal $\mathfrak{a}$ of $A$, the
@@ -188,19 +184,18 @@ Moreover, since $M/M_{i}$ is $A$-flat, one has $f^{i}(M \otimes_{A} N) = Im(M_{i
 Ker(M \otimes_{A} N \to (M/M_{i}) \otimes_{A} N)$ $(0_{I}, 6.1.2)$. Let then $N$ be an $A$-module of finite type, $N'$ a
 submodule of $N$, $j : N' \to N$ the canonical injection; in the commutative diagram
 
-```text
-  M ⊗_A N'    →    (M/M_i) ⊗_A N'
-     │                  │
-     │ 1_M ⊗ j           │ 1_{M/M_i} ⊗ j
-     ↓                  ↓
-  M ⊗_A N     →    (M/M_i) ⊗_A N
-```
+$$
+\begin{array}{ccc}
+M \otimes_A N' & \to & (M/M_i) \otimes_A N' \\
+\downarrow{\scriptstyle 1_M \otimes j} & & \downarrow{\scriptstyle 1_{M/M_i} \otimes j} \\
+M \otimes_A N & \to & (M/M_i) \otimes_A N
+\end{array}
+$$
 
 $1_{M/M_{i}} \otimes j$ is injective since $M/M_{i}$ is $A$-flat; one concludes that
 
-```text
-  Ker(M ⊗_A N' → M ⊗_A N) ⊂ Ker(M ⊗_A N' → (M/M_i) ⊗_A N')
-```
+$$ \operatorname{Ker}(M \otimes_A N' \to M \otimes_A N) \subset \operatorname{Ker}(M \otimes_A N' \to (M/M_i) \otimes_A
+N') $$
 
 whatever the value of $i$; since the intersection of the right-hand sides is reduced to `0` as seen above, the same
 holds for the left-hand side, and consequently $M$ is $A$-flat.
@@ -221,17 +216,13 @@ $\mathfrak{p}_{i}$ $(1 \leq i \leq r)$ its minimal prime ideals, $k = A/\mathfra
 $K_{i}$ as the integral ring $A/\mathfrak{p}_{i}$, and dominating the latter. Set $M_{i} = M \otimes_{A} B_{i}$. By
 hypothesis, $M_{i}$ is free over $B_{i}$, so one has, denoting by $k_{i}$ the residue field of $B_{i}$,
 
-```text
-  rg_{k_i}(M_i ⊗_{B_i} k_i) = rg_{K_i}(M_i ⊗_{B_i} K_i).                 (10.2.8.1)
-```
+$$ \operatorname{rg}_{k_i}(M_i \otimes_{B_i} k_i) = \operatorname{rg}_{K_i}(M_i \otimes_{B_i} K_i). \tag{10.2.8.1} $$
 
 But it is clear that the composite homomorphism $A \to A/\mathfrak{p}_{i} \to B_{i}$ is local, so $k_{i}$ is an
 extension of $k$, and one has $M_{i} \otimes_{B_{i}} k_{i} = M \otimes_{A} k_{i} = (M \otimes_{A} k) \otimes_{k} k_{i}$,
 and on the other hand $M_{i} \otimes_{B_{i}} K_{i} = M \otimes_{A} K_{i}$. The equality `(10.2.8.1)` therefore yields
 
-```text
-  rg_k(M ⊗_A k) = rg_{K_i}(M ⊗_A K_i)                  for 1 ≤ i ≤ r
-```
+$$ \operatorname{rg}_k(M \otimes_A k) = \operatorname{rg}_{K_i}(M \otimes_A K_i) \qquad \text{for } 1 \le i \le r $$
 
 and since $A$ is reduced, this condition is known to imply that $M$ is a free $A$-module (Bourbaki, _Alg. comm._, chap.
 II, § 3, no. 2, prop. 7).
@@ -321,11 +312,13 @@ complete the proof of the lemma.
 
 One has $\hat{A}' = \lim_{n} A'/\mathfrak{m}'^{n}$; on account of the fact that $A'$ is $A_{\lambda}$-flat, one has
 
-```text
-  𝔪'^n/𝔪'^{n+1} = (𝔪_λ^n/𝔪_λ^{n+1}) ⊗_{A_λ} A'
-                = (𝔪_λ^n/𝔪_λ^{n+1}) ⊗_{K_λ} (K_λ ⊗_{A_λ} A')
-                = (𝔪_λ^n/𝔪_λ^{n+1}) ⊗_{K_λ} K;
-```
+$$
+\begin{aligned}
+\mathfrak{m}'^n/\mathfrak{m}'^{n+1} &= (\mathfrak{m}_\lambda^n/\mathfrak{m}_\lambda^{n+1}) \otimes_{A_\lambda} A' \\
+&= (\mathfrak{m}_\lambda^n/\mathfrak{m}_\lambda^{n+1}) \otimes_{K_\lambda} (K_\lambda \otimes_{A_\lambda} A') \\
+&= (\mathfrak{m}_\lambda^n/\mathfrak{m}_\lambda^{n+1}) \otimes_{K_\lambda} K;
+\end{aligned}
+$$
 
 since $\mathfrak{m}^{n}_{\lambda}/\mathfrak{m}^{n+1}_{\lambda}$ is a $K_{\lambda}$-vector space of finite dimension,
 $\mathfrak{m}'^{n}/\mathfrak{m}'^{n+1}$ is a $K$-vector space of finite dimension for every $n \geq 0$. It therefore
@@ -340,13 +333,13 @@ applicable to the Noetherian $A_{\lambda}$-algebra `Â'`, and shows that `Â'` i
 <!-- label: 0_III.10.3.1.4 -->
 
 We now take up the general case. There exist an ordinal $\gamma$ and, for every ordinal $\lambda \leq \gamma$, a
-subfield $k_{\lambda}$ of $K$ containing $k$, such that: 1° For every $\lambda < \gamma$, $k_{\lambda+1}$ is an
-extension of $k_{\lambda}$ generated by a single element; 2° For every ordinal $\mu$ without predecessor, $k_{\mu} =
-\bigcup_{\lambda<\mu} k_{\lambda}$; 3° $K = k_{\gamma}$. Indeed, it suffices to consider a bijection $\xi \mapsto
-t_{\xi}$ of the set of ordinals $\xi \leq \beta$ (for a suitable $\beta$) onto $K$, to define $k_{\lambda}$ by
-transfinite induction (for $\lambda \leq \beta$) as the union of the $k_{\mu}$ for $\mu < \lambda$ if $\lambda$ has no
-predecessor, and, if $\lambda = \nu + 1$, as $k_{\nu}(t_{\xi})$, where $\xi$ is the smallest ordinal such that $t_{\xi}
-\notin k_{\nu}$; $\gamma$ is then by definition the smallest ordinal $\leq \beta$ such that $k_{\gamma} = K$.
+subfield $k_{\lambda}$ of $K$ containing $k$, such that: $1^{\circ}$ For every $\lambda < \gamma$, $k_{\lambda+1}$ is an
+extension of $k_{\lambda}$ generated by a single element; $2^{\circ}$ For every ordinal $\mu$ without predecessor,
+$k_{\mu} = \bigcup_{\lambda<\mu} k_{\lambda}$; $3^{\circ}$ $K = k_{\gamma}$. Indeed, it suffices to consider a bijection
+$\xi \mapsto t_{\xi}$ of the set of ordinals $\xi \leq \beta$ (for a suitable $\beta$) onto $K$, to define $k_{\lambda}$
+by transfinite induction (for $\lambda \leq \beta$) as the union of the $k_{\mu}$ for $\mu < \lambda$ if $\lambda$ has
+no predecessor, and, if $\lambda = \nu + 1$, as $k_{\nu}(t_{\xi})$, where $\xi$ is the smallest ordinal such that
+$t_{\xi} \notin k_{\nu}$; $\gamma$ is then by definition the smallest ordinal $\leq \beta$ such that $k_{\gamma} = K$.
 
 This being so, we shall define, by transfinite recursion, a family of Noetherian local rings $A_{\lambda}$ for $\lambda
 \leq \gamma$, and local homomorphisms $f_{\mu \lambda} : A_{\lambda} \to A_{\mu}$ for $\lambda \leq \mu$, satisfying the
@@ -381,9 +374,7 @@ the ring $B = A_{\gamma}$ satisfies the statement of `(10.3.1)`.
 
 One should note that by virtue of `(10.2.1, c))`, one has a canonical isomorphism
 
-```text
-  gr(A) ⊗_k K ⥲ gr(B).                                                  (10.3.1.5)
-```
+$$ \operatorname{gr}(A) \otimes_k K \xrightarrow{\sim} \operatorname{gr}(B). \tag{10.3.1.5} $$
 
 On the other hand, one may replace $B$ by its $\mathfrak{J} B$-adic completion $\hat{B}$ without changing the
 conclusions of `(10.3.1)`, since $\hat{B}$ is a flat $B$-module $(0_{I}, 7.3.3)$, hence a flat $A$-module $(0_{I},

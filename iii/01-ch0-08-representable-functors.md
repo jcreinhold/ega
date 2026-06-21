@@ -28,24 +28,19 @@ Now let $w : X \to X'$ be a morphism in $\mathcal{C}$; for every $Y \in \mathcal
 $h_{w}(Y)$ the map $v \mapsto w \circ v$ from $h_{X}(Y)$ into $h_{X'}(Y)$. It is immediate that for every morphism $u :
 Y \to Y'$ in $\mathcal{C}$, the diagram
 
-```text
-              h_X(u)
-   h_X(Y') ────────→ h_X(Y)
-
-   h_w(Y')│           │h_w(Y)
-          ↓           ↓
-
-   h_{X'}(Y') ───────→ h_{X'}(Y)
-                h_{X'}(u)
-```
+$$
+\begin{array}{ccc}
+h_{X}(Y') & \xrightarrow{h_{X}(u)} & h_{X}(Y) \\
+\downarrow{\scriptstyle h_{w}(Y')} & & \downarrow{\scriptstyle h_{w}(Y)} \\
+h_{X'}(Y') & \xrightarrow{h_{X'}(u)} & h_{X'}(Y)
+\end{array}
+$$
 
 is commutative; in other words, $h_{w}$ is a *functorial morphism* $h_{X} \to h_{X'}$ `(T, 1.2)`, or again a morphism in
 the category $\operatorname{Hom}(\mathcal{C}^{\circ}, Set)$ `(T, 1.7, d)`. The definitions of $h_{X}$ and $h_{w}$
 therefore constitute the definition of a *canonical covariant functor*
 
-```text
-  h : 𝒞 → Hom(𝒞°, Set).                                                    (8.1.2.1)
-```
+$$ h : \mathcal{C} \to \operatorname{Hom}(\mathcal{C}^{\circ}, Set). \tag{8.1.2.1} $$
 
 **8.1.3.**
 
@@ -59,43 +54,36 @@ $\operatorname{Hom}(\mathcal{C}^{\circ}, Set)$). Let $g : h_{X} \to F$ be a func
 
 $g(Y)$ is a map $h_{X}(Y) \to F(Y)$ such that for every morphism $u : Y \to Y'$ in $\mathcal{C}$, the diagram
 
-```text
-              h_X(u)
-   h_X(Y') ────────→ h_X(Y)
-
-   g(Y')  │           │ g(Y)                                              (8.1.3.1)
-          ↓           ↓
-
-   F(Y') ────────────→ F(Y)
-                F(u)
-```
+$$
+\begin{array}{ccc}
+h_{X}(Y') & \xrightarrow{h_{X}(u)} & h_{X}(Y) \\
+\downarrow{\scriptstyle g(Y')} & & \downarrow{\scriptstyle g(Y)} \\
+F(Y') & \xrightarrow{F(u)} & F(Y)
+\end{array} \tag{8.1.3.1}
+$$
 
 is commutative. In particular, we have a map $g(X) : h_{X}(X) = \operatorname{Hom}(X, X) \to F(X)$, whence an element
 
-$$ \alpha(g) = (g(X))(1_{X}) \in F(X) (8.1.3.2) $$
+$$ \alpha(g) = (g(X))(1_{X}) \in F(X) \tag{8.1.3.2} $$
 
 and consequently a canonical map
 
-```text
-  α : Hom(h_X, F) → F(X).                                                  (8.1.3.3)
-```
+$$ \alpha : \operatorname{Hom}(h_{X}, F) \to F(X). \tag{8.1.3.3} $$
 
 Conversely, consider an element $\xi \in F(X)$; for every morphism $v : Y \to X$ in $\mathcal{C}$, $F(v)$ is a map $F(X)
 \to F(Y)$; consider the map
 
-$$ v \mapsto (F(v))(\xi) (8.1.3.4) $$
+$$ v \mapsto (F(v))(\xi) \tag{8.1.3.4} $$
 
 from $h_{X}(Y)$ into $F(Y)$; if we denote this map by $(\beta(\xi))(Y)$,
 
-$$ \beta(\xi) : h_{X} \to F (8.1.3.5) $$
+$$ \beta(\xi) : h_{X} \to F \tag{8.1.3.5} $$
 
 is a functorial morphism, for we have, for every morphism $u : Y \to Y'$ in $\mathcal{C}$, $(F(v \circ u))(\xi) = (F(u)
 \circ F(v))(\xi)$, which verifies the commutativity of `(8.1.3.1)` for $g = \beta(\xi)$. We have thus defined a
 canonical map
 
-```text
-  β : F(X) → Hom(h_X, F).                                                  (8.1.3.6)
-```
+$$ \beta : F(X) \to \operatorname{Hom}(h_{X}, F). \tag{8.1.3.6} $$
 
 **Proposition (8.1.4).**
 
@@ -106,9 +94,7 @@ canonical map
 **Proof.** Let us compute $\alpha(\beta(\xi))$ for $\xi \in F(X)$; for every $Y \in \mathcal{C}$, $(\beta(\xi))(Y)$ is
 the map $g_{1}(Y) : v \mapsto (F(v))(\xi)$ from $h_{X}(Y)$ into $F(Y)$. We therefore have
 
-```text
-  α(β(ξ)) = (g_1(X))(1_X) = (F(1_X))(ξ) = 1_{F(X)}(ξ) = ξ.
-```
+$$ \alpha(\beta(\xi)) = (g_{1}(X))(1_{X}) = (F(1_{X}))(\xi) = 1_{F(X)}(\xi) = \xi. $$
 
 Let us now compute $\beta(\alpha(g))$ for $g \in \operatorname{Hom}(h_{X}, F)$; for every $Y \in \mathcal{C}$,
 $(\beta(\alpha(g)))(Y)$ is the map $v \mapsto (F(v))((g(X))(1_{X}))$; by the commutativity of `(8.1.3.1)`, this map is
@@ -125,17 +111,15 @@ $\operatorname{Hom}_{\mathcal{C}'}(X', Y')$ of morphisms $X' \to Y'$ in $\mathca
 $\operatorname{Hom}_{\mathcal{C}}(X', Y')$ of morphisms $X' \to Y'$ in $\mathcal{C}$, the canonical map of "composition
 of morphisms"
 
-```text
-  Hom_{𝒞'}(X', Y') × Hom_{𝒞'}(Y', Z') → Hom_{𝒞'}(X', Z')
-```
+$$ \operatorname{Hom}_{\mathcal{C}'}(X', Y') \times \operatorname{Hom}_{\mathcal{C}'}(Y', Z') \to
+\operatorname{Hom}_{\mathcal{C}'}(X', Z') $$
 
 <!-- original page 7 -->
 
 being the restriction of the canonical map
 
-```text
-  Hom_𝒞(X', Y') × Hom_𝒞(Y', Z') → Hom_𝒞(X', Z').
-```
+$$ \operatorname{Hom}_{\mathcal{C}}(X', Y') \times \operatorname{Hom}_{\mathcal{C}}(Y', Z') \to
+\operatorname{Hom}_{\mathcal{C}}(X', Z'). $$
 
 We say that $\mathcal{C}'$ is a *full* subcategory of $\mathcal{C}$ if $\operatorname{Hom}_{\mathcal{C}'}(X', Y') =
 \operatorname{Hom}_{\mathcal{C}}(X', Y')$ for every pair of objects of $\mathcal{C}'$. The subcategory $\mathcal{C}''$
@@ -143,12 +127,12 @@ of $\mathcal{C}$ formed by the objects of $\mathcal{C}$ isomorphic to objects of
 subcategory of $\mathcal{C}$, *equivalent* `(T, 1.2)` to $\mathcal{C}'$, as one verifies without difficulty.
 
 A covariant functor $F : \mathcal{C}_{1} \to \mathcal{C}_{2}$ is said to be *fully faithful* if, for every pair of
-objects `X_1`, `Y_1` of $\mathcal{C}_{1}$, the map $u \mapsto F(u)$ from $\operatorname{Hom}(X_{1}, Y_{1})$ into
+objects $X_{1}$, $Y_{1}$ of $\mathcal{C}_{1}$, the map $u \mapsto F(u)$ from $\operatorname{Hom}(X_{1}, Y_{1})$ into
 $\operatorname{Hom}(F(X_{1}), F(Y_{1}))$ is bijective; this entails that the subcategory $F(\mathcal{C}_{1})$ of
-$\mathcal{C}_{2}$ is full. Moreover, if two objects `X_1`, $X'_{1}$ have the same image `X_2`, there exists a unique
-isomorphism $u : X_{1} \to X'_{1}$ such that $F(u) = 1_{X_{2}}$. For each object `X_2` of $F(\mathcal{C}_{1})$, let
-$G(X_{2})$ be one of the objects `X_1` of $\mathcal{C}_{1}$ such that $F(X_{1}) = X_{2}$ ($G$ being defined by means of
-the axiom of choice); for every morphism $v : X_{2} \to Y_{2}$ in $F(\mathcal{C}_{1})$, $G(v)$ will be the unique
+$\mathcal{C}_{2}$ is full. Moreover, if two objects $X_{1}$, $X'_{1}$ have the same image $X_{2}$, there exists a unique
+isomorphism $u : X_{1} \to X'_{1}$ such that $F(u) = 1_{X_{2}}$. For each object $X_{2}$ of $F(\mathcal{C}_{1})$, let
+$G(X_{2})$ be one of the objects $X_{1}$ of $\mathcal{C}_{1}$ such that $F(X_{1}) = X_{2}$ ($G$ being defined by means
+of the axiom of choice); for every morphism $v : X_{2} \to Y_{2}$ in $F(\mathcal{C}_{1})$, $G(v)$ will be the unique
 morphism $u : G(X_{2}) \to G(Y_{2})$ such that $F(u) = v$; $G$ is then a functor from $F(\mathcal{C}_{1})$ into
 $\mathcal{C}_{1}$; $F \circ G$ is the identity functor on $F(\mathcal{C}_{1})$, and what precedes shows that there
 exists an isomorphism of functors $\phi : 1_{\mathcal{C}_{1}} \to G \circ F$ such that $F$, $G$, $\phi$ and the identity
@@ -204,16 +188,14 @@ representable functor. Recall that in a category $\mathcal{C}$, one defines a *p
 preordered set $I$, a family $(A_{\alpha})_{\alpha \in I}$ of objects of $\mathcal{C}$, and, for every pair of indices
 $(\alpha, \beta)$ such that $\alpha \leq \beta$, a morphism $u_{\alpha \beta} : A_{\beta} \to A_{\alpha}$. A *projective
 limit* of this system in $\mathcal{C}$ consists of an object $B$ of $\mathcal{C}$ (denoted $\lim A_{\alpha}$), and, for
-each $\alpha \in I$, a morphism $u_{\alpha} : B \to A_{\alpha}$, such that: 1° $u_{\alpha} = u_{\alpha \beta} \circ
-u_{\beta}$ for $\alpha \leq \beta$; 2° For every object $X$ of $\mathcal{C}$ and every family $(v_{\alpha})_{\alpha \in
-I}$ of morphisms $v_{\alpha} : X \to A_{\alpha}$ such that $v_{\alpha} = u_{\alpha \beta} \circ v_{\beta}$ for $\alpha
-\leq \beta$, there exists a unique morphism $v : X \to B$ (denoted $\lim v_{\alpha}$) such that $v_{\alpha} = u_{\alpha}
-\circ v$ for every $\alpha \in I$ `(T, 1.8)`. This is interpreted as follows: the $u_{\alpha \beta}$ canonically define
-maps
+each $\alpha \in I$, a morphism $u_{\alpha} : B \to A_{\alpha}$, such that: $1^{\circ}$ $u_{\alpha} = u_{\alpha \beta}
+\circ u_{\beta}$ for $\alpha \leq \beta$; $2^{\circ}$ For every object $X$ of $\mathcal{C}$ and every family
+$(v_{\alpha})_{\alpha \in I}$ of morphisms $v_{\alpha} : X \to A_{\alpha}$ such that $v_{\alpha} = u_{\alpha \beta}
+\circ v_{\beta}$ for $\alpha \leq \beta$, there exists a unique morphism $v : X \to B$ (denoted $\lim v_{\alpha}$) such
+that $v_{\alpha} = u_{\alpha} \circ v$ for every $\alpha \in I$ `(T, 1.8)`. This is interpreted as follows: the
+$u_{\alpha \beta}$ canonically define maps
 
-```text
-  ū_{αβ} : Hom(X, A_β) → Hom(X, A_α)
-```
+$$ \bar{u}_{\alpha\beta} : \operatorname{Hom}(X, A_{\beta}) \to \operatorname{Hom}(X, A_{\alpha}) $$
 
 which define a projective system of sets $(\operatorname{Hom}(X, A_{\alpha}), \bar{u}_{\alpha \beta})$, and
 $(v_{\alpha})$ is by definition an element of the set $\lim \operatorname{Hom}(X, A_{\alpha})$; it is clear that $X
@@ -221,9 +203,7 @@ $(v_{\alpha})$ is by definition an element of the set $\lim \operatorname{Hom}(X
 existence of the projective limit $B$ is equivalent to saying that $(v_{\alpha}) \mapsto \lim v_{\alpha}$ is an
 isomorphism of functors in $X$
 
-```text
-  lim Hom(X, A_α) ⥲ Hom(X, B)                                              (8.1.9.1)
-```
+$$ \lim \operatorname{Hom}(X, A_{\alpha}) \xrightarrow{\sim} \operatorname{Hom}(X, B) \tag{8.1.9.1} $$
 
 in other words that the functor $X \mapsto \lim \operatorname{Hom}(X, A_{\alpha})$ is *representable*.
 
@@ -272,24 +252,19 @@ is moreover none other than the *product* of the objects $F$, $F'$ in the catego
 $\operatorname{Hom}(\mathcal{C}^{\circ}, Set)$). Given an object $X \in \mathcal{C}$, we shall call an *internal
 composition law* on $X$ a functorial morphism
 
-```text
-  γ_X : h_X × h_X → h_X.                                                   (8.2.1.1)
-```
+$$ \gamma_{X} : h_{X} \times h_{X} \to h_{X}. \tag{8.2.1.1} $$
 
 In other words `(T, 1.2)`, for every object $Y \in \mathcal{C}$, $\gamma_{X}(Y)$ is a map $h_{X}(Y) \times h_{X}(Y) \to
 h_{X}(Y)$ (so by definition an internal composition law on the set $h_{X}(Y)$) subject to the condition that, for every
 morphism $u : Y \to Y'$ in $\mathcal{C}$, the diagram
 
-```text
-                    h_X(u) × h_X(u)
-   h_X(Y') × h_X(Y') ──────────────→ h_X(Y) × h_X(Y)
-
-   γ_X(Y')         │                          │ γ_X(Y)
-                   ↓                          ↓
-
-       h_X(Y') ───────────────────────→ h_X(Y)
-                          h_X(u)
-```
+$$
+\begin{array}{ccc}
+h_{X}(Y') \times h_{X}(Y') & \xrightarrow{h_{X}(u) \times h_{X}(u)} & h_{X}(Y) \times h_{X}(Y) \\
+\downarrow{\scriptstyle \gamma_{X}(Y')} & & \downarrow{\scriptstyle \gamma_{X}(Y)} \\
+h_{X}(Y') & \xrightarrow{h_{X}(u)} & h_{X}(Y)
+\end{array}
+$$
 
 is commutative; this means that for the composition laws $\gamma_{X}(Y)$ and $\gamma_{X}(Y')$, $h_{X}(u)$ is a
 homomorphism from $h_{X}(Y')$ into $h_{X}(Y)$.
@@ -297,9 +272,7 @@ homomorphism from $h_{X}(Y')$ into $h_{X}(Y)$.
 In the same way, given two objects $Z$, $X$ of $\mathcal{C}$, one calls an *external composition law* on $X$, *having
 $Z$ as domain of operators*, a functorial morphism
 
-```text
-  ω_{X,Z} : h_Z × h_X → h_X.                                               (8.2.1.2)
-```
+$$ \omega_{X,Z} : h_{Z} \times h_{X} \to h_{X}. \tag{8.2.1.2} $$
 
 One sees as above that for every $Y \in \mathcal{C}$, $\omega_{X,Z}(Y)$ is an external composition law on $h_{X}(Y)$,
 having $h_{Z}(Y)$ as domain of operators, and such that for every morphism $u : Y \to Y'$, $h_{Z}(u)$ and $h_{X}(u)$
@@ -312,7 +285,7 @@ form a *di-homomorphism* from $(h_{Z}(Y'), h_{X}(Y'))$ into $(h_{Z}(Y), h_{X}(Y)
 Let $X'$ be a second object of $\mathcal{C}$, and suppose given on $X'$ an internal composition law $\gamma_{X'}$; we
 shall say that a morphism $w : X \to X'$ in $\mathcal{C}$ is a *homomorphism* for these composition laws, if for every
 $Y \in \mathcal{C}$, $h_{w}(Y) : h_{X}(Y) \to h_{X'}(Y)$ is a homomorphism for the composition laws $\gamma_{X}(Y)$ and
-$\gamma_{X'}(Y)$. If `X''` is a third
+$\gamma_{X'}(Y)$. If $X''$ is a third
 
 <!-- original page 10 -->
 
@@ -355,39 +328,31 @@ With the preceding notations, suppose in addition that $X \times X \times X$ exi
 characterization of the product as an object representing a functor `(8.1.9)` entails the existence of canonical
 isomorphisms
 
-```text
-  (X × X) × X ⥲ X × X × X ⥲ X × (X × X);
-```
+$$ (X \times X) \times X \xrightarrow{\sim} X \times X \times X \xrightarrow{\sim} X \times (X \times X); $$
 
 if one canonically identifies $X \times X \times X$ with $(X \times X) \times X$, the map $\gamma_{X}(Y) \times
 1_{h_{X}(Y)}$ identifies with $h_{c_{X} \times 1_{X}}(Y)$ for every $Y \in \mathcal{C}$. It is therefore equivalent to
 say that for every $Y \in \mathcal{C}$, the internal law $\gamma_{X}(Y)$ is *associative*, or that the diagram of maps
 
-```text
-                         γ_X(Y) × 1
-   h_X(Y) × h_X(Y) × h_X(Y) ────────→ h_X(Y) × h_X(Y)
-
-   1 × γ_X(Y) │                              │ γ_X(Y)
-              ↓                              ↓
-
-   h_X(Y) × h_X(Y) ──────────────────────→ h_X(Y)
-                          γ_X(Y)
-```
+$$
+\begin{array}{ccc}
+h_{X}(Y) \times h_{X}(Y) \times h_{X}(Y) & \xrightarrow{\gamma_{X}(Y) \times 1} & h_{X}(Y) \times h_{X}(Y) \\
+\downarrow{\scriptstyle 1 \times \gamma_{X}(Y)} & & \downarrow{\scriptstyle \gamma_{X}(Y)} \\
+h_{X}(Y) \times h_{X}(Y) & \xrightarrow{\gamma_{X}(Y)} & h_{X}(Y)
+\end{array}
+$$
 
 <!-- original page 11 -->
 
 is commutative, or that the diagram of morphisms
 
-```text
-                         c_X × 1_X
-       X × X × X ────────────────→ X × X
-
-   1_X × c_X │                       │ c_X
-             ↓                       ↓
-
-         X × X ──────────────────→ X
-                          c_X
-```
+$$
+\begin{array}{ccc}
+X \times X \times X & \xrightarrow{c_{X} \times 1_{X}} & X \times X \\
+\downarrow{\scriptstyle 1_{X} \times c_{X}} & & \downarrow{\scriptstyle c_{X}} \\
+X \times X & \xrightarrow{c_{X}} & X
+\end{array}
+$$
 
 is commutative.
 
@@ -403,19 +368,19 @@ for every morphism $u : Y \to Y'$ in $\mathcal{C}$, we have seen that $h_{X}(u)$
 hand express the characteristic properties of the inverse $s \mapsto s^{-1}$ in a group $G$ without making the neutral
 element intervene: it suffices to write that the two composed maps
 
-```text
-  (s, t) ↦ (s, s^{−1}, t) ↦ (s, s^{−1} t) ↦ s(s^{−1} t)
-  (s, t) ↦ (s, s^{−1}, t) ↦ (s, t s^{−1}) ↦ (t s^{−1}) s
-```
+$$
+\begin{aligned}
+(s, t) &\mapsto (s, s^{-1}, t) \mapsto (s, s^{-1} t) \mapsto s(s^{-1} t) \\
+(s, t) &\mapsto (s, s^{-1}, t) \mapsto (s, t s^{-1}) \mapsto (t s^{-1}) s
+\end{aligned}
+$$
 
 are equal to the second projection $(s, t) \mapsto t$ from $G \times G$ into $G$. By virtue of `(8.1.3)`, we have
 $\alpha_{X} = h_{a_{X}}$, where $a_{X} \in \operatorname{Hom}(X, X)$; the first preceding condition then expresses that
 the composed morphism
 
-```text
-                  (1_X, a_X) × 1_X         1_X × c_X            c_X
-   X × X ──────────────────────→ X × X × X ────────→ X × X ────────→ X
-```
+$$ X \times X \xrightarrow{(1_{X}, a_{X}) \times 1_{X}} X \times X \times X \xrightarrow{1_{X} \times c_{X}} X \times X
+\xrightarrow{c_{X}} X $$
 
 is the second projection $X \times X \to X$ in $\mathcal{C}$, and the second condition is translated similarly.
 
@@ -431,16 +396,13 @@ $\epsilon$ of $\operatorname{Hom}(Y, e)$, we see that the element $\eta_{X}(e)$ 
 every $Y \in \mathcal{C}$. Set $e_{X} = \eta_{X}(X)$, the neutral element of the group $h_{X}(X) = \operatorname{Hom}(X,
 X)$; the commutativity of the diagram
 
-```text
-              h_ε(X)
-   h_X(e) ───────────→ h_X(Y)
-
-   h_{e_X}(e) │           │ h_{e_X}(Y)
-              ↓           ↓
-
-   h_X(e) ───────────→ h_X(Y)
-              h_ε(X)
-```
+$$
+\begin{array}{ccc}
+h_{X}(e) & \xrightarrow{h_{\epsilon}(X)} & h_{X}(Y) \\
+\downarrow{\scriptstyle h_{e_{X}}(e)} & & \downarrow{\scriptstyle h_{e_{X}}(Y)} \\
+h_{X}(e) & \xrightarrow{h_{\epsilon}(X)} & h_{X}(Y)
+\end{array}
+$$
 
 (cf. `8.1.2`) shows that, in the set $h_{X}(Y)$, the map $h_{e_{X}}(Y)$ is none other than
 
@@ -450,12 +412,9 @@ $s \mapsto \eta_{X}(Y)$, transforming every element into the neutral element. On
 $\eta_{X}(Y)$ is the neutral element of $\gamma_{X}(Y)$ for every $Y \in \mathcal{C}$ is equivalent to saying that the
 composed morphism
 
-```text
-              (1_X, 1_X)         1_X × e_X            c_X
-   X ──────────────────→ X × X ──────────→ X × X ──────→ X,
-```
+$$ X \xrightarrow{(1_{X}, 1_{X})} X \times X \xrightarrow{1_{X} \times e_{X}} X \times X \xrightarrow{c_{X}} X, $$
 
-and the analogous one where one permutes `1_X` and $e_{X}$, are both equal to `1_X`.
+and the analogous one where one permutes $1_{X}$ and $e_{X}$, are both equal to $1_{X}$.
 
 **8.2.8.**
 
