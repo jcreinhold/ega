@@ -37,10 +37,10 @@ parameters of $A$ `(0, 16.4.1)`, so one deduces from `(0, 17.1.7)` that $A$ is r
 *Let $X$ be a prescheme, $Y$ a sub-prescheme of $X$, $U$ an open set of $X$ containing $Y$ and such that $Y$ is defined
 by an Ideal $\mathcal{I}$ of $\mathcal{O}_{U}$; suppose that $\mathcal{I}/\mathcal{I}^{2}$ is a locally free
 $(\mathcal{O}_{U}/\mathcal{I})$-Module (which is the case if $Y$ is quasi-regularly immersed in $X$). For every $y \in
-Y$, we call **transversal codimension of $Y$ in $X$ at the point $y$**, and denote $codim^{t}_{y}(Y, X)$, the rank of
-the free $(\mathcal{O}_{Y, y})$-module $(\mathcal{I}/\mathcal{I}^{2})_{y}$. If $f : Z \to X$ is an immersion of image
-$Y$, we likewise call **transversal codimension of $f$ at the point $z \in Z$** the transversal codimension in $X$ at
-the point $f(z)$ of the sub-prescheme $Y$.*
+Y$, we call **transversal codimension of $Y$ in $X$ at the point $y$**, and denote $\operatorname{codim}^{t}_{y}(Y, X)$,
+the rank of the free $(\mathcal{O}_{Y, y})$-module $(\mathcal{I}/\mathcal{I}^{2})_{y}$. If $f : Z \to X$ is an immersion
+of image $Y$, we likewise call **transversal codimension of $f$ at the point $z \in Z$** the transversal codimension in
+$X$ at the point $f(z)$ of the sub-prescheme $Y$.*
 
 **Proposition (19.1.4).**
 
@@ -49,23 +49,22 @@ the point $f(z)$ of the sub-prescheme $Y$.*
 *Let $X$ be a locally Noetherian prescheme, $Y$ a sub-prescheme of $X$ regularly immersed; then for every $y \in Y$, one
 has*
 
-```text
-  (19.1.4.1)    codim_y^t(Y, X) = codim_y(Y, X).
-```
+$$ \operatorname{codim}^{t}_{y}(Y, X) = \operatorname{codim}_{y}(Y, X). \tag{19.1.4.1} $$
 
-By virtue of `(5.1.3.2)`, $codim_{y}(Y, X)$ is equal to the smallest of the dimensions of the local rings $A =
-\mathcal{O}_{X, z}$, where $z$ is the generic point of an irreducible component of $Y$ containing
+By virtue of `(5.1.3.2)`, $\operatorname{codim}_{y}(Y, X)$ is equal to the smallest of the dimensions of the local rings
+$A = \mathcal{O}_{X, z}$, where $z$ is the generic point of an irreducible component of $Y$ containing
 
 <!-- original page 186 -->
 
 $y$; as such a point $z$ is contained in every neighbourhood of $y$ in $X$, $\mathcal{I}_{z}/\mathcal{I}^{2}_{z}$ is a
-free $A$-module of rank $n = codim^{t}_{y}(Y, X)$; it suffices to see that $\dim(A) = n$. Now, since $z$ is a maximal
-point of the sub-prescheme $Y$ defined by $\mathcal{I}$, one has $\dim(\mathcal{O}_{Y, z}) = 0$, so $\mathcal{I}_{z}$ is
-an ideal of definition of the Noetherian local ring $A$; furthermore, the hypothesis that $\mathcal{I}$ is quasi-regular
-entails that $\mathcal{I}^{k}_{z}/\mathcal{I}^{k+1}_{z}$ is a free $(A/\mathcal{I}_{z})$-module of rank $binom(n+k-1,
-n-1)$; if $r$ is the length of the Artinian ring $A/\mathcal{I}_{z}$, the length of
-$\mathcal{I}^{k}_{z}/\mathcal{I}^{k+1}_{z}$ is therefore $r \cdot binom(n+k-1, n-1)$; the Hilbert-Samuel polynomial of
-$A$ for the $\mathcal{I}_{z}$-preadic filtration is therefore of degree $n$, which proves the proposition `(0, 16.2.3)`.
+free $A$-module of rank $n = \operatorname{codim}^{t}_{y}(Y, X)$; it suffices to see that $\dim(A) = n$. Now, since $z$
+is a maximal point of the sub-prescheme $Y$ defined by $\mathcal{I}$, one has $\dim(\mathcal{O}_{Y, z}) = 0$, so
+$\mathcal{I}_{z}$ is an ideal of definition of the Noetherian local ring $A$; furthermore, the hypothesis that
+$\mathcal{I}$ is quasi-regular entails that $\mathcal{I}^{k}_{z}/\mathcal{I}^{k+1}_{z}$ is a free
+$(A/\mathcal{I}_{z})$-module of rank $\binom{n+k-1}{n-1}$; if $r$ is the length of the Artinian ring
+$A/\mathcal{I}_{z}$, the length of $\mathcal{I}^{k}_{z}/\mathcal{I}^{k+1}_{z}$ is therefore $r \cdot
+\binom{n+k-1}{n-1}$; the Hilbert-Samuel polynomial of $A$ for the $\mathcal{I}_{z}$-preadic filtration is therefore of
+degree $n$, which proves the proposition `(0, 16.2.3)`.
 
 By virtue of `(19.1.4)`, we shall henceforth say "codimension" instead of "transversal codimension" when dealing with a
 sub-prescheme $Y$ regularly immersed in $X$ (*even when $X$ is not locally Noetherian*).
@@ -87,7 +86,7 @@ morphism, then, if $f'$ is a quasi-regular immersion, so is $f$.*
 for every $z \in Z$, the codimension of $f \circ g$ at the point $z$ is the sum of the codimension of $g$ at the point
 $z$ and of the codimension of $f$ at the point $g(z)$. Moreover, the sequence of canonical homomorphisms `(16.2.7.1)`*
 
-$$ (19.1.5.1) 0 \to g*(\mathcal{N}_{Y/X}) \to \mathcal{N}_{Z/X} \to \mathcal{N}_{Z/Y} \to 0 $$
+$$ 0 \to g*(\mathcal{N}_{Y/X}) \to \mathcal{N}_{Z/X} \to \mathcal{N}_{Z/Y} \to 0 \tag{19.1.5.1} $$
 
 *is exact, and for every $z \in Z$, there exists a neighbourhood of $z$ in $Z$ in which the restrictions of the
 homomorphisms of this sequence form a split sequence.*
@@ -163,8 +162,8 @@ whose images $\bar{f}_{j}$ in $\mathfrak{K}/\mathfrak{K}^{2}$ form a basis of th
 that moreover the $f_{j}$ of index $j \leqslant r$ belong to $\mathfrak{J}$ and are such that their images in
 $\mathfrak{J}/\mathfrak{J}^{2}$ form a basis of this $(A/\mathfrak{J})$-module. The $f_{j}$ for $1 \leqslant j \leqslant
 r + s$ therefore generate $\mathfrak{K}$, and the $f_{j}$ for $1 \leqslant j \leqslant r$ generate $\mathfrak{J}$ since
-$A$ is Noetherian (Bourbaki, *Alg. comm.*, chap. II, §3, n° 2, prop. 5); as $\mathfrak{K}$ is a regular ideal, it
-follows from `(16.9.5)` that the sequence $(f_{j})_{1 \leqslant j \leqslant r + s}$ is regular. By definition, the
+$A$ is Noetherian (Bourbaki, *Alg. comm.*, chap. II, §3, n$^{\circ}$ 2, prop. 5); as $\mathfrak{K}$ is a regular ideal,
+it follows from `(16.9.5)` that the sequence $(f_{j})_{1 \leqslant j \leqslant r + s}$ is regular. By definition, the
 images of $f_{r+1}, \cdots, f_{r+s}$ in $\mathfrak{K}/\mathfrak{J}$ therefore form a regular sequence in this
 $(A/\mathfrak{J})$-module, which completes the proof that c) entails a) in (iv).
 
@@ -190,8 +189,8 @@ Assertion (i) is a particular case of `(19.1.5, (iii))`. To prove (ii), consider
 $u : \mathfrak{K}/\mathfrak{K}^{2} \to \mathfrak{K}'/\mathfrak{K}'^{2} = \mathfrak{K}/(\mathfrak{K}^{2} +
 \mathfrak{J})$. As by hypothesis $\mathfrak{K}/\mathfrak{K}^{2}$ and $\mathfrak{K}'/\mathfrak{K}'^{2}$ are free
 $(A/\mathfrak{K})$-modules, whose respective ranks we denote $p + q$ and $q$, the kernel of $u$ is a projective
-$(A/\mathfrak{K})$-module (Bourbaki, *Alg.*, chap. II, 3rd ed., §2, n° 2, prop. 4), hence free of rank $p$ since
-$A/\mathfrak{K}$ is a Noetherian local ring $(0_{III}, 10.1.3)$; in other words, there exists a basis of
+$(A/\mathfrak{K})$-module (Bourbaki, *Alg.*, chap. II, 3rd ed., §2, n$^{\circ}$ 2, prop. 4), hence free of rank $p$
+since $A/\mathfrak{K}$ is a Noetherian local ring $(0_{III}, 10.1.3)$; in other words, there exists a basis of
 $\mathfrak{K}/\mathfrak{K}^{2}$ whose $p$ first elements form a basis of $(\mathfrak{K}^{2} +
 \mathfrak{J})/\mathfrak{K}^{2}$. This means again (by virtue of Nakayama's lemma) that there exists a system of
 generators $(f_{i})_{1 \leqslant i \leqslant p + q}$ of $\mathfrak{K}$, forming a regular sequence in $A$, such that the
@@ -226,9 +225,9 @@ $\mathfrak{J} = 0$ by Nakayama's lemma and the assertion is trivial. As $A$ and 
 `(0, 17.1.9)` that $\mathfrak{J}$ is generated by a part with $q$ elements of a regular system of parameters of $A$; so,
 if $f$ is one of the elements of this system of generators of $\mathfrak{J}$, $A_{1} = A/fA$ is regular and $f \notin
 \mathfrak{m}^{2}$ `(0, 17.1.8)`. Let $\mathfrak{J}_{1}$, $\mathfrak{K}_{1}$ be the canonical images of $\mathfrak{J}$,
-$\mathfrak{K}$ in `A_1`; one has $\mathfrak{J}_{1} \subset \mathfrak{K}_{1}$, $A_{1}/\mathfrak{J}_{1} = A/\mathfrak{J}$,
+$\mathfrak{K}$ in $A_{1}$; one has $\mathfrak{J}_{1} \subset \mathfrak{K}_{1}$, $A_{1}/\mathfrak{J}_{1} = A/\mathfrak{J}$,
 so $A_{1}/\mathfrak{J}_{1}$ is regular and consequently $\mathfrak{J}_{1}$ is a regular ideal `(19.1.2)`. Let us show
-that $\mathfrak{K}$ is a regular ideal in `A_1`; as $\mathfrak{K}$ is a regular ideal in $A$, it suffices to show that
+that $\mathfrak{K}$ is a regular ideal in $A_{1}$; as $\mathfrak{K}$ is a regular ideal in $A$, it suffices to show that
 $f$ is part of a regular system of generators of $\mathfrak{K}$, and for this `(16.9.5)` it suffices to show that the
 image of $f$ in $\mathfrak{K}/(\mathfrak{K}^{2} + \mathfrak{mK}) = \mathfrak{K}/\mathfrak{mK}$ is part of a basis of
 this $(A/\mathfrak{m})$-vector space, in other words that $f \notin \mathfrak{mK}$, which indeed follows from $f \notin
@@ -342,9 +341,8 @@ entails b). Let us show that b) entails c). For this (the question being local o
 $Y$ is a closed sub-prescheme of $X$ defined by a quasi-coherent Ideal $\mathcal{I}$ of $\mathcal{O}_{X}$, and $u$ the
 canonical injection. The hypothesis that $\mathcal{O}_{X}/\mathcal{I}$ is $S$-flat entails that the sequence
 
-```text
-  0 → 𝓘 ⊗_{𝒪_S} k(s) → 𝒪_X ⊗_{𝒪_S} k(s) → (𝒪_X/𝓘) ⊗_{𝒪_S} k(s) → 0
-```
+$$ 0 \to \mathcal{I} \otimes_{\mathcal{O}_S} k(s) \to \mathcal{O}_X \otimes_{\mathcal{O}_S} k(s) \to
+(\mathcal{O}_X/\mathcal{I}) \otimes_{\mathcal{O}_S} k(s) \to 0 $$
 
 is exact $(0_{I}, 6.1.2)$, so $Y_{s}$ is the closed sub-prescheme of $X_{s}$ defined by the Ideal $\mathcal{I}_{s}$ of
 $\mathcal{O}_{X_{s}} = \mathcal{O}_{X} \otimes_{\mathcal{O}_{S}} k(s)$ which is identified with $\mathcal{I}
@@ -502,7 +500,7 @@ to $S$. This last complement is also valid for the étale quasi-section defined 
 <!-- label: IV.19.3.1 -->
 
 *Let $A$ be a Noetherian local ring. We say that $A$ is a **complete intersection ring** (or also **absolute complete
-intersection ring**, when there is danger of confusion) if the completion `Â` is isomorphic to the quotient of a
+intersection ring**, when there is danger of confusion) if the completion $\hat{A}$ is isomorphic to the quotient of a
 complete regular Noetherian local ring $B$ by a regular ideal (i.e. `(16.9.7)` an ideal generated by a regular sequence
 of elements of $B$).*
 
@@ -569,13 +567,14 @@ $G/\mathfrak{J}'$, endowed with the $\mathfrak{m}$-preadic topology, is isomorph
 $\mathfrak{s}$-adic topology, hence is complete for the quotient topology of the $\mathfrak{m}$-preadic topology of $G$.
 One deduces at once that $G$ is complete for the $\mathfrak{m}$-preadic topology.
 
-This lemma being established, it follows from Cohen's theorem `(0, 19.8.8)` that `B''` is isomorphic to a quotient of a
+This lemma being established, it follows from Cohen's theorem `(0, 19.8.8)` that $B''$ is isomorphic to a quotient of a
 complete regular Noetherian local ring $C$. It then follows from `(19.1.2)` that the immersion $\operatorname{Spec}(B')
 \to \operatorname{Spec}(C)$ is regular; as by hypothesis the same holds for the immersion $\operatorname{Spec}(A) \to
 \operatorname{Spec}(B')$, one concludes from `(19.1.5, (iii))` that the immersion $\operatorname{Spec}(A) \to
-\operatorname{Spec}(C)$ is regular; but this immersion is also written as the composite `Spec(A) → Spec(B) → Spec(C)`.
-Now as $B$ is regular by hypothesis, the immersion $\operatorname{Spec}(B) \to \operatorname{Spec}(C)$ is regular
-`(19.1.2)`; so the same holds for $\operatorname{Spec}(A) \to \operatorname{Spec}(B)$ by `(19.1.5, (iv))`.
+\operatorname{Spec}(C)$ is regular; but this immersion is also written as the composite $\operatorname{Spec}(A) \to
+\operatorname{Spec}(B) \to \operatorname{Spec}(C)$. Now as $B$ is regular by hypothesis, the immersion
+$\operatorname{Spec}(B) \to \operatorname{Spec}(C)$ is regular `(19.1.2)`; so the same holds for $\operatorname{Spec}(A)
+\to \operatorname{Spec}(B)$ by `(19.1.5, (iv))`.
 
 **Corollary (19.3.3).**
 
@@ -702,12 +701,12 @@ One may obviously restrict to the case where $S = \operatorname{Spec}(A)$ with $
 moreover that one may restrict to the case where the local ring $A$ is complete. Indeed, set $A' = \hat{A}$, $X' = X
 \otimes_{A} A'$, and let $s'$ be the unique closed point of $S' = \operatorname{Spec}(A')$, which is the unique point of
 $S'$ above $s$; if $f' = f_{(S')} : X' \to S'$, the fibre $f'^{-1}(s')$ is canonically isomorphic to $f^{-1}(s)$, since
-$A$ and `Â` have the same residue field `(I, 3.6.4)`; there is thus a single point $x' \in X'$ above $x$ and above $s'$,
+$A$ and $\hat{A}$ have the same residue field `(I, 3.6.4)`; there is thus a single point $x' \in X'$ above $x$ and above $s'$,
 and one consequently has $\mathcal{O}_{X', x'} = \mathcal{O}_{X, x} \otimes_{A} A'$. One deduces that the local rings
 $\mathcal{O}_{X, x}$ and $\mathcal{O}_{X', x'}$ have isomorphic completions, for in general, if $E$ is a local ring
 which is an $A$-algebra (the homomorphism $A \to E$ being local), the separated completion $(E \otimes_{A}
 \hat{A})^{\wedge}$ of the ring $E \otimes_{A} \hat{A}$ endowed with the tensor product topology is isomorphic to the
-separated completion of $\hat{E} \otimes_{A} \hat{A} = \hat{E}$, hence to the separated completion `Ê` of $E$ $(0_{I},
+separated completion of $\hat{E} \otimes_{A} \hat{A} = \hat{E}$, hence to the separated completion $\hat{E}$ of $E$ $(0_{I},
 7.7.1)$. By virtue of definition `(19.3.1)`, it therefore amounts to the same to say that $\mathcal{O}_{X, x}$ is a
 complete intersection ring, or that $\mathcal{O}_{X', x'}$ is a complete intersection ring.
 
@@ -737,9 +736,7 @@ regular ring `(0, 17.3.7)`.
 Let $X$ be a prescheme, $Y$ a closed sub-prescheme of $X$ defined by a quasi-coherent Ideal $\mathcal{I}$ of
 $\mathcal{O}_{X}$. Recall `(II, 8.1.3)` that the $X$-scheme $X'$ obtained by blowing up $Y$ is the prescheme
 
-```text
-  X' = Proj(𝒮),    where    𝒮 = ⊕_{n ⩾ 0} 𝓘^n.
-```
+$$ X' = \operatorname{Proj}(\mathcal{S}), \quad\text{where}\quad \mathcal{S} = \oplus_{n \geqslant 0} \mathcal{I}^n. $$
 
 If $\mathcal{I}$ is of finite type, the structure morphism $f : X' \to X$ is projective. Without hypothesis on
 $\mathcal{I}$, the closed sub-prescheme
@@ -749,9 +746,7 @@ $$ Y' = f^{-1}(Y) $$
 of $X'$ is defined by the quasi-coherent Ideal $\mathcal{I} \mathcal{O}_{X'}$ of $\mathcal{O}_{X'}$, canonically
 isomorphic to $\mathcal{O}_{X'}(1)$; more precisely, one has an exact sequence
 
-```text
-  (19.4.1.1)    0 → 𝓘 𝒪_{X'} → 𝒪_{X'} → 𝒪_{Y'} → 0
-```
+$$ 0 \to \mathcal{I} \mathcal{O}_{X'} \to \mathcal{O}_{X'} \to \mathcal{O}_{Y'} \to 0 \tag{19.4.1.1} $$
 
 where $\mathcal{I} \mathcal{O}_{X'}$ is the image of $\mathcal{I} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X'}$
 `(II, 8.1.7 and 8.1.8)`. As in a neighbourhood of a point of $X'$, the $\mathcal{O}_{X'}$-Module $\mathcal{O}_{X'}(1)$
@@ -838,8 +833,8 @@ words, the $n$-th infinitesimal neighbourhood $Y_{n}$ of $Y$ in $X$ `(16.1.2)` i
 canonical homomorphism $\mathcal{I}^{n} \otimes_{\mathcal{O}_{S}} \mathcal{O}_{S_{1}} \to \mathcal{I}^{n}_{1}$ is
 bijective.*
 
-*When this holds, $Y'$ is $S$-flat, and for every base change $S_{1} \to S$, if `Y_1` is the inverse image of $Y$ in
-`X_1`, the prescheme $X'_{1}$ obtained by blowing up `Y_1` in `X_1` is canonically isomorphic to $X' \times_{S} S_{1}$.*
+*When this holds, $Y'$ is $S$-flat, and for every base change $S_{1} \to S$, if $Y_{1}$ is the inverse image of $Y$ in
+$X_{1}$, the prescheme $X'_{1}$ obtained by blowing up $Y_{1}$ in $X_{1}$ is canonically isomorphic to $X' \times_{S} S_{1}$.*
 
 *(ii) Suppose that the equivalent conditions of (i) are satisfied and moreover that the morphisms $X \to S$ and $Y \to
 S$ are locally of finite presentation. Then $\mathcal{S} = \oplus_{n \geqslant 0} \mathcal{I}^{n}$ is an
@@ -867,14 +862,14 @@ is its ring of fractions $C_{t}$ and the degree-`0` component $C_{t}$ of this gr
 
 (ii) One may always restrict to the case where $S$ and $X$ are affine, $B$ being therefore an $A$-algebra of finite
 presentation, $\mathfrak{J}$ an ideal of finite type of $B$. By virtue of `(8.9.1)`, `(8.6.3)` and `(11.2.9)`, there
-exist a Noetherian sub-ring `A_0` of $A$, an `A_0`-algebra of finite type `B_0`, an ideal $\mathfrak{J}_{0}$ of `B_0`
+exist a Noetherian sub-ring $A_{0}$ of $A$, an $A_{0}$-algebra of finite type $B_{0}$, an ideal $\mathfrak{J}_{0}$ of $B_{0}$
 such that $B = B_{0} \otimes_{A_{0}} A$, $\mathfrak{J} = \mathfrak{J}_{0} \otimes_{A_{0}} A$, such that
-$gr^{\bullet}_{\mathfrak{J}_{0}}(B_{0})$ is an `A_0`-flat module, and that $gr^{\bullet}_{\mathfrak{J}}(B) =
+$gr^{\bullet}_{\mathfrak{J}_{0}}(B_{0})$ is an $A_{0}$-flat module, and that $gr^{\bullet}_{\mathfrak{J}}(B) =
 gr^{\bullet}_{\mathfrak{J}_{0}}(B_{0}) \otimes_{A_{0}} A$. By virtue of (i), one then has $\oplus_{n \geqslant 0}
 \mathfrak{J}^{n} = (\oplus_{n \geqslant 0} \mathfrak{J}^{n}_{0}) \otimes_{A_{0}} A = (\oplus_{n \geqslant 0}
-\mathfrak{J}^{n}_{0}) \otimes_{B_{0}} B$; as $\oplus_{n \geqslant 0} \mathfrak{J}^{n}_{0}$ is a `B_0`-algebra generated
-by the ideal of finite type $\mathfrak{J}_{0}$ of `B_0`, hence a `B_0`-algebra of finite type, and consequently of
-finite presentation since `B_0` is Noetherian, one deduces that $\oplus_{n \geqslant 0} \mathfrak{J}^{n}$ is a
+\mathfrak{J}^{n}_{0}) \otimes_{B_{0}} B$; as $\oplus_{n \geqslant 0} \mathfrak{J}^{n}_{0}$ is a $B_{0}$-algebra generated
+by the ideal of finite type $\mathfrak{J}_{0}$ of $B_{0}$, hence a $B_{0}$-algebra of finite type, and consequently of
+finite presentation since $B_{0}$ is Noetherian, one deduces that $\oplus_{n \geqslant 0} \mathfrak{J}^{n}$ is a
 $B$-algebra of finite presentation. Likewise, the morphism $\operatorname{Proj}(\oplus_{n \geqslant 0}
 \mathfrak{J}^{n}_{0}) \to \operatorname{Spec}(B_{0})$ is of finite type `(II, 2.7.1)`, and consequently of finite
 presentation; so the morphism $X' \to X$, which is deduced from it by base change, is of finite presentation. One
@@ -967,9 +962,7 @@ $\mathcal{E}$ `(II, 4.1.1)`, $p : P \to X$ the structure morphism, $\alpha\sharp
 \mathcal{O}_{P}(1)$ the canonical homomorphism `(II, 4.1.5.1)` and $\mathcal{H}$ its kernel, so that one has the exact
 sequence*
 
-```text
-  0 → ℋ → p*(ℰ) →^{α♯} 𝒪_P(1) → 0.
-```
+$$ 0 \to \mathcal{H} \to p*(\mathcal{E}) \to^{\alpha\sharp} \mathcal{O}_P(1) \to 0. $$
 
 *Finally, let $\mathcal{J}$ be the quasi-coherent Ideal of $\mathcal{O}_{P}$ image of the restriction $v : \mathcal{H}
 \to \mathcal{O}_{P}$ of $p*(u)$, and let $Z$ be the closed sub-prescheme of $P$ defined by $\mathcal{J}$.*
@@ -1001,18 +994,17 @@ $\Gamma(D_{+}(t), p*(\mathcal{E})) = (E \otimes_{A} S_{t})$. If one refers to th
 x^{(n+1)}_{i})/t^{n})$ of $E \otimes_{A} S_{t}$ (where $x^{(1)}_{i}$ and the $x^{(j)}_{i}$ are in $E$) $\alpha\sharp$
 makes correspond the element $\sum_{i} (x^{(1)}_{i} x^{(2)}_{i} \cdots x^{(n+1)}_{i})/t^{n+1}$ of $(S(1))_{t}$. It is a
 matter (to prove (i)) of showing that if this latter element is zero, then so is the image of $a' = v(a) = \sum_{i}
-u(x^{(1)}_{i})((x^{(2)}_{i} \cdots x^{(n+1)}_{i})/t^{n})$ by the canonical homomorphism `S_(t) → (𝓘 ⊗_𝒪_X (𝒪_X/𝓘))_t`
-`(II, 3.6.2)`. Now, this image is none other than $\sum_{i} u(x^{(1)}_{i}) u(x^{(2)}_{i}) \cdots u(x^{(n+1)}_{i}) /
-(u(t))^{n+1}$ in the ring $A_{u(t)}$, that is, the product of the element $u(t)$ and the canonical image of $\sum_{i}
-u(x^{(1)}_{i}) (x^{(2)}_{i} \cdots x^{(n+1)}_{i})/t^{n+1}$ by the algebra homomorphism, canonical extension to $S_{t}$
-of the homomorphism $u : E \to A$ of $A$-modules. This therefore proves (i).
+u(x^{(1)}_{i})((x^{(2)}_{i} \cdots x^{(n+1)}_{i})/t^{n})$ by the canonical homomorphism $S_{(t)} \to (\mathcal{I}
+\otimes_{\mathcal{O}_X} (\mathcal{O}_X/\mathcal{I}))_t$ `(II, 3.6.2)`. Now, this image is none other than $\sum_{i}
+u(x^{(1)}_{i}) u(x^{(2)}_{i}) \cdots u(x^{(n+1)}_{i}) / (u(t))^{n+1}$ in the ring $A_{u(t)}$, that is, the product of
+the element $u(t)$ and the canonical image of $\sum_{i} u(x^{(1)}_{i}) (x^{(2)}_{i} \cdots x^{(n+1)}_{i})/t^{n+1}$ by
+the algebra homomorphism, canonical extension to $S_{t}$ of the homomorphism $u : E \to A$ of $A$-modules. This
+therefore proves (i).
 
 To establish (ii), let us note that one may suppose that $E$ is a free $A$-module of rank $m$; since $\alpha\sharp : E
 \otimes_{A} S(1) \to S(1)$ is surjective and $(S(1))_{t}$ is a free $S_{t}$-module of rank `1`, the exact sequence
 
-```text
-  0 → H_(t) → (E ⊗_A S(1))_(t) → (S(1))_(t) → 0
-```
+$$ 0 \to H_{(t)} \to (E \otimes_A S(1))_{(t)} \to (S(1))_{(t)} \to 0 $$
 
 is split, and $H_{t}$ is therefore a projective $S_{t}$-module of rank $m - 1$, whence (ii).
 
@@ -1045,21 +1037,17 @@ the homomorphism $u_{x} \otimes 1 : \mathcal{E}_{x} \otimes k(x) \to \mathfrak{m
 injective. This being so, as the morphism $p : P \to X$ is smooth `(17.3.9)`, for every $z \in P$ above $x$, $P$ is
 regular at the point $z$ `(17.5.8)`; furthermore `(0, 17.3.3)` the canonical homomorphism
 
-```text
-  (19.4.11.1)    (𝔪_x/𝔪_x²) ⊗_{k(x)} k(z) → 𝔪_z/𝔪_z²
-```
+$$ (\mathfrak{m}_x/\mathfrak{m}_x^{2}) \otimes_{k(x)} k(z) \to \mathfrak{m}_z/\mathfrak{m}_z^{2} \tag{19.4.11.1} $$
 
 is injective. One deduces that the homomorphism
 
-```text
-  (ℰ_x ⊗_{𝒪_{X, x}} 𝒪_{P, z}) ⊗_{𝒪_{P, z}} k(z) → 𝔪_z/𝔪_z²
-```
+$$ (\mathcal{E}_x \otimes_{\mathcal{O}_{X, x}} \mathcal{O}_{P, z}) \otimes_{\mathcal{O}_{P, z}} k(z) \to
+\mathfrak{m}_z/\mathfrak{m}_z^{2} $$
 
 deduced from $p*(u)$ is also injective, for it is written as the composite
 
-```text
-  (ℰ_x ⊗_{𝒪_{X, x}} k(z)) → (𝔪_x/𝔪_x²) ⊗_{k(x)} k(z) → 𝔪_z/𝔪_z²
-```
+$$ (\mathcal{E}_x \otimes_{\mathcal{O}_{X, x}} k(z)) \to (\mathfrak{m}_x/\mathfrak{m}_x^{2}) \otimes_{k(x)} k(z) \to
+\mathfrak{m}_z/\mathfrak{m}_z^{2} $$
 
 where the first arrow is injective by flatness and the second is the injective homomorphism `(19.4.11.1)`. As
 $\mathcal{H}$ is (in a neighbourhood of $z$ in $P$) a direct factor of $\mathcal{E} \otimes_{\mathcal{O}_{X}}
@@ -1113,26 +1101,24 @@ the following properties:*
 
 *Then one has the implications*
 
-```text
-  a) ⟹ b) ⟹ b')    and    a) ⟹ c).
-```
+$$ a) \Longrightarrow b) \Longrightarrow b') \quad\text{and}\quad a) \Longrightarrow c). $$
 
 *Set $\mathfrak{J} = \sum^{n}_{i=1} f_{i} A$. If the modules $M_{i} = M/(\sum_{j \leqslant i} f_{j} M)$ are separated
 for the $\mathfrak{J}$-preadic topology (resp. if every quotient module of a sub-module of $M$ is separated for the
-$\mathfrak{J}$-preadic topology), then one also has the implication c) ⟹ a) (resp. b') ⟹ a)).*
+$\mathfrak{J}$-preadic topology), then one also has the implication c) $\Longrightarrow$ a) (resp. b') $\Longrightarrow$
+a)).*
 
-The implications a) ⟹ c), and c) ⟹ a) when the $M_{i}$ are separated for the $\mathfrak{J}$-preadic topology, were
-already proved `(0, 15.1.9)`, and are given only for the record. One has also shown `(III, 1.1.4 and 1.1.3.3)` that a)
-entails b), and b) trivially implies b'). It therefore remains to see that when every quotient module of a sub-module of
-$M$ is separated for the $\mathfrak{J}$-preadic topology, b') entails a). Let us reason by induction on $n$. For $n =
-1$, the assertion follows trivially from the definitions, since $H_{1}(f, M)$ is none other than the kernel of the
-homothety $x \mapsto f_{1} x$ in $M$ `(III, 1.1.1 and 1.1.2)`. Suppose then $n \geqslant 2$, and set $f' = (f_{i})_{1
-\leqslant i \leqslant n-1}$; with the notations of `(III, 1.1.2)`, one has $K_{\bullet}(f, M) = K_{\bullet}(f_{n})
-\otimes_{A} K_{\bullet}(f', M)$. One therefore has `(III, 1.1.4.1)` the exact sequence
+The implications a) $\Longrightarrow$ c), and c) $\Longrightarrow$ a) when the $M_{i}$ are separated for the
+$\mathfrak{J}$-preadic topology, were already proved `(0, 15.1.9)`, and are given only for the record. One has also
+shown `(III, 1.1.4 and 1.1.3.3)` that a) entails b), and b) trivially implies b'). It therefore remains to see that when
+every quotient module of a sub-module of $M$ is separated for the $\mathfrak{J}$-preadic topology, b') entails a). Let
+us reason by induction on $n$. For $n = 1$, the assertion follows trivially from the definitions, since $H_{1}(f, M)$ is
+none other than the kernel of the homothety $x \mapsto f_{1} x$ in $M$ `(III, 1.1.1 and 1.1.2)`. Suppose then $n
+\geqslant 2$, and set $f' = (f_{i})_{1 \leqslant i \leqslant n-1}$; with the notations of `(III, 1.1.2)`, one has
+$K_{\bullet}(f, M) = K_{\bullet}(f_{n}) \otimes_{A} K_{\bullet}(f', M)$. One therefore has `(III, 1.1.4.1)` the exact
+sequence
 
-```text
-  (19.5.1.1)    0 → H_0(f_n, H_1(f', M)) → H_1(f, M) → H_1(f_n, H_0(f', M)) → 0.
-```
+$$ 0 \to H_0(f_n, H_1(f', M)) \to H_1(f, M) \to H_1(f_n, H_0(f', M)) \to 0. \tag{19.5.1.1} $$
 
 <!-- original page 205 -->
 
@@ -1168,7 +1154,7 @@ $$ 0 \to M' \to M \to M'' \to 0 $$
 *be an exact sequence of $A$-modules, $f = (f_{i})_{1 \leqslant i \leqslant n}$ an $M$-regular sequence, $\mathfrak{J} =
 \sum^{n}_{i=1} f_{i} A$. Consider the following properties:*
 
-*a) The sequence $f$ is `M''`-regular.*
+*a) The sequence $f$ is $M''$-regular.*
 
 *b) The $\mathfrak{J}$-preadic filtration of $M'$ is induced on $M'$ by the $\mathfrak{J}$-preadic filtration of $M$ (in
 other words, the canonical homomorphism $gr^{\bullet}_{\mathfrak{J}}(M') \to gr^{\bullet}_{\mathfrak{J}}(M)$ is
@@ -1176,22 +1162,21 @@ injective).*
 
 *c) The canonical homomorphism $M'/(\sum^{n}_{i=1} f_{i} M') \to M/(\sum^{n}_{i=1} f_{i} M)$ is injective.*
 
-*Then one has the implications a) ⟹ b) ⟹ c), and a) entails moreover that the sequence $f$ is $M'$-regular.*
+*Then one has the implications a) $\Longrightarrow$ b) $\Longrightarrow$ c), and a) entails moreover that the sequence
+$f$ is $M'$-regular.*
 
-*If every quotient of a sub-module of `M''` is separated for the $\mathfrak{J}$-preadic topology, the conditions a), b)
+*If every quotient of a sub-module of $M''$ is separated for the $\mathfrak{J}$-preadic topology, the conditions a), b)
 and c) are equivalent.*
 
 It is clear that c) is a consequence of b). Let us prove that under the hypotheses of the last assertion, c) entails a):
 since $f$ is $M$-regular, one has, by `(19.5.1)`, $H_{1}(f, M) = 0$, whence an exact sequence, portion of the exact
 homology sequence
 
-```text
-  0 → H_1(f, M'') → H_0(f, M') → H_0(f, M).
-```
+$$ 0 \to H_1(f, M'') \to H_0(f, M') \to H_0(f, M). $$
 
 Now, condition c) expresses that the homomorphism $H_{0}(f, M') \to H_{0}(f, M)$ is injective `(III, 1.1.3.5)`; it
 therefore amounts to $H_{1}(f, M'') = 0$, whence, by virtue of the separation hypothesis and `(19.5.1)`, the fact that
-$f$ is `M''`-regular.
+$f$ is $M''$-regular.
 
 Let us next show that a) entails c) and the fact that $f$ is $M'$-regular, by induction on $n$. For $n = 1$, $f_{1}$
 being $M$-regular is also $M'$-regular and property c) is none other than lemma `(3.4.1.4)`. For $n > 1$, the induction
@@ -1202,32 +1187,27 @@ hypothesis shows that
 if one sets $f' = (f_{1}, \cdots, f_{n-1})$, the sequence $f'$ is $M'$-regular and one has, by virtue of c) applied to
 $f'$, an exact sequence
 
-```text
-  0 → M'/(∑_{i=1}^{n−1} f_i M') → M/(∑_{i=1}^{n−1} f_i M) → M''/(∑_{i=1}^{n−1} f_i M'') → 0.
-```
+$$ 0 \to M'/(\sum_{i=1}^{n-1} f_i M') \to M/(\sum_{i=1}^{n-1} f_i M) \to M''/(\sum_{i=1}^{n-1} f_i M'') \to 0. $$
 
 By hypothesis, $f_{n}$ is $(M/(\sum^{n-1}_{i=1} f_{i} M))$-regular and $(M''/(\sum^{n-1}_{i=1} f_{i} M''))$-regular, so
 the same reasoning shows on the one hand that $f_{n}$ is $(M'/(\sum^{n-1}_{i=1} f_{i} M'))$-regular, and on the other
 hand, by virtue of `(3.4.1.4)`, that the sequence
 
-```text
-  0 → M'/(∑_{i=1}^n f_i M') → M/(∑_{i=1}^n f_i M) → M''/(∑_{i=1}^n f_i M'') → 0
-```
+$$ 0 \to M'/(\sum_{i=1}^n f_i M') \to M/(\sum_{i=1}^n f_i M) \to M''/(\sum_{i=1}^n f_i M'') \to 0 $$
 
 is exact, whence c).
 
 Let us finally show that a) entails b). As the sequence $f$ is then $M$-regular and $M'$-regular, hence
 $M$-quasi-regular and $M'$-quasi-regular, one has canonical isomorphisms
 
-```text
-  gr_𝔍^•(M') ≃ gr_𝔍^0(M')[T_1, …, T_n],    gr_𝔍^•(M) ≃ gr_𝔍^0(M)[T_1, …, T_n]
-```
+$$ \operatorname{gr}_\mathfrak{J}^\bullet(M') \simeq \operatorname{gr}_\mathfrak{J}^0(M')[T_1, \ldots, T_n],
+\operatorname{gr}_\mathfrak{J}^\bullet(M) \simeq \operatorname{gr}_\mathfrak{J}^0(M)[T_1, \ldots, T_n] $$
 
 `(0, 15.1.7)`, and as one has seen above that $gr^{0}_{\mathfrak{J}}(M') \to gr^{0}_{\mathfrak{J}}(M)$ is injective, so
 is $gr^{\bullet}_{\mathfrak{J}}(M') \to gr^{\bullet}_{\mathfrak{J}}(M)$.
 
 One will note again that the equivalence of conditions a), b), c) of `(19.5.3)` is valid in particular when $A$ is
-Noetherian, `M''` an $A$-module of finite type and the $f_{i}$ belong to the radical of $A$.
+Noetherian, $M''$ an $A$-module of finite type and the $f_{i}$ belong to the radical of $A$.
 
 **(19.5.4)**
 
@@ -1237,22 +1217,18 @@ In the sequel of this number, we keep the notations $A$, $f$, $M$, $\mathfrak{J}
 that $M$ is endowed with a decreasing filtration $(M_{k})$ formed of sub-$A$-modules, such that $M_{0} = M$. Recall
 `(0, 15.1.5)` that one then defines on $M$ a second decreasing filtration formed of the sub-modules
 
-```text
-  M'_k = M_k + 𝔍 M_{k−1} + ⋯ + 𝔍^{k−1} M_1 + 𝔍^k M_0
-```
+$$ M'_k = M_k + \mathfrak{J} M_{k-1} + \cdots + \mathfrak{J}^{k-1} M_1 + \mathfrak{J}^k M_0 $$
 
 and that, if $gr_{\bullet}(M)$ and $gr'_{\bullet}(M)$ are the graded $A$-modules associated with the filtrations
 $(M_{k})$ and $(M'_{k})$ respectively, one defines a surjective graded homomorphism of degree `0` `(0, 15.1.5.2)`
 
-```text
-  ψ_M : (gr_•(M) ⊗_A (A/𝔍))[T_1, …, T_n] → gr'_•(M).
-```
+$$ \psi_M : (\operatorname{gr}_\bullet(M) \otimes_A (A/\mathfrak{J}))[T_1, \ldots, T_n] \to
+\operatorname{gr}'_\bullet(M). $$
 
 Recall also that one has the canonical surjective homomorphism `(0, 15.1.1.1)`
 
-```text
-  φ_{gr_•(M)} : (gr_•(M) ⊗_A (A/𝔍))[T_1, …, T_n] → gr_𝔍^•(gr_•(M)).
-```
+$$ \varphi_{\operatorname{gr}_\bullet(M)} : (\operatorname{gr}_\bullet(M) \otimes_A (A/\mathfrak{J}))[T_1, \ldots, T_n]
+\to \operatorname{gr}_\mathfrak{J}^\bullet(\operatorname{gr}_\bullet(M)). $$
 
 **Theorem (19.5.5).**
 
@@ -1271,16 +1247,15 @@ $gr_{\bullet}(M)$-quasi-regular).*
 
 *One then has the implications*[^19.5.5-deligne]
 
-```text
-  a) ⟹ b) ⟹ c).
-```
+$$ a) \Longrightarrow b) \Longrightarrow c). $$
 
 *Moreover, if, for every integer $k \geqslant 0$, the quotient modules of sub-modules of $gr_{k}(M)$ are separated for
 the $\mathfrak{J}$-preadic topology (which is the case when $A$ is Noetherian, the $f_{i}$ are in the radical of $A$ and
 the $gr_{k}(M)$ are $A$-modules of finite type), then the conditions a), b) and c) are equivalent.*
 
-The implication a) ⟹ b) was proved in `(0, 15.1.8)`; the implication c) ⟹ a) under the separation hypothesis is a
-particular case of `(0, 15.1.9)`. It remains to prove that b) implies c), which will be done in several steps.
+The implication a) $\Longrightarrow$ b) was proved in `(0, 15.1.8)`; the implication c) $\Longrightarrow$ a) under the
+separation hypothesis is a particular case of `(0, 15.1.9)`. It remains to prove that b) implies c), which will be done
+in several steps.
 
 We shall denote by $\mathfrak{J}$ the ideal $\sum f_{i} A$ generated by the $f_{i}$; for every sequence $q = (q_{1},
 \cdots, q_{n})$ of $n$ integers $\geqslant 0$, we shall set $|q| = \sum q_{i}$ and $f^{q} = f^{q_{1}}_{1} f^{q_{2}}_{2}
@@ -1295,26 +1270,21 @@ We shall denote by $\mathfrak{J}$ the ideal $\sum f_{i} A$ generated by the $f_{
 
 *(I\_{q, p}) For every family $(x_{q})_{|q| = q}$ of elements of $M_{p}$, the relation*
 
-```text
-  ∑_{|q| = q} f^q x_q ∈ ∑_{i=1}^n 𝔍^{q−1} M_{p+1} + 𝔍^q M_{p+1}
-```
+$$ \sum_{|q| = q} f^q x_q \in \sum_{i=1}^n \mathfrak{J}^{q-1} M_{p+1} + \mathfrak{J}^q M_{p+1} $$
 
 *implies $x_{q} \in M_{p+1} + \mathfrak{J} M_{p}$ for every $q$ such that $|q| = q$.*
 
 One proceeds as in `(0, 15.1.6)` by considering the sub-$A$-module $Q_{k}$ (resp. $Q'_{k}$) of terms of degree $k$ in
 the first (resp. second) member of `(0, 15.1.5.2)`. One endows $Q_{k}$ with the filtration
 
-```text
-  (Q_k)_• = ⊕_{|q| ⩾ •} ((gr_{k−|q|}(M)) ⊗_A (A/𝔍)) T^q
-```
+$$ (Q_k)_\bullet = \oplus_{|q| \geqslant \bullet} ((\operatorname{gr}_{k-|q|}(M)) \otimes_A (A/\mathfrak{J})) T^q $$
 
 and $Q'_{k}$ with the image filtration formed by $\psi_{M}((Q_{k})_{\bullet}) = (Q'_{k})_{\bullet}$; it again suffices
 to prove that the homomorphisms $(\psi_{M})_{k} : gr_{\bullet}(Q_{k}) \to gr_{\bullet}(Q'_{k})$ are injective. Now, one
 has
 
-```text
-  gr_•(Q_k)_i = ⊕_{|q| = i} ((M_{k−i}/M_{k−i+1}) ⊗_A (A/𝔍)) T^q = ⊕_{|q| = i} (M_{k−i}/(𝔍 M_{k−i} + M_{k−i+1})) T^q;
-```
+$$ \operatorname{gr}_\bullet(Q_k)_i = \oplus_{|q| = i} ((M_{k-i}/M_{k-i+1}) \otimes_A (A/\mathfrak{J})) T^q =
+\oplus_{|q| = i} (M_{k-i}/(\mathfrak{J} M_{k-i} + M_{k-i+1})) T^q; $$
 
 on the other hand, $(Q'_{k})_{i}$ is the image of $\sum_{|q| = i} \mathfrak{J}^{|q|-1} M_{k-|q|+1}$ in $M_{k}/M'_{k+1}$.
 To write that $(\psi_{M})_{k}$ is injective therefore amounts to writing the condition $(I_{i, k-i})$; whence our
@@ -1333,9 +1303,7 @@ M_{p+q+1}$ implies $x_{q} \in M_{p+1} + \mathfrak{J} M_{p}$ for every $q$ such t
 By definition, to say that $f$ is $gr_{\bullet}(M)$-quasi-regular means that, for every $p \geqslant 0$ and every $q
 \geqslant 0$, a relation
 
-```text
-  ∑_{|q| = q} f^q x_q ∈ M_{p+q+1} + 𝔍 M_{p+q}
-```
+$$ \sum_{|q| = q} f^q x_q \in M_{p+q+1} + \mathfrak{J} M_{p+q} $$
 
 <!-- original page 208 -->
 
@@ -1369,51 +1337,40 @@ proposition:
 <!-- label: IV.19.5.5.4 -->
 
 *Whatever $p \geqslant 0$ and $q \geqslant 1$, the condition $(A_{q, p})$ is entailed by the conjunction of the
-conditions $(A_{q-1, p})$, $(I_{q-1, p+1})$, $(I_{q-2, p+2})$, …, $(I_{0, p+q})$.*
+conditions $(A_{q-1, p})$, $(I_{q-1, p+1})$, $(I_{q-2, p+2})$, $\ldots$, $(I_{0, p+q})$.*
 
 Indeed, once this proposition is proved, the conditions $(I_{q, p})$ supposed verified for $p + q < r$ will entail, for
 each $p < r$, the condition $(A_{q, p})$ for $1 \leqslant q < r - p$, by induction on $q$.
 
 Let us therefore prove `(19.5.5.4)`. Note that condition $(A_{q, p})$ is equivalent to
 
-```text
-  (19.5.5.5)    𝔍^q M_p ∩ M_{p+q+1} ⊂ ∑_{i=1}^n 𝔍^{q−1} M_{p+1}.
-```
+$$ \mathfrak{J}^q M_p \cap M_{p+q+1} \subset \sum_{i=1}^n \mathfrak{J}^{q-1} M_{p+1}. \tag{19.5.5.5} $$
 
 Let therefore $m \in \mathfrak{J}^{q} M_{p} \cap M_{p+q+1} \subset \mathfrak{J} M_{p} \cap M_{p+1}$. Applying the
 condition $(A_{0, p+1})$, one sees that there exists, for each $i$ such that $1 \leqslant i \leqslant q$, a family
 $(y^{(i)}_{q})_{|q| = q - i}$ of elements of $M_{p+i}$ such that
 
-```text
-  m = ∑_{i=1}^q (∑_{|q| = q − i} f^q y_q^{(i)}).
-```
+$$ m = \sum_{i=1}^q (\sum_{|q| = q - i} f^q y_q^{(i)}). $$
 
 Suppose that, for $1 \leqslant i < j$ $(j \geqslant 1)$, one has proved that
 
-```text
-  y_q^{(i)} ∈ 𝔍 M_{p+i} + M_{p+i+1}    (for |q| = q − i).
-```
+$$ y_q^{(i)} \in \mathfrak{J} M_{p+i} + M_{p+i+1} (\text{for } |q| = q - i). $$
 
 One deduces by definition `(19.5.4)`
 
-```text
-  ∑_{|q| = q − j} f^q y_q^{(j)} ∈ M'_{p+q+1}.
-```
+$$ \sum_{|q| = q - j} f^q y_q^{(j)} \in M'_{p+q+1}. $$
 
 Since by hypothesis $(I_{q-j, p+j})$ is verified, one deduces
 
-```text
-  y_q^{(j)} ∈ 𝔍 M_{p+j} + M_{p+j+1}
-```
+$$ y_q^{(j)} \in \mathfrak{J} M_{p+j} + M_{p+j+1} $$
 
 <!-- original page 209 -->
 
 and, by induction on $j$, one sees therefore that this condition is verified for every $j$ such that $1 \leqslant j
 \leqslant q$. One therefore has
 
-```text
-  m ∈ ∑_{i=1}^q 𝔍^{q−i}(𝔍 M_{p+i} + M_{p+i+1}) ⊂ ∑_{i=1}^{q+1} 𝔍^{q−i+1} M_{p+i}
-```
+$$ m \in \sum_{i=1}^q \mathfrak{J}^{q-i}(\mathfrak{J} M_{p+i} + M_{p+i+1}) \subset \sum_{i=1}^{q+1} \mathfrak{J}^{q-i+1}
+M_{p+i} $$
 
 and one has thus proved $(A_{q, p})$ and terminated the proof of `(19.5.5)`.
 
@@ -1431,10 +1388,10 @@ the results of `19.7`.*
 *(ii) Suppose that $A$ is a graded ring with degrees $\geqslant 0$. If $M$ (resp. each $gr_{p}(M)$) is a graded
 $A$-module with degrees bounded below and if the $f_{i}$ contain no homogeneous component of degree `0`, the separation
 hypothesis of `(0, 15.1.9)` is ipso facto verified for $M$ (resp. each $gr_{p}(M)$), and one therefore sees that in this
-case one has the implication c) ⟹ a) in `(19.5.1)` (resp. `(19.5.5)`).*
+case one has the implication c) $\Longrightarrow$ a) in `(19.5.1)` (resp. `(19.5.5)`).*
 
-*(iii) Recall that, without separation hypothesis, the implication c) ⟹ b) is no longer valid even for $n = 1$
-`(0, 15.1.12, (iii))`.*
+*(iii) Recall that, without separation hypothesis, the implication c) $\Longrightarrow$ b) is no longer valid even for
+$n = 1$ `(0, 15.1.12, (iii))`.*
 
 <!-- original page 209 -->
 
@@ -1454,21 +1411,21 @@ N$. One sets $R_{k} = R \cap N_{k}$ (filtration induced by $(N_{k})$), $M_{k} = 
 $(N_{k})$), and one denotes by $gr_{\bullet}(N)$, $gr_{\bullet}(R)$ and $gr_{\bullet}(M)$ the graded $A$-modules
 associated with these three filtrations. One sets moreover, for every $k$,
 
-```text
-                       N'_k = N_k + 𝔍 N_{k-1} + ⋯ + 𝔍^{k-1} N_1 + 𝔍^k N_0
-```
+$$ N'_k = N_k + \mathfrak{J} N_{k-1} + \cdots + \mathfrak{J}^{k-1} N_1 + \mathfrak{J}^k N_0 $$
 
 so that $M'_{k} = p(N'_{k}) = M_{k} + \mathfrak{J} M_{k-1} + \cdots + \mathfrak{J}^{k-1} M_{1} + \mathfrak{J}^{k}
 M_{0}$; one sets moreover $R'_{k} = R \cap N'_{k}$ (filtration induced by $(N'_{k})$), and one denotes by
 $gr'_{\bullet}(N)$, $gr'_{\bullet}(M)$ and $gr'_{\bullet}(R)$ the graded $A$-modules associated with these three
 filtrations; one thus has a commutative diagram of exact sequences
 
-```text
-  (19.6.1.1)         0 ──→ gr_•(R) ──→ gr_•(N) ──→ gr_•(M) ──→ 0
-                              │            │            │
-                              ▼            ▼            ▼
-                     0 ──→ gr'_•(R) ──→ gr'_•(N) ──→ gr'_•(M) ──→ 0
-```
+$$
+\begin{array}{ccccccccc}
+0 & \to & \operatorname{gr}_{\bullet}(R) & \to & \operatorname{gr}_{\bullet}(N) & \to & \operatorname{gr}_{\bullet}(M) & \to & 0 \\
+ & & \downarrow & & \downarrow & & \downarrow & & \\
+0 & \to & \operatorname{gr}'_{\bullet}(R) & \to & \operatorname{gr}'_{\bullet}(N) & \to & \operatorname{gr}'_{\bullet}(M) & \to & 0
+\end{array}
+\tag{19.6.1.1}
+$$
 
 <!-- original page 210 -->
 
@@ -1477,9 +1434,7 @@ graded module associated with a coarser filtration.
 
 One will note that, if one sets
 
-```text
-                       R''_k = R_k + 𝔍 R_{k-1} + ⋯ + 𝔍^{k-1} R_1 + 𝔍^k R_0
-```
+$$ R''_k = R_k + \mathfrak{J} R_{k-1} + \cdots + \mathfrak{J}^{k-1} R_1 + \mathfrak{J}^k R_0 $$
 
 one evidently has $R''_{k} \subset R'_{k}$, but the filtrations $(R'_{k})$ and $(R''_{k})$ are in general distinct; one
 will denote by $gr''_{\bullet}(R)$ the graded $A$-module associated with the filtration $(R''_{k})$.
@@ -1490,11 +1445,13 @@ will denote by $gr''_{\bullet}(R)$ the graded $A$-module associated with the fil
 
 One has defined in `(0, 15.1.5.2)` the graded surjective homomorphisms of degree `0`
 
-```text
-                       ψ_N : (gr_•(N) ⊗_A (A/𝔍))[T_1, …, T_n] → gr'_•(N)
-                       ψ_M : (gr_•(M) ⊗_A (A/𝔍))[T_1, …, T_n] → gr'_•(M)
-                       ψ_R : (gr_•(R) ⊗_A (A/𝔍))[T_1, …, T_n] → gr''_•(R)
-```
+$$
+\begin{aligned}
+\psi_N &: (\operatorname{gr}_{\bullet}(N) \otimes_A (A/\mathfrak{J}))[T_1, \ldots, T_n] \to \operatorname{gr}'_{\bullet}(N) \\
+\psi_M &: (\operatorname{gr}_{\bullet}(M) \otimes_A (A/\mathfrak{J}))[T_1, \ldots, T_n] \to \operatorname{gr}'_{\bullet}(M) \\
+\psi_R &: (\operatorname{gr}_{\bullet}(R) \otimes_A (A/\mathfrak{J}))[T_1, \ldots, T_n] \to \operatorname{gr}''_{\bullet}(R)
+\end{aligned}
+$$
 
 of which the first two are deduced from the last two vertical arrows of `(19.6.1.1)`.
 
@@ -1502,20 +1459,18 @@ As the filtration $(R'_{k})$ is finer than $(R''_{k})$ on $R$, one has a canonic
 gr''_{\bullet}(R) \to gr'_{\bullet}(R)$; we shall denote by $\psi'_{R}$ the composite homomorphism $\gamma \circ
 \psi_{R}$. It then follows at once from the definitions that one has a commutative diagram
 
-```text
-  (19.6.2.1)         (gr_•(R) ⊗_A (A/𝔍))[T_1, …, T_n]  ──ψ_R──→  gr''_•(R)
-                                  │                                  │
-                                  │ j'                               │ gr''_•(j)
-                                  ▼                                  ▼
-                     (gr_•(N) ⊗_A (A/𝔍))[T_1, …, T_n]  ──ψ_N──→  gr'_•(N)
-                                  │                                  │
-                                  │ p'                               │ gr'_•(p)
-                                  ▼                                  ▼
-                     (gr_•(M) ⊗_A (A/𝔍))[T_1, …, T_n]  ──ψ_M──→  gr'_•(M)
-                                  │                                  │
-                                  ▼                                  ▼
-                                  0                                  0
-```
+$$
+\begin{array}{ccc}
+(\operatorname{gr}_{\bullet}(R) \otimes_A (A/\mathfrak{J}))[T_1, \ldots, T_n] & \xrightarrow{\psi_R} & \operatorname{gr}''_{\bullet}(R) \\
+\downarrow{\scriptstyle j'} & & \downarrow{\scriptstyle \operatorname{gr}''_{\bullet}(j)} \\
+(\operatorname{gr}_{\bullet}(N) \otimes_A (A/\mathfrak{J}))[T_1, \ldots, T_n] & \xrightarrow{\psi_N} & \operatorname{gr}'_{\bullet}(N) \\
+\downarrow{\scriptstyle p'} & & \downarrow{\scriptstyle \operatorname{gr}'_{\bullet}(p)} \\
+(\operatorname{gr}_{\bullet}(M) \otimes_A (A/\mathfrak{J}))[T_1, \ldots, T_n] & \xrightarrow{\psi_M} & \operatorname{gr}'_{\bullet}(M) \\
+\downarrow & & \downarrow \\
+0 & & 0
+\end{array}
+\tag{19.6.2.1}
+$$
 
 where the columns are exact.
 
@@ -1531,22 +1486,24 @@ properties:*
 - *c) $\psi_{R}$ is surjective (in other words, $gr''_{\bullet}(R)$ is generated as a $gr'_{\bullet}(A)$-module by
   $Im(gr_{\bullet}(R) \to gr''_{\bullet}(R))$).*
 - *d) $\psi'_{R}$ is injective.*
-- *d′) The homomorphism $(\psi'_{R})_{0} : gr_{\bullet}(R) \otimes_{A} (A/\mathfrak{J}) \to gr'_{\bullet}(R)$ obtained
+- *d$'$) The homomorphism $(\psi'_{R})_{0} : gr_{\bullet}(R) \otimes_{A} (A/\mathfrak{J}) \to gr'_{\bullet}(R)$ obtained
   by restricting $\psi'_{R}$ to polynomials of degree `0` is injective.*
 - *e) $\psi_{R}$ is bijective.*
 - *f) $j'$ is injective.*
-- *f′) The homomorphism $gr_{\bullet}(R) \otimes_{A} (A/\mathfrak{J}) \to gr_{\bullet}(N) \otimes_{A} (A/\mathfrak{J})$
-  obtained by restricting $j'$ to polynomials of degree `0` is injective.*
+- *f$'$) The homomorphism $gr_{\bullet}(R) \otimes_{A} (A/\mathfrak{J}) \to gr_{\bullet}(N) \otimes_{A}
+  (A/\mathfrak{J})$ obtained by restricting $j'$ to polynomials of degree `0` is injective.*
 - *g) The $\mathfrak{J}$-preadic filtration of $gr_{\bullet}(R)$ is induced by that of $gr_{\bullet}(N)$.*
 - *h) The filtrations $(R'_{k})$ and $(R''_{k})$ on $R$ are identical.*
 
 *One then has the following implications:*
 
-```text
-                              a) ⇒ e) ⇒ b) ⇔ c) ⇔ h)
-                                    ⇕     ⇕
-                                       g) ⇒ d) ⇔ d′) ⇔ f) ⇔ f′)
-```
+$$
+\begin{array}{l}
+a) \Rightarrow e) \Rightarrow b) \Leftrightarrow c) \Leftrightarrow h) \\
+\qquad\quad\, \Updownarrow \quad\;\; \Updownarrow \\
+\qquad\qquad\quad g) \Rightarrow d) \Leftrightarrow d') \Leftrightarrow f) \Leftrightarrow f')
+\end{array}
+$$
 
 *Moreover, when every quotient module of a submodule of a $gr_{k}(M)$ is separated for the $\mathfrak{J}$-preadic
 topology (which will be the case when $A$ is Noetherian, the $f_{i}$ belong to the radical of $A$, and the $gr_{k}(M)$
@@ -1554,8 +1511,8 @@ are $A$-modules of finite type), then the conditions a) through h) are all equiv
 
 Note that by `(19.5.5)`, from the hypothesis that $f$ is $gr_{\bullet}(N)$-regular, it follows that $\psi_{N}$ is
 bijective; as $gr'_{\bullet}(j)$ is injective, the equivalence of d) and f) follows from the diagram `(19.6.2.1)`, as
-does that of d′) and f′); moreover, f) and f′) are trivially equivalent, which shows the equivalence of d), d′), f) and
-f′).
+does that of d$'$) and f$'$); moreover, f) and f$'$) are trivially equivalent, which shows the equivalence of d), d$'$),
+f) and f$'$).
 
 Since we already know that $\psi_{R}$ is surjective and $\psi_{N}$ bijective, the equivalence of b) and c) also follows
 from the diagram `(19.6.2.1)` by a particular case of the five lemma.
@@ -1565,10 +1522,10 @@ condition c) is equivalent to saying that $\gamma$ is surjective, which is equiv
 thus proved the equivalence of b), c) and h).
 
 It is trivial that e) is equivalent to the conjunction of c) and d), hence also of b) and d). Note now that a) implies
-b), and that b) implies a) under the separation hypothesis `(19.5.5)`. On the other hand, the implications a) ⇒ g) ⇒ f),
-and the implication f) ⇒ a) under the separation hypothesis, follow from `(19.5.3)`. One has thus proved that a) entails
-e) (equivalent to the conjunction of b) and f′)), and also that all the conditions are equivalent under the separation
-hypothesis. Q.E.D.
+b), and that b) implies a) under the separation hypothesis `(19.5.5)`. On the other hand, the implications a)
+$\Rightarrow$ g) $\Rightarrow$ f), and the implication f) $\Rightarrow$ a) under the separation hypothesis, follow from
+`(19.5.3)`. One has thus proved that a) entails e) (equivalent to the conjunction of b) and f$'$)), and also that all
+the conditions are equivalent under the separation hypothesis. Q.E.D.
 
 **Corollary (19.6.4).**
 
@@ -1581,7 +1538,7 @@ graded module over $gr_{\bullet}(A)$ (resp. $gr'_{\bullet}(A)$).*
 
 - *(i) Let $S$ be a part of $gr_{\bullet}(R)$ which generates $gr_{\bullet}(R)$ as a $gr_{\bullet}(A)$-module. Then
   condition c) of `(19.6.3)` is equivalent to the following condition:*
-- *c′) The image of $S$ in $gr''_{\bullet}(R)$ by $\psi_{R}$ generates $gr''_{\bullet}(R)$ as a
+- *c$'$) The image of $S$ in $gr''_{\bullet}(R)$ by $\psi_{R}$ generates $gr''_{\bullet}(R)$ as a
   $gr'_{\bullet}(A)$-module.*
 - *(ii) Suppose that condition e) of `(19.6.3)` is satisfied, and moreover that the quotients of the $gr_{k}(R)$ are
   separated for the $\mathfrak{J}$-preadic topology (which will be the case when $A$ is Noetherian, the $f_{i}$ are in
@@ -1593,13 +1550,12 @@ graded module over $gr_{\bullet}(A)$ (resp. $gr'_{\bullet}(A)$).*
 
 (i) Consider the homomorphism of degree `0`
 
-```text
-                       ψ_A : (gr_•(A) ⊗_A (A/𝔍))[T_1, …, T_n] → gr'_•(A) = gr_•^𝔏(A)
-```
+$$ \psi_A : (\operatorname{gr}_\bullet(A) \otimes_A (A/\mathfrak{J}))[T_1, \ldots, T_n] \to
+\operatorname{gr}'_\bullet(A) = \operatorname{gr}_\bullet^\mathfrak{L}(A) $$
 
 `(0, 15.1.5.2)`. The fact that this homomorphism is surjective entails that the sub-$gr'_{\bullet}(A)$-algebra of
 $gr''_{\bullet}(R)$ generated by $S' = \psi_{R}(S)$ is none other than $Im(\psi_{R})$, whence the equivalence of c) and
-c′).
+c$'$).
 
 (ii) Since e) is satisfied, the same is true of c), and by virtue of (i), it remains to prove the sufficiency of the
 condition in the statement. Now, as $\psi_{R}$ is bijective, saying that $S'$ generates $gr''_{\bullet}(R)$ regarded as
@@ -1628,7 +1584,7 @@ $(A/\mathfrak{K})$-regular, $\mathfrak{J} = f_{1} A + \cdots + f_{n} A$ the idea
 \otimes_{A} (A/\mathfrak{L}) = (gr^{\bullet}_{\mathfrak{L}}(M)) \otimes_{A} (A/\mathfrak{L})$, because
 $(\mathfrak{J}^{n} M / \mathfrak{J}^{n+1} M) \otimes_{A} (A/\mathfrak{K}) = \mathfrak{J}^{n} M / (\mathfrak{J}^{n+1} +
 \mathfrak{K} \mathfrak{J}^{n}) M = \mathfrak{L}^{n} M / (\mathfrak{L}^{n+1} + \mathfrak{K} \mathfrak{L}^{n}) M$, the
-last equality following from Bourbaki, *Alg.*, chap. II, 3rd ed., §3, n° 7, cor. 2 of prop. 6.*
+last equality following from Bourbaki, *Alg.*, chap. II, 3rd ed., §3, n$^{\circ}$ 7, cor. 2 of prop. 6.*
 
 *Consider the following conditions:*
 
@@ -1636,9 +1592,8 @@ last equality following from Bourbaki, *Alg.*, chap. II, 3rd ed., §3, n° 7, co
 - *b) $gr^{\bullet}_{\mathfrak{J}}(M)$ is a flat $(A/\mathfrak{K})$-module, and the canonical homomorphism
   `(0, 15.1.5.2)`*
 
-```text
-                       ψ_M : ((gr_𝔍^•(M)) ⊗_A (A/𝔏))[T_1, …, T_n] → gr_𝔏^•(M)
-```
+$$ \psi_M : ((\operatorname{gr}_\mathfrak{J}^\bullet(M)) \otimes_A (A/\mathfrak{L}))[T_1, \ldots, T_n] \to
+\operatorname{gr}_\mathfrak{L}^\bullet(M) $$
 
 *is bijective.*
 
@@ -1650,14 +1605,16 @@ last equality following from Bourbaki, *Alg.*, chap. II, 3rd ed., §3, n° 7, co
 
 *One then has the implications*
 
-```text
-                              a) ⇒ c) ⇒ b)
-                                       ⇑
-                                       d)
-```
+$$
+\begin{array}{l}
+a) \Rightarrow c) \Rightarrow b) \\
+\qquad\qquad\quad \Uparrow \\
+\qquad\qquad\quad d)
+\end{array}
+$$
 
 *When every quotient of a submodule of a $gr^{k}_{\mathfrak{J}}(M)$ $(k \geq 0)$ is ideally separated for $\mathfrak{J}$
-(Bourbaki, *Alg. comm.*, chap. III, §5, n° 1), the conditions a), b) and c) are equivalent.*
+(Bourbaki, *Alg. comm.*, chap. III, §5, n$^{\circ}$ 1), the conditions a), b) and c) are equivalent.*
 
 <!-- original page 213 -->
 
@@ -1665,12 +1622,12 @@ last equality following from Bourbaki, *Alg.*, chap. II, 3rd ed., §3, n° 7, co
 $gr^{\bullet}_{\mathfrak{K}}(A)$-regular, and $M$ is an $A$-module of finite type, the conditions a), b), c), d) are
 equivalent.*
 
-The implication a) ⇒ c) is immediate `(0, 15.1.13)`. If c) is satisfied, it follows from `(19.5.5)` that $\psi_{M}$ is
-bijective; moreover, $gr^{\bullet}_{\mathfrak{J}}(M) \otimes_{A} (A/\mathfrak{L}) = gr^{\bullet}_{\mathfrak{J}}(M)
-\otimes_{A} (A/\mathfrak{K})$ is a flat $(A/\mathfrak{L})$-module, hence so is $(gr^{\bullet}_{\mathfrak{J}}(M)
-\otimes_{A} (A/\mathfrak{L}))[T_{1}, \cdots, T_{n}]$, and consequently so is $gr^{\bullet}_{\mathfrak{L}}(M)$ since
-$\psi_{M}$ is an $(A/\mathfrak{L})$-isomorphism; thus c) entails b). The fact that a) implies b) shows at once that a)
-also implies d).
+The implication a) $\Rightarrow$ c) is immediate `(0, 15.1.13)`. If c) is satisfied, it follows from `(19.5.5)` that
+$\psi_{M}$ is bijective; moreover, $gr^{\bullet}_{\mathfrak{J}}(M) \otimes_{A} (A/\mathfrak{L}) =
+gr^{\bullet}_{\mathfrak{J}}(M) \otimes_{A} (A/\mathfrak{K})$ is a flat $(A/\mathfrak{L})$-module, hence so is
+$(gr^{\bullet}_{\mathfrak{J}}(M) \otimes_{A} (A/\mathfrak{L}))[T_{1}, \cdots, T_{n}]$, and consequently so is
+$gr^{\bullet}_{\mathfrak{L}}(M)$ since $\psi_{M}$ is an $(A/\mathfrak{L})$-isomorphism; thus c) entails b). The fact
+that a) implies b) shows at once that a) also implies d).
 
 When every quotient of a $gr^{k}_{\mathfrak{J}}(M)$ is ideally separated for $\mathfrak{J}$, it follows from `(19.5.5)`
 that condition b) entails that $f$ is $(gr^{\bullet}_{\mathfrak{J}}(M))$-regular; moreover, since
@@ -1688,28 +1645,27 @@ By hypothesis there exists a free $A$-module of finite type $N$ and an exact seq
 suffices to prove that d) entails b), since every quotient of a submodule of a $gr^{k}_{\mathfrak{J}}(M)$ is then
 ideally separated for $\mathfrak{J}$, by virtue of the fact that $gr^{k}_{\mathfrak{J}}(M)$ is an $A$-module of finite
 type, that $\mathfrak{J}$ is contained in the radical of $A$, and that $A$ is Noetherian (Bourbaki, *Alg. comm.*, chap.
-III, §5, n° 1); in other words, the question is to see that $\psi_{M}$ is bijective.
+III, §5, n$^{\circ}$ 1); in other words, the question is to see that $\psi_{M}$ is bijective.
 
 As by hypothesis the sequence $f$ is $gr^{\bullet}_{\mathfrak{K}}(A)$-regular, it is also
 $gr^{\bullet}_{\mathfrak{K}}(N)$-regular; one may therefore apply `(19.6.3)`, for every quotient module of a submodule
 of a $gr^{k}_{\mathfrak{K}}(M)$ is then separated for the $\mathfrak{J}$-preadic topology, since the $f_{i}$ belong to
 the radical of $A$ by hypothesis. The commutative diagram `(19.6.2.1)` is therefore written here
 
-```text
-                                                          0
-                                                          │
-                                                          ▼
-  (19.7.1.1)   (gr'_•(R, N) ⊗_{A/𝔎} (A/𝔏))[T_1, …, T_n] ──ψ_R──→ gr''_•(R, N)
-                              │                                       │
-                              ▼                                       ▼
-               (gr'_•(N) ⊗_{A/𝔎} (A/𝔏))[T_1, …, T_n]  ──ψ_N──→  gr'_•(N)
-                              │                                       │
-                              ▼                                       ▼
-               (gr'_•(M) ⊗_{A/𝔎} (A/𝔏))[T_1, …, T_n]  ──ψ_M──→  gr'_•(M)
-                              │                                       │
-                              ▼                                       ▼
-                              0                                       0
-```
+$$
+\begin{array}{ccc}
+ & & 0 \\
+ & & \downarrow \\
+(\operatorname{gr}'_{\bullet}(R, N) \otimes_{A/\mathfrak{K}} (A/\mathfrak{L}))[T_1, \ldots, T_n] & \xrightarrow{\psi_R} & \operatorname{gr}''_{\bullet}(R, N) \\
+\downarrow & & \downarrow \\
+(\operatorname{gr}'_{\bullet}(N) \otimes_{A/\mathfrak{K}} (A/\mathfrak{L}))[T_1, \ldots, T_n] & \xrightarrow{\psi_N} & \operatorname{gr}'_{\bullet}(N) \\
+\downarrow & & \downarrow \\
+(\operatorname{gr}'_{\bullet}(M) \otimes_{A/\mathfrak{K}} (A/\mathfrak{L}))[T_1, \ldots, T_n] & \xrightarrow{\psi_M} & \operatorname{gr}'_{\bullet}(M) \\
+\downarrow & & \downarrow \\
+0 & & 0
+\end{array}
+\tag{19.7.1.1}
+$$
 
 where $gr'_{\bullet}(R, N)$ (resp. $gr''_{\bullet}(R, N)$) is the graded module associated with $R$ for the filtration
 of the $R \cap \mathfrak{K}^{k} N$ (resp. $R \cap \mathfrak{L}^{k} N$); recall that in this diagram the columns are
@@ -1729,9 +1685,7 @@ Set $B = gr^{\bullet}_{\mathfrak{K}}(A) \otimes_{A} (A/\mathfrak{L})$, $P = gr^{
 with $gr'_{\bullet}(N)$, and $Q$ with a sub-$B[T_{1}, \cdots, T_{n}]$-module of $P[T_{1}, \cdots, T_{n}]$; we shall
 first see that one has
 
-```text
-  (19.7.1.3)                  Q = (Q ∩ P)[T_1, …, T_n].
-```
+$$ Q = (Q \cap P)[T_1, \ldots, T_n]. \tag{19.7.1.3} $$
 
 For this, set $Z = Q / ((Q \cap P)[T_{1}, \cdots, T_{n}])$; this is a sub-$B[T_{1}, \cdots, T_{n}]$-module of $P[T_{1},
 \cdots, T_{n}] / ((Q \cap P)[T_{1}, \cdots, T_{n}]) = (P/(Q \cap P))[T_{1}, \cdots, T_{n}]$. As an
@@ -1740,25 +1694,26 @@ isomorphic to $P/(Q \cap P) = (P + Q)/Q$. But $(P + Q)/Q$ is an $(A/\mathfrak{L}
 $P[T_{1}, \cdots, T_{n}]/Q$, which is none other than $gr'_{\bullet}(M)$ by virtue of the diagram `(19.7.1.1)`. One has
 therefore
 
-$$ (19.7.1.4) Ass_{A}(Z) \subset Ass_{A}(gr'_{\bullet}(M)). $$
+$$ \operatorname{Ass}_{A}(Z) \subset \operatorname{Ass}_{A}(\operatorname{gr}'_{\bullet}(M)). \tag{19.7.1.4} $$
 
 But each of the $gr^{k}_{\mathfrak{L}}(M)$ is, by hypothesis, a flat $(A/\mathfrak{L})$-module of finite type, hence
 projective since $A/\mathfrak{L}$ is Noetherian, and one has consequently $Ass_{A}(gr^{\bullet}_{\mathfrak{L}}(M))
-\subset Ass_{A}(A/\mathfrak{L})$. To see that $Z = 0$, it suffices therefore (Bourbaki, *Alg. comm.*, chap. IV, §1, n°
-1, cor. 1 of prop. 2 and n° 3, prop. 7) to see that for every $\mathfrak{q} \in Ass_{A/\mathfrak{K}}(A/\mathfrak{L})$,
-one has $Z_{\mathfrak{q}} = 0$. But the ideals of $Ass_{A/\mathfrak{K}}(A/\mathfrak{L})$ are the ideals of the form
-$\mathfrak{p}/(\mathfrak{K}/\mathfrak{K})$, where $\mathfrak{p} \in Ass_{A}(A/\mathfrak{L})$, and it amounts therefore
-to the same to see that $Z_{\mathfrak{p}} = 0$ for every $\mathfrak{p} \in Ass_{A}(A/\mathfrak{L})$. Now, if
-$\mathfrak{p} = \mathfrak{r}/\mathfrak{K}$, where $\mathfrak{r}$ is a prime ideal of $A$, one has
-$(gr^{\bullet}_{\mathfrak{J}}(M))_{\mathfrak{p}} = gr^{\bullet}_{\mathfrak{J}}(M_{\mathfrak{r}})$ and
-$(A/\mathfrak{K})_{\mathfrak{p}} = A_{\mathfrak{r}}/\mathfrak{K}_{\mathfrak{r}}$, and the images of the $f_{i}$ in
-$A_{\mathfrak{r}}$ form a $gr^{\bullet}_{\mathfrak{K}}(A_{\mathfrak{r}})$-regular sequence `(0, 15.1.14)`; applying to
-$A_{\mathfrak{r}}$, $\mathfrak{K}_{\mathfrak{r}}$ and $M_{\mathfrak{r}}$ the implication a) ⇒ b) of the statement, one
-sees that the hypothesis d) entails that $\psi_{M}$ is bijective, hence also $\psi_{R}$ by virtue of `(19.6.3)`; in
-other words, $Q_{\mathfrak{p}} = Q'_{\mathfrak{p}}[T_{1}, \cdots, T_{n}]$, where one has set $Q' = gr'_{\bullet}(R, N)
-\otimes_{A} (A/\mathfrak{L})$, which is here a sub-$B$-module of $P$; in particular $Q'_{\mathfrak{p}} =
-Q_{\mathfrak{p}} \cap P_{\mathfrak{p}}$, hence finally one has indeed $Z_{\mathfrak{r}} = Z_{\mathfrak{p}} = 0$, which
-completes the proof of `(19.7.1.3)`.
+\subset Ass_{A}(A/\mathfrak{L})$. To see that $Z = 0$, it suffices therefore (Bourbaki, *Alg. comm.*, chap. IV, §1,
+n$^{\circ}$ 1, cor. 1 of prop. 2 and n$^{\circ}$ 3, prop. 7) to see that for every $\mathfrak{q} \in
+Ass_{A/\mathfrak{K}}(A/\mathfrak{L})$, one has $Z_{\mathfrak{q}} = 0$. But the ideals of
+$Ass_{A/\mathfrak{K}}(A/\mathfrak{L})$ are the ideals of the form $\mathfrak{p}/(\mathfrak{K}/\mathfrak{K})$, where
+$\mathfrak{p} \in Ass_{A}(A/\mathfrak{L})$, and it amounts therefore to the same to see that $Z_{\mathfrak{p}} = 0$ for
+every $\mathfrak{p} \in Ass_{A}(A/\mathfrak{L})$. Now, if $\mathfrak{p} = \mathfrak{r}/\mathfrak{K}$, where
+$\mathfrak{r}$ is a prime ideal of $A$, one has $(gr^{\bullet}_{\mathfrak{J}}(M))_{\mathfrak{p}} =
+gr^{\bullet}_{\mathfrak{J}}(M_{\mathfrak{r}})$ and $(A/\mathfrak{K})_{\mathfrak{p}} =
+A_{\mathfrak{r}}/\mathfrak{K}_{\mathfrak{r}}$, and the images of the $f_{i}$ in $A_{\mathfrak{r}}$ form a
+$gr^{\bullet}_{\mathfrak{K}}(A_{\mathfrak{r}})$-regular sequence `(0, 15.1.14)`; applying to $A_{\mathfrak{r}}$,
+$\mathfrak{K}_{\mathfrak{r}}$ and $M_{\mathfrak{r}}$ the implication a) $\Rightarrow$ b) of the statement, one sees that
+the hypothesis d) entails that $\psi_{M}$ is bijective, hence also $\psi_{R}$ by virtue of `(19.6.3)`; in other words,
+$Q_{\mathfrak{p}} = Q'_{\mathfrak{p}}[T_{1}, \cdots, T_{n}]$, where one has set $Q' = gr'_{\bullet}(R, N) \otimes_{A}
+(A/\mathfrak{L})$, which is here a sub-$B$-module of $P$; in particular $Q'_{\mathfrak{p}} = Q_{\mathfrak{p}} \cap
+P_{\mathfrak{p}}$, hence finally one has indeed $Z_{\mathfrak{r}} = Z_{\mathfrak{p}} = 0$, which completes the proof of
+`(19.7.1.3)`.
 
 **(19.7.1.5).**
 
@@ -1772,39 +1727,34 @@ which are images of elements of $gr'_{\bullet}(R, N) \otimes_{A} (A/\mathfrak{L}
 $gr^{m}_{\mathfrak{K}}(N)$ belonging to $((R \cap \mathfrak{K}^{m} N) + \mathfrak{L}^{m+1} N) / \mathfrak{L}^{m+1} N$.
 It will therefore suffice in the end to prove, for every integer $m > 0$, the inclusion
 
-```text
-                  ((R ∩ 𝔏^m N) + 𝔏^{m+1} N) ∩ (𝔎^m N + 𝔏^{m+1} N) ⊂ (R ∩ 𝔎^m N) + 𝔏^{m+1} N.
-```
+$$ ((R \cap \mathfrak{L}^m N) + \mathfrak{L}^{m+1} N) \cap (\mathfrak{K}^m N + \mathfrak{L}^{m+1} N) \subset (R \cap
+\mathfrak{K}^m N) + \mathfrak{L}^{m+1} N. $$
 
 As $\mathfrak{K} \subset \mathfrak{L}$, one verifies at once that the first member of this relation is equal to $(R \cap
 (\mathfrak{K}^{m} N + \mathfrak{L}^{m+1} N)) + \mathfrak{L}^{m+1} N$, so that everything reduces to proving
 
-```text
-  (19.7.1.6)              R ∩ (𝔎^m N + 𝔏^{m+1} N) ⊂ (R ∩ 𝔎^m N) + 𝔏^{m+1} N.
-```
+$$ R \cap (\mathfrak{K}^m N + \mathfrak{L}^{m+1} N) \subset (R \cap \mathfrak{K}^m N) + \mathfrak{L}^{m+1} N.
+\tag{19.7.1.6} $$
 
 <!-- original page 215 -->
 
 We shall proceed by induction on $m$, supposing therefore `(19.7.1.6)` satisfied when one replaces $m$ by an integer $m'
 < m$. We shall consider on the other hand, for $m$ fixed and an integer $d \geq 0$, the relation
 
-```text
-  (*_d)                  R ∩ (𝔎^m N + 𝔏^{m+1} N) ⊂ (R ∩ 𝔎^m N ∩ 𝔏^d N) + 𝔏^{m+1} N.
-```
+$$ R \cap (\mathfrak{K}^m N + \mathfrak{L}^{m+1} N) \subset (R \cap \mathfrak{K}^m N \cap \mathfrak{L}^d N) +
+\mathfrak{L}^{m+1} N. \tag{($*_{d}$)} $$
 
 It is clear that it suffices to prove $(*_{d})$ for $d = m$, and on the other hand $(*_{0})$ is trivially true. We shall
 prove $(*_{d})$ by induction on $d$; in other words, we suppose, for a $d \geq 0$ fixed (with $d < m$), that $(*_{d})$
 is true, and we want to prove
 
-```text
-  (*_{d+1})              R ∩ (𝔎^m N + 𝔏^{m+1} N) ⊂ (R ∩ 𝔎^m N ∩ 𝔏^{d+1} N) + 𝔏^{m+1} N.
-```
+$$ R \cap (\mathfrak{K}^m N + \mathfrak{L}^{m+1} N) \subset (R \cap \mathfrak{K}^m N \cap \mathfrak{L}^{d+1} N) +
+\mathfrak{L}^{m+1} N. \tag{($*_{d+1}$)} $$
 
 Consider for this, for an $h \geq 0$, the relation
 
-```text
-  (**_{d+1, h})  R ∩ (𝔎^m N + 𝔏^{m+1} N) ⊂ (R ∩ (𝔏^{d+1} N + 𝔍^h 𝔎^d N) ∩ 𝔎^m N) + 𝔏^{m+1} N.
-```
+$$ R \cap (\mathfrak{K}^m N + \mathfrak{L}^{m+1} N) \subset (R \cap (\mathfrak{L}^{d+1} N + \mathfrak{J}^h
+\mathfrak{K}^d N) \cap \mathfrak{K}^m N) + \mathfrak{L}^{m+1} N. \tag{($**_{d+1, h}$)} $$
 
 The hypothesis $(*_{d})$ implies that $(**_{d+1, 0})$ is true. We shall prove by induction on $h$ that $(**_{d+1, h})$
 is true for every $h \geq 0$. But one has the
@@ -1816,9 +1766,7 @@ is true for every $h \geq 0$. But one has the
 *Let $A$ be a Noetherian ring, $N$ an $A$-module of finite type, $E$, $F$ two submodules of $N$, $\mathfrak{L}$ an ideal
 of $A$. For every $k > 0$ there exists $h > 0$ such that*
 
-```text
-                       E ∩ (F + 𝔏^h N) ⊂ E ∩ F + 𝔏^k N.
-```
+$$ E \cap (F + \mathfrak{L}^h N) \subset E \cap F + \mathfrak{L}^k N. $$
 
 Indeed, let $\phi : N \to N/(E \cap F) = N_{1}$ be the canonical homomorphism, and set $E_{1} = \phi(E)$, $F_{1} =
 \phi(F)$, so that $E_{1} \cap F_{1} = 0$ and $\phi(E \cap (F + \mathfrak{L}^{h} N)) = E_{1} \cap (F_{1} +
@@ -1840,25 +1788,20 @@ We suppose therefore in all that follows that $(**_{d+1, h})$ is satisfied.
 
 Start therefore from an element
 
-```text
-  (19.7.1.9)              g ∈ R ∩ (𝔏^{d+1} N + 𝔍^h 𝔎^d N) ∩ 𝔎^m N
-```
+$$ g \in R \cap (\mathfrak{L}^{d+1} N + \mathfrak{J}^h \mathfrak{K}^d N) \cap \mathfrak{K}^m N \tag{19.7.1.9} $$
 
 congruent mod. $\mathfrak{L}^{m+1} N$ to an element $g_{1} \in R \cap (\mathfrak{K}^{m} N + \mathfrak{L}^{m+1} N)$; one
 has therefore
 
-```text
-  (19.7.1.10)             g ∈ 𝔎^m N + 𝔏^{m+1} N.
-```
+$$ g \in \mathfrak{K}^m N + \mathfrak{L}^{m+1} N. \tag{19.7.1.10} $$
 
 It will suffice to prove that $g$ is also congruent mod. $\mathfrak{L}^{m+1} N$ to an element $g_{2} \in R \cap
 (\mathfrak{L}^{d+1} N + \mathfrak{J}^{h+1} \mathfrak{K}^{d} N)$, for that will entail $g_{2} \in \mathfrak{K}^{m} N$,
 since one will have $g_{2} \in \mathfrak{K}^{d} N$ and $g_{2} - g \in \mathfrak{L}^{m+1} N$. In the case $h \leq m - d$
 which we are considering, it suffices to demonstrate the relation
 
-```text
-  (19.7.1.11)            (𝔏^{d+1} N + 𝔍^h 𝔎^d N) ∩ 𝔎^m N ⊂ 𝔍^{m-d+1} 𝔎^d N + 𝔏^{m+1} N
-```
+$$ (\mathfrak{L}^{d+1} N + \mathfrak{J}^h \mathfrak{K}^d N) \cap \mathfrak{K}^m N \subset \mathfrak{J}^{m-d+1}
+\mathfrak{K}^d N + \mathfrak{L}^{m+1} N \tag{19.7.1.11} $$
 
 <!-- original page 216 -->
 
@@ -1866,56 +1809,52 @@ for the relations `(19.7.1.9)` and `(19.7.1.10)` entail that $g$ belongs to the 
 \leq m - d$, one has $\mathfrak{J}^{m-d+1} \subset \mathfrak{J}^{h+1}$, which will establish $(**_{d+1, h+1})$. Moreover
 one has $\mathfrak{K}^{d} N \subset \mathfrak{L}^{d} N$, and the relation
 
-```text
-  (19.7.1.12)            𝔍^a N ∩ 𝔏^b N ⊂ 𝔏^{a+b-d} N
-```
+$$ \mathfrak{J}^a N \cap \mathfrak{L}^b N \subset \mathfrak{L}^{a+b-d} N \tag{19.7.1.12} $$
 
 will entail `(19.7.1.11)`. As $N$ is a free $A$-module of finite type, one sees that it therefore suffices to prove
 
-```text
-  (19.7.1.13)            𝔏^{m+1} ∩ 𝔎^d ⊂ 𝔍^{m-d+1} 𝔎^d.
-```
+$$ \mathfrak{L}^{m+1} \cap \mathfrak{K}^d \subset \mathfrak{J}^{m-d+1} \mathfrak{K}^d. \tag{19.7.1.13} $$
 
 It will suffice to prove that, in general, for $d < m$, one has
 
-```text
-  (19.7.1.14)            𝔏^{m+1} ∩ 𝔎^d ⊂ 𝔍^{m-d+1} 𝔎^d + 𝔎^{d+1}.
-```
+$$ \mathfrak{L}^{m+1} \cap \mathfrak{K}^d \subset \mathfrak{J}^{m-d+1} \mathfrak{K}^d + \mathfrak{K}^{d+1}.
+\tag{19.7.1.14} $$
 
 Indeed, as $\mathfrak{K} \subset \mathfrak{L}$, hence $\mathfrak{J}^{m-d+1} \mathfrak{K}^{d} \subset
 \mathfrak{L}^{m+1}$, the preceding relation will entail
 
-```text
-                       𝔏^{m+1} ∩ 𝔎^{d+1} ⊂ 𝔍^{m-d} 𝔎^{d+1} + 𝔎^{d+2}
-```
+$$ \mathfrak{L}^{m+1} \cap \mathfrak{K}^{d+1} \subset \mathfrak{J}^{m-d} \mathfrak{K}^{d+1} + \mathfrak{K}^{d+2} $$
 
 and by induction on $d \leq m$, one will conclude
 
-```text
-                       𝔏^{m+1} ∩ 𝔎^d ⊂ 𝔍^{m-d+1} 𝔎^d + 𝔎^{m+1}
-```
+$$ \mathfrak{L}^{m+1} \cap \mathfrak{K}^d \subset \mathfrak{J}^{m-d+1} \mathfrak{K}^d + \mathfrak{K}^{m+1} $$
 
 whence `(19.7.1.13)`, since $\mathfrak{K}^{m+1} \subset \mathfrak{J}^{m-d+1} \mathfrak{K}^{m-d+1}$.
 
 As $\mathfrak{L} = \mathfrak{J} + \mathfrak{K}$, the relation `(19.7.1.14)` is also written
 
-```text
-  (19.7.1.15)        (𝔍^{m+1} + 𝔍^m 𝔎 + ⋯ + 𝔍 𝔎^m + 𝔎^{m+1}) ∩ 𝔎^d ⊂
-                              𝔍^{m-d+1} 𝔎^d + 𝔍^{m-d} 𝔎^{d+1} + ⋯ + 𝔍 𝔎^m + 𝔎^{m+1} = 𝔍^{m-d+1} 𝔎^d + 𝔎^{d+1}.
-```
+$$
+\begin{aligned}
+(\mathfrak{J}^{m+1} + \mathfrak{J}^m \mathfrak{K} + \cdots + \mathfrak{J} \mathfrak{K}^m + \mathfrak{K}^{m+1}) \cap \mathfrak{K}^d &\subset \\
+\mathfrak{J}^{m-d+1} \mathfrak{K}^d + \mathfrak{J}^{m-d} \mathfrak{K}^{d+1} + \cdots + \mathfrak{J} \mathfrak{K}^m + \mathfrak{K}^{m+1} &= \mathfrak{J}^{m-d+1} \mathfrak{K}^d + \mathfrak{K}^{d+1}.
+\end{aligned}
+\tag{19.7.1.15}
+$$
 
 We shall see that this inclusion is itself a consequence of
 
-```text
-  (19.7.1.16)            𝔍^a 𝔎^b ∩ 𝔎^{a+1} ⊂ 𝔍^{a+1} 𝔎^{b-1}
-```
+$$ \mathfrak{J}^a \mathfrak{K}^b \cap \mathfrak{K}^{a+1} \subset \mathfrak{J}^{a+1} \mathfrak{K}^{b-1} \tag{19.7.1.16}
+$$
 
 valid for $a \geq 0$, $b \geq 1$. Indeed, to prove `(19.7.1.15)` it suffices to show that for $0 < q \leq d$, one has
 
-```text
-  (19.7.1.17)        (𝔍^{m+1} + 𝔍^m 𝔎 + ⋯ + 𝔍^{m-q+1} 𝔎^{q-1}) ∩ 𝔎^d ⊂
-                              𝔍^{m+1-q} 𝔎^{q-1} 𝔎^{d-q+1} + ⋯ + 𝔎^{m+1} ⊂ 𝔍^{m+1-q} 𝔎^d
-```
+$$
+\begin{aligned}
+(\mathfrak{J}^{m+1} + \mathfrak{J}^m \mathfrak{K} + \cdots + \mathfrak{J}^{m-q+1} \mathfrak{K}^{q-1}) \cap \mathfrak{K}^d &\subset \\
+\mathfrak{J}^{m+1-q} \mathfrak{K}^{q-1} \mathfrak{K}^{d-q+1} + \cdots + \mathfrak{K}^{m+1} &\subset \mathfrak{J}^{m+1-q} \mathfrak{K}^d
+\end{aligned}
+\tag{19.7.1.17}
+$$
 
 for, taking $q = d$, this will entail `(19.7.1.15)`. Now, to prove `(19.7.1.17)`, it suffices to proceed by induction on
 $q$ supposing the relation true for $q \leq d$; an element of the first member is written, by hypothesis, as $y + z$
@@ -1924,9 +1863,8 @@ with $y \in \mathfrak{J}^{m+1-q} \mathfrak{K}^{q}$, $z \in \mathfrak{J}^{m-q} \m
 \mathfrak{K}^{q+1}$, since $z \in \mathfrak{K}^{q+1}$; taking account of `(19.7.1.16)`, one has $y \in
 \mathfrak{J}^{m-q} \mathfrak{K}^{q+1}$, hence
 
-```text
-                       y + z ∈ 𝔍^{m-q} 𝔎^{q+1} + ⋯ + 𝔍 𝔎^m + 𝔎^{m+1}, and y + z ∈ 𝔎^d
-```
+$$ y + z \in \mathfrak{J}^{m-q} \mathfrak{K}^{q+1} + \cdots + \mathfrak{J} \mathfrak{K}^m + \mathfrak{K}^{m+1},
+\quad\text{and}\quad y + z \in \mathfrak{K}^d $$
 
 by hypothesis, which proves `(19.7.1.17)` where $q$ has been replaced by $q + 1$.
 
@@ -1948,38 +1886,34 @@ also of $(**_{d+1, h+1})$ for $h \leq m - d$.
 
 We shall first demonstrate that, for every $h \geq 0$, one has
 
-```text
-  (19.7.1.19)        R ∩ (𝔏^{d+1} N + 𝔍^h 𝔎^d N) ⊂ 𝔍^h (R ∩ (𝔎^{d+1} N + 𝔍 𝔎^d N)) + 𝔏^{d+h+1} N.
-```
+$$ R \cap (\mathfrak{L}^{d+1} N + \mathfrak{J}^h \mathfrak{K}^d N) \subset \mathfrak{J}^h (R \cap (\mathfrak{K}^{d+1} N + \mathfrak{J} \mathfrak{K}^d N)) + \mathfrak{L}^{d+h+1} N. \tag{19.7.1.19} $$
 
 Consider for this an element $g$ of the first member of `(19.7.1.19)`. Note that one has $\mathfrak{L}^{d+1} N +
 \mathfrak{J}^{h} \mathfrak{K}^{d} N = \mathfrak{J}^{d+1} N + \mathfrak{K}^{d+1} N$ since $\mathfrak{L} = \mathfrak{K} +
-\mathfrak{J}$; we shall consider the class `ẑ` of $g$ in $gr^{h}_{\mathfrak{J}}(gr^{d}_{\mathfrak{K}}(N))$, which, by
-virtue of `(19.5.5)` and the hypothesis on $f$, is identified with a sub-$(A/\mathfrak{L})$-module of
+\mathfrak{J}$; we shall consider the class $\hat{z}$ of $g$ in $gr^{h}_{\mathfrak{J}}(gr^{d}_{\mathfrak{K}}(N))$, which,
+by virtue of `(19.5.5)` and the hypothesis on $f$, is identified with a sub-$(A/\mathfrak{L})$-module of
 $gr^{h}_{\mathfrak{J}}(N)$. From the fact that $g \in R$, we shall show that one has even (with the foregoing
 identification)
 
-$$ (19.7.1.20) \hat{z} \in gr^{h}_{\mathfrak{J}}(R, N). $$
+$$ \hat{z} \in \operatorname{gr}^{h}_{\mathfrak{J}}(R, N). \tag{19.7.1.20} $$
 
 Indeed, one has noted, in the proof of `(19.7.1.3)`, that for every prime ideal $\mathfrak{r}$ of $A$ such that
 $\mathfrak{p} = \mathfrak{r}/\mathfrak{K} \in Ass_{A}(A/\mathfrak{L})$, the map $\psi_{R}$ is bijective, and
 consequently the relation `(19.7.1.6)`, where one replaces all the modules by their localizations at $\mathfrak{r}$, is
 true. As $g$ belongs to $R \cap (\mathfrak{K}^{m} N + \mathfrak{L}^{m+1} N)$, its image $g/1$ in $R_{\mathfrak{r}}$
 belongs to $(R_{\mathfrak{r}} \cap \mathfrak{K}^{m} N_{\mathfrak{r}}) + \mathfrak{L}^{m+1} N_{\mathfrak{r}}$, hence the
-image $\hat{z}/1$ of `ẑ` in $gr^{h}_{\mathfrak{J}}(N_{\mathfrak{r}})$ belongs to
+image $\hat{z}/1$ of $\hat{z}$ in $gr^{h}_{\mathfrak{J}}(N_{\mathfrak{r}})$ belongs to
 $gr^{h}_{\mathfrak{J}}(R_{\mathfrak{r}}, N_{\mathfrak{r}}) = (gr'_{\bullet}(R, N))_{\mathfrak{r}} = (gr''_{\bullet}(R,
-N))_{\mathfrak{r}}$, where $\mathfrak{q} = \mathfrak{r}/\mathfrak{L}$. In other words the image of `ẑ` by the canonical
-map $(gr^{h}_{\mathfrak{J}}(N))_{\mathfrak{q}} \to (gr^{h}_{\mathfrak{J}}(M))_{\mathfrak{q}}$ is zero for every
-$\mathfrak{q} \in Ass_{A/\mathfrak{L}}(A/\mathfrak{L})$. As one has seen in the proof of `(19.7.1.3)` that
+N))_{\mathfrak{r}}$, where $\mathfrak{q} = \mathfrak{r}/\mathfrak{L}$. In other words the image of $\hat{z}$ by the
+canonical map $(gr^{h}_{\mathfrak{J}}(N))_{\mathfrak{q}} \to (gr^{h}_{\mathfrak{J}}(M))_{\mathfrak{q}}$ is zero for
+every $\mathfrak{q} \in Ass_{A/\mathfrak{L}}(A/\mathfrak{L})$. As one has seen in the proof of `(19.7.1.3)` that
 $Ass_{A/\mathfrak{L}}(gr^{h}_{\mathfrak{J}}(M)) \subset Ass_{A}(A/\mathfrak{L})$, one deduces (Bourbaki, *Alg. comm.*,
-chap. IV, §1, n° 1, cor. 1 of prop. 2 and n° 3, prop. 7) that the image of `ẑ` by the canonical map
-$gr^{h}_{\mathfrak{J}}(N) \to gr^{h}_{\mathfrak{J}}(M)$ is zero, that is, one has the relation `(19.7.1.20)`.
+chap. IV, §1, n$^{\circ}$ 1, cor. 1 of prop. 2 and n$^{\circ}$ 3, prop. 7) that the image of $\hat{z}$ by the canonical
+map $gr^{h}_{\mathfrak{J}}(N) \to gr^{h}_{\mathfrak{J}}(M)$ is zero, that is, one has the relation `(19.7.1.20)`.
 
 This being so, one may write by definition
 
-```text
-  (19.7.1.21)            ẑ = Σ_{|p| = h} c_p f^p mod. 𝔏^{h+1} N
-```
+$$ \hat{z} = \Sigma_{|p| = h} c_p f^p \bmod \mathfrak{L}^{h+1} N \tag{19.7.1.21} $$
 
 where one sets as usual $p = (p_{1}, \cdots, p_{n})$, $f^{p} = f^{p_{1}}_{1} f^{p_{2}}_{2} \cdots f^{p_{n}}_{n}$, $|p| =
 p_{1} + \cdots + p_{n}$, and where $c_{p} \in \mathfrak{K}^{d} N$. Moreover, since $\psi_{N}$ identifies
@@ -1987,22 +1921,18 @@ $gr'_{\bullet}(N)$ with $(gr^{\bullet}_{\mathfrak{K}}(N) \otimes_{A} (A/\mathfra
 $c_{p}$ are determined mod. $\mathfrak{K}^{d+1} N + \mathfrak{L} N$, and if $\bar{c}_{p}$ is the class of $c_{p}$ mod.
 $\mathfrak{K}^{d+1} N + \mathfrak{L} N$, one has, by the preceding identification,
 
-```text
-  (19.7.1.22)            ẑ = Σ c̄_p f^p.
-```
+$$ \hat{z} = \Sigma \bar{c}_p f^p. \tag{19.7.1.22} $$
 
 Using `(19.7.1.3)`, one deduces that one has necessarily, for every $p$ such that $|p| = h$ ($\bar{c}_{p}$ being this
 time identified by $\psi_{R}$ with an element of $gr^{d}_{\mathfrak{K}}(N)$)
 
-$$ (19.7.1.23) \bar{c}_{p} \in gr^{d}_{\mathfrak{K}}(R, N). $$
+$$ \bar{c}_{p} \in \operatorname{gr}^{d}_{\mathfrak{K}}(R, N). \tag{19.7.1.23} $$
 
 But since $d < m$, the hypothesis that $(*_{d})$ is true implies that $\bar{c}_{p}$ belongs to the image of $\psi_{R}$,
 hence one may suppose that $c_{p} \in (R \cap \mathfrak{K}^{d} N) + \mathfrak{K}^{d+1} N + \mathfrak{L} N$. The relation
 `(19.7.1.21)` then gives
 
-```text
-                       ẑ ∈ 𝔍^h (R ∩ 𝔎^d N) + 𝔍^h 𝔎^{d+1} N + 𝔏^{h+1} N
-```
+$$ \hat{z} \in \mathfrak{J}^h (R \cap \mathfrak{K}^d N) + \mathfrak{J}^h \mathfrak{K}^{d+1} N + \mathfrak{L}^{h+1} N $$
 
 and since $\mathfrak{J} \subset \mathfrak{L}$, this proves `(19.7.1.19)`.
 
@@ -2044,7 +1974,7 @@ equivalent:*
 - *b) If $P(T)$ and $Q(T)$ are the Poincaré series of the $(A/\mathfrak{m})$-graded modules
   $gr^{\bullet}_{\mathfrak{m}}(M)$ and $gr^{\bullet}_{\mathfrak{K}}(M) \otimes_{A} (A/\mathfrak{m})$, one has*
 
-$$ (19.7.3.1) Q(T) = P(T)(1 - T)^{n}. $$
+$$ Q(T) = P(T)(1 - T)^{n}. \tag{19.7.3.1} $$
 
 Let $f = (f_{1}, \cdots, f_{n})$ be a sequence of elements of $A$ such that the images of the $f_{i}$ in
 $A/\mathfrak{K}$ form a regular system of parameters of $A/\mathfrak{K}$ `(0, 17.1.6)`, so that $f$ is an
@@ -2056,9 +1986,8 @@ $\psi_{M}$ is bijective is equivalent to saying that for every $h \geq 0$, $gr^{
 of elements of degree $h$ of $(gr^{\bullet}_{\mathfrak{K}}(M) \otimes_{A} (A/\mathfrak{m}))[T_{1}, \cdots, T_{n}]$ have
 the same rank over $A/\mathfrak{m}$. But for the second of these modules, the rank in question is evidently equal to
 
-```text
-                       Σ_{i+j = h} binom(n + j − 1, j) rank_{A/𝔪}(gr_𝔎^i(M) ⊗_A (A/𝔪)).
-```
+$$ \Sigma_{i+j = h} \binom{n + j - 1}{j} \operatorname{rank}_{A/\mathfrak{m}}(\operatorname{gr}_\mathfrak{K}^i(M)
+\otimes_A (A/\mathfrak{m})). $$
 
 As $(1 - T)^{-n} = \Sigma_{j} binom(n + j - 1, j) T^{j}$, this proves that the relation `(19.7.3.1)` is necessary and
 sufficient for $\psi_{M}$ to be bijective.
@@ -2072,9 +2001,7 @@ coherent $\mathcal{O}_{X}$-Module normally flat `(6.10.1)` along $Y$. Then there
 \mathbb{Q}[[T]]$ (independent of $x \in Y$) such that, for every $x \in Y$, the Poincaré series of
 $gr^{\bullet}_{\mathfrak{m}}(\mathcal{F}_{x})$ is given by the formula*
 
-```text
-  (19.7.4.1)             P_{ℱ(x)}(T) = R(T)(1 − T)^{-n}    where n = dim(𝒪_x).
-```
+$$ P_{\mathcal{F}(x)}(T) = R(T)(1 - T)^{-n} where n = \operatorname{dim}(\mathcal{O}_x). \tag{19.7.4.1} $$
 
 <!-- original page 219 -->
 
@@ -2133,32 +2060,32 @@ In this number, the notation and conventions on projective limits are those of `
 *Suppose that the transition morphisms $S_{\mu} \to S_{\lambda}$ ($\lambda \leq \mu$) are flat, and moreover that one of
 the two following hypotheses is satisfied:*
 
-- *1° The preschemes $S_{\lambda}$ are locally Noetherian.*
-- *2° The transition morphisms $S_{\mu} \to S_{\lambda}$ are surjective (hence faithfully flat).*
+- *$1^{\circ}$ The preschemes $S_{\lambda}$ are locally Noetherian.*
+- *$2^{\circ}$ The transition morphisms $S_{\mu} \to S_{\lambda}$ are surjective (hence faithfully flat).*
 
 <!-- original page 220 -->
 
 *Under these conditions:*
 
 *(i) Suppose $S_{\alpha}$ quasi-compact. Let $\mathcal{F}_{\alpha}$ be a quasi-coherent
-$\mathcal{O}_{S_{\alpha}}$-Module, which is moreover supposed of finite type when hypothesis 1° is satisfied. Let
-$(f_{i, \alpha})_{1 \leq i \leq n}$ be a finite sequence of sections of $\mathcal{O}_{S_{\alpha}}$ above $S_{\alpha}$.
-In order for the sequence of sections $f_{i}$ of the $\mathcal{O}_{S}$-Module $\mathcal{F}$ above $S$, corresponding to
-the $f_{i, \alpha}$ ($1 \leq i \leq n$), to be $\mathcal{F}$-regular, it is necessary and sufficient that there exist
-$\lambda \geq \alpha$ such that the sequence of sections $f_{i, \lambda}$ of $\mathcal{F}_{\lambda}$ above $S_{\lambda}$
-be $\mathcal{F}_{\lambda}$-regular.*
+$\mathcal{O}_{S_{\alpha}}$-Module, which is moreover supposed of finite type when hypothesis $1^{\circ}$ is satisfied.
+Let $(f_{i, \alpha})_{1 \leq i \leq n}$ be a finite sequence of sections of $\mathcal{O}_{S_{\alpha}}$ above
+$S_{\alpha}$. In order for the sequence of sections $f_{i}$ of the $\mathcal{O}_{S}$-Module $\mathcal{F}$ above $S$,
+corresponding to the $f_{i, \alpha}$ ($1 \leq i \leq n$), to be $\mathcal{F}$-regular, it is necessary and sufficient
+that there exist $\lambda \geq \alpha$ such that the sequence of sections $f_{i, \lambda}$ of $\mathcal{F}_{\lambda}$
+above $S_{\lambda}$ be $\mathcal{F}_{\lambda}$-regular.*
 
 *(ii) Suppose $X_{\alpha}$ quasi-compact, and let $j_{\alpha} : X_{\alpha} \to S_{\alpha}$ be an immersion, which one
-supposes locally of finite presentation when hypothesis 2° is satisfied. Then, in order for the corresponding immersion
-$j : X \to S$ to be regular, it is necessary and sufficient that there exist $\lambda \geq \alpha$ such that
+supposes locally of finite presentation when hypothesis $2^{\circ}$ is satisfied. Then, in order for the corresponding
+immersion $j : X \to S$ to be regular, it is necessary and sufficient that there exist $\lambda \geq \alpha$ such that
 $j_{\lambda} : X_{\lambda} \to S_{\lambda}$ be regular.*
 
 (i) If $p_{\alpha} : S \to S_{\alpha}$ is the canonical projection, one has $\mathcal{F}/(\Sigma f_{i} \mathcal{F}) =
 p^{*}_{\alpha}(\mathcal{F}_{\alpha}/(\Sigma f_{i, \alpha} \mathcal{F}_{\alpha}))$, hence one is reduced to the case $n =
 1$, in which case one suppresses the index $i$. The fact that the condition is sufficient follows from the fact that
-$p_{\alpha}$ is flat `(8.3.8)` and from `(0, 15.1.5)`. In case 2°, $p_{\alpha}$ is faithfully flat `(8.3.8)` and the
-necessity of the condition still follows from `(0, 15.2.5)`, with $\lambda = \alpha$. In case 1°, denote by
-$\mathcal{N}_{\alpha}$ (resp. $\mathcal{N}$) the kernel of the homomorphism $\mathcal{F}_{\alpha} \to
+$p_{\alpha}$ is flat `(8.3.8)` and from `(0, 15.1.5)`. In case $2^{\circ}$, $p_{\alpha}$ is faithfully flat `(8.3.8)`
+and the necessity of the condition still follows from `(0, 15.2.5)`, with $\lambda = \alpha$. In case $1^{\circ}$,
+denote by $\mathcal{N}_{\alpha}$ (resp. $\mathcal{N}$) the kernel of the homomorphism $\mathcal{F}_{\alpha} \to
 \mathcal{F}_{\alpha}$ (resp. $\mathcal{F} \to \mathcal{F}$), multiplication by $f_{\alpha}$ (resp. by $f$); since
 $\mathcal{F}_{\alpha}$ is coherent by hypothesis, so is $\mathcal{N}_{\alpha}$, hence the hypothesis $\mathcal{N} = 0$
 entails $\mathcal{N}_{\lambda} = 0$ for a $\lambda \geq \alpha$ by virtue of `(8.5.8, (ii))`.
@@ -2167,17 +2094,17 @@ entails $\mathcal{N}_{\lambda} = 0$ for a $\lambda \geq \alpha$ by virtue of `(8
 note that, since $j_{\alpha}(X_{\alpha})$ is quasi-compact, it is contained in a quasi-compact open of $S_{\alpha}$ and
 one may therefore limit oneself to the case where $S_{\alpha}$ is also quasi-compact and $j_{\alpha}$ a closed
 immersion, so that the image of $X_{\alpha}$ is defined by a quasi-coherent Ideal $\mathcal{J}_{\alpha}$ of
-$\mathcal{O}_{S_{\alpha}}$, which one may moreover suppose of finite type in cases 1° and 2° ($j_{\alpha}$ being locally
-of finite presentation in case 2°); the image of $X_{\alpha}$ (resp. $X$) in $S_{\alpha}$ (resp. $S$) is then defined by
-$\mathcal{J}_{\lambda} = (\mathcal{J}_{\alpha})_{\lambda}$ (resp. $\mathcal{J} = (\mathcal{J}_{\alpha})$) which is still
-of finite type. One may moreover, taking account of `(8.2.11)`, suppose that $\mathcal{J}$ is generated by a regular
-sequence $(f_{i})_{1 \leq i \leq n}$ of sections above $S$, which therefore define a surjective homomorphism $u :
-\mathcal{O}^{n}_{S} \to \mathcal{J}$. Taking account of `(8.5.2, (i))` and `(8.5.7)`, there exist $\lambda \geq \alpha$
-and a surjective homomorphism $u_{\lambda} : \mathcal{O}^{n}_{S_{\lambda}} \to \mathcal{J}_{\lambda}$ such that $u =
-p^{*}_{\lambda}(u_{\lambda})$, hence the $f_{i}$ are the canonical images of sections $f_{i, \lambda}$ of
-$\mathcal{J}_{\lambda}$ above $S_{\lambda}$ generating that Ideal. By virtue of (i), there exists therefore $\mu \geq
-\lambda$ such that the sequence $(f_{i, \mu})$ is $\mathcal{O}_{S_{\mu}}$-regular, hence the immersion $j_{\mu}$ is
-regular.
+$\mathcal{O}_{S_{\alpha}}$, which one may moreover suppose of finite type in cases $1^{\circ}$ and $2^{\circ}$
+($j_{\alpha}$ being locally of finite presentation in case $2^{\circ}$); the image of $X_{\alpha}$ (resp. $X$) in
+$S_{\alpha}$ (resp. $S$) is then defined by $\mathcal{J}_{\lambda} = (\mathcal{J}_{\alpha})_{\lambda}$ (resp.
+$\mathcal{J} = (\mathcal{J}_{\alpha})$) which is still of finite type. One may moreover, taking account of `(8.2.11)`,
+suppose that $\mathcal{J}$ is generated by a regular sequence $(f_{i})_{1 \leq i \leq n}$ of sections above $S$, which
+therefore define a surjective homomorphism $u : \mathcal{O}^{n}_{S} \to \mathcal{J}$. Taking account of `(8.5.2, (i))`
+and `(8.5.7)`, there exist $\lambda \geq \alpha$ and a surjective homomorphism $u_{\lambda} :
+\mathcal{O}^{n}_{S_{\lambda}} \to \mathcal{J}_{\lambda}$ such that $u = p^{*}_{\lambda}(u_{\lambda})$, hence the $f_{i}$
+are the canonical images of sections $f_{i, \lambda}$ of $\mathcal{J}_{\lambda}$ above $S_{\lambda}$ generating that
+Ideal. By virtue of (i), there exists therefore $\mu \geq \lambda$ such that the sequence $(f_{i, \mu})$ is
+$\mathcal{O}_{S_{\mu}}$-regular, hence the immersion $j_{\mu}$ is regular.
 
 **Proposition (19.8.2).**
 
@@ -2257,22 +2184,19 @@ neighbourhood of a point $x \in X$ (resp. in a neighbourhood of $x_{\lambda}$, p
 Recall that if $X$ is a locally Noetherian prescheme, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module, $T$ a part of
 $X$, one sets `(5.10.1)`
 
-```text
-  (19.9.1.1)             prof_T(ℱ) = inf_{t ∈ T} prof(ℱ_t).
-```
+$$ \operatorname{prof}_T(\mathcal{F}) = \operatorname{inf}_{t \in T} \operatorname{prof}(\mathcal{F}_t). \tag{19.9.1.1}
+$$
 
 One sets moreover, for every point $t \in T$,
 
-```text
-  (19.9.1.2)             prof_{T, t}(ℱ) = inf_{z ∈ T ∩ Spec(𝒪_{X, t})} prof(ℱ_z),
-```
+$$ \operatorname{prof}_{T, t}(\mathcal{F}) = \operatorname{inf}_{z \in T \cap \operatorname{Spec}(\mathcal{O}_{X, t})}
+\operatorname{prof}(\mathcal{F}_z), \tag{19.9.1.2} $$
 
 and one says that $prof_{T, t}(\mathcal{F})$ is the *$T$-depth* of $\mathcal{F}$ at the point $t$; it is clear that one
 has
 
-```text
-  (19.9.1.3)             prof_T(ℱ) = inf_{t ∈ T} prof_{T, t}(ℱ).
-```
+$$ \operatorname{prof}_T(\mathcal{F}) = \operatorname{inf}_{t \in T} \operatorname{prof}_{T, t}(\mathcal{F}).
+\tag{19.9.1.3} $$
 
 **Lemma (19.9.2).**
 
@@ -2292,10 +2216,10 @@ $\mathfrak{p} A_{\mathfrak{p}}$, and form an $M_{\mathfrak{p}}$-regular sequence
 from `(0, 16.4.6)` that one has $prof(N_{\mathfrak{p}}) = prof(M_{\mathfrak{p}}) - (r - 1) \geq 1$, and one sees that
 everything reduces to proving the lemma for $r = 1$. Now the hypothesis then signifies that, for every $\mathfrak{p}
 \supset \mathfrak{J}$, $\mathfrak{p} A_{\mathfrak{p}}$ is not associated to $M_{\mathfrak{p}}$ `(0, 16.4.6)`, hence
-(Bourbaki, *Alg. comm.*, chap. IV, §1, n° 2, prop. 5), $\mathfrak{p}$ is not associated to $M$. In other words,
+(Bourbaki, *Alg. comm.*, chap. IV, §1, n$^{\circ}$ 2, prop. 5), $\mathfrak{p}$ is not associated to $M$. In other words,
 $\mathfrak{J}$ is not contained in any of the prime ideals of $Ass(M)$, hence it is not contained in their union
-(Bourbaki, *Alg. comm.*, chap. II, §1, n° 1, prop. 2). But as this union is the set of elements which are not
-$M$-regular (Bourbaki, *Alg. comm.*, chap. IV, §1, n° 1, cor. 2 of prop. 2), this proves the lemma.
+(Bourbaki, *Alg. comm.*, chap. II, §1, n$^{\circ}$ 1, prop. 2). But as this union is the set of elements which are not
+$M$-regular (Bourbaki, *Alg. comm.*, chap. IV, §1, n$^{\circ}$ 1, cor. 2 of prop. 2), this proves the lemma.
 
 **Proposition (19.9.3).**
 
@@ -2341,7 +2265,7 @@ g^{-1}(Y)$, $\mathcal{F}' = g^{*}(\mathcal{F})$. Then, for every point $y' \in Y
 y'}(\mathcal{F}') = prof_{Y, y}(\mathcal{F})$.*
 
 Indeed, for every $z' \in \operatorname{Spec}(\mathcal{O}_{X', y'})$, it follows from $(0_{I}, 6.3.1)$ that one has
-$prof(\mathcal{F}'_{z'}) \geq prof(\mathcal{F}_{g(z')})$, and if `z''` is a maximal point of the fibre $g^{-1}(g(z'))$,
+$prof(\mathcal{F}'_{z'}) \geq prof(\mathcal{F}_{g(z')})$, and if $z''$ is a maximal point of the fibre $g^{-1}(g(z'))$,
 generization of $z'$ (hence belonging also to $\operatorname{Spec}(\mathcal{O}_{X', y'})$), one has $(0_{I}, 6.3.1)$
 $prof(\mathcal{F}'_{z''}) = prof(\mathcal{F}_{g(z'')})$. The proposition follows from the fact that one has
 $g(\operatorname{Spec}(\mathcal{O}_{X', y'})) = \operatorname{Spec}(\mathcal{O}_{X, g(y')})$ since $g$ is flat
@@ -2374,7 +2298,7 @@ sequence $(g_{i})_{1 \leq i \leq n}$ of sections of $\mathcal{J}$ above $U$, so 
 the maximal ideal $\mathfrak{m}_{y}$ of $\mathcal{O}_{X, y}$. The equivalence of a) and b) then follows from `(11.3.8)`,
 which also proves that the set $V_{n}$ is open in $Y$. It remains to prove the last assertion; as it is again a question
 of local properties on $X$, one may suppose $S = \operatorname{Spec}(A)$ affine and $X$ of finite presentation over $S$;
-there exists then a Noetherian subring `A_0` of $A$, a prescheme `X_0` of finite type over $S_{0} =
+there exists then a Noetherian subring $A_{0}$ of $A$, a prescheme $X_{0}$ of finite type over $S_{0} =
 \operatorname{Spec}(A_{0})$ and a coherent $\mathcal{O}_{X_{0}}$-Module $\mathcal{F}_{0}$ such that $X = X_{0}
 \times_{S_{0}} S$ and $\mathcal{F} = \mathcal{F}_{0} \otimes_{\mathcal{O}_{X_{0}}} \mathcal{O}_{X}$ `(8.9.1)`; one may
 moreover suppose that, if $f_{0} : X_{0} \to S_{0}$ is the structure morphism, $\mathcal{F}_{0}$ is $f_{0}$-flat
@@ -2385,13 +2309,12 @@ moreover suppose that, if $f_{0} : X_{0} \to S_{0}$ is the structure morphism, $
 that $Y = p^{-1}(Y_{0})$, where $p : X \to X_{0}$ is the canonical projection. Then, for every $y \in Y$, it follows
 from `(19.9.5)` and the transitivity of fibres that one has
 
-```text
-                       prof_{Y_{f(y)}, y}(ℱ_{f(y)}) = prof_{(Y_0)_{f_0(y_0)}, y_0}((ℱ_0)_{f_0(y_0)})
-```
+$$ \operatorname{prof}_{Y_{f(y)}, y}(\mathcal{F}_{f(y)}) = \operatorname{prof}_{(Y_0)_{f_0(y_0)},
+y_0}((\mathcal{F}_0)_{f_0(y_0)}) $$
 
 setting $y_{0} = p(y)$; if $V^{0}_{n}$ is the set of $y_{0} \in Y_{0}$ for which the second member of this relation is
-$\geq n$, one has therefore $V_{n} = p^{-1}(V^{0}_{n})$. As `X_0` is Noetherian, $V^{0}_{n}$ is a retrocompact open in
-`X_0`, and consequently (cf. proof of `(1.8.2)`) $V_{n}$ is retrocompact in $X$.
+$\geq n$, one has therefore $V_{n} = p^{-1}(V^{0}_{n})$. As $X_{0}$ is Noetherian, $V^{0}_{n}$ is a retrocompact open in
+$X_{0}$, and consequently (cf. proof of `(1.8.2)`) $V_{n}$ is retrocompact in $X$.
 
 **Corollary (19.9.7).**
 
@@ -2435,18 +2358,16 @@ $\mathcal{H}_{\alpha}$, it will be so for $\mathcal{H}$.
 
 It suffices moreover to prove that the canonical homomorphism
 
-```text
-                       Γ(X, ℋ) → Γ(X − Z, ℋ)
-```
+$$ \Gamma(X, \mathcal{H}) \to \Gamma(X - Z, \mathcal{H}) $$
 
-is injective (resp. bijective). There exists then a Noetherian subring `A_0` of $A$, an `A_0`-algebra of finite type
-`B_0`, an ideal $\mathfrak{J}_{0}$ of `B_0` and a `B_0`-module of finite type `M_0` which is
+is injective (resp. bijective). There exists then a Noetherian subring $A_{0}$ of $A$, an $A_{0}$-algebra of finite type
+$B_{0}$, an ideal $\mathfrak{J}_{0}$ of $B_{0}$ and a $B_{0}$-module of finite type $M_{0}$ which is
 
 <!-- original page 225 -->
 
-a flat `A_0`-module and an `A_0`-module `N_0` such that $B = B_{0} \otimes_{A_{0}} A$, $\mathfrak{J} = \mathfrak{J}_{0}
+a flat $A_{0}$-module and an $A_{0}$-module $N_{0}$ such that $B = B_{0} \otimes_{A_{0}} A$, $\mathfrak{J} = \mathfrak{J}_{0}
 B$, $M = M_{0} \otimes_{A_{0}} A$ and $N = N_{0} \otimes_{A_{0}} A$ `(8.9.1, 8.5.11 and 11.2.7)`. Moreover, let
-$(A_{\lambda})$ be the family of sub-`A_0`-algebras of finite type of $A$, so that $A = \lim A_{\lambda}$; set
+$(A_{\lambda})$ be the family of sub-$A_{0}$-algebras of finite type of $A$, so that $A = \lim A_{\lambda}$; set
 $B_{\lambda} = B_{0} \otimes_{A_{0}} A_{\lambda}$, $\mathfrak{J}_{\lambda} = \mathfrak{J}_{0} B_{\lambda}$, $M_{\lambda}
 = M_{0} \otimes_{A_{0}} A_{\lambda}$, $N_{\lambda} = N_{0} \otimes_{A_{0}} A_{\lambda}$, $S_{\lambda} =
 \operatorname{Spec}(A_{\lambda})$, $X_{\lambda} = \operatorname{Spec}(B_{\lambda})$, $Z_{\lambda} =
@@ -2485,9 +2406,7 @@ following generalization of `(19.9.8)`:
 Under the general conditions of `(19.9.8)`, suppose that, for every $x \in Z$, one has $prof((\mathcal{F}_{f(x)})_{x})
 \geq k$; then the canonical homomorphism
 
-```text
-                       H^i(X, ℋ) → H^i(X − Z, ℋ | (X − Z))
-```
+$$ H^i(X, \mathcal{H}) \to H^i(X - Z, \mathcal{H} | (X - Z)) $$
 
 is bijective for $i \leq k - 2$ and injective for $i = k - 1$ (which, expressed by means of the general cohomological
 notion of depth introduced in Chap. III, is also written $prof_{Z}(\mathcal{H}) \geq k$).

@@ -37,11 +37,11 @@ immersion of codimension `1`. The reader will therefore find it advantageous to 
 
 **(20.1.1).** Let $(X, \mathcal{O}_{X})$ be a ringed space, and let $\mathcal{S}$ be a subsheaf *of sets* of
 $\mathcal{O}_{X}$. For every open $U$ of $X$, consider the *ring of fractions* $\Gamma(U, \mathcal{O}_{X})[\Gamma(U,
-\mathcal{S})^{-1}]$ (Bourbaki, _Alg. comm._, chap. II, §2, n° 1). It is immediate that the map $U \mapsto \Gamma(U,
-\mathcal{O}_{X})[\Gamma(U, \mathcal{S})^{-1}]$ is a *presheaf of rings* $(0_{I}, 1.5.1 and 1.5.7)$. We denote by
-$\mathcal{O}_{X}[\mathcal{S}^{-1}]$ the *sheaf of rings* associated to this presheaf and we say that this is the *sheaf
-of rings of fractions of $\mathcal{O}_{X}$ with denominators in $\mathcal{S}$*; it is a *flat* $\mathcal{O}_{X}$-module.
-It is immediate that for every $x \in X$, one has a canonical isomorphism
+\mathcal{S})^{-1}]$ (Bourbaki, _Alg. comm._, chap. II, §2, n$^{\circ}$ 1). It is immediate that the map $U \mapsto
+\Gamma(U, \mathcal{O}_{X})[\Gamma(U, \mathcal{S})^{-1}]$ is a *presheaf of rings* $(0_{I}, 1.5.1 and 1.5.7)$. We denote
+by $\mathcal{O}_{X}[\mathcal{S}^{-1}]$ the *sheaf of rings* associated to this presheaf and we say that this is the
+*sheaf of rings of fractions of $\mathcal{O}_{X}$ with denominators in $\mathcal{S}$*; it is a *flat*
+$\mathcal{O}_{X}$-module. It is immediate that for every $x \in X$, one has a canonical isomorphism
 
 <!-- label: IV.20.1.1 -->
 
@@ -58,9 +58,8 @@ in $A = \lim A_{\alpha}$ of the inductive system of subsets $(S_{\alpha})$.
 
 **(20.1.2).** Let now $\mathcal{F}$ be an $\mathcal{O}_{X}$-module. One then sets
 
-```text
-  (20.1.2.1)             ℱ[𝒮⁻¹] = ℱ ⊗_{𝒪_X} 𝒪_X[𝒮⁻¹]
-```
+$$ \mathcal{F}[\mathcal{S}^{-1}] = \mathcal{F} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X}[\mathcal{S}^{-1}]
+\tag{20.1.2.1} $$
 
 and one says that this is the *sheaf of modules of fractions of $\mathcal{F}$ with denominators in $\mathcal{S}$*; it is
 immediate that it is associated to the presheaf of modules $U \mapsto \Gamma(U, \mathcal{F})[\Gamma(U,
@@ -81,9 +80,7 @@ is called the *sheaf of germs of meromorphic functions on $X$*, and the sections
 called the *meromorphic functions on $X$*; they form a ring which one denotes $M(X)$. For every $\mathcal{O}_{X}$-Module
 $\mathcal{F}$,
 
-```text
-                         ℱ ⊗_{𝒪_X} 𝓜_X = ℱ[𝒮⁻¹]
-```
+$$ \mathcal{F} \otimes_{\mathcal{O}_{X}} \mathcal{M}_{X} = \mathcal{F}[\mathcal{S}^{-1}] $$
 
 is also denoted $\mathcal{M}_{X}(\mathcal{F})$ and called the *sheaf of germs of meromorphic sections of $\mathcal{F}$*;
 its sections over $X$ form an $M(X)$-module denoted $M(X, \mathcal{F})$, whose elements are called *meromorphic sections
@@ -99,8 +96,8 @@ case where $U$ is affine, and an element of a reduced ring belonging to every mi
 The converse is true if the set of irreducible components of $X$ is *locally finite*. One is at once reduced to the case
 where $X = \operatorname{Spec}(A)$ is affine; if $\mathfrak{p}_{i}$ ($1 \leq i \leq n$) are the minimal prime ideals of
 $A$ and $s \in \mathfrak{p}_{i}$ for some index $i$, then there exists $t \in A$ such that $t \in \mathfrak{p}_{j}$ for
-$j \neq i$ and $t \notin \mathfrak{p}_{i}$ (Bourbaki, _Alg. comm._, chap. II, §1, n° 1, prop. 1); one therefore has $st
-\in \mathfrak{p}_{i}$ for every $i$, hence $st = 0$ since $A$ is reduced; so $s$ is not regular.
+$j \neq i$ and $t \notin \mathfrak{p}_{i}$ (Bourbaki, _Alg. comm._, chap. II, §1, n$^{\circ}$ 1, prop. 1); one therefore
+has $st \in \mathfrak{p}_{i}$ for every $i$, hence $st = 0$ since $A$ is reduced; so $s$ is not regular.
 
 **(20.1.4).** For every open $U$ of $X$, the homomorphism $t \mapsto t/1$ from $\Gamma(U, \mathcal{O}_{X})$ to
 $\Gamma(U, \mathcal{O}_{X})[\Gamma(U, \mathcal{S})^{-1}]$ (which is none other than the *total ring of fractions* of
@@ -119,9 +116,8 @@ calls this the *domain of definition* of $\phi$ and denotes it $dom(\phi)$.
 **(20.1.5).** For every $\mathcal{O}_{X}$-Module $\mathcal{F}$, one deduces from `(20.1.4.1)` a di-homomorphism formed
 of $i$ and the homomorphism of sheaves of additive groups
 
-```text
-  (20.1.5.1)             1_ℱ ⊗ i : ℱ → 𝓜_X(ℱ) = ℱ ⊗_{𝒪_X} 𝓜_X.
-```
+$$ 1_{\mathcal{F}} \otimes i : \mathcal{F} \to \mathcal{M}_{X}(\mathcal{F}) = \mathcal{F} \otimes_{\mathcal{O}_{X}}
+\mathcal{M}_{X}. \tag{20.1.5.1} $$
 
 One will note that the latter is no longer injective in general; when it is injective, one says that $\mathcal{F}$ is
 *strictly torsion-free*: this means that for every open $U$ of $X$ and every section $s \in \Gamma(U, \mathcal{O}_{X})$
@@ -137,7 +133,7 @@ to be strictly torsion-free, it is necessary and sufficient that $Ass(\mathcal{F
 
 One is at once reduced to the case where $X = \operatorname{Spec}(A)$ is affine, $\mathcal{F} = \tilde{M}$, and one
 knows that the elements $s$ of $A$ belonging to an ideal of $Ass(M)$ are exactly those for which the homothety $z
-\mapsto sz$ is not injective (Bourbaki, _Alg. comm._, chap. IV, §1, n° 1, cor. 2 of prop. 2).
+\mapsto sz$ is not injective (Bourbaki, _Alg. comm._, chap. IV, §1, n$^{\circ}$ 1, cor. 2 of prop. 2).
 
 **(20.1.7).** If $u$ is a section of $\mathcal{M}_{X}(\mathcal{F})$ over $X$, one says that $u$ is *defined* at a point
 $x \in X$ if there exists an open neighbourhood $V$ of $x$ in $X$ such that $u | V$ is the image of a section of
@@ -205,9 +201,7 @@ $k$, and one can send an element of $K$ to an element of $k$ only if it is alrea
 More generally, if $f = (\psi, \theta)$, denote, for every open $U$ of $X$, by $\mathcal{S}_{f}(U)$ the set of *regular*
 sections $s \in \Gamma(U, \mathcal{O}_{X})$ such that the image of $s$ under
 
-```text
-                         Γ(θ♯) : Γ(U, 𝒪_X) → Γ(f⁻¹(U), 𝒪_{X'})
-```
+$$ \Gamma(\theta\sharp) : \Gamma(U, \mathcal{O}_{X}) \to \Gamma(f^{-1}(U), \mathcal{O}_{X'}) $$
 
 is a regular section. It is immediate that $U \mapsto \mathcal{S}_{f}(U)$ is a *subsheaf* of the sheaf of sets
 $\mathcal{S}(\mathcal{O}_{X})$, which one denotes $\mathcal{S}_{f}$. One sets $\mathcal{M}_{f} =
@@ -217,7 +211,7 @@ $\mathcal{S}(\mathcal{O}_{X})$, which one denotes $\mathcal{S}_{f}$. One sets $\
 
 of rings of $\mathcal{M}_{X}$, and one canonically deduces from $\theta\sharp : \psi*(\mathcal{O}_{X}) \to
 \mathcal{O}_{X'}$ a homomorphism of sheaves of rings $\theta'\sharp : \psi*(\mathcal{M}_{f}) \to \mathcal{M}_{X'}$
-extending $\theta\sharp$ (Bourbaki, _Alg. comm._, chap. II, §2, n° 1, prop. 2); whence, recalling that
+extending $\theta\sharp$ (Bourbaki, _Alg. comm._, chap. II, §2, n$^{\circ}$ 1, prop. 2); whence, recalling that
 $f*(\mathcal{M}_{f}) = \psi*(\mathcal{M}_{f}) \otimes_{\psi*(\mathcal{O}_{X})} \mathcal{O}_{X'}$, a canonical
 homomorphism of $\mathcal{O}_{X'}$-Algebras
 
@@ -231,9 +225,7 @@ Similarly, if $\mathcal{F}$ is an $\mathcal{O}_{X}$-Module, one sets $\mathcal{M
 \otimes_{\mathcal{O}_{X}} \mathcal{M}_{f}$, and one immediately deduces from $\theta'\sharp$ a canonical homomorphism
 (also written $u \mapsto u \circ f$)
 
-```text
-                         Γ(X, 𝓜_f(ℱ)) → Γ(X', 𝓜_{X'}(f*(ℱ))).
-```
+$$ \Gamma(X, \mathcal{M}_{f}(\mathcal{F})) \to \Gamma(X', \mathcal{M}_{X'}(f*(\mathcal{F}))). $$
 
 Moreover, if $u \in \Gamma(X, \mathcal{M}_{f}(\mathcal{F}))$ is defined `(20.1.7)` at a point $x$, $u$ coincides, on a
 neighbourhood $U$ of $x$, with a section of the form $\sum_{i} h_{i} \otimes (t_{i} / s_{i})$, where the $h_{i}$ belong
@@ -346,9 +338,7 @@ $V$, and an $S$-morphism $u : U \to Y$ whose class in $Ps.hom_{S}(V, Y)$ equals 
 \operatorname{Spec}(\mathbb{Z})$), the set of $x \in X$ where $\omega$ is defined; it is evidently an open of $X$.
 Moreover, for every open $W$ of $X$, one has
 
-```text
-  (20.2.3.1)             dom_S(ω | W) = (dom_S(ω)) ∩ W
-```
+$$ dom_{S}(\omega | W) = (dom_{S}(\omega)) \cap W \tag{20.2.3.1} $$
 
 by virtue of the property of schematically dense opens recalled in `(20.2.2)`.
 
@@ -432,7 +422,7 @@ that, in the canonical correspondence between $\Gamma(V, \mathcal{O}_{X})$ and $
 
 of $X$), the invertible elements of $\Gamma(V, \mathcal{O}_{X})$ correspond to morphisms which factor as $V \to
 \operatorname{Spec}(\mathbb{Z}[T, T^{-1}]) \to \operatorname{Spec}(\mathbb{Z}[T])$. One concludes that the sheaf
-$\mathcal{M}'^{\times}_{X}$ of germs of invertible sections of $\mathcal{M}'_{X}$ identifies canonically with the sheaf
+${\mathcal{M}'}^{\times}_{X}$ of germs of invertible sections of $\mathcal{M}'_{X}$ identifies canonically with the sheaf
 $\mathcal{Ps}.hom(X, X \otimes_{\mathbb{Z}} \mathbb{Z}[T, T^{-1}])$.
 
 **Lemma (20.2.9).**
@@ -459,7 +449,7 @@ $$ (20.2.10.1) \mathcal{M}_{X} \to \mathcal{M}'_{X} $$
 
 which, by restriction, evidently gives a homomorphism of sheaves of abelian groups
 
-$$ (20.2.10.2) \mathcal{M}^{\times}_{X} \to \mathcal{M}'^{\times}_{X} $$
+$$ (20.2.10.2) \mathcal{M}^{\times}_{X} \to {\mathcal{M}'}^{\times}_{X} $$
 
 for the sheaves of germs of invertible sections of $\mathcal{M}_{X}$ and $\mathcal{M}'_{X}$.
 
@@ -477,9 +467,7 @@ the canonical homomorphism $M(X) \to M'(X)$ is always injective, and that it is 
 (ii). Taking into account the definition of the sheaf $\mathcal{M}_{X}$ `(20.1.3)`, one may moreover note that
 `(20.2.10.1)` actually comes from a homomorphism of presheaves
 
-```text
-                         Γ(U, 𝒪_X)[Γ(U, 𝒮)⁻¹] → Γ(U, 𝓜'_X)
-```
+$$ \Gamma(U, \mathcal{O}_{X})[\Gamma(U, \mathcal{S})^{-1}] \to \Gamma(U, \mathcal{M}'_{X}) $$
 
 and it suffices to show that, for $U$ affine, this latter is injective (resp. bijective under the hypotheses of (ii)).
 Denoting by $S$ the set of regular elements of $A$ (so that $S^{-1}A$ is the total ring of fractions of $A$), one must
@@ -505,8 +493,8 @@ ideals $\mathfrak{p}_{i}$; as $A$ is reduced, the intersection of the $\mathfrak
 $t$ is regular is therefore equivalent to saying that $t$ does not belong to any of the $\mathfrak{p}_{i}$; one
 concludes by the reasoning of `(I, 7.1.9.1)`. When $A$ is Noetherian, saying that $U = X - Y$ (where $Y =
 V(\mathfrak{i})$ is closed in $X$) is schematically dense means `(5.10.2)` that $Y$ does not meet
-$Ass(\mathcal{O}_{X})$, and by virtue of Bourbaki, _Alg. comm._, chap. IV, §1, n° 4, prop. 8, this entails the existence
-of a $t \in \mathfrak{i}$ such that $t$ is $A$-regular, hence $U \supset D(t)$.
+$Ass(\mathcal{O}_{X})$, and by virtue of Bourbaki, _Alg. comm._, chap. IV, §1, n$^{\circ}$ 4, prop. 8, this entails the
+existence of a $t \in \mathfrak{i}$ such that $t$ is $A$-regular, hence $U \supset D(t)$.
 
 One has moreover proved in the course of this proof the
 
@@ -541,7 +529,7 @@ where $S$ is the set of regular elements of $A$, the complement of the union of 
 the other hand, $R(X)$ identifies with $Q^{-1}A$, where $Q$ is the complement of the union of the minimal prime ideals
 of $A$ `(I, 7.1.9)`, and the canonical homomorphism $A \to Q^{-1}A$ (and *a fortiori* $S^{-1}A \to Q^{-1}A$) is
 therefore not injective, since there exist in $A - Q$ elements $\neq 0$ of $A$ annihilated by elements of $Q$ (Bourbaki,
-_Alg. comm._, chap. IV, §1, n° 1, cor. 2 of prop. 1).
+_Alg. comm._, chap. IV, §1, n$^{\circ}$ 1, cor. 2 of prop. 1).
 
 (iii) One will note that even when $X$ is locally Noetherian, the $\mathcal{O}_{X}$-Module $\mathcal{M}_{X}$ is not
 necessarily quasi-coherent. Consider for example a Noetherian local ring $A$ of dimension $\geq 2$, whose maximal ideal
@@ -561,16 +549,16 @@ contain the set $Ass(\mathcal{O}_{X})$.
 **(20.2.14).** Let $X$ be a prescheme, $\mathcal{F}$ a quasi-coherent and *strictly torsion-free*
 $\mathcal{O}_{X}$-Module `(20.1.5)`, so that $\mathcal{F}$ identifies with an $\mathcal{O}_{X}$-submodule of
 $\mathcal{M}_{X}(\mathcal{F})$. For every meromorphic section $u$ of $\mathcal{F}$ over $X$, one calls *Ideal of
-denominators of $u$* the annihilator $\mathcal{J}$ of the section `ū` image of $u$ in $\mathcal{M}_{X}(\mathcal{F}) /
-\mathcal{F}$. The Ideal $\mathcal{J}$ is quasi-coherent: indeed, the question being local on $X$, one may restrict to
-the case where $X$ is affine, and there exists a section $s \in \Gamma(X, \mathcal{S}(\mathcal{O}_{X}))$ such that $v =
-su \in \Gamma(X, \mathcal{F})$. To say that, for an open $U \subset X$, a section $f \in \Gamma(U, \mathcal{O}_{X})$
-belongs to $\Gamma(U, \mathcal{J})$ means that $f (u | U) \in \Gamma(U, \mathcal{F})$, and since $s | U$ is a regular
-element of $\Gamma(U, \mathcal{O}_{X})$ and $\mathcal{F}$ is strictly torsion-free, the preceding relation is again
-equivalent to $f ((sv) | U) \in \Gamma(U, s\mathcal{F})$; if $\bar{v}$ is the section of $\mathcal{F} / s\mathcal{F}$
-which is the canonical image of $v$, one sees therefore that $\mathcal{J}$ is the kernel of the homomorphism
-$\mathcal{O}_{X} \to \mathcal{F} / s\mathcal{F}$ obtained by multiplication by the section $\bar{v}$. As $\mathcal{F} /
-s\mathcal{F}$ is quasi-coherent, so is $\mathcal{J}$.
+denominators of $u$* the annihilator $\mathcal{J}$ of the section $\bar{u}$ image of $u$ in
+$\mathcal{M}_{X}(\mathcal{F}) / \mathcal{F}$. The Ideal $\mathcal{J}$ is quasi-coherent: indeed, the question being
+local on $X$, one may restrict to the case where $X$ is affine, and there exists a section $s \in \Gamma(X,
+\mathcal{S}(\mathcal{O}_{X}))$ such that $v = su \in \Gamma(X, \mathcal{F})$. To say that, for an open $U \subset X$, a
+section $f \in \Gamma(U, \mathcal{O}_{X})$ belongs to $\Gamma(U, \mathcal{J})$ means that $f (u | U) \in \Gamma(U,
+\mathcal{F})$, and since $s | U$ is a regular element of $\Gamma(U, \mathcal{O}_{X})$ and $\mathcal{F}$ is strictly
+torsion-free, the preceding relation is again equivalent to $f ((sv) | U) \in \Gamma(U, s\mathcal{F})$; if $\bar{v}$ is
+the section of $\mathcal{F} / s\mathcal{F}$ which is the canonical image of $v$, one sees therefore that $\mathcal{J}$
+is the kernel of the homomorphism $\mathcal{O}_{X} \to \mathcal{F} / s\mathcal{F}$ obtained by multiplication by the
+section $\bar{v}$. As $\mathcal{F} / s\mathcal{F}$ is quasi-coherent, so is $\mathcal{J}$.
 
 It follows at once from the foregoing definition that $dom(u)$ is the open complement of the closed subprescheme of $X$
 defined by the Ideal of denominators of $u$.
@@ -644,9 +632,7 @@ For $f : X' \to X$ given, one denotes by $Ps.hom_{S}(X, Y)^{f}$ the set of pseud
 satisfying the foregoing condition. If $\omega$ is such a pseudo-$S$-morphism, it is clear that for every open $V$ of
 $X$,
 
-```text
-                         f⁻¹(dom_S(ω | V)) = f⁻¹(V ∩ dom_S(ω)) = f⁻¹(V) ∩ f⁻¹(dom_S(ω))
-```
+$$ f^{-1}(dom_{S}(\omega | V)) = f^{-1}(V \cap dom_{S}(\omega)) = f^{-1}(V) \cap f^{-1}(dom_{S}(\omega)) $$
 
 is schematically dense in $f^{-1}(V)$, so, if $f^{V} : f^{-1}(V) \to V$ is the restriction of $f$, the composite
 $(\omega | V) \circ f^{V}$ is defined and equal to $(\omega \circ f) | f^{-1}(V)$. One thus defines a
@@ -659,13 +645,11 @@ sheaf of sets which one denotes $\mathcal{Ps}.hom_{S}(X, Y)^{f}$. Moreover, for 
 $\omega \mapsto \omega \circ f^{V}$ from $Ps.hom_{S}(V, Y)^{f^{V}}$ to $Ps.hom_{S}(f^{-1}(V), Y)$, which therefore
 defines an $f$-morphism of sheaves of sets
 
-```text
-                         𝒫𝓈.hom_S(X, Y)^f → 𝒫𝓈.hom_S(X', Y).
-```
+$$ \mathcal{Ps}.hom_{S}(X, Y)^{f} \to \mathcal{Ps}.hom_{S}(X', Y). $$
 
-**(20.3.3).** Let now $f' : X'' \to X'$ be an $S$-morphism such that the open $f'^{-1}(f^{-1}(dom_{S}(\omega)))$ is
+**(20.3.3).** Let now $f' : X'' \to X'$ be an $S$-morphism such that the open ${f'}^{-1}(f^{-1}(dom_{S}(\omega)))$ is
 schematically dense in `X''`; then $\omega \circ (f \circ f')$ is defined and $u \circ f \circ f'$ belongs to this
-pseudo-$S$-morphism; moreover, by virtue of `(20.3.2.1)`, $f'^{-1}(dom_{S}(\omega \circ f))$ is *a fortiori*
+pseudo-$S$-morphism; moreover, by virtue of `(20.3.2.1)`, ${f'}^{-1}(dom_{S}(\omega \circ f))$ is *a fortiori*
 schematically dense in `X''`, so $(\omega \circ f) \circ f'$ is also defined and $u \circ f \circ f'$ belongs to this
 pseudo-$S$-morphism, so one has $(\omega \circ f) \circ f' = \omega \circ (f \circ f')$.
 
@@ -721,11 +705,10 @@ pseudo-$S$-morphism $\omega$ of $X$ into $Y$, the composite $\omega \circ j$ is 
 pseudo-$S$-morphism of $\operatorname{Spec}(\mathcal{O}_{X,x})$ into $Y$, called the *restriction of $\omega$ to
 $\operatorname{Spec}(\mathcal{O}_{X,x})$*. Note now that if $X$ satisfies condition a) (resp. b)) of `(20.3.6)`, so does
 every prescheme induced on an open $U$ of $X$ containing $x$. By passage to the inductive limit, one therefore deduces,
-from the canonical maps `Ps.hom_S(U, Y) → Ps.hom_S(Spec(𝒪_{X,x}), Y)` thus obtained, a canonical map
+from the canonical maps $Ps.hom_{S}(U, Y) \to Ps.hom_{S}(\operatorname{Spec}(\mathcal{O}_{X,x}), Y)$ thus obtained, a
+canonical map
 
-```text
-  (20.3.6.1)             (𝒫𝓈.hom_S(X, Y))_x → Ps.hom_S(Spec(𝒪_{X,x}), Y)
-```
+$$ (\mathcal{Ps}.hom_{S}(X, Y))_{x} \to Ps.hom_{S}(\operatorname{Spec}(\mathcal{O}_{X,x}), Y) \tag{20.3.6.1} $$
 
 where the first member is the fibre at the point $x$ of the sheaf $\mathcal{Ps}.hom_{S}(X, Y)$, the set of germs at $x$
 of pseudo-$S$-morphisms from open neighbourhoods of $x$ into $Y$.
@@ -756,18 +739,14 @@ $X_{\mu}$.*
 
 *Then the canonical map*
 
-```text
-  (20.3.8.1)             lim Ps.hom_{S_λ}(X_λ, Y_λ) → Ps.hom_S(X, Y)
-```
+$$ \varinjlim Ps.hom_{S_{\lambda}}(X_{\lambda}, Y_{\lambda}) \to Ps.hom_{S}(X, Y) \tag{20.3.8.1} $$
 
 *is injective (resp. bijective).*
 
 Note first that, in case (i), the morphisms $X_{\lambda} \to X_{\mu}$ (for $\lambda \geq \mu$) and $X \to X_{\lambda}$
 are flat, so it follows from `(20.3.4)` and `(20.3.5)` that the canonical maps
 
-```text
-                         Ps.hom_{S_μ}(X_μ, Y_μ) → Ps.hom_{S_λ}(X_λ, Y_λ)
-```
+$$ Ps.hom_{S_{\mu}}(X_{\mu}, Y_{\mu}) \to Ps.hom_{S_{\lambda}}(X_{\lambda}, Y_{\lambda}) $$
 
 <!-- original page 240 -->
 
@@ -813,12 +792,12 @@ the underlying sets of the $S_{\lambda}$ `(8.2.9)`. Conversely, let $s$ be a max
 belongs to $\lim M_{\lambda}$. Let $s_{\lambda}$ be the image of $s$ in $S_{\lambda}$, $M'_{\lambda}$ the set of maximal
 points of $S_{\lambda}$ which are generizations of $s_{\lambda}$; the $M'_{\lambda}$ are non-empty finite sets, which
 form a projective system, so $M' = \lim M'_{\lambda}$ is non-empty and the map $M' \to M'_{\lambda}$ is surjective
-(Bourbaki, _Ens._, chap. III, 2nd ed., §7, n° 4, Example I). On the other hand, one has
-`Spec(𝒪_{S,s}) = lim Spec(𝒪_{S_λ, s_λ})` by virtue of `(8.2.12)` and `(8.2.9)`, so the points of $\lim M'_{\lambda}$ are
-also maximal points of $\operatorname{Spec}(\mathcal{O}_{S,s})$ by the first part of the reasoning. Hence $M' = \lim
-M'_{\lambda}$ necessarily reduces to the point $s$; one concludes that $M'_{\lambda}$ reduces to the point
-$s_{\lambda}$, and consequently the $s_{\lambda}$ are maximal in the $S_{\lambda}$, which finishes the proof of the
-lemma.
+(Bourbaki, _Ens._, chap. III, 2nd ed., §7, n$^{\circ}$ 4, Example I). On the other hand, one has
+$\operatorname{Spec}(\mathcal{O}_{S,s}) = \varprojlim \operatorname{Spec}(\mathcal{O}_{S_{\lambda}, s_{\lambda}})$ by
+virtue of `(8.2.12)` and `(8.2.9)`, so the points of $\lim M'_{\lambda}$ are also maximal points of
+$\operatorname{Spec}(\mathcal{O}_{S,s})$ by the first part of the reasoning. Hence $M' = \lim M'_{\lambda}$ necessarily
+reduces to the point $s$; one concludes that $M'_{\lambda}$ reduces to the point $s_{\lambda}$, and consequently the
+$s_{\lambda}$ are maximal in the $S_{\lambda}$, which finishes the proof of the lemma.
 
 **Lemma (20.3.8.4).**
 
@@ -1029,13 +1008,13 @@ graph of a pseudo-$S$-morphism, restrict to the case where $Y$ is separated over
 **(20.4.2).** Suppose then $\Gamma_{\omega}$ defined and $Y$ separated over $S$; denote by $p$ and $q$ the restrictions
 to $\Gamma_{\omega}$ of the canonical projections
 
-```text
-                              X ×_S Y
-                              ╱      ╲
-                             p        q
-                            ╱          ╲
-                           X            Y
-```
+$$
+\begin{array}{ccc}
+ & X \times_{S} Y & \\
+\swarrow{\scriptstyle p} & & \searrow{\scriptstyle q} \\
+X & & Y
+\end{array}
+$$
 
 Then, if $U \subset dom_{S}(\omega)$, the restriction $p^{-1}(U) \to U$ of $p$ is an isomorphism `(I, 5.3.11)`;
 conversely, if $U$ is an open of $X$ having this property, and if $u$ is the inverse isomorphism of the restriction
@@ -1119,14 +1098,13 @@ U' \to Y$ is the given $S$-morphism $h_{x}$, it is necessary and sufficient that
 morphism $u : S_{1} \to X$ such that $u(a) = x$, $u(b) \in U$, the composite morphism $h'_{1} = h \circ (u | {b}) : {b}
 = u^{-1}(U) \to Y$ extends to a morphism $h'_{1} : S_{1} \to Y$ such that the diagram*
 
-```text
-                         Spec(k(a)) ────→ S_1
-                              │            │
-                              │            │ h'_1
-                              ↓            ↓
-                         Spec(k(x)) ────→ Y
-                                    h_x
-```
+$$
+\begin{array}{ccc}
+\operatorname{Spec}(k(a)) & \longrightarrow & S_{1} \\
+\downarrow & & \downarrow{\scriptstyle h'_{1}} \\
+\operatorname{Spec}(k(x)) & \xrightarrow{h_{x}} & Y
+\end{array}
+$$
 
 *is commutative.*
 
@@ -1230,14 +1208,13 @@ $h' : X \to Y$ extending $h$ and $h_{0}$, it is necessary and sufficient that th
 $u : S_{1} \to S$ such that $u(a) \in T$ and $u(b) \in U$, there exists an `S_1`-morphism $h'_{1} : X_{(S_{1})} \to
 Y_{(S_{1})}$ extending $h_{1} : f^{-1}(b) \to Y_{b}$ and such that the diagram*
 
-```text
-                         Spec(k(z)) ────→ Z_{(S_1)}
-                              │              │
-                              │              │ h_0(S_1)
-                              ↓              ↓
-                          X_{(S_1)} ────→ Y_{(S_1)}
-                                     h'_1
-```
+$$
+\begin{array}{ccc}
+\operatorname{Spec}(k(z)) & \longrightarrow & Z_{(S_{1})} \\
+\downarrow & & \downarrow{\scriptstyle h_{0(S_{1})}} \\
+X_{(S_{1})} & \xrightarrow{h'_{1}} & Y_{(S_{1})}
+\end{array}
+$$
 
 *is commutative for every $z \in Z_{(S_{1})}$.*
 
@@ -1277,7 +1254,7 @@ As $B$ is a quotient of a polynomial algebra $A[(T_{\lambda})]_{\lambda \in L}$,
 X[(T_{\lambda})]_{\lambda \in L}$. On the other hand, the hypothesis on $Z$ entails that $U$ is schematically dense in
 $X$ by virtue of `(20.2.13, (iv))` and `(5.10.2)`. If one proves that every $X$-morphism $u : U \to Y'$ extends in a
 unique way to an $X$-morphism $v' : X \to Y'$, it will result that $v'$ factors as $X \to Y \to Y'$: indeed, the
-sub-prescheme $v'^{-1}(Y)$ is closed and majorizes $U$ `(I, 4.4.1)`, so is identical to $X$ `(20.3.8.8)`. Under these
+sub-prescheme ${v'}^{-1}(Y)$ is closed and majorizes $U$ `(I, 4.4.1)`, so is identical to $X$ `(20.3.8.8)`. Under these
 conditions, $v$ will be the unique $S$-morphism of $X$ into $Y$ extending $u$. One may therefore restrict to the case $Y
 = Y'$. But then there is a biunivocal correspondence between the $X$-morphisms from an open $U \subset X$ into $Y'$ and
 the families $(s_{\lambda})_{\lambda \in L}$ of sections of $\mathcal{O}_{X}$ over $U$ `(II, 1.7.9)`; the conclusion
@@ -1310,9 +1287,7 @@ dense, the elements of a pseudo-morphism
 
 of $X$ into $Y$ relative to $S$ are equivalent in the sense of `(20.2.1)`, whence a canonical map
 
-```text
-  (20.5.2.1)             Ps.hom_{X/S}(X, Y) → Ps.hom_S(X, Y).
-```
+$$ Ps.hom_{X/S}(X, Y) \to Ps.hom_{S}(X, Y). \tag{20.5.2.1} $$
 
 **Proposition (20.5.3).**
 
@@ -1347,10 +1322,10 @@ morphism $X \to S$, $dom_{S}(\omega) \cap X_{s}$ is schematically dense in $X_{s
 **(20.5.4).** A particularly important case where $Y$ is separated over $S$ is the case $Y = S[T] = S
 \otimes_{\mathbb{Z}} \operatorname{Spec}(\mathbb{Z}[T])$ ($T$ indeterminate). There is then a biunivocal correspondence
 between the pseudo-$S$-morphisms of $X$ into $Y$ and the pseudo-functions on $X$ `(20.2.8)` by virtue of the definition
-of a product of ℤ-preschemes. The pseudo-morphisms of $X$ into $Y$ relative to $S$ then identify, by virtue of
-`(20.5.3)`, with the *pseudo-functions $\phi$ on $X$ such that $dom(\phi)$ is universally schematically dense relative
-to $S$*. The sheaf $\mathcal{Ps}.hom_{X/S}(X, Y)$ is a subsheaf of *rings* of $\mathcal{M}'_{X}$, which one denotes
-$\mathcal{M}'_{X/S}$.
+of a product of $\mathbf{Z}$-preschemes. The pseudo-morphisms of $X$ into $Y$ relative to $S$ then identify, by virtue
+of `(20.5.3)`, with the *pseudo-functions $\phi$ on $X$ such that $dom(\phi)$ is universally schematically dense
+relative to $S$*. The sheaf $\mathcal{Ps}.hom_{X/S}(X, Y)$ is a subsheaf of *rings* of $\mathcal{M}'_{X}$, which one
+denotes $\mathcal{M}'_{X/S}$.
 
 One then sets $Ps.hom_{X/S}(X, Y) = M'(X/S)$ and one says that its elements are the *pseudo-functions on $X$ relative to
 $S$*.
@@ -1427,9 +1402,7 @@ $\phi_{s}$.
 
 **(20.6.2).** Now let $\mathcal{F}$ be a quasi-coherent $\mathcal{O}_{X}$-Module; one sets
 
-```text
-  (20.6.2.1)             𝓜_{X/S}(ℱ) = ℱ ⊗_{𝒪_X} 𝓜_{X/S};
-```
+$$ \mathcal{M}_{X/S}(\mathcal{F}) = \mathcal{F} \otimes_{\mathcal{O}_{X}} \mathcal{M}_{X/S}; \tag{20.6.2.1} $$
 
 the sections of $\mathcal{M}_{X/S}(\mathcal{F})$ are called *meromorphic sections of $\mathcal{F}$ over $X$, relative to
 $S$* and their set is denoted $M(X/S, \mathcal{F})$. The canonical homomorphism $\mathcal{F} \to
@@ -1475,16 +1448,16 @@ $dom(\phi) \cap X_{s}$ is schematically dense in the locally Noetherian preschem
 contains $Ass(\mathcal{O}_{X_{s}})$; this implies that the ideal $\mathcal{J}_{x}$ of $\mathcal{O}_{X,x}$ has an image
 in $\mathcal{O}_{X_{s}, x} = \mathcal{O}_{X,x} / \mathfrak{m}_{s} \mathcal{O}_{X,x}$ which is not contained in any of
 the prime ideals $\mathfrak{p}_{i} \in Ass(\mathcal{O}_{X_{s}, x})$ (finite in number); hence (Bourbaki, _Alg. comm._,
-chap. II, §1, n° 1, prop. 2) there exists an element $t_{x} \in \mathcal{J}_{x}$ whose image in $\mathcal{O}_{X_{s}, x}$
-does not belong to any of the $\mathfrak{p}_{i}$, and is consequently regular in this Noetherian ring. Let $t$ be a
-section of $\mathcal{J}$ over an affine open neighbourhood $U$ of $x$ whose germ at the point $x$ is $t_{x}$; since $X$
-is flat and locally of finite presentation over $S$, one may suppose `(11.3.8)` that $t$ is a regular section of
-$\mathcal{O}_{X}$ over $U$ and that, for every $s' \in S$, the image of $t$ in $\Gamma(U \cap X_{s'},
-\mathcal{O}_{X_{s'}})$ is also regular; in other words, one has $t \in \mathcal{S}_{X/S}(U)$. But then, by definition of
-$\mathcal{J}$, since $\mathcal{F}$ is strictly torsion-free, $t(\phi | (U \cap dom(\phi)))$ is a section $u$ of
-$\mathcal{F}$ over $U \cap dom(\phi)$; on the other hand, $U \cap dom(\phi)$ contains the open set $U_{t}$ of points $x'
-\in U$ where $t(x') \neq 0$, and this latter contains $x$ and is schematically dense in $U$ `(20.2.9)`. One therefore
-sees that on $U_{t}$, $\phi$ coincides with the restriction to $U_{t}$ of the section $u/t$ of
+chap. II, §1, n$^{\circ}$ 1, prop. 2) there exists an element $t_{x} \in \mathcal{J}_{x}$ whose image in
+$\mathcal{O}_{X_{s}, x}$ does not belong to any of the $\mathfrak{p}_{i}$, and is consequently regular in this
+Noetherian ring. Let $t$ be a section of $\mathcal{J}$ over an affine open neighbourhood $U$ of $x$ whose germ at the
+point $x$ is $t_{x}$; since $X$ is flat and locally of finite presentation over $S$, one may suppose `(11.3.8)` that $t$
+is a regular section of $\mathcal{O}_{X}$ over $U$ and that, for every $s' \in S$, the image of $t$ in $\Gamma(U \cap
+X_{s'}, \mathcal{O}_{X_{s'}})$ is also regular; in other words, one has $t \in \mathcal{S}_{X/S}(U)$. But then, by
+definition of $\mathcal{J}$, since $\mathcal{F}$ is strictly torsion-free, $t(\phi | (U \cap dom(\phi)))$ is a section
+$u$ of $\mathcal{F}$ over $U \cap dom(\phi)$; on the other hand, $U \cap dom(\phi)$ contains the open set $U_{t}$ of
+points $x' \in U$ where $t(x') \neq 0$, and this latter contains $x$ and is schematically dense in $U$ `(20.2.9)`. One
+therefore sees that on $U_{t}$, $\phi$ coincides with the restriction to $U_{t}$ of the section $u/t$ of
 $\mathcal{M}_{X/S}(\mathcal{F})$ over $U$. Q.E.D.
 
 **Remarks (20.6.5).**
