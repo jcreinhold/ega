@@ -161,13 +161,14 @@ ring, a separated morphism $f : Y' \to Y$, and a $Y$-rational map $g$ from $Y'$ 
 point of $Y'$ by $a$ and its generic point by $b$, one has $f(a) = y'$, $f(b) = y$, $g(b) = x$, and such that in the
 commutative diagram
 
-```text
-                       κ(x)
-                      ↗     ↘ γ
-                   π /        ↘
-                    /           ↘
-              κ(y) ────φ────→ κ(b)                                       (7.1.9.1)
-```
+$$
+\begin{array}{ccc}
+ & \kappa(x) & \\
+{\scriptstyle \pi}\nearrow & & \searrow{\scriptstyle \gamma} \\
+\kappa(y) & \xrightarrow{\phi} & \kappa(b)
+\end{array}
+\tag{7.1.9.1}
+$$
 
 (where $\pi$, $\phi$, $\gamma$ are the homomorphisms corresponding to $p$, $f$, $g$ respectively), $\gamma$ is a
 bijection.
@@ -200,12 +201,13 @@ implies (a), consider a closed subset $X'$ of the underlying space $X$; let $Y' 
 f(X')$. Consider the closed reduced subpreschemes of $X$ and $Y$ having $X'$ and $Y'$ respectively as their underlying
 spaces `(I, 5.2.1)`; there is then a morphism $f' : X' \to Y'$ such that the diagram
 
-```text
-   X' ──f'──→ Y'
-   │          │
-   ↓          ↓
-   X  ──f──→  Y
-```
+$$
+\begin{array}{ccc}
+X' & \xrightarrow{f'} & Y' \\
+\downarrow & & \downarrow \\
+X & \xrightarrow{f} & Y
+\end{array}
+$$
 
 commutes `(I, 5.2.2)`, and since $f$ is quasi-compact, so too is $f'$. We are thus reduced to proving that if $f$ is a
 quasi-compact and _dominant_ morphism, then
@@ -297,7 +299,7 @@ Let $A$ be a valuation ring, $Y = \operatorname{Spec}(A)$, $b$ the generic point
 the _rational $Y$-sections_ of $X$ are in bijective correspondence with the _germs_ of $Y$-sections (defined in
 neighbourhoods of $b$) at the point $b$, whence a canonical map
 
-$$ \Gamma_{rat}(X/Y) \to \Gamma(f^{-1}(b)/\operatorname{Spec}(K)) (7.3.2.1) $$
+$$ \Gamma_{rat}(X/Y) \to \Gamma(f^{-1}(b)/\operatorname{Spec}(K)) \tag{7.3.2.1} $$
 
 the elements of $\Gamma(f^{-1}(b)/\operatorname{Spec}(K))$ being identified, by definition `(I, 3.4.5)`, with the points
 of $f^{-1}(b) = X \otimes_{A} K$ that are rational over $K$. When $f$ is _separated_, it follows from `(I, 5.4.7)` that
@@ -305,7 +307,7 @@ the map (7.3.2.1) is _injective_, since $Y$ is an integral scheme.
 
 Composing (7.3.2.1) with the canonical map $\Gamma(X/Y) \to \Gamma_{rat}(X/Y)$ `(I, 7.1.2)`, we obtain a canonical map
 
-$$ \Gamma(X/Y) \to \Gamma(f^{-1}(b)/\operatorname{Spec}(K)). (7.3.2.2) $$
+$$ \Gamma(X/Y) \to \Gamma(f^{-1}(b)/\operatorname{Spec}(K)). \tag{7.3.2.2} $$
 
 When $f$ is _separated_, this map is again _injective_ `(I, 5.4.7)`.
 
@@ -390,9 +392,7 @@ morphism of finite type). The following conditions are equivalent:
 (b) For every $Y$-scheme of the form $Y' = \operatorname{Spec}(A)$, where $A$ is a valuation ring (resp. a discrete
 valuation ring) with field of fractions $K$, the canonical map
 
-```text
-  Hom_Y(Y', X) → Hom_Y(Spec(K), X)
-```
+$$ \operatorname{Hom}_{Y}(Y', X) \to \operatorname{Hom}_{Y}(\operatorname{Spec}(K), X) $$
 
 corresponding to the canonical injection $A \to K$ is surjective (resp. bijective).
 
@@ -484,13 +484,13 @@ finite type, we may apply Chow's lemma (5.6.1) in both cases. There is then a pr
 immersion morphism $j : X' \to P$, and a projective, surjective, and birational morphism $g : X' \to X$ (with $X'$
 integral) such that the diagram
 
-```text
-   P ←──j── X'
-   │        │
-  p│       g│
-   ↓        ↓
-   Y ←──f── X
-```
+$$
+\begin{array}{ccc}
+P & \xleftarrow{j} & X' \\
+\downarrow{\scriptstyle p} & & \downarrow{\scriptstyle g} \\
+Y & \xleftarrow{f} & X
+\end{array}
+$$
 
 commutes. It suffices to prove that $j$ is a _closed_ immersion, for then $f \circ g = p \circ j$ will be a projective
 morphism, hence proper, and since $g$ is surjective, $f$ will also be proper (5.4.3). Let $Z$ be the closed reduced
@@ -504,9 +504,7 @@ moreover, $Z$ is projective over $Y$, and we see that we may restrict to the cas
 and birational, and everything reduces to seeing that $j$ is surjective. So let $z \in P$; $\mathcal{O}_{z}$ is an
 integral (resp. integral and Noetherian) local ring whose field of fractions is
 
-```text
-  L = R(P) = R(X') = R(X).
-```
+$$ L = R(P) = R(X') = R(X). $$
 
 We may restrict to the case where $z$ is not the generic point of $P$. There is consequently (7.1.2 and 7.1.7) a
 valuation ring (resp. a discrete valuation ring) $A$ having $L$ as field of fractions and dominating $\mathcal{O}_{z}$.
@@ -803,7 +801,7 @@ generic point of $\mathbb{P}^{1}_{k}$ if and only if it corresponds to an
 
 <!-- original page 151 → 152 -->
 
-element transcendental over $k$. Now, this verification is immediate from (4.2.6, example 1°).
+element transcendental over $k$. Now, this verification is immediate from (4.2.6, example $1^{\circ}$).
 
 **Corollary.**
 

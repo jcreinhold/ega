@@ -9,23 +9,20 @@
 Let $Y$ be a prescheme, and, for every integer $n \geq 0$, let $\mathcal{I}_{n}$ be a quasi-coherent sheaf of ideals of
 $\mathcal{O}_{Y}$; suppose that the following conditions are satisfied:
 
-```text
-  ℐ₀ = 𝒪_Y,    ℐₙ ⊂ ℐₘ    for m ≤ n,                                       (8.1.1.1)
-```
+$$ \mathcal{I}_{0} = \mathcal{O}_{Y}, \quad \mathcal{I}_{n} \subset \mathcal{I}_{m} \quad \text{for } m \le n,
+\tag{8.1.1.1} $$
 
-```text
-  ℐₘ · ℐₙ ⊂ ℐ_{m+n}     for any m, n.                                       (8.1.1.2)
-```
+$$ \mathcal{I}_{m} \cdot \mathcal{I}_{n} \subset \mathcal{I}_{m+n} \quad \text{for any } m, n. \tag{8.1.1.2} $$
 
 <!-- original page 153 -->
 
 Note that these hypotheses imply
 
-$$ \mathcal{I}^{n}_{1} \subset \mathcal{I}_{n}. (8.1.1.3) $$
+$$ \mathcal{I}^{n}_{1} \subset \mathcal{I}_{n}. \tag{8.1.1.3} $$
 
 Set
 
-$$ \mathcal{S} = \oplus_{n\geq 0} \mathcal{I}_{n}. (8.1.1.4) $$
+$$ \mathcal{S} = \oplus_{n\geq 0} \mathcal{I}_{n}. \tag{8.1.1.4} $$
 
 It follows from (8.1.1.1) and (8.1.1.2) that $\mathcal{S}$ is a quasi-coherent graded $\mathcal{O}_{Y}$-algebra, and
 therefore defines a $Y$-scheme $X = \operatorname{Proj}(\mathcal{S})$. If $\mathcal{J}$ is an _invertible_ sheaf of
@@ -90,7 +87,7 @@ Let $Y$ be an integral prescheme.
     and such that $\mathcal{I}_{0} = \mathcal{O}_{Y}$, the $Y$-scheme $X = \operatorname{Proj}(\oplus_{n\geq 0} \mathcal{I}_{n})$ is integral and the structure morphism $f : X \to Y$ is
     dominant.
 
-1. Let $\mathcal{I}$ be a quasi-coherent fractional ideal of $\mathcal{R}(Y)$, and let $X$ be the $Y$-scheme given by
+2. Let $\mathcal{I}$ be a quasi-coherent fractional ideal of $\mathcal{R}(Y)$, and let $X$ be the $Y$-scheme given by
    the blow-up of $Y$ relative to $\mathcal{I}$. If $\mathcal{I} \neq 0$, then the structure morphism $f : X \to Y$ is
    birational and surjective.
 
@@ -119,60 +116,58 @@ We return to the setting and notation of (8.1.1). By definition, the injection h
 \mathcal{I}_{n}$ (8.1.1.1) define, for every $k \in \mathbb{Z}$, an injective homomorphism of degree zero of graded
 $\mathcal{S}$-modules
 
-$$ u_{k} : \mathcal{S}_{+}(k+1) \to \mathcal{S}(k); (8.1.5.1) $$
+$$ u_{k} : \mathcal{S}_{+}(k+1) \to \mathcal{S}(k); \tag{8.1.5.1} $$
 
 since $\mathcal{S}_{+}(k+1)$ and $\mathcal{S}(k+1)$ are canonically (TN)-isomorphic, they give a canonical
 correspondence between $u_{k}$ and an injective homomorphism of $\mathcal{O}_{X}$-modules (3.4.2):
 
-$$ \tilde{u}_{k} : \mathcal{O}_{X}(k+1) \to \mathcal{O}_{X}(k). (8.1.5.2) $$
+$$ \tilde{u}_{k} : \mathcal{O}_{X}(k+1) \to \mathcal{O}_{X}(k). \tag{8.1.5.2} $$
 
 Recall (3.2.6) that we have defined canonical homomorphisms
 
-```text
-  λ : 𝒪_X(h) ⊗_{𝒪_X} 𝒪_X(k) → 𝒪_X(h+k)                                      (8.1.5.3)
-```
+$$ \lambda : \mathcal{O}_{X}(h) \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X}(k) \to \mathcal{O}_{X}(h+k) \tag{8.1.5.3} $$
 
 and since the diagram
 
-```text
-   𝒮(h) ⊗_𝒮 𝒮(k) ⊗_𝒮 𝒮(l) ──→ 𝒮(h+k) ⊗_𝒮 𝒮(l)
-           │                          │
-           ↓                          ↓
-   𝒮(h) ⊗_𝒮 𝒮(k+l) ─────────→ 𝒮(h+k+l)
-```
+$$
+\begin{array}{ccc}
+\mathcal{S}(h) \otimes_{\mathcal{S}} \mathcal{S}(k) \otimes_{\mathcal{S}} \mathcal{S}(l) & \longrightarrow & \mathcal{S}(h+k) \otimes_{\mathcal{S}} \mathcal{S}(l) \\
+\downarrow & & \downarrow \\
+\mathcal{S}(h) \otimes_{\mathcal{S}} \mathcal{S}(k+l) & \longrightarrow & \mathcal{S}(h+k+l)
+\end{array}
+$$
 
 commutes, it follows from the functoriality of the $\lambda$ (3.2.6) that the homomorphisms (8.1.5.3) define on
 
-```text
-  𝒮_X = ⊕_{n ∈ ℤ} 𝒪_X(n)                                                    (8.1.5.4)
-```
+$$ \mathcal{S}_{X} = \oplus_{n \in \mathbf{Z}} \mathcal{O}_{X}(n) \tag{8.1.5.4} $$
 
 <!-- original page 155 -->
 
 the structure of a _quasi-coherent graded $\mathcal{O}_{X}$-algebra_. Furthermore, the diagram
 
-```text
-   𝒮(h) ⊗_𝒮 𝒮(k+1) ──────→ 𝒮(h+k+1)
-        │                         │
-   1⊗u_k│                         │u_{k+h}
-        ↓                         ↓
-   𝒮(h) ⊗_𝒮 𝒮(k) ────────→ 𝒮(h+k)
-```
+$$
+\begin{array}{ccc}
+\mathcal{S}(h) \otimes_{\mathcal{S}} \mathcal{S}(k+1) & \longrightarrow & \mathcal{S}(h+k+1) \\
+\downarrow{\scriptstyle 1\otimes u_k} & & \downarrow{\scriptstyle u_{k+h}} \\
+\mathcal{S}(h) \otimes_{\mathcal{S}} \mathcal{S}(k) & \longrightarrow & \mathcal{S}(h+k)
+\end{array}
+$$
 
 commutes; the functoriality of the $\lambda$ then implies that we have a commutative diagram
 
-```text
-   𝒪_X(h) ⊗_{𝒪_X} 𝒪_X(k+1) ──λ──→ 𝒪_X(h+k+1)
-            │                           │
-      1⊗ũ_k │                           │ũ_{k+h}                            (8.1.5.5)
-            ↓                           ↓
-   𝒪_X(h) ⊗_{𝒪_X} 𝒪_X(k) ───λ──→ 𝒪_X(h+k)
-```
+$$
+\begin{array}{ccc}
+\mathcal{O}_{X}(h) \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X}(k+1) & \xrightarrow{\lambda} & \mathcal{O}_{X}(h+k+1) \\
+\downarrow{\scriptstyle 1\otimes \tilde{u}_k} & & \downarrow{\scriptstyle \tilde{u}_{k+h}} \\
+\mathcal{O}_{X}(h) \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X}(k) & \xrightarrow{\lambda} & \mathcal{O}_{X}(h+k)
+\end{array}
+\tag{8.1.5.5}
+$$
 
 where the horizontal arrows are the canonical homomorphisms. We can thus say that the $\tilde{u}_{k}$ define an
 _injective homomorphism_ (of degree zero) of _graded $\mathcal{S}_{X}$-modules_
 
-$$ \tilde{u} : \mathcal{S}_{X}(1) \to \mathcal{S}_{X}. (8.1.5.6) $$
+$$ \tilde{u} : \mathcal{S}_{X}(1) \to \mathcal{S}_{X}. \tag{8.1.5.6} $$
 
 **(8.1.6)**
 
@@ -183,23 +178,21 @@ Keeping the notation of (8.1.5), we now note that, for $n \geq 0$, the composite
 $\mathcal{O}_{X}(n) \to \mathcal{O}_{X}$; we denote by $\mathcal{I}_{n,X}$ its image, which is thus a quasi-coherent
 sheaf of ideals of $\mathcal{O}_{X}$, _isomorphic_ to $\mathcal{O}_{X}(n)$. Furthermore, the diagram
 
-```text
-   𝒪_X(m) ⊗_{𝒪_X} 𝒪_X(n) ──λ──→ 𝒪_X(m+n)
-            │                          │
-     ṽ_m⊗ṽ_n│                          │ṽ_{m+n}
-            ↓                          ↓
-   𝒪_X ⊗_{𝒪_X} 𝒪_X ────id────→ 𝒪_X
-```
+$$
+\begin{array}{ccc}
+\mathcal{O}_{X}(m) \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X}(n) & \xrightarrow{\lambda} & \mathcal{O}_{X}(m+n) \\
+\downarrow{\scriptstyle \tilde{v}_m\otimes \tilde{v}_n} & & \downarrow{\scriptstyle \tilde{v}_{m+n}} \\
+\mathcal{O}_{X} \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X} & \xrightarrow{\text{id}} & \mathcal{O}_{X}
+\end{array}
+$$
 
 commutes for $m \geq 0$, $n \geq 0$. From this we deduce the following inclusions:
 
-```text
-  ℐ_{0,X} = 𝒪_X,    ℐ_{n,X} ⊂ ℐ_{m,X}      for 0 ≤ m ≤ n,                   (8.1.6.1)
-```
+$$ \mathcal{I}_{0,X} = \mathcal{O}_{X}, \quad \mathcal{I}_{n,X} \subset \mathcal{I}_{m,X} \quad \text{for } 0 \le m \le
+n, \tag{8.1.6.1} $$
 
-```text
-  ℐ_{m,X} · ℐ_{n,X} ⊂ ℐ_{m+n,X}            for m ≥ 0, n ≥ 0.                (8.1.6.2)
-```
+$$ \mathcal{I}_{m,X} \cdot \mathcal{I}_{n,X} \subset \mathcal{I}_{m+n,X} \quad \text{for } m \ge 0, n \ge 0.
+\tag{8.1.6.2} $$
 
 <!-- original page 156 -->
 
@@ -211,9 +204,7 @@ Let $Y$ be a prescheme, $\mathcal{I}$ a quasi-coherent sheaf of ideals of $\math
 \operatorname{Proj}(\oplus_{n\geq 0} \mathcal{I}^{n})$ the $Y$-scheme obtained by blowing up $\mathcal{I}$. Then, for
 every $n > 0$, there is a canonical isomorphism
 
-```text
-  𝒪_X(n) ⥲ ℐⁿ · 𝒪_X = ℐ_{n,X}                                                (8.1.7.1)
-```
+$$ \mathcal{O}_{X}(n) \xrightarrow{\sim} \mathcal{I}^{n} \cdot \mathcal{O}_{X} = \mathcal{I}_{n,X} \tag{8.1.7.1} $$
 
 (cf. `(0, 4.3.5)`), and consequently $\mathcal{I}^{n} \cdot \mathcal{O}_{X}$ is a very ample invertible
 $\mathcal{O}_{X}$-module if $n > 0$.
@@ -231,7 +222,7 @@ Under the hypotheses of (8.1.7), if $f : X \to Y$ is the structure morphism and 
 defined by $\mathcal{I}$, then the closed subprescheme $X' = f^{-1}(Y')$ of $X$ is defined by $\mathcal{I} \cdot
 \mathcal{O}_{X}$ (which is canonically isomorphic to $\mathcal{O}_{X}(1)$), whence a canonical short exact sequence
 
-$$ 0 \to \mathcal{O}_{X}(1) \to \mathcal{O}_{X} \to \mathcal{O}_{X'} \to 0. (8.1.8.1) $$
+$$ 0 \to \mathcal{O}_{X}(1) \to \mathcal{O}_{X} \to \mathcal{O}_{X'} \to 0. \tag{8.1.8.1} $$
 
 **Proof.** This follows from (8.1.7.1) and from `(I, 4.4.5)`.
 
@@ -249,7 +240,7 @@ canonically corresponds to a section $s$ of $\mathcal{O}_{X}(-1)$ over $X$, whic
 isomorphisms (3.2.7); by replacing in this diagram $h$ by $k$ and $k$ by $-1$, we obtain $\tilde{u}_{k} = 1_{k} \otimes
 \tilde{u}_{-1}$ (where $1_{k}$ denotes the identity on $\mathcal{O}_{X}(k)$); in other words, the homomorphism
 $\tilde{u}_{k}$ is nothing other than _tensor multiplication by the canonical section $s$_ (for every $k \in
-\mathbb{Z}$). The homomorphism `ũ` (8.1.5.6) is thus interpreted in the same way.
+\mathbb{Z}$). The homomorphism $\tilde{u}$ (8.1.5.6) is thus interpreted in the same way.
 
 Consequently, for every $n \geq 0$, the homomorphism $\tilde{v}_{n} : \mathcal{O}_{X}(n) \to \mathcal{O}_{X}$ is nothing
 other than tensor multiplication by $s^{\otimes n}$; we deduce:
@@ -297,9 +288,7 @@ our assertion.
 
 Let $S$ be a graded ring, where for the moment we do not assume the degrees to be positive. We set
 
-```text
-  S^≥ = ⊕_{n≥0} S_n,    S^≤ = ⊕_{n≤0} S_n                                   (8.2.1.1)
-```
+$$ S^{\geq} = \oplus_{n\geq 0} S_{n}, \quad S^{\leq} = \oplus_{n\leq 0} S_{n} \tag{8.2.1.1} $$
 
 which are graded subrings of $S$, with degrees respectively all positive and all negative. If $f$ is a homogeneous
 element of degree $d$ (positive or negative) of $S$, then the ring of fractions $S_{f} = S'$ is again endowed with the
@@ -307,49 +296,45 @@ structure of a graded ring, by taking for $S'_{n}$ ($n \in \mathbb{Z}$) the set 
 \geq 0$); we set $S_{(f)} = S'_{0}$, and we will write $S^{\geq}_{f}$ and $S^{\leq}_{f}$ for $S'^{\geq}$ and $S'^{\leq}$
 respectively. If $d > 0$, then
 
-$$ (S^{\geq})_{f} = S_{f} (8.2.1.2) $$
+$$ (S^{\geq})_{f} = S_{f} \tag{8.2.1.2} $$
 
 since, if $x \in S_{n+kd}$ with $n + kd < 0$, we can write $x/f^{k} = xf^{h}/f^{h+k}$ and $n + (h+k)d > 0$ for $h$
-sufficiently large and `> 0`. We conclude by definition that
+sufficiently large and $> 0$. We conclude by definition that
 
-$$ (S^{\geq})_{(f)} = (S^{\geq}_{f})_{0} = S_{(f)}. (8.2.1.3) $$
+$$ (S^{\geq})_{(f)} = (S^{\geq}_{f})_{0} = S_{(f)}. \tag{8.2.1.3} $$
 
 If $M$ is a graded $S$-module, we similarly set
 
-```text
-  M^≥ = ⊕_{n≥0} M_n,    M^≤ = ⊕_{n≤0} M_n                                   (8.2.1.4)
-```
+$$ M^{\geq} = \oplus_{n\geq 0} M_{n}, \quad M^{\leq} = \oplus_{n\leq 0} M_{n} \tag{8.2.1.4} $$
 
 which are respectively a graded $S^{\geq}$-module and a graded $S^{\leq}$-module, and whose intersection is the
-`S_0`-module `M_0`. If $f \in S_{d}$, we again define $M_{f}$ as the graded $S_{f}$-module whose elements of degree $n$
-are the $z/f^{k}$ for $z \in M_{n+kd}$ ($k \geq 0$); we denote by $M_{(f)}$ the set of elements of degree zero of
+$S_{0}$-module $M_{0}$. If $f \in S_{d}$, we again define $M_{f}$ as the graded $S_{f}$-module whose elements of degree
+$n$ are the $z/f^{k}$ for $z \in M_{n+kd}$ ($k \geq 0$); we denote by $M_{(f)}$ the set of elements of degree zero of
 $M_{f}$, which is an $S_{(f)}$-module, and we will write $M^{\geq}_{f}$ and $M^{\leq}_{f}$ for $(M_{f})^{\geq}$ and
 $(M_{f})^{\leq}$ respectively. If $d > 0$, we see as above that
 
-$$ (M^{\geq})_{f} = M_{f} (8.2.1.5) $$
+$$ (M^{\geq})_{f} = M_{f} \tag{8.2.1.5} $$
 
 and
 
-$$ (M^{\geq})_{(f)} = (M^{\geq}_{f})_{0} = M_{(f)}. (8.2.1.6) $$
+$$ (M^{\geq})_{(f)} = (M^{\geq}_{f})_{0} = M_{(f)}. \tag{8.2.1.6} $$
 
 **(8.2.2)**
 
 <!-- label: II.8.2.2 -->
 
 Let $\mathbf{z}$ be an indeterminate, which we shall call the _homogenisation variable_. If $S$ is a graded ring (in
-positive or negative degrees), then the polynomial algebra [¹]
+positive or negative degrees), then the polynomial algebra [1]
 
-$$ \hat{S} = S[\mathbf{z}] (8.2.2.1) $$
+$$ \hat{S} = S[\mathbf{z}] \tag{8.2.2.1} $$
 
-[¹] There can be no confusion here with the use of the notation `Ŝ` to denote the separated completion of a ring.
+[1] There can be no confusion here with the use of the notation $\hat{S}$ to denote the separated completion of a ring.
 
 <!-- original page 158 -->
 
 is a graded $S$-algebra, when we take for the degree of $f\mathbf{z}^{n}$ ($n \geq 0$), with $f$ homogeneous,
 
-```text
-  deg(f𝐳ⁿ) = n + deg f.                                                      (8.2.2.2)
-```
+$$ \deg(f\mathbf{z}^{n}) = n + \deg f. \tag{8.2.2.2} $$
 
 **Lemma (8.2.3).**
 
@@ -357,15 +342,11 @@ is a graded $S$-algebra, when we take for the degree of $f\mathbf{z}^{n}$ ($n \g
 
 1. We have canonical isomorphisms of (non-graded) rings
 
-    ```text
-      Ŝ_{(𝐳)} ⥲ Ŝ/(𝐳 − 1)Ŝ ⥲ S.                                            (8.2.3.1)
-    ```
+    $$ \hat{S}_{(\mathbf{z})} \xrightarrow{\sim} \hat{S}/(\mathbf{z} - 1)\hat{S} \xrightarrow{\sim} S. \tag{8.2.3.1} $$
 
-1. We have a canonical isomorphism of (non-graded) rings
+2. We have a canonical isomorphism of (non-graded) rings
 
-    ```text
-      Ŝ_{(f)} ⥲ S_f^≤                                                       (8.2.3.2)
-    ```
+    $$ \hat{S}_{(f)} \xrightarrow{\sim} S^{\leq}_{f} \tag{8.2.3.2} $$
 
     for every $f \in S_{d}$, with $d > 0$.
 
@@ -381,17 +362,13 @@ isomorphism here.
 
 Let $M$ be a graded $S$-module. It is clear that the $S$-module
 
-```text
-  M̂ = M ⊗_S Ŝ = M ⊗_S S[𝐳]                                                 (8.2.4.1)
-```
+$$ \hat{M} = M \otimes_{S} \hat{S} = M \otimes_{S} S[\mathbf{z}] \tag{8.2.4.1} $$
 
 is the direct sum of the $S$-modules $M \otimes S\mathbf{z}^{n}$, and thus of the abelian groups $M_{k} \otimes
-S\mathbf{z}^{n}$ ($k \in \mathbb{Z}$, $n \geq 0$); we define on $\hat{M}$ the structure of a graded `Ŝ`-module by
+S\mathbf{z}^{n}$ ($k \in \mathbb{Z}$, $n \geq 0$); we define on $\hat{M}$ the structure of a graded $\hat{S}$-module by
 setting
 
-```text
-  deg(x ⊗ 𝐳ⁿ) = n + deg x                                                    (8.2.4.2)
-```
+$$ \deg(x \otimes \mathbf{z}^{n}) = n + \deg x \tag{8.2.4.2} $$
 
 for every homogeneous $x$ in $M$. We leave to the reader the task of proving the analogue of (8.2.3):
 
@@ -401,15 +378,11 @@ for every homogeneous $x$ in $M$. We leave to the reader the task of proving the
 
 1. There is a canonical di-isomorphism of (non-graded) modules
 
-    ```text
-      M̂_{(𝐳)} ⥲ M.                                                          (8.2.5.1)
-    ```
+    $$ \hat{M}_{(\mathbf{z})} \xrightarrow{\sim} M. \tag{8.2.5.1} $$
 
-1. For every $f \in S_{d}$ ($d > 0$), there is a di-isomorphism of (non-graded) modules
+2. For every $f \in S_{d}$ ($d > 0$), there is a di-isomorphism of (non-graded) modules
 
-    ```text
-      M̂_{(f)} ⥲ M_f^≤.                                                      (8.2.5.2)
-    ```
+    $$ \hat{M}_{(f)} \xrightarrow{\sim} M^{\leq}_{f}. \tag{8.2.5.2} $$
 
 **(8.2.6)**
 
@@ -417,16 +390,12 @@ for every homogeneous $x$ in $M$. We leave to the reader the task of proving the
 
 Let $S$ be a _positively_-graded ring, and consider the decreasing sequence of graded ideals of $S$
 
-```text
-  S_{[n]} = ⊕_{m≥n} S_m       (n ≥ 0)                                       (8.2.6.1)
-```
+$$ S_{[n]} = \oplus_{m\geq n} S_{m} \quad (n \geq 0) \tag{8.2.6.1} $$
 
 (so in particular $S_{[0]} = S$ and $S_{[1]} = S_{+}$). Since $S_{[m]} S_{[n]} \subset S_{[m+n]}$ is clear, we can
 define a _graded ring_ $S^{\natural}$ by setting
 
-```text
-  S^♮ = ⊕_{n≥0} S_n^♮     with   S_n^♮ = S_{[n]}.                            (8.2.6.2)
-```
+$$ S^{\natural} = \oplus_{n\geq 0} S_{n}^{\natural} \quad \text{with} \quad S_{n}^{\natural} = S_{[n]}. \tag{8.2.6.2} $$
 
 $S^{\natural}_{0}$ is then the ring $S$ considered as a non-graded ring, and $S^{\natural}$ is consequently an
 $S^{\natural}_{0}$-algebra. For every homogeneous element $f \in S_{d}$ ($d > 0$), we denote by $f^{\natural}$ the
@@ -440,13 +409,11 @@ element $f$ considered as belonging to $S_{[d]} = S^{\natural}_{d}$. With this n
 
 Let $S$ be a positively-graded ring, $f$ a homogeneous element of $S_{d}$ ($d > 0$). We have canonical ring isomorphisms
 
-```text
-  S_f ⥲ ⊕_{n ∈ ℤ} S(n)_{(f)}                                                 (8.2.7.1)
-```
+$$ S_{f} \xrightarrow{\sim} \oplus_{n \in \mathbf{Z}} S(n)_{(f)} \tag{8.2.7.1} $$
 
-$$ (S^{\geq}_{f})_{f/1} \xrightarrow{\sim} S_{f} (8.2.7.2) $$
+$$ (S^{\geq}_{f})_{f/1} \xrightarrow{\sim} S_{f} \tag{8.2.7.2} $$
 
-$$ S^{\natural}_{(f^{\natural})} \xrightarrow{\sim} S^{\geq}_{f} (8.2.7.3) $$
+$$ S^{\natural}_{(f^{\natural})} \xrightarrow{\sim} S^{\geq}_{f} \tag{8.2.7.3} $$
 
 where the first two are isomorphisms of graded rings.
 
@@ -463,14 +430,13 @@ quickly verify that this defines an isomorphism (8.2.7.3).
 
 If $M$ is a graded $S$-module, we similarly define, for every $n \in \mathbb{Z}$,
 
-$$ M_{[n]} = \oplus_{m\geq n} M_{m} (8.2.8.1) $$
+$$ M_{[n]} = \oplus_{m\geq n} M_{m} \tag{8.2.8.1} $$
 
 and, since $S_{[m]} M_{[n]} \subset M_{[m+n]}$ ($m \geq 0$), we can define a graded $S^{\natural}$-module $M^{\natural}$
 by setting
 
-```text
-  M^♮ = ⊕_{n ∈ ℤ} M_n^♮      with   M_n^♮ = M_{[n]}.                         (8.2.8.2)
-```
+$$ M^{\natural} = \oplus_{n \in \mathbf{Z}} M_{n}^{\natural} \quad \text{with} \quad M_{n}^{\natural} = M_{[n]}.
+\tag{8.2.8.2} $$
 
 We leave to the reader the proof of:
 
@@ -480,13 +446,11 @@ We leave to the reader the proof of:
 
 With the notation of (8.2.7) and (8.2.8), there are canonical di-isomorphisms of modules
 
-```text
-  M_f ⥲ ⊕_{n ∈ ℤ} M(n)_{(f)}                                                 (8.2.9.1)
-```
+$$ M_{f} \xrightarrow{\sim} \oplus_{n \in \mathbf{Z}} M(n)_{(f)} \tag{8.2.9.1} $$
 
-$$ (M^{\geq}_{f})_{f/1} \xrightarrow{\sim} M_{f} (8.2.9.2) $$
+$$ (M^{\geq}_{f})_{f/1} \xrightarrow{\sim} M_{f} \tag{8.2.9.2} $$
 
-$$ M^{\natural}_{(f^{\natural})} \xrightarrow{\sim} M^{\geq}_{f} (8.2.9.3) $$
+$$ M^{\natural}_{(f^{\natural})} \xrightarrow{\sim} M^{\geq}_{f} \tag{8.2.9.3} $$
 
 where the first two are di-isomorphisms of graded modules.
 
@@ -499,47 +463,43 @@ Let $S$ be a positively-graded ring.
 1. For $S^{\natural}$ to be an $S^{\natural}_{0}$-algebra of finite type (resp. a Noetherian
    $S^{\natural}_{0}$-algebra), it is necessary and sufficient that $S$ be an $S^{\natural}_{0}$-algebra of finite type
    (resp. a Noetherian $S^{\natural}_{0}$-algebra).
-1. For $S^{\natural}_{n+1} = S^{\natural}_{1} S^{\natural}_{n}$ ($n \geq n_{0}$), it is necessary and sufficient that
+2. For $S^{\natural}_{n+1} = S^{\natural}_{1} S^{\natural}_{n}$ ($n \geq n_{0}$), it is necessary and sufficient that
    $S_{n+1} = S_{1} S_{n}$ ($n \geq n_{0}$).
-1. For $S^{\natural}_{n} = (S^{\natural}_{1})^{n}$ ($n \geq n_{0}$), it is necessary and sufficient that $S_{n} =
+3. For $S^{\natural}_{n} = (S^{\natural}_{1})^{n}$ ($n \geq n_{0}$), it is necessary and sufficient that $S_{n} =
    S^{n}_{1}$ ($n \geq n_{0}$).
-1. If $(f_{\alpha})$ is a set of homogeneous elements of $S_{+}$ such that $S_{+}$ is the radical in $S_{+}$ of the
+4. If $(f_{\alpha})$ is a set of homogeneous elements of $S_{+}$ such that $S_{+}$ is the radical in $S_{+}$ of the
    ideal of $S_{+}$ generated by the $f_{\alpha}$, then $S^{\natural}_{+}$ is the radical in $S^{\natural}_{+}$ of the
    ideal of $S^{\natural}_{+}$ generated by the $f^{\natural}_{\alpha}$.
 
 **Proof.**
 
 (i) If $S^{\natural}$ is an $S^{\natural}_{0}$-algebra of finite type, then $S_{+} = S^{\natural}_{1}$ is a module of
-finite type over $S = S^{\natural}_{0}$, by (2.1.6, i), and so $S$ is an `S_0`-algebra of finite type (2.1.4); if
+finite type over $S = S^{\natural}_{0}$, by (2.1.6, i), and so $S$ is an $S_{0}$-algebra of finite type (2.1.4); if
 $S^{\natural}$ is a Noetherian ring, then so too is $S^{\natural}_{0} = S$ (2.1.5). Conversely, if $S$ is an
-`S_0`-algebra
+$S_{0}$-algebra
 
 <!-- original page 160 -->
 
 of finite type, then we know (2.1.6, ii) that there exist $h > 0$ and $m_{0} > 0$ such that $S_{n+h} = S_{h} S_{n}$ for
-$n \geq m_{0}$; we can clearly assume $m_{0} \geq h$. Furthermore, the $S_{m}$ are `S_0`-modules of finite type (2.1.6,
-i). So, if $n \geq m_{0} + h$, then $S^{\natural}_{n} = S_{h} S^{\natural}_{n-h} = S^{\natural}_{h} S^{\natural}_{n-h}$;
-and if $m < m_{0} + h$ then, letting $E = S_{m_{0}} + \cdots + S_{m_{0}+h-1}$, we have
+$n \geq m_{0}$; we can clearly assume $m_{0} \geq h$. Furthermore, the $S_{m}$ are $S_{0}$-modules of finite type
+(2.1.6, i). So, if $n \geq m_{0} + h$, then $S^{\natural}_{n} = S_{h} S^{\natural}_{n-h} = S^{\natural}_{h}
+S^{\natural}_{n-h}$; and if $m < m_{0} + h$ then, letting $E = S_{m_{0}} + \cdots + S_{m_{0}+h-1}$, we have
 
-```text
-  S_m^♮ = S_m + ⋯ + S_{m_0+h−1} + S_h E + S_h² E + ⋯.
-```
+$$ S_m^{\natural} = S_m + \cdots + S_{m_0+h-1} + S_h E + S_h^{2} E + \cdots. $$
 
-For $1 \leq m \leq m_{0}$, let $G_{m}$ be the union of finite systems of generators of the `S_0`-modules $S_{i}$ for $m
-\leq i \leq m_{0} + h - 1$, considered as a subset of $S_{[m]}$. For $m_{0} + 1 \leq m \leq m_{0} + h - 1$, let $G_{m}$
-be the union of finite systems of generators of the `S_0`-modules $S_{i}$ for $m \leq i \leq m_{0} + h - 1$ and of
-$S_{h} E$, considered as a subset of $S_{[m]}$. It is clear that $S^{\natural}_{m} = S^{\natural}_{0} G_{m}$ for $1 \leq
-m \leq m_{0} + h - 1$, and so the union $G$ of the $G_{m}$ for $1 \leq m \leq m_{0} + h - 1$ is a system of generators
-of the $S^{\natural}_{0}$-algebra $S^{\natural}$. We conclude that, if $S = S^{\natural}_{0}$ is a Noetherian ring, then
-so too is $S^{\natural}$.
+For $1 \leq m \leq m_{0}$, let $G_{m}$ be the union of finite systems of generators of the $S_{0}$-modules $S_{i}$ for
+$m \leq i \leq m_{0} + h - 1$, considered as a subset of $S_{[m]}$. For $m_{0} + 1 \leq m \leq m_{0} + h - 1$, let
+$G_{m}$ be the union of finite systems of generators of the $S_{0}$-modules $S_{i}$ for $m \leq i \leq m_{0} + h - 1$
+and of $S_{h} E$, considered as a subset of $S_{[m]}$. It is clear that $S^{\natural}_{m} = S^{\natural}_{0} G_{m}$ for
+$1 \leq m \leq m_{0} + h - 1$, and so the union $G$ of the $G_{m}$ for $1 \leq m \leq m_{0} + h - 1$ is a system of
+generators of the $S^{\natural}_{0}$-algebra $S^{\natural}$. We conclude that, if $S = S^{\natural}_{0}$ is a Noetherian
+ring, then so too is $S^{\natural}$.
 
 (ii) It is clear that, if $S_{n+1} = S_{1} S_{n}$ for $n \geq n_{0}$, then $S^{\natural}_{n+1} = S_{1}
 S^{\natural}_{n}$, and _a fortiori_ $S^{\natural}_{n+1} = S^{\natural}_{1} S^{\natural}_{n}$ for $n \geq n_{0}$.
 Conversely, this last equality can be written
 
-```text
-  S_{n+1} + S_{n+2} + ⋯ = (S_1 + S_2 + ⋯)(S_n + S_{n+1} + ⋯)
-```
+$$ S_{n+1} + S_{n+2} + \cdots = (S_1 + S_2 + \cdots)(S_n + S_{n+1} + \cdots) $$
 
 and comparing terms of degree $n + 1$ (in $S$) on both sides gives $S_{n+1} = S_{1} S_{n}$.
 
@@ -555,9 +515,7 @@ the $f^{\natural}_{\alpha}$ with coefficients in $S^{\natural}$. By hypothesis, 
 that, for $m \geq m_{0}$, we have, _in $S$_, $g^{m} = \sum_{\alpha} c_{\alpha m} f_{\alpha}$, where the indices $\alpha$
 are _independent of $m$_; furthermore, we can clearly assume that the $c_{\alpha m}$ are homogeneous, with
 
-```text
-  deg(c_{αm}) = m(k + h) − deg f_α
-```
+$$ \deg(c_{\alpha m}) = m(k + h) - \deg f_{\alpha} $$
 
 in $S$. So take $m_{0}$ sufficiently large to ensure $k m_{0} > deg f_{\alpha}$ for all $f_{\alpha}$ appearing in
 $g^{m_{0}}$; for all $\alpha$, let $c'_{\alpha m}$ be the element $c_{\alpha m}$ considered as having degree $km - deg
@@ -568,24 +526,19 @@ f^{\natural}_{\alpha}$, which completes the proof.
 
 <!-- label: II.8.2.11 -->
 
-Consider the graded `S_0`-algebra
+Consider the graded $S_{0}$-algebra
 
-```text
-  S^♮ ⊗_S S_0 = S^♮/S_+ S^♮ = ⊕_{n≥0} S_{[n]}/S_+ S_{[n]}.                  (8.2.11.1)
-```
+$$ S^{\natural} \otimes_{S} S_{0} = S^{\natural}/S_{+} S^{\natural} = \oplus_{n\geq 0} S_{[n]}/S_{+} S_{[n]}.
+\tag{8.2.11.1} $$
 
-Since $S_{n}$ is a quotient `S_0`-module of $S_{[n]}/S_{+} S_{[n]}$, there is a canonical homomorphism of graded
-`S_0`-algebras
+Since $S_{n}$ is a quotient $S_{0}$-module of $S_{[n]}/S_{+} S_{[n]}$, there is a canonical homomorphism of graded
+$S_{0}$-algebras
 
-```text
-  S^♮ ⊗_S S_0 → S                                                          (8.2.11.2)
-```
+$$ S^{\natural} \otimes_{S} S_{0} \to S \tag{8.2.11.2} $$
 
 which is clearly _surjective_, and consequently corresponds (2.9.2) to a canonical _closed immersion_
 
-```text
-  Proj(S) → Proj(S^♮ ⊗_S S_0).                                              (8.2.11.3)
-```
+$$ \operatorname{Proj}(S) \to \operatorname{Proj}(S^{\natural} \otimes_{S} S_{0}). \tag{8.2.11.3} $$
 
 <!-- original page 161 -->
 
@@ -617,7 +570,7 @@ proof, by (8.2.10, ii).
 Consider now the canonical injections $(S_{+})^{n} \to S_{[n]}$, which define an injective homomorphism of degree zero
 of graded rings
 
-$$ \oplus_{n\geq 0} (S_{+})^{n} \to S^{\natural}. (8.2.13.1) $$
+$$ \oplus_{n\geq 0} (S_{+})^{n} \to S^{\natural}. \tag{8.2.13.1} $$
 
 **Proposition.**
 
@@ -638,15 +591,15 @@ iii) and the following lemma:
 
 <!-- label: II.8.2.14.1 -->
 
-Let $T$ be a positively-graded ring that is also a `T_0`-algebra of finite type. If the morphism corresponding to the
+Let $T$ be a positively-graded ring that is also a $T_{0}$-algebra of finite type. If the morphism corresponding to the
 injective homomorphism $\oplus_{n\geq 0} T^{n}_{1} \to T$ is everywhere defined and is also an isomorphism
 $\operatorname{Proj}(T) \to \operatorname{Proj}(\oplus_{n\geq 0} T^{n}_{1})$, then there exists some $n_{0}$ such that
 $T_{n} = T^{n}_{1}$ for $n \geq n_{0}$.
 
-Let $g_{i}$ ($1 \leq i \leq r$) be generators of the `T_0`-module `T_1`. The hypothesis implies first that the
+Let $g_{i}$ ($1 \leq i \leq r$) be generators of the $T_{0}$-module $T_{1}$. The hypothesis implies first that the
 $D_{+}(g_{i})$ cover $\operatorname{Proj}(T)$ (2.8.1). Let $(h_{j})_{1\leq j\leq s}$ be a system of homogeneous elements
 of $T_{+}$, with $deg(h_{j}) = n_{j}$, that form, together with the $g_{i}$, a system of generators of the ideal
-$T_{+}$, or, equivalently (2.1.3), a system of generators of $T$ as a `T_0`-algebra; if we set $T' = \oplus_{n\geq 0}
+$T_{+}$, or, equivalently (2.1.3), a system of generators of $T$ as a $T_{0}$-algebra; if we set $T' = \oplus_{n\geq 0}
 T^{n}_{1}$, then the element $h_{j} / g^{n_{j}}_{i}$ of the ring $T_{(g_{i})}$ must, by hypothesis, belong to the
 subring $T'_{(g_{i})}$, and so there exists some integer $k$ such that $T^{k}_{1} h_{j} \subset T^{k+n_{j}}_{1}$ for all
 $j$. We thus conclude, by induction on $r$, that $T^{k}_{1} h^{r}_{j} \subset T'$ for all $r \geq 1$, and, by definition
@@ -671,7 +624,7 @@ The condition $S_{n} = S^{n}_{1}$ for $n \geq n_{0}$ clearly implies that $S_{n+
 but the converse is not necessarily true, even if we assume that $S$ is Noetherian. For example, let $K$ be a field, $A
 = K[\mathbf{x}]$, and $B = K[\mathbf{y}]/\mathbf{y}^{2}K[\mathbf{y}]$, where $\mathbf{x}$ and $\mathbf{y}$ are
 indeterminates, with $\mathbf{x}$ of degree 1 and $\mathbf{y}$ of degree 2, and let $S = A \otimes_{K} B$, so that $S$
-is a graded algebra over $K$ with a basis given by the elements `1`, $\mathbf{x}^{n}$ ($n \geq 1$), and
+is a graded algebra over $K$ with a basis given by the elements $1$, $\mathbf{x}^{n}$ ($n \geq 1$), and
 $\mathbf{x}^{n}\mathbf{y}$ ($n \geq 0$). It is immediate that $S_{n+1} = S_{1} S_{n}$ for $n \geq 2$, but $S^{n}_{1} = K
 \mathbf{x}^{n}$ while $S_{n} = K \mathbf{x}^{n} + K \mathbf{x}^{n} \mathbf{y}$ for $n \geq 2$.
 
@@ -685,29 +638,25 @@ Let $Y$ be a prescheme; in all of this section, we consider only _$Y$-preschemes
 be a quasi-coherent _positively_-graded $\mathcal{O}_{Y}$-algebra; _we further assume that $\mathcal{S}_{0} =
 \mathcal{O}_{Y}$_. Following the notation introduced in (8.2.2), we let
 
-```text
-  𝒮̂ = 𝒮[𝐳] = 𝒮 ⊗_{𝒪_Y} 𝒪_Y[𝐳]                                              (8.3.1.1)
-```
+$$ \hat{\mathcal{S}} = \mathcal{S}[\mathbf{z}] = \mathcal{S} \otimes_{\mathcal{O}_{Y}} \mathcal{O}_{Y}[\mathbf{z}]
+\tag{8.3.1.1} $$
 
 which we consider as a positively-graded $\mathcal{O}_{Y}$-algebra by defining the degrees as in (8.2.2.2), so that, for
 every affine open $U$ of $Y$,
 
-```text
-  Γ(U, 𝒮̂) = Γ(U, 𝒮)[𝐳].
-```
+$$ \Gamma(U, \hat{\mathcal{S}}) = \Gamma(U, \mathcal{S})[\mathbf{z}]. $$
 
 In what follows, we write
 
-```text
-  X = Proj(𝒮),    C = Spec(𝒮),    Ĉ = Proj(𝒮̂)                              (8.3.1.2)
-```
+$$ X = \operatorname{Proj}(\mathcal{S}), \quad C = \operatorname{Spec}(\mathcal{S}), \quad \hat{C} =
+\operatorname{Proj}(\hat{\mathcal{S}}) \tag{8.3.1.2} $$
 
 (where, in the definition of $C$, we consider $\mathcal{S}$ as a non-graded $\mathcal{O}_{Y}$-algebra), and we say that
-$C$ (resp. `Ĉ`) is the _affine cone_ (resp. _projective cone_) defined by $\mathcal{S}$; we will sometimes say "cone"
-instead of "affine cone". By abuse of language, we also say that $C$ (resp. `Ĉ`) is the _affine projecting cone_ (resp.
-_projective projecting cone_) of $X$, with the implicit understanding that the prescheme $X$ is given in the form
-$\operatorname{Proj}(\mathcal{S})$; finally, we say that `Ĉ` is the _projective closure_ of $C$ (with the datum of
-$\mathcal{S}$ being implicit in the structure of $C$).
+$C$ (resp. $\hat{C}$) is the _affine cone_ (resp. _projective cone_) defined by $\mathcal{S}$; we will sometimes say
+"cone" instead of "affine cone". By abuse of language, we also say that $C$ (resp. $\hat{C}$) is the _affine projecting
+cone_ (resp. _projective projecting cone_) of $X$, with the implicit understanding that the prescheme $X$ is given in
+the form $\operatorname{Proj}(\mathcal{S})$; finally, we say that $\hat{C}$ is the _projective closure_ of $C$ (with the
+datum of $\mathcal{S}$ being implicit in the structure of $C$).
 
 **Proposition.**
 
@@ -715,24 +664,20 @@ $\mathcal{S}$ being implicit in the structure of $C$).
 
 There exist canonical $Y$-morphisms
 
-```text
-  Y ──ε──→ C ──i──→ Ĉ                                                       (8.3.2.1)
-```
+$$ Y \xrightarrow{\epsilon} C \xrightarrow{i} \hat{C} \tag{8.3.2.1} $$
 
-```text
-  X ──j──→ Ĉ                                                                (8.3.2.2)
-```
+$$ X \xrightarrow{j} \hat{C} \tag{8.3.2.2} $$
 
 such that $\epsilon$ and $j$ are closed immersions, and $i$ is an affine morphism which is a dominant open immersion,
 for which
 
-$$ i(C) = \hat{C} \setminus j(X); (8.3.2.3) $$
+$$ i(C) = \hat{C} \setminus j(X); \tag{8.3.2.3} $$
 
-furthermore, `Ĉ` is the smallest closed subprescheme of `Ĉ` containing $i(C)$.
+furthermore, $\hat{C}$ is the smallest closed subprescheme of $\hat{C}$ containing $i(C)$.
 
-**Proof.** To define $i$, consider the open subset of `Ĉ` given by
+**Proof.** To define $i$, consider the open subset of $\hat{C}$ given by
 
-$$ \hat{C}_{\mathbf{z}} = \operatorname{Spec}(\hat{\mathcal{S}}/(\mathbf{z} - 1)\hat{\mathcal{S}}) (8.3.2.4) $$
+$$ \hat{C}_{\mathbf{z}} = \operatorname{Spec}(\hat{\mathcal{S}}/(\mathbf{z} - 1)\hat{\mathcal{S}}) \tag{8.3.2.4} $$
 
 (3.1.4), where $\mathbf{z}$ is canonically identified with a section of $\hat{\mathcal{S}}$ over $Y$. The isomorphism
 $i : C \xrightarrow{\sim} \hat{C}_{\mathbf{z}}$ then corresponds to the canonical isomorphism (8.2.3.1)
@@ -748,12 +693,12 @@ $\hat{\mathcal{S}} \to \mathcal{S}$, which restricts to the identity on $\mathca
 To prove the other claims of (8.3.2), we may clearly restrict to the case where $Y = \operatorname{Spec}(A)$ is affine,
 and $\mathcal{S} = \tilde{S}$, with $S$ a graded $A$-algebra, whence $\hat{\mathcal{S}} = \tilde{\hat{S}}$; the
 homogeneous elements $f$ of $S_{+}$ can then be identified with sections of $\hat{\mathcal{S}}$ over $Y$, and the open
-subset of `Ĉ`, denoted $D_{+}(f)$ in (2.3.3), can be written as $\hat{C}_{f}$ (3.1.4); similarly, the open subset of $C$
-denoted $D(f)$ in `(I, 1.1.1)` can be written as $C_{f}$ `(0, 5.5.2)`. With this in mind, it follows from (2.3.14) and
-from the definition of `Ŝ` that, in this case, the open subsets $\hat{C}_{\mathbf{z}} = i(C)$ and $\hat{C}_{f}$ (with
-$f$ homogeneous in $S_{+}$) form a _cover_ of `Ĉ`. Furthermore, with this notation,
+subset of $\hat{C}$, denoted $D_{+}(f)$ in (2.3.3), can be written as $\hat{C}_{f}$ (3.1.4); similarly, the open subset
+of $C$ denoted $D(f)$ in `(I, 1.1.1)` can be written as $C_{f}$ `(0, 5.5.2)`. With this in mind, it follows from
+(2.3.14) and from the definition of $\hat{S}$ that, in this case, the open subsets $\hat{C}_{\mathbf{z}} = i(C)$ and
+$\hat{C}_{f}$ (with $f$ homogeneous in $S_{+}$) form a _cover_ of $\hat{C}$. Furthermore, with this notation,
 
-$$ i^{-1}(\hat{C}_{f}) = C_{f}; (8.3.2.5) $$
+$$ i^{-1}(\hat{C}_{f}) = C_{f}; \tag{8.3.2.5} $$
 
 indeed, $\hat{C}_{f} \cap i(C) = \hat{C}_{f} \cap \hat{C}_{\mathbf{z}} = \hat{C}_{f\mathbf{z}} =
 \operatorname{Spec}(\hat{S}_{(f\mathbf{z})})$. But, if $d = deg(f)$, then $\hat{S}_{(f\mathbf{z})}$ is canonically
@@ -776,11 +721,12 @@ Now note that (for $Y$ affine) the complement of $\hat{C}_{\mathbf{z}}$ in $\hat
 
 <!-- original page 164 -->
 
-is, by definition, the set of graded prime ideals of `Ŝ` containing $\mathbf{z}$, which is exactly $j(X)$, by definition
-of $j$, which proves (8.3.2.3).
+is, by definition, the set of graded prime ideals of $\hat{S}$ containing $\mathbf{z}$, which is exactly $j(X)$, by
+definition of $j$, which proves (8.3.2.3).
 
 Finally, to prove the last claim of (8.3.2), we may assume $Y$ affine. With the above notation, note that in the ring
-`Ŝ`, $\mathbf{z}$ is not a zero divisor; since $i(C) = \hat{C}_{\mathbf{z}}$, it suffices to prove the following lemma:
+$\hat{S}$, $\mathbf{z}$ is not a zero divisor; since $i(C) = \hat{C}_{\mathbf{z}}$, it suffices to prove the following
+lemma:
 
 **Lemma (8.3.2.7).**
 
@@ -803,44 +749,40 @@ $T_{h}$. This finishes the proof `(0, 1.2.2)`.
 
 <!-- label: II.8.3.3 -->
 
-We will often identify the affine cone $C$ with the subprescheme induced by the projective cone `Ĉ` on the open subset
-$i(C)$ by means of the open immersion $i$. The closed subprescheme of $C$ associated to the closed immersion $\epsilon$
-is called the _apex prescheme_ of $C$; we also say that $\epsilon$, which is a $Y$-section of $C$, is the _apex
-section_, or _zero section_, of $C$; we may identify $Y$ with the apex prescheme of $C$ by means of $\epsilon$. Also, $i
-\circ \epsilon$ is a $Y$-section of `Ĉ`, and thus also a closed immersion `(I, 5.4.6)`, corresponding to the canonical
-surjective homomorphism of degree zero $\hat{\mathcal{S}} = \mathcal{S}[\mathbf{z}] \to \mathcal{O}_{Y}[\mathbf{z}]$
-(3.1.7), whose kernel is $\mathcal{S}_{+}[\mathbf{z}] = \mathcal{S}_{+} \hat{\mathcal{S}}$; the subprescheme of `Ĉ`
-associated to this closed immersion is also called the _apex prescheme_ of `Ĉ`, and $i \circ \epsilon$ the _apex
-section_ of `Ĉ`; it may be identified with $Y$ by means of $i \circ \epsilon$. Finally, the closed subprescheme of `Ĉ`
-associated to $j$ is called the _locus at infinity_ of `Ĉ`, and may be identified with $X$ by means of $j$.
+We will often identify the affine cone $C$ with the subprescheme induced by the projective cone $\hat{C}$ on the open
+subset $i(C)$ by means of the open immersion $i$. The closed subprescheme of $C$ associated to the closed immersion
+$\epsilon$ is called the _apex prescheme_ of $C$; we also say that $\epsilon$, which is a $Y$-section of $C$, is the
+_apex section_, or _zero section_, of $C$; we may identify $Y$ with the apex prescheme of $C$ by means of $\epsilon$.
+Also, $i \circ \epsilon$ is a $Y$-section of $\hat{C}$, and thus also a closed immersion `(I, 5.4.6)`, corresponding to
+the canonical surjective homomorphism of degree zero $\hat{\mathcal{S}} = \mathcal{S}[\mathbf{z}] \to
+\mathcal{O}_{Y}[\mathbf{z}]$ (3.1.7), whose kernel is $\mathcal{S}_{+}[\mathbf{z}] = \mathcal{S}_{+} \hat{\mathcal{S}}$;
+the subprescheme of $\hat{C}$ associated to this closed immersion is also called the _apex prescheme_ of $\hat{C}$, and
+$i \circ \epsilon$ the _apex section_ of $\hat{C}$; it may be identified with $Y$ by means of $i \circ \epsilon$.
+Finally, the closed subprescheme of $\hat{C}$ associated to $j$ is called the _locus at infinity_ of $\hat{C}$, and may
+be identified with $X$ by means of $j$.
 
 **(8.3.4)**
 
 <!-- label: II.8.3.4 -->
 
-The subpreschemes of $C$ (resp. `Ĉ`) induced on the _open_ subsets
+The subpreschemes of $C$ (resp. $\hat{C}$) induced on the _open_ subsets
 
-```text
-  E = C ∖ ε(Y),     Ê = Ĉ ∖ i(ε(Y))                                         (8.3.4.1)
-```
+$$ E = C \setminus \epsilon(Y), \quad \hat{E} = \hat{C} \setminus i(\epsilon(Y)) \tag{8.3.4.1} $$
 
 are called (by an abuse of language) the _punctured affine cone_ and the _punctured projective cone_ (respectively)
-defined by $\mathcal{S}$; we note that, despite this nomenclature, _$E$ is not necessarily affine over $Y$_, nor `Ê`
-projective over $Y$ (8.4.3). When we identify $C$ with $i(C)$, we thus have the underlying spaces
+defined by $\mathcal{S}$; we note that, despite this nomenclature, _$E$ is not necessarily affine over $Y$_, nor
+$\hat{E}$ projective over $Y$ (8.4.3). When we identify $C$ with $i(C)$, we thus have the underlying spaces
 
-```text
-  C ∪ Ê = Ĉ,        C ∩ Ê = E                                               (8.3.4.2)
-```
+$$ C \cup \hat{E} = \hat{C}, \quad C \cap \hat{E} = E \tag{8.3.4.2} $$
 
-so that `Ĉ` may be regarded as being obtained by _gluing_ the open subpreschemes $C$ and `Ê`; furthermore, by (8.3.2.3),
+so that $\hat{C}$ may be regarded as being obtained by _gluing_ the open subpreschemes $C$ and $\hat{E}$; furthermore,
+by (8.3.2.3),
 
-$$ E = \hat{E} \setminus j(X). (8.3.4.3) $$
+$$ E = \hat{E} \setminus j(X). \tag{8.3.4.3} $$
 
 If $Y = \operatorname{Spec}(A)$ is affine, then, with the notation of (8.3.2),
 
-```text
-  E = ⋃ C_f,    Ê = ⋃ Ĉ_f,    C_f = C ∩ Ĉ_f                                 (8.3.4.4)
-```
+$$ E = \bigcup C_f, \quad \hat{E} = \bigcup \hat{C}_f, \quad C_f = C \cap \hat{C}_f \tag{8.3.4.4} $$
 
 where $f$ runs over the set of homogeneous elements of $S_{+}$ (or only a subset $M$ of this set, with $M$ generating an
 ideal of $S_{+}$ whose radical in $S_{+}$ is $S_{+}$ itself, or, equivalently, such that the $X_{f}$ for $f \in M$ cover
@@ -855,15 +797,15 @@ homomorphisms $S \to S_{f}$ and $S^{\leq}_{f} \to S_{f}$.
 With the notation of (8.3.1) and (8.3.4), the morphism associated (3.5.1) to the canonical injection $\phi : \mathcal{S}
 \to \hat{\mathcal{S}} = \mathcal{S}[\mathbf{z}]$ is a surjective affine morphism (called the _canonical retraction_)
 
-$$ p : \hat{E} \to X (8.3.5.1) $$
+$$ p : \hat{E} \to X \tag{8.3.5.1} $$
 
 such that
 
-$$ p \circ j = 1_{X}. (8.3.5.2) $$
+$$ p \circ j = 1_{X}. \tag{8.3.5.2} $$
 
 **Proof.** To prove the proposition, we may restrict to the case where $Y$ is affine. Taking into account the expression
-(8.3.4.4) for `Ê`, the fact that the domain of definition $G(\phi)$ of $p$ is equal to `Ê` will follow from the first of
-the following claims:
+(8.3.4.4) for $\hat{E}$, the fact that the domain of definition $G(\phi)$ of $p$ is equal to $\hat{E}$ will follow from
+the first of the following claims:
 
 **(8.3.5.3)**
 
@@ -871,7 +813,7 @@ the following claims:
 
 If $Y = \operatorname{Spec}(A)$ is affine and $\mathcal{S} = \tilde{S}$, then, for every homogeneous $f \in S_{+}$,
 
-$$ p^{-1}(X_{f}) = \hat{C}_{f} (8.3.5.4) $$
+$$ p^{-1}(X_{f}) = \hat{C}_{f} \tag{8.3.5.4} $$
 
 and the restriction of $p$ to $\hat{C}_{f} = \operatorname{Spec}(S^{\leq}_{f})$, considered as a morphism from
 $\hat{C}_{f}$ to $X_{f}$, corresponds to the canonical injection $S_{(f)} \to S^{\leq}_{f}$. If moreover $f \in S_{1}$,
@@ -889,11 +831,11 @@ $S_{(f)}[T]$ whenever $f \in S_{1}$ (2.2.1).
 
 The restriction
 
-$$ \pi : E \to X (8.3.6.1) $$
+$$ \pi : E \to X \tag{8.3.6.1} $$
 
 of $p$ to $E$ is a surjective affine morphism. If $Y$ is affine and $f$ is homogeneous in $S_{+}$, then
 
-$$ \pi^{-1}(X_{f}) = C_{f} (8.3.6.2) $$
+$$ \pi^{-1}(X_{f}) = C_{f} \tag{8.3.6.2} $$
 
 and the restriction of $\pi$ to $C_{f}$ corresponds to the canonical injection $S_{(f)} \to S_{f}$. If moreover $f \in
 S_{1}$, then $C_{f}$ is isomorphic to $X_{f} \otimes_{\mathbb{Z}} \mathbb{Z}[T, T^{-1}]$ (where $T$ is an
@@ -917,7 +859,7 @@ $\mathfrak{p}$, the $\mathfrak{p} \cap S_{n}$ clearly satisfy the conditions of 
 _graded_ prime ideal $\mathfrak{q}$ of $S$ such that $\mathfrak{q} \cap S_{n} = \mathfrak{p} \cap S_{n}$ for all $n$;
 the map $\pi : E \to X$ of underlying spaces can then be understood via the equation
 
-$$ \pi(\mathfrak{p}) = \mathfrak{q}. (8.3.7.1) $$
+$$ \pi(\mathfrak{p}) = \mathfrak{q}. \tag{8.3.7.1} $$
 
 Indeed, to prove this equation, it suffices to consider some homogeneous $f$ in $S_{+}$ such that $\mathfrak{p} \in
 D(f)$, and to note that $\mathfrak{q}_{(f)}$ is the inverse image of $\mathfrak{p}_{f}$ under the injection $S_{(f)} \to
@@ -932,7 +874,7 @@ If $\mathcal{S}$ is generated by $\mathcal{S}_{1}$, then the morphisms $p$ and $
 isomorphic to $\operatorname{Spec}(\kappa(x)[T, T^{-1}])$.
 
 **Proof.** This follows immediately from (8.3.5) and (8.3.6) by noting that, when $Y$ is affine and $S$ is generated by
-`S_1`, the $X_{f}$ for $f \in S_{1}$ form a cover of $X$ (2.3.14).
+$S_{1}$, the $X_{f}$ for $f \in S_{1}$ form a cover of $X$ (2.3.14).
 
 **Remark.**
 
@@ -940,38 +882,32 @@ isomorphic to $\operatorname{Spec}(\kappa(x)[T, T^{-1}])$.
 
 The punctured affine cone corresponding to the graded $\mathcal{O}_{Y}$-algebra $\mathcal{O}_{Y}[T]$ (where $T$ is an
 indeterminate) may be identified with $\mathbb{G}_{m} = \operatorname{Spec}(\mathcal{O}_{Y}[T, T^{-1}])$, since it is
-exactly `C_T`, as we have seen in (8.3.2) (see (8.4.4) for a more general result). This prescheme is canonically endowed
-with the structure of a "_$Y$-scheme in commutative groups_". This idea will be explained in detail later, but, for now,
-may be quickly summarised as follows. A $Y$-scheme in groups is a $Y$-scheme $G$ endowed with two $Y$-morphisms, $p : G
-\times_{Y} G \to G$ and $s : G \to G$, satisfying conditions formally analogous to the axioms of the composition law and
-the symmetry law of a group: the diagram
+exactly $C_{T}$, as we have seen in (8.3.2) (see (8.4.4) for a more general result). This prescheme is canonically
+endowed with the structure of a "_$Y$-scheme in commutative groups_". This idea will be explained in detail later, but,
+for now, may be quickly summarised as follows. A $Y$-scheme in groups is a $Y$-scheme $G$ endowed with two
+$Y$-morphisms, $p : G \times_{Y} G \to G$ and $s : G \to G$, satisfying conditions formally analogous to the axioms of
+the composition law and the symmetry law of a group: the diagram
 
-```text
-   G × G × G ──p×1──→ G × G
-        │              │
-    1×p │              │ p
-        ↓              ↓
-     G × G ────p────→ G
-```
+$$
+\begin{array}{ccc}
+G \times G \times G & \xrightarrow{p\times 1} & G \times G \\
+\downarrow{\scriptstyle 1\times p} & & \downarrow{\scriptstyle p} \\
+G \times G & \xrightarrow{p} & G
+\end{array}
+$$
 
 should commute (_associativity_), and there should be a condition corresponding to the fact that, for groups, the maps
 
-```text
-  (x, y) ↦ (x, x⁻¹, y) ↦ (x, x⁻¹y) ↦ x(x⁻¹y)
-```
+$$ (x, y) \mapsto (x, x^{-1}, y) \mapsto (x, x^{-1}y) \mapsto x(x^{-1}y) $$
 
 and
 
-```text
-  (x, y) ↦ (x, x⁻¹, y) ↦ (x, y x⁻¹) ↦ (y x⁻¹) x
-```
+$$ (x, y) \mapsto (x, x^{-1}, y) \mapsto (x, y x^{-1}) \mapsto (y x^{-1}) x $$
 
 should both reduce to $(x, y) \mapsto y$; the sequence of morphisms corresponding, for example, to the first composite
 map is
 
-```text
-  G × G ──(1,s)×1──→ G × G × G ──1×p──→ G × G ──p──→ G
-```
+$$ G \times G \xrightarrow{(1,s)\times 1} G \times G \times G \xrightarrow{1\times p} G \times G \xrightarrow{p} G $$
 
 and the reader should write down the second sequence.
 
@@ -989,10 +925,12 @@ coming from the multiplication in the ring $\Gamma(Z, \mathcal{O}_{Z})$. The rea
 and $s$ above are obtained as follows: they correspond, by (1.2.7) and (1.4.6), to the homomorphisms of
 $\mathcal{O}_{Y}$-algebras
 
-```text
-  π : 𝒪_Y[T, T⁻¹] → 𝒪_Y[T, T⁻¹, T′, T′⁻¹]
-  σ : 𝒪_Y[T, T⁻¹] → 𝒪_Y[T, T⁻¹]
-```
+$$
+\begin{aligned}
+\pi &: \mathcal{O}_{Y}[T, T^{-1}] \to \mathcal{O}_{Y}[T, T^{-1}, T', T'^{-1}] \\
+\sigma &: \mathcal{O}_{Y}[T, T^{-1}] \to \mathcal{O}_{Y}[T, T^{-1}]
+\end{aligned}
+$$
 
 and are entirely defined by the data $\pi(T) = T T'$ and $\sigma(T) = T^{-1}$.
 
@@ -1051,15 +989,15 @@ $\mathbb{P}(\mathcal{E})$.
 
 <!-- label: II.8.4.3 -->
 
-Take, for example, $\mathcal{E} = \mathcal{O}^{r}_{Y}$ with $r \geq 2$; then the punctured cones $E$ and `Ê` defined by
-$\mathcal{S}$ are neither affine nor projective over $Y$ if $Y \neq \emptyset$. The second claim is immediate, because
-$\hat{C} = \mathbb{P}(\mathcal{O}^{r+1}_{Y})$ is projective over $Y$, and the underlying spaces of $E$ and `Ê` are
-non-closed open subsets of `Ĉ`, and so the canonical immersions $E \to \hat{C}$ and $\hat{E} \to \hat{C}$ are not
-projective (5.5.3), and we conclude by appealing to (5.5.5, v). Now, supposing for example that $Y =
-\operatorname{Spec}(A)$ is affine and $r = 2$, then $C = \operatorname{Spec}(A[T_{1}, T_{2}])$, and $E$ is the prescheme
-induced by $C$ on the open subset $D(T_{1}) \cup D(T_{2})$; but we have already seen that the latter is not affine
-`(I, 5.5.11)`; _a fortiori_ `Ê` cannot be affine, since $E$ is the open subset where the section $\mathbf{z}$ over `Ê`
-does not vanish (8.3.2).
+Take, for example, $\mathcal{E} = \mathcal{O}^{r}_{Y}$ with $r \geq 2$; then the punctured cones $E$ and $\hat{E}$
+defined by $\mathcal{S}$ are neither affine nor projective over $Y$ if $Y \neq \emptyset$. The second claim is
+immediate, because $\hat{C} = \mathbb{P}(\mathcal{O}^{r+1}_{Y})$ is projective over $Y$, and the underlying spaces of
+$E$ and $\hat{E}$ are non-closed open subsets of $\hat{C}$, and so the canonical immersions $E \to \hat{C}$ and $\hat{E}
+\to \hat{C}$ are not projective (5.5.3), and we conclude by appealing to (5.5.5, v). Now, supposing for example that $Y
+= \operatorname{Spec}(A)$ is affine and $r = 2$, then $C = \operatorname{Spec}(A[T_{1}, T_{2}])$, and $E$ is the
+prescheme induced by $C$ on the open subset $D(T_{1}) \cup D(T_{2})$; but we have already seen that the latter is not
+affine `(I, 5.5.11)`; _a fortiori_ $\hat{E}$ cannot be affine, since $E$ is the open subset where the section
+$\mathbf{z}$ over $\hat{E}$ does not vanish (8.3.2).
 
 However:
 
@@ -1068,13 +1006,11 @@ However:
 <!-- label: II.8.4.4 -->
 
 If $\mathcal{L}$ is an invertible $\mathcal{O}_{Y}$-module, then there are canonical isomorphisms for both the punctured
-cones $E$ and `Ê` corresponding to $C = \mathbb{V}(\mathcal{L})$:
+cones $E$ and $\hat{E}$ corresponding to $C = \mathbb{V}(\mathcal{L})$:
 
-```text
-  Spec(⊕_{n ∈ ℤ} ℒ^{⊗ n}) ⥲ E                                                (8.4.4.1)
-```
+$$ \operatorname{Spec}(\oplus_{n \in \mathbf{Z}} \mathcal{L}^{\otimes n}) \xrightarrow{\sim} E \tag{8.4.4.1} $$
 
-$$ \mathbb{V}(\mathcal{L}^{-1}) \xrightarrow{\sim} \hat{E}. (8.4.4.2) $$
+$$ \mathbb{V}(\mathcal{L}^{-1}) \xrightarrow{\sim} \hat{E}. \tag{8.4.4.2} $$
 
 Furthermore, there exists a canonical isomorphism from the projective closure of $\mathbb{V}(\mathcal{L})$ to the
 projective closure of $\mathbb{V}(\mathcal{L}^{-1})$ that sends the zero section (resp. the locus at infinity) of the
@@ -1082,15 +1018,12 @@ former to the locus at infinity (resp. the zero section) of the latter.
 
 **Proof.** We have $\mathcal{S} = \oplus_{n\geq 0} \mathcal{L}^{\otimes n}$; the canonical injection
 
-```text
-  𝒮 → ⊕_{n ∈ ℤ} ℒ^{⊗ n}
-```
+$$ \mathcal{S} \to \oplus_{n \in \mathbf{Z}} \mathcal{L}^{\otimes n} $$
 
 defines a canonical dominant morphism
 
-```text
-  Spec(⊕_{n ∈ ℤ} ℒ^{⊗ n}) → 𝕍(ℒ) = Spec(⊕_{n≥0} ℒ^{⊗ n})                    (8.4.4.3)
-```
+$$ \operatorname{Spec}(\oplus_{n \in \mathbf{Z}} \mathcal{L}^{\otimes n}) \to \mathbb{V}(\mathcal{L}) =
+\operatorname{Spec}(\oplus_{n\geq 0} \mathcal{L}^{\otimes n}) \tag{8.4.4.3} $$
 
 and it suffices to prove that this morphism is an isomorphism from the scheme $\operatorname{Spec}(\oplus_{n \in
 \mathbb{Z}} \mathcal{L}^{\otimes n})$ to $E$. Since the question is local on $Y$, we may assume $Y =
@@ -1099,27 +1032,27 @@ and it suffices to prove that this morphism is an isomorphism from the scheme $\
 <!-- original page 169 -->
 
 and $\mathcal{L} = \mathcal{O}_{Y}$, so that $\mathcal{S} = \tilde{A[T]}$ and $\oplus_{n \in \mathbb{Z}}
-\mathcal{L}^{\otimes n} = \tilde{A[T, T^{-1}]}$. But $A[T, T^{-1}]$ is the ring of fractions $A[T]_{T}$ of `A[T]`, and
+\mathcal{L}^{\otimes n} = \tilde{A[T, T^{-1}]}$. But $A[T, T^{-1}]$ is the ring of fractions $A[T]_{T}$ of $A[T]$, and
 thus (8.4.4.3) identifies $\operatorname{Spec}(\oplus_{n \in \mathbb{Z}} \mathcal{L}^{\otimes n})$ with the prescheme
 induced by $C = \mathbb{V}(\mathcal{L})$ on the open subset $D(T)$; the complement $V(T)$ of this open subset in $C$ is
-the underlying space of the closed subprescheme of $C$ defined by the ideal `T A[T]`, which is exactly the zero section
+the underlying space of the closed subprescheme of $C$ defined by the ideal $T A[T]$, which is exactly the zero section
 of $C$, and so $E = D(T)$.
 
 The isomorphism (8.4.4.2) will be a consequence of the last claim, since $\mathbb{V}(\mathcal{L}^{-1})$ is the
-complement of the locus at infinity of its projective closure, and `Ê` is the complement of the zero section of the
-projective closure $C = \mathbb{V}(\mathcal{L})$. But these projective closures are $\mathbb{P}(\mathcal{L}^{-1} \oplus
-\mathcal{O}_{Y})$ and $\mathbb{P}(\mathcal{L} \oplus \mathcal{O}_{Y})$ respectively; we can write $\mathcal{L} \oplus
-\mathcal{O}_{Y} = \mathcal{L} \otimes (\mathcal{L}^{-1} \oplus \mathcal{O}_{Y})$. The existence of the desired canonical
-isomorphism then follows from (4.1.4), and everything reduces to showing that this isomorphism swaps the zero sections
-and the loci at infinity. For this, we may reduce to the case where $Y = \operatorname{Spec}(A)$ is affine, $L = Ac$,
-and $L^{-1} = Ac'$, with the canonical isomorphism $L \otimes L^{-1} \to A$ sending $c \otimes c'$ to the element `1` of
-$A$. Then $\mathbb{S}(L \oplus A)$ is the tensor product of $A[\mathbf{z}]$ with $\oplus_{n\geq 0} A c^{\otimes n}$, and
-$\mathbb{S}(L^{-1} \oplus A)$ is the tensor product of $A[\mathbf{z}]$ with $\oplus_{n\geq 0} A c'^{\otimes n}$, and the
-isomorphism defined in (4.1.4) sends $\mathbf{z}^{h} \otimes c'^{\otimes (n-h)}$ to the element $\mathbf{z}^{n-h}
-\otimes c^{\otimes h}$. But, in $\mathbb{P}(\mathcal{L}^{-1} \oplus \mathcal{O}_{Y})$, the locus at infinity is the set
-of points where the section $\mathbf{z}$ vanishes, and the zero section is the set of points where the section $c'$
-vanishes; since we have analogous definitions for $\mathbb{P}(\mathcal{L} \oplus \mathcal{O}_{Y})$, the conclusion
-follows immediately from the above.
+complement of the locus at infinity of its projective closure, and $\hat{E}$ is the complement of the zero section of
+the projective closure $C = \mathbb{V}(\mathcal{L})$. But these projective closures are $\mathbb{P}(\mathcal{L}^{-1}
+\oplus \mathcal{O}_{Y})$ and $\mathbb{P}(\mathcal{L} \oplus \mathcal{O}_{Y})$ respectively; we can write $\mathcal{L}
+\oplus \mathcal{O}_{Y} = \mathcal{L} \otimes (\mathcal{L}^{-1} \oplus \mathcal{O}_{Y})$. The existence of the desired
+canonical isomorphism then follows from (4.1.4), and everything reduces to showing that this isomorphism swaps the zero
+sections and the loci at infinity. For this, we may reduce to the case where $Y = \operatorname{Spec}(A)$ is affine, $L
+= Ac$, and $L^{-1} = Ac'$, with the canonical isomorphism $L \otimes L^{-1} \to A$ sending $c \otimes c'$ to the element
+$1$ of $A$. Then $\mathbb{S}(L \oplus A)$ is the tensor product of $A[\mathbf{z}]$ with $\oplus_{n\geq 0} A c^{\otimes
+n}$, and $\mathbb{S}(L^{-1} \oplus A)$ is the tensor product of $A[\mathbf{z}]$ with $\oplus_{n\geq 0} A c'^{\otimes
+n}$, and the isomorphism defined in (4.1.4) sends $\mathbf{z}^{h} \otimes c'^{\otimes (n-h)}$ to the element
+$\mathbf{z}^{n-h} \otimes c^{\otimes h}$. But, in $\mathbb{P}(\mathcal{L}^{-1} \oplus \mathcal{O}_{Y})$, the locus at
+infinity is the set of points where the section $\mathbf{z}$ vanishes, and the zero section is the set of points where
+the section $c'$ vanishes; since we have analogous definitions for $\mathbb{P}(\mathcal{L} \oplus \mathcal{O}_{Y})$, the
+conclusion follows immediately from the above.
 
 ## 8.5. Functorial behaviour
 
@@ -1131,45 +1064,47 @@ Let $Y$ and $Y'$ be preschemes, $q : Y' \to Y$ a morphism, and $\mathcal{S}$ (re
 _positively_-graded $\mathcal{O}_{Y}$-algebra (resp. quasi-coherent _positively_-graded $\mathcal{O}_{Y'}$-algebra).
 Consider a $q$-morphism of graded algebras
 
-$$ \phi : \mathcal{S} \to \mathcal{S}'. (8.5.1.1) $$
+$$ \phi : \mathcal{S} \to \mathcal{S}'. \tag{8.5.1.1} $$
 
 We know (1.5.6) that this corresponds, canonically, to a morphism
 
-```text
-  Φ = Spec(φ) : Spec(𝒮′) → Spec(𝒮)
-```
+$$ \Phi = \operatorname{Spec}(\phi) : \operatorname{Spec}(\mathcal{S}') \to \operatorname{Spec}(\mathcal{S}) $$
 
 such that the diagram
 
-```text
-   C′ ──Φ──→ C
-   │         │                                                              (8.5.1.2)
-   ↓         ↓
-   Y′ ──q──→ Y
-```
+$$
+\begin{array}{ccc}
+C' & \xrightarrow{\Phi} & C \\
+\downarrow & & \downarrow \\
+Y' & \xrightarrow{q} & Y
+\end{array}
+\tag{8.5.1.2}
+$$
 
 commutes, where we write $C = \operatorname{Spec}(\mathcal{S})$ and $C' = \operatorname{Spec}(\mathcal{S}')$. _Suppose
 further that $\mathcal{S}_{0} = \mathcal{O}_{Y}$ and $\mathcal{S}'_{0} = \mathcal{O}_{Y'}$_; let $\epsilon : Y \to C$
 and $\epsilon' : Y' \to C'$ be the canonical immersions (8.3.2); we then have a commutative diagram
 
-```text
-   Y′ ──q──→ Y
-   │         │
-  ε′         ε                                                              (8.5.1.3)
-   ↓         ↓
-   C′ ──Φ──→ C
-```
+$$
+\begin{array}{ccc}
+Y' & \xrightarrow{q} & Y \\
+\downarrow{\scriptstyle \epsilon'} & & \downarrow{\scriptstyle \epsilon} \\
+C' & \xrightarrow{\Phi} & C
+\end{array}
+\tag{8.5.1.3}
+$$
 
 <!-- original page 170 -->
 
 which corresponds to the diagram
 
-```text
-   𝒮 ──φ──→ 𝒮′
-   │         │
-   ↓         ↓
-   𝒪_Y ────→ 𝒪_{Y′}
-```
+$$
+\begin{array}{ccc}
+\mathcal{S} & \xrightarrow{\phi} & \mathcal{S}' \\
+\downarrow & & \downarrow \\
+\mathcal{O}_{Y} & \longrightarrow & \mathcal{O}_{Y'}
+\end{array}
+$$
 
 where the vertical arrows are the augmentation homomorphisms, and so commutativity follows from the hypothesis that
 $\phi$ is a homomorphism of _graded_ algebras.
@@ -1195,33 +1130,33 @@ the $C'_{f'}$ cover $E'$ (8.3.4.4).
 
 The $q$-morphism $\phi$ canonically extends to a $q$-morphism of graded algebras
 
-$$ \hat{\phi} : \hat{\mathcal{S}} \to \hat{\mathcal{S}}' (8.5.3.1) $$
+$$ \hat{\phi} : \hat{\mathcal{S}} \to \hat{\mathcal{S}}' \tag{8.5.3.1} $$
 
 by setting $\hat{\phi}(\mathbf{z}) = \mathbf{z}$. This induces a morphism
 
-```text
-  Φ̂ = Proj(φ̂) : G(φ̂) → Ĉ = Proj(𝒮̂)
-```
+$$ \hat{\Phi} = \operatorname{Proj}(\hat{\phi}) : G(\hat{\phi}) \to \hat{C} = \operatorname{Proj}(\hat{\mathcal{S}}) $$
 
 such that the diagram
 
-```text
-   G(φ̂) ──Φ̂──→ Ĉ
-    │           │
-    ↓           ↓
-    Y′ ──q───→ Y
-```
+$$
+\begin{array}{ccc}
+G(\hat{\phi}) & \xrightarrow{\hat{\Phi}} & \hat{C} \\
+\downarrow & & \downarrow \\
+Y' & \xrightarrow{q} & Y
+\end{array}
+$$
 
 commutes (3.5.6). It follows immediately from the definitions that, if we write $i : C \to \hat{C}$ and $i' : C' \to
 \hat{C}'$ to mean the canonical open immersions (8.3.2), then $i'(C') \subset G(\hat{\phi})$, and the diagram
 
-```text
-   C′ ──Φ──→ C
-   │         │
-   i′        i                                                              (8.5.3.2)
-   ↓         ↓
-   G(φ̂) ─Φ̂─→ Ĉ
-```
+$$
+\begin{array}{ccc}
+C' & \xrightarrow{\Phi} & C \\
+\downarrow{\scriptstyle i'} & & \downarrow{\scriptstyle i} \\
+G(\hat{\phi}) & \xrightarrow{\hat{\Phi}} & \hat{C}
+\end{array}
+\tag{8.5.3.2}
+$$
 
 commutes. Finally, if we let $X = \operatorname{Proj}(\mathcal{S})$ and $X' = \operatorname{Proj}(\mathcal{S}')$, and if
 $j : X \to \hat{C}$ and $j' : X' \to \hat{C}'$ are the canonical closed immersions (8.3.2), then it follows from the
@@ -1229,13 +1164,14 @@ definition of these immersions that $j'(G(\phi)) \subset G(\hat{\phi})$, and tha
 
 <!-- original page 171 -->
 
-```text
-   G(φ) ──Proj(φ)──→ X
-    │                │
-    j′               j                                                      (8.5.3.3)
-    ↓                ↓
-   G(φ̂) ───Φ̂──────→ Ĉ
-```
+$$
+\begin{array}{ccc}
+G(\phi) & \xrightarrow{\operatorname{Proj}(\phi)} & X \\
+\downarrow{\scriptstyle j'} & & \downarrow{\scriptstyle j} \\
+G(\hat{\phi}) & \xrightarrow{\hat{\Phi}} & \hat{C}
+\end{array}
+\tag{8.5.3.3}
+$$
 
 commutes.
 
@@ -1243,17 +1179,18 @@ commutes.
 
 <!-- label: II.8.5.4 -->
 
-If `Ê` (resp. $\hat{E}'$) is the punctured projective cone defined by $\mathcal{S}$ (resp. by $\mathcal{S}'$), then
-$\hat{\Phi}^{-1}(\hat{E}) \subset \hat{E}'$; furthermore, if $p : \hat{E} \to X$ and $p' : \hat{E}' \to X'$ are the
+If $\hat{E}$ (resp. $\hat{E}'$) is the punctured projective cone defined by $\mathcal{S}$ (resp. by $\mathcal{S}'$),
+then $\hat{\Phi}^{-1}(\hat{E}) \subset \hat{E}'$; furthermore, if $p : \hat{E} \to X$ and $p' : \hat{E}' \to X'$ are the
 canonical retractions, then $p'(\hat{\Phi}^{-1}(\hat{E})) \subset G(\phi)$, and the diagram
 
-```text
-   Φ̂⁻¹(Ê) ──Φ̂──→ Ê
-       │           │
-       p′          p                                                        (8.5.4.1)
-       ↓           ↓
-     G(φ) ─Proj(φ)─→ X
-```
+$$
+\begin{array}{ccc}
+\hat{\Phi}^{-1}(\hat{E}) & \xrightarrow{\hat{\Phi}} & \hat{E} \\
+\downarrow{\scriptstyle p'} & & \downarrow{\scriptstyle p} \\
+G(\phi) & \xrightarrow{\operatorname{Proj}(\phi)} & X
+\end{array}
+\tag{8.5.4.1}
+$$
 
 commutes. If $\operatorname{Proj}(\phi)$ is everywhere defined, then so too is $\hat{\Phi}$, and we have
 $\hat{\Phi}^{-1}(\hat{E}) = \hat{E}'$.
@@ -1274,7 +1211,7 @@ $\hat{\Phi}^{-1}(\hat{E})$.
 
 Whenever $\operatorname{Proj}(\phi)$ is everywhere defined, the inverse image under $\hat{\Phi}$ of the underlying space
 of the locus at infinity (resp. of the apex prescheme) of $\hat{C}'$ is the underlying space of the locus at infinity
-(resp. of the apex prescheme) of `Ĉ`.
+(resp. of the apex prescheme) of $\hat{C}$.
 
 **Proof.** This follows immediately from (8.5.4) and (8.5.2), taking into account equalities (8.3.4.1) and (8.3.4.2).
 
@@ -1288,18 +1225,14 @@ Let $Y$ be a prescheme, $\mathcal{S}$ a quasi-coherent positively-graded $\mathc
 $\mathcal{S}_{0} = \mathcal{O}_{Y}$_, and let $X$ be the $Y$-scheme $\operatorname{Proj}(\mathcal{S})$. We are going to
 apply the results of §8.5 to the case where $Y' = X$ and $q : X \to Y$ is the structure morphism; let
 
-```text
-  𝒮_X = ⊕_{n ∈ ℤ} 𝒪_X(n)                                                    (8.6.1.1)
-```
+$$ \mathcal{S}_{X} = \oplus_{n \in \mathbf{Z}} \mathcal{O}_{X}(n) \tag{8.6.1.1} $$
 
 <!-- original page 172 -->
 
 which is a quasi-coherent graded $\mathcal{O}_{X}$-algebra, with multiplication defined by means of the canonical
 homomorphisms (3.2.6.1)
 
-```text
-  𝒪_X(m) ⊗_{𝒪_X} 𝒪_X(n) → 𝒪_X(m+n)
-```
+$$ \mathcal{O}_{X}(m) \otimes_{\mathcal{O}_{X}} \mathcal{O}_{X}(n) \to \mathcal{O}_{X}(m+n) $$
 
 whose associativity is ensured by the commutative diagram (2.5.11.4). Let $\mathcal{S}'$ be the quasi-coherent
 positively-graded $\mathcal{O}_{X}$-subalgebra $\mathcal{S}^{\geq}_{X} = \oplus_{n\geq 0} \mathcal{O}_{X}(n)$ of
@@ -1307,18 +1240,18 @@ $\mathcal{S}_{X}$.
 
 Finally, consider the canonical $q$-morphism
 
-$$ \alpha : \mathcal{S} \to \mathcal{S}^{\geq}_{X} (8.6.1.2) $$
+$$ \alpha : \mathcal{S} \to \mathcal{S}^{\geq}_{X} \tag{8.6.1.2} $$
 
 defined in (3.3.2.3) as a homomorphism $\mathcal{S} \to q_{*}(\mathcal{S}_{X})$, but which clearly sends $\mathcal{S}$
 to $q_{*}(\mathcal{S}^{\geq}_{X})$. Write
 
-```text
-  C_X = Spec(𝒮_X^≥),    Ĉ_X = Proj(𝒮_X^≥[𝐳]),    X′ = Proj(𝒮_X^≥)            (8.6.1.3)
-```
+$$ C_{X} = \operatorname{Spec}(\mathcal{S}_{X}^{\geq}), \quad \hat{C}_{X} =
+\operatorname{Proj}(\mathcal{S}_{X}^{\geq}[\mathbf{z}]), \quad X' = \operatorname{Proj}(\mathcal{S}_{X}^{\geq})
+\tag{8.6.1.3} $$
 
-and denote by `E_X` and $\hat{E}_{X}$ the corresponding punctured affine and punctured projective cones (respectively);
-denote the canonical morphisms defined in §8.3 by $\epsilon_{X} : X \to C_{X}$, $i_{X} : C_{X} \to \hat{C}_{X}$,
-$j_{X} : X' \to \hat{C}_{X}$, $p_{X} : \hat{E}_{X} \to X'$, and $\pi_{X} : E_{X} \to X'$.
+and denote by $E_{X}$ and $\hat{E}_{X}$ the corresponding punctured affine and punctured projective cones
+(respectively); denote the canonical morphisms defined in §8.3 by $\epsilon_{X} : X \to C_{X}$, $i_{X} : C_{X} \to
+\hat{C}_{X}$, $j_{X} : X' \to \hat{C}_{X}$, $p_{X} : \hat{E}_{X} \to X'$, and $\pi_{X} : E_{X} \to X'$.
 
 **Proposition.**
 
@@ -1326,15 +1259,15 @@ $j_{X} : X' \to \hat{C}_{X}$, $p_{X} : \hat{E}_{X} \to X'$, and $\pi_{X} : E_{X}
 
 The structure morphism $u : X' \to X$ is an _isomorphism_, and the morphism $\operatorname{Proj}(\alpha)$ is everywhere
 defined and identical to $u$. The morphism $\operatorname{Proj}(\hat{\alpha}) : \hat{C}_{X} \to \hat{C}$ is everywhere
-defined, and its restrictions to $\hat{E}_{X}$ and `E_X` are _isomorphisms_ onto `Ê` and $E$ respectively. Finally, if
-we identify $X'$ with $X$ via $u$, then the morphisms $p_{X}$ and $\pi_{X}$ are identified with the structure morphisms
-of the $X$-preschemes $\hat{E}_{X}$ and `E_X`.
+defined, and its restrictions to $\hat{E}_{X}$ and $E_{X}$ are _isomorphisms_ onto $\hat{E}$ and $E$ respectively.
+Finally, if we identify $X'$ with $X$ via $u$, then the morphisms $p_{X}$ and $\pi_{X}$ are identified with the
+structure morphisms of the $X$-preschemes $\hat{E}_{X}$ and $E_{X}$.
 
 **Proof.** We may clearly restrict to the case where $Y = \operatorname{Spec}(A)$ is affine, and $\mathcal{S} =
 \tilde{S}$; then $X$ is the union of affine open subsets $X_{f}$, where $f$ runs over the set of homogeneous elements of
 $S_{+}$, with the ring of each $X_{f}$ being $S_{(f)}$. It follows from (8.2.7.1) that
 
-$$ \Gamma(X_{f}, \mathcal{S}^{\geq}_{X}) = S^{\geq}_{f}. (8.6.2.1) $$
+$$ \Gamma(X_{f}, \mathcal{S}^{\geq}_{X}) = S^{\geq}_{f}. \tag{8.6.2.1} $$
 
 So $u^{-1}(X_{f}) = \operatorname{Proj}(S^{\geq}_{f})$. But if $f \in S_{d}$ ($d > 0$), then
 $\operatorname{Proj}(S^{\geq}_{f})$ is canonically isomorphic to $\operatorname{Proj}((S^{\geq}_{f})^{(d)})$ (2.4.7),
@@ -1355,7 +1288,7 @@ definition.
 
 <!-- original page 173 -->
 
-We note also that it follows from the commutative diagram (8.5.3.2) that _the restriction to `C_X` of
+We note also that it follows from the commutative diagram (8.5.3.2) that _the restriction to $C_{X}$ of
 $\operatorname{Proj}(\hat{\alpha})$ is exactly the morphism $\operatorname{Spec}(\alpha)$_.
 
 **Corollary.**
@@ -1363,15 +1296,15 @@ $\operatorname{Proj}(\hat{\alpha})$ is exactly the morphism $\operatorname{Spec}
 <!-- label: II.8.6.3 -->
 
 Considered as $X$-schemes, $\hat{E}_{X}$ is canonically isomorphic to $\operatorname{Spec}(\mathcal{S}^{\leq}_{X})$, and
-`E_X` to $\operatorname{Spec}(\mathcal{S}_{X})$.
+$E_{X}$ to $\operatorname{Spec}(\mathcal{S}_{X})$.
 
 **Proof.** Since we know that the morphisms $p_{X}$ and $\pi_{X}$ are affine ((8.3.5) and (8.3.6)), it suffices (given
 (1.3.1)) to prove the corollary in the case where $Y = \operatorname{Spec}(A)$ is affine and $\mathcal{S} = \tilde{S}$.
 The first claim follows from the existence of the canonical isomorphisms (8.2.7.2) $(S^{\geq}_{f})^{\leq}_{f/1}
-\xrightarrow{\sim} S^{\leq}_{f}$ and from the fact that these isomorphisms are compatible with the map sending $f$ to
-`f g` (where $f$ and $g$ are homogeneous in $S_{+}$). Similarly, applying (8.3.6.2) to $\pi_{X}$ instead of $\pi$, we
-see that $\pi^{-1}_{X}(u^{-1}(X_{f})) = \operatorname{Spec}((S^{\geq}_{f})_{f/1})$ for $f$ homogeneous in $S_{+}$, and
-the second claim then follows from the existence of the canonical isomorphisms (8.2.7.2) $(S^{\geq}_{f})_{f/1}
+\xrightarrow{\sim} S^{\leq}_{f}$ and from the fact that these isomorphisms are compatible with the map sending $f$ to $f
+g$ (where $f$ and $g$ are homogeneous in $S_{+}$). Similarly, applying (8.3.6.2) to $\pi_{X}$ instead of $\pi$, we see
+that $\pi^{-1}_{X}(u^{-1}(X_{f})) = \operatorname{Spec}((S^{\geq}_{f})_{f/1})$ for $f$ homogeneous in $S_{+}$, and the
+second claim then follows from the existence of the canonical isomorphisms (8.2.7.2) $(S^{\geq}_{f})_{f/1}
 \xrightarrow{\sim} S_{f}$.
 
 We can then say that $\hat{C}_{X}$, considered as an $X$-scheme, is given by _gluing_ the affine $X$-schemes $C_{X} =
@@ -1384,8 +1317,8 @@ where the intersection of the two affine $X$-schemes is the open subset $E_{X} =
 
 Assume that $\mathcal{O}_{X}(1)$ is an invertible $\mathcal{O}_{X}$-module, and that $\mathcal{S}_{X}$ is isomorphic to
 $\oplus_{n \in \mathbb{Z}} (\mathcal{O}_{X}(1))^{\otimes n}$ (which will be the case, in particular, whenever
-$\mathcal{S}$ is generated by $\mathcal{S}_{1}$ ((3.2.5) and (3.2.7))). Then the punctured projective cone `Ê` may be
-identified with the rank-1 vector bundle $\mathbb{V}(\mathcal{O}_{X}(-1))$ on $X$, and the punctured affine cone $E$
+$\mathcal{S}$ is generated by $\mathcal{S}_{1}$ ((3.2.5) and (3.2.7))). Then the punctured projective cone $\hat{E}$ may
+be identified with the rank-1 vector bundle $\mathbb{V}(\mathcal{O}_{X}(-1))$ on $X$, and the punctured affine cone $E$
 with the subprescheme of this vector bundle induced on the complement of the zero section. With this identification, the
 canonical retraction $\hat{E} \to X$ is identified with the structure morphism of the $X$-scheme
 $\mathbb{V}(\mathcal{O}_{X}(-1))$. Finally, there exists a canonical $Y$-morphism $\mathbb{V}(\mathcal{O}_{X}(1)) \to
@@ -1394,7 +1327,7 @@ this complement to the punctured affine cone $E$.
 
 **Proof.** If we write $\mathcal{L} = \mathcal{O}_{X}(1)$, then $\mathcal{S}^{\geq}_{X}$ is identical to
 $\mathbb{S}_{\mathcal{O}_{X}}(\mathcal{L})$, so $\hat{E}_{X}$ is canonically identified with
-$\mathbb{V}(\mathcal{L}^{-1})$, by (8.6.3), and `C_X` with $\mathbb{V}(\mathcal{L})$. The morphism
+$\mathbb{V}(\mathcal{L}^{-1})$, by (8.6.3), and $C_{X}$ with $\mathbb{V}(\mathcal{L})$. The morphism
 $\mathbb{V}(\mathcal{L}) \to C$ is the restriction of $\operatorname{Proj}(\hat{\alpha})$, and the claims of the
 corollary are then particular cases of (8.6.2).
 
@@ -1411,13 +1344,14 @@ will be studied below.
 
 Under the conditions of (8.6.1), writing $r = \operatorname{Proj}(\hat{\alpha})$, we have a commutative diagram
 
-```text
-   X ──i_X∘ε_X──→ Ĉ_X
-   │              │
-   q              r                                                         (8.7.1.1)
-   ↓              ↓
-   Y ──i∘ε──→ Ĉ
-```
+$$
+\begin{array}{ccc}
+X & \xrightarrow{i_X\circ \epsilon_X} & \hat{C}_{X} \\
+\downarrow{\scriptstyle q} & & \downarrow{\scriptstyle r} \\
+Y & \xrightarrow{i\circ \epsilon} & \hat{C}
+\end{array}
+\tag{8.7.1.1}
+$$
 
 <!-- original page 174 -->
 
@@ -1425,12 +1359,12 @@ by (8.5.1.3) and (8.5.3.2); furthermore, the restriction of $r$ to the complemen
 i_{X}(\epsilon_{X}(X))$ of the zero section is an _isomorphism_ onto the complement $\hat{C} \setminus i(\epsilon(Y))$
 of the zero section, by (8.6.2). If we suppose, to simplify, that $Y$ is affine, that $\mathcal{S}$ is of finite type
 and generated by $\mathcal{S}_{1}$, and that $X$ is projective over $Y$ and $\hat{C}_{X}$ is projective over $X$
-(5.5.1), then $\hat{C}_{X}$ is projective over $Y$ (5.5.5, ii), and _a fortiori_ over `Ĉ` (5.5.5, v). We then have a
-projective $Y$-morphism $r : \hat{C}_{X} \to \hat{C}$ (whose restriction to `C_X` is a projective $Y$-morphism $C_{X}
-\to C$) that _contracts $X$ to $Y$_ and that induces an _isomorphism_ when we restrict to the _complements of $X$ and
-$Y$_. We thus have a connection between `C_X` and $C$, analogous to that which exists between a blow-up prescheme and
-the original prescheme (8.1.3). We will effectively show that `C_X` can be identified with the homogeneous spectrum of a
-graded $\mathcal{O}_{C}$-algebra.
+(5.5.1), then $\hat{C}_{X}$ is projective over $Y$ (5.5.5, ii), and _a fortiori_ over $\hat{C}$ (5.5.5, v). We then have
+a projective $Y$-morphism $r : \hat{C}_{X} \to \hat{C}$ (whose restriction to $C_{X}$ is a projective $Y$-morphism
+$C_{X} \to C$) that _contracts $X$ to $Y$_ and that induces an _isomorphism_ when we restrict to the _complements of $X$
+and $Y$_. We thus have a connection between $C_{X}$ and $C$, analogous to that which exists between a blow-up prescheme
+and the original prescheme (8.1.3). We will effectively show that $C_{X}$ can be identified with the homogeneous
+spectrum of a graded $\mathcal{O}_{C}$-algebra.
 
 **(8.7.2)**
 
@@ -1438,34 +1372,31 @@ graded $\mathcal{O}_{C}$-algebra.
 
 Keeping the notation of (8.6.1), consider, for every $n \geq 0$, the quasi-coherent ideal
 
-$$ \mathcal{S}_{[n]} = \oplus_{m\geq n} \mathcal{S}_{m} (8.7.2.1) $$
+$$ \mathcal{S}_{[n]} = \oplus_{m\geq n} \mathcal{S}_{m} \tag{8.7.2.1} $$
 
 of the graded $\mathcal{O}_{Y}$-algebra $\mathcal{S}$. It is clear that
 
-```text
-  𝒮_{[0]} = 𝒮,    𝒮_{[n]} ⊂ 𝒮_{[m]}      for m ≤ n                          (8.7.2.2)
-```
+$$ \mathcal{S}_{[0]} = \mathcal{S}, \quad \mathcal{S}_{[n]} \subset \mathcal{S}_{[m]} \quad \text{for } m \le n
+\tag{8.7.2.2} $$
 
-$$ \mathcal{S}_{n} \cdot \mathcal{S}_{[m]} \subset \mathcal{S}_{[m+n]}. (8.7.2.3) $$
+$$ \mathcal{S}_{n} \cdot \mathcal{S}_{[m]} \subset \mathcal{S}_{[m+n]}. \tag{8.7.2.3} $$
 
 Consider the $\mathcal{O}_{C}$-module associated to $\mathcal{S}_{[n]}$, which is a quasi-coherent sheaf of ideals of
 $\mathcal{O}_{C} = \tilde{\mathcal{S}}$ (1.4.4)
 
-$$ \mathcal{I}_{n} = \tilde{\mathcal{S}_{[n]}}. (8.7.2.4) $$
+$$ \mathcal{I}_{n} = \tilde{\mathcal{S}_{[n]}}. \tag{8.7.2.4} $$
 
 We deduce, from (8.7.2.2) and (8.7.2.3), using (1.4.4) and (1.4.8.1), the analogous formulas
 
-```text
-  ℐ_0 = 𝒪_C,    ℐ_n ⊂ ℐ_m       for m ≤ n                                   (8.7.2.5)
-```
+$$ \mathcal{I}_{0} = \mathcal{O}_{C}, \quad \mathcal{I}_{n} \subset \mathcal{I}_{m} \quad \text{for } m \le n
+\tag{8.7.2.5} $$
 
-$$ \mathcal{I}_{n} \cdot \mathcal{I}_{m} \subset \mathcal{I}_{m+n}. (8.7.2.6) $$
+$$ \mathcal{I}_{n} \cdot \mathcal{I}_{m} \subset \mathcal{I}_{m+n}. \tag{8.7.2.6} $$
 
 We are thus in the setting of (8.1.1), which leads us to introduce the quasi-coherent graded $\mathcal{O}_{C}$-algebra
 
-```text
-  𝒮^♮ = ⊕_{n≥0} ℐ_n = (⊕_{n≥0} 𝒮_{[n]})̃.                                    (8.7.2.7)
-```
+$$ \mathcal{S}^{\natural} = \oplus_{n\geq 0} \mathcal{I}_{n} = \widetilde{\left(\oplus_{n\geq 0}
+\mathcal{S}_{[n]}\right)}. \tag{8.7.2.7} $$
 
 **Proposition.**
 
@@ -1473,7 +1404,7 @@ We are thus in the setting of (8.1.1), which leads us to introduce the quasi-coh
 
 There is a canonical $C$-isomorphism
 
-$$ h : C_{X} \xrightarrow{\sim} \operatorname{Proj}(\mathcal{S}^{\natural}). (8.7.3.1) $$
+$$ h : C_{X} \xrightarrow{\sim} \operatorname{Proj}(\mathcal{S}^{\natural}). \tag{8.7.3.1} $$
 
 **Proof.** Suppose first that $Y = \operatorname{Spec}(A)$ is affine, so that $\mathcal{S} = \tilde{S}$, with $S$ a
 positively-graded $A$-algebra, and $C = \operatorname{Spec}(S)$. Definition (8.7.2.4) then shows, with the notation of
@@ -1481,7 +1412,8 @@ positively-graded $A$-algebra, and $C = \operatorname{Spec}(S)$. Definition (8.7
 \in S_{d}$ ($d > 0$) and the corresponding element $f^{\natural} \in S^{\natural}$ (8.2.6); the $S$-isomorphism
 (8.2.7.3) then defines a $C$-isomorphism
 
-$$ \operatorname{Spec}(S^{\geq}_{f}) \xrightarrow{\sim} \operatorname{Spec}(S^{\natural}_{(f^{\natural})}). (8.7.3.2) $$
+$$ \operatorname{Spec}(S^{\geq}_{f}) \xrightarrow{\sim} \operatorname{Spec}(S^{\natural}_{(f^{\natural})}).
+\tag{8.7.3.2} $$
 
 <!-- original page 175 -->
 
@@ -1490,35 +1422,36 @@ $v^{-1}(X_{f}) = \operatorname{Spec}(S^{\geq}_{f})$. We also have $\operatorname
 D_{+}(f^{\natural})$, which means that (8.7.3.2) defines an isomorphism $v^{-1}(X_{f}) \to D_{+}(f^{\natural})$.
 Furthermore, if $g \in S_{e}$ ($e > 0$), then the diagram
 
-```text
-   v⁻¹(X_{fg}) ──∼──→ D_+(f^♮ g^♮)
-        │                 │
-        ↓                 ↓
-   v⁻¹(X_f) ───∼──→ D_+(f^♮)
-```
+$$
+\begin{array}{ccc}
+v^{-1}(X_{fg}) & \xrightarrow{\sim} & D_{+}(f^{\natural} g^{\natural}) \\
+\downarrow & & \downarrow \\
+v^{-1}(X_f) & \xrightarrow{\sim} & D_{+}(f^{\natural})
+\end{array}
+$$
 
 commutes, by the definition of the isomorphism (8.2.7.3). Finally, by definition, $S_{+}$ is generated by the
 homogeneous $f$, and so it follows from (8.2.10, iv) and from (2.3.14) that the $D_{+}(f^{\natural})$ form a cover of
-$\operatorname{Proj}(S^{\natural})$, and the $v^{-1}(X_{f})$ form a cover of `C_X` since the $X_{f}$ form a cover of
+$\operatorname{Proj}(S^{\natural})$, and the $v^{-1}(X_{f})$ form a cover of $C_{X}$ since the $X_{f}$ form a cover of
 $X$; in this case, we have thus defined the isomorphism (8.7.3.1).
 
 To prove (8.7.3) in the general case, it suffices to show that, if $U$ and $U'$ are affine open subsets of $Y$, with
 rings $A$ and $A'$ respectively, such that $U' \subset U$, then, setting $\mathcal{S}|U = \tilde{S}$ and $\mathcal{S}|U'
 = \tilde{S}'$, the diagram
 
-```text
-   C_{U′} ──→ Proj(S′^♮)
-     │              │                                                       (8.7.3.3)
-     ↓              ↓
-   C_U  ───→ Proj(S^♮)
-```
+$$
+\begin{array}{ccc}
+C_{U'} & \longrightarrow & \operatorname{Proj}(S'^{\natural}) \\
+\downarrow & & \downarrow \\
+C_U & \longrightarrow & \operatorname{Proj}(S^{\natural})
+\end{array}
+\tag{8.7.3.3}
+$$
 
 commutes. But $S'$ is canonically identified with $S \otimes_{A} A'$, and so $S'^{\natural}$ is canonically identified
 with
 
-```text
-  S^♮ ⊗_S S′ = S^♮ ⊗_A A′;
-```
+$$ S^{\natural} \otimes_{S} S' = S^{\natural} \otimes_{A} A'; $$
 
 thus $\operatorname{Proj}(S'^{\natural}) = \operatorname{Proj}(S^{\natural}) \times_{U} U'$ (2.8.10); similarly, if $X =
 \operatorname{Proj}(S)$ and $X' = \operatorname{Proj}(S')$, then $X' = X \times_{U} U'$ and $\mathcal{S}_{X'} =
@@ -1533,12 +1466,14 @@ the commutativity of (8.7.3.3) is then immediate.
 1. The end of the proof of (8.7.3) can be immediately generalised as follows. Let $g : Y' \to Y$ be a morphism,
    $\mathcal{S}' = g*(\mathcal{S})$, and $X' = \operatorname{Proj}(\mathcal{S}')$; then we have a commutative diagram
 
-    ```text
-       C_{X′} ──→ Proj(𝒮′^♮)
-         │              │                                                   (8.7.4.1)
-         ↓              ↓
-       C_X  ───→ Proj(𝒮^♮)
-    ```
+    $$
+    \begin{array}{ccc}
+    C_{X'} & \longrightarrow & \operatorname{Proj}(\mathcal{S}'^{\natural}) \\
+    \downarrow & & \downarrow \\
+    C_X & \longrightarrow & \operatorname{Proj}(\mathcal{S}^{\natural})
+    \end{array}
+    \tag{8.7.4.1}
+    $$
 
     Now let $\phi : \mathcal{S}'' \to \mathcal{S}$ be a homomorphism of graded $\mathcal{O}_{Y}$-algebras such that, if we write $X'' = \operatorname{Proj}(\mathcal{S}'')$, then
     $u = \operatorname{Proj}(\phi) : X \to X''$ is everywhere defined; we also have
@@ -1551,35 +1486,34 @@ the commutativity of (8.7.3.3) is then immediate.
     account, there is a canonical $u$-morphism $\mathcal{S}_{X''} \to \mathcal{S}_{X}$, whence (1.5.6) a morphism $w : C_{X''} \to C_{X}$. With this
     in mind, the diagram
 
-    ```text
-       C_{X″} ──∼──→ Proj(𝒮″^♮)
-          │              │
-          w              Proj(ψ)                                            (8.7.4.2)
-          ↓              ↓
-       C_X  ──∼───→ Proj(𝒮^♮)
-    ```
+    $$
+    \begin{array}{ccc}
+    C_{X''} & \xrightarrow{\sim} & \operatorname{Proj}(\mathcal{S}''^{\natural}) \\
+    \downarrow{\scriptstyle w} & & \downarrow{\scriptstyle \operatorname{Proj}(\psi)} \\
+    C_X & \xrightarrow{\sim} & \operatorname{Proj}(\mathcal{S}^{\natural})
+    \end{array}
+    \tag{8.7.4.2}
+    $$
 
     is commutative, as we can immediately verify by restricting to the case where $Y$ is affine.
 
-1. Note that, by (8.7.2.5) and (8.7.2.6), we have $\mathcal{I}^{m}_{1} \subset \mathcal{I}_{m} \subset \mathcal{I}_{1}$
+2. Note that, by (8.7.2.5) and (8.7.2.6), we have $\mathcal{I}^{m}_{1} \subset \mathcal{I}_{m} \subset \mathcal{I}_{1}$
    for every $m > 0$. But, by definition, $\mathcal{I}_{1} = \tilde{\mathcal{S}_{+}}$, and so $\mathcal{I}_{1}$ defines
    the closed subprescheme $\epsilon(Y)$ in $C$ ((1.4.10) and (8.3.2)); we thus conclude that, for every $m > 0$, _the
    support of $\mathcal{O}_{C}/\mathcal{I}_{m}$ is contained in the underlying space of the apex prescheme
    $\epsilon(Y)$_; on the inverse image of the punctured affine cone $E$, the structure morphism
    $\operatorname{Proj}(\mathcal{S}^{\natural}) \to C$ thus restricts to an _isomorphism_ (by (8.7.3) and (8.7.1)).
-   Furthermore, by canonically identifying $C$ with an open subset of `Ĉ` (8.3.3), we can clearly extend the ideals
-   $\mathcal{I}_{m}$ of $\mathcal{O}_{C}$ to ideals $\mathcal{J}_{m}$ of $\mathcal{O}_{\hat{C}}$, by asking for these to
-   agree with $\mathcal{O}_{\hat{C}}$ on the open subset `Ê` of `Ĉ`. If we define $\mathcal{T} = \oplus_{n\geq 0}
-   \mathcal{J}_{n}$, which is a quasi-coherent graded $\mathcal{O}_{\hat{C}}$-algebra, we can extend the isomorphism
-   (8.7.3.1) to a `Ĉ`-isomorphism
+   Furthermore, by canonically identifying $C$ with an open subset of $\hat{C}$ (8.3.3), we can clearly extend the
+   ideals $\mathcal{I}_{m}$ of $\mathcal{O}_{C}$ to ideals $\mathcal{J}_{m}$ of $\mathcal{O}_{\hat{C}}$, by asking for
+   these to agree with $\mathcal{O}_{\hat{C}}$ on the open subset $\hat{E}$ of $\hat{C}$. If we define $\mathcal{T} =
+   \oplus_{n\geq 0} \mathcal{J}_{n}$, which is a quasi-coherent graded $\mathcal{O}_{\hat{C}}$-algebra, we can extend
+   the isomorphism (8.7.3.1) to a $\hat{C}$-isomorphism
 
-    ```text
-      Ĉ_X ⥲ Proj(𝒯).                                                        (8.7.4.3)
-    ```
+    $$ \hat{C}_{X} \xrightarrow{\sim} \operatorname{Proj}(\mathcal{T}). \tag{8.7.4.3} $$
 
-    Indeed, over `Ê`, it follows from the above that $\operatorname{Proj}(\mathcal{T})$ is canonically identified with `Ê`, and we thus define the
-    isomorphism (8.7.4.3) over `Ê` by asking it to agree with the canonical isomorphism $\hat{E}_{X} \to \hat{E}$ (8.6.2); it is clear
-    that this isomorphism and (8.7.3.1) then agree over `Ê`.
+    Indeed, over $\hat{E}$, it follows from the above that $\operatorname{Proj}(\mathcal{T})$ is canonically identified with $\hat{E}$, and we thus define the
+    isomorphism (8.7.4.3) over $\hat{E}$ by asking it to agree with the canonical isomorphism $\hat{E}_{X} \to \hat{E}$ (8.6.2); it is clear
+    that this isomorphism and (8.7.3.1) then agree over $\hat{E}$.
 
 **Corollary.**
 
@@ -1587,20 +1521,18 @@ the commutativity of (8.7.3.3) is then immediate.
 
 Suppose there exists some $n_{0} > 0$ such that
 
-```text
-  𝒮_{n+1} = 𝒮_1 · 𝒮_n        for n ≥ n_0.                                   (8.7.5.1)
-```
+$$ \mathcal{S}_{n+1} = \mathcal{S}_{1} \cdot \mathcal{S}_{n} \quad \text{for } n \geq n_0. \tag{8.7.5.1} $$
 
-Then the apex subprescheme of `C_X` (isomorphic to $X$) is the inverse image under the canonical morphism $r : C_{X} \to
-C$ of the apex subprescheme of $C$ (isomorphic to $Y$). Conversely, if this property holds, and if we further assume
+Then the apex subprescheme of $C_{X}$ (isomorphic to $X$) is the inverse image under the canonical morphism $r : C_{X}
+\to C$ of the apex subprescheme of $C$ (isomorphic to $Y$). Conversely, if this property holds, and if we further assume
 that $Y$ is Noetherian and that $\mathcal{S}$ is of finite type, then there exists some $n_{0} > 0$ such that (8.7.5.1)
 holds.
 
 **Proof.** Since the first claim is local on $Y$, we may assume $Y = \operatorname{Spec}(A)$ is affine, so that
 $\mathcal{S} = \tilde{S}$, with $S$ a positively-graded $A$-algebra. The claim then follows from (8.2.12), since
 $\operatorname{Proj}(S^{\natural} \otimes_{S} S_{0}) = C_{X} \times_{C} \epsilon(Y)$ (by the identification (8.7.3.1)),
-or, in other words, since this prescheme is the inverse image of $\epsilon(Y)$ in `C_X` `(I, 4.4.1)`. The converse also
-follows from (8.2.12) whenever $Y$ is Noetherian affine and $S$ is of finite type.
+or, in other words, since this prescheme is the inverse image of $\epsilon(Y)$ in $C_{X}$ `(I, 4.4.1)`. The converse
+also follows from (8.2.12) whenever $Y$ is Noetherian affine and $S$ is of finite type.
 
 <!-- original page 177 -->
 
@@ -1617,16 +1549,14 @@ Now consider the $C$-prescheme $Z$ given by _blowing up_ the _apex subprescheme 
 by Definition (8.1.3), it is exactly the prescheme $\operatorname{Proj}(\oplus_{n\geq 0} \mathcal{S}^{n}_{+})$; the
 canonical injection
 
-```text
-  ι : ⊕_{n≥0} 𝒮_+ⁿ → 𝒮^♮                                                     (8.7.6.1)
-```
+$$ \iota : \oplus_{n\geq 0} \mathcal{S}_{+}^{n} \to \mathcal{S}^{\natural} \tag{8.7.6.1} $$
 
 defines (by the identification (8.7.3)) a canonical dominant $C$-morphism
 
-$$ G(\iota) \to Z (8.7.6.2) $$
+$$ G(\iota) \to Z \tag{8.7.6.2} $$
 
-where $G(\iota)$ is an open subset of `C_X` (3.5.1); note that it could be the case that $G(\iota) \neq C_{X}$, as shown
-by the example where $Y = \operatorname{Spec}(K)$, with $K$ a field, and $\mathcal{S} = \tilde{S}$, with $S =
+where $G(\iota)$ is an open subset of $C_{X}$ (3.5.1); note that it could be the case that $G(\iota) \neq C_{X}$, as
+shown by the example where $Y = \operatorname{Spec}(K)$, with $K$ a field, and $\mathcal{S} = \tilde{S}$, with $S =
 K[\mathbf{y}]$, where $\mathbf{y}$ is an indeterminate _of degree 2_; if $R_{n}$ denotes the set $(S_{+})^{n}$,
 considered as a subset of $S_{[n]} = S^{\natural}_{n}$, then $S^{\natural}_{+}$ is not the radical in $S^{\natural}_{+}$
 of the ideal generated by the union of the $R_{n}$ (cf. (2.3.14)).
@@ -1637,9 +1567,7 @@ of the ideal generated by the union of the $R_{n}$ (cf. (2.3.14)).
 
 Assume there exists some $n_{0} > 0$ such that
 
-```text
-  𝒮_n = 𝒮_1ⁿ      for n ≥ n_0.                                              (8.7.7.1)
-```
+$$ \mathcal{S}_{n} = \mathcal{S}_{1}^{n} \quad \text{for } n \geq n_0. \tag{8.7.7.1} $$
 
 Then the canonical morphism (8.7.6.2) is everywhere defined and is an isomorphism $C_{X} \xrightarrow{\sim} Z$.
 Conversely, if this property holds and if we further assume that $Y$ is Noetherian and that $\mathcal{S}$ is of finite
@@ -1652,12 +1580,12 @@ in (8.7.5).
 
 <!-- label: II.8.7.8 -->
 
-Since condition (8.7.7.1) implies (8.7.5.1), we see that, whenever it holds, not only can `C_X` be identified with the
+Since condition (8.7.7.1) implies (8.7.5.1), we see that, whenever it holds, not only can $C_{X}$ be identified with the
 prescheme given by blowing up the apex (identified with $Y$) of the affine cone $C$, but also the apex (identified with
-$X$) of `C_X` may be identified with the closed subprescheme given by the inverse image of the apex $Y$ of $C$.
+$X$) of $C_{X}$ may be identified with the closed subprescheme given by the inverse image of the apex $Y$ of $C$.
 Furthermore, hypothesis (8.7.7.1) implies that, on $X = \operatorname{Proj}(\mathcal{S})$, the $\mathcal{O}_{X}$-modules
 $\mathcal{O}_{X}(n)$ are invertible ((3.2.5) and (3.2.9)), and that $\mathcal{O}_{X}(n) = \mathcal{L}^{\otimes n}$ with
-$\mathcal{L} = \mathcal{O}_{X}(1)$ ((3.2.7) and (3.2.9)); by Definition (8.6.1.1), `C_X` is thus the _vector bundle_
+$\mathcal{L} = \mathcal{O}_{X}(1)$ ((3.2.7) and (3.2.9)); by Definition (8.6.1.1), $C_{X}$ is thus the _vector bundle_
 $\mathbb{V}(\mathcal{L})$ on $X$, and its apex is the _zero section_ of this vector bundle.
 
 ## 8.8. Ample sheaves and contractions
@@ -1669,31 +1597,23 @@ $\mathbb{V}(\mathcal{L})$ on $X$, and its apex is the _zero section_ of this vec
 Let $Y$ be a prescheme, $f : X \to Y$ a _separated_ and _quasi-compact_ morphism, and $\mathcal{L}$ an invertible
 $\mathcal{O}_{X}$-module that is _ample relative to $f$_. Consider the positively-graded $\mathcal{O}_{Y}$-algebra
 
-```text
-  𝒮 = 𝒪_Y ⊕ ⊕_{n≥1} f_*(ℒ^{⊗ n})                                           (8.8.1.1)
-```
+$$ \mathcal{S} = \mathcal{O}_{Y} \oplus \oplus_{n\geq 1} f_{*}(\mathcal{L}^{\otimes n}) \tag{8.8.1.1} $$
 
 <!-- original page 178 -->
 
 which is quasi-coherent `(I, 9.2.2, a)`. There is a canonical homomorphism of graded $\mathcal{O}_{X}$-algebras
 
-```text
-  τ : f*(𝒮) → ⊕_{n≥0} ℒ^{⊗ n}                                               (8.8.1.2)
-```
+$$ \tau : f*(\mathcal{S}) \to \oplus_{n\geq 0} \mathcal{L}^{\otimes n} \tag{8.8.1.2} $$
 
 which, in degrees $\geq 1$, agrees with the canonical homomorphism $\sigma : f*(f_{*}(\mathcal{L}^{\otimes n})) \to
 \mathcal{L}^{\otimes n}$ `(0, 4.4.3)`, and is the identity in degree 0. The hypothesis that $\mathcal{L}$ is $f$-ample
 then implies ((4.6.3) and (3.6.1)) that the corresponding $Y$-morphism
 
-```text
-  r = r_{ℒ, τ} : X → P = Proj(𝒮)                                            (8.8.1.3)
-```
+$$ r = r_{\mathcal{L}, \tau} : X \to P = \operatorname{Proj}(\mathcal{S}) \tag{8.8.1.3} $$
 
 is everywhere defined and is a _dominant open immersion_, and that
 
-```text
-  r*(𝒪_P(n)) = ℒ^{⊗ n}        for all n ∈ ℤ.                                (8.8.1.4)
-```
+$$ r*(\mathcal{O}_{P}(n)) = \mathcal{L}^{\otimes n} \quad \text{for all } n \in \mathbf{Z}. \tag{8.8.1.4} $$
 
 **Proposition.**
 
@@ -1702,27 +1622,24 @@ is everywhere defined and is a _dominant open immersion_, and that
 Let $C = \operatorname{Spec}(\mathcal{S})$ be the affine cone defined by $\mathcal{S}$; if $\mathcal{L}$ is $f$-ample,
 then there exists a canonical $Y$-morphism
 
-```text
-  g : V = 𝕍(ℒ) → C                                                          (8.8.2.1)
-```
+$$ g : V = \mathbb{V}(\mathcal{L}) \to C \tag{8.8.2.1} $$
 
 such that the diagram
 
-```text
-   X ──j──→ 𝕍(ℒ) ──π──→ X
-   │         │            │
-   f         g            f                                                 (8.8.2.2)
-   ↓         ↓            ↓
-   Y ──ε──→ C ──ψ──→ Y
-```
+$$
+\begin{array}{ccccc}
+X & \xrightarrow{j} & \mathbb{V}(\mathcal{L}) & \xrightarrow{\pi} & X \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle g} & & \downarrow{\scriptstyle f} \\
+Y & \xrightarrow{\epsilon} & C & \xrightarrow{\psi} & Y
+\end{array}
+\tag{8.8.2.2}
+$$
 
 commutes, where $\psi$ and $\pi$ are the structure morphisms, and $j$ and $\epsilon$ the canonical immersions sending
 $X$ and $Y$ respectively to the zero section of $\mathbb{V}(\mathcal{L})$ and the apex prescheme of $C$ respectively.
 Furthermore, the restriction of $g$ to $\mathbb{V}(\mathcal{L}) \setminus j(X)$ is an open immersion
 
-```text
-  𝕍(ℒ) ∖ j(X) → E = C ∖ ε(Y)                                                (8.8.2.3)
-```
+$$ \mathbb{V}(\mathcal{L}) \setminus j(X) \to E = C \setminus \epsilon(Y) \tag{8.8.2.3} $$
 
 into the punctured affine cone $E$ corresponding to $\mathcal{S}$.
 
@@ -1730,25 +1647,27 @@ into the punctured affine cone $E$ corresponding to $\mathcal{S}$.
 \operatorname{Spec}(\mathcal{S}^{\geq}_{P})$. We know (8.6.2) that there is a canonical morphism $h =
 \operatorname{Spec}(\alpha) : C_{P} \to C$ such that the diagram
 
-```text
-   C_P ──→ P
-    │       │
-    h       p                                                               (8.8.2.4)
-    ↓       ↓
-    C ──ψ──→ Y
-```
+$$
+\begin{array}{ccc}
+C_P & \longrightarrow & P \\
+\downarrow{\scriptstyle h} & & \downarrow{\scriptstyle p} \\
+C & \xrightarrow{\psi} & Y
+\end{array}
+\tag{8.8.2.4}
+$$
 
 commutes; furthermore, if $\epsilon_{P} : P \to C_{P}$ is the canonical immersion, then the diagram
 
-```text
-   P ──p───→ C_P
-   │          │
-   ε_P        h                                                             (8.8.2.5)
-   ↓          ↓
-   Y ──ε──→ C
-```
+$$
+\begin{array}{ccc}
+P & \xrightarrow{p} & C_P \\
+\downarrow{\scriptstyle \epsilon_P} & & \downarrow{\scriptstyle h} \\
+Y & \xrightarrow{\epsilon} & C
+\end{array}
+\tag{8.8.2.5}
+$$
 
-commutes (8.7.1.1), and finally, the restriction of $h$ to the punctured affine cone `E_P` is an _isomorphism_ $E_{P}
+commutes (8.7.1.1), and finally, the restriction of $h$ to the punctured affine cone $E_{P}$ is an _isomorphism_ $E_{P}
 \xrightarrow{\sim} E$ (8.6.2). It follows from (8.8.1.4) that
 
 $$ r*(\mathcal{S}^{\geq}_{P}) = \mathbb{S}_{\mathcal{O}_{X}}(\mathcal{L}) $$
@@ -1757,25 +1676,27 @@ $$ r*(\mathcal{S}^{\geq}_{P}) = \mathbb{S}_{\mathcal{O}_{X}}(\mathcal{L}) $$
 
 and so we have a canonical $P$-morphism $q : \mathbb{V}(\mathcal{L}) \to C_{P}$, with the commutative diagram
 
-```text
-   𝕍(ℒ) ──π──→ X
-    │           │
-    q           r                                                           (8.8.2.6)
-    ↓           ↓
-   C_P ────→ P
-```
+$$
+\begin{array}{ccc}
+\mathbb{V}(\mathcal{L}) & \xrightarrow{\pi} & X \\
+\downarrow{\scriptstyle q} & & \downarrow{\scriptstyle r} \\
+C_P & \longrightarrow & P
+\end{array}
+\tag{8.8.2.6}
+$$
 
 identifying $\mathbb{V}(\mathcal{L})$ with the product $C_{P} \times_{P} X$ (1.5.2); since $r$ is an open immersion, so
 too is $q$ `(I, 4.3.2)`. Furthermore, the restriction of $q$ to $\mathbb{V}(\mathcal{L}) \setminus j(X)$ sends this
-prescheme to `E_P`, by (8.5.2), and the diagram
+prescheme to $E_{P}$, by (8.5.2), and the diagram
 
-```text
-   X ──j──→ 𝕍(ℒ)
-   │         │
-   r         q                                                              (8.8.2.7)
-   ↓         ↓
-   P ──ε_P──→ C_P
-```
+$$
+\begin{array}{ccc}
+X & \xrightarrow{j} & \mathbb{V}(\mathcal{L}) \\
+\downarrow{\scriptstyle r} & & \downarrow{\scriptstyle q} \\
+P & \xrightarrow{\epsilon_P} & C_P
+\end{array}
+\tag{8.8.2.7}
+$$
 
 is commutative (since it is a particular case of (8.5.1.3)). The claims of (8.8.2) immediately follow from these facts,
 by taking $g$ to be the composite morphism $h \circ q$.
@@ -1788,10 +1709,10 @@ Assume further that $Y$ is a _Noetherian_ prescheme and that $f$ is a _proper_ m
 (5.4.4), and thus closed, and since it is also a dominant open immersion, $r$ is necessarily an _isomorphism_ $X
 \xrightarrow{\sim} P$. Furthermore, we will see in Chapter III `(III, 2.3.5.1)` that $\mathcal{S}$ is then necessarily
 an $\mathcal{O}_{Y}$-algebra _of finite type_. It then follows that $\mathcal{S}^{\natural}$ is an
-$\mathcal{S}^{\natural}_{0}$-algebra _of finite type_ ((8.2.10, i) and (8.7.2.7)); since `C_P` is $C$-isomorphic to
+$\mathcal{S}^{\natural}_{0}$-algebra _of finite type_ ((8.2.10, i) and (8.7.2.7)); since $C_{P}$ is $C$-isomorphic to
 $\operatorname{Proj}(\mathcal{S}^{\natural})$ (8.7.3), we see that the morphism $h : C_{P} \to C$ is _projective_; since
 the morphism $r$ is an isomorphism, so too is $q : \mathbb{V}(\mathcal{L}) \to C_{P}$, and we thus conclude that the
-morphism $g : \mathbb{V}(\mathcal{L}) \to C$ is _projective_. Furthermore, since the restriction of $h$ to `E_P` is an
+morphism $g : \mathbb{V}(\mathcal{L}) \to C$ is _projective_. Furthermore, since the restriction of $h$ to $E_{P}$ is an
 isomorphism onto $E$, and since $q$ is an isomorphism, the restriction (8.8.2.3) of $g$ is an isomorphism
 $\mathbb{V}(\mathcal{L}) \setminus j(X) \xrightarrow{\sim} E$.
 
@@ -1813,7 +1734,7 @@ its restriction (8.8.2.3) is an isomorphism.
 
 **Proof.** To prove that $g$ is proper, we may restrict to the case where $Y$ is affine, and it then suffices to
 consider the case where $Y$ is a quasi-compact scheme. The same arguments as in (8.8.3) first show that $r$ is an
-_isomorphism_ $X \xrightarrow{\sim} P$; then $q$ is also an isomorphism, and, since the restriction of $h$ to `E_P` is
+_isomorphism_ $X \xrightarrow{\sim} P$; then $q$ is also an isomorphism, and, since the restriction of $h$ to $E_{P}$ is
 an isomorphism $E_{P} \xrightarrow{\sim} E$, we have already seen that (8.8.2.3) is an isomorphism. It remains only to
 prove that $g$ is _projective_.
 
@@ -1851,25 +1772,25 @@ $\mathcal{S}''^{\natural}$ is generated by $\mathcal{S}_{1}''^{\natural}$, and t
 finite type over $\mathcal{S}_{0}''^{\natural} = \mathcal{S}''$ ((8.2.10, i and iii)), and so
 $\operatorname{Proj}(\mathcal{S}''^{\natural})$ is _projective_ over $C''$ (5.5.1). Consider the diagram
 
-```text
-   𝕍(ℒ) ──g──→ Spec(𝒮) = C
-    │            │
-    u            v                                                          (8.8.4.1)
-    ↓            ↓
-   𝕍(ℒ″) ─g″→ Spec(𝒮″) = C″
-```
+$$
+\begin{array}{ccc}
+\mathbb{V}(\mathcal{L}) & \xrightarrow{g} & \operatorname{Spec}(\mathcal{S}) = C \\
+\downarrow{\scriptstyle u} & & \downarrow{\scriptstyle v} \\
+\mathbb{V}(\mathcal{L}'') & \xrightarrow{g''} & \operatorname{Spec}(\mathcal{S}'') = C''
+\end{array}
+\tag{8.8.4.1}
+$$
 
 where $g$ and $g''$ correspond, by (1.5.6), to the canonical $f$-morphisms
 
-```text
-  𝒮 → ⊕_{n≥0} ℒ^{⊗ n}      and     𝒮″ → ⊕_{n≥0} ℒ″^{⊗ n}
-```
+$$ \mathcal{S} \to \oplus_{n\geq 0} \mathcal{L}^{\otimes n} \quad \text{and} \quad \mathcal{S}'' \to \oplus_{n\geq 0}
+\mathcal{L}''^{\otimes n} $$
 
 (3.3.2.3) (see (8.8.5) below), and $v$ and $u$ to the inclusion morphisms $\mathcal{S}'' \to \mathcal{S}$ and
 $\oplus_{n\geq 0} \mathcal{L}^{\otimes nd} \to \oplus_{n\geq 0} \mathcal{L}^{\otimes n}$ respectively; it is immediate
 (3.3.2) that this diagram is commutative. We have just seen that $g''$ is a projective morphism; we also know that $u$
 is a _finite_ morphism. Since the question is local on $X$, we may assume $X$ is affine of ring $A$, and $\mathcal{L} =
-\mathcal{O}_{X}$; everything then reduces to noting that the ring `A[T]` is a module of finite type over its subring
+\mathcal{O}_{X}$; everything then reduces to noting that the ring $A[T]$ is a module of finite type over its subring
 $A[T^{d}]$ (with $T$ an indeterminate). Since $Y$ is a quasi-compact scheme, and since $C''$ is affine over $Y$, we know
 that $C''$ is also a quasi-compact scheme,
 
@@ -1886,20 +1807,25 @@ Consider again the situation of (8.8.1). We will see that the morphism $g : \mat
 defined in a way that works for any invertible (but not necessarily ample) $\mathcal{O}_{X}$-module $\mathcal{L}$. For
 this, consider the $f$-morphism
 
-```text
-  τ^♭ : 𝒮 → ⊕_{n≥0} ℒ^{⊗ n}                                                 (8.8.5.1)
-```
+$$ \tau^{\flat} : \mathcal{S} \to \oplus_{n\geq 0} \mathcal{L}^{\otimes n} \tag{8.8.5.1} $$
 
 corresponding to the morphism $\tau$ of (8.8.1.2). This induces (1.5.6) a morphism $g' : V \to C$ such that, if $\pi : V
 \to X$ and $\psi : C \to Y$ are the structure morphisms, the diagrams
 
-```text
-   X ←──π── V         X ──j──→ V
-   │        │          │        │
-   f        g′         f        g′                                          (8.8.5.2)
-   ↓        ↓          ↓        ↓
-   Y ←──ψ── C         Y ──ε──→ C
-```
+$$
+\begin{array}{ccc}
+X & \xleftarrow{\pi} & V \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle g'} \\
+Y & \xleftarrow{\psi} & C
+\end{array}
+\qquad
+\begin{array}{ccc}
+X & \xrightarrow{j} & V \\
+\downarrow{\scriptstyle f} & & \downarrow{\scriptstyle g'} \\
+Y & \xrightarrow{\epsilon} & C
+\end{array}
+\tag{8.8.5.2}
+$$
 
 commute ((8.5.1.2) and (8.5.1.3)). We will show that (if we assume $\mathcal{L}$ is $f$-ample) _the morphisms $g$ and
 $g'$ are identical_.
@@ -1924,13 +1850,12 @@ Assume (with the notation of (8.8.5)) that, if we write $f = (f_{0}, \lambda)$, 
 \mathcal{O}_{Y} \to f_{*}(\mathcal{O}_{X})$ is bijective; then:
 
 1. if we write $g = (g_{0}, \mu)$, then $\mu : \mathcal{O}_{C} \to g_{*}(\mathcal{O}_{V})$ is an isomorphism; and
-1. if $X$ is integral (resp. locally integral and normal), then $C$ is integral (resp. normal).
+2. if $X$ is integral (resp. locally integral and normal), then $C$ is integral (resp. normal).
 
 **Proof.** Indeed, the $f$-morphism $\tau^{\flat}$ is then an _isomorphism_
 
-```text
-  τ^♭ : 𝒮 = ψ_*(𝒪_C) → f_*(π_*(𝒪_V)) = ψ_*(g_*(𝒪_V))
-```
+$$ \tau^{\flat} : \mathcal{S} = \psi_{*}(\mathcal{O}_{C}) \to f_{*}(\pi_{*}(\mathcal{O}_{V})) =
+\psi_{*}(g_{*}(\mathcal{O}_{V})) $$
 
 and the $Y$-morphism $g$ may be considered as that for which the homomorphism $\mathcal{A}(g)$ (1.1.2) is equal to
 $\tau^{\flat}$. To see that $\mu$ is an isomorphism of $\mathcal{O}_{C}$-modules, it suffices (1.4.2) to see that
@@ -1955,7 +1880,7 @@ rational functions $\mathcal{R}(Z)$, of the integrally closed rings $\mathcal{O}
 
 With this in mind, we first show that $V$ is _locally integral_ and _normal_; for this, we may restrict to the case
 where $X = \operatorname{Spec}(A)$ is affine, with $A$ an integral and integrally closed ring (6.3.8), and $\mathcal{L}
-= \mathcal{O}_{X}$. Since then $V = \operatorname{Spec}(A[T])$, and `A[T]` is integral and integrally closed (Bourbaki,
+= \mathcal{O}_{X}$. Since then $V = \operatorname{Spec}(A[T])$, and $A[T]$ is integral and integrally closed (Bourbaki,
 _Algèbre commutative_, p. 99), this proves our claim. For every affine open subset $U$ of $C$, $g^{-1}(U)$ is
 quasi-compact, since the morphism $g$ is quasi-compact; since $V$ is locally integral, the connected components of
 $g^{-1}(U)$ are open integral preschemes in $g^{-1}(U)$, and thus finite in number, and, since $V$ is normal, these
@@ -1979,21 +1904,20 @@ that there exist a $Y$-prescheme $C$, a $Y$-section $\epsilon : Y \to C$ of $C$,
 
 1. the diagram
 
-    ```text
-       X ──j──→ 𝕍(ℒ)
-       │         │
-       p         q                                                          (8.9.1.1)
-       ↓         ↓
-       Y ──ε──→ C
-    ```
+    $$
+    \begin{array}{ccc}
+    X & \xrightarrow{j} & \mathbb{V}(\mathcal{L}) \\
+    \downarrow{\scriptstyle p} & & \downarrow{\scriptstyle q} \\
+    Y & \xrightarrow{\epsilon} & C
+    \end{array}
+    \tag{8.9.1.1}
+    $$
 
     commutes, where $j$ is the zero section of the vector bundle $\mathbb{V}(\mathcal{L})$; and
 
-1. the restriction of $q$ to $\mathbb{V}(\mathcal{L}) \setminus j(X)$ is a quasi-compact open immersion
+2. the restriction of $q$ to $\mathbb{V}(\mathcal{L}) \setminus j(X)$ is a quasi-compact open immersion
 
-    ```text
-      𝕍(ℒ) ∖ j(X) → C
-    ```
+    $$ \mathbb{V}(\mathcal{L}) \setminus j(X) \to C $$
 
     whose image does not intersect $\epsilon(Y)$.
 
@@ -2028,9 +1952,7 @@ The necessity of the conditions in Theorem (8.9.1) and Corollary (8.9.2) follows
 To show that the conditions of (8.9.1) suffice, consider a slightly more general situation. For this, let (with the
 notation of (8.8.2))
 
-```text
-  𝒮′ = ⊕_{n≥0} ℒ^{⊗ n}
-```
+$$ \mathcal{S}' = \oplus_{n\geq 0} \mathcal{L}^{\otimes n} $$
 
 and
 
@@ -2038,8 +1960,8 @@ $$ V = \mathbb{V}(\mathcal{L}) = \operatorname{Spec}(\mathcal{S}'). $$
 
 The closed subprescheme $j(X)$, zero section of $\mathbb{V}(\mathcal{L})$, is defined by the quasi-coherent sheaf of
 ideals $\mathcal{J} = \tilde{\mathcal{S}'_{+}}$ of $\mathcal{O}_{V}$ (1.4.10). This $\mathcal{O}_{V}$-module is
-_invertible_, since this property is local on $X$, and this reduces to noting that the ideal `T A[T]` in a polynomial
-ring `A[T]` is a free cyclic `A[T]`-module. Furthermore, it is immediate (again because the question is local on $X$)
+_invertible_, since this property is local on $X$, and this reduces to noting that the ideal $T A[T]$ in a polynomial
+ring $A[T]$ is a free cyclic $A[T]$-module. Furthermore, it is immediate (again because the question is local on $X$)
 that
 
 $$ \mathcal{L} = j*(\mathcal{J}) $$
@@ -2061,9 +1983,7 @@ _product_ $\prod_{n\geq 1} \mathcal{L}^{\otimes n} = \varprojlim \pi_{*}(\mathca
 $\pi_{*}(\mathcal{J}/\mathcal{J}^{n+1}) = \mathcal{L} \oplus \mathcal{L}^{\otimes 2} \oplus \cdots \oplus
 \mathcal{L}^{\otimes n}$), and we thus have canonical homomorphisms
 
-```text
-  ℒ → lim_← π_*(𝒥/𝒥^{n+1}) → ℒ                                              (8.9.3.1)
-```
+$$ \mathcal{L} \to \varprojlim \pi_{*}(\mathcal{J}/\mathcal{J}^{n+1}) \to \mathcal{L} \tag{8.9.3.1} $$
 
 whose composition is the identity.
 
@@ -2085,29 +2005,28 @@ the canonical injection, then let $\mathcal{L} = j*(\mathcal{J}) = \mathcal{J} \
 1. there exists a $Y$-morphism $\pi : V \to X$ of finite type such that $\pi \circ j = 1_{X}$, and so
    $\pi_{*}(\mathcal{J}/\mathcal{J}^{2}) = \mathcal{L}$;
 
-1. there exists a homomorphism of $\mathcal{O}_{X}$-modules $\phi : \mathcal{L} \to \varprojlim
+2. there exists a homomorphism of $\mathcal{O}_{X}$-modules $\phi : \mathcal{L} \to \varprojlim
    \pi_{*}(\mathcal{J}/\mathcal{J}^{n+1})$ such that the composition
 
-    ```text
-      ℒ ──φ──→ lim_← π_*(𝒥/𝒥^{n+1}) ──α──→ π_*(𝒥/𝒥²) = ℒ
-    ```
+    $$ \mathcal{L} \xrightarrow{\phi} \varprojlim \pi_{*}(\mathcal{J}/\mathcal{J}^{n+1}) \xrightarrow{\alpha} \pi_{*}(\mathcal{J}/\mathcal{J}^{2}) = \mathcal{L} $$
 
     (where $\alpha$ is the canonical homomorphism) is the identity;
 
-1. there exists a $Y$-prescheme $C$, a $Y$-section $\epsilon$ of $C$, and a $Y$-morphism $q : V \to C$ such that the
+3. there exists a $Y$-prescheme $C$, a $Y$-section $\epsilon$ of $C$, and a $Y$-morphism $q : V \to C$ such that the
    diagram
 
-    ```text
-       X ──j──→ V
-       │        │
-       p        q                                                           (8.9.4.1)
-       ↓        ↓
-       Y ──ε──→ C
-    ```
+    $$
+    \begin{array}{ccc}
+    X & \xrightarrow{j} & V \\
+    \downarrow{\scriptstyle p} & & \downarrow{\scriptstyle q} \\
+    Y & \xrightarrow{\epsilon} & C
+    \end{array}
+    \tag{8.9.4.1}
+    $$
 
     commutes; and
 
-1. the restriction of $q$ to $W = V \setminus j(X)$ is a quasi-compact open immersion into $C$, whose image does not
+4. the restriction of $q$ to $W = V \setminus j(X)$ is a quasi-compact open immersion into $C$, whose image does not
    intersect $\epsilon(Y)$.
 
 Then $\mathcal{L}$ is ample relative to $p$.
@@ -2126,15 +2045,13 @@ associated to $j$. Then the following all hold.
    quasi-coherent $\mathcal{O}_{X}$-modules, and $\pi_{*}(\mathcal{O}_{V}/\mathcal{J}) = \mathcal{O}_{X}$ and
    $\pi_{*}(\mathcal{J}/\mathcal{J}^{2}) = j*(\mathcal{J})$.
 
-1. If $X = {\xi} = \operatorname{Spec}(k)$, where $k$ is a field, then $\varprojlim
+2. If $X = {\xi} = \operatorname{Spec}(k)$, where $k$ is a field, then $\varprojlim
    \pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{n+1})$ is isomorphic to the separated completion of the local ring
    $\mathcal{O}_{j(\xi)}$ for the $\mathfrak{m}_{j(\xi)}$-preadic topology.
 
-1. Assume that $\mathcal{J}$ is an invertible $\mathcal{O}_{V}$-module (which implies that
+3. Assume that $\mathcal{J}$ is an invertible $\mathcal{O}_{V}$-module (which implies that
 
-    ```text
-      ℒ = j*(𝒥) = π_*(𝒥/𝒥²)
-    ```
+    $$ \mathcal{L} = j*(\mathcal{J}) = \pi_{*}(\mathcal{J}/\mathcal{J}^{2}) $$
 
     is an invertible $\mathcal{O}_{X}$-module), and that there exists a homomorphism $\phi : \mathcal{L} \to \varprojlim \pi_{*}(\mathcal{J}/\mathcal{J}^{n+1})$ such that the
     composition $\mathcal{L} \xrightarrow{\phi} \varprojlim \pi_{*}(\mathcal{J}/\mathcal{J}^{n+1}) \xrightarrow{\alpha} \pi_{*}(\mathcal{J}/\mathcal{J}^{2})$ (where $\alpha$ is the canonical homomorphism) is the
@@ -2163,35 +2080,33 @@ neighbourhood in $\pi^{-1}(W_{0})$ not intersecting $j(X)$, and in which $\mathc
 zero, it is clear that the sections of $\mathcal{O}_{V}/\mathcal{J}^{n+1}$ over $\pi^{-1}(W_{0})$ and over $W$ are in
 bijective correspondence. In other words, if $\pi'$ is the restriction of $\pi$ to $U'$, then the
 $(\mathcal{O}_{X}|U_{0})$-modules $\pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{n+1})|U_{0}$ and
-$\pi'_{*}((\mathcal{O}_{V}/\mathcal{J}^{n+1})|U')$ are identical. Since $U'$ and `U_0` are affine, and since the `U_0`
-cover $X$, we thus conclude `(I, 1.6.3)` that $\pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{n+1})$ is quasi-coherent, and the
-proof is identical for $\pi_{*}(\mathcal{J}/\mathcal{J}^{n+1})$.
+$\pi'_{*}((\mathcal{O}_{V}/\mathcal{J}^{n+1})|U')$ are identical. Since $U'$ and $U_{0}$ are affine, and since the
+$U_{0}$ cover $X$, we thus conclude `(I, 1.6.3)` that $\pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{n+1})$ is quasi-coherent,
+and the proof is identical for $\pi_{*}(\mathcal{J}/\mathcal{J}^{n+1})$.
 
 Finally, to prove (iii), note that $\mathcal{S}$ is exactly $\mathbb{S}_{\mathcal{O}_{X}}(\mathcal{L})$; so $\phi$
 canonically induces a homomorphism of $\mathcal{O}_{X}$-algebras $\psi : \mathcal{S} \to \varprojlim
 \pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{n+1})$ (1.7.4); furthermore, this homomorphism sends $\mathcal{L}^{\otimes n}$ to
-`lim_{←m} π_*(𝒥^n/𝒥^{n+1})`, and is thus continuous for the topologies considered, and indeed extends to a homomorphism
-$\hat{\psi} : \hat{\mathcal{S}} \to \varprojlim \pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{n+1})$. To see that this is indeed
-an isomorphism, we may, as in the proof of (i), restrict to the case where $X = \operatorname{Spec}(A)$ and $V =
-\operatorname{Spec}(B)$ are affine, with $\mathcal{J} = \tilde{\mathfrak{J}}$, where $\mathfrak{J}$ is an ideal of $B$;
-there is an injection $A \to B$ corresponding to $\pi$ that identifies $A$ with a subring of $B$ complementary to $B$,
-and $\mathcal{L}$ (resp. $\pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{n+1})$) is the quasi-coherent $\mathcal{O}_{X}$-module
-associated to the $A$-module $L = \mathfrak{J}/\mathfrak{J}^{2}$ (resp. $B/\mathfrak{J}^{n+1}$). Since $\mathcal{J}$ is
-an _invertible_ $\mathcal{O}_{V}$-module, we may further assume that $\mathfrak{J} = B t$, where $t$ is not a zero
-divisor in $B$. From the fact that $B = A \oplus B t$, we deduce that, for every $n > 0$,
+$\varprojlim_{m} \pi_{*}(\mathcal{J}^{n}/\mathcal{J}^{n+1})$, and is thus continuous for the topologies considered, and
+indeed extends to a homomorphism $\hat{\psi} : \hat{\mathcal{S}} \to \varprojlim
+\pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{n+1})$. To see that this is indeed an isomorphism, we may, as in the proof of (i),
+restrict to the case where $X = \operatorname{Spec}(A)$ and $V = \operatorname{Spec}(B)$ are affine, with $\mathcal{J} =
+\tilde{\mathfrak{J}}$, where $\mathfrak{J}$ is an ideal of $B$; there is an injection $A \to B$ corresponding to $\pi$
+that identifies $A$ with a subring of $B$ complementary to $B$, and $\mathcal{L}$ (resp.
+$\pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{n+1})$) is the quasi-coherent $\mathcal{O}_{X}$-module associated to the
+$A$-module $L = \mathfrak{J}/\mathfrak{J}^{2}$ (resp. $B/\mathfrak{J}^{n+1}$). Since $\mathcal{J}$ is an _invertible_
+$\mathcal{O}_{V}$-module, we may further assume that $\mathfrak{J} = B t$, where $t$ is not a zero divisor in $B$. From
+the fact that $B = A \oplus B t$, we deduce that, for every $n > 0$,
 
-```text
-  B = A ⊕ A t ⊕ A t² ⊕ ⋯ ⊕ A tⁿ ⊕ B t^{n+1}
-```
+$$ B = A \oplus A t \oplus A t^{2} \oplus \cdots \oplus A t^{n} \oplus B t^{n+1} $$
 
-and so there exists a canonical $A$-isomorphism from the ring of formal series `A[[T]]` to $C = \varprojlim
+and so there exists a canonical $A$-isomorphism from the ring of formal series $A[[T]]$ to $C = \varprojlim
 B/\mathfrak{J}^{n+1}$ that sends $T$ to $t$. We also have $L = A \bar{t}$, where $\bar{t}$ is the class of $t$ modulo $B
 t^{2}$, and the homomorphism $\phi$ sends, by hypothesis, $\bar{t}$ to an element $t' \in C$ that is congruent to $t$
 modulo $C t^{2}$. We thus deduce, by induction on $n$, that
 
-```text
-  A ⊕ A t′ ⊕ ⋯ ⊕ A t′ⁿ ⊕ C t^{n+1} = A ⊕ A t ⊕ ⋯ ⊕ A tⁿ ⊕ C t^{n+1}
-```
+$$ A \oplus A t' \oplus \cdots \oplus A t'^{n} \oplus C t^{n+1} = A \oplus A t \oplus \cdots \oplus A t^{n} \oplus C
+t^{n+1} $$
 
 which proves that the homomorphism $\hat{\psi}$ does indeed correspond to an isomorphism from $\prod_{n\geq 0}
 L^{\otimes n}$ to $C$.
@@ -2207,13 +2122,13 @@ Under the hypotheses of Lemma (8.10.1), let $g : X' \to X$ be a morphism,
 write $V' = V \times_{X} X'$, and let $\pi' : V' \to X'$ and $g' : V' \to V$ be the canonical projections, so that we
 have the commutative diagram
 
-```text
-   V ←──g′── V′
-   │          │
-   π          π′
-   ↓          ↓
-   X ←──g──── X′
-```
+$$
+\begin{array}{ccc}
+V & \xleftarrow{g'} & V' \\
+\downarrow{\scriptstyle \pi} & & \downarrow{\scriptstyle \pi'} \\
+X & \xleftarrow{g} & X'
+\end{array}
+$$
 
 Then $j' = j \times 1_{X'}$ is an $X'$-section of $V'$ that is also a closed immersion, and $\mathcal{J}' =
 g'*(\mathcal{J}) \mathcal{O}_{V'}$ is the quasi-coherent sheaf of ideals of $\mathcal{O}_{V'}$ that defines the closed
@@ -2246,7 +2161,7 @@ component of $\pi^{-1}(x)$ that contains $j(x)$.
 **Proof.** Since $\pi^{-1}(x) = V \times_{X} \operatorname{Spec}(\kappa(x))$, we are led, by (8.10.2), to the case where
 $X$ is the spectrum of a field $K$. Since $\pi$ is of finite type `(I, 6.4.3, iv)`, $\mathcal{O}_{j(x)}$ is a Noetherian
 local ring, and thus separated for the $\mathfrak{m}_{j(x)}$-preadic topology `(0, 7.3.5)`; it follows from (8.10.1, ii
-and iii) that the completion of this ring is isomorphic to `K[[T]]`, and so $\mathcal{O}_{j(x)}$ is regular and of
+and iii) that the completion of this ring is isomorphic to $K[[T]]$, and so $\mathcal{O}_{j(x)}$ is regular and of
 dimension 1 (Serre, _Algèbre locale, multiplicités_, p. 17-01, th. 1); finally, since $\mathcal{O}_{j(x)}$ is integral,
 $j(x)$ belongs to exactly one of the (finitely many) irreducible components of $V$ `(I, 5.1.4)`.
 
@@ -2288,13 +2203,11 @@ $\pi^{-1}(x)$ that contains $j(x)$ (8.10.3).
    $\Gamma(X, \pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{m+1}))$, then there exists an integer $m > 0$ such that the image of
    $g^{x}_{m}$ in
 
-    ```text
-      (π_*(𝒪_V/𝒥^{m+1}))_x ⊗_{𝒪_x} κ(x)
-    ```
+    $$ (\pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{m+1}))_{x} \otimes_{\mathcal{O}_{x}} \kappa(x) $$
 
     is $\neq 0$.
 
-1. Suppose further that the conditions of (8.10.1, iii) are fulfilled. Then, if there exists a section $g$ of
+2. Suppose further that the conditions of (8.10.1, iii) are fulfilled. Then, if there exists a section $g$ of
    $\mathcal{K}_{V}$ over $V$ such that $g(z) \neq 0$, then there exists an integer $n \geq 0$ and a section $f$ of
    $\mathcal{K} \cdot \mathcal{L}^{\otimes n} = \mathcal{K} \otimes \mathcal{L}^{\otimes n} \subset \mathcal{L}^{\otimes
    n}$ such that $f(x) \neq 0$. If $g$ is a section of $\mathcal{J}$, we may take $n > 0$.
@@ -2308,9 +2221,9 @@ the notation from (8.10.1); the fibre $\pi^{-1}(x)$ is then affine of ring $B' =
 exists in $B'$ an element $t'$ which is not a zero divisor and is such that $B' = \kappa(x) \oplus B' t'$. Since $j(x)$
 is a specialisation of $z$ and since $g(z) \neq 0$, we necessarily have $g_{(j(x))} \neq 0$. But $\mathcal{O}_{j(x)}$ is
 a separated local ring (8.10.3), and thus embeds into its completion, and the image of $g$ in this completion is thus
-not null. But this completion is isomorphic to `lim_{← n}(B′/B′ t′^{n+1})` (8.10.3); if $g' = g \otimes 1 \in B'$, there
-then exists an integer $m$ such that $g' \notin B' t'^{m+1}$, or, again, the image $g'_{m}$ of $g'$ in $B'/B' t'^{m+1}$
-is not null. But since $g'_{m}$ is exactly the image of $g^{x}_{m}$, our claim is proved.
+not null. But this completion is isomorphic to $\varprojlim_{n}(B'/B' t'^{n+1})$ (8.10.3); if $g' = g \otimes 1 \in B'$,
+there then exists an integer $m$ such that $g' \notin B' t'^{m+1}$, or, again, the image $g'_{m}$ of $g'$ in $B'/B'
+t'^{m+1}$ is not null. But since $g'_{m}$ is exactly the image of $g^{x}_{m}$, our claim is proved.
 
 (ii) By (8.10.1, iii), $\pi_{*}(\mathcal{O}_{V}/\mathcal{J}^{m+1})$ is isomorphic to the direct sum of the
 $\mathcal{L}^{\otimes k}$ for $0 \leq k \leq m$; we denote by $f_{k}$ the section of $\mathcal{L}^{\otimes k}$ over $X$
@@ -2340,9 +2253,7 @@ $\mathcal{K} \otimes \mathcal{L}^{\otimes n}$ over $X$ such that $f(x) \neq 0$.
 
 For this, set
 
-```text
-  𝒦_V = π*(𝒦) 𝒪_V,    𝒦_W = 𝒦_V|W
-```
+$$ \mathcal{K}_{V} = \pi*(\mathcal{K}) \mathcal{O}_{V}, \quad \mathcal{K}_{W} = \mathcal{K}_{V}|W $$
 
 where $W = V \setminus j(X)$; since the restriction of $q$ to $W$ is a quasi-compact immersion to $C$, it follows from
 `(I, 9.4.2)` that $\mathcal{K}_{W}$ is the restriction to $W$ of a quasi-coherent sheaf of ideals $\mathcal{K}'_{V}$ of
@@ -2356,13 +2267,11 @@ $q*(\mathcal{I}) \mathcal{O}_{V}$ is identical to that of $\mathcal{O}_{V}$, and
 restriction to $W$ of $q*(\mathcal{I} \mathcal{K}_{C}) \mathcal{O}_{V}$, and we may thus suppose that $\mathcal{K}_{C}
 \subset \mathcal{I}$, whence
 
-```text
-  𝒦′_V ⊂ q*(ℐ) 𝒪_V ⊂ 𝒥                                                     (8.10.6.1)
-```
+$$ \mathcal{K}'_{V} \subset q*(\mathcal{I}) \mathcal{O}_{V} \subset \mathcal{J} \tag{8.10.6.1} $$
 
 taking into account `(I, 4.4.6)` and the commutativity of (8.9.4.1). Furthermore, we deduce from (8.10.4) that
 
-$$ \mathcal{K}'_{V} \subset \mathcal{K}_{V}. (8.10.6.2) $$
+$$ \mathcal{K}'_{V} \subset \mathcal{K}_{V}. \tag{8.10.6.2} $$
 
 With this in mind, it follows from (8.10.3) that $j(x)$ belongs to exactly one irreducible component of $\pi^{-1}(x)$;
 let $z$ be the generic point of this component, and let $z' = q(z)$. By (8.10.5), the proof will be finished (taking
@@ -2390,11 +2299,11 @@ consider in $D$ a closed point $b$,
 
 and we denote by $V$ the scheme obtained from $C'$ by blowing up $b$; $X$ is the closed subprescheme of $V$ given by the
 inverse image of $a$ under the structure morphism $q : V \to C$. One shows that $X$ is the union of two irreducible
-components, `X_1` and `X_2`, where `X_1` is the inverse image of $b$ in $V$. It is immediate that the ideal
+components, $X_{1}$ and $X_{2}$, where $X_{1}$ is the inverse image of $b$ in $V$. It is immediate that the ideal
 $\mathcal{J}$ of $\mathcal{O}_{V}$ that defines $X$ is again invertible, and one can show that $j*(\mathcal{J}) =
 \mathcal{L}$ (where $j$ is the canonical injection $X \to V$) is not ample, by considering the "degree" of the inverse
-image of $\mathcal{L}$ in `X_1`, which would be `> 0` if $\mathcal{L}$ were ample, but which can be shown (by an
-elementary intersection calculation) to be in fact equal to `0`.
+image of $\mathcal{L}$ in $X_{1}$, which would be $> 0$ if $\mathcal{L}$ were ample, but which can be shown (by an
+elementary intersection calculation) to be in fact equal to $0$.
 
 ## 8.11. Uniqueness of contractions
 
@@ -2405,15 +2314,13 @@ elementary intersection calculation) to be in fact equal to `0`.
 Let $U$ and $V$ be preschemes, and $h = (h_{0}, \lambda) : U \to V$ a surjective morphism. Suppose that:
 
 1. $\lambda : \mathcal{O}_{V} \to h_{*}(\mathcal{O}_{U}) = (h_{0})_{*}(\mathcal{O}_{U})$ is an isomorphism;
-1. the underlying space of $V$ may be identified with the quotient of the underlying space of $U$ by the relation
+2. the underlying space of $V$ may be identified with the quotient of the underlying space of $U$ by the relation
    $h_{0}(x) = h_{0}(y)$ (_a condition that always holds whenever the morphism $h$ is open or closed, or, a fortiori,
    when $h$ is proper._)
 
 Then, for every prescheme $W$, the map
 
-```text
-  Hom(V, W) → Hom(U, W)                                                    (8.11.1.1)
-```
+$$ \operatorname{Hom}(V, W) \to \operatorname{Hom}(U, W) \tag{8.11.1.1} $$
 
 that, to each morphism $v = (v_{0}, \nu)$ from $V$ to $W$, associates the morphism $u = v \circ h = (u_{0}, \mu)$, is a
 bijection from $\operatorname{Hom}(V, W)$ to the set of $u$ such that $u_{0}$ is constant on every fibre
@@ -2432,9 +2339,8 @@ corresponding homomorphism $\nu^{\sharp} : v_{0}*(\mathcal{O}_{W}) \to \mathcal{
 every $y \in V$ is of the form $h_{0}(x)$ for some $x \in U$; let $z = v_{0}(y) = u_{0}(x)$. Then `(0, 3.5.5)` the
 homomorphism $\mu^{\sharp}_{x}$ factors as
 
-```text
-  μ_x^♯ : 𝒪_z ──ν_y^♯──→ 𝒪_y ──λ_x^♯──→ 𝒪_x.
-```
+$$ \mu_x^{\sharp} : \mathcal{O}_{z} \xrightarrow{\nu_y^{\sharp}} \mathcal{O}_{y} \xrightarrow{\lambda_x^{\sharp}}
+\mathcal{O}_{x}. $$
 
 By hypothesis, $\lambda^{\sharp}_{x}$ and $\mu^{\sharp}_{x}$ are local homomorphisms; thus $\lambda^{\sharp}_{x}$ sends
 every invertible element of $\mathcal{O}_{y}$ to an invertible element of $\mathcal{O}_{x}$; if $\nu^{\sharp}_{y}$ sent
@@ -2558,7 +2464,7 @@ assumed to be normal, it suffices to apply (8.11.2) to obtain the conclusion.
    \mathcal{O}_{Y} \to p_{*}(\mathcal{O}_{X})$ is an isomorphism, then, for every $p$-ample $\mathcal{O}_{X}$-module
    $\mathcal{L}$, there exists exactly one way of contracting the zero section of $V = \mathbb{V}(\mathcal{L})$ to
    obtain a normal $Y$-scheme $C$ and a proper $Y$-morphism $q : V \to C$._
-1. When $p$ is proper, the hypothesis $p_{*}(\mathcal{O}_{X}) = \mathcal{O}_{Y}$ may be considered as an auxiliary
+2. When $p$ is proper, the hypothesis $p_{*}(\mathcal{O}_{X}) = \mathcal{O}_{Y}$ may be considered as an auxiliary
    hypothesis not really restricting the generality of the result. Indeed, if it is not satisfied, then it suffices to
    replace $Y$ with the $Y$-scheme $Y' = \operatorname{Spec}(p_{*}(\mathcal{O}_{X}))$ and to consider $X$ as a
    $Y'$-scheme. We will return to this general method in Chapter III, §4.
@@ -2579,9 +2485,8 @@ $\mathcal{P}\mathcal{roj}_{0}(\mathcal{M})$ the quasi-coherent $\mathcal{O}_{X}$
 $\mathcal{M}$ is considered this time as a graded $\mathcal{S}$-module (in other words, the $\mathcal{O}_{X}$-module
 denoted by $\tilde{\mathcal{M}}$ in (3.2.2)). In addition, we set
 
-```text
-  𝒫𝓻𝓸𝓳(ℳ) = ⊕_{n ∈ ℤ} 𝒫𝓻𝓸𝓳₀(ℳ(n));                                         (8.12.1.1)
-```
+$$ \mathcal{P}\mathcal{roj}(\mathcal{M}) = \oplus_{n \in \mathbf{Z}} \mathcal{P}\mathcal{roj}_{0}(\mathcal{M}(n));
+\tag{8.12.1.1} $$
 
 since the quasi-coherent graded $\mathcal{O}_{X}$-algebra $\mathcal{S}_{X}$ is defined by (8.6.1.1),
 $\mathcal{P}\mathcal{roj}(\mathcal{M})$ is equipped with the structure of a _(quasi-coherent) graded
@@ -2589,7 +2494,7 @@ $\mathcal{S}_{X}$-module_, by means of the canonical homomorphisms (3.2.6.1)
 
 $$ \mathcal{O}_{X}(m) \otimes_{\mathcal{O}_{X}} \mathcal{P}\mathcal{roj}_{0}(\mathcal{M}(n)) \to
 \mathcal{P}\mathcal{roj}_{0}(\mathcal{S}(m) \otimes_{\mathcal{S}} \mathcal{M}(n)) \to
-\mathcal{P}\mathcal{roj}_{0}(\mathcal{M}(m+n)), (8.12.1.2) $$
+\mathcal{P}\mathcal{roj}_{0}(\mathcal{M}(m+n)), \tag{8.12.1.2} $$
 
 the verification of the axioms of sheaves of modules being carried out using the commutative diagram (2.5.11.4).
 
@@ -2600,20 +2505,18 @@ the verification of the axioms of sheaves of modules being carried out using the
 If $Y = \operatorname{Spec}(A)$ is affine, $\mathcal{S} = \tilde{S}$, and $\mathcal{M} = \tilde{M}$, where $S$ is a
 graded $A$-algebra and $M$ a graded $S$-module, then, for every homogeneous element $f \in S_{+}$,
 
-$$ \Gamma(X_{f}, \mathcal{P}\mathcal{roj}(\tilde{M})) = M_{f} (8.12.1.3) $$
+$$ \Gamma(X_{f}, \mathcal{P}\mathcal{roj}(\tilde{M})) = M_{f} \tag{8.12.1.3} $$
 
 by the definitions and (8.2.9.1).
 
 Now consider the quasi-coherent graded $\hat{\mathcal{S}}$-module
 
-```text
-  ℳ̂ = ℳ ⊗_𝒮 𝒮̂                                                              (8.12.1.4)
-```
+$$ \hat{\mathcal{M}} = \mathcal{M} \otimes_{\mathcal{S}} \hat{\mathcal{S}} \tag{8.12.1.4} $$
 
 ($\hat{\mathcal{S}}$ being defined by (8.3.1.1)); this induces a quasi-coherent graded $\mathcal{O}_{\hat{C}}$-module
 $\mathcal{P}\mathcal{roj}_{0}(\hat{\mathcal{M}})$, which we will also denote by
 
-$$ \mathcal{M}\square = \mathcal{P}\mathcal{roj}_{0}(\hat{\mathcal{M}}). (8.12.1.5) $$
+$$ \mathcal{M}\square = \mathcal{P}\mathcal{roj}_{0}(\hat{\mathcal{M}}). \tag{8.12.1.5} $$
 
 It is clear (3.2.4) that $\mathcal{M}\square$ is an additive functor which is _exact_ in $\mathcal{M}$, commuting with
 direct sums and with inductive limits.
@@ -2624,9 +2527,8 @@ direct sums and with inductive limits.
 
 With the notation of (8.3.2), we have canonical functorial isomorphisms
 
-```text
-  i*(ℳ□) ⥲ ℳ̃,    j*(ℳ□) ⥲ 𝒫𝓻𝓸𝓳₀(ℳ).                                       (8.12.2.1)
-```
+$$ i*(\mathcal{M}\square) \xrightarrow{\sim} \tilde{\mathcal{M}}, \quad j*(\mathcal{M}\square) \xrightarrow{\sim}
+\mathcal{P}\mathcal{roj}_{0}(\mathcal{M}). \tag{8.12.2.1} $$
 
 Indeed, $i*(\mathcal{M}\square)$ is canonically identified with $\tilde{\hat{\mathcal{M}}/(\mathbf{z} -
 1)\hat{\mathcal{M}}}$ on $\operatorname{Spec}(\hat{\mathcal{S}}/(\mathbf{z} - 1)\hat{\mathcal{S}})$ by (3.2.3); the
@@ -2652,16 +2554,14 @@ $\mathcal{S}$-module $\mathcal{M}$).
 
 With the notation of (8.3.5), we have a canonical functorial homomorphism
 
-$$ p*(\mathcal{P}\mathcal{roj}(\mathcal{M})) \to \mathcal{M}\square|\hat{E}. (8.12.3.1) $$
+$$ p*(\mathcal{P}\mathcal{roj}(\mathcal{M})) \to \mathcal{M}\square|\hat{E}. \tag{8.12.3.1} $$
 
 Indeed, this is a particular case of the homomorphism $\nu^{\sharp}$ defined more generally in (3.5.6). If $Y =
 \operatorname{Spec}(A)$ is affine, $\mathcal{S} = \tilde{S}$, and $\mathcal{M} = \tilde{M}$, then, by appealing to
 (2.8.8), the restriction of (8.12.3.1) to $p^{-1}(X_{f}) = \hat{C}_{f}$ (for some homogeneous $f$ in $S_{+}$)
 corresponds to the canonical homomorphism
 
-```text
-  M_{(f)} ⊗_{S_{(f)}} S_f^≤ → M_f^≤                                         (8.12.3.2)
-```
+$$ M_{(f)} \otimes_{S_{(f)}} S^{\leq}_{f} \to M^{\leq}_{f} \tag{8.12.3.2} $$
 
 taking into account (8.2.3.2) and (8.2.5.2).
 
@@ -2673,22 +2573,19 @@ Let us place ourselves in the setting of (8.5.1), assuming its hypotheses and ke
 (1.5.6) that, for every quasi-coherent graded $\mathcal{S}$-module $\mathcal{M}$, we have, on one hand, a canonical
 isomorphism
 
-```text
-  Φ*(ℳ̃) ⥲ (q*(ℳ) ⊗_{q*(𝒮)} 𝒮′)̃                                            (8.12.4.1)
-```
+$$ \Phi*(\tilde{\mathcal{M}}) \xrightarrow{\sim} \widetilde{(q*(\mathcal{M}) \otimes_{q*(\mathcal{S})} \mathcal{S}')}
+\tag{8.12.4.1} $$
 
 of $\mathcal{O}_{C'}$-modules; on the other hand, (3.5.6) implies the existence of a canonical
 $\operatorname{Proj}(\phi)$-morphism
 
-```text
-  𝒫𝓻𝓸𝓳₀(ℳ) → (𝒫𝓻𝓸𝓳₀(q*(ℳ)) ⊗_{q*(𝒮)} 𝒮′)|G(φ)                              (8.12.4.2)
-```
+$$ \mathcal{P}\mathcal{roj}_{0}(\mathcal{M}) \to (\mathcal{P}\mathcal{roj}_{0}(q*(\mathcal{M}))
+\otimes_{q*(\mathcal{S})} \mathcal{S}')|G(\phi) \tag{8.12.4.2} $$
 
 and also of a canonical $\hat{\Phi}$-morphism
 
-```text
-  𝒫𝓻𝓸𝓳₀(ℳ̂) → (𝒫𝓻𝓸𝓳₀(q*(ℳ̂)) ⊗_{q*(𝒮̂)} 𝒮̂′)|G(φ̂).                          (8.12.4.3)
-```
+$$ \mathcal{P}\mathcal{roj}_{0}(\hat{\mathcal{M}}) \to (\mathcal{P}\mathcal{roj}_{0}(q*(\hat{\mathcal{M}}))
+\otimes_{q*(\hat{\mathcal{S}})} \hat{\mathcal{S}}')|G(\hat{\phi}). \tag{8.12.4.3} $$
 
 **(8.12.5)**
 
@@ -2697,9 +2594,8 @@ and also of a canonical $\hat{\Phi}$-morphism
 Consider now the setting of (8.6.1), with the same notation; we thus take $Y' = X$, the morphism $q : X \to Y$ being the
 structure morphism, and $\phi$ the canonical $q$-morphism (8.6.1.2). We then have a canonical isomorphism
 
-```text
-  q*(ℳ) ⊗_{q*(𝒮)} 𝒮_X^≥ ⥲ ℳ_X^≥                                              (8.12.5.1)
-```
+$$ q*(\mathcal{M}) \otimes_{q*(\mathcal{S})} \mathcal{S}^{\geq}_{X} \xrightarrow{\sim} \mathcal{M}^{\geq}_{X}
+\tag{8.12.5.1} $$
 
 by setting $\mathcal{M}^{\geq}_{X} = \oplus_{n\geq 0} \mathcal{P}\mathcal{roj}_{0}(\mathcal{M}(n))$. We can indeed
 restrict to the case where $Y = \operatorname{Spec}(A)$ is affine, $\mathcal{S} = \tilde{S}$, and $\mathcal{M} =
@@ -2716,15 +2612,14 @@ satisfies the required compatibility conditions.
 Replacing $\mathcal{M}$ by $\hat{\mathcal{M}}$, $\mathcal{S}$ by $\hat{\mathcal{S}}$, and $\mathcal{S}_{X}$ by
 $\hat{\mathcal{S}^{\geq}_{X}}$ in the previous argument, we similarly have a canonical isomorphism
 
-```text
-  q*(ℳ̂) ⊗_{q*(𝒮̂)} (𝒮_X^≥)̂ ⥲ (ℳ_X^≥)̂.                                     (8.12.5.2)
-```
+$$ q*(\hat{\mathcal{M}}) \otimes_{q*(\hat{\mathcal{S}})} \widehat{(\mathcal{S}^{\geq}_{X})} \xrightarrow{\sim}
+\widehat{(\mathcal{M}^{\geq}_{X})}. \tag{8.12.5.2} $$
 
 If we recall (8.6.2) that the structure morphism $u : \operatorname{Proj}(\mathcal{S}^{\geq}_{X}) \to X$ is an
 isomorphism, then we deduce, first of all, from the above, that we have a canonical $u$-isomorphism
 
 $$ \mathcal{P}\mathcal{roj}_{0}(\mathcal{M}) \xrightarrow{\sim} \mathcal{P}\mathcal{roj}_{0}(\mathcal{M}^{\geq}_{X})
-(8.12.5.3) $$
+\tag{8.12.5.3} $$
 
 as a particular case of (8.12.4.2). We note that, with the notation from the proof of (8.6.2), this reduces to seeing
 that the canonical homomorphism $M_{(f)} \otimes_{S_{(f)}} (S^{\geq}_{f})^{(d)} \to (M^{\geq}_{f})^{(d)}$ is an
@@ -2733,20 +2628,20 @@ isomorphism whenever $f \in S_{d}$, which is immediate.
 Secondly, the isomorphism (8.12.5.2) gives us, this time applying (8.12.4.3) to the canonical morphism $r =
 \operatorname{Proj}(\hat{\alpha}) : \hat{C}_{X} \to \hat{C}$, a canonical $r$-morphism
 
-$$ \mathcal{M}\square \to (\mathcal{M}^{\geq}_{X})\square. (8.12.5.4) $$
+$$ \mathcal{M}\square \to (\mathcal{M}^{\geq}_{X})\square. \tag{8.12.5.4} $$
 
-Recall (8.6.2) that the restrictions of $r$ to the punctured cones $\hat{E}_{X}$ and `E_X` are _isomorphisms_ onto `Ê`
-and $E$ respectively. Furthermore:
+Recall (8.6.2) that the restrictions of $r$ to the punctured cones $\hat{E}_{X}$ and $E_{X}$ are _isomorphisms_ onto
+$\hat{E}$ and $E$ respectively. Furthermore:
 
 **Proposition.**
 
 <!-- label: II.8.12.6 -->
 
-The restrictions to $\hat{E}_{X}$ and `E_X` of the canonical $r$-morphism (8.12.5.4) are isomorphisms
+The restrictions to $\hat{E}_{X}$ and $E_{X}$ of the canonical $r$-morphism (8.12.5.4) are isomorphisms
 
-$$ \mathcal{M}\square|\hat{E} \xrightarrow{\sim} (\mathcal{M}^{\geq}_{X})\square|\hat{E}_{X} (8.12.6.1) $$
+$$ \mathcal{M}\square|\hat{E} \xrightarrow{\sim} (\mathcal{M}^{\geq}_{X})\square|\hat{E}_{X} \tag{8.12.6.1} $$
 
-$$ \tilde{\mathcal{M}}|E \xrightarrow{\sim} \tilde{\mathcal{M}^{\geq}_{X}}|E_{X}. (8.12.6.2) $$
+$$ \tilde{\mathcal{M}}|E \xrightarrow{\sim} \tilde{\mathcal{M}^{\geq}_{X}}|E_{X}. \tag{8.12.6.2} $$
 
 **Proof.** We restrict to the case where $Y$ is affine, as in the proof of (8.6.2) (whose notation we adopt); reducing
 to definitions (2.8.8), we have to show that the canonical homomorphism
@@ -2765,8 +2660,8 @@ $(M^{\geq}_{f})^{\leq}_{f/1}$, and thus also with $M^{\leq}_{f}$, by (8.2.9.2), 
 <!-- label: II.8.12.7 -->
 
 With the identifications of (8.6.3), the restriction of $(\mathcal{M}^{\geq}_{X})\square$ to $\hat{E}_{X}$ can be
-identified with $\tilde{\mathcal{M}^{\leq}_{X}}$, and the restriction of $(\mathcal{M}^{\geq}_{X})\square$ to `E_X` with
-$\tilde{\mathcal{M}}_{X}$.
+identified with $\tilde{\mathcal{M}^{\leq}_{X}}$, and the restriction of $(\mathcal{M}^{\geq}_{X})\square$ to $E_{X}$
+with $\tilde{\mathcal{M}}_{X}$.
 
 **Proof.** We can restrict to the affine case, and this follows from the identification of $(M^{\geq}_{f})^{\leq}_{f/1}$
 with $M^{\leq}_{f}$, and of $(M^{\geq}_{f})_{f/1}$ with $M_{f}$ (8.2.9.2).
@@ -2799,7 +2694,7 @@ $$ \mathcal{M}_{[n]} = \oplus_{m\geq n} \mathcal{M}_{m} $$
 
 and (with the notation of (8.7.2)) the quasi-coherent graded $\mathcal{S}^{\natural}$-module
 
-$$ \mathcal{M}^{\natural} = \tilde{\oplus_{n\geq 0} \mathcal{M}_{[n]}}. (8.12.9.1) $$
+$$ \mathcal{M}^{\natural} = \widetilde{\oplus_{n\geq 0} \mathcal{M}_{[n]}}. \tag{8.12.9.1} $$
 
 We have seen (8.7.3) that there exists a canonical $C$-isomorphism $h : C_{X} \xrightarrow{\sim}
 \operatorname{Proj}(\mathcal{S}^{\natural})$. Furthermore:
@@ -2810,7 +2705,7 @@ We have seen (8.7.3) that there exists a canonical $C$-isomorphism $h : C_{X} \x
 
 There exists a canonical $h$-isomorphism
 
-$$ \mathcal{P}\mathcal{roj}_{0}(\mathcal{M}^{\natural}) \xrightarrow{\sim} \tilde{\mathcal{M}}_{X}. (8.12.10.1) $$
+$$ \mathcal{P}\mathcal{roj}_{0}(\mathcal{M}^{\natural}) \xrightarrow{\sim} \tilde{\mathcal{M}}_{X}. \tag{8.12.10.1} $$
 
 **Proof.** We argue as in (8.7.3), this time using the existence of the di-isomorphism (8.2.9.3) instead of (8.2.7.3).
 We leave the details to the reader.
@@ -2837,9 +2732,7 @@ give a more explicit description by using a graded $\hat{\mathcal{S}}$-module.
 For this, consider, for every integer $n \geq 0$, the homomorphism $\oplus_{i\leq n} \mathcal{M}_{i} \to \mathcal{M}$
 which, for every open $U$ of $Y$, sends the family
 
-```text
-  (s_i) ∈ ⊕_{i≤n} Γ(U, ℳ_i)
-```
+$$ (s_i) \in \oplus_{i\leq n} \Gamma(U, \mathcal{M}_i) $$
 
 to the section $\sum_{i} s_{i} \in \Gamma(U, \mathcal{M})$. Denote by $\mathcal{N}'_{n}$ the inverse image of
 $\mathcal{N}$ under this homomorphism, which is a quasi-coherent sub-$\mathcal{S}$-module of $\oplus_{i\leq n}
@@ -2861,14 +2754,14 @@ identified with the direct sum of the components $\hat{\mathcal{N}}_{n}$ of degr
 <!-- label: II.8.13.3 -->
 
 The $\mathcal{O}_{\hat{C}}$-module $\mathcal{P}\mathcal{roj}_{0}(\bar{\mathcal{N}})$ is the canonical extension
-$(\tilde{\mathcal{N}})^{-}$ of $\tilde{\mathcal{N}}$ to `Ĉ`.
+$(\tilde{\mathcal{N}})^{-}$ of $\tilde{\mathcal{N}}$ to $\hat{C}$.
 
-**Proof.** The question is local on $Y$ and `Ĉ` by the definition of the canonical extension `(I, 9.4.1)`. We can thus
-already suppose that $Y = \operatorname{Spec}(A)$ is affine, with $\mathcal{S} = \tilde{S}$, $\mathcal{M} = \tilde{M}$,
-and $\mathcal{N} = \tilde{N}$, where $N$ is a not-necessarily-graded sub-$S$-module of $M$. Furthermore (8.3.2.6), `Ĉ`
-is a union of affine opens $\hat{C}_{\mathbf{z}} = C$ and $\hat{C}_{f} = \operatorname{Spec}(S^{\leq}_{f})$ (with $f$
-homogeneous in $S_{+}$). It thus suffices to show that: (1) the restriction of
-$\mathcal{P}\mathcal{roj}_{0}(\bar{\mathcal{N}})$ to $C$ is $\tilde{\mathcal{N}}$; (2) the restriction of
+**Proof.** The question is local on $Y$ and $\hat{C}$ by the definition of the canonical extension `(I, 9.4.1)`. We can
+thus already suppose that $Y = \operatorname{Spec}(A)$ is affine, with $\mathcal{S} = \tilde{S}$, $\mathcal{M} =
+\tilde{M}$, and $\mathcal{N} = \tilde{N}$, where $N$ is a not-necessarily-graded sub-$S$-module of $M$. Furthermore
+(8.3.2.6), $\hat{C}$ is a union of affine opens $\hat{C}_{\mathbf{z}} = C$ and $\hat{C}_{f} =
+\operatorname{Spec}(S^{\leq}_{f})$ (with $f$ homogeneous in $S_{+}$). It thus suffices to show that: (1) the restriction
+of $\mathcal{P}\mathcal{roj}_{0}(\bar{\mathcal{N}})$ to $C$ is $\tilde{\mathcal{N}}$; (2) the restriction of
 $\mathcal{P}\mathcal{roj}_{0}(\bar{\mathcal{N}})$ to each $\hat{C}_{f}$ is the canonical extension of the restriction of
 $\mathcal{N}$ to $C \cap \hat{C}_{f} = \operatorname{Spec}(S_{f})$ (8.3.2.6). For the first point, note that
 $\mathcal{P}\mathcal{roj}_{0}(\bar{\mathcal{N}})|C$ can be identified with $\tilde{\bar{N}_{(\mathbf{z})}}$ (8.3.2.4);
@@ -2896,27 +2789,25 @@ converse is evident.
    $\tilde{\mathcal{N}}$ then being an _arbitrary_ quasi-coherent sheaf of ideals $\mathcal{J}$ of $\mathcal{O}_{C}$
    (1.4.3), corresponding bijectively to a _closed subprescheme_ $Z$ of $C$. Then the canonical extension
    $\bar{\mathcal{J}}$ of $\mathcal{J}$ is the quasi-coherent sheaf of ideals of $\mathcal{O}_{\hat{C}}$ that defines
-   the _closure_ $\bar{Z}$ of $Z$ in `Ĉ` `(I, 9.5.10)`; Proposition (8.13.3) gives a canonical way of defining $\bar{Z}$
-   by using a graded ideal in $\hat{\mathcal{S}} = \mathcal{S}[\mathbf{z}]$.
+   the _closure_ $\bar{Z}$ of $Z$ in $\hat{C}$ `(I, 9.5.10)`; Proposition (8.13.3) gives a canonical way of defining
+   $\bar{Z}$ by using a graded ideal in $\hat{\mathcal{S}} = \mathcal{S}[\mathbf{z}]$.
 
-1. Suppose, to simplify, that $Y$ is affine, and adopt the notation from the proof of (8.13.3). For every non-zero $x
+2. Suppose, to simplify, that $Y$ is affine, and adopt the notation from the proof of (8.13.3). For every non-zero $x
    \in N$, let $d(x)$ be the largest degree of the homogeneous components $x_{i}$ of $x$ in $M$; by definition,
-   $\bar{N}$ is the submodule of $\hat{M}$ consisting of `0` and elements of the form $h(x, k) = \mathbf{z}^{k}
+   $\bar{N}$ is the submodule of $\hat{M}$ consisting of $0$ and elements of the form $h(x, k) = \mathbf{z}^{k}
    \sum_{i\leq d(x)} x_{i} \mathbf{z}^{d(x)-i}$ (for integral $k \geq 0$); it is thus generated, as a module over
    $\hat{S} = S[\mathbf{z}]$, by the elements of the form
 
-    ```text
-      h(x, 0) = ∑_{i≤d(x)} x_i 𝐳^{d(x)−i}.
-    ```
+    $$ h(x, 0) = \sum_{i\leq d(x)} x_i \mathbf{z}^{d(x)-i}. $$
 
     <!-- original page 197 -->
 
     We say that $h(x, 0)$ is obtained from $x$ by _homogenisation_ via the "homogenisation variable" $\mathbf{z}$. But since
     $h(x, 0)$ does not depend additively on $x$ (nor _a fortiori_ $S$-linearly), _we will refrain from believing_ (even
-    when $M = S$) that the $h(x, 0)$ form a _system of generators_ of the graded `Ŝ`-module $\bar{N}$ when we let $x$ run
+    when $M = S$) that the $h(x, 0)$ form a _system of generators_ of the graded $\hat{S}$-module $\bar{N}$ when we let $x$ run
     over a _system of generators_ of the $S$-module $N$. This is, however, the case (considered only in elementary
     algebraic geometry) when $N$ is a _free cyclic_ $S$-module, since, if $t$ is a basis of $N$, then $h(t, 0)$
-    generates the `Ŝ`-module $\bar{N}$.
+    generates the $\hat{S}$-module $\bar{N}$.
 
 ## 8.14. Supplement on sheaves associated to graded $\mathcal{S}$-modules
 
@@ -2933,9 +2824,8 @@ inductive limits.
 
 Note, furthermore, that it follows immediately from the definition (8.12.1.1) that we have
 
-```text
-  𝒫𝓻𝓸𝓳(ℳ(n)) = (𝒫𝓻𝓸𝓳(ℳ))(n)      for all n ∈ ℤ.                            (8.14.1.1)
-```
+$$ \mathcal{P}\mathcal{roj}(\mathcal{M}(n)) = (\mathcal{P}\mathcal{roj}(\mathcal{M}))(n) \quad \text{for all } n \in
+\mathbf{Z}. \tag{8.14.1.1} $$
 
 **(8.14.2)**
 
@@ -2945,16 +2835,19 @@ We will first extend the canonical homomorphisms $\lambda$ and $\mu$, defined in
 of the form $\mathcal{P}\mathcal{roj}(\mathcal{M})$. For this, note that, for any $m \in \mathbb{Z}$ and $n \in
 \mathbb{Z}$, we have, by (2.1.2.1), a canonical homomorphism of $\mathcal{O}_{X}$-modules
 
-```text
-  λ_{mn} : 𝒫𝓻𝓸𝓳₀((𝓗𝓸𝓶_𝒮(ℳ, 𝒩))(n − m))
-    → 𝓗𝓸𝓶_{𝒪_X}(𝒫𝓻𝓸𝓳₀(ℳ(m)), 𝒫𝓻𝓸𝓳₀(𝒩(n)))                                  (8.14.2.1)
-```
+$$
+\begin{aligned}
+\lambda_{mn} : \mathcal{P}\mathcal{roj}_{0}((\mathcal{H}om_{\mathcal{S}}(\mathcal{M}, \mathcal{N}))(n - m)) \\
+\to \mathcal{H}om_{\mathcal{O}_{X}}(\mathcal{P}\mathcal{roj}_{0}(\mathcal{M}(m)), \mathcal{P}\mathcal{roj}_{0}(\mathcal{N}(n)))
+\end{aligned}
+\tag{8.14.2.1}
+$$
 
 for any quasi-coherent graded $\mathcal{S}$-modules $\mathcal{M}$ and $\mathcal{N}$. This induces a homomorphism
 
 $$ \mu_{k} : \mathcal{P}\mathcal{roj}_{0}((\operatorname{Hom}_{\mathcal{S}}(\mathcal{M}, \mathcal{N}))(k)) \to
 (\operatorname{Hom}_{\mathcal{S}_{X}}(\mathcal{P}\mathcal{roj}(\mathcal{M}), \mathcal{P}\mathcal{roj}(\mathcal{N})))_{k}
-(8.14.2.2) $$
+\tag{8.14.2.2} $$
 
 given by sending every $u \in \Gamma(U, \mathcal{P}\mathcal{roj}_{0}((\operatorname{Hom}_{\mathcal{S}}(\mathcal{M},
 \mathcal{N}))(k)))$ to the homomorphism $\mu_{k}(u)$, of degree $k$, of graded $\mathbb{Z}$-modules $\Gamma(U,
@@ -2964,16 +2857,15 @@ returning to the definition of the $\mu_{mn}$ (2.5.12.1), we immediately see tha
 of degree $k$ of graded $\Gamma(U, \mathcal{S}_{X})$-modules, and, furthermore, that the $\mu_{k}$ define a homomorphism
 of _graded $\mathcal{S}_{X}$-modules_
 
-```text
-  𝒫𝓻𝓸𝓳(𝓗𝓸𝓶_𝒮(ℳ, 𝒩)) → 𝓗𝓸𝓶_{𝒮_X}(𝒫𝓻𝓸𝓳(ℳ), 𝒫𝓻𝓸𝓳(𝒩)).                       (8.14.2.3)
-```
+$$ \mathcal{P}\mathcal{roj}(\mathcal{H}om_{\mathcal{S}}(\mathcal{M}, \mathcal{N})) \to
+\mathcal{H}om_{\mathcal{S}_{X}}(\mathcal{P}\mathcal{roj}(\mathcal{M}), \mathcal{P}\mathcal{roj}(\mathcal{N})).
+\tag{8.14.2.3} $$
 
 Similarly, taking the associativity diagram (2.5.11.4) into account, the homomorphisms (8.14.2.1) give a homomorphism of
 _graded $\mathcal{S}_{X}$-modules_
 
-```text
-  λ : 𝒫𝓻𝓸𝓳(ℳ) ⊗_{𝒮_X} 𝒫𝓻𝓸𝓳(𝒩) → 𝒫𝓻𝓸𝓳(ℳ ⊗_𝒮 𝒩).                            (8.14.2.4)
-```
+$$ \lambda : \mathcal{P}\mathcal{roj}(\mathcal{M}) \otimes_{\mathcal{S}_{X}} \mathcal{P}\mathcal{roj}(\mathcal{N}) \to
+\mathcal{P}\mathcal{roj}(\mathcal{M} \otimes_{\mathcal{S}} \mathcal{N}). \tag{8.14.2.4} $$
 
 <!-- original page 198 -->
 
@@ -2990,24 +2882,22 @@ positively-graded $A$-algebra, and $M$ and $N$ are graded $S$-modules. If $f$ is
 the homomorphisms (8.14.2.1) and (8.14.2.2), restricted to the affine open $D_{+}(f)$, correspond to the canonical
 homomorphisms (2.5.11.1) and (2.5.12.1):
 
-```text
-  M(m)_{(f)} ⊗_{S_{(f)}} N(n)_{(f)} → (M ⊗_S N)(m+n)_{(f)}
-  (Hom_S(M, N))(n − m)_{(f)} → Hom_{S_{(f)}}(M(m)_{(f)}, N(n)_{(f)}).
-```
+$$
+\begin{aligned}
+M(m)_{(f)} \otimes_{S_{(f)}} N(n)_{(f)} &\to (M \otimes_{S} N)(m+n)_{(f)} \\
+(\operatorname{Hom}_{S}(M, N))(n - m)_{(f)} &\to \operatorname{Hom}_{S_{(f)}}(M(m)_{(f)}, N(n)_{(f)}).
+\end{aligned}
+$$
 
 If we refer to the definitions of these homomorphisms, we thus see (taking (8.2.9.1) into account) that the restriction
 of (8.14.2.4) to $D_{+}(f)$ corresponds to the canonical homomorphism
 
-```text
-  M_f ⊗_{S_f} N_f → (M ⊗_S N)_f
-```
+$$ M_f \otimes_{S_f} N_f \to (M \otimes_{S} N)_f $$
 
 defined in `(0, 1.3.4)`, and we know that this latter homomorphism is an isomorphism. Similarly, the restriction of
 (8.14.2.3) to $D_{+}(f)$ corresponds to the canonical homomorphism `(0, 1.3.5)`
 
-```text
-  (Hom_S(M, N))_f → Hom_{S_f}(M_f, N_f)
-```
+$$ (\operatorname{Hom}_{S}(M, N))_f \to \operatorname{Hom}_{S_f}(M_f, N_f) $$
 
 taking into account the fact that, since $M$ is of finite type, the module $\operatorname{Hom}_{S}(M, N)$, the direct
 sum of the subgroups consisting of _homogeneous_ homomorphisms of $S$-modules (2.1.2), agrees with the set of _all_
@@ -3022,7 +2912,7 @@ If $U$ is a quasi-compact open of $X$, then there exists an integer $d$ such tha
 multiple of $d$, $\mathcal{O}_{X}(n)|U$ is invertible, with its inverse being $\mathcal{O}_{X}(-n)|U$.
 
 **Proof.** Since $q(U)$ is quasi-compact, it is covered by a finite number of affine opens $V_{i}$, and so every $x \in
-U$ is contained in some affine open of the form $D_{+}(f)$, where $f$ is a homogeneous element of degree `> 0` of one of
+U$ is contained in some affine open of the form $D_{+}(f)$, where $f$ is a homogeneous element of degree $> 0$ of one of
 the rings $\Gamma(V_{i}, \mathcal{S})$. Since $U$ is quasi-compact, we can cover it by a finite number of such opens
 $D_{+}(f_{j})$; let $d$ be a common multiple of the degrees of the $f_{j}$. This $d$ satisfies the desired property, by
 (2.5.17).
@@ -3034,15 +2924,12 @@ $D_{+}(f_{j})$; let $d$ be a common multiple of the degrees of the $f_{j}$. This
 With the hypotheses and notation of (8.14.1), we defined, in (3.3.2), canonical homomorphisms of
 $\mathcal{O}_{Y}$-modules
 
-```text
-  α_n : ℳ_n → q_*(𝒫𝓻𝓸𝓳₀(ℳ(n)))         (n ∈ ℤ).                            (8.14.5.1)
-```
+$$ \alpha_n : \mathcal{M}_n \to q_{*}(\mathcal{P}\mathcal{roj}_{0}(\mathcal{M}(n))) \quad (n \in \mathbf{Z}).
+\tag{8.14.5.1} $$
 
 Generalising the notation of (3.3.1), we set, for every _graded $\mathcal{S}_{X}$-module $\mathcal{F}$_,
 
-```text
-  𝚪_*(𝓕) = ⊕_{n ∈ ℤ} q_*(𝓕_n).                                              (8.14.5.2)
-```
+$$ \Gamma_{*}(\mathcal{F}) = \oplus_{n \in \mathbf{Z}} q_{*}(\mathcal{F}_n). \tag{8.14.5.2} $$
 
 In particular, $\Gamma_{*}(\mathcal{S}_{X}) = \oplus_{n \in \mathbb{Z}} q_{*}(\mathcal{O}_{X}(n))$ is the graded
 $\mathcal{O}_{Y}$-algebra denoted by $\Gamma_{*}(\mathcal{O}_{X})$ in (3.3.1.2); it is clear that
@@ -3053,12 +2940,12 @@ $\Gamma_{*}(\mathcal{F})$ is a _graded $\Gamma_{*}(\mathcal{S}_{X})$-algebra_ `(
 we take $\mathcal{M} = \mathcal{S}$ in the homomorphisms (8.14.5.1), we obtain the homomorphism of graded
 $\mathcal{O}_{Y}$-algebras
 
-$$ \alpha : \mathcal{S} \to \Gamma_{*}(\mathcal{S}_{X}) (8.14.5.3) $$
+$$ \alpha : \mathcal{S} \to \Gamma_{*}(\mathcal{S}_{X}) \tag{8.14.5.3} $$
 
 previously defined in (3.3.2), and which makes $\Gamma_{*}(\mathcal{F})$ a _graded $\mathcal{S}$-module_; the
 homomorphisms (8.14.5.1) then define a homomorphism (of degree 0) of _graded $\mathcal{S}$-modules_
 
-$$ \alpha : \mathcal{M} \to \Gamma_{*}(\mathcal{P}\mathcal{roj}(\mathcal{M})). (8.14.5.4) $$
+$$ \alpha : \mathcal{M} \to \Gamma_{*}(\mathcal{P}\mathcal{roj}(\mathcal{M})). \tag{8.14.5.4} $$
 
 **(8.14.6)**
 
@@ -3070,15 +2957,11 @@ that the restriction $q' : X' \to Y$ of $q$ to $X'$ is a _quasi-compact_ morphis
 $q'_{*}(\mathcal{F}')$ is then a quasi-coherent $\mathcal{O}_{Y}$-module for every quasi-coherent
 $\mathcal{O}_{X'}$-module $\mathcal{F}'$ `(I, 9.2.2, b)`. We set
 
-```text
-  𝒮_{X′} = 𝒮_X|X′ = ⊕_{n ∈ ℤ} 𝒪_X(n)|X′                                     (8.14.6.1)
-```
+$$ \mathcal{S}_{X'} = \mathcal{S}_{X}|X' = \oplus_{n \in \mathbf{Z}} \mathcal{O}_{X}(n)|X' \tag{8.14.6.1} $$
 
 and, for every graded $\mathcal{S}_{X'}$-module $\mathcal{F}'$,
 
-```text
-  𝚪′_*(𝓕′) = ⊕_{n ∈ ℤ} q′_*(𝓕′_n).                                          (8.14.6.2)
-```
+$$ \Gamma'_{*}(\mathcal{F}') = \oplus_{n \in \mathbf{Z}} q'_{*}(\mathcal{F}'_n). \tag{8.14.6.2} $$
 
 The previous remark then shows that, if $\mathcal{F}'$ is a quasi-coherent $\mathcal{S}_{X'}$-module, then
 $\Gamma'_{*}(\mathcal{F}')$ is a graded _quasi-coherent_ $\mathcal{S}$-module `(I, 9.6.1)`.
@@ -3088,11 +2971,11 @@ and $q$ is separated `(I, 6.6.4, v)`. Then $\mathcal{F} = j_{*}(\mathcal{F}')$ i
 $\mathcal{S}_{X}$-module for every quasi-coherent graded $\mathcal{S}_{X'}$-module $\mathcal{F}'$, and it follows from
 the previous definitions that
 
-$$ \Gamma'_{*}(\mathcal{F}') = \Gamma_{*}(\mathcal{F}). (8.14.6.3) $$
+$$ \Gamma'_{*}(\mathcal{F}') = \Gamma_{*}(\mathcal{F}). \tag{8.14.6.3} $$
 
 With the same hypotheses on $X'$, for every quasi-coherent graded $\mathcal{S}$-module $\mathcal{M}$, we set
 
-$$ \mathcal{P}\mathcal{roj}'(\mathcal{M}) = \mathcal{P}\mathcal{roj}(\mathcal{M})|X' (8.14.6.4) $$
+$$ \mathcal{P}\mathcal{roj}'(\mathcal{M}) = \mathcal{P}\mathcal{roj}(\mathcal{M})|X' \tag{8.14.6.4} $$
 
 which is a quasi-coherent graded $\mathcal{S}_{X'}$-module. The canonical homomorphism
 
@@ -3102,7 +2985,7 @@ $$ \mathcal{P}\mathcal{roj}(\mathcal{M}) \to j_{*}(\mathcal{P}\mathcal{roj}'(\ma
 \Gamma'_{*}(\mathcal{P}\mathcal{roj}'(\mathcal{M}))$ of graded $\mathcal{S}$-modules, and, by composition with
 (8.14.5.4), we obtain a functorial canonical homomorphism (of degree 0) of quasi-coherent graded $\mathcal{S}$-modules
 
-$$ \alpha' : \mathcal{M} \to \Gamma'_{*}(\mathcal{P}\mathcal{roj}'(\mathcal{M})). (8.14.6.5) $$
+$$ \alpha' : \mathcal{M} \to \Gamma'_{*}(\mathcal{P}\mathcal{roj}'(\mathcal{M})). \tag{8.14.6.5} $$
 
 **(8.14.7)**
 
@@ -3116,7 +2999,7 @@ $\mathcal{S}_{X'}$-module.
 
 We will define a functorial canonical homomorphism (of degree 0) of graded $\mathcal{S}_{X'}$-modules
 
-$$ \beta' : \mathcal{P}\mathcal{roj}'(\Gamma'_{*}(\mathcal{F}')) \to \mathcal{F}'. (8.14.7.1) $$
+$$ \beta' : \mathcal{P}\mathcal{roj}'(\Gamma'_{*}(\mathcal{F}')) \to \mathcal{F}'. \tag{8.14.7.1} $$
 
 Suppose first that $Y = \operatorname{Spec}(A)$ is affine, and that $\mathcal{S} = \tilde{S}$, where $S$ is a
 positively-graded $A$-algebra; then $\Gamma'_{*}(\mathcal{F}') = \tilde{M}$, where $M = \oplus_{n \in \mathbb{Z}}
@@ -3162,13 +3045,12 @@ scheme, or a prescheme whose underlying space is Noetherian, then we can assume 
 Under the hypotheses of (8.14.7), let $\mathcal{M}$ be a quasi-coherent graded $\mathcal{S}$-module, and $\mathcal{F}'$
 a quasi-coherent graded $\mathcal{S}_{X'}$-module; the composite homomorphisms
 
-```text
-  𝒫𝓻𝓸𝓳′(ℳ) ──𝒫𝓻𝓸𝓳′(α′)──→ 𝒫𝓻𝓸𝓳′(𝚪′_*(𝒫𝓻𝓸𝓳′(ℳ))) ──β′──→ 𝒫𝓻𝓸𝓳′(ℳ)        (8.14.10.1)
-```
+$$ \mathcal{P}\mathcal{roj}'(\mathcal{M}) \xrightarrow{\mathcal{P}\mathcal{roj}'(\alpha')}
+\mathcal{P}\mathcal{roj}'(\Gamma'_{*}(\mathcal{P}\mathcal{roj}'(\mathcal{M}))) \xrightarrow{\beta'}
+\mathcal{P}\mathcal{roj}'(\mathcal{M}) \tag{8.14.10.1} $$
 
-```text
-  𝚪′_*(𝓕′) ──α′──→ 𝚪′_*(𝒫𝓻𝓸𝓳′(𝚪′_*(𝓕′))) ──𝚪′_*(β′)──→ 𝚪′_*(𝓕′)            (8.14.10.2)
-```
+$$ \Gamma'_{*}(\mathcal{F}') \xrightarrow{\alpha'} \Gamma'_{*}(\mathcal{P}\mathcal{roj}'(\Gamma'_{*}(\mathcal{F}')))
+\xrightarrow{\Gamma'_{*}(\beta')} \Gamma'_{*}(\mathcal{F}') \tag{8.14.10.2} $$
 
 are the identity isomorphisms.
 
@@ -3194,16 +3076,14 @@ The situation described in (8.14.4) is a particular case of the following. Let $
 a (positively- and negatively-) graded $\mathcal{O}_{X}$-algebra; suppose that there exists an integer $d > 0$ such that
 $\mathcal{S}_{d}$ and $\mathcal{S}_{-d}$ are _invertible_, with the canonical homomorphism
 
-```text
-  𝒮_d ⊗_{𝒪_X} 𝒮_{−d} → 𝒪_X                                                 (8.14.12.1)
-```
+$$ \mathcal{S}_d \otimes_{\mathcal{O}_{X}} \mathcal{S}_{-d} \to \mathcal{O}_{X} \tag{8.14.12.1} $$
 
 being an _isomorphism_ (so that $\mathcal{S}_{-d}$ is identified with $\mathcal{S}^{-1}_{d}$). We then say that the
 graded $\mathcal{O}_{X}$-algebra $\mathcal{S}$ is _periodic_, _of period $d$_. This nomenclature stems from the
 following property: _under the preceding hypotheses, for every graded $\mathcal{S}$-module $\mathcal{F}$, the canonical
 homomorphism_
 
-$$ \mathcal{S}_{d} \otimes \mathcal{F}_{n} \to \mathcal{F}_{n+d} (8.14.12.2) $$
+$$ \mathcal{S}_{d} \otimes \mathcal{F}_{n} \to \mathcal{F}_{n+d} \tag{8.14.12.2} $$
 
 _is an isomorphism for every $n \in \mathbb{Z}$._ Indeed, the question is local on $X$, and we may assume that
 $\mathcal{S}_{d}$ has an _invertible_ section $s$ over $X$, with its inverse $s'$ being a section of $\mathcal{S}_{-d}$.
@@ -3212,16 +3092,12 @@ The homomorphism $\mathcal{F}_{n+d} \to \mathcal{S}_{d} \otimes \mathcal{F}_{n}$
 $U$, is then the inverse of (8.14.12.2), whence our claim. This induces, for every $k \in \mathbb{Z}$, a canonical
 isomorphism
 
-```text
-  (𝒮_d)^{⊗ k} ⊗ 𝓕_n ⥲ 𝓕_{n+kd}.
-```
+$$ (\mathcal{S}_d)^{\otimes k} \otimes \mathcal{F}_n \xrightarrow{\sim} \mathcal{F}_{n+kd}. $$
 
 Then _the data of a graded $\mathcal{S}$-module $\mathcal{F}$ is equivalent to the data of $\mathcal{S}_{0}$-modules
 $\mathcal{F}_{i}$ ($0 \leq i \leq d - 1$) and canonical homomorphisms_
 
-```text
-  𝒮_i ⊗ 𝓕_j → 𝓕_{i+j}      for 0 ≤ i, j ≤ d − 1
-```
+$$ \mathcal{S}_i \otimes \mathcal{F}_j \to \mathcal{F}_{i+j} \quad \text{for } 0 \leq i, j \leq d - 1 $$
 
 (setting $\mathcal{F}_{i+j} = \mathcal{S}_{d} \otimes_{\mathcal{S}_{0}} \mathcal{F}_{i+j-d}$ whenever $i + j \geq d$).
 Of course, for these homomorphisms to give a well-defined $\mathcal{S}$-module structure on the direct sum of the
@@ -3241,7 +3117,7 @@ where condition (TN) for $\mathcal{M}$ (3.4.2) thus implies that $\mathcal{M} = 
 
 <!-- label: II.8.14.13 -->
 
-Under the hypotheses of (8.14.1), let $d$ be an integer `> 0`; we have defined a canonical $Y$-isomorphism $h$ from $X$
+Under the hypotheses of (8.14.1), let $d$ be an integer $> 0$; we have defined a canonical $Y$-isomorphism $h$ from $X$
 to $X^{(d)} = \operatorname{Proj}(\mathcal{S}^{(d)})$ (3.1.8). For every
 
 <!-- original page 202 -->
@@ -3249,9 +3125,8 @@ to $X^{(d)} = \operatorname{Proj}(\mathcal{S}^{(d)})$ (3.1.8). For every
 quasi-coherent graded $\mathcal{S}$-module $\mathcal{M}$ and every integer $k$ such that $0 \leq k \leq d - 1$, we also
 have (with the notation of (3.1.1)) a canonical $h$-isomorphism
 
-```text
-  (𝒫𝓻𝓸𝓳(ℳ))^{(d,k)} ⥪ 𝒫𝓻𝓸𝓳(ℳ^{(d,k)}).                                  (8.14.13.1)
-```
+$$ (\mathcal{P}\mathcal{roj}(\mathcal{M}))^{(d,k)} \xrightarrow{\sim} \mathcal{P}\mathcal{roj}(\mathcal{M}^{(d,k)}).
+\tag{8.14.13.1} $$
 
 Suppose first that $Y = \operatorname{Spec}(A)$ is affine, $\mathcal{S} = \tilde{S}$, and $\mathcal{M} = \tilde{M}$,
 where $S$ is a positively-graded $A$-algebra, and $M$ a graded $S$-module. We know, for every $f \in S_{e}$ ($e > 0$),
@@ -3259,35 +3134,36 @@ that $h$ sends $D_{+}(f)$ to $D_{+}(f^{d})$, and corresponds to the canonical is
 (2.2.2). The restriction of (8.14.13.1) to $D_{+}(f^{d})$ then corresponds to the canonical di-isomorphism $M_{f^{d}}
 \to M_{f}$ restricted to the elements of $M_{f^{d}}$ whose degree is congruent to $k$ (modulo $d$). We leave to the
 reader the task of showing that these isomorphisms are compatible with passing from $f$ to some homogeneous multiple
-`fg`, and then that there is an analogous compatibility with passing from $S$ to a graded $A'$-algebra $S' = S
+$fg$, and then that there is an analogous compatibility with passing from $S$ to a graded $A'$-algebra $S' = S
 \otimes_{A} A'$, where $A'$ is some $A$-algebra. In particular, this gives us an $h$-isomorphism
 
-$$ (\mathcal{S}^{(d)})_{X^{(d)}} \xrightarrow{\sim} (\mathcal{S}_{X})^{(d)} (8.14.13.2) $$
+$$ (\mathcal{S}^{(d)})_{X^{(d)}} \xrightarrow{\sim} (\mathcal{S}_{X})^{(d)} \tag{8.14.13.2} $$
 
 that respects the multiplicative structures of both source and target, and that, thanks to (8.14.13.1), becomes an
 $h$-di-isomorphism from a graded $(\mathcal{S}^{(d)})_{X^{(d)}}$-module to a graded $(\mathcal{S}_{X})^{(d)}$-module.
 Similarly, we have an $h$-isomorphism
 
-$$ \mathcal{P}\mathcal{roj}_{0}(\mathcal{S}^{(d,k)}(n)) \xrightarrow{\sim} \mathcal{O}_{X}(nd + k), (8.14.13.3) $$
+$$ \mathcal{P}\mathcal{roj}_{0}(\mathcal{S}^{(d,k)}(n)) \xrightarrow{\sim} \mathcal{O}_{X}(nd + k), \tag{8.14.13.3} $$
 
 which completes the result of (3.2.9, ii).
 
 The isomorphism (8.14.13.1) immediately induces an isomorphism of graded $\mathcal{S}^{(d)}$-modules
 
 $$ \Gamma^{(d)}_{*}(\mathcal{P}\mathcal{roj}(\mathcal{M}^{(d,k)})) \xrightarrow{\sim}
-\Gamma_{*}((\mathcal{P}\mathcal{roj}(\mathcal{M}))^{(d,k)}) (8.14.13.4) $$
+\Gamma_{*}((\mathcal{P}\mathcal{roj}(\mathcal{M}))^{(d,k)}) \tag{8.14.13.4} $$
 
 where $\Gamma^{(d)}_{*}$ corresponds to the structure morphism $q^{(d)} : X^{(d)} \to Y$; it can be immediately verified
 that the canonical homomorphism $\alpha$ (8.14.5.4), and the analogous homomorphism $\alpha^{(d)}$ for $X^{(d)}$, make
 the following diagram commute:
 
-```text
-                          ℳ^{(d,k)}
-                          /        \
-                  α^{(d)}/          \α
-                        ↙            ↘                                     (8.14.13.5)
-   𝚪_*^{(d)}(𝒫𝓻𝓸𝓳(ℳ^{(d,k)})) ──∼──→ 𝚪_*((𝒫𝓻𝓸𝓳(ℳ))^{(d,k)})
-```
+$$
+\begin{array}{ccc}
+& \mathcal{M}^{(d,k)} & \\
+{\scriptstyle \alpha^{(d)}}\swarrow & & \searrow{\scriptstyle \alpha} \\
+\Gamma_{*}^{(d)}(\mathcal{P}\mathcal{roj}(\mathcal{M}^{(d,k)})) & \xrightarrow{\sim} & \Gamma_{*}((\mathcal{P}\mathcal{roj}(\mathcal{M}))^{(d,k)})
+\end{array}
+\tag{8.14.13.5}
+$$
 
 where we proceed by supposing that $Y$ is affine and then calculating the restrictions of the images under
 $\alpha^{(d)}$ and $\alpha$ of some single element of $M^{(d,k)}$ to the open subsets $D_{+}(f^{d})$ and $D_{+}(f)$

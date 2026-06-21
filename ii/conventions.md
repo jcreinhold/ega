@@ -5,55 +5,55 @@ already-translated sections.
 
 ## 1. Terminology
 
-| French                                            | English                                                                                   |
-| ------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| préschéma                                         | prescheme (preserve EGA's 1961 distinction)                                               |
-| schéma                                            | scheme                                                                                    |
-| morphisme structural                              | structure morphism                                                                        |
-| ouvert (n.)                                       | open set                                                                                  |
-| ouvert affine                                     | affine open                                                                               |
-| Module (capitalized)                              | module (lowercase; type — $\mathcal{O}_{X}$-module vs $A$-module — comes from the prefix) |
-| Algèbre (capitalized)                             | algebra (lowercase; same as above)                                                        |
-| Idéal (capitalized)                               | sheaf of ideals (when on a scheme); ideal (in a ring)                                     |
-| anneau gradué                                     | graded ring                                                                               |
-| module gradué                                     | graded module                                                                             |
-| Algèbre graduée                                   | graded algebra                                                                            |
-| quasi-cohérent                                    | quasi-coherent                                                                            |
-| cohérent                                          | coherent                                                                                  |
-| inversible                                        | invertible                                                                                |
-| type fini                                         | of finite type                                                                            |
-| présentation finie                                | of finite presentation                                                                    |
-| spectre premier homogène                          | homogeneous prime spectrum                                                                |
-| spectre homogène                                  | homogeneous spectrum                                                                      |
-| fibré projectif                                   | projective bundle                                                                         |
-| fibré vectoriel                                   | vector bundle                                                                             |
-| faisceau ample, très ample                        | ample sheaf, very ample sheaf                                                             |
-| morphisme affine                                  | affine morphism                                                                           |
-| morphisme quasi-affine                            | quasi-affine morphism                                                                     |
-| morphisme propre                                  | proper morphism                                                                           |
-| morphisme projectif                               | projective morphism                                                                       |
-| morphisme quasi-projectif                         | quasi-projective morphism                                                                 |
-| morphisme entier                                  | integral morphism                                                                         |
-| morphisme fini                                    | finite morphism                                                                           |
-| morphisme quasi-fini                              | quasi-finite morphism                                                                     |
-| morphisme propre                                  | proper morphism                                                                           |
-| universellement fermé                             | universally closed                                                                        |
-| séparé                                            | separated                                                                                 |
-| anneau de valuation                               | valuation ring                                                                            |
-| critère valuatif                                  | valuative criterion                                                                       |
-| éclatement, préschéma éclaté                      | blow-up, blow-up prescheme                                                                |
-| cône affine, cône projectif                       | affine cone, projective cone                                                              |
-| cône projetant                                    | projecting cone                                                                           |
-| fermeture projective                              | projective closure                                                                        |
-| Idéal fractionnaire                               | fractional ideal sheaf                                                                    |
-| fonctions rationnelles, faisceau $\mathcal{R}(Y)$ | rational functions, sheaf $\mathcal{R}(Y)$                                                |
-| birationnel                                       | birational                                                                                |
-| domination                                        | domination                                                                                |
-| dominant (morphisme)                              | dominant                                                                                  |
-| di-homomorphisme                                  | di-homomorphism                                                                           |
-| anneau local                                      | local ring                                                                                |
-| corps résiduel                                    | residue field, written $\kappa(x)$ (matching SGA I)                                       |
-| (T.F.), (T.N.) conditions                         | (TF), (TN) conditions                                                                     |
+| French | English |
+| --- | --- |
+| préschéma | prescheme (preserve EGA's 1961 distinction) |
+| schéma | scheme |
+| morphisme structural | structure morphism |
+| ouvert (n.) | open set |
+| ouvert affine | affine open |
+| Module (capitalized) | module (lowercase; type — $\mathcal{O}_{X}$-module vs $A$-module — comes from the prefix) |
+| Algèbre (capitalized) | algebra (lowercase; same as above) |
+| Idéal (capitalized) | sheaf of ideals (when on a scheme); ideal (in a ring) |
+| anneau gradué | graded ring |
+| module gradué | graded module |
+| Algèbre graduée | graded algebra |
+| quasi-cohérent | quasi-coherent |
+| cohérent | coherent |
+| inversible | invertible |
+| type fini | of finite type |
+| présentation finie | of finite presentation |
+| spectre premier homogène | homogeneous prime spectrum |
+| spectre homogène | homogeneous spectrum |
+| fibré projectif | projective bundle |
+| fibré vectoriel | vector bundle |
+| faisceau ample, très ample | ample sheaf, very ample sheaf |
+| morphisme affine | affine morphism |
+| morphisme quasi-affine | quasi-affine morphism |
+| morphisme propre | proper morphism |
+| morphisme projectif | projective morphism |
+| morphisme quasi-projectif | quasi-projective morphism |
+| morphisme entier | integral morphism |
+| morphisme fini | finite morphism |
+| morphisme quasi-fini | quasi-finite morphism |
+| morphisme propre | proper morphism |
+| universellement fermé | universally closed |
+| séparé | separated |
+| anneau de valuation | valuation ring |
+| critère valuatif | valuative criterion |
+| éclatement, préschéma éclaté | blow-up, blow-up prescheme |
+| cône affine, cône projectif | affine cone, projective cone |
+| cône projetant | projecting cone |
+| fermeture projective | projective closure |
+| Idéal fractionnaire | fractional ideal sheaf |
+| fonctions rationnelles, faisceau $\mathcal{R}(Y)$ | rational functions, sheaf $\mathcal{R}(Y)$ |
+| birationnel | birational |
+| domination | domination |
+| dominant (morphisme) | dominant |
+| di-homomorphisme | di-homomorphism |
+| anneau local | local ring |
+| corps résiduel | residue field, written $\kappa(x)$ (matching SGA I) |
+| (T.F.), (T.N.) conditions | (TF), (TN) conditions |
 
 ## 2. Mathematical glyphs
 
@@ -83,7 +83,7 @@ Wrap exact mathematical strings in backticks. Use Unicode, never LaTeX.
 
     ````
     ```text
-        Δ_{X/Y} : X → X ×_Y X
+        \Delta_{X/Y} : X \to X \times_Y X
     ```
     ````
 
@@ -127,25 +127,25 @@ the break, and note the page change in the comment if useful.
 
 ## 6. Proof idioms (French → English)
 
-- $Soient X, Y \cdots$ → "Let $X$, $Y$ …"
-- `On a` → "We have"
-- `Posons` → "Set"
-- `Démontrons` → "We show"
-- `Montrons` → "We show"
-- `Il suffit de` → "It suffices to"
-- $Cela r\acute{e}sulte aussit\hat{o}t de \cdots$ → "This follows immediately from …"
-- $Cela r\acute{e}sulte de \cdots$ → "This follows from …"
-- $D'apr\grave{e}s \cdots$ → "By …"
-- $En vertu de \cdots$ → "By virtue of …" or "By …" depending on register
-- $Compte tenu de \cdots$ → "Taking … into account"
-- `Réciproquement` → "Conversely"
-- `On notera que` → "Note that"
-- `On dit que` → "We say that" (in definitions); "One says that" only when the source is being deliberately impersonal
-  in a way that matters
-- $Il est imm\acute{e}diat que$ → "It is immediate that"
-- $Tout revient \grave{a} \cdots$ → "It comes down to …"
-- `D'autre part` → "On the other hand"
-- `En particulier` → "In particular"
+- $Soient X, Y \cdots$ $\to$ "Let $X$, $Y$ $\ldots$"
+- `On a` $\to$ "We have"
+- `Posons` $\to$ "Set"
+- `Démontrons` $\to$ "We show"
+- `Montrons` $\to$ "We show"
+- `Il suffit de` $\to$ "It suffices to"
+- $Cela r\acute{e}sulte aussit\hat{o}t de \cdots$ $\to$ "This follows immediately from $\ldots$"
+- $Cela r\acute{e}sulte de \cdots$ $\to$ "This follows from $\ldots$"
+- $D'apr\grave{e}s \cdots$ $\to$ "By $\ldots$"
+- $En vertu de \cdots$ $\to$ "By virtue of $\ldots$" or "By $\ldots$" depending on register
+- $Compte tenu de \cdots$ $\to$ "Taking $\ldots$ into account"
+- `Réciproquement` $\to$ "Conversely"
+- `On notera que` $\to$ "Note that"
+- `On dit que` $\to$ "We say that" (in definitions); "One says that" only when the source is being deliberately
+  impersonal in a way that matters
+- $Il est imm\acute{e}diat que$ $\to$ "It is immediate that"
+- $Tout revient \grave{a} \cdots$ $\to$ "It comes down to $\ldots$"
+- `D'autre part` $\to$ "On the other hand"
+- `En particulier` $\to$ "In particular"
 
 Keep long Grothendieck sentences long when the chain of dependencies is doing mathematical work. Split only when an
 English reader genuinely loses the antecedent.
@@ -172,12 +172,12 @@ Do not silently modernize. Do not interpolate exposition.
 
 Preserve modal weight:
 
-- `il semble` → "it seems"
-- $on s'attend \grave{a} ce que$ → "one expects that"
-- `conjecturalement` → "conjecturally"
-- `vraisemblablement` → "presumably"
-- `manifestement` → "manifestly"
-- `évidemment` → "obviously"
-- `clairement` → "clearly"
+- `il semble` $\to$ "it seems"
+- $on s'attend \grave{a} ce que$ $\to$ "one expects that"
+- `conjecturalement` $\to$ "conjecturally"
+- `vraisemblablement` $\to$ "presumably"
+- `manifestement` $\to$ "manifestly"
+- `évidemment` $\to$ "obviously"
+- `clairement` $\to$ "clearly"
 
 Do not collapse these into a single English register.
