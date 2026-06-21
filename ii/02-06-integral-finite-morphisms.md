@@ -345,11 +345,8 @@ It is clear that every finite morphism is quasi-finite (6.1.8).
 - (ii) If $f : X \to Y$ and $g : Y \to Z$ are quasi-finite morphisms, then $g \circ f$ is quasi-finite.
 - (iii) If $X$ and $Y$ are $S$-preschemes and $f : X \to Y$ a quasi-finite $S$-morphism, then $f_{(S')} : X_{(S')} \to
   Y_{(S')}$ is quasi-finite for every base extension $g : S' \to S$.
-- (iv) If $f : X \to Y$ and $g : X' \to Y'$ are two quasi-finite $S$-morphisms, then
-    ```text
-      f ×_S g : X ×_S X' → Y ×_S Y'
-    ```
-    is quasi-finite.
+- (iv) If $f : X \to Y$ and $g : X' \to Y'$ are two quasi-finite $S$-morphisms, then $$ f \times_{S} g : X \times_{S} X'
+  \to Y \times_{S} Y' $$ is quasi-finite.
 - (v) Let $f : X \to Y$ and $g : Y \to Z$ be morphisms such that $g \circ f$ is quasi-finite; if, further, $g$ is
   separated, or $X$ is Noetherian, or $X \times_{Z} Y$ is locally Noetherian, then $f$ is quasi-finite.
 - (vi) If $f$ is quasi-finite, so is $f_{red}$.
@@ -432,9 +429,7 @@ is clear that a) implies b). On the other hand, b) implies that for every $x \in
 $\mathcal{C}_{x}$ is of finite type, which implies that every element of the algebra $\mathcal{C}_{x}$, and in
 particular $f_{x}$, is integral over $\mathcal{A}_{x}$. Finally, if for some $x \in X$ we have a relation of the form
 
-```text
-  f_x^n + (a₁)_x f_x^{n−1} + … + (a_n)_x = 0
-```
+$$ f_x^n + (a_1)_x f_x^{n-1} + \ldots + (a_n)_x = 0 $$
 
 where the $a_{i}$ ($1 \leq i \leq n$) are sections of $\mathcal{A}$ over an open neighbourhood $U$ of $x$, then the
 section $f^{n}|U + a_{1} \cdot f^{n-1}|U + \cdots + a_{n}$ is zero over a neighbourhood $V \subset U$ of $x$, whence it
@@ -465,9 +460,7 @@ of_ $\mathcal{A}$ _in_ $\mathcal{B}$.
 
 Let $(X, \mathcal{A})$, $(Y, \mathcal{B})$ be two ringed spaces and
 
-```text
-  g = (ψ, θ) : X → Y
-```
+$$ g = (\psi, \theta) : X \to Y $$
 
 a morphism. Let $\mathcal{C}$ (resp. $\mathcal{D}$) be an $\mathcal{A}$-algebra (resp. a $\mathcal{B}$-algebra) and let
 
@@ -480,9 +473,7 @@ $$ u' : \mathcal{B}' \to \mathcal{C}'. $$
 
 Indeed, if $j$ is the canonical injection $\mathcal{B}' \to \mathcal{D}$, it suffices to show that
 
-```text
-  v = u^♯ ∘ g*(j) : g*(ℬ') → 𝒞
-```
+$$ v = u^{\sharp} \circ g*(j) : g*(\mathcal{B}') \to \mathcal{C} $$
 
 sends $g*(\mathcal{B}')$ into $\mathcal{C}'$. Now, an element of $g*(\mathcal{B}')_{x} = \mathcal{B}'_{\psi(x)}
 \otimes_{\mathcal{B}_{\psi(x)}} \mathcal{A}_{x}$ is integral over $\mathcal{A}_{x}$ by the definition of $\mathcal{B}'$,
@@ -525,12 +516,14 @@ an $f$-morphism. We have seen (6.3.3) that one deduces from it an $f$-morphism $
 closure of $X$ (resp. $Y$) relative to $\mathcal{A}$ (resp. $\mathcal{B}$), one canonically deduces from $u$ a morphism
 $f' = \operatorname{Spec}(u') : X' \to Y'$ (1.5.6) making the diagram
 
-```text
-  X' ─────f'────→ Y'
-  │                │                                                       (6.3.5.1)
-  ↓                ↓
-  X ──────f─────→ Y
-```
+$$
+\begin{array}{ccc}
+X' & \xrightarrow{f'} & Y' \\
+\downarrow & & \downarrow \\
+X & \xrightarrow{f} & Y
+\end{array}
+\tag{6.3.5.1}
+$$
 
 commute.
 
@@ -604,11 +597,13 @@ rational functions of $X$ and $Y$; there canonically corresponds to $f$ an injec
 $K_{1}$ (resp. $L_{1}$) be an extension of $K$ (resp. $L$) and suppose given a monomorphism $K_{1} \to L_{1}$ such that
 the diagram
 
-```text
-  K₁ ────→ L₁
-  ↑         ↑
-  K ─────→ L
-```
+$$
+\begin{array}{ccc}
+K_{1} & \to & L_{1} \\
+\uparrow & & \uparrow \\
+K & \to & L
+\end{array}
+$$
 
 commutes; if $K_{1}$ (resp. $L_{1}$) is considered as a simple sheaf on $Y$ (resp. $X$), hence as an
 $\mathcal{R}(Y)$-algebra (resp. an $\mathcal{R}(X)$-algebra), this means that $K_{1} \to L_{1}$ is an $f$-morphism. With
@@ -626,9 +621,7 @@ and one supposes $X$ integral and normal, hence $X' = X$. What precedes then sho
 the integral closure of $Y$ relative to a field $K_{1} \subset L = R(X)$, every dominant morphism $f : X \to Y$ factors
 as
 
-```text
-  f : X →^{f'} Y' → Y
-```
+$$ f : X \xrightarrow{f'} Y' \to Y $$
 
 where $f'$ is dominant; moreover, when the monomorphism $K_{1} \to L$ is given, $f'$ is necessarily unique, as one sees
 by reducing to the case where $X$ and $Y$ are affine. We thus see that, for the data of $Y$, $L$, and a $K$-monomorphism
@@ -660,38 +653,28 @@ Let $A$ be a (commutative) ring, $E$ a free $A$-module of rank $n$, $u$ an endom
 the _characteristic polynomial_ of $u$, one considers the endomorphism $u \otimes 1$ of the free `A[T]`-module of rank
 $n$, $E \otimes_{A} A[T]$ ($T$ an indeterminate), and one sets
 
-```text
-  P(u, T) = det(T · I − (u ⊗ 1))                                            (6.4.1.1)
-```
+$$ P(u, T) = \operatorname{det}(T \cdot I - (u \otimes 1)) \tag{6.4.1.1} $$
 
 ($I$ the identity automorphism of $E \otimes_{A} A[T]$). We have
 
-```text
-  P(u, T) = T^n − σ₁(u) T^{n−1} + … + (−1)^n σ_n(u)                         (6.4.1.2)
-```
+$$ P(u, T) = T^n - \sigma_1(u) T^{n-1} + \ldots + (-1)^n \sigma_n(u) \tag{6.4.1.2} $$
 
 where $\sigma_{i}(u)$ is an element of $A$, equal to a homogeneous polynomial of degree $i$ (with integer coefficients)
 in the entries of the matrix of $u$ relative to an arbitrary basis of $E$; we say that the $\sigma_{i}(u)$ are the
 _elementary symmetric functions_ of $u$, and in particular we have $\sigma_{1}(u) = Tr u$ and $\sigma_{n}(u) = det u$.
 Recall that, by the Hamilton–Cayley theorem, we have
 
-```text
-  P(u, u) = u^n − σ₁(u) u^{n−1} + … + (−1)^n σ_n(u) = 0                     (6.4.1.3)
-```
+$$ P(u, u) = u^n - \sigma_1(u) u^{n-1} + \ldots + (-1)^n \sigma_n(u) = 0 \tag{6.4.1.3} $$
 
 <!-- original page 121 -->
 
 which can also be written as
 
-```text
-  (det u) · I_E = u · Q(u)                                                  (6.4.1.4)
-```
+$$ (\operatorname{det} u) \cdot I_E = u \cdot Q(u) \tag{6.4.1.4} $$
 
 (`I_E` the identity automorphism of $E$), with
 
-```text
-  Q(u) = (−1)^{n+1} (u^{n−1} − σ₁(u) u^{n−2} + … + (−1)^{n−1} σ_{n−1}(u)).  (6.4.1.5)
-```
+$$ Q(u) = (-1)^{n+1} (u^{n-1} - \sigma_1(u) u^{n-2} + \ldots + (-1)^{n-1} \sigma_{n-1}(u)). \tag{6.4.1.5} $$
 
 Let $\phi : A \to B$ be a ring homomorphism, making $B$ an $A$-algebra; consider the $B$-module $E_{(B)} = E \otimes_{A}
 B$, which is free of rank $n$, and the extension $u \otimes 1$ of $u$ to an endomorphism of $E_{(B)}$; it is immediate
@@ -846,9 +829,7 @@ section of $\mathcal{A}$ over $X$, which we denote by `det u` and call the _dete
 restriction of `det u` to every $V \in \mathfrak{B}$ is $det u_{V}$. It is clear that for every $x \in X$ we have $(det
 u)_{x} = det u_{x}$; for two endomorphisms $u$, $v$ of $\mathcal{E}$, we have
 
-```text
-  det(v ∘ u) = (det v)(det u)                                               (6.4.8.1)
-```
+$$ \operatorname{det}(v \circ u) = (\operatorname{det} v)(\operatorname{det} u) \tag{6.4.8.1} $$
 
 as well as
 
@@ -857,9 +838,7 @@ $$ det(1_{\mathcal{E}}) = 1_{\mathcal{A}} (6.4.8.2) $$
 and, if the rank of $\mathcal{E}$ is constant (which will be the case `(0, 5.4.1)` if $X$ is connected) and equal to
 $n$,
 
-```text
-  det(s · u) = s^n det u                                                    (6.4.8.3)
-```
+$$ \operatorname{det}(s \cdot u) = s^n \operatorname{det} u \tag{6.4.8.3} $$
 
 for every $s \in \Gamma(X, \mathcal{A})$ (note that $det(0) = 0_{\mathcal{A}}$ if $n \geq 1$, but $det(0) =
 1_{\mathcal{A}}$ for $n = 0$). Moreover, for $u$ to be an automorphism of $\mathcal{E}$, it is necessary and sufficient
@@ -887,9 +866,8 @@ definitions that $det f*(v)$ is the section of $\mathcal{A} = f*(\mathcal{B})$ o
 $det v \in \Gamma(Y, \mathcal{B})$. We can also say that the homomorphism $f*(det) :
 f*(\operatorname{Hom}_{\mathcal{B}}(\mathcal{F}, \mathcal{F})) \to f*(\mathcal{B}) = \mathcal{A}$ is the composite
 
-```text
-  f*(𝓗𝓸𝓶_ℬ(ℱ, ℱ)) →^{γ^♯} 𝓗𝓸𝓶_𝒜(f*(ℱ), f*(ℱ)) →^{det} 𝒜
-```
+$$ f*(\mathcal{H}om_{\mathcal{B}}(\mathcal{F}, \mathcal{F})) \xrightarrow{\gamma^{\sharp}}
+\mathcal{H}om_{\mathcal{A}}(f*(\mathcal{F}), f*(\mathcal{F})) \xrightarrow{\operatorname{det}} \mathcal{A} $$
 
 `(0, 4.4.6)`. We have analogous results for the $\sigma_{i}$.
 
@@ -923,12 +901,13 @@ quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{F}$ of finite type, a canonica
 endomorphism of $\mathcal{F}$, then $f*(v \otimes 1_{\mathcal{R}(Y)})$ is an endomorphism of $f*(\mathcal{F}
 \otimes_{\mathcal{O}_{Y}} \mathcal{R}(Y))$, and one has a commutative diagram
 
-```text
-  f*(ℱ ⊗_{𝒪_Y} ℛ(Y)) ─────f*(v⊗1)────→ f*(ℱ ⊗_{𝒪_Y} ℛ(Y))
-        │                                       │
-       θ↓                                      θ↓
-  f*(ℱ) ⊗_{𝒪_X} ℛ(X) ───f*(v)⊗1────→ f*(ℱ) ⊗_{𝒪_X} ℛ(X)
-```
+$$
+\begin{array}{ccc}
+f*(\mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{R}(Y)) & \xrightarrow{f*(v \otimes 1)} & f*(\mathcal{F} \otimes_{\mathcal{O}_Y} \mathcal{R}(Y)) \\
+\downarrow{\scriptstyle \theta} & & \downarrow{\scriptstyle \theta} \\
+f*(\mathcal{F}) \otimes_{\mathcal{O}_X} \mathcal{R}(X) & \xrightarrow{f*(v) \otimes 1} & f*(\mathcal{F}) \otimes_{\mathcal{O}_X} \mathcal{R}(X)
+\end{array}
+$$
 
 One then concludes easily that $det f*(v)$ is the canonical image, under the homomorphism $f*(\mathcal{R}(Y)) \to
 \mathcal{R}(X)$, of the section `det v` of $\mathcal{R}(Y)$; indeed, one reduces immediately to the case where $X =
@@ -1054,9 +1033,8 @@ onto $N_{\mathcal{B}/\mathcal{A}}(\mathcal{L}')$, which allows the invertible $\
 sub-cover of $\mathfrak{U}$. This possibility immediately shows that, if $\mathcal{L}'_{1}$, $\mathcal{L}'_{2}$ are two
 invertible $\mathcal{B}$-modules, then, by virtue of (6.5.1.1) and (6.5.1.2),
 
-```text
-  N(ℒ'₁ ⊗_ℬ ℒ'₂) = N(ℒ'₁) ⊗_𝒜 N(ℒ'₂)                                       (6.5.2.1)
-```
+$$ N(\mathcal{L}'_1 \otimes_{\mathcal{B}} \mathcal{L}'_2) = N(\mathcal{L}'_1) \otimes_{\mathcal{A}} N(\mathcal{L}'_2)
+\tag{6.5.2.1} $$
 
 and
 
@@ -1071,9 +1049,8 @@ $\mathcal{A}$-module and if $\mathcal{B}$ is of constant rank $n$ over $\mathcal
 \otimes_{\mathcal{A}} \mathcal{R}(X)$ of constant rank $n$ over $\mathcal{R}(X)$ in case (II)), one has, up to canonical
 isomorphism,
 
-```text
-  N_{ℬ/𝒜}(ℒ ⊗_𝒜 ℬ) = ℒ^{⊗n}.                                               (6.5.2.4)
-```
+$$ N_{\mathcal{B}/\mathcal{A}}(\mathcal{L} \otimes_{\mathcal{A}} \mathcal{B}) = \mathcal{L}^{\otimes n}. \tag{6.5.2.4}
+$$
 
 **(6.5.3)**
 
@@ -1092,17 +1069,13 @@ h'_{\lambda} \circ \eta^{(1)}_{\lambda}$ and $(\eta^{(2)}_{\mu})^{-1} \circ h'_{
 We deduce that for the `1`-cocycles $(\omega^{(1)}_{\lambda \mu})$ and $(\omega^{(2)}_{\lambda \mu})$ with values in
 $\mathcal{B}*$ corresponding to $\mathcal{L}'_{1}$ and $\mathcal{L}'_{2}$, the relation
 
-```text
-  ω_{λμ}^{(2)} h'_μ = h'_λ ω_{λμ}^{(1)}.
-```
+$$ \omega_{\lambda\mu}^{(2)} h'_{\mu} = h'_{\lambda} \omega_{\lambda\mu}^{(1)}. $$
 
 <!-- original page 128 -->
 
 If we set $h_{\lambda} = N(h'_{\lambda})$, we therefore have the analogous relations
 
-```text
-  N(ω_{λμ}^{(2)}) h_μ = h_λ N(ω_{λμ}^{(1)})
-```
+$$ N(\omega_{\lambda\mu}^{(2)}) h_{\mu} = h_{\lambda} N(\omega_{\lambda\mu}^{(1)}) $$
 
 and consequently the $h_{\lambda}$ define a homomorphism $N(\mathcal{L}'_{1}) \to N(\mathcal{L}'_{2})$ which we shall
 denote by $N_{\mathcal{B}/\mathcal{A}}(h')$ or $N(h')$. Under hypothesis (I), for $h'$ to be an isomorphism, it is
@@ -1113,16 +1086,12 @@ $\mathcal{B} \to \mathcal{B} \otimes_{\mathcal{A}} \mathcal{R}(X)$ is injective.
 Taking in particular $\mathcal{L}'_{1} = \mathcal{B}$, the homomorphisms $\mathcal{B} \to \mathcal{L}'$ are identified
 `(0, 5.1.1)` with the sections of $\mathcal{L}'$ over $X$, whence a canonical map
 
-```text
-  N_{ℬ/𝒜} : Γ(X, ℒ') → Γ(X, N_{ℬ/𝒜}(ℒ')).
-```
+$$ N_{\mathcal{B}/\mathcal{A}} : \Gamma(X, \mathcal{L}') \to \Gamma(X, N_{\mathcal{B}/\mathcal{A}}(\mathcal{L}')). $$
 
 It also follows from (6.5.1.1) that if $f'_{1} \in \Gamma(X, \mathcal{L}'_{1})$, $f'_{2} \in \Gamma(X,
 \mathcal{L}'_{2})$, one has
 
-```text
-  N(f'₁ ⊗ f'₂) = N(f'₁) ⊗ N(f'₂).                                          (6.5.3.1)
-```
+$$ N(f'_1 \otimes f'_2) = N(f'_1) \otimes N(f'_2). \tag{6.5.3.1} $$
 
 For every invertible $\mathcal{A}$-module $\mathcal{L}$ and every section $f \in \Gamma(X, \mathcal{L})$, one has,
 taking (6.5.2.4) into account,
@@ -1148,8 +1117,8 @@ $$ f : X' \to X $$
 a morphism, $\mathcal{B}$ an $\mathcal{A}$-algebra, $\mathcal{B}' = f*(\mathcal{B})$ the inverse image
 $\mathcal{A}'$-algebra. One supposes that one of the following hypotheses is satisfied:
 
-- 1° $\mathcal{B}$ satisfies hypothesis (I) of (6.5.1).
-- 2° $(X, \mathcal{A})$ and $\mathcal{B}$ satisfy hypothesis (II) of (6.5.1), $(X', \mathcal{A}')$ is a locally
+- $1^{\circ}$ $\mathcal{B}$ satisfies hypothesis (I) of (6.5.1).
+- $2^{\circ}$ $(X, \mathcal{A})$ and $\mathcal{B}$ satisfy hypothesis (II) of (6.5.1), $(X', \mathcal{A}')$ is a locally
   Noetherian reduced prescheme, and, if one denotes by $X_{\alpha}$ and $X'_{\beta}$ the closed reduced subpreschemes of
   $X$ and $X'$ respectively having as underlying spaces the irreducible components of these spaces, the restriction of
   $f$ to each $X'_{\beta}$ is a dominant morphism from $X'_{\beta}$ into some $X_{\alpha}$.
@@ -1198,9 +1167,7 @@ N_{X'/X}(\mathcal{L}'_{2}). (6.5.5.2) $$
 
 In particular, for $\mathcal{L}'_{1} = \mathcal{O}_{X'}$, one thus obtains a canonical map
 
-```text
-  N_{X'/X} : Γ(X', ℒ') → Γ(X, N_{X'/X}(ℒ')).                                (6.5.5.3)
-```
+$$ N_{X'/X} : \Gamma(X', \mathcal{L}') \to \Gamma(X, N_{X'/X}(\mathcal{L}')). \tag{6.5.5.3} $$
 
 We leave to the reader most of these translations, and confine ourselves to spelling out the following:
 
@@ -1247,12 +1214,13 @@ relation $g^{-1}(U) \subset X'_{f'}$.
 Let $g : X' \to X$ be a finite morphism, $f : Y \to X$ a morphism; let $Y' = X'_{(Y)}$, $g' = g_{(Y)}$, $f' = f_{(X')}$,
 so that one has the commutative diagram
 
-```text
-  X' ←─f'── Y'
-  │          │
-  g↓         ↓g'
-  X ←──f──── Y
-```
+$$
+\begin{array}{ccc}
+X' & \xleftarrow{f'} & Y' \\
+\downarrow{\scriptstyle g} & & \downarrow{\scriptstyle g'} \\
+X & \xleftarrow{f} & Y
+\end{array}
+$$
 
 Suppose that either $g_{*}(\mathcal{O}_{X'})$ is locally free, or that $(X, \mathcal{O}_{X})$ and
 $g_{*}(\mathcal{O}_{X'})$ satisfy (II), that $Y$ is a locally Noetherian reduced prescheme, and that the restriction of
@@ -1303,13 +1271,13 @@ $g_{*}(\mathcal{O}_{X'})$ satisfy (II bis). Then, for every ample $\mathcal{O}_{
 $\mathcal{T}$ be the kernel of this homomorphism, which is a coherent ideal of $\mathcal{B} = g_{*}(\mathcal{O}_{X'})$
 `(I, 6.1.1)`, and set $X'' = \operatorname{Spec}(\mathcal{B}/\mathcal{T})$; we then have a commutative diagram
 
-```text
-  X'' ──h──→ X'
-   \         /
-   g'\      / g
-       ↘  ↙
-         X
-```
+$$
+\begin{array}{ccc}
+X'' & \xrightarrow{h} & X' \\
+& \searrow{\scriptstyle g'} \quad \swarrow{\scriptstyle g} & \\
+& X &
+\end{array}
+$$
 
 where $h$ is a closed immersion (1.4.10). Furthermore, we know that the support of $\mathcal{T}$ is a closed set
 `(0, 5.2.2)` rare in $X$ `(I, 7.4.6)`, whence we conclude that for the generic point $x$ of an irreducible component of
@@ -1456,9 +1424,7 @@ h_{*}(\mathcal{O}_{Z})$, and composing this homomorphism with the canonical homo
 \operatorname{Hom}_{\mathcal{O}_{X}}(\mathcal{B}, \mathcal{B})$ (6.5.1), one therefore obtains a homomorphism of sheaves
 of multiplicative monoids:
 
-```text
-  N' : ℬ = g_*(𝒪_{X'}) → h_*(𝒪_Z) = 𝒞.                                     (6.6.8.1)
-```
+$$ N' : \mathcal{B} = g_{*}(\mathcal{O}_{X'}) \to h_{*}(\mathcal{O}_Z) = \mathcal{C}. \tag{6.6.8.1} $$
 
 This being so, for every invertible $\mathcal{O}_{X'}$-module $\mathcal{L}'$, $g_{*}(\mathcal{L}')$ is an invertible
 $\mathcal{B}$-module (6.1.12), and the method of (6.5.2) allows us to associate to $\mathcal{L}'$ functorially an
@@ -1492,9 +1458,7 @@ it, as in (6.5.2), a section $s = N'(s')$ of $N'(g_{*}(\mathcal{L}'))$ over $X$.
 We shall see that if $t$ is the section $s$ considered as a section of $\mathcal{M}$ over $Z$, then $t$ answers the
 question. Set
 
-```text
-  V = X − g(X' − X'_{s'})                                                  (6.6.9.2)
-```
+$$ V = X - g(X' - X'_{s'}) \tag{6.6.9.2} $$
 
 which is an open of $X$ containing $x$ and contained in $U$, by virtue of (6.6.9.1) and (6.1.10). We shall show that
 
@@ -1523,9 +1487,7 @@ that $g*(\mathcal{L})$ is ample, $h*(\mathcal{L})$ is ample.
 **Proof.** Indeed, if we set $\mathcal{L}' = g*(\mathcal{L})$, then $g_{*}(\mathcal{L}') = \mathcal{L}
 \otimes_{\mathcal{O}_{X}} \mathcal{B}$ `(0, 5.4.10)`, so
 
-```text
-  N'(g_*(ℒ')) = (ℒ ⊗_{𝒪_X} 𝒞)^{⊗n}
-```
+$$ N'(g_{*}(\mathcal{L}')) = (\mathcal{L} \otimes_{\mathcal{O}_X} \mathcal{C})^{\otimes n} $$
 
 (by the same reasoning as for (6.5.2.4)). We conclude that $\mathcal{M} = (h*(\mathcal{L}))^{\otimes n}$, and since
 $\mathcal{M}$ is ample, so is $h*(\mathcal{L})$ (4.5.6).
@@ -1612,27 +1574,25 @@ by other methods, in the case of algebraic schemes.
 Let $X$ be an affine scheme, $Y$ a Noetherian prescheme, and $f : X \to Y$ a finite surjective morphism. Then $Y$ is an
 affine scheme.
 
-**Proof.** It is clear that `f_red : X_red → Y_red` is finite (6.1.5, (vi)); since $X_{red}$ is an affine scheme, and
-saying that $Y$ is affine is equivalent to saying that $Y_{red}$ is affine (since $Y$ is Noetherian `(I, 6.1.7)`), we
-see that we may suppose $Y$ reduced. For every closed part $Y'$ of $Y$, there is then a single reduced subprescheme of
-$Y$ having $Y'$ as its underlying space `(I, 5.1.2)`; its inverse image $f^{-1}(Y')$, canonically isomorphic to $X
-\times_{Y} Y'$ `(I, 4.4.1)`, is affine as a closed subprescheme of $X$, and the restriction of $f$ to $f^{-1}(Y')$,
-which is identified with $f \times_{Y} 1_{Y'}$, is a finite surjective morphism (6.1.5, (iii)). By virtue of the
-principle of Noetherian induction `(0, 2.2.2)`, we may therefore (taking `(I, 6.1.7)` into account) reduce to proving
-the theorem under the hypothesis that for every closed part $Y' \neq Y$, every closed subprescheme of $Y$ having $Y'$ as
-its underlying space is affine. We thus conclude that, _for every coherent $\mathcal{O}_{Y}$-module $\mathcal{F}$ whose
-(closed) support $Z$ is distinct from $Y$, one has_ $H^{1}(Y, \mathcal{F}) = 0$. Indeed, there exists a closed
-subprescheme $Y'$ of $Y$ having $Z$ as its underlying space and such that, if $j : Y' \to Y$ is the canonical injection,
-one has $\mathcal{F} = j_{*}(j*(\mathcal{F}))$ `(I, 9.3.5)`; consequently (5.2.3) $H^{1}(Y, \mathcal{F}) = H^{1}(Y',
-j*(\mathcal{F})) = 0$ by `(I, 5.1.9.2)`.
+**Proof.** It is clear that $f_{red} : X_{red} \to Y_{red}$ is finite (6.1.5, (vi)); since $X_{red}$ is an affine
+scheme, and saying that $Y$ is affine is equivalent to saying that $Y_{red}$ is affine (since $Y$ is Noetherian
+`(I, 6.1.7)`), we see that we may suppose $Y$ reduced. For every closed part $Y'$ of $Y$, there is then a single reduced
+subprescheme of $Y$ having $Y'$ as its underlying space `(I, 5.1.2)`; its inverse image $f^{-1}(Y')$, canonically
+isomorphic to $X \times_{Y} Y'$ `(I, 4.4.1)`, is affine as a closed subprescheme of $X$, and the restriction of $f$ to
+$f^{-1}(Y')$, which is identified with $f \times_{Y} 1_{Y'}$, is a finite surjective morphism (6.1.5, (iii)). By virtue
+of the principle of Noetherian induction `(0, 2.2.2)`, we may therefore (taking `(I, 6.1.7)` into account) reduce to
+proving the theorem under the hypothesis that for every closed part $Y' \neq Y$, every closed subprescheme of $Y$ having
+$Y'$ as its underlying space is affine. We thus conclude that, _for every coherent $\mathcal{O}_{Y}$-module
+$\mathcal{F}$ whose (closed) support $Z$ is distinct from $Y$, one has_ $H^{1}(Y, \mathcal{F}) = 0$. Indeed, there
+exists a closed subprescheme $Y'$ of $Y$ having $Z$ as its underlying space and such that, if $j : Y' \to Y$ is the
+canonical injection, one has $\mathcal{F} = j_{*}(j*(\mathcal{F}))$ `(I, 9.3.5)`; consequently (5.2.3) $H^{1}(Y,
+\mathcal{F}) = H^{1}(Y', j*(\mathcal{F})) = 0$ by `(I, 5.1.9.2)`.
 
 Suppose first that $Y$ is not irreducible, and let $Y'$ be an irreducible component of $Y$ and $Y'' = Y - Y'$; we again
 denote by $Y'$ the closed reduced subprescheme of $Y$ having $Y'$ as its underlying space, and by $j$ the canonical
 injection $Y' \to Y$. Let $\mathcal{F}$ be a coherent $\mathcal{O}_{Y}$-module, and consider the canonical homomorphism
 
-```text
-  ρ : ℱ → ℱ' = j_*(j*(ℱ))
-```
+$$ \rho : \mathcal{F} \to \mathcal{F}' = j_{*}(j*(\mathcal{F})) $$
 
 `(0, 4.4.3)`; $\mathcal{F}'$ is a coherent $\mathcal{O}_{Y}$-module by virtue of `(0, 5.3.10)` and `(0, 5.3.12)`, since
 $j_{*}(\mathcal{O}_{Y'}) = \mathcal{O}_{Y}/\mathcal{J}$, denoting by $\mathcal{J}$ the sheaf of ideals of
@@ -1697,9 +1657,8 @@ when $\mathcal{F} \subset \mathcal{O}_{Y}$, which entails that $\mathcal{F}$ is 
 fact we shall show that $H^{1}(Y, \mathcal{F}) = 0$ for every coherent torsion-free $\mathcal{O}_{Y}$-module
 $\mathcal{F}$. Now the homomorphism $u : \mathcal{A}^{m} \to \mathcal{B}$ defines a homomorphism
 
-```text
-  v : 𝒢 = 𝓗𝓸𝓶_𝒜(ℬ, ℱ) → 𝓗𝓸𝓶_𝒜(𝒜^m, ℱ) = ℱ^m.
-```
+$$ v : \mathcal{G} = \mathcal{H}om_{\mathcal{A}}(\mathcal{B}, \mathcal{F}) \to
+\mathcal{H}om_{\mathcal{A}}(\mathcal{A}^m, \mathcal{F}) = \mathcal{F}^m. $$
 
 We first show that $v$ is injective: by hypothesis $\mathcal{T} = Coker u$ has a support not meeting $V$, hence is a
 torsion $\mathcal{O}_{Y}$-module `(I, 7.4.6)`; the exact sequence
@@ -1708,16 +1667,12 @@ $$ \mathcal{A}^{m} \to \mathcal{B} \to \mathcal{T} \to 0 $$
 
 gives, by left exactness of the functor $\operatorname{Hom}_{\mathcal{A}}$, the exact sequence
 
-```text
-  0 → 𝓗𝓸𝓶_𝒜(𝒯, ℱ) → 𝒢 →^v ℱ^m.
-```
+$$ 0 \to \mathcal{H}om_{\mathcal{A}}(\mathcal{T}, \mathcal{F}) \to \mathcal{G} \xrightarrow{v} \mathcal{F}^m. $$
 
 But since $\mathcal{F}$ is torsion-free, one has $\operatorname{Hom}_{\mathcal{A}}(\mathcal{T}, \mathcal{F}) = 0$
 `(0, 5.2.6)`, whence our assertion. We therefore have the exact sequence
 
-```text
-  0 → 𝒢 → ℱ^m → Coker v → 0
-```
+$$ 0 \to \mathcal{G} \to \mathcal{F}^m \to \operatorname{Coker} v \to 0 $$
 
 <!-- original page 138 -->
 

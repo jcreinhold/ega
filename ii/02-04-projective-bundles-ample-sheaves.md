@@ -41,9 +41,7 @@ homomorphisms.
 Still supposing $u$ surjective and setting $P = \mathbb{P}(\mathcal{E})$, $Q = \mathbb{P}(\mathcal{F})$, and $j =
 \mathbb{P}(u)$, we have, up to isomorphism,
 
-```text
-  j*(𝒪_P(n)) = 𝒪_Q(n)            for all n ∈ ℤ,                            (4.1.2.1)
-```
+$$ j*(\mathcal{O}_{P}(n)) = \mathcal{O}_{Q}(n) \quad \text{for all } n \in \mathbb{Z}, \tag{4.1.2.1} $$
 
 as follows from (3.6.3).
 
@@ -54,9 +52,7 @@ as follows from (3.6.3).
 Now let $\psi : Y' \to Y$ be a morphism and set $\mathcal{E}' = \psi*(\mathcal{E})$; we then have
 $\mathbb{S}_{\mathcal{O}_{Y'}}(\mathcal{E}') = \psi*(\mathbb{S}_{\mathcal{O}_{Y}}(\mathcal{E}))$ (1.7.5); hence (3.5.3),
 
-```text
-  ℙ(ψ*(𝓔)) = ℙ(𝓔) ×_Y Y'                                                   (4.1.3.1)
-```
+$$ \mathbb{P}(\psi*(\mathcal{E})) = \mathbb{P}(\mathcal{E}) \times_Y Y' \tag{4.1.3.1} $$
 
 up to canonical isomorphism. Furthermore, we evidently have
 
@@ -65,9 +61,8 @@ $$ \psi*((\mathbb{S}_{\mathcal{O}_{Y}}(\mathcal{E}))(n)) = (\mathbb{S}_{\mathcal
 for all $n \in \mathbb{Z}$; setting $P = \mathbb{P}(\mathcal{E})$ and $P' = \mathbb{P}(\mathcal{E}')$, we therefore have
 (3.5.4), up to isomorphism,
 
-```text
-  𝒪_{P'}(n) = 𝒪_P(n) ⊗_Y 𝒪_{Y'}    for all n ∈ ℤ.                          (4.1.3.2)
-```
+$$ \mathcal{O}_{P'}(n) = \mathcal{O}_P(n) \otimes_Y \mathcal{O}_{Y'} \quad \text{for all } n \in \mathbb{Z}.
+\tag{4.1.3.2} $$
 
 <!-- original page 72 -->
 
@@ -84,24 +79,20 @@ $\mathcal{O}_{P}(n) \otimes_{Y} \mathcal{L}^{\otimes n}$ for all $n \in \mathbb{
 **Proof.** Note first that if $A$ is a ring, $E$ an $A$-module, and $L$ a _free monogenic_ $A$-module, one canonically
 defines a homomorphism of $A$-modules
 
-```text
-  𝕊_n(E ⊗ L) → 𝕊_n(E) ⊗ L^{⊗n}
-```
+$$ \mathbb{S}_n(E \otimes L) \to \mathbb{S}_n(E) \otimes L^{\otimes n} $$
 
 by sending $(x_{1} \otimes y_{1}) \cdots (x_{n} \otimes y_{n})$ to
 
-```text
-  (x_1 x_2 ⋯ x_n) ⊗ (y_1 ⊗ y_2 ⊗ ⋯ ⊗ y_n)         (x_i ∈ E, y_i ∈ L, for 1 ≤ i ≤ n).
-```
+$$ (x_1 x_2 \cdots x_n) \otimes (y_1 \otimes y_2 \otimes \cdots \otimes y_n) \qquad (x_i \in E,\ y_i \in L,\ \text{for }
+1 \le i \le n). $$
 
 One verifies immediately (by reducing to the case $L = A$) that this homomorphism is in fact an isomorphism. We conclude
 a canonical isomorphism of graded $A$-algebras $\mathbb{S}_{A}(E \otimes L) \xrightarrow{\sim} \oplus_{n\geq 0}
 \mathbb{S}_{n}(E) \otimes L^{\otimes n}$. Returning to the situation of (4.1.4), the preceding remarks allow us to
 define a canonical isomorphism of graded $\mathcal{O}_{Y}$-algebras
 
-```text
-  𝕊_{𝒪_Y}(𝓔 ⊗_{𝒪_Y} ℒ) ⥲ ⊕_{n≥0} 𝕊_n(𝓔) ⊗_{𝒪_Y} ℒ^{⊗n}                    (4.1.4.1)
-```
+$$ \mathbb{S}_{\mathcal{O}_Y}(\mathcal{E} \otimes_{\mathcal{O}_Y} \mathcal{L}) \xrightarrow{\sim} \bigoplus_{n \ge 0}
+\mathbb{S}_n(\mathcal{E}) \otimes_{\mathcal{O}_Y} \mathcal{L}^{\otimes n} \tag{4.1.4.1} $$
 
 by defining this isomorphism as one of presheaves and using (1.7.4), `(I, 1.3.9)`, and `(I, 1.3.12)`. The proposition
 then follows from (3.1.8, (iii)) and (3.2.10).
@@ -115,7 +106,7 @@ Since by definition $\mathcal{E} = (\mathbb{S}_{\mathcal{O}_{Y}}(\mathcal{E}))_{
 $\alpha_{1} : \mathcal{E} \to p_{*}(\mathcal{O}_{P}(1))$ (3.3.2.2), and therefore also `(0, 4.4.3)` a canonical
 homomorphism
 
-$$ \alpha_{1}\sharp : p*(\mathcal{E}) \to \mathcal{O}_{P}(1). (4.1.5.1) $$
+$$ \alpha_{1}\sharp : p*(\mathcal{E}) \to \mathcal{O}_{P}(1). \tag{4.1.5.1} $$
 
 **Proposition.**
 
@@ -137,14 +128,13 @@ surjective, whence the conclusion by (3.2.4).
 Keeping the notation of (4.1.5), let $X$ be a $Y$-prescheme, $q : X \to Y$ its structure morphism, and $r : X \to P$ a
 $Y$-_morphism_, so that we have the commutative diagram
 
-```text
-         r
-   P ←─────── X
-    \       /
-   p \     / q
-      ↘   ↙
-        Y
-```
+$$
+\begin{array}{ccc}
+P & \xleftarrow{\ r\ } & X \\
+& \searrow{\scriptstyle p} \quad \swarrow{\scriptstyle q} & \\
+& Y &
+\end{array}
+$$
 
 <!-- original page 73 -->
 
@@ -157,12 +147,12 @@ But $r*(p*(\mathcal{E})) = q*(\mathcal{E})$, and $r*(\mathcal{O}_{P}(1))$ is loc
 = \mathcal{O}_{X}$, in other words an _invertible_ sheaf $\mathcal{L}_{r}$ on $\mathcal{O}_{X}$. We have thus defined,
 starting from $r$, a canonical surjective $\mathcal{O}_{X}$-homomorphism
 
-$$ \phi_{r} : q*(\mathcal{E}) \to \mathcal{L}_{r}. (4.2.1.1) $$
+$$ \phi_{r} : q*(\mathcal{E}) \to \mathcal{L}_{r}. \tag{4.2.1.1} $$
 
 When $Y = \operatorname{Spec}(A)$ is affine and $\mathcal{E} = \tilde{E}$, this homomorphism may be made more explicit
 as follows: given $f \in E$, it follows from (2.6.3) that
 
-$$ r^{-1}(D_{+}(f)) = X_{\phi_{r}\flat(f)}. (4.2.1.2) $$
+$$ r^{-1}(D_{+}(f)) = X_{\phi_{r}\flat(f)}. \tag{4.2.1.2} $$
 
 Let $V$ be an affine open of $X$ contained in $r^{-1}(D_{+}(f))$, and let $B$ be its ring, an $A$-algebra; set $S =
 \mathbb{S}_{A}(E)$. The restriction of $r$ to $V$ corresponds to an $A$-homomorphism $\omega : S_{(f)} \to B$; we have
@@ -171,9 +161,8 @@ $q*(\mathcal{E})|V = (E \otimes_{A} B)~$ and $\mathcal{L}_{r}|V = \tilde{L}_{r}$
 $B$-homomorphism $u : E \otimes_{A} B \to L_{r}$ sending $x \otimes 1$ to $(x/1) \otimes f = (f/1) \otimes \omega(x/f)$.
 The canonical extension of $\phi_{r}$ to a homomorphism of $\mathcal{O}_{X}$-algebras
 
-```text
-  ψ_r : q*(𝕊(𝓔)) = 𝕊(q*(𝓔)) → 𝕊(ℒ_r) = ⊕_{n≥0} ℒ_r^{⊗n}
-```
+$$ \psi_r : q*(\mathbb{S}(\mathcal{E})) = \mathbb{S}(q*(\mathcal{E})) \to \mathbb{S}(\mathcal{L}_r) = \bigoplus_{n \ge
+0} \mathcal{L}_r^{\otimes n} $$
 
 is thus such that the restriction of $\psi_{r}$ to $q*(\mathbb{S}_{n}(\mathcal{E}))|V$ corresponds to the homomorphism
 $\mathbb{S}_{n}(E \otimes_{A} B) = \mathbb{S}_{n}(E) \otimes_{A} B \to L^{\otimes n}_{r}$ sending $s \otimes 1$ to
@@ -187,9 +176,7 @@ Conversely, suppose given a morphism $q : X \to Y$, an invertible $\mathcal{O}_{
 quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{E}$; to a homomorphism $\phi : q*(\mathcal{E}) \to \mathcal{L}$ there
 canonically corresponds a homomorphism of quasi-coherent $\mathcal{O}_{X}$-algebras
 
-```text
-  ψ : 𝕊(q*(𝓔)) = q*(𝕊(𝓔)) → ⊕_{n≥0} ℒ^{⊗n}
-```
+$$ \psi : \mathbb{S}(q*(\mathcal{E})) = q*(\mathbb{S}(\mathcal{E})) \to \bigoplus_{n \ge 0} \mathcal{L}^{\otimes n} $$
 
 and therefore (3.7.1) a $Y$-morphism $r_{\mathcal{L},\psi} : G(\psi) \to \operatorname{Proj}(\mathbb{S}(\mathcal{E})) =
 \mathbb{P}(\mathcal{E})$, which we denote $r_{\mathcal{L},\phi}$. If $\phi$ is surjective, then so is $\psi$, and
@@ -286,7 +273,7 @@ In particular:
    which one may also call the _rational geometric fibre over $K$ of $\mathbb{P}(\mathcal{E})$ over the point $y$_, is
    identified with the _projective space_ associated to the _dual_ of the $K$-vector space $\mathcal{E}^{y}
    \otimes_{\kappa(y)} K$.
-1. Suppose $Y$ is affine of ring $A$, and that every invertible $\mathcal{O}_{Y}$-module is trivial; take in addition
+2. Suppose $Y$ is affine of ring $A$, and that every invertible $\mathcal{O}_{Y}$-module is trivial; take in addition
    $\mathcal{E} = \mathcal{O}^{n}_{Y}$. Then in (4.2.6), $V$ is identified with $A^{n}$ `(I, 1.3.8)`, and $V*$ with the
    set of systems $(f_{i})_{1\leq i\leq n}$ of elements of $A$ generating the ideal $A$; two such systems define the
    same $Y$-section of $\mathbb{P}^{n-1}_{Y} = \mathbb{P}^{n-1}_{A}$ — in other words, the same _point of
@@ -349,28 +336,27 @@ $Y$-morphism $j \circ r$ corresponds to $q*(\mathcal{E}) \xrightarrow{q*(v)} q*(
 Let $\psi : Y' \to Y$ be a morphism, and set $\mathcal{E}' = \psi*(\mathcal{E})$. If the $Y$-morphism $r : X \to P$
 corresponds to the homomorphism $\phi : q*(\mathcal{E}) \to \mathcal{L}$, then the $Y'$-morphism
 
-```text
-  r_{(Y')} : X_{(Y')} → P' = ℙ(𝓔')
-```
+$$ r_{(Y')} : X_{(Y')} \to P' = \mathbb{P}(\mathcal{E}') $$
 
 corresponds to $\phi_{(Y')} : q_{(Y')}*(\mathcal{E}') = q*(\mathcal{E}) \otimes_{Y} \mathcal{O}_{Y'} \to \mathcal{L}
 \otimes_{Y} \mathcal{O}_{Y'}$. Indeed, by (4.1.3.1) we have the commutative diagram
 
-```text
-   Y' ←─── P' = P_{(Y')} ←─── X_{(Y')}
-   │           │                │
-   │           │ u              │ v
-   ↓           ↓                ↓
-   Y  ←─── P            ←─── X
-              p              r
-```
+$$
+\begin{array}{ccccc}
+Y' & \leftarrow & P' = P_{(Y')} & \leftarrow & X_{(Y')} \\
+\downarrow & & \downarrow{\scriptstyle u} & & \downarrow{\scriptstyle v} \\
+Y & \xleftarrow{\ p\ } & P & \xleftarrow{\ r\ } & X
+\end{array}
+$$
 
 By (4.1.3.2),
 
-```text
-  (r_{(Y')})*(𝒪_{P'}(1)) = (r_{(Y')})*(u*(𝒪_P(1))) = v*(r*(𝒪_P(1)))
-                         = v*(ℒ) = ℒ ⊗_Y 𝒪_{Y'};
-```
+$$
+\begin{aligned}
+(r_{(Y')})*(\mathcal{O}_{P'}(1)) &= (r_{(Y')})*(u*(\mathcal{O}_P(1))) = v*(r*(\mathcal{O}_P(1))) \\
+&= v*(\mathcal{L}) = \mathcal{L} \otimes_Y \mathcal{O}_{Y'};
+\end{aligned}
+$$
 
 on the other hand, $u*(\alpha_{1}\sharp)$ is precisely the canonical homomorphism $\alpha_{1}\sharp :
 (p_{(Y')})*(\mathcal{E}') \to \mathcal{O}_{P'}(1)$, as one sees by making the canonical homomorphisms $\alpha_{1}\sharp$
@@ -394,49 +380,38 @@ q_{2}*(p_{2}*(\mathcal{F}))$ `(0, 4.3.3)`. The canonical surjective homomorphism
 \mathcal{O}_{P_{1}}(1)$ and $p_{2}*(\mathcal{F}) \to \mathcal{O}_{P_{2}}(1)$ therefore yield, by tensor product, a
 canonical homomorphism
 
-```text
-  s : r*(𝓔 ⊗_{𝒪_Y} 𝓕) → ℒ                                                   (4.3.1.1)
-```
+$$ s : r*(\mathcal{E} \otimes_{\mathcal{O}_Y} \mathcal{F}) \to \mathcal{L} \tag{4.3.1.1} $$
 
 which is evidently surjective; from this we obtain (4.2.2) a canonical morphism, called the _Segre morphism_:
 
-```text
-  ς : ℙ(𝓔) ×_Y ℙ(𝓕) → ℙ(𝓔 ⊗_{𝒪_Y} 𝓕).                                       (4.3.1.2)
-```
+$$ \varsigma : \mathbb{P}(\mathcal{E}) \times_Y \mathbb{P}(\mathcal{F}) \to \mathbb{P}(\mathcal{E}
+\otimes_{\mathcal{O}_Y} \mathcal{F}). \tag{4.3.1.2} $$
 
 Let us make $\varsigma$ explicit when $Y = \operatorname{Spec}(A)$ is affine, $\mathcal{E} = \tilde{E}$, $\mathcal{F} =
 \tilde{F}$, with $E$, $F$ two $A$-modules, so that $\mathcal{E} \otimes_{\mathcal{O}_{Y}} \mathcal{F} = (E \otimes_{A}
 F)~$ `(I, 1.3.12)`; set $R = \mathbb{S}_{A}(E)$, $S = \mathbb{S}_{A}(F)$, $T = \mathbb{S}_{A}(E \otimes_{A} F)$. Let $f
 \in E$, $g \in F$, and consider the affine open
 
-```text
-  D₊(f) ×_Y D₊(g) = Spec(B)
-```
+$$ D_{+}(f) \times_Y D_{+}(g) = \operatorname{Spec}(B) $$
 
 <!-- original page 77 -->
 
 of $Q$, where $B = R_{(f)} \otimes_{A} S_{(g)}$; the restriction of $\mathcal{L}$ to this affine open is $\tilde{L}$,
 where
 
-```text
-  L = (R(1))_{(f)} ⊗_A (S(1))_{(g)},
-```
+$$ L = (R(1))_{(f)} \otimes_A (S(1))_{(g)}, $$
 
 and the element $c = (f/1) \otimes (g/1)$ is a generator of $L$, regarded as a free $B$-module (2.5.7). The homomorphism
 (4.3.1.1) corresponds to the homomorphism
 
-```text
-  (x ⊗ y) ⊗ b ↦ b ((x/1) ⊗ (y/1))
-```
+$$ (x \otimes y) \otimes b \mapsto b ((x/1) \otimes (y/1)) $$
 
 from $(E \otimes_{A} F) \otimes_{A} B$ to $L$. With the notation of (3.7.2) we therefore have $v_{1}(x \otimes y) =
 (x/f) \otimes (y/g)$; the restriction of $\varsigma$ to $D_{+}(f) \times_{Y} D_{+}(g)$ is a morphism of this affine
 scheme to $D_{+}(f \otimes g)$, corresponding to the ring homomorphism $\omega : T_{(f\otimes g)} \to R_{(f)}
 \otimes_{A} S_{(g)}$ defined by
 
-```text
-  ω((x ⊗ y)/(f ⊗ g)) = (x/f) ⊗ (y/g)                                       (4.3.1.3)
-```
+$$ \omega((x \otimes y)/(f \otimes g)) = (x/f) \otimes (y/g) \tag{4.3.1.3} $$
 
 for $x \in E$ and $y \in F$.
 
@@ -446,25 +421,20 @@ for $x \in E$ and $y \in F$.
 
 It follows from (4.2.3) that we have a canonical isomorphism
 
-```text
-  τ : ς*(𝒪_P(1)) ⥲ 𝒪_{P_1}(1) ⊗_Y 𝒪_{P_2}(1)                              (4.3.2.1)
-```
+$$ \tau : \varsigma*(\mathcal{O}_P(1)) \xrightarrow{\sim} \mathcal{O}_{P_1}(1) \otimes_Y \mathcal{O}_{P_2}(1)
+\tag{4.3.2.1} $$
 
 where we have set $P = \mathbb{P}(\mathcal{E} \otimes_{\mathcal{O}_{Y}} \mathcal{F})$. We show that, for $x \in
 \Gamma(Y, \mathcal{E})$ and $y \in \Gamma(Y, \mathcal{F})$,
 
-```text
-  τ(α_1(x ⊗ y)) = α_1(x) ⊗ α_1(y).                                         (4.3.2.2)
-```
+$$ \tau(\alpha_1(x \otimes y)) = \alpha_1(x) \otimes \alpha_1(y). \tag{4.3.2.2} $$
 
 Indeed, we reduce to the case $Y$ affine, and we then have, with the notation of (4.3.1) and (2.6.2), $\alpha^{f\otimes
 g}_{1}(x \otimes y) = (x \otimes y)/1$ in $(T(1))_{(f\otimes g)}$, $\alpha^{f}_{1}(x) = x/1$ in $(R(1))_{(f)}$, and
 $\alpha^{g}_{1}(y) = y/1$ in $(S(1))_{(g)}$. The definition of $\tau$ given in (4.2.3) and the computation of $v_{1}$
 done in (4.3.1) prove (4.3.2.2) at once. From this we derive
 
-```text
-  ς⁻¹(P_{x⊗y}) = (P_1)_x ×_Y (P_2)_y                                        (4.3.2.3)
-```
+$$ \varsigma^{-1}(P_{x \otimes y}) = (P_1)_x \times_Y (P_2)_y \tag{4.3.2.3} $$
 
 with the notation of (3.1.4). Indeed, taking (3.3.3) into account, the formula (4.3.2.2) reduces (returning to the
 affine case via `(I, 3.2.7)` and `(I, 3.2.3)`) to proving the following lemma:
@@ -504,16 +474,13 @@ The Segre morphism is functorial in $\mathcal{E}$ and $\mathcal{F}$, when one re
 homomorphisms of quasi-coherent $\mathcal{O}_{Y}$-modules to surjective homomorphisms. Indeed, we must show that if
 $\mathcal{E} \to \mathcal{E}'$ is a surjective $\mathcal{O}_{Y}$-homomorphism, then the diagram
 
-```text
-                       j × 1
-   ℙ(𝓔') × ℙ(𝓕) ─────────────→ ℙ(𝓔) × ℙ(𝓕)
-
-         │                          │
-       ς │                          │ ς
-         ↓                          ↓
-
-   ℙ(𝓔' ⊗ 𝓕) ────────────────→ ℙ(𝓔 ⊗ 𝓕)
-```
+$$
+\begin{array}{ccc}
+\mathbb{P}(\mathcal{E}') \times \mathbb{P}(\mathcal{F}) & \xrightarrow{\ j \times 1\ } & \mathbb{P}(\mathcal{E}) \times \mathbb{P}(\mathcal{F}) \\
+\downarrow{\scriptstyle \varsigma} & & \downarrow{\scriptstyle \varsigma} \\
+\mathbb{P}(\mathcal{E}' \otimes \mathcal{F}) & \longrightarrow & \mathbb{P}(\mathcal{E} \otimes \mathcal{F})
+\end{array}
+$$
 
 commutes, $j$ denoting the canonical closed immersion $\mathbb{P}(\mathcal{E}') \to \mathbb{P}(\mathcal{E})$. Set
 $P_{1}' = \mathbb{P}(\mathcal{E}')$ and keep the other notation of (4.3.1); $j \times 1$ is a closed immersion
@@ -573,14 +540,10 @@ finite type_, and $\mathcal{L}$ an invertible $\mathcal{O}_{X}$-module.
 
 <!-- original page 79 -->
 
-```
-and sufficient that there exist an integer `n ≥ 0` and a quasi-coherent
-sub-`𝒪_Y`-module `𝓔` of `𝒮_n` _of finite type_ such that the
-homomorphism
-`φ' = ψ_n ∘ q*(j) : q*(𝓔) → ℒ^{⊗n} = ℒ'`
-(with `j` the injection `𝓔 → 𝒮_n`) is surjective and the morphism
-`r_{ℒ',φ'} : X → ℙ(𝓔)` is an immersion.
-```
+and sufficient that there exist an integer $n \ge 0$ and a quasi-coherent sub-$\mathcal{O}_{Y}$-module $\mathcal{E}$ of
+$\mathcal{S}_n$ _of finite type_ such that the homomorphism $\phi' = \psi_n \circ q*(j) : q*(\mathcal{E}) \to
+\mathcal{L}^{\otimes n} = \mathcal{L}'$ (with $j$ the injection $\mathcal{E} \to \mathcal{S}_n$) is surjective and the
+morphism $r_{\mathcal{L}',\phi'} : X \to \mathbb{P}(\mathcal{E})$ is an immersion.
 
 1. Let $\mathcal{F}$ be a quasi-coherent $\mathcal{O}_{Y}$-module, and $\phi : q*(\mathcal{F}) \to \mathcal{L}$ a
    surjective homomorphism. For the morphism $r_{\mathcal{L},\phi}$ to be an immersion $X \to \mathbb{P}(\mathcal{F})$,
@@ -655,9 +618,7 @@ $\mathcal{E}$ a quasi-coherent $\mathcal{O}_{Y}$-module) implies that $\sigma$ i
 factorization $q*(\mathcal{E}) \to q*(q_{*}(\mathcal{L})) \xrightarrow{\sigma} \mathcal{L}$ of $\phi$ corresponds
 canonically a factorization
 
-```text
-  q*(𝕊(𝓔)) → q*(𝕊(q_*(ℒ))) → ⊕_{n≥0} ℒ^{⊗n}
-```
+$$ q*(\mathbb{S}(\mathcal{E})) \to q*(\mathbb{S}(q_{*}(\mathcal{L}))) \to \bigoplus_{n \ge 0} \mathcal{L}^{\otimes n} $$
 
 so (3.8.3) the hypothesis that $r_{\mathcal{L},\phi}$ is an immersion implies that so is $j = r_{\mathcal{L},\sigma}$;
 moreover (4.2.4), $\mathcal{L}$ is isomorphic to $j*(\mathcal{O}_{P'}(1))$ with $P' = \mathbb{P}(q_{*}(\mathcal{L}))$.
@@ -739,7 +700,7 @@ Let $q : X \to Y$ be a morphism.
 1. Let $\mathcal{L}$ be an invertible $\mathcal{O}_{X}$-module and $\mathcal{K}$ an invertible $\mathcal{O}_{Y}$-module.
    For $\mathcal{L}$ to be very ample relative to $q$, it is necessary and sufficient that $\mathcal{L} \otimes
    q*(\mathcal{K})$ be so.
-1. If $\mathcal{L}$ and $\mathcal{L}'$ are two $\mathcal{O}_{X}$-modules very ample relative to $q$, then so is
+2. If $\mathcal{L}$ and $\mathcal{L}'$ are two $\mathcal{O}_{X}$-modules very ample relative to $q$, then so is
    $\mathcal{L} \otimes \mathcal{L}'$; in particular, $\mathcal{L}^{\otimes n}$ is very ample relative to $q$ for every
    $n > 0$.
 
@@ -753,21 +714,21 @@ the above, and this latter $\mathcal{O}_{X}$-module is isomorphic to $\mathcal{L
 
 1. For every prescheme $Y$, every invertible $\mathcal{O}_{Y}$-module $\mathcal{L}$ is very ample relative to the
    identity morphism `1_Y`.
-1. (i bis) Let $f : X \to Y$ be a morphism and $j : X' \to X$ an immersion. If $\mathcal{L}$ is an
+2. (i bis) Let $f : X \to Y$ be a morphism and $j : X' \to X$ an immersion. If $\mathcal{L}$ is an
    $\mathcal{O}_{X}$-module very ample relative to $f$, then $j*(\mathcal{L})$ is very ample relative to $f \circ j$.
-1. Let $Z$ be a quasi-compact prescheme, $f : X \to Y$ a morphism of finite type, $g : Y \to Z$ a quasi-compact
+3. Let $Z$ be a quasi-compact prescheme, $f : X \to Y$ a morphism of finite type, $g : Y \to Z$ a quasi-compact
    morphism, $\mathcal{L}$ an $\mathcal{O}_{X}$-module very ample relative to $f$, and $\mathcal{K}$ an
    $\mathcal{O}_{Y}$-module very ample relative to $g$. Then there exists an integer $n_{0} > 0$ such that $\mathcal{L}
    \otimes f*(\mathcal{K}^{\otimes n})$ is very ample relative to $g \circ f$ for all $n \geq n_{0}$.
-1. Let $f : X \to Y$ and $g : Y' \to Y$ be morphisms, and set $X' = X_{(Y')}$. If $\mathcal{L}$ is an
+4. Let $f : X \to Y$ and $g : Y' \to Y$ be morphisms, and set $X' = X_{(Y')}$. If $\mathcal{L}$ is an
    $\mathcal{O}_{X}$-module very ample relative to $f$, then $\mathcal{L}' = \mathcal{L} \otimes_{Y} \mathcal{O}_{Y'}$
    is an $\mathcal{O}_{X'}$-module very ample relative to $f_{(Y')}$.
-1. Let $f_{i} : X_{i} \to Y_{i}$ ($i = 1, 2$) be two $S$-morphisms. If $\mathcal{L}_{i}$ is an
+5. Let $f_{i} : X_{i} \to Y_{i}$ ($i = 1, 2$) be two $S$-morphisms. If $\mathcal{L}_{i}$ is an
    $\mathcal{O}_{X_{i}}$-module very ample relative to $f_{i}$ ($i = 1, 2$), then $\mathcal{L}_{1} \otimes_{S}
    \mathcal{L}_{2}$ is very ample relative to $f_{1} \times_{S} f_{2}$.
-1. Let $f : X \to Y$ and $g : Y \to Z$ be morphisms. If an $\mathcal{O}_{X}$-module $\mathcal{L}$ is very ample relative
+6. Let $f : X \to Y$ and $g : Y \to Z$ be morphisms. If an $\mathcal{O}_{X}$-module $\mathcal{L}$ is very ample relative
    to $g \circ f$, then $\mathcal{L}$ is very ample relative to $f$.
-1. Let $f : X \to Y$ be a morphism, and $j$ the canonical injection $X_{red} \to X$. If $\mathcal{L}$ is an
+7. Let $f : X \to Y$ be a morphism, and $j$ the canonical injection $X_{red} \to X$. If $\mathcal{L}$ is an
    $\mathcal{O}_{X}$-module very ample relative to $f$, then $j*(\mathcal{L})$ is very ample relative to $f_{red}$.
 
 **Proof.** Property (i bis) follows immediately from Definition (4.4.2), and it is immediate that (vi) follows formally
@@ -798,12 +759,14 @@ Y_{1} \times_{S} Y_{2}$, and let $p_{1}$, $p_{2}$ be the projections of $T$ to `
 $P_{i}' = \mathbb{P}(p_{i}*(\mathcal{E}_{i}))$ ($i = 1, 2$), we have by (4.1.3.1) $P_{i}' = P_{i} \times_{Y_{i}} T$,
 whence
 
-```text
-  P_1' ×_T P_2' = (P_1 ×_{Y_1} T) ×_T (P_2 ×_{Y_2} T)
-                = P_1 ×_{Y_1} (T ×_{Y_2} P_2)
-                = P_1 ×_{Y_1} (Y_1 ×_S P_2)
-                = P_1 ×_S P_2
-```
+$$
+\begin{aligned}
+P_1' \times_T P_2' &= (P_1 \times_{Y_1} T) \times_T (P_2 \times_{Y_2} T) \\
+&= P_1 \times_{Y_1} (T \times_{Y_2} P_2) \\
+&= P_1 \times_{Y_1} (Y_1 \times_S P_2) \\
+&= P_1 \times_S P_2
+\end{aligned}
+$$
 
 up to canonical isomorphism. Similarly, $\mathcal{O}_{P_{i}'}(1) = \mathcal{O}_{P_{i}}(1) \otimes_{Y_{i}}
 \mathcal{O}_{T}$ (4.1.3.2), and an analogous computation (based notably on `(I, 9.1.9.1 and 9.1.2)`) shows that, in the
@@ -1012,15 +975,13 @@ Let $X$ be a quasi-compact scheme and $\mathcal{L}$ an invertible $\mathcal{O}_{
 
 1. Let $n > 0$ be an integer. For $\mathcal{L}$ to be ample, it is necessary and sufficient that $\mathcal{L}^{\otimes
    n}$ be ample.
-1. Let $\mathcal{L}'$ be an invertible $\mathcal{O}_{X}$-module such that for every $x \in X$ there exists an integer
+2. Let $\mathcal{L}'$ be an invertible $\mathcal{O}_{X}$-module such that for every $x \in X$ there exists an integer
    $n > 0$
 
 <!-- original page 86 -->
 
-```
-and a section `s'` of `ℒ'^{⊗n}` over `X` such that `s'(x) ≠ 0`. Then
-if `ℒ` is ample, so is `ℒ ⊗ ℒ'`.
-```
+and a section $s'$ of $\mathcal{L}'^{\otimes n}$ over $X$ such that $s'(x) \neq 0$. Then if $\mathcal{L}$ is ample, so
+is $\mathcal{L} \otimes \mathcal{L}'$.
 
 **Proof.** Property (i) is an evident consequence of criterion (a) of (4.5.2), since $X_{f^{\otimes n}} = X_{f}$. On the
 other hand, if $\mathcal{L}$ is ample, then for every $x \in X$ and every neighbourhood $U$ of $x$ there is $m > 0$ and
@@ -1054,9 +1015,7 @@ Let $P = H^{1}(X, \mathcal{O}_{X}*)$ be the group of classes of invertible $\mat
 let $P^{+}$ be the part of $P$ formed by the classes of ample sheaves. Suppose $P^{+}$ is non-empty. Then it follows
 from (4.5.7) and (4.5.8) that
 
-```text
-  P⁺ + P⁺ ⊂ P⁺    and    P⁺ − P⁺ = P,
-```
+$$ P^{+} + P^{+} \subset P^{+} \quad \text{and} \quad P^{+} - P^{+} = P, $$
 
 in other words, $P^{+} \cup {0}$ is the set of positive elements in $P$ for a _preorder_ structure on $P$ compatible
 with its group structure, which is even _archimedean_ by (4.5.8). For this reason one sometimes says "positive sheaf"
@@ -1070,7 +1029,7 @@ Let $Y$ be an affine scheme, $q : X \to Y$ a quasi-compact separated morphism, a
 $\mathcal{O}_{X}$-module.
 
 1. If $\mathcal{L}$ is very ample relative to $q$, then $\mathcal{L}$ is ample.
-1. Suppose in addition that the morphism $q$ is _of finite type_. Then, for $\mathcal{L}$ to be ample, it is necessary
+2. Suppose in addition that the morphism $q$ is _of finite type_. Then, for $\mathcal{L}$ to be ample, it is necessary
    and sufficient that it possess one of the following equivalent properties: e) There exists $n_{0} > 0$ such that for
    every integer $n \geq n_{0}$, $\mathcal{L}^{\otimes n}$ is very ample relative to $q$. e') There exists $n > 0$ such
    that $\mathcal{L}^{\otimes n}$ is very ample relative to $q$.
@@ -1078,9 +1037,7 @@ $\mathcal{O}_{X}$-module.
 **Proof.** The first claim follows from Definition (4.4.2) of a very ample $\mathcal{O}_{X}$-module: if $A$ is the ring
 of $Y$, there exists an $A$-module $E$ and a surjective homomorphism
 
-```text
-  ψ : q*((𝕊(E))~) → ⊕_{n≥0} ℒ^{⊗n}
-```
+$$ \psi : q*((\mathbb{S}(E))~) \to \bigoplus_{n \ge 0} \mathcal{L}^{\otimes n} $$
 
 such that $i = r_{\mathcal{L},\psi}$ is an everywhere-defined immersion $X \to P = \mathbb{P}(\tilde{E})$ and
 $\mathcal{L} = i*(\mathcal{O}_{P}(1))$; since the $D_{+}(f)$ for $f$ homogeneous in $(\mathbb{S}(E))_{+}$ form a basis
@@ -1159,17 +1116,15 @@ $\mathcal{L}^{\otimes nm}$ over $X$.
 
 **Proof.** We have the exact sequence of $\mathcal{O}_{X}$-modules
 
-```text
-  0 → 𝒥(n) → 𝒪_X(n) = ℒ^{⊗n} → 𝒪_Z(n) = ℒ'^{⊗n} → 0
-```
+$$ 0 \to \mathcal{J}(n) \to \mathcal{O}_X(n) = \mathcal{L}^{\otimes n} \to \mathcal{O}_Z(n) = \mathcal{L}'^{\otimes n}
+\to 0 $$
 
 <!-- original page 88 -->
 
 since $\mathcal{F}(n)$ is an exact functor in $\mathcal{F}$; whence the cohomology exact sequence
 
-```text
-  0 → Γ(X, 𝒥(n)) → Γ(X, ℒ^{⊗n}) → Γ(X, ℒ'^{⊗n}) ─∂→ H¹(X, 𝒥(n))
-```
+$$ 0 \to \Gamma(X, \mathcal{J}(n)) \to \Gamma(X, \mathcal{L}^{\otimes n}) \to \Gamma(X, \mathcal{L}'^{\otimes n})
+\xrightarrow{\partial} H^{1}(X, \mathcal{J}(n)) $$
 
 which associates to $g$ in particular an element $\partial g \in H^{1}(X, \mathcal{J}(n))$.
 
@@ -1181,7 +1136,7 @@ $\mathcal{J}(n) \to \mathcal{J}(n + k)$ of $\mathcal{O}_{Z}$-modules, which ther
 
 We shall see that
 
-$$ g^{\otimes m} \otimes \partial g = 0 (4.5.13.2) $$
+$$ g^{\otimes m} \otimes \partial g = 0 \tag{4.5.13.2} $$
 
 for $m > 0$ large enough. Indeed, $Z_{g}$ is an affine open of $Z$, so $H^{1}(Z_{g}, \mathcal{J}(n)) = 0$ when
 $\mathcal{J}(n)$ is viewed as an $\mathcal{O}_{Z}$-module `(I, 5.1.9.2)`. In particular, if $g' = g | Z_{g}$, and
@@ -1208,25 +1163,23 @@ for every pair of indices, which proves (4.5.13.2).
 Note further that if $s \in \Gamma(X, \mathcal{O}_{Z}(p))$, $t \in \Gamma(X, \mathcal{O}_{Z}(q))$, then in the group
 $H^{1}(X, \mathcal{J}(p + q))$
 
-```text
-  ∂(s ⊗ t) = (∂s) ⊗ t + s ⊗ (∂t).                                          (4.5.13.3)
-```
+$$ \partial(s \otimes t) = (\partial s) \otimes t + s \otimes (\partial t). \tag{4.5.13.3} $$
 
 Indeed, to compute both sides we may again consider an open cover $(U_{\alpha})$ of $X$, and for each $\alpha$ a section
 $s_{\alpha} \in \Gamma(U_{\alpha}, \mathcal{O}_{X}(p))$ (resp. $t_{\alpha} \in \Gamma(U_{\alpha}, \mathcal{O}_{X}(q))$)
 whose canonical image in $\Gamma(U_{\alpha}, \mathcal{O}_{Z}(p))$ (resp. $\Gamma(U_{\alpha}, \mathcal{O}_{Z}(q))$) is $s
 | U_{\alpha}$ (resp. $t | U_{\alpha}$); the relation (4.5.13.3) then follows from
 
-```text
-  (s_{α|β} ⊗ t_{α|β}) − (s_{β|α} ⊗ t_{β|α})
-    = (s_{α|β} − s_{β|α}) ⊗ t_{α|β} + s_{β|α} ⊗ (t_{α|β} − t_{β|α})
-```
+$$
+\begin{aligned}
+&(s_{\alpha|\beta} \otimes t_{\alpha|\beta}) - (s_{\beta|\alpha} \otimes t_{\beta|\alpha}) \\
+&\quad = (s_{\alpha|\beta} - s_{\beta|\alpha}) \otimes t_{\alpha|\beta} + s_{\beta|\alpha} \otimes (t_{\alpha|\beta} - t_{\beta|\alpha})
+\end{aligned}
+$$
 
 with the same notation. By induction on $k$ we therefore have
 
-```text
-  ∂(g^{⊗k}) = (k g^{⊗(k−1)}) ⊗ (∂g)                                        (4.5.13.4)
-```
+$$ \partial(g^{\otimes k}) = (k g^{\otimes(k-1)}) \otimes (\partial g) \tag{4.5.13.4} $$
 
 <!-- original page 89 -->
 
@@ -1284,14 +1237,14 @@ is a homeomorphism of the underlying space of $X$ onto a subspace of $\operatorn
 
 Furthermore, when these hold, for every $n \in \mathbb{Z}$ the canonical homomorphism
 
-$$ r_{\mathcal{L},\sigma}*(\mathcal{O}_{P}(n)) \to \mathcal{L}^{\otimes n} (4.6.3.1) $$
+$$ r_{\mathcal{L},\sigma}*(\mathcal{O}_{P}(n)) \to \mathcal{L}^{\otimes n} \tag{4.6.3.1} $$
 
 defined in (3.7.9.1) is an isomorphism.
 
 Finally, for every quasi-coherent $\mathcal{O}_{X}$-module $\mathcal{F}$, setting $\mathcal{M} = \oplus_{n\geq 0}
 f_{*}(\mathcal{F} \otimes \mathcal{L}^{\otimes n})$, the canonical homomorphism
 
-$$ r_{\mathcal{L},\sigma}*(\tilde{\mathcal{M}}) \to \mathcal{F} (4.6.3.2) $$
+$$ r_{\mathcal{L},\sigma}*(\tilde{\mathcal{M}}) \to \mathcal{F} \tag{4.6.3.2} $$
 
 defined in (3.7.9.2) is an isomorphism.
 
@@ -1387,7 +1340,7 @@ Let $f : X \to Y$ be a quasi-compact morphism, $\mathcal{L}$ an invertible $\mat
 
 1. Let $n > 0$ be an integer. For $\mathcal{L}$ to be $f$-ample, it is necessary and sufficient that
    $\mathcal{L}^{\otimes n}$ be $f$-ample.
-1. Let $\mathcal{L}'$ be an invertible $\mathcal{O}_{X}$-module, and suppose there exists an integer $n > 0$ such that
+2. Let $\mathcal{L}'$ be an invertible $\mathcal{O}_{X}$-module, and suppose there exists an integer $n > 0$ such that
    the canonical homomorphism $\sigma : f*(f_{*}(\mathcal{L}'^{\otimes n})) \to \mathcal{L}'^{\otimes n}$ is surjective.
    Then, if $\mathcal{L}$ is $f$-ample, so is $\mathcal{L} \otimes \mathcal{L}'$.
 
@@ -1433,28 +1386,25 @@ $\mathcal{L}^{\otimes n} \otimes \mathcal{L}'$ is very ample relative to $f$ for
 
 1. For every prescheme $Y$, every invertible $\mathcal{O}_{Y}$-module $\mathcal{L}$ is ample relative to the identity
    morphism `1_Y`.
-1. (i bis) Let $f : X \to Y$ be a quasi-compact morphism, and $j : X' \to X$ a quasi-compact morphism that is a
+2. (i bis) Let $f : X \to Y$ be a quasi-compact morphism, and $j : X' \to X$ a quasi-compact morphism that is a
    homeomorphism of the underlying space of $X'$ onto a subspace of $X$. If $\mathcal{L}$ is an $\mathcal{O}_{X}$-module
    ample relative to $f$, then $j*(\mathcal{L})$ is ample relative to $f \circ j$.
-1. Let $Z$ be a quasi-compact prescheme, $f : X \to Y$ and $g : Y \to Z$ quasi-compact morphisms, $\mathcal{L}$ an
+3. Let $Z$ be a quasi-compact prescheme, $f : X \to Y$ and $g : Y \to Z$ quasi-compact morphisms, $\mathcal{L}$ an
    $\mathcal{O}_{X}$-module ample relative to $f$, and $\mathcal{K}$ an $\mathcal{O}_{Y}$-module ample relative to $g$.
    Then there exists an integer $n_{0} > 0$ such that $\mathcal{L} \otimes f*(\mathcal{K}^{\otimes n})$ is ample
    relative to $g \circ f$ for every $n \geq n_{0}$.
-1. Let $f : X \to Y$ be a quasi-compact morphism, $g : Y' \to Y$ a morphism, and set $X' = X_{(Y')}$. If $\mathcal{L}$
+4. Let $f : X \to Y$ be a quasi-compact morphism, $g : Y' \to Y$ a morphism, and set $X' = X_{(Y')}$. If $\mathcal{L}$
    is an $\mathcal{O}_{X}$-module ample relative to $f$, then $\mathcal{L}' = \mathcal{L} \otimes_{Y} \mathcal{O}_{Y'}$
    is an $\mathcal{O}_{X'}$-module ample relative to $f_{(Y')}$.
-1. Let $f_{i} : X_{i} \to Y_{i}$ ($i = 1, 2$) be two quasi-compact $S$-morphisms. If $\mathcal{L}_{i}$ is an
+5. Let $f_{i} : X_{i} \to Y_{i}$ ($i = 1, 2$) be two quasi-compact $S$-morphisms. If $\mathcal{L}_{i}$ is an
    $\mathcal{O}_{X_{i}}$-module ample relative to $f_{i}$ ($i = 1, 2$), then $\mathcal{L}_{1} \otimes_{S}
    \mathcal{L}_{2}$ is ample relative to $f_{1} \times_{S} f_{2}$.
-1. Let $f : X \to Y$ and $g : Y \to Z$ be morphisms with $g \circ f$ quasi-compact. If an
+6. Let $f : X \to Y$ and $g : Y \to Z$ be morphisms with $g \circ f$ quasi-compact. If an
 
 <!-- original page 92 -->
 
-```
-`𝒪_X`-module `ℒ` is ample relative to `g ∘ f`, and if `g` is
-separated or the underlying space of `X` is locally Noetherian, then
-`ℒ` is ample relative to `f`.
-```
+$\mathcal{O}_X$-module $\mathcal{L}$ is ample relative to $g \circ f$, and if $g$ is separated or the underlying space
+of $X$ is locally Noetherian, then $\mathcal{L}$ is ample relative to $f$.
 
 1. Let $f : X \to Y$ be a quasi-compact morphism, and $j$ the canonical injection $X_{red} \to X$. If $\mathcal{L}$ is
    an $\mathcal{O}_{X}$-module ample relative to $f$, then $j*(\mathcal{L})$ is ample relative to $f_{red}$.
@@ -1470,7 +1420,7 @@ separated or the underlying space of `X` is locally Noetherian, then
 1. Let $u : Z \to S$ be a morphism, $\mathcal{L}$ an invertible $\mathcal{O}_{S}$-module, $s$ a section of $\mathcal{L}$
    over $S$, and $s'$ the section of $u*(\mathcal{L}) = \mathcal{L}'$ over $Z$ canonically corresponding to it. Then
    $Z_{s'} = u^{-1}(S_{s})$.
-1. Let $Z$, $Z'$ be two $S$-preschemes, $p$, $p'$ the projections of $T = Z \times_{S} Z'$, $\mathcal{L}$ (resp.
+2. Let $Z$, $Z'$ be two $S$-preschemes, $p$, $p'$ the projections of $T = Z \times_{S} Z'$, $\mathcal{L}$ (resp.
    $\mathcal{L}'$) an invertible $\mathcal{O}_{Z}$-module (resp. $\mathcal{O}_{Z'}$-module), $t$ (resp. $t'$) a section
    of $\mathcal{L}$ (resp. $\mathcal{L}'$) over $Z$ (resp. $Z'$), and $s$ (resp. $s'$) the section of $p*(\mathcal{L})$
    (resp. $p'*(\mathcal{L}')$) over $Z \times_{S} Z'$ corresponding to it. Then $T_{s \otimes s'} = Z_{t} \times_{S}
@@ -1514,9 +1464,7 @@ corresponding to the $s_{i}$, so that the $X_{s_{i}'} = f^{-1}(Y_{s_{i}})$ (4.6.
 (4.5.2, a'); we may further suppose all the $n_{ij}$ equal to a single integer $n$. With this, $X$ is separated and
 quasi-compact, so there exists an integer $m > 0$ and, for every $(i, j)$, a section
 
-```text
-  u_{ij} ∈ Γ(X, ℒ^{⊗n} ⊗_X f*(𝒦^{⊗mk}))
-```
+$$ u_{ij} \in \Gamma(X, \mathcal{L}^{\otimes n} \otimes_X f*(\mathcal{K}^{\otimes mk})) $$
 
 such that $t_{ij} \otimes s_{i}'^{\otimes m}$ is the restriction to $X_{s_{i}'}$ of $u_{ij}$ `(I, 9.3.1)`; moreover
 $X_{u_{ij}} = X_{t_{ij}}$, so the $X_{u_{ij}}$ are affine and cover $X$. We may also suppose $m$ is of the form `nr`;
