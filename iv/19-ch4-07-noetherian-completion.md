@@ -1239,7 +1239,7 @@ $\mathfrak{J}$-preadic topology would also be a $\mathbf{P}$-ring.*
 \cdots, T_{n}}$ the subring of the ring of formal series $k[[T_{1}, \cdots, T_{n}]]$ formed of the series whose
 coefficients **tend to 0**. Is such a ring a $\mathbf{P}$-ring?*
 
-*C) If $A$ is a linearly topologized $\mathbf{P}$-ring, $S$ a multiplicative part of $A$, are the rings $A{S^{-1}}$
+*C) If $A$ is a linearly topologized $\mathbf{P}$-ring, $S$ a multiplicative part of $A$, are the rings $A\{S^{-1}\}$
 $(0_{I}, 7.6.1)$ and $A_{(S)}$ $(0_{I}, 7.6.15)$ $\mathbf{P}$-rings?*
 
 <!-- original page 203 -->

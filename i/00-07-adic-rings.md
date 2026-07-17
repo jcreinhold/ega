@@ -315,12 +315,12 @@ T_{r}]]$ consisting of formal series $\sum_{\alpha} c_{\alpha} T^{\alpha}$ ($\al
 \in \mathbb{N}_{r}$) with $\lim c_{\alpha} = 0$ (along the filter of cofinite subsets of $\mathbb{N}_{r}$); call these
 _restricted formal series_ in the $T_{i}$ with coefficients in $A$. With the topology whose fundamental system of
 neighborhoods of `0` consists of ${\sum c_{\alpha} T^{\alpha} : c_{\alpha} \in V}$ for $V$ a neighborhood of `0` in $A$,
-$A'$ is a separated topological ring. There is a canonical topological isomorphism $A{T_{1}, \cdots, T_{r}}
-\xrightarrow{\sim} A'$, given by sending $y \in A{T_{1}, \cdots, T_{r}}$ to $\sum_{\alpha} \phi_{\alpha}(y) T^{\alpha}$,
-where $\phi_{\alpha}$ extracts the coefficient of $T^{\alpha}$ (the result is restricted because almost all components
-vanish in each $A/\mathfrak{J}_{\lambda}$).
+$A'$ is a separated topological ring. There is a canonical topological isomorphism $A\{T_{1}, \cdots, T_{r}\}
+\xrightarrow{\sim} A'$, given by sending $y \in A\{T_{1}, \cdots, T_{r}\}$ to $\sum_{\alpha} \phi_{\alpha}(y)
+T^{\alpha}$, where $\phi_{\alpha}$ extracts the coefficient of $T^{\alpha}$ (the result is restricted because almost all
+components vanish in each $A/\mathfrak{J}_{\lambda}$).
 
-**(7.5.2)** Identify $A{T_{1}, \cdots, T_{r}}$ with the ring of restricted formal series via (7.5.1). The canonical
+**(7.5.2)** Identify $A\{T_{1}, \cdots, T_{r}\}$ with the ring of restricted formal series via (7.5.1). The canonical
 isomorphisms $(A/\mathfrak{J}_{\lambda})[T_{1}, \cdots, T_{r}][T_{r+1}, \cdots, T_{s}] \cong
 (A/\mathfrak{J}_{\lambda})[T_{1}, \cdots, T_{s}]$ give a canonical isomorphism
 
@@ -328,16 +328,16 @@ $$ (A\{T_{1}, \ldots, T_{r}\})\{T_{r+1}, \ldots, T_{s}\} \cong A\{T_{1}, \ldots,
 
 **(7.5.3) Universal property.** For every continuous homomorphism $u : A \to B$ to a linearly topologized, separated,
 complete ring $B$, and every system $(b_{1}, \cdots, b_{r})$ in $B$, there is a _unique_ continuous homomorphism
-$\bar{u} : A{T_{1}, \cdots, T_{r}} \to B$ with $\bar{u}|A = u$ and $\bar{u}(T_{j}) = b_{j}$, namely
+$\bar{u} : A\{T_{1}, \cdots, T_{r}\} \to B$ with $\bar{u}|A = u$ and $\bar{u}(T_{j}) = b_{j}$, namely
 
 $$ \bar{u}\left(\sum_{\alpha} c_{\alpha} T^{\alpha}\right) = \sum_{\alpha} u(c_{\alpha}) b_{1}^{\alpha_{1}} \cdots
 b_{r}^{\alpha_{r}}. $$
 
-This characterizes $A{T_{1}, \cdots, T_{r}}$ up to unique isomorphism.
+This characterizes $A\{T_{1}, \cdots, T_{r}\}$ up to unique isomorphism.
 
 **Proposition (7.5.4).**
 
-> (i) If $A$ is admissible, so is $A' = A{T_{1}, \cdots, T_{r}}$. (ii) If $A$ is $\mathfrak{J}$-adic with
+> (i) If $A$ is admissible, so is $A' = A\{T_{1}, \cdots, T_{r}\}$. (ii) If $A$ is $\mathfrak{J}$-adic with
 > $\mathfrak{J}/\mathfrak{J}^{2}$ finite-type over $A/\mathfrak{J}$, then setting $\mathfrak{J}' = \mathfrak{J} A'$,
 > $A'$ is $\mathfrak{J}'$-adic with $\mathfrak{J}'/\mathfrak{J}'^{2}$ finite-type over $A'/\mathfrak{J}'$. If $A$ is
 > Noetherian, so is $A'$.
@@ -354,9 +354,9 @@ $\phi : A \to B$ be a continuous homomorphism making $B$ an $A$-algebra. The fol
 > (a) $B$ is Noetherian and $\mathfrak{J}B$-adic, and $B/\mathfrak{J}B$ is a finite-type algebra over $A/\mathfrak{J}$.
 > (b) $B$ is topologically $A$-isomorphic to $\varprojlim B_{n}$, where $B_{n} = B_{m} / \mathfrak{J}^{n+1} B_{m}$ for
 > $m \geq n$, and `B_1` is a finite-type $A_{1} = A/\mathfrak{J}^{2}$-algebra. (c) $B$ is topologically $A$-isomorphic
-> to a quotient of some $A{T_{1}, \cdots, T_{r}}$ by a (necessarily closed) ideal.
+> to a quotient of some $A\{T_{1}, \cdots, T_{r}\}$ by a (necessarily closed) ideal.
 
-**Proof sketch.** (c) $\implies$ (a): $A' = A{T_{1}, \cdots, T_{r}}$ is Noetherian (7.5.4); $\mathfrak{J} A'$ is an
+**Proof sketch.** (c) $\implies$ (a): $A' = A\{T_{1}, \cdots, T_{r}\}$ is Noetherian (7.5.4); $\mathfrak{J} A'$ is an
 ideal of definition of $A'$, and $B/\mathfrak{J}B$ is a quotient of $(A/\mathfrak{J})[T_{1}, \cdots, T_{r}]$. (a)
 $\implies$ (b): by (7.2.11), $B \cong \varprojlim B/\mathfrak{J}^{n+1} B$. (b) $\implies$ (c): choose generators
 $(c_{i})$ of the $A/\mathfrak{J}$-algebra $B/\mathfrak{J}B$ and apply (7.5.3) to get a continuous $A$-homomorphism $u :
@@ -375,72 +375,73 @@ $$ A\{S^{-1}\} = \varprojlim S_{\lambda}^{-1} A_{\lambda}. $$
 
 This is independent of $(\mathfrak{J}_{\lambda})$:
 
-**Proposition (7.6.2).** $A{S^{-1}}$ is topologically isomorphic to the separated completion of $S^{-1}A$ for the
+**Proposition (7.6.2).** $A\{S^{-1}\}$ is topologically isomorphic to the separated completion of $S^{-1}A$ for the
 topology with fundamental system of neighborhoods of `0` the $S^{-1} \mathfrak{J}_{\lambda}$.
 
-**Corollary (7.6.3).** If $S'$ is the canonical image of $S$ in $\widehat{A}$, then $A{S^{-1}} \cong \hat{A}{S'^{-1}}$.
+**Corollary (7.6.3).** If $S'$ is the canonical image of $S$ in $\widehat{A}$, then $A\{S^{-1}\} \cong
+\hat{A}\{S'^{-1}\}$.
 
-If $A$ is separated and complete, $S^{-1}A$ need not be: take $S = {f^{n}}$ with $f$ topologically nilpotent but not
+If $A$ is separated and complete, $S^{-1}A$ need not be: take $S = \{f^{n}\}$ with $f$ topologically nilpotent but not
 nilpotent; then $S^{-1}A \neq 0$ but $S^{-1} \mathfrak{J}_{\lambda} = S^{-1}A$ for each $\lambda$.
 
-**Corollary (7.6.4).** If $0 \notin S$ in $A$, then $A{S^{-1}} \neq 0$.
+**Corollary (7.6.4).** If $0 \notin S$ in $A$, then $A\{S^{-1}\} \neq 0$.
 
-**(7.6.5)** Call $A{S^{-1}}$ the _completed ring of fractions_ of $A$ with denominators in $S$. There is a canonical
-continuous $A \to A{S^{-1}}$.
+**(7.6.5)** Call $A\{S^{-1}\}$ the _completed ring of fractions_ of $A$ with denominators in $S$. There is a canonical
+continuous $A \to A\{S^{-1}\}$.
 
 **(7.6.6) Universal property.** For every continuous $u : A \to B$ to a separated, complete linearly topologized ring
-$B$ with $u(S)$ consisting of invertible elements, $u$ factors uniquely as $A \to A{S^{-1}} \xrightarrow{u'} B$ with
+$B$ with $u(S)$ consisting of invertible elements, $u$ factors uniquely as $A \to A\{S^{-1}\} \xrightarrow{u'} B$ with
 $u'$ continuous.
 
 **(7.6.7) Functoriality.** For $\phi : A \to B$ continuous with $\phi(S) \subset T$, there is a unique continuous
-$\phi' : A{S^{-1}} \to B{T^{-1}}$ extending $\phi$. For $B = A$, $\phi = id$, and $S \subset T$, this gives
-$\rho^{T,S} : A{S^{-1}} \to A{T^{-1}}$ with $\rho^{U,S} = \rho^{U,T} \circ \rho^{T,S}$ for $S \subset T \subset U$.
+$\phi' : A\{S^{-1}\} \to B\{T^{-1}\}$ extending $\phi$. For $B = A$, $\phi = id$, and $S \subset T$, this gives
+$\rho^{T,S} : A\{S^{-1}\} \to A\{T^{-1}\}$ with $\rho^{U,S} = \rho^{U,T} \circ \rho^{T,S}$ for $S \subset T \subset U$.
 
-**(7.6.8)** For multiplicative subsets $S_{1}, S_{2} \subset A$ with $S_{2}'$ the image of `S_2` in $A{S^{-1}_{1}}$,
+**(7.6.8)** For multiplicative subsets $S_{1}, S_{2} \subset A$ with $S_{2}'$ the image of `S_2` in $A\{S^{-1}_{1}\}$,
 
-$$ A{(S_{1} S_{2})^{-1}} \cong A{S^{-1}_{1}}{S_{2}'^{-1}}. $$
+$$ A\{(S_{1} S_{2})^{-1}\} \cong A\{S^{-1}_{1}\}\{S_{2}'^{-1}\}. $$
 
 **(7.6.9)** Let $\mathfrak{a} \subset A$ be an _open_ ideal. Then $S^{-1} \mathfrak{a}$ is open in $S^{-1}A$; its
-separated completion $\mathfrak{a}{S^{-1}} = \varprojlim (S^{-1} \mathfrak{a} / S^{-1} \mathfrak{J}_{\lambda})$ is an
-open ideal of $A{S^{-1}}$, and $A{S^{-1}} / \mathfrak{a}{S^{-1}} \cong S^{-1} A / S^{-1} \mathfrak{a} = S^{-1}
-(A/\mathfrak{a})$. Conversely, every open ideal of $A{S^{-1}}$ is of the form $\mathfrak{a}{S^{-1}}$ for a unique open
-$\mathfrak{a} \supset \mathfrak{J}_{\lambda} \subset A$.
+separated completion $\mathfrak{a}\{S^{-1}\} = \varprojlim (S^{-1} \mathfrak{a} / S^{-1} \mathfrak{J}_{\lambda})$ is an
+open ideal of $A\{S^{-1}\}$, and $A\{S^{-1}\} / \mathfrak{a}\{S^{-1}\} \cong S^{-1} A / S^{-1} \mathfrak{a} = S^{-1}
+(A/\mathfrak{a})$. Conversely, every open ideal of $A\{S^{-1}\}$ is of the form $\mathfrak{a}\{S^{-1}\}$ for a unique
+open $\mathfrak{a} \supset \mathfrak{J}_{\lambda} \subset A$.
 
-**Proposition (7.6.10).** The map $\mathfrak{p} \mapsto \mathfrak{p}{S^{-1}}$ is an increasing bijection between open
-prime ideals of $A$ not meeting $S$ and open prime ideals of $A{S^{-1}}$; the residue field of
-$A{S^{-1}}/\mathfrak{p}{S^{-1}}$ is canonically the field of fractions of $A/\mathfrak{p}$.
+**Proposition (7.6.10).** The map $\mathfrak{p} \mapsto \mathfrak{p}\{S^{-1}\}$ is an increasing bijection between open
+prime ideals of $A$ not meeting $S$ and open prime ideals of $A\{S^{-1}\}$; the residue field of
+$A\{S^{-1}\}/\mathfrak{p}\{S^{-1}\}$ is canonically the field of fractions of $A/\mathfrak{p}$.
 
 **Proposition (7.6.11).**
 
-> (i) If $A$ is admissible, so is $A' = A{S^{-1}}$, and $\mathfrak{J}' = \mathfrak{J}{S^{-1}}$ is an ideal of definition
-> for $A'$ whenever $\mathfrak{J}$ is for $A$. (ii) If $A$ is $\mathfrak{J}$-adic with $\mathfrak{J}/\mathfrak{J}^{2}$
-> finite-type over $A/\mathfrak{J}$, then $A'$ is $\mathfrak{J}'$-adic with $\mathfrak{J}'/\mathfrak{J}'^{2}$
-> finite-type over $A'/\mathfrak{J}'$. If $A$ is Noetherian, so is $A'$.
+> (i) If $A$ is admissible, so is $A' = A\{S^{-1}\}$, and $\mathfrak{J}' = \mathfrak{J}\{S^{-1}\}$ is an ideal of
+> definition for $A'$ whenever $\mathfrak{J}$ is for $A$. (ii) If $A$ is $\mathfrak{J}$-adic with
+> $\mathfrak{J}/\mathfrak{J}^{2}$ finite-type over $A/\mathfrak{J}$, then $A'$ is $\mathfrak{J}'$-adic with
+> $\mathfrak{J}'/\mathfrak{J}'^{2}$ finite-type over $A'/\mathfrak{J}'$. If $A$ is Noetherian, so is $A'$.
 
-**Corollary (7.6.12).** Under (7.6.11)(ii), $(\mathfrak{J}{S^{-1}})^{n} = \mathfrak{J}^{n}{S^{-1}}$.
+**Corollary (7.6.12).** Under (7.6.11)(ii), $(\mathfrak{J}\{S^{-1}\})^{n} = \mathfrak{J}^{n}{S^{-1}}$.
 
-**Proposition (7.6.13).** Let $A$ be an adic Noetherian ring and $S \subset A$ multiplicative. Then $A{S^{-1}}$ is a
+**Proposition (7.6.13).** Let $A$ be an adic Noetherian ring and $S \subset A$ multiplicative. Then $A\{S^{-1}\}$ is a
 flat $A$-module.
 
-**Proof.** $A{S^{-1}}$ is the completion of the Noetherian $S^{-1}A$ for its $S^{-1}\mathfrak{J}$-preadic topology,
+**Proof.** $A\{S^{-1}\}$ is the completion of the Noetherian $S^{-1}A$ for its $S^{-1}\mathfrak{J}$-preadic topology,
 hence flat over $S^{-1}A$ (7.3.3); transitivity (6.2.1) plus flatness of $S^{-1}A$ over $A$ (6.3.1) finishes the proof.
 
-**Corollary (7.6.14).** Under (7.6.13), if $S' \subset S$, then $A{S^{-1}}$ is flat over $A{S'^{-1}}$.
+**Corollary (7.6.14).** Under (7.6.13), if $S' \subset S$, then $A\{S^{-1}\}$ is flat over $A\{S'^{-1}\}$.
 
-**(7.6.15)** For $f \in A$, write $A_{f} = A{S^{-1}_{f}}$ with $S_{f} = {f^{n} : n \geq 0}$, and $\mathfrak{a}_{f} =
-\mathfrak{a}{S^{-1}_{f}}$ for an open ideal $\mathfrak{a}$. For $g \in A$, there is a canonical $A_{f} \to A_{fg}$
-(7.6.7). For $S$ multiplicative, set $A_{S} = \varinjlim_{f \in S} A_{f}$; there is a canonical $A_{S} \to A{S^{-1}}$.
+**(7.6.15)** For $f \in A$, write $A_{f} = A\{S^{-1}_{f}\}$ with $S_{f} = \{f^{n} : n \geq 0\}$, and $\mathfrak{a}_{f} =
+\mathfrak{a}\{S^{-1}_{f}\}$ for an open ideal $\mathfrak{a}$. For $g \in A$, there is a canonical $A_{f} \to A_{fg}$
+(7.6.7). For $S$ multiplicative, set $A_{S} = \varinjlim_{f \in S} A_{f}$; there is a canonical $A_{S} \to A\{S^{-1}\}$.
 
-**Proposition (7.6.16).** If $A$ is Noetherian, $A{S^{-1}}$ is flat over $A_{S}$.
+**Proposition (7.6.16).** If $A$ is Noetherian, $A\{S^{-1}\}$ is flat over $A_{S}$.
 
-**Proof.** By (7.6.14), $A{S^{-1}}$ is flat over each $A_{f}$ ($f \in S$); conclude by (6.2.3).
+**Proof.** By (7.6.14), $A\{S^{-1}\}$ is flat over each $A_{f}$ ($f \in S$); conclude by (6.2.3).
 
 **Proposition (7.6.17).** Let $\mathfrak{p}$ be an open prime ideal in an admissible ring $A$, and $S = A -
-\mathfrak{p}$. Then $A{S^{-1}}$ and $A_{S}$ are local rings, the canonical $A_{S} \to A{S^{-1}}$ is local, and both
+\mathfrak{p}$. Then $A\{S^{-1}\}$ and $A_{S}$ are local rings, the canonical $A_{S} \to A\{S^{-1}\}$ is local, and both
 residue fields are canonically the field of fractions of $A/\mathfrak{p}$.
 
-**Corollary (7.6.18).** If moreover $A$ is adic Noetherian, then $A{S^{-1}}$ and $A_{S}$ are Noetherian local rings, and
-$A{S^{-1}}$ is a faithfully flat $A_{S}$-module.
+**Corollary (7.6.18).** If moreover $A$ is adic Noetherian, then $A\{S^{-1}\}$ and $A_{S}$ are Noetherian local rings,
+and $A\{S^{-1}\}$ is a faithfully flat $A_{S}$-module.
 
 ## 7.7. Completed tensor products
 

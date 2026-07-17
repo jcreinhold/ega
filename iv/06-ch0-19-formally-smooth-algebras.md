@@ -827,7 +827,7 @@ $\hat{A}$-homomorphism) from $\hat{B}$ into $C$ (in other words, every $A$-homom
 
 <!-- label: 0_IV.19.3.7 -->
 
-*Under the hypotheses of `(19.3.5, (iv))`, the topological $A{S^{-1}}$-algebra $B{T^{-1}}$ is formally smooth.*
+*Under the hypotheses of `(19.3.5, (iv))`, the topological $A\{S^{-1}\}$-algebra $B\{T^{-1}\}$ is formally smooth.*
 
 This follows from the definitions $(0_{I}, 7.6.1 and 7.6.7)$ and from `(19.3.5, (iv))` and `(19.3.6)`.
 
