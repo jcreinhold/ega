@@ -4,7 +4,7 @@
 
 # EGA I — The Language of Schemes
 
-- [Front matter](i/00-front-matter.md)
+- [EGA I — The Language of Schemes](i/00-front-matter.md)
 - [Chapter 0 — Preliminaries](i/00-00-chapter-preliminaries.md)
   - [§1. Rings of fractions](i/00-01-rings-of-fractions.md)
   - [§2. Irreducible Spaces. Noetherian Spaces](i/00-02-irreducible-and-noetherian-spaces.md)
@@ -29,10 +29,10 @@
 - [Index of notation](i/index-notation.md)
 - [Index of terminology](i/index-terminology.md)
 
-# EGA II — Some Classes of Morphisms
+# EGA II — Elementary Global Study of Some Classes of Morphisms
 
-- [Front matter](ii/00-front-matter.md)
-- [Chapter 2 — Some Classes of Morphisms]()
+- [EGA II — Elementary Global Study of Some Classes of Morphisms](ii/00-front-matter.md)
+- [Chapter 2 — Elementary Global Study of Some Classes of Morphisms]()
   - [§1. Affine morphisms](ii/02-01-affine-morphisms.md)
   - [§2. Homogeneous prime spectra](ii/02-02-homogeneous-prime-spectra.md)
   - [§3. Homogeneous spectrum of a sheaf of graded algebras](ii/02-03-homogeneous-spectrum-sheaf-graded-algebras.md)
@@ -47,10 +47,10 @@
 - [Index of terminology](ii/index-of-terminology.md)
 - [Translation ledger](ii/translation-ledger.md)
 
-# EGA III — Cohomology of Coherent Sheaves
+# EGA III — Cohomological Study of Coherent Sheaves
 
-- [Front matter (part 1)](iii/00-front-matter-part-1.md)
-- [Front matter (part 2)](iii/13-front-matter-part-2.md)
+- [EGA III — Cohomological Study of Coherent Sheaves (part 1)](iii/00-front-matter-part-1.md)
+- [EGA III — Cohomological Study of Coherent Sheaves (part 2)](iii/13-front-matter-part-2.md)
 - [Chapter 0 — Preliminaries (cont.)]()
   - [§8. Representable functors](iii/01-ch0-08-representable-functors.md)
   - [§9. Constructible sets](iii/02-ch0-09-constructible-sets.md)
@@ -58,7 +58,7 @@
   - [§11. Complements on homological algebra](iii/04-ch0-11-complements-homological-algebra.md)
   - [§12. Complements on the cohomology of sheaves](iii/05-ch0-12-complements-cohomology-sheaves.md)
   - [§13. Projective limits in homological algebra](iii/06-ch0-13-projective-limits-homological-algebra.md)
-- [Chapter 3 — Cohomology of Coherent Sheaves](iii/07-ch3-00-introduction.md)
+- [Chapter 3 — Cohomological Study of Coherent Sheaves](iii/07-ch3-00-introduction.md)
   - [§1. Cohomology of affine schemes](iii/08-ch3-01-cohomology-affine-schemes.md)
   - [§2. Cohomological study of projective morphisms](iii/09-ch3-02-cohomology-projective-morphisms.md)
   - [§3. The finiteness theorem for proper morphisms](iii/10-ch3-03-finiteness-proper-morphisms.md)
@@ -72,12 +72,12 @@
 - [Index of terminology](iii/index-of-terminology.md)
 - [Translation ledger](iii/translation-ledger.md)
 
-# EGA IV — Local Study of Schemes and Morphisms
+# EGA IV — Local Study of Schemes and Morphisms of Schemes
 
-- [Front matter (part 1)](iv/00-front-matter-part-1.md)
-- [Front matter (part 2)](iv/13-front-matter-part-2.md)
-- [Front matter (part 3)](iv/20-front-matter-part-3.md)
-- [Front matter (part 4)](iv/28-front-matter-part-4.md)
+- [EGA IV — Local Study of Schemes and Morphisms of Schemes (part 1)](iv/00-front-matter-part-1.md)
+- [EGA IV — Local Study of Schemes and Morphisms of Schemes (part 2)](iv/13-front-matter-part-2.md)
+- [EGA IV — Local Study of Schemes and Morphisms of Schemes (part 3)](iv/20-front-matter-part-3.md)
+- [EGA IV — Local Study of Schemes and Morphisms of Schemes (part 4)](iv/28-front-matter-part-4.md)
 - [Chapter 0 — Preliminaries (cont.)]()
   - [§14. Combinatorial dimension of a topological space](iv/01-ch0-14-combinatorial-dimension.md)
   - [§15. $M$-regular sequences and $\mathcal{F}$-regular sequences](iv/02-ch0-15-mf-regular-sequences.md)
@@ -89,7 +89,7 @@
   - [§21. Differentials in characteristic-$p$ rings](iv/08-ch0-21-differentials-characteristic-p.md)
   - [§22. Differential criteria for formal smoothness and regularity](iv/09-ch0-22-differential-criteria.md)
   - [§23. Japanese rings](iv/10-ch0-23-japanese-rings.md)
-- [Chapter 4 — Local Study of Schemes and Morphisms](iv/11-ch4-00-introduction.md)
+- [Chapter 4 — Local Study of Schemes and Morphisms of Schemes](iv/11-ch4-00-introduction.md)
   - [§1. Relative finiteness conditions. Constructible sets in preschemes](iv/12-ch4-01-relative-finiteness-conditions.md)
   - [§2. Base change and flatness](iv/14-ch4-02-base-change-and-flatness.md)
   - [§3. Associated prime cycles and primary decompositions](iv/15-ch4-03-associated-prime-cycles.md)
@@ -119,7 +119,7 @@
 
 # EGA V — Construction of Schemes (unpublished)
 
-- [Front matter](v/00-front-matter.md)
+- [EGA V — Construction of Schemes (unpublished)](v/00-front-matter.md)
 - [Chapter 5 — Construction of Schemes]()
   - [§V.1. Singular and supersingular zeros of a function; differential criteria (formerly EGA IV §16)](v/01-ch5-01-singular-supersingular-sets.md)
   - [§V.2.15 and §V.2.16. Jacobian and regularity supplements (formerly EGA IV §§17.15, 17.16)](v/02-ch5-02-jacobian-supplements.md)

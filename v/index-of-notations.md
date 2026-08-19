@@ -155,7 +155,8 @@ $(S_{n})_{n \in \mathbb{Z}}$ when ambiguity could arise.
 - $Grass_{n}(s)$ — subfunctor associated to a decomposition `(s)` of $\mathcal{E}$. `(V, 5.11)`
 - $Grass^{n}(\mathbb{P}) = Grass_{n+1}(\mathcal{E})$ — Grassmannian of dimension-$n$ linear subvarieties of
   $\mathbb{P}$. `(V, 5.12)`
-- $\operatorname{Grass}_n(\mathbb{P}) = \operatorname{Grass}^{n-1}(\mathbb{P}^{\vee}) = \operatorname{Grass}_n(\mathcal{E}^{\vee})$ — Grassmannian of codimension-$n$ linear subvarieties. `(V, 5.12)`
+- $\operatorname{Grass}_n(\mathbb{P}) = \operatorname{Grass}^{n-1}(\mathbb{P}^{\vee}) = \operatorname{Grass}_n(\mathcal{E}^{\vee})$
+  — Grassmannian of codimension-$n$ linear subvarieties. `(V, 5.12)`
 - $Gr_{m} = Grass_{m}(\mathbb{P})$ — abbreviation in §V.5.12. `(V, 5.12)`
 - $F$ — canonical quotient on $Grass_{m}$. `(V, 5.12)`
 - $H^{(m)}$ — incidence prescheme for codimension-$m$ linear sections. `(V, 5.12)`

@@ -46,8 +46,8 @@ every neighbourhood of $y$ contains $z$.
 $x \in X$ to be associated to $\mathcal{F}$, it is necessary and sufficient that the prime ideal $\mathfrak{j}_{x}$ of
 $A$ be associated to the module $M$ (in other words, be the annihilator of an element $f \in M$).*
 
-This results from the definition `(3.1.1)` and from Bourbaki, *loc. cit.*, §1, nÂ° 2, cor. of prop. 5, applied
-to $S = A - \mathfrak{j}_{x}$.
+This results from the definition `(3.1.1)` and from Bourbaki, *loc. cit.*, §1, nÂ° 2, cor. of prop. 5, applied to
+$S = A - \mathfrak{j}_{x}$.
 
 **Proposition (3.1.3).**
 
@@ -96,8 +96,7 @@ and $\neq 0$.*
 Indeed, if $x$ is the generic point of one of the irreducible components $Z$ of $Supp(\mathcal{F})$, it follows from the
 equivalence of a) and c') in `(3.1.3)` that $x$ belongs to $Ass(\mathcal{F})$, and $Z$ is an associated prime cycle of
 $\mathcal{F}$, necessarily maximal by virtue of `(3.1.1.1)`; the converse follows trivially from `(3.1.1.1)`. Finally,
-the last assertion, being evidently local, follows from Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, cor. 2 of
-prop. 7.
+the last assertion, being evidently local, follows from Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, cor. 2 of prop. 7.
 
 **Corollary (3.1.5).**
 
@@ -139,8 +138,8 @@ $\mathcal{F}_{\alpha}$. Then $Ass(\mathcal{F}) = \bigcup_{\alpha} Ass(\mathcal{F
 *(iii) For every family $(\mathcal{F}_{\alpha})$ of quasi-coherent $\mathcal{O}_{X}$-Modules, one has
 $Ass(\bigoplus_{\alpha} \mathcal{F}_{\alpha}) = \bigcup_{\alpha} Ass(\mathcal{F}_{\alpha})$.*
 
-One is immediately reduced to the corresponding propositions for modules (Bourbaki, *loc. cit.*, §1, nÂ° 1,
-formula (1), prop. 3 and cor. 1 of prop. 3).
+One is immediately reduced to the corresponding propositions for modules (Bourbaki, *loc. cit.*, §1, nÂ° 1, formula (1),
+prop. 3 and cor. 1 of prop. 3).
 
 **Proposition (3.1.8).**
 
@@ -228,8 +227,8 @@ Ass(M)$ (Bourbaki, *Alg. comm.*, chap. IV, §1, nÂ° 4, th. 2).
 the same be true of $f_{*}(\mathcal{F})$.*
 
 Suppose indeed that $f_{*}(\mathcal{F})$ has no embedded associated prime cycle. Note that if $A$ is an integral algebra
-over a field $k$, all the prime ideals of $A$ are maximal (Bourbaki, *Alg. comm.*, chap. V, §2, nÂ° 1, prop. 1);
-it follows from `(I, 6.2.2)` that the fibres of $f$ are *discrete* spaces. If $x$, $x'$ are two distinct points of
+over a field $k$, all the prime ideals of $A$ are maximal (Bourbaki, *Alg. comm.*, chap. V, §2, nÂ° 1, prop. 1); it
+follows from `(I, 6.2.2)` that the fibres of $f$ are *discrete* spaces. If $x$, $x'$ are two distinct points of
 $Ass(\mathcal{F})$, neither of them can be adherent to the other if $f(x) = f(x')$; and if $f(x) \neq f(x')$, `(3.1.10)`
 and the hypothesis entail that neither of the two points $f(x)$, $f(x')$ can be adherent to the other, hence the same is
 true of $x$ and $x'$.
@@ -283,26 +282,26 @@ $long(\mathcal{O}_{x}) = 1$.*
 It is clear that if $X$ is reduced, the same is true of the sub-prescheme induced on $U$. Moreover, the existence of
 embedded prime cycles being local, we may restrict to the case where $X = \operatorname{Spec}(A)$ is affine, $A$
 Noetherian. If $A$ is reduced, we know that the minimal prime ideals of $A$ form a reduced primary decomposition of
-`(0)` (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, prop. 10) and are the elements of $Ass(A)$, hence there
-exist no embedded prime ideals associated to $A$, which shows that a) implies b). It is immediate that b) entails c),
-since a generic point $x$ of an irreducible component of $X$ belongs to $U$, hence $\mathcal{O}_{x}$ is a field.
-Finally, c) entails a): it suffices indeed to note that if $\mathcal{N}$ is the Nilradical of $\mathcal{O}_{X}$, which
-is a coherent Ideal, $Supp(\mathcal{N})$ cannot contain any of the generic points of the irreducible components of $X$
-by hypothesis; if $Supp(\mathcal{N})$ were not empty and if $x$ were one of the maximal points of this closed set, the
-criterion `(3.1.3, c'))` would show that $x \in Ass(\mathcal{O}_{X})$, and $\overline{x}$ would therefore be an
-*embedded* prime cycle of $X$, contrary to the hypothesis; hence $\mathcal{N} = 0$.
+`(0)` (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, prop. 10) and are the elements of $Ass(A)$, hence there exist no
+embedded prime ideals associated to $A$, which shows that a) implies b). It is immediate that b) entails c), since a
+generic point $x$ of an irreducible component of $X$ belongs to $U$, hence $\mathcal{O}_{x}$ is a field. Finally, c)
+entails a): it suffices indeed to note that if $\mathcal{N}$ is the Nilradical of $\mathcal{O}_{X}$, which is a coherent
+Ideal, $Supp(\mathcal{N})$ cannot contain any of the generic points of the irreducible components of $X$ by hypothesis;
+if $Supp(\mathcal{N})$ were not empty and if $x$ were one of the maximal points of this closed set, the criterion
+`(3.1.3, c'))` would show that $x \in Ass(\mathcal{O}_{X})$, and $\overline{x}$ would therefore be an *embedded* prime
+cycle of $X$, contrary to the hypothesis; hence $\mathcal{N} = 0$.
 
 **Definition (3.2.2).**
 
 <!-- label: IV.3.2.2 -->
 
 *Let $X$ be a locally Noetherian prescheme, $\mathcal{F}$ a coherent $\mathcal{O}_{X}$-Module. We say that $\mathcal{F}$
-is **reduced** if it satisfies the two following conditions: 1Â° $\mathcal{F}$ is without embedded associated
-prime cycle; 2Â° for every maximal point $x$ of $Supp(\mathcal{F})$, one has $long(\mathcal{F}_{x}) = 1$.*
+is **reduced** if it satisfies the two following conditions: 1Â° $\mathcal{F}$ is without embedded associated prime
+cycle; 2Â° for every maximal point $x$ of $Supp(\mathcal{F})$, one has $long(\mathcal{F}_{x}) = 1$.*
 
 Condition 1Â° means that the associated prime cycles of $\mathcal{F}$ are the irreducible components of
-$Supp(\mathcal{F})$ `(3.1.4)`, and condition 2Â° means that for every generic point $x$ of such a component one
-has $long(\mathcal{F}_{x}) = 1$.
+$Supp(\mathcal{F})$ `(3.1.4)`, and condition 2Â° means that for every generic point $x$ of such a component one has
+$long(\mathcal{F}_{x}) = 1$.
 
 For an affine scheme $X$, this definition gives in particular the notion of *reduced module* on a Noetherian ring $A$;
 an $A$-module of finite type $M$ is said to be *reduced* if it has no embedded associated prime ideals and if, for every
@@ -613,8 +612,8 @@ $$ \operatorname{Ass}(\mathcal{G}'_{x}) = \bigcup_{y \in \operatorname{Ass}(\mat
 
 whence the proposition.
 
-We note that if, in the statement, one suppresses hypothesis 2Â°, one may still conclude, by virtue of
-`(3.3.1)`, the relation
+We note that if, in the statement, one suppresses hypothesis 2Â°, one may still conclude, by virtue of `(3.3.1)`, the
+relation
 
 $$ \operatorname{Ass}(\mathcal{F} \otimes_{S} \mathcal{G}) \supset \bigcup_{x \in \operatorname{Ass}(\mathcal{F})}
 \left( \bigcup_{y \in \operatorname{Ass}(\mathcal{G}_{f(x)})} I_{x,y} \right). \tag{3.3.6.4} $$
@@ -768,8 +767,8 @@ Let us then proceed by induction on $n = \sum_{i} long(M_{\mathfrak{p}_{i}})$. I
 $M_{\mathfrak{p}_{i}} = 0$ for every $i$, hence $M = 0$ since none of the $\mathfrak{p}_{i}$ belongs to $Ass(M)$; the
 two sides of `(3.4.1.3)` are then zero, and assertion $\beta$) of `(3.4.1.2)` is trivial. If $n > 0$, the reasoning at
 the beginning of the proof of `(3.4.1)` allows us to suppose moreover that the $A$-module $M$ is faithful: this entails
-$M_{\mathfrak{p}_{i}} \neq 0$ for every $i$ (Bourbaki, *Alg. comm.*, chap. II, §2, nÂ° 2, cor. 2 of prop. 4),
-and consequently $Ass(M) = \bigcup_{i} {\mathfrak{p}_{i}}$.
+$M_{\mathfrak{p}_{i}} \neq 0$ for every $i$ (Bourbaki, *Alg. comm.*, chap. II, §2, nÂ° 2, cor. 2 of prop. 4), and
+consequently $Ass(M) = \bigcup_{i} {\mathfrak{p}_{i}}$.
 
 Suppose first $n = 1$; there is then only a single minimal prime ideal $\mathfrak{p}$ of $A$,
 
@@ -778,29 +777,29 @@ Suppose first $n = 1$; there is then only a single minimal prime ideal $\mathfra
 and to say that $M_{\mathfrak{p}}$ is of length `1` means that $M_{\mathfrak{p}}$ is isomorphic to the residue field $k
 = A_{\mathfrak{p}}/\mathfrak{p} A_{\mathfrak{p}}$ as an $A_{\mathfrak{p}}$-module. Consequently $M_{\mathfrak{p}}$ is
 annihilated by $\mathfrak{p} A_{\mathfrak{p}}$, hence $\mathfrak{p}$ is the annihilator of $M$ (Bourbaki, *Alg. comm.*,
-chap. II, §2, nÂ° 4, formula (9)), which entails $\mathfrak{p} = 0$ since $M$ is supposed faithful; the ring $A$
-is therefore integral. This being so, the hypothesis $M \neq 0$ entails $M/tM \neq 0$ by Nakayama's lemma, and
-consequently $long(M/tM) \geq 1$, which proves `(3.4.1.3)` in this case. Moreover, if $long(M/tM) = 1$, $M$ is
-necessarily monogenic (Bourbaki, *Alg. comm.*, chap. II, §3, nÂ° 2, cor. 2 of prop. 4), hence isomorphic to a
-quotient $A/\mathfrak{b}$; since it is faithful, one necessarily has $\mathfrak{b} = 0$ and $M$ is isomorphic to $A$; as
-$long(A/tA) = 1$, `tA` is necessarily equal to the maximal ideal $\mathfrak{m}$, and as $A$ is a Noetherian integral
-local ring, this proves that $A$ is a discrete valuation ring (Bourbaki, *Alg. comm.*, chap. VI, §3, nÂ° 6,
-prop. 9), of which $t$ is the uniformizer. Conversely, if $A$ is a discrete valuation ring, $t$ its uniformizer,
-$long(M_{\mathfrak{p}}) = 1$ and if $t$ is $M$-regular, then $M$ is torsion-free, hence isomorphic to a sub-module of
-$A$ ($M$ being of finite type), and consequently isomorphic to $A$ itself, whence $long(M/tM) = long(A/tA) = 1$.
+chap. II, §2, nÂ° 4, formula (9)), which entails $\mathfrak{p} = 0$ since $M$ is supposed faithful; the ring $A$ is
+therefore integral. This being so, the hypothesis $M \neq 0$ entails $M/tM \neq 0$ by Nakayama's lemma, and consequently
+$long(M/tM) \geq 1$, which proves `(3.4.1.3)` in this case. Moreover, if $long(M/tM) = 1$, $M$ is necessarily monogenic
+(Bourbaki, *Alg. comm.*, chap. II, §3, nÂ° 2, cor. 2 of prop. 4), hence isomorphic to a quotient $A/\mathfrak{b}$; since
+it is faithful, one necessarily has $\mathfrak{b} = 0$ and $M$ is isomorphic to $A$; as $long(A/tA) = 1$, `tA` is
+necessarily equal to the maximal ideal $\mathfrak{m}$, and as $A$ is a Noetherian integral local ring, this proves that
+$A$ is a discrete valuation ring (Bourbaki, *Alg. comm.*, chap. VI, §3, nÂ° 6, prop. 9), of which $t$ is the
+uniformizer. Conversely, if $A$ is a discrete valuation ring, $t$ its uniformizer, $long(M_{\mathfrak{p}}) = 1$ and if
+$t$ is $M$-regular, then $M$ is torsion-free, hence isomorphic to a sub-module of $A$ ($M$ being of finite type), and
+consequently isomorphic to $A$ itself, whence $long(M/tM) = long(A/tA) = 1$.
 
 Suppose now $n \geq 2$; there then exists an exact sequence
 
 $$ 0 \to M' \to M \to M'' \to 0 $$
 
 with $M' \neq 0$, $M'' \neq 0$ and $\operatorname{Ass}(M) = \operatorname{Ass}(M') \cup \operatorname{Ass}(M'')$;
-indeed, if $Ass(M)$ is not reduced to a single element, this follows from Bourbaki, *Alg. comm.*, chap. IV, §1,
-nÂ° 1, prop. 4; if on the contrary $Ass(M)$ is reduced to a single prime ideal, this latter is necessarily the
-unique minimal prime ideal $\mathfrak{p}$ of $A$; the hypothesis then entails $long(M_{\mathfrak{p}}) \geq 2$ and it
-suffices to take for $M'$ the inverse image of a submodule of $M_{\mathfrak{p}}$ distinct from `0` and from
-$M_{\mathfrak{p}}$. As $t$ is $M$-regular, $t$ does not belong to any of the prime ideals of $Ass(M)$ (Bourbaki, *Alg.
-comm.*, chap. IV, §1, nÂ° 1, cor. 2 of prop. 2), hence, for the same reason, $t$ is $M'$-regular and
-`M''`-regular. This last property entails by `(3.4.1.4)` that the sequence
+indeed, if $Ass(M)$ is not reduced to a single element, this follows from Bourbaki, *Alg. comm.*, chap. IV, §1, nÂ° 1,
+prop. 4; if on the contrary $Ass(M)$ is reduced to a single prime ideal, this latter is necessarily the unique minimal
+prime ideal $\mathfrak{p}$ of $A$; the hypothesis then entails $long(M_{\mathfrak{p}}) \geq 2$ and it suffices to take
+for $M'$ the inverse image of a submodule of $M_{\mathfrak{p}}$ distinct from `0` and from $M_{\mathfrak{p}}$. As $t$ is
+$M$-regular, $t$ does not belong to any of the prime ideals of $Ass(M)$ (Bourbaki, *Alg. comm.*, chap. IV, §1, nÂ° 1,
+cor. 2 of prop. 2), hence, for the same reason, $t$ is $M'$-regular and `M''`-regular. This last property entails by
+`(3.4.1.4)` that the sequence
 
 $$ 0 \to M'/tM' \to M/tM \to M''/tM'' \to 0 $$
 
@@ -922,9 +921,8 @@ $A$-module `(3.2.2)`. Then $t$ is $M$-regular.*
 
 Every prime ideal $\mathfrak{p} \in Supp(M)$ contains one of the $\mathfrak{p}_{i}$; as $t$ belongs to none of the
 $\mathfrak{p}_{i}$, the homothety of ratio $t$ in $M_{\mathfrak{p}}$ is not nilpotent (Bourbaki, *Alg. comm.*, chap. IV,
-§1, nÂ° 4, cor. of prop. 9). Let us designate by $N$ the submodule of $M$ formed of elements annihilated by a
-power of $t$, and set $P = M/N$; we shall show that $N = 0$. Since $t$ is $P$-regular, one has an exact sequence
-`(3.4.1.4)`
+§1, nÂ° 4, cor. of prop. 9). Let us designate by $N$ the submodule of $M$ formed of elements annihilated by a power of
+$t$, and set $P = M/N$; we shall show that $N = 0$. Since $t$ is $P$-regular, one has an exact sequence `(3.4.1.4)`
 
 $$ 0 \to N/tN \to M/tM \to P/tP \to 0. $$
 

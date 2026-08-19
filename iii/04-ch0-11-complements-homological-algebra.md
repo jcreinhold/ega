@@ -130,16 +130,16 @@ other words, the objects $B_{\infty}(E^{p,q}_{2})$ and $Z_{\infty}(E^{p,q}_{2})$
 the spectral sequence $E$). We shall say that the spectral sequence $E$ is *regular* if it is weakly convergent and
 moreover:
 
-1Â° For every pair $(p, q)$, the decreasing sequence $(Z_{k}(E^{p,q}_{2}))_{k \geq 2}$ is stationary; the
-hypothesis that $E$ is weakly convergent then implies $Z_{\infty}(E^{p,q}_{2}) = Z_{k}(E^{p,q}_{2})$ for $k$
-sufficiently large (depending on $p$ and $q$).
+1Â° For every pair $(p, q)$, the decreasing sequence $(Z_{k}(E^{p,q}_{2}))_{k \geq 2}$ is stationary; the hypothesis
+that $E$ is weakly convergent then implies $Z_{\infty}(E^{p,q}_{2}) = Z_{k}(E^{p,q}_{2})$ for $k$ sufficiently large
+(depending on $p$ and $q$).
 
 2Â° For every $n$, the filtration $(F^{p}(E^{n}))_{p \in \mathbb{Z}}$ of $E^{n}$ is discrete and exhaustive.
 
 One says that the spectral sequence $E$ is *co-regular* if it is weakly convergent and moreover:
 
-3Â° For every pair $(p, q)$, the increasing sequence $(B_{k}(E^{p,q}_{2}))_{k \geq 2}$ is stationary, which
-entails $B_{\infty}(E^{p,q}_{2}) = B_{k}(E^{p,q}_{2})$, and consequently $E^{p,q}_{\infty} = \inf_{k} E^{p,q}_{k}$.
+3Â° For every pair $(p, q)$, the increasing sequence $(B_{k}(E^{p,q}_{2}))_{k \geq 2}$ is stationary, which entails
+$B_{\infty}(E^{p,q}_{2}) = B_{k}(E^{p,q}_{2})$, and consequently $E^{p,q}_{\infty} = \inf_{k} E^{p,q}_{k}$.
 
 4Â° For every $n$, the filtration of $E^{n}$ is co-discrete.
 
@@ -479,11 +479,11 @@ Suppose moreover that in $\mathcal{C}$ filtered inductive limits exist and are e
 following observations concerning the filtration `F_I` (and the analogous observations one deduces for $F_{II}$ by
 exchanging the roles of the two indices in $K^{\bullet,\bullet}$):
 
-1Â° If there exists $i_{0}$ such that $K^{i,j} = 0$ for $i > i_{0}$, the filtration $F_{I}(K^{\bullet,\bullet})$
-is *discrete*.
+1Â° If there exists $i_{0}$ such that $K^{i,j} = 0$ for $i > i_{0}$, the filtration $F_{I}(K^{\bullet,\bullet})$ is
+*discrete*.
 
-2Â° If there exists $i_{0}$ such that $K^{i,j} = 0$ for $i < i_{0}$, the filtration $F_{I}(K^{\bullet,\bullet})$
-is *co-discrete*. One deduces at once that the same holds for the corresponding filtration
+2Â° If there exists $i_{0}$ such that $K^{i,j} = 0$ for $i < i_{0}$, the filtration $F_{I}(K^{\bullet,\bullet})$ is
+*co-discrete*. One deduces at once that the same holds for the corresponding filtration
 $F_{I}(H^{n}(K^{\bullet,\bullet}))$ for every $n$; moreover, the definition of $B^{p,q}_{r}$ corresponding to the
 filtration $F_{I}(K^{\bullet,\bullet})$ `(11.2.2)` shows that for every pair $(p, q)$, the sequence $(B^{p,q}_{r})_{r
 \geq 2}$ is stationary.
@@ -703,12 +703,12 @@ the complex $(R^{pT}(K^{i}))_{p \in \mathbb{Z}}$. Unless expressly stated otherw
 every object of $\mathcal{C}$ is a subobject of an injective object of $\mathcal{C}$*, so that injective
 Cartan–Eilenberg resolutions exist for every complex of $\mathcal{C}$. Since $L^{i,j} = 0$ for $j < 0$, the criteria of
 `(11.3.3)` show that the two hypercohomology spectral sequences of $T$ with respect to $K^{\bullet}$ exist and are
-*biregular* in each of the two following cases: 1Â° $K^{\bullet}$ is bounded below; 2Â° every object of
-$\mathcal{C}$ admits an injective resolution of length at most equal to an integer $n$ (independent of the object
-considered). Indeed, in the first case, one may suppose `(11.4.2)` that there exists $i_{0}$ such that $L^{i,j} = 0$ for
-$i < i_{0}$, and in the second that there exists $j_{1}$ such that $L^{i,j} = 0$ for $j > j_{1}$; in each of the two
-cases, it is moreover clear that for given $n$, there are only finitely many pairs $(i, j)$ such that $L^{i,j} \neq 0$
-and $i + j = n$, which establishes our assertions.
+*biregular* in each of the two following cases: 1Â° $K^{\bullet}$ is bounded below; 2Â° every object of $\mathcal{C}$
+admits an injective resolution of length at most equal to an integer $n$ (independent of the object considered). Indeed,
+in the first case, one may suppose `(11.4.2)` that there exists $i_{0}$ such that $L^{i,j} = 0$ for $i < i_{0}$, and in
+the second that there exists $j_{1}$ such that $L^{i,j} = 0$ for $j > j_{1}$; in each of the two cases, it is moreover
+clear that for given $n$, there are only finitely many pairs $(i, j)$ such that $L^{i,j} \neq 0$ and $i + j = n$, which
+establishes our assertions.
 
 When one supposes that in $\mathcal{C}'$ filtered inductive limits exist and are exact (which implies in particular the
 existence in $\mathcal{C}'$ of infinite direct sums), then the complex defined by the bicomplex $T(L^{\bullet,\bullet})$

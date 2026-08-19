@@ -25,12 +25,12 @@ is flat over $Y$, the functor $\mathcal{G} \mapsto \mathcal{F} \otimes_{\mathcal
 the cohomological methods, one is led to substitute for $\mathcal{G} \mapsto R^{n} f_{*}(\mathcal{F}
 \otimes_{\mathcal{O}_{Y}} \mathcal{G})$ other functors which this time are *always* cohomological functors. These
 functors, which generalize the "Tor" functors of module theory, are defined in nÂ°s `6.3` to `6.7`; there are moreover
-two such generalizations, one "local" and the other "global", related by spectral sequences that will be discussed in nÂ°
-`6.7`; as an application of these spectral sequences, one obtains in particular, under certain conditions, a "Künneth
-formula" expressing $R^{n} (f_{1} \times f_{2})_{*}(\mathcal{F}_{1} \otimes_{Y} \mathcal{F}_{2})$ by means of the higher
-direct images $R^{p} f_{1*}(\mathcal{F}_{1})$ and $R^{q} f_{2*}(\mathcal{F}_{2})$. Other spectral sequences `(6.8)`
-generalize the associativity spectral sequences of the "Tor" functor of modules; finally, the base-change problem itself
-leads to spectral sequences `(6.9)`.
+two such generalizations, one "local" and the other "global", related by spectral sequences that will be discussed in
+nÂ° `6.7`; as an application of these spectral sequences, one obtains in particular, under certain conditions, a
+"Künneth formula" expressing $R^{n} (f_{1} \times f_{2})_{*}(\mathcal{F}_{1} \otimes_{Y} \mathcal{F}_{2})$ by means of
+the higher direct images $R^{p} f_{1*}(\mathcal{F}_{1})$ and $R^{q} f_{2*}(\mathcal{F}_{2})$. Other spectral sequences
+`(6.8)` generalize the associativity spectral sequences of the "Tor" functor of modules; finally, the base-change
+problem itself leads to spectral sequences `(6.9)`.
 
 **6.1.2.**
 
@@ -91,8 +91,8 @@ $\mathcal{O}_{X}$-modules whose differential is of degree `+1`. Recall that for 
 preschemes, one has defined $(0_{III}, 12.4.1)$ the $\mathcal{O}_{Y}$-modules of hypercohomology $\mathcal{H}^{n}(f,
 \mathcal{K}^{\bullet})$ (also denoted $\mathcal{H}^{n}(\mathcal{K}^{\bullet})$ or $R^{n} f_{*}(\mathcal{K}^{\bullet})$)
 for every $n \in \mathbb{Z}$; the hypercohomology $\mathcal{H}^{\bullet}(f, \mathcal{K}^{\bullet})$ is the abutment of
-the two spectral functors ${}'\mathcal{E}(f, \mathcal{K}^{\bullet})$ and ${}''\mathcal{E}(f, \mathcal{K}^{\bullet})$, whose
-`E_2` terms are given by
+the two spectral functors ${}'\mathcal{E}(f, \mathcal{K}^{\bullet})$ and ${}''\mathcal{E}(f, \mathcal{K}^{\bullet})$,
+whose `E_2` terms are given by
 
 $$ {}'E_2^{p,q} = \mathcal{H}^{p}(\mathcal{H}^{q}(f, \mathcal{K}^{\bullet})) \tag{6.2.1.1} $$ $$ {}''E_2^{p,q} =
 \mathcal{H}^{p}(f, \mathcal{H}^{q}(\mathcal{K}^{\bullet})) = R^{p} f_{*}(\mathcal{H}^{q}(\mathcal{K}^{\bullet}))
@@ -146,12 +146,12 @@ quasi-coherent.*
 **Proof.** Since the $\mathcal{H}^{q}(f, \mathcal{K}^{i}) = R^{q} f_{*}(\mathcal{K}^{i})$ are quasi-coherent
 $\mathcal{O}_{Y}$-modules `(1.4.10)`, the same holds for ${}'E^{p,q}_{2}$, which, by `(6.2.1.1)`, is a quotient of a
 kernel of a homomorphism of quasi-coherent modules by an image of such a homomorphism `(I, 4.1.1)`. For the same reason,
-all the $\mathcal{O}_{Y}$-modules ${}'E^{p,q}_{r}$, $B_{r}({}'E^{p,q}_{r})$, $Z_{r}({}'E^{p,q}_{r})$ of the first spectral
-sequence are quasi-coherent. The regularity of the spectral sequence ${}'\mathcal{E}(f, \mathcal{K}^{\bullet})$ implies
-that $Z_{\infty}({}'E^{p,q}_{2})$ is equal to one of the $Z_{k}({}'E^{p,q}_{2})$, hence is quasi-coherent, and the same
-holds for $B_{\infty}({}'E^{p,q}_{2}) = \varinjlim B_{k}({}'E^{p,q}_{2})$ $(0_{III}, 11.2.4)$ and `(I, 4.1.1)`; the
-${}'E^{p,q}_{\infty}$ are therefore also quasi-coherent. The preceding spectral sequence being regular, the filtration of
-the $F^{p}(\mathcal{H}^{n}(f, \mathcal{K}^{\bullet}))$ is discrete and exhaustive; in other words, the
+all the $\mathcal{O}_{Y}$-modules ${}'E^{p,q}_{r}$, $B_{r}({}'E^{p,q}_{r})$, $Z_{r}({}'E^{p,q}_{r})$ of the first
+spectral sequence are quasi-coherent. The regularity of the spectral sequence ${}'\mathcal{E}(f, \mathcal{K}^{\bullet})$
+implies that $Z_{\infty}({}'E^{p,q}_{2})$ is equal to one of the $Z_{k}({}'E^{p,q}_{2})$, hence is quasi-coherent, and
+the same holds for $B_{\infty}({}'E^{p,q}_{2}) = \varinjlim B_{k}({}'E^{p,q}_{2})$ $(0_{III}, 11.2.4)$ and `(I, 4.1.1)`;
+the ${}'E^{p,q}_{\infty}$ are therefore also quasi-coherent. The preceding spectral sequence being regular, the
+filtration of the $F^{p}(\mathcal{H}^{n}(f, \mathcal{K}^{\bullet}))$ is discrete and exhaustive; in other words, the
 $\mathcal{O}_{Y}$-module $\mathcal{H}^{n}(f, \mathcal{K}^{\bullet})$ is the union of an increasing sequence
 $(\mathcal{G}_{k})_{k \geq 0}$ of $\mathcal{O}_{Y}$-modules such that $\mathcal{G}_{0} = 0$ and such that each
 $\mathcal{G}_{k}/\mathcal{G}_{k-1}$ is equal to one of the $\mathcal{O}_{Y}$-modules ${}'E^{p,q}_{\infty}$, hence is
@@ -1670,9 +1670,9 @@ once from $(0_{III}, 11.1.6)$, this sequence being biregular `(6.7.3)`.
 
 <!-- label: III.6.7.8 -->
 
-— *Suppose that: 1Â° the complexes $\mathcal{P}^{(1)}_{\bullet}$ and $\mathcal{P}^{(2)}_{\bullet}$ are bounded below; 2Â°
-the complex $\mathcal{P}^{(1)}_{\bullet}$ or the complex $\mathcal{P}^{(2)}_{\bullet}$ is formed of $S$-flat modules; 3Â°
-all the*
+— *Suppose that: 1Â° the complexes $\mathcal{P}^{(1)}_{\bullet}$ and $\mathcal{P}^{(2)}_{\bullet}$ are bounded below;
+2Â° the complex $\mathcal{P}^{(1)}_{\bullet}$ or the complex $\mathcal{P}^{(2)}_{\bullet}$ is formed of $S$-flat
+modules; 3Â° all the*
 
 <!-- original page 30 -->
 

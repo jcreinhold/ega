@@ -1065,8 +1065,8 @@ that this definition coincides with that of Bourbaki, Alg., chap. VIII,
 
 <!-- original page 69 -->
 
-§7, nÂ° 5, def. 1, when $A$ is of finite rank over $k$ (loc. cit., cor. of prop. 7), but not in general, a
-$k$-algebra being able to have a radical $\neq 0$ even if it is integral.
+§7, nÂ° 5, def. 1, when $A$ is of finite rank over $k$ (loc. cit., cor. of prop. 7), but not in general, a $k$-algebra
+being able to have a radical $\neq 0$ even if it is integral.
 
 **Corollary (4.6.3).**
 
@@ -1639,8 +1639,8 @@ $long(\mathcal{F}'_{x})$ and $long(\mathcal{F}''_{x})$ are finite, and one has $
 
 Under the hypotheses of `(4.7.5)`, the only points $x \in X$ such that $\mathcal{F}_{x}$ is an $\mathcal{O}_{x}$-module
 of non-zero finite length are (by virtue of `(3.1.2)`) the maximal points of $Supp(\mathcal{F})$, as follows from
-Bourbaki, Alg. comm., chap. IV, §2, nÂ° 5, cor. 2 of prop. 7, the question being local on $X$. One knows that
-there exists a closed sub-prescheme $Y$ having $Supp(\mathcal{F})$ as underlying space, and a coherent
+Bourbaki, Alg. comm., chap. IV, §2, nÂ° 5, cor. 2 of prop. 7, the question being local on $X$. One knows that there
+exists a closed sub-prescheme $Y$ having $Supp(\mathcal{F})$ as underlying space, and a coherent
 $\mathcal{O}_{Y}$-Module $\mathcal{G}$ such that $\mathcal{F} = j_{*}(\mathcal{G})$, $j : Y \to X$ being the canonical
 injection. If $x$ is a maximal point of $Y$, one sees that the geometric lengths of $\mathcal{F}$ and of $\mathcal{G}$
 at $x$ are equal, $\mathcal{O}_{x}$ and $\mathcal{O}_{Y, x}$ having the same residue fields. One deduces from this the
@@ -1895,8 +1895,7 @@ Since $N$ and $M_{(K')}$ are by hypothesis $A_{(K')}$-modules, the same holds fo
 *Under the hypotheses of `(4.8.6)`, there exists a smallest sub-field $K'$ of $K$ containing $k$ such that the
 equivalent conditions of `(4.8.6)` are satisfied.*
 
-It suffices to see this for condition c), where it follows from Bourbaki, Alg., chap. II, 3rd ed., §8, nÂ° 6,
-prop. 6.
+It suffices to see this for condition c), where it follows from Bourbaki, Alg., chap. II, 3rd ed., §8, nÂ° 6, prop. 6.
 
 **Lemma (4.8.8).**
 

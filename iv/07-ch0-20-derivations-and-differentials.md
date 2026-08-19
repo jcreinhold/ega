@@ -110,9 +110,9 @@ More particularly:
 <!-- label: 0_IV.20.1.6 -->
 
 *Let $A$ be a ring, $B$ an $A$-ring, $L$ a $B$-bimodule. If, to every derivation $D \in \operatorname{Der}_{A}(B, L)$,
-one associates: 1Â° the $A$-equivalence $(x, y) \mapsto (x, y + D(x))$ of the extension $D_{B}(L)$ with itself;
-2Â° the $A$-homomorphism $x \mapsto (x, D(x))$ of $B$ into $D_{B}(L)$, a right inverse of the augmentation
-homomorphism $D_{B}(L) \to B$, one defines canonical bijective correspondences between:*
+one associates: 1Â° the $A$-equivalence $(x, y) \mapsto (x, y + D(x))$ of the extension $D_{B}(L)$ with itself; 2Â° the
+$A$-homomorphism $x \mapsto (x, D(x))$ of $B$ into $D_{B}(L)$, a right inverse of the augmentation homomorphism
+$D_{B}(L) \to B$, one defines canonical bijective correspondences between:*
 
 *(i) the set $\operatorname{Der}_{A}(B, L)$;*
 
@@ -371,9 +371,10 @@ $$ \varinjlim \operatorname{Der}_{A/\mathfrak{J}}(B/\mathfrak{K}, L) \cong \oper
 \subset \mathfrak{K}$, $B \cdot \mathfrak{J} \subset \mathfrak{K}$.*
 
 Since $A/\mathfrak{J}$ and $B/\mathfrak{K}$ are discrete, one has canonical homomorphisms
-$w_{\mathfrak{K},\mathfrak{J}} : \operatorname{Der}_{A/\mathfrak{J}}(B/\mathfrak{K}, L) \to \operatorname{Der.cont}_{A}(B, L)$ forming an inductive system `(20.3.4)`, whence the homomorphism
-`(20.3.5.1)` by passage to the inductive limit. Since the homomorphism $B/\mathfrak{K}' \to B/\mathfrak{K}$ is
-surjective for $\mathfrak{K} \supset \mathfrak{K}'$, it follows at once from the definition that the homomorphism
+$w_{\mathfrak{K},\mathfrak{J}} : \operatorname{Der}_{A/\mathfrak{J}}(B/\mathfrak{K}, L) \to \operatorname{Der.cont}_{A}(B, L)$
+forming an inductive system `(20.3.4)`, whence the homomorphism `(20.3.5.1)` by passage to the inductive limit. Since
+the homomorphism $B/\mathfrak{K}' \to B/\mathfrak{K}$ is surjective for $\mathfrak{K} \supset \mathfrak{K}'$, it follows
+at once from the definition that the homomorphism
 $\operatorname{Der}_{A}(B/\mathfrak{K}, L) \to \operatorname{Der}_{A}(B/\mathfrak{K}', L)$ (with $\mathfrak{K} \cdot L =
 L \cdot \mathfrak{K} = 0$, $\mathfrak{J} \cdot B \subset \mathfrak{K}'$, $B \cdot \mathfrak{J} \subset \mathfrak{K}'$)
 is injective, and it is evidently the same for the homomorphism $\operatorname{Der}_{A/\mathfrak{J}}(B/\mathfrak{K}, L)
@@ -497,9 +498,9 @@ $$ \Omega^{1}_{B/A} = \mathfrak{J}_{B/A} / (\mathfrak{J}_{B/A})^{2} \tag{20.4.3.
 called the $B$-module of `1`-differentials (or simply of differentials) of $B$ relative to $A$.*
 
 It is to be noted that the topology of $\Omega_{B/A}$ is also the quotient topology of the topology induced on
-$\mathfrak{J}_{B/A}$ by that of $B \otimes_{A} B$ (Bourbaki, _Top. gén._, chap. III, 3rd ed., §2, nÂ° 7, prop.
-20). If $B$ is discrete the same holds for $\Omega_{B/A}$. We denote by $\hat{\Omega}_{B/A}$ the separated completion of
-the topological $B$-module $\Omega_{B/A}$.
+$\mathfrak{J}_{B/A}$ by that of $B \otimes_{A} B$ (Bourbaki, _Top. gén._, chap. III, 3rd ed., §2, nÂ° 7, prop. 20). If
+$B$ is discrete the same holds for $\Omega_{B/A}$. We denote by $\hat{\Omega}_{B/A}$ the separated completion of the
+topological $B$-module $\Omega_{B/A}$.
 
 Any topological ring $B$ may be regarded as a topological $\mathbb{Z}$-algebra ($\mathbb{Z}$ being equipped with the
 discrete topology), so that one can define the topological $B$-module $\Omega_{B/\mathbb{Z}}$, which is sometimes also
@@ -981,8 +982,8 @@ _Alg._, chap. II, 3rd ed., §2, nÂ° 1, th. 1).
 
 $$ 0 \to \Omega_{B/A} \otimes_{B} C \to \Omega_{C/A} \to \Omega_{C/B} \to 0 \tag{20.5.7.2} $$
 
-is exact *and split*; one knows (Bourbaki, _loc. cit._, nÂ° 1, prop. 1) that this is equivalent to saying that
-for every $C$-module $L$, the sequence
+is exact *and split*; one knows (Bourbaki, _loc. cit._, nÂ° 1, prop. 1) that this is equivalent to saying that for every
+$C$-module $L$, the sequence
 
 $$ 0 \to \operatorname{Hom}_{C}(\Omega_{C/B}, L) \to \operatorname{Hom}_{C}(\Omega_{C/A}, L) \to
 \operatorname{Hom}_{B}(\Omega_{B/A}, L) \to 0 $$
@@ -1143,8 +1144,8 @@ $$ 0 \to \operatorname{Hom}_{C}(\Omega_{C/A}, L) \to \operatorname{Hom}_{C}(\Ome
 with $\phi = \eta \circ \partial^{-1}$ and $\psi = v^{1} \circ \eta^{-1}$. Going back to the definitions of $\partial$
 `(20.2.2)` and of $\eta$ `(18.3.8)`, one sees at once that $\phi$ is precisely the homomorphism
 $\operatorname{Hom}(\delta_{C/B/A}, 1_{L})$. The existence of the exact sequence formed by the first four terms of
-`(20.5.12.3)` shows therefore that the sequence `(20.5.12.1)` is exact (Bourbaki, _Alg._, chap. II, 3rd ed., §2,
-nÂ° 1, th. 1).
+`(20.5.12.3)` shows therefore that the sequence `(20.5.12.1)` is exact (Bourbaki, _Alg._, chap. II, 3rd ed., §2, nÂ° 1,
+th. 1).
 
 (ii) Apply to $B$ and to the ideal $\mathfrak{K}^{2}$ the exact sequence `(20.5.12.1)`, which gives
 
@@ -1511,9 +1512,9 @@ $$ \operatorname{Exalcom}_{B/A}(C, L) \to \operatorname{Hom}_{C}(\Upsilon_{C/B/A
 
 The fact that each of conditions (i), (ii) entails that `(20.6.7.1)` is bijective follows in both cases from the
 definition of $\alpha_{1}$. One will note moreover that condition (ii) is *necessary and sufficient* for the
-homomorphism `(20.6.7.1)` to be bijective for *every* $C$-module $L$ (Bourbaki, Alg., chap. II, 3rd ed., §2, nÂ°
-1, prop. 1). If one supposes that $\Omega^{1}_{C/B}$ and $\Omega^{1}_{C/A}$ are projective $C$-modules, then, in the
-exact sequence `(20.6.1.1)`, $Ker(u_{C/B/A})$ is a projective $C$-module, since the exact sequence
+homomorphism `(20.6.7.1)` to be bijective for *every* $C$-module $L$ (Bourbaki, Alg., chap. II, 3rd ed., §2, nÂ° 1,
+prop. 1). If one supposes that $\Omega^{1}_{C/B}$ and $\Omega^{1}_{C/A}$ are projective $C$-modules, then, in the exact
+sequence `(20.6.1.1)`, $Ker(u_{C/B/A})$ is a projective $C$-module, since the exact sequence
 
 $$ 0 \to \operatorname{Ker}(u_{C/B/A}) \to \Omega^{1}_{C/A} \to \Omega^{1}_{C/B} \to 0 $$
 

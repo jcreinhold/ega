@@ -538,8 +538,8 @@ of rank `1`. If $S$ is the set of regular elements of $A$, one has $\Gamma(X, \m
 and $\Gamma(X, \mathcal{M}_{X}(\mathcal{L})) = S^{-1} P$. But $S$ is the set of elements not belonging to any of the
 ideals associated to $A$, hence $S^{-1} A$ is a semi-local ring whose maximal ideals come from the maximal elements of
 $Ass(A)$, and $S^{-1} P$ is a projective $S^{-1} A$-module of rank `1`, hence here free of rank `1` (Bourbaki, _Alg.
-comm._, chap. II, §5, nÂ° 3, prop. 5); an element forming a basis of this $S^{-1} A$-module is therefore
-`(20.1.8)` a regular meromorphic section of $\mathcal{L}$ over $X$.
+comm._, chap. II, §5, nÂ° 3, prop. 5); an element forming a basis of this $S^{-1} A$-module is therefore `(20.1.8)` a
+regular meromorphic section of $\mathcal{L}$ over $X$.
 
 **Corollary (21.3.5).**
 
@@ -712,8 +712,8 @@ The question being local on $Y$, one may restrict to the case where $D = div(w)$
 two regular sections of $\mathcal{O}_{Y}$ over $Y$. By hypothesis one has $u\mathcal{O}_{X} \subset v\mathcal{O}_{X}$,
 hence, for every $x \in X$, if one sets $y = f(x)$, one has $u_{y} \mathcal{O}_{x} \subset v_{y} \mathcal{O}_{x}$; one
 concludes that $u_{y} \mathcal{O}_{y} \subset v_{y} \mathcal{O}_{y}$ by virtue of the hypothesis that $\mathcal{O}_{x}$
-is a faithfully flat $\mathcal{O}_{y}$-module and of Bourbaki, _Alg. comm._, chap. I, §3, nÂ° 5, prop. 10, (ii);
-whence $u \mathcal{O}_{Y} \subset v \mathcal{O}_{Y}$ since $f$ is surjective, and consequently $D \geq 0$.
+is a faithfully flat $\mathcal{O}_{y}$-module and of Bourbaki, _Alg. comm._, chap. I, §3, nÂ° 5, prop. 10, (ii); whence
+$u \mathcal{O}_{Y} \subset v \mathcal{O}_{Y}$ since $f$ is surjective, and consequently $D \geq 0$.
 
 ## 21.5. Direct images of divisors
 
@@ -894,9 +894,9 @@ in the category of invertible $\mathcal{O}_{Y}$-Modules; moreover `(II, 6.5.4)`,
 $\mathcal{O}_{X'}$ over $f^{-1}(U)$, `s''` the corresponding section of $\mathcal{O}_{Y'}$ over ${g'}^{-1}(f^{-1}(U))$
 ($U$ open of $X$), $N_{Y'/Y}(s'')$ is the section of $\mathcal{O}_{Y}$ over $g^{-1}(U)$ which corresponds to the section
 $N_{X'/X}(s')$ of $\mathcal{O}_{X}$ over $U$. Formula `(21.5.8.1)` will therefore follow from the definitions if one
-proves that ${g'}^{*}(D')$ and $g^{*}(D)$ are defined, whatever the divisors $D'$ on $X'$ and $D$ on $X$. As regards $D$,
-this follows from the hypotheses made and from `(21.4.5)`. As regards $D'$, in case (i) $g'$ is flat, hence in all the
-cases ${g'}^{*}(D')$ is defined by virtue of `(21.4.5)`.
+proves that ${g'}^{*}(D')$ and $g^{*}(D)$ are defined, whatever the divisors $D'$ on $X'$ and $D$ on $X$. As regards
+$D$, this follows from the hypotheses made and from `(21.4.5)`. As regards $D'$, in case (i) $g'$ is flat, hence in all
+the cases ${g'}^{*}(D')$ is defined by virtue of `(21.4.5)`.
 
 ## 21.6. `1`-codimensional cycle associated with a divisor
 
@@ -1269,8 +1269,8 @@ localizations (Bourbaki, _Alg. comm._, chap. VII, §3, nÂ° 4, prop. 3), and it
 and let $a$ be the closed point of $X$, $U = X - {a}$. For $A$ to be factorial, it is necessary and sufficient that $U$
 be locally factorial and that $\operatorname{Pic}(U) = 0$.*
 
-Indeed, to say that $A$ is factorial is equivalent to saying that $Cl(X) = 0$ (Bourbaki, _Alg. comm._, chap. VII, §1, nÂ°
-4, cor. of th. 2 and §3, nÂ° 2, th. 1); it therefore suffices to use the existence of the second isomorphism
+Indeed, to say that $A$ is factorial is equivalent to saying that $Cl(X) = 0$ (Bourbaki, _Alg. comm._, chap. VII, §1,
+nÂ° 4, cor. of th. 2 and §3, nÂ° 2, th. 1); it therefore suffices to use the existence of the second isomorphism
 `(21.6.12.1)`, taking the family $(U_{\lambda})$ restricted to the single open $U$.
 
 **Corollary (21.6.14).**
@@ -1596,8 +1596,8 @@ $\theta^{*} : \mathcal{O}^{\times}_{X} \to f_{*}(\mathcal{O}^{\times}_{X'})$ is 
 \mathcal{D}iv_{X} \to f_{*}(\mathcal{D}iv_{X'})$ is surjective and $Ker({\theta''}^{*})$ is isomorphic to
 $Coker(\theta^{*})$.*
 
-This is an immediate consequence of the snake-diagram lemma (Bourbaki, _Alg. comm._, chap. I, §2, nÂ° 4, prop. 2) applied
-to the diagram `(21.8.3.1)`.
+This is an immediate consequence of the snake-diagram lemma (Bourbaki, _Alg. comm._, chap. I, §2, nÂ° 4, prop. 2)
+applied to the diagram `(21.8.3.1)`.
 
 **Proposition (21.8.5).**
 
@@ -2038,8 +2038,8 @@ cycles with support contained in $T$ to the ordered group $\mathfrak{J}^{1}(X')$
 
 $$ Z = \sum_{x \in T \cap X^{(1)}} n_{x} \cdot \{x\} \tag{21.10.1.1} $$
 
-where the family of $x \in T \cap X^{(1)}$ such that $n_{x} \neq 0$ is locally finite. For every $x' \in {X'}^{(1)}$, let
-us define an integer $n_{x'}$ in the following way, setting $x = f(x')$:
+where the family of $x \in T \cap X^{(1)}$ such that $n_{x} \neq 0$ is locally finite. For every $x' \in {X'}^{(1)}$,
+let us define an integer $n_{x'}$ in the following way, setting $x = f(x')$:
 
 1Â° if $x \notin T$, take $n_{x'} = 0$;
 
@@ -2048,8 +2048,8 @@ $\dim(\mathcal{O}_{X',x'} / \mathfrak{m}_{x} \mathcal{O}_{X',x'}) = 0$; in other
 \mathfrak{m}_{x} \mathcal{O}_{X',x'}$ is an $\mathcal{O}_{X',x'}$-module of finite length $\lambda_{x'}$, and one takes
 $n_{x'} = \lambda_{x'} n_{x}$;
 
-3Â° if $\mathcal{O}_{X,x}$ is factorial and $\mathfrak{m}_{x} \notin Ass(\mathcal{O}_{X',x'})$, one knows `(21.6.9)` that
-the canonical homomorphism $cyc : \operatorname{Div}(\mathcal{O}_{X,x}) \to
+3Â° if $\mathcal{O}_{X,x}$ is factorial and $\mathfrak{m}_{x} \notin Ass(\mathcal{O}_{X',x'})$, one knows `(21.6.9)`
+that the canonical homomorphism $cyc : \operatorname{Div}(\mathcal{O}_{X,x}) \to
 \mathfrak{J}^{1}(\operatorname{Spec}(\mathcal{O}_{X,x}))$ is bijective, and on the other hand since
 $\dim(\mathcal{O}_{X',x'}) = 1$ and $\mathfrak{m}_{x} \notin Ass(\mathcal{O}_{X',x'})$, $Ass(\mathcal{O}_{X',x'})$
 consists solely of the maximal points of $\operatorname{Spec}(\mathcal{O}_{X',x'})$, so the hypothesis on $f$ implies
@@ -2144,9 +2144,9 @@ verifies the conditions
 
 <!-- original page 292 -->
 
-of `(21.10.1)`; this means again that for every $x' \in {X'}^{(1)}$, either $x = f(x')$ is a maximal point of $X$, or $x'$
-verifies one of conditions (ii), (iii) of `(21.10.1)`. If one takes into account that every 1-codimensional cycle has
-rare support in $X$, one sees that $f^{*}(Z)$ is defined for every 1-codimensional cycle $Z$ on $X$; in virtue of
+of `(21.10.1)`; this means again that for every $x' \in {X'}^{(1)}$, either $x = f(x')$ is a maximal point of $X$, or
+$x'$ verifies one of conditions (ii), (iii) of `(21.10.1)`. If one takes into account that every 1-codimensional cycle
+has rare support in $X$, one sees that $f^{*}(Z)$ is defined for every 1-codimensional cycle $Z$ on $X$; in virtue of
 `(21.10.3.1)`, one has thus defined a homomorphism of sheaves of ordered commutative groups
 
 $$ \psi^{*}(\mathfrak{J}^{1}_{X}) \to \mathfrak{J}^{1}_{X'}. $$
@@ -2163,8 +2163,8 @@ divisor $D$ on $X$. In particular:
 every 1-codimensional cycle $Z$ on $X$, $f^{*}(D)$ is defined for every divisor $D$ on $X$, and one has relation
 `(21.10.4.1)`.*
 
-Indeed, if $x' \in {X'}^{(1)}$ is such that $x = f(x')$ is not maximal, it follows from `(6.1.1)` that one necessarily has
-$x \in X^{(1)}$, so one is in case (ii) of `(21.10.1)`. One may therefore apply `(21.10.5)`, taking account of
+Indeed, if $x' \in {X'}^{(1)}$ is such that $x = f(x')$ is not maximal, it follows from `(6.1.1)` that one necessarily
+has $x \in X^{(1)}$, so one is in case (ii) of `(21.10.1)`. One may therefore apply `(21.10.5)`, taking account of
 `(21.4.5)` and `(2.3.4)`.
 
 **Remark (21.10.7).**
@@ -2174,8 +2174,8 @@ $x \in X^{(1)}$, so one is in case (ii) of `(21.10.1)`. One may therefore apply 
 The existence of $f^{*}(Z)$ for every 1-codimensional cycle $Z$ on $X$ already follows from the hypothesis that $f$ is
 flat at the points $x'$ of $X'$ of codimension $\leq 1$ in $X'$ (i.e. such that $\dim(\mathcal{O}_{X',x'}) \leq 1$);
 indeed, for every maximal point $x' \in X'$, it follows from `(6.1.1)` that $x = f(x')$ is a maximal point of $X$ since
-$\dim(\mathcal{O}_{X,x}) \leq \dim(\mathcal{O}_{X',x'}) = 0$. Similarly, if $x' \in {X'}^{(1)}$, $x = f(x')$ is maximal or
-belongs to $X^{(1)}$ by `(6.1.1)`; one can therefore again apply `(21.10.5)`.
+$\dim(\mathcal{O}_{X,x}) \leq \dim(\mathcal{O}_{X',x'}) = 0$. Similarly, if $x' \in {X'}^{(1)}$, $x = f(x')$ is maximal
+or belongs to $X^{(1)}$ by `(6.1.1)`; one can therefore again apply `(21.10.5)`.
 
 **Proposition (21.10.8).**
 
@@ -2217,8 +2217,8 @@ canonical homomorphism $\mathfrak{J}^{1}_{X} \to \mathfrak{J}^{1}_{X} \otimes_{\
 **(21.10.10).** We are going to see that under certain conditions, one may broaden the definition of $f^{*}(Z)$ given in
 `(21.10.3)` for a 1-codimensional cycle $Z$ on $X$, but on condition of taking for $f^{*}(Z)$ a 1-codimensional cycle
 with rational coefficients on $X'$. The more general case in which we place ourselves is that where $f$ sends every
-maximal point of $X'$ to a maximal point of $X$, and where, at every point $x' \in {X'}^{(1)}$, one has one of conditions
-(i), (ii), (iii) of `(21.10.1)` or a fourth condition (setting $x = f(x')$):
+maximal point of $X'$ to a maximal point of $X$, and where, at every point $x' \in {X'}^{(1)}$, one has one of
+conditions (i), (ii), (iii) of `(21.10.1)` or a fourth condition (setting $x = f(x')$):
 
 (iv) $x \in X^{(1)}$, $\mathfrak{m}_{x} \notin Ass(\mathcal{O}_{X,x})$, and moreover, if one sets $A =
 \hat{\mathcal{O}}_{X,x}$, $A' = \hat{\mathcal{O}}_{X',x'}$, and if $K$ denotes the total ring of fractions of $A$, then
@@ -2310,9 +2310,9 @@ $d_{t}(M) = n \cdot d_{t}(A) = n \cdot long(A / tA)$.*
 tA)$.*
 
 (i) $\operatorname{Spec}(A)$ consists of the point $\mathfrak{m}$ and the minimal prime ideals $\mathfrak{p}_{i}$; since
-by hypothesis $t \notin \mathfrak{p}_{i}$ for every $i$ (Bourbaki, _Alg. comm._, chap. IV, §1, nÂ° 1, cor. 3 of prop. 2),
-the image of $t$ in each of the $A_{\mathfrak{p}_{i}}$ is invertible, and the supports of the $A$-modules of finite type
-$N_{t}(M)$ and $P_{t}(M)$ are therefore empty or reduced to $\mathfrak{m}$; one concludes `(0, 16.1.10)` that these
+by hypothesis $t \notin \mathfrak{p}_{i}$ for every $i$ (Bourbaki, _Alg. comm._, chap. IV, §1, nÂ° 1, cor. 3 of prop.
+2), the image of $t$ in each of the $A_{\mathfrak{p}_{i}}$ is invertible, and the supports of the $A$-modules of finite
+type $N_{t}(M)$ and $P_{t}(M)$ are therefore empty or reduced to $\mathfrak{m}$; one concludes `(0, 16.1.10)` that these
 modules are of finite length.
 
 (ii) Since $t$ is regular, one has an exact sequence
@@ -2399,8 +2399,8 @@ a) $f$ is finite;
 
 b) the image under $f$ of every maximal point of $X'$ is a maximal point of $X$.
 
-For every $x \in X^{(1)}$, the points $x' \in f^{-1}(x)$ all belong to ${X'}^{(1)}$, as follows from hypothesis b) and the
-inequality `(0, 16.3.9.1)`, the fibre $f^{-1}(x)$ being discrete. Let then
+For every $x \in X^{(1)}$, the points $x' \in f^{-1}(x)$ all belong to ${X'}^{(1)}$, as follows from hypothesis b) and
+the inequality `(0, 16.3.9.1)`, the fibre $f^{-1}(x)$ being discrete. Let then
 
 $$ Z' = \sum_{x' \in {X'}^{(1)}} n_{x'} \cdot \{x'\} $$
 
@@ -2528,8 +2528,8 @@ product of an invertible element and $\pi^{m}$, whence the conclusion in this ca
 
 II) $A$ is a complete integral ring (of dimension `1`). One knows then `(0, 19.8.8, (ii))` that there is a subring $B$
 of $A$ which is a discrete valuation ring, such that $B \to A$ is a local homomorphism making $A$ a $B$-module of finite
-type; since this $B$-module is evidently torsion-free, it is free (Bourbaki, _Alg. comm._, chap. VI, §3, nÂ° 6, lemma 1).
-Denote by $M'$ the set $M$ endowed with its (free) $B$-module structure, by $u'$ the endomorphism $u$ regarded as a
+type; since this $B$-module is evidently torsion-free, it is free (Bourbaki, _Alg. comm._, chap. VI, §3, nÂ° 6, lemma
+1). Denote by $M'$ the set $M$ endowed with its (free) $B$-module structure, by $u'$ the endomorphism $u$ regarded as a
 $B$-endomorphism. It follows from I) that one has
 
 $$ long_{B}(Coker\, u') = long_{B}(B / (det\, u') B). \tag{21.10.17.5} $$
@@ -3021,8 +3021,8 @@ may reduce to the case where $X = \operatorname{Spec}(A)$, where $A$ is a comple
 closed point of $X$. For this, it suffices to make the base change $h : X' = \operatorname{Spec}(\hat{A}) \to X$, where
 $\hat{A} = \hat{\mathcal{O}}_{X,x}$; if one sets $U' = h^{-1}(U)$, $f' = f_{(X')}$ is the canonical injection $U' \to
 X'$, and since the morphism $h$ is flat, it follows from `(21.12.2)` that if one proves that $x$ belongs to
-${f'}^{\circ}({U'}^{\circ})$, one deduces that $x \in f^{\circ}(U^{\circ})$. By virtue of `(6.1.1)`, the reduction sought
-has indeed been effected.
+${f'}^{\circ}({U'}^{\circ})$, one deduces that $x \in f^{\circ}(U^{\circ})$. By virtue of `(6.1.1)`, the reduction
+sought has indeed been effected.
 
 Let then `X_1` be a closed reduced sub-prescheme of $X$ whose underlying space is an irreducible component of $X$, of
 maximal dimension among those which contain an irreducible component of $T$, and set $U_{1} = U \cap X_{1}$, $T_{1} = T
@@ -3663,9 +3663,10 @@ satisfy the three following conditions:
 
 2Â° $A$ is integral and if $A'$ is its integral closure, $A'$ is factorial and is a finite $A$-algebra.
 
-3Â° Let $\mathcal{J}$ be the conductor of $A$ in $A'$ (annihilator of the $A$-module $A'/A$, or also the largest ideal of
-$A'$ contained in $A$); set $B = A/\mathcal{J}$, $B' = A'/\mathcal{J}$; then $\dim(B) = 1$ (which implies $A' \neq A$,
-in other words $A$ is not integrally closed), and the canonical map $D(B) \to D(B')$ `(21.4.5)` is surjective.
+3Â° Let $\mathcal{J}$ be the conductor of $A$ in $A'$ (annihilator of the $A$-module $A'/A$, or also the largest ideal
+of $A'$ contained in $A$); set $B = A/\mathcal{J}$, $B' = A'/\mathcal{J}$; then $\dim(B) = 1$ (which implies
+$A' \neq A$, in other words $A$ is not integrally closed), and the canonical map $D(B) \to D(B')$ `(21.4.5)` is
+surjective.
 
 One can show moreover that these conditions entail the following property:
 
@@ -3709,8 +3710,8 @@ images, and since $t$ is regular in the integral ring $A'$, one can suppose $b$ 
 B'$ is invertible. Let `a''` be an element of $A'$ in the class `b''`, which is therefore necessarily invertible; $a' =
 a''/t^{n}$ is invertible in $A'_{t}$ and for every $i$, one has $u_{i} = a' - a'_{i} \in \mathcal{J}$, whence $t^{n}
 a'_{i} = a'' - t^{n} u_{i} = a''(1 - {a''}^{-1} t^{n} u_{i})$; but ${a''}^{-1} t^{n} u_{i} \in \mathcal{J} \subset
-\mathfrak{m}$, hence $1 - {a''}^{-1} t^{n} u_{i}$ is an invertible element of $A$, and the classes of $a'$ and $a'_{i}$ in
-${A'}^{\times}_{p'_{i}} / A^{\times}_{p_{i}}$ are the same, which completes the proof.
+\mathfrak{m}$, hence $1 - {a''}^{-1} t^{n} u_{i}$ is an invertible element of $A$, and the classes of $a'$ and $a'_{i}$
+in ${A'}^{\times}_{p'_{i}} / A^{\times}_{p_{i}}$ are the same, which completes the proof.
 
 To have an explicit example of a parafactorial ring of dimension `2` obtained in this manner and *non-factorial*,
 consider the ring $E = \mathbb{R}[[U, V]]/(U^{2} + V^{2})$, whose integral closure $E'$ identifies with
@@ -3988,18 +3989,18 @@ indeed a prime ideal of $B$, which justifies the statement. Everything evidently
 ideal $q$ of $B$ not contained in $p$ is principal.
 
 Let $\hat{A}$, $\hat{B}$ be the completions of $A$ and $B$ respectively, so that the maximal ideal of $\hat{A}$ is
-$\mathfrak{m}\hat{A}$; one knows `(0, 19.3.6)` that $\hat{B}$ is a formally smooth $\hat{A}$-algebra for the adic topologies.
-Let $k'$ be the residue field of $B$, a finite extension of $k$; there exists a local homomorphism $\hat{A} \to C$,
-where $C$ is a Noetherian local ring which is a finite and flat (hence free) $\hat{A}$-module and is such that
-$C/\mathfrak{m}C$ is isomorphic to $k'$ $(0_{III}, 10.3.1)$; one deduces that $C$ is complete, and it then follows from
-`(7.5.1)`, `(7.5.3)` and `(6.5.4, (ii))` that $C$ is integral and integrally closed. Moreover, $D = \hat{B}
+$\mathfrak{m}\hat{A}$; one knows `(0, 19.3.6)` that $\hat{B}$ is a formally smooth $\hat{A}$-algebra for the adic
+topologies. Let $k'$ be the residue field of $B$, a finite extension of $k$; there exists a local homomorphism
+$\hat{A} \to C$, where $C$ is a Noetherian local ring which is a finite and flat (hence free) $\hat{A}$-module and is
+such that $C/\mathfrak{m}C$ is isomorphic to $k'$ $(0_{III}, 10.3.1)$; one deduces that $C$ is complete, and it then
+follows from `(7.5.1)`, `(7.5.3)` and `(6.5.4, (ii))` that $C$ is integral and integrally closed. Moreover, $D = \hat{B}
 \otimes_{\hat{A}} C$ is a complete semi-local ring, direct composite of complete local rings one of which, `D_0`, has
 residue field $k'$ (since $k' \otimes_{k} k'$ is direct composite of local rings one of which is isomorphic to $k'$).
 Since $D$ is formally smooth over $C$, the same is true of `D_0`; consequently $D_{0}/\mathfrak{m}D_{0}$ is a formally
 smooth $k'$-algebra, of residue field $k'$, which entails that it is $k'$-isomorphic to a formal series algebra
 $k'[[T_{1}, \cdots, T_{n}]]$ `(0, 19.6.4)`; one concludes, by `(0, 19.7.1.5)`, that `D_0` is $C$-isomorphic to
-$C[[T_{1}, \cdots, T_{n}]]$, and consequently integral and integrally closed (Bourbaki, _Alg. comm._, chap. V, §1, nÂ° 4,
-prop. 14). Since the morphisms $\operatorname{Spec}(D_{0}) \to \operatorname{Spec}(\hat{B})$ and
+$C[[T_{1}, \cdots, T_{n}]]$, and consequently integral and integrally closed (Bourbaki, _Alg. comm._, chap. V, §1, nÂ°
+4, prop. 14). Since the morphisms $\operatorname{Spec}(D_{0}) \to \operatorname{Spec}(\hat{B})$ and
 $\operatorname{Spec}(D_{0}) \to \operatorname{Spec}(B)$ are faithfully flat, one deduces that $\hat{B}$ and $B$ are also
 integral and integrally closed `(2.1.13)`. This proves that the ideal $qD_{0}$ is divisorial (Bourbaki, _Alg. comm._,
 chap. VII, §1, nÂ° 10, prop. 15) and not contained in $\mathfrak{m}D_{0}$, otherwise one would have $q = (qD_{0}) \cap B
@@ -4033,9 +4034,9 @@ prop. 5), for every $f \in q$, there exist $g \in B$ and a polynomial $r \in A[T
 therefore $r \in q \cap A[T]$; on the other hand (loc. cit., prop. 6) there exist a non-constant distinguished
 polynomial $F_{0} \in A[T]$ and an invertible element $u \in B$ such that $f_{0} = uF_{0}$, hence one also has $F_{0}
 \in q \cap A[T]$, which proves that $q$ is generated by $q \cap A[T] = q_{1}$. Since $B$ is flat over `A[T]` $(0_{I},
-7.3.3)$, it follows from Bourbaki, _Alg. comm._, chap. VII, §1, nÂ° 10, prop. 15, that $q_{1}$ is a prime ideal of height
-`1` in `A[T]`. Moreover, one has necessarily $q_{1} \cap A = 0$; otherwise, $q_{1} \cap A$ would necessarily be of
-height `> 1`, and it would follow from `(5.5.3)` that one would have $q_{1} = (q_{1} \cap A)A[T]$. But then, since
+7.3.3)$, it follows from Bourbaki, _Alg. comm._, chap. VII, §1, nÂ° 10, prop. 15, that $q_{1}$ is a prime ideal of
+height `1` in `A[T]`. Moreover, one has necessarily $q_{1} \cap A = 0$; otherwise, $q_{1} \cap A$ would necessarily be
+of height `> 1`, and it would follow from `(5.5.3)` that one would have $q_{1} = (q_{1} \cap A)A[T]$. But then, since
 $q_{1} \cap A \subset \mathfrak{m}$, one would have $q_{1} \subset \mathfrak{m}A[T]$ contrary to the hypothesis on $q$.
 If $K$ is the field of fractions of $A$, $q_{1}K[T]$ is therefore a prime ideal distinct from `0` and from `K[T]` in
 `K[T]`, hence of the form $h\cdot K[T]$, where $h(T) = T^{m} + a_{1} T^{m-1} + \cdots + a_{m}$ with $m \geqslant 1$ and
@@ -4419,12 +4420,12 @@ positive divisors.
 
 [^21.14.4-seshadri]: In fact, in the article cited above, Seshadri supposes that $k$ is algebraically closed, $T$
     separated and "semi-complete" (i.e. such that $\Gamma(T, \mathcal{O}_{T})$ is $k$-isomorphic to $k$) and replaces
-    hypothesis 3Â° by the stronger hypothesis that $Supp(Z)$ contains none of the fibres $X_{s}$ for $s \in S$. But since
-    the statement is local on $S$, one concludes at once that it suffices to make hypothesis 3Â°, and this proves that
-    the conclusion (interpreted as above in terms of the parafactoriality property of the rings $\mathcal{O}_{X,x}$) is
-    local on $S$ and on $T$, which allows one to eliminate completely the hypothesis that $T$ is "semi-complete" and
-    that $k$ is algebraically closed, since (by passing first to the algebraic closure of $k$) one can suppose first $T$
-    affine, which allows one to embed it as an open of a projective normal scheme over $k$, to which Seshadri's result
-    applies. Note also that, thanks to this reduction, it suffices to do Seshadri's proof in the case where $T$ is
-    projective (and not only "semi-complete"), a case in which the Picard scheme theory used by Seshadri is contained in
-    the theory which will be developed in chap. VI of our Treatise.
+    hypothesis 3Â° by the stronger hypothesis that $Supp(Z)$ contains none of the fibres $X_{s}$ for $s \in S$. But
+    since the statement is local on $S$, one concludes at once that it suffices to make hypothesis 3Â°, and this proves
+    that the conclusion (interpreted as above in terms of the parafactoriality property of the rings
+    $\mathcal{O}_{X,x}$) is local on $S$ and on $T$, which allows one to eliminate completely the hypothesis that $T$ is
+    "semi-complete" and that $k$ is algebraically closed, since (by passing first to the algebraic closure of $k$) one
+    can suppose first $T$ affine, which allows one to embed it as an open of a projective normal scheme over $k$, to
+    which Seshadri's result applies. Note also that, thanks to this reduction, it suffices to do Seshadri's proof in the
+    case where $T$ is projective (and not only "semi-complete"), a case in which the Picard scheme theory used by
+    Seshadri is contained in the theory which will be developed in chap. VI of our Treatise.

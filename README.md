@@ -1,14 +1,24 @@
-# EGA — English translation
+# EGA — English translation of *Éléments de Géométrie Algébrique*
 
-An idiomatic, LLM-generated English translation (Markdown, LaTeX mathematics rendered with KaTeX) of Grothendieck and
-Dieudonné's *Éléments de Géométrie Algébrique* (*Publications mathématiques de l'IHÉS*, 1960–1967).
+This repository contains a complete English translation of the **Éléments de Géométrie Algébrique (EGA)** by **Alexander
+Grothendieck** and **Jean Dieudonné** (*Publications mathématiques de l'IHÉS*, 1960–1967) — the foundational treatise of
+scheme-theoretic algebraic geometry, spanning EGA I–IV plus the unfinished EGA V.
+
+**Read it online:** <https://jcreinhold.github.io/ega/> — browser-readable HTML with LaTeX mathematics (KaTeX), stable
+per-section URLs, the original EGA numbering and page markers, per-volume glossaries of historical vs. modern
+terminology, and hyperlinked cross-references within EGA and to the companion
+[SGA translation](https://jcreinhold.github.io/sga/).
+
+The translation is LLM-generated and idiomatic rather than literal; it preserves Grothendieck's terminology and
+numbering exactly (see *Translation principles* below). The rendered text is Markdown with LaTeX math, built with
+mdBook.
 
 ## Volumes
 
 - [`i/`](i) — Chapter I: The Language of Schemes
 - [`ii/`](ii) — Chapter II: Elementary Global Study of Some Classes of Morphisms
 - [`iii/`](iii) — Chapter III: Cohomological Study of Coherent Sheaves
-- [`iv/`](iv) — Chapter IV: Local Study of Schemes and of Schemes Morphisms
+- [`iv/`](iv) — Chapter IV: Local Study of Schemes and Morphisms of Schemes
 - [`v/`](v) — Chapter V (unpublished; reconstructed material)
 
 Each volume directory has its own `README.md` with status, contents, and translation notes.

@@ -43,9 +43,8 @@ For every prime ideal $\mathfrak{p}$ of $A$, one has, by definition `(14.2.1)`
 $$ \dim(A_{\mathfrak{p}}) = \operatorname{codim}(V(\mathfrak{p}), \operatorname{Spec}(A)).
 \tag{16.1.3.2} $$
 
-This number is also called the *height* of the prime ideal $\mathfrak{p}$ and denoted
-$\operatorname{ht}(\mathfrak{p})$. More generally, for every ideal $\mathfrak{a}$ of $A$, we call
-*height* of $\mathfrak{a}$ the number
+This number is also called the *height* of the prime ideal $\mathfrak{p}$ and denoted $\operatorname{ht}(\mathfrak{p})$.
+More generally, for every ideal $\mathfrak{a}$ of $A$, we call *height* of $\mathfrak{a}$ the number
 
 $$ \operatorname{ht}(\mathfrak{a}) = \operatorname{codim}(V(\mathfrak{a}),
 \operatorname{Spec}(A)). \tag{16.1.3.3} $$
@@ -67,9 +66,8 @@ where $\mathfrak{m}$ ranges over the set of maximal ideals of $A$.
 $$ \dim(A_{\mathfrak{p}}) + \dim(A/\mathfrak{p}) \leq \dim(A). \tag{16.1.4.1} $$
 
 We say that $A$ is *catenary* (resp. *equidimensional*, *equicodimensional*, *biequidimensional*) when
-$\operatorname{Spec}(A)$ is catenary (resp. equidimensional, equicodimensional, biequidimensional). When
-$A$ is Noetherian and biequidimensional, the two sides of `(16.1.4.1)` are equal for every prime ideal of $A$
-`(14.3.5)`.
+$\operatorname{Spec}(A)$ is catenary (resp. equidimensional, equicodimensional, biequidimensional). When $A$ is
+Noetherian and biequidimensional, the two sides of `(16.1.4.1)` are equal for every prime ideal of $A$ `(14.3.5)`.
 
 For every ideal $\mathfrak{a}$ of $A$, the prime ideals of $A/\mathfrak{a}$ correspond bijectively to the prime ideals
 of $A$ containing $\mathfrak{a}$, so, if $A$ is catenary, so is $A/\mathfrak{a}$. Likewise, for every multiplicative
@@ -186,9 +184,9 @@ $$ \dim_{A}(M_{[\rho]}) = \dim_{B}(M). \tag{16.1.9.1} $$
 
 Indeed, the ring $B_{M}$ of homotheties of the $B$-module $M$ identifies with a subring of $C =
 \operatorname{End}_{A}(M_{[\rho]})$, and $C$ is an $A$-module of finite type
-`(Bourbaki, Alg. comm., chap. III, §3, no 1, lemma 2)`, hence so is $B_{M}$; moreover the ring $A_{M}$ of homotheties of the
-$A$-module $M_{[\rho]}$ is a subring of $B_{M}$, canonical image of $A$ in $C$, hence $B_{M}$ is finite over $A_{M}$; the
-conclusion thus results from `(16.1.5)`.
+`(Bourbaki, Alg. comm., chap. III, §3, no 1, lemma 2)`, hence so is $B_{M}$; moreover the ring $A_{M}$ of homotheties of
+the $A$-module $M_{[\rho]}$ is a subring of $B_{M}$, canonical image of $A$ in $C$, hence $B_{M}$ is finite over
+$A_{M}$; the conclusion thus results from `(16.1.5)`.
 
 **(16.1.10)** Let $A$ be a Noetherian ring; if $M$ is an $A$-module of finite length, one knows
 `(Bourbaki, Alg. comm., chap. IV, §2, no 5, prop. 7 and cor. 1 of prop. 7)` that $\operatorname{Supp}(M)$ is a finite
@@ -247,8 +245,9 @@ $P_{\mathfrak{q}}(M, n) - P_{\mathfrak{q}}(M', n) - P_{\mathfrak{q}}(M'', n)$ ha
 1$.*
 
 Indeed, the filtration of the $M'_{n} = M' \cap \mathfrak{q}^{n} M$ is $\mathfrak{q}$-good
-`(Bourbaki, Alg. comm., chap. III, §3, no 1, prop. 1)`; since $\operatorname{long}(M/\mathfrak{q}^{n} M) = \operatorname{long}(M''/\mathfrak{q}^{n} M'') + \operatorname{long}(M'/M'_{n})$, the
-lemma follows at once from `(16.2.2.1)` applied to $M'$.
+`(Bourbaki, Alg. comm., chap. III, §3, no 1, prop. 1)`; since
+$\operatorname{long}(M/\mathfrak{q}^{n} M) = \operatorname{long}(M''/\mathfrak{q}^{n} M'') + \operatorname{long}(M'/M'_{n})$,
+the lemma follows at once from `(16.2.2.1)` applied to $M'$.
 
 **Theorem (16.2.3) (Krull-Chevalley-Samuel).**
 
@@ -482,7 +481,8 @@ of the $\mathfrak{p}_{i}$.*
 The first assertion is immediate, for the $\mathfrak{p}_{i}$ are by definition minimal elements of
 $\operatorname{Supp}(M)$ `(16.1.6)`, and the latter are also minimal elements of $\operatorname{Ass}(M)$
 `(Bourbaki, Alg. comm., chap. IV, §1, no 4, th. 2)`. In addition, $\operatorname{Supp}(M/\mathfrak{p}_{i} M)$ is the set
-of prime ideals containing $\mathfrak{p}_{i}$ $(0_{I}, 1.7.5)$, hence $\dim(M/\mathfrak{p}_{i} M) = \dim(A/\mathfrak{p}_{i}) = \dim(M)$.
+of prime ideals containing $\mathfrak{p}_{i}$ $(0_{I}, 1.7.5)$, hence
+$\dim(M/\mathfrak{p}_{i} M) = \dim(A/\mathfrak{p}_{i}) = \dim(M)$.
 
 Set $N = M/xM$. If $y_{1}, \cdots, y_{r}$ are elements of $\mathfrak{r}$ such that $N/(y_{1} N + \cdots + y_{r} N)$ is
 of finite length, this means that $M/(xM + y_{1} M + \cdots + y_{r} M)$ is of finite length, whence the inequality
@@ -506,9 +506,9 @@ $\dim(M/\mathfrak{a}M) = \dim(M)$ and if one sets $N = M/\mathfrak{a}M$, the rel
 $\dim(N/xN) = \dim(N) - 1$.*
 
 Indeed, $\operatorname{Supp}(N)$ is the set of prime ideals containing $\mathfrak{a} + \operatorname{Ann}(M)$, hence
-$\mathfrak{p}_{i}$ belongs to $\operatorname{Supp}(N)$ and since $\dim(N) \leq \dim(M) = \dim(A/\mathfrak{p}_{i})$, one has
-$\dim(A/\mathfrak{p}_{i}) = \dim(N)$; in addition the prime ideals $\mathfrak{q} \in \operatorname{Supp}(N)$ such that
-$\dim(A/\mathfrak{q}) = \dim(N)$ are some of the $\mathfrak{p}_{j}$; if $x$ does not belong to any of the
+$\mathfrak{p}_{i}$ belongs to $\operatorname{Supp}(N)$ and since $\dim(N) \leq \dim(M) = \dim(A/\mathfrak{p}_{i})$, one
+has $\dim(A/\mathfrak{p}_{i}) = \dim(N)$; in addition the prime ideals $\mathfrak{q} \in \operatorname{Supp}(N)$ such
+that $\dim(A/\mathfrak{q}) = \dim(N)$ are some of the $\mathfrak{p}_{j}$; if $x$ does not belong to any of the
 $\mathfrak{p}_{j}$, one has therefore $\dim(N/xN) = \dim(N) - 1$ by virtue of `(16.3.4)`.
 
 **Definition (16.3.6).**
@@ -557,9 +557,9 @@ length, hence $\dim(N) \leq n - k$, and the two sides are equal by virtue of `(1
 
 <!-- label: 0_IV.16.3.8 -->
 
-*Let $A$ be a Noetherian semi-local ring, $X = \operatorname{Spec}(A)$ its spectrum, $\mathfrak{a}$ an
-ideal of $A$ distinct from $A$ such that $\operatorname{codim}(V(\mathfrak{a}), X) = r > 0$. There exist then $r$
-elements $x_{1}, \cdots, x_{r}$ of $\mathfrak{a}$, forming part of a system of parameters of $A$, such that*
+*Let $A$ be a Noetherian semi-local ring, $X = \operatorname{Spec}(A)$ its spectrum, $\mathfrak{a}$ an ideal of $A$
+distinct from $A$ such that $\operatorname{codim}(V(\mathfrak{a}), X) = r > 0$. There exist then $r$ elements
+$x_{1}, \cdots, x_{r}$ of $\mathfrak{a}$, forming part of a system of parameters of $A$, such that*
 
 $$ \operatorname{codim}(V(\mathfrak{a}), V(A x_{1} + \cdots + A x_{r})) = 0. $$
 
@@ -633,8 +633,8 @@ which is nothing other than `(16.3.9.2)`.
 
 The first assertion results from `(16.3.9)` since then $\dim(B/\mathfrak{m}B) = 0$. One may moreover replace $A$ by
 $\phi(A)$, hence $\dim(B) \leq \dim(\phi(A))$; if $\mathfrak{a} = \operatorname{Ker}(\phi) \neq 0$, and if $A$ is
-integral, one has $\dim(\phi(A)) = \dim(A/\mathfrak{a}) < \dim(A)$ `(16.1.2.2)`, hence one cannot then have $\dim(A) = \dim(B)$ unless
-$\mathfrak{a} = 0$.
+integral, one has $\dim(\phi(A)) = \dim(A/\mathfrak{a}) < \dim(A)$ `(16.1.2.2)`, hence one cannot then have
+$\dim(A) = \dim(B)$ unless $\mathfrak{a} = 0$.
 
 ## 16.4. Depth and codepth ¹
 
@@ -691,8 +691,8 @@ is $\mathfrak{m}$, and consequently the submodule $Az$ of $N$ is isomorphic to $
 
 *Let $A$ be a Noetherian local ring, $\mathfrak{m}$ its maximal ideal, $k = A/\mathfrak{m}$ its residue field, $M$ an
 $A$-module, $(x_{i})_{1 \leq i \leq n}$ an $M$-regular sequence of elements of $\mathfrak{m}$. Then the $A$-modules
-$\operatorname{Hom}_{A}(k, M/(x_{1} M + \cdots + x_{n} M))$ and $\operatorname{Ext}^{n}_{A}(k, M)$ are
-isomorphic, and for $n \geq 1$, they are also isomorphic to $\operatorname{Ext}^{n-1}_{A}(k, M/x_{1} M)$.*
+$\operatorname{Hom}_{A}(k, M/(x_{1} M + \cdots + x_{n} M))$ and $\operatorname{Ext}^{n}_{A}(k, M)$ are isomorphic, and
+for $n \geq 1$, they are also isomorphic to $\operatorname{Ext}^{n-1}_{A}(k, M/x_{1} M)$.*
 
 We reason by induction on $n$, the proposition being evident for $n = 0$. Set $N = M/x_{1} M$; the sequence $(x_{i})_{2
 \leq i \leq n}$ is $N$-regular, hence
@@ -709,10 +709,10 @@ By virtue of the induction hypothesis, $\operatorname{Ext}^{n-1}_{A}(k, M)$ is i
 $$ \operatorname{Hom}_{A}(k, M/(x_{1} M + \cdots + x_{n-1} M)), $$
 
 which is zero, since $(x_{i})_{1 \leq i \leq n-1}$ is not a maximal $M$-regular sequence `(16.4.2)`. On the other hand,
-since $x_{1} \in \mathfrak{m}$, the homothety of ratio $x_{1}$ in the $A$-module
-$\operatorname{Hom}_{A}(k, T)$ is zero for every $A$-module $T$, hence so is the homothety of ratio
-$x_{1}$ in every $A$-module $\operatorname{Ext}^{i}_{A}(k, T)$; the assertions of the lemma then follow at once from the
-exact sequence `(16.4.3.1)`.
+since $x_{1} \in \mathfrak{m}$, the homothety of ratio $x_{1}$ in the $A$-module $\operatorname{Hom}_{A}(k, T)$ is zero
+for every $A$-module $T$, hence so is the homothety of ratio $x_{1}$ in every $A$-module
+$\operatorname{Ext}^{i}_{A}(k, T)$; the assertions of the lemma then follow at once from the exact sequence
+`(16.4.3.1)`.
 
 **Corollary (16.4.4).**
 
@@ -1057,8 +1057,9 @@ M/\mathfrak{p}M$ since the $x_{i}$ are in $\mathfrak{p}$, and $\dim(P) = \dim(P/
 $P$ is a Cohen-Macaulay module, one has also $\dim(P) = \dim(A/\mathfrak{p}')$ for every $\mathfrak{p}' \in
 \operatorname{Ass}(P)$ `(16.5.4)`. Since $\mathfrak{p} \in \operatorname{Supp}(P)$ $(0_{I}, 1.7.5)$, $\mathfrak{p}$
 contains one of the ideals $\mathfrak{p}' \in \operatorname{Ass}(P)$
-`(Bourbaki, Alg. comm., chap. IV, §1, no 4, th. 2)`, and since $\dim(P) = \dim(P/\mathfrak{p}P) \leq \dim(A/\mathfrak{p}) \leq \dim(A/\mathfrak{p}') = \dim(P)$, one
-necessarily has $\mathfrak{p} = \mathfrak{p}'$ `(16.1.2.2)`, which completes the proof.
+`(Bourbaki, Alg. comm., chap. IV, §1, no 4, th. 2)`, and since
+$\dim(P) = \dim(P/\mathfrak{p}P) \leq \dim(A/\mathfrak{p}) \leq \dim(A/\mathfrak{p}') = \dim(P)$, one necessarily has
+$\mathfrak{p} = \mathfrak{p}'$ `(16.1.2.2)`, which completes the proof.
 
 **Corollary (16.5.10).**
 
@@ -1088,14 +1089,13 @@ equal, whence the corollary.
 <!-- label: 0_IV.16.5.11 -->
 
 *Let $A$ be a Noetherian local ring; suppose that there exists an $A$-module of finite type $M$ of support
-$\operatorname{Spec}(A)$, which is a Cohen-Macaulay module. Then, for every prime ideal $\mathfrak{p}$ of
-$A$, one has*
+$\operatorname{Spec}(A)$, which is a Cohen-Macaulay module. Then, for every prime ideal $\mathfrak{p}$ of $A$, one has*
 
 $$ \dim(A) = \dim(A/\mathfrak{p}) + \dim(A_{\mathfrak{p}}). \tag{16.5.11.1} $$
 
 Indeed, $\operatorname{Supp}(M/\mathfrak{p}M) = \operatorname{Spec}(A/\mathfrak{p})$ $(0_{I}, 1.7.5)$ and
-$\operatorname{Supp}(M_{\mathfrak{p}}) = \operatorname{Spec}(A_{\mathfrak{p}})$; the relation
-`(16.5.11.1)` is therefore a particular case of `(16.5.10.1)`.
+$\operatorname{Supp}(M_{\mathfrak{p}}) = \operatorname{Spec}(A_{\mathfrak{p}})$; the relation `(16.5.11.1)` is therefore
+a particular case of `(16.5.10.1)`.
 
 **Corollary (16.5.12).**
 

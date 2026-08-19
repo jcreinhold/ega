@@ -24,10 +24,11 @@ filtration) is bijective.*
 
 *d) The ideal $\mathfrak{m}$ admits a system of generators which is an $A$-regular sequence.*
 
-By Nakayama's lemma, $\operatorname{rg}_{k}(\mathfrak{m}/\mathfrak{m}^{2})$ is the smallest number of elements in a system of
-generators of $\mathfrak{m}$, so b) and c) are equivalent. On the other hand, if $(x_{i})_{1 \leq i \leq n}$ is a system
-of generators of $\mathfrak{m}$ whose classes $\bar{x}_{i} \bmod \mathfrak{m}^{2}$ form a basis of the $k$-vector space
-$\mathfrak{m}/\mathfrak{m}^{2}$, then $S_{\bullet}(\mathfrak{m}/\mathfrak{m}^{2})$ is isomorphic to the polynomial ring
+By Nakayama's lemma, $\operatorname{rg}_{k}(\mathfrak{m}/\mathfrak{m}^{2})$ is the smallest number of elements in a
+system of generators of $\mathfrak{m}$, so b) and c) are equivalent. On the other hand, if $(x_{i})_{1 \leq i \leq n}$
+is a system of generators of $\mathfrak{m}$ whose classes $\bar{x}_{i} \bmod \mathfrak{m}^{2}$ form a basis of the
+$k$-vector space $\mathfrak{m}/\mathfrak{m}^{2}$, then $S_{\bullet}(\mathfrak{m}/\mathfrak{m}^{2})$ is isomorphic to the
+polynomial ring
 
 <!-- original page 136 -->
 
@@ -35,9 +36,9 @@ $k[T_{1}, \cdots, T_{n}]$; taking into account that every $A$-module of finite t
 $\mathfrak{m}$-preadic filtration $(0_{I}, 7.3.5)$, it follows from `(15.1.9)` that conditions a) and d) are equivalent;
 furthermore, since every $A$-regular sequence of elements of $\mathfrak{m}$ has at most $n$ elements `(16.4.1)`, one
 sees that d) implies c). It remains to prove that c) implies a). For brevity put $S =
-S_{\bullet}(\mathfrak{m}/\mathfrak{m}^{2}) = k[T_{1}, \cdots, T_{n}]$, $G = \operatorname{gr}_{\mathfrak{m}}(A)$, and consider the
-exact sequence $0 \to \mathfrak{J} \to S \to^{\phi} G \to 0$, where the kernel $\mathfrak{J}$ of $\phi$ is a graded
-ideal of $S$. For every integer $s \geq 0$ one has therefore
+S_{\bullet}(\mathfrak{m}/\mathfrak{m}^{2}) = k[T_{1}, \cdots, T_{n}]$, $G = \operatorname{gr}_{\mathfrak{m}}(A)$, and
+consider the exact sequence $0 \to \mathfrak{J} \to S \to^{\phi} G \to 0$, where the kernel $\mathfrak{J}$ of $\phi$ is
+a graded ideal of $S$. For every integer $s \geq 0$ one has therefore
 
 $$ C(s+n-1, n-1) = \operatorname{long}(S_s) = \operatorname{long}(G_s) + \operatorname{long}(\mathfrak{J}_s). \tag{17.1.1.1} $$
 
@@ -49,8 +50,9 @@ C(s-h+n-1, n-1)$, whence for $s \geq h$,
 $$ \operatorname{long}(G_s) \le C(s+n-1, n-1) - C(s-h+n-1, n-1). \tag{17.1.1.2} $$
 
 Now, the right-hand side of `(17.1.1.2)` is a polynomial in $s$ of degree $\leq n-2$; but one has $G_{s} =
-\mathfrak{m}^{s}/\mathfrak{m}^{s+1}$, and for $s$ large enough, $\operatorname{long}(G_{s})$ is a polynomial in $s$ of degree exactly
-equal to $n-1$ whose leading coefficient is $> 0$ `(16.2.1)`, which contradicts the inequality `(17.1.1.2)`. Q.E.D.
+\mathfrak{m}^{s}/\mathfrak{m}^{s+1}$, and for $s$ large enough, $\operatorname{long}(G_{s})$ is a polynomial in $s$ of
+degree exactly equal to $n-1$ whose leading coefficient is $> 0$ `(16.2.1)`, which contradicts the inequality
+`(17.1.1.2)`. Q.E.D.
 
 **Definition (17.1.2).**
 
@@ -64,9 +66,9 @@ equal to $n-1$ whose leading coefficient is $> 0$ `(16.2.1)`, which contradicts 
 
 *A regular local ring is an integral domain, integrally closed, and a Cohen-Macaulay ring.*
 
-The last assertion follows from `(17.1.1, d))`; on the other hand, if $A$ is regular, $\operatorname{gr}_{\mathfrak{m}}(A)$ is an
-integral domain and completely integrally closed, being isomorphic to $k[T_{1}, \cdots, T_{n}]$; one concludes that $A$
-also possesses these two properties
+The last assertion follows from `(17.1.1, d))`; on the other hand, if $A$ is regular,
+$\operatorname{gr}_{\mathfrak{m}}(A)$ is an integral domain and completely integrally closed, being isomorphic to
+$k[T_{1}, \cdots, T_{n}]$; one concludes that $A$ also possesses these two properties
 `(Bourbaki, Alg. comm., chap. III, §2, nÂ° 3, cor. of prop. 1 and chap. V, §1, nÂ° 5, prop. 15)`.
 
 **Examples (17.1.4).** — (i) A regular local ring of dimension $0$, being an integral domain by `(17.1.3)`, is
@@ -89,9 +91,9 @@ T_{n}]]$.
 
 <!-- original page 137 -->
 
-Indeed, the maximal ideal of $\hat{A}$ is $\mathfrak{m}\hat{A}$, and one knows that $\mathfrak{m}^{h}/\mathfrak{m}^{h+1}$ and
-$(\mathfrak{m}\hat{A})^{h}/(\mathfrak{m}\hat{A})^{h+1}$ are isomorphic $k$-vector spaces; condition a) of `(17.1.1)` is
-therefore the same for $A$ and $\hat{A}$.
+Indeed, the maximal ideal of $\hat{A}$ is $\mathfrak{m}\hat{A}$, and one knows that
+$\mathfrak{m}^{h}/\mathfrak{m}^{h+1}$ and $(\mathfrak{m}\hat{A})^{h}/(\mathfrak{m}\hat{A})^{h+1}$ are isomorphic
+$k$-vector spaces; condition a) of `(17.1.1)` is therefore the same for $A$ and $\hat{A}$.
 
 **Definition (17.1.6).**
 
@@ -119,8 +121,8 @@ following conditions are equivalent:*
 
 *a) $A$ is regular and the $x_{i}$ are part of a regular system of parameters of $A$.*
 
-*a$'$) $A$ is regular and the classes $\bar{x}_{i}$ of the $x_{i}$ $\bmod \mathfrak{m}^{2}$ are linearly independent over
-$k$.*
+*a$'$) $A$ is regular and the classes $\bar{x}_{i}$ of the $x_{i}$ $\bmod \mathfrak{m}^{2}$ are linearly independent
+over $k$.*
 
 *b) The $x_{i}$ are part of a system of parameters for $A$ and $A/\mathfrak{J}$ is a regular ring.*
 
@@ -145,11 +147,11 @@ $\operatorname{rg}_{k}((\mathfrak{m}^{2} + \mathfrak{J})/\mathfrak{m}^{2}) = r$,
 Conversely, to prove that b) implies a), note that the fact that the $x_{i}$ are part of a system of parameters implies
 that $\dim(A/\mathfrak{J}) = n - r$ `(16.3.6)`; on the other hand, the hypothesis that $A/\mathfrak{J}$ is regular
 implies $\operatorname{rg}_{k}(\mathfrak{n}/\mathfrak{n}^{2}) = n - r$ `(17.1.1)`; moreover one obviously has
-$\operatorname{rg}_{k}((\mathfrak{m}^{2} + \mathfrak{J})/\mathfrak{m}^{2}) \leq r$, so one deduces from `(17.1.7.1)` that
-$\operatorname{rg}_{k}(\mathfrak{m}/\mathfrak{m}^{2}) \leq r + (n - r) = n$; hence $A$ is regular by virtue of `(16.2.6)` and
-`(17.1.1)`. Furthermore, the relation $\operatorname{rg}_{k}(\mathfrak{m}/\mathfrak{m}^{2}) = n$ then implies
-$\operatorname{rg}_{k}((\mathfrak{m}^{2} + \mathfrak{J})/\mathfrak{m}^{2}) = r$, and consequently the $\bar{x}_{i}$ are linearly
-independent over $k$. Q.E.D.
+$\operatorname{rg}_{k}((\mathfrak{m}^{2} + \mathfrak{J})/\mathfrak{m}^{2}) \leq r$, so one deduces from `(17.1.7.1)`
+that $\operatorname{rg}_{k}(\mathfrak{m}/\mathfrak{m}^{2}) \leq r + (n - r) = n$; hence $A$ is regular by virtue of
+`(16.2.6)` and `(17.1.1)`. Furthermore, the relation $\operatorname{rg}_{k}(\mathfrak{m}/\mathfrak{m}^{2}) = n$ then
+implies $\operatorname{rg}_{k}((\mathfrak{m}^{2} + \mathfrak{J})/\mathfrak{m}^{2}) = r$, and consequently the
+$\bar{x}_{i}$ are linearly independent over $k$. Q.E.D.
 
 <!-- original page 138 -->
 
@@ -181,10 +183,10 @@ parameters of $A$.*
 
 We have already seen `(17.1.7)` that b) implies a). Conversely, suppose $A/\mathfrak{J}$ is regular (which implies that
 $\mathfrak{J}$ is prime) and let $n = \dim(A)$, $n - r = \dim(A/\mathfrak{J})$; with the notations of `(17.1.7)`, the
-exact sequence `(17.1.7.1)` gives $\operatorname{rg}_{k}((\mathfrak{m}^{2} + \mathfrak{J})/\mathfrak{m}^{2}) = r$, hence there exists a
-sequence $(x_{i})_{1 \leq i \leq r}$ of elements of $\mathfrak{J}$ that is part of a regular system of parameters of
-$A$. Put $\mathfrak{J}' = x_{1} A + \cdots + x_{r} A$; it follows from `(17.1.7)` that $\mathfrak{J}'$ is a prime ideal
-of $A$ and that $A/\mathfrak{J}'$ is regular and of dimension $n - r$; but since $A/\mathfrak{J} =
+exact sequence `(17.1.7.1)` gives $\operatorname{rg}_{k}((\mathfrak{m}^{2} + \mathfrak{J})/\mathfrak{m}^{2}) = r$, hence
+there exists a sequence $(x_{i})_{1 \leq i \leq r}$ of elements of $\mathfrak{J}$ that is part of a regular system of
+parameters of $A$. Put $\mathfrak{J}' = x_{1} A + \cdots + x_{r} A$; it follows from `(17.1.7)` that $\mathfrak{J}'$ is
+a prime ideal of $A$ and that $A/\mathfrak{J}'$ is regular and of dimension $n - r$; but since $A/\mathfrak{J} =
 (A/\mathfrak{J}')/(\mathfrak{J}/\mathfrak{J}')$ and $\mathfrak{J}/\mathfrak{J}'$ is prime in the integral domain
 $A/\mathfrak{J}'$, the dimensions of $A/\mathfrak{J}$ and $A/\mathfrak{J}'$ can be equal only if $\mathfrak{J} =
 \mathfrak{J}'$ `(16.1.2.2)`.
@@ -218,37 +220,40 @@ derived functors that if $\operatorname{dim{.}\,proj}(M) \leq n$ (resp. $\operat
 T(M) = 0$) for every $i > n$.
 
 (iii) If one assumes $A$ Noetherian and $M$ of finite type, the last interpretation of the projective dimension given in
-`(17.2.1)` shows that if $\operatorname{dim{.}\,proj}(M) = n$, then $M$ admits a left resolution of length $n$ formed of projective
-modules *of finite type*. If moreover $A$ is a Noetherian local ring, $M$ admits a resolution of length $n$ by *free
-modules of finite type*, a projective $A$-module of finite type being then free
+`(17.2.1)` shows that if $\operatorname{dim{.}\,proj}(M) = n$, then $M$ admits a left resolution of length $n$ formed of
+projective modules *of finite type*. If moreover $A$ is a Noetherian local ring, $M$ admits a resolution of length $n$
+by *free modules of finite type*, a projective $A$-module of finite type being then free
 `(Bourbaki, Alg. comm., chap. II, §3, nÂ° 2, cor. 2 of prop. 5)`.
 
 **Lemma (17.2.3).**
 
 <!-- label: 0_IV.17.2.3 -->
 
-*Let $A$ be a ring, $M$ an $A$-module. For $\operatorname{dim{.}\,inj}(M) \leq n$, it is necessary and sufficient that for every
-monogenic $A$-module $N$, one have $\operatorname{Ext}^{n+1}_{A}(N, M) = 0$.*
+*Let $A$ be a ring, $M$ an $A$-module. For $\operatorname{dim{.}\,inj}(M) \leq n$, it is necessary and sufficient that
+for every monogenic $A$-module $N$, one have $\operatorname{Ext}^{n+1}_{A}(N, M) = 0$.*
 
 With the notations of `(17.2.1)`, it suffices to prove that $C$ is injective; for every $A$-module $N$,
-$\operatorname{Ext}^{n+1}_{A}(N, M)$ is isomorphic to $\operatorname{Ext}^{1}_{A}(N, C)$ `(M, V, 7)`, so one has $\operatorname{Ext}^{1}_{A}(N, C) = 0$ for every
-$A$-module $N$ of the form $A/\mathfrak{J}$, where $\mathfrak{J}$ is an arbitrary ideal of $A$. The exact sequence of
-Ext then shows that the canonical homomorphism $\operatorname{Hom}(A, C) \to \operatorname{Hom}(\mathfrak{J}, C)$ is
-surjective for every ideal $\mathfrak{J}$ of $A$, which implies that $C$ is an injective $A$-module `(M, I, 3.2)`.
+$\operatorname{Ext}^{n+1}_{A}(N, M)$ is isomorphic to $\operatorname{Ext}^{1}_{A}(N, C)$ `(M, V, 7)`, so one has
+$\operatorname{Ext}^{1}_{A}(N, C) = 0$ for every $A$-module $N$ of the form $A/\mathfrak{J}$, where $\mathfrak{J}$ is an
+arbitrary ideal of $A$. The exact sequence of Ext then shows that the canonical homomorphism
+$\operatorname{Hom}(A, C) \to \operatorname{Hom}(\mathfrak{J}, C)$ is surjective for every ideal $\mathfrak{J}$ of $A$,
+which implies that $C$ is an injective $A$-module `(M, I, 3.2)`.
 
 **Lemma (17.2.4).**
 
 <!-- label: 0_IV.17.2.4 -->
 
-*Let $A$ be a Noetherian ring, $M$ an $A$-module of finite type. For $\operatorname{dim{.}\,proj}(M) \leq n$, it is necessary and
-sufficient that for every monogenic $A$-module $N$, one have $\operatorname{Ext}^{n+1}_{A}(M, N) = 0$.*
+*Let $A$ be a Noetherian ring, $M$ an $A$-module of finite type. For $\operatorname{dim{.}\,proj}(M) \leq n$, it is
+necessary and sufficient that for every monogenic $A$-module $N$, one have $\operatorname{Ext}^{n+1}_{A}(M, N) = 0$.*
 
-One knows indeed `(M, VI, 2.5)` that the condition $\operatorname{dim{.}\,proj}(M) \leq n$ is equivalent to $\operatorname{Ext}^{n+1}_{A}(M, N) = 0$ for
-every $A$-module $N$ of finite type. To see that the condition of the statement is also sufficient, one argues by
-induction on the number of generators $m$ of $N$: there is a submodule $N_{1}$ of $N$ generated by $m - 1$ elements and
-such that $N_{2} = N/N_{1}$ is monogenic; from the exact sequence $0 \to N_{1} \to N \to N_{2} \to 0$, one then deduces
-the exact sequence $\operatorname{Ext}^{n+1}_A(M, N_1) \to \operatorname{Ext}^{n+1}_A(M, N) \to \operatorname{Ext}^{n+1}_A(M, N_2)$, and the induction hypothesis shows
-that the condition of the statement does indeed imply $\operatorname{Ext}^{n+1}_{A}(M, N) = 0$.
+One knows indeed `(M, VI, 2.5)` that the condition $\operatorname{dim{.}\,proj}(M) \leq n$ is equivalent to
+$\operatorname{Ext}^{n+1}_{A}(M, N) = 0$ for every $A$-module $N$ of finite type. To see that the condition of the
+statement is also sufficient, one argues by induction on the number of generators $m$ of $N$: there is a submodule
+$N_{1}$ of $N$ generated by $m - 1$ elements and such that $N_{2} = N/N_{1}$ is monogenic; from the exact sequence
+$0 \to N_{1} \to N \to N_{2} \to 0$, one then deduces the exact sequence
+$\operatorname{Ext}^{n+1}_A(M, N_1) \to \operatorname{Ext}^{n+1}_A(M, N) \to \operatorname{Ext}^{n+1}_A(M, N_2)$, and
+the induction hypothesis shows that the condition of the statement does indeed imply
+$\operatorname{Ext}^{n+1}_{A}(M, N) = 0$.
 
 **Corollary (17.2.5).**
 
@@ -272,8 +277,8 @@ $$ S^{-1} \operatorname{Ext}^i_A(N, M) \cong \operatorname{Ext}^i_{S^{-1} A}(S^{
 by flatness, considering a free resolution of $M$ and using the fact that the preceding relation is true for $i = 0$
 `(Bourbaki, Alg. comm., chap. II, §2, nÂ° 7, prop. 19)`. In particular
 $\operatorname{Ext}^{i}_{A_{\mathfrak{m}}}(A_{\mathfrak{m}}/\mathfrak{J} A_{\mathfrak{m}}, M_{\mathfrak{m}}) =
-(\operatorname{Ext}^{i}_{A}(A/\mathfrak{J}, M))_{\mathfrak{m}}$ for every prime ideal $\mathfrak{m}$ and every ideal $\mathfrak{J}$ of
-$A$; taking `(17.2.3)` into account, and the fact that every
+(\operatorname{Ext}^{i}_{A}(A/\mathfrak{J}, M))_{\mathfrak{m}}$ for every prime ideal $\mathfrak{m}$ and every ideal
+$\mathfrak{J}$ of $A$; taking `(17.2.3)` into account, and the fact that every
 
 <!-- original page 140 -->
 
@@ -293,8 +298,9 @@ n$, it is necessary that $\operatorname{Tor}^{A}_{i}(M, k) = 0$ for $i > n$, and
 
 Necessity is a special case of remark `(17.2.2, (ii))`, applied to the covariant functor $M \mapsto k \otimes_{A} M$. To
 prove that the condition is sufficient, one must, with the notations of `(17.2.1)`, establish that $R$ is projective
-when the $P_{i}$ are assumed of finite type; now $\operatorname{Tor}^{A}_{n+1}(M, k)$ is isomorphic to $\operatorname{Tor}^{A}_{1}(R, k)$ `(M, V, 7)`;
-and one knows that, since $R$ is of finite type, the condition $\operatorname{Tor}^{A}_{1}(R, k) = 0$ implies that $R$ is free
+when the $P_{i}$ are assumed of finite type; now $\operatorname{Tor}^{A}_{n+1}(M, k)$ is isomorphic to
+$\operatorname{Tor}^{A}_{1}(R, k)$ `(M, V, 7)`; and one knows that, since $R$ is of finite type, the condition
+$\operatorname{Tor}^{A}_{1}(R, k) = 0$ implies that $R$ is free
 `(Bourbaki, Alg. comm., chap. II, §3, nÂ° 2, cor. 2 of prop. 5)`.
 
 **Corollary (17.2.7).**
@@ -318,9 +324,10 @@ k)$ is zero; in other words, one has the exact sequence
 
 $$ 0 \to \operatorname{Tor}^A_i(M, k) \to \operatorname{Tor}^A_i(M/xM, k) \to \operatorname{Tor}^A_{i-1}(M, k) \to 0. $$
 
-If $\operatorname{dim{.}\,proj}(M) = n$, then $\operatorname{Tor}^{A}_{n}(M, k) \neq 0$ and $\operatorname{Tor}^{A}_{n+1}(M, k) = \operatorname{Tor}^{A}_{n+2}(M, k) = 0$ by virtue of
-`(17.2.6)`. It follows from what precedes that one has $\operatorname{Tor}^{A}_{n+1}(M/xM, k) \neq 0$ and $\operatorname{Tor}^{A}_{n+2}(M/xM, k) = 0$,
-hence $\operatorname{dim{.}\,proj}(M/xM) = n + 1$ by `(17.2.6)`.
+If $\operatorname{dim{.}\,proj}(M) = n$, then $\operatorname{Tor}^{A}_{n}(M, k) \neq 0$ and
+$\operatorname{Tor}^{A}_{n+1}(M, k) = \operatorname{Tor}^{A}_{n+2}(M, k) = 0$ by virtue of `(17.2.6)`. It follows from
+what precedes that one has $\operatorname{Tor}^{A}_{n+1}(M/xM, k) \neq 0$ and
+$\operatorname{Tor}^{A}_{n+2}(M/xM, k) = 0$, hence $\operatorname{dim{.}\,proj}(M/xM) = n + 1$ by `(17.2.6)`.
 
 **Proposition (17.2.8) (M. Auslander).**
 
@@ -344,7 +351,8 @@ N) = 0$.*
 This follows at once from `(17.2.1)` and `(17.2.3)`.
 
 The smallest number $n$ (an integer or $+\infty$) for which the equivalent conditions of `(17.2.8)` are satisfied is
-called the *global cohomological dimension* (or simply *cohomological dimension*) of $A$ and denoted $\operatorname{dim{.}\,coh}(A)$.
+called the *global cohomological dimension* (or simply *cohomological dimension*) of $A$ and denoted
+$\operatorname{dim{.}\,coh}(A)$.
 
 **Proposition (17.2.9).**
 
@@ -376,8 +384,8 @@ This follows from `(17.2.9)` and `(17.2.5)`.
 
 <!-- label: 0_IV.17.2.11 -->
 
-*Let $A$ be a Noetherian local ring, $k$ its residue field. For $\operatorname{dim{.}\,coh}(A) \leq n$, it is necessary that
-$\operatorname{Tor}^{A}_{i}(k, k) = 0$ for $i > n$, and sufficient that $\operatorname{Tor}^{A}_{n+1}(k, k) = 0$.*
+*Let $A$ be a Noetherian local ring, $k$ its residue field. For $\operatorname{dim{.}\,coh}(A) \leq n$, it is necessary
+that $\operatorname{Tor}^{A}_{i}(k, k) = 0$ for $i > n$, and sufficient that $\operatorname{Tor}^{A}_{n+1}(k, k) = 0$.*
 
 Taking `(17.2.6)` into account, it suffices to prove that the relations $\operatorname{dim{.}\,coh}(A) \leq n$ and $\operatorname{dim{.}\,proj}_{A}(k)
 \leq n$ are equivalent. It is clear that the first implies the second by definition. Conversely, if $\operatorname{dim{.}\,proj}_{A}(k)
@@ -388,9 +396,9 @@ $\operatorname{dim{.}\,proj}(M) \leq n$, which proves the proposition by virtue 
 
 <!-- label: 0_IV.17.2.12 -->
 
-*Let $A$ be a Noetherian ring. For $\operatorname{dim{.}\,coh}(A) \leq n$, it is necessary that, for every maximal ideal $\mathfrak{m}$
-of $A$, one have $\operatorname{Tor}^{A_{\mathfrak{m}}}_{i}(A/\mathfrak{m}, A/\mathfrak{m}) = 0$ for $i > n$, and sufficient that these
-relations be satisfied for $i = n + 1$.*
+*Let $A$ be a Noetherian ring. For $\operatorname{dim{.}\,coh}(A) \leq n$, it is necessary that, for every maximal ideal
+$\mathfrak{m}$ of $A$, one have $\operatorname{Tor}^{A_{\mathfrak{m}}}_{i}(A/\mathfrak{m}, A/\mathfrak{m}) = 0$ for
+$i > n$, and sufficient that these relations be satisfied for $i = n + 1$.*
 
 This follows at once from `(17.2.11)` and `(17.2.10)`.
 
@@ -416,8 +424,8 @@ flat $A$-module that $L_{\bullet} \otimes_{A} B = (L_{j} \otimes_{A} B)$ is a ri
 
 <!-- original page 142 -->
 
-of `(17.2.13.2)` equals $\operatorname{Tor}^{B}_{i}(M \otimes_{A} B, N \otimes_{A} B)$; the hypothesis on $B$ implies that this
-$B$-module is zero for $i > n$ `(17.2.2, (ii))`, whence the conclusion.
+of `(17.2.13.2)` equals $\operatorname{Tor}^{B}_{i}(M \otimes_{A} B, N \otimes_{A} B)$; the hypothesis on $B$ implies
+that this $B$-module is zero for $i > n$ `(17.2.2, (ii))`, whence the conclusion.
 
 **(17.2.14)** Let $(X, \mathcal{O}_{X})$ be a ringed space, $\mathcal{F}$ an $\mathcal{O}_{X}$-Module; one calls the
 *pointwise projective* (resp. *injective*) *dimension* of $\mathcal{F}$ and denotes by $\operatorname{dim{.}\,proj}(\mathcal{F})$ (resp.
@@ -433,8 +441,8 @@ point* $x$ the cohomological dimension of $\mathcal{O}_{x}$.
 
 <!-- label: 0_IV.17.2.15 -->
 
-*Let $X$, $Y$ be two ringed spaces with Noetherian local rings, $f : X \to Y$ a flat morphism. If $\operatorname{dim{.}\,coh}(X) \leq n$,
-then $Y$ is of cohomological dimension $\leq n$ at every point of $f(X)$.*
+*Let $X$, $Y$ be two ringed spaces with Noetherian local rings, $f : X \to Y$ a flat morphism. If
+$\operatorname{dim{.}\,coh}(X) \leq n$, then $Y$ is of cohomological dimension $\leq n$ at every point of $f(X)$.*
 
 This follows at once from `(17.2.13)`.
 
@@ -456,13 +464,13 @@ one has $H_{i}(K_{\bullet}(\mathbf{x})) = 0$ for $i > 0$ `(III, 1.1.4 and 1.1.3.
 = A/(x_{1} A + \cdots + x_{n} A) = A/\mathfrak{m} = k$; the $K_{i}(\mathbf{x})$ therefore form a *free resolution* of
 $k$ of length $n$. Now, the fact that the $x_{i}$ belong to $\mathfrak{m}$ implies at once that in the complex
 $K_{\bullet}(\mathbf{x}, k) = K_{\bullet}(\mathbf{x}) \otimes_{A} k$, the boundary operator is zero in all dimensions,
-so that one has, by definition, $\operatorname{Tor}^{A}_{i}(k, k) = \Lambda^{i}(k^{n})$; equality `(17.3.1.1)` therefore follows at
-once from `(17.2.11)` (this result is essentially Hilbert's "syzygy theorem").
+so that one has, by definition, $\operatorname{Tor}^{A}_{i}(k, k) = \Lambda^{i}(k^{n})$; equality `(17.3.1.1)` therefore
+follows at once from `(17.2.11)` (this result is essentially Hilbert's "syzygy theorem").
 
 Let us now show that if $A$ is a Noetherian local ring, $\mathfrak{m}$ its maximal ideal, and if $\dim.
 proj_{A}(\mathfrak{m})$ is finite, then $A$ is regular, which will complete the proof of `(17.3.1)`. We proceed by
-induction on $n = \operatorname{rg}_{k}(\mathfrak{m}/\mathfrak{m}^{2})$. For $n = 0$, one has $\mathfrak{m} = 0$ and the assertion is
-trivial.
+induction on $n = \operatorname{rg}_{k}(\mathfrak{m}/\mathfrak{m}^{2})$. For $n = 0$, one has $\mathfrak{m} = 0$ and the
+assertion is trivial.
 
 **Lemma (17.3.1.2) (Nagata).**
 
@@ -472,9 +480,9 @@ trivial.
 that $c\mathfrak{m} = 0$ (in other words, one has $\mathfrak{m} \in \operatorname{Ass}(A)$).*
 
 One can restrict to the case where $\mathfrak{m} \neq 0$, hence $\mathfrak{m} \neq \mathfrak{m}^{2}$. The hypothesis
-implies that $\mathfrak{m} - \mathfrak{m}^{2}$ is contained in the union of the ideals $\mathfrak{p}_{i}$ of $\operatorname{Ass}(A)$
-`(Bourbaki, Alg. comm., chap. IV, §1, nÂ° 1, cor. 3 of prop. 2)`; hence $\mathfrak{m}$ is contained in the union of
-$\mathfrak{m}^{2}$
+implies that $\mathfrak{m} - \mathfrak{m}^{2}$ is contained in the union of the ideals $\mathfrak{p}_{i}$ of
+$\operatorname{Ass}(A)$ `(Bourbaki, Alg. comm., chap. IV, §1, nÂ° 1, cor. 3 of prop. 2)`; hence $\mathfrak{m}$ is
+contained in the union of $\mathfrak{m}^{2}$
 
 <!-- original page 143 -->
 
@@ -508,12 +516,13 @@ is the identity; whence the lemma.
 projective dimension. If $a \in \mathfrak{m}$ is $A$-regular and $E$-regular, then $E/aE$ is an $(A/aA)$-module of
 finite projective dimension, at most equal to $\operatorname{dim{.}\,proj}_{A}(E)$.*
 
-We argue by induction on $h = \operatorname{dim{.}\,proj}_{A}(E)$, the case $h = 0$ being trivial since $E$ is then a projective
-$A$-module, hence $E/aE$ is a projective $(A/aA)$-module. There exists an exact sequence
+We argue by induction on $h = \operatorname{dim{.}\,proj}_{A}(E)$, the case $h = 0$ being trivial since $E$ is then a
+projective $A$-module, hence $E/aE$ is a projective $(A/aA)$-module. There exists an exact sequence
 
 $$ 0 \to N \to L \to E \to 0 $$
 
-where $L$ is free and $\operatorname{dim{.}\,proj}_{A}(N) = h - 1$ `(17.2.2, (iii))`, with $N$ of finite type. Moreover, the sequence
+where $L$ is free and $\operatorname{dim{.}\,proj}_{A}(N) = h - 1$ `(17.2.2, (iii))`, with $N$ of finite type. Moreover,
+the sequence
 
 $$ 0 \to N/aN \to L/aL \to E/aE \to 0 $$
 
@@ -526,23 +535,25 @@ Let us now examine two cases:
 I. — Suppose first that every element of $\mathfrak{m} - \mathfrak{m}^{2}$ is a zero-divisor in $A$, in which case
 `(17.3.1.2)` there exists $c \neq 0$ in $A$ such that $c\mathfrak{m} = 0$. Let us show that then $\mathfrak{m} = 0$.
 Were this not so, let us first note that $\mathfrak{m}$ could not be a projective $A$-module, for it would be free
-`(Bourbaki, Alg. comm., chap. II, §3, nÂ° 2, cor. 2 of prop. 5)`, which contradicts the relation $c\mathfrak{m} = 0$. One
-would therefore have $n = \operatorname{dim{.}\,coh}(A) \geq 1$. Since $\mathfrak{m} \in \operatorname{Ass}(A)$, there would exist an exact sequence of
-$A$-homomorphisms
+`(Bourbaki, Alg. comm., chap. II, §3, nÂ° 2, cor. 2 of prop. 5)`, which contradicts the relation $c\mathfrak{m} = 0$.
+One would therefore have $n = \operatorname{dim{.}\,coh}(A) \geq 1$. Since $\mathfrak{m} \in \operatorname{Ass}(A)$,
+there would exist an exact sequence of $A$-homomorphisms
 
 $$ 0 \to k \to A \to E \to 0. $$
 
 But this is absurd, for by virtue of the relation $n \geq 1$, the exact sequence of Tor would give the exact sequence $0
-\to \operatorname{Tor}^{A}_{n+1}(E, k) \to \operatorname{Tor}^{A}_{n}(k, k) \to 0$; now one has $\operatorname{Tor}^{A}_{n+1}(E, k) = 0$ `(17.2.2, (ii))` and
-$\operatorname{Tor}^{A}_{n}(k, k) \neq 0$ `(17.2.11)`, and we have reached a contradiction.
+\to \operatorname{Tor}^{A}_{n+1}(E, k) \to \operatorname{Tor}^{A}_{n}(k, k) \to 0$; now one has
+$\operatorname{Tor}^{A}_{n+1}(E, k) = 0$ `(17.2.2, (ii))` and $\operatorname{Tor}^{A}_{n}(k, k) \neq 0$ `(17.2.11)`, and
+we have reached a contradiction.
 
 II. — One can therefore restrict to the case where there exists $a \in \mathfrak{m} - \mathfrak{m}^{2}$ which is an
 $A$-regular element, and consequently also $\mathfrak{m}$-regular. Consider the ring $A' = A/aA$ and its
 
 <!-- original page 144 -->
 
-maximal ideal $\mathfrak{m}' = \mathfrak{m}/aA$; it is clear that $\operatorname{rg}_{k}(\mathfrak{m}'/\mathfrak{m}'^{2}) = n - 1$. By
-virtue of `(17.3.1.4)`, $\mathfrak{m}/a\mathfrak{m}$ is an $A'$-module of finite projective dimension, hence so is
+maximal ideal $\mathfrak{m}' = \mathfrak{m}/aA$; it is clear that
+$\operatorname{rg}_{k}(\mathfrak{m}'/\mathfrak{m}'^{2}) = n - 1$. By virtue of `(17.3.1.4)`,
+$\mathfrak{m}/a\mathfrak{m}$ is an $A'$-module of finite projective dimension, hence so is
 $\mathfrak{m}' = \mathfrak{m}/aA$, which is a direct factor of it `(17.3.1.3 and 17.2.1)`. The induction hypothesis
 therefore implies that $A' = A/aA$ is regular, which proves by `(17.1.8)` that $A$ is regular.
 
@@ -552,8 +563,8 @@ therefore implies that $A' = A/aA$ is regular, which proves by `(17.1.8)` that $
 
 *If $A$ is a regular local ring, $A_{\mathfrak{p}}$ is regular for every prime ideal $\mathfrak{p}$ of $A$.*
 
-Indeed, one has seen `(17.2.10)` that $\operatorname{dim{.}\,coh}(A_{\mathfrak{p}}) \le \operatorname{dim{.}\,coh}(A)$, hence the conclusion follows at once from
-`(17.3.1)`.
+Indeed, one has seen `(17.2.10)` that $\operatorname{dim{.}\,coh}(A_{\mathfrak{p}}) \le \operatorname{dim{.}\,coh}(A)$,
+hence the conclusion follows at once from `(17.3.1)`.
 
 **Proposition (17.3.3).**
 
@@ -583,7 +594,8 @@ system of parameters of $A$).*
 
 $$ \dim(B) = \dim(A) + \dim(B \otimes_A k). \tag{17.3.3.2} $$
 
-(i) One has $\operatorname{dim{.}\,coh}(A) \le \operatorname{dim{.}\,coh}(B)$ by `(17.2.13)`, so it suffices to apply `(17.3.1)`.
+(i) One has $\operatorname{dim{.}\,coh}(A) \le \operatorname{dim{.}\,coh}(B)$ by `(17.2.13)`, so it suffices to apply
+`(17.3.1)`.
 
 (ii) When $A$ is assumed regular and $(x_{i})$ is a regular system of parameters of $A$, to say that $B$ is a flat
 $A$-module is equivalent, by virtue of `(15.1.21)`, to saying that the sequence of $y_{i} = \phi(x_{i})$ is $B$-regular
@@ -596,11 +608,11 @@ b$'$) $A$ and $B$ are regular and $(y_{i})_{1 \leq i \leq m}$ is part of a regul
 
 d$'$) $A$ is regular, $B/(\sum^{m}_{i=1} y_{i} B)$ is regular and the sequence $(y_{i})$ is $B$-regular.
 
-e$'$) $A$ is regular, $B/(\sum^{m}_{i=1} y_{i} B)$ is regular and the sequence $(y_{i})$ is part of a system of parameters
-of $B$.
+e$'$) $A$ is regular, $B/(\sum^{m}_{i=1} y_{i} B)$ is regular and the sequence $(y_{i})$ is part of a system of
+parameters of $B$.
 
-Now, b$'$) and e$'$) are equivalent by virtue of `(17.1.7)`, and since d$'$) implies e$'$) `(16.4.1)` and is implied by b$'$)
-`(17.1.7)`, it is equivalent to them. The conjunction
+Now, b$'$) and e$'$) are equivalent by virtue of `(17.1.7)`, and since d$'$) implies e$'$) `(16.4.1)` and is implied by
+b$'$) `(17.1.7)`, it is equivalent to them. The conjunction
 
 <!-- original page 145 -->
 
@@ -624,8 +636,8 @@ $\mathfrak{n}/(\mathfrak{n}^{2} + \mathfrak{m}B) = W/\psi(V \otimes_{k} k')$; on
 
 $$ \dim(B \otimes_A k) \le \operatorname{rg}_{k'} W - \operatorname{rg}_{k'} \psi(V \otimes_k k'). \tag{17.3.3.5} $$
 
-Finally, since $B$ is assumed regular, one has $\dim(B) = \operatorname{rg}_{k'} W$ `(17.1.1)`; one therefore concludes from
-`(17.3.3.3)`, `(17.3.3.4)` and `(17.3.3.5)` that one has
+Finally, since $B$ is assumed regular, one has $\dim(B) = \operatorname{rg}_{k'} W$ `(17.1.1)`; one therefore concludes
+from `(17.3.3.3)`, `(17.3.3.4)` and `(17.3.3.5)` that one has
 
 $$ \operatorname{rg}_{k'} W \le \dim(A) + \dim(B \otimes_A k) \le \operatorname{rg}_{k'} W + \operatorname{rg}_{k'}(V \otimes_k k') - \operatorname{rg}_{k'} \psi(V \otimes_k k') $$
 
@@ -671,7 +683,8 @@ that $\rho$ be injective (or, what comes to the same thing `(16.1.5)`, that $\di
 
 (i) This follows from `(17.3.4.1)` and from the fact that for an $A$-module of finite type, it comes to the same to say
 that this module is projective or free `(Bourbaki, Alg. comm., chap. II, §3, nÂ° 2, cor. 2 of prop. 5)`; the free
-$A$-modules of finite type $M$ are therefore characterized by the relation $\operatorname{dim{.}\,proj}(M) = 0$ `(17.2.2, (i))`.
+$A$-modules of finite type $M$ are therefore characterized by the relation $\operatorname{dim{.}\,proj}(M) = 0$
+`(17.2.2, (i))`.
 
 (ii) To say that $B$ is a Cohen-Macaulay ring is equivalent to saying that $B$ is a Cohen-Macaulay $A$-module
 `(16.5.3)`, hence it suffices to apply (i), since $\dim B = \dim A$ `(16.1.5)`.

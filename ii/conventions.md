@@ -5,55 +5,55 @@ already-translated sections.
 
 ## 1. Terminology
 
-| French | English |
-| --- | --- |
-| préschéma | prescheme (preserve EGA's 1961 distinction) |
-| schéma | scheme |
-| morphisme structural | structure morphism |
-| ouvert (n.) | open set |
-| ouvert affine | affine open |
-| Module (capitalized) | module (lowercase; type — $\mathcal{O}_{X}$-module vs $A$-module — comes from the prefix) |
-| Algèbre (capitalized) | algebra (lowercase; same as above) |
-| Idéal (capitalized) | sheaf of ideals (when on a scheme); ideal (in a ring) |
-| anneau gradué | graded ring |
-| module gradué | graded module |
-| Algèbre graduée | graded algebra |
-| quasi-cohérent | quasi-coherent |
-| cohérent | coherent |
-| inversible | invertible |
-| type fini | of finite type |
-| présentation finie | of finite presentation |
-| spectre premier homogène | homogeneous prime spectrum |
-| spectre homogène | homogeneous spectrum |
-| fibré projectif | projective bundle |
-| fibré vectoriel | vector bundle |
-| faisceau ample, très ample | ample sheaf, very ample sheaf |
-| morphisme affine | affine morphism |
-| morphisme quasi-affine | quasi-affine morphism |
-| morphisme propre | proper morphism |
-| morphisme projectif | projective morphism |
-| morphisme quasi-projectif | quasi-projective morphism |
-| morphisme entier | integral morphism |
-| morphisme fini | finite morphism |
-| morphisme quasi-fini | quasi-finite morphism |
-| morphisme propre | proper morphism |
-| universellement fermé | universally closed |
-| séparé | separated |
-| anneau de valuation | valuation ring |
-| critère valuatif | valuative criterion |
-| éclatement, préschéma éclaté | blow-up, blow-up prescheme |
-| cône affine, cône projectif | affine cone, projective cone |
-| cône projetant | projecting cone |
-| fermeture projective | projective closure |
-| Idéal fractionnaire | fractional ideal sheaf |
-| fonctions rationnelles, faisceau $\mathcal{R}(Y)$ | rational functions, sheaf $\mathcal{R}(Y)$ |
-| birationnel | birational |
-| domination | domination |
-| dominant (morphisme) | dominant |
-| di-homomorphisme | di-homomorphism |
-| anneau local | local ring |
-| corps résiduel | residue field, written $\kappa(x)$ (matching SGA I) |
-| (T.F.), (T.N.) conditions | (TF), (TN) conditions |
+| French                                            | English                                                                                   |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| préschéma                                         | prescheme (preserve EGA's 1961 distinction)                                               |
+| schéma                                            | scheme                                                                                    |
+| morphisme structural                              | structure morphism                                                                        |
+| ouvert (n.)                                       | open set                                                                                  |
+| ouvert affine                                     | affine open                                                                               |
+| Module (capitalized)                              | module (lowercase; type — $\mathcal{O}_{X}$-module vs $A$-module — comes from the prefix) |
+| Algèbre (capitalized)                             | algebra (lowercase; same as above)                                                        |
+| Idéal (capitalized)                               | sheaf of ideals (when on a scheme); ideal (in a ring)                                     |
+| anneau gradué                                     | graded ring                                                                               |
+| module gradué                                     | graded module                                                                             |
+| Algèbre graduée                                   | graded algebra                                                                            |
+| quasi-cohérent                                    | quasi-coherent                                                                            |
+| cohérent                                          | coherent                                                                                  |
+| inversible                                        | invertible                                                                                |
+| type fini                                         | of finite type                                                                            |
+| présentation finie                                | of finite presentation                                                                    |
+| spectre premier homogène                          | homogeneous prime spectrum                                                                |
+| spectre homogène                                  | homogeneous spectrum                                                                      |
+| fibré projectif                                   | projective bundle                                                                         |
+| fibré vectoriel                                   | vector bundle                                                                             |
+| faisceau ample, très ample                        | ample sheaf, very ample sheaf                                                             |
+| morphisme affine                                  | affine morphism                                                                           |
+| morphisme quasi-affine                            | quasi-affine morphism                                                                     |
+| morphisme propre                                  | proper morphism                                                                           |
+| morphisme projectif                               | projective morphism                                                                       |
+| morphisme quasi-projectif                         | quasi-projective morphism                                                                 |
+| morphisme entier                                  | integral morphism                                                                         |
+| morphisme fini                                    | finite morphism                                                                           |
+| morphisme quasi-fini                              | quasi-finite morphism                                                                     |
+| morphisme propre                                  | proper morphism                                                                           |
+| universellement fermé                             | universally closed                                                                        |
+| séparé                                            | separated                                                                                 |
+| anneau de valuation                               | valuation ring                                                                            |
+| critère valuatif                                  | valuative criterion                                                                       |
+| éclatement, préschéma éclaté                      | blow-up, blow-up prescheme                                                                |
+| cône affine, cône projectif                       | affine cone, projective cone                                                              |
+| cône projetant                                    | projecting cone                                                                           |
+| fermeture projective                              | projective closure                                                                        |
+| Idéal fractionnaire                               | fractional ideal sheaf                                                                    |
+| fonctions rationnelles, faisceau $\mathcal{R}(Y)$ | rational functions, sheaf $\mathcal{R}(Y)$                                                |
+| birationnel                                       | birational                                                                                |
+| domination                                        | domination                                                                                |
+| dominant (morphisme)                              | dominant                                                                                  |
+| di-homomorphisme                                  | di-homomorphism                                                                           |
+| anneau local                                      | local ring                                                                                |
+| corps résiduel                                    | residue field, written $\kappa(x)$ (matching SGA I)                                       |
+| (T.F.), (T.N.) conditions                         | (TF), (TN) conditions                                                                     |
 
 ## 2. Mathematical glyphs
 

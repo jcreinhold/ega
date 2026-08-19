@@ -271,9 +271,8 @@ $(\mathcal{O}_{X}|U)$-Module.*
 
 Indeed, $\mathcal{F}_{x}$ is an $\mathcal{O}_{x}$-module of finite presentation and $\mathcal{O}_{x}$ a local ring; it
 therefore amounts to the same to say that $\mathcal{F}_{x}$ is a flat $\mathcal{O}_{x}$-module or a free
-$\mathcal{O}_{x}$-module (Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 2, cor. 2 of prop. 5); whence the
-conclusion, taking account of $(0_{I}, 5.2.7)$. We note that the proposition is valid for an arbitrary ringed space in
-local rings.
+$\mathcal{O}_{x}$-module (Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 2, cor. 2 of prop. 5); whence the conclusion, taking
+account of $(0_{I}, 5.2.7)$. We note that the proposition is valid for an arbitrary ringed space in local rings.
 
 **Proposition (2.1.13).**
 
@@ -291,8 +290,8 @@ Set $\mathcal{O}_{f(x)} = A$, $\mathcal{O}_{x} = B$. If $B$ is a flat $A$-module
 $A$-module $(0_{I}, 6.6.2)$, so $A$ is identified with a subring of $B$; if $B$ is reduced, so therefore is $A$. Suppose
 now that $B$ is integral and integrally closed, and let $L$ be its field of fractions; then $A \subset B$ is integral;
 denote by $K \subset L$ its field of fractions. The hypothesis entails that $B \cap K = A$ (Bourbaki, _Alg. comm._,
-chap. I, §3, nÂ° 5, prop. 10). If then $t \in K$ is integral over $A$, it is also integral over $B$, hence
-belongs to $B$ by hypothesis, and consequently $t \in A$, which proves that $A$ is integrally closed.
+chap. I, §3, nÂ° 5, prop. 10). If then $t \in K$ is integral over $A$, it is also integral over $B$, hence belongs to
+$B$ by hypothesis, and consequently $t \in A$, which proves that $A$ is integrally closed.
 
 **Proposition (2.1.14).**
 
@@ -624,9 +623,9 @@ element of $B$.*
 
 <!-- original page 14 -->
 
-By virtue of Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 3, prop. 12, it suffices to prove the proposition when
-$A$ is a local ring; one then knows (_loc. cit._, nÂ° 2, cor. 2 of prop. 5) that $B$ is a free $A$-module of
-finite type, and the conclusion follows from _loc. cit._, prop. 5.
+By virtue of Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 3, prop. 12, it suffices to prove the proposition when $A$ is a
+local ring; one then knows (_loc. cit._, nÂ° 2, cor. 2 of prop. 5) that $B$ is a free $A$-module of finite type, and the
+conclusion follows from _loc. cit._, prop. 5.
 
 ## 2.3. Topological properties of flat morphisms
 
@@ -835,8 +834,8 @@ $$
 such that $u$ and $v$ are injective `(I, 1.2.7)`; identifying $A$ and $\hat{A}$ with subrings of $\mathcal{O}_{x'}$, and
 denoting by $\mathfrak{r}$ the maximal ideal of $\mathcal{O}_{x'}$, the intersection of the ideals $\mathfrak{r}^{k}
 \cap \hat{A}$ is therefore zero $(0_{I}, 7.3.5)$; since $\hat{A}$ is complete and these ideals are open in $\hat{A}$,
-this entails (Bourbaki, _Alg. comm._, chap. III, §2, nÂ° 7, prop. 8) that the topology of $\hat{A}$ is induced
-by the $\mathfrak{r}$-preadic topology of $\mathcal{O}_{x'}$; a fortiori the same is true of the topology of $A$
+this entails (Bourbaki, _Alg. comm._, chap. III, §2, nÂ° 7, prop. 8) that the topology of $\hat{A}$ is induced by the
+$\mathfrak{r}$-preadic topology of $\mathcal{O}_{x'}$; a fortiori the same is true of the topology of $A$
 $(0_{I}, 7.3.5)$. Moreover one has $\mathfrak{n}^{k} \cap A \subset \mathfrak{r}^{k} \cap A$, so the
 $\mathfrak{n}$-preadic topology of $B$ induces on $A$ a topology finer than the $\mathfrak{m}$-preadic topology; but
 since $\mathfrak{m}^{k} \subset \mathfrak{n}^{k} \cap A$, these two topologies are identical. Q.E.D.
@@ -1018,10 +1017,10 @@ resp. a
 
 homeomorphism onto its image, resp. a bijective homeomorphism), so is $g$, and so the matter is a purely topological
 question. For the case where $g \circ f$ is open (resp. closed), the fact that $g$ is then open (resp. closed) results
-from Bourbaki, _Top. gén._, chap. I, 3rd ed., §5, nÂ° 1, prop. 1; for the two other cases, one may restrict to
-supposing that $g(f(X)) = g(Y) = Z$, in other words to the case where $g \circ f$ is a homeomorphism of $X$ onto $Z$;
-since $f$ is surjective, $g$ is necessarily bijective, and since $g$ is a continuous open map by what precedes, $g$ is
-indeed a homeomorphism of $Y$ onto $Z$.
+from Bourbaki, _Top. gén._, chap. I, 3rd ed., §5, nÂ° 1, prop. 1; for the two other cases, one may restrict to supposing
+that $g(f(X)) = g(Y) = Z$, in other words to the case where $g \circ f$ is a homeomorphism of $X$ onto $Z$; since $f$ is
+surjective, $g$ is necessarily bijective, and since $g$ is a continuous open map by what precedes, $g$ is indeed a
+homeomorphism of $Y$ onto $Z$.
 
 To prove (vi), note that saying that a morphism $g$ is open (resp. closed, resp. a homeomorphism onto its image, resp. a
 bijective homeomorphism) amounts to saying that $g_{red}$ has the same property. On the other hand `(I, 5.1.8)`, for
@@ -1193,10 +1192,10 @@ being:*
 sufficient that $\mathcal{F}'$ possess it.*
 
 For a quasi-coherent $\mathcal{O}_{X}$-Module to be locally free of finite type, it is necessary and sufficient that it
-be flat over $X$ and of finite presentation (Bourbaki, *Alg. comm.*, chap. II, §5, nÂ° 2, cor. 2 of th. 1,
-taking `(2.1.2)` into account); since $\mathcal{F}$ is flat over $X$ if and only if $\mathcal{F}'$ is flat over $X'$ by
-virtue of `(2.5.1)` (applied with $f$ taken to be the identity), one sees that in order to prove the proposition in case
-(iii) it suffices to have proved it in cases (i) and (ii); the same holds for (iv), since $f*(\mathcal{O}_{X}) =
+be flat over $X$ and of finite presentation (Bourbaki, *Alg. comm.*, chap. II, §5, nÂ° 2, cor. 2 of th. 1, taking
+`(2.1.2)` into account); since $\mathcal{F}$ is flat over $X$ if and only if $\mathcal{F}'$ is flat over $X'$ by virtue
+of `(2.5.1)` (applied with $f$ taken to be the identity), one sees that in order to prove the proposition in case (iii)
+it suffices to have proved it in cases (i) and (ii); the same holds for (iv), since $f*(\mathcal{O}_{X}) =
 \mathcal{O}_{X'}$, so that if $\mathcal{F}$ and $\mathcal{F}'$ are locally free of finite type and $x = f(x')$, the rank
 of $\mathcal{F}'$ at $x'$ equals that of $\mathcal{F}$ at $x$, and our assertion follows from the surjectivity of $f$.
 To treat cases (i) and (ii),
@@ -1351,10 +1350,10 @@ holds:*
 
 *b') $u$ is an epimorphism of $V$ onto $W$.*
 
-One knows that an epimorphism of an $A$-module $E$ onto itself is bijective in the following two cases: 1Â° $E$
-is a Noetherian $A$-module (Bourbaki, *Alg.*, chap. VIII, §2, nÂ° 2, lemma 3); 2Â° $A$ is commutative
-and $E$ is an $A$-module of finite presentation `(8.9.3)` (${}^{1}$); hence b) and b') are equivalent. On the other
-hand, if $u$ generates $M$
+One knows that an epimorphism of an $A$-module $E$ onto itself is bijective in the following two cases: 1Â° $E$ is a
+Noetherian $A$-module (Bourbaki, *Alg.*, chap. VIII, §2, nÂ° 2, lemma 3); 2Â° $A$ is commutative and $E$ is an
+$A$-module of finite presentation `(8.9.3)` (${}^{1}$); hence b) and b') are equivalent. On the other hand, if $u$
+generates $M$
 
 ______________________________________________________________________
 
@@ -1382,8 +1381,8 @@ presentation.*
 *Then, if $V'$ and $W'$ are isomorphic as $B'$-modules, $V$ and $W$ are isomorphic as $B$-modules.*
 
 We note that in case (ii), $W'$, being $A'$-isomorphic to $V'$, is an $A'$-module of finite type, from which it follows
-that $W$ is an $A$-module of finite type (Bourbaki, *Alg. comm.*, chap. I, §3, nÂ° 6, prop. 11); hence in all
-cases $V$ and $W$ are $A$-modules of finite type. Furthermore:
+that $W$ is an $A$-module of finite type (Bourbaki, *Alg. comm.*, chap. I, §3, nÂ° 6, prop. 11); hence in all cases $V$
+and $W$ are $A$-modules of finite type. Furthermore:
 
 *(2.5.8.1) Under either of the hypotheses (i), (ii), $\operatorname{Hom}_{B}(V, W)$ is an $A$-module of finite type.*
 
@@ -1442,8 +1441,8 @@ where $r$ is the homomorphism `(2.5.8.4)`, $s$ is the homomorphism `(2.5.8.2)`, 
 $$ (\operatorname{Hom}_{A}(V, W))^{I} \otimes_{A} A' \xrightarrow{w} (\operatorname{Hom}_{A}(V, W) \otimes_{A} A')^{I}
 \xrightarrow{s^{I}} (\operatorname{Hom}_{A'}(V', W'))^{I}, $$
 
-$w$ being the canonical homomorphism (Bourbaki, *Alg.*, chap. II, 3rd ed., §3, nÂ° 7). One verifies at once that
-the diagram `(2.5.8.5)` is commutative, and since $A'$ is a flat $A$-module its rows are exact. Finally, we have seen
+$w$ being the canonical homomorphism (Bourbaki, *Alg.*, chap. II, 3rd ed., §3, nÂ° 7). One verifies at once that the
+diagram `(2.5.8.5)` is commutative, and since $A'$ is a flat $A$-module its rows are exact. Finally, we have seen
 
 <!-- original page 26 -->
 

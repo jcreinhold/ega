@@ -1156,8 +1156,8 @@ $$ \Gamma(X, \mathcal{K} \otimes \mathcal{L}^{\otimes n}) \xrightarrow{\sim} \Ga
 The section $s$ of $\mathcal{K} \otimes \mathcal{L}^{\otimes n}$ corresponding to `s''` under this isomorphism evidently
 has the desired properties.
 
-2Â° One has $x \in Z$. Let $\mathcal{J}$ be the coherent ideal sheaf of $\mathcal{O}_{X}$ defining the closed
-reduced sub-prescheme of $X$ having for underlying space $X - U$, and consider in $\mathcal{B}$ the coherent ideals
+2Â° One has $x \in Z$. Let $\mathcal{J}$ be the coherent ideal sheaf of $\mathcal{O}_{X}$ defining the closed reduced
+sub-prescheme of $X$ having for underlying space $X - U$, and consider in $\mathcal{B}$ the coherent ideals
 
 <!-- original page 114 -->
 

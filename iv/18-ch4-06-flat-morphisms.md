@@ -36,8 +36,8 @@ $\mathfrak{q}_{i}$ ($1 \leq i \leq s$) be the minimal prime ideals of $B$, and s
 there would exist a prime ideal $\mathfrak{p} \neq \mathfrak{m}$ contained in $\mathfrak{p}_{i}$, and since
 $\mathfrak{q}_{i}$ is minimal among prime ideals of $B$ containing $\mathfrak{p}B$, one would reach a contradiction with
 the hypothesis. Consequently $\mathfrak{m}$ is distinct from the union of the $\mathfrak{p}_{i}$ and of the minimal
-prime ideals $\mathfrak{p}'_{j}$ ($1 \leq j \leq r$) of $A$ (Bourbaki, *Alg. comm.*, chap. II, §1, nÂ° 1, prop.
-2), and there exists $a \in \mathfrak{m}$ belonging to none of the $\mathfrak{p}_{i}$ nor the $\mathfrak{p}'_{j}$. Set
+prime ideals $\mathfrak{p}'_{j}$ ($1 \leq j \leq r$) of $A$ (Bourbaki, *Alg. comm.*, chap. II, §1, nÂ° 1, prop. 2), and
+there exists $a \in \mathfrak{m}$ belonging to none of the $\mathfrak{p}_{i}$ nor the $\mathfrak{p}'_{j}$. Set
 $A' = A/aA$, $B' = B/aB$; one has (0, 16.3.4)
 
 $$ \dim(A') = \dim(A) - 1, \qquad \dim(B') = \dim(B) - 1 $$
@@ -854,8 +854,8 @@ property.*
 If $X = \operatorname{Spec}(K)$, where $K$ is an extension of $k$, it amounts to the same to say that $X$ is
 geometrically regular, or geometrically normal, or geometrically reduced, or that $K$ is a separable extension of $k$:
 this follows from (4.6.1) and from the fact that if $K$ is a separable extension of $k$ and $k'$ a finite extension of
-$k$, $K \otimes_{k} k'$ is a direct composite of a finite number of fields (Bourbaki, *Alg.*, chap. VIII, §7,
-nÂ° 3, cor. 1 of th. 1).
+$k$, $K \otimes_{k} k'$ is a direct composite of a finite number of fields (Bourbaki, *Alg.*, chap. VIII, §7, nÂ° 3,
+cor. 1 of th. 1).
 
 <!-- original page 149 -->
 
@@ -1642,12 +1642,12 @@ such that $\mathcal{F}$ satisfies $(S_{n})$ at the point $y$ and at all points o
 there exists in $X$ an open neighbourhood of $y$ such that $\mathcal{F}$ satisfies $(S_{n})$ in this neighbourhood. Let
 us then distinguish two cases:
 
-*1Â°* $y$ is a maximal point of $X$; since there exists an open neighbourhood of $y$ meeting no irreducible
-component of $X$ other than $\bar{y}$, one may suppose that $X$ is irreducible, hence has the same underlying space as
-$Y$, so that $Y$ is defined by the Nilradical of $\mathcal{O}_{X}$, which is nilpotent. On the other hand, one may,
-replacing $X$ by an open neighbourhood of $y$, suppose that $\mathcal{F}$ is normally flat along $Y$ (6.9.1); it then
-follows from (6.10.4) that $U_{S_{n}}(\mathcal{F}) = U_{S_{n}}(\mathcal{O}_{Y})$, and since the latter is by hypothesis
-a neighbourhood of $y$ in $X$, this proves the proposition in this case.
+*1Â°* $y$ is a maximal point of $X$; since there exists an open neighbourhood of $y$ meeting no irreducible component of
+$X$ other than $\bar{y}$, one may suppose that $X$ is irreducible, hence has the same underlying space as $Y$, so that
+$Y$ is defined by the Nilradical of $\mathcal{O}_{X}$, which is nilpotent. On the other hand, one may, replacing $X$ by
+an open neighbourhood of $y$, suppose that $\mathcal{F}$ is normally flat along $Y$ (6.9.1); it then follows from
+(6.10.4) that $U_{S_{n}}(\mathcal{F}) = U_{S_{n}}(\mathcal{O}_{Y})$, and since the latter is by hypothesis a
+neighbourhood of $y$ in $X$, this proves the proposition in this case.
 
 <!-- original page 162 -->
 
@@ -1681,10 +1681,10 @@ Since one has supposed that $\mathcal{F}$ satisfies $(S_{n})$ at every point of 
 *(ii) For the set $U_{S_{2}}(\mathcal{F})$ to be open, it suffices that every maximal point $x$ of $Supp(\mathcal{F})$
 belonging to $U_{S_{1}}(\mathcal{F})$ be interior to $U_{S_{1}}(\mathcal{F})$.*
 
-Assertion (i) was proved in the course of the proof of (6.11.6); on the other hand, for $n = 2$ case *2Â°* of
-the proof of (6.11.6) is valid without any hypothesis on $X$, since (with the same notation) $U_{S_{1}}(\mathcal{F})$
-and $U_{S_{1}}(\mathcal{F}/f\mathcal{F})$ are open in $X$. As to case *1Â°* of this proof, the hypothesis
-precisely assures that it is unnecessary to consider it.
+Assertion (i) was proved in the course of the proof of (6.11.6); on the other hand, for $n = 2$ case *2Â°* of the proof
+of (6.11.6) is valid without any hypothesis on $X$, since (with the same notation) $U_{S_{1}}(\mathcal{F})$ and
+$U_{S_{1}}(\mathcal{F}/f\mathcal{F})$ are open in $X$. As to case *1Â°* of this proof, the hypothesis precisely assures
+that it is unnecessary to consider it.
 
 **Proposition (6.11.8).**
 
@@ -1726,12 +1726,12 @@ integral ring
 
 containing $A$ and which is an $A$-algebra of finite type. Replacing $A$ if necessary by a ring of fractions $A_{f}$
 (with $f \neq 0$), one may moreover suppose that $A'$ contains a polynomial ring $A[T_{1}, \cdots, T_{n}] = A''$, and is
-a finite $A''$-algebra (Bourbaki, *Alg. comm.*, chap. V, §3, nÂ° 1, cor. 1 of th. 1). But $A''$ is a
-Cohen-Macaulay ring (6.3.6); so one may restrict to the case where moreover $A'$ is a finite $A$-algebra. There is then
-$g \neq 0$ in $A$ such that $A'_{g}$ is a free $A_{g}$-module of finite type (Bourbaki, *Alg. comm.*, chap. II, §5,
-nÂ° 1, cor. of prop. 2), hence one may suppose moreover that $A'$ is a free $A$-module. But then $A'$ is a
-Cohen-Macaulay $A$-module (0, 16.5.1), and since $A'$ is an $A$-module of finite type, $A'$ is also a Cohen-Macaulay
-$A'$-module (0, 16.5.3), hence a Cohen-Macaulay ring.
+a finite $A''$-algebra (Bourbaki, *Alg. comm.*, chap. V, §3, nÂ° 1, cor. 1 of th. 1). But $A''$ is a Cohen-Macaulay ring
+(6.3.6); so one may restrict to the case where moreover $A'$ is a finite $A$-algebra. There is then $g \neq 0$ in $A$
+such that $A'_{g}$ is a free $A_{g}$-module of finite type (Bourbaki, *Alg. comm.*, chap. II, §5, nÂ° 1, cor. of prop.
+2), hence one may suppose moreover that $A'$ is a free $A$-module. But then $A'$ is a Cohen-Macaulay $A$-module (0,
+16.5.1), and since $A'$ is an $A$-module of finite type, $A'$ is also a Cohen-Macaulay $A'$-module (0, 16.5.3), hence a
+Cohen-Macaulay ring.
 
 *(ii)* Suppose there exists a coherent $\mathcal{O}_{X}$-Module $\mathcal{F}$ such that $Supp(\mathcal{F}) = X$ and
 $\mathcal{F}$ is a Cohen-Macaulay $\mathcal{O}_{X}$-Module. Then $X$ satisfies the condition (CMU): indeed, with the
@@ -1971,9 +1971,9 @@ open in $X$.*
 Let us verify condition c) of (6.12.4). If $\mathfrak{p}$ is prime in $A$, $A/\mathfrak{p}$ is still a complete
 Noetherian local ring; if $K'$ is a finite extension of the fraction field $K$ of $A/\mathfrak{p}$, then $K'$ is the
 fraction field of a finite sub-$A$-algebra $A'$ of $K'$, generated by a system of generators of $K'$ over $K$, integral
-over $A$. One knows then that $A'$ is a complete semi-local ring (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5,
-cor. 3 of prop. 9), hence a product of complete local rings, and since $A'$ is integral, it is a complete local ring; by
-virtue of (6.12.7), if $X' = \operatorname{Spec}(A')$, $Reg(X')$ is open and non-empty, whence the conclusion.
+over $A$. One knows then that $A'$ is a complete semi-local ring (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, cor. 3 of
+prop. 9), hence a product of complete local rings, and since $A'$ is integral, it is a complete local ring; by virtue of
+(6.12.7), if $X' = \operatorname{Spec}(A')$, $Reg(X')$ is open and non-empty, whence the conclusion.
 
 **Proposition (6.12.9).**
 
@@ -2129,10 +2129,10 @@ is open in $\operatorname{Spec}(A)$, $Nor(\operatorname{Spec}(A'))$ is open in $
 It is a question of proving (in view of (6.13.2)) that the generic point of $\operatorname{Spec}(A')$ is interior to
 $Nor(\operatorname{Spec}(A'))$. The proof follows the same course as that of (6.12.4.1), whose notations we retain. One
 remarks first that one may suppose that $A$ is integrally closed, and then one knows that $A_{1} = A[t_{1}, \cdots,
-t_{n}]$ is integrally closed (Bourbaki, *Alg. comm.*, chap. V, §1, nÂ° 3, cor. 2 of prop. 13); one then reduces
-to the case where $A'$ is a free $A$-module of finite type; the reasoning of (6.12.4.1) then proves (replacing $A$ if
-necessary by a ring $A_{f}$ with $f \neq 0$) that the fibres $g^{-1}(x)$ of the morphism $g : X' \to X$ are regular and
-*a fortiori* normal. Moreover $g$ is flat and $X$ is normal, hence (6.5.4, (ii)) $X'$ is normal.
+t_{n}]$ is integrally closed (Bourbaki, *Alg. comm.*, chap. V, §1, nÂ° 3, cor. 2 of prop. 13); one then reduces to the
+case where $A'$ is a free $A$-module of finite type; the reasoning of (6.12.4.1) then proves (replacing $A$ if necessary
+by a ring $A_{f}$ with $f \neq 0$) that the fibres $g^{-1}(x)$ of the morphism $g : X' \to X$ are regular and *a
+fortiori* normal. Moreover $g$ is flat and $X$ is normal, hence (6.5.4, (ii)) $X'$ is normal.
 
 This lemma being proved, one passes to the general case as in (6.12.4; II)), whose notations we again retain; applying
 hypothesis c), one sees this time that $Nor(X_{1})$ is open and one thus reduces to the case where $X_{1}$ is normal and
@@ -2551,9 +2551,9 @@ fraction field of $B$, and consider in $R$ the element $t = v(u + w)/u$, which d
 B[t]$ is the integral closure of $B$. Indeed, one has $t^{2} = u^{2} - w^{2}$, hence $t$ is integral over $B$, and $v =
 tu/(u + w)$; the ring $C_{1} = K[t, u, w]$ is integrally closed, for it is isomorphic to $K[T, U, W]/(T^{2} - U^{2} +
 W^{2})$ and is therefore the integral closure of the integrally closed ring $K[U, W]$ in the quadratic extension $K(U,
-W)(\sqrt{(U^{2} - W^{2})})$ of its fraction field (Bourbaki, *Alg. comm.*, chap. V, §1, nÂ° 6, prop. 18). The
-ring of fractions $K[t, u, w, 1/(u + w)]$ of $C_{1}$ is therefore also integrally closed. In the same way, one sees that
-the ring $C_{2} = K[t, v, w]$ is integrally closed, for $t$ satisfies an integral dependence equation over $K[v, w]$ (an
+W)(\sqrt{(U^{2} - W^{2})})$ of its fraction field (Bourbaki, *Alg. comm.*, chap. V, §1, nÂ° 6, prop. 18). The ring of
+fractions $K[t, u, w, 1/(u + w)]$ of $C_{1}$ is therefore also integrally closed. In the same way, one sees that the
+ring $C_{2} = K[t, v, w]$ is integrally closed, for $t$ satisfies an integral dependence equation over $K[v, w]$ (an
 explicit polynomial relation deducible from $t^{2} = u^{2} - w^{2}$ and $v = tu/(u + w)$ by eliminating $u$), and
 consequently $K[t, v, w, 1/(t - v)] = K[t, v/(u + w), w, 1/(tw)]$ is integrally closed. Finally, taking into account
 that $u$ and $w$ are algebraically independent over $K$, one easily proves that $C = K[t, u, v, w] = K[t, u, w, 1/(u +

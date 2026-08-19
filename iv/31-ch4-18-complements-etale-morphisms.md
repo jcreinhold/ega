@@ -106,8 +106,8 @@ $X(S'_{0})_{S} = \Gamma(X'_{0}/S'_{0})$; the corollary follows from the fact tha
 ## 18.2. Étale covers
 
 **(18.2.1)** Given a ring $A$ and a commutative $A$-algebra $B$ which is *finite* and is a *free* $A$-module, recall
-(Bourbaki, _Alg._, chap. VIII, §12, nÂ° 2) that one defines on $B$ an $A$-linear form $Tr_{B/A}$, the "*trace
-form*"; from this one deduces the definition of a *symmetric $A$-bilinear form* (also called the "*trace form*")
+(Bourbaki, _Alg._, chap. VIII, §12, nÂ° 2) that one defines on $B$ an $A$-linear form $Tr_{B/A}$, the "*trace form*";
+from this one deduces the definition of a *symmetric $A$-bilinear form* (also called the "*trace form*")
 
 $$ (18.2.1.1) (x, y) \mapsto Tr_{B/A}(xy) $$
 
@@ -341,9 +341,9 @@ equivalent to saying that $B$ is an $A$-algebra of finite presentation `(1.4.6)`
 that $B$ is an unramified $A$-algebra means then `(17.4.2)` that $\operatorname{Spec}((B \otimes_{A}
 B)/\mathfrak{J}_{B/A})$ is a sub-scheme induced on an open and closed subset of $\operatorname{Spec}(B \otimes_{A} B)$,
 and one knows that for this to be so, it is necessary and sufficient that $\mathfrak{J}_{B/A}$ be a direct factor ideal
-of $B \otimes_{A} B$ (Bourbaki, _Alg. comm._, chap. II, §4, nÂ° 3, prop. 15); but it amounts to the same to say
-that the $(B \otimes_{A} B)$-module quotient $(B \otimes_{A} B)/\mathfrak{J}_{B/A}$ is projective (Bourbaki, _Alg._,
-chap. II, 3rd ed., §2, nÂ° 2, prop. 4).
+of $B \otimes_{A} B$ (Bourbaki, _Alg. comm._, chap. II, §4, nÂ° 3, prop. 15); but it amounts to the same to say that the
+$(B \otimes_{A} B)$-module quotient $(B \otimes_{A} B)/\mathfrak{J}_{B/A}$ is projective (Bourbaki, _Alg._, chap. II,
+3rd ed., §2, nÂ° 2, prop. 4).
 
 (ii) If one recalls that a flat $A$-module of finite presentation is projective and conversely (Bourbaki, _Alg. comm._,
 chap. II, §5, nÂ° 2, cor. 2 of th. 1), the assertion of (ii) follows from that of (i) and from `(17.6.2)`.
@@ -539,8 +539,7 @@ The hypothesis that $u' \notin \mathfrak{q}$ entails that $\Omega^{1}_{B_{\mathf
 virtue of Euclidean division; since the annihilator $\mathfrak{J}'$ of $\Omega^{1}_{B/A}$ is then equal to $u' B$ by
 virtue of `(18.4.1)`, and $\Omega^{1}_{B/A}$ is a $B$-module of finite presentation `(16.4.22)`, the annihilator of
 $\Omega^{1}_{B_{\mathfrak{q}}/A_{\mathfrak{p}}}$ is equal to $u' B_{\mathfrak{q}}$ (Bourbaki, _Alg. comm._, chap. II,
-§2, nÂ° 4, formula (9)), and (ii) follows therefore from (i) and from the implication c) $\Rightarrow$ a) in
-`(17.6.1)`.
+§2, nÂ° 4, formula (9)), and (ii) follows therefore from (i) and from the implication c) $\Rightarrow$ a) in `(17.6.1)`.
 
 **Corollary (18.4.3).**
 
@@ -643,8 +642,8 @@ C_{\mathfrak{r}}/\mathfrak{r} C_{\mathfrak{r}}$ is a finite separable extension 
 form $k[v]$, where $v$ is separable over $k$. Let $\mathfrak{r}_{i}$ $(1 \leqslant i \leqslant h)$ be the maximal ideals
 of the semi-local ring $C$ other than $\mathfrak{r}$; there exists an element $u \in C$ belonging to all the
 $\mathfrak{r}_{i}$ and such that its image in $C/\mathfrak{r}$ is equal to $v$ (Bourbaki, _Alg. comm._, chap. II, §1,
-nÂ° 2, prop. 5). We shall show that the sub-$A$-algebra $B = A[u]$ of $C$ and the ideal (necessarily maximal
-since $C$ is finite over $B$) $\mathfrak{n} = \mathfrak{r} \cap B$ of $B$ answer the question.
+nÂ° 2, prop. 5). We shall show that the sub-$A$-algebra $B = A[u]$ of $C$ and the ideal (necessarily maximal since $C$
+is finite over $B$) $\mathfrak{n} = \mathfrak{r} \cap B$ of $B$ answer the question.
 
 To handle the case where $\mathcal{O}_{X, x}$ is a formally unramified $A$-algebra, it will suffice to prove that
 $B_{\mathfrak{n}}$ is isomorphic to $C_{\mathfrak{r}}$; indeed, $B_{\mathfrak{n}}$ will then be formally unramified over
@@ -909,8 +908,8 @@ from `(18.4.12, (ii))`, taking `(17.1.2, (i))` into account. To prove (i), note 
 $k$-algebra, one has $\Omega^{1}_{B \otimes_{A} k/k} = 0$ `(17.2.1)`. Now one has $\Omega^{1}_{B \otimes_{A} k/k} =
 \Omega^{1}_{B/A} \otimes_{B} (B \otimes_{A} k)$ `(0, 20.5.5)`, and since $B$ is an $A$-algebra of finite type,
 $\Omega^{1}_{B/A}$ is a $B$-module of finite type `(0, 20.4.7)`. But since $B$ is a finite $A$-algebra, $\mathfrak{m} B$
-is contained in the radical of $B$ (Bourbaki, _Alg. comm._, chap. V, §2, nÂ° 1, prop. 1), hence Nakayama's lemma
-proves that $\Omega^{1}_{B/A} = 0$, and consequently $B$ is a formally unramified $A$-algebra `(17.2.1)`.
+is contained in the radical of $B$ (Bourbaki, _Alg. comm._, chap. V, §2, nÂ° 1, prop. 1), hence Nakayama's lemma proves
+that $\Omega^{1}_{B/A} = 0$, and consequently $B$ is a formally unramified $A$-algebra `(17.2.1)`.
 
 ## 18.5. Henselian local rings[^18.5-azumaya-nagata]
 
@@ -1203,8 +1202,7 @@ maximal ideals $\mathfrak{m}_{i}$ of $A$; the conclusion follows from `(18.5.6, 
 \otimes_{A} k)$ is a spectrum of an Artinian ring, hence finite and discrete. To say that the couple
 $(\operatorname{Spec}(A), \operatorname{Spec}(k))$ is Henselian therefore signifies that $B$ is direct composite of
 rings $A_{i}$ such that $\operatorname{Spec}(A_{i} \otimes_{A} k)$ is reduced to a point, that is to say that $A_{i}$
-(which is a finite $A$-algebra) must have only one maximal ideal (Bourbaki, _Alg. comm._, chap. V, §2, nÂ° 1,
-prop. 1).
+(which is a finite $A$-algebra) must have only one maximal ideal (Bourbaki, _Alg. comm._, chap. V, §2, nÂ° 1, prop. 1).
 
 The study of Henselian rings is therefore essentially reduced to that of Henselian local rings.
 
@@ -1357,11 +1355,11 @@ canonical images of $T$ in $B$ and $B_{0}$; since $B'_{0}$ (resp. $B''_{0}$) is 
 $t'_{0} = e'_{0} t_{0}$ (resp. $t''_{0} = e''_{0} t_{0}$), it admits a basis of the form ${e'_{0}, t'_{0}, {t'}^{2}_{0},
 \cdots, {t'}^{s-1}_{0}}$ (resp. ${e''_{0}, t''_{0}, {t''}^{2}_{0}, \cdots, {t''}^{r-1}_{0}}$) with $r + s = n$. On the
 other hand, $B$ being a free $A$-module (with basis ${1, t, \cdots, t^{n-1}}$), $B'$ and $B''$ are projective
-$A$-modules, hence free since $A$ is a local ring (Bourbaki, _Alg. comm._, chap. II, §5, nÂ° 3, cor. of prop.
-5); it therefore follows from what precedes and from Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 3, prop. 5, that
-if one puts $t' = e't$, $t'' = e''t$, ${e', t', \cdots, {t'}^{s-1}}$ (resp. ${e'', t'', \cdots, {t''}^{r-1}}$) is a
-basis of the $A$-module $B'$ (resp. $B''$). There is therefore a unitary polynomial $H$ (resp. $G$) of degree $s$ (resp.
-$r$) of $A[T]$ such that $e' H(t') = 0$ and $e'' G(t'') = 0$; since $t^{h} = {t'}^{h} + {t''}^{h}$ for every integer $h
+$A$-modules, hence free since $A$ is a local ring (Bourbaki, _Alg. comm._, chap. II, §5, nÂ° 3, cor. of prop. 5); it
+therefore follows from what precedes and from Bourbaki, _Alg. comm._, chap. II, §3, nÂ° 3, prop. 5, that if one puts
+$t' = e't$, $t'' = e''t$, ${e', t', \cdots, {t'}^{s-1}}$ (resp. ${e'', t'', \cdots, {t''}^{r-1}}$) is a basis of the
+$A$-module $B'$ (resp. $B''$). There is therefore a unitary polynomial $H$ (resp. $G$) of degree $s$ (resp. $r$) of
+$A[T]$ such that $e' H(t') = 0$ and $e'' G(t'') = 0$; since $t^{h} = {t'}^{h} + {t''}^{h}$ for every integer $h
 \geqslant 1$, and ${t'}^{h} = e' t^{h}$, ${t''}^{h} = e'' t^{h}$, one has also $G(t) = e' G(t')$ and $H(t) = e''
 H(t'')$, whence $G(t) H(t) = 0$; one concludes that the polynomial $G(T) H(T)$ is divisible by $F(T)$; but since the
 degrees of these two unitary polynomials are the same, one has $GH = F$. In addition, $B'$ (resp. $B''$) is isomorphic
@@ -1381,9 +1379,9 @@ other, to see at once that conditions a') and a'') are equivalent.
 *Every semi-local ring $A$, separated and complete for the $\mathfrak{r}$-preadic topology (where $\mathfrak{r}$ is the
 radical of $A$) is Henselian.*
 
-Indeed, $A$ is direct composite of separated and complete local rings (Bourbaki, _Alg. comm._, chap. III, §2,
-nÂ° 13, cor. of prop. 19), hence one is reduced to the case where $A$ is a local ring. Let us verify criterion
-a') of `(18.5.11)`. Since $B$ is a free $A$-module of finite type, it is obviously separated and complete for the
+Indeed, $A$ is direct composite of separated and complete local rings (Bourbaki, _Alg. comm._, chap. III, §2, nÂ° 13,
+cor. of prop. 19), hence one is reduced to the case where $A$ is a local ring. Let us verify criterion a') of
+`(18.5.11)`. Since $B$ is a free $A$-module of finite type, it is obviously separated and complete for the
 $\mathfrak{r}$-preadic topology,
 
 <!-- original page 134 -->
@@ -1680,8 +1678,8 @@ precedes that $\mathfrak{r} \cdot {}^{h} A$
 
 is the radical of ${}^{h} A$ and that the canonical map $A / \mathfrak{r} \to {}^{h} A / \mathfrak{r} \cdot {}^{h} A$ is
 bijective. As the separated completion $\hat{A}$ of $A$ for the $\mathfrak{r}$-preadic topology is the product of the
-separated completions $\hat{A}_{\mathfrak{m}_{i}}$ `(Bourbaki, Alg. comm., chap. III, § 2, nÂ° 13, prop. 18)`,
-the canonical homomorphism $\hat{A} \to ({}^{h} A)^{\wedge}$ is bijective by `(18.6.6, (iv))`, and it is clear by
+separated completions $\hat{A}_{\mathfrak{m}_{i}}$ `(Bourbaki, Alg. comm., chap. III, § 2, nÂ° 13, prop. 18)`, the
+canonical homomorphism $\hat{A} \to ({}^{h} A)^{\wedge}$ is bijective by `(18.6.6, (iv))`, and it is clear by
 `(18.6.6, (v))` that in order for ${}^{h} A$ to be Noetherian it is necessary and sufficient that $A$ be so.
 
 To obtain the analogue of the universal property `(18.6.6, (ii))`, let us agree, when $A$ and $B$ are two semi-local
@@ -1913,8 +1911,8 @@ This results from `(18.6.14)` and `(8.8.2, (ii))`.
 
 ## 18.7. Henselization and excellent rings
 
-**(18.7.1)** We shall denote in this nÂ° by $P(Z, k)$ a property of the form considered in `(7.3.1)`, where we
-suppose in addition that the property $Q(A, k)$ satisfies the following condition:
+**(18.7.1)** We shall denote in this nÂ° by $P(Z, k)$ a property of the form considered in `(7.3.1)`, where we suppose
+in addition that the property $Q(A, k)$ satisfies the following condition:
 
 For every separable algebraic extension $k'$ of $k$, and every Noetherian local $k'$-algebra $A$, the property $Q(A, k)$
 is equivalent to $Q(A, k')$.
@@ -2431,9 +2429,9 @@ connected component $U$ of $X$ (which is open and closed
 
 <!-- original page 151 -->
 
-in $X$), $g^{-1}(U)$ is connected `(Bourbaki, Top. gén., chap. I, 3rd ed., § 11, nÂ° 3, prop. 7)`. If one
-denotes by $\pi_{0}(X)$ the set of connected components of $X$, the map $\pi_{0}(X') \to \pi_{0}(X)$ canonically deduced
-from $g$ is therefore bijective.
+in $X$), $g^{-1}(U)$ is connected `(Bourbaki, Top. gén., chap. I, 3rd ed., § 11, nÂ° 3, prop. 7)`. If one denotes by
+$\pi_{0}(X)$ the set of connected components of $X$, the map $\pi_{0}(X') \to \pi_{0}(X)$ canonically deduced from $g$
+is therefore bijective.
 
 **Corollary (18.9.5).**
 
@@ -2623,8 +2621,8 @@ rings $A'_{\mathfrak{p}'}$, where $\mathfrak{p}'$ ranges over $U'$, and by hypot
 all those for which $\mathfrak{p}'$ is of height $1$. But the reasoning of `(0, 23.2.7)` also applies to a Noetherian
 semi-local integral ring, so $A'$ is a semi-local Krull ring, and is therefore the intersection of the local rings
 $A'_{\mathfrak{p}'}$, where $\mathfrak{p}'$ ranges over the set of prime ideals of height $1$ of $A'$
-`(Bourbaki, Alg. comm., chap. VII, § 1, nÂ° 6, th. 4)`; a fortiori $A'$ is the intersection of the
-$A'_{\mathfrak{p}'}$ for $\mathfrak{p}' \in U'$, which completes the proof of the lemma.
+`(Bourbaki, Alg. comm., chap. VII, § 1, nÂ° 6, th. 4)`; a fortiori $A'$ is the intersection of the $A'_{\mathfrak{p}'}$
+for $\mathfrak{p}' \in U'$, which completes the proof of the lemma.
 
 **Remark (18.9.7.6).** — One knows `(0, 23.2.5)` that there exists a finite $A$-subalgebra $A''$ of the field of
 fractions $K$ of $A$ such that the morphism $\operatorname{Spec}(A') \to \operatorname{Spec}(A'')$ is radicial; as this
@@ -2699,12 +2697,12 @@ proof of `(18.9.7.3)` and that of `(18.9.7)`.
 
 **Remark (18.9.7.8).** — In case C) of the proof of `(18.9.7.3)`, one can avoid appealing to the delicate result
 `(6.15.10)` by reasoning as follows: since $A$ is integral and of dimension $1$, it follows from the Krull-Akizuki
-theorem `(Bourbaki, Alg. comm., chap. VII, § 2, nÂ° 5, prop. 5)` that its integral closure $A'$ is a Noetherian
-ring. The same reasoning as at the beginning of the proof of `(18.9.7)` then shows that $B' = B \otimes_{A} A'$ is a
-local ring; moreover, by flatness, $B'$ is contained in the total ring of fractions $R$ of the reduced ring $B$
-`(3.3.5)`. Now, the reasoning that proves the Krull-Akizuki theorem `(Bourbaki, loc. cit.)` applies equally to a
-Noetherian local reduced ring of dimension $1$, and shows that for such a ring $B$, every ring comprised between $B$ and
-its total ring of fractions is Noetherian. The ring $B'$ being a Noetherian local ring and the morphism
+theorem `(Bourbaki, Alg. comm., chap. VII, § 2, nÂ° 5, prop. 5)` that its integral closure $A'$ is a Noetherian ring.
+The same reasoning as at the beginning of the proof of `(18.9.7)` then shows that $B' = B \otimes_{A} A'$ is a local
+ring; moreover, by flatness, $B'$ is contained in the total ring of fractions $R$ of the reduced ring $B$ `(3.3.5)`.
+Now, the reasoning that proves the Krull-Akizuki theorem `(Bourbaki, loc. cit.)` applies equally to a Noetherian local
+reduced ring of dimension $1$, and shows that for such a ring $B$, every ring comprised between $B$ and its total ring
+of fractions is Noetherian. The ring $B'$ being a Noetherian local ring and the morphism
 $\operatorname{Spec}(B') \to \operatorname{Spec}(A')$ being normal, $B'$ is an integral and integrally closed ring
 `(6.5.4)`, and one concludes as at the beginning of the proof of `(18.9.7)`.
 
@@ -2861,9 +2859,9 @@ $y = f(x)$ is the closed point of $Y$. Using then `(18.8.3)` one sees that the h
 \mathcal{O}_{X,x}$ is surjective, hence bijective by virtue of the hypothesis, and that suffices to show the flatness of
 $f$ at the point $x$.
 
-Suppose moreover that $Y$ is locally integral at the point $y$ `(I, 2.1.8)`. Then conditions 1Â° and 2Â°
-above (joined with the fact that $Y$ is geometrically unibranch at the point $y$ and $f$ locally of finite type) already
-imply that $f$ is étale at the point $x$. Indeed, this results from the foregoing and from `(18.4.13)`.
+Suppose moreover that $Y$ is locally integral at the point $y$ `(I, 2.1.8)`. Then conditions 1Â° and 2Â° above (joined
+with the fact that $Y$ is geometrically unibranch at the point $y$ and $f$ locally of finite type) already imply that
+$f$ is étale at the point $x$. Indeed, this results from the foregoing and from `(18.4.13)`.
 
 **Corollary (18.10.3).**
 
@@ -3007,10 +3005,9 @@ $j(X) = Y'$. Conversely, since $Y$ is normal and $L$ direct composite of finite 
 finite over $Y$ (Bourbaki, Alg. comm., chap. V, §1, nÂ° 6, cor. 1 of prop. 18), whence the corollary.
 
 **(18.10.10)** Let $Y$ be a normal and integral prescheme, $K = R(Y)$ its field of rational functions. We shall say that
-a $K$-algebra $L$ of finite rank is *unramified over $Y$* if: 1Â° $L$ is a separable $K$-algebra, hence direct
-composite of finite separable extensions $K_{i}$ of $K$ ($1 \leq i \leq n$); 2Â° the integral closure $Y'$ of
-$Y$ in $L$ (sum of the preschemes integral closures of $Y$ in the $K_{i}$) is unramified over $Y$ (which, by
-`(18.10.3)`,
+a $K$-algebra $L$ of finite rank is *unramified over $Y$* if: 1Â° $L$ is a separable $K$-algebra, hence direct composite
+of finite separable extensions $K_{i}$ of $K$ ($1 \leq i \leq n$); 2Â° the integral closure $Y'$ of $Y$ in $L$ (sum of
+the preschemes integral closures of $Y$ in the $K_{i}$) is unramified over $Y$ (which, by `(18.10.3)`,
 
 <!-- original page 162 -->
 
@@ -3084,10 +3081,10 @@ classical examples showing that the relation $C_{1} = A'[C, A']$ fails when $L$ 
 **(18.10.15)** Suppose that $Y = \operatorname{Spec}(A)$ is affine, $A$ being integral and integrally closed; let $K$ be
 its field of fractions, $L$ a finite separable extension of $K$, and suppose that the integral closure $C$ of $A$ in $L$
 is a projective $A$-module of finite type (which will be for example the case if $A$ is a Dedekind ring (Bourbaki, Alg.
-comm., chap. VII, §4, nÂ° 10, prop. 22)). To say that $L$ is unramified over $A$ means that $C$ is étale
-`(18.10.10)` and by virtue of `(18.2.7, (ii))`, this is therefore equivalent to saying that the discriminant $d_{C/A}$
-of $\operatorname{Spec}(C)$ over $\operatorname{Spec}(A)$ is invertible in $A$. In the particular case where $C$ is a
-free $A$-module and $(c_{i})_{1 \leq i \leq n}$ a basis of $C$ over $A$, this means that $det(Tr_{L/K}(c_{i} c_{j}))$ is
+comm., chap. VII, §4, nÂ° 10, prop. 22)). To say that $L$ is unramified over $A$ means that $C$ is étale `(18.10.10)`
+and by virtue of `(18.2.7, (ii))`, this is therefore equivalent to saying that the discriminant $d_{C/A}$ of
+$\operatorname{Spec}(C)$ over $\operatorname{Spec}(A)$ is invertible in $A$. In the particular case where $C$ is a free
+$A$-module and $(c_{i})_{1 \leq i \leq n}$ a basis of $C$ over $A$, this means that $det(Tr_{L/K}(c_{i} c_{j}))$ is
 invertible in $A$.
 
 **Theorem (18.10.16).**
@@ -3577,8 +3574,8 @@ parameters $(t_{i})_{1 \leq i \leq s}$ of $A_{\mathfrak{p}}$ such that $t_{i} = 
 \leq s$) belong to $\mathfrak{p}$ and are part of a system of parameters $(x_{j})_{1 \leq j \leq n}$ of $A$. Set $A_{0}
 = k[[T_{1}, \cdots, T_{n}]]$; since $A$ is a complete $k$-algebra and the $x_{j}$ belong to the maximal ideal
 $\mathfrak{m}$ of $A$, there exists a local $k$-homomorphism $u : A_{0} \to A$ such that $u(T_{j}) = x_{j}$ for $1 \leq
-j \leq n$ (Bourbaki, Alg. comm., chap. III, §4, nÂ° 5, prop. 6); if $\mathfrak{n}$ is the ideal of $A$ generated
-by the $x_{j}$ ($1 \leq j \leq n$), it is by hypothesis an ideal of definition of $A$; one therefore deduces from
+j \leq n$ (Bourbaki, Alg. comm., chap. III, §4, nÂ° 5, prop. 6); if $\mathfrak{n}$ is the ideal of $A$ generated by the
+$x_{j}$ ($1 \leq j \leq n$), it is by hypothesis an ideal of definition of $A$; one therefore deduces from
 $(0_{I}, 7.4.4 and 7.4.3)$ that $u$ makes $A$ into a finite $A_{0}$-algebra.
 
 Set $\mathfrak{p}_{0} = \sum^{s}_{j=1} A_{0} T_{j}$, $B_{0} = (A_{0})_{\mathfrak{p}_{0}}$ and $B = A \otimes_{A_{0}}
@@ -3942,9 +3939,9 @@ condition a) (resp. a')) for the ring $A$ and the ideal $\mathfrak{p}$ is equiva
 ring $A_{1}$ and the ideal $\mathfrak{p}_{1}$. Now, all the minimal prime ideals of $A$ contained in $\mathfrak{p}$
 contain $\mathfrak{J}$ since $\operatorname{Spec}(A_{1}) \to \operatorname{Spec}(A)$ is a local isomorphism at the point
 $\mathfrak{p}_{1}$; on the other hand the ideals of $Ass_{A}(A/\mathfrak{J})$ are the ideals of $Ass(A)$ which are
-contained in $\mathfrak{p}$ (Bourbaki, Alg. comm., chap. IV, §1, nÂ° 2, prop. 6); so the minimal prime ideals of
-$A_{1}$ are all contained in $\mathfrak{p}_{1}$, and one has consequently $\dim(A_{1}) = n$. It then suffices to apply
-to $A_{1}$ and to $\mathfrak{p}_{1}$ what has been proved above.
+contained in $\mathfrak{p}$ (Bourbaki, Alg. comm., chap. IV, §1, nÂ° 2, prop. 6); so the minimal prime ideals of $A_{1}$
+are all contained in $\mathfrak{p}_{1}$, and one has consequently $\dim(A_{1}) = n$. It then suffices to apply to
+$A_{1}$ and to $\mathfrak{p}_{1}$ what has been proved above.
 
 **Remarks (18.11.11).** — (i) The equivalence of conditions d) and b) in `(18.11.10)` is no longer valid when one no
 longer supposes that $[k : k^{p}] < +\infty$. Indeed, in the example of `(0, 22.7.7, (ii))`, the ring $B =
@@ -4038,8 +4035,8 @@ k^{p^{-}\infty}_{1}$ is an Artinian ring; but this ring is equal
 <!-- original page 181 -->
 
 to $K \otimes_{k} k^{p^{-}\infty}_{1} = (K \otimes_{k} k^{p^{-}\infty}) \otimes_{k^{p^{-}\infty}} k^{p^{-}\infty}_{1}$,
-hence $K \otimes_{k} k^{p^{-}\infty}$ is also Artinian (Bourbaki, Alg. comm., chap. I, §3, nÂ° 5, cor. of prop.
-8); one has thus proved that b) implies a), which finishes the proof of `(18.11.12.1)` and of `(18.11.12)`.
+hence $K \otimes_{k} k^{p^{-}\infty}$ is also Artinian (Bourbaki, Alg. comm., chap. I, §3, nÂ° 5, cor. of prop. 8); one
+has thus proved that b) implies a), which finishes the proof of `(18.11.12.1)` and of `(18.11.12)`.
 
 ## 18.12. Applications of étale localization to quasi-finite morphisms (generalizations of earlier results)
 

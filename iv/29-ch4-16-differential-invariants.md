@@ -438,10 +438,10 @@ Y & \xleftarrow{u} & Y'
 $$
 
 identifies ${Y'}^{(n)}_{f'}$ with the product $Y^{(n)}_{f} \times_{X} X'$, so `(I, 3.3.9)` identifies (for the morphisms
-$g' \circ h'_{n}$ and $w_{n}$) ${Y'}^{(n)}_{f'}$ with the product $Y^{(n)}_{f} \times_{Y} Y'$. Since $Y^{(n)}_{f}$ (resp.
-${Y'}^{(n)}_{f'}$) is the affine prescheme over $Y$ (resp. $Y'$) associated with the $\mathcal{O}_{Y}$-Algebra
-$\mathcal{O}_{Y^{(n)}_{f}}$ (resp. with the $\mathcal{O}_{Y'}$-Algebra $\mathcal{O}_{{Y'}^{(n)}_{f'}}$), the fact that the
-canonical homomorphism `(16.2.3.1)` is bijective follows from `(II, 1.5.2)`. Finally, the canonical homomorphism
+$g' \circ h'_{n}$ and $w_{n}$) ${Y'}^{(n)}_{f'}$ with the product $Y^{(n)}_{f} \times_{Y} Y'$. Since $Y^{(n)}_{f}$
+(resp. ${Y'}^{(n)}_{f'}$) is the affine prescheme over $Y$ (resp. $Y'$) associated with the $\mathcal{O}_{Y}$-Algebra
+$\mathcal{O}_{Y^{(n)}_{f}}$ (resp. with the $\mathcal{O}_{Y'}$-Algebra $\mathcal{O}_{{Y'}^{(n)}_{f'}}$), the fact that
+the canonical homomorphism `(16.2.3.1)` is bijective follows from `(II, 1.5.2)`. Finally, the canonical homomorphism
 `(16.2.3.1)` is compatible with the augmentations $\mathcal{O}_{Y^{(n)}_{f}} \to \mathcal{O}_{Y}$ and
 $\mathcal{O}_{{Y'}^{(n)}_{f'}} \to \mathcal{O}_{Y'}$; as $\mathcal{O}_{Y^{(n)}_{f}}$ is the direct sum (as an
 $\mathcal{O}_{Y}$-Module) of $\mathcal{O}_{Y}$ and of the augmentation ideal $\mathcal{I}/\mathcal{I}^{n+1}$, one sees
@@ -949,8 +949,7 @@ that they are isomorphisms, it suffices to
 <!-- original page 20 -->
 
 show that `(16.4.8.1)` is an isomorphism, the filtrations of the two sides of `(16.4.7.3)` being finite (Bourbaki, *Alg.
-comm.*, chap. III, §2, nÂ° 8, cor. 3 of th. 1). For this, consider the split exact sequence of
-$\mathcal{O}_{S}$-Modules
+comm.*, chap. III, §2, nÂ° 8, cor. 3 of th. 1). For this, consider the split exact sequence of $\mathcal{O}_{S}$-Modules
 
 $$ 0 \to \mathcal{E} \xrightarrow{u} \mathcal{E} \oplus \mathcal{E} \xrightarrow{v} \mathcal{E} \to 0 \tag{16.4.8.2} $$
 
@@ -1638,10 +1637,10 @@ homomorphism `(16.5.10.2)` is injective (resp. bijective).*
 *(ii) If $\Omega^{1}_{X/S}$ is a locally free $\mathcal{O}_{X}$-Module of finite type, the homomorphism `(16.5.10.2)` is
 bijective.*
 
-Indeed, assertion (ii) follows from Bourbaki, *Alg.*, chap. II, 3rd ed., §5, nÂ° 3, prop. 7. Assertion (i)
-follows similarly from Bourbaki, *Alg. comm.*, chap. I, §2, nÂ° 10, prop. 11 and from the fact that if $f$ is
-locally of finite type (resp. locally of finite presentation), $\Omega^{1}_{X/S}$ is an $\mathcal{O}_{X}$-Module of
-finite type (resp. of finite presentation) (`(16.3.9)` and `(16.4.22)`).
+Indeed, assertion (ii) follows from Bourbaki, *Alg.*, chap. II, 3rd ed., §5, nÂ° 3, prop. 7. Assertion (i) follows
+similarly from Bourbaki, *Alg. comm.*, chap. I, §2, nÂ° 10, prop. 11 and from the fact that if $f$ is locally of finite
+type (resp. locally of finite presentation), $\Omega^{1}_{X/S}$ is an $\mathcal{O}_{X}$-Module of finite type (resp. of
+finite presentation) (`(16.3.9)` and `(16.4.22)`).
 
 **(16.5.12).**
 
@@ -2785,11 +2784,10 @@ $\mathcal{J}_{x}/\mathcal{J}^{2}_{x}$.*
 
 By hypothesis, $\mathcal{O}_{x}$ is a local ring and $\mathcal{J}_{x}$ is an ideal of finite type of $\mathcal{O}_{x}$
 contained in the maximal ideal of $\mathcal{O}_{x}$; the equivalence of b), b') and c) thus follows from Nakayama's
-lemma (Bourbaki, *Alg. comm.*, chap. II, §3, nÂ° 2, prop. 5). It is clear that a) implies c) by virtue of
-`(16.9.3)`; on the other hand, it follows from $(0_{I}, 5.2.2)$ that, if condition c) is verified (hence also b)), there
-exists an open neighbourhood $U$ of $x$ in $X$ such that $(\mathcal{J}/\mathcal{J}^{2}) | U$ has constant rank $n$, and
-such that the $f_{i} | U$ generate $\mathcal{J} | U$; it suffices then to apply, in $U$, the last assertion of
-`(16.9.3)`.
+lemma (Bourbaki, *Alg. comm.*, chap. II, §3, nÂ° 2, prop. 5). It is clear that a) implies c) by virtue of `(16.9.3)`; on
+the other hand, it follows from $(0_{I}, 5.2.2)$ that, if condition c) is verified (hence also b)), there exists an open
+neighbourhood $U$ of $x$ in $X$ such that $(\mathcal{J}/\mathcal{J}^{2}) | U$ has constant rank $n$, and such that the
+$f_{i} | U$ generate $\mathcal{J} | U$; it suffices then to apply, in $U$, the last assertion of `(16.9.3)`.
 
 **Remarks (16.9.6).**
 
@@ -3184,8 +3182,8 @@ d^m(\mathbf{z}^{\mathbf{q}}). \tag{16.11.1.6} $$
 
 Since the $dz_{\lambda}$ generate $\Omega^{1}_{X/S}$ and are the images of the $\delta z_{\lambda}$, and the canonical
 homomorphism `(16.3.1.1)` is surjective, one concludes that, for finite $m$, the $\delta z_{\lambda}$ generate the
-$\mathcal{O}_{U}$-Algebra $\mathcal{P}^{m}_{U/S}$ (Bourbaki, *Alg. comm.*, chap. III, §2, nÂ° 8, cor. 2 of th.
-1). Therefore the $\epsilon^{\mathbf{p}}$ (for $|\mathbf{p}| \leq m$) generate the $\mathcal{O}_{U}$-Module
+$\mathcal{O}_{U}$-Algebra $\mathcal{P}^{m}_{U/S}$ (Bourbaki, *Alg. comm.*, chap. III, §2, nÂ° 8, cor. 2 of th. 1).
+Therefore the $\epsilon^{\mathbf{p}}$ (for $|\mathbf{p}| \leq m$) generate the $\mathcal{O}_{U}$-Module
 $\mathcal{P}^{m}_{U/S}$. A differential operator $D \in Diff^{m}_{U/S}$ is consequently entirely determined by the
 values of $\langle \epsilon^{\mathbf{p}}, D\rangle$ for $|\mathbf{p}| \leq m$, or, what amounts to the same by
 `(16.11.1.5)` and `(16.11.1.6)`, by the values

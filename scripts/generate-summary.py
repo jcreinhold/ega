@@ -39,9 +39,9 @@ SUMMARY = ROOT / "SUMMARY.md"
 # title of the installment, which coincides with its principal chapter's title.
 INSTALLMENTS: list[tuple[str, str]] = [
     ("i", "EGA I — The Language of Schemes"),
-    ("ii", "EGA II — Some Classes of Morphisms"),
-    ("iii", "EGA III — Cohomology of Coherent Sheaves"),
-    ("iv", "EGA IV — Local Study of Schemes and Morphisms"),
+    ("ii", "EGA II — Elementary Global Study of Some Classes of Morphisms"),
+    ("iii", "EGA III — Cohomological Study of Coherent Sheaves"),
+    ("iv", "EGA IV — Local Study of Schemes and Morphisms of Schemes"),
     ("v", "EGA V — Construction of Schemes (unpublished)"),
 ]
 
@@ -49,9 +49,9 @@ INSTALLMENTS: list[tuple[str, str]] = [
 CHAPTER_TITLES: dict[int, str] = {
     0: "Preliminaries",
     1: "The Language of Schemes",
-    2: "Some Classes of Morphisms",
-    3: "Cohomology of Coherent Sheaves",
-    4: "Local Study of Schemes and Morphisms",
+    2: "Elementary Global Study of Some Classes of Morphisms",
+    3: "Cohomological Study of Coherent Sheaves",
+    4: "Local Study of Schemes and Morphisms of Schemes",
     5: "Construction of Schemes",
 }
 
@@ -59,11 +59,6 @@ CHAPTER_TITLES: dict[int, str] = {
 CONTINUATION = {("iii", 0), ("iv", 0)}
 
 SPECIAL_TITLES: dict[str, str] = {
-    "00-front-matter": "Front matter",
-    "00-front-matter-part-1": "Front matter (part 1)",
-    "13-front-matter-part-2": "Front matter (part 2)",
-    "20-front-matter-part-3": "Front matter (part 3)",
-    "28-front-matter-part-4": "Front matter (part 4)",
     "bibliography": "Bibliography",
     "glossary": "Translation glossary",
     "conventions": "Translation conventions",
@@ -103,7 +98,7 @@ def section_label(path: Path) -> str | None:
     in_fence = False
     for line in path.read_text().splitlines():
         stripped = line.lstrip()
-        if stripped.startswith("```") or stripped.startswith("~~~"):
+        if stripped.startswith(("```", "~~~")):
             in_fence = not in_fence
             continue
         if in_fence:
@@ -127,12 +122,12 @@ def loose_title(path: Path) -> str:
     return SPECIAL_TITLES.get(path.stem, slug_label(path.stem))
 
 
-def installment(vol: str) -> tuple[list[Path], "OrderedDict[int, dict]", list[Path]]:
+def installment(vol: str) -> tuple[list[Path], OrderedDict[int, dict], list[Path]]:
     """Partition an installment's files into front matter, chapters, back matter."""
     vol_dir = ROOT / vol
     front: list[Path] = []
     back: list[Path] = []
-    chapters: "OrderedDict[int, dict]" = OrderedDict()
+    chapters: OrderedDict[int, dict] = OrderedDict()
     for path in sorted(vol_dir.glob("*.md"), key=lambda p: p.stem):
         stem = path.stem
         if stem == "README":
@@ -146,9 +141,9 @@ def installment(vol: str) -> tuple[list[Path], "OrderedDict[int, dict]", list[Pa
         chap, sec = chapter_section(stem)
         if chap is None:
             # Not a recognised chapter file; keep it visible as a loose entry.
-            chapters.setdefault(-1, {"landing": None, "sections": []})["sections"].append(
-                (10**6, loose_title(path), path)
-            )
+            chapters.setdefault(-1, {"landing": None, "sections": []})[
+                "sections"
+            ].append((10**6, loose_title(path), path))
             continue
         entry = chapters.setdefault(chap, {"landing": None, "sections": []})
         if sec == 0:
@@ -165,9 +160,14 @@ def render() -> str:
         lines.append(f"# {header}")
         lines.append("")
         front, chapters, back = installment(vol)
-        for path in front:
+        # Front-matter pages are the volume's landing pages, so they get the
+        # installment's full title (with a part suffix when the front matter
+        # is split) instead of a generic "Front matter" label.
+        multi_front = len(front) > 1
+        for i, path in enumerate(front):
             rel = path.relative_to(ROOT).as_posix()
-            lines.append(f"- [{loose_title(path)}]({rel})")
+            label = f"{header} (part {i + 1})" if multi_front else header
+            lines.append(f"- [{label}]({rel})")
         for chap, data in chapters.items():
             cont = " (cont.)" if (vol, chap) in CONTINUATION else ""
             title = f"Chapter {chap} — {CHAPTER_TITLES.get(chap, '')}{cont}"
@@ -176,7 +176,9 @@ def render() -> str:
                 lines.append(f"- [{title}]({rel})")
             else:
                 lines.append(f"- [{title}]()")  # mdBook draft: groups, not clickable
-            for _sec, label, path in sorted(data["sections"], key=lambda t: (t[0], t[2].stem)):
+            for _sec, label, path in sorted(
+                data["sections"], key=lambda t: (t[0], t[2].stem)
+            ):
                 rel = path.relative_to(ROOT).as_posix()
                 lines.append(f"  - [{label}]({rel})")
         for path in back:

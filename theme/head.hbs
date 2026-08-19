@@ -10,6 +10,17 @@
      preload both. (CMU Serif, the symbol fallback, is fetched lazily and not
      preloaded.) Fonts are always fetched anonymously, hence crossorigin even
      same-origin. -->
+<!-- Canonical URL and social/SEO metadata. {{path}} is the page's own path
+     relative to the site root, so every page canonicalizes to itself (the
+     homepage gets .../ega/index.html; the bare-directory URL serves the same
+     bytes). -->
+<link rel="canonical" href="https://jcreinhold.github.io/ega/{{path}}" />
+<meta property="og:site_name" content="EGA — English Translation" />
+<meta property="og:type" content="book" />
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:url" content="https://jcreinhold.github.io/ega/{{path}}" />
+<meta name="twitter:card" content="summary" />
+
 <link
   rel="preload"
   as="font"

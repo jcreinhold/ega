@@ -1506,15 +1506,16 @@ supposed geometrically irreducible, as we saw at the start). Moreover, we may al
 $(X_{\nu(j)})_{s} \cap (X_{\nu(j+1)})_{s} \neq \emptyset$ `(9.5.1)` for $1 \leq j \leq m$; one concludes at once that
 $X_{s}$ is connected, hence `(4.5.13.1)` geometrically connected for $s \in U$.
 
-**4Â°** Suppose $X_{\eta}$ is geometrically reduced; let $Z_{i}$ be the irreducible components of $X_{\eta}$, $W_{i}$ the
-interior of $Z_{i}$ in $X_{\eta}$; there is for each $i$ an open $V_{i}$ of $X$ such that $W_{i} = V_{i} \cap X_{\eta}$
-for every $i$; since the $W_{i}$ are open and pairwise disjoint and their union is dense in $X_{\eta}$, we may
-(`(9.5.1)`, `(9.5.3)`, and `(9.5.4)`) suppose that for $s$ near $\eta$, the $(V_{i})_{s}$ are pairwise disjoint opens in
-$X_{s}$ and that their union is dense in $X_{s}$. Moreover, since the $W_{i}$ are geometrically reduced and were
-supposed at the start geometrically irreducible, it follows from 1Â° that for $s$ near $\eta$, the $(V_{i})_{s}$ are
-geometrically integral, and *a fortiori* reduced. On the other hand, one draws from `(9.7.6)` that for $s$ near $\eta$,
-$X_{s}$ has no embedded associated prime cycle, since this is so for $X_{\eta}$, which is reduced `(3.2.1)`; one
-concludes from `(3.2.1)` that $X_{s}$ is reduced, and from `(4.6.1)` that it is geometrically reduced.
+**4Â°** Suppose $X_{\eta}$ is geometrically reduced; let $Z_{i}$ be the irreducible components of $X_{\eta}$, $W_{i}$
+the interior of $Z_{i}$ in $X_{\eta}$; there is for each $i$ an open $V_{i}$ of $X$ such that
+$W_{i} = V_{i} \cap X_{\eta}$ for every $i$; since the $W_{i}$ are open and pairwise disjoint and their union is dense
+in $X_{\eta}$, we may (`(9.5.1)`, `(9.5.3)`, and `(9.5.4)`) suppose that for $s$ near $\eta$, the $(V_{i})_{s}$ are
+pairwise disjoint opens in $X_{s}$ and that their union is dense in $X_{s}$. Moreover, since the $W_{i}$ are
+geometrically reduced and were supposed at the start geometrically irreducible, it follows from 1Â° that for $s$ near
+$\eta$, the $(V_{i})_{s}$ are geometrically integral, and *a fortiori* reduced. On the other hand, one draws from
+`(9.7.6)` that for $s$ near $\eta$, $X_{s}$ has no embedded associated prime cycle, since this is so for $X_{\eta}$,
+which is reduced `(3.2.1)`; one concludes from `(3.2.1)` that $X_{s}$ is reduced, and from `(4.6.1)` that it is
+geometrically reduced.
 
 <!-- original page 82 -->
 

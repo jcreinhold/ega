@@ -43,33 +43,33 @@ $(0_{IV}, 19.5.2)$ is bijective.*
 *Then $B$, equipped with the $\mathfrak{J}$-preadic topology, is a $\Lambda$-algebra formally smooth.*
 
 *(ii) Conversely, suppose that $B$ is a $\Lambda$-algebra formally smooth for the $\mathfrak{J}$-preadic topology, and
-that $A$ is a $\Lambda$-algebra formally smooth for the discrete topology. Then the conditions $\alpha$), $\beta$), $\gamma$), $\delta$) of (i) are
-satisfied.*
+that $A$ is a $\Lambda$-algebra formally smooth for the discrete topology. Then the conditions $\alpha$), $\beta$),
+$\gamma$), $\delta$) of (i) are satisfied.*
 
 By virtue of the exact sequence $(0_{IV}, 20.6.22.1)$ (which is applicable, since $B/\mathfrak{J}^{2}$ is a
 $\Lambda$-trivial extension of $C$ by $\mathfrak{J}/\mathfrak{J}^{2}$, $C$ being supposed to be a $\Lambda$-algebra
-formally smooth $(0_{IV}, 19.4.4)$), the condition $\gamma$) is equivalent to $\Upsilon^{C}_{B/A/\Lambda} = 0$, or equivalently
-to the following:
+formally smooth $(0_{IV}, 19.4.4)$), the condition $\gamma$) is equivalent to $\Upsilon^{C}_{B/A/\Lambda} = 0$, or
+equivalently to the following:
 
 $\gamma'$) *The homomorphism $u_{B/A/\Lambda} \otimes 1_{C} : \Omega^{1}_{A/\Lambda} \otimes_{A} C \to \Omega^{1}_{B/\Lambda}
 \otimes_{B} C$ is injective.*
 
-(i) The conditions $\alpha$) and $\beta$) entail that $B$ is a $\Lambda$-algebra formally smooth for the $\mathfrak{J}$-preadic
-topology $(0_{IV}, 19.5.4)$. It therefore amounts to the same to say that $B$ is (for the $\mathfrak{J}$-preadic
-topology) a $\Lambda$-algebra formally smooth, or a $\Lambda$-algebra formally smooth relative to $A$. To see that $B$
-is a $\Lambda$-algebra formally smooth, it suffices, by virtue of $(0_{IV}, 20.7.2)$, to prove that the continuous
-homomorphism of topological $B$-modules $u_{B/A/\Lambda} : \Omega^{1}_{A/\Lambda} \otimes_{A} B \to
+(i) The conditions $\alpha$) and $\beta$) entail that $B$ is a $\Lambda$-algebra formally smooth for the
+$\mathfrak{J}$-preadic topology $(0_{IV}, 19.5.4)$. It therefore amounts to the same to say that $B$ is (for the
+$\mathfrak{J}$-preadic topology) a $\Lambda$-algebra formally smooth, or a $\Lambda$-algebra formally smooth relative to
+$A$. To see that $B$ is a $\Lambda$-algebra formally smooth, it suffices, by virtue of $(0_{IV}, 20.7.2)$, to prove that
+the continuous homomorphism of topological $B$-modules $u_{B/A/\Lambda} : \Omega^{1}_{A/\Lambda} \otimes_{A} B \to
 \Omega^{1}_{B/\Lambda}$ is formally left-invertible. Now, since $B$ is a $\Lambda$-algebra formally smooth, the
 topological $B$-module $\Omega^{1}_{B/\Lambda}$ is formally projective $(0_{IV}, 20.4.9)$ and its topology is deduced
 from that of $B$ $(0_{IV}, 20.4.5)$. By virtue of $(0_{IV}, 19.1.9)$, it therefore suffices, for $u_{B/A/\Lambda}$ to be
-formally left-invertible, that $u_{B/A/\Lambda} \otimes 1_{C}$ be left-invertible. But by virtue of $\gamma'$), this last map
-is injective, so one has the exact sequence $(0_{IV}, 20.6.14.7)$
+formally left-invertible, that $u_{B/A/\Lambda} \otimes 1_{C}$ be left-invertible. But by virtue of $\gamma'$), this
+last map is injective, so one has the exact sequence $(0_{IV}, 20.6.14.7)$
 
 $$ 0 \to \Omega^{1}_{A/\Lambda} \otimes_{A} C \to \Omega^{1}_{B/\Lambda} \otimes_{B} C \to \Omega^{1}_{B/A} \otimes_{B}
 C \to 0. $$
 
-Finally, by virtue of $\delta$), the $C$-module $\Omega^{1}_{B/\Lambda} \otimes_{B} C$ is projective, so the preceding exact
-sequence is *split*, which completes the proof of (i).
+Finally, by virtue of $\delta$), the $C$-module $\Omega^{1}_{B/\Lambda} \otimes_{B} C$ is projective, so the preceding
+exact sequence is *split*, which completes the proof of (i).
 
 (ii) If $B$ is a $\Lambda$-algebra formally smooth for the $\mathfrak{J}$-preadic topology, and $A$ is a
 $\Lambda$-algebra formally smooth for the discrete topology, then $B$ is a $A$-algebra formally smooth for the
@@ -102,7 +102,8 @@ $$ (22.1.2.2) \chi : \Upsilon_{K/A/\Lambda} \to \mathfrak{m}/\mathfrak{m}^{2} $$
 
 *is injective.*
 
-This follows immediately from `(22.1.1)`, the conditions $\alpha$) and $\delta$) being here trivially satisfied, since $K$ is a field.
+This follows immediately from `(22.1.1)`, the conditions $\alpha$) and $\delta$) being here trivially satisfied, since
+$K$ is a field.
 
 **Remark (22.1.3).**
 
@@ -154,13 +155,13 @@ C/\mathfrak{J}$ such that the homomorphism $K \to K$ obtained by passage to the 
 \xrightarrow{f} C \to C/\mathfrak{J}$, where $f$ is a local $A$-homomorphism.*
 
 The condition being necessary by definition $(0_{IV}, 19.3.1)$, we show that it is sufficient. Since the
-$A$-homomorphisms of $B$ into a discrete local $\hat{A}$-algebra arise by extension from local $A$-homomorphisms of $B$ into
-this algebra, one may reduce to the case where $A$ and $B$ are complete, by virtue of $(0_{IV}, 19.3.6)$. When $A$ is a
-field $k$, the proposition follows from `(22.1.3.3)`, where one takes the prime subfield of $k$ for $\Lambda$, and from
-$(0_{IV}, 19.6.1)$. In the general case, set $B_{0} = B \otimes_{A} k = B/\mathfrak{m}B$ ($\mathfrak{m}$ maximal ideal
-of $A$), which is complete. If `C_0` is a local Artinian $k$-algebra with residue field equal to $K$, $\mathfrak{J}_{0}$
-a nilpotent ideal of `C_0`, every local $k$-homomorphism $g_{0} : B_{0} \to C_{0}/\mathfrak{J}_{0}$ giving the identity
-on $K$ by passage to the quotients, gives by composition a local $A$-homomorphism
+$A$-homomorphisms of $B$ into a discrete local $\hat{A}$-algebra arise by extension from local $A$-homomorphisms of $B$
+into this algebra, one may reduce to the case where $A$ and $B$ are complete, by virtue of $(0_{IV}, 19.3.6)$. When $A$
+is a field $k$, the proposition follows from `(22.1.3.3)`, where one takes the prime subfield of $k$ for $\Lambda$, and
+from $(0_{IV}, 19.6.1)$. In the general case, set $B_{0} = B \otimes_{A} k = B/\mathfrak{m}B$ ($\mathfrak{m}$ maximal
+ideal of $A$), which is complete. If `C_0` is a local Artinian $k$-algebra with residue field equal to $K$,
+$\mathfrak{J}_{0}$ a nilpotent ideal of `C_0`, every local $k$-homomorphism $g_{0} : B_{0} \to C_{0}/\mathfrak{J}_{0}$
+giving the identity on $K$ by passage to the quotients, gives by composition a local $A$-homomorphism
 
 $$ g : B \to B_0 \to C_0/\mathfrak{J}_0 $$
 
@@ -525,8 +526,8 @@ Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, cor. 3 of prop. 9). If $\hat{A}_
 `A_0` and $A$ for their respective preadic topologies, then, when one equips `A_0`, $A$ and $\hat{A}$ with the discrete
 topologies, $\hat{A}$ is a $A$-algebra formally smooth relative to `A_0` $(0_{IV}, 19.9.1)$.*
 
-We know indeed that $\hat{A} = A \otimes_{A_{0}} \hat{A}_{0}$ (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, cor.
-3 of prop. 9 and chap. III, §3, nÂ° 4, th. 1), so the proposition results from $(0_{IV}, 19.9.3)$.
+We know indeed that $\hat{A} = A \otimes_{A_{0}} \hat{A}_{0}$ (Bourbaki, *Alg. comm.*, chap. IV, §2, nÂ° 5, cor. 3 of
+prop. 9 and chap. III, §3, nÂ° 4, th. 1), so the proposition results from $(0_{IV}, 19.9.3)$.
 
 **Proposition (22.3.2).**
 
@@ -543,10 +544,10 @@ $h(\alpha)$, and that, if $K_{\alpha}$ denotes the field of fractions of $A_{\al
 K_{\alpha}(K^{p}) = K^{p}$.*
 
 *Let then $B$ be an integral finite $A$-algebra containing $A$, $\mathfrak{n}$ a prime ideal of $B$, $C$ the local ring
-$B_{\mathfrak{n}}$, $\mathfrak{q}$ a prime ideal of the completion $\hat{C}$ such that $\mathfrak{q} \cap C = 0$, so that the
-local ring $\hat{C}_{\mathfrak{q}}$ is an algebra over the field of fractions $L$ of $B$. Then $\hat{C}_{\mathfrak{q}}$
-is an $L$-algebra formally smooth for its $\mathfrak{q}$-adic topology, and consequently a geometrically regular ring
-over $L$ $(0_{IV}, 19.6.5)$.*
+$B_{\mathfrak{n}}$, $\mathfrak{q}$ a prime ideal of the completion $\hat{C}$ such that $\mathfrak{q} \cap C = 0$, so
+that the local ring $\hat{C}_{\mathfrak{q}}$ is an algebra over the field of fractions $L$ of $B$. Then
+$\hat{C}_{\mathfrak{q}}$ is an $L$-algebra formally smooth for its $\mathfrak{q}$-adic topology, and consequently a
+geometrically regular ring over $L$ $(0_{IV}, 19.6.5)$.*
 
 Let us distinguish two cases.
 
@@ -849,8 +850,8 @@ $$ N \to \Upsilon_{K'/K} \quad \text{and} \quad \Omega^{1}_{A'/A} \otimes_{A'} K
 
 *of the diagram `(22.4.4.6)` are bijective.*
 
-Indeed, the snake-diagram (Bourbaki, *Alg. comm.*, chap. I, §1, nÂ° 4, prop. 2) applied to the two middle
-columns of `(22.4.4.6)` gives an exact sequence
+Indeed, the snake-diagram (Bourbaki, *Alg. comm.*, chap. I, §1, nÂ° 4, prop. 2) applied to the two middle columns of
+`(22.4.4.6)` gives an exact sequence
 
 $$ 0 \to N \to \Upsilon_{K'/K} \to 0 \to \Omega^{1}_{A'/A} \otimes_{A'} K' \to \Omega^{1}_{K'/K} \to 0. $$
 
@@ -1302,8 +1303,8 @@ $k$; one knows that the elements $d_{k}(x^{p}_{\alpha})$ form a basis of the $k$
 21.4.5)$, hence the elements $d_{k}(x^{p}_{\alpha}) \otimes 1_{K}$ form a basis of the $K$-vector space $\Omega^{1}_{k}
 \otimes_{k} K$. One concludes (cf. `(22.5.5)`) that when $k'$ runs through the set of subextensions of $k^{1/p}$, finite
 over $k$, the family of subspaces $\Theta_{k'/k} \otimes_{k} K$ of $\Omega^{1}_{k} \otimes_{k} K$ is filtering
-increasing and has for union $\Omega^{1}_{k} \otimes_{k} K$. It follows then from `(22.5.7)` that condition $b'$) entails
-that $\chi_{A/k}$ is injective, which is none other than condition (ii) of `(22.2.2)`.
+increasing and has for union $\Omega^{1}_{k} \otimes_{k} K$. It follows then from `(22.5.7)` that condition $b'$)
+entails that $\chi_{A/k}$ is injective, which is none other than condition (ii) of `(22.2.2)`.
 
 **Corollary (22.5.9).**
 
@@ -1745,8 +1746,8 @@ $K$-algebra. But then, taking account of $(0_{IV}, 19.8.8, (ii))$ applied to $A/
 conditions of `(22.7.2)` are satisfied by replacing therein $k$ by $K$. Moreover, by virtue of $(0_{IV}, 19.6.4)$, it
 amounts to the same to say that $B_{\mathfrak{p}}$ is a $k$-algebra formally smooth or a $K$-algebra formally smooth,
 the two conditions being equivalent to the fact that $B_{\mathfrak{p}}$ is a regular ring. One may therefore apply the
-conclusions of `(22.7.2)`, and it is immediate that this proves the equivalence of a), b) and $b'$) (with $k' = K_{0}$ in
-$b'$)).
+conclusions of `(22.7.2)`, and it is immediate that this proves the equivalence of a), b) and $b'$) (with $k' = K_{0}$
+in $b'$)).
 
 B) $k$ is of characteristic $p > 0$. Since $A$ is a `K_0`-algebra formally smooth and `K_0` is separable over $k$, it
 follows from $(0_{IV}, 19.3.5, (ii))$ and $(0_{IV}, 19.6.1)$ that $A$ is a $k$-algebra formally smooth; by virtue of

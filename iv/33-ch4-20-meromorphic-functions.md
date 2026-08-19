@@ -96,8 +96,8 @@ case where $U$ is affine, and an element of a reduced ring belonging to every mi
 The converse is true if the set of irreducible components of $X$ is *locally finite*. One is at once reduced to the case
 where $X = \operatorname{Spec}(A)$ is affine; if $\mathfrak{p}_{i}$ ($1 \leq i \leq n$) are the minimal prime ideals of
 $A$ and $s \in \mathfrak{p}_{i}$ for some index $i$, then there exists $t \in A$ such that $t \in \mathfrak{p}_{j}$ for
-$j \neq i$ and $t \notin \mathfrak{p}_{i}$ (Bourbaki, _Alg. comm._, chap. II, §1, nÂ° 1, prop. 1); one therefore
-has $st \in \mathfrak{p}_{i}$ for every $i$, hence $st = 0$ since $A$ is reduced; so $s$ is not regular.
+$j \neq i$ and $t \notin \mathfrak{p}_{i}$ (Bourbaki, _Alg. comm._, chap. II, §1, nÂ° 1, prop. 1); one therefore has
+$st \in \mathfrak{p}_{i}$ for every $i$, hence $st = 0$ since $A$ is reduced; so $s$ is not regular.
 
 **(20.1.4).** For every open $U$ of $X$, the homomorphism $t \mapsto t/1$ from $\Gamma(U, \mathcal{O}_{X})$ to
 $\Gamma(U, \mathcal{O}_{X})[\Gamma(U, \mathcal{S})^{-1}]$ (which is none other than the *total ring of fractions* of
@@ -422,8 +422,8 @@ that, in the canonical correspondence between $\Gamma(V, \mathcal{O}_{X})$ and $
 
 of $X$), the invertible elements of $\Gamma(V, \mathcal{O}_{X})$ correspond to morphisms which factor as $V \to
 \operatorname{Spec}(\mathbb{Z}[T, T^{-1}]) \to \operatorname{Spec}(\mathbb{Z}[T])$. One concludes that the sheaf
-${\mathcal{M}'}^{\times}_{X}$ of germs of invertible sections of $\mathcal{M}'_{X}$ identifies canonically with the sheaf
-$\mathcal{Ps}.hom(X, X \otimes_{\mathbb{Z}} \mathbb{Z}[T, T^{-1}])$.
+${\mathcal{M}'}^{\times}_{X}$ of germs of invertible sections of $\mathcal{M}'_{X}$ identifies canonically with the
+sheaf $\mathcal{Ps}.hom(X, X \otimes_{\mathbb{Z}} \mathbb{Z}[T, T^{-1}])$.
 
 **Lemma (20.2.9).**
 

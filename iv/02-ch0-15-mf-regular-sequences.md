@@ -441,8 +441,8 @@ hypotheses:
 
 1Â° The filtration $(M_{k})$ is finite and separated (since this implies $M_{k} = 0$ for $k$ large enough);
 
-2Â° $A$ is a Noetherian ring, $\mathfrak{J}$ an ideal contained in the radical of $A$, $M$ an $A$-module of
-finite type and $(M_{k})$ the $\mathfrak{J}$-preadic filtration $(0_{I}, 7.3.5)$.
+2Â° $A$ is a Noetherian ring, $\mathfrak{J}$ an ideal contained in the radical of $A$, $M$ an $A$-module of finite type
+and $(M_{k})$ the $\mathfrak{J}$-preadic filtration $(0_{I}, 7.3.5)$.
 
 <!-- original page 115 -->
 

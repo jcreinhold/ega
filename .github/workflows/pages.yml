@@ -54,6 +54,9 @@ jobs:
         # that preprocessor's sub-error logs. Real katex errors still surface.
         run: RUST_LOG=info,mdbook_katex=error mdbook build
 
+      - name: Generate sitemap.xml and robots.txt
+        run: python3 scripts/generate-sitemap.py --build-dir book
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3

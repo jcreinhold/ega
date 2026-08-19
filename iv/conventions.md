@@ -39,15 +39,15 @@ within itself) as Chapter IV. To keep the two distinguishable in print we write 
 
 EGA IV cites several external classics. We extend the EGA III table:
 
-| Source key in EGA IV | Work |
-| --- | --- |
-| $(M, \cdots)$ | H. Cartan and S. Eilenberg, _Homological Algebra_ (Princeton, 1956). |
-| $(G, \cdots)$ | R. Godement, _Topologie algébrique et théorie des faisceaux_ (Hermann, 1958). |
-| $(T, \cdots)$ | A. Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku Math. J., 1957). |
-| $(FAC, \cdots)$ | J.-P. Serre, _Faisceaux algébriques cohérents_ (Annals of Math., 1955). |
-| `(Bourbaki, Alg. comm., …)` | N. Bourbaki, _Éléments de mathématique : Algèbre commutative_ (Hermann, 1961-1965). |
-| `(Bourbaki, Alg., …)` | N. Bourbaki, _Éléments de mathématique : Algèbre_ (Hermann, 1942-). |
-| `(Bourbaki, Top. gén., …)` | N. Bourbaki, _Éléments de mathématique : Topologie générale_ (Hermann, 1940-). |
+| Source key in EGA IV        | Work                                                                                  |
+| --------------------------- | ------------------------------------------------------------------------------------- |
+| $(M, \cdots)$               | H. Cartan and S. Eilenberg, _Homological Algebra_ (Princeton, 1956).                  |
+| $(G, \cdots)$               | R. Godement, _Topologie algébrique et théorie des faisceaux_ (Hermann, 1958).         |
+| $(T, \cdots)$               | A. Grothendieck, _Sur quelques points d'algèbre homologique_ (Tôhoku Math. J., 1957). |
+| $(FAC, \cdots)$             | J.-P. Serre, _Faisceaux algébriques cohérents_ (Annals of Math., 1955).               |
+| `(Bourbaki, Alg. comm., …)` | N. Bourbaki, _Éléments de mathématique : Algèbre commutative_ (Hermann, 1961-1965).   |
+| `(Bourbaki, Alg., …)`       | N. Bourbaki, _Éléments de mathématique : Algèbre_ (Hermann, 1942-).                   |
+| `(Bourbaki, Top. gén., …)`  | N. Bourbaki, _Éléments de mathématique : Topologie générale_ (Hermann, 1940-).        |
 
 Bourbaki citations are rendered in the EGA form `(Bourbaki, Alg. comm., chap. II, §3, n° 4)` or shorter
 `(Bourbaki, Alg. comm., II, §3, n° 4)` when that matches the source. Page numbers are kept when present;
@@ -83,14 +83,14 @@ smoothness conditions. We fix the following LaTeX rendering; display long expres
 EGA IV §0_IV.19 and §IV.17 introduce the family of "formally $P$" properties ($P \in \{\text{smooth}, \text{étale},
 \text{unramified}\}$). We fix the terminology as follows:
 
-| French | English | Note |
-| --- | --- | --- |
-| formellement lisse | formally smooth | For a topology; usually $J$-adic or discrete |
-| formellement étale | formally étale |  |
-| formellement non ramifié | formally unramified |  |
-| lisse | smooth | Locally of finite presentation + formally smooth |
-| étale | étale | Smooth + unramified, equivalently $\ldots$ |
-| non ramifié | unramified | Locally of finite presentation + $\Omega^{1} = 0$ |
+| French                   | English               | Note                                                     |
+| ------------------------ | --------------------- | -------------------------------------------------------- |
+| formellement lisse       | formally smooth       | For a topology; usually $J$-adic or discrete             |
+| formellement étale       | formally étale        |                                                          |
+| formellement non ramifié | formally unramified   |                                                          |
+| lisse                    | smooth                | Locally of finite presentation + formally smooth         |
+| étale                    | étale                 | Smooth + unramified, equivalently $\ldots$               |
+| non ramifié              | unramified            | Locally of finite presentation + $\Omega^{1} = 0$        |
 | différentiellement lisse | differentially smooth | EGA IV §16; weaker than smooth in non-Noetherian setting |
 
 Where EGA writes "formellement lisse pour la topologie $\mathcal{J}$-préadique", we render "formally smooth for the

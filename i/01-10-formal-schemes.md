@@ -794,10 +794,9 @@ the $X_{n} = \operatorname{Spec}(\mathcal{O}_{X}/\mathcal{I}^{n})$ are Noetheria
 
 **(10.8.7)** The canonical homomorphisms $\mathcal{O}_{X} \to \mathcal{O}_{X}/\mathcal{I}$ (for $\mathcal{I} \in \Phi$)
 form a projective system and therefore give, by passage to the projective limit, a homomorphism of sheaves of rings
-$\theta : \mathcal{O}_{X} \to \psi_{*}((\mathcal{O}_{X})_{/X'})$, denoting by $\psi$ the canonical injection $X' \to X$ of
-the underlying spaces. We shall designate by $i$ (or $i_{X}$) the morphism (said to be _canonical_)
-$$ (\psi, \theta) : \widehat{X}_{/X'} \to X $$
-of ringed spaces.
+$\theta : \mathcal{O}_{X} \to \psi_{*}((\mathcal{O}_{X})_{/X'})$, denoting by $\psi$ the canonical injection $X' \to X$
+of the underlying spaces. We shall designate by $i$ (or $i_{X}$) the morphism (said to be _canonical_)
+$$ (\psi, \theta) : \widehat{X}_{/X'} \to X $$ of ringed spaces.
 
 By tensorization, for every coherent $\mathcal{O}_{X}$-Module $\mathcal{F}$, the canonical homomorphisms
 $\mathcal{O}_{X} \to \mathcal{O}_{X}/\mathcal{I}$ give homomorphisms $\mathcal{F} \to \mathcal{F}

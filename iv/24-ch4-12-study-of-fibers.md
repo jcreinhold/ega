@@ -650,9 +650,9 @@ presentation that is a flat $A$-module. Then the following conditions are equiva
 
 <!-- original page 184 -->
 
-The equivalence of a) and b) follows from Bourbaki, *Alg. comm.*, chap. II, §5, nÂ° 2, cor. 2 of th. 1. Since a)
-implies c) trivially, it remains to prove that c) implies b), which follows from the fibrewise flatness criterion
-`(11.3.10)`, applied with $g = h$, $f = 1_{X}$.
+The equivalence of a) and b) follows from Bourbaki, *Alg. comm.*, chap. II, §5, nÂ° 2, cor. 2 of th. 1. Since a) implies
+c) trivially, it remains to prove that c) implies b), which follows from the fibrewise flatness criterion `(11.3.10)`,
+applied with $g = h$, $f = 1_{X}$.
 
 **Proposition (12.3.2).**
 

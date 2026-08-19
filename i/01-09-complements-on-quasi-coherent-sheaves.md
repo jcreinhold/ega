@@ -214,7 +214,17 @@ $\mathcal{L} = \mathcal{O}_{X}$. In this case, $f$ is identified with an element
 $s$ is identified with an element of an $A(X)$-module $M$, and $s|X_{f}$ with the corresponding element of $M_{f}$, and
 the result is trivial, taking account of the definition of a module of fractions.
 
-(ii) Again $X$ is a finite union of affine opens $U_{i}$ ($1 \leqslant i \leqslant r$) such that $\mathcal{L}|U_{i} \cong \mathcal{O}_{X}|U_{i}$, and for each $i$, $(s \otimes f^{\otimes n})|(U_{i} \cap X_{f})$ is identified, by the preceding isomorphism, with $(f|(U_{i} \cap X_{f}))^{n}(s|(U_{i} \cap X_{f}))$. One then knows (1.4.1) that there exists an integer $n > 0$ such that for each $i$, $(s \otimes f^{\otimes n})|(U_{i} \cap X_{f})$ extends to a section $s_{i}$ of $\mathcal{F} \otimes \mathcal{L}^{\otimes n}$ over $U_{i}$. Let $s_{i|j}$ be the restriction of $s_{i}$ to $U_{i} \cap U_{j}$; one has by definition $s_{i|j} - s_{j|i} = 0$ in $X_{f} \cap U_{i} \cap U_{j}$. Now, if $X$ is a Noetherian space, $U_{i} \cap U_{j}$ is quasi-compact; if $X$ is a scheme, $U_{i} \cap U_{j}$ is an affine open (5.5.6), hence again quasi-compact. By virtue of (i), there thus exists an integer $m$ (independent of $i$ and $j$) such that $(s_{i|j} - s_{j|i}) \otimes f^{\otimes m} = 0$. One concludes at once that there exists a section $s'$ of $\mathcal{F} \otimes \mathcal{L}^{\otimes (n+m)}$ over $X$, inducing $s_{i} \otimes f^{\otimes m}$ over each $U_{i}$, and inducing consequently $s \otimes f^{\otimes (n+m)}$ over $X_{f}$.
+(ii) Again $X$ is a finite union of affine opens $U_{i}$ ($1 \leqslant i \leqslant r$) such that
+$\mathcal{L}|U_{i} \cong \mathcal{O}_{X}|U_{i}$, and for each $i$, $(s \otimes f^{\otimes n})|(U_{i} \cap X_{f})$ is
+identified, by the preceding isomorphism, with $(f|(U_{i} \cap X_{f}))^{n}(s|(U_{i} \cap X_{f}))$. One then knows
+(1.4.1) that there exists an integer $n > 0$ such that for each $i$, $(s \otimes f^{\otimes n})|(U_{i} \cap X_{f})$
+extends to a section $s_{i}$ of $\mathcal{F} \otimes \mathcal{L}^{\otimes n}$ over $U_{i}$. Let $s_{i|j}$ be the
+restriction of $s_{i}$ to $U_{i} \cap U_{j}$; one has by definition $s_{i|j} - s_{j|i} = 0$ in
+$X_{f} \cap U_{i} \cap U_{j}$. Now, if $X$ is a Noetherian space, $U_{i} \cap U_{j}$ is quasi-compact; if $X$ is a
+scheme, $U_{i} \cap U_{j}$ is an affine open (5.5.6), hence again quasi-compact. By virtue of (i), there thus exists an
+integer $m$ (independent of $i$ and $j$) such that $(s_{i|j} - s_{j|i}) \otimes f^{\otimes m} = 0$. One concludes at
+once that there exists a section $s'$ of $\mathcal{F} \otimes \mathcal{L}^{\otimes (n+m)}$ over $X$, inducing
+$s_{i} \otimes f^{\otimes m}$ over each $U_{i}$, and inducing consequently $s \otimes f^{\otimes (n+m)}$ over $X_{f}$.
 
 The corollaries that follow give an interpretation of the theorem (9.3.1) in a more algebraic language:
 
@@ -393,7 +403,11 @@ neighborhood $V \subset U$ of $x$ such that $s|V = \sum_{i} a_{i} \cdot (t_{i}|V
 
 <!-- label: I.9.5 -->
 
-**Proposition (9.5.1).** Let $f : X \to Y$ be a morphism of preschemes such that $f_{*}(\mathcal{O}_{X})$ is a quasi-coherent $\mathcal{O}_{Y}$-Module (which holds if $f$ is quasi-compact and if moreover $f$ is separated or $X$ locally Noetherian (9.2.2)). Then there exists a smallest subprescheme $Y'$ of $Y$ such that the canonical injection $j : Y' \to Y$ majorizes $f$ (or, what amounts to the same (4.4.1), such that the subprescheme $f^{-1}(Y')$ of $X$ is identical to $X$).
+**Proposition (9.5.1).** Let $f : X \to Y$ be a morphism of preschemes such that $f_{*}(\mathcal{O}_{X})$ is a
+quasi-coherent $\mathcal{O}_{Y}$-Module (which holds if $f$ is quasi-compact and if moreover $f$ is separated or $X$
+locally Noetherian (9.2.2)). Then there exists a smallest subprescheme $Y'$ of $Y$ such that the canonical injection
+$j : Y' \to Y$ majorizes $f$ (or, what amounts to the same (4.4.1), such that the subprescheme $f^{-1}(Y')$ of $X$ is
+identical to $X$).
 
 More precisely:
 
@@ -401,7 +415,21 @@ More precisely:
 (quasi-coherent) kernel of the homomorphism $\theta : \mathcal{O}_{Y} \to f_{*}(\mathcal{O}_{X})$. Then the closed
 subprescheme $Y'$ of $Y$ defined by $\mathcal{J}$ verifies the conditions of (9.5.1).
 
-**Proof.** Since the functor $\psi^{*}$ is exact, the canonical factorization $\theta : \mathcal{O}_{Y} \to \mathcal{O}_{Y}/\mathcal{J} \xrightarrow{\theta'} \psi_{*}(\mathcal{O}_{X})$ gives (0, 3.5.4.3) a factorization $\theta^{\sharp} : \psi^{*}(\mathcal{O}_{Y}) \to \psi^{*}(\mathcal{O}_{Y})/\psi^{*}(\mathcal{J}) \xrightarrow{\theta'^{\sharp}} \mathcal{O}_{X}$; as for every $x \in X$, $\theta_{x}^{\sharp}$ is a local homomorphism, the same is true of $\theta_{x}'^{\sharp}$; if one denotes by $\psi_{0}$ the continuous map $\psi$ considered as a map of $X$ into $X'$, by $\theta_{0}$ the restriction $\theta'|X' : (\mathcal{O}_{Y}/\mathcal{J})|X' \to \psi_{*}(\mathcal{O}_{X})|X' = (\psi_{0})_{*}(\mathcal{O}_{X})$, one sees thus that $f_{0} = (\psi_{0}, \theta_{0})$ is a morphism of preschemes $X \to X'$ (2.2.1) such that $f = j \circ f_{0}$. If now $X''$ is a second closed subprescheme of $Y$, defined by a quasi-coherent sheaf of ideals $\mathcal{J}'$ of $\mathcal{O}_{Y}$ and such that the injection $j' : X'' \to Y$ majorizes $f$, one must first have $X'' \supset \psi(X)$, hence $X' \subset X''$ since $X''$ is closed. Moreover, for every $y \in X''$, $\theta$ must factor as $\mathcal{O}_{y} \to \mathcal{O}_{y}/\mathcal{J}'_{y} \to (\psi_{*}(\mathcal{O}_{X}))_{y}$, which by definition entails $\mathcal{J}'_{y} \subset \mathcal{J}_{y}$, and consequently $X'$ is a closed subprescheme of $X''$ (4.1.10).
+**Proof.** Since the functor $\psi^{*}$ is exact, the canonical factorization
+$\theta : \mathcal{O}_{Y} \to \mathcal{O}_{Y}/\mathcal{J} \xrightarrow{\theta'} \psi_{*}(\mathcal{O}_{X})$ gives (0,
+3.5.4.3) a factorization
+$\theta^{\sharp} : \psi^{*}(\mathcal{O}_{Y}) \to \psi^{*}(\mathcal{O}_{Y})/\psi^{*}(\mathcal{J}) \xrightarrow{\theta'^{\sharp}} \mathcal{O}_{X}$;
+as for every $x \in X$, $\theta_{x}^{\sharp}$ is a local homomorphism, the same is true of $\theta_{x}'^{\sharp}$; if
+one denotes by $\psi_{0}$ the continuous map $\psi$ considered as a map of $X$ into $X'$, by $\theta_{0}$ the
+restriction
+$\theta'|X' : (\mathcal{O}_{Y}/\mathcal{J})|X' \to \psi_{*}(\mathcal{O}_{X})|X' = (\psi_{0})_{*}(\mathcal{O}_{X})$, one
+sees thus that $f_{0} = (\psi_{0}, \theta_{0})$ is a morphism of preschemes $X \to X'$ (2.2.1) such that
+$f = j \circ f_{0}$. If now $X''$ is a second closed subprescheme of $Y$, defined by a quasi-coherent sheaf of ideals
+$\mathcal{J}'$ of $\mathcal{O}_{Y}$ and such that the injection $j' : X'' \to Y$ majorizes $f$, one must first have
+$X'' \supset \psi(X)$, hence $X' \subset X''$ since $X''$ is closed. Moreover, for every $y \in X''$, $\theta$ must
+factor as $\mathcal{O}_{y} \to \mathcal{O}_{y}/\mathcal{J}'_{y} \to (\psi_{*}(\mathcal{O}_{X}))_{y}$, which by
+definition entails $\mathcal{J}'_{y} \subset \mathcal{J}_{y}$, and consequently $X'$ is a closed subprescheme of $X''$
+(4.1.10).
 
 **Definition (9.5.3).** When there exists a smallest closed subprescheme $Y'$ of $Y$ such that the canonical injection
 $j : Y' \to Y$ majorizes $f$, one says that $Y'$ is the _closed image prescheme of $X$ under the morphism $f$_.

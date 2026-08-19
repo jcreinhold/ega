@@ -41,12 +41,12 @@ EGA V is the never-published fifth volume; we cite it as Chapter V. The §V.N.M.
 Grothendieck's prenotes were drafted under the EGA IV numbering and renumbered into EGA V only after EGA IV's Part 1
 appeared in 1964. The mapping from prenote section to EGA V section is:
 
-| EGA V (this edition) | Originally drafted as | Topic |
-| --- | --- | --- |
-| §V.1 | EGA IV §16 | Singular and supersingular zeros; differential criteria |
-| §§V.2.15, V.2.16 | EGA IV §§17.15, 17.16 | Jacobian and regularity supplements |
-| §V.5 | EGA IV §20 | Hyperplane sections and conic projections |
-| §V.6 | EGA IV §21 | Invertible sheaves; divisors; linear systems |
+| EGA V (this edition) | Originally drafted as | Topic                                                   |
+| -------------------- | --------------------- | ------------------------------------------------------- |
+| §V.1                 | EGA IV §16            | Singular and supersingular zeros; differential criteria |
+| §§V.2.15, V.2.16     | EGA IV §§17.15, 17.16 | Jacobian and regularity supplements                     |
+| §V.5                 | EGA IV §20            | Hyperplane sections and conic projections               |
+| §V.6                 | EGA IV §21            | Invertible sheaves; divisors; linear systems            |
 
 The section opening of each translated file states this correspondence inline. Inside-the-section cross-references to
 "old §N" are normalized to `(formerly IV, N)` at first occurrence and to plain $(V, M)$ afterwards.
@@ -123,26 +123,26 @@ preserve the French in a translator footnote with the literal English gloss.
 All math notation inherits EGA IV. The Blass files render OCR fragments in non-standard forms (e.g. $\Omega 1X/k$, $mX
 /m2X$, $d2X/Y \phi$, $PX/Y2$); these are normalized:
 
-| Blass OCR form | Normalized rendering | Notes |
-| --- | --- | --- |
-| $\Omega 1X/k$ | $\Omega^{1}_{X/k}$ | Subscripts via underscores; superscripts via `^`. |
-| $mX /m2X$ | $\mathfrak{m}_{X} / \mathfrak{m}^{2}_{X}$ | Fraktur for local maximal ideals; superscripts via `^`. |
-| $m2X /m3X$ | $\mathfrak{m}^{2}_{X} / \mathfrak{m}^{3}_{X}$ |  |
-| $Sym(mX /m2X)$ | $Sym(\mathfrak{m}_{X} / \mathfrak{m}^{2}_{X})$ |  |
-| $Sym2 (\Omega 1X/Y)$ | $Sym^{2}(\Omega^{1}_{X/Y})$ |  |
-| `OX`, `OY` | $\mathcal{O}_{X}$, $\mathcal{O}_{Y}$ | Script $\mathcal{O}$. |
-| $d2X/Y \phi$ | $d^{2}_{X/Y} \phi$ |  |
-| $PX/Y2$ | $\mathcal{P}^{2}_{X/Y}$ | Script $\mathcal{P}$ for principal parts (cf. EGA IV §0_IV.20). |
-| $d0\phi$, $d1\phi$, $d2\phi$ | $d^{0}\phi$, $d^{1}\phi$, $d^{2}\phi$ | Superscripts via `^`. |
-| $V (\phi)sing$ | $V(\phi)_{sing}$ |  |
-| $V (\phi)\sup sing$ | $V(\phi)_{\sup sing}$ | Or $V(\phi)_{supsing}$ for compactness; both acceptable. |
-| $\Lambda 1$, $\Lambda$ | $\Lambda^{1}$, $\Lambda$ | Superscripts via `^`. |
-| `det`, `Sym` | `det`, `Sym` | Unaltered. |
-| $\simeq (\approx)$ | $\cong$ | Blass uses both $\simeq$ and $\approx$ inconsistently; standardize to $\cong$ for isomorphism. |
-| $\to$, $\mapsto$ | $\to$, $\mapsto$ | Unaltered. |
-| `i.e.` | "that is", "i.e." | Modernize when verbose; preserve as `i.e.` in technical asides. |
-| `e.g.` | "for example", "e.g." | Modernize when verbose. |
-| `(K)`, `(Tr)` | Strip from prose; footnote if `Tr`. | The `(K)`-style "key" markings in the Blass margins are editorial; they are not part of the mathematics. |
+| Blass OCR form               | Normalized rendering                           | Notes                                                                                                    |
+| ---------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| $\Omega 1X/k$                | $\Omega^{1}_{X/k}$                             | Subscripts via underscores; superscripts via `^`.                                                        |
+| $mX /m2X$                    | $\mathfrak{m}_{X} / \mathfrak{m}^{2}_{X}$      | Fraktur for local maximal ideals; superscripts via `^`.                                                  |
+| $m2X /m3X$                   | $\mathfrak{m}^{2}_{X} / \mathfrak{m}^{3}_{X}$  |                                                                                                          |
+| $Sym(mX /m2X)$               | $Sym(\mathfrak{m}_{X} / \mathfrak{m}^{2}_{X})$ |                                                                                                          |
+| $Sym2 (\Omega 1X/Y)$         | $Sym^{2}(\Omega^{1}_{X/Y})$                    |                                                                                                          |
+| `OX`, `OY`                   | $\mathcal{O}_{X}$, $\mathcal{O}_{Y}$           | Script $\mathcal{O}$.                                                                                    |
+| $d2X/Y \phi$                 | $d^{2}_{X/Y} \phi$                             |                                                                                                          |
+| $PX/Y2$                      | $\mathcal{P}^{2}_{X/Y}$                        | Script $\mathcal{P}$ for principal parts (cf. EGA IV §0_IV.20).                                          |
+| $d0\phi$, $d1\phi$, $d2\phi$ | $d^{0}\phi$, $d^{1}\phi$, $d^{2}\phi$          | Superscripts via `^`.                                                                                    |
+| $V (\phi)sing$               | $V(\phi)_{sing}$                               |                                                                                                          |
+| $V (\phi)\sup sing$          | $V(\phi)_{\sup sing}$                          | Or $V(\phi)_{supsing}$ for compactness; both acceptable.                                                 |
+| $\Lambda 1$, $\Lambda$       | $\Lambda^{1}$, $\Lambda$                       | Superscripts via `^`.                                                                                    |
+| `det`, `Sym`                 | `det`, `Sym`                                   | Unaltered.                                                                                               |
+| $\simeq (\approx)$           | $\cong$                                        | Blass uses both $\simeq$ and $\approx$ inconsistently; standardize to $\cong$ for isomorphism.           |
+| $\to$, $\mapsto$             | $\to$, $\mapsto$                               | Unaltered.                                                                                               |
+| `i.e.`                       | "that is", "i.e."                              | Modernize when verbose; preserve as `i.e.` in technical asides.                                          |
+| `e.g.`                       | "for example", "e.g."                          | Modernize when verbose.                                                                                  |
+| `(K)`, `(Tr)`                | Strip from prose; footnote if `Tr`.            | The `(K)`-style "key" markings in the Blass margins are editorial; they are not part of the mathematics. |
 
 For the OCR's $\Lambda r R$ and similar Greek-Roman ambiguities, consult the PDF; in our experience the PDF resolves
 them as $\Lambda^{r} M$ (capital lambda with rank $r$ of the module $M$).

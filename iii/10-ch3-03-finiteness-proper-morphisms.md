@@ -398,8 +398,7 @@ its natural structure of "filtered $A$-module". We may therefore apply $(0_{III}
 
 1Â° The projective system $(H^{n}(\mathfrak{X}, \mathcal{F}_{k}))_{k \geq 0}$ satisfies the (ML)-condition.
 
-2Â° If $H'^{n} = \varprojlim H^{n}(\mathfrak{X}, \mathcal{F}_{k})$, then $H'^{n}$ is an $A$-module of finite
-type.
+2Â° If $H'^{n} = \varprojlim H^{n}(\mathfrak{X}, \mathcal{F}_{k})$, then $H'^{n}$ is an $A$-module of finite type.
 
 3Â° The filtration defined on $H'^{n}$ by the kernels of the canonical homomorphisms $H'^{n} \to
 H^{n}(\mathfrak{X}, \mathcal{F}_{k})$ is $\mathfrak{J}$-good.

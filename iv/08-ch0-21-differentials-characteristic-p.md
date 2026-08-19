@@ -1319,8 +1319,8 @@ $$ k'[[T_{1}, \ldots, T_{r}]] \cap k((T_{1}, \ldots, T_{r})) = k[[T_{1}, \ldots,
 
 In fact, set $C = k[[T_{1}, \cdots, T_{r}]]$, $D = k'[[T_{1}, \cdots, T_{r}]]$; as $k((T_{1}, \cdots, T_{r}))$ is the
 field of fractions of $C$, it will suffice to prove that $D$ is a faithfully flat $C$-module (Bourbaki, Alg. comm.,
-chap. I, §3, nÂ° 5, prop. 10). Now, $C$ and $D$ are Noetherian local rings, and if $\mathfrak{m}$ is the maximal
-ideal of $C$, one has $D/\mathfrak{m} D = (C/\mathfrak{m}) \otimes_{k} k'$, hence $D/\mathfrak{m} D$
+chap. I, §3, nÂ° 5, prop. 10). Now, $C$ and $D$ are Noetherian local rings, and if $\mathfrak{m}$ is the maximal ideal
+of $C$, one has $D/\mathfrak{m} D = (C/\mathfrak{m}) \otimes_{k} k'$, hence $D/\mathfrak{m} D$
 
 <!-- original page 271 -->
 
@@ -1457,9 +1457,9 @@ $$ \operatorname{rg}_{A} \hat{\Omega}^{1}_{A/A_{0}} = \operatorname{rg}_{E}(\hat
 \dim(A). \tag{21.9.5.1} $$
 
 Note that if $\mathfrak{m}_{0}$ is the maximal ideal of $A_{0}$, the topology of $A$ is the $\mathfrak{m}_{0}$-adic
-topology since $A$ is a finite $A_{0}$-algebra (Bourbaki, Alg. comm., chap. IV, §2, nÂ° 5, cor. 3 of prop. 9)
-and induces on $A_{0}$ the $\mathfrak{m}_{0}$-adic topology (Bourbaki, Alg. comm., chap. III, §3, nÂ° 4, th. 3).
-One knows `(21.9.1)` that $\hat{\Omega}^{1}_{A/A_{0}}$ is an $A$-module of finite type, and
+topology since $A$ is a finite $A_{0}$-algebra (Bourbaki, Alg. comm., chap. IV, §2, nÂ° 5, cor. 3 of prop. 9) and
+induces on $A_{0}$ the $\mathfrak{m}_{0}$-adic topology (Bourbaki, Alg. comm., chap. III, §3, nÂ° 4, th. 3). One knows
+`(21.9.1)` that $\hat{\Omega}^{1}_{A/A_{0}}$ is an $A$-module of finite type, and
 
 <!-- original page 273 -->
 
@@ -1574,9 +1574,9 @@ Let us note now the classical lemma:
 
 *For every field $k$, the formal power series field $K = k((T_{1}, \cdots, T_{r}))$ is a separable extension of $k$.*
 
-Let us briefly recall the proof of this lemma for completeness. It suffices (Bourbaki, Alg., chap. VIII, §7, nÂ°
-3, proof of th. 1) to prove that for every finite extension $k'$ of $k$, $K \otimes_{k} k'$ is without nilpotent
-element; but if one sets $A = k[[T_{1}, \cdots, T_{r}]]$ and $S = A - \{0\}$, $K \otimes_{k} k'$ is equal to $S^{-1}(A
+Let us briefly recall the proof of this lemma for completeness. It suffices (Bourbaki, Alg., chap. VIII, §7, nÂ° 3,
+proof of th. 1) to prove that for every finite extension $k'$ of $k$, $K \otimes_{k} k'$ is without nilpotent element;
+but if one sets $A = k[[T_{1}, \cdots, T_{r}]]$ and $S = A - \{0\}$, $K \otimes_{k} k'$ is equal to $S^{-1}(A
 \otimes_{k} k')$, and $A \otimes_{k} k'$ is identified canonically with the integral ring $A' = k'[[T_{1}, \cdots,
 T_{r}]]$ and $A$ to a subring of $A'$, whence the conclusion.
 

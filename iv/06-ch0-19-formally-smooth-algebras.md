@@ -1172,9 +1172,9 @@ is the canonical homomorphism, and $c$ the class of $f \circ (\phi \times \phi)$
 $H^{2}_{A_{\mu}}(B_{\mu}, L)^{s}$, $c'$ is the canonical image of $c$. Now, if $P_{\bullet}$ is the complex relative to
 the rings $A_{\mu}$ and $B_{\mu}$ defined in `(18.4.5)`, serving for the computation of $H^{2}_{A_{\mu}}(B_{\mu},
 L)^{s}$, the analogous complex relative to the rings $A'_{\mu}$ and $B'_{\mu}$ is evidently $P_{\bullet} \otimes_{A}
-A'$; under hypothesis 1Â°, the construction of $P_{\bullet}$ shows that this is an $A_{\mu}$-projective module
-of finite type. One concludes therefore from Bourbaki, Alg., chap. II, 3rd ed., §5, nÂ° 3, prop. 7 that, under
-both hypotheses, one has $\operatorname{Hom}_{A'_{\mu}}(P_{\bullet} \otimes_{A} A', L \otimes_{A} A') =
+A'$; under hypothesis 1Â°, the construction of $P_{\bullet}$ shows that this is an $A_{\mu}$-projective module of finite
+type. One concludes therefore from Bourbaki, Alg., chap. II, 3rd ed., §5, nÂ° 3, prop. 7 that, under both hypotheses,
+one has $\operatorname{Hom}_{A'_{\mu}}(P_{\bullet} \otimes_{A} A', L \otimes_{A} A') =
 (\operatorname{Hom}_{A_{\mu}}(P_{\bullet}, L)) \otimes_{A} A'$ up to a canonical isomorphism; since $A'$ is a flat
 $A$-module, one has therefore `(18.4.5)`
 
@@ -1447,8 +1447,7 @@ bijective for
 
 <!-- original page 189 -->
 
-every $n$ `(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 3 of th. 1)`; whence c) by passage to the
-projective limit.
+every $n$ `(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 3 of th. 1)`; whence c) by passage to the projective limit.
 
 **Remark (19.5.5).**
 
@@ -1696,8 +1695,7 @@ $$ w_{\beta \lambda} : E_{\lambda,n} \to F_{\beta,n} $$
 
 *such that: 1Â° $gr^{0}(w_{\beta \lambda}) : C_{\lambda} \to C_{\beta}$ and $gr^{1}(w_{\beta \lambda}) :
 \mathfrak{J}_{\lambda}/\mathfrak{J}^{2}_{\lambda} \to \mathfrak{J}_{\beta}/\mathfrak{J}^{2}_{\beta}$ are the transition
-homomorphisms; 2Â° the composite $E_{\lambda,n} \to F_{\beta,n} \to E_{\alpha,n}$ is the transition
-homomorphism.*
+homomorphisms; 2Â° the composite $E_{\lambda,n} \to F_{\beta,n} \to E_{\alpha,n}$ is the transition homomorphism.*
 
 Apply lemma `(19.5.6.3, (ii))` with $\gamma = \beta$, which gives a $\delta \geq \beta$ and a
 $\mathit{v}_{\beta \delta} : F_{\delta,n} \to E_{\beta,n}$. Recall that $\mathit{v}_{\beta \delta}$ is surjective; on
@@ -1887,9 +1885,9 @@ The proof of theorem `(19.5.3)` is thus complete.
 
 *Let $A$ be a topological ring, $B$ a topological $A$-algebra, $(\mathfrak{b}_{\lambda})$ a fundamental system of open
 ideals in $B$, $\mathfrak{J}$ an ideal of $B$, $C = B/\mathfrak{J}$ the quotient topological $A$-algebra. Set
-$C_{\lambda} = B/(\mathfrak{b}_{\lambda} + \mathfrak{J})$. Assume that: 1Â° for every $n$, the topology induced
-on $\mathfrak{J}^{n}$ by that of $B$ is also the topology of the $C$-module $\mathfrak{J}^{n}$ deduced from the topology
-of $C$ `(19.0.2)` (this condition will be satisfied in particular if $B$ is Noetherian and its topology preadic $(0_{I},
+$C_{\lambda} = B/(\mathfrak{b}_{\lambda} + \mathfrak{J})$. Assume that: 1Â° for every $n$, the topology induced on
+$\mathfrak{J}^{n}$ by that of $B$ is also the topology of the $C$-module $\mathfrak{J}^{n}$ deduced from the topology of
+$C$ `(19.0.2)` (this condition will be satisfied in particular if $B$ is Noetherian and its topology preadic $(0_{I},
 7.3.2)$); 2Â° $C$ is a formally smooth $A$-algebra. Under these conditions:*
 
 *(i) If $B$ is a formally smooth $A$-algebra, then, for every $\lambda$, $(\mathfrak{J}/\mathfrak{J}^{2}) \otimes_{C}
@@ -1931,11 +1929,11 @@ Indeed, it is clear that (i') implies the conclusion of (i) in `(19.5.7)`. Conve
 $(\mathfrak{J}/\mathfrak{J}^{2}) \otimes_{C} C_{\lambda}$ is a projective $C_{\lambda}$-module for every $\lambda$, then
 $(\mathfrak{J}/\mathfrak{J}^{2}) \otimes_{C} (C/\mathfrak{r}^{n})$ is a $(C/\mathfrak{r}^{n})$-module that is projective
 (hence flat) for every $n$; one concludes that $\mathfrak{J}/\mathfrak{J}^{2}$ is a flat $C$-module $(0_{III}, 10.2.2)$,
-hence projective since it is of finite presentation
-`(Bourbaki, Alg. comm., chap. II, §5, nÂ° 2, cor. 2 of th. 1)`. On the other hand, the $C$-modules
-$S_{C}(\mathfrak{J}/\mathfrak{J}^{2})$ and $gr^{\bullet}_{\mathfrak{J}}(B)$ are of finite type, and one knows that when
-$C$ is a Zariski ring, it amounts to the same thing to say that $\phi_{n}$ is bijective or that $\phi_{\lambda}$ is
-bijective `(Bourbaki, Alg. comm., chap. III, §3, nÂ° 5, prop. 9)`, hence (ii) is equivalent to (ii').
+hence projective since it is of finite presentation `(Bourbaki, Alg. comm., chap. II, §5, nÂ° 2, cor. 2 of th. 1)`. On
+the other hand, the $C$-modules $S_{C}(\mathfrak{J}/\mathfrak{J}^{2})$ and $gr^{\bullet}_{\mathfrak{J}}(B)$ are of
+finite type, and one knows that when $C$ is a Zariski ring, it amounts to the same thing to say that $\phi_{n}$ is
+bijective or that $\phi_{\lambda}$ is bijective `(Bourbaki, Alg. comm., chap. III, §3, nÂ° 5, prop. 9)`, hence (ii) is
+equivalent to (ii').
 
 ## 19.6. Case of algebras over a field
 
@@ -2125,13 +2123,13 @@ is a separable extension of $k'$.*
 
 Let us first note that if $k'$ is a radicial extension of $k$, there is only one ideal of $A' = A \otimes_{k} k'$ above
 $\mathfrak{m}$, formed of the elements of which some $p^{h}$-th power ($p$ the characteristic exponent of $k$) is in
-$\mathfrak{m}$ for some suitable $h$ `(Bourbaki, Alg. comm., chap. V, §2, nÂ° 3, lemma 4)`; $A'$ is thus a local
-ring, and so is $K \otimes_{k} k' = (A \otimes_{k} k')/(\mathfrak{m} \otimes_{k} k')$; moreover the residue fields of
-these two rings are identical. Recall on the other hand that if $K$ is a separable extension of $k$, then, for every
-finite extension `k''` of $k$, $K \otimes_{k} k''$ is a direct composite of fields
-`(Bourbaki, Alg., chap. VIII, §7, nÂ° 3, cor. 1 of th. 1)`, and consequently $\mathfrak{m} \otimes_{k} k''$ is
-the radical of $A \otimes_{k} k''$, and the field components of $K \otimes_{k} k''$ are the residue fields at the
-maximal ideals of $A \otimes_{k} k''$; in
+$\mathfrak{m}$ for some suitable $h$ `(Bourbaki, Alg. comm., chap. V, §2, nÂ° 3, lemma 4)`; $A'$ is thus a local ring,
+and so is $K \otimes_{k} k' = (A \otimes_{k} k')/(\mathfrak{m} \otimes_{k} k')$; moreover the residue fields of these
+two rings are identical. Recall on the other hand that if $K$ is a separable extension of $k$, then, for every finite
+extension `k''` of $k$, $K \otimes_{k} k''$ is a direct composite of fields
+`(Bourbaki, Alg., chap. VIII, §7, nÂ° 3, cor. 1 of th. 1)`, and consequently $\mathfrak{m} \otimes_{k} k''$ is the
+radical of $A \otimes_{k} k''$, and the field components of $K \otimes_{k} k''$ are the residue fields at the maximal
+ideals of $A \otimes_{k} k''$; in
 
 <!-- original page 199 -->
 
@@ -2334,8 +2332,8 @@ $A$-module. Let $u : N \to M$ be an $A$-homomorphism; if $u \otimes 1 : N \otime
 
 The associated graded modules being taken relative to the $\mathfrak{J}$-preadic filtrations, it follows from the
 hypotheses on $M$ and $N$ relative to the $\mathfrak{J}$-preadic topologies that it suffices to prove that $gr(u) :
-gr_{\bullet}(N) \to gr_{\bullet}(M)$ is bijective
-`(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 3 of th. 1)`. Now, one has a commutative diagram
+gr_{\bullet}(N) \to gr_{\bullet}(M)$ is bijective `(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 3 of th. 1)`. Now,
+one has a commutative diagram
 
 $$
 \begin{array}{ccc}
@@ -2493,8 +2491,8 @@ The prime local rings are therefore of two kinds:
 $\mathbb{Z}_{p\mathbb{Z}}$ is a discrete valuation ring, whose completion is *the ring of $p$-adic integers*, usually
 denoted $\mathbb{Z}_{p}$ $^{(1)}$.
 
-2Â° For the prime ideal $p\mathbb{Z} = (0)$, $\mathbb{Z}_{(0)}$ is the field of rational numbers $\mathbb{Q}$,
-identical to its completion (the topology being naturally the topology of Noetherian local ring, hence here the discrete
+2Â° For the prime ideal $p\mathbb{Z} = (0)$, $\mathbb{Z}_{(0)}$ is the field of rational numbers $\mathbb{Q}$, identical
+to its completion (the topology being naturally the topology of Noetherian local ring, hence here the discrete
 topology).
 
 The terminology of `(19.8.3)`, analogous to that of "prime fields", is justified in the same way: for every local ring
@@ -2536,10 +2534,9 @@ of the residue fields of $P$ and $A$. We say that $A$ is a **Cohen ring** if it 
 *3Â° $A/pA$ is a field (necessarily separable over the residue field of $P$, this field being prime).*
 
 If $p = 0$, these conditions are equivalent to saying that $A$ is a field of characteristic `0`. If $p > 0$, one
-necessarily has $pA \neq 0$; condition 3Â° means that $pA$ is the maximal ideal $\mathfrak{m}$ of $A$; condition
-2Â° means that $p$ is $A$-regular, since $P$ is a discrete valuation ring $(0_{I}, 6.3.4)$. Hence $A$ is a
-regular ring `(17.1.1, d)` of dimension `1`, and consequently a complete discrete valuation ring by virtue of
-1Â°; in summary:
+necessarily has $pA \neq 0$; condition 3Â° means that $pA$ is the maximal ideal $\mathfrak{m}$ of $A$; condition 2Â°
+means that $p$ is $A$-regular, since $P$ is a discrete valuation ring $(0_{I}, 6.3.4)$. Hence $A$ is a regular ring
+`(17.1.1, d)` of dimension `1`, and consequently a complete discrete valuation ring by virtue of 1Â°; in summary:
 
 **Proposition (19.8.5).**
 
@@ -2594,25 +2591,25 @@ Witt vectors of infinite length over $K$.*
 $W[[T_{1}, \cdots, T_{n}]]$ (and in particular $A$ is isomorphic to a quotient of a complete regular local ring
 `(17.3.8)`). If $A$ contains a field, it is isomorphic to a quotient ring of $k[[T_{1}, \cdots, T_{n}]]$.*
 
-*(ii) Suppose in addition that $A$ is integral. Then there exists a subring $B$ of $A$ such that: 1Â° $B$ is
-isomorphic to a formal power series ring over a ring $C$ which is a field or a Cohen ring (which entails that $B$ is a
-complete regular local ring `(17.3.8)`); 2Â° $B$ has the same residue field as $A$ and the injection $B \to A$
-is a local homomorphism; 3Â° $A$ is a finite $B$-algebra.*
+*(ii) Suppose in addition that $A$ is integral. Then there exists a subring $B$ of $A$ such that: 1Â° $B$ is isomorphic
+to a formal power series ring over a ring $C$ which is a field or a Cohen ring (which entails that $B$ is a complete
+regular local ring `(17.3.8)`); 2Â° $B$ has the same residue field as $A$ and the injection $B \to A$ is a local
+homomorphism; 3Â° $A$ is a finite $B$-algebra.*
 
 Let $\mathfrak{m}$ be the maximal ideal of $A$. There exists a Cohen ring $W$ whose residue field is isomorphic to $k$
 `(19.8.6, (ii))`; one therefore has a local homomorphism $W \to A/\mathfrak{m}$, which consequently factors as $W \to A
 \to A/\mathfrak{m}$, where $u$ is a local homomorphism `(19.8.6, (i))`. For every finite family $(x_{i})_{1 \leq i \leq
 n}$ of elements of $\mathfrak{m}$, there then exists a local homomorphism $v : W[[T_{1}, \cdots, T_{n}]] \to A$
-extending $u$ and such that $v(T_{i}) = x_{i}$ for every $i$
-`(Bourbaki, Alg. comm., chap. III, §4, nÂ° 5, prop. 6)`. When $A$ contains a field, it contains a prime field
-$P$, of which $k$ is a (necessarily separable) extension, and consequently $A$ contains a field isomorphic to $k$
-`(19.6.2)`; one may then replace $W$ by $k$ in the preceding definition of $v$.
+extending $u$ and such that $v(T_{i}) = x_{i}$ for every $i$ `(Bourbaki, Alg. comm., chap. III, §4, nÂ° 5, prop. 6)`.
+When $A$ contains a field, it contains a prime field $P$, of which $k$ is a (necessarily separable) extension, and
+consequently $A$ contains a field isomorphic to $k$ `(19.6.2)`; one may then replace $W$ by $k$ in the preceding
+definition of $v$.
 
 (i) Let us first take for the $x_{i}$ a system of generators of $\mathfrak{m}$. Since $W$ has the same residue field as
 $A$, and the classes of the $x_{i}$ in the graded ring $gr_{\bullet}(A)$ generate $gr_{\bullet}(A)$ as a $k$-algebra,
 $gr(v) : gr_{\bullet}(W[[T_{1}, \cdots, T_{n}]]) \to gr_{\bullet}(A)$ is surjective; one deduces that $v$ itself is
-surjective `(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 2 of th. 1)`. Recall that the case where $A$
-contains a field has already been seen and only figures here for reference `(19.6.3)`.
+surjective `(Bourbaki, Alg. comm., chap. III, §2, nÂ° 8, cor. 2 of th. 1)`. Recall that the case where $A$ contains a
+field has already been seen and only figures here for reference `(19.6.3)`.
 
 (ii) If $A$ contains a field, it contains a field $k'$ isomorphic to $k$ as one has seen; one then considers a system of
 parameters $(y_{i})_{1 \leq i \leq m}$ of $A$ `(16.3.6)`, one takes $B = k[[T_{1}, \cdots, T_{m}]]$ and one considers

@@ -688,9 +688,9 @@ $\mathcal{O}_{Y}$-module $\mathcal{E}$ of finite type and of a $Y$-immersion $j 
 $\mathcal{L}$ very ample relative to $f$; 3Â° the quasi-coherent $\mathcal{O}_{Y}$-module $\mathcal{E} =
 f_{*}(\mathcal{L})$ is of finite type. Then $f$ is a projective morphism: indeed (4.4.4), there is then a $Y$-immersion
 $r : X \to \mathbb{P}(\mathcal{E})$, and since $f$ is proper, $r$ is a closed immersion (5.4.4). We will see in Chapter
-III, §3, that when $Y$ is locally Noetherian, condition 3Â° above is a consequence of the other two, hence conditions 1Â°
-and 2Â° characterize, in this case, the projective morphisms, and if $Y$ is quasi-compact, one may replace condition 2Â°
-by the hypothesis of the existence of an $\mathcal{O}_{X}$-module ample for $f$ (4.6.11).
+III, §3, that when $Y$ is locally Noetherian, condition 3Â° above is a consequence of the other two, hence conditions
+1Â° and 2Â° characterize, in this case, the projective morphisms, and if $Y$ is quasi-compact, one may replace condition
+2Â° by the hypothesis of the existence of an $\mathcal{O}_{X}$-module ample for $f$ (4.6.11).
 
 (ii) Let $Y$ be a quasi-compact scheme such that there exists an ample $\mathcal{O}_{Y}$-module. For a $Y$-scheme $X$ to
 be projective, it is necessary and sufficient that it be $Y$-isomorphic to a closed $Y$-subscheme of a projective bundle

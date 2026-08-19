@@ -187,8 +187,8 @@ exist a graded prime ideal $\mathfrak{p}$ of $S$ not containing $S_{+}$ and such
 
 1Â° $S_{m} \mathfrak{p}_{n} \subset \mathfrak{p}_{m + n}$ for every $m \geq 0$ and every $n \geq n_{0}$.
 
-2Â° For $m \geq n_{0}$, $n \geq n_{0}$, $f \in S_{m}$, $g \in S_{n}$, the relation $fg \in \mathfrak{p}_{m + n}$
-implies $f \in \mathfrak{p}_{m}$ or $g \in \mathfrak{p}_{n}$.
+2Â° For $m \geq n_{0}$, $n \geq n_{0}$, $f \in S_{m}$, $g \in S_{n}$, the relation $fg \in \mathfrak{p}_{m + n}$ implies
+$f \in \mathfrak{p}_{m}$ or $g \in \mathfrak{p}_{n}$.
 
 3Â° $\mathfrak{p}_{n} \neq S_{n}$ for at least one $n \geq n_{0}$.
 
@@ -1768,8 +1768,9 @@ $$
 <!-- label: II.2.8.13 -->
 
 Keep the notation and hypotheses of (2.8.9), and let $\mathcal{F}'$ be an $\mathcal{O}_{X'}$-module; setting
-$\mathcal{F} = \Phi^{*}(\mathcal{F}')$, we have, for every $n \in \mathbb{Z}$, $\mathcal{F}(n) = \Phi^{*}(\mathcal{F}'(n))$ by
-virtue of (2.8.11) and `(0, 4.3.3)`. Consequently `(0, 3.7.1)` we have a canonical homomorphism
+$\mathcal{F} = \Phi^{*}(\mathcal{F}')$, we have, for every $n \in \mathbb{Z}$,
+$\mathcal{F}(n) = \Phi^{*}(\mathcal{F}'(n))$ by virtue of (2.8.11) and `(0, 4.3.3)`. Consequently `(0, 3.7.1)` we have a
+canonical homomorphism
 
 $$ \Gamma(\rho) : \Gamma(X', \mathcal{F}'(n)) \to \Gamma(X, \mathcal{F}(n)) $$
 

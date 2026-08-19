@@ -29,11 +29,12 @@ $$
 
 *(5.1.1.4)* $\operatorname{Spec}(A)$ is a catenary space $\Leftrightarrow$ $A$ is a catenary ring.
 
-*(5.1.1.5)* $\operatorname{Spec}(A)$ is equidimensional $\Leftrightarrow$ $A$ is equidimensional $\Leftrightarrow$ the minimal prime ideals
-$\mathfrak{p}_{\alpha}$ of $A$ are such that the dimensions of the rings $A/\mathfrak{p}_{\alpha}$ are all equal.
+*(5.1.1.5)* $\operatorname{Spec}(A)$ is equidimensional $\Leftrightarrow$ $A$ is equidimensional $\Leftrightarrow$ the
+minimal prime ideals $\mathfrak{p}_{\alpha}$ of $A$ are such that the dimensions of the rings $A/\mathfrak{p}_{\alpha}$
+are all equal.
 
-*(5.1.1.6)* $\operatorname{Spec}(A)$ is equicodimensional $\Leftrightarrow$ $A$ is equicodimensional $\Leftrightarrow$ all the maximal ideals of $A$
-have the same height.
+*(5.1.1.6)* $\operatorname{Spec}(A)$ is equicodimensional $\Leftrightarrow$ $A$ is equicodimensional $\Leftrightarrow$
+all the maximal ideals of $A$ have the same height.
 
 Recall that a Noetherian ring $A$ is said to be **biequidimensional** if $\operatorname{Spec}(A)$ is biequidimensional,
 that is to say if $\operatorname{Spec}(A)$ is Noetherian and $A$ is equidimensional, equicodimensional, catenary, and of
@@ -76,8 +77,8 @@ $$
 
 The relation `(5.1.3.2)` indeed follows from `(5.1.3.1)` and from `(0, 14.2.6)`.
 
-This corollary allows us to *define*, for any part $Y$ of a prescheme $X$, the **codimension** $\operatorname{codim}(Y, X)$ of $Y$ in
-$X$ as equal to the second member of `(5.1.3.1)`.
+This corollary allows us to *define*, for any part $Y$ of a prescheme $X$, the **codimension**
+$\operatorname{codim}(Y, X)$ of $Y$ in $X$ as equal to the second member of `(5.1.3.1)`.
 
 **Proposition (5.1.4).**
 
@@ -130,10 +131,10 @@ equal to $\dim(A_{\mathfrak{p}})$, is therefore also finite. These properties, t
 
 <!-- label: IV.5.1.7 -->
 
-*For every non-empty closed part $Y$ of a locally Noetherian prescheme $X$, $\operatorname{codim}(Y, X)$ is finite. If $X$ is
-Noetherian and affine and $Y$ an irreducible closed part of $X$, $\operatorname{codim}(Y, X)$ is equal to the minimum number of
-sections $s_{i}$ of $\mathcal{O}_{X}$ over $X$ such that $Y$ is an irreducible component of the set of $x \in X$ such
-that $s_{i}(x) = 0$ for every $i$.*
+*For every non-empty closed part $Y$ of a locally Noetherian prescheme $X$, $\operatorname{codim}(Y, X)$ is finite. If
+$X$ is Noetherian and affine and $Y$ an irreducible closed part of $X$, $\operatorname{codim}(Y, X)$ is equal to the
+minimum number of sections $s_{i}$ of $\mathcal{O}_{X}$ over $X$ such that $Y$ is an irreducible component of the set of
+$x \in X$ such that $s_{i}(x) = 0$ for every $i$.*
 
 **Corollary (5.1.8).**
 
@@ -150,8 +151,8 @@ irreducible component of $X$.*
 One can restrict to the case where $\mathcal{L} = \mathcal{O}_{X}$. If $y$ is a generic point of an irreducible
 component $Y$ of $Z$, the ideal $(f_{y})$ of $\mathcal{O}_{X,y}$ must be such that $\mathcal{O}_{X,y}/(f_{y})$ has only
 one prime ideal, which means that $f_{y}$ generates an ideal of definition of the Noetherian local ring
-$\mathcal{O}_{X,y}$; one thus has $\operatorname{codim}(Y, X) \leq 1$ `(5.1.7)`; if $Z$ contains no irreducible component of $X$, one
-cannot have $\operatorname{codim}(Y, X) = 0$ by virtue of `(0, 14.2.1)`.
+$\mathcal{O}_{X,y}$; one thus has $\operatorname{codim}(Y, X) \leq 1$ `(5.1.7)`; if $Z$ contains no irreducible
+component of $X$, one cannot have $\operatorname{codim}(Y, X) = 0$ by virtue of `(0, 14.2.1)`.
 
 **Proposition (5.1.9).**
 
@@ -225,9 +226,10 @@ Indeed, every closed part of $X$ is constructible $(0_{III}, 9.1.1 and 9.1.5)$ a
 
 <!-- label: IV.5.1.12 -->
 
-Let $X$ be a prescheme, $\mathcal{F}$ a quasi-coherent $\mathcal{O}_{X}$-Module of finite type, $S = \operatorname{Supp}(\mathcal{F})$
-its support, which is closed in $X$ $(0_{I}, 5.2.2)$. If, for every $x \in X$, one considers $\operatorname{Supp}(\mathcal{F}_{x})$ as
-a closed part of the local scheme $\operatorname{Spec}(\mathcal{O}_{x})$, one has, by definition `(0, 16.1.7)`
+Let $X$ be a prescheme, $\mathcal{F}$ a quasi-coherent $\mathcal{O}_{X}$-Module of finite type,
+$S = \operatorname{Supp}(\mathcal{F})$ its support, which is closed in $X$ $(0_{I}, 5.2.2)$. If, for every $x \in X$,
+one considers $\operatorname{Supp}(\mathcal{F}_{x})$ as a closed part of the local scheme
+$\operatorname{Spec}(\mathcal{O}_{x})$, one has, by definition `(0, 16.1.7)`
 $\dim(\mathcal{F}_x) = \dim(\operatorname{Supp}(\mathcal{F}_x))$; but one has
 
 $$
@@ -252,8 +254,8 @@ $$
 if $X$ is locally Noetherian.
 
 One says that $\mathcal{F}$ is **equidimensional at the point $x \in X$** if $\mathcal{F}_{x}$ is an equidimensional
-$\mathcal{O}_{X,x}$-module, that is to say `(0, 16.1.7)` if $\operatorname{Supp}(\mathcal{F}_{x})$ is equidimensional as a closed part
-of $\operatorname{Spec}(\mathcal{O}_{X,x})$; this amounts to saying that the ring $\mathcal{O}_{S,x}$ is
+$\mathcal{O}_{X,x}$-module, that is to say `(0, 16.1.7)` if $\operatorname{Supp}(\mathcal{F}_{x})$ is equidimensional as
+a closed part of $\operatorname{Spec}(\mathcal{O}_{X,x})$; this amounts to saying that the ring $\mathcal{O}_{S,x}$ is
 equidimensional.
 
 One calls **dimension of $\mathcal{F}$** and denotes by $\dim(\mathcal{F})$ the dimension of the support
@@ -299,10 +301,10 @@ $$
 $$
 
 One may evidently suppose $X$ reduced and affine, hence integral with ring $A$, an algebra of finite type over $k$. Let
-$n = \operatorname{deg.tr}_{k} k(\xi)$, with $k(\xi) = K$ the field of fractions of $A$. One knows (Bourbaki, *Alg. comm.*, chap. V,
-§3, nÂ° 1, th. 1) that there exists a sub-$k$-algebra $B = k[t_{1}, \cdots, t_{n}]$ of $A$, where the $t_{i}$ are
-algebraically independent over $k$, such that $A$ be a *finite* $B$-algebra. Let $\mathfrak{m} = j_{x}$, which by
-hypothesis is a maximal ideal of $A$; $\mathfrak{n} = B \cap \mathfrak{m}$ is therefore a maximal ideal of $B$
+$n = \operatorname{deg.tr}_{k} k(\xi)$, with $k(\xi) = K$ the field of fractions of $A$. One knows (Bourbaki, *Alg.
+comm.*, chap. V, §3, nÂ° 1, th. 1) that there exists a sub-$k$-algebra $B = k[t_{1}, \cdots, t_{n}]$ of $A$, where the
+$t_{i}$ are algebraically independent over $k$, such that $A$ be a *finite* $B$-algebra. Let $\mathfrak{m} = j_{x}$,
+which by hypothesis is a maximal ideal of $A$; $\mathfrak{n} = B \cap \mathfrak{m}$ is therefore a maximal ideal of $B$
 (Bourbaki, *Alg. comm.*, chap. V, §2, nÂ° 1, prop. 1), and $A_{\mathfrak{m}}$ is a local ring of the finite
 $B_{\mathfrak{n}}$-algebra $S^{-1}A$, where $S = B - \mathfrak{n}$; as $B_{\mathfrak{n}}$ is integrally closed and
 $S^{-1}A$ integral, one has $\dim(A_{\mathfrak{m}}) = \dim(B_{\mathfrak{n}})$ `(0, 16.1.6)`. One may therefore restrict
@@ -344,10 +346,11 @@ components of $X$ containing $x$; as $U \cap X_{i}$
 <!-- original page 91 -->
 
 is dense in $X_{i}$, it follows from `(4.1.1.3)` that $\dim(X_{i}) = \dim(U \cap X_{i})$, so one has
-$\dim_x(X) = \sup_i (\dim(X_i))$. Moreover, the minimal prime ideals of $\mathcal{O}_{x}$ correspond to the generic points
-of the $X_{i}$, hence `(0, 16.1.1.1)`, one has $\dim(\mathcal{O}_{X,x}) = \sup_i (\dim(\mathcal{O}_{X_i, x}))$. One is thus reduced to the case
-where $X$ is irreducible; as $X$ is biequidimensional by `(5.2.1)`, one has $\dim(X) = \dim(\overline{x}) + \operatorname{codim}(\overline{x}, X)$
-`(0, 14.3.5.1)`, and one knows that $\dim(\overline{x}) = \operatorname{deg.tr}_{k} k(x)$ by `(5.2.1)` and $\operatorname{codim}(\overline{x}, X) =
+$\dim_x(X) = \sup_i (\dim(X_i))$. Moreover, the minimal prime ideals of $\mathcal{O}_{x}$ correspond to the generic
+points of the $X_{i}$, hence `(0, 16.1.1.1)`, one has $\dim(\mathcal{O}_{X,x}) = \sup_i (\dim(\mathcal{O}_{X_i, x}))$.
+One is thus reduced to the case where $X$ is irreducible; as $X$ is biequidimensional by `(5.2.1)`, one has
+$\dim(X) = \dim(\overline{x}) + \operatorname{codim}(\overline{x}, X)$ `(0, 14.3.5.1)`, and one knows that
+$\dim(\overline{x}) = \operatorname{deg.tr}_{k} k(x)$ by `(5.2.1)` and $\operatorname{codim}(\overline{x}, X) =
 \dim(\mathcal{O}_{x})$ by `(5.1.2)`.
 
 **Corollary (5.2.4).**
@@ -367,8 +370,8 @@ $$
 
 and one is therefore reduced to the case where $X$ is irreducible ($Y \cap X_{\alpha}$ being rare in $X_{\alpha}$ since
 each $X_{\alpha}$ has a non-empty interior in $X$). One may restrict to the case where $Y \neq \emptyset$; then, for
-every maximal point $x$ of $Y$, one has (since $X$ is biequidimensional) $\dim(\overline{x}) = \dim(X) - \operatorname{codim}(\overline{x}, X)$, and
-since $Y$ is rare in $X$, one has
+every maximal point $x$ of $Y$, one has (since $X$ is biequidimensional)
+$\dim(\overline{x}) = \dim(X) - \operatorname{codim}(\overline{x}, X)$, and since $Y$ is rare in $X$, one has
 
 $$
 \operatorname{codim}(\overline{x}, X) = 1
@@ -414,12 +417,13 @@ $\mathcal{F}(n) = \mathcal{F} \otimes_{\mathcal{O}_{X}} \mathcal{L}^{\otimes n}$
 of the Hilbert polynomial $P(n) = \chi_{A}(\mathcal{F}(n))$ of $\mathcal{F}$ relative to $A$ `(III, 2.5.3)` is equal to
 the dimension of $\operatorname{Supp}(\mathcal{F})$.*
 
-We reason by induction on $d = \dim(\operatorname{Supp}(\mathcal{F}))$. One knows that there exists a closed sub-prescheme $Y$ of $X$
-whose $\operatorname{Supp}(\mathcal{F})$ is the underlying space, and an $\mathcal{O}_{Y}$-Module coherent $\mathcal{G}$ such that
-$\mathcal{F} = j_{*}(\mathcal{G})$, where $j : Y \to X$ is the canonical injection $(Err_{III}, 30)$. It is immediate
-that the Hilbert polynomials of $\mathcal{F}$ and of $\mathcal{G}$ are the same, so one may restrict to the case where
-$X = \operatorname{Supp}(\mathcal{F})$. Suppose first $d = 0$; all the points of $X$ being closed, $X$ is an Artinian scheme
-`(I, 6.2.2)`, hence $\mathcal{F}(n) = \mathcal{F}$ for every integer $n$, and one has consequently `(III, 2.5.3)`
+We reason by induction on $d = \dim(\operatorname{Supp}(\mathcal{F}))$. One knows that there exists a closed
+sub-prescheme $Y$ of $X$ whose $\operatorname{Supp}(\mathcal{F})$ is the underlying space, and an
+$\mathcal{O}_{Y}$-Module coherent $\mathcal{G}$ such that $\mathcal{F} = j_{*}(\mathcal{G})$, where $j : Y \to X$ is the
+canonical injection $(Err_{III}, 30)$. It is immediate that the Hilbert polynomials of $\mathcal{F}$ and of
+$\mathcal{G}$ are the same, so one may restrict to the case where $X = \operatorname{Supp}(\mathcal{F})$. Suppose first
+$d = 0$; all the points of $X$ being closed, $X$ is an Artinian scheme `(I, 6.2.2)`, hence
+$\mathcal{F}(n) = \mathcal{F}$ for every integer $n$, and one has consequently `(III, 2.5.3)`
 
 $$
 \chi_{A}(\mathcal{F}(n)) = \operatorname{long}_{A}(\Gamma(X, \mathcal{F}))
@@ -440,8 +444,8 @@ $$
 0 \to \mathcal{F} \xrightarrow{\mu_f} \mathcal{F}(m) \to \mathcal{G} \to 0 \tag{5.3.1.1}
 $$
 
-where $\mathcal{G}$ is coherent. By virtue of Nakayama's lemma, the points $x \in \operatorname{Supp}(\mathcal{G})$ are exactly those
-for which $f(x) = 0$. We shall deduce from this that one has
+where $\mathcal{G}$ is coherent. By virtue of Nakayama's lemma, the points $x \in \operatorname{Supp}(\mathcal{G})$ are
+exactly those for which $f(x) = 0$. We shall deduce from this that one has
 
 $$
 \dim(\operatorname{Supp}(\mathcal{G})) = d - 1. \tag{5.3.1.2}
@@ -462,7 +466,8 @@ the reduced closed sub-prescheme of $X$ having $X'$ as underlying space is at on
 finite over $A$ `(III, 4.4.2)`, and consequently an Artinian scheme, hence of dimension $0$.
 
 This lemma being established, note that since $Z$ contains the maximal points of $X$, $X_{f}$ is dense, hence
-$\operatorname{Supp}(\mathcal{G})$ is rare in $X$, and the relation `(5.3.1.2)` follows from the lemma and from `(5.2.4)`.
+$\operatorname{Supp}(\mathcal{G})$ is rare in $X$, and the relation `(5.3.1.2)` follows from the lemma and from
+`(5.2.4)`.
 
 <!-- original page 93 -->
 
@@ -623,16 +628,17 @@ prime ideals of $B = A[T]$ whose intersection with $A$ reduces to $0$ are exactl
 multiplicative part $S = A - {0}$ of the integral ring $A$; now one knows that there is an increasing bijection of the
 set of these ideals onto the set of prime ideals of $S^{-1}A[T] = K[T]$, where $K$ is the field of fractions of $A$
 (Bourbaki, *Alg. comm.*, chap. II, §2, nÂ° 5, prop. 11). Moreover, one has, according to `(5.5.1.2)`,
-$\dim(B_\mathfrak{q}) \le \dim(A_\mathfrak{p}) + \dim(B_\mathfrak{q}/\mathfrak{p} B_\mathfrak{q})$, and if $k$ is the field of fractions of $A/\mathfrak{p}$,
-$B_{\mathfrak{q}}/\mathfrak{p} B_{\mathfrak{q}}$ is canonically identified with $(k[T])_{\mathfrak{q}}$, hence is a
-discrete valuation ring, so of dimension $1$. Finally, if
+$\dim(B_\mathfrak{q}) \le \dim(A_\mathfrak{p}) + \dim(B_\mathfrak{q}/\mathfrak{p} B_\mathfrak{q})$, and if $k$ is the
+field of fractions of $A/\mathfrak{p}$, $B_{\mathfrak{q}}/\mathfrak{p} B_{\mathfrak{q}}$ is canonically identified with
+$(k[T])_{\mathfrak{q}}$, hence is a discrete valuation ring, so of dimension $1$. Finally, if
 $\mathfrak{p} = \mathfrak{p}_{0} \supset \mathfrak{p}_{1} \supset \cdots \supset \mathfrak{p}_{m}$ is a chain of prime
 ideals of $A$ of maximum length, the ideals $\mathfrak{p}_{j} B$ ($0 \leq j \leq m$) are prime in $B$, pairwise
 distinct, and contained in $\mathfrak{q}$; hence $\dim(B_{\mathfrak{q}}) \geq m + 1 = \dim(A_{\mathfrak{p}}) + 1$ and
 consequently $\dim(B_{\mathfrak{q}}) = \dim(A_{\mathfrak{p}}) + 1$. This relation can also be written
-$\operatorname{ht}(\mathfrak{q}) = \operatorname{ht}(\mathfrak{p}) + 1$; as $\mathfrak{q} \neq \mathfrak{p}'$, one has moreover
-$\operatorname{ht}(\mathfrak{q}) \geq \operatorname{ht}(\mathfrak{p}') + 1 \geq \operatorname{ht}(\mathfrak{p}) + 1$ by definition of the height of a prime ideal;
-this completes the proof of `(5.5.3.1)`.
+$\operatorname{ht}(\mathfrak{q}) = \operatorname{ht}(\mathfrak{p}) + 1$; as $\mathfrak{q} \neq \mathfrak{p}'$, one has
+moreover
+$\operatorname{ht}(\mathfrak{q}) \geq \operatorname{ht}(\mathfrak{p}') + 1 \geq \operatorname{ht}(\mathfrak{p}) + 1$ by
+definition of the height of a prime ideal; this completes the proof of `(5.5.3.1)`.
 
 **Corollary (5.5.4).**
 
@@ -690,17 +696,17 @@ $$
 \dim(A) + \operatorname{deg.tr}_A B \ge \dim(B_\mathfrak{q}) + \operatorname{deg.tr}_k k' \tag{5.5.7.1}
 $$
 
-*denoting by $k'$ the residue field of $B_{\mathfrak{q}}$ and by $\operatorname{deg.tr}_{A} B$ the transcendence degree of the field of
-fractions of $B$ over that of $A$.*
+*denoting by $k'$ the residue field of $B_{\mathfrak{q}}$ and by $\operatorname{deg.tr}_{A} B$ the transcendence degree
+of the field of fractions of $B$ over that of $A$.*
 
 *(ii) Suppose that for every maximal ideal $\mathfrak{n}$ of $A[T]$ such that $\mathfrak{n} \cap A = \mathfrak{m}$, the
 ring $(A[T])_{\mathfrak{n}}$ is catenary; then the two sides of `(5.5.7.1)` are equal.*
 
-(i) If $x$ is transcendent over the field of fractions of $A$, one has $\operatorname{deg.tr}_{A} B = 1$ and the two sides of `(5.5.7)`
-are equal by virtue of `(5.5.6)`. In the contrary case, one has $B = A[T]/\mathfrak{p}$, where $\mathfrak{p}$ is a prime
-ideal $\neq 0$ of $A[T]$, such that $\mathfrak{p} \cap A = 0$ since $B$ contains $A$; one therefore has
-$\operatorname{ht}(\mathfrak{p}) = 1$ by virtue of `(5.5.3)`. The ideal $\mathfrak{q}$ of $B$ is of the form
-$\mathfrak{n}/\mathfrak{p}$, where $\mathfrak{n} \supset \mathfrak{p}$ is a prime ideal of $A[T]$ such that
+(i) If $x$ is transcendent over the field of fractions of $A$, one has $\operatorname{deg.tr}_{A} B = 1$ and the two
+sides of `(5.5.7)` are equal by virtue of `(5.5.6)`. In the contrary case, one has $B = A[T]/\mathfrak{p}$, where
+$\mathfrak{p}$ is a prime ideal $\neq 0$ of $A[T]$, such that $\mathfrak{p} \cap A = 0$ since $B$ contains $A$; one
+therefore has $\operatorname{ht}(\mathfrak{p}) = 1$ by virtue of `(5.5.3)`. The ideal $\mathfrak{q}$ of $B$ is of the
+form $\mathfrak{n}/\mathfrak{p}$, where $\mathfrak{n} \supset \mathfrak{p}$ is a prime ideal of $A[T]$ such that
 $\mathfrak{n} \cap A = \mathfrak{m}$, and one has $B_{\mathfrak{q}} = (A[T])_{\mathfrak{n}} / \mathfrak{p}
 (A[T])_{\mathfrak{n}}$; the formula `(0, 16.1.4.1)`, applied to $X = \operatorname{Spec}((A[T])_{\mathfrak{n}})$ and to
 $Y = \operatorname{Spec}(B_{\mathfrak{q}})$, gives
@@ -709,9 +715,9 @@ $$
 \dim((A[T])_\mathfrak{n}) \ge \operatorname{ht}(\mathfrak{p} (A[T])_\mathfrak{n}) + \dim(B_\mathfrak{q}) = 1 + \dim(B_\mathfrak{q}) \tag{5.5.7.2}
 $$
 
-since $\operatorname{ht}(\mathfrak{p} (A[T])_{\mathfrak{n}}) = \operatorname{ht}(\mathfrak{p}) = 1$ by virtue of the bijective correspondence between
-prime ideals of $A[T]$ contained in $\mathfrak{n}$ and prime ideals of $(A[T])_{\mathfrak{n}}$. Finally, the formula
-`(5.5.6.1)` gives
+since $\operatorname{ht}(\mathfrak{p} (A[T])_{\mathfrak{n}}) = \operatorname{ht}(\mathfrak{p}) = 1$ by virtue of the
+bijective correspondence between prime ideals of $A[T]$ contained in $\mathfrak{n}$ and prime ideals of
+$(A[T])_{\mathfrak{n}}$. Finally, the formula `(5.5.6.1)` gives
 
 $$
 \dim((A[T])_\mathfrak{n}) = \dim(A) + 1 - \operatorname{deg.tr}_k k' \tag{5.5.7.3}
@@ -794,11 +800,11 @@ $$
 The fact that b) entails c) follows from `(5.5.8)`; indeed, $B'$ is a local $A'$-algebra essentially of finite type
 `(1.3.10)`, hence of the form $B''_{\mathfrak{q}''}$, where $B''$ is a sub-$A'$-algebra of finite type of $B'$,
 $\mathfrak{q}''$ a prime ideal of $B''$ above the maximal ideal $\mathfrak{p}'$ of $A'$; moreover the fields of
-fractions of $B'$ and $B''$ are the same, hence $\operatorname{deg.tr}_{A'}(B') = \operatorname{deg.tr}_{A'}(B'')$. To prove `(5.6.1.1)`, it suffices
-to show that (under hypothesis b)) every sub-$A'$-algebra $A_1$ of finite type of $B'[T]$ is catenary; indeed the two
-sides of `(5.5.8.1)`, where one replaces $A$, $B$, and $\mathfrak{q}$ by $A'$, $B''$, and $\mathfrak{q}''$, will then be
-equal, whence the equality `(5.6.1.1)`. Now the hypothesis b) entails that every $A$-algebra essentially of finite type
-is catenary `(0, 16.1.4)`, and $A_1$ is such an $A$-algebra `(1.3.9)`.
+fractions of $B'$ and $B''$ are the same, hence $\operatorname{deg.tr}_{A'}(B') = \operatorname{deg.tr}_{A'}(B'')$. To
+prove `(5.6.1.1)`, it suffices to show that (under hypothesis b)) every sub-$A'$-algebra $A_1$ of finite type of $B'[T]$
+is catenary; indeed the two sides of `(5.5.8.1)`, where one replaces $A$, $B$, and $\mathfrak{q}$ by $A'$, $B''$, and
+$\mathfrak{q}''$, will then be equal, whence the equality `(5.6.1.1)`. Now the hypothesis b) entails that every
+$A$-algebra essentially of finite type is catenary `(0, 16.1.4)`, and $A_1$ is such an $A$-algebra `(1.3.9)`.
 
 It is trivial that b) entails a); conversely, a) entails b), every $A$-algebra of finite type being a quotient of a
 polynomial algebra `(0, 16.1.4)`.
@@ -915,8 +921,8 @@ We shall see further on `(6.3.7)` that in `(5.6.4)`, one can replace "regular ri
 
 *Let $Y$ be an irreducible locally Noetherian prescheme, $X$ an irreducible prescheme, $f : X \to Y$ a dominant morphism
 locally of finite type. Let $\xi$ (resp. $\eta$) be the generic point of $X$ (resp. $Y$), and let $e =
-\dim(f^{-1}(\eta)) = \operatorname{deg.tr}_{k(\eta)} k(\xi)$ ("dimension of the generic fibre", cf. $(0_{I}, 2.1.8)$ and `(4.1.1)`).
-For every $x \in X$, one has then, setting $y = f(x)$,*
+\dim(f^{-1}(\eta)) = \operatorname{deg.tr}_{k(\eta)} k(\xi)$ ("dimension of the generic fibre", cf. $(0_{I}, 2.1.8)$ and
+`(4.1.1)`). For every $x \in X$, one has then, setting $y = f(x)$,*
 
 $$
 e + \dim(\mathcal{O}_y) \ge \operatorname{deg.tr}_{k(y)} k(x) + \dim(\mathcal{O}_x) \tag{5.6.5.1}
@@ -956,8 +962,8 @@ The fact that the two sides of `(5.6.5.1)` are equal when $Y$ is universally
 
 catenary is none other than the equality `(5.6.1.1)`, applied to $A = \mathcal{O}_{y}$ and $B' = \mathcal{O}_{x}$. To
 prove that one moreover has `(5.6.5.3)` when $x$ is closed in $f^{-1}(y)$, it suffices to note that, in general,
-$\operatorname{deg.tr}_{k(y)} k(x)$ is the dimension of $\overline{x} \cap f^{-1}(y)$, as follows from `(5.2.1)` applied to the reduced
-closed sub-prescheme of $f^{-1}(y)$ having this sub-space as underlying space.
+$\operatorname{deg.tr}_{k(y)} k(x)$ is the dimension of $\overline{x} \cap f^{-1}(y)$, as follows from `(5.2.1)` applied
+to the reduced closed sub-prescheme of $f^{-1}(y)$ having this sub-space as underlying space.
 
 We shall prove further on `(13.1.1)` that, under the conditions of `(5.6.5)`, one *always* has $\delta(x) \geq 0$, and
 `(5.6.5.2)` therefore in this case makes `(5.5.2.1)` more precise.
@@ -1062,9 +1068,9 @@ an infinity of prime ideals, such phenomena cannot present themselves.*
 *Let $A$ be an integral universally catenary Noetherian local ring, $B$ an integral ring containing $A$ which is a
 finite $A$-algebra. Then, for every maximal ideal $\mathfrak{n}$ of $B$, one has $\dim(B_{\mathfrak{n}}) = \dim(A)$.*
 
-Indeed, one has $\operatorname{deg.tr}_{A} B = 0$ and the residue field $k'$ of $B_{\mathfrak{n}}$ is an algebraic extension of the
-field of fractions of $A$. The conclusion follows from the formula `(5.6.1.1)`, every maximal ideal of $B$ being above
-that of $A$.
+Indeed, one has $\operatorname{deg.tr}_{A} B = 0$ and the residue field $k'$ of $B_{\mathfrak{n}}$ is an algebraic
+extension of the field of fractions of $A$. The conclusion follows from the formula `(5.6.1.1)`, every maximal ideal of
+$B$ being above that of $A$.
 
 **Example (5.6.11).**
 
@@ -1096,8 +1102,8 @@ see in addition that $C$ is Noetherian: this will follow from the following lemm
 
 <!-- label: IV.5.6.11.1 -->
 
-*Let $R$ be a ring, $S$ a sub-ring, $\mathfrak{K} = \operatorname{Ann}_{S}(R/S)$ the **conductor** of $S$ in $R$ (largest ideal of $S$
-which is also an ideal of $R$).*
+*Let $R$ be a ring, $S$ a sub-ring, $\mathfrak{K} = \operatorname{Ann}_{S}(R/S)$ the **conductor** of $S$ in $R$
+(largest ideal of $S$ which is also an ideal of $R$).*
 
 *(i) For every ideal $\mathfrak{J} \subset \mathfrak{K}$ of $R$, there exists a strictly increasing map of the set of
 ideals $\mathfrak{a}$ of $S$ such that $R \cdot \mathfrak{a} = \mathfrak{J}$ to the set of
@@ -1161,15 +1167,16 @@ $$
 $$
 
 One says that $\mathcal{F}$ is a **Cohen-Macaulay $\mathcal{O}_{X}$-Module at $x$** if $\mathcal{F}_{x}$ is a
-Cohen-Macaulay $\mathcal{O}_{x}$-module, that is to say `(0, 16.5.1)` if $\operatorname{coprof}(\mathcal{F}_{x}) = 0$. One says that
-$\mathcal{F}$ is a **Cohen-Macaulay $\mathcal{O}_{X}$-Module** if it is so at every point, in other words if
-$\operatorname{coprof}(\mathcal{F}) = 0$. A point $x \in X$ such that $\mathcal{O}_{x}$ is a Cohen-Macaulay ring is also called a
-**Cohen-Macaulay point** of $X$.
+Cohen-Macaulay $\mathcal{O}_{x}$-module, that is to say `(0, 16.5.1)` if $\operatorname{coprof}(\mathcal{F}_{x}) = 0$.
+One says that $\mathcal{F}$ is a **Cohen-Macaulay $\mathcal{O}_{X}$-Module** if it is so at every point, in other words
+if $\operatorname{coprof}(\mathcal{F}) = 0$. A point $x \in X$ such that $\mathcal{O}_{x}$ is a Cohen-Macaulay ring is
+also called a **Cohen-Macaulay point** of $X$.
 
-One calls **codepth of $X$** and denotes by $\operatorname{coprof}(X)$ the number $\operatorname{coprof}(\mathcal{O}_{X})$. One says that $X$ is a
-**Cohen-Macaulay prescheme** if $\mathcal{O}_{X}$ is a Cohen-Macaulay $\mathcal{O}_{X}$-Module, in other words if
-$\operatorname{coprof}(X) = 0$. Every locally Noetherian prescheme of dimension $0$ is evidently a Cohen-Macaulay prescheme. To say
-that $\operatorname{Spec}(A)$ is a Cohen-Macaulay scheme means that $A$ is a Cohen-Macaulay ring `(0, 16.5.13)`.
+One calls **codepth of $X$** and denotes by $\operatorname{coprof}(X)$ the number
+$\operatorname{coprof}(\mathcal{O}_{X})$. One says that $X$ is a **Cohen-Macaulay prescheme** if $\mathcal{O}_{X}$ is a
+Cohen-Macaulay $\mathcal{O}_{X}$-Module, in other words if $\operatorname{coprof}(X) = 0$. Every locally Noetherian
+prescheme of dimension $0$ is evidently a Cohen-Macaulay prescheme. To say that $\operatorname{Spec}(A)$ is a
+Cohen-Macaulay scheme means that $A$ is a Cohen-Macaulay ring `(0, 16.5.13)`.
 
 **Definition (5.7.2).**
 
@@ -1215,8 +1222,8 @@ possesses the property $(S_{k})$ for every $k$ therefore means that $\mathcal{F}
 $\mathcal{O}_{X}$-Module. It is clear that for $k' \geq k$, the property $(S_{k'})$ implies $(S_{k})$; for $k \leq 0$,
 every coherent $\mathcal{O}_{X}$-Module has the property $(S_{k})$.*
 
-*(ii) To verify the condition `(5.7.2.1)`, one may restrict to the case where $x \in \operatorname{Supp}(\mathcal{F})$; in the contrary
-case one has indeed $\dim(\mathcal{F}_{x}) = -\infty$ `(0, 14.1.2)`.*
+*(ii) To verify the condition `(5.7.2.1)`, one may restrict to the case where $x \in \operatorname{Supp}(\mathcal{F})$;
+in the contrary case one has indeed $\dim(\mathcal{F}_{x}) = -\infty$ `(0, 14.1.2)`.*
 
 *(iii) If $X = \operatorname{Spec}(A)$, where $A$ is a Noetherian ring, and $\mathcal{F} = \tilde{M}$, where $M$ is an
 $A$-module of finite type, one says that $M$ possesses the property $(S_{k})$ if $\mathcal{F}$ possesses this property.
@@ -1234,9 +1241,10 @@ express his criterion of normality (cf. `(5.8.5)`).*
 
 *(vi) Let $X$ be a locally Noetherian prescheme, $Y$ a closed sub-prescheme of $X$, $j : Y \to X$ the canonical
 injection, $\mathcal{G}$ a coherent $\mathcal{O}_{Y}$-Module. It is clear that for every $x \in Y$, one has
-$\dim(\mathcal{G}_{x}) = \dim((j_{*}(\mathcal{G}))_{x})$ and $\operatorname{prof}(\mathcal{G}_{x}) = \operatorname{prof}((j_{*}(\mathcal{G}))_{x})$,
-whence $\operatorname{coprof}(\mathcal{G}_{x}) = \operatorname{coprof}((j_{*}(\mathcal{G}))_{x})$. For $\mathcal{G}$ to verify $(S_{k})$, it is
-necessary and sufficient that $j_{*}(\mathcal{G})$ verify $(S_{k})$.*
+$\dim(\mathcal{G}_{x}) = \dim((j_{*}(\mathcal{G}))_{x})$ and
+$\operatorname{prof}(\mathcal{G}_{x}) = \operatorname{prof}((j_{*}(\mathcal{G}))_{x})$, whence
+$\operatorname{coprof}(\mathcal{G}_{x}) = \operatorname{coprof}((j_{*}(\mathcal{G}))_{x})$. For $\mathcal{G}$ to verify
+$(S_{k})$, it is necessary and sufficient that $j_{*}(\mathcal{G})$ verify $(S_{k})$.*
 
 **Proposition (5.7.4).**
 
@@ -1260,8 +1268,9 @@ $$
 \operatorname{codim}_x(Z_n, S) > n + k. \tag{5.7.4.2}
 $$
 
-(i) One has indeed, by definition `(5.1.3)`, $\operatorname{codim}(Z_n, S) = \inf_{z \in Z_n} (\dim(\mathcal{O}_{S,z}))$ and the inequality
-`(5.7.4.1)` therefore means `(5.1.12.2)` that, for every $z \in X$, and every $n \geq 0$, the relation
+(i) One has indeed, by definition `(5.1.3)`, $\operatorname{codim}(Z_n, S) = \inf_{z \in Z_n} (\dim(\mathcal{O}_{S,z}))$
+and the inequality `(5.7.4.1)` therefore means `(5.1.12.2)` that, for every $z \in X$, and every $n \geq 0$, the
+relation
 
 $$
 \dim(\mathcal{F}_{z}) - \operatorname{prof}(\mathcal{F}_{z}) \geq n + 1
@@ -1273,9 +1282,9 @@ $$
 \dim(\mathcal{F}_{z}) \geq n + k + 1.
 $$
 
-But if one sets $a = \dim(\mathcal{F}_{z})$, $b = \operatorname{prof}(\mathcal{F}_{z})$, one has $b \leq a$, and to say that for every
-$n \geq 0$, the relation $b \leq a - n - 1$ implies $k \leq a - n - 1$ is equivalent to saying that $b \geq \inf(k, a)$,
-whence the proposition.
+But if one sets $a = \dim(\mathcal{F}_{z})$, $b = \operatorname{prof}(\mathcal{F}_{z})$, one has $b \leq a$, and to say
+that for every $n \geq 0$, the relation $b \leq a - n - 1$ implies $k \leq a - n - 1$ is equivalent to saying that
+$b \geq \inf(k, a)$, whence the proposition.
 
 <!-- original page 105 -->
 
@@ -1324,9 +1333,9 @@ $\operatorname{prof}(\mathcal{G}_{x}) = \operatorname{prof}(\mathcal{F}_{x}) - (
 
 <!-- original page 106 -->
 
-`(0, 16.4.6)`, one has $\operatorname{prof}(\mathcal{F}_{x}) \geq k$. Suppose in the second place that $\dim(\mathcal{F}_{x}) = r < k$;
-as $\mathcal{F}$ verifies $(S_{k-1})$, one has $\operatorname{prof}(\mathcal{F}_{x}) \geq \inf(k - 1, r) = r$, and this completes the
-proof.
+`(0, 16.4.6)`, one has $\operatorname{prof}(\mathcal{F}_{x}) \geq k$. Suppose in the second place that
+$\dim(\mathcal{F}_{x}) = r < k$; as $\mathcal{F}$ verifies $(S_{k-1})$, one has
+$\operatorname{prof}(\mathcal{F}_{x}) \geq \inf(k - 1, r) = r$, and this completes the proof.
 
 **Corollary (5.7.6).**
 
@@ -1363,8 +1372,8 @@ prescheme.*
 
 *Let $A$, $B$ be two Noetherian rings, $\rho : A \to B$ a ring homomorphism, $M$ a $B$-module such that $M_{[\rho]}$ is
 an $A$-module of finite type. Let $\mathfrak{p}$ be a prime ideal of $A$; the prime ideals of $B$ above $\mathfrak{p}$
-and belonging to $\operatorname{Supp}(M)$ are finite in number, and if $(\mathfrak{q}_{i})_{1 \leq i \leq n}$ is the family of these
-ideals, one has*
+and belonging to $\operatorname{Supp}(M)$ are finite in number, and if $(\mathfrak{q}_{i})_{1 \leq i \leq n}$ is the
+family of these ideals, one has*
 
 $$
 \dim_{A_\mathfrak{p}}(M_\mathfrak{p}) = \sup_i \dim_{B_{\mathfrak{q}_i}}(M_{\mathfrak{q}_i}) \tag{5.7.9.1}
@@ -1422,9 +1431,10 @@ This follows at once from the relations `(5.7.9.1)` and `(5.7.9.2)` and from the
 <!-- label: IV.5.7.12 -->
 
 In conformity with the definitions of `(5.7.1)`, given any Noetherian ring $A$ and an $A$-module of finite type $M$, one
-defines $\operatorname{coprof}_{A}(M)$ as equal to $\operatorname{coprof}(\tilde{M}) = \sup_{x \in X} (\operatorname{coprof}_{A_x}(M_x))$, where $X = \operatorname{Spec}(A)$;
-we shall see further on `(6.11.5)` that this definition coincides with that of `(0, 16.4.9)` when $A$ is a Noetherian
-*local* ring.
+defines $\operatorname{coprof}_{A}(M)$ as equal to
+$\operatorname{coprof}(\tilde{M}) = \sup_{x \in X} (\operatorname{coprof}_{A_x}(M_x))$, where
+$X = \operatorname{Spec}(A)$; we shall see further on `(6.11.5)` that this definition coincides with that of
+`(0, 16.4.9)` when $A$ is a Noetherian *local* ring.
 
 **Corollary (5.7.13).**
 
@@ -1854,8 +1864,8 @@ $$
 and finally from the fact that $\mathcal{F}'$ and $\mathcal{H}^{0}_{X/Z}(\mathcal{F}')$ are canonically identified by
 hypothesis.
 
-It remains to see that if the supports of $\operatorname{Ker}(u)$ and $\operatorname{Coker}(u)$ are contained in $Z$, $v$ is an isomorphism. It
-suffices to see that for every Noetherian open $V$, the corresponding homomorphism $\Gamma(V,
+It remains to see that if the supports of $\operatorname{Ker}(u)$ and $\operatorname{Coker}(u)$ are contained in $Z$,
+$v$ is an isomorphism. It suffices to see that for every Noetherian open $V$, the corresponding homomorphism $\Gamma(V,
 \mathcal{H}^{0}_{X/Z}(\mathcal{F})) \to \Gamma(V, \mathcal{F}')$ is then an isomorphism. Now, if a section $t \in
 \Gamma(V, \mathcal{H}^{0}_{X/Z}(\mathcal{F}))$ has image $0$ in $\Gamma(V, \mathcal{F}')$, note that for some index
 $\alpha$, one has $t \in \Gamma(V \cap U_{\alpha}, \mathcal{F})$, and by virtue of the hypothesis on $u$, one has $t_{y}
@@ -1931,10 +1941,10 @@ quasi-coherent $\mathcal{O}_{X}$-Module. The following conditions are equivalent
 
 To say that $\mathcal{F}$ is $Z$-pure means that for every Noetherian open $V$ of $X$, and every open $U \supset X - Z$,
 the restriction homomorphism $\Gamma(V, \mathcal{F}) \to \Gamma(V \cap U, \mathcal{F})$ is injective `(5.9.8)`; but
-according to `(3.1.8)` this is equivalent to $V \cap \operatorname{Ass}(\mathcal{F}) \subset U$, whence the equivalence of a) and b).
-Furthermore, to say that $x \in \operatorname{Ass}(\mathcal{F})$ means that no element of $\mathfrak{m}_{x}$ is
-$\mathcal{F}_{x}$-regular `(3.1.2)`, hence, when $\mathcal{F}$ is coherent, this can still be written
-$\operatorname{prof}(\mathcal{F}_{x}) = 0$; one deduces at once in this case the equivalence of b) and c).
+according to `(3.1.8)` this is equivalent to $V \cap \operatorname{Ass}(\mathcal{F}) \subset U$, whence the equivalence
+of a) and b). Furthermore, to say that $x \in \operatorname{Ass}(\mathcal{F})$ means that no element of
+$\mathfrak{m}_{x}$ is $\mathcal{F}_{x}$-regular `(3.1.2)`, hence, when $\mathcal{F}$ is coherent, this can still be
+written $\operatorname{prof}(\mathcal{F}_{x}) = 0$; one deduces at once in this case the equivalence of b) and c).
 
 **Corollary (5.10.3).**
 
@@ -1967,23 +1977,25 @@ $\mathcal{O}_{X}$-Module. For $\mathcal{F}$ to be $Z$-closed, it is necessary an
 $\operatorname{prof}_{Z}(\mathcal{F}) \geq 2$.*
 
 By virtue of `(5.10.2)`, one may restrict to the case where $\mathcal{F}$ is $Z$-pure and
-$\operatorname{prof}_{Z}(\mathcal{F}) \geq 1$. Moreover, to say that $\operatorname{prof}_{Z}(\mathcal{F}) \geq 2$ is equivalent to saying that for
-every closed part $Z_{\alpha}$ of $Z$, $\operatorname{prof}_{Z_{\alpha}}(\mathcal{F}) \geq 2$; and likewise, it follows from `(5.9.8)`
-that to say that $\mathcal{F}$ is $Z$-closed is equivalent to saying that $\mathcal{F}$ is $Z_{\alpha}$-closed for every
-$\alpha$. One may therefore already restrict to the case where $Z$ is closed. The question being local, it suffices, for
-every $x \in Z$, to prove the theorem for $\mathcal{F}|U$, $U$ being an affine open neighbourhood of $x$, and one may
-therefore restrict to the case where $X = U$ is affine. One knows then that $\operatorname{Ass}(\mathcal{F})$ is finite `(3.1.6)`, and
-since $\operatorname{Ass}(\mathcal{F}) \subset X - Z$, there is a section $f$ of $\mathcal{O}_{X}$ over $X$ such that
-$\operatorname{Ass}(\mathcal{F}) \subset X_{f} \subset X - Z$ `(II, 4.5.4)`; one deduces that $f$ is $\mathcal{F}$-regular `(3.1.9)`
-and that for every $y \in Z$, one has $f_{y} \in \mathfrak{m}_{y}$, hence
-$\operatorname{prof}(\mathcal{F}_{y}) = 1 + \operatorname{prof}(\mathcal{F}_{y}/f_{y} \mathcal{F}_{y})$ `(0, 16.4.6)`. The condition
-$\operatorname{prof}_{Z}(\mathcal{F}) \geq 2$ is thus equivalent to $\operatorname{prof}_{Z}(\mathcal{F}/f\mathcal{F}) \geq 1$, or equivalently
-`(5.10.2)` to the fact that $\mathcal{F}/f\mathcal{F}$ is $Z$-pure, and it suffices to see that this latter property is
-equivalent to the fact that $\mathcal{F}$ is $Z$-closed.
+$\operatorname{prof}_{Z}(\mathcal{F}) \geq 1$. Moreover, to say that $\operatorname{prof}_{Z}(\mathcal{F}) \geq 2$ is
+equivalent to saying that for every closed part $Z_{\alpha}$ of $Z$,
+$\operatorname{prof}_{Z_{\alpha}}(\mathcal{F}) \geq 2$; and likewise, it follows from `(5.9.8)` that to say that
+$\mathcal{F}$ is $Z$-closed is equivalent to saying that $\mathcal{F}$ is $Z_{\alpha}$-closed for every $\alpha$. One
+may therefore already restrict to the case where $Z$ is closed. The question being local, it suffices, for every
+$x \in Z$, to prove the theorem for $\mathcal{F}|U$, $U$ being an affine open neighbourhood of $x$, and one may
+therefore restrict to the case where $X = U$ is affine. One knows then that $\operatorname{Ass}(\mathcal{F})$ is finite
+`(3.1.6)`, and since $\operatorname{Ass}(\mathcal{F}) \subset X - Z$, there is a section $f$ of $\mathcal{O}_{X}$ over
+$X$ such that $\operatorname{Ass}(\mathcal{F}) \subset X_{f} \subset X - Z$ `(II, 4.5.4)`; one deduces that $f$ is
+$\mathcal{F}$-regular `(3.1.9)` and that for every $y \in Z$, one has $f_{y} \in \mathfrak{m}_{y}$, hence
+$\operatorname{prof}(\mathcal{F}_{y}) = 1 + \operatorname{prof}(\mathcal{F}_{y}/f_{y} \mathcal{F}_{y})$ `(0, 16.4.6)`.
+The condition $\operatorname{prof}_{Z}(\mathcal{F}) \geq 2$ is thus equivalent to
+$\operatorname{prof}_{Z}(\mathcal{F}/f\mathcal{F}) \geq 1$, or equivalently `(5.10.2)` to the fact that
+$\mathcal{F}/f\mathcal{F}$ is $Z$-pure, and it suffices to see that this latter property is equivalent to the fact that
+$\mathcal{F}$ is $Z$-closed.
 
-Consider the exact sequence $0 \to \mathcal{F} \xrightarrow{f} \mathcal{F} \to \mathcal{F}/f\mathcal{F} \to 0$ (the homothety of
-ratio $f : \mathcal{F} \to \mathcal{F}$ being by hypothesis injective); setting $W = X - Z$, one has the commutative
-diagram
+Consider the exact sequence $0 \to \mathcal{F} \xrightarrow{f} \mathcal{F} \to \mathcal{F}/f\mathcal{F} \to 0$ (the
+homothety of ratio $f : \mathcal{F} \to \mathcal{F}$ being by hypothesis injective); setting $W = X - Z$, one has the
+commutative diagram
 
 $$
 \begin{array}{ccccccccc}
@@ -2030,7 +2042,8 @@ This follows from `(5.9.6)` and `(5.10.5)`.
 <!-- label: IV.5.10.7 -->
 
 *Let $X$ be a locally Noetherian prescheme, $Y$ a closed part of $X$. Suppose that for every $y \in Y$, one has
-$\operatorname{prof}(\mathcal{O}_{X,y}) \geq 2$; then for every connected component $C$ of $X$, $C - (C \cap Y)$ is connected.*
+$\operatorname{prof}(\mathcal{O}_{X,y}) \geq 2$; then for every connected component $C$ of $X$, $C - (C \cap Y)$ is
+connected.*
 
 One may restrict to the case where $X$ is connected; it then follows from `(5.10.5)` that the canonical homomorphism
 $\mathcal{O}_{X} \to i_{*}(\mathcal{O}_{X}|X - Y)$ (where $i : X - Y \to X$ is the canonical injection) is bijective.
@@ -2125,7 +2138,8 @@ coherent. Then:*
 
 *(i) One has $\operatorname{prof}_{Z}(\mathcal{H}^{0}_{X/Z}(\mathcal{F})) \geq 2$.*
 
-*(ii) For every point $x \in \operatorname{Ass}(\mathcal{F}) \cap (X - Z)$, one has $\operatorname{codim}(Z \cap \overline{x}, \overline{x}) \geq 2$.*
+*(ii) For every point $x \in \operatorname{Ass}(\mathcal{F}) \cap (X - Z)$, one has
+$\operatorname{codim}(Z \cap \overline{x}, \overline{x}) \geq 2$.*
 
 *(iii) The set $U$ of $x \in X$ such that $\operatorname{prof}_{Z_{x}}(\tilde{\mathcal{F}}_{x}) \geq 2$ (notations of `(5.9.6)`) is
 open in $X$; one has $X - U \subset Z$, and $U$ is the largest open set of $X$ such that $\mathcal{F}|U$ be $(Z \cap
@@ -2226,22 +2240,24 @@ X) \geq n$. We shall be interested here in the case $n = 2$.
 $Z^{(1)}$-pure, or equivalently that it be $Z^{(2)}$-closed and have no associated prime cycle of codimension $1$.*
 
 (i) To say that $\mathcal{F}$ possesses property $(S_1)$ means that $\mathcal{F}$ has no embedded associated prime cycle
-`(5.7.5)`, or equivalently that for every $x \in \operatorname{Ass}(\mathcal{F})$, one has $\dim(\mathcal{F}_{x}) = 0$ `(3.1.4)`, in
-other words `(5.1.12.1)` $\dim(\mathcal{O}_{x}) = 0$; but this is equivalent to saying that $\operatorname{Ass}(\mathcal{F})$ does not
-meet $Z^{(1)}$, and the conclusion follows from `(5.10.2)`.
+`(5.7.5)`, or equivalently that for every $x \in \operatorname{Ass}(\mathcal{F})$, one has $\dim(\mathcal{F}_{x}) = 0$
+`(3.1.4)`, in other words `(5.1.12.1)` $\dim(\mathcal{O}_{x}) = 0$; but this is equivalent to saying that
+$\operatorname{Ass}(\mathcal{F})$ does not meet $Z^{(1)}$, and the conclusion follows from `(5.10.2)`.
 
-(ii) To say that $\mathcal{F}$ is $Z^{(2)}$-closed means that $\operatorname{prof}_{Z^{(2)}}(\mathcal{F}) \geq 2$, or equivalently
-that, for every $x \in X$, the relation $\dim(\mathcal{O}_{x}) \geq 2$ entails $\operatorname{prof}(\mathcal{F}_{x}) \geq 2$; this
-shows that property $(S_2)$ entails that $\mathcal{F}$ is $Z^{(2)}$-closed; it entails in addition that $\mathcal{F}$
-verifies $(S_1)$, hence has no embedded associated prime cycle `(5.7.5)`, and since $\operatorname{Supp}(\mathcal{F}) = X$, this still
-means that all the associated prime cycles of $\mathcal{F}$ are of codimension $0$. Conversely, suppose that
-$\mathcal{F}$ is $Z^{(2)}$-closed and has no associated prime cycle of codimension $1$; to see that $\mathcal{F}$
-verifies $(S_2)$, it remains to show that if $x \in X$ is such that $\dim(\mathcal{O}_{x}) = 1$ (or, what amounts to the
-same, $\dim(\mathcal{F}_{x}) = 1$), then one has $\operatorname{prof}(\mathcal{F}_{x}) = 1$; but by hypothesis the relation
-$\dim(\mathcal{O}_{x}) = 1$ entails $x \notin \operatorname{Ass}(\mathcal{F})$, and this last relation is equivalent to
-$\operatorname{prof}(\mathcal{F}_{x}) \neq 0$, that is, here, to $\operatorname{prof}(\mathcal{F}_{x}) = 1$. If $\mathcal{F}$ is $Z^{(1)}$-pure, hence
-verifies $(S_1)$, one has noted above that by virtue of the relation $\operatorname{Supp}(\mathcal{F}) = X$, all the associated prime
-cycles of $\mathcal{F}$ are of codimension $0$, hence what precedes applies.
+(ii) To say that $\mathcal{F}$ is $Z^{(2)}$-closed means that $\operatorname{prof}_{Z^{(2)}}(\mathcal{F}) \geq 2$, or
+equivalently that, for every $x \in X$, the relation $\dim(\mathcal{O}_{x}) \geq 2$ entails
+$\operatorname{prof}(\mathcal{F}_{x}) \geq 2$; this shows that property $(S_2)$ entails that $\mathcal{F}$ is
+$Z^{(2)}$-closed; it entails in addition that $\mathcal{F}$ verifies $(S_1)$, hence has no embedded associated prime
+cycle `(5.7.5)`, and since $\operatorname{Supp}(\mathcal{F}) = X$, this still means that all the associated prime cycles
+of $\mathcal{F}$ are of codimension $0$. Conversely, suppose that $\mathcal{F}$ is $Z^{(2)}$-closed and has no
+associated prime cycle of codimension $1$; to see that $\mathcal{F}$ verifies $(S_2)$, it remains to show that if
+$x \in X$ is such that $\dim(\mathcal{O}_{x}) = 1$ (or, what amounts to the same, $\dim(\mathcal{F}_{x}) = 1$), then one
+has $\operatorname{prof}(\mathcal{F}_{x}) = 1$; but by hypothesis the relation $\dim(\mathcal{O}_{x}) = 1$ entails
+$x \notin \operatorname{Ass}(\mathcal{F})$, and this last relation is equivalent to
+$\operatorname{prof}(\mathcal{F}_{x}) \neq 0$, that is, here, to $\operatorname{prof}(\mathcal{F}_{x}) = 1$. If
+$\mathcal{F}$ is $Z^{(1)}$-pure, hence verifies $(S_1)$, one has noted above that by virtue of the relation
+$\operatorname{Supp}(\mathcal{F}) = X$, all the associated prime cycles of $\mathcal{F}$ are of codimension $0$, hence
+what precedes applies.
 
 One will note that it can happen that $\mathcal{F}$ is $Z^{(2)}$-closed and does not verify $(S_1)$: this is the case
 for example when $X$ is of dimension $1$ (for then $Z^{(2)} = \emptyset$, and every $\mathcal{O}_{X}$-Module is
@@ -2297,8 +2313,8 @@ deduced from $g$ (notations of `(5.10.12)`) be an isomorphism. This condition is
 X) \leq 1$.*
 
 *(ii) Suppose moreover that $g$ is a finite morphism (see in `(5.11.2)` sufficient conditions for this to be so). Then
-the set $U$ of points where $X$ verifies $(S_2)$ is open and $\operatorname{codim}(X - U, X) \geq 2$; in addition $U$ is the largest
-open set of $X$ such that the restriction $g^{-1}(U) \to U$ of $g$ is an isomorphism.*
+the set $U$ of points where $X$ verifies $(S_2)$ is open and $\operatorname{codim}(X - U, X) \geq 2$; in addition $U$ is
+the largest open set of $X$ such that the restriction $g^{-1}(U) \to U$ of $g$ is an isomorphism.*
 
 *(iii) Under the same hypotheses as in (ii), $X'$ satisfies $(S_2)$ and for every $x' \in X'$ such that
 $\operatorname{codim}(\overline{x'}, X') \leq 1$, the point $x = g(x')$ is such that $\operatorname{codim}(\overline{x}, X) = \operatorname{codim}(\overline{x'},
@@ -2322,17 +2338,18 @@ $\mathcal{O}_{X',x'}$ is isomorphic to $\mathcal{O}_{X,x}$ `(5.10.12, (i))`, whe
 
 <!-- original page 121 -->
 
-of codimension $1$, the hypothesis $\dim(\mathcal{O}_{X,x}) = 1$ entails $x \notin \operatorname{Ass}(\mathcal{O}_{X})$, hence
-$\operatorname{prof}(\mathcal{O}_{X,x}) = 1$, and consequently also $\operatorname{prof}(\mathcal{O}_{X',x'}) = 1$. Suppose now
-$\dim(\mathcal{O}_{X',x'}) \geq 2$, hence $\dim(\mathcal{O}_{X,x}) \geq 2$, that is, $x \in Z^{(2)}$; one deduces that
+of codimension $1$, the hypothesis $\dim(\mathcal{O}_{X,x}) = 1$ entails $x \notin \operatorname{Ass}(\mathcal{O}_{X})$,
+hence $\operatorname{prof}(\mathcal{O}_{X,x}) = 1$, and consequently also
+$\operatorname{prof}(\mathcal{O}_{X',x'}) = 1$. Suppose now $\dim(\mathcal{O}_{X',x'}) \geq 2$, hence
+$\dim(\mathcal{O}_{X,x}) \geq 2$, that is, $x \in Z^{(2)}$; one deduces that
 $\operatorname{prof}(\mathcal{O}_{X',x'}) \geq 2$ by `(5.10.12, (ii))`. This establishes the assertions of (iii).
 
 To prove (iv) it suffices to replace $\mathcal{O}_{X}$ by $\mathcal{F}$ in the preceding reasoning, which establishes
 that $\mathcal{F}'$ verifies $(S_2)$ and that if $\dim(\mathcal{F}_{x}) \leq 1$, $\mathcal{F}_{x}$ and
 $\mathcal{F}'_{x'}$ are di-isomorphic; in particular if $\dim(\mathcal{F}_{x}) = 0$, one has $\dim(\mathcal{F}'_{x'}) =
 0$, hence $\dim(\mathcal{O}_{X,x}) = 0$ since $\mathcal{F}$ has support $X$, and finally $\dim(\mathcal{O}_{X',x'}) =
-0$; every irreducible component of $\operatorname{Supp}(\mathcal{F}')$ is therefore an irreducible component of $X'$, since
-$\mathcal{F}'$ is coherent, hence $\operatorname{Supp}(\mathcal{F}')$ closed.
+0$; every irreducible component of $\operatorname{Supp}(\mathcal{F}')$ is therefore an irreducible component of $X'$,
+since $\mathcal{F}'$ is coherent, hence $\operatorname{Supp}(\mathcal{F}')$ closed.
 
 **Proposition (5.10.17).**
 
@@ -2359,8 +2376,8 @@ of $X = \operatorname{Spec}(A)$; since $A$ has no embedded associated prime idea
 cases of $(5.10.16, (i), (ii) and (iii))$. To prove (iii), it suffices to remark that one has $(S^{-1}A)^{(1)} =
 S^{-1}A^{(1)}$, which is a special case of `(5.9.4)`: indeed $S^{-1}A$ is a flat $A$-module, the prime ideals of
 $S^{-1}A$ are the ideals $S^{-1}\mathfrak{p}$, where $\mathfrak{p} \in \operatorname{Spec}(A)$ does not meet $S$, and
-one has $\operatorname{ht}(S^{-1}\mathfrak{p}) = \operatorname{ht}(\mathfrak{p})$. Since $A^{(1)}$ is a finite $A$-algebra, $S^{-1}A^{(1)}$ is a
-finite $S^{-1}A$-algebra, whence (iii).
+one has $\operatorname{ht}(S^{-1}\mathfrak{p}) = \operatorname{ht}(\mathfrak{p})$. Since $A^{(1)}$ is a finite
+$A$-algebra, $S^{-1}A^{(1)}$ is a finite $S^{-1}A$-algebra, whence (iii).
 
 To prove (iv), set $Y = \operatorname{Spec}(B)$, and let $f : Y \to X$ be the structure morphism; since it is finite, it
 follows from `(5.4.1)` that for every $y \in Y$, one has $\dim(\mathcal{O}_{Y,y}) \leq \dim(\mathcal{O}_{X,f(y)})$;
@@ -2373,8 +2390,8 @@ $(\mathcal{H}^{0}_{X/Z^{(2)}(X)}(\mathcal{O}_{X}))^{n}$ for some suitable $n$; t
 so is $\mathcal{G}$. Now, it follows from the definition `(5.9.1.2)` that $\mathcal{G}$ is isomorphic to
 $f_{*}(\mathcal{H}^{0}_{Y/T}(\mathcal{O}_{Y}))$; this proves a fortiori that $\mathcal{H}^{0}_{Y/T}(\mathcal{O}_{Y})$ is
 a coherent $\mathcal{O}_{Y}$-Module. It then follows from `(5.10.10, (ii))`, applied to $\mathcal{O}_{Y}$ and to the
-generic point of $Y$, that one has $\operatorname{codim}(T, Y) \geq 2$, that is, $T \subset Z^{(2)}(Y)$, and finally $T = Z^{(2)}(Y)$.
-This proves both assertions of (iv).
+generic point of $Y$, that one has $\operatorname{codim}(T, Y) \geq 2$, that is, $T \subset Z^{(2)}(Y)$, and finally
+$T = Z^{(2)}(Y)$. This proves both assertions of (iv).
 
 <!-- original page 122 -->
 
@@ -2385,9 +2402,10 @@ This proves both assertions of (iv).
 <!-- label: IV.5.11.1 -->
 
 *Let $X$ be a locally Noetherian prescheme, $Z$ a part of $X$ stable under specialization, $\mathcal{F}$ a coherent
-$\mathcal{O}_{X}$-Module. Denote by $(x_{\alpha})$ the family of points of $\operatorname{Ass}(\mathcal{F}) \cap (X - Z)$ and, for each
-$\alpha$, let $Y_{\alpha}$ be the reduced closed sub-prescheme of $X$ having $\overline{x_{\alpha}}$ as underlying
-space, $Z_{\alpha} = Z \cap \overline{x_{\alpha}}$. The following two conditions are then equivalent:*
+$\mathcal{O}_{X}$-Module. Denote by $(x_{\alpha})$ the family of points of
+$\operatorname{Ass}(\mathcal{F}) \cap (X - Z)$ and, for each $\alpha$, let $Y_{\alpha}$ be the reduced closed
+sub-prescheme of $X$ having $\overline{x_{\alpha}}$ as underlying space, $Z_{\alpha} = Z \cap \overline{x_{\alpha}}$.
+The following two conditions are then equivalent:*
 
 *a) $\mathcal{H}^{0}_{X/Z}(\mathcal{F})$ is a coherent $\mathcal{O}_{X}$-Module.*
 
@@ -2410,9 +2428,9 @@ All the properties envisaged are local on $X$, hence one may restrict to the cas
 affine, $A$ being a Noetherian ring, and $\mathcal{F} = \tilde{M}$, where $M$ is an $A$-module of finite type. Then, for
 every $\alpha$, if $h_{\alpha}$ is the canonical injection $Y_{\alpha} \to X$,
 $(h_{\alpha})_{*}(\mathcal{O}_{Y_{\alpha}}) = \mathcal{G}_{\alpha}$ is the $\mathcal{O}_{X}$-Module corresponding to the
-$A$-module quotient $A/\mathfrak{j}_{x_{\alpha}}$, and, by definition of $\operatorname{Ass}(\mathcal{F})$, this $A$-module is
-isomorphic to a sub-$A$-module of $M$. Since $\mathcal{H}^{0}_{X/Z}(\mathcal{G}_{\alpha})$ is a quasi-coherent
-$\mathcal{O}_{X}$-submodule of $\mathcal{H}^{0}_{X/Z}(\mathcal{F})$ `(5.9.2)`, the hypothesis that
+$A$-module quotient $A/\mathfrak{j}_{x_{\alpha}}$, and, by definition of $\operatorname{Ass}(\mathcal{F})$, this
+$A$-module is isomorphic to a sub-$A$-module of $M$. Since $\mathcal{H}^{0}_{X/Z}(\mathcal{G}_{\alpha})$ is a
+quasi-coherent $\mathcal{O}_{X}$-submodule of $\mathcal{H}^{0}_{X/Z}(\mathcal{F})$ `(5.9.2)`, the hypothesis that
 $\mathcal{H}^{0}_{X/Z}(\mathcal{F})$ is coherent entails that so is $\mathcal{H}^{0}_{X/Z}(\mathcal{G}_{\alpha})$. On
 the other hand, it follows from the definition `(5.9.1.2)` that $\mathcal{H}^{0}_{X/Z}(\mathcal{G}_{\alpha})$ is
 isomorphic to $(h_{\alpha})_{*}(\mathcal{H}^{0}_{Y_{\alpha}/Z_{\alpha}}(\mathcal{O}_{Y_{\alpha}}))$; this proves that a)
@@ -2427,20 +2445,21 @@ $$
 
 from the fact that $\mathcal{H}^{0}_{X/Z}$ is a left exact functor `(5.9.2)`, and finally from $(0_{I}, 5.3.3)$ and
 `(I, 6.1.1)`. By virtue of `(3.2.8)`, it therefore suffices to prove that $\mathcal{H}^{0}_{X/Z}(\mathcal{F})$ is
-coherent when $\mathcal{F}$ is *irredundant*, that is, $\operatorname{Ass}(M) = {\mathfrak{p}}$ is reduced to a single element. Let us
-now note the
+coherent when $\mathcal{F}$ is *irredundant*, that is, $\operatorname{Ass}(M) = {\mathfrak{p}}$ is reduced to a single
+element. Let us now note the
 
 **Lemma (5.11.1.1).**
 
 <!-- label: IV.5.11.1.1 -->
 
-*Let $A$ be a Noetherian ring, $M$ an $A$-module of finite type, such that $\operatorname{Ass}(M) = {\mathfrak{p}}$. There exists a
-finite filtration $(M_{i})_{0 \leq i \leq r}$ of $M$ such that $M_{0} = M$, $M_{r} = 0$ and that $M_{i}/M_{i+1}$ is
-isomorphic to a submodule of $A/\mathfrak{p}$.*
+*Let $A$ be a Noetherian ring, $M$ an $A$-module of finite type, such that $\operatorname{Ass}(M) = {\mathfrak{p}}$.
+There exists a finite filtration $(M_{i})_{0 \leq i \leq r}$ of $M$ such that $M_{0} = M$, $M_{r} = 0$ and that
+$M_{i}/M_{i+1}$ is isomorphic to a submodule of $A/\mathfrak{p}$.*
 
 Note first that the canonical homomorphism $M \to M_{\mathfrak{p}} = N$ is injective (Bourbaki, Alg. comm., chap. IV,
-§1, nÂ° 2, prop. 6). Set $B = A_{\mathfrak{p}}$, $\mathfrak{m} = \mathfrak{p}A_{\mathfrak{p}}$, the maximal ideal of $B$;
-one has $\operatorname{Ass}(N) = {\mathfrak{m}}$ (loc. cit., prop. 5), and since $N$ is a $B$-module of finite type,
+§1, nÂ° 2, prop. 6). Set $B = A_{\mathfrak{p}}$, $\mathfrak{m} = \mathfrak{p}A_{\mathfrak{p}}$, the maximal ideal of
+$B$; one has $\operatorname{Ass}(N) = {\mathfrak{m}}$ (loc. cit., prop. 5), and since $N$ is a $B$-module of finite
+type,
 
 <!-- original page 123 -->
 
@@ -2537,15 +2556,18 @@ $\mathcal{O}_{X}$-Module, it is necessary that for every $x \in \operatorname{As
 $x \in X$ admits an affine open neighbourhood whose ring is universally Japanese `(0, 23.1.1)`).*
 
 One knows `(I, 9.4.7)` that there exists a coherent $\mathcal{O}_{X}$-submodule $\mathcal{G}$ of $i_{*}(\mathcal{F})$
-such that $\mathcal{G}|U = \mathcal{F}$. One evidently has $\operatorname{Ass}(\mathcal{G}) \subset \operatorname{Ass}(\mathcal{F}) \subset \operatorname{Ass}(i_*(\mathcal{F}))$, and since
+such that $\mathcal{G}|U = \mathcal{F}$. One evidently has
+$\operatorname{Ass}(\mathcal{G}) \subset \operatorname{Ass}(\mathcal{F}) \subset \operatorname{Ass}(i_*(\mathcal{F}))$,
+and since
 
 $$
 \operatorname{Ass}(i_{*}(\mathcal{F})) = \operatorname{Ass}(\mathcal{F})
 $$
 
-`(3.1.13)`, one has $\operatorname{Ass}(\mathcal{G}) = \operatorname{Ass}(\mathcal{F})$; it then suffices to apply `(5.11.1)` to the coherent
-$\mathcal{O}_{X}$-Module $\mathcal{G}$, noting that $i_{*}(\mathcal{F}) = \mathcal{H}^{0}_{X/Z}(\mathcal{G})$ and that,
-when $X$ is universally catenary and universally Japanese, hypothesis (ii) of `(5.11.1)` is verified by definition.
+`(3.1.13)`, one has $\operatorname{Ass}(\mathcal{G}) = \operatorname{Ass}(\mathcal{F})$; it then suffices to apply
+`(5.11.1)` to the coherent $\mathcal{O}_{X}$-Module $\mathcal{G}$, noting that
+$i_{*}(\mathcal{F}) = \mathcal{H}^{0}_{X/Z}(\mathcal{G})$ and that, when $X$ is universally catenary and universally
+Japanese, hypothesis (ii) of `(5.11.1)` is verified by definition.
 
 **Corollary (5.11.5).**
 
@@ -2567,17 +2589,17 @@ union $Z$),*
 
 *When $X$ verifies one of the hypotheses (i), (ii) of `(5.11.1)`, a) and d) are equivalent.*
 
-Note that one has $\operatorname{Ass}(i_{*}(\mathcal{F}|X - T)) = \operatorname{Ass}(\mathcal{F})$ by virtue of the hypothesis and of `(3.1.13)`; it
-follows therefore from `(5.10.2)` that the canonical maps
+Note that one has $\operatorname{Ass}(i_{*}(\mathcal{F}|X - T)) = \operatorname{Ass}(\mathcal{F})$ by virtue of the
+hypothesis and of `(3.1.13)`; it follows therefore from `(5.10.2)` that the canonical maps
 
 $$
 i_{*}(\mathcal{F}|X - T) \to \mathcal{H}^{0}_{X/Z}(\mathcal{F})
 $$
 
 are *injective*; the fact that a) implies d) is therefore a consequence of this remark. Conversely, the condition d)
-implies, by virtue of `(5.11.1)`, that $\operatorname{codim}(T \cap Y_{\alpha}, Y_{\alpha}) \geq 2$ with the notations of `(5.11.1)`;
-consequently one has $\operatorname{codim}(Z \cap Y_{\alpha}, Y_{\alpha}) \geq 2$ since $Z$ is the union of its parts which are closed
-in $X$, and the last assertion of the corollary follows from `(5.11.1)`.
+implies, by virtue of `(5.11.1)`, that $\operatorname{codim}(T \cap Y_{\alpha}, Y_{\alpha}) \geq 2$ with the notations
+of `(5.11.1)`; consequently one has $\operatorname{codim}(Z \cap Y_{\alpha}, Y_{\alpha}) \geq 2$ since $Z$ is the union
+of its parts which are closed in $X$, and the last assertion of the corollary follows from `(5.11.1)`.
 
 **Corollary (5.11.6).**
 
@@ -2588,12 +2610,14 @@ in $X$, and the last assertion of the corollary follows from `(5.11.1)`.
 *a) For every integral quotient ring $B$ of $A$, the ring $B^{(1)}$ (notation of `(5.11.2)`) is a finite $B$-algebra.*
 
 *b) For every coherent $\mathcal{O}_{X}$-Module $\mathcal{F}$ and every part $Z$ of $X$, stable under specialization,
-and such that for every $x \in \operatorname{Ass}(\mathcal{F}) \cap (X - Z)$ one has $\operatorname{codim}(\overline{x} \cap Z, \overline{x}) \geq 2$,
-the $\mathcal{O}_{X}$-Module $\mathcal{H}^{0}_{X/Z}(\mathcal{F})$ is coherent.*
+and such that for every $x \in \operatorname{Ass}(\mathcal{F}) \cap (X - Z)$ one has
+$\operatorname{codim}(\overline{x} \cap Z, \overline{x}) \geq 2$, the $\mathcal{O}_{X}$-Module
+$\mathcal{H}^{0}_{X/Z}(\mathcal{F})$ is coherent.*
 
 *c) For every closed part $T$ of $X$ and every coherent $\mathcal{O}_{U}$-Module $\mathcal{G}$ (where $U = X - T$) such
-that for every $x \in \operatorname{Ass}(\mathcal{G})$ one has $\operatorname{codim}(\overline{x} \cap T, \overline{x}) \geq 2$, $i_{*}(\mathcal{G})$
-(where $i : U \to X$ is the canonical injection) is a coherent $\mathcal{O}_{X}$-Module.*
+that for every $x \in \operatorname{Ass}(\mathcal{G})$ one has
+$\operatorname{codim}(\overline{x} \cap T, \overline{x}) \geq 2$, $i_{*}(\mathcal{G})$ (where $i : U \to X$ is the
+canonical injection) is a coherent $\mathcal{O}_{X}$-Module.*
 
 *d) For every integral quotient ring $B$ of $A$ and every ideal $\mathfrak{J}$ of height $\geq 2$ in $B$, the ring
 $\bigcap_{\mathfrak{p} \not\supseteq \mathfrak{J}} B_{\mathfrak{p}}$ is a finite $B$-algebra.*
@@ -2612,20 +2636,22 @@ $$
 
 Let $B = A/\mathfrak{q}$, where $\mathfrak{q}$ is a prime ideal of $A$, so that $Y = \operatorname{Spec}(B)$ is the
 closed part $V(\mathfrak{q})$ of $X$; set $Z = Z^{(2)}(Y)$, which is a part of $X$ stable under specialization; since
-$B$ is integral, $\operatorname{Ass}(A/\mathfrak{q})$ is reduced to the generic point $\mathfrak{q}$ of $Y$. If condition b) is
-verified, one can apply it to the coherent $\mathcal{O}_{X}$-Module $\mathcal{F} = (A/\mathfrak{q})^{\sim}$ and to $Z$,
-and by virtue of `(5.9.3.1)`, this shows that $B^{(1)}$ is an $A$-module of finite type, and a fortiori a $B$-module of
-finite type. Conversely, suppose a) verified; then, if $\mathcal{F}$ is a coherent $\mathcal{O}_{X}$-Module such that
-for every $x \in \operatorname{Ass}(\mathcal{F}) \cap (X - Z)$ one has $\operatorname{codim}(\overline{x} \cap Z, \overline{x}) \geq 2$, one can apply
-(with the notations of `(5.11.1)`) to each of the affine schemes $Y_{\alpha} = \operatorname{Spec}(B_{\alpha})$, where
-$B_{\alpha}$ is an integral quotient ring of $A$, the result of a); since by hypothesis $Z_{\alpha}$ is contained in
-$Z^{(2)}(Y_{\alpha})$, condition a) (taking account of `(5.10.2)`
+$B$ is integral, $\operatorname{Ass}(A/\mathfrak{q})$ is reduced to the generic point $\mathfrak{q}$ of $Y$. If
+condition b) is verified, one can apply it to the coherent $\mathcal{O}_{X}$-Module
+$\mathcal{F} = (A/\mathfrak{q})^{\sim}$ and to $Z$, and by virtue of `(5.9.3.1)`, this shows that $B^{(1)}$ is an
+$A$-module of finite type, and a fortiori a $B$-module of finite type. Conversely, suppose a) verified; then, if
+$\mathcal{F}$ is a coherent $\mathcal{O}_{X}$-Module such that for every
+$x \in \operatorname{Ass}(\mathcal{F}) \cap (X - Z)$ one has
+$\operatorname{codim}(\overline{x} \cap Z, \overline{x}) \geq 2$, one can apply (with the notations of `(5.11.1)`) to
+each of the affine schemes $Y_{\alpha} = \operatorname{Spec}(B_{\alpha})$, where $B_{\alpha}$ is an integral quotient
+ring of $A$, the result of a); since by hypothesis $Z_{\alpha}$ is contained in $Z^{(2)}(Y_{\alpha})$, condition a)
+(taking account of `(5.10.2)`
 
 <!-- original page 126 -->
 
-and of the fact that $\operatorname{Ass}(\mathcal{O}_{Y_{\alpha}})$ is reduced to the generic point of $Y_{\alpha}$) entails that
-$\mathcal{H}^{0}_{Y_{\alpha}/Z_{\alpha}}(\mathcal{O}_{Y_{\alpha}})$ is a coherent $\mathcal{O}_{Y_{\alpha}}$-Module, and
-b) then follows from `(5.11.1)`.
+and of the fact that $\operatorname{Ass}(\mathcal{O}_{Y_{\alpha}})$ is reduced to the generic point of $Y_{\alpha}$)
+entails that $\mathcal{H}^{0}_{Y_{\alpha}/Z_{\alpha}}(\mathcal{O}_{Y_{\alpha}})$ is a coherent
+$\mathcal{O}_{Y_{\alpha}}$-Module, and b) then follows from `(5.11.1)`.
 
 To see that c) entails d), one reasons as above by applying c) to the case where $\mathcal{F} = (A/\mathfrak{q})^{\sim}$
 and $Z = V(\mathfrak{J})$; conversely, one proves that d) entails c) by again using the equivalence of a) and b) in
@@ -2937,8 +2963,8 @@ application of `(5.12.8)` proves therefore that $B = A/\mathfrak{q}$ is integral
 \mathfrak{q} + x_{n} A$. Let us now use the induction hypothesis, which shows that $A/(x_{1} A + \cdots + x_{i} A)$ is
 integrally closed and of dimension $\dim(A) - i$ for $0 \leq i \leq n - 1$ and that $\mathfrak{q} = \mathfrak{J}'$,
 whence $\mathfrak{p} = \mathfrak{J}' + x_{n} A = \mathfrak{J}$. One concludes that $A/\mathfrak{J} = A/\mathfrak{p}$ is
-integrally closed; since $\dim(A_{\mathfrak{p}}) = n$ and $\dim(A/\mathfrak{p}) = \dim(A) - \dim(A_\mathfrak{p})$ since $A$ is biequidimensional,
-this completes the proof.
+integrally closed; since $\dim(A_{\mathfrak{p}}) = n$ and $\dim(A/\mathfrak{p}) = \dim(A) - \dim(A_\mathfrak{p})$ since
+$A$ is biequidimensional, this completes the proof.
 
 [^1]: The reader may verify that `(5.11.2)` is not used in the proof of `(6.11.2)`.
 

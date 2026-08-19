@@ -23,12 +23,12 @@ EGA III uses the running Chapter 0 (suite) — call it Chapter 0_III — and cit
 
 EGA III also routinely cites four external classics, which we render literally:
 
-| Source key in EGA III | Work |
-| --- | --- |
-| $(M, \cdots)$ | H. Cartan and S. Eilenberg, *Homological Algebra* (Princeton, 1956). |
-| $(G, \cdots)$ | R. Godement, *Topologie algébrique et théorie des faisceaux* (Hermann, 1958). |
-| $(T, \cdots)$ | A. Grothendieck, *Sur quelques points d'algèbre homologique* (Tôhoku Math. J., 1957). |
-| $(FAC, \cdots)$ | J.-P. Serre, *Faisceaux algébriques cohérents* (Annals of Math., 1955). |
+| Source key in EGA III | Work                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------- |
+| $(M, \cdots)$         | H. Cartan and S. Eilenberg, *Homological Algebra* (Princeton, 1956).                  |
+| $(G, \cdots)$         | R. Godement, *Topologie algébrique et théorie des faisceaux* (Hermann, 1958).         |
+| $(T, \cdots)$         | A. Grothendieck, *Sur quelques points d'algèbre homologique* (Tôhoku Math. J., 1957). |
+| $(FAC, \cdots)$       | J.-P. Serre, *Faisceaux algébriques cohérents* (Annals of Math., 1955).               |
 
 Where the source spells these out (e.g. "Cartan–Eilenberg, *loc. cit.*"), we keep the spelling and add the bracketed key
 in the bibliography.
@@ -69,7 +69,7 @@ $$ E_2^{p,q} = H^p(Y, R^q f_* \mathcal{F}) \implies H^{p+q}(X, \mathcal{F}). $$
 - Abutment uses $\implies$ ("abuts to" / "converges to" — both English forms occur in EGA; we render either by
   $\implies$ when the source uses $\implies$ or the equivalent French "aboutit à"; we keep "abuts to" in prose since
   it's the canonical English form).
-- For filtered complexes we name the filtration: `F^p H^n` is the `p`th piece of the filtration on `H^n` induced by the
+- For filtered complexes we name the filtration: `F^p H^n` is the `p`-th piece of the filtration on `H^n` induced by the
   filtration on the complex.
 - Convergence properties: `weakly convergent`, `regular`, `coregular`, `biregular`, `degenerate` — match
   `(0_III, 11.1.3)` and `(0_III, 11.1.6)`.
@@ -96,12 +96,12 @@ $$ E_2^{p,q} = H^p(Y, R^q f_* \mathcal{F}) \implies H^{p+q}(X, \mathcal{F}). $$
 
 EGA III §0_III.13 introduces condition `(ML)` for projective systems. We keep the EGA abbreviation. Related vocabulary:
 
-| French | English |
-| --- | --- |
-| condition `(ML)` | condition (ML) / Mittag–Leffler condition |
-| système projectif strict | strict projective system |
-| système projectif essentiellement constant | essentially constant projective system |
-| objet des images universelles | object of universal images |
+| French                                     | English                                   |
+| ------------------------------------------ | ----------------------------------------- |
+| condition `(ML)`                           | condition (ML) / Mittag–Leffler condition |
+| système projectif strict                   | strict projective system                  |
+| système projectif essentiellement constant | essentially constant projective system    |
+| objet des images universelles              | object of universal images                |
 
 ## 8. Formal preschemes (forward references)
 
@@ -115,73 +115,73 @@ anticipating EGA I, ch. I §10 (formal preschemes) and forthcoming material. Ren
 
 ## 9. Spectral-sequence-specific terminology
 
-| French | English |
-| --- | --- |
-| aboutissement | abutment |
-| bicomplexe | bicomplex |
-| caractéristique d'Euler–Poincaré | Euler–Poincaré characteristic |
-| co-séparé, co-discrète | co-separated, co-discrete |
-| cohomologiquement plat | cohomologically flat |
-| complexe défini par un bicomplexe | complex defined by a bicomplex |
-| cup-produit | cup product |
-| cochaîne bi-alternée | bi-alternating cochain |
-| filtration co-discrète | co-discrete filtration |
-| hypercohomologie | hypercohomology |
-| hyperhomologie | hyperhomology |
-| polynôme de Hilbert | Hilbert polynomial |
-| résolution de Cartan–Eilenberg | Cartan–Eilenberg resolution |
-| résolution cohomologique | cohomological resolution |
-| résolution droite / gauche | right resolution / left resolution |
-| résolution injective / projective | injective / projective resolution |
-| résolution libre / plate | free / flat resolution |
-| résolution homologique | homological resolution |
-| suite spectrale | spectral sequence |
-| suite spectrale dégénérée | degenerate spectral sequence |
+| French                                 | English                             |
+| -------------------------------------- | ----------------------------------- |
+| aboutissement                          | abutment                            |
+| bicomplexe                             | bicomplex                           |
+| caractéristique d'Euler–Poincaré       | Euler–Poincaré characteristic       |
+| co-séparé, co-discrète                 | co-separated, co-discrete           |
+| cohomologiquement plat                 | cohomologically flat                |
+| complexe défini par un bicomplexe      | complex defined by a bicomplex      |
+| cup-produit                            | cup product                         |
+| cochaîne bi-alternée                   | bi-alternating cochain              |
+| filtration co-discrète                 | co-discrete filtration              |
+| hypercohomologie                       | hypercohomology                     |
+| hyperhomologie                         | hyperhomology                       |
+| polynôme de Hilbert                    | Hilbert polynomial                  |
+| résolution de Cartan–Eilenberg         | Cartan–Eilenberg resolution         |
+| résolution cohomologique               | cohomological resolution            |
+| résolution droite / gauche             | right resolution / left resolution  |
+| résolution injective / projective      | injective / projective resolution   |
+| résolution libre / plate               | free / flat resolution              |
+| résolution homologique                 | homological resolution              |
+| suite spectrale                        | spectral sequence                   |
+| suite spectrale dégénérée              | degenerate spectral sequence        |
 | suite spectrale faiblement convergente | weakly convergent spectral sequence |
-| suite spectrale régulière | regular spectral sequence |
-| système de coefficients | system of coefficients |
+| suite spectrale régulière              | regular spectral sequence           |
+| système de coefficients                | system of coefficients              |
 
 ## 10. EGA-III-specific terminology
 
 These extend the EGA II terminology table; they first appear in the §III.1 calibration and the Chap 0_III preliminaries.
 
-| French | English |
-| --- | --- |
-| algébrisable ($\mathcal{O}_X$-Module) | algebraizable ($\mathcal{O}_X$-module) |
-| algébrisable (schéma formel) | algebraizable (formal scheme) |
-| analytiquement intègre | analytically integral |
-| application quasi-compacte | quasi-compact map |
-| augmentation d'une résolution | augmentation of a resolution |
-| complexe de l'algèbre extérieure | exterior algebra complex |
-| complexe de Koszul | Koszul complex |
-| condition (TF), condition (TN) | condition (TF), condition (TN) |
-| constructible (partie, ensemble) | constructible (subset, set) |
-| constructible (fonction) | constructible (function) |
-| dihomomorphisme | di-homomorphism |
-| exact (sous-ensemble) dans une catégorie abélienne | exact (subset) in an abelian category |
-| factorisation de Stein | Stein factorization |
-| filtration | filtration |
-| fini (morphisme de préschémas formels) | finite (morphism of formal preschemes) |
-| foncteur représentable | representable functor |
+| French                                                                           | English                                                                         |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| algébrisable ($\mathcal{O}_X$-Module)                                            | algebraizable ($\mathcal{O}_X$-module)                                          |
+| algébrisable (schéma formel)                                                     | algebraizable (formal scheme)                                                   |
+| analytiquement intègre                                                           | analytically integral                                                           |
+| application quasi-compacte                                                       | quasi-compact map                                                               |
+| augmentation d'une résolution                                                    | augmentation of a resolution                                                    |
+| complexe de l'algèbre extérieure                                                 | exterior algebra complex                                                        |
+| complexe de Koszul                                                               | Koszul complex                                                                  |
+| condition (TF), condition (TN)                                                   | condition (TF), condition (TN)                                                  |
+| constructible (partie, ensemble)                                                 | constructible (subset, set)                                                     |
+| constructible (fonction)                                                         | constructible (function)                                                        |
+| dihomomorphisme                                                                  | di-homomorphism                                                                 |
+| exact (sous-ensemble) dans une catégorie abélienne                               | exact (subset) in an abelian category                                           |
+| factorisation de Stein                                                           | Stein factorization                                                             |
+| filtration                                                                       | filtration                                                                      |
+| fini (morphisme de préschémas formels)                                           | finite (morphism of formal preschemes)                                          |
+| foncteur représentable                                                           | representable functor                                                           |
 | foncteur covariant canonique $C \to \operatorname{Hom}(C^{\circ}, \mathrm{Ens})$ | canonical covariant functor $C \to \operatorname{Hom}(C^{\circ}, \mathrm{Set})$ |
-| genre arithmétique | arithmetic genus |
-| géométriquement connexe | geometrically connected |
-| localement constructible | locally constructible |
-| loi de composition externe / interne | external / internal composition law |
-| morphisme de suites spectrales | morphism of spectral sequences |
-| nombre géométrique de composantes connexes | geometric number of connected components |
-| `C`-objet en groupes | `C`-object in groups |
-| `C`-groupe, `C`-anneau, `C`-module | `C`-group, `C`-ring, `C`-module |
-| objet final d'une catégorie | final object of a category |
-| partie propre (sur $\mathfrak{D}$) | proper part (over $\mathfrak{D}$) |
-| pleine (sous-catégorie) | full (subcategory) |
-| pleinement fidèle (foncteur) | fully faithful (functor) |
-| polynôme de Hilbert | Hilbert polynomial |
-| propre (morphisme de préschémas formels) | proper (morphism of formal preschemes) |
-| représentable (foncteur) | representable (functor) |
-| rétrocompact | retrocompact |
-| unibranche (anneau, point) | unibranch (ring, point) |
-| universellement ouvert | universally open |
+| genre arithmétique                                                               | arithmetic genus                                                                |
+| géométriquement connexe                                                          | geometrically connected                                                         |
+| localement constructible                                                         | locally constructible                                                           |
+| loi de composition externe / interne                                             | external / internal composition law                                             |
+| morphisme de suites spectrales                                                   | morphism of spectral sequences                                                  |
+| nombre géométrique de composantes connexes                                       | geometric number of connected components                                        |
+| `C`-objet en groupes                                                             | `C`-object in groups                                                            |
+| `C`-groupe, `C`-anneau, `C`-module                                               | `C`-group, `C`-ring, `C`-module                                                 |
+| objet final d'une catégorie                                                      | final object of a category                                                      |
+| partie propre (sur $\mathfrak{D}$)                                               | proper part (over $\mathfrak{D}$)                                               |
+| pleine (sous-catégorie)                                                          | full (subcategory)                                                              |
+| pleinement fidèle (foncteur)                                                     | fully faithful (functor)                                                        |
+| polynôme de Hilbert                                                              | Hilbert polynomial                                                              |
+| propre (morphisme de préschémas formels)                                         | proper (morphism of formal preschemes)                                          |
+| représentable (foncteur)                                                         | representable (functor)                                                         |
+| rétrocompact                                                                     | retrocompact                                                                    |
+| unibranche (anneau, point)                                                       | unibranch (ring, point)                                                         |
+| universellement ouvert                                                           | universally open                                                                |
 
 ## 11. Two-part packaging
 

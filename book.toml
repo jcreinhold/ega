@@ -1,7 +1,7 @@
 [book]
 authors = ["Jacob Reinhold"]
-title = "Éléments de Géométrie Algébrique — English"
-description = "An English Markdown translation of Grothendieck and Dieudonné's EGA."
+title = "EGA — Éléments de Géométrie Algébrique (English Translation)"
+description = "Complete English translation of Grothendieck and Dieudonné's Éléments de Géométrie Algébrique (EGA I–V). Browser-readable HTML with the original numbering, original-page markers, and hyperlinked cross-references. LLM-generated translation."
 language = "en"
 src = "."
 

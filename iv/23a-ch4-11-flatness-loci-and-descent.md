@@ -15,11 +15,11 @@ with problems of essentially relative nature linked to morphisms locally of fini
 follow this principle, already supported by the results of §§8 and 9, in the entire continuation of this Chapter, and
 even in the continuation of our Treatise, even at the cost of sacrificing on occasion the simplicity of certain proofs,
 which Noetherian hypotheses sometimes permit one to lighten <sup>(\*)</sup>. In the present section, this leads us to
-take up again, in the context of "finite presentation" (notably in nÂ° 3) certain flatness statements already obtained in
-the Noetherian context. The essential technical tool for making the reduction to the Noetherian case is the theorem of
-compatibility of flatness with projective limits of preschemes `(11.2.6)`, completing the general results of §8. We also
-prove in passing `(11.3.1)` a result often used in the sequel, implying that the set of points of flatness of a morphism
-locally of finite presentation is open.
+take up again, in the context of "finite presentation" (notably in nÂ° 3) certain flatness statements already obtained
+in the Noetherian context. The essential technical tool for making the reduction to the Noetherian case is the theorem
+of compatibility of flatness with projective limits of preschemes `(11.2.6)`, completing the general results of §8. We
+also prove in passing `(11.3.1)` a result often used in the sequel, implying that the set of points of flatness of a
+morphism locally of finite presentation is open.
 
 <sup>(\*)</sup> This principle is also inspired by the necessity of granting droit de cité, as "parameter spaces" for
 families of algebraic schemes, to arbitrary ringed spaces (and even arbitrary ringed "toposes"), for which there can no
@@ -273,7 +273,8 @@ $$ \psi = \varinjlim \psi_\alpha : \varinjlim_\alpha \operatorname{Tor}_i^{A_\al
 \operatorname{Tor}_i^{A'}(M', N') \tag{11.2.2.1} $$
 
 *are isomorphisms of $A'$-modules.* For this, we proceed as in `(M, V, 9.5*)`, associating to each $M_{\alpha}$ its
-canonical free resolution. Everything boils down (taking into account the exactness of the functor $\varinjlim$) to proving the
+canonical free resolution. Everything boils down (taking into account the exactness of the functor $\varinjlim$) to
+proving the
 
 **Lemma (11.2.2.2).**
 
@@ -498,8 +499,8 @@ and for $\xi \leq \eta = (\mu, D_{\mu})$ (hence $\lambda \leq \mu$ and $\phi_{\m
 D_{\mu}$), $\phi_{\eta \xi} : A_{\xi} \to A_{\eta}$ will be the restriction to $C_{\lambda}$ of $\phi_{\mu \lambda}$,
 considered as a homomorphism into $D_{\mu}$; it is clear that one thus obtains a filtered inductive system of
 $A_0$-algebras. One sets $B_{\xi} = B_{0} \otimes_{A_{0}} A_{\xi}$, $M_{\xi} = M_{0} \otimes_{A_{0}} A_{\xi}$; this time
-the $A_{\xi}$ are Noetherian; moreover the double-inductive-limit formula *(Bourbaki, Alg., chap. II, 3rd ed., §6, nÂ° 4,
-prop. 7)* proves that one again has $\lim_{H} A_{\xi} = A$, $\lim_{H} B_{\xi} = B$, $\lim_{H} M_{\xi} = M$. Suppose
+the $A_{\xi}$ are Noetherian; moreover the double-inductive-limit formula *(Bourbaki, Alg., chap. II, 3rd ed., §6, nÂ°
+4, prop. 7)* proves that one again has $\lim_{H} A_{\xi} = A$, $\lim_{H} B_{\xi} = B$, $\lim_{H} M_{\xi} = M$. Suppose
 
 <!-- original page 125 -->
 
@@ -932,8 +933,8 @@ N_{\lambda}$. Making this identification, we shall first prove that:
 
 Since the $C_{\lambda}$ are Noetherian and $N_{\lambda}$ a $C_{\lambda}$-module of finite type, the $C$-modules
 $N_{\lambda} \otimes_{A_{\lambda}} A$ are of finite presentation and form a filtered inductive system, whose inductive
-limit identifies canonically with $N$ by virtue of the fact that $\varinjlim$ commutes with tensor products. Moreover, the
-transition homomorphisms $v_{\mu \lambda} : N_{\lambda} \otimes_{A_{\lambda}} A \to N_{\mu} \otimes_{A_{\mu}} A$
+limit identifies canonically with $N$ by virtue of the fact that $\varinjlim$ commutes with tensor products. Moreover,
+the transition homomorphisms $v_{\mu \lambda} : N_{\lambda} \otimes_{A_{\lambda}} A \to N_{\mu} \otimes_{A_{\mu}} A$
 
 <!-- original page 132 -->
 
@@ -2191,12 +2192,12 @@ $\mathcal{F}' = \mathcal{F} \otimes_{Y} \mathcal{O}_{Y'}$. For $\mathcal{F}$ to 
 necessary and sufficient that $\mathcal{F}'$ be $f'$-flat at every point whose projection in $X$ is equal to $x$ and
 whose projection in $Y'$ is equal to a closed point of $Y'$.*
 
-*If moreover $A'$ is a finite $A$-algebra, one may in what precedes replace the hypothesis that $\hat{u}$ is injective by the
-hypothesis that $u$ is injective.*
+*If moreover $A'$ is a finite $A$-algebra, one may in what precedes replace the hypothesis that $\hat{u}$ is injective
+by the hypothesis that $u$ is injective.*
 
 As $A$ (resp. $A'$) identifies with a subring of $\hat{A}$ (resp. $\hat{A}'$)
-`(Bourbaki, Alg. comm., chap. III, §3, nÂ° 3, prop. 6)`, one sees first that $u$ itself is injective and that $\hat{u}$ is its
-prolongation by continuity to $\hat{A}$.
+`(Bourbaki, Alg. comm., chap. III, §3, nÂ° 3, prop. 6)`, one sees first that $u$ itself is injective and that $\hat{u}$
+is its prolongation by continuity to $\hat{A}$.
 
 Let $(\mathfrak{m}'_{\alpha})$ be the family of maximal ideals of $A'$; as one has
 
@@ -2218,11 +2219,11 @@ reduced to $0$
 Now, for every fixed $\alpha$, the intersection of the $\hat{\mathfrak{m}}'^{n}_{\alpha}
 \hat{A}'_{\mathfrak{m}'_{\alpha}}$ for $n > 0$ is reduced to $0$ in the Noetherian local ring
 $\hat{A}'_{\mathfrak{m}'_{\alpha}}$. On the other hand the $\hat{\mathfrak{m}}'_{\alpha}$ are the maximal ideals of
-$\hat{A}'$, hence the canonical homomorphism $\hat{A}' \to \prod_{\alpha} \hat{A}'_{\mathfrak{m}'_{\alpha}}$ is injective
-`(Bourbaki, Alg. comm., chap. II, §3, nÂ° 3, cor. 2 of th. 1)`, and as by hypothesis $\hat{u} : \hat{A} \to \hat{A}'$ is
-also injective, this completes the proof in the general case. The last assertion results from the fact that $\hat{A}$ is a
-faithfully flat $A$-module $(0_{I}, 7.3.5)$ and $\hat{A}' = A' \otimes_{A} \hat{A}$ since $A'$ is by hypothesis an
-$A$-module of finite type
+$\hat{A}'$, hence the canonical homomorphism $\hat{A}' \to \prod_{\alpha} \hat{A}'_{\mathfrak{m}'_{\alpha}}$ is
+injective `(Bourbaki, Alg. comm., chap. II, §3, nÂ° 3, cor. 2 of th. 1)`, and as by hypothesis
+$\hat{u} : \hat{A} \to \hat{A}'$ is also injective, this completes the proof in the general case. The last assertion
+results from the fact that $\hat{A}$ is a faithfully flat $A$-module $(0_{I}, 7.3.5)$ and
+$\hat{A}' = A' \otimes_{A} \hat{A}$ since $A'$ is by hypothesis an $A$-module of finite type
 `(Bourbaki, Alg. comm., chap. III, §3, nÂ° 4, th. 3 and chap. IV, §2, nÂ° 5, cor. 3 of prop. 9)`.
 
 **Proposition (11.5.3).**
@@ -2622,11 +2623,11 @@ $f$ is not flat at the point $z_{1}$.
 and `(11.6.2)`. We shall now see that in `(11.6.1)` one cannot weaken the hypothesis on $A$ by supposing only $A$
 unibranch. Consider indeed the complete local integral ring $A = \mathbb{R}[[U, V]]/(U^{2} + V^{2})$ which is unibranch
 but not geometrically unibranch `(6.5.11)`. One knows `(loc. cit.)` that if $u$, $v$ are the images of $U$ and $V$ in
-$A$, the integral closure of $A$ is $\bar{A} = A[t]$ with $t = v/u$, such that $t^{2} = -1$, so that $\bar{A}$ is isomorphic
-to $\mathbb{C}[[U]]$. Set $Y = \operatorname{Spec}(A)$, $X = \operatorname{Spec}(\bar{A})$ (normalization of $Y$
-`(II, 6.3.8)`) and let $y$ and $x$ be the closed points of $Y$ and $X$ respectively; we shall show that for a suitable
-local $A$-algebra $A'$, if one sets $Y' = \operatorname{Spec}(A')$, $X' = X \times_{Y} Y'$, and if $y'$ denotes the
-closed point of $Y'$, $\mathcal{O}_{X'}$ is $Y'$-flat at a point of $X'$ whose projections in $X$ and $Y'$ are
+$A$, the integral closure of $A$ is $\bar{A} = A[t]$ with $t = v/u$, such that $t^{2} = -1$, so that $\bar{A}$ is
+isomorphic to $\mathbb{C}[[U]]$. Set $Y = \operatorname{Spec}(A)$, $X = \operatorname{Spec}(\bar{A})$ (normalization of
+$Y$ `(II, 6.3.8)`) and let $y$ and $x$ be the closed points of $Y$ and $X$ respectively; we shall show that for a
+suitable local $A$-algebra $A'$, if one sets $Y' = \operatorname{Spec}(A')$, $X' = X \times_{Y} Y'$, and if $y'$ denotes
+the closed point of $Y'$, $\mathcal{O}_{X'}$ is $Y'$-flat at a point of $X'$ whose projections in $X$ and $Y'$ are
 respectively $x$ and $y'$, but is not $Y'$-flat at all points having these projections; it will follow `(2.1.4)` that
 $\mathcal{O}_{X}$ is not $Y$-flat at the point $x$ (which is otherwise trivial *a priori*, $\bar{A}$ not being a free
 $A$-module).
@@ -2706,10 +2707,10 @@ $A'$ is dominated by such a ring $A''$ `(II, 7.1.2)`, and that if $A'$ is a disc
 that so is $A''$ $(0_{III}, 10.3.1)$.
 
 *(ii) The proof of `(11.8.1)` simplifies when one supposes not only that $A$ is integral and Noetherian, but that its
-completion $\hat{A}$ is also integral.* Replacing $X$ by $X \otimes_{A} \hat{A}$ and reasoning as in the proof of `(11.5.3)`,
-one can in this case reduce to proving `(11.8.1)` when $A = \mathcal{O}_{y}$ is integral, Noetherian and complete. Now,
-one knows `(II, 7.1.7)` that such a ring $A$ is dominated by a complete discrete valuation ring; the conclusion
-therefore results directly from `(11.5.2)`.
+completion $\hat{A}$ is also integral.* Replacing $X$ by $X \otimes_{A} \hat{A}$ and reasoning as in the proof of
+`(11.5.3)`, one can in this case reduce to proving `(11.8.1)` when $A = \mathcal{O}_{y}$ is integral, Noetherian and
+complete. Now, one knows `(II, 7.1.7)` that such a ring $A$ is dominated by a complete discrete valuation ring; the
+conclusion therefore results directly from `(11.5.2)`.
 
 ## 11.9. Separating and universally separating families of homomorphisms of sheaves of modules
 

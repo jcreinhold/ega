@@ -1765,8 +1765,8 @@ exists one of these sub-algebras `A_0` and an `A_0`-module `M_0` of finite prese
 to $M_{0} \otimes_{A_{0}} A$; moreover, if $f : M \to M$ is a surjective $A$-endomorphism, one may suppose
 `(8.5.2, (i))` that there exists an `A_0`-endomorphism $f_{0} : M_{0} \to M_{0}$ such that $f = f_{0} \otimes 1_{A}$;
 finally `(8.5.7)` one may suppose $f_{0}$ to be surjective. But since `A_0` is Noetherian and `M_0` is an `A_0`-module
-of finite type, `M_0` is a Noetherian `A_0`-module, hence (Bourbaki, *Alg.*, chap. VIII, §2, nÂ° 2, lemma 3)
-$f_{0}$ is bijective, and consequently so is $f$.
+of finite type, `M_0` is a Noetherian `A_0`-module, hence (Bourbaki, *Alg.*, chap. VIII, §2, nÂ° 2, lemma 3) $f_{0}$ is
+bijective, and consequently so is $f$.
 
 **Proposition (8.9.4) ("generic flatness theorem").**
 
@@ -2054,8 +2054,7 @@ X & \xrightarrow{f} & Y
 \end{array}
 $$
 
-*is commutative, and: 1Â° $p$ is projective; 2Â° $g$ is projective and surjective; 3Â° $j$ is an
-open immersion.*
+*is commutative, and: 1Â° $p$ is projective; 2Â° $g$ is projective and surjective; 3Â° $j$ is an open immersion.*
 
 Indeed, let $A_{0} \subset A$, `X_0`, `Y_0` and $f_{0}$ be determined as in `(8.9.1)` so that `Y_0` is Noetherian and
 $f_{0}$ is of finite type; one may moreover suppose $f_{0}$ separated by `(8.10.4)`. Chow's lemma `(II, 5.6.1)` then
